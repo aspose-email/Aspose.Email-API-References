@@ -3,7 +3,7 @@ title: MapiDistributionList
 second_title: Aspose.Email for Java API Reference
 description: Represents a MAPI distribution list item.
 type: docs
-weight: 453
+weight: 456
 url: /java/com.aspose.email/mapidistributionlist/
 ---
 
@@ -113,6 +113,7 @@ Example:
 | [setRecipients(MapiRecipientCollection value)](#setRecipients-com.aspose.email.MapiRecipientCollection-) | Gets the recipients of the message. |
 | [setSensitivity(int value)](#setSensitivity-int-) | Gets the Sensitivity. |
 | [setSubject(String value)](#setSubject-java.lang.String-) | Gets or sets the subject of the message. |
+| [toMvPropertyList(Object obj)](#toMvPropertyList-java.lang.Object-) |  |
 | [toString()](#toString--) |  |
 | [tryGetPropertyData(long tag)](#tryGetPropertyData-long-) | Try to get the property data with specified tag key. |
 | [tryGetPropertyDateTime(long tag, Date[] value)](#tryGetPropertyDateTime-long-java.util.Date---) | Gets the value of the specified property as DateTime type. |
@@ -1054,6 +1055,21 @@ When setting a value, the values of SubjectPrefix(PR\_SUBJECT\_PREFIX) and Norma
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### toMvPropertyList(Object obj) {#toMvPropertyList-java.lang.Object-}
+```
+public static System.Collections.Generic.IGenericList<Object> toMvPropertyList(Object obj)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericList<java.lang.Object>
 ### toString() {#toString--}
 ```
 public String toString()

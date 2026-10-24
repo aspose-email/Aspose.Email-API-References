@@ -3,7 +3,7 @@ title: DomainValidatingEventArgs
 second_title: Aspose.Email for Java API Reference
 description: Provides data for the DomainValidating event.
 type: docs
-weight: 161
+weight: 164
 url: /java/com.aspose.email/domainvalidatingeventargs/
 ---
 

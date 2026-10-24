@@ -1,9 +1,9 @@
 ---
 title: FollowUpManager
 second_title: Aspose.Email for Java API Reference
-description: Provides the ability to set and handle follow-up Outlook flags and categories.
+description: Provides methods for managing Outlook follow-up flags categories and voting options on MAPI messages.
 type: docs
-weight: 260
+weight: 263
 url: /java/com.aspose.email/followupmanager/
 ---
 
@@ -13,7 +13,32 @@ java.lang.Object
 public class FollowUpManager
 ```
 
-Provides the ability to set and handle follow-up Outlook flags and categories. Supports the features to add and remove a flag in [MapiMessage](../../com.aspose.email/mapimessage), and mark it as completed as well.
+Provides methods for managing Outlook follow-up flags, categories, and voting options on MAPI messages. This static class enables setting and removing follow-up flags, managing categories (keywords), setting due dates and reminders, and configuring voting buttons on [MapiMessageItemBase](../../com.aspose.email/mapimessageitembase) objects.
+
+Use \#setFlag.setFlag to add follow-up flags to messages, \#setCategory.setCategory and \#removeCategory.removeCategory to manage message categories, \#markAsCompleted.markAsCompleted to mark flagged messages as completed, and \#setOptions.setOptions to configure multiple follow-up properties at once. The class works with Outlook-specific MAPI properties and is designed for use with [MapiMessage](../../com.aspose.email/mapimessage) and related message types.
+
+The following example shows how to use FollowUpManager to add follow-up flags and categories to a MAPI message.
+
+```
+
+ // Create a MapiMessage from MailMessage
+ MailMessage mailMessage = MailMessage.load("message.eml");
+ MapiMessage mapiMessage = MapiMessage.fromMailMessage(mailMessage);
+
+ // Set a follow-up flag
+ FollowUpManager.setFlag(mapiMessage, "This is a follow-up message");
+
+ // Set categories
+ FollowUpManager.setCategory(mapiMessage, "Important");
+ FollowUpManager.setCategory(mapiMessage, "Work");
+
+ // Mark as complete
+ FollowUpManager.markAsCompleted(mapiMessage);
+
+ // Save the message with follow-up information
+ mapiMessage.save("message_with_flag.msg", SaveOptions.getDefaultMsgUnicode());
+ 
+```
 ## Constructors
 
 | Constructor | Description |

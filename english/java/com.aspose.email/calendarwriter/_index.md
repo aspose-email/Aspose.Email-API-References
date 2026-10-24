@@ -3,7 +3,7 @@ title: CalendarWriter
 second_title: Aspose.Email for Java API Reference
 description: Allows write the set of Events in one ics file or stream.
 type: docs
-weight: 100
+weight: 101
 url: /java/com.aspose.email/calendarwriter/
 ---
 
@@ -21,10 +21,12 @@ Allows write the set of Events in one ics file or stream.
 
 | Constructor | Description |
 | --- | --- |
-| [CalendarWriter(String path)](#CalendarWriter-java.lang.String-) | Initializes a new instance of CalendarReader with source file and default AppointmentIcsSaveOptions. |
+| [CalendarWriter(String path)](#CalendarWriter-java.lang.String-) | Provides functionality to write events to an ICS (iCalendar) file. |
 | [CalendarWriter(System.IO.Stream stream)](#CalendarWriter-com.aspose.ms.System.IO.Stream-) | Initializes a new instance of CalendarReader with source stream and default AppointmentIcsSaveOptions. |
+| [CalendarWriter(OutputStream stream)](#CalendarWriter-java.io.OutputStream-) |  |
 | [CalendarWriter(String path, AppointmentIcsSaveOptions icsSaveOptions)](#CalendarWriter-java.lang.String-com.aspose.email.AppointmentIcsSaveOptions-) | Initializes a new instance of CalendarReader with source file and additional AppointmentIcsSaveOptions. |
 | [CalendarWriter(System.IO.Stream stream, AppointmentIcsSaveOptions icsSaveOptions)](#CalendarWriter-com.aspose.ms.System.IO.Stream-com.aspose.email.AppointmentIcsSaveOptions-) | Initializes a new instance of CalendarReader with source file and additional AppointmentIcsSaveOptions. |
+| [CalendarWriter(OutputStream stream, AppointmentIcsSaveOptions icsSaveOptions)](#CalendarWriter-java.io.OutputStream-com.aspose.email.AppointmentIcsSaveOptions-) |  |
 ## Methods
 
 | Method | Description |
@@ -47,12 +49,38 @@ public CalendarWriter(String path)
 ```
 
 
-Initializes a new instance of CalendarReader with source file and default AppointmentIcsSaveOptions.
+Provides functionality to write events to an ICS (iCalendar) file.
+
+The [CalendarWriter](../../com.aspose.email/calendarwriter) class allows creating and saving multiple calendar events, such as appointments or meetings, into an iCalendar (.ics) file. It supports writing event details like start and end times, organizer, attendees, and other information.
+
+This example demonstrates how to generate and write multiple appointments into an ICS file.
+
+```
+
+ try (CalendarWriter writer = new CalendarWriter("MultipleEvents.ics")) {
+     // Generate and write 10 appointments to the ICS file
+     for (int i = 0; i < 10; i++) {
+         Appointment app = new Appointment("The new Location",
+                 new Date(),
+                 new Date(),
+                 MailAddress.to_MailAddress("sender@domain.com"),
+                 MailAddressCollection.to_MailAddressCollection("receiver@domain.com"));
+         app.setDescription("Appointment Example " + i);
+         app.setSummary("Appointment: " + i);
+
+         // Write the appointment to the ICS file
+         writer.write(app);
+     }
+ } catch (Exception e) {
+     e.printStackTrace();
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | Path to source file. |
+| path | java.lang.String |  |
 
 ### CalendarWriter(System.IO.Stream stream) {#CalendarWriter-com.aspose.ms.System.IO.Stream-}
 ```
@@ -66,6 +94,17 @@ Initializes a new instance of CalendarReader with source stream and default Appo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | com.aspose.ms.System.IO.Stream | Source stream. |
+
+### CalendarWriter(OutputStream stream) {#CalendarWriter-java.io.OutputStream-}
+```
+public CalendarWriter(OutputStream stream)
+```
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream |  |
 
 ### CalendarWriter(String path, AppointmentIcsSaveOptions icsSaveOptions) {#CalendarWriter-java.lang.String-com.aspose.email.AppointmentIcsSaveOptions-}
 ```
@@ -94,6 +133,18 @@ Initializes a new instance of CalendarReader with source file and additional App
 | --- | --- | --- |
 | stream | com.aspose.ms.System.IO.Stream | Source stream. |
 | icsSaveOptions | [AppointmentIcsSaveOptions](../../com.aspose.email/appointmenticssaveoptions) | Additional AppointmentIcsSaveOptions. |
+
+### CalendarWriter(OutputStream stream, AppointmentIcsSaveOptions icsSaveOptions) {#CalendarWriter-java.io.OutputStream-com.aspose.email.AppointmentIcsSaveOptions-}
+```
+public CalendarWriter(OutputStream stream, AppointmentIcsSaveOptions icsSaveOptions)
+```
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream |  |
+| icsSaveOptions | [AppointmentIcsSaveOptions](../../com.aspose.email/appointmenticssaveoptions) |  |
 
 ### close() {#close--}
 ```

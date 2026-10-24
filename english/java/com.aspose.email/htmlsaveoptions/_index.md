@@ -1,9 +1,9 @@
 ---
 title: HtmlSaveOptions
 second_title: Aspose.Email for Java API Reference
-description: Allows to specify additional options when saving MailMessage to Html format.
+description: Provides options for controlling how  instances are saved to HTML format.
 type: docs
-weight: 314
+weight: 317
 url: /java/com.aspose.email/htmlsaveoptions/
 ---
 
@@ -13,7 +13,11 @@ java.lang.Object, [com.aspose.email.SaveOptions](../../com.aspose.email/saveopti
 public class HtmlSaveOptions extends HeadersFormattingOptions
 ```
 
-Allows to specify additional options when saving MailMessage to Html format.
+Provides options for controlling how [MailMessage](../../com.aspose.email/mailmessage) instances are saved to HTML format. This class allows you to customize HTML output formatting, resource rendering modes, and encoding behavior when converting email messages to HTML files.
+
+--------------------
+
+Use this class with [MailMessage.save(String,SaveOptions)](../../com.aspose.email/mailmessage\#save-String-SaveOptions-) to save messages in HTML format. The  HtmlFormatOptions ([getHtmlFormatOptions](../../com.aspose.email/htmlsaveoptions\#getHtmlFormatOptions)/[setHtmlFormatOptions(int)](../../com.aspose.email/htmlsaveoptions\#setHtmlFormatOptions-int-)) property controls HTML formatting options, while  ResourceRenderingMode ([getResourceRenderingMode](../../com.aspose.email/htmlsaveoptions\#getResourceRenderingMode)/[setResourceRenderingMode(int)](../../com.aspose.email/htmlsaveoptions\#setResourceRenderingMode-int-)) determines how embedded resources (images, attachments) are handled - either embedded directly in HTML or saved as separate files.
 ## Constructors
 
 | Constructor | Description |

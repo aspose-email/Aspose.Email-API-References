@@ -1,7 +1,7 @@
 ---
 title: BodyContentType
 second_title: Aspose.Email for Java API Reference
-description: The content type of message body.
+description: Specifies the content type format of a message body in MAPI messages.
 type: docs
 weight: 84
 url: /java/com.aspose.email/bodycontenttype/
@@ -13,7 +13,11 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class BodyContentType extends System.Enum
 ```
 
-The content type of message body.
+Specifies the content type format of a message body in MAPI messages.
+
+--------------------
+
+This enumeration is used to indicate the formatting of message body content in [MapiMessage](../../com.aspose.email/mapimessage) and related MAPI classes. The body content can be plain text, HTML, or RTF (Rich Text Format).
 ## Fields
 
 | Field | Description |

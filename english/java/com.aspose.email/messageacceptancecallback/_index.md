@@ -3,7 +3,7 @@ title: MessageAcceptanceCallback
 second_title: Aspose.Email for Java API Reference
 description: Callback function which is being called during the conversion process.
 type: docs
-weight: 512
+weight: 515
 url: /java/com.aspose.email/messageacceptancecallback/
 ---
 
@@ -71,7 +71,7 @@ public final System.IAsyncResult beginInvoke(MapiMessage mapiMessage, System.Asy
 | state | java.lang.Object |  |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult)
 ### combine(System.Delegate arg0, System.Delegate arg1) {#combine-com.aspose.ms.System.Delegate-com.aspose.ms.System.Delegate-}
 ```
 public static System.Delegate combine(System.Delegate arg0, System.Delegate arg1)

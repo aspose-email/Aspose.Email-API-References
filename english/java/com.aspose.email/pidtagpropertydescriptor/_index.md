@@ -1,9 +1,9 @@
 ---
 title: PidTagPropertyDescriptor
 second_title: Aspose.Email for Java API Reference
-description: Class contains property description information.
+description: Contains descriptive information about a MAPI tagged property.
 type: docs
-weight: 594
+weight: 598
 url: /java/com.aspose.email/pidtagpropertydescriptor/
 ---
 
@@ -13,7 +13,11 @@ java.lang.Object, [com.aspose.email.PropertyDescriptor](../../com.aspose.email/p
 public class PidTagPropertyDescriptor extends PropertyDescriptor
 ```
 
-Class contains property description information.
+Contains descriptive information about a MAPI tagged property. This class provides properties and functionality for working with properties identified by a 16-bit property ID and 16-bit property type, typically used for standard MAPI properties.
+
+--------------------
+
+This class extends [PropertyDescriptor](../../com.aspose.email/propertydescriptor) and is specifically designed for tagged properties in MAPI, where the property ID is in the range 0x0001-0x7FFF. Property IDs in the range 0x8000-0x8FFF are reserved for named properties. Use [PidLidPropertyDescriptor](../../com.aspose.email/pidlidpropertydescriptor) for working with named properties. The class provides access to the property ID, data type, and full 32-bit tag value.
 ## Constructors
 
 | Constructor | Description |

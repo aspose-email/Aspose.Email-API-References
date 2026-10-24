@@ -3,7 +3,7 @@ title: EWSClient
 second_title: Aspose.Email for Java API Reference
 description: Provides access to MS Exchange Server by using Exchange Web Services EWS.
 type: docs
-weight: 165
+weight: 168
 url: /java/com.aspose.email/ewsclient/
 ---
 
@@ -590,7 +590,7 @@ public System.Net.WebProxy getProxy()
 Gets or sets the proxy.
 
 **Returns:**
-com.aspose.ms.System.Net.WebProxy
+[WebProxy](../../com.aspose.ms.system.net/webproxy)
 ### getRootFolderEventFilter() {#getRootFolderEventFilter--}
 ```
 public int getRootFolderEventFilter()

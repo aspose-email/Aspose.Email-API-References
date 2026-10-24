@@ -3,7 +3,7 @@ title: ContactLoadFormat
 second_title: Aspose.Email for Java API Reference
 description: Enumerates contact load formats
 type: docs
-weight: 122
+weight: 123
 url: /java/com.aspose.email/contactloadformat/
 ---
 

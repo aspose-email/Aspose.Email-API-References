@@ -3,7 +3,7 @@ title: UrlCategory
 second_title: Aspose.Email for Java API Reference
 description: Represents category for a URL
 type: docs
-weight: 724
+weight: 734
 url: /java/com.aspose.email/urlcategory/
 ---
 

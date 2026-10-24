@@ -3,7 +3,7 @@ title: VCardIdentificationInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents vCard identification information
 type: docs
-weight: 742
+weight: 753
 url: /java/com.aspose.email/vcardidentificationinfo/
 ---
 
@@ -24,6 +24,7 @@ Represents vCard identification information
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAnniversary()](#getAnniversary--) | Gets or sets a contact's anniversary |
 | [getBirthday()](#getBirthday--) | Gets or sets a contact's bithday |
 | [getClass()](#getClass--) |  |
 | [getDisplayName()](#getDisplayName--) | Gets or sets a contact's display(formatted) name |
@@ -33,6 +34,7 @@ Represents vCard identification information
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setAnniversary(Date value)](#setAnniversary-java.util.Date-) | Gets or sets a contact's anniversary |
 | [setBirthday(Date value)](#setBirthday-java.util.Date-) | Gets or sets a contact's bithday |
 | [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Gets or sets a contact's display(formatted) name |
 | [setFullName(VCardFullName value)](#setFullName-com.aspose.email.VCardFullName-) | Gets or sets a contact's full name |
@@ -65,6 +67,16 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getAnniversary() {#getAnniversary--}
+```
+public final Date getAnniversary()
+```
+
+
+Gets or sets a contact's anniversary
+
+**Returns:**
+java.util.Date
 ### getBirthday() {#getBirthday--}
 ```
 public final Date getBirthday()
@@ -150,6 +162,19 @@ public final native void notifyAll()
 
 
 
+
+### setAnniversary(Date value) {#setAnniversary-java.util.Date-}
+```
+public final void setAnniversary(Date value)
+```
+
+
+Gets or sets a contact's anniversary
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date |  |
 
 ### setBirthday(Date value) {#setBirthday-java.util.Date-}
 ```

@@ -3,7 +3,7 @@ title: LoggerManager
 second_title: Aspose.Email for Java API Reference
 description: Static manager that controls the creation of loggers.
 type: docs
-weight: 376
+weight: 379
 url: /java/com.aspose.email/loggermanager/
 ---
 
@@ -180,7 +180,7 @@ Gets a logger by the specified name.
 | name | java.lang.String | The logger name. |
 
 **Returns:**
-[Logger](../../com.aspose.email/logger) - The logger.
+[Logger](../../com.aspose.email/logger) - The logger, or  null  if there is no logger with this name.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

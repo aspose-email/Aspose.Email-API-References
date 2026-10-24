@@ -3,7 +3,7 @@ title: ReferenceAttachment
 second_title: Aspose.Email for Java API Reference
 description: This class represents a reference attachment
 type: docs
-weight: 622
+weight: 627
 url: /java/com.aspose.email/referenceattachment/
 ---
 
@@ -43,6 +43,7 @@ This class represents a reference attachment
 | [getPreferredTextEncoding()](#getPreferredTextEncoding--) | Gets or sets a preferred text encoding |
 | [getProviderType()](#getProviderType--) | Specifies the provider type. |
 | [getTransferEncoding()](#getTransferEncoding--) | Gets or sets the transfer encoding. |
+| [getUniqueId()](#getUniqueId--) | Gets or sets a unique identifier for the attachment that will be constant for each application run. |
 | [getUri()](#getUri--) | Specifies the Url of the provider endpoint. |
 | [hashCode()](#hashCode--) |  |
 | [isEmbeddedMessage()](#isEmbeddedMessage--) | Gets a value indicating whether the attachment is an embedded message. |
@@ -309,6 +310,16 @@ Value: The transfer encoding.
 
 **Returns:**
 int
+### getUniqueId() {#getUniqueId--}
+```
+public final String getUniqueId()
+```
+
+
+Gets or sets a unique identifier for the attachment that will be constant for each application run.
+
+**Returns:**
+java.lang.String
 ### getUri() {#getUri--}
 ```
 public final URI getUri()

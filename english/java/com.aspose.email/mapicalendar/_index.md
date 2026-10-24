@@ -3,7 +3,7 @@ title: MapiCalendar
 second_title: Aspose.Email for Java API Reference
 description: Represents a MAPI calendar item.
 type: docs
-weight: 405
+weight: 408
 url: /java/com.aspose.email/mapicalendar/
 ---
 
@@ -74,6 +74,7 @@ Example:
 | [getNamedProperties()](#getNamedProperties--) | Gets the named properties of message. |
 | [getNamedPropertyMapping()](#getNamedPropertyMapping--) | Gets the named property mapping. |
 | [getOrganizer()](#getOrganizer--) | Gets or sets the organizer. |
+| [getProductId()](#getProductId--) | Gets or sets the id of product that created this appointment. |
 | [getProperties()](#getProperties--) | Gets the collection of properties. |
 | [getProperty(PropertyDescriptor pd)](#getProperty-com.aspose.email.PropertyDescriptor-) | Gets MAPI property by property descriptor. |
 | [getPropertyBoolean(long tag)](#getPropertyBoolean-long-) | Gets the value of the property specified by tag as Boolean type. |
@@ -134,6 +135,7 @@ Example:
 | [setMileage(String value)](#setMileage-java.lang.String-) | Contains the mileage information that is associated with an item. |
 | [setNamedPropertyMapping(MapiNamedPropertyMappingStorage value)](#setNamedPropertyMapping-com.aspose.email.MapiNamedPropertyMappingStorage-) | Sets the named property mapping. |
 | [setOrganizer(MapiElectronicAddress value)](#setOrganizer-com.aspose.email.MapiElectronicAddress-) | Gets or sets the organizer. |
+| [setProductId(String value)](#setProductId-java.lang.String-) | Gets or sets the id of product that created this appointment. |
 | [setProperty(MapiProperty value)](#setProperty-com.aspose.email.MapiProperty-) | Sets the property. |
 | [setProperty(PropertyDescriptor pd, Object value)](#setProperty-com.aspose.email.PropertyDescriptor-java.lang.Object-) | Sets MAPI property. |
 | [setRecipients(MapiRecipientCollection value)](#setRecipients-com.aspose.email.MapiRecipientCollection-) | Gets the recipients of the message. |
@@ -148,6 +150,7 @@ Example:
 | [setStateForced(int state)](#setStateForced-int-) | Sets the state of the calendar object, overriding any default behavior. |
 | [setSubject(String value)](#setSubject-java.lang.String-) | Gets or sets the subject of the message. |
 | [setUid(String value)](#setUid-java.lang.String-) | Gets the unique identifier |
+| [toMvPropertyList(Object obj)](#toMvPropertyList-java.lang.Object-) |  |
 | [toString()](#toString--) |  |
 | [tryGetPropertyData(long tag)](#tryGetPropertyData-long-) | Try to get the property data with specified tag key. |
 | [tryGetPropertyDateTime(long tag, Date[] value)](#tryGetPropertyDateTime-long-java.util.Date---) | Gets the value of the specified property as DateTime type. |
@@ -529,6 +532,16 @@ Gets or sets the organizer.
 
 **Returns:**
 [MapiElectronicAddress](../../com.aspose.email/mapielectronicaddress)
+### getProductId() {#getProductId--}
+```
+public final String getProductId()
+```
+
+
+Gets or sets the id of product that created this appointment.
+
+**Returns:**
+java.lang.String
 ### getProperties() {#getProperties--}
 ```
 public MapiPropertyCollection getProperties()
@@ -1323,6 +1336,19 @@ Gets or sets the organizer.
 | --- | --- | --- |
 | value | [MapiElectronicAddress](../../com.aspose.email/mapielectronicaddress) |  |
 
+### setProductId(String value) {#setProductId-java.lang.String-}
+```
+public final void setProductId(String value)
+```
+
+
+Gets or sets the id of product that created this appointment.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
 ### setProperty(MapiProperty value) {#setProperty-com.aspose.email.MapiProperty-}
 ```
 public void setProperty(MapiProperty value)
@@ -1520,6 +1546,21 @@ Gets the unique identifier
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### toMvPropertyList(Object obj) {#toMvPropertyList-java.lang.Object-}
+```
+public static System.Collections.Generic.IGenericList<Object> toMvPropertyList(Object obj)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericList<java.lang.Object>
 ### toString() {#toString--}
 ```
 public String toString()

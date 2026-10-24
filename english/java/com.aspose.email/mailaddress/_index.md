@@ -1,9 +1,9 @@
 ---
 title: MailAddress
 second_title: Aspose.Email for Java API Reference
-description: Represents the address of a message.
+description: Represents an email address with support for display names encoding and address parsing.
 type: docs
-weight: 382
+weight: 385
 url: /java/com.aspose.email/mailaddress/
 ---
 
@@ -16,7 +16,31 @@ java.lang.Object
 public class MailAddress implements IMailAddress
 ```
 
-Represents the address of a message.
+Represents an email address with support for display names, encoding, and address parsing. This class provides functionality for working with email addresses in email messages, including properties for the display name, user name, host, and raw address. It supports proper encoding of international characters in display names and validates email addresses against SMTP standards.
+
+The [MailAddress](../../com.aspose.email/mailaddress) class can represent both simple email addresses (e.g., "user@example.com") and addresses with display names (e.g., "John Elias <john@example.com>"). It automatically handles encoding of non-ASCII characters in display names and validates addresses to ensure they comply with SMTP standards.
+
+The following example shows how to create mail addresses with and without display names.
+
+```
+
+ // Create a simple email address
+ MailAddress address1 = new MailAddress("user@example.com");
+
+ // Create an address with display name
+ MailAddress address2 = new MailAddress("john@example.com", "John Doe");
+
+ // Create an address with encoded display name (international characters)
+ MailAddress address3 = new MailAddress("user@example.com", "\u0410\u043d\u0434\u0440\u0435\u0439 \u0418\u0432\u0430\u043d\u043e\u0432",
+         StandardCharsets.UTF_8);
+
+ // Access address properties
+ System.out.println("Address: " + address1.getAddress());
+ System.out.println("Display Name: " + address2.getDisplayName());
+ System.out.println("User: " + address2.getUser());
+ System.out.println("Host: " + address2.getHost());
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -41,14 +65,18 @@ Represents the address of a message.
 | [getOriginalAddressString()](#getOriginalAddressString--) | Gets or sets the original e-mail address string. |
 | [getParticipationStatus()](#getParticipationStatus--) | Gets or sets the participation status for the calendar user. |
 | [getUser()](#getUser--) | Gets the username. |
+| [getX500Address()](#getX500Address--) | Gets the email address in Exchange format, if it exists. |
 | [get_Item(int i)](#get-Item-int-) | Gets the element at the specified index. |
 | [hashCode()](#hashCode--) | Returns a hash code for this instance. |
+| [isX500OriginalAddressType()](#isX500OriginalAddressType--) | Indicates whether the original address is of X500 type. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAddress(String value)](#setAddress-java.lang.String-) | Gets or sets the e-mail address. |
 | [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Gets or sets a display name. |
+| [setOriginalAddressString(String value)](#setOriginalAddressString-java.lang.String-) | Gets or sets the original e-mail address string. |
 | [setParticipationStatus(int value)](#setParticipationStatus-int-) | Gets or sets the participation status for the calendar user. |
 | [toString()](#toString--) | Returns a String that represents this instance. |
+| [toX500String()](#toX500String--) | Returns a String that represents this instance in Exchange format. |
 | [to_MailAddress(MailAddressCollection addresses)](#to-MailAddress-com.aspose.email.MailAddressCollection-) | Performs an implicit conversion from [MailAddressCollection](../../com.aspose.email/mailaddresscollection) to [MailAddress](../../com.aspose.email/mailaddress). |
 | [to_MailAddress(String address)](#to-MailAddress-java.lang.String-) | Performs an implicit conversion from String to [MailAddress](../../com.aspose.email/mailaddress). |
 | [wait()](#wait--) |  |
@@ -256,6 +284,16 @@ Value: A String that contains the user name.
 
 **Returns:**
 java.lang.String
+### getX500Address() {#getX500Address--}
+```
+public final String getX500Address()
+```
+
+
+Gets the email address in Exchange format, if it exists.
+
+**Returns:**
+java.lang.String
 ### get_Item(int i) {#get-Item-int-}
 ```
 public final MailAddress get_Item(int i)
@@ -281,6 +319,16 @@ Returns a hash code for this instance.
 
 **Returns:**
 int - A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table.
+### isX500OriginalAddressType() {#isX500OriginalAddressType--}
+```
+public final boolean isX500OriginalAddressType()
+```
+
+
+Indicates whether the original address is of X500 type.
+
+**Returns:**
+boolean
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -327,6 +375,21 @@ Value: A String that contains the display name.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### setOriginalAddressString(String value) {#setOriginalAddressString-java.lang.String-}
+```
+public final void setOriginalAddressString(String value)
+```
+
+
+Gets or sets the original e-mail address string.
+
+Value: A String that contains the original e-mail address.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
 ### setParticipationStatus(int value) {#setParticipationStatus-int-}
 ```
 public final void setParticipationStatus(int value)
@@ -350,6 +413,16 @@ Returns a String that represents this instance.
 
 **Returns:**
 java.lang.String - A String that represents this instance.
+### toX500String() {#toX500String--}
+```
+public String toX500String()
+```
+
+
+Returns a String that represents this instance in Exchange format.
+
+**Returns:**
+java.lang.String - A String that represents this instance in Exchange format.
 ### to_MailAddress(MailAddressCollection addresses) {#to-MailAddress-com.aspose.email.MailAddressCollection-}
 ```
 public static MailAddress to_MailAddress(MailAddressCollection addresses)

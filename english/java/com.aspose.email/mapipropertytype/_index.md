@@ -3,7 +3,7 @@ title: MapiPropertyType
 second_title: Aspose.Email for Java API Reference
 description: Represents the data type of MapiProperty data.
 type: docs
-weight: 483
+weight: 486
 url: /java/com.aspose.email/mapipropertytype/
 ---
 

@@ -3,7 +3,7 @@ title: LocaleOptions
 second_title: Aspose.Email for Java API Reference
 description: LocaleOptions type specifies locale configuration for Aspose.Email.
 type: docs
-weight: 372
+weight: 375
 url: /java/com.aspose.email/localeoptions/
 ---
 

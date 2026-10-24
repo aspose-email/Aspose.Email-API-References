@@ -1,7 +1,7 @@
 ---
 title: AppointmentIcsSaveOptions
 second_title: Aspose.Email for Java API Reference
-description: Represents iCalendar save options
+description: Represents options for saving an appointment or meeting to an ICS iCalendar file.
 type: docs
 weight: 39
 url: /java/com.aspose.email/appointmenticssaveoptions/
@@ -13,7 +13,35 @@ java.lang.Object, [com.aspose.email.AppointmentSaveOptions](../../com.aspose.ema
 public final class AppointmentIcsSaveOptions extends AppointmentSaveOptions
 ```
 
-Represents iCalendar save options
+Represents options for saving an appointment or meeting to an ICS (iCalendar) file.
+
+The [AppointmentIcsSaveOptions](../../com.aspose.email/appointmenticssaveoptions) class allows specifying various settings for controlling how appointments or meetings are saved to an iCalendar file. These options include setting the creation mode, specifying the method type, product identifier, and action to be taken when saving the file.
+
+This example demonstrates how to create and save a meeting to an ICS file using [AppointmentIcsSaveOptions](../../com.aspose.email/appointmenticssaveoptions).
+
+```
+
+ // Create a new appointment for a meeting
+ Appointment meeting = new Appointment(
+         "Meeting Room 3 at Office Headquarters",                          // Location
+         "Monthly Meeting",                                                // Summary
+         "Please confirm your availability.",                             // Description
+         new GregorianCalendar(2015, java.util.Calendar.FEBRUARY, 8, 13, 0, 0).getTime(), // Start date
+         new GregorianCalendar(2015, java.util.Calendar.FEBRUARY, 8, 14, 0, 0).getTime(), // End date
+         MailAddress.to_MailAddress("from@domain.com"),                                                // Organizer
+         MailAddressCollection.to_MailAddressCollection("attendees@domain.com"));                                          // Attendees
+
+ // Set the save options for ICS file
+ AppointmentIcsSaveOptions saveOptions = new AppointmentIcsSaveOptions();
+ saveOptions.setCreateNew(true);
+ saveOptions.setMethodType(AppointmentMethodType.Add);
+ saveOptions.setProductId("Aspose.Email");
+ saveOptions.setAction(AppointmentAction.Create);
+
+ // Save the meeting to an ICS file
+ meeting.save("meeting.ics", saveOptions);
+ 
+```
 ## Constructors
 
 | Constructor | Description |

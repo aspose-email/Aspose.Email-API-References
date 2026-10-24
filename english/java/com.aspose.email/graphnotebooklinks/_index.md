@@ -3,7 +3,7 @@ title: GraphNotebookLinks
 second_title: Aspose.Email for Java API Reference
 description: ... Links for opening a OneNote notebook.
 type: docs
-weight: 297
+weight: 300
 url: /java/com.aspose.email/graphnotebooklinks/
 ---
 

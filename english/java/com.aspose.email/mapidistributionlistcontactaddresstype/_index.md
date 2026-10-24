@@ -3,7 +3,7 @@ title: MapiDistributionListContactAddressType
 second_title: Aspose.Email for Java API Reference
 description: Represents the address type of  a personal distribution list member.
 type: docs
-weight: 454
+weight: 457
 url: /java/com.aspose.email/mapidistributionlistcontactaddresstype/
 ---
 

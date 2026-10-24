@@ -3,7 +3,7 @@ title: IExchangeClientBase
 second_title: Aspose.Email for Java API Reference
 description: Represents the interface for base Exchange clients.
 type: docs
-weight: 778
+weight: 790
 url: /java/com.aspose.email/iexchangeclientbase/
 ---
 
@@ -52,7 +52,7 @@ public abstract System.Net.WebProxy getProxy()
 Gets or sets the proxy.
 
 **Returns:**
-com.aspose.ms.System.Net.WebProxy
+[WebProxy](../../com.aspose.ms.system.net/webproxy)
 ### getTimeout() {#getTimeout--}
 ```
 public abstract int getTimeout()

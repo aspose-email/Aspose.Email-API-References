@@ -3,7 +3,7 @@ title: MapiContactPhotoImageFormat
 second_title: Aspose.Email for Java API Reference
 description: Enumerates MapiContact photo image format.
 type: docs
-weight: 445
+weight: 448
 url: /java/com.aspose.email/mapicontactphotoimageformat/
 ---
 
@@ -22,6 +22,7 @@ Enumerates MapiContact photo image format.
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
 | [Gif](#Gif) | Graphics interchange format. |
 | [Jpeg](#Jpeg) | Jpeg format |
+| [Png](#Png) | Portable network graphics format. |
 | [Tiff](#Tiff) | Tagged image file format. |
 | [Undefined](#Undefined) | Undefined format. |
 | [Wmf](#Wmf) | MS windows metafile. |
@@ -93,6 +94,14 @@ public static final int Jpeg
 
 
 Jpeg format
+
+### Png {#Png}
+```
+public static final int Png
+```
+
+
+Portable network graphics format.
 
 ### Tiff {#Tiff}
 ```

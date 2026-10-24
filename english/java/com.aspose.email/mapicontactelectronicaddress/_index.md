@@ -1,9 +1,9 @@
 ---
 title: MapiContactElectronicAddress
 second_title: Aspose.Email for Java API Reference
-description: Refers to the group of properties that  define the e-mail address or fax address for a contact.
+description: Represents a group of properties that define an electronic address email or fax for a contact.
 type: docs
-weight: 437
+weight: 440
 url: /java/com.aspose.email/mapicontactelectronicaddress/
 ---
 
@@ -13,7 +13,11 @@ java.lang.Object, [com.aspose.email.MapiContactAddress](../../com.aspose.email/m
 public final class MapiContactElectronicAddress extends MapiContactAddress
 ```
 
-Refers to the group of properties that define the e-mail address or fax address for a contact.
+Represents a group of properties that define an electronic address (email or fax) for a contact. This class provides functionality for managing contact email addresses and fax numbers through properties such as display name, address type, email address, and fax number.
+
+--------------------
+
+Use this class to manage electronic addresses in [MapiContact](../../com.aspose.email/mapicontact) items. The class supports both email addresses and fax numbers, with properties like  DisplayName ([getDisplayName](../../com.aspose.email/mapicontactelectronicaddress\#getDisplayName)/[setDisplayName(String)](../../com.aspose.email/mapicontactelectronicaddress\#setDisplayName-String-)),  AddressType ([getAddressType](../../com.aspose.email/mapicontactelectronicaddress\#getAddressType)/[setAddressType(String)](../../com.aspose.email/mapicontactelectronicaddress\#setAddressType-String-)),  EmailAddress ([getEmailAddress](../../com.aspose.email/mapicontactelectronicaddress\#getEmailAddress)/[setEmailAddress(String)](../../com.aspose.email/mapicontactelectronicaddress\#setEmailAddress-String-)), and  FaxNumber ([getFaxNumber](../../com.aspose.email/mapicontactelectronicaddress\#getFaxNumber)/[setFaxNumber(String)](../../com.aspose.email/mapicontactelectronicaddress\#setFaxNumber-String-)). It also supports implicit conversion from string for convenient email address assignment.
 ## Constructors
 
 | Constructor | Description |

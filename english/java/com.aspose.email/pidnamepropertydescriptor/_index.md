@@ -1,9 +1,9 @@
 ---
 title: PidNamePropertyDescriptor
 second_title: Aspose.Email for Java API Reference
-description: Class contains property description information.
+description: Contains descriptive information about a MAPI named property identified by a string name.
 type: docs
-weight: 593
+weight: 597
 url: /java/com.aspose.email/pidnamepropertydescriptor/
 ---
 
@@ -13,7 +13,11 @@ java.lang.Object, [com.aspose.email.PropertyDescriptor](../../com.aspose.email/p
 public class PidNamePropertyDescriptor extends PropertyDescriptor
 ```
 
-Class contains property description information.
+Contains descriptive information about a MAPI named property identified by a string name. This class provides properties and functionality for working with properties identified by a string name combined with a property set GUID, typically used for custom or non-standard MAPI properties with string-based identifiers.
+
+--------------------
+
+This class extends [PropertyDescriptor](../../com.aspose.email/propertydescriptor) and is specifically designed for named properties in MAPI that use string names instead of numeric IDs. Properties are identified by a combination of a string name and a GUID property set (e.g., "Keywords" in PSETID.Address). Use [PidTagPropertyDescriptor](../../com.aspose.email/pidtagpropertydescriptor) for standard tagged properties and [PidLidPropertyDescriptor](../../com.aspose.email/pidlidpropertydescriptor) for named properties with numeric long IDs. The class provides access to the property name, property set GUID, and data type.
 ## Constructors
 
 | Constructor | Description |

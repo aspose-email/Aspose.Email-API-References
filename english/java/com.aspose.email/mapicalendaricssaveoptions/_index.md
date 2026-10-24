@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarIcsSaveOptions
 second_title: Aspose.Email for Java API Reference
-description: 
+description: Provides options for controlling how  instances are saved to iCalendar ICS format.
 type: docs
-weight: 414
+weight: 417
 url: /java/com.aspose.email/mapicalendaricssaveoptions/
 ---
 
@@ -12,6 +12,12 @@ java.lang.Object, [com.aspose.email.MapiCalendarSaveOptions](../../com.aspose.em
 ```
 public class MapiCalendarIcsSaveOptions extends MapiCalendarSaveOptions
 ```
+
+Provides options for controlling how [MapiCalendar](../../com.aspose.email/mapicalendar) instances are saved to iCalendar (ICS) format. This class extends [MapiCalendarSaveOptions](../../com.aspose.email/mapicalendarsaveoptions) and adds iCalendar-specific configuration options for date/time handling and product identification.
+
+--------------------
+
+Use this class with [MapiCalendar.save(String,MapiCalendarSaveOptions)](../../com.aspose.email/mapicalendar\#save-String-MapiCalendarSaveOptions-) to save calendar items in iCalendar format. The  KeepOriginalDateTimeStamp ([getKeepOriginalDateTimeStamp](../../com.aspose.email/mapicalendaricssaveoptions\#getKeepOriginalDateTimeStamp)/[setKeepOriginalDateTimeStamp(boolean)](../../com.aspose.email/mapicalendaricssaveoptions\#setKeepOriginalDateTimeStamp-boolean-)) property controls whether original date/time stamps are preserved, and  ProductIdentifier ([MapiCalendarSaveOptions.getProductIdentifier](../../com.aspose.email/mapicalendarsaveoptions\#getProductIdentifier)/[MapiCalendarSaveOptions.setProductIdentifier(String)](../../com.aspose.email/mapicalendarsaveoptions\#setProductIdentifier-String-)) allows you to specify the product identifier for the generated iCalendar object.
 ## Constructors
 
 | Constructor | Description |
@@ -26,13 +32,13 @@ public class MapiCalendarIcsSaveOptions extends MapiCalendarSaveOptions
 | [getClass()](#getClass--) |  |
 | [getDefaultIcs()](#getDefaultIcs--) | Gets the default Ics save options. |
 | [getDefaultMsg()](#getDefaultMsg--) | Gets the default Msg save options. |
-| [getKeepOriginalDateTimeStamp()](#getKeepOriginalDateTimeStamp--) |  |
+| [getKeepOriginalDateTimeStamp()](#getKeepOriginalDateTimeStamp--) | Gets or sets a value indicating whether to keep the original date and time stamps when saving to iCalendar format. |
 | [getProductIdentifier()](#getProductIdentifier--) | Gets or sets the product identifier. |
 | [getSaveFormat()](#getSaveFormat--) | Gets a save format. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setKeepOriginalDateTimeStamp(boolean value)](#setKeepOriginalDateTimeStamp-boolean-) |  |
+| [setKeepOriginalDateTimeStamp(boolean value)](#setKeepOriginalDateTimeStamp-boolean-) | Gets or sets a value indicating whether to keep the original date and time stamps when saving to iCalendar format. |
 | [setProductIdentifier(String value)](#setProductIdentifier-java.lang.String-) | Gets or sets the product identifier. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -112,7 +118,9 @@ public final boolean getKeepOriginalDateTimeStamp()
 ```
 
 
+Gets or sets a value indicating whether to keep the original date and time stamps when saving to iCalendar format. When set to true, the original timestamp information is preserved in the output ICS file.
 
+Value:  true  to keep original date/time stamps; otherwise,  false . The default value is  false .
 
 **Returns:**
 boolean
@@ -174,7 +182,9 @@ public final void setKeepOriginalDateTimeStamp(boolean value)
 ```
 
 
+Gets or sets a value indicating whether to keep the original date and time stamps when saving to iCalendar format. When set to true, the original timestamp information is preserved in the output ICS file.
 
+Value:  true  to keep original date/time stamps; otherwise,  false . The default value is  false .
 
 **Parameters:**
 | Parameter | Type | Description |

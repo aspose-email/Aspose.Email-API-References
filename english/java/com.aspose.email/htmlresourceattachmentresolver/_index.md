@@ -3,7 +3,7 @@ title: HtmlResourceAttachmentResolver
 second_title: Aspose.Email for Java API Reference
 description: 
 type: docs
-weight: 313
+weight: 316
 url: /java/com.aspose.email/htmlresourceattachmentresolver/
 ---
 

@@ -32,7 +32,7 @@ The amp-form extension allows you to create forms to submit input fields in an A
 | [getFieldset()](#getFieldset--) | List of fields. |
 | [getMethod()](#getMethod--) | The method attribute tells the server about the request method. |
 | [getPlaceholder()](#getPlaceholder--) | The element marked with the placeholder attribute acts as a placeholder for the parent AMP element. |
-| [getRequiredScript()](#getRequiredScript--) | Required script that muct be added to head section. |
+| [getRequiredScript()](#getRequiredScript--) | Required script that must be added to head section. |
 | [getTarget()](#getTarget--) | Indicates where to display the form response after submitting the form.The value must be \_blank or \_top. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -76,7 +76,7 @@ public final String getAction()
 ```
 
 
-Specifies a server endpoint to handle the form input. The value must be an https URL (absolute or relative) and must not be a link to a CDN
+Specifies a server endpoint to handle the form input. The value must be a https URL (absolute or relative) and must not be a link to a CDN
 
 **Returns:**
 java.lang.String
@@ -156,7 +156,7 @@ public String getRequiredScript()
 ```
 
 
-Required script that muct be added to head section.
+Required script that must be added to head section.
 
 **Returns:**
 java.lang.String
@@ -202,7 +202,7 @@ public final void setAction(String value)
 ```
 
 
-Specifies a server endpoint to handle the form input. The value must be an https URL (absolute or relative) and must not be a link to a CDN
+Specifies a server endpoint to handle the form input. The value must be a https URL (absolute or relative) and must not be a link to a CDN
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -283,7 +283,7 @@ public String toAmpHtml()
 Represents amp html version of component.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toHtml() {#toHtml--}
 ```
 public String toHtml()
@@ -293,7 +293,7 @@ public String toHtml()
 Represents html version of component.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toString() {#toString--}
 ```
 public String toString()

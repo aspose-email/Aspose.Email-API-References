@@ -3,7 +3,7 @@ title: TraversalExceptionsCallback
 second_title: Aspose.Email for Java API Reference
 description: Represents the callback method that handles the exceptions during storage traversal.
 type: docs
-weight: 718
+weight: 728
 url: /java/com.aspose.email/traversalexceptionscallback/
 ---
 
@@ -72,7 +72,7 @@ public final System.IAsyncResult beginInvoke(TraversalAsposeException exception,
 | state | java.lang.Object |  |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult)
 ### combine(System.Delegate arg0, System.Delegate arg1) {#combine-com.aspose.ms.System.Delegate-com.aspose.ms.System.Delegate-}
 ```
 public static System.Delegate combine(System.Delegate arg0, System.Delegate arg1)

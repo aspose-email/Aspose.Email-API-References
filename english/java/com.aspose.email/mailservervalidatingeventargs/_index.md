@@ -3,7 +3,7 @@ title: MailServerValidatingEventArgs
 second_title: Aspose.Email for Java API Reference
 description: Provides data for the MailServerValidatingEvent event.
 type: docs
-weight: 392
+weight: 395
 url: /java/com.aspose.email/mailservervalidatingeventargs/
 ---
 

@@ -3,7 +3,7 @@ title: ContactPhoto
 second_title: Aspose.Email for Java API Reference
 description: Represents contact photo.
 type: docs
-weight: 123
+weight: 124
 url: /java/com.aspose.email/contactphoto/
 ---
 

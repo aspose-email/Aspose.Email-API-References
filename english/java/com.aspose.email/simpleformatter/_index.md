@@ -3,7 +3,7 @@ title: SimpleFormatter
 second_title: Aspose.Email for Java API Reference
 description: Represents the default implementation of IFormatter interface.
 type: docs
-weight: 669
+weight: 674
 url: /java/com.aspose.email/simpleformatter/
 ---
 
@@ -106,7 +106,7 @@ Formats a datetime and return a string to be outputted.
 | datatime | java.util.Date | The datetime value for formatting to string |
 
 **Returns:**
-java.lang.String
+java.lang.String - String representing the date and time.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

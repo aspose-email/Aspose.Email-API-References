@@ -3,7 +3,7 @@ title: DateCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection of java.util.Date values.
 type: docs
-weight: 144
+weight: 145
 url: /java/com.aspose.email/datecollection/
 ---
 
@@ -21,7 +21,6 @@ Represents a collection of java.util.Date values.
 | Method | Description |
 | --- | --- |
 | [addItem(T arg0)](#addItem-T-) |  |
-| [addRange(System.Collections.ObjectModel.Collection c)](#addRange-com.aspose.ms.System.Collections.ObjectModel.Collection-) | Adds the elements of an System.Collections.ICollection to the end of exiting collection. |
 | [addRange(Iterable c)](#addRange-java.lang.Iterable-) | Adds the elements of an System.Collections.ICollection to the end of exiting collection. |
 | [add_Item(Date value)](#add-Item-java.util.Date-) | Adds the element to the end of exiting collection. |
 | [clear()](#clear--) |  |
@@ -64,19 +63,6 @@ public void addItem(T arg0)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | T |  |
-
-### addRange(System.Collections.ObjectModel.Collection c) {#addRange-com.aspose.ms.System.Collections.ObjectModel.Collection-}
-```
-public void addRange(System.Collections.ObjectModel.Collection c)
-```
-
-
-Adds the elements of an System.Collections.ICollection to the end of exiting collection.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| c | com.aspose.ms.System.Collections.ObjectModel.Collection | The ICollection whose elements should be added to the end of this collection. |
 
 ### addRange(Iterable c) {#addRange-java.lang.Iterable-}
 ```

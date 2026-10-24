@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarRecurrenceCalendarType
 second_title: Aspose.Email for Java API Reference
-description: Enumerated the calendar type of the mapi recurrence
+description: Specifies the calendar type used for MAPI calendar recurrence patterns.
 type: docs
-weight: 419
+weight: 422
 url: /java/com.aspose.email/mapicalendarrecurrencecalendartype/
 ---
 
@@ -13,7 +13,11 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiCalendarRecurrenceCalendarType extends System.Enum
 ```
 
-Enumerated the calendar type of the mapi recurrence
+Specifies the calendar type used for MAPI calendar recurrence patterns. This enumeration supports multiple calendar systems including Gregorian, Hijri, Hebrew, lunar, and various regional calendars used around the world.
+
+--------------------
+
+This enumeration defines the calendar system that should be used when calculating recurring calendar events. The [Default](../../com.aspose.email/mapicalendarrecurrencecalendartype\#Default) value uses the Gregorian calendar, but can be overridden to use other calendar systems such as Hijri (Islamic), Hebrew, Chinese lunar, Japanese Emperor Era, or various other regional calendars. The calendar type is used in conjunction with [MapiCalendarRecurrencePatternType](../../com.aspose.email/mapicalendarrecurrencepatterntype) to determine the recurrence behavior for [MapiCalendar](../../com.aspose.email/mapicalendar) items.
 ## Fields
 
 | Field | Description |

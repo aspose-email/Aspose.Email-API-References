@@ -3,7 +3,7 @@ title: FolderCreationOptions
 second_title: Aspose.Email for Java API Reference
 description: Represents the options for creating  a subfolder in the Outlook PST message store.
 type: docs
-weight: 256
+weight: 259
 url: /java/com.aspose.email/foldercreationoptions/
 ---
 
@@ -106,7 +106,7 @@ Value:  true  if a difference in name casing should be allowed when comparing fo
 
 --------------------
 
-If a folder with the same name already exists when adding a new folder and  AllowNameCaseDifference (\#getAllowNameCaseDifference.getAllowNameCaseDifference/\#setAllowNameCaseDifference(boolean).setAllowNameCaseDifference(boolean)) is set to  true , the folder names will be treated as different even if the casing differs. In this case, no exception will be thrown, and the folder will be added. When  AllowNameCaseDifference (\#getAllowNameCaseDifference.getAllowNameCaseDifference/\#setAllowNameCaseDifference(boolean).setAllowNameCaseDifference(boolean)) is set to  false , the comparison will be case-insensitive, and the folder creation operation will consider folders with the same name but different casing as duplicates, throwing an InvalidOperationException to indicate that a folder with the specified name already exists.
+If a folder with the same name already exists when adding a new folder and  AllowNameCaseDifference (\#getAllowNameCaseDifference.getAllowNameCaseDifference/\#setAllowNameCaseDifference(boolean).setAllowNameCaseDifference(boolean)) is set to  true , the folder names will be treated as different even if the casing differs. In this case, no exception will be thrown, and the folder will be added. When  AllowNameCaseDifference (\#getAllowNameCaseDifference.getAllowNameCaseDifference/\#setAllowNameCaseDifference(boolean).setAllowNameCaseDifference(boolean)) is set to  false , the comparison will be case-insensitive, and the folder creation operation will consider folders with the same name but different casing as duplicates, throwing an [InvalidOperationException](../../com.aspose.email.services.ews.core.exception.misc/invalidoperationexception) to indicate that a folder with the specified name already exists.
 
 **Returns:**
 boolean
@@ -204,7 +204,7 @@ Value:  true  if a difference in name casing should be allowed when comparing fo
 
 --------------------
 
-If a folder with the same name already exists when adding a new folder and  AllowNameCaseDifference (\#getAllowNameCaseDifference.getAllowNameCaseDifference/\#setAllowNameCaseDifference(boolean).setAllowNameCaseDifference(boolean)) is set to  true , the folder names will be treated as different even if the casing differs. In this case, no exception will be thrown, and the folder will be added. When  AllowNameCaseDifference (\#getAllowNameCaseDifference.getAllowNameCaseDifference/\#setAllowNameCaseDifference(boolean).setAllowNameCaseDifference(boolean)) is set to  false , the comparison will be case-insensitive, and the folder creation operation will consider folders with the same name but different casing as duplicates, throwing an InvalidOperationException to indicate that a folder with the specified name already exists.
+If a folder with the same name already exists when adding a new folder and  AllowNameCaseDifference (\#getAllowNameCaseDifference.getAllowNameCaseDifference/\#setAllowNameCaseDifference(boolean).setAllowNameCaseDifference(boolean)) is set to  true , the folder names will be treated as different even if the casing differs. In this case, no exception will be thrown, and the folder will be added. When  AllowNameCaseDifference (\#getAllowNameCaseDifference.getAllowNameCaseDifference/\#setAllowNameCaseDifference(boolean).setAllowNameCaseDifference(boolean)) is set to  false , the comparison will be case-insensitive, and the folder creation operation will consider folders with the same name but different casing as duplicates, throwing an [InvalidOperationException](../../com.aspose.email.services.ews.core.exception.misc/invalidoperationexception) to indicate that a folder with the specified name already exists.
 
 **Parameters:**
 | Parameter | Type | Description |

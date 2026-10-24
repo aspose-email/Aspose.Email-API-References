@@ -3,7 +3,7 @@ title: EmailAddress
 second_title: Aspose.Email for Java API Reference
 description: Represents an email address
 type: docs
-weight: 167
+weight: 170
 url: /java/com.aspose.email/emailaddress/
 ---
 
@@ -44,9 +44,11 @@ Represents an email address
 | [getPrefered()](#getPrefered--) | Gets or sets a value which defines whether email address is preferred. |
 | [getRoutingType()](#getRoutingType--) | Gets or sets a routing type for an email |
 | [getUser()](#getUser--) | Gets the username. |
+| [getX500Address()](#getX500Address--) | Gets the email address in Exchange format, if it exists. |
 | [get_Item(int i)](#get-Item-int-) | Gets the element at the specified index. |
 | [hashCode()](#hashCode--) | GetHashCode returns a hash function for this object. |
 | [hashCode(EmailAddress obj)](#hashCode-com.aspose.email.EmailAddress-) | GetHashCode returns a hash function for specified object. |
+| [isX500OriginalAddressType()](#isX500OriginalAddressType--) | Indicates whether the original address is of X500 type. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [op_Equality(EmailAddress a, EmailAddress b)](#op-Equality-com.aspose.email.EmailAddress-com.aspose.email.EmailAddress-) | Determines whether the specified objects are equal. |
@@ -54,10 +56,12 @@ Represents an email address
 | [setAddress(String value)](#setAddress-java.lang.String-) | Gets or sets the e-mail address. |
 | [setCategory(EmailAddressCategory value)](#setCategory-com.aspose.email.EmailAddressCategory-) | Gets or sets an object category |
 | [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Gets or sets a display name. |
+| [setOriginalAddressString(String value)](#setOriginalAddressString-java.lang.String-) | Gets or sets the original e-mail address string. |
 | [setParticipationStatus(int value)](#setParticipationStatus-int-) | Gets or sets the participation status for the calendar user. |
 | [setPrefered(boolean value)](#setPrefered-boolean-) | Gets or sets a value which defines whether email address is preferred. |
 | [setRoutingType(String value)](#setRoutingType-java.lang.String-) | Gets or sets a routing type for an email |
 | [toString()](#toString--) | Returns a string that represents the current object. |
+| [toX500String()](#toX500String--) | Returns a String that represents this instance in Exchange format. |
 | [to_MailAddress(MailAddressCollection addresses)](#to-MailAddress-com.aspose.email.MailAddressCollection-) | Performs an implicit conversion from [MailAddressCollection](../../com.aspose.email/mailaddresscollection) to [MailAddress](../../com.aspose.email/mailaddress). |
 | [to_MailAddress(String address)](#to-MailAddress-java.lang.String-) | Performs an implicit conversion from String to [MailAddress](../../com.aspose.email/mailaddress). |
 | [wait()](#wait--) |  |
@@ -289,6 +293,16 @@ Value: A String that contains the user name.
 
 **Returns:**
 java.lang.String
+### getX500Address() {#getX500Address--}
+```
+public final String getX500Address()
+```
+
+
+Gets the email address in Exchange format, if it exists.
+
+**Returns:**
+java.lang.String
 ### get_Item(int i) {#get-Item-int-}
 ```
 public final MailAddress get_Item(int i)
@@ -329,6 +343,16 @@ GetHashCode returns a hash function for specified object.
 
 **Returns:**
 int - Returns a hash function for specified object.
+### isX500OriginalAddressType() {#isX500OriginalAddressType--}
+```
+public final boolean isX500OriginalAddressType()
+```
+
+
+Indicates whether the original address is of X500 type.
+
+**Returns:**
+boolean
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -420,6 +444,21 @@ Value: A String that contains the display name.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### setOriginalAddressString(String value) {#setOriginalAddressString-java.lang.String-}
+```
+public final void setOriginalAddressString(String value)
+```
+
+
+Gets or sets the original e-mail address string.
+
+Value: A String that contains the original e-mail address.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
 ### setParticipationStatus(int value) {#setParticipationStatus-int-}
 ```
 public final void setParticipationStatus(int value)
@@ -469,6 +508,16 @@ Returns a string that represents the current object.
 
 **Returns:**
 java.lang.String - Returns a string that represents the current object.
+### toX500String() {#toX500String--}
+```
+public String toX500String()
+```
+
+
+Returns a String that represents this instance in Exchange format.
+
+**Returns:**
+java.lang.String - A String that represents this instance in Exchange format.
 ### to_MailAddress(MailAddressCollection addresses) {#to-MailAddress-com.aspose.email.MailAddressCollection-}
 ```
 public static MailAddress to_MailAddress(MailAddressCollection addresses)

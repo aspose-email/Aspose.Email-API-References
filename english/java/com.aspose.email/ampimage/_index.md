@@ -27,7 +27,7 @@ public class AmpImage extends AmpComponent
 | [getClass()](#getClass--) |  |
 | [getFallback()](#getFallback--) | A fallback is a convention that allows the element to communicate to the reader that the browser does not support the element. |
 | [getPlaceholder()](#getPlaceholder--) | The element marked with the placeholder attribute acts as a placeholder for the parent AMP element. |
-| [getRequiredScript()](#getRequiredScript--) | Required script that muct be added to head section. |
+| [getRequiredScript()](#getRequiredScript--) | Required script that must be added to head section. |
 | [getSrc()](#getSrc--) | Similar to the src attribute on the img tag. |
 | [hashCode()](#hashCode--) |  |
 | [isValid()](#isValid--) | Indicates whether this image is valid of AmpImage. |
@@ -128,7 +128,7 @@ public String getRequiredScript()
 ```
 
 
-Required script that muct be added to head section.
+Required script that must be added to head section.
 
 **Returns:**
 java.lang.String
@@ -239,7 +239,7 @@ public String toAmpHtml()
 Represents amp html version of component.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toHtml() {#toHtml--}
 ```
 public String toHtml()
@@ -249,7 +249,7 @@ public String toHtml()
 Represents html version of component.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toString() {#toString--}
 ```
 public String toString()

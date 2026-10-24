@@ -3,7 +3,7 @@ title: EmailAddressCategory
 second_title: Aspose.Email for Java API Reference
 description: Represents category for an email address
 type: docs
-weight: 168
+weight: 171
 url: /java/com.aspose.email/emailaddresscategory/
 ---
 

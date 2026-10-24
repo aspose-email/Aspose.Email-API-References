@@ -3,7 +3,7 @@ title: SmtpFailedRecipientsException
 second_title: Aspose.Email for Java API Reference
 description: Summary description for SmtpFailedRecipientsException.
 type: docs
-weight: 678
+weight: 683
 url: /java/com.aspose.email/smtpfailedrecipientsexception/
 ---
 

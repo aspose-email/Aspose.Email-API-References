@@ -3,7 +3,7 @@ title: UserReaction
 second_title: Aspose.Email for Java API Reference
 description: Represents a users reaction.
 type: docs
-weight: 728
+weight: 738
 url: /java/com.aspose.email/userreaction/
 ---
 

@@ -3,7 +3,7 @@ title: ContactSaveFormat
 second_title: Aspose.Email for Java API Reference
 description: Enumerates contact save formats
 type: docs
-weight: 125
+weight: 126
 url: /java/com.aspose.email/contactsaveformat/
 ---
 

@@ -20,7 +20,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [AclScope](../com.aspose.email/aclscope) | The scope of the access rule. |
 | [AclScopeType](../com.aspose.email/aclscopetype) | The type of the ACL scope. |
 | [AllowedConferenceSolutionTypes](../com.aspose.email/allowedconferencesolutiontypes) | The types of conference solutions that are supported for this calendar. |
-| [AlternateView](../com.aspose.email/alternateview) | Represents the format to view a message. |
+| [AlternateView](../com.aspose.email/alternateview) | Represents an alternative format view of an email message, such as plain text or HTML versions. |
 | [AlternateViewCollection](../com.aspose.email/alternateviewcollection) | Represents a collection of AlternateView objects. |
 | [AlternateViewRemovedEventArgs](../com.aspose.email/alternateviewremovedeventargs) | Provides data for the [AlternateViewCollection.\#AlternateViewRemovedDelegate](../com.aspose.email/alternateviewcollection\#AlternateViewRemovedDelegate) event. |
 | [AmpAccordion](../com.aspose.email/ampaccordion) | A UI element that facilitates showing/hiding different sections. |
@@ -44,10 +44,10 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [AppointmentCollection](../com.aspose.email/appointmentcollection) | Represents a collection of Appointment objects. |
 | [AppointmentFlags](../com.aspose.email/appointmentflags) | Enumerates appointment flags. |
 | [AppointmentFormattingOptions](../com.aspose.email/appointmentformattingoptions) | Represents the appointment formatting options. |
-| [AppointmentIcsSaveOptions](../com.aspose.email/appointmenticssaveoptions) | Represents iCalendar save options |
-| [AppointmentLoadOptions](../com.aspose.email/appointmentloadoptions) | Represents appointment load options |
+| [AppointmentIcsSaveOptions](../com.aspose.email/appointmenticssaveoptions) | Represents options for saving an appointment or meeting to an ICS (iCalendar) file. |
+| [AppointmentLoadOptions](../com.aspose.email/appointmentloadoptions) | Represents options for loading an appointment from an ICS (iCalendar) file. |
 | [AppointmentMethodType](../com.aspose.email/appointmentmethodtype) | Defines the iCalendar object method type associated with the calendar object. |
-| [AppointmentMsgSaveOptions](../com.aspose.email/appointmentmsgsaveoptions) | Represents iCalendar save options |
+| [AppointmentMsgSaveOptions](../com.aspose.email/appointmentmsgsaveoptions) | Represents options for saving an appointment or calendar event to a message format. |
 | [AppointmentPageInfo](../com.aspose.email/appointmentpageinfo) | Contains information about retrieved page when paging methods are used. |
 | [AppointmentQueryBuilder](../com.aspose.email/appointmentquerybuilder) | Represents the builder of search expression that used by Exchange protocol. |
 | [AppointmentReminder](../com.aspose.email/appointmentreminder) | Provides a grouping of component properties that define an alarm. |
@@ -71,8 +71,8 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [AssociatedPersonsList](../com.aspose.email/associatedpersonslist) | List of associated persons for a contact |
 | [AsyncCommandResultEventArgs](../com.aspose.email/asynccommandresulteventargs) | [AsyncCommandResultEventArgs](../com.aspose.email/asynccommandresulteventargs) is containing event data. |
 | [AsyncCommandResults](../com.aspose.email/asynccommandresults) | The result of asynchronous command. |
-| [Attachment](../com.aspose.email/attachment) | Represents an e-mail attachment. |
-| [AttachmentBase](../com.aspose.email/attachmentbase) | Base class for mail attachment. |
+| [Attachment](../com.aspose.email/attachment) | Represents an email attachment that can be added to a [MailMessage](../com.aspose.email/mailmessage). |
+| [AttachmentBase](../com.aspose.email/attachmentbase) | Provides the base class for mail attachments and inline views. |
 | [AttachmentCollection](../com.aspose.email/attachmentcollection) | Represents a collection of e-mail message attachments. |
 | [AttachmentPermissionType](../com.aspose.email/attachmentpermissiontype) | The permission type data associated with a web reference attachment. |
 | [AttachmentProviderType](../com.aspose.email/attachmentprovidertype) | The type of web service manipulating the attachment. |
@@ -89,9 +89,10 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [BaseSearchConditions](../com.aspose.email/basesearchconditions) | Provides base class for the search conditions. |
 | [BeforeItemCallback](../com.aspose.email/beforeitemcallback) | BeforeItemCallback is called before the next item is processed, the type of which depends on the task being performed. |
 | [BinaryComparisonField](../com.aspose.email/binarycomparisonfield) | Represents the binary search field. |
-| [BodyContentType](../com.aspose.email/bodycontenttype) | The content type of message body. |
+| [BodyContentType](../com.aspose.email/bodycontenttype) | Specifies the content type format of a message body in MAPI messages. |
 | [BoolComparisonField](../com.aspose.email/boolcomparisonfield) | Represents the boolean search field. |
 | [BounceResult](../com.aspose.email/bounceresult) | Represents result of the message examination as a bounce message. |
+| [BuildResult](../com.aspose.email/buildresult) | Represents the outcome of a single [TgzBackupBuilder.\#build(String,String,String)](../com.aspose.email/tgzbackupbuilder\#build-String-String-String-) run. |
 | [BuildVersionInfo](../com.aspose.email/buildversioninfo) | Provides information about the current product name and version. |
 | [ByDay](../com.aspose.email/byday) | Represents Nth occurrence (or all occurrences) of the specified day of the week. |
 | [ByDayCollection](../com.aspose.email/bydaycollection) | Represents a collection of [ByDay](../com.aspose.email/byday) objects. |
@@ -102,7 +103,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [CalendarDeletionOptions](../com.aspose.email/calendardeletionoptions) | Defines parameters for item deletion |
 | [CalendarItemCreateOrDeleteOperation](../com.aspose.email/calendaritemcreateordeleteoperation) | Represents options for create and delete operations |
 | [CalendarMonth](../com.aspose.email/calendarmonth) | Represents a calendar month. |
-| [CalendarReader](../com.aspose.email/calendarreader) | Allows read the calendar with multi events to the Appointment object from a file or stream. |
+| [CalendarReader](../com.aspose.email/calendarreader) | Provides functionality to read and extract events from an ICS (iCalendar) file. |
 | [CalendarRecurrence](../com.aspose.email/calendarrecurrence) | The main class, represents an iCalendar recurrence. |
 | [CalendarRecurrencePattern](../com.aspose.email/calendarrecurrencepattern) | Represents a recurrence pattern. |
 | [CalendarWriter](../com.aspose.email/calendarwriter) | Allows write the set of Events in one ics file or stream. |
@@ -131,7 +132,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [ContactPhoto](../com.aspose.email/contactphoto) | Represents contact photo. |
 | [ContactQueryBuilder](../com.aspose.email/contactquerybuilder) | Represents the builder of search expression that used by Exchange protocol. |
 | [ContactSaveFormat](../com.aspose.email/contactsaveformat) | Enumerates contact save formats |
-| [ContactSaveOptions](../com.aspose.email/contactsaveoptions) | Represents the base contact save options |
+| [ContactSaveOptions](../com.aspose.email/contactsaveoptions) | Serves as the abstract base class for contact save options when saving contact objects to various formats. |
 | [ContentClassType](../com.aspose.email/contentclasstype) | Represents the content class of item. |
 | [ContentDisposition](../com.aspose.email/contentdisposition) | Represents a Content-Disposition header. |
 | [ContentType](../com.aspose.email/contenttype) | Represents a Content-Type header. |
@@ -156,7 +157,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [DateTimeListWrapper](../com.aspose.email/datetimelistwrapper) |  |
 | [DayOfWeek](../com.aspose.email/dayofweek) |  |
 | [DayPosition](../com.aspose.email/dayposition) | Day positions, typically found in a month. |
-| [DebugAppender](../com.aspose.email/debugappender) | Represents an appender is only enabled when debugging. |
+| [DebugAppender](../com.aspose.email/debugappender) | Represents an appender that writes to the SLF4J logger  com.aspose.email.debug . |
 | [DebugFormatter](../com.aspose.email/debugformatter) | Represents the class for formatting log entry messages. |
 | [DeleteTaskOptions](../com.aspose.email/deletetaskoptions) | Enumerates delete task options. |
 | [DeletionOptions](../com.aspose.email/deletionoptions) | Defines parameters for item deletion |
@@ -166,6 +167,8 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [DeliveryServiceOptions](../com.aspose.email/deliveryserviceoptions) | Options to set the DeliveryServiceClient parameters. |
 | [DeliveryServiceResponse](../com.aspose.email/deliveryserviceresponse) | Represents the DeliveryService client response |
 | [DispositionTypeNames](../com.aspose.email/dispositiontypenames) | Represents the disposition type names. |
+| [DkimResult](../com.aspose.email/dkimresult) | DKIM signature verification result. |
+| [DkimVerifier](../com.aspose.email/dkimverifier) | Verifies DKIM signature of the MIME file or stream. |
 | [DomainValidatingEventArgs](../com.aspose.email/domainvalidatingeventargs) | Provides data for the DomainValidating event. |
 | [DomainValidatingEventHandler](../com.aspose.email/domainvalidatingeventhandler) | Represents the event handler for DomainValidatingEvent. |
 | [DoubleComparisonField](../com.aspose.email/doublecomparisonfield) | Represents the double search field. |
@@ -177,12 +180,12 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [EmailAddressList](../com.aspose.email/emailaddresslist) | List of email addresses for a contact |
 | [EmailClient](../com.aspose.email/emailclient) | Represents the client that creates server connection by using the host credentials. |
 | [EmailValidator](../com.aspose.email/emailvalidator) | EmailValidator class provides the capability to validate e-mail addresses. |
-| [EmlLoadOptions](../com.aspose.email/emlloadoptions) | Allows to specify additional options when loading MailMessage from Eml format. |
-| [EmlSaveOptions](../com.aspose.email/emlsaveoptions) | Allows to specify additional options when saving MailMessage to Eml and Emlx format. |
+| [EmlLoadOptions](../com.aspose.email/emlloadoptions) | Provides options for controlling how [MailMessage](../com.aspose.email/mailmessage) instances are loaded from EML format. |
+| [EmlSaveOptions](../com.aspose.email/emlsaveoptions) | Provides options for controlling how [MailMessage](../com.aspose.email/mailmessage) instances are saved to EML and EMLX format. |
 | [EmlValidationError](../com.aspose.email/emlvalidationerror) | Represents the eml validation error information. |
 | [EmlValidationErrorCollection](../com.aspose.email/emlvalidationerrorcollection) | Represents the collection of [EmlValidationError](../com.aspose.email/emlvalidationerror) |
 | [EmlValidationErrorType](../com.aspose.email/emlvalidationerrortype) | Enumerates the types of the eml validation errors. |
-| [EmlxLoadOptions](../com.aspose.email/emlxloadoptions) | Allows to specify additional options when loading MailMessage from Eml format. |
+| [EmlxLoadOptions](../com.aspose.email/emlxloadoptions) | Provides options for controlling how [MailMessage](../com.aspose.email/mailmessage) instances are loaded from EMLX format. |
 | [EmptyFolderOptions](../com.aspose.email/emptyfolderoptions) | Enumerates the empty folder options |
 | [EncryptionProtocols](../com.aspose.email/encryptionprotocols) | Defines the possible versions of encryption protocols. |
 | [EndType](../com.aspose.email/endtype) | Specifies how the recurrence rule ends. |
@@ -265,8 +268,8 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [FolderInfo](../com.aspose.email/folderinfo) | Represents information about personal folder in PST. |
 | [FolderInfoCollection](../com.aspose.email/folderinfocollection) | Represents collection of FolderInfo. |
 | [FolderKind](../com.aspose.email/folderkind) | Represents the different kinds of pst folders. |
-| [FollowUpManager](../com.aspose.email/followupmanager) | Provides the ability to set and handle follow-up Outlook flags and categories. |
-| [FollowUpOptions](../com.aspose.email/followupoptions) | Represents options for using follow-up flags and reminders in a message. |
+| [FollowUpManager](../com.aspose.email/followupmanager) | Provides methods for managing Outlook follow-up flags, categories, and voting options on MAPI messages. |
+| [FollowUpOptions](../com.aspose.email/followupoptions) | Represents configuration options for follow-up flags, reminders, categories, and voting buttons in Outlook messages. |
 | [FormField](../com.aspose.email/formfield) | Describe one field of form. |
 | [FormMethod](../com.aspose.email/formmethod) | The method tells the server about the request method. |
 | [FormTarget](../com.aspose.email/formtarget) | Indicates where to display the form response after submitting the form. |
@@ -291,7 +294,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [GraphCalendarColor](../com.aspose.email/graphcalendarcolor) | Enumerates the color theme to distinguish the calendar from other calendars in a UI. |
 | [GraphCalendarInfo](../com.aspose.email/graphcalendarinfo) | Represents information about calendar. |
 | [GraphCalendarInfoCollection](../com.aspose.email/graphcalendarinfocollection) | Represents collection of GraphCalendarInfo. |
-| [GraphClient](../com.aspose.email/graphclient) | Provides access to MS Exchange Server (Office365) by using REST API. |
+| [GraphClient](../com.aspose.email/graphclient) | Provides access to MS Graph by using REST API. |
 | [GraphFolderInfo](../com.aspose.email/graphfolderinfo) | Represents information about personal folder. |
 | [GraphFolderInfoCollection](../com.aspose.email/graphfolderinfocollection) | Represents collection of GraphFolderInfo. |
 | [GraphIdentity](../com.aspose.email/graphidentity) | [...][] The Identity resource represents an identity of an actor.[...]: https://docs.microsoft.com/en-us/graph/api/resources/identity?view=graph-rest-1.0 |
@@ -315,11 +318,11 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [HeaderCollection](../com.aspose.email/headercollection) | Defines the collection of header fields |
 | [HeaderList](../com.aspose.email/headerlist) | Colection with name of headers that are included in the DKIM signature. |
 | [HeaderType](../com.aspose.email/headertype) | Represents the Internet standards and RFCs define header fields which may occur on Internet Mail Messages . |
-| [HeadersFormattingOptions](../com.aspose.email/headersformattingoptions) | Allows to specify headers formatting options when saving MailMessage to Mhtml or Html format. |
+| [HeadersFormattingOptions](../com.aspose.email/headersformattingoptions) | Serves as the abstract base class for format-specific options when saving [MailMessage](../com.aspose.email/mailmessage) to HTML-based formats (MHTML, HTML). |
 | [HtmlFormatOptions](../com.aspose.email/htmlformatoptions) | Enumerates the Html format options. |
-| [HtmlLoadOptions](../com.aspose.email/htmlloadoptions) | Allows to specify additional options when loading MailMessage from Html format. |
+| [HtmlLoadOptions](../com.aspose.email/htmlloadoptions) | Provides options for controlling how [MailMessage](../com.aspose.email/mailmessage) instances are loaded from HTML format. |
 | [HtmlResourceAttachmentResolver](../com.aspose.email/htmlresourceattachmentresolver) |  |
-| [HtmlSaveOptions](../com.aspose.email/htmlsaveoptions) | Allows to specify additional options when saving MailMessage to Html format. |
+| [HtmlSaveOptions](../com.aspose.email/htmlsaveoptions) | Provides options for controlling how [MailMessage](../com.aspose.email/mailmessage) instances are saved to HTML format. |
 | [HttpAuthenticationMethods](../com.aspose.email/httpauthenticationmethods) | The authentication methods supported by the HTTP proxy |
 | [HttpProxy](../com.aspose.email/httpproxy) | HTTP proxy client. |
 | [HttpUtility](../com.aspose.email/httputility) |  |
@@ -371,12 +374,12 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [KnownPropertySets](../com.aspose.email/knownpropertysets) | [MS-OXCDATA]: Commonly Used Property Sets |
 | [LayoutType](../com.aspose.email/layouttype) | The layout attribute gives you easy, per-element control over how your element should render on screen. |
 | [License](../com.aspose.email/license) | Provides methods to license the component. |
-| [LinkedResource](../com.aspose.email/linkedresource) | Represents an embedded resource in a message. |
+| [LinkedResource](../com.aspose.email/linkedresource) | Represents an embedded resource (such as an image or file) that can be referenced by an [AlternateView](../com.aspose.email/alternateview) in an email message. |
 | [LinkedResourceCollection](../com.aspose.email/linkedresourcecollection) | Represents a collection of LinkedResource objects |
-| [LinkedResourceRemovedEventArgs](../com.aspose.email/linkedresourceremovedeventargs) |  |
+| [LinkedResourceRemovedEventArgs](../com.aspose.email/linkedresourceremovedeventargs) | Provides data for the event that is raised when a linked resource is removed from a message. |
 | [ListFoldersOptions](../com.aspose.email/listfoldersoptions) | The folder list selection options Please note, this options are supported in case if server supports RFC 5258 "IMAP LIST Command Extensions" See more details in https://tools.ietf.org/html/rfc5258 |
 | [ListFoldersReturnOptions](../com.aspose.email/listfoldersreturnoptions) | Return options for ListFolders operation Please note, this options are supported in case if server supports RFC 5258 "IMAP LIST Command Extensions" See more details in https://tools.ietf.org/html/rfc5258 |
-| [LoadOptions](../com.aspose.email/loadoptions) | This is an abstract base class for classes that allow the user to specify additional options when loading a MailMessage from a particular format. |
+| [LoadOptions](../com.aspose.email/loadoptions) | Serves as the abstract base class for format-specific options when loading [MailMessage](../com.aspose.email/mailmessage) from various email formats (EML, EMLX, HTML, MHTML, etc.). |
 | [LocaleOptions](../com.aspose.email/localeoptions) | LocaleOptions type specifies locale configuration for Aspose.Email. |
 | [LogEntry](../com.aspose.email/logentry) | Represents a log message. |
 | [LogLevel](../com.aspose.email/loglevel) | Defines available log levels. |
@@ -387,9 +390,9 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [MSBusyStatus](../com.aspose.email/msbusystatus) | Specifies the BUSY status of an appointment. |
 | [MSImportance](../com.aspose.email/msimportance) | Specifies the importance of an appointment. |
 | [MSIntendedStatus](../com.aspose.email/msintendedstatus) | Specifies the INTENDED status of an appointment. |
-| [MailAddress](../com.aspose.email/mailaddress) | Represents the address of a message. |
+| [MailAddress](../com.aspose.email/mailaddress) | Represents an email address with support for display names, encoding, and address parsing. |
 | [MailAddressCollection](../com.aspose.email/mailaddresscollection) | Represents a collection of [MailAddress](../com.aspose.email/mailaddress) objects. |
-| [MailConversionOptions](../com.aspose.email/mailconversionoptions) | Specify additional options when converting from MapiMessage to MailMessage. |
+| [MailConversionOptions](../com.aspose.email/mailconversionoptions) | Provides options for controlling how [MapiMessage](../com.aspose.email/mapimessage) instances are converted to [MailMessage](../com.aspose.email/mailmessage) objects. |
 | [MailException](../com.aspose.email/mailexception) | Represents the exception that is thrown when the mail message processing. |
 | [MailMessage](../com.aspose.email/mailmessage) | Represents an e-mail message. |
 | [MailMessageCollection](../com.aspose.email/mailmessagecollection) | Represents a collection of [MailMessage](../com.aspose.email/mailmessage) objects. |
@@ -409,41 +412,41 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [MailgunClientOptions](../com.aspose.email/mailgunclientoptions) | Options to set the MailgunClient parameters. |
 | [MailgunRegion](../com.aspose.email/mailgunregion) | Represents the Mailgun Region |
 | [MapiAttachment](../com.aspose.email/mapiattachment) | Represents a message attachment. |
-| [MapiAttachmentCollection](../com.aspose.email/mapiattachmentcollection) | Represents a collection of MapiAttachment objects. |
+| [MapiAttachmentCollection](../com.aspose.email/mapiattachmentcollection) | Represents a strongly-typed collection of [MapiAttachment](../com.aspose.email/mapiattachment) objects that belong to a MAPI message or item. |
 | [MapiAttachmentPropertyStream](../com.aspose.email/mapiattachmentpropertystream) | Represents the property stream of attachment object. |
 | [MapiCalendar](../com.aspose.email/mapicalendar) | Represents a MAPI calendar item. |
-| [MapiCalendarAttendees](../com.aspose.email/mapicalendarattendees) | Represents the mapi calendar attendees |
+| [MapiCalendarAttendees](../com.aspose.email/mapicalendarattendees) | Represents the attendees and related properties for a MAPI calendar item (meeting request, appointment). |
 | [MapiCalendarBusyStatus](../com.aspose.email/mapicalendarbusystatus) | Enumerates the mapi calendar possible busy status |
 | [MapiCalendarClientIntent](../com.aspose.email/mapicalendarclientintent) | Enumerates the actions the user can taken on the Meeting object |
-| [MapiCalendarCollection](../com.aspose.email/mapicalendarcollection) | Represents the collection of [MapiCalendar](../com.aspose.email/mapicalendar) |
-| [MapiCalendarDailyRecurrencePattern](../com.aspose.email/mapicalendardailyrecurrencepattern) | Represents the daily recurrence pattern of the mapi calendar |
+| [MapiCalendarCollection](../com.aspose.email/mapicalendarcollection) | Represents a strongly-typed collection of [MapiCalendar](../com.aspose.email/mapicalendar) objects for managing multiple calendar items in a single collection. |
+| [MapiCalendarDailyRecurrencePattern](../com.aspose.email/mapicalendardailyrecurrencepattern) | Represents a daily recurrence pattern for MAPI calendar items, allowing you to define how recurring meetings or events repeat on a daily basis. |
 | [MapiCalendarDayOfWeek](../com.aspose.email/mapicalendardayofweek) | Enumerates the days of week of the mapi calendar recurrence pattern |
-| [MapiCalendarEventRecurrence](../com.aspose.email/mapicalendareventrecurrence) | Represents the recurrence properties of calendar object |
+| [MapiCalendarEventRecurrence](../com.aspose.email/mapicalendareventrecurrence) | Represents the recurrence properties of a calendar object, including the recurrence pattern, time zone information, and the date range of recurrence. |
 | [MapiCalendarExceptionInfo](../com.aspose.email/mapicalendarexceptioninfo) | An exception specifies changes to an instance of a recurring series. |
-| [MapiCalendarIcsSaveOptions](../com.aspose.email/mapicalendaricssaveoptions) |  |
-| [MapiCalendarMonthlyNthRecurrencePattern](../com.aspose.email/mapicalendarmonthlynthrecurrencepattern) | Represents the monthly nth recurrence pattern of the mapi calendar |
-| [MapiCalendarMonthlyRecurrencePattern](../com.aspose.email/mapicalendarmonthlyrecurrencepattern) | Represents the monthly recurrence pattern of the mapi calendar |
-| [MapiCalendarMsgSaveOptions](../com.aspose.email/mapicalendarmsgsaveoptions) |  |
+| [MapiCalendarIcsSaveOptions](../com.aspose.email/mapicalendaricssaveoptions) | Provides options for controlling how [MapiCalendar](../com.aspose.email/mapicalendar) instances are saved to iCalendar (ICS) format. |
+| [MapiCalendarMonthlyNthRecurrencePattern](../com.aspose.email/mapicalendarmonthlynthrecurrencepattern) | Represents a monthly recurrence pattern that occurs on the Nth occurrence of specific days of the week (e.g., "the 2nd Monday of each month"). |
+| [MapiCalendarMonthlyRecurrencePattern](../com.aspose.email/mapicalendarmonthlyrecurrencepattern) | Represents a monthly recurrence pattern for MAPI calendar items, allowing events to repeat on a specific day of each month. |
+| [MapiCalendarMsgSaveOptions](../com.aspose.email/mapicalendarmsgsaveoptions) | Provides options for controlling how [MapiCalendar](../com.aspose.email/mapicalendar) instances are saved to Outlook MSG format. |
 | [MapiCalendarOverrideFlags](../com.aspose.email/mapicalendaroverrideflags) | Specifies what data in the MapiCalendarOverrideFlags structure has a value different from the recurring series. |
-| [MapiCalendarRecurrenceCalendarType](../com.aspose.email/mapicalendarrecurrencecalendartype) | Enumerated the calendar type of the mapi recurrence |
+| [MapiCalendarRecurrenceCalendarType](../com.aspose.email/mapicalendarrecurrencecalendartype) | Specifies the calendar type used for MAPI calendar recurrence patterns. |
 | [MapiCalendarRecurrenceEndType](../com.aspose.email/mapicalendarrecurrenceendtype) | Enumerates the ending type for the recurrence. |
 | [MapiCalendarRecurrenceFrequency](../com.aspose.email/mapicalendarrecurrencefrequency) | Enumerates mapi calendar recurrence frequency |
-| [MapiCalendarRecurrencePattern](../com.aspose.email/mapicalendarrecurrencepattern) | Represents the mapi recurrence pattern |
+| [MapiCalendarRecurrencePattern](../com.aspose.email/mapicalendarrecurrencepattern) | Serves as the abstract base class for all MAPI calendar recurrence patterns. |
 | [MapiCalendarRecurrencePatternFactory](../com.aspose.email/mapicalendarrecurrencepatternfactory) | Represents the factory of MapiCalendarRecurrencePattern |
-| [MapiCalendarRecurrencePatternType](../com.aspose.email/mapicalendarrecurrencepatterntype) | Enumerates the mapi calendar recurrence pattern types |
-| [MapiCalendarSaveOptions](../com.aspose.email/mapicalendarsaveoptions) |  |
+| [MapiCalendarRecurrencePatternType](../com.aspose.email/mapicalendarrecurrencepatterntype) | Specifies the type of recurrence pattern for MAPI calendar items. |
+| [MapiCalendarSaveOptions](../com.aspose.email/mapicalendarsaveoptions) | Serves as the abstract base class for format-specific options when saving [MapiCalendar](../com.aspose.email/mapicalendar) objects to various formats (ICS, MSG). |
 | [MapiCalendarState](../com.aspose.email/mapicalendarstate) | Enumerates the appointment state |
 | [MapiCalendarTimeZone](../com.aspose.email/mapicalendartimezone) | Represents the mapi calendar time zone information |
 | [MapiCalendarTimeZoneFlags](../com.aspose.email/mapicalendartimezoneflags) | Enumerates the individual bit flags that specify information about TimeZoneRule |
 | [MapiCalendarTimeZoneInfo](../com.aspose.email/mapicalendartimezoneinfo) | Represents the mapi calendar time zone rule |
 | [MapiCalendarTimeZoneInfoCollection](../com.aspose.email/mapicalendartimezoneinfocollection) | Represents a collection of MapiCalendarTimeZoneInfo |
 | [MapiCalendarTimeZoneRule](../com.aspose.email/mapicalendartimezonerule) | Represents time zone rule that indicate when to begin using the Standard/Daylight time. |
-| [MapiCalendarWeeklyRecurrencePattern](../com.aspose.email/mapicalendarweeklyrecurrencepattern) | Represents the weekly recurrence pattern of the mapi calendar |
-| [MapiCalendarYearlyAndMonthlyRecurrencePattern](../com.aspose.email/mapicalendaryearlyandmonthlyrecurrencepattern) | Represents the yearly and monthly recurrence pattern of the mapi calendar |
+| [MapiCalendarWeeklyRecurrencePattern](../com.aspose.email/mapicalendarweeklyrecurrencepattern) | Represents a weekly recurrence pattern for MAPI calendar items, allowing events to repeat on specific days of the week at regular weekly intervals. |
+| [MapiCalendarYearlyAndMonthlyRecurrencePattern](../com.aspose.email/mapicalendaryearlyandmonthlyrecurrencepattern) | Represents the base class for yearly and monthly recurrence patterns in MAPI calendar items. |
 | [MapiContact](../com.aspose.email/mapicontact) | Represents a MAPI contact item. |
-| [MapiContactAddress](../com.aspose.email/mapicontactaddress) | Base abstract class for [MapiContactElectronicAddress](../com.aspose.email/mapicontactelectronicaddress) and [MapiContactPhysicalAddress](../com.aspose.email/mapicontactphysicaladdress). |
-| [MapiContactCollection](../com.aspose.email/mapicontactcollection) | Represents the collection of [MapiContact](../com.aspose.email/mapicontact) |
-| [MapiContactElectronicAddress](../com.aspose.email/mapicontactelectronicaddress) | Refers to the group of properties that define the e-mail address or fax address for a contact. |
+| [MapiContactAddress](../com.aspose.email/mapicontactaddress) | Serves as the abstract base class for contact address types in MAPI contact items. |
+| [MapiContactCollection](../com.aspose.email/mapicontactcollection) | Represents a strongly-typed collection of [MapiContact](../com.aspose.email/mapicontact) objects for managing multiple contacts in a single collection. |
+| [MapiContactElectronicAddress](../com.aspose.email/mapicontactelectronicaddress) | Represents a group of properties that define an electronic address (email or fax) for a contact. |
 | [MapiContactElectronicAddressPropertySet](../com.aspose.email/mapicontactelectronicaddresspropertyset) | Specify properties for up to three different e-mail addresses (Email1, Email2, and Email3) and three different fax addresses (Primary Fax, Business Fax, and Home Fax) |
 | [MapiContactEventPropertySet](../com.aspose.email/mapicontacteventpropertyset) | Specify events associated with a contact |
 | [MapiContactGender](../com.aspose.email/mapicontactgender) | Gender of the contact |
@@ -452,7 +455,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [MapiContactPersonalInfoPropertySet](../com.aspose.email/mapicontactpersonalinfopropertyset) | Specify other additional contact information |
 | [MapiContactPhoto](../com.aspose.email/mapicontactphoto) | Contains data and type of contact's photo. |
 | [MapiContactPhotoImageFormat](../com.aspose.email/mapicontactphotoimageformat) | Enumerates MapiContact photo image format. |
-| [MapiContactPhysicalAddress](../com.aspose.email/mapicontactphysicaladdress) | Refers to the group of properties that define physical address for a contact. |
+| [MapiContactPhysicalAddress](../com.aspose.email/mapicontactphysicaladdress) | Represents a group of properties that define a physical address for a contact. |
 | [MapiContactPhysicalAddressPropertySet](../com.aspose.email/mapicontactphysicaladdresspropertyset) | Specify three physical addresses: Home Address, Work Address, and Other Address. |
 | [MapiContactProfessionalPropertySet](../com.aspose.email/mapicontactprofessionalpropertyset) | Properties are used to store professional details for the person represented by the contact |
 | [MapiContactPropertySet](../com.aspose.email/mapicontactpropertyset) | Base class for all sets of MapiContact properties. |
@@ -550,18 +553,18 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [MessageValidator](../com.aspose.email/messagevalidator) | The message validator. |
 | [Metered](../com.aspose.email/metered) | Provides methods to set metered key. |
 | [MhtFormatOptions](../com.aspose.email/mhtformatoptions) | Enumerates the Mht format options |
-| [MhtSaveOptions](../com.aspose.email/mhtsaveoptions) | Allows to specify additional options when saving MailMessage to Mhtml format. |
+| [MhtSaveOptions](../com.aspose.email/mhtsaveoptions) | Provides options for controlling how [MailMessage](../com.aspose.email/mailmessage) instances are saved to MHTML format. |
 | [MhtTemplateName](../com.aspose.email/mhttemplatename) | Defines well known names of headers for Mhtml formatting. |
 | [MhtTemplateName.Contact](../com.aspose.email/mhttemplatename.contact) | Defines well known names of headers of Contact for Mhtml formatting. |
 | [MhtTemplateName.Task](../com.aspose.email/mhttemplatename.task) | Defines well known names of headers of Task for Mhtml formatting. |
-| [MhtmlLoadOptions](../com.aspose.email/mhtmlloadoptions) | Allows to specify additional options when loading MailMessage from Mhtml format. |
+| [MhtmlLoadOptions](../com.aspose.email/mhtmlloadoptions) | Provides options for controlling how [MailMessage](../com.aspose.email/mailmessage) instances are loaded from MHTML format. |
 | [MimeException](../com.aspose.email/mimeexception) | Provides information about MIME errors |
 | [MimeHeader](../com.aspose.email/mimeheader) | Represents the mime header defined in RFC 2822. |
 | [MimeItemCopyEventArgs](../com.aspose.email/mimeitemcopyeventargs) | Represents event arguments related to a copying of a MailMessage object from one storage to another, either before the copy begins or after it is complete. |
 | [MimeItemCopyEventHandler](../com.aspose.email/mimeitemcopyeventhandler) | Represents a delegate for handling events related to the copying of Mime items, typically used in scenarios where a MailMessage object is copied from one storage to another. |
 | [ModificationSequenceField](../com.aspose.email/modificationsequencefield) | Defines set of values for selected field to search. |
 | [MonthlyRecurrencePattern](../com.aspose.email/monthlyrecurrencepattern) | Represents a recurrence pattern of monthly recurrence type. |
-| [MsgLoadOptions](../com.aspose.email/msgloadoptions) | Allows to specify additional options when loading MailMessage from Msg format. |
+| [MsgLoadOptions](../com.aspose.email/msgloadoptions) | Provides options for controlling how [MailMessage](../com.aspose.email/mailmessage) instances are loaded from MSG format. |
 | [MsgSaveOptions](../com.aspose.email/msgsaveoptions) | This class allows the user to specify additional settings when saving a MailMessage in the Msg(ASCII) and Msg(Unicode) format. |
 | [MultiConnectionMode](../com.aspose.email/multiconnectionmode) | Enumerate modes which indicates how client has to use multiple connections for heavy loaded operations. |
 | [NameValuePair](../com.aspose.email/namevaluepair) | An extended property. |
@@ -578,6 +581,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [NullAppender](../com.aspose.email/nullappender) | Represents a do-nothing appender. |
 | [OAuthNetworkCredential](../com.aspose.email/oauthnetworkcredential) | Represents the NetworkCredential for OAuth authentication. |
 | [OAuthToken](../com.aspose.email/oauthtoken) | Contains OAuth token data such like token value, token type, expiration date. |
+| [ODataQueryBuilder](../com.aspose.email/odataquerybuilder) | This class provides parameters(supported Microsoft Graph) and builds a query that specifies and controls the amount of data returned in the response. |
 | [ObjectDisposedException](../com.aspose.email/objectdisposedexception) | Represents errors that occur when an operation canceled. |
 | [ObjectIdentifier](../com.aspose.email/objectidentifier) | Contains object identification information |
 | [OleDocumentFormat](../com.aspose.email/oledocumentformat) | Represents the format for OLE document. |
@@ -603,9 +607,9 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [PhoneNumber](../com.aspose.email/phonenumber) | Represents a phone number. |
 | [PhoneNumberCategory](../com.aspose.email/phonenumbercategory) | Represents category for a phone number |
 | [PhoneNumberList](../com.aspose.email/phonenumberlist) | List of phone numbers for a contact. |
-| [PidLidPropertyDescriptor](../com.aspose.email/pidlidpropertydescriptor) | Class contains property description information. |
-| [PidNamePropertyDescriptor](../com.aspose.email/pidnamepropertydescriptor) | Class contains property description information. |
-| [PidTagPropertyDescriptor](../com.aspose.email/pidtagpropertydescriptor) | Class contains property description information. |
+| [PidLidPropertyDescriptor](../com.aspose.email/pidlidpropertydescriptor) | Contains descriptive information about a MAPI named property. |
+| [PidNamePropertyDescriptor](../com.aspose.email/pidnamepropertydescriptor) | Contains descriptive information about a MAPI named property identified by a string name. |
+| [PidTagPropertyDescriptor](../com.aspose.email/pidtagpropertydescriptor) | Contains descriptive information about a MAPI tagged property. |
 | [PipeliningMode](../com.aspose.email/pipeliningmode) | Defines how mail client supports the pipelining |
 | [PipeliningStatus](../com.aspose.email/pipeliningstatus) | Defines pipelining status for mail client. |
 | [Pop3Client](../com.aspose.email/pop3client) | Allows applications to access and manipulate messages by using the Post Office Protocol Version 3 (POP3). |
@@ -618,6 +622,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [PostalAddress](../com.aspose.email/postaladdress) | Represents a postal address. |
 | [PostalAddressCategory](../com.aspose.email/postaladdresscategory) | Represents category for a postal address |
 | [PostalAddressList](../com.aspose.email/postaladdresslist) | List of postal addresses for a contact. |
+| [PrimitiveLongList](../com.aspose.email/primitivelonglist) |  |
 | [ProgressEventHandlerInfo](../com.aspose.email/progresseventhandlerinfo) | This class represents information about conversion progress that can be used in external applicatuion to show conversion progress to end user. |
 | [ProgressEventType](../com.aspose.email/progresseventtype) | Type of progress event that occured. |
 | [PropertyDataType](../com.aspose.email/propertydatatype) | [MS-OXCDATA]: Data Structures |
@@ -659,7 +664,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [RulePredicateFlags](../com.aspose.email/rulepredicateflags) | Represents the RulePredicate flags |
 | [RulePredicates](../com.aspose.email/rulepredicates) | Represents rule predicate |
 | [SSPIException](../com.aspose.email/sspiexception) | Represents errors that occur during SSPI execution. |
-| [SaveOptions](../com.aspose.email/saveoptions) | This is an abstract base class for classes that allow the user to specify additional options when saving a MailMessage into a particular format. |
+| [SaveOptions](../com.aspose.email/saveoptions) | Serves as the abstract base class for format-specific options when saving [MailMessage](../com.aspose.email/mailmessage) to various email formats (EML, EMLX, MSG, MHTML, HTML, etc.). |
 | [SaveResourceHandler](../com.aspose.email/saveresourcehandler) | Represents the handler for HtmlSaveOptions.SaveResourceHandler |
 | [SaveResult](../com.aspose.email/saveresult) | Represents the result of saving the retrieved item. |
 | [SaveStatus](../com.aspose.email/savestatus) | Represents the status of saving the retrieved message. |
@@ -668,7 +673,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [SectionHeader](../com.aspose.email/sectionheader) | Represents the heading for the section |
 | [SectionHeaderType](../com.aspose.email/sectionheadertype) | Represents the type of heading for the section. |
 | [SectionValue](../com.aspose.email/sectionvalue) | Represents the content of the section. |
-| [SecureEmailManager](../com.aspose.email/secureemailmanager) | Class that provided methods for working with secure emails. |
+| [SecureEmailManager](../com.aspose.email/secureemailmanager) | Provides methods for working with secure emails, including S/MIME signing and encryption operations. |
 | [SecurityOptions](../com.aspose.email/securityoptions) | Security mode for a mail client |
 | [SendGridClient](../com.aspose.email/sendgridclient) | Represents the SendGrid client |
 | [SendGridClientOptions](../com.aspose.email/sendgridclientoptions) | Options to set the SendGridClient parameters. |
@@ -685,7 +690,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [SizeRange](../com.aspose.email/sizerange) | Represents the size range |
 | [SmimeKey](../com.aspose.email/smimekey) | A wrapper around a PrivateKey and a chain of X509Certificate used to sign or decrypt a MIME message. |
 | [SmimeResult](../com.aspose.email/smimeresult) | This class containing results of checking secure emails. |
-| [SmtpClient](../com.aspose.email/smtpclient) | Allows applications to send messages by using the Simple Mail Transfer Protocol (SMTP). |
+| [SmtpClient](../com.aspose.email/smtpclient) | Represents an SMTP (Simple Mail Transfer Protocol) client that sends email messages to the specified SMTP server. |
 | [SmtpDeliveryMethod](../com.aspose.email/smtpdeliverymethod) | Smtp delivery method |
 | [SmtpException](../com.aspose.email/smtpexception) | Represents the exception that is thrown when the SmtpClient is not able to complete an operation. |
 | [SmtpFailedRecipientException](../com.aspose.email/smtpfailedrecipientexception) | Represents the exception which arises when the specified recipient is wrong |
@@ -713,17 +718,22 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [TIPMethod](../com.aspose.email/tipmethod) | Defines the iTIP (iCalendar Transport-Independent Interoperability Protocol) methods associated with an object. |
 | [Task](../com.aspose.email/task) | Represents the exchange task information. |
 | [TaskCollection](../com.aspose.email/taskcollection) | Represents a collection of Task objects. |
+| [TaskIcsSaveOptions](../com.aspose.email/taskicssaveoptions) | Represents task to iCalendar save options |
+| [TaskMsgSaveOptions](../com.aspose.email/taskmsgsaveoptions) | Represents task to MSG save options |
 | [TaskRegeneratingPattern](../com.aspose.email/taskregeneratingpattern) | Represents the regenerating recurrence pattern that specifies how many days, weeks, months or years after the completion of the current task the next occurrence will be due. |
 | [TaskRegeneratingType](../com.aspose.email/taskregeneratingtype) | Enumerates the types of regenerating pattern. |
 | [TaskSaveFormat](../com.aspose.email/tasksaveformat) | Enumerates TaskSaveFormat |
+| [TaskSaveOptions](../com.aspose.email/tasksaveoptions) | Represents base task save options |
+| [TaskStatus](../com.aspose.email/taskstatus) | Represents the statuses of the user's progress on the task. |
 | [TemplateEngine](../com.aspose.email/templateengine) | This class uses specified template to construct E-Mail messages. |
 | [TemplateRoutine](../com.aspose.email/templateroutine) | Represents the routine used in the template file. |
 | [TextFormat](../com.aspose.email/textformat) | Defines format of a text. |
+| [TgzBackupBuilder](../com.aspose.email/tgzbackupbuilder) | Scans a directory tree of EML files and writes them into a GZip-compressed TAR archive in the format required by Zimbra's mailbox import tool ( zmmailbox importMailbox ). |
 | [TgzReader](../com.aspose.email/tgzreader) | The mailbox items reader of Zimbra tgz storage. |
 | [ThreadSearchConditions](../com.aspose.email/threadsearchconditions) | Provides the search conditions to retrieve email thread. |
 | [TimeoutException](../com.aspose.email/timeoutexception) | Represents the exception that is thrown when the time for operation has expired. |
 | [TimeoutReachedHandler](../com.aspose.email/timeoutreachedhandler) | Raised if timed out while saving. |
-| [TnefLoadOptions](../com.aspose.email/tnefloadoptions) | Allows to specify additional options when loading MailMessage from Tnef format. |
+| [TnefLoadOptions](../com.aspose.email/tnefloadoptions) | Provides options for controlling how [MailMessage](../com.aspose.email/mailmessage) instances are loaded from TNEF (Transport Neutral Encapsulation Format) format. |
 | [TokenProvider](../com.aspose.email/tokenprovider) | Class TokenProvider allows to retrieve access token for mail services. |
 | [TokenProvider.Google](../com.aspose.email/tokenprovider.google) | Provides an instance of the TokenProvider for Google mail server |
 | [TokenProvider.Outlook](../com.aspose.email/tokenprovider.outlook) | Provides an instance of the TokenProvider for Outlook mail server |
@@ -755,6 +765,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [VCardExplanatoryInfo](../com.aspose.email/vcardexplanatoryinfo) | Represents vCard explanatory properties |
 | [VCardFullName](../com.aspose.email/vcardfullname) | Represents vCard contact full name (N property) |
 | [VCardGeo](../com.aspose.email/vcardgeo) | Represents a global positioning of vCard contact |
+| [VCardHeaderInfo](../com.aspose.email/vcardheaderinfo) | Represents the base class for VCard properties |
 | [VCardIdentificationInfo](../com.aspose.email/vcardidentificationinfo) | Represents vCard identification information |
 | [VCardLabel](../com.aspose.email/vcardlabel) | To specify the formatted text corresponding to delivery address of the object the vCard represents. |
 | [VCardLabelCollection](../com.aspose.email/vcardlabelcollection) | Represents a collection of VCardLabel |
@@ -781,6 +792,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [WeeklyRecurrencePattern](../com.aspose.email/weeklyrecurrencepattern) | Represents a recurrence pattern of weekly recurrence type. |
 | [XGMThreadSearchConditions](../com.aspose.email/xgmthreadsearchconditions) | Provides the search conditions to retrieve email thread. |
 | [YearlyRecurrencePattern](../com.aspose.email/yearlyrecurrencepattern) | Represents a recurrence pattern of yearly recurrence type. |
+| [ZimbraItemType](../com.aspose.email/zimbraitemtype) | Represents a item type such as message,contact,calendar,task. |
 
 ## Interfaces
 
@@ -799,11 +811,11 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [IExchangeClientBase](../com.aspose.email/iexchangeclientbase) | Represents the interface for base Exchange clients. |
 | [IFormatter](../com.aspose.email/iformatter) | Represents the interface for formatting log entry messsages. |
 | [IGmailClient](../com.aspose.email/igmailclient) | Represents the interface for Gmail client |
-| [IGraphClient](../com.aspose.email/igraphclient) | Represents the interface for Exchange REST client. |
+| [IGraphClient](../com.aspose.email/igraphclient) | Represents the interface for Graph REST client. |
 | [IImapMonitoringState](../com.aspose.email/iimapmonitoringstate) | Holds folder monitoring state. |
 | [IMailAddress](../com.aspose.email/imailaddress) | Represents a common mail address interface |
 | [IMailTransferAgent](../com.aspose.email/imailtransferagent) | Provides the base interface for mail transfer agents. |
-| [IMapiMessageItem](../com.aspose.email/imapimessageitem) | Base interface for all message items in Outlook |
+| [IMapiMessageItem](../com.aspose.email/imapimessageitem) | Defines the base interface for all Outlook message item types including messages, appointments, tasks, contacts, and notes. |
 | [IMessage](../com.aspose.email/imessage) | Represents a common message interface |
 | [IMessageFormatter](../com.aspose.email/imessageformatter) | Provides a mechanism for retrieving an object to Message formatting. |
 | [IMessageObjectPropertyContainer](../com.aspose.email/imessageobjectpropertycontainer) | Defines an interface for container which contains [MessageObjectProperty](../com.aspose.email/messageobjectproperty) entries. |

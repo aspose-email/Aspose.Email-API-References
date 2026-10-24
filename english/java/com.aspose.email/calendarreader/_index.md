@@ -1,9 +1,9 @@
 ---
 title: CalendarReader
 second_title: Aspose.Email for Java API Reference
-description: Allows read the calendar with multi events to the Appointment object from a file or stream.
+description: Provides functionality to read and extract events from an ICS iCalendar file.
 type: docs
-weight: 97
+weight: 98
 url: /java/com.aspose.email/calendarreader/
 ---
 
@@ -13,7 +13,29 @@ java.lang.Object
 public class CalendarReader
 ```
 
-Allows read the calendar with multi events to the Appointment object from a file or stream.
+Provides functionality to read and extract events from an ICS (iCalendar) file.
+
+The [CalendarReader](../../com.aspose.email/calendarreader) class allows sequential reading of events from an iCalendar (.ics) file. It is designed to parse and access event details such as appointments, meetings, and other calendar items.
+
+This example demonstrates how to read multiple events from an ICS file and store them in a list of [Appointment](../../com.aspose.email/appointment) objects.
+
+```
+
+ // Create a list to hold the appointments
+ List appointments = new ArrayList();
+
+ // Initialize CalendarReader with the ICS file path
+ CalendarReader reader = new CalendarReader("US-Holidays.ics");
+
+ // Iterate through the events in the ICS file
+ while (reader.nextEvent()) {
+     // Add the current event to the appointments list
+     appointments.add(reader.getCurrent());
+ }
+
+ // Working with the appointments...
+ 
+```
 ## Constructors
 
 | Constructor | Description |

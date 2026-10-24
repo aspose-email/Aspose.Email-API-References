@@ -3,7 +3,7 @@ title: ExchangeListContactsOptions
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the list contacts options
 type: docs
-weight: 219
+weight: 222
 url: /java/com.aspose.email/exchangelistcontactsoptions/
 ---
 

@@ -3,7 +3,7 @@ title: ImapMonitoringErrorEventHandler
 second_title: Aspose.Email for Java API Reference
 description: Represents the method that will handle an imap monitoring error event
 type: docs
-weight: 337
+weight: 340
 url: /java/com.aspose.email/imapmonitoringerroreventhandler/
 ---
 
@@ -72,7 +72,7 @@ beginInvoke.
 | state | java.lang.Object | a java.lang.Object object. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - a com.aspose.ms.System.IAsyncResult object.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - a com.aspose.ms.System.IAsyncResult object.
 ### combine(System.Delegate arg0, System.Delegate arg1) {#combine-com.aspose.ms.System.Delegate-com.aspose.ms.System.Delegate-}
 ```
 public static System.Delegate combine(System.Delegate arg0, System.Delegate arg1)

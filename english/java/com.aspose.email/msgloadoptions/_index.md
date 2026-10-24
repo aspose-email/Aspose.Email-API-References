@@ -1,9 +1,9 @@
 ---
 title: MsgLoadOptions
 second_title: Aspose.Email for Java API Reference
-description: Allows to specify additional options when loading MailMessage from Msg format.
+description: Provides options for controlling how  instances are loaded from MSG format.
 type: docs
-weight: 550
+weight: 553
 url: /java/com.aspose.email/msgloadoptions/
 ---
 
@@ -13,7 +13,35 @@ java.lang.Object, [com.aspose.email.LoadOptions](../../com.aspose.email/loadopti
 public class MsgLoadOptions extends LoadOptions
 ```
 
-Allows to specify additional options when loading MailMessage from Msg format.
+Provides options for controlling how [MailMessage](../../com.aspose.email/mailmessage) instances are loaded from MSG format. This class allows you to customize the loading behavior for Outlook MSG files, including TNEF attachment handling, RTF body preservation, email address preservation, and timeout configuration.
+
+Use this class with [MailMessage.load(String, LoadOptions)](../../com.aspose.email/mailmessage\#load-String--LoadOptions-) to load Outlook MSG files and control various loading options. MSG is the native format for Outlook messages and can contain various Outlook-specific features. The \#setPreserveTnefAttachments(boolean).setPreserveTnefAttachments(boolean) property controls TNEF handling, \#setPreserveRtfContent(boolean).setPreserveRtfContent(boolean) preserves RTF body formatting, and \#setTimeout(int).setTimeout(int) limits the conversion time.
+
+The following example shows how to use MsgLoadOptions to load an Outlook MSG file with custom settings.
+
+```
+
+ // Create MSG load options with custom settings
+ MsgLoadOptions loadOptions = new MsgLoadOptions();
+ loadOptions.setPreserveTnefAttachments(true);
+ loadOptions.setPreserveRtfContent(true);
+ loadOptions.setKeepOriginalEmailAddresses(true);
+ loadOptions.setTimeout(5000);
+
+ // Handle timeout event
+ loadOptions.setTimeoutReachedHandler(new TimeoutReachedHandler() {
+     public void invoke(Object sender, EventArgs e) {
+         System.out.println("Message loading timed out");
+     }
+ });
+
+ // Load MSG file with custom options
+ try (MailMessage message = MailMessage.load("message.msg", loadOptions)) {
+     // Convert to EML format
+     message.save("output.eml", SaveOptions.getDefaultEml());
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -25,7 +53,8 @@ Allows to specify additional options when loading MailMessage from Msg format.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDecodeSignedContent()](#getDecodeSignedContent--) | Gets or sets a value indicating whether signed message will be decoded. |
+| [getDeferAttachmentContent()](#getDeferAttachmentContent--) | Gets or sets a value indicating whether attachment content is read on demand instead of being loaded into memory while the message is being loaded. |
+| [getDeferralThreshold()](#getDeferralThreshold--) | Gets or sets the minimum content size, in bytes, for which  DeferAttachmentContent (\#getDeferAttachmentContent.getDeferAttachmentContent/\#setDeferAttachmentContent(boolean).setDeferAttachmentContent(boolean)) applies. |
 | [getKeepOriginalEmailAddresses()](#getKeepOriginalEmailAddresses--) | Gets or sets a value indicating whether need keep original email address. |
 | [getLeaveOpen()](#getLeaveOpen--) | Gets or sets a value indicating whether to keep the underlying stream open after load. |
 | [getMessageFormat()](#getMessageFormat--) | Represents the mail message format.It can be in eml,msg or mhtml format. |
@@ -35,10 +64,12 @@ Allows to specify additional options when loading MailMessage from Msg format.
 | [getPreserveTnefAttachments()](#getPreserveTnefAttachments--) | Controls loading TNEF attachment behaviour. |
 | [getRemoveSignature()](#getRemoveSignature--) | Gets or sets a value indicating whether signature will be removed while loading. |
 | [getTimeout()](#getTimeout--) | Limits the time in milliseconds of formatting message while converting. |
+| [getTimeoutReachedHandler()](#getTimeoutReachedHandler--) | Raised if timed out while saving. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDecodeSignedContent(boolean value)](#setDecodeSignedContent-boolean-) | Gets or sets a value indicating whether signed message will be decoded. |
+| [setDeferAttachmentContent(boolean value)](#setDeferAttachmentContent-boolean-) | Gets or sets a value indicating whether attachment content is read on demand instead of being loaded into memory while the message is being loaded. |
+| [setDeferralThreshold(int value)](#setDeferralThreshold-int-) | Gets or sets the minimum content size, in bytes, for which  DeferAttachmentContent (\#getDeferAttachmentContent.getDeferAttachmentContent/\#setDeferAttachmentContent(boolean).setDeferAttachmentContent(boolean)) applies. |
 | [setKeepOriginalEmailAddresses(boolean value)](#setKeepOriginalEmailAddresses-boolean-) | Gets or sets a value indicating whether need keep original email address. |
 | [setLeaveOpen(boolean value)](#setLeaveOpen-boolean-) | Gets or sets a value indicating whether to keep the underlying stream open after load. |
 | [setPreferredTextEncoding(Charset value)](#setPreferredTextEncoding-java.nio.charset.Charset-) | Gets or sets preferred encoding for message. |
@@ -47,6 +78,7 @@ Allows to specify additional options when loading MailMessage from Msg format.
 | [setPreserveTnefAttachments(boolean value)](#setPreserveTnefAttachments-boolean-) | Controls loading TNEF attachment behaviour. |
 | [setRemoveSignature(boolean value)](#setRemoveSignature-boolean-) | Gets or sets a value indicating whether signature will be removed while loading. |
 | [setTimeout(int value)](#setTimeout-int-) | Limits the time in milliseconds of formatting message while converting. |
+| [setTimeoutReachedHandler(TimeoutReachedHandler value)](#setTimeoutReachedHandler-com.aspose.email.TimeoutReachedHandler-) | Raised if timed out while saving. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -84,18 +116,34 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDecodeSignedContent() {#getDecodeSignedContent--}
+### getDeferAttachmentContent() {#getDeferAttachmentContent--}
 ```
-public final boolean getDecodeSignedContent()
+public final boolean getDeferAttachmentContent()
 ```
 
 
-Gets or sets a value indicating whether signed message will be decoded.
+Gets or sets a value indicating whether attachment content is read on demand instead of being loaded into memory while the message is being loaded. The default value is false.
 
-Value:  true  if signed message will be decoded; otherwise,  false .
+--------------------
+
+This makes the memory needed to load a message independent of the size of its attachments, which matters for messages with large attachments.
+
+The source must stay readable until the message is disposed. For the file based overloads of [MapiMessage.load(String,LoadOptions)](../../com.aspose.email/mapimessage\#load-String-LoadOptions-) the library keeps the file open and closes it in [IDisposable.dispose](../../com.aspose.email.services.ews.core/idisposable\#dispose), so the message must be disposed. For the stream based overloads the caller keeps the stream open. Reading attachment content after the source has been closed throws.
+
+Saving the message back over the file it was loaded from is still supported: the content is materialised first, because the source cannot be read and overwritten at once.
 
 **Returns:**
 boolean
+### getDeferralThreshold() {#getDeferralThreshold--}
+```
+public final int getDeferralThreshold()
+```
+
+
+Gets or sets the minimum content size, in bytes, for which  DeferAttachmentContent (\#getDeferAttachmentContent.getDeferAttachmentContent/\#setDeferAttachmentContent(boolean).setDeferAttachmentContent(boolean)) applies. Smaller attachments are always loaded eagerly. The default value is 4096.
+
+**Returns:**
+int
 ### getKeepOriginalEmailAddresses() {#getKeepOriginalEmailAddresses--}
 ```
 public final boolean getKeepOriginalEmailAddresses()
@@ -196,6 +244,16 @@ Limits the time in milliseconds of formatting message while converting. Default 
 
 **Returns:**
 int
+### getTimeoutReachedHandler() {#getTimeoutReachedHandler--}
+```
+public final TimeoutReachedHandler getTimeoutReachedHandler()
+```
+
+
+Raised if timed out while saving.
+
+**Returns:**
+[TimeoutReachedHandler](../../com.aspose.email/timeoutreachedhandler)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -222,20 +280,39 @@ public final native void notifyAll()
 
 
 
-### setDecodeSignedContent(boolean value) {#setDecodeSignedContent-boolean-}
+### setDeferAttachmentContent(boolean value) {#setDeferAttachmentContent-boolean-}
 ```
-public final void setDecodeSignedContent(boolean value)
+public final void setDeferAttachmentContent(boolean value)
 ```
 
 
-Gets or sets a value indicating whether signed message will be decoded.
+Gets or sets a value indicating whether attachment content is read on demand instead of being loaded into memory while the message is being loaded. The default value is false.
 
-Value:  true  if signed message will be decoded; otherwise,  false .
+--------------------
+
+This makes the memory needed to load a message independent of the size of its attachments, which matters for messages with large attachments.
+
+The source must stay readable until the message is disposed. For the file based overloads of [MapiMessage.load(String,LoadOptions)](../../com.aspose.email/mapimessage\#load-String-LoadOptions-) the library keeps the file open and closes it in [IDisposable.dispose](../../com.aspose.email.services.ews.core/idisposable\#dispose), so the message must be disposed. For the stream based overloads the caller keeps the stream open. Reading attachment content after the source has been closed throws.
+
+Saving the message back over the file it was loaded from is still supported: the content is materialised first, because the source cannot be read and overwritten at once.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setDeferralThreshold(int value) {#setDeferralThreshold-int-}
+```
+public final void setDeferralThreshold(int value)
+```
+
+
+Gets or sets the minimum content size, in bytes, for which  DeferAttachmentContent (\#getDeferAttachmentContent.getDeferAttachmentContent/\#setDeferAttachmentContent(boolean).setDeferAttachmentContent(boolean)) applies. Smaller attachments are always loaded eagerly. The default value is 4096.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setKeepOriginalEmailAddresses(boolean value) {#setKeepOriginalEmailAddresses-boolean-}
 ```
@@ -350,6 +427,19 @@ Limits the time in milliseconds of formatting message while converting. Default 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setTimeoutReachedHandler(TimeoutReachedHandler value) {#setTimeoutReachedHandler-com.aspose.email.TimeoutReachedHandler-}
+```
+public final void setTimeoutReachedHandler(TimeoutReachedHandler value)
+```
+
+
+Raised if timed out while saving.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TimeoutReachedHandler](../../com.aspose.email/timeoutreachedhandler) |  |
 
 ### toString() {#toString--}
 ```

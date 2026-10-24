@@ -3,7 +3,7 @@ title: SectionValue
 second_title: Aspose.Email for Java API Reference
 description: Represents the content of the section.
 type: docs
-weight: 656
+weight: 661
 url: /java/com.aspose.email/sectionvalue/
 ---
 
@@ -47,7 +47,7 @@ Creates instance of SectionValue.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | java.lang.Object |  |
+| data | java.lang.Object | Section data. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -132,7 +132,7 @@ public final String toAmpHtml()
 AmpHtml representation of section value.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toHtml() {#toHtml--}
 ```
 public final String toHtml()
@@ -142,7 +142,7 @@ public final String toHtml()
 Html representation of section value.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toString() {#toString--}
 ```
 public String toString()

@@ -3,7 +3,7 @@ title: MapiCalendarRecurrenceEndType
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the ending type for the recurrence.
 type: docs
-weight: 420
+weight: 423
 url: /java/com.aspose.email/mapicalendarrecurrenceendtype/
 ---
 

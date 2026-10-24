@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarMonthlyNthRecurrencePattern
 second_title: Aspose.Email for Java API Reference
-description: Represents the monthly nth recurrence pattern of the mapi calendar
+description: Represents a monthly recurrence pattern that occurs on the Nth occurrence of specific days of the week e.g. the 2nd Monday of each month.
 type: docs
-weight: 415
+weight: 418
 url: /java/com.aspose.email/mapicalendarmonthlynthrecurrencepattern/
 ---
 
@@ -13,7 +13,11 @@ java.lang.Object, [com.aspose.email.MapiCalendarRecurrencePattern](../../com.asp
 public final class MapiCalendarMonthlyNthRecurrencePattern extends MapiCalendarYearlyAndMonthlyRecurrencePattern
 ```
 
-Represents the monthly nth recurrence pattern of the mapi calendar
+Represents a monthly recurrence pattern that occurs on the Nth occurrence of specific days of the week (e.g., "the 2nd Monday of each month"). This class inherits from [MapiCalendarYearlyAndMonthlyRecurrencePattern](../../com.aspose.email/mapicalendaryearlyandmonthlyrecurrencepattern) and provides the base functionality for monthly recurrence patterns in MAPI calendar items.
+
+--------------------
+
+Use this pattern for calendar events that recur on specific weekly occurrences within a month, such as "the first Friday" or "the last Tuesday". The recurrence behavior is defined by properties inherited from the base class, including [MapiCalendarRecurrencePattern](../../com.aspose.email/mapicalendarrecurrencepattern) and [MapiCalendarRecurrencePattern](../../com.aspose.email/mapicalendarrecurrencepattern). This pattern is used in [MapiCalendar](../../com.aspose.email/mapicalendar) to configure recurring monthly meeting schedules.
 ## Constructors
 
 | Constructor | Description |

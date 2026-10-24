@@ -3,7 +3,7 @@ title: MapiMessage
 second_title: Aspose.Email for Java API Reference
 description: Represents an Outlook Message format document that can be parsed.
 type: docs
-weight: 466
+weight: 469
 url: /java/com.aspose.email/mapimessage/
 ---
 
@@ -189,6 +189,7 @@ Instances of the MapiMessage class are used to represent Microsoft Outlook Messa
 | [setSubject(String value)](#setSubject-java.lang.String-) | Gets or sets the subject of the message. |
 | [toMailMessage(MailConversionOptions options)](#toMailMessage-com.aspose.email.MailConversionOptions-) | Creates an instance of MailMessage from this MapiMessage. |
 | [toMapiMessageItem()](#toMapiMessageItem--) | Convert MapiMessage to IMapiMessageItem object in dependence with MessageClass. |
+| [toMvPropertyList(Object obj)](#toMvPropertyList-java.lang.Object-) |  |
 | [toString()](#toString--) |  |
 | [tryGetPropertyData(long tag)](#tryGetPropertyData-long-) | Try to get the property data with specified tag key. |
 | [tryGetPropertyDateTime(long tag, Date[] value)](#tryGetPropertyDateTime-long-java.util.Date---) | Gets the value of the specified property as DateTime type. |
@@ -2036,6 +2037,21 @@ Convert MapiMessage to IMapiMessageItem object in dependence with MessageClass.
 
 **Returns:**
 [IMapiMessageItem](../../com.aspose.email/imapimessageitem) - The IMapiMessageItem interface.
+### toMvPropertyList(Object obj) {#toMvPropertyList-java.lang.Object-}
+```
+public static System.Collections.Generic.IGenericList<Object> toMvPropertyList(Object obj)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericList<java.lang.Object>
 ### toString() {#toString--}
 ```
 public String toString()

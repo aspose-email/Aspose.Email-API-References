@@ -1,9 +1,9 @@
 ---
 title: HtmlLoadOptions
 second_title: Aspose.Email for Java API Reference
-description: Allows to specify additional options when loading MailMessage from Html format.
+description: Provides options for controlling how  instances are loaded from HTML format.
 type: docs
-weight: 312
+weight: 315
 url: /java/com.aspose.email/htmlloadoptions/
 ---
 
@@ -13,7 +13,26 @@ java.lang.Object, [com.aspose.email.LoadOptions](../../com.aspose.email/loadopti
 public class HtmlLoadOptions extends LoadOptions
 ```
 
-Allows to specify additional options when loading MailMessage from Html format.
+Provides options for controlling how [MailMessage](../../com.aspose.email/mailmessage) instances are loaded from HTML format. This class allows you to specify resource paths and control the generation of plain text views when converting HTML messages to MailMessage objects.
+
+Use this class with [MailMessage.load(String, LoadOptions)](../../com.aspose.email/mailmessage\#load-String--LoadOptions-) to load HTML files and convert them to MailMessage objects. The \#setPathToResources(String).setPathToResources(String) property enables loading of external resources (images, CSS) referenced in the HTML, while \#shouldAddPlainTextView(boolean).shouldAddPlainTextView(boolean) controls whether to automatically generate a plain text alternate view.
+
+The following example shows how to load an HTML file and preserve external resources.
+
+```
+
+ // Create HTML load options with path to resources
+ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+ loadOptions.setPathToResources("C:\\resources\\");
+ loadOptions.shouldAddPlainTextView(true);
+
+ // Load HTML file
+ try (MailMessage message = MailMessage.load("sample.html", loadOptions)) {
+     // Convert to EML format
+     message.save("output.eml", SaveOptions.getDefaultEml());
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |

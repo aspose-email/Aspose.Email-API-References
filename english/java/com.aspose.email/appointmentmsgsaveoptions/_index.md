@@ -1,7 +1,7 @@
 ---
 title: AppointmentMsgSaveOptions
 second_title: Aspose.Email for Java API Reference
-description: Represents iCalendar save options
+description: Represents options for saving an appointment or calendar event to a message format.
 type: docs
 weight: 42
 url: /java/com.aspose.email/appointmentmsgsaveoptions/
@@ -13,7 +13,21 @@ java.lang.Object, [com.aspose.email.AppointmentSaveOptions](../../com.aspose.ema
 public final class AppointmentMsgSaveOptions extends AppointmentSaveOptions
 ```
 
-Represents iCalendar save options
+Represents options for saving an appointment or calendar event to a message format.
+
+This can be useful for converting iCalendar events to Outlook-compatible message formats while preserving important event details.
+
+This example demonstrates how to load an event from an ICS file and save it as a .msg file using [AppointmentMsgSaveOptions](../../com.aspose.email/appointmentmsgsaveoptions).
+
+```
+
+ // Load the calendar event from an ICS file
+ Appointment calendarEvent = Appointment.load("event.ics");
+
+ // Save the event as a .msg file using AppointmentMsgSaveOptions
+ calendarEvent.save("event.msg", new AppointmentMsgSaveOptions());
+ 
+```
 ## Constructors
 
 | Constructor | Description |

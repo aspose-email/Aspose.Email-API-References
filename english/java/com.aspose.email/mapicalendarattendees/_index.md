@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarAttendees
 second_title: Aspose.Email for Java API Reference
-description: Represents the mapi calendar attendees
+description: Represents the attendees and related properties for a MAPI calendar item meeting request appointment.
 type: docs
-weight: 406
+weight: 409
 url: /java/com.aspose.email/mapicalendarattendees/
 ---
 
@@ -13,7 +13,11 @@ java.lang.Object
 public final class MapiCalendarAttendees
 ```
 
-Represents the mapi calendar attendees
+Represents the attendees and related properties for a MAPI calendar item (meeting request, appointment). This class manages recipient information for calendar events, including required and optional attendees, unsendable recipients, and meeting-specific options like proposal restrictions.
+
+--------------------
+
+This class is used with [MapiCalendar](../../com.aspose.email/mapicalendar) to manage meeting attendees and their properties. The  AppointmentRecipients ([getAppointmentRecipients](../../com.aspose.email/mapicalendarattendees\#getAppointmentRecipients)/[setAppointmentRecipients(MapiRecipientCollection)](../../com.aspose.email/mapicalendarattendees\#setAppointmentRecipients-MapiRecipientCollection-)) collection contains the main attendees, while  AppointmentUnsendableRecipients ([getAppointmentUnsendableRecipients](../../com.aspose.email/mapicalendarattendees\#getAppointmentUnsendableRecipients)/[setAppointmentUnsendableRecipients(MapiRecipientCollection)](../../com.aspose.email/mapicalendarattendees\#setAppointmentUnsendableRecipients-MapiRecipientCollection-)) contains recipients that cannot be sent to directly. The  AppointmentNotAllowPropose  property controls whether attendees can propose new meeting times, and  ResponseRequested ([getResponseRequested](../../com.aspose.email/mapicalendarattendees\#getResponseRequested)/[setResponseRequested(boolean)](../../com.aspose.email/mapicalendarattendees\#setResponseRequested-boolean-)) indicates if a response is expected.
 ## Constructors
 
 | Constructor | Description |

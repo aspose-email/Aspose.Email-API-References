@@ -3,7 +3,7 @@ title: ImapRestoreSettingsAsync
 second_title: Aspose.Email for Java API Reference
 description: The settings for the ImapClient.Restore async method.
 type: docs
-weight: 347
+weight: 350
 url: /java/com.aspose.email/imaprestoresettingsasync/
 ---
 
@@ -99,7 +99,7 @@ public final System.AsyncCallback getCallback()
 References a method to be called when a corresponding asynchronous operation completes.
 
 **Returns:**
-com.aspose.ms.System.AsyncCallback
+[AsyncCallback](../../com.aspose.ms.system/asynccallback)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -3,7 +3,7 @@ title: DayOfWeek
 second_title: Aspose.Email for Java API Reference
 description: 
 type: docs
-weight: 149
+weight: 150
 url: /java/com.aspose.email/dayofweek/
 ---
 

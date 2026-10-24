@@ -3,7 +3,7 @@ title: ImapMessageInfoCollection
 second_title: Aspose.Email for Java API Reference
 description: Provides a container for a collection of  objects
 type: docs
-weight: 334
+weight: 337
 url: /java/com.aspose.email/imapmessageinfocollection/
 ---
 

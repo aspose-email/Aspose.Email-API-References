@@ -3,7 +3,7 @@ title: CarouselType
 second_title: Aspose.Email for Java API Reference
 description: Specifies the display type for the carousel items.
 type: docs
-weight: 103
+weight: 104
 url: /java/com.aspose.email/carouseltype/
 ---
 

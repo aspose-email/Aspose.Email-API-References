@@ -3,7 +3,7 @@ title: DateComparisonType
 second_title: Aspose.Email for Java API Reference
 description: Specifies a type of comparison
 type: docs
-weight: 146
+weight: 147
 url: /java/com.aspose.email/datecomparisontype/
 ---
 

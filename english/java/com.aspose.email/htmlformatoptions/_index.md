@@ -3,7 +3,7 @@ title: HtmlFormatOptions
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the Html format  options.
 type: docs
-weight: 311
+weight: 314
 url: /java/com.aspose.email/htmlformatoptions/
 ---
 
@@ -21,6 +21,7 @@ Enumerates the Html format options.
 | [DisplayAsOutlook](#DisplayAsOutlook) | Indicates that From header will be displayed as in Outlook. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
 | [None](#None) | No specific settings are specified. |
+| [PrintFormat](#PrintFormat) | Indicates that the HTML body should be created in a format suitable for printing. |
 | [RenderCalendarEvent](#RenderCalendarEvent) | Indicates that text from calendar event should be written in output mhtml. |
 | [RenderTaskFields](#RenderTaskFields) | Indicates that the specific Task fields should be written in output html. |
 | [RenderVCardInfo](#RenderVCardInfo) | Indicates that text from VCard AlternativeView should be written in output html. |
@@ -90,6 +91,14 @@ public static final int None
 
 
 No specific settings are specified.
+
+### PrintFormat {#PrintFormat}
+```
+public static final int PrintFormat
+```
+
+
+Indicates that the HTML body should be created in a format suitable for printing.
 
 ### RenderCalendarEvent {#RenderCalendarEvent}
 ```

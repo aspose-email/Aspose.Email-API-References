@@ -3,7 +3,7 @@ title: MapiDistributionListMemberCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 457
+weight: 460
 url: /java/com.aspose.email/mapidistributionlistmembercollection/
 ---
 
@@ -33,7 +33,7 @@ Represents a collection of [MapiDistributionListMember](../../com.aspose.email/m
 | [addAll(Collection<? extends T> arg0)](#addAll-java.util.Collection---extends-T--) |  |
 | [addItem(T arg0)](#addItem-T-) |  |
 | [addRange(T[] arg0)](#addRange-T---) |  |
-| [addRange(System.Collections.Generic.IGenericEnumerable<T> arg0)](#addRange-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-T--) |  |
+| [addRange(Iterable<T> arg0)](#addRange-java.lang.Iterable-T--) |  |
 | [asReadOnly()](#asReadOnly--) |  |
 | [binarySearch(T arg0)](#binarySearch-T-) |  |
 | [binarySearch(T arg0, Comparator<T> arg1)](#binarySearch-T-java.util.Comparator-T--) |  |
@@ -58,6 +58,14 @@ Represents a collection of [MapiDistributionListMember](../../com.aspose.email/m
 | [findLastIndex(int arg0, System.Predicate<T> arg1)](#findLastIndex-int-com.aspose.ms.System.Predicate-T--) |  |
 | [findLastIndex(int arg0, int arg1, System.Predicate<T> arg2)](#findLastIndex-int-int-com.aspose.ms.System.Predicate-T--) |  |
 | [forEach(System.Action<T> arg0)](#forEach-com.aspose.ms.System.Action-T--) |  |
+| [fromPrimitiveArray(boolean[] arg0)](#fromPrimitiveArray-boolean---) |  |
+| [fromPrimitiveArray(byte[] arg0)](#fromPrimitiveArray-byte---) |  |
+| [fromPrimitiveArray(char[] arg0)](#fromPrimitiveArray-char---) |  |
+| [fromPrimitiveArray(double[] arg0)](#fromPrimitiveArray-double---) |  |
+| [fromPrimitiveArray(float[] arg0)](#fromPrimitiveArray-float---) |  |
+| [fromPrimitiveArray(int[] arg0)](#fromPrimitiveArray-int---) |  |
+| [fromPrimitiveArray(long[] arg0)](#fromPrimitiveArray-long---) |  |
+| [fromPrimitiveArray(short[] arg0)](#fromPrimitiveArray-short---) |  |
 | [get(int arg0)](#get-int-) |  |
 | [getCapacity()](#getCapacity--) |  |
 | [getClass()](#getClass--) |  |
@@ -70,12 +78,13 @@ Represents a collection of [MapiDistributionListMember](../../com.aspose.email/m
 | [indexOf(Object arg0)](#indexOf-java.lang.Object-) |  |
 | [indexOfItem(T arg0)](#indexOfItem-T-) |  |
 | [insertItem(int arg0, T arg1)](#insertItem-int-T-) |  |
-| [insertRange(int arg0, System.Collections.Generic.IGenericEnumerable<T> arg1)](#insertRange-int-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-T--) |  |
+| [insertRange(int arg0, Iterable<T> arg1)](#insertRange-int-java.lang.Iterable-T--) |  |
 | [isEmpty()](#isEmpty--) |  |
 | [isFixedSize()](#isFixedSize--) |  |
 | [isReadOnly()](#isReadOnly--) |  |
 | [isSynchronized()](#isSynchronized--) |  |
 | [iterator()](#iterator--) |  |
+| [iteratorJava()](#iteratorJava--) |  |
 | [lastIndexOf(T arg0, int arg1)](#lastIndexOf-T-int-) |  |
 | [lastIndexOf(T arg0, int arg1, int arg2)](#lastIndexOf-T-int-int-) |  |
 | [lastIndexOf(Object arg0)](#lastIndexOf-java.lang.Object-) |  |
@@ -263,9 +272,9 @@ public void addRange(T[] arg0)
 | --- | --- | --- |
 | arg0 | T[] |  |
 
-### addRange(System.Collections.Generic.IGenericEnumerable<T> arg0) {#addRange-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-T--}
+### addRange(Iterable<T> arg0) {#addRange-java.lang.Iterable-T--}
 ```
-public void addRange(System.Collections.Generic.IGenericEnumerable<T> arg0)
+public void addRange(Iterable<T> arg0)
 ```
 
 
@@ -274,7 +283,7 @@ public void addRange(System.Collections.Generic.IGenericEnumerable<T> arg0)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arg0 | com.aspose.ms.System.Collections.Generic.IGenericEnumerable<T> |  |
+| arg0 | java.lang.Iterable<T> |  |
 
 ### asReadOnly() {#asReadOnly--}
 ```
@@ -629,6 +638,126 @@ public void forEach(System.Action<T> arg0)
 | --- | --- | --- |
 | arg0 | com.aspose.ms.System.Action<T> |  |
 
+### fromPrimitiveArray(boolean[] arg0) {#fromPrimitiveArray-boolean---}
+```
+public static System.Collections.Generic.List<Boolean> fromPrimitiveArray(boolean[] arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | boolean[] |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List<java.lang.Boolean>
+### fromPrimitiveArray(byte[] arg0) {#fromPrimitiveArray-byte---}
+```
+public static System.Collections.Generic.List<Byte> fromPrimitiveArray(byte[] arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | byte[] |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List<java.lang.Byte>
+### fromPrimitiveArray(char[] arg0) {#fromPrimitiveArray-char---}
+```
+public static System.Collections.Generic.List<Character> fromPrimitiveArray(char[] arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | char[] |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List<java.lang.Character>
+### fromPrimitiveArray(double[] arg0) {#fromPrimitiveArray-double---}
+```
+public static System.Collections.Generic.List<Double> fromPrimitiveArray(double[] arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | double[] |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List<java.lang.Double>
+### fromPrimitiveArray(float[] arg0) {#fromPrimitiveArray-float---}
+```
+public static System.Collections.Generic.List<Float> fromPrimitiveArray(float[] arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | float[] |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List<java.lang.Float>
+### fromPrimitiveArray(int[] arg0) {#fromPrimitiveArray-int---}
+```
+public static System.Collections.Generic.List<Integer> fromPrimitiveArray(int[] arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | int[] |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List<java.lang.Integer>
+### fromPrimitiveArray(long[] arg0) {#fromPrimitiveArray-long---}
+```
+public static System.Collections.Generic.List<Long> fromPrimitiveArray(long[] arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long[] |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List<java.lang.Long>
+### fromPrimitiveArray(short[] arg0) {#fromPrimitiveArray-short---}
+```
+public static System.Collections.Generic.List<Short> fromPrimitiveArray(short[] arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | short[] |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List<java.lang.Short>
 ### get(int arg0) {#get-int-}
 ```
 public T get(int arg0)
@@ -792,9 +921,9 @@ public void insertItem(int arg0, T arg1)
 | arg0 | int |  |
 | arg1 | T |  |
 
-### insertRange(int arg0, System.Collections.Generic.IGenericEnumerable<T> arg1) {#insertRange-int-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-T--}
+### insertRange(int arg0, Iterable<T> arg1) {#insertRange-int-java.lang.Iterable-T--}
 ```
-public void insertRange(int arg0, System.Collections.Generic.IGenericEnumerable<T> arg1)
+public void insertRange(int arg0, Iterable<T> arg1)
 ```
 
 
@@ -804,7 +933,7 @@ public void insertRange(int arg0, System.Collections.Generic.IGenericEnumerable<
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | int |  |
-| arg1 | com.aspose.ms.System.Collections.Generic.IGenericEnumerable<T> |  |
+| arg1 | java.lang.Iterable<T> |  |
 
 ### isEmpty() {#isEmpty--}
 ```
@@ -856,6 +985,16 @@ public System.Collections.Generic.List.Enumerator<T> iterator()
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.List.Enumerator<T>
+### iteratorJava() {#iteratorJava--}
+```
+public System.Collections.Generic.List.EnumeratorJava<T> iteratorJava()
+```
+
+
+
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List.EnumeratorJava<T>
 ### lastIndexOf(T arg0, int arg1) {#lastIndexOf-T-int-}
 ```
 public int lastIndexOf(T arg0, int arg1)

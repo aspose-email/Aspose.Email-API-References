@@ -3,7 +3,7 @@ title: GraphTaskListInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents information about TaskList.
 type: docs
-weight: 301
+weight: 304
 url: /java/com.aspose.email/graphtasklistinfo/
 ---
 
@@ -14,6 +14,11 @@ public class GraphTaskListInfo extends BaseRestObject
 ```
 
 Represents information about TaskList.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [GraphTaskListInfo()](#GraphTaskListInfo--) | Initializes a new instance of the [GraphTaskListInfo](../../com.aspose.email/graphtasklistinfo) class. |
 ## Methods
 
 | Method | Description |
@@ -37,6 +42,14 @@ Represents information about TaskList.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### GraphTaskListInfo() {#GraphTaskListInfo--}
+```
+public GraphTaskListInfo()
+```
+
+
+Initializes a new instance of the [GraphTaskListInfo](../../com.aspose.email/graphtasklistinfo) class.
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

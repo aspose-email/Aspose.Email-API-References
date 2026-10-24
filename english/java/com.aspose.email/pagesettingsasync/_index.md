@@ -3,7 +3,7 @@ title: PageSettingsAsync
 second_title: Aspose.Email for Java API Reference
 description: The settings for the ImapClient.BeginListMessagesByPage async method.
 type: docs
-weight: 582
+weight: 586
 url: /java/com.aspose.email/pagesettingsasync/
 ---
 
@@ -86,7 +86,7 @@ public final System.AsyncCallback getCallback()
 References a method to be called when a corresponding asynchronous operation completes.
 
 **Returns:**
-com.aspose.ms.System.AsyncCallback
+[AsyncCallback](../../com.aspose.ms.system/asynccallback)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

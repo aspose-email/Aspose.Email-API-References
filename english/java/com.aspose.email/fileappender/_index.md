@@ -3,7 +3,7 @@ title: FileAppender
 second_title: Aspose.Email for Java API Reference
 description: Reprensents a file appender.
 type: docs
-weight: 245
+weight: 248
 url: /java/com.aspose.email/fileappender/
 ---
 
@@ -83,7 +83,7 @@ Initializes a new instance of the FileAppender class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | The file name. |
-| useDate | boolean | Indicates if date is used in file name |
+| useDate | boolean | Indicates whether date is used in the file name. |
 
 ### FileAppender(String fileName, IFormatter formatter) {#FileAppender-java.lang.String-com.aspose.email.IFormatter-}
 ```
@@ -97,7 +97,7 @@ Initializes a new instance of the FileAppender class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | The file name. |
-| formatter | [IFormatter](../../com.aspose.email/iformatter) | Log formatter |
+| formatter | [IFormatter](../../com.aspose.email/iformatter) | The formatter. |
 
 ### FileAppender(String fileName, boolean useDate, IFormatter formatter) {#FileAppender-java.lang.String-boolean-com.aspose.email.IFormatter-}
 ```
@@ -111,8 +111,8 @@ Initializes a new instance of the FileAppender class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | The file name. |
-| useDate | boolean | Indicates if date is used in file name |
-| formatter | [IFormatter](../../com.aspose.email/iformatter) | Log formatter |
+| useDate | boolean | Indicates whether date is used in the file name. |
+| formatter | [IFormatter](../../com.aspose.email/iformatter) | The formatter; the default formatter is used when  null . |
 
 ### append(LogEntry logEntry) {#append-com.aspose.email.LogEntry-}
 ```
@@ -138,7 +138,7 @@ Appends a set of log entries to the appender.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| logEntries | [LogEntry\[\]](../../com.aspose.email/logentry) | A set of log entries to log. |
+| logEntries | [LogEntry\[\]](../../com.aspose.email/logentry) | The log entries. |
 
 ### appendHeader() {#appendHeader--}
 ```

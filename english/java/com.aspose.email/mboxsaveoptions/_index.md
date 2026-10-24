@@ -3,7 +3,7 @@ title: MboxSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Specifies additional options when save a Mbox storage.
 type: docs
-weight: 504
+weight: 507
 url: /java/com.aspose.email/mboxsaveoptions/
 ---
 

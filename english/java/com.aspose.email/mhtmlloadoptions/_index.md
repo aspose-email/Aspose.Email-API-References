@@ -1,9 +1,9 @@
 ---
 title: MhtmlLoadOptions
 second_title: Aspose.Email for Java API Reference
-description: Allows to specify additional options when loading MailMessage from Mhtml format.
+description: Provides options for controlling how  instances are loaded from MHTML format.
 type: docs
-weight: 543
+weight: 546
 url: /java/com.aspose.email/mhtmlloadoptions/
 ---
 
@@ -13,7 +13,11 @@ java.lang.Object, [com.aspose.email.LoadOptions](../../com.aspose.email/loadopti
 public class MhtmlLoadOptions extends LoadOptions
 ```
 
-Allows to specify additional options when loading MailMessage from Mhtml format.
+Provides options for controlling how [MailMessage](../../com.aspose.email/mailmessage) instances are loaded from MHTML format. This class allows you to customize the loading behavior for MHTML (MIME HTML) files, particularly for handling TNEF attachments that may be embedded in the message.
+
+--------------------
+
+Use this class with [MailMessage.load(String,LoadOptions)](../../com.aspose.email/mailmessage\#load-String-LoadOptions-) to load MHTML files and control TNEF attachment handling. MHTML is a web page archive format that combines HTML content and embedded resources into a single file. The  PreserveTnefAttachments ([getPreserveTnefAttachments](../../com.aspose.email/mhtmlloadoptions\#getPreserveTnefAttachments)/[setPreserveTnefAttachments(boolean)](../../com.aspose.email/mhtmlloadoptions\#setPreserveTnefAttachments-boolean-)) property controls whether TNEF attachments (winmail.dat) are decoded or preserved as-is.
 ## Constructors
 
 | Constructor | Description |

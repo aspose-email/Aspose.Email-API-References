@@ -3,7 +3,7 @@ title: FailureType
 second_title: Aspose.Email for Java API Reference
 description: Indicates the failure type.
 type: docs
-weight: 242
+weight: 245
 url: /java/com.aspose.email/failuretype/
 ---
 

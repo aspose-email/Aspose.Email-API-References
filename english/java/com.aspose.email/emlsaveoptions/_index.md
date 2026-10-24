@@ -1,9 +1,9 @@
 ---
 title: EmlSaveOptions
 second_title: Aspose.Email for Java API Reference
-description: Allows to specify additional options when saving MailMessage to Eml and Emlx format.
+description: Provides options for controlling how  instances are saved to EML and EMLX format.
 type: docs
-weight: 173
+weight: 176
 url: /java/com.aspose.email/emlsaveoptions/
 ---
 
@@ -13,23 +13,21 @@ java.lang.Object, [com.aspose.email.SaveOptions](../../com.aspose.email/saveopti
 public class EmlSaveOptions extends SaveOptions
 ```
 
-Allows to specify additional options when saving MailMessage to Eml and Emlx format.
+Provides options for controlling how [MailMessage](../../com.aspose.email/mailmessage) instances are saved to EML and EMLX format. This class allows you to customize the saving behavior for features such as embedded message format preservation, TNEF handling, signed message integrity, and boundary template configuration.
 
---------------------
+Use this class with [MailMessage.save(String, SaveOptions)](../../com.aspose.email/mailmessage\#save-String--SaveOptions-) to specify custom save options. Inherits from [SaveOptions](../../com.aspose.email/saveoptions) and adds EML/EMLX-specific configuration through properties like \#setPreserveEmbeddedMessageFormat(boolean).setPreserveEmbeddedMessageFormat(boolean), \#setPreserveSignedContent(boolean).setPreserveSignedContent(boolean), and \#setBoundariesTemplate(String).setBoundariesTemplate(String).
 
-> The following example shows how to load and Save an EML message Preserving the embedded message format.
-> 
-> [Java]
-> 
-> ```
-> MailMessage mailMessage = MailMessage.load("source.eml");
->  // Save as eml with preserved embedded message format
->  EmlSaveOptions emlSaveOptions = new EmlSaveOptions(MailMessageSaveType.getEmlFormat())
->  emlSaveOptions.setPreserveEmbeddedMessageFormat(true);
->  mailMessage.save("target.eml", emlSaveOptions);
-> ```
+The following example shows how to load and Save an EML message Preserving the embedded message format.
 
---------------------
+```
+
+ MailMessage mailMessage = MailMessage.load("source.eml");
+ // Save as eml with preserved embedded message format
+ EmlSaveOptions emlSaveOptions = new EmlSaveOptions(MailMessageSaveType.getEmlFormat());
+ emlSaveOptions.setPreserveEmbeddedMessageFormat(true);
+ mailMessage.save("target.eml", emlSaveOptions);
+ 
+```
 ## Constructors
 
 | Constructor | Description |

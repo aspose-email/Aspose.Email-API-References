@@ -3,7 +3,7 @@ title: CalendarRecurrencePattern
 second_title: Aspose.Email for Java API Reference
 description: Represents a recurrence pattern.
 type: docs
-weight: 99
+weight: 100
 url: /java/com.aspose.email/calendarrecurrencepattern/
 ---
 

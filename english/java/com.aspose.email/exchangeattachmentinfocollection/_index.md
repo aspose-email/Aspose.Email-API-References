@@ -3,7 +3,7 @@ title: ExchangeAttachmentInfoCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents the collection of
 type: docs
-weight: 190
+weight: 193
 url: /java/com.aspose.email/exchangeattachmentinfocollection/
 ---
 

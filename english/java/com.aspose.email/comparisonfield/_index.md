@@ -3,7 +3,7 @@ title: ComparisonField
 second_title: Aspose.Email for Java API Reference
 description: Base class that represents one search field.
 type: docs
-weight: 111
+weight: 112
 url: /java/com.aspose.email/comparisonfield/
 ---
 

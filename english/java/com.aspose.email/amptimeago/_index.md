@@ -32,7 +32,7 @@ Provides fuzzy timestamps by formatting dates as "X time ago"
 | [getFallback()](#getFallback--) | A fallback is a convention that allows the element to communicate to the reader that the browser does not support the element. |
 | [getLocale()](#getLocale--) | By default, the local is set to en; however, you can specify other locales. |
 | [getPlaceholder()](#getPlaceholder--) | The element marked with the placeholder attribute acts as a placeholder for the parent AMP element. |
-| [getRequiredScript()](#getRequiredScript--) | Required script that muct be added to head section. |
+| [getRequiredScript()](#getRequiredScript--) | Required script that must be added to head section. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -58,7 +58,7 @@ Create instance of AmpTimeago.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dateTime | java.util.Date |  |
+| dateTime | java.util.Date | AMP Date to initialize component with |
 
 ### AmpTimeago(Date dateTime, int width, int height) {#AmpTimeago-java.util.Date-int-int-}
 ```
@@ -71,9 +71,9 @@ Create instance of AmpTimeago.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dateTime | java.util.Date |  |
-| width | int |  |
-| height | int |  |
+| dateTime | java.util.Date | AMP Date to initialize component with |
+| width | int | Amp component width |
+| height | int | Amp component height |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -146,7 +146,10 @@ public final String getLocale()
 ```
 
 
-By default, the local is set to en; however, you can specify other locales. See full list of supported locales https://amp.dev/documentation/components/amp-timeago/?format=email
+By default, the local is set to en; however, you can specify other locales. See full list of supported locales [...][]
+
+
+[...]: https://amp.dev/documentation/components/amp-timeago/?format=email
 
 **Returns:**
 java.lang.String
@@ -166,7 +169,7 @@ public String getRequiredScript()
 ```
 
 
-Required script that muct be added to head section.
+Required script that must be added to head section.
 
 **Returns:**
 java.lang.String
@@ -241,7 +244,10 @@ public final void setLocale(String value)
 ```
 
 
-By default, the local is set to en; however, you can specify other locales. See full list of supported locales https://amp.dev/documentation/components/amp-timeago/?format=email
+By default, the local is set to en; however, you can specify other locales. See full list of supported locales [...][]
+
+
+[...]: https://amp.dev/documentation/components/amp-timeago/?format=email
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -270,7 +276,7 @@ public String toAmpHtml()
 Represents amp html version of component.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toHtml() {#toHtml--}
 ```
 public String toHtml()
@@ -280,7 +286,7 @@ public String toHtml()
 Represents html version of component.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toString() {#toString--}
 ```
 public String toString()

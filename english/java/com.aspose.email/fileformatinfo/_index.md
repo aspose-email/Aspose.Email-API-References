@@ -3,7 +3,7 @@ title: FileFormatInfo
 second_title: Aspose.Email for Java API Reference
 description: Contains data returned by FileFormatUtil file format detection methods.
 type: docs
-weight: 250
+weight: 253
 url: /java/com.aspose.email/fileformatinfo/
 ---
 

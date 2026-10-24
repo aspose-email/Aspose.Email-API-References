@@ -1,9 +1,9 @@
 ---
 title: MapiContactPhysicalAddress
 second_title: Aspose.Email for Java API Reference
-description: Refers to the group of properties that  define physical address for a contact.
+description: Represents a group of properties that define a physical address for a contact.
 type: docs
-weight: 446
+weight: 449
 url: /java/com.aspose.email/mapicontactphysicaladdress/
 ---
 
@@ -13,7 +13,11 @@ java.lang.Object, [com.aspose.email.MapiContactAddress](../../com.aspose.email/m
 public final class MapiContactPhysicalAddress extends MapiContactAddress
 ```
 
-Refers to the group of properties that define physical address for a contact.
+Represents a group of properties that define a physical address for a contact. This class provides functionality for managing contact physical addresses through properties such as street, city, state, postal code, country, and mail address flags.
+
+--------------------
+
+Use this class to manage physical addresses in [MapiContact](../../com.aspose.email/mapicontact) items. The class supports multiple address types (home, work, other) and includes properties like  Street ([getStreet](../../com.aspose.email/mapicontactphysicaladdress\#getStreet)/[setStreet(String)](../../com.aspose.email/mapicontactphysicaladdress\#setStreet-String-)),  City ([getCity](../../com.aspose.email/mapicontactphysicaladdress\#getCity)/[setCity(String)](../../com.aspose.email/mapicontactphysicaladdress\#setCity-String-)),  StateOrProvince ([getStateOrProvince](../../com.aspose.email/mapicontactphysicaladdress\#getStateOrProvince)/[setStateOrProvince(String)](../../com.aspose.email/mapicontactphysicaladdress\#setStateOrProvince-String-)),  PostalCode ([getPostalCode](../../com.aspose.email/mapicontactphysicaladdress\#getPostalCode)/[setPostalCode(String)](../../com.aspose.email/mapicontactphysicaladdress\#setPostalCode-String-)),  Country ([getCountry](../../com.aspose.email/mapicontactphysicaladdress\#getCountry)/[setCountry(String)](../../com.aspose.email/mapicontactphysicaladdress\#setCountry-String-)), and  IsMailingAddress ([isMailingAddress](../../com.aspose.email/mapicontactphysicaladdress\#isMailingAddress)/[setMailingAddress(boolean)](../../com.aspose.email/mapicontactphysicaladdress\#setMailingAddress-boolean-)) to fully define a physical address.
 ## Constructors
 
 | Constructor | Description |

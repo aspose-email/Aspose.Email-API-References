@@ -3,7 +3,7 @@ title: VCardSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Represents vCard save options
 type: docs
-weight: 749
+weight: 760
 url: /java/com.aspose.email/vcardsaveoptions/
 ---
 
@@ -29,6 +29,7 @@ Represents vCard save options
 | [getClass()](#getClass--) |  |
 | [getDefault()](#getDefault--) | Gets default [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions) |
 | [getPreferredTextEncoding()](#getPreferredTextEncoding--) | Gets or sets Encoding that will be used to save Contact. |
+| [getProductId()](#getProductId--) | Gets or sets the product identifier that created VCard object. |
 | [getSaveFormat()](#getSaveFormat--) | Gets a save format |
 | [getUseExtensions()](#getUseExtensions--) | Gets or sets a value indicating whether the extended types can be used |
 | [getVersion()](#getVersion--) | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
@@ -36,6 +37,7 @@ Represents vCard save options
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setPreferredTextEncoding(Charset value)](#setPreferredTextEncoding-java.nio.charset.Charset-) | Gets or sets Encoding that will be used to save Contact. |
+| [setProductId(String value)](#setProductId-java.lang.String-) | Gets or sets the product identifier that created VCard object. |
 | [setUseExtensions(boolean value)](#setUseExtensions-boolean-) | Gets or sets a value indicating whether the extended types can be used |
 | [setVersion(int value)](#setVersion-int-) | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
 | [toString()](#toString--) |  |
@@ -122,6 +124,18 @@ Gets or sets Encoding that will be used to save Contact.
 
 **Returns:**
 java.nio.charset.Charset
+### getProductId() {#getProductId--}
+```
+public final String getProductId()
+```
+
+
+Gets or sets the product identifier that created VCard object.
+
+Value: The product identifier.
+
+**Returns:**
+java.lang.String
 ### getSaveFormat() {#getSaveFormat--}
 ```
 public final int getSaveFormat()
@@ -190,6 +204,21 @@ Gets or sets Encoding that will be used to save Contact.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.nio.charset.Charset |  |
+
+### setProductId(String value) {#setProductId-java.lang.String-}
+```
+public final void setProductId(String value)
+```
+
+
+Gets or sets the product identifier that created VCard object.
+
+Value: The product identifier.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setUseExtensions(boolean value) {#setUseExtensions-boolean-}
 ```

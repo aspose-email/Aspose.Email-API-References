@@ -3,7 +3,7 @@ title: SendGridClientOptions
 second_title: Aspose.Email for Java API Reference
 description: Options to set the SendGridClient parameters.
 type: docs
-weight: 660
+weight: 665
 url: /java/com.aspose.email/sendgridclientoptions/
 ---
 

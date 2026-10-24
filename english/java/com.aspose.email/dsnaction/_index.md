@@ -3,7 +3,7 @@ title: DSNAction
 second_title: Aspose.Email for Java API Reference
 description: Indicates the action performed by the Reporting-MTA as a result of its attempt to deliver the message.
 type: docs
-weight: 135
+weight: 136
 url: /java/com.aspose.email/dsnaction/
 ---
 
@@ -24,7 +24,7 @@ Indicates the action performed by the Reporting-MTA as a result of its attempt t
 | [Expanded](#Expanded) | Indicates that the message has been successfully delivered to the recipient address as specified by the sender, and forwarded by the Reporting-MTA beyond that destination to multiple additional recipient addresses. |
 | [Failed](#Failed) | Indicates that the message could not be delivered to the recipient. |
 | [None](#None) | None of actions. |
-| [Relayed](#Relayed) | Indicates that the message has been relayed or gatewayed into an environment that does not accept responsibility for generating DSNs upon successful delivery. |
+| [Relayed](#Relayed) | Indicates that the message has been relayed or gateway into an environment that does not accept responsibility for generating DSNs upon successful delivery. |
 ## Methods
 
 | Method | Description |
@@ -116,7 +116,7 @@ public static final int Relayed
 ```
 
 
-Indicates that the message has been relayed or gatewayed into an environment that does not accept responsibility for generating DSNs upon successful delivery. This action-value SHOULD NOT be used unless the sender has requested notification of successful delivery for this recipient.
+Indicates that the message has been relayed or gateway into an environment that does not accept responsibility for generating DSNs upon successful delivery. This action-value SHOULD NOT be used unless the sender has requested notification of successful delivery for this recipient.
 
 ### Clone() {#Clone--}
 ```

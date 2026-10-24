@@ -3,7 +3,7 @@ title: GraphNotebook
 second_title: Aspose.Email for Java API Reference
 description: ... A OneNote notebook.
 type: docs
-weight: 295
+weight: 298
 url: /java/com.aspose.email/graphnotebook/
 ---
 
@@ -27,7 +27,7 @@ public class GraphNotebook
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromJsonArray(JSONObject jsonValue, int resource, String resourceId)](#fromJsonArray-com.aspose.json.JSONObject-int-java.lang.String-) |  |
+| [fromJsonArray(JSONObject jsonValue, int resource, String resourceId)](#fromJsonArray-com.aspose.ext.json.JSONObject-int-java.lang.String-) |  |
 | [getClass()](#getClass--) |  |
 | [getCreatedBy()](#getCreatedBy--) | Identity of the user, device, and application which created the item. |
 | [getCreatedDateTime()](#getCreatedDateTime--) | The date and time when the notebook was created. |
@@ -72,7 +72,7 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromJsonArray(JSONObject jsonValue, int resource, String resourceId) {#fromJsonArray-com.aspose.json.JSONObject-int-java.lang.String-}
+### fromJsonArray(JSONObject jsonValue, int resource, String resourceId) {#fromJsonArray-com.aspose.ext.json.JSONObject-int-java.lang.String-}
 ```
 public static GraphNotebookCollection fromJsonArray(JSONObject jsonValue, int resource, String resourceId)
 ```
@@ -83,7 +83,7 @@ public static GraphNotebookCollection fromJsonArray(JSONObject jsonValue, int re
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| jsonValue | com.aspose.json.JSONObject |  |
+| jsonValue | com.aspose.ext.json.JSONObject |  |
 | resource | int |  |
 | resourceId | java.lang.String |  |
 

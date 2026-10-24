@@ -1,7 +1,7 @@
 ---
 title: AppointmentLoadOptions
 second_title: Aspose.Email for Java API Reference
-description: Represents appointment load options
+description: Represents options for loading an appointment from an ICS iCalendar file.
 type: docs
 weight: 40
 url: /java/com.aspose.email/appointmentloadoptions/
@@ -13,7 +13,24 @@ java.lang.Object
 public class AppointmentLoadOptions
 ```
 
-Represents appointment load options
+Represents options for loading an appointment from an ICS (iCalendar) file.
+
+The [AppointmentLoadOptions](../../com.aspose.email/appointmentloadoptions) class provides configurable options for customizing how appointments are loaded from an iCalendar file. These options include detecting the file encoding, applying the local time zone, and ignoring SMTP address validation during the load process.
+
+This example demonstrates how to configure and use [AppointmentLoadOptions](../../com.aspose.email/appointmentloadoptions) to load an appointment with custom settings.
+
+```
+
+ // Create an instance of AppointmentLoadOptions with custom settings
+ AppointmentLoadOptions loadOptions = new AppointmentLoadOptions();
+ loadOptions.setDetectEncoding(true);
+ loadOptions.setApplyLocalTZ(true);
+ loadOptions.setIgnoreSmtpAddressCheck(true);
+
+ // Load the appointment from the ICS file using the specified load options
+ Appointment appointment = Appointment.load("appRequest.ics", loadOptions);
+ 
+```
 ## Constructors
 
 | Constructor | Description |

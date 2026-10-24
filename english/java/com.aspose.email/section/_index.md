@@ -3,7 +3,7 @@ title: Section
 second_title: Aspose.Email for Java API Reference
 description: Element of AmpAccordion.
 type: docs
-weight: 653
+weight: 658
 url: /java/com.aspose.email/section/
 ---
 
@@ -175,7 +175,7 @@ public final String toAmpHtml()
 AmpHtml representation of section value.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toHtml() {#toHtml--}
 ```
 public final String toHtml()
@@ -185,7 +185,7 @@ public final String toHtml()
 Html representation of section.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toString() {#toString--}
 ```
 public String toString()

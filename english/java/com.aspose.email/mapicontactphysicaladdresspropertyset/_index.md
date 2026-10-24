@@ -3,7 +3,7 @@ title: MapiContactPhysicalAddressPropertySet
 second_title: Aspose.Email for Java API Reference
 description: Specify three physical addresses  Home Address Work Address and Other Address.
 type: docs
-weight: 447
+weight: 450
 url: /java/com.aspose.email/mapicontactphysicaladdresspropertyset/
 ---
 

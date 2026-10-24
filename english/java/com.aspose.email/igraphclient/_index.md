@@ -1,9 +1,9 @@
 ---
 title: IGraphClient
 second_title: Aspose.Email for Java API Reference
-description: Represents the interface for Exchange REST client.
+description: Represents the interface for Graph REST client.
 type: docs
-weight: 781
+weight: 793
 url: /java/com.aspose.email/igraphclient/
 ---
 
@@ -13,7 +13,7 @@ com.aspose.ms.System.IDisposable
 public interface IGraphClient extends System.IDisposable
 ```
 
-Represents the interface for Exchange REST client.
+Represents the interface for Graph REST client.
 ## Methods
 
 | Method | Description |
@@ -47,7 +47,8 @@ Represents the interface for Exchange REST client.
 | [fetchNotebook(String itemId)](#fetchNotebook-java.lang.String-) | Retrieve the properties and relationships of a notebook object. |
 | [fetchRule(String itemId)](#fetchRule-java.lang.String-) | Get the properties and relationships of a message rule object. |
 | [fetchTask(String id)](#fetchTask-java.lang.String-) | Gets MapiTask for specified id |
-| [getEndpoint()](#getEndpoint--) | Gets or sets Endpoint URL. |
+| [getContactFolder()](#getContactFolder--) | Gets main contact folder. |
+| [getEndpoint()](#getEndpoint--) | Gets or sets Microsoft Graph REST API endpoint. |
 | [getFolder(String id)](#getFolder-java.lang.String-) | Gets folder by an id. |
 | [getMultipleServicesTokenProvider()](#getMultipleServicesTokenProvider--) | Gets or sets an object allows to retrieve OAuth access token. |
 | [getOneNoteOperationStatus(String operationId)](#getOneNoteOperationStatus-java.lang.String-) | Get the status of a long-running OneNote operation. |
@@ -58,23 +59,40 @@ Represents the interface for Exchange REST client.
 | [getTimeout()](#getTimeout--) | Gets or sets the number of milliseconds to wait before the operation times out. |
 | [getTokenProvider()](#getTokenProvider--) | Gets or sets an object allows to retrieve OAuth access token. |
 | [listAttachments(String id)](#listAttachments-java.lang.String-) | List Attachments from the parent message. |
+| [listAttachments(String id, ODataQueryBuilder queryBuilder)](#listAttachments-java.lang.String-com.aspose.email.ODataQueryBuilder-) | List Attachments from the parent message. |
 | [listCalendarItems(String id)](#listCalendarItems-java.lang.String-) | List MapiCalendar from the calendar. |
+| [listCalendarItems(String id, ODataQueryBuilder queryBuilder)](#listCalendarItems-java.lang.String-com.aspose.email.ODataQueryBuilder-) | List MapiCalendar from the calendar. |
 | [listCalendars()](#listCalendars--) | List CalendarInfo items. |
+| [listCalendars(ODataQueryBuilder queryBuilder)](#listCalendars-com.aspose.email.ODataQueryBuilder-) | List CalendarInfo items. |
 | [listCategories()](#listCategories--) | Get all the categories that have been defined for the user. |
+| [listCategories(ODataQueryBuilder queryBuilder)](#listCategories-com.aspose.email.ODataQueryBuilder-) | Get all the categories that have been defined for the user. |
 | [listCategoriesInternal()](#listCategoriesInternal--) |  |
+| [listCategoriesInternal(ODataQueryBuilder queryBuilder)](#listCategoriesInternal-com.aspose.email.ODataQueryBuilder-) |  |
 | [listContactFolders()](#listContactFolders--) | Get a collection of child folders under the root contact folder. |
+| [listContactFolders(ODataQueryBuilder queryBuilder)](#listContactFolders-com.aspose.email.ODataQueryBuilder-) | Get a collection of child folders under the root contact folder. |
 | [listContacts(String id)](#listContacts-java.lang.String-) | List MapiContact from the parent folder. |
-| [listFolders()](#listFolders--) | List folders from the root folder. |
+| [listContacts(String id, ODataQueryBuilder queryBuilder)](#listContacts-java.lang.String-com.aspose.email.ODataQueryBuilder-) | List MapiContact from the parent folder. |
+| [listFolders()](#listFolders--) | List folders from the parent folder for folders that are displayed in normal mail clients, such as the inbox. |
+| [listFolders(ODataQueryBuilder queryBuilder)](#listFolders-com.aspose.email.ODataQueryBuilder-) | List folders from the parent folder for folders that are displayed in normal mail clients, such as the inbox. |
 | [listFolders(String id)](#listFolders-java.lang.String-) | List folders from the parent folder for folders that are displayed in normal mail clients, such as the inbox. |
+| [listFolders(String id, ODataQueryBuilder queryBuilder)](#listFolders-java.lang.String-com.aspose.email.ODataQueryBuilder-) | List folders from the parent folder for folders that are displayed in normal mail clients, such as the inbox. |
 | [listMessages(String id)](#listMessages-java.lang.String-) | List GraphMessageInfo from the parent folder. |
+| [listMessages(String id, ODataQueryBuilder queryBuilder)](#listMessages-java.lang.String-com.aspose.email.ODataQueryBuilder-) | List MessageInfo from the parent folder. |
 | [listMessages(String id, PageInfo page, MailQuery query)](#listMessages-java.lang.String-com.aspose.email.PageInfo-com.aspose.email.MailQuery-) | List GraphMessageInfo from the parent folder. |
 | [listNotebooks()](#listNotebooks--) | Retrieve a list of notebook objects. |
+| [listNotebooks(ODataQueryBuilder queryBuilder)](#listNotebooks-com.aspose.email.ODataQueryBuilder-) | Retrieve a list of notebook objects. |
 | [listOverrides()](#listOverrides--) | Get the overrides that a user has set up to always classify messages from certain senders in specific ways. |
+| [listOverrides(ODataQueryBuilder queryBuilder)](#listOverrides-com.aspose.email.ODataQueryBuilder-) | Get the overrides that a user has set up to always classify messages from certain senders in specific ways. |
 | [listOverridesInternal()](#listOverridesInternal--) |  |
+| [listOverridesInternal(ODataQueryBuilder queryBuilder)](#listOverridesInternal-com.aspose.email.ODataQueryBuilder-) |  |
 | [listRules()](#listRules--) | Get all the messageRule objects defined for the user's Inbox. |
+| [listRules(ODataQueryBuilder queryBuilder)](#listRules-com.aspose.email.ODataQueryBuilder-) | Get all the messageRule objects defined for the user's Inbox. |
 | [listRulesInternal()](#listRulesInternal--) |  |
+| [listRulesInternal(ODataQueryBuilder queryBuilder)](#listRulesInternal-com.aspose.email.ODataQueryBuilder-) |  |
 | [listTaskLists()](#listTaskLists--) | List TaskList items. |
+| [listTaskLists(ODataQueryBuilder queryBuilder)](#listTaskLists-com.aspose.email.ODataQueryBuilder-) | List TaskList items. |
 | [listTasks(String id)](#listTasks-java.lang.String-) | List MapiTask from the parent TaskList. |
+| [listTasks(String id, ODataQueryBuilder queryBuilder)](#listTasks-java.lang.String-com.aspose.email.ODataQueryBuilder-) | List MapiTask from the parent TaskList. |
 | [moveFolder(String newParentId, String itemId)](#moveFolder-java.lang.String-java.lang.String-) | Move a mailfolder and its contents to another mailfolder. |
 | [moveMessage(String newParentId, String itemId)](#moveMessage-java.lang.String-java.lang.String-) | Move a message to another mailfolder. |
 | [send(MailMessage message)](#send-com.aspose.email.MailMessage-) | Sends email message using MIME format |
@@ -82,9 +100,9 @@ Represents the interface for Exchange REST client.
 | [send(MapiMessage message, boolean saveToSentItems)](#send-com.aspose.email.MapiMessage-boolean-) | Sends email message |
 | [send(String itemId)](#send-java.lang.String-) | Send a message in the draft folder. |
 | [sendAsMime(MapiMessage message)](#sendAsMime-com.aspose.email.MapiMessage-) | Sends email message using MIME format |
-| [setEndpoint(String value)](#setEndpoint-java.lang.String-) | Gets or sets Endpoint URL. |
+| [setEndpoint(String value)](#setEndpoint-java.lang.String-) | Gets or sets Microsoft Graph REST API endpoint. |
 | [setMultipleServicesTokenProvider(IMultipleServicesTokenProvider value)](#setMultipleServicesTokenProvider-com.aspose.email.IMultipleServicesTokenProvider-) | Gets or sets an object allows to retrieve OAuth access token. |
-| [setRead(String itemId)](#setRead-java.lang.String-) | Mark message as read. |
+| [setRead(String itemId)](#setRead-java.lang.String-) | Mark message as read |
 | [setResource(int value)](#setResource-int-) | Gets or sets resource type. |
 | [setResourceId(String value)](#setResourceId-java.lang.String-) | Gets or sets resource id. |
 | [setTenantId(String value)](#setTenantId-java.lang.String-) | Gets or sets tenant identifier |
@@ -546,13 +564,26 @@ Gets MapiTask for specified id
 
 **Returns:**
 [MapiTask](../../com.aspose.email/mapitask) - Returns MapiTask
+### getContactFolder() {#getContactFolder--}
+```
+public abstract GraphFolderInfo getContactFolder()
+```
+
+
+Gets main contact folder. This method requires that at least one contact exists in the main contacts folder, otherwise it will return null. [...][]
+
+
+[...]: https://learn.microsoft.com/en-us/answers/questions/854621/how-to-get-folder-id-of-default-contacts-folder-wh
+
+**Returns:**
+[GraphFolderInfo](../../com.aspose.email/graphfolderinfo) - Returns main contact folder.
 ### getEndpoint() {#getEndpoint--}
 ```
 public abstract String getEndpoint()
 ```
 
 
-Gets or sets Endpoint URL.
+Gets or sets Microsoft Graph REST API endpoint. If not specified, the default is "https://graph.microsoft.com".
 
 **Returns:**
 java.lang.String
@@ -595,7 +626,7 @@ Get the status of a long-running OneNote operation. This applies to operations t
 | operationId | java.lang.String | Operation id |
 
 **Returns:**
-[GraphOnenoteOperation](../../com.aspose.email/graphonenoteoperation) - 
+[GraphOnenoteOperation](../../com.aspose.email/graphonenoteoperation) - OneNote operation
 ### getResource() {#getResource--}
 ```
 public abstract int getResource()
@@ -676,6 +707,22 @@ List Attachments from the parent message.
 
 **Returns:**
 [MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) - Returns list of attachments of a message
+### listAttachments(String id, ODataQueryBuilder queryBuilder) {#listAttachments-java.lang.String-com.aspose.email.ODataQueryBuilder-}
+```
+public abstract MapiAttachmentCollection listAttachments(String id, ODataQueryBuilder queryBuilder)
+```
+
+
+List Attachments from the parent message.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | java.lang.String | Parent message id |
+| queryBuilder | [ODataQueryBuilder](../../com.aspose.email/odataquerybuilder) | Optional OData query builder for filtering attachments. |
+
+**Returns:**
+[MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) - Returns list of attachments of a message
 ### listCalendarItems(String id) {#listCalendarItems-java.lang.String-}
 ```
 public abstract MapiCalendarCollection listCalendarItems(String id)
@@ -691,6 +738,22 @@ List MapiCalendar from the calendar.
 
 **Returns:**
 [MapiCalendarCollection](../../com.aspose.email/mapicalendarcollection) - Returns list of MapiCalendar
+### listCalendarItems(String id, ODataQueryBuilder queryBuilder) {#listCalendarItems-java.lang.String-com.aspose.email.ODataQueryBuilder-}
+```
+public abstract MapiCalendarCollection listCalendarItems(String id, ODataQueryBuilder queryBuilder)
+```
+
+
+List MapiCalendar from the calendar.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | java.lang.String | Calendar id |
+| queryBuilder | [ODataQueryBuilder](../../com.aspose.email/odataquerybuilder) | Optional OData query builder for filtering calendar items. |
+
+**Returns:**
+[MapiCalendarCollection](../../com.aspose.email/mapicalendarcollection) - Returns list of MapiCalendar
 ### listCalendars() {#listCalendars--}
 ```
 public abstract GraphCalendarInfoCollection listCalendars()
@@ -698,6 +761,21 @@ public abstract GraphCalendarInfoCollection listCalendars()
 
 
 List CalendarInfo items.
+
+**Returns:**
+[GraphCalendarInfoCollection](../../com.aspose.email/graphcalendarinfocollection) - Returns list of CalendarInfo [GraphCalendarInfo](../../com.aspose.email/graphcalendarinfo)
+### listCalendars(ODataQueryBuilder queryBuilder) {#listCalendars-com.aspose.email.ODataQueryBuilder-}
+```
+public abstract GraphCalendarInfoCollection listCalendars(ODataQueryBuilder queryBuilder)
+```
+
+
+List CalendarInfo items.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| queryBuilder | [ODataQueryBuilder](../../com.aspose.email/odataquerybuilder) | Optional OData query builder for filtering calendar items. |
 
 **Returns:**
 [GraphCalendarInfoCollection](../../com.aspose.email/graphcalendarinfocollection) - Returns list of CalendarInfo [GraphCalendarInfo](../../com.aspose.email/graphcalendarinfo)
@@ -711,6 +789,21 @@ Get all the categories that have been defined for the user.
 
 **Returns:**
 java.util.List<com.aspose.email.OutlookCategory> - Returns list of categories for the user
+### listCategories(ODataQueryBuilder queryBuilder) {#listCategories-com.aspose.email.ODataQueryBuilder-}
+```
+public abstract List<OutlookCategory> listCategories(ODataQueryBuilder queryBuilder)
+```
+
+
+Get all the categories that have been defined for the user.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| queryBuilder | [ODataQueryBuilder](../../com.aspose.email/odataquerybuilder) | Optional OData query builder for filtering categories. |
+
+**Returns:**
+java.util.List<com.aspose.email.OutlookCategory> - Returns list of categories for the user
 ### listCategoriesInternal() {#listCategoriesInternal--}
 ```
 public abstract System.Collections.Generic.List<OutlookCategory> listCategoriesInternal()
@@ -718,6 +811,21 @@ public abstract System.Collections.Generic.List<OutlookCategory> listCategoriesI
 
 
 
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List<com.aspose.email.OutlookCategory>
+### listCategoriesInternal(ODataQueryBuilder queryBuilder) {#listCategoriesInternal-com.aspose.email.ODataQueryBuilder-}
+```
+public abstract System.Collections.Generic.List<OutlookCategory> listCategoriesInternal(ODataQueryBuilder queryBuilder)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| queryBuilder | [ODataQueryBuilder](../../com.aspose.email/odataquerybuilder) |  |
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.List<com.aspose.email.OutlookCategory>
@@ -731,6 +839,21 @@ Get a collection of child folders under the root contact folder.
 
 **Returns:**
 [GraphFolderInfoCollection](../../com.aspose.email/graphfolderinfocollection) - RReturns list of subfolders of the root contact folder
+### listContactFolders(ODataQueryBuilder queryBuilder) {#listContactFolders-com.aspose.email.ODataQueryBuilder-}
+```
+public abstract GraphFolderInfoCollection listContactFolders(ODataQueryBuilder queryBuilder)
+```
+
+
+Get a collection of child folders under the root contact folder.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| queryBuilder | [ODataQueryBuilder](../../com.aspose.email/odataquerybuilder) | Optional OData query builder for filtering calendar items. |
+
+**Returns:**
+[GraphFolderInfoCollection](../../com.aspose.email/graphfolderinfocollection) - Returns list of subfolders of the root contact folder
 ### listContacts(String id) {#listContacts-java.lang.String-}
 ```
 public abstract MapiContactCollection listContacts(String id)
@@ -746,13 +869,44 @@ List MapiContact from the parent folder.
 
 **Returns:**
 [MapiContactCollection](../../com.aspose.email/mapicontactcollection) - Returns list of MapiContact of the folder
+### listContacts(String id, ODataQueryBuilder queryBuilder) {#listContacts-java.lang.String-com.aspose.email.ODataQueryBuilder-}
+```
+public abstract MapiContactCollection listContacts(String id, ODataQueryBuilder queryBuilder)
+```
+
+
+List MapiContact from the parent folder.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | java.lang.String | Parent folder id |
+| queryBuilder | [ODataQueryBuilder](../../com.aspose.email/odataquerybuilder) | Optional OData query builder for filtering contacts. |
+
+**Returns:**
+[MapiContactCollection](../../com.aspose.email/mapicontactcollection) - Returns list of MapiContact of the folder
 ### listFolders() {#listFolders--}
 ```
 public abstract GraphFolderInfoCollection listFolders()
 ```
 
 
-List folders from the root folder.
+List folders from the parent folder for folders that are displayed in normal mail clients, such as the inbox.
+
+**Returns:**
+[GraphFolderInfoCollection](../../com.aspose.email/graphfolderinfocollection) - Returns list of subfolders of the root folder
+### listFolders(ODataQueryBuilder queryBuilder) {#listFolders-com.aspose.email.ODataQueryBuilder-}
+```
+public abstract GraphFolderInfoCollection listFolders(ODataQueryBuilder queryBuilder)
+```
+
+
+List folders from the parent folder for folders that are displayed in normal mail clients, such as the inbox.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| queryBuilder | [ODataQueryBuilder](../../com.aspose.email/odataquerybuilder) | Optional OData query builder for filtering folders. |
 
 **Returns:**
 [GraphFolderInfoCollection](../../com.aspose.email/graphfolderinfocollection) - Returns list of subfolders of the root folder
@@ -771,6 +925,22 @@ List folders from the parent folder for folders that are displayed in normal mai
 
 **Returns:**
 [GraphFolderInfoCollection](../../com.aspose.email/graphfolderinfocollection) - Returns list of subfolders of the root folder
+### listFolders(String id, ODataQueryBuilder queryBuilder) {#listFolders-java.lang.String-com.aspose.email.ODataQueryBuilder-}
+```
+public abstract GraphFolderInfoCollection listFolders(String id, ODataQueryBuilder queryBuilder)
+```
+
+
+List folders from the parent folder for folders that are displayed in normal mail clients, such as the inbox.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | java.lang.String | Parent folder id |
+| queryBuilder | [ODataQueryBuilder](../../com.aspose.email/odataquerybuilder) | Optional OData query builder for filtering folders. |
+
+**Returns:**
+[GraphFolderInfoCollection](../../com.aspose.email/graphfolderinfocollection) - Returns list of subfolders of the root folder
 ### listMessages(String id) {#listMessages-java.lang.String-}
 ```
 public abstract GraphMessageInfoCollection listMessages(String id)
@@ -786,6 +956,22 @@ List GraphMessageInfo from the parent folder. The [GraphKnownFolders](../../com.
 
 **Returns:**
 [GraphMessageInfoCollection](../../com.aspose.email/graphmessageinfocollection) - Returns list of GraphMessageInfo of the folder
+### listMessages(String id, ODataQueryBuilder queryBuilder) {#listMessages-java.lang.String-com.aspose.email.ODataQueryBuilder-}
+```
+public abstract GraphMessageInfoCollection listMessages(String id, ODataQueryBuilder queryBuilder)
+```
+
+
+List MessageInfo from the parent folder.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | java.lang.String | Parent folder id |
+| queryBuilder | [ODataQueryBuilder](../../com.aspose.email/odataquerybuilder) | Optional OData query builder for filtering messages. |
+
+**Returns:**
+[GraphMessageInfoCollection](../../com.aspose.email/graphmessageinfocollection) - Returns list of MessageInfo of the folder
 ### listMessages(String id, PageInfo page, MailQuery query) {#listMessages-java.lang.String-com.aspose.email.PageInfo-com.aspose.email.MailQuery-}
 ```
 public abstract GraphMessagePageInfo listMessages(String id, PageInfo page, MailQuery query)
@@ -813,6 +999,21 @@ Retrieve a list of notebook objects. Permissions One of the following permission
 
 **Returns:**
 [GraphNotebookCollection](../../com.aspose.email/graphnotebookcollection) - List of notebooks
+### listNotebooks(ODataQueryBuilder queryBuilder) {#listNotebooks-com.aspose.email.ODataQueryBuilder-}
+```
+public abstract GraphNotebookCollection listNotebooks(ODataQueryBuilder queryBuilder)
+```
+
+
+Retrieve a list of notebook objects. Permissions One of the following permissions is required to call this API. Delegated (work or school account) Notes.Create, Notes.Read, Notes.ReadWrite, Notes.Read.All, Notes.ReadWrite.All Delegated (personal Microsoft account) Notes.Create, Notes.Read, Notes.ReadWrite Application Notes.Read.All, Notes.ReadWrite.All
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| queryBuilder | [ODataQueryBuilder](../../com.aspose.email/odataquerybuilder) | Optional OData query builder for filtering notebooks. |
+
+**Returns:**
+[GraphNotebookCollection](../../com.aspose.email/graphnotebookcollection) - List of notebooks
 ### listOverrides() {#listOverrides--}
 ```
 public abstract List<ClassificationOverride> listOverrides()
@@ -823,6 +1024,21 @@ Get the overrides that a user has set up to always classify messages from certai
 
 **Returns:**
 java.util.List<com.aspose.email.ClassificationOverride> - 
+### listOverrides(ODataQueryBuilder queryBuilder) {#listOverrides-com.aspose.email.ODataQueryBuilder-}
+```
+public abstract List<ClassificationOverride> listOverrides(ODataQueryBuilder queryBuilder)
+```
+
+
+Get the overrides that a user has set up to always classify messages from certain senders in specific ways. Each override corresponds to an SMTP address of a sender.Initially, a user does not have any overrides. Permissions: One of the following permissions is required to call this API.To learn more, including how to choose permissions, see Permissions. Delegated (work or school account) Mail.Read Delegated (personal Microsoft account) Mail.Read Application Mail.Read
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| queryBuilder | [ODataQueryBuilder](../../com.aspose.email/odataquerybuilder) | Optional OData query builder for filtering overrides. |
+
+**Returns:**
+java.util.List<com.aspose.email.ClassificationOverride> - List Overrides
 ### listOverridesInternal() {#listOverridesInternal--}
 ```
 public abstract System.Collections.Generic.List<ClassificationOverride> listOverridesInternal()
@@ -830,6 +1046,21 @@ public abstract System.Collections.Generic.List<ClassificationOverride> listOver
 
 
 
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List<com.aspose.email.ClassificationOverride>
+### listOverridesInternal(ODataQueryBuilder queryBuilder) {#listOverridesInternal-com.aspose.email.ODataQueryBuilder-}
+```
+public abstract System.Collections.Generic.List<ClassificationOverride> listOverridesInternal(ODataQueryBuilder queryBuilder)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| queryBuilder | [ODataQueryBuilder](../../com.aspose.email/odataquerybuilder) |  |
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.List<com.aspose.email.ClassificationOverride>
@@ -843,6 +1074,21 @@ Get all the messageRule objects defined for the user's Inbox. Permissions One of
 
 **Returns:**
 java.util.List<com.aspose.email.InboxRule> - List of inbox rules
+### listRules(ODataQueryBuilder queryBuilder) {#listRules-com.aspose.email.ODataQueryBuilder-}
+```
+public abstract List<InboxRule> listRules(ODataQueryBuilder queryBuilder)
+```
+
+
+Get all the messageRule objects defined for the user's Inbox. Permissions One of the following permissions is required to call this API.To learn more, including how to choose permissions, see Permissions. Delegated (work or school account) MailboxSettings.Read Delegated (personal Microsoft account) MailboxSettings.Read Application MailboxSettings.Read
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| queryBuilder | [ODataQueryBuilder](../../com.aspose.email/odataquerybuilder) | Optional OData query builder for filtering rules. |
+
+**Returns:**
+java.util.List<com.aspose.email.InboxRule> - List of inbox rules
 ### listRulesInternal() {#listRulesInternal--}
 ```
 public abstract System.Collections.Generic.List<InboxRule> listRulesInternal()
@@ -853,6 +1099,21 @@ public abstract System.Collections.Generic.List<InboxRule> listRulesInternal()
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.List<com.aspose.email.InboxRule>
+### listRulesInternal(ODataQueryBuilder queryBuilder) {#listRulesInternal-com.aspose.email.ODataQueryBuilder-}
+```
+public abstract System.Collections.Generic.List<InboxRule> listRulesInternal(ODataQueryBuilder queryBuilder)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| queryBuilder | [ODataQueryBuilder](../../com.aspose.email/odataquerybuilder) |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List<com.aspose.email.InboxRule>
 ### listTaskLists() {#listTaskLists--}
 ```
 public abstract GraphTaskListInfoCollection listTaskLists()
@@ -860,6 +1121,21 @@ public abstract GraphTaskListInfoCollection listTaskLists()
 
 
 List TaskList items.
+
+**Returns:**
+[GraphTaskListInfoCollection](../../com.aspose.email/graphtasklistinfocollection) - Returns list of TaskList [GraphTaskListInfo](../../com.aspose.email/graphtasklistinfo)
+### listTaskLists(ODataQueryBuilder queryBuilder) {#listTaskLists-com.aspose.email.ODataQueryBuilder-}
+```
+public abstract GraphTaskListInfoCollection listTaskLists(ODataQueryBuilder queryBuilder)
+```
+
+
+List TaskList items.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| queryBuilder | [ODataQueryBuilder](../../com.aspose.email/odataquerybuilder) | Optional OData query builder for filtering task lists. |
 
 **Returns:**
 [GraphTaskListInfoCollection](../../com.aspose.email/graphtasklistinfocollection) - Returns list of TaskList [GraphTaskListInfo](../../com.aspose.email/graphtasklistinfo)
@@ -875,6 +1151,22 @@ List MapiTask from the parent TaskList.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | id | java.lang.String | Parent TaskList id |
+
+**Returns:**
+[MapiTaskCollection](../../com.aspose.email/mapitaskcollection) - Returns list of MapiTask of the TaskList
+### listTasks(String id, ODataQueryBuilder queryBuilder) {#listTasks-java.lang.String-com.aspose.email.ODataQueryBuilder-}
+```
+public abstract MapiTaskCollection listTasks(String id, ODataQueryBuilder queryBuilder)
+```
+
+
+List MapiTask from the parent TaskList.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | java.lang.String | Parent TaskList id |
+| queryBuilder | [ODataQueryBuilder](../../com.aspose.email/odataquerybuilder) | Optional OData query builder for filtering tasks. |
 
 **Returns:**
 [MapiTaskCollection](../../com.aspose.email/mapitaskcollection) - Returns list of MapiTask of the TaskList
@@ -982,7 +1274,7 @@ public abstract void setEndpoint(String value)
 ```
 
 
-Gets or sets Endpoint URL.
+Gets or sets Microsoft Graph REST API endpoint. If not specified, the default is "https://graph.microsoft.com".
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1008,7 +1300,7 @@ public abstract void setRead(String itemId)
 ```
 
 
-Mark message as read.
+Mark message as read
 
 **Parameters:**
 | Parameter | Type | Description |

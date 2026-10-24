@@ -3,7 +3,7 @@ title: HeaderCollection
 second_title: Aspose.Email for Java API Reference
 description: Defines the collection of header fields
 type: docs
-weight: 307
+weight: 310
 url: /java/com.aspose.email/headercollection/
 ---
 

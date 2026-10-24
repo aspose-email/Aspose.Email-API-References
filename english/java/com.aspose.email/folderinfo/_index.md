@@ -3,7 +3,7 @@ title: FolderInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents information about personal folder in PST.
 type: docs
-weight: 257
+weight: 260
 url: /java/com.aspose.email/folderinfo/
 ---
 
@@ -90,6 +90,7 @@ Method is used to display brief message information [MessageInfo](../../com.aspo
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [retrieveFullPath()](#retrieveFullPath--) | Retrieves the full path of folder within the PST file. |
+| [setReadStatus(Iterable<String> messageEntryIds, boolean isRead)](#setReadStatus-java.lang.Iterable-java.lang.String--boolean-) | Sets or clears the  Read  status for the specified messages in a PST file. |
 | [toString()](#toString--) |  |
 | [updateMessage(String entryId, MapiMessageItemBase updatedMessage)](#updateMessage-java.lang.String-com.aspose.email.MapiMessageItemBase-) | Updates the message in folder. |
 | [wait()](#wait--) |  |
@@ -176,7 +177,7 @@ Provides message adding in a bulk mode.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| messages | java.lang.Iterable<com.aspose.email.MapiMessage> | An IEnumerator representing the enumerator, which supports iteration over a collection of [MapiMessage](../../com.aspose.email/mapimessage). |
+| messages | java.lang.Iterable<com.aspose.email.MapiMessage> | An Iterable representing the enumerator, which supports iteration over a collection of [MapiMessage](../../com.aspose.email/mapimessage). |
 
 ### addSubFolder(String name) {#addSubFolder-java.lang.String-}
 ```
@@ -225,7 +226,7 @@ Adds a subfolder with the specified name to the current folder using the provide
 
 --------------------
 
-The  name  parameter specifies the name of the subfolder to add. The  creationOptions  parameter allows customization of the subfolder creation behavior, such as specifying whether to create the hierarchy of parent folders and the container class of the new subfolder. If the subfolder with the specified name already exists, the behavior depends on the value of  FolderCreationOptions.AllowNameCaseDifference ([FolderCreationOptions.getAllowNameCaseDifference](../../com.aspose.email/foldercreationoptions\#getAllowNameCaseDifference)/[FolderCreationOptions.setAllowNameCaseDifference(boolean)](../../com.aspose.email/foldercreationoptions\#setAllowNameCaseDifference-boolean-)). If  FolderCreationOptions.AllowNameCaseDifference ([FolderCreationOptions.getAllowNameCaseDifference](../../com.aspose.email/foldercreationoptions\#getAllowNameCaseDifference)/[FolderCreationOptions.setAllowNameCaseDifference(boolean)](../../com.aspose.email/foldercreationoptions\#setAllowNameCaseDifference-boolean-)) is set to  true , a difference in name casing will be allowed, and the subfolder will be added even if an existing folder with the same name but in a different case exists. If  FolderCreationOptions.AllowNameCaseDifference ([FolderCreationOptions.getAllowNameCaseDifference](../../com.aspose.email/foldercreationoptions\#getAllowNameCaseDifference)/[FolderCreationOptions.setAllowNameCaseDifference(boolean)](../../com.aspose.email/foldercreationoptions\#setAllowNameCaseDifference-boolean-)) is set to  false , the comparison will be case-insensitive, and an InvalidOperationException will be thrown to indicate that a folder with the specified name already exists. The name may contain backslash (\\) as the path separators (for example, "parent1\\parent2\\subfolder"). In this case if  FolderCreationOptions.CreateHierarchy ([FolderCreationOptions.getCreateHierarchy](../../com.aspose.email/foldercreationoptions\#getCreateHierarchy)/[FolderCreationOptions.setCreateHierarchy(boolean)](../../com.aspose.email/foldercreationoptions\#setCreateHierarchy-boolean-)) is set to  true , the hierarchy of parent folders should be created. |
+The  name  parameter specifies the name of the subfolder to add. The  creationOptions  parameter allows customization of the subfolder creation behavior, such as specifying whether to create the hierarchy of parent folders and the container class of the new subfolder. If the subfolder with the specified name already exists, the behavior depends on the value of  FolderCreationOptions.AllowNameCaseDifference ([FolderCreationOptions.getAllowNameCaseDifference](../../com.aspose.email/foldercreationoptions\#getAllowNameCaseDifference)/[FolderCreationOptions.setAllowNameCaseDifference(boolean)](../../com.aspose.email/foldercreationoptions\#setAllowNameCaseDifference-boolean-)). If  FolderCreationOptions.AllowNameCaseDifference ([FolderCreationOptions.getAllowNameCaseDifference](../../com.aspose.email/foldercreationoptions\#getAllowNameCaseDifference)/[FolderCreationOptions.setAllowNameCaseDifference(boolean)](../../com.aspose.email/foldercreationoptions\#setAllowNameCaseDifference-boolean-)) is set to  true , a difference in name casing will be allowed, and the subfolder will be added even if an existing folder with the same name but in a different case exists. If  FolderCreationOptions.AllowNameCaseDifference ([FolderCreationOptions.getAllowNameCaseDifference](../../com.aspose.email/foldercreationoptions\#getAllowNameCaseDifference)/[FolderCreationOptions.setAllowNameCaseDifference(boolean)](../../com.aspose.email/foldercreationoptions\#setAllowNameCaseDifference-boolean-)) is set to  false , the comparison will be case-insensitive, and an [InvalidOperationException](../../com.aspose.email.services.ews.core.exception.misc/invalidoperationexception) will be thrown to indicate that a folder with the specified name already exists. The name may contain backslash (\\) as the path separators (for example, "parent1\\parent2\\subfolder"). In this case if  FolderCreationOptions.CreateHierarchy ([FolderCreationOptions.getCreateHierarchy](../../com.aspose.email/foldercreationoptions\#getCreateHierarchy)/[FolderCreationOptions.setCreateHierarchy(boolean)](../../com.aspose.email/foldercreationoptions\#setCreateHierarchy-boolean-)) is set to  true , the hierarchy of parent folders should be created. |
 
 **Returns:**
 [FolderInfo](../../com.aspose.email/folderinfo) - The [FolderInfo](../../com.aspose.email/folderinfo) representing the added subfolder.
@@ -884,6 +885,24 @@ Retrieves the full path of folder within the PST file.
 
 **Returns:**
 java.lang.String - The string that represents the full path.
+### setReadStatus(Iterable<String> messageEntryIds, boolean isRead) {#setReadStatus-java.lang.Iterable-java.lang.String--boolean-}
+```
+public final void setReadStatus(Iterable<String> messageEntryIds, boolean isRead)
+```
+
+
+Sets or clears the  Read  status for the specified messages in a PST file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageEntryIds | java.lang.Iterable<java.lang.String> | A list of message entry IDs that identify the messages whose read status should be updated. |
+| isRead | boolean |  true  to mark the messages as read;  false  to mark them as unread.
+
+--------------------
+
+This method updates the read/unread state of existing messages without modifying their content or other message properties. |
+
 ### toString() {#toString--}
 ```
 public String toString()

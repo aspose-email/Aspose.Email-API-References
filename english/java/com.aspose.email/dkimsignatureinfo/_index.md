@@ -3,7 +3,7 @@ title: DKIMSignatureInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents DKIM signature information.
 type: docs
-weight: 134
+weight: 135
 url: /java/com.aspose.email/dkimsignatureinfo/
 ---
 
@@ -41,6 +41,7 @@ Represents DKIM signature information.
 | [setHeaderCanonicalization(int value)](#setHeaderCanonicalization-int-) | Gets or sets header canonicalization (c=). |
 | [setSelector(String value)](#setSelector-java.lang.String-) | Gets or sets public key DNS selector (s=). |
 | [setTime(System.DateTime value)](#setTime-com.aspose.ms.System.DateTime-) | Gets or sets the signature timestamp - the time that this signature was created (t=). |
+| [setTimeNew(Date value)](#setTimeNew-java.util.Date-) | Gets or sets the signature timestamp - the time that this signature was created (t=). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -257,6 +258,19 @@ Gets or sets the signature timestamp - the time that this signature was created 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | com.aspose.ms.System.DateTime |  |
+
+### setTimeNew(Date value) {#setTimeNew-java.util.Date-}
+```
+public final void setTimeNew(Date value)
+```
+
+
+Gets or sets the signature timestamp - the time that this signature was created (t=). Default (null) is an unknown creation time.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date |  |
 
 ### toString() {#toString--}
 ```

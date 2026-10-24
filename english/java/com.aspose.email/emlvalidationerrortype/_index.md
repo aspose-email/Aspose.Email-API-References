@@ -3,7 +3,7 @@ title: EmlValidationErrorType
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the types of the eml validation errors.
 type: docs
-weight: 176
+weight: 179
 url: /java/com.aspose.email/emlvalidationerrortype/
 ---
 

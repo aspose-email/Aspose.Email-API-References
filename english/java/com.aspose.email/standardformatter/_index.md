@@ -3,7 +3,7 @@ title: StandardFormatter
 second_title: Aspose.Email for Java API Reference
 description: Represents the class for formatting log entry messsages.
 type: docs
-weight: 687
+weight: 692
 url: /java/com.aspose.email/standardformatter/
 ---
 
@@ -119,7 +119,7 @@ Formats a datetime and return a string to be outputted.
 | datatime | java.util.Date | The datetime value for formatting to string |
 
 **Returns:**
-java.lang.String
+java.lang.String - String representing the date and time.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -157,8 +157,6 @@ public String getHeader()
 
 
 Gets the log header.
-
-Value:
 
 **Returns:**
 java.lang.String

@@ -3,7 +3,7 @@ title: LayoutType
 second_title: Aspose.Email for Java API Reference
 description: The layout attribute gives you easy per-element control over how your element should render on screen.
 type: docs
-weight: 364
+weight: 367
 url: /java/com.aspose.email/layouttype/
 ---
 
@@ -20,8 +20,8 @@ The layout attribute gives you easy, per-element control over how your element s
 | --- | --- |
 | [Container](#Container) | lets its children define its size, like a normal div |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Fill](#Fill) |  |
-| [Fixed](#Fixed) |  |
+| [Fill](#Fill) | fills available height & width |
+| [Fixed](#Fixed) | fixed width & height |
 | [FixedHeight](#FixedHeight) | keeps the specified height unchanged |
 | [Flex](#Flex) | works like display:flex style |
 | [Intrinsic](#Intrinsic) | responsive until it reaches its height and width |
@@ -86,11 +86,15 @@ public static final int Fill
 ```
 
 
+fills available height & width
+
 ### Fixed {#Fixed}
 ```
 public static final int Fixed
 ```
 
+
+fixed width & height
 
 ### FixedHeight {#FixedHeight}
 ```

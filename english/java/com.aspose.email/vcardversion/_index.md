@@ -3,7 +3,7 @@ title: VCardVersion
 second_title: Aspose.Email for Java API Reference
 description: Enumerates vCard version
 type: docs
-weight: 760
+weight: 771
 url: /java/com.aspose.email/vcardversion/
 ---
 
@@ -21,6 +21,7 @@ Enumerates vCard version
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
 | [V21](#V21) | vCard version 2.1 (default) |
 | [V30](#V30) | vCard version 3.0 |
+| [V40](#V40) | vCard version 4.0 |
 ## Methods
 
 | Method | Description |
@@ -81,6 +82,14 @@ public static final int V30
 
 
 vCard version 3.0
+
+### V40 {#V40}
+```
+public static final int V40
+```
+
+
+vCard version 4.0
 
 ### Clone() {#Clone--}
 ```

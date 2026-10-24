@@ -3,7 +3,7 @@ title: ExchangeAdvancedSyntaxMailQuery
 second_title: Aspose.Email for Java API Reference
 description: Represents the search criteria that are used to match several message properties in the mailbox.
 type: docs
-weight: 187
+weight: 190
 url: /java/com.aspose.email/exchangeadvancedsyntaxmailquery/
 ---
 
@@ -27,7 +27,6 @@ Represents the search criteria, that are used to match several message propertie
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object, is equal to this instance. |
 | [getClass()](#getClass--) |  |
 | [getOrderByString()](#getOrderByString--) | The sort query string. |
-| [getSchema()](#getSchema--) | This method is reserved and should not be used. |
 | [hashCode()](#hashCode--) | Returns a hash code for this instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -100,16 +99,6 @@ The sort query string.
 
 **Returns:**
 java.lang.String
-### getSchema() {#getSchema--}
-```
-public final System.Xml.XmlSchema getSchema()
-```
-
-
-This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the XmlSchemaProviderAttribute to the class.
-
-**Returns:**
-com.aspose.ms.System.Xml.XmlSchema - An XmlSchema that describes the XML representation of the object that is produced by the  M:System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)  method and consumed by the  M:System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)  method.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

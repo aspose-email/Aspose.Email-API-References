@@ -3,7 +3,7 @@ title: VCardPhotoType
 second_title: Aspose.Email for Java API Reference
 description: Enumerates vCard photo type
 type: docs
-weight: 748
+weight: 759
 url: /java/com.aspose.email/vcardphototype/
 ---
 
@@ -36,6 +36,7 @@ Enumerates vCard photo type
 | [PDF](#PDF) | Adobe page description format |
 | [PICT](#PICT) | Apple picture format |
 | [PMB](#PMB) | IBM pm bitmap |
+| [PNG](#PNG) | Portable network graphics format |
 | [PS](#PS) | Adobe postscript format |
 | [QTIME](#QTIME) | Apple quickTime format |
 | [TIFF](#TIFF) | Tagged image file format |
@@ -188,6 +189,14 @@ public static final int PMB
 
 
 IBM pm bitmap
+
+### PNG {#PNG}
+```
+public static final int PNG
+```
+
+
+Portable network graphics format
 
 ### PS {#PS}
 ```

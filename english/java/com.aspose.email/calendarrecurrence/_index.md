@@ -3,7 +3,7 @@ title: CalendarRecurrence
 second_title: Aspose.Email for Java API Reference
 description: The main class represents an iCalendar recurrence.
 type: docs
-weight: 98
+weight: 99
 url: /java/com.aspose.email/calendarrecurrence/
 ---
 
@@ -29,7 +29,6 @@ The main class, represents an iCalendar recurrence.
 | --- | --- |
 | [equals(CalendarRecurrence other)](#equals-com.aspose.email.CalendarRecurrence-) | Determines whether the specified [CalendarRecurrence](../../com.aspose.email/calendarrecurrence) is equal to this instance. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
-| [fromRecurrence(System.Xml.XmlElement xmlElement)](#fromRecurrence-com.aspose.ms.System.Xml.XmlElement-) | Gets a recurrence pattern from XmlElement. |
 | [fromRecurrence(String xmlString)](#fromRecurrence-java.lang.String-) | Gets a recurrence pattern from XML pattern string. |
 | [fromiCalendar(String pattern)](#fromiCalendar-java.lang.String-) | Gets a recurrence pattern from iCalendar string. |
 | [generateOccurrences()](#generateOccurrences--) | Generates the occurrences. |
@@ -106,21 +105,6 @@ Determines whether the specified Object is equal to the current Object.
 
 **Returns:**
 boolean - Returns a boolean indicating if the passed in object obj is Equal to this.
-### fromRecurrence(System.Xml.XmlElement xmlElement) {#fromRecurrence-com.aspose.ms.System.Xml.XmlElement-}
-```
-public static CalendarRecurrence fromRecurrence(System.Xml.XmlElement xmlElement)
-```
-
-
-Gets a recurrence pattern from XmlElement.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| xmlElement | com.aspose.ms.System.Xml.XmlElement | XmlElementXmlElement of pattern. |
-
-**Returns:**
-[CalendarRecurrence](../../com.aspose.email/calendarrecurrence) - Recurrence pattern[CalendarRecurrence](../../com.aspose.email/calendarrecurrence).
 ### fromRecurrence(String xmlString) {#fromRecurrence-java.lang.String-}
 ```
 public static CalendarRecurrence fromRecurrence(String xmlString)

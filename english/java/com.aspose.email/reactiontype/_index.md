@@ -3,7 +3,7 @@ title: ReactionType
 second_title: Aspose.Email for Java API Reference
 description: Specifies the type of reaction a user can have on a message.
 type: docs
-weight: 616
+weight: 621
 url: /java/com.aspose.email/reactiontype/
 ---
 

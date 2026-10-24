@@ -3,7 +3,7 @@ title: ConsoleAppender
 second_title: Aspose.Email for Java API Reference
 description: Represents an appender for console output.
 type: docs
-weight: 118
+weight: 119
 url: /java/com.aspose.email/consoleappender/
 ---
 

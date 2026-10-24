@@ -3,7 +3,7 @@ title: RestoreOptions
 second_title: Aspose.Email for Java API Reference
 description: Enumerates restore options
 type: docs
-weight: 641
+weight: 646
 url: /java/com.aspose.email/restoreoptions/
 ---
 

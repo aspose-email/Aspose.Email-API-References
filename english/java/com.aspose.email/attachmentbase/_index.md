@@ -1,7 +1,7 @@
 ---
 title: AttachmentBase
 second_title: Aspose.Email for Java API Reference
-description: Base class for mail attachment.
+description: Provides the base class for mail attachments and inline views.
 type: docs
 weight: 67
 url: /java/com.aspose.email/attachmentbase/
@@ -16,7 +16,7 @@ com.aspose.ms.System.IDisposable, java.io.Closeable
 public abstract class AttachmentBase implements System.IDisposable, Closeable
 ```
 
-Base class for mail attachment.
+Provides the base class for mail attachments and inline views. This abstract class supplies core functionality for managing attachment content, MIME parts, content identifiers, and resource disposal.
 ## Methods
 
 | Method | Description |
@@ -30,6 +30,7 @@ Base class for mail attachment.
 | [getContentType()](#getContentType--) | Gets or sets the type of the content. |
 | [getHeaders()](#getHeaders--) | Gets headers collection of attachment. |
 | [getTransferEncoding()](#getTransferEncoding--) | Gets or sets the transfer encoding. |
+| [getUniqueId()](#getUniqueId--) | Gets or sets a unique identifier for the attachment that will be constant for each application run. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -142,6 +143,16 @@ Value: The transfer encoding.
 
 **Returns:**
 int
+### getUniqueId() {#getUniqueId--}
+```
+public final String getUniqueId()
+```
+
+
+Gets or sets a unique identifier for the attachment that will be constant for each application run.
+
+**Returns:**
+java.lang.String
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

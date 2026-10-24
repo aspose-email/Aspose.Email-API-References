@@ -3,7 +3,7 @@ title: CharArrayPool
 second_title: Aspose.Email for Java API Reference
 description: 
 type: docs
-weight: 105
+weight: 106
 url: /java/com.aspose.email/chararraypool/
 ---
 

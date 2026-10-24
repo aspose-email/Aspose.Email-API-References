@@ -3,7 +3,7 @@ title: GraphThumbnail
 second_title: Aspose.Email for Java API Reference
 description: ... The thumbnail resource type represents a thumbnail for an image video document or any item that has a bitmap representation.
 type: docs
-weight: 303
+weight: 306
 url: /java/com.aspose.email/graphthumbnail/
 ---
 

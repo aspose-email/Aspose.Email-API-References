@@ -3,7 +3,7 @@ title: MessageValidator
 second_title: Aspose.Email for Java API Reference
 description: The message validator.
 type: docs
-weight: 538
+weight: 541
 url: /java/com.aspose.email/messagevalidator/
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: TnefLoadOptions
 second_title: Aspose.Email for Java API Reference
-description: Allows to specify additional options when loading MailMessage from Tnef format.
+description: Provides options for controlling how  instances are loaded from TNEF Transport Neutral Encapsulation Format format.
 type: docs
-weight: 712
+weight: 722
 url: /java/com.aspose.email/tnefloadoptions/
 ---
 
@@ -13,7 +13,11 @@ java.lang.Object, [com.aspose.email.LoadOptions](../../com.aspose.email/loadopti
 public class TnefLoadOptions extends LoadOptions
 ```
 
-Allows to specify additional options when loading MailMessage from Tnef format.
+Provides options for controlling how [MailMessage](../../com.aspose.email/mailmessage) instances are loaded from TNEF (Transport Neutral Encapsulation Format) format. This class is used primarily for handling Microsoft Outlook TNEF attachments (winmail.dat) that may contain rich text formatting and embedded objects.
+
+--------------------
+
+Use this class with [MailMessage.load(String,LoadOptions)](../../com.aspose.email/mailmessage\#load-String-LoadOptions-) to load TNEF data. TNEF is a proprietary Microsoft format used by Outlook to encapsulate rich text messages and attachments. The TNEF format is typically encountered in winmail.dat attachments when emails are sent from Outlook to non-Outlook clients.
 ## Constructors
 
 | Constructor | Description |

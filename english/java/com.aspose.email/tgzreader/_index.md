@@ -3,7 +3,7 @@ title: TgzReader
 second_title: Aspose.Email for Java API Reference
 description: The mailbox items reader of Zimbra tgz storage.
 type: docs
-weight: 708
+weight: 718
 url: /java/com.aspose.email/tgzreader/
 ---
 
@@ -34,11 +34,13 @@ The mailbox items reader of Zimbra tgz storage.
 | [getClass()](#getClass--) |  |
 | [getCurrentDirectory()](#getCurrentDirectory--) | Gets the current directory name. |
 | [getCurrentMessage()](#getCurrentMessage--) | Gets the current message. |
+| [getItemsCount(int type)](#getItemsCount-int-) | Returns the number of items by type. |
 | [getTotalItemsCount()](#getTotalItemsCount--) | Gets the total count of items. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [readNextMessage()](#readNextMessage--) | Reads the next message. |
+| [release()](#release--) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -147,6 +149,21 @@ Value: The [MailMessage](../../com.aspose.email/mailmessage).
 
 **Returns:**
 [MailMessage](../../com.aspose.email/mailmessage)
+### getItemsCount(int type) {#getItemsCount-int-}
+```
+public final int getItemsCount(int type)
+```
+
+
+Returns the number of items by type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | int | Type of items being returned. |
+
+**Returns:**
+int - Number of items by type ZimbraItemType.
 ### getTotalItemsCount() {#getTotalItemsCount--}
 ```
 public final int getTotalItemsCount()
@@ -193,6 +210,14 @@ Reads the next message.
 
 **Returns:**
 boolean - 
+### release() {#release--}
+```
+public void release()
+```
+
+
+
+
 ### toString() {#toString--}
 ```
 public String toString()

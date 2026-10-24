@@ -3,14 +3,14 @@ title: VCardFullName
 second_title: Aspose.Email for Java API Reference
 description: Represents vCard contact full name N property
 type: docs
-weight: 740
+weight: 750
 url: /java/com.aspose.email/vcardfullname/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.email.VCardHeaderInfo](../../com.aspose.email/vcardheaderinfo)
 ```
-public final class VCardFullName
+public final class VCardFullName extends VCardHeaderInfo
 ```
 
 Represents vCard contact full name (N property)
@@ -30,6 +30,8 @@ Represents vCard contact full name (N property)
 | [getHonorificPostfixes()](#getHonorificPostfixes--) | Gets or sets a honorific postfixes |
 | [getHonorificPrefixes()](#getHonorificPrefixes--) | Gets or sets a honorific prefixes |
 | [getMiddleName()](#getMiddleName--) | Gets or sets a middle name |
+| [getParameters()](#getParameters--) | Gets or sets a property parameters |
+| [getValueLocation()](#getValueLocation--) | Gets or sets a value location |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -38,6 +40,7 @@ Represents vCard contact full name (N property)
 | [setHonorificPostfixes(String value)](#setHonorificPostfixes-java.lang.String-) | Gets or sets a honorific postfixes |
 | [setHonorificPrefixes(String value)](#setHonorificPrefixes-java.lang.String-) | Gets or sets a honorific prefixes |
 | [setMiddleName(String value)](#setMiddleName-java.lang.String-) | Gets or sets a middle name |
+| [setValueLocation(int value)](#setValueLocation-int-) | Gets or sets a value location |
 | [toString()](#toString--) | Returns a string that represents the current object. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -125,6 +128,26 @@ Gets or sets a middle name
 
 **Returns:**
 java.lang.String
+### getParameters() {#getParameters--}
+```
+public final List<String> getParameters()
+```
+
+
+Gets or sets a property parameters
+
+**Returns:**
+java.util.List<java.lang.String>
+### getValueLocation() {#getValueLocation--}
+```
+public final int getValueLocation()
+```
+
+
+Gets or sets a value location
+
+**Returns:**
+int
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -215,6 +238,19 @@ Gets or sets a middle name
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setValueLocation(int value) {#setValueLocation-int-}
+```
+public final void setValueLocation(int value)
+```
+
+
+Gets or sets a value location
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### toString() {#toString--}
 ```

@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarWeeklyRecurrencePattern
 second_title: Aspose.Email for Java API Reference
-description: Represents the weekly recurrence pattern of the mapi calendar
+description: Represents a weekly recurrence pattern for MAPI calendar items allowing events to repeat on specific days of the week at regular weekly intervals.
 type: docs
-weight: 432
+weight: 435
 url: /java/com.aspose.email/mapicalendarweeklyrecurrencepattern/
 ---
 
@@ -13,7 +13,11 @@ java.lang.Object, [com.aspose.email.MapiCalendarRecurrencePattern](../../com.asp
 public final class MapiCalendarWeeklyRecurrencePattern extends MapiCalendarRecurrencePattern
 ```
 
-Represents the weekly recurrence pattern of the mapi calendar
+Represents a weekly recurrence pattern for MAPI calendar items, allowing events to repeat on specific days of the week at regular weekly intervals. This class provides properties to configure the recurrence interval and the specific days of the week when the event occurs.
+
+--------------------
+
+Use this pattern for calendar events that recur every N weeks on specific days (e.g., "every 2 weeks on Monday, Wednesday, and Friday"). The  Period ([MapiCalendarRecurrencePattern.getPeriod](../../com.aspose.email/mapicalendarrecurrencepattern\#getPeriod)/[MapiCalendarRecurrencePattern.setPeriod(long)](../../com.aspose.email/mapicalendarrecurrencepattern\#setPeriod-long-)) property controls the interval in weeks, while  DayOfWeek ([getDayOfWeek](../../com.aspose.email/mapicalendarweeklyrecurrencepattern\#getDayOfWeek)/[setDayOfWeek(int)](../../com.aspose.email/mapicalendarweeklyrecurrencepattern\#setDayOfWeek-int-)) specifies which days of the week the event occurs. This pattern is used in [MapiCalendar](../../com.aspose.email/mapicalendar) to configure recurring weekly meeting schedules.
 ## Constructors
 
 | Constructor | Description |

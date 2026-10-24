@@ -3,7 +3,7 @@ title: MapiContactSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Specifies the contact save options.
 type: docs
-weight: 450
+weight: 453
 url: /java/com.aspose.email/mapicontactsaveoptions/
 ---
 
@@ -26,11 +26,13 @@ Specifies the contact save options.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDefault()](#getDefault--) | Gets the default options. |
+| [getProductId()](#getProductId--) | Gets or sets the product identifier that created VCard object. |
 | [getSaveFormat()](#getSaveFormat--) | Gets a save format |
 | [getVersion()](#getVersion--) | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setProductId(String value)](#setProductId-java.lang.String-) | Gets or sets the product identifier that created VCard object. |
 | [setVersion(int value)](#setVersion-int-) | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -81,6 +83,18 @@ Value: The [MapiContactSaveOptions](../../com.aspose.email/mapicontactsaveoption
 
 **Returns:**
 [MapiContactSaveOptions](../../com.aspose.email/mapicontactsaveoptions)
+### getProductId() {#getProductId--}
+```
+public final String getProductId()
+```
+
+
+Gets or sets the product identifier that created VCard object.
+
+Value: The product identifier.
+
+**Returns:**
+java.lang.String
 ### getSaveFormat() {#getSaveFormat--}
 ```
 public final int getSaveFormat()
@@ -126,6 +140,21 @@ public final native void notifyAll()
 
 
 
+
+### setProductId(String value) {#setProductId-java.lang.String-}
+```
+public final void setProductId(String value)
+```
+
+
+Gets or sets the product identifier that created VCard object.
+
+Value: The product identifier.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setVersion(int value) {#setVersion-int-}
 ```

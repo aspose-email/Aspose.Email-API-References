@@ -3,7 +3,7 @@ title: GraphCalendarColor
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the color theme to distinguish the calendar from other calendars in a UI.
 type: docs
-weight: 283
+weight: 286
 url: /java/com.aspose.email/graphcalendarcolor/
 ---
 

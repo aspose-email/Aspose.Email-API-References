@@ -1,9 +1,9 @@
 ---
 title: MhtSaveOptions
 second_title: Aspose.Email for Java API Reference
-description: Allows to specify additional options when saving MailMessage to Mhtml format.
+description: Provides options for controlling how  instances are saved to MHTML format.
 type: docs
-weight: 541
+weight: 544
 url: /java/com.aspose.email/mhtsaveoptions/
 ---
 
@@ -13,20 +13,18 @@ java.lang.Object, [com.aspose.email.SaveOptions](../../com.aspose.email/saveopti
 public class MhtSaveOptions extends HeadersFormattingOptions
 ```
 
-Allows to specify additional options when saving MailMessage to Mhtml format.
+Provides options for controlling how [MailMessage](../../com.aspose.email/mailmessage) instances are saved to MHTML format. This class allows you to customize MHTML output formatting, attachment handling, header preservation, and resource rendering behavior when converting email messages to MHTML (MIME HTML) files.
 
---------------------
+Use this class with [MailMessage.save(String, SaveOptions)](../../com.aspose.email/mailmessage\#save-String--SaveOptions-) to save messages in MHTML format. MHTML is a web page archive format that combines HTML content and embedded resources into a single file. The \#setMhtFormatOptions.setMhtFormatOptions property controls formatting options, \#setSaveAttachments(boolean).setSaveAttachments(boolean) determines whether attachments are included, and \#getSavedHeaders.getSavedHeaders allows you to specify custom headers to include in the output.
 
-> The following example shows how to save MailMessage as MHTML.
-> 
-> [Java]
-> 
-> ```
-> MailMessage eml = MailMessage.load("Message.eml");
->  eml.save("target.mthml", SaveOptions.getDefaultMhtml());
-> ```
+The following example shows how to save MailMessage as MHTML.
 
---------------------
+```
+
+ MailMessage eml = MailMessage.load("Message.eml");
+ eml.save("target.mthml", SaveOptions.getDefaultMhtml());
+ 
+```
 ## Constructors
 
 | Constructor | Description |

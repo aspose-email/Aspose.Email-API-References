@@ -3,7 +3,7 @@ title: ConnectionState
 second_title: Aspose.Email for Java API Reference
 description: Describes the current state of the connection.
 type: docs
-weight: 117
+weight: 118
 url: /java/com.aspose.email/connectionstate/
 ---
 

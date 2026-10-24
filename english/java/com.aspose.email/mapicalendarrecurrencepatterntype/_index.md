@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarRecurrencePatternType
 second_title: Aspose.Email for Java API Reference
-description: Enumerates the mapi calendar recurrence pattern types
+description: Specifies the type of recurrence pattern for MAPI calendar items.
 type: docs
-weight: 424
+weight: 427
 url: /java/com.aspose.email/mapicalendarrecurrencepatterntype/
 ---
 
@@ -13,7 +13,11 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiCalendarRecurrencePatternType extends System.Enum
 ```
 
-Enumerates the mapi calendar recurrence pattern types
+Specifies the type of recurrence pattern for MAPI calendar items.
+
+--------------------
+
+This enumeration defines the various recurrence pattern types supported by MAPI calendar items, including daily, weekly, monthly, and yearly patterns. Some patterns support both Gregorian and Hijri calendar systems (e.g., [HjMonth](../../com.aspose.email/mapicalendarrecurrencepatterntype\#HjMonth) for Hijri monthly recurrence). The pattern type determines which properties are meaningful in the corresponding [MapiCalendarRecurrencePattern](../../com.aspose.email/mapicalendarrecurrencepattern) implementation.
 ## Fields
 
 | Field | Description |

@@ -75,7 +75,7 @@ public final System.IAsyncResult beginInvoke(MailMessage message, System.AsyncCa
 | state | java.lang.Object |  |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult)
 ### combine(System.Delegate arg0, System.Delegate arg1) {#combine-com.aspose.ms.System.Delegate-com.aspose.ms.System.Delegate-}
 ```
 public static System.Delegate combine(System.Delegate arg0, System.Delegate arg1)

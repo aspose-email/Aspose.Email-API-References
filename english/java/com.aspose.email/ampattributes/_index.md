@@ -350,7 +350,7 @@ public String toAmpHtml()
 Represents amp html version of attributes.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toHtml() {#toHtml--}
 ```
 public String toHtml()
@@ -360,7 +360,7 @@ public String toHtml()
 Represents html version of attributes.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toString() {#toString--}
 ```
 public String toString()

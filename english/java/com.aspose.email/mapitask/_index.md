@@ -3,7 +3,7 @@ title: MapiTask
 second_title: Aspose.Email for Java API Reference
 description: Represents a MAPI task item.
 type: docs
-weight: 490
+weight: 493
 url: /java/com.aspose.email/mapitask/
 ---
 
@@ -147,6 +147,7 @@ Example:
 | [setStatus(int value)](#setStatus-int-) | Gets or sets the status of the user's progress on the task. |
 | [setSubject(String value)](#setSubject-java.lang.String-) | Gets or sets the subject of the message. |
 | [setUsers(MapiTaskUsers value)](#setUsers-com.aspose.email.MapiTaskUsers-) | Gets or sets information about task users. |
+| [toMvPropertyList(Object obj)](#toMvPropertyList-java.lang.Object-) |  |
 | [toString()](#toString--) |  |
 | [tryGetPropertyData(long tag)](#tryGetPropertyData-long-) | Try to get the property data with specified tag key. |
 | [tryGetPropertyDateTime(long tag, Date[] value)](#tryGetPropertyDateTime-long-java.util.Date---) | Gets the value of the specified property as DateTime type. |
@@ -1481,6 +1482,21 @@ Gets or sets information about task users.
 | --- | --- | --- |
 | value | [MapiTaskUsers](../../com.aspose.email/mapitaskusers) |  |
 
+### toMvPropertyList(Object obj) {#toMvPropertyList-java.lang.Object-}
+```
+public static System.Collections.Generic.IGenericList<Object> toMvPropertyList(Object obj)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericList<java.lang.Object>
 ### toString() {#toString--}
 ```
 public String toString()

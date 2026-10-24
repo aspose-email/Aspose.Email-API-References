@@ -1,9 +1,9 @@
 ---
 title: MailConversionOptions
 second_title: Aspose.Email for Java API Reference
-description: Specify additional options when converting from MapiMessage to MailMessage.
+description: Provides options for controlling how  instances are converted to  objects.
 type: docs
-weight: 384
+weight: 387
 url: /java/com.aspose.email/mailconversionoptions/
 ---
 
@@ -13,7 +13,39 @@ java.lang.Object
 public class MailConversionOptions
 ```
 
-Specify additional options when converting from MapiMessage to MailMessage.
+Provides options for controlling how [MapiMessage](../../com.aspose.email/mapimessage) instances are converted to [MailMessage](../../com.aspose.email/mailmessage) objects. This class allows you to customize the conversion behavior for TNEF handling, embedded message format preservation, RTF content, and email address management.
+
+Use this class with [MapiMessage.toMailMessage(MailConversionOptions)](../../com.aspose.email/mapimessage\#toMailMessage-MailConversionOptions-) to specify custom conversion options. The \#setConvertAsTnef(boolean).setConvertAsTnef(boolean) property enables TNEF attachment preservation, \#setPreserveEmbeddedMessageFormat(boolean).setPreserveEmbeddedMessageFormat(boolean) maintains original embedded message formats, \#setPreserveRtfContent(boolean).setPreserveRtfContent(boolean) retains RTF body formatting, and \#setTimeout(int).setTimeout(int) controls the conversion time limit.
+
+The following example shows how to use MailConversionOptions to convert a MapiMessage to MailMessage with custom settings.
+
+```
+
+ // Load a MapiMessage from file
+ MapiMessage mapiMessage = MapiMessage.load("message.msg");
+
+ // Create conversion options with custom settings
+ MailConversionOptions conversionOptions = new MailConversionOptions();
+ conversionOptions.setConvertAsTnef(true);
+ conversionOptions.setPreserveEmbeddedMessageFormat(true);
+ conversionOptions.setPreserveRtfContent(true);
+ conversionOptions.setKeepOriginalEmailAddresses(true);
+ conversionOptions.setTimeout(5000);
+
+ // Handle timeout event
+ conversionOptions.setTimeoutReachedHandler(new TimeoutReachedHandler() {
+     public void invoke(Object sender, EventArgs e) {
+         System.out.println("Conversion timed out");
+     }
+ });
+
+ // Convert MapiMessage to MailMessage with custom options
+ MailMessage mailMessage = mapiMessage.toMailMessage(conversionOptions);
+
+ // Save as EML
+ mailMessage.save("output.eml", SaveOptions.getDefaultEml());
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -24,6 +56,7 @@ Specify additional options when converting from MapiMessage to MailMessage.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAttachmentCidTemplate()](#getAttachmentCidTemplate--) | Defines the template for generating MIME Content-ID (CID) values for attachments embedded into the message body. |
 | [getClass()](#getClass--) |  |
 | [getConvertAsTnef()](#getConvertAsTnef--) | Set to true to import the MapiMessage information into a MailMessage object with MapiMessage as TNEF attachment. |
 | [getKeepOriginalEmailAddresses()](#getKeepOriginalEmailAddresses--) | Gets or sets a value indicating whether need keep original email address. |
@@ -34,6 +67,7 @@ Specify additional options when converting from MapiMessage to MailMessage.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setAttachmentCidTemplate(String value)](#setAttachmentCidTemplate-java.lang.String-) | Defines the template for generating MIME Content-ID (CID) values for attachments embedded into the message body. |
 | [setConvertAsTnef(boolean value)](#setConvertAsTnef-boolean-) | Set to true to import the MapiMessage information into a MailMessage object with MapiMessage as TNEF attachment. |
 | [setKeepOriginalEmailAddresses(boolean value)](#setKeepOriginalEmailAddresses-boolean-) | Gets or sets a value indicating whether need keep original email address. |
 | [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. |
@@ -65,6 +99,20 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getAttachmentCidTemplate() {#getAttachmentCidTemplate--}
+```
+public final String getAttachmentCidTemplate()
+```
+
+
+Defines the template for generating MIME Content-ID (CID) values for attachments embedded into the message body.
+
+The template may contain the "\{\#\}" placeholder, which will be substituted with the sequential attachment number.
+
+Example:  "cid-\{\#\}"  ->  cid-1 ,  cid-2 , ... If  null  or empty, a default CID generation strategy is applied.
+
+**Returns:**
+java.lang.String
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -164,6 +212,23 @@ public final native void notifyAll()
 
 
 
+
+### setAttachmentCidTemplate(String value) {#setAttachmentCidTemplate-java.lang.String-}
+```
+public final void setAttachmentCidTemplate(String value)
+```
+
+
+Defines the template for generating MIME Content-ID (CID) values for attachments embedded into the message body.
+
+The template may contain the "\{\#\}" placeholder, which will be substituted with the sequential attachment number.
+
+Example:  "cid-\{\#\}"  ->  cid-1 ,  cid-2 , ... If  null  or empty, a default CID generation strategy is applied.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setConvertAsTnef(boolean value) {#setConvertAsTnef-boolean-}
 ```

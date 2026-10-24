@@ -1,7 +1,7 @@
 ---
 title: Attachment
 second_title: Aspose.Email for Java API Reference
-description: Represents an e-mail attachment.
+description: Represents an email attachment that can be added to a .
 type: docs
 weight: 66
 url: /java/com.aspose.email/attachment/
@@ -16,29 +16,27 @@ java.lang.Object, [com.aspose.email.AttachmentBase](../../com.aspose.email/attac
 public class Attachment extends AttachmentBase implements IPreferredTextEncodingProvider, IAttachment
 ```
 
-Represents an e-mail attachment.
+Represents an email attachment that can be added to a [MailMessage](../../com.aspose.email/mailmessage). This class provides functionality for managing attachment content, name, content type, encoding, and content disposition. It supports various attachment types including regular files, embedded messages (message/rfc822), and TNEF formatted messages.
 
---------------------
+Use \#createAttachmentFromString.createAttachmentFromString to create attachments from string content. Add attachments to [MailMessage.getAttachments()](../../com.aspose.email/mailmessage\#getAttachments--) to include them in the message.
 
-> The following example shows how to add and remove an Attachment from MailMessage.
-> 
-> [Java]
-> 
-> ```
-> // Create an instance of MailMessage class
->  MailMessage eml = new MailMessage();
->  eml.setFrom(MailAddress.to_MailAddress("sender@sender.com"));
->  eml.setTo(MailAddressCollection.to_MailAddressCollection("receiver@gmail.com"));
-> 
->  // Load an attachment
->  Attachment attachment = new Attachment("1.txt");
->  eml.getAttachments().addItem(attachment);
-> 
->  // Remove attachment from your MailMessage
->  eml.getAttachments().removeItem(attachment);
-> ```
+The following example shows how to add and remove an Attachment from MailMessage.
 
---------------------
+```
+
+ // Create an instance of MailMessage class
+ MailMessage eml = new MailMessage();
+ eml.setFrom(MailAddress.to_MailAddress("sender@sender.com"));
+ eml.setTo(MailAddressCollection.to_MailAddressCollection("receiver@gmail.com"));
+
+ // Load an attachment
+ Attachment attachment = new Attachment("1.txt");
+ eml.getAttachments().addItem(attachment);
+
+ // Remove attachment from your MailMessage
+ eml.getAttachments().removeItem(attachment);
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -69,6 +67,7 @@ Represents an e-mail attachment.
 | [getNameEncoding()](#getNameEncoding--) | Gets or sets an encoding of attachment name |
 | [getPreferredTextEncoding()](#getPreferredTextEncoding--) | Gets or sets a preferred text encoding |
 | [getTransferEncoding()](#getTransferEncoding--) | Gets or sets the transfer encoding. |
+| [getUniqueId()](#getUniqueId--) | Gets or sets a unique identifier for the attachment that will be constant for each application run. |
 | [hashCode()](#hashCode--) |  |
 | [isEmbeddedMessage()](#isEmbeddedMessage--) | Gets a value indicating whether the attachment is an embedded message. |
 | [isTnef()](#isTnef--) | Gets a value indicating whether the attachment is TNEF formatted message. |
@@ -361,6 +360,16 @@ Value: The transfer encoding.
 
 **Returns:**
 int
+### getUniqueId() {#getUniqueId--}
+```
+public final String getUniqueId()
+```
+
+
+Gets or sets a unique identifier for the attachment that will be constant for each application run.
+
+**Returns:**
+java.lang.String
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

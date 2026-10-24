@@ -3,14 +3,14 @@ title: VCardEmail
 second_title: Aspose.Email for Java API Reference
 description: Represents vCard email
 type: docs
-weight: 736
+weight: 746
 url: /java/com.aspose.email/vcardemail/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.email.VCardHeaderInfo](../../com.aspose.email/vcardheaderinfo)
 ```
-public final class VCardEmail
+public final class VCardEmail extends VCardHeaderInfo
 ```
 
 Represents vCard email
@@ -27,11 +27,14 @@ Represents vCard email
 | [getClass()](#getClass--) |  |
 | [getEmailAddress()](#getEmailAddress--) | Gets or sets an email address |
 | [getEmailType()](#getEmailType--) | Gets or sets an email address type |
+| [getParameters()](#getParameters--) | Gets or sets a property parameters |
+| [getValueLocation()](#getValueLocation--) | Gets or sets a value location |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setEmailAddress(String value)](#setEmailAddress-java.lang.String-) | Gets or sets an email address |
 | [setEmailType(int value)](#setEmailType-int-) | Gets or sets an email address type |
+| [setValueLocation(int value)](#setValueLocation-int-) | Gets or sets a value location |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -89,6 +92,26 @@ Gets or sets an email address type
 
 **Returns:**
 int
+### getParameters() {#getParameters--}
+```
+public final List<String> getParameters()
+```
+
+
+Gets or sets a property parameters
+
+**Returns:**
+java.util.List<java.lang.String>
+### getValueLocation() {#getValueLocation--}
+```
+public final int getValueLocation()
+```
+
+
+Gets or sets a value location
+
+**Returns:**
+int
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -135,6 +158,19 @@ public final void setEmailType(int value)
 
 
 Gets or sets an email address type
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setValueLocation(int value) {#setValueLocation-int-}
+```
+public final void setValueLocation(int value)
+```
+
+
+Gets or sets a value location
 
 **Parameters:**
 | Parameter | Type | Description |

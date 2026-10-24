@@ -3,7 +3,7 @@ title: MapiContactPhoto
 second_title: Aspose.Email for Java API Reference
 description: Contains data and type of contacts photo.
 type: docs
-weight: 444
+weight: 447
 url: /java/com.aspose.email/mapicontactphoto/
 ---
 

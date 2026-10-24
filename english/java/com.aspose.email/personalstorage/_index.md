@@ -3,7 +3,7 @@ title: PersonalStorage
 second_title: Aspose.Email for Java API Reference
 description: Provides functionality to access and manipulate the PST Personal Storage Table files used by Microsoft Outlook.
 type: docs
-weight: 585
+weight: 589
 url: /java/com.aspose.email/personalstorage/
 ---
 
@@ -74,6 +74,10 @@ Example:
 
 | Method | Description |
 | --- | --- |
+| [addAttachmentToMessage(MessageInfo messageInfo, String filePath)](#addAttachmentToMessage-com.aspose.email.MessageInfo-java.lang.String-) | Adds an attachment to the specified message using the file located at the provided path. |
+| [addAttachmentToMessage(MessageInfo messageInfo, String name, InputStream stream)](#addAttachmentToMessage-com.aspose.email.MessageInfo-java.lang.String-java.io.InputStream-) | Adds an attachment to the specified message using the provided stream as attachment content. |
+| [addAttachmentToMessage(String entryId, String filePath)](#addAttachmentToMessage-java.lang.String-java.lang.String-) | Adds an attachment to the message identified by the specified entry ID using the file located at the provided path. |
+| [addAttachmentToMessage(String entryId, String name, InputStream stream)](#addAttachmentToMessage-java.lang.String-java.lang.String-java.io.InputStream-) | Adds an attachment to the message identified by the specified entry ID using the provided stream. |
 | [canWrite()](#canWrite--) | Gets a value indicating whether the current pst supports writing. |
 | [changeMessage(String entryId, MapiPropertyCollection updatedProperties)](#changeMessage-java.lang.String-com.aspose.email.MapiPropertyCollection-) | Changes the message properties. |
 | [close()](#close--) |  |
@@ -100,6 +104,7 @@ Example:
 | [extractProperty(byte[] entryId, long tag)](#extractProperty-byte---long-) | Gets the specified property of item, without extract the item fully. |
 | [extractRecipients(MessageInfo messageInfo)](#extractRecipients-com.aspose.email.MessageInfo-) | Extracts the recipients. |
 | [extractRecipients(String entryId)](#extractRecipients-java.lang.String-) | Extracts the recipients. |
+| [findAndEnumerateSoftDeletedItems()](#findAndEnumerateSoftDeletedItems--) | Finds and enumerates all soft-deleted items. |
 | [findAndExtractSoftDeletedItems()](#findAndExtractSoftDeletedItems--) | Finds and extracts soft-deleted messages from the PST. |
 | [findMessages(String parentEntryId)](#findMessages-java.lang.String-) | Finds the identifiers of messages for for the current folder. |
 | [findSubfolders(String parentEntryId)](#findSubfolders-java.lang.String-) | Finds the identifiers of subfolders for for the current folder. |
@@ -183,6 +188,72 @@ public final Event<StorageProcessingEventHandler> StorageProcessing
 
 
 Occurs before the srorage is processed. The event is raised before processing the next storage in merging or splitting operations.
+
+### addAttachmentToMessage(MessageInfo messageInfo, String filePath) {#addAttachmentToMessage-com.aspose.email.MessageInfo-java.lang.String-}
+```
+public final void addAttachmentToMessage(MessageInfo messageInfo, String filePath)
+```
+
+
+Adds an attachment to the specified message using the file located at the provided path.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfo | [MessageInfo](../../com.aspose.email/messageinfo) | The [MessageInfo](../../com.aspose.email/messageinfo) object representing the target message. |
+| filePath | java.lang.String | The full path to the file to be added as an attachment. |
+
+### addAttachmentToMessage(MessageInfo messageInfo, String name, InputStream stream) {#addAttachmentToMessage-com.aspose.email.MessageInfo-java.lang.String-java.io.InputStream-}
+```
+public final void addAttachmentToMessage(MessageInfo messageInfo, String name, InputStream stream)
+```
+
+
+Adds an attachment to the specified message using the provided stream as attachment content.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfo | [MessageInfo](../../com.aspose.email/messageinfo) | The [MessageInfo](../../com.aspose.email/messageinfo) object representing the target message. |
+| name | java.lang.String | The name of the attachment to add. |
+| stream | java.io.InputStream | The stream containing the attachment data.
+
+--------------------
+
+The provided  stream  is not closed or disposed by this method. |
+
+### addAttachmentToMessage(String entryId, String filePath) {#addAttachmentToMessage-java.lang.String-java.lang.String-}
+```
+public final void addAttachmentToMessage(String entryId, String filePath)
+```
+
+
+Adds an attachment to the message identified by the specified entry ID using the file located at the provided path.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| entryId | java.lang.String | The entry ID of the target message. |
+| filePath | java.lang.String | The full path to the file to be added as an attachment. |
+
+### addAttachmentToMessage(String entryId, String name, InputStream stream) {#addAttachmentToMessage-java.lang.String-java.lang.String-java.io.InputStream-}
+```
+public final void addAttachmentToMessage(String entryId, String name, InputStream stream)
+```
+
+
+Adds an attachment to the message identified by the specified entry ID using the provided stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| entryId | java.lang.String | The entry ID of the target message. |
+| name | java.lang.String | The name of the attachment to add. |
+| stream | java.io.InputStream | The stream containing the attachment data.
+
+--------------------
+
+The provided  stream  is not closed or disposed by this method. |
 
 ### canWrite() {#canWrite--}
 ```
@@ -602,6 +673,16 @@ Extracts the recipients.
 
 **Returns:**
 [MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection) - The [MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection) that represents the collection of recipients.
+### findAndEnumerateSoftDeletedItems() {#findAndEnumerateSoftDeletedItems--}
+```
+public final System.Collections.Generic.IGenericEnumerable<RestoredItemEntry> findAndEnumerateSoftDeletedItems()
+```
+
+
+Finds and enumerates all soft-deleted items.
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.RestoredItemEntry> - An enumerable collection of [RestoredItemEntry](../../com.aspose.email/restoreditementry) objects, each containing a soft-deleted message and the folder Id it was originally located in.
 ### findAndExtractSoftDeletedItems() {#findAndExtractSoftDeletedItems--}
 ```
 public final System.Collections.Generic.IGenericList<RestoredItemEntry> findAndExtractSoftDeletedItems()

@@ -3,7 +3,7 @@ title: DebugFormatter
 second_title: Aspose.Email for Java API Reference
 description: Represents the class for formatting log entry messages.
 type: docs
-weight: 152
+weight: 153
 url: /java/com.aspose.email/debugformatter/
 ---
 
@@ -89,7 +89,7 @@ Formats a datetime and return a string to be outputted.
 | datatime | java.util.Date | The datetime value for formatting to string |
 
 **Returns:**
-java.lang.String
+java.lang.String - String representing the date and time.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

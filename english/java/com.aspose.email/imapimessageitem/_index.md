@@ -1,16 +1,20 @@
 ---
 title: IMapiMessageItem
 second_title: Aspose.Email for Java API Reference
-description: Base interface for all message items  in Outlook
+description: Defines the base interface for all Outlook message item types including messages appointments tasks contacts and notes.
 type: docs
-weight: 785
+weight: 797
 url: /java/com.aspose.email/imapimessageitem/
 ---
 ```
 public interface IMapiMessageItem
 ```
 
-Base interface for all message items in Outlook
+Defines the base interface for all Outlook message item types including messages, appointments, tasks, contacts, and notes. This interface provides common properties for accessing message class, item type, body content, and subject across different Outlook item types.
+
+--------------------
+
+Implementing types include [MapiMessage](../../com.aspose.email/mapimessage), [MapiCalendar](../../com.aspose.email/mapicalendar), [MapiTask](../../com.aspose.email/mapitask), [MapiContact](../../com.aspose.email/mapicontact), and other message item types in the Aspose.Email library. The interface provides a consistent way to access common properties regardless of the specific Outlook item type.
 ## Methods
 
 | Method | Description |

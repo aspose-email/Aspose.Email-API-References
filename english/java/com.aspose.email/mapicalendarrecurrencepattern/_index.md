@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarRecurrencePattern
 second_title: Aspose.Email for Java API Reference
-description: Represents the mapi recurrence pattern
+description: Serves as the abstract base class for all MAPI calendar recurrence patterns.
 type: docs
-weight: 422
+weight: 425
 url: /java/com.aspose.email/mapicalendarrecurrencepattern/
 ---
 
@@ -13,7 +13,11 @@ java.lang.Object
 public abstract class MapiCalendarRecurrencePattern
 ```
 
-Represents the mapi recurrence pattern
+Serves as the abstract base class for all MAPI calendar recurrence patterns. This class provides common properties and functionality for defining how calendar events repeat over time, including frequency, date ranges, occurrence counts, and exception handling.
+
+--------------------
+
+This abstract class is designed to be inherited by concrete recurrence pattern implementations such as [MapiCalendarDailyRecurrencePattern](../../com.aspose.email/mapicalendardailyrecurrencepattern), [MapiCalendarWeeklyRecurrencePattern](../../com.aspose.email/mapicalendarweeklyrecurrencepattern), [MapiCalendarMonthlyNthRecurrencePattern](../../com.aspose.email/mapicalendarmonthlynthrecurrencepattern), and  MapiCalendarYearlyRecurrencePattern . Do not instantiate this class directly. Use the concrete pattern classes to define specific recurrence behaviors for [MapiCalendar](../../com.aspose.email/mapicalendar) items.
 ## Constructors
 
 | Constructor | Description |

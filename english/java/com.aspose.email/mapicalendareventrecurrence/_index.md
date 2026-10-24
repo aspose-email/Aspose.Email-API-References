@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarEventRecurrence
 second_title: Aspose.Email for Java API Reference
-description: Represents the recurrence properties of calendar object
+description: Represents the recurrence properties of a calendar object including the recurrence pattern time zone information and the date range of recurrence.
 type: docs
-weight: 412
+weight: 415
 url: /java/com.aspose.email/mapicalendareventrecurrence/
 ---
 
@@ -13,7 +13,11 @@ java.lang.Object
 public final class MapiCalendarEventRecurrence
 ```
 
-Represents the recurrence properties of calendar object
+Represents the recurrence properties of a calendar object, including the recurrence pattern, time zone information, and the date range of recurrence. This class encapsulates all the data needed to define how recurring calendar events repeat over time.
+
+--------------------
+
+This class is used with [MapiCalendar](../../com.aspose.email/mapicalendar) to manage recurring meeting patterns. The  RecurrencePattern ([getRecurrencePattern](../../com.aspose.email/mapicalendareventrecurrence\#getRecurrencePattern)/[setRecurrencePattern(MapiCalendarRecurrencePattern)](../../com.aspose.email/mapicalendareventrecurrence\#setRecurrencePattern-MapiCalendarRecurrencePattern-)) property defines the type and frequency of recurrence (daily, weekly, monthly, or yearly). The  ClipStart ([getClipStart](../../com.aspose.email/mapicalendareventrecurrence\#getClipStart)/[setClipStart(DateTime)](../../com.aspose.email/mapicalendareventrecurrence\#setClipStart-DateTime-)) and  ClipEnd ([getClipEnd](../../com.aspose.email/mapicalendareventrecurrence\#getClipEnd)/[setClipEnd(DateTime)](../../com.aspose.email/mapicalendareventrecurrence\#setClipEnd-DateTime-)) properties specify the date range for the recurrence, and the time zone properties ensure proper time conversion across different time zones. Exception meetings have a different recurrence structure than the main series.
 ## Constructors
 
 | Constructor | Description |

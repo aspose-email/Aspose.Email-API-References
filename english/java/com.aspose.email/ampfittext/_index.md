@@ -30,7 +30,7 @@ Expands or shrinks its font size to fit the content within the space given to it
 | [getMaxFontSize()](#getMaxFontSize--) | Specifies the maximum font size as an integer that the amp-fit-text can use. |
 | [getMinFontSize()](#getMinFontSize--) | Specifies the minimum font size as an integer that the amp-fit-text can use. |
 | [getPlaceholder()](#getPlaceholder--) | The element marked with the placeholder attribute acts as a placeholder for the parent AMP element. |
-| [getRequiredScript()](#getRequiredScript--) | Required script that muct be added to head section. |
+| [getRequiredScript()](#getRequiredScript--) | Required script that must be added to head section. |
 | [getValue()](#getValue--) | Text Value of component. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -57,7 +57,7 @@ Creates instance of AmpFitText.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | Text Value of component. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -140,7 +140,7 @@ public String getRequiredScript()
 ```
 
 
-Required script that muct be added to head section.
+Required script that must be added to head section.
 
 **Returns:**
 java.lang.String
@@ -254,7 +254,7 @@ public String toAmpHtml()
 Represents amp html version of component.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toHtml() {#toHtml--}
 ```
 public String toHtml()
@@ -264,7 +264,7 @@ public String toHtml()
 Represents html version of component.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toString() {#toString--}
 ```
 public String toString()

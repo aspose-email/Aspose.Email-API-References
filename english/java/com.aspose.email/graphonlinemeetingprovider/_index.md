@@ -3,7 +3,7 @@ title: GraphOnlineMeetingProvider
 second_title: Aspose.Email for Java API Reference
 description: The default online meeting provider for meetings sent from this calendar.
 type: docs
-weight: 299
+weight: 302
 url: /java/com.aspose.email/graphonlinemeetingprovider/
 ---
 

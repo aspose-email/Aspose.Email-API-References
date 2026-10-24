@@ -1,9 +1,9 @@
 ---
 title: LinkedResourceRemovedEventArgs
 second_title: Aspose.Email for Java API Reference
-description: 
+description: Provides data for the event that is raised when a linked resource is removed from a message.
 type: docs
-weight: 368
+weight: 371
 url: /java/com.aspose.email/linkedresourceremovedeventargs/
 ---
 
@@ -12,6 +12,12 @@ java.lang.Object, com.aspose.ms.System.EventArgs
 ```
 public class LinkedResourceRemovedEventArgs extends System.EventArgs
 ```
+
+Provides data for the event that is raised when a linked resource is removed from a message.
+
+--------------------
+
+This event argument class contains a list of content IDs for the linked resources that were removed.
 ## Constructors
 
 | Constructor | Description |

@@ -3,7 +3,7 @@ title: Logger
 second_title: Aspose.Email for Java API Reference
 description: Provides the logging functionality.
 type: docs
-weight: 375
+weight: 378
 url: /java/com.aspose.email/logger/
 ---
 
@@ -148,7 +148,7 @@ Determines if logging is enabled for the specified level.
 | level | [LogLevel](../../com.aspose.email/loglevel) | level to be checked |
 
 **Returns:**
-boolean -   if logging is enabled for the specified level, otherwise it returns  .
+boolean -  true  if logging is enabled for the specified level, otherwise it returns  false .
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -302,8 +302,8 @@ Writes the message with specified format to appenders.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | java.lang.String |  |
-| arguments | java.lang.Object[] |  |
+| format | java.lang.String | The format string. |
+| arguments | java.lang.Object[] | The arguments. |
 
 ### writeIf(boolean condition, Object message) {#writeIf-boolean-java.lang.Object-}
 ```

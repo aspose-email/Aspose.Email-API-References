@@ -3,7 +3,7 @@ title: MsgSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: This class allows the user to specify additional settings when saving a MailMessage in the MsgASCII and MsgUnicode format.
 type: docs
-weight: 551
+weight: 554
 url: /java/com.aspose.email/msgsaveoptions/
 ---
 
@@ -55,16 +55,12 @@ This class allows the user to specify additional settings when saving a MailMess
 | [getDefaultOft()](#getDefaultOft--) | Gets options with default values for saving message to Outlook template (Oft) format. |
 | [getMailMessageSaveType()](#getMailMessageSaveType--) | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. |
 | [getPreserveOriginalDates()](#getPreserveOriginalDates--) | Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message. |
-| [getPreserveSignature()](#getPreserveSignature--) | Set to true, if signature is to be preserved. |
-| [getSaveAsTemplate()](#getSaveAsTemplate--) | Set to true, if need to be saved as Outlook File Template(OFT format). |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCustomProgressHandler(ConversionProgressEventHandler value)](#setCustomProgressHandler-com.aspose.email.ConversionProgressEventHandler-) | Represents method that usually supplied by calling side and handles progress events. |
 | [setMailMessageSaveType(MailMessageSaveType value)](#setMailMessageSaveType-com.aspose.email.MailMessageSaveType-) | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. |
 | [setPreserveOriginalDates(boolean value)](#setPreserveOriginalDates-boolean-) | Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message. |
-| [setPreserveSignature(boolean value)](#setPreserveSignature-boolean-) | Set to true, if signature is to be preserved. |
-| [setSaveAsTemplate(boolean value)](#setSaveAsTemplate-boolean-) | Set to true, if need to be saved as Outlook File Template(OFT format). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -222,26 +218,6 @@ Gets or sets a value indicating whether it is necessary to generate new saving a
 
 **Returns:**
 boolean
-### getPreserveSignature() {#getPreserveSignature--}
-```
-public final boolean getPreserveSignature()
-```
-
-
-Set to true, if signature is to be preserved.
-
-**Returns:**
-boolean
-### getSaveAsTemplate() {#getSaveAsTemplate--}
-```
-public final boolean getSaveAsTemplate()
-```
-
-
-Set to true, if need to be saved as Outlook File Template(OFT format).
-
-**Returns:**
-boolean
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -301,32 +277,6 @@ public final void setPreserveOriginalDates(boolean value)
 
 
 Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message. By default the value is true, meaning the creation and modification dates will be not set to DateTime.Now.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### setPreserveSignature(boolean value) {#setPreserveSignature-boolean-}
-```
-public final void setPreserveSignature(boolean value)
-```
-
-
-Set to true, if signature is to be preserved.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### setSaveAsTemplate(boolean value) {#setSaveAsTemplate-boolean-}
-```
-public final void setSaveAsTemplate(boolean value)
-```
-
-
-Set to true, if need to be saved as Outlook File Template(OFT format).
 
 **Parameters:**
 | Parameter | Type | Description |

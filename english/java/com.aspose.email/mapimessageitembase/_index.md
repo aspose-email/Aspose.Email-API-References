@@ -3,7 +3,7 @@ title: MapiMessageItemBase
 second_title: Aspose.Email for Java API Reference
 description: Represents the base class for all MapiMessageItem classes and keeps common collections of mapi properties attachments recipients.
 type: docs
-weight: 468
+weight: 471
 url: /java/com.aspose.email/mapimessageitembase/
 ---
 
@@ -79,6 +79,7 @@ Represents the base class for all MapiMessageItem classes and keeps common colle
 | [setRecipients(MapiRecipientCollection value)](#setRecipients-com.aspose.email.MapiRecipientCollection-) | Gets the recipients of the message. |
 | [setSensitivity(int value)](#setSensitivity-int-) | Gets the Sensitivity. |
 | [setSubject(String value)](#setSubject-java.lang.String-) | Gets or sets the subject of the message. |
+| [toMvPropertyList(Object obj)](#toMvPropertyList-java.lang.Object-) |  |
 | [toString()](#toString--) |  |
 | [tryGetPropertyData(long tag)](#tryGetPropertyData-long-) | Try to get the property data with specified tag key. |
 | [tryGetPropertyDateTime(long tag, Date[] value)](#tryGetPropertyDateTime-long-java.util.Date---) | Gets the value of the specified property as DateTime type. |
@@ -852,6 +853,21 @@ When setting a value, the values of SubjectPrefix(PR\_SUBJECT\_PREFIX) and Norma
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### toMvPropertyList(Object obj) {#toMvPropertyList-java.lang.Object-}
+```
+public static System.Collections.Generic.IGenericList<Object> toMvPropertyList(Object obj)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericList<java.lang.Object>
 ### toString() {#toString--}
 ```
 public String toString()

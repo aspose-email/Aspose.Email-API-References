@@ -3,7 +3,7 @@ title: GraphThumbnailSet
 second_title: Aspose.Email for Java API Reference
 description: ... The ThumbnailSet resource is a keyed collection of thumbnail resources.
 type: docs
-weight: 304
+weight: 307
 url: /java/com.aspose.email/graphthumbnailset/
 ---
 

@@ -3,7 +3,7 @@ title: MapiAttachment
 second_title: Aspose.Email for Java API Reference
 description: Represents a message attachment.
 type: docs
-weight: 402
+weight: 405
 url: /java/com.aspose.email/mapiattachment/
 ---
 
@@ -69,6 +69,7 @@ Example:
 | [getClass()](#getClass--) |  |
 | [getCodePage()](#getCodePage--) | Gets the code page. |
 | [getContent()](#getContent--) | Gets the content. |
+| [getContentLength()](#getContentLength--) | Gets the length of the attachment content in bytes. |
 | [getDisplayName()](#getDisplayName--) | Gets the display name of the ole object in an attachment. |
 | [getExtension()](#getExtension--) | Gets a filename extension that indicates the document type of an attachment. |
 | [getFileName()](#getFileName--) | Gets an attachment's base filename and extension, excluding path. |
@@ -97,6 +98,7 @@ Example:
 | [loadFromTnef(String fileName)](#loadFromTnef-java.lang.String-) | Load MapiAttachment from file with tnef content. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [openRead()](#openRead--) | Opens the attachment content for reading. |
 | [removeProperty(long tag)](#removeProperty-long-) | Provides correctly removing property from all collections. |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) | Save attachment content. |
 | [save(String filename)](#save-java.lang.String-) | Save attachment content. |
@@ -194,6 +196,20 @@ Value: The content.
 
 **Returns:**
 java.lang.Object
+### getContentLength() {#getContentLength--}
+```
+public final long getContentLength()
+```
+
+
+Gets the length of the attachment content in bytes.
+
+--------------------
+
+For attachments added from a stream this does not materialise the content.
+
+**Returns:**
+long
 ### getDisplayName() {#getDisplayName--}
 ```
 public final String getDisplayName()
@@ -558,6 +574,16 @@ public final native void notifyAll()
 
 
 
+### openRead() {#openRead--}
+```
+public final InputStream openRead()
+```
+
+
+Opens the attachment content for reading.
+
+**Returns:**
+java.io.InputStream - An independent, read-only, seekable stream over the attachment content.
 ### removeProperty(long tag) {#removeProperty-long-}
 ```
 public final void removeProperty(long tag)

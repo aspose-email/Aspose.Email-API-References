@@ -3,7 +3,7 @@ title: MapiCalendarTimeZone
 second_title: Aspose.Email for Java API Reference
 description: Represents the mapi calendar time zone information
 type: docs
-weight: 427
+weight: 430
 url: /java/com.aspose.email/mapicalendartimezone/
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: LoadOptions
 second_title: Aspose.Email for Java API Reference
-description: This is an abstract base class for classes that allow the user to specify additional options when loading a MailMessage from a particular format.
+description: Serves as the abstract base class for format-specific options when loading  from various email formats EML EMLX HTML MHTML etc..
 type: docs
-weight: 371
+weight: 374
 url: /java/com.aspose.email/loadoptions/
 ---
 
@@ -13,7 +13,11 @@ java.lang.Object
 public abstract class LoadOptions
 ```
 
-This is an abstract base class for classes that allow the user to specify additional options when loading a MailMessage from a particular format.
+Serves as the abstract base class for format-specific options when loading [MailMessage](../../com.aspose.email/mailmessage) from various email formats (EML, EMLX, HTML, MHTML, etc.). This class provides common configuration properties such as text encoding, embedded message format preservation, and signature handling.
+
+--------------------
+
+This class is designed to be inherited by concrete format-specific classes like [EmlLoadOptions](../../com.aspose.email/emlloadoptions), [EmlxLoadOptions](../../com.aspose.email/emlxloadoptions), and [HtmlLoadOptions](../../com.aspose.email/htmlloadoptions). Do not instantiate this class directly. Use the format-specific subclasses to access format-specific loading options.
 ## Constructors
 
 | Constructor | Description |

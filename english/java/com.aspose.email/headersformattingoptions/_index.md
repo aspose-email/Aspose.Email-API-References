@@ -1,9 +1,9 @@
 ---
 title: HeadersFormattingOptions
 second_title: Aspose.Email for Java API Reference
-description: Allows to specify headers formatting options when saving MailMessage to Mhtml or Html format.
+description: Serves as the abstract base class for format-specific options when saving  to HTML-based formats MHTML HTML.
 type: docs
-weight: 310
+weight: 313
 url: /java/com.aspose.email/headersformattingoptions/
 ---
 
@@ -13,7 +13,11 @@ java.lang.Object, [com.aspose.email.SaveOptions](../../com.aspose.email/saveopti
 public abstract class HeadersFormattingOptions extends SaveOptions
 ```
 
-Allows to specify headers formatting options when saving MailMessage to Mhtml or Html format.
+Serves as the abstract base class for format-specific options when saving [MailMessage](../../com.aspose.email/mailmessage) to HTML-based formats (MHTML, HTML). This class provides configuration properties for controlling header formatting, CSS styles, timeout settings, and resource rendering behavior.
+
+--------------------
+
+This class is designed to be inherited by concrete format-specific classes like [HtmlSaveOptions](../../com.aspose.email/htmlsaveoptions) and [MhtSaveOptions](../../com.aspose.email/mhtsaveoptions). Do not instantiate this class directly. Use the format-specific subclasses to access format-specific saving options. The class provides extensive customization for email header presentation, CSS styling, and resource extraction behavior.
 ## Constructors
 
 | Constructor | Description |

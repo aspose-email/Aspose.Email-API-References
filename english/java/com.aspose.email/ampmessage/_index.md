@@ -45,7 +45,7 @@ Message which allows senders to include AMP components inside emails.
 | [deepClone()](#deepClone--) | Clones this instance |
 | [dispose()](#dispose--) | Releases all resources used by the MailMessage |
 | [encrypt(byte[] certificateRawData, String certificatePassword)](#encrypt-byte---java.lang.String-) | Encrypts this message. |
-| [encrypt(SmimeKey key)](#encrypt-com.aspose.email.SmimeKey-) | Encrypts this message. |
+| [encrypt(SmimeKey[] key)](#encrypt-com.aspose.email.SmimeKey...-) | Encrypts this message. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
 | [getAlternateViewContent(String mediaType)](#getAlternateViewContent-java.lang.String-) | Gets the content as a string from the specified AlternateView. |
 | [getAlternateViews()](#getAlternateViews--) | Gets the collection of alternate views of message |
@@ -66,6 +66,7 @@ Message which allows senders to include AMP components inside emails.
 | [getHtmlBody()](#getHtmlBody--) | Gets or sets html body |
 | [getHtmlBodyText(boolean showUrl)](#getHtmlBodyText-boolean-) | Gets the message html body as plain text. |
 | [getHtmlBodyText(HyperlinkRenderingCallback hyperlinkRenderingCallback)](#getHtmlBodyText-com.aspose.email.HyperlinkRenderingCallback-) | Gets the message htmlbody as plain text. |
+| [getHtmlWithResources(String html, MailMessage msg)](#getHtmlWithResources-java.lang.String-com.aspose.email.MailMessage-) |  |
 | [getItemId()](#getItemId--) | Represents identification information about message in a mailbox. |
 | [getLinkedResources()](#getLinkedResources--) | Gets the collection of linked resources of message |
 | [getLocalDate()](#getLocalDate--) | Gets the local date of message |
@@ -110,7 +111,7 @@ Default value is null. |
 | [save(OutputStream stream, SaveOptions options)](#save-java.io.OutputStream-com.aspose.email.SaveOptions-) | Save message as a stream |
 | [save(String fileName)](#save-java.lang.String-) | Save message as a file |
 | [save(String fileName, SaveOptions options)](#save-java.lang.String-com.aspose.email.SaveOptions-) | Save message as a file with additional options. |
-| [setAmpHtmlBody(String value)](#setAmpHtmlBody-java.lang.String-) | Gets the AmpHtml representation of message's body. |
+| [setAmpHtmlBody(String value)](#setAmpHtmlBody-java.lang.String-) | The AmpHtml representation of message's body. |
 | [setBcc(MailAddressCollection value)](#setBcc-com.aspose.email.MailAddressCollection-) | Gets or sets the address collection that contains the BCC recipients of message |
 | [setBody(String value)](#setBody-java.lang.String-) | Gets or sets the plain text representation of message's body. |
 | [setBodyEncoding(Charset value)](#setBodyEncoding-java.nio.charset.Charset-) | Gets or sets encoding of body |
@@ -137,8 +138,6 @@ Default value is null. |
 | [setTo(MailAddressCollection value)](#setTo-com.aspose.email.MailAddressCollection-) | Gets or sets the address collection that contains the recipients of message |
 | [setXMailer(String value)](#setXMailer-java.lang.String-) | Gets or sets the X-Mailer the software that created the e-mail message |
 | [toString()](#toString--) | Returns a string that represents the current object. |
-| [validateMessage(InputStream stream)](#validateMessage-java.io.InputStream-) | Validate eml message for corresponding to mime specification. |
-| [validateMessage(String fileName)](#validateMessage-java.lang.String-) | Validate eml message for corresponding to mime specification. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -174,7 +173,7 @@ Add Amp component to this message.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| component | [AmpComponent](../../com.aspose.email/ampcomponent) |  |
+| component | [AmpComponent](../../com.aspose.email/ampcomponent) | Amp component to add [AmpComponent](../../com.aspose.email/ampcomponent). |
 
 ### addAttachment(Attachment attachment) {#addAttachment-com.aspose.email.Attachment-}
 ```
@@ -642,9 +641,9 @@ Encrypts this message.
 
 **Returns:**
 [MailMessage](../../com.aspose.email/mailmessage) - Encrypted email message.
-### encrypt(SmimeKey key) {#encrypt-com.aspose.email.SmimeKey-}
+### encrypt(SmimeKey[] key) {#encrypt-com.aspose.email.SmimeKey...-}
 ```
-public MailMessage encrypt(SmimeKey key)
+public MailMessage encrypt(SmimeKey[] key)
 ```
 
 
@@ -685,7 +684,7 @@ Encrypts this message.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | [SmimeKey](../../com.aspose.email/smimekey) | SmimeKey with the public certificate. |
+| key | [SmimeKey\[\]](../../com.aspose.email/smimekey) | SmimeKey with the public certificate. |
 
 **Returns:**
 [MailMessage](../../com.aspose.email/mailmessage) - Encrypted email message.
@@ -738,7 +737,7 @@ public String getAmpHtmlBody()
 Gets the AmpHtml representation of message's body.
 
 **Returns:**
-java.lang.String
+java.lang.String - the AmpHtml representation of message's body.
 ### getAttachments() {#getAttachments--}
 ```
 public AttachmentCollection getAttachments()
@@ -930,6 +929,22 @@ Gets the message htmlbody as plain text.
 
 **Returns:**
 java.lang.String - Result string of custom handling rendering of hyperlink.
+### getHtmlWithResources(String html, MailMessage msg) {#getHtmlWithResources-java.lang.String-com.aspose.email.MailMessage-}
+```
+public static String getHtmlWithResources(String html, MailMessage msg)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| html | java.lang.String |  |
+| msg | [MailMessage](../../com.aspose.email/mailmessage) |  |
+
+**Returns:**
+java.lang.String
 ### getItemId() {#getItemId--}
 ```
 public MailboxInfo getItemId()
@@ -1456,12 +1471,12 @@ public void setAmpHtmlBody(String value)
 ```
 
 
-Gets the AmpHtml representation of message's body.
+The AmpHtml representation of message's body.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | the AmpHtml representation of message's body. |
 
 ### setBcc(MailAddressCollection value) {#setBcc-com.aspose.email.MailAddressCollection-}
 ```
@@ -1805,36 +1820,6 @@ Returns a string that represents the current object.
 
 **Returns:**
 java.lang.String - A string that represents the current object.
-### validateMessage(InputStream stream) {#validateMessage-java.io.InputStream-}
-```
-public static EmlValidationErrorCollection validateMessage(InputStream stream)
-```
-
-
-Validate eml message for corresponding to mime specification.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.InputStream | A stream containing the message in eml format. |
-
-**Returns:**
-[EmlValidationErrorCollection](../../com.aspose.email/emlvalidationerrorcollection) - A [EmlValidationErrorCollection](../../com.aspose.email/emlvalidationerrorcollection) containing the found validation error messages.
-### validateMessage(String fileName) {#validateMessage-java.lang.String-}
-```
-public static EmlValidationErrorCollection validateMessage(String fileName)
-```
-
-
-Validate eml message for corresponding to mime specification.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | A file name (eml). |
-
-**Returns:**
-[EmlValidationErrorCollection](../../com.aspose.email/emlvalidationerrorcollection) - A [EmlValidationErrorCollection](../../com.aspose.email/emlvalidationerrorcollection) containing the found validation error messages.
 ### wait() {#wait--}
 ```
 public final void wait()

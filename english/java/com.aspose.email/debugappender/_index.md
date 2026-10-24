@@ -1,9 +1,9 @@
 ---
 title: DebugAppender
 second_title: Aspose.Email for Java API Reference
-description: Represents an appender is only enabled when debugging.
+description: Represents an appender that writes to the SLF4J logger com.aspose.email.debug.
 type: docs
-weight: 151
+weight: 152
 url: /java/com.aspose.email/debugappender/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.email.Appender](../../com.aspose.email/appender)
 public class DebugAppender extends Appender
 ```
 
-Represents an appender is only enabled when debugging.
+Represents an appender that writes to the SLF4J logger  com.aspose.email.debug .
 ## Constructors
 
 | Constructor | Description |

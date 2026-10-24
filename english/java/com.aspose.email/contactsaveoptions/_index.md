@@ -1,9 +1,9 @@
 ---
 title: ContactSaveOptions
 second_title: Aspose.Email for Java API Reference
-description: Represents the base contact save options
+description: Serves as the abstract base class for contact save options when saving contact objects to various formats.
 type: docs
-weight: 126
+weight: 127
 url: /java/com.aspose.email/contactsaveoptions/
 ---
 
@@ -13,18 +13,24 @@ java.lang.Object
 public abstract class ContactSaveOptions
 ```
 
-Represents the base contact save options
+Serves as the abstract base class for contact save options when saving contact objects to various formats. This class provides common configuration properties such as save format and vCard version for contact serialization.
+
+--------------------
+
+This class is designed to be inherited by concrete format-specific classes like [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions). Do not instantiate this class directly. Use the format-specific subclasses to access format-specific saving options. The  Version ([getVersion](../../com.aspose.email/contactsaveoptions\#getVersion)/[setVersion(int)](../../com.aspose.email/contactsaveoptions\#setVersion-int-)) property controls the vCard format version when saving to vCard format.
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getProductId()](#getProductId--) | Gets or sets the product identifier that created VCard object. |
 | [getSaveFormat()](#getSaveFormat--) | Gets a save format |
 | [getVersion()](#getVersion--) | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setProductId(String value)](#setProductId-java.lang.String-) | Gets or sets the product identifier that created VCard object. |
 | [setVersion(int value)](#setVersion-int-) | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -55,6 +61,18 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getProductId() {#getProductId--}
+```
+public final String getProductId()
+```
+
+
+Gets or sets the product identifier that created VCard object.
+
+Value: The product identifier.
+
+**Returns:**
+java.lang.String
 ### getSaveFormat() {#getSaveFormat--}
 ```
 public final int getSaveFormat()
@@ -100,6 +118,21 @@ public final native void notifyAll()
 
 
 
+
+### setProductId(String value) {#setProductId-java.lang.String-}
+```
+public final void setProductId(String value)
+```
+
+
+Gets or sets the product identifier that created VCard object.
+
+Value: The product identifier.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setVersion(int value) {#setVersion-int-}
 ```

@@ -3,7 +3,7 @@ title: GraphIdentity
 second_title: Aspose.Email for Java API Reference
 description: ... The Identity resource represents an identity of an actor.
 type: docs
-weight: 289
+weight: 292
 url: /java/com.aspose.email/graphidentity/
 ---
 

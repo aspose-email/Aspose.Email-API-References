@@ -3,7 +3,7 @@ title: LinkedResourceCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection of LinkedResource objects
 type: docs
-weight: 367
+weight: 370
 url: /java/com.aspose.email/linkedresourcecollection/
 ---
 

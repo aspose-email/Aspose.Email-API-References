@@ -3,7 +3,7 @@ title: MapiRecipientCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection of MapiRecipient objects.
 type: docs
-weight: 485
+weight: 488
 url: /java/com.aspose.email/mapirecipientcollection/
 ---
 
@@ -62,7 +62,7 @@ Initializes a new instance of the [MapiRecipientCollection](../../com.aspose.ema
 
 ### add(String address, String displayName, int recipientType) {#add-java.lang.String-java.lang.String-int-}
 ```
-public final void add(String address, String displayName, int recipientType)
+public final MapiRecipient add(String address, String displayName, int recipientType)
 ```
 
 
@@ -79,9 +79,11 @@ Adds the new recipient.
 
 When adding a new recepient, the value of either MapiMessage.DisplayTo or MapiMessage.DisplayBcc or MapiMessage.DisplayCC is also updated depending on the type of recepient. |
 
+**Returns:**
+[MapiRecipient](../../com.aspose.email/mapirecipient) - Newly created recipient[MapiRecipient](../../com.aspose.email/mapirecipient)
 ### add(String address, String addressType, String displayName, int recipientType) {#add-java.lang.String-java.lang.String-java.lang.String-int-}
 ```
-public final void add(String address, String addressType, String displayName, int recipientType)
+public final MapiRecipient add(String address, String addressType, String displayName, int recipientType)
 ```
 
 
@@ -99,6 +101,8 @@ Adds the new recipient.
 
 When adding a new recepient, the value of either MapiMessage.DisplayTo or MapiMessage.DisplayBcc or MapiMessage.DisplayCC is also updated depending on the type of recepient. |
 
+**Returns:**
+[MapiRecipient](../../com.aspose.email/mapirecipient) - Newly created recipient[MapiRecipient](../../com.aspose.email/mapirecipient)
 ### addItem(T arg0) {#addItem-T-}
 ```
 public void addItem(T arg0)

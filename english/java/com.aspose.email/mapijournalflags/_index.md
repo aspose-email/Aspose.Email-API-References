@@ -3,7 +3,7 @@ title: MapiJournalFlags
 second_title: Aspose.Email for Java API Reference
 description: Contains metadata about the Journal object.
 type: docs
-weight: 465
+weight: 468
 url: /java/com.aspose.email/mapijournalflags/
 ---
 

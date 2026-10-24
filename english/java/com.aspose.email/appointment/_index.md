@@ -73,12 +73,14 @@ Represents a calendar to an e-mail.
 | [getHtmlDescription()](#getHtmlDescription--) | Gets or sets html representation of description. |
 | [getLastModifiedDate()](#getLastModifiedDate--) | Gets or sets the date and time that calendar information was last revised. |
 | [getLocation()](#getLocation--) | Gets or sets the location. |
+| [getMSProperties()](#getMSProperties--) | Gets extended MS properties of an appointment. |
 | [getMethodType()](#getMethodType--) | Gets or sets the iCalendar object method type associated with the calendar object. |
 | [getMicrosoftBusyStatus()](#getMicrosoftBusyStatus--) | Specifies the BUSY status of an appointment. |
 | [getMicrosoftImportance()](#getMicrosoftImportance--) | Specifies the importance of an appointment. |
 | [getMicrosoftIntendedStatus()](#getMicrosoftIntendedStatus--) | Specifies the INTENDED status of an appointment. |
 | [getOptionalAttendees()](#getOptionalAttendees--) | Gets the optional attendees. |
 | [getOrganizer()](#getOrganizer--) | Gets or sets the organizer. |
+| [getProductId()](#getProductId--) | Gets or sets the id of product that created this appointment. |
 | [getRecurrence()](#getRecurrence--) | Gets or sets the recurrence pattern. |
 | [getReminders()](#getReminders--) | Contains collection of AppointmentReminder [AppointmentReminder](../../com.aspose.email/appointmentreminder) objects. |
 | [getSequenceId()](#getSequenceId--) | Gets the sequence id. |
@@ -90,7 +92,6 @@ Represents a calendar to an e-mail.
 | [getUniqueId()](#getUniqueId--) | Gets or sets a string value that contains the GUID for the calendar item. |
 | [getVersion()](#getVersion--) | Gets the version of ICS/VCS file. |
 | [hashCode()](#hashCode--) |  |
-| [isDescriptionHtml()](#isDescriptionHtml--) | Gets or sets value which indicates if description is in HTML format |
 | [load(InputStream stream)](#load-java.io.InputStream-) | Loads [Appointment](../../com.aspose.email/appointment) from the stream |
 | [load(InputStream stream, boolean applyLocalTimeZone)](#load-java.io.InputStream-boolean-) | Loads [Appointment](../../com.aspose.email/appointment) from the stream |
 | [load(InputStream stream, AppointmentLoadOptions options)](#load-java.io.InputStream-com.aspose.email.AppointmentLoadOptions-) | Loads [Appointment](../../com.aspose.email/appointment) from the stream |
@@ -113,7 +114,6 @@ Represents a calendar to an e-mail.
 | [setCreatedDate(Date value)](#setCreatedDate-java.util.Date-) | Gets or sets the date and time that calendar information was created. |
 | [setDateTimeStamp(Date value)](#setDateTimeStamp-java.util.Date-) | Gets or sets date/time that the instance of the iCalendar object was created.. |
 | [setDescription(String value)](#setDescription-java.lang.String-) | Gets or sets the description. |
-| [setDescriptionHtml(boolean value)](#setDescriptionHtml-boolean-) | Gets or sets value which indicates if description is in HTML format |
 | [setEndDate(Date value)](#setEndDate-java.util.Date-) | Gets or sets the end date. |
 | [setEndTimeZone(String value)](#setEndTimeZone-java.lang.String-) | End time zone |
 | [setFlags(int value)](#setFlags-int-) | Gets or sets appointment flags. |
@@ -125,6 +125,7 @@ Represents a calendar to an e-mail.
 | [setMicrosoftImportance(int value)](#setMicrosoftImportance-int-) | Specifies the importance of an appointment. |
 | [setMicrosoftIntendedStatus(int value)](#setMicrosoftIntendedStatus-int-) | Specifies the INTENDED status of an appointment. |
 | [setOrganizer(MailAddress value)](#setOrganizer-com.aspose.email.MailAddress-) | Gets or sets the organizer. |
+| [setProductId(String value)](#setProductId-java.lang.String-) | Gets or sets the id of product that created this appointment. |
 | [setRecurrence(RecurrencePattern value)](#setRecurrence-com.aspose.email.RecurrencePattern-) | Gets or sets the recurrence pattern. |
 | [setStartDate(Date value)](#setStartDate-java.util.Date-) | Gets or sets the start date. |
 | [setStartTimeZone(String value)](#setStartTimeZone-java.lang.String-) | Start time zone |
@@ -449,6 +450,16 @@ Gets or sets the location.
 
 **Returns:**
 java.lang.String
+### getMSProperties() {#getMSProperties--}
+```
+public final System.Collections.Generic.Dictionary<String,String> getMSProperties()
+```
+
+
+Gets extended MS properties of an appointment.
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.Dictionary<java.lang.String,java.lang.String>
 ### getMethodType() {#getMethodType--}
 ```
 public final int getMethodType()
@@ -511,6 +522,16 @@ Gets or sets the organizer.
 
 **Returns:**
 [MailAddress](../../com.aspose.email/mailaddress)
+### getProductId() {#getProductId--}
+```
+public final String getProductId()
+```
+
+
+Gets or sets the id of product that created this appointment.
+
+**Returns:**
+java.lang.String
 ### getRecurrence() {#getRecurrence--}
 ```
 public final RecurrencePattern getRecurrence()
@@ -627,16 +648,6 @@ public native int hashCode()
 
 **Returns:**
 int
-### isDescriptionHtml() {#isDescriptionHtml--}
-```
-public final boolean isDescriptionHtml()
-```
-
-
-Gets or sets value which indicates if description is in HTML format
-
-**Returns:**
-boolean
 ### load(InputStream stream) {#load-java.io.InputStream-}
 ```
 public static Appointment load(InputStream stream)
@@ -928,19 +939,6 @@ Gets or sets the description.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
-### setDescriptionHtml(boolean value) {#setDescriptionHtml-boolean-}
-```
-public final void setDescriptionHtml(boolean value)
-```
-
-
-Gets or sets value which indicates if description is in HTML format
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
 ### setEndDate(Date value) {#setEndDate-java.util.Date-}
 ```
 public final void setEndDate(Date value)
@@ -1085,6 +1083,19 @@ Gets or sets the organizer.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [MailAddress](../../com.aspose.email/mailaddress) |  |
+
+### setProductId(String value) {#setProductId-java.lang.String-}
+```
+public final void setProductId(String value)
+```
+
+
+Gets or sets the id of product that created this appointment.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setRecurrence(RecurrencePattern value) {#setRecurrence-com.aspose.email.RecurrencePattern-}
 ```

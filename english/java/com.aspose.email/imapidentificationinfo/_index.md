@@ -3,7 +3,7 @@ title: ImapIdentificationInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents class-container with identification information to exchange between mail client and server.
 type: docs
-weight: 328
+weight: 331
 url: /java/com.aspose.email/imapidentificationinfo/
 ---
 

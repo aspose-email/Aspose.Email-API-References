@@ -3,7 +3,7 @@ title: SectionHeader
 second_title: Aspose.Email for Java API Reference
 description: Represents the heading for the section
 type: docs
-weight: 654
+weight: 659
 url: /java/com.aspose.email/sectionheader/
 ---
 
@@ -18,7 +18,7 @@ Represents the heading for the section
 
 | Constructor | Description |
 | --- | --- |
-| [SectionHeader(int type, String value)](#SectionHeader-int-java.lang.String-) | Initialaze new instans of SectionHeader. |
+| [SectionHeader(int type, String value)](#SectionHeader-int-java.lang.String-) | Initialize new instance of SectionHeader. |
 ## Methods
 
 | Method | Description |
@@ -42,13 +42,13 @@ public SectionHeader(int type, String value)
 ```
 
 
-Initialaze new instans of SectionHeader.
+Initialize new instance of SectionHeader.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int |  |
-| value | java.lang.String |  |
+| type | int | Section header type. |
+| value | java.lang.String | Section header value. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

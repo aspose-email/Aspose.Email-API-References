@@ -3,7 +3,7 @@ title: FileFormatType
 second_title: Aspose.Email for Java API Reference
 description: Enumerates file format types.
 type: docs
-weight: 251
+weight: 254
 url: /java/com.aspose.email/fileformattype/
 ---
 
@@ -30,6 +30,7 @@ Enumerates file format types.
 | [Olm](#Olm) | Outlook for Mac File Format. |
 | [Ost](#Ost) | Outlook Data Files format for for offline mode. |
 | [Pst](#Pst) | Outlook Data Files format. |
+| [RfcMessage](#RfcMessage) | This includes messages in other text formats, consisting of headers and optionally a message body if a specific protocol could not be determined. |
 | [Tgz](#Tgz) | TAR archive file format. |
 | [Tnef](#Tnef) | Transport Neutral Encapsulation Format. |
 | [Unknown](#Unknown) | Unknown file format. |
@@ -166,6 +167,14 @@ public static final int Pst
 
 
 Outlook Data Files format.
+
+### RfcMessage {#RfcMessage}
+```
+public static final int RfcMessage
+```
+
+
+This includes messages in other text formats, consisting of headers and optionally a message body if a specific protocol could not be determined.
 
 ### Tgz {#Tgz}
 ```

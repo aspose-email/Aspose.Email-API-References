@@ -3,7 +3,7 @@ title: MapiContact
 second_title: Aspose.Email for Java API Reference
 description: Represents a MAPI contact item.
 type: docs
-weight: 434
+weight: 437
 url: /java/com.aspose.email/mapicontact/
 ---
 
@@ -79,6 +79,7 @@ Example:
 | [getPersonalInfo()](#getPersonalInfo--) | Specify other additional contact information |
 | [getPhoto()](#getPhoto--) | Contains contact photo[MapiContactPhoto](../../com.aspose.email/mapicontactphoto). |
 | [getPhysicalAddresses()](#getPhysicalAddresses--) | Specify three physical addresses: Home Address, Work Address, and Other Address. |
+| [getProductId()](#getProductId--) | Gets or sets the id of product that created this contact. |
 | [getProfessionalInfo()](#getProfessionalInfo--) | Properties are used to store professional details for the person represented by the contact |
 | [getProperties()](#getProperties--) | Gets the collection of properties. |
 | [getProperty(PropertyDescriptor pd)](#getProperty-com.aspose.email.PropertyDescriptor-) | Gets MAPI property by property descriptor. |
@@ -129,6 +130,7 @@ Example:
 | [setPersonalInfo(MapiContactPersonalInfoPropertySet value)](#setPersonalInfo-com.aspose.email.MapiContactPersonalInfoPropertySet-) | Specify other additional contact information |
 | [setPhoto(MapiContactPhoto value)](#setPhoto-com.aspose.email.MapiContactPhoto-) | Contains contact photo[MapiContactPhoto](../../com.aspose.email/mapicontactphoto). |
 | [setPhysicalAddresses(MapiContactPhysicalAddressPropertySet value)](#setPhysicalAddresses-com.aspose.email.MapiContactPhysicalAddressPropertySet-) | Specify three physical addresses: Home Address, Work Address, and Other Address. |
+| [setProductId(String value)](#setProductId-java.lang.String-) | Gets or sets the id of product that created this contact. |
 | [setProfessionalInfo(MapiContactProfessionalPropertySet value)](#setProfessionalInfo-com.aspose.email.MapiContactProfessionalPropertySet-) | Properties are used to store professional details for the person represented by the contact |
 | [setProperty(MapiProperty value)](#setProperty-com.aspose.email.MapiProperty-) | Sets the property. |
 | [setProperty(PropertyDescriptor pd, Object value)](#setProperty-com.aspose.email.PropertyDescriptor-java.lang.Object-) | Sets MAPI property. |
@@ -136,6 +138,7 @@ Example:
 | [setSensitivity(int value)](#setSensitivity-int-) | Gets the Sensitivity. |
 | [setSubject(String value)](#setSubject-java.lang.String-) | Gets or sets the subject of the message. |
 | [setTelephones(MapiContactTelephonePropertySet value)](#setTelephones-com.aspose.email.MapiContactTelephonePropertySet-) | Specify telephone numbers for the contact |
+| [toMvPropertyList(Object obj)](#toMvPropertyList-java.lang.Object-) |  |
 | [toString()](#toString--) |  |
 | [tryGetPropertyData(long tag)](#tryGetPropertyData-long-) | Try to get the property data with specified tag key. |
 | [tryGetPropertyDateTime(long tag, Date[] value)](#tryGetPropertyDateTime-long-java.util.Date---) | Gets the value of the specified property as DateTime type. |
@@ -581,6 +584,16 @@ Specify three physical addresses: Home Address, Work Address, and Other Address.
 
 **Returns:**
 [MapiContactPhysicalAddressPropertySet](../../com.aspose.email/mapicontactphysicaladdresspropertyset)
+### getProductId() {#getProductId--}
+```
+public final String getProductId()
+```
+
+
+Gets or sets the id of product that created this contact.
+
+**Returns:**
+java.lang.String
 ### getProfessionalInfo() {#getProfessionalInfo--}
 ```
 public final MapiContactProfessionalPropertySet getProfessionalInfo()
@@ -1266,6 +1279,19 @@ Specify three physical addresses: Home Address, Work Address, and Other Address.
 | --- | --- | --- |
 | value | [MapiContactPhysicalAddressPropertySet](../../com.aspose.email/mapicontactphysicaladdresspropertyset) |  |
 
+### setProductId(String value) {#setProductId-java.lang.String-}
+```
+public final void setProductId(String value)
+```
+
+
+Gets or sets the id of product that created this contact.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
 ### setProfessionalInfo(MapiContactProfessionalPropertySet value) {#setProfessionalInfo-com.aspose.email.MapiContactProfessionalPropertySet-}
 ```
 public final void setProfessionalInfo(MapiContactProfessionalPropertySet value)
@@ -1368,6 +1394,21 @@ Specify telephone numbers for the contact
 | --- | --- | --- |
 | value | [MapiContactTelephonePropertySet](../../com.aspose.email/mapicontacttelephonepropertyset) |  |
 
+### toMvPropertyList(Object obj) {#toMvPropertyList-java.lang.Object-}
+```
+public static System.Collections.Generic.IGenericList<Object> toMvPropertyList(Object obj)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericList<java.lang.Object>
 ### toString() {#toString--}
 ```
 public String toString()

@@ -3,7 +3,7 @@ title: DataColumnMapping
 second_title: Aspose.Email for Java API Reference
 description: DataColumnMapping class.
 type: docs
-weight: 139
+weight: 140
 url: /java/com.aspose.email/datacolumnmapping/
 ---
 

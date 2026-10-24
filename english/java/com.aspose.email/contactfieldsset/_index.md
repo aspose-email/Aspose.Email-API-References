@@ -3,7 +3,7 @@ title: ContactFieldsSet
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the groups of Contact fields that will be included in resultant mhtml file.
 type: docs
-weight: 120
+weight: 121
 url: /java/com.aspose.email/contactfieldsset/
 ---
 

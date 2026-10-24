@@ -1,9 +1,9 @@
 ---
 title: LinkedResource
 second_title: Aspose.Email for Java API Reference
-description: Represents an embedded resource in a message.
+description: Represents an embedded resource such as an image or file that can be referenced by an  in an email message.
 type: docs
-weight: 366
+weight: 369
 url: /java/com.aspose.email/linkedresource/
 ---
 
@@ -13,42 +13,41 @@ java.lang.Object, [com.aspose.email.AttachmentBase](../../com.aspose.email/attac
 public class LinkedResource extends AttachmentBase
 ```
 
-Represents an embedded resource in a message.
+Represents an embedded resource (such as an image or file) that can be referenced by an [AlternateView](../../com.aspose.email/alternateview) in an email message. Linked resources are typically used to embed images, fonts, or other assets directly into HTML email content using Content-ID references.
 
---------------------
+Linked resources are added to [MailMessage.getLinkedResources()](../../com.aspose.email/mailmessage\#getLinkedResources--) and referenced in HTML content using the 'cid:' prefix (e.g., <img src='cid:resourceId'>). They differ from regular [Attachment](../../com.aspose.email/attachment) objects in that they are embedded within the message body rather than appearing as downloadable attachments.
 
-> The following example shows how to embed objects using LinkedResource into an Email.
-> 
-> [Java]
-> 
-> ```
-> MailMessage eml = new MailMessage();
->  eml.setFrom(MailAddress.to_MailAddress("AndrewIrwin@from.com"));
->  eml.setTo(MailAddressCollection.to_MailAddressCollection("SusanMarc@to.com"));
->  eml.setSubject("This is an email");
-> 
->  // Create the plain text part It is viewable by those clients that don't support HTML
->  AlternateView plainView = AlternateView.createAlternateViewFromString("This is my plain text content", null,
->  "text/plain");
-> 
->  // Create the HTML part.To embed images, we need to use the prefix 'cid' in the img src value.
->  // The cid value will map to the Content-Id of a Linked resource. Thus <img src='cid:barcode'>
->  // will map to a LinkedResource with a ContentId of 'barcode'.
->  AlternateView htmlView = AlternateView.createAlternateViewFromString(
->  "Here is an embedded image. <img src=cid:barcode>", null, "text/html");
-> 
->  // Create the LinkedResource (embedded image) and Add the LinkedResource to the appropriate view
->  LinkedResource barcode = new LinkedResource("1.jpg", Image.JPEG);
->  barcode.setContentId("barcode");
-> 
->  eml.getLinkedResources().addItem(barcode);
->  eml.getAlternateViews().addItem(plainView);
->  eml.getAlternateViews().addItem(htmlView);
-> 
->  eml.save("EmbeddedImage_out.msg", SaveOptions.getDefaultMsgUnicode());
-> ```
+The following example shows how to embed objects using LinkedResource into an Email.
 
---------------------
+```
+
+ MailMessage eml = new MailMessage();
+ eml.setFrom(MailAddress.to_MailAddress("AndrewIrwin@from.com"));
+ eml.setTo(MailAddressCollection.to_MailAddressCollection("SusanMarc@to.com"));
+ eml.setSubject("This is an email");
+
+ // Create the plain text part It is viewable by those clients that don't support HTML
+ AlternateView plainView =
+         AlternateView.createAlternateViewFromString("This is my plain text content", null, "text/plain");
+
+ // Create the HTML part.To embed images, we need to use the prefix 'cid' in the img src value.
+ // The cid value will map to the Content-Id of a Linked resource. Thus 
+ // will map to a LinkedResource with a ContentId of 'barcode'.
+ AlternateView htmlView =
+         AlternateView.createAlternateViewFromString("Here is an embedded image.", null,
+                 "text/html");
+
+ // Create the LinkedResource (embedded image) and Add the LinkedResource to the appropriate view
+ LinkedResource barcode = new LinkedResource("1.jpg", "image/jpeg");
+ barcode.setContentId("barcode");
+
+ eml.getLinkedResources().addItem(barcode);
+ eml.getAlternateViews().addItem(plainView);
+ eml.getAlternateViews().addItem(htmlView);
+
+ eml.save("EmbeddedImage_out.msg", SaveOptions.getDefaultMsgUnicode());
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -77,6 +76,7 @@ Represents an embedded resource in a message.
 | [getContentType()](#getContentType--) | Gets or sets the type of the content. |
 | [getHeaders()](#getHeaders--) | Gets headers collection of attachment. |
 | [getTransferEncoding()](#getTransferEncoding--) | Gets or sets the transfer encoding. |
+| [getUniqueId()](#getUniqueId--) | Gets or sets a unique identifier for the attachment that will be constant for each application run. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -340,6 +340,16 @@ Value: The transfer encoding.
 
 **Returns:**
 int
+### getUniqueId() {#getUniqueId--}
+```
+public final String getUniqueId()
+```
+
+
+Gets or sets a unique identifier for the attachment that will be constant for each application run.
+
+**Returns:**
+java.lang.String
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

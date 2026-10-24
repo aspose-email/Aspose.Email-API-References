@@ -3,7 +3,7 @@ title: ExchangeTaskStatus
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the task statuses.
 type: docs
-weight: 230
+weight: 233
 url: /java/com.aspose.email/exchangetaskstatus/
 ---
 

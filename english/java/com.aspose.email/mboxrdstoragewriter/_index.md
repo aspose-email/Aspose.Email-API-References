@@ -3,7 +3,7 @@ title: MboxrdStorageWriter
 second_title: Aspose.Email for Java API Reference
 description: Represents mboxrd format storage writer this format is being used by Thunderbird and other mail clients.
 type: docs
-weight: 510
+weight: 513
 url: /java/com.aspose.email/mboxrdstoragewriter/
 ---
 
@@ -18,9 +18,6 @@ Represents mboxrd format storage writer, this format is being used by Thunderbir
 
 | Constructor | Description |
 | --- | --- |
-| [MboxrdStorageWriter(OutputStream stream, boolean leaveOpen)](#MboxrdStorageWriter-java.io.OutputStream-boolean-) | Initializes a new instance of the [MboxrdStorageWriter](../../com.aspose.email/mboxrdstoragewriter) class. |
-| [MboxrdStorageWriter(System.IO.Stream stream, boolean leaveOpen)](#MboxrdStorageWriter-com.aspose.ms.System.IO.Stream-boolean-) | Initializes a new instance of the [MboxrdStorageWriter](../../com.aspose.email/mboxrdstoragewriter) class. |
-| [MboxrdStorageWriter(String fileName, boolean leaveOpen)](#MboxrdStorageWriter-java.lang.String-boolean-) | Initializes a new instance of the [MboxrdStorageWriter](../../com.aspose.email/mboxrdstoragewriter) class. |
 | [MboxrdStorageWriter(OutputStream stream, MboxSaveOptions options)](#MboxrdStorageWriter-java.io.OutputStream-com.aspose.email.MboxSaveOptions-) | Initializes a new instance of the [MboxrdStorageWriter](../../com.aspose.email/mboxrdstoragewriter) class. |
 | [MboxrdStorageWriter(System.IO.Stream stream, MboxSaveOptions options)](#MboxrdStorageWriter-com.aspose.ms.System.IO.Stream-com.aspose.email.MboxSaveOptions-) | Initializes a new instance of the [MboxrdStorageWriter](../../com.aspose.email/mboxrdstoragewriter) class. |
 | [MboxrdStorageWriter(String fileName, MboxSaveOptions options)](#MboxrdStorageWriter-java.lang.String-com.aspose.email.MboxSaveOptions-) | Initializes a new instance of the [MboxrdStorageWriter](../../com.aspose.email/mboxrdstoragewriter) class. |
@@ -44,48 +41,6 @@ Represents mboxrd format storage writer, this format is being used by Thunderbir
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
 | [writeMessage(MailMessage message)](#writeMessage-com.aspose.email.MailMessage-) | Writes the message to underlying storage stream. |
 | [writeMessage(MailMessage message, String[] fromMarker)](#writeMessage-com.aspose.email.MailMessage-java.lang.String---) | Writes the message to underlying storage stream. |
-### MboxrdStorageWriter(OutputStream stream, boolean leaveOpen) {#MboxrdStorageWriter-java.io.OutputStream-boolean-}
-```
-public MboxrdStorageWriter(OutputStream stream, boolean leaveOpen)
-```
-
-
-Initializes a new instance of the [MboxrdStorageWriter](../../com.aspose.email/mboxrdstoragewriter) class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.OutputStream | The stream. |
-| leaveOpen | boolean | if set to  true  leaves the underlying stream open after disposing. |
-
-### MboxrdStorageWriter(System.IO.Stream stream, boolean leaveOpen) {#MboxrdStorageWriter-com.aspose.ms.System.IO.Stream-boolean-}
-```
-public MboxrdStorageWriter(System.IO.Stream stream, boolean leaveOpen)
-```
-
-
-Initializes a new instance of the [MboxrdStorageWriter](../../com.aspose.email/mboxrdstoragewriter) class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | com.aspose.ms.System.IO.Stream | The stream. |
-| leaveOpen | boolean | if set to  true  leaves the underlying stream open after disposing. |
-
-### MboxrdStorageWriter(String fileName, boolean leaveOpen) {#MboxrdStorageWriter-java.lang.String-boolean-}
-```
-public MboxrdStorageWriter(String fileName, boolean leaveOpen)
-```
-
-
-Initializes a new instance of the [MboxrdStorageWriter](../../com.aspose.email/mboxrdstoragewriter) class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | Name of the file. |
-| leaveOpen | boolean | if set to  true  leaves the underlying stream open after disposing. |
-
 ### MboxrdStorageWriter(OutputStream stream, MboxSaveOptions options) {#MboxrdStorageWriter-java.io.OutputStream-com.aspose.email.MboxSaveOptions-}
 ```
 public MboxrdStorageWriter(OutputStream stream, MboxSaveOptions options)

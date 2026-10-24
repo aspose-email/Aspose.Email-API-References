@@ -3,7 +3,7 @@ title: ContentDisposition
 second_title: Aspose.Email for Java API Reference
 description: Represents a Content-Disposition header.
 type: docs
-weight: 128
+weight: 129
 url: /java/com.aspose.email/contentdisposition/
 ---
 

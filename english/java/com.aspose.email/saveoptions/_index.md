@@ -1,9 +1,9 @@
 ---
 title: SaveOptions
 second_title: Aspose.Email for Java API Reference
-description: This is an abstract base class for classes that allow the user to specify additional options when saving a MailMessage into a particular format.
+description: Serves as the abstract base class for format-specific options when saving  to various email formats EML EMLX MSG MHTML HTML etc..
 type: docs
-weight: 648
+weight: 653
 url: /java/com.aspose.email/saveoptions/
 ---
 
@@ -13,7 +13,11 @@ java.lang.Object
 public abstract class SaveOptions
 ```
 
-This is an abstract base class for classes that allow the user to specify additional options when saving a MailMessage into a particular format.
+Serves as the abstract base class for format-specific options when saving [MailMessage](../../com.aspose.email/mailmessage) to various email formats (EML, EMLX, MSG, MHTML, HTML, etc.). This class provides common configuration properties such as custom progress handlers and save type configuration.
+
+--------------------
+
+This class is designed to be inherited by concrete format-specific classes like [EmlSaveOptions](../../com.aspose.email/emlsaveoptions), [MsgSaveOptions](../../com.aspose.email/msgsaveoptions), [HtmlSaveOptions](../../com.aspose.email/htmlsaveoptions), and [MhtSaveOptions](../../com.aspose.email/mhtsaveoptions). Do not instantiate this class directly. Use the format-specific subclasses or the static factory methods like  DefaultEml ([getDefaultEml](../../com.aspose.email/saveoptions\#getDefaultEml)),  DefaultMsg ([getDefaultMsg](../../com.aspose.email/saveoptions\#getDefaultMsg)),  DefaultHtml ([getDefaultHtml](../../com.aspose.email/saveoptions\#getDefaultHtml)), etc.
 ## Methods
 
 | Method | Description |

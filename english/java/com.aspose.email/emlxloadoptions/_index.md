@@ -1,9 +1,9 @@
 ---
 title: EmlxLoadOptions
 second_title: Aspose.Email for Java API Reference
-description: Allows to specify additional options when loading MailMessage from Eml format.
+description: Provides options for controlling how  instances are loaded from EMLX format.
 type: docs
-weight: 177
+weight: 180
 url: /java/com.aspose.email/emlxloadoptions/
 ---
 
@@ -13,7 +13,11 @@ java.lang.Object, [com.aspose.email.LoadOptions](../../com.aspose.email/loadopti
 public class EmlxLoadOptions extends LoadOptions
 ```
 
-Allows to specify additional options when loading MailMessage from Eml format.
+Provides options for controlling how [MailMessage](../../com.aspose.email/mailmessage) instances are loaded from EMLX format. This class inherits from [LoadOptions](../../com.aspose.email/loadoptions) and is specifically designed for Apple Mail EMLX file format.
+
+--------------------
+
+Use this class with [MailMessage.load(String,LoadOptions)](../../com.aspose.email/mailmessage\#load-String-LoadOptions-) to load Apple Mail EMLX files. The EMLX format is used by Apple Mail on macOS and iOS devices.
 ## Constructors
 
 | Constructor | Description |

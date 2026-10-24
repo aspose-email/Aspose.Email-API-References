@@ -1,9 +1,9 @@
 ---
 title: SecureEmailManager
 second_title: Aspose.Email for Java API Reference
-description: Class that provided methods for working with secure emails.
+description: Provides methods for working with secure emails including S/MIME signing and encryption operations.
 type: docs
-weight: 657
+weight: 662
 url: /java/com.aspose.email/secureemailmanager/
 ---
 
@@ -13,7 +13,11 @@ java.lang.Object
 public class SecureEmailManager
 ```
 
-Class that provided methods for working with secure emails.
+Provides methods for working with secure emails, including S/MIME signing and encryption operations. This class enables digital signature verification, message decryption, and signing of email messages using X.509 certificates and PKCS\#7/CMS standards.
+
+--------------------
+
+Use  CheckSignature  to verify digital signatures on [MailMessage](../../com.aspose.email/mailmessage) or [MapiMessage](../../com.aspose.email/mapimessage) objects and retrieve signing/encryption certificates. Use  AttachSignature  methods to digitally sign messages using X.509 certificates or CmsSigner objects. Supports both attached (enveloped) and detached signature formats, as well as message encryption and decryption.
 ## Constructors
 
 | Constructor | Description |

@@ -3,7 +3,7 @@ title: ImapClient
 second_title: Aspose.Email for Java API Reference
 description: Allows applications to access and manipulate  messages by using the Internet Message Access Protocol IMAP.
 type: docs
-weight: 322
+weight: 325
 url: /java/com.aspose.email/imapclient/
 ---
 
@@ -2544,7 +2544,7 @@ Adds the flags to the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | The flags to be added |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback) {#beginAddMessageFlags-com.aspose.email.IConnection-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -2562,7 +2562,7 @@ Adds the flags to the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-com.aspose.email.IConnection-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -2581,7 +2581,7 @@ Adds the flags to the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, long modificationSequence) {#beginAddMessageFlags-com.aspose.email.IConnection-int-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, long modificationSequence)
@@ -2599,7 +2599,7 @@ Adds the flags to the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginAddMessageFlags-com.aspose.email.IConnection-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -2618,7 +2618,7 @@ Adds the flags to the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-com.aspose.email.IConnection-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -2638,7 +2638,7 @@ Adds the flags to the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags) {#beginAddMessageFlags-com.aspose.email.IConnection-int-int-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags)
@@ -2656,7 +2656,7 @@ Adds the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback) {#beginAddMessageFlags-com.aspose.email.IConnection-int-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -2675,7 +2675,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-com.aspose.email.IConnection-int-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -2695,7 +2695,7 @@ Adds the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence) {#beginAddMessageFlags-com.aspose.email.IConnection-int-int-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence)
@@ -2714,7 +2714,7 @@ Adds the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginAddMessageFlags-com.aspose.email.IConnection-int-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -2734,7 +2734,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-com.aspose.email.IConnection-int-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -2755,7 +2755,7 @@ Adds the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags) {#beginAddMessageFlags-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags)
@@ -2772,7 +2772,7 @@ Adds the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback) {#beginAddMessageFlags-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -2790,7 +2790,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -2809,7 +2809,7 @@ Adds the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence) {#beginAddMessageFlags-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence)
@@ -2827,7 +2827,7 @@ Adds the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginAddMessageFlags-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -2846,7 +2846,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -2866,7 +2866,7 @@ Adds the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags) {#beginAddMessageFlags-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags)
@@ -2883,7 +2883,7 @@ Adds the flags to the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | The flags to be added |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback) {#beginAddMessageFlags-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -2901,7 +2901,7 @@ Adds the flags to the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -2920,7 +2920,7 @@ Adds the flags to the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, long modificationSequence) {#beginAddMessageFlags-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, long modificationSequence)
@@ -2938,7 +2938,7 @@ Adds the flags to the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginAddMessageFlags-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -2957,7 +2957,7 @@ Adds the flags to the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -2977,7 +2977,7 @@ Adds the flags to the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags) {#beginAddMessageFlags-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags)
@@ -2995,7 +2995,7 @@ Adds the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback) {#beginAddMessageFlags-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -3014,7 +3014,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -3034,7 +3034,7 @@ Adds the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, long modificationSequence) {#beginAddMessageFlags-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, long modificationSequence)
@@ -3053,7 +3053,7 @@ Adds the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginAddMessageFlags-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -3073,7 +3073,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -3094,7 +3094,7 @@ Adds the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(int sequenceNumber, ImapMessageFlags flags) {#beginAddMessageFlags-int-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(int sequenceNumber, ImapMessageFlags flags)
@@ -3110,7 +3110,7 @@ Adds the flags to the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | The flags to be added |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback) {#beginAddMessageFlags-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -3127,7 +3127,7 @@ Adds the flags to the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -3145,7 +3145,7 @@ Adds the flags to the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(int sequenceNumber, ImapMessageFlags flags, long modificationSequence) {#beginAddMessageFlags-int-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(int sequenceNumber, ImapMessageFlags flags, long modificationSequence)
@@ -3162,7 +3162,7 @@ Adds the flags to the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginAddMessageFlags-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -3180,7 +3180,7 @@ Adds the flags to the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -3199,7 +3199,7 @@ Adds the flags to the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags) {#beginAddMessageFlags-int-int-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags)
@@ -3216,7 +3216,7 @@ Adds the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback) {#beginAddMessageFlags-int-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -3234,7 +3234,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-int-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -3253,7 +3253,7 @@ Adds the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence) {#beginAddMessageFlags-int-int-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence)
@@ -3271,7 +3271,7 @@ Adds the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginAddMessageFlags-int-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -3290,7 +3290,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-int-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -3310,7 +3310,7 @@ Adds the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags) {#beginAddMessageFlags-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags)
@@ -3326,7 +3326,7 @@ Adds the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback) {#beginAddMessageFlags-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -3343,7 +3343,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -3361,7 +3361,7 @@ Adds the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence) {#beginAddMessageFlags-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence)
@@ -3378,7 +3378,7 @@ Adds the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginAddMessageFlags-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -3396,7 +3396,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -3415,7 +3415,7 @@ Adds the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(String uniqueId, ImapMessageFlags flags) {#beginAddMessageFlags-java.lang.String-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(String uniqueId, ImapMessageFlags flags)
@@ -3431,7 +3431,7 @@ Adds the flags to the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | The flags to be added |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback) {#beginAddMessageFlags-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -3448,7 +3448,7 @@ Adds the flags to the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -3466,7 +3466,7 @@ Adds the flags to the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(String uniqueId, ImapMessageFlags flags, long modificationSequence) {#beginAddMessageFlags-java.lang.String-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(String uniqueId, ImapMessageFlags flags, long modificationSequence)
@@ -3483,7 +3483,7 @@ Adds the flags to the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginAddMessageFlags-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -3501,7 +3501,7 @@ Adds the flags to the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -3520,7 +3520,7 @@ Adds the flags to the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(String startUid, String endUid, ImapMessageFlags flags) {#beginAddMessageFlags-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(String startUid, String endUid, ImapMessageFlags flags)
@@ -3537,7 +3537,7 @@ Adds the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback) {#beginAddMessageFlags-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -3555,7 +3555,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -3574,7 +3574,7 @@ Adds the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(String startUid, String endUid, ImapMessageFlags flags, long modificationSequence) {#beginAddMessageFlags-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(String startUid, String endUid, ImapMessageFlags flags, long modificationSequence)
@@ -3592,7 +3592,7 @@ Adds the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginAddMessageFlags-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -3611,7 +3611,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlags(String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginAddMessageFlags-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlags(String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -3631,7 +3631,7 @@ Adds the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags) {#beginAddMessageFlagsBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags)
@@ -3648,7 +3648,7 @@ Adds the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback) {#beginAddMessageFlagsBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -3666,7 +3666,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginAddMessageFlagsBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -3685,7 +3685,7 @@ Adds the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence) {#beginAddMessageFlagsBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence)
@@ -3703,7 +3703,7 @@ Adds the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginAddMessageFlagsBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -3722,7 +3722,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginAddMessageFlagsBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -3742,7 +3742,7 @@ Adds the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags) {#beginAddMessageFlagsBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags)
@@ -3758,7 +3758,7 @@ Adds the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback) {#beginAddMessageFlagsBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -3775,7 +3775,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginAddMessageFlagsBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -3793,7 +3793,7 @@ Adds the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence) {#beginAddMessageFlagsBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence)
@@ -3810,7 +3810,7 @@ Adds the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginAddMessageFlagsBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -3828,7 +3828,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginAddMessageFlagsBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -3847,7 +3847,7 @@ Adds the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags) {#beginAddMessageFlagsByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags)
@@ -3864,7 +3864,7 @@ Adds the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback) {#beginAddMessageFlagsByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -3882,7 +3882,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginAddMessageFlagsByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -3901,7 +3901,7 @@ Adds the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence) {#beginAddMessageFlagsByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence)
@@ -3919,7 +3919,7 @@ Adds the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginAddMessageFlagsByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -3938,7 +3938,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginAddMessageFlagsByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -3958,7 +3958,7 @@ Adds the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags) {#beginAddMessageFlagsByUids-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags)
@@ -3974,7 +3974,7 @@ Adds the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback) {#beginAddMessageFlagsByUids-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -3991,7 +3991,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginAddMessageFlagsByUids-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -4009,7 +4009,7 @@ Adds the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence) {#beginAddMessageFlagsByUids-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence)
@@ -4026,7 +4026,7 @@ Adds the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginAddMessageFlagsByUids-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -4044,7 +4044,7 @@ Adds the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAddMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginAddMessageFlagsByUids-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAddMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -4063,7 +4063,7 @@ Adds the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessage(IConnection connection, MailMessage message) {#beginAppendMessage-com.aspose.email.IConnection-com.aspose.email.MailMessage-}
 ```
 public final System.IAsyncResult beginAppendMessage(IConnection connection, MailMessage message)
@@ -4079,7 +4079,7 @@ Begins append message to the end of the specified folder If current folder hasn'
 | message | [MailMessage](../../com.aspose.email/mailmessage) | Mail message to be upload |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessage(IConnection connection, String fileName) {#beginAppendMessage-com.aspose.email.IConnection-java.lang.String-}
 ```
 public final System.IAsyncResult beginAppendMessage(IConnection connection, String fileName)
@@ -4095,7 +4095,7 @@ Begins append message to the end of the current folder If current folder hasn't 
 | fileName | java.lang.String | File name (\*.eml) of the mail message that will be uploaded |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessage(IConnection connection, String folderName, MailMessage message) {#beginAppendMessage-com.aspose.email.IConnection-java.lang.String-com.aspose.email.MailMessage-}
 ```
 public final System.IAsyncResult beginAppendMessage(IConnection connection, String folderName, MailMessage message)
@@ -4112,7 +4112,7 @@ Begins append message to the end of the specified folder
 | message | [MailMessage](../../com.aspose.email/mailmessage) | Mail message to be upload |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessage(IConnection connection, String folderName, MailMessage message, System.AsyncCallback callback) {#beginAppendMessage-com.aspose.email.IConnection-java.lang.String-com.aspose.email.MailMessage-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAppendMessage(IConnection connection, String folderName, MailMessage message, System.AsyncCallback callback)
@@ -4130,7 +4130,7 @@ Begins append message to the end of the specified folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessage(IConnection connection, String folderName, MailMessage message, System.AsyncCallback callback, Object state) {#beginAppendMessage-com.aspose.email.IConnection-java.lang.String-com.aspose.email.MailMessage-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAppendMessage(IConnection connection, String folderName, MailMessage message, System.AsyncCallback callback, Object state)
@@ -4149,7 +4149,7 @@ Begins append message to the end of the specified folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessage(IConnection connection, String folderName, String fileName) {#beginAppendMessage-com.aspose.email.IConnection-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginAppendMessage(IConnection connection, String folderName, String fileName)
@@ -4166,7 +4166,7 @@ Begins append message to the end of the specified folder
 | fileName | java.lang.String | File name (\*.eml) of the mail message that will be uploaded |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessage(IConnection connection, String folderName, String fileName, System.AsyncCallback callback) {#beginAppendMessage-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAppendMessage(IConnection connection, String folderName, String fileName, System.AsyncCallback callback)
@@ -4184,7 +4184,7 @@ Begins append message to the end of the specified folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessage(IConnection connection, String folderName, String fileName, System.AsyncCallback callback, Object state) {#beginAppendMessage-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAppendMessage(IConnection connection, String folderName, String fileName, System.AsyncCallback callback, Object state)
@@ -4203,7 +4203,7 @@ Begins append message to the end of the specified folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessage(MailMessage message) {#beginAppendMessage-com.aspose.email.MailMessage-}
 ```
 public final System.IAsyncResult beginAppendMessage(MailMessage message)
@@ -4218,7 +4218,7 @@ Begins append message to the end of the specified folder If current folder hasn'
 | message | [MailMessage](../../com.aspose.email/mailmessage) | Mail message to be upload |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessage(String fileName) {#beginAppendMessage-java.lang.String-}
 ```
 public final System.IAsyncResult beginAppendMessage(String fileName)
@@ -4233,7 +4233,7 @@ Begins append message to the end of the current folder If current folder hasn't 
 | fileName | java.lang.String | File name (\*.eml) of the mail message that will be uploaded |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessage(String folderName, MailMessage message) {#beginAppendMessage-java.lang.String-com.aspose.email.MailMessage-}
 ```
 public final System.IAsyncResult beginAppendMessage(String folderName, MailMessage message)
@@ -4249,7 +4249,7 @@ Begins append message to the end of the specified folder
 | message | [MailMessage](../../com.aspose.email/mailmessage) | Mail message to be upload |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessage(String folderName, MailMessage message, System.AsyncCallback callback) {#beginAppendMessage-java.lang.String-com.aspose.email.MailMessage-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAppendMessage(String folderName, MailMessage message, System.AsyncCallback callback)
@@ -4266,7 +4266,7 @@ Begins append message to the end of the specified folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessage(String folderName, MailMessage message, System.AsyncCallback callback, Object state) {#beginAppendMessage-java.lang.String-com.aspose.email.MailMessage-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAppendMessage(String folderName, MailMessage message, System.AsyncCallback callback, Object state)
@@ -4284,7 +4284,7 @@ Begins append message to the end of the specified folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessage(String folderName, String fileName) {#beginAppendMessage-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginAppendMessage(String folderName, String fileName)
@@ -4300,7 +4300,7 @@ Begins append message to the end of the specified folder
 | fileName | java.lang.String | File name (\*.eml) of the mail message that will be uploaded |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessage(String folderName, String fileName, System.AsyncCallback callback) {#beginAppendMessage-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAppendMessage(String folderName, String fileName, System.AsyncCallback callback)
@@ -4317,7 +4317,7 @@ Begins append message to the end of the specified folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessage(String folderName, String fileName, System.AsyncCallback callback, Object state) {#beginAppendMessage-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAppendMessage(String folderName, String fileName, System.AsyncCallback callback, Object state)
@@ -4335,7 +4335,7 @@ Begins append message to the end of the specified folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessages(IConnection connection, Iterable<MailMessage> messages) {#beginAppendMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.MailMessage--}
 ```
 public final System.IAsyncResult beginAppendMessages(IConnection connection, Iterable<MailMessage> messages)
@@ -4351,7 +4351,7 @@ Begins append message to the end of the specified folder If current folder hasn'
 | messages | java.lang.Iterable<com.aspose.email.MailMessage> | Enumeration of email messages to be upload |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessages(IConnection connection, String folderName, Iterable<MailMessage> messages) {#beginAppendMessages-com.aspose.email.IConnection-java.lang.String-java.lang.Iterable-com.aspose.email.MailMessage--}
 ```
 public final System.IAsyncResult beginAppendMessages(IConnection connection, String folderName, Iterable<MailMessage> messages)
@@ -4368,7 +4368,7 @@ Begins append message to the end of the specified folder
 | messages | java.lang.Iterable<com.aspose.email.MailMessage> | Enumeration of email messages to be upload |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessages(IConnection connection, String folderName, Iterable<MailMessage> messages, System.AsyncCallback callback) {#beginAppendMessages-com.aspose.email.IConnection-java.lang.String-java.lang.Iterable-com.aspose.email.MailMessage--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAppendMessages(IConnection connection, String folderName, Iterable<MailMessage> messages, System.AsyncCallback callback)
@@ -4386,7 +4386,7 @@ Begins append message to the end of the specified folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessages(IConnection connection, String folderName, Iterable<MailMessage> messages, System.AsyncCallback callback, Object state) {#beginAppendMessages-com.aspose.email.IConnection-java.lang.String-java.lang.Iterable-com.aspose.email.MailMessage--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAppendMessages(IConnection connection, String folderName, Iterable<MailMessage> messages, System.AsyncCallback callback, Object state)
@@ -4405,7 +4405,7 @@ Begins append message to the end of the specified folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessages(Iterable<MailMessage> messages) {#beginAppendMessages-java.lang.Iterable-com.aspose.email.MailMessage--}
 ```
 public final System.IAsyncResult beginAppendMessages(Iterable<MailMessage> messages)
@@ -4420,7 +4420,7 @@ Begins append message to the end of the specified folder If current folder hasn'
 | messages | java.lang.Iterable<com.aspose.email.MailMessage> | Enumeration of email messages to be upload |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessages(String folderName, Iterable<MailMessage> messages) {#beginAppendMessages-java.lang.String-java.lang.Iterable-com.aspose.email.MailMessage--}
 ```
 public final System.IAsyncResult beginAppendMessages(String folderName, Iterable<MailMessage> messages)
@@ -4436,7 +4436,7 @@ Begins append message to the end of the specified folder
 | messages | java.lang.Iterable<com.aspose.email.MailMessage> | Enumeration of email messages to be upload |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessages(String folderName, Iterable<MailMessage> messages, System.AsyncCallback callback) {#beginAppendMessages-java.lang.String-java.lang.Iterable-com.aspose.email.MailMessage--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAppendMessages(String folderName, Iterable<MailMessage> messages, System.AsyncCallback callback)
@@ -4453,7 +4453,7 @@ Begins append message to the end of the specified folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessages(String folderName, Iterable<MailMessage> messages, System.AsyncCallback callback, Object state) {#beginAppendMessages-java.lang.String-java.lang.Iterable-com.aspose.email.MailMessage--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAppendMessages(String folderName, Iterable<MailMessage> messages, System.AsyncCallback callback, Object state)
@@ -4471,7 +4471,7 @@ Begins append message to the end of the specified folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessagesByName(IConnection connection, Iterable<String> fileNames) {#beginAppendMessagesByName-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--}
 ```
 public final System.IAsyncResult beginAppendMessagesByName(IConnection connection, Iterable<String> fileNames)
@@ -4487,7 +4487,7 @@ Begins append message to the end of the current folder If current folder hasn't 
 | fileNames | java.lang.Iterable<java.lang.String> | File names (\*.eml) of an email messages that will be uploaded |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessagesByName(IConnection connection, String folderName, Iterable<String> fileNames) {#beginAppendMessagesByName-com.aspose.email.IConnection-java.lang.String-java.lang.Iterable-java.lang.String--}
 ```
 public final System.IAsyncResult beginAppendMessagesByName(IConnection connection, String folderName, Iterable<String> fileNames)
@@ -4504,7 +4504,7 @@ Begins append message to the end of the specified folder
 | fileNames | java.lang.Iterable<java.lang.String> | File names (\*.eml) of an email messages that will be uploaded |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessagesByName(IConnection connection, String folderName, Iterable<String> fileNames, System.AsyncCallback callback) {#beginAppendMessagesByName-com.aspose.email.IConnection-java.lang.String-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAppendMessagesByName(IConnection connection, String folderName, Iterable<String> fileNames, System.AsyncCallback callback)
@@ -4522,7 +4522,7 @@ Begins append message to the end of the specified folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessagesByName(IConnection connection, String folderName, Iterable<String> fileNames, System.AsyncCallback callback, Object state) {#beginAppendMessagesByName-com.aspose.email.IConnection-java.lang.String-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAppendMessagesByName(IConnection connection, String folderName, Iterable<String> fileNames, System.AsyncCallback callback, Object state)
@@ -4541,7 +4541,7 @@ Begins append message to the end of the specified folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessagesByName(Iterable<String> fileNames) {#beginAppendMessagesByName-java.lang.Iterable-java.lang.String--}
 ```
 public final System.IAsyncResult beginAppendMessagesByName(Iterable<String> fileNames)
@@ -4556,7 +4556,7 @@ Begins append message to the end of the current folder If current folder hasn't 
 | fileNames | java.lang.Iterable<java.lang.String> | File names (\*.eml) of an email messages that will be uploaded |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessagesByName(String folderName, Iterable<String> fileNames) {#beginAppendMessagesByName-java.lang.String-java.lang.Iterable-java.lang.String--}
 ```
 public final System.IAsyncResult beginAppendMessagesByName(String folderName, Iterable<String> fileNames)
@@ -4572,7 +4572,7 @@ Begins append message to the end of the specified folder
 | fileNames | java.lang.Iterable<java.lang.String> | File names (\*.eml) of an email messages that will be uploaded |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessagesByName(String folderName, Iterable<String> fileNames, System.AsyncCallback callback) {#beginAppendMessagesByName-java.lang.String-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginAppendMessagesByName(String folderName, Iterable<String> fileNames, System.AsyncCallback callback)
@@ -4589,7 +4589,7 @@ Begins append message to the end of the specified folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginAppendMessagesByName(String folderName, Iterable<String> fileNames, System.AsyncCallback callback, Object state) {#beginAppendMessagesByName-java.lang.String-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginAppendMessagesByName(String folderName, Iterable<String> fileNames, System.AsyncCallback callback, Object state)
@@ -4607,7 +4607,7 @@ Begins append message to the end of the specified folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(IConnection connection, ImapFolderInfoCollection folders, OutputStream stream, BackupSettings options) {#beginBackup-com.aspose.email.IConnection-com.aspose.email.ImapFolderInfoCollection-java.io.OutputStream-com.aspose.email.BackupSettings-}
 ```
 public final System.IAsyncResult beginBackup(IConnection connection, ImapFolderInfoCollection folders, OutputStream stream, BackupSettings options)
@@ -4625,7 +4625,7 @@ Begins to backup the content of the specified folders
 | options | [BackupSettings](../../com.aspose.email/backupsettings) | A backup options |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(IConnection connection, ImapFolderInfoCollection folders, OutputStream stream, BackupSettings options, System.AsyncCallback callback) {#beginBackup-com.aspose.email.IConnection-com.aspose.email.ImapFolderInfoCollection-java.io.OutputStream-com.aspose.email.BackupSettings-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginBackup(IConnection connection, ImapFolderInfoCollection folders, OutputStream stream, BackupSettings options, System.AsyncCallback callback)
@@ -4644,7 +4644,7 @@ Begins to backup the content of the specified folders
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(IConnection connection, ImapFolderInfoCollection folders, OutputStream stream, BackupSettings options, System.AsyncCallback callback, Object state) {#beginBackup-com.aspose.email.IConnection-com.aspose.email.ImapFolderInfoCollection-java.io.OutputStream-com.aspose.email.BackupSettings-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginBackup(IConnection connection, ImapFolderInfoCollection folders, OutputStream stream, BackupSettings options, System.AsyncCallback callback, Object state)
@@ -4664,7 +4664,7 @@ Begins to backup the content of the specified folders
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(IConnection connection, ImapFolderInfoCollection folders, OutputStream stream, int options) {#beginBackup-com.aspose.email.IConnection-com.aspose.email.ImapFolderInfoCollection-java.io.OutputStream-int-}
 ```
 public final System.IAsyncResult beginBackup(IConnection connection, ImapFolderInfoCollection folders, OutputStream stream, int options)
@@ -4682,7 +4682,7 @@ Begins to backup the content of the specified folders
 | options | int | A backup options |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(IConnection connection, ImapFolderInfoCollection folders, OutputStream stream, int options, System.AsyncCallback callback) {#beginBackup-com.aspose.email.IConnection-com.aspose.email.ImapFolderInfoCollection-java.io.OutputStream-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginBackup(IConnection connection, ImapFolderInfoCollection folders, OutputStream stream, int options, System.AsyncCallback callback)
@@ -4701,7 +4701,7 @@ Begins to backup the content of the specified folders
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(IConnection connection, ImapFolderInfoCollection folders, OutputStream stream, int options, System.AsyncCallback callback, Object state) {#beginBackup-com.aspose.email.IConnection-com.aspose.email.ImapFolderInfoCollection-java.io.OutputStream-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginBackup(IConnection connection, ImapFolderInfoCollection folders, OutputStream stream, int options, System.AsyncCallback callback, Object state)
@@ -4721,7 +4721,7 @@ Begins to backup the content of the specified folders
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(IConnection connection, ImapFolderInfoCollection folders, String fileName, BackupSettings options) {#beginBackup-com.aspose.email.IConnection-com.aspose.email.ImapFolderInfoCollection-java.lang.String-com.aspose.email.BackupSettings-}
 ```
 public final System.IAsyncResult beginBackup(IConnection connection, ImapFolderInfoCollection folders, String fileName, BackupSettings options)
@@ -4739,7 +4739,7 @@ Begins to backup the content of the specified folders
 | options | [BackupSettings](../../com.aspose.email/backupsettings) | A backup options |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(IConnection connection, ImapFolderInfoCollection folders, String fileName, BackupSettings options, System.AsyncCallback callback) {#beginBackup-com.aspose.email.IConnection-com.aspose.email.ImapFolderInfoCollection-java.lang.String-com.aspose.email.BackupSettings-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginBackup(IConnection connection, ImapFolderInfoCollection folders, String fileName, BackupSettings options, System.AsyncCallback callback)
@@ -4758,7 +4758,7 @@ Begins to backup the content of the specified folders
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(IConnection connection, ImapFolderInfoCollection folders, String fileName, BackupSettings options, System.AsyncCallback callback, Object state) {#beginBackup-com.aspose.email.IConnection-com.aspose.email.ImapFolderInfoCollection-java.lang.String-com.aspose.email.BackupSettings-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginBackup(IConnection connection, ImapFolderInfoCollection folders, String fileName, BackupSettings options, System.AsyncCallback callback, Object state)
@@ -4778,7 +4778,7 @@ Begins to backup the content of the specified folders
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(IConnection connection, ImapFolderInfoCollection folders, String fileName, int options) {#beginBackup-com.aspose.email.IConnection-com.aspose.email.ImapFolderInfoCollection-java.lang.String-int-}
 ```
 public final System.IAsyncResult beginBackup(IConnection connection, ImapFolderInfoCollection folders, String fileName, int options)
@@ -4796,7 +4796,7 @@ Begins to backup the content of the specified folders
 | options | int | A backup options |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(IConnection connection, ImapFolderInfoCollection folders, String fileName, int options, System.AsyncCallback callback) {#beginBackup-com.aspose.email.IConnection-com.aspose.email.ImapFolderInfoCollection-java.lang.String-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginBackup(IConnection connection, ImapFolderInfoCollection folders, String fileName, int options, System.AsyncCallback callback)
@@ -4815,7 +4815,7 @@ Begins to backup the content of the specified folders
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(IConnection connection, ImapFolderInfoCollection folders, String fileName, int options, System.AsyncCallback callback, Object state) {#beginBackup-com.aspose.email.IConnection-com.aspose.email.ImapFolderInfoCollection-java.lang.String-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginBackup(IConnection connection, ImapFolderInfoCollection folders, String fileName, int options, System.AsyncCallback callback, Object state)
@@ -4835,7 +4835,7 @@ Begins to backup the content of the specified folders
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(ImapFolderInfoCollection folders, OutputStream stream, BackupSettings options) {#beginBackup-com.aspose.email.ImapFolderInfoCollection-java.io.OutputStream-com.aspose.email.BackupSettings-}
 ```
 public final System.IAsyncResult beginBackup(ImapFolderInfoCollection folders, OutputStream stream, BackupSettings options)
@@ -4852,7 +4852,7 @@ Begins to backup the content of the specified folders
 | options | [BackupSettings](../../com.aspose.email/backupsettings) | A backup options |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(ImapFolderInfoCollection folders, OutputStream stream, BackupSettings options, System.AsyncCallback callback) {#beginBackup-com.aspose.email.ImapFolderInfoCollection-java.io.OutputStream-com.aspose.email.BackupSettings-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginBackup(ImapFolderInfoCollection folders, OutputStream stream, BackupSettings options, System.AsyncCallback callback)
@@ -4870,7 +4870,7 @@ Begins to backup the content of the specified folders
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(ImapFolderInfoCollection folders, OutputStream stream, BackupSettings options, System.AsyncCallback callback, Object state) {#beginBackup-com.aspose.email.ImapFolderInfoCollection-java.io.OutputStream-com.aspose.email.BackupSettings-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginBackup(ImapFolderInfoCollection folders, OutputStream stream, BackupSettings options, System.AsyncCallback callback, Object state)
@@ -4889,7 +4889,7 @@ Begins to backup the content of the specified folders
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(ImapFolderInfoCollection folders, OutputStream stream, int options) {#beginBackup-com.aspose.email.ImapFolderInfoCollection-java.io.OutputStream-int-}
 ```
 public final System.IAsyncResult beginBackup(ImapFolderInfoCollection folders, OutputStream stream, int options)
@@ -4906,7 +4906,7 @@ Begins to backup the content of the specified folders
 | options | int | A backup options |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(ImapFolderInfoCollection folders, OutputStream stream, int options, System.AsyncCallback callback) {#beginBackup-com.aspose.email.ImapFolderInfoCollection-java.io.OutputStream-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginBackup(ImapFolderInfoCollection folders, OutputStream stream, int options, System.AsyncCallback callback)
@@ -4924,7 +4924,7 @@ Begins to backup the content of the specified folders
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(ImapFolderInfoCollection folders, OutputStream stream, int options, System.AsyncCallback callback, Object state) {#beginBackup-com.aspose.email.ImapFolderInfoCollection-java.io.OutputStream-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginBackup(ImapFolderInfoCollection folders, OutputStream stream, int options, System.AsyncCallback callback, Object state)
@@ -4943,7 +4943,7 @@ Begins to backup the content of the specified folders
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(ImapFolderInfoCollection folders, String fileName, BackupSettings options) {#beginBackup-com.aspose.email.ImapFolderInfoCollection-java.lang.String-com.aspose.email.BackupSettings-}
 ```
 public final System.IAsyncResult beginBackup(ImapFolderInfoCollection folders, String fileName, BackupSettings options)
@@ -4960,7 +4960,7 @@ Begins to backup the content of the specified folders
 | options | [BackupSettings](../../com.aspose.email/backupsettings) | A backup options |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(ImapFolderInfoCollection folders, String fileName, BackupSettings options, System.AsyncCallback callback) {#beginBackup-com.aspose.email.ImapFolderInfoCollection-java.lang.String-com.aspose.email.BackupSettings-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginBackup(ImapFolderInfoCollection folders, String fileName, BackupSettings options, System.AsyncCallback callback)
@@ -4978,7 +4978,7 @@ Begins to backup the content of the specified folders
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(ImapFolderInfoCollection folders, String fileName, BackupSettings options, System.AsyncCallback callback, Object state) {#beginBackup-com.aspose.email.ImapFolderInfoCollection-java.lang.String-com.aspose.email.BackupSettings-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginBackup(ImapFolderInfoCollection folders, String fileName, BackupSettings options, System.AsyncCallback callback, Object state)
@@ -4997,7 +4997,7 @@ Begins to backup the content of the specified folders
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(ImapFolderInfoCollection folders, String fileName, int options) {#beginBackup-com.aspose.email.ImapFolderInfoCollection-java.lang.String-int-}
 ```
 public final System.IAsyncResult beginBackup(ImapFolderInfoCollection folders, String fileName, int options)
@@ -5014,7 +5014,7 @@ Begins to backup the content of the specified folders
 | options | int | A backup options |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(ImapFolderInfoCollection folders, String fileName, int options, System.AsyncCallback callback) {#beginBackup-com.aspose.email.ImapFolderInfoCollection-java.lang.String-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginBackup(ImapFolderInfoCollection folders, String fileName, int options, System.AsyncCallback callback)
@@ -5032,7 +5032,7 @@ Begins to backup the content of the specified folders
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginBackup(ImapFolderInfoCollection folders, String fileName, int options, System.AsyncCallback callback, Object state) {#beginBackup-com.aspose.email.ImapFolderInfoCollection-java.lang.String-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginBackup(ImapFolderInfoCollection folders, String fileName, int options, System.AsyncCallback callback, Object state)
@@ -5051,7 +5051,7 @@ Begins to backup the content of the specified folders
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags) {#beginChangeMessageFlags-com.aspose.email.IConnection-int-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags)
@@ -5068,7 +5068,7 @@ Changes the flags of the message
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback) {#beginChangeMessageFlags-com.aspose.email.IConnection-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -5086,7 +5086,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-com.aspose.email.IConnection-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -5105,7 +5105,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, long modificationSequence) {#beginChangeMessageFlags-com.aspose.email.IConnection-int-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, long modificationSequence)
@@ -5123,7 +5123,7 @@ Changes the flags of the message
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginChangeMessageFlags-com.aspose.email.IConnection-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -5142,7 +5142,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-com.aspose.email.IConnection-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -5162,7 +5162,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags) {#beginChangeMessageFlags-com.aspose.email.IConnection-int-int-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags)
@@ -5180,7 +5180,7 @@ Changes the flags of the message
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback) {#beginChangeMessageFlags-com.aspose.email.IConnection-int-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -5199,7 +5199,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-com.aspose.email.IConnection-int-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -5219,7 +5219,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence) {#beginChangeMessageFlags-com.aspose.email.IConnection-int-int-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence)
@@ -5238,7 +5238,7 @@ Changes the flags of the message
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginChangeMessageFlags-com.aspose.email.IConnection-int-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -5258,7 +5258,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-com.aspose.email.IConnection-int-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -5279,7 +5279,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags) {#beginChangeMessageFlags-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags)
@@ -5296,7 +5296,7 @@ Changes the flags of the message
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback) {#beginChangeMessageFlags-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -5314,7 +5314,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -5333,7 +5333,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence) {#beginChangeMessageFlags-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence)
@@ -5351,7 +5351,7 @@ Changes the flags of the message
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginChangeMessageFlags-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -5370,7 +5370,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -5390,7 +5390,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags) {#beginChangeMessageFlags-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags)
@@ -5407,7 +5407,7 @@ Changes the flags of the message
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback) {#beginChangeMessageFlags-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -5425,7 +5425,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -5444,7 +5444,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, long modificationSequence) {#beginChangeMessageFlags-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, long modificationSequence)
@@ -5462,7 +5462,7 @@ Changes the flags of the message
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginChangeMessageFlags-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -5481,7 +5481,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -5501,7 +5501,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags) {#beginChangeMessageFlags-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags)
@@ -5519,7 +5519,7 @@ Changes the flags of the message
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback) {#beginChangeMessageFlags-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -5538,7 +5538,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -5558,7 +5558,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, long modificationSequence) {#beginChangeMessageFlags-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, long modificationSequence)
@@ -5577,7 +5577,7 @@ Changes the flags of the message
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginChangeMessageFlags-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -5597,7 +5597,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -5618,7 +5618,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(int sequenceNumber, ImapMessageFlags flags) {#beginChangeMessageFlags-int-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(int sequenceNumber, ImapMessageFlags flags)
@@ -5634,7 +5634,7 @@ Changes the flags of the message
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback) {#beginChangeMessageFlags-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -5651,7 +5651,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -5669,7 +5669,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(int sequenceNumber, ImapMessageFlags flags, long modificationSequence) {#beginChangeMessageFlags-int-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(int sequenceNumber, ImapMessageFlags flags, long modificationSequence)
@@ -5686,7 +5686,7 @@ Changes the flags of the message
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginChangeMessageFlags-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -5704,7 +5704,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -5723,7 +5723,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags) {#beginChangeMessageFlags-int-int-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags)
@@ -5740,7 +5740,7 @@ Changes the flags of the message
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback) {#beginChangeMessageFlags-int-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -5758,7 +5758,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-int-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -5777,7 +5777,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence) {#beginChangeMessageFlags-int-int-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence)
@@ -5795,7 +5795,7 @@ Changes the flags of the message
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginChangeMessageFlags-int-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -5814,7 +5814,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-int-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -5834,7 +5834,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags) {#beginChangeMessageFlags-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags)
@@ -5850,7 +5850,7 @@ Changes the flags of the message
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback) {#beginChangeMessageFlags-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -5867,7 +5867,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -5885,7 +5885,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence) {#beginChangeMessageFlags-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence)
@@ -5902,7 +5902,7 @@ Changes the flags of the message
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginChangeMessageFlags-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -5920,7 +5920,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -5939,7 +5939,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(String uniqueId, ImapMessageFlags flags) {#beginChangeMessageFlags-java.lang.String-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(String uniqueId, ImapMessageFlags flags)
@@ -5955,7 +5955,7 @@ Changes the flags of the message
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback) {#beginChangeMessageFlags-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -5972,7 +5972,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -5990,7 +5990,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(String uniqueId, ImapMessageFlags flags, long modificationSequence) {#beginChangeMessageFlags-java.lang.String-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(String uniqueId, ImapMessageFlags flags, long modificationSequence)
@@ -6007,7 +6007,7 @@ Changes the flags of the message
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginChangeMessageFlags-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -6025,7 +6025,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -6044,7 +6044,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(String startUid, String endUid, ImapMessageFlags flags) {#beginChangeMessageFlags-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(String startUid, String endUid, ImapMessageFlags flags)
@@ -6061,7 +6061,7 @@ Changes the flags of the message
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback) {#beginChangeMessageFlags-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -6079,7 +6079,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -6098,7 +6098,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(String startUid, String endUid, ImapMessageFlags flags, long modificationSequence) {#beginChangeMessageFlags-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(String startUid, String endUid, ImapMessageFlags flags, long modificationSequence)
@@ -6116,7 +6116,7 @@ Changes the flags of the message
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginChangeMessageFlags-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -6135,7 +6135,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlags(String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginChangeMessageFlags-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlags(String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -6155,7 +6155,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags) {#beginChangeMessageFlagsBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags)
@@ -6172,7 +6172,7 @@ Changes the flags of the message
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback) {#beginChangeMessageFlagsBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -6190,7 +6190,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginChangeMessageFlagsBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -6209,7 +6209,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence) {#beginChangeMessageFlagsBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence)
@@ -6227,7 +6227,7 @@ Changes the flags of the message
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginChangeMessageFlagsBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -6246,7 +6246,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginChangeMessageFlagsBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -6266,7 +6266,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags) {#beginChangeMessageFlagsBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags)
@@ -6282,7 +6282,7 @@ Changes the flags of the message
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback) {#beginChangeMessageFlagsBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -6299,7 +6299,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginChangeMessageFlagsBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -6317,7 +6317,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence) {#beginChangeMessageFlagsBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence)
@@ -6334,7 +6334,7 @@ Changes the flags of the message
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginChangeMessageFlagsBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -6352,7 +6352,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginChangeMessageFlagsBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -6371,7 +6371,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags) {#beginChangeMessageFlagsByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags)
@@ -6388,7 +6388,7 @@ Changes the flags of the message
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback) {#beginChangeMessageFlagsByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -6406,7 +6406,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginChangeMessageFlagsByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -6425,7 +6425,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence) {#beginChangeMessageFlagsByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence)
@@ -6443,7 +6443,7 @@ Changes the flags of the message
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginChangeMessageFlagsByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -6462,7 +6462,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginChangeMessageFlagsByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -6482,7 +6482,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags) {#beginChangeMessageFlagsByUids-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags)
@@ -6498,7 +6498,7 @@ Changes the flags of the message
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback) {#beginChangeMessageFlagsByUids-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -6515,7 +6515,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginChangeMessageFlagsByUids-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -6533,7 +6533,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence) {#beginChangeMessageFlagsByUids-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence)
@@ -6550,7 +6550,7 @@ Changes the flags of the message
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginChangeMessageFlagsByUids-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -6568,7 +6568,7 @@ Changes the flags of the message
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginChangeMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginChangeMessageFlagsByUids-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginChangeMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -6587,7 +6587,7 @@ Changes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginClientCapabilities(IConnection connection, String[] capabilityNames) {#beginClientCapabilities-com.aspose.email.IConnection-java.lang.String...-}
 ```
 public final System.IAsyncResult beginClientCapabilities(IConnection connection, String[] capabilityNames)
@@ -6603,7 +6603,7 @@ Notifies server which extensions are supported by client asyncronously. Please n
 | capabilityNames | java.lang.String[] | Array of capabilities which are supported by client |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginClientCapabilities(IConnection connection, String[] capabilityNames, System.AsyncCallback callback) {#beginClientCapabilities-com.aspose.email.IConnection-java.lang.String---com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginClientCapabilities(IConnection connection, String[] capabilityNames, System.AsyncCallback callback)
@@ -6620,7 +6620,7 @@ Notifies server which extensions are supported by client asyncronously. Please n
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginClientCapabilities(IConnection connection, String[] capabilityNames, System.AsyncCallback callback, Object state) {#beginClientCapabilities-com.aspose.email.IConnection-java.lang.String---com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginClientCapabilities(IConnection connection, String[] capabilityNames, System.AsyncCallback callback, Object state)
@@ -6638,7 +6638,7 @@ Notifies server which extensions are supported by client asyncronously. Please n
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginClientCapabilities(String[] capabilityNames) {#beginClientCapabilities-java.lang.String...-}
 ```
 public final System.IAsyncResult beginClientCapabilities(String[] capabilityNames)
@@ -6653,7 +6653,7 @@ Notifies server which extensions are supported by client asyncronously. Please n
 | capabilityNames | java.lang.String[] | Array of capabilities which are supported by client |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginClientCapabilities(String[] capabilityNames, System.AsyncCallback callback) {#beginClientCapabilities-java.lang.String---com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginClientCapabilities(String[] capabilityNames, System.AsyncCallback callback)
@@ -6669,7 +6669,7 @@ Notifies server which extensions are supported by client asyncronously. Please n
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginClientCapabilities(String[] capabilityNames, System.AsyncCallback callback, Object state) {#beginClientCapabilities-java.lang.String---com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginClientCapabilities(String[] capabilityNames, System.AsyncCallback callback, Object state)
@@ -6686,7 +6686,7 @@ Notifies server which extensions are supported by client asyncronously. Please n
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes() {#beginCommitDeletes--}
 ```
 public final System.IAsyncResult beginCommitDeletes()
@@ -6696,7 +6696,7 @@ public final System.IAsyncResult beginCommitDeletes()
 Begins to commit the deletions
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(IConnection connection) {#beginCommitDeletes-com.aspose.email.IConnection-}
 ```
 public final System.IAsyncResult beginCommitDeletes(IConnection connection)
@@ -6711,7 +6711,7 @@ Begins to commit the deletions
 | connection | [IConnection](../../com.aspose.email/iconnection) | Connection to a server |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(IConnection connection, System.AsyncCallback callback) {#beginCommitDeletes-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCommitDeletes(IConnection connection, System.AsyncCallback callback)
@@ -6727,7 +6727,7 @@ Begins to commit the deletions
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(IConnection connection, System.AsyncCallback callback, Object state) {#beginCommitDeletes-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCommitDeletes(IConnection connection, System.AsyncCallback callback, Object state)
@@ -6744,7 +6744,7 @@ Begins to commit the deletions
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(IConnection connection, int sleep) {#beginCommitDeletes-com.aspose.email.IConnection-int-}
 ```
 public final System.IAsyncResult beginCommitDeletes(IConnection connection, int sleep)
@@ -6760,7 +6760,7 @@ Begins to commit the deletions
 | sleep | int | Wait time complete the operation in milliseconds |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(IConnection connection, int sleep, System.AsyncCallback callback, Object state) {#beginCommitDeletes-com.aspose.email.IConnection-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCommitDeletes(IConnection connection, int sleep, System.AsyncCallback callback, Object state)
@@ -6778,7 +6778,7 @@ Begins to commit the deletions
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(IConnection connection, Iterable<String> uidSet) {#beginCommitDeletes-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--}
 ```
 public final System.IAsyncResult beginCommitDeletes(IConnection connection, Iterable<String> uidSet)
@@ -6794,7 +6794,7 @@ Begins to commit the deletions This method works only if server supports UIDPLUS
 | uidSet | java.lang.Iterable<java.lang.String> | Set of unique identifiers for messages |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(IConnection connection, Iterable<String> uidSet, System.AsyncCallback callback) {#beginCommitDeletes-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCommitDeletes(IConnection connection, Iterable<String> uidSet, System.AsyncCallback callback)
@@ -6811,7 +6811,7 @@ Begins to commit the deletions This method works only if server supports UIDPLUS
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(IConnection connection, Iterable<String> uidSet, System.AsyncCallback callback, Object state) {#beginCommitDeletes-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCommitDeletes(IConnection connection, Iterable<String> uidSet, System.AsyncCallback callback, Object state)
@@ -6829,7 +6829,7 @@ Begins to commit the deletions This method works only if server supports UIDPLUS
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(IConnection connection, String uniqueId) {#beginCommitDeletes-com.aspose.email.IConnection-java.lang.String-}
 ```
 public final System.IAsyncResult beginCommitDeletes(IConnection connection, String uniqueId)
@@ -6845,7 +6845,7 @@ Begins to commit the deletions This method works only if server supports UIDPLUS
 | uniqueId | java.lang.String | The uid of a message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(IConnection connection, String uniqueId, System.AsyncCallback callback) {#beginCommitDeletes-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCommitDeletes(IConnection connection, String uniqueId, System.AsyncCallback callback)
@@ -6862,7 +6862,7 @@ Begins to commit the deletions This method works only if server supports UIDPLUS
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(IConnection connection, String uniqueId, System.AsyncCallback callback, Object state) {#beginCommitDeletes-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCommitDeletes(IConnection connection, String uniqueId, System.AsyncCallback callback, Object state)
@@ -6880,7 +6880,7 @@ Begins to commit the deletions This method works only if server supports UIDPLUS
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(IConnection connection, String startUid, String endUid) {#beginCommitDeletes-com.aspose.email.IConnection-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginCommitDeletes(IConnection connection, String startUid, String endUid)
@@ -6897,7 +6897,7 @@ Begins to commit the deletions This method works only if server supports UIDPLUS
 | endUid | java.lang.String | The ending UID of a message list |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(IConnection connection, String startUid, String endUid, System.AsyncCallback callback) {#beginCommitDeletes-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCommitDeletes(IConnection connection, String startUid, String endUid, System.AsyncCallback callback)
@@ -6915,7 +6915,7 @@ Begins to commit the deletions This method works only if server supports UIDPLUS
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(IConnection connection, String startUid, String endUid, System.AsyncCallback callback, Object state) {#beginCommitDeletes-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCommitDeletes(IConnection connection, String startUid, String endUid, System.AsyncCallback callback, Object state)
@@ -6934,7 +6934,7 @@ Begins to commit the deletions This method works only if server supports UIDPLUS
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(System.AsyncCallback callback) {#beginCommitDeletes-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCommitDeletes(System.AsyncCallback callback)
@@ -6949,7 +6949,7 @@ Begins to commit the deletions
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(System.AsyncCallback callback, Object state) {#beginCommitDeletes-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCommitDeletes(System.AsyncCallback callback, Object state)
@@ -6965,7 +6965,7 @@ Begins to commit the deletions
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(int sleep) {#beginCommitDeletes-int-}
 ```
 public final System.IAsyncResult beginCommitDeletes(int sleep)
@@ -6980,7 +6980,7 @@ Begins to commit the deletions
 | sleep | int | Wait time complete the operation in milliseconds |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(int sleep, System.AsyncCallback callback, Object state) {#beginCommitDeletes-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCommitDeletes(int sleep, System.AsyncCallback callback, Object state)
@@ -6997,7 +6997,7 @@ Begins to commit the deletions
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(Iterable<String> uidSet) {#beginCommitDeletes-java.lang.Iterable-java.lang.String--}
 ```
 public final System.IAsyncResult beginCommitDeletes(Iterable<String> uidSet)
@@ -7012,7 +7012,7 @@ Begins to commit the deletions This method works only if server supports UIDPLUS
 | uidSet | java.lang.Iterable<java.lang.String> | Set of unique identifiers for messages |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(Iterable<String> uidSet, System.AsyncCallback callback) {#beginCommitDeletes-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCommitDeletes(Iterable<String> uidSet, System.AsyncCallback callback)
@@ -7028,7 +7028,7 @@ Begins to commit the deletions This method works only if server supports UIDPLUS
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(Iterable<String> uidSet, System.AsyncCallback callback, Object state) {#beginCommitDeletes-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCommitDeletes(Iterable<String> uidSet, System.AsyncCallback callback, Object state)
@@ -7045,7 +7045,7 @@ Begins to commit the deletions This method works only if server supports UIDPLUS
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(String uniqueId) {#beginCommitDeletes-java.lang.String-}
 ```
 public final System.IAsyncResult beginCommitDeletes(String uniqueId)
@@ -7060,7 +7060,7 @@ Begins to commit the deletions This method works only if server supports UIDPLUS
 | uniqueId | java.lang.String | The uid of a message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(String uniqueId, System.AsyncCallback callback) {#beginCommitDeletes-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCommitDeletes(String uniqueId, System.AsyncCallback callback)
@@ -7076,7 +7076,7 @@ Begins to commit the deletions This method works only if server supports UIDPLUS
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(String uniqueId, System.AsyncCallback callback, Object state) {#beginCommitDeletes-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCommitDeletes(String uniqueId, System.AsyncCallback callback, Object state)
@@ -7093,7 +7093,7 @@ Begins to commit the deletions This method works only if server supports UIDPLUS
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(String startUid, String endUid) {#beginCommitDeletes-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginCommitDeletes(String startUid, String endUid)
@@ -7109,7 +7109,7 @@ Begins to commit the deletions This method works only if server supports UIDPLUS
 | endUid | java.lang.String | The ending UID of a message list |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(String startUid, String endUid, System.AsyncCallback callback) {#beginCommitDeletes-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCommitDeletes(String startUid, String endUid, System.AsyncCallback callback)
@@ -7126,7 +7126,7 @@ Begins to commit the deletions This method works only if server supports UIDPLUS
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCommitDeletes(String startUid, String endUid, System.AsyncCallback callback, Object state) {#beginCommitDeletes-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCommitDeletes(String startUid, String endUid, System.AsyncCallback callback, Object state)
@@ -7144,7 +7144,7 @@ Begins to commit the deletions This method works only if server supports UIDPLUS
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessage(IConnection connection, int sequenceNumber, String folderName) {#beginCopyMessage-com.aspose.email.IConnection-int-java.lang.String-}
 ```
 public final System.IAsyncResult beginCopyMessage(IConnection connection, int sequenceNumber, String folderName)
@@ -7161,7 +7161,7 @@ Begins an asynchronous copying.
 | folderName | java.lang.String | Name of the folder. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessage(IConnection connection, int sequenceNumber, String folderName, System.AsyncCallback callback) {#beginCopyMessage-com.aspose.email.IConnection-int-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCopyMessage(IConnection connection, int sequenceNumber, String folderName, System.AsyncCallback callback)
@@ -7179,7 +7179,7 @@ Begins an asynchronous copying.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessage(IConnection connection, int sequenceNumber, String folderName, System.AsyncCallback callback, Object state) {#beginCopyMessage-com.aspose.email.IConnection-int-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCopyMessage(IConnection connection, int sequenceNumber, String folderName, System.AsyncCallback callback, Object state)
@@ -7198,7 +7198,7 @@ Begins an asynchronous copying.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessage(IConnection connection, String uniqueId, String folderName) {#beginCopyMessage-com.aspose.email.IConnection-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginCopyMessage(IConnection connection, String uniqueId, String folderName)
@@ -7215,7 +7215,7 @@ Begins an asynchronous copying.
 | folderName | java.lang.String | Name of the folder. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessage(IConnection connection, String uniqueId, String folderName, System.AsyncCallback callback) {#beginCopyMessage-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCopyMessage(IConnection connection, String uniqueId, String folderName, System.AsyncCallback callback)
@@ -7233,7 +7233,7 @@ Begins an asynchronous copying.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessage(IConnection connection, String uniqueId, String folderName, System.AsyncCallback callback, Object state) {#beginCopyMessage-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCopyMessage(IConnection connection, String uniqueId, String folderName, System.AsyncCallback callback, Object state)
@@ -7252,7 +7252,7 @@ Begins an asynchronous copying.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessage(int sequenceNumber, String folderName) {#beginCopyMessage-int-java.lang.String-}
 ```
 public final System.IAsyncResult beginCopyMessage(int sequenceNumber, String folderName)
@@ -7268,7 +7268,7 @@ Begins an asynchronous copying.
 | folderName | java.lang.String | Name of the folder. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessage(int sequenceNumber, String folderName, System.AsyncCallback callback) {#beginCopyMessage-int-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCopyMessage(int sequenceNumber, String folderName, System.AsyncCallback callback)
@@ -7285,7 +7285,7 @@ Begins an asynchronous copying.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessage(int sequenceNumber, String folderName, System.AsyncCallback callback, Object state) {#beginCopyMessage-int-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCopyMessage(int sequenceNumber, String folderName, System.AsyncCallback callback, Object state)
@@ -7303,7 +7303,7 @@ Begins an asynchronous copying.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessage(String uniqueId, String folderName) {#beginCopyMessage-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginCopyMessage(String uniqueId, String folderName)
@@ -7319,7 +7319,7 @@ Begins an asynchronous copying.
 | folderName | java.lang.String | Name of the folder. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessage(String uniqueId, String folderName, System.AsyncCallback callback) {#beginCopyMessage-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCopyMessage(String uniqueId, String folderName, System.AsyncCallback callback)
@@ -7336,7 +7336,7 @@ Begins an asynchronous copying.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessage(String uniqueId, String folderName, System.AsyncCallback callback, Object state) {#beginCopyMessage-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCopyMessage(String uniqueId, String folderName, System.AsyncCallback callback, Object state)
@@ -7354,7 +7354,7 @@ Begins an asynchronous copying.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessages(IConnection connection, int startSequence, int endSequence, String folderName) {#beginCopyMessages-com.aspose.email.IConnection-int-int-java.lang.String-}
 ```
 public final System.IAsyncResult beginCopyMessages(IConnection connection, int startSequence, int endSequence, String folderName)
@@ -7372,7 +7372,7 @@ Begins copy operation asynchronously.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessages(IConnection connection, int startSequence, int endSequence, String folderName, System.AsyncCallback callback) {#beginCopyMessages-com.aspose.email.IConnection-int-int-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCopyMessages(IConnection connection, int startSequence, int endSequence, String folderName, System.AsyncCallback callback)
@@ -7391,7 +7391,7 @@ Begins copy operation asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessages(IConnection connection, int startSequence, int endSequence, String folderName, System.AsyncCallback callback, Object state) {#beginCopyMessages-com.aspose.email.IConnection-int-int-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCopyMessages(IConnection connection, int startSequence, int endSequence, String folderName, System.AsyncCallback callback, Object state)
@@ -7411,7 +7411,7 @@ Begins copy operation asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, String folderName) {#beginCopyMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--java.lang.String-}
 ```
 public final System.IAsyncResult beginCopyMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, String folderName)
@@ -7428,7 +7428,7 @@ Begins copy operation asynchronously.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, String folderName, System.AsyncCallback callback) {#beginCopyMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCopyMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, String folderName, System.AsyncCallback callback)
@@ -7446,7 +7446,7 @@ Begins copy operation asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, String folderName, System.AsyncCallback callback, Object state) {#beginCopyMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCopyMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, String folderName, System.AsyncCallback callback, Object state)
@@ -7465,7 +7465,7 @@ Begins copy operation asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessages(IConnection connection, String startUid, String endUid, String folderName) {#beginCopyMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginCopyMessages(IConnection connection, String startUid, String endUid, String folderName)
@@ -7483,7 +7483,7 @@ Begins copy operation asynchronously.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessages(IConnection connection, String startUid, String endUid, String folderName, System.AsyncCallback callback) {#beginCopyMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCopyMessages(IConnection connection, String startUid, String endUid, String folderName, System.AsyncCallback callback)
@@ -7502,7 +7502,7 @@ Begins copy operation asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessages(IConnection connection, String startUid, String endUid, String folderName, System.AsyncCallback callback, Object state) {#beginCopyMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCopyMessages(IConnection connection, String startUid, String endUid, String folderName, System.AsyncCallback callback, Object state)
@@ -7522,7 +7522,7 @@ Begins copy operation asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessages(int startSequence, int endSequence, String folderName) {#beginCopyMessages-int-int-java.lang.String-}
 ```
 public final System.IAsyncResult beginCopyMessages(int startSequence, int endSequence, String folderName)
@@ -7539,7 +7539,7 @@ Begins copy operation asynchronously.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessages(int startSequence, int endSequence, String folderName, System.AsyncCallback callback) {#beginCopyMessages-int-int-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCopyMessages(int startSequence, int endSequence, String folderName, System.AsyncCallback callback)
@@ -7557,7 +7557,7 @@ Begins copy operation asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessages(int startSequence, int endSequence, String folderName, System.AsyncCallback callback, Object state) {#beginCopyMessages-int-int-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCopyMessages(int startSequence, int endSequence, String folderName, System.AsyncCallback callback, Object state)
@@ -7576,7 +7576,7 @@ Begins copy operation asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessages(Iterable<ImapMessageInfo> messageInfoSet, String folderName) {#beginCopyMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--java.lang.String-}
 ```
 public final System.IAsyncResult beginCopyMessages(Iterable<ImapMessageInfo> messageInfoSet, String folderName)
@@ -7592,7 +7592,7 @@ Begins copy operation asynchronously.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessages(Iterable<ImapMessageInfo> messageInfoSet, String folderName, System.AsyncCallback callback) {#beginCopyMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCopyMessages(Iterable<ImapMessageInfo> messageInfoSet, String folderName, System.AsyncCallback callback)
@@ -7609,7 +7609,7 @@ Begins copy operation asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessages(Iterable<ImapMessageInfo> messageInfoSet, String folderName, System.AsyncCallback callback, Object state) {#beginCopyMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCopyMessages(Iterable<ImapMessageInfo> messageInfoSet, String folderName, System.AsyncCallback callback, Object state)
@@ -7627,7 +7627,7 @@ Begins copy operation asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessages(String startUid, String endUid, String folderName) {#beginCopyMessages-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginCopyMessages(String startUid, String endUid, String folderName)
@@ -7644,7 +7644,7 @@ Begins copy operation asynchronously.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessages(String startUid, String endUid, String folderName, System.AsyncCallback callback) {#beginCopyMessages-java.lang.String-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCopyMessages(String startUid, String endUid, String folderName, System.AsyncCallback callback)
@@ -7662,7 +7662,7 @@ Begins copy operation asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessages(String startUid, String endUid, String folderName, System.AsyncCallback callback, Object state) {#beginCopyMessages-java.lang.String-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCopyMessages(String startUid, String endUid, String folderName, System.AsyncCallback callback, Object state)
@@ -7681,7 +7681,7 @@ Begins copy operation asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, String folderName) {#beginCopyMessagesBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--java.lang.String-}
 ```
 public final System.IAsyncResult beginCopyMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, String folderName)
@@ -7698,7 +7698,7 @@ Begins copy operation asynchronously.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, String folderName, System.AsyncCallback callback) {#beginCopyMessagesBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCopyMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, String folderName, System.AsyncCallback callback)
@@ -7716,7 +7716,7 @@ Begins copy operation asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, String folderName, System.AsyncCallback callback, Object state) {#beginCopyMessagesBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCopyMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, String folderName, System.AsyncCallback callback, Object state)
@@ -7735,7 +7735,7 @@ Begins copy operation asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessagesBySequences(Iterable<Integer> sequenceSet, String folderName) {#beginCopyMessagesBySequences-java.lang.Iterable-java.lang.Integer--java.lang.String-}
 ```
 public final System.IAsyncResult beginCopyMessagesBySequences(Iterable<Integer> sequenceSet, String folderName)
@@ -7751,7 +7751,7 @@ Begins copy operation asynchronously.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessagesBySequences(Iterable<Integer> sequenceSet, String folderName, System.AsyncCallback callback) {#beginCopyMessagesBySequences-java.lang.Iterable-java.lang.Integer--java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCopyMessagesBySequences(Iterable<Integer> sequenceSet, String folderName, System.AsyncCallback callback)
@@ -7768,7 +7768,7 @@ Begins copy operation asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessagesBySequences(Iterable<Integer> sequenceSet, String folderName, System.AsyncCallback callback, Object state) {#beginCopyMessagesBySequences-java.lang.Iterable-java.lang.Integer--java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCopyMessagesBySequences(Iterable<Integer> sequenceSet, String folderName, System.AsyncCallback callback, Object state)
@@ -7786,7 +7786,7 @@ Begins copy operation asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessagesByUids(IConnection connection, Iterable<String> uidSet, String folderName) {#beginCopyMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--java.lang.String-}
 ```
 public final System.IAsyncResult beginCopyMessagesByUids(IConnection connection, Iterable<String> uidSet, String folderName)
@@ -7803,7 +7803,7 @@ Begins copy operation asynchronously.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessagesByUids(IConnection connection, Iterable<String> uidSet, String folderName, System.AsyncCallback callback) {#beginCopyMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCopyMessagesByUids(IConnection connection, Iterable<String> uidSet, String folderName, System.AsyncCallback callback)
@@ -7821,7 +7821,7 @@ Begins copy operation asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessagesByUids(IConnection connection, Iterable<String> uidSet, String folderName, System.AsyncCallback callback, Object state) {#beginCopyMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCopyMessagesByUids(IConnection connection, Iterable<String> uidSet, String folderName, System.AsyncCallback callback, Object state)
@@ -7840,7 +7840,7 @@ Begins copy operation asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessagesByUids(Iterable<String> uidSet, String folderName) {#beginCopyMessagesByUids-java.lang.Iterable-java.lang.String--java.lang.String-}
 ```
 public final System.IAsyncResult beginCopyMessagesByUids(Iterable<String> uidSet, String folderName)
@@ -7856,7 +7856,7 @@ Begins copy operation asynchronously.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessagesByUids(Iterable<String> uidSet, String folderName, System.AsyncCallback callback) {#beginCopyMessagesByUids-java.lang.Iterable-java.lang.String--java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCopyMessagesByUids(Iterable<String> uidSet, String folderName, System.AsyncCallback callback)
@@ -7873,7 +7873,7 @@ Begins copy operation asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCopyMessagesByUids(Iterable<String> uidSet, String folderName, System.AsyncCallback callback, Object state) {#beginCopyMessagesByUids-java.lang.Iterable-java.lang.String--java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCopyMessagesByUids(Iterable<String> uidSet, String folderName, System.AsyncCallback callback, Object state)
@@ -7891,7 +7891,7 @@ Begins copy operation asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCreateFolder(IConnection connection, String folderName) {#beginCreateFolder-com.aspose.email.IConnection-java.lang.String-}
 ```
 public final System.IAsyncResult beginCreateFolder(IConnection connection, String folderName)
@@ -7907,7 +7907,7 @@ Begins an asynchronous folder creation.
 | folderName | java.lang.String | Name of the folder. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCreateFolder(IConnection connection, String folderName, System.AsyncCallback callback) {#beginCreateFolder-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCreateFolder(IConnection connection, String folderName, System.AsyncCallback callback)
@@ -7924,7 +7924,7 @@ Begins an asynchronous folder creation.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCreateFolder(IConnection connection, String folderName, System.AsyncCallback callback, Object state) {#beginCreateFolder-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCreateFolder(IConnection connection, String folderName, System.AsyncCallback callback, Object state)
@@ -7942,7 +7942,7 @@ Begins an asynchronous folder creation.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCreateFolder(String folderName) {#beginCreateFolder-java.lang.String-}
 ```
 public final System.IAsyncResult beginCreateFolder(String folderName)
@@ -7957,7 +7957,7 @@ Begins an asynchronous folder creation.
 | folderName | java.lang.String | Name of the folder. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCreateFolder(String folderName, System.AsyncCallback callback) {#beginCreateFolder-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginCreateFolder(String folderName, System.AsyncCallback callback)
@@ -7973,7 +7973,7 @@ Begins an asynchronous folder creation.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginCreateFolder(String folderName, System.AsyncCallback callback, Object state) {#beginCreateFolder-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginCreateFolder(String folderName, System.AsyncCallback callback, Object state)
@@ -7990,7 +7990,7 @@ Begins an asynchronous folder creation.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteFolder(IConnection connection, String folderName) {#beginDeleteFolder-com.aspose.email.IConnection-java.lang.String-}
 ```
 public final System.IAsyncResult beginDeleteFolder(IConnection connection, String folderName)
@@ -8006,7 +8006,7 @@ Begins an asynchronous folder deletion.
 | folderName | java.lang.String | Name of the folder. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteFolder(IConnection connection, String folderName, System.AsyncCallback callback) {#beginDeleteFolder-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteFolder(IConnection connection, String folderName, System.AsyncCallback callback)
@@ -8023,7 +8023,7 @@ Begins an asynchronous folder deletion.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteFolder(IConnection connection, String folderName, System.AsyncCallback callback, Object state) {#beginDeleteFolder-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteFolder(IConnection connection, String folderName, System.AsyncCallback callback, Object state)
@@ -8041,7 +8041,7 @@ Begins an asynchronous folder deletion.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteFolder(String folderName) {#beginDeleteFolder-java.lang.String-}
 ```
 public final System.IAsyncResult beginDeleteFolder(String folderName)
@@ -8056,7 +8056,7 @@ Begins an asynchronous folder deletion.
 | folderName | java.lang.String | Name of the folder. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteFolder(String folderName, System.AsyncCallback callback) {#beginDeleteFolder-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteFolder(String folderName, System.AsyncCallback callback)
@@ -8072,7 +8072,7 @@ Begins an asynchronous folder deletion.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteFolder(String folderName, System.AsyncCallback callback, Object state) {#beginDeleteFolder-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteFolder(String folderName, System.AsyncCallback callback, Object state)
@@ -8089,7 +8089,7 @@ Begins an asynchronous folder deletion.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(IConnection connection, int sequenceNumber) {#beginDeleteMessage-com.aspose.email.IConnection-int-}
 ```
 public final System.IAsyncResult beginDeleteMessage(IConnection connection, int sequenceNumber)
@@ -8105,7 +8105,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | sequenceNumber | int | The sequence number of message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(IConnection connection, int sequenceNumber, System.AsyncCallback callback) {#beginDeleteMessage-com.aspose.email.IConnection-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessage(IConnection connection, int sequenceNumber, System.AsyncCallback callback)
@@ -8122,7 +8122,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(IConnection connection, int sequenceNumber, System.AsyncCallback callback, Object state) {#beginDeleteMessage-com.aspose.email.IConnection-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessage(IConnection connection, int sequenceNumber, System.AsyncCallback callback, Object state)
@@ -8140,7 +8140,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(IConnection connection, int sequenceNumber, long modificationSequence) {#beginDeleteMessage-com.aspose.email.IConnection-int-long-}
 ```
 public final System.IAsyncResult beginDeleteMessage(IConnection connection, int sequenceNumber, long modificationSequence)
@@ -8157,7 +8157,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(IConnection connection, int sequenceNumber, long modificationSequence, System.AsyncCallback callback) {#beginDeleteMessage-com.aspose.email.IConnection-int-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessage(IConnection connection, int sequenceNumber, long modificationSequence, System.AsyncCallback callback)
@@ -8175,7 +8175,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(IConnection connection, int sequenceNumber, long modificationSequence, System.AsyncCallback callback, Object state) {#beginDeleteMessage-com.aspose.email.IConnection-int-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessage(IConnection connection, int sequenceNumber, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -8194,7 +8194,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(IConnection connection, String uniqueId) {#beginDeleteMessage-com.aspose.email.IConnection-java.lang.String-}
 ```
 public final System.IAsyncResult beginDeleteMessage(IConnection connection, String uniqueId)
@@ -8210,7 +8210,7 @@ Begins an asynchronous message deletion.
 | uniqueId | java.lang.String | The uid of the message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(IConnection connection, String uniqueId, boolean commitNow) {#beginDeleteMessage-com.aspose.email.IConnection-java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginDeleteMessage(IConnection connection, String uniqueId, boolean commitNow)
@@ -8227,7 +8227,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | commitNow | boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(IConnection connection, String uniqueId, boolean commitNow, System.AsyncCallback callback) {#beginDeleteMessage-com.aspose.email.IConnection-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessage(IConnection connection, String uniqueId, boolean commitNow, System.AsyncCallback callback)
@@ -8245,7 +8245,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(IConnection connection, String uniqueId, boolean commitNow, System.AsyncCallback callback, Object state) {#beginDeleteMessage-com.aspose.email.IConnection-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessage(IConnection connection, String uniqueId, boolean commitNow, System.AsyncCallback callback, Object state)
@@ -8264,7 +8264,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(IConnection connection, String uniqueId, System.AsyncCallback callback) {#beginDeleteMessage-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessage(IConnection connection, String uniqueId, System.AsyncCallback callback)
@@ -8281,7 +8281,7 @@ Begins an asynchronous message deletion.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(IConnection connection, String uniqueId, System.AsyncCallback callback, Object state) {#beginDeleteMessage-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessage(IConnection connection, String uniqueId, System.AsyncCallback callback, Object state)
@@ -8299,7 +8299,7 @@ Begins an asynchronous message deletion.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(IConnection connection, String uniqueId, long modificationSequence) {#beginDeleteMessage-com.aspose.email.IConnection-java.lang.String-long-}
 ```
 public final System.IAsyncResult beginDeleteMessage(IConnection connection, String uniqueId, long modificationSequence)
@@ -8316,7 +8316,7 @@ Begins an asynchronous message deletion.
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(IConnection connection, String uniqueId, long modificationSequence, boolean commitNow) {#beginDeleteMessage-com.aspose.email.IConnection-java.lang.String-long-boolean-}
 ```
 public final System.IAsyncResult beginDeleteMessage(IConnection connection, String uniqueId, long modificationSequence, boolean commitNow)
@@ -8334,7 +8334,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | commitNow | boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(IConnection connection, String uniqueId, long modificationSequence, boolean commitNow, System.AsyncCallback callback) {#beginDeleteMessage-com.aspose.email.IConnection-java.lang.String-long-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessage(IConnection connection, String uniqueId, long modificationSequence, boolean commitNow, System.AsyncCallback callback)
@@ -8353,7 +8353,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(IConnection connection, String uniqueId, long modificationSequence, boolean commitNow, System.AsyncCallback callback, Object state) {#beginDeleteMessage-com.aspose.email.IConnection-java.lang.String-long-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessage(IConnection connection, String uniqueId, long modificationSequence, boolean commitNow, System.AsyncCallback callback, Object state)
@@ -8373,7 +8373,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(IConnection connection, String uniqueId, long modificationSequence, System.AsyncCallback callback) {#beginDeleteMessage-com.aspose.email.IConnection-java.lang.String-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessage(IConnection connection, String uniqueId, long modificationSequence, System.AsyncCallback callback)
@@ -8391,7 +8391,7 @@ Begins an asynchronous message deletion.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(IConnection connection, String uniqueId, long modificationSequence, System.AsyncCallback callback, Object state) {#beginDeleteMessage-com.aspose.email.IConnection-java.lang.String-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessage(IConnection connection, String uniqueId, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -8410,7 +8410,7 @@ Begins an asynchronous message deletion.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(int sequenceNumber) {#beginDeleteMessage-int-}
 ```
 public final System.IAsyncResult beginDeleteMessage(int sequenceNumber)
@@ -8425,7 +8425,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | sequenceNumber | int | The sequence number of message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(int sequenceNumber, System.AsyncCallback callback) {#beginDeleteMessage-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessage(int sequenceNumber, System.AsyncCallback callback)
@@ -8441,7 +8441,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(int sequenceNumber, System.AsyncCallback callback, Object state) {#beginDeleteMessage-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessage(int sequenceNumber, System.AsyncCallback callback, Object state)
@@ -8458,7 +8458,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(int sequenceNumber, long modificationSequence) {#beginDeleteMessage-int-long-}
 ```
 public final System.IAsyncResult beginDeleteMessage(int sequenceNumber, long modificationSequence)
@@ -8474,7 +8474,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(int sequenceNumber, long modificationSequence, System.AsyncCallback callback) {#beginDeleteMessage-int-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessage(int sequenceNumber, long modificationSequence, System.AsyncCallback callback)
@@ -8491,7 +8491,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(int sequenceNumber, long modificationSequence, System.AsyncCallback callback, Object state) {#beginDeleteMessage-int-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessage(int sequenceNumber, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -8509,7 +8509,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(String uniqueId) {#beginDeleteMessage-java.lang.String-}
 ```
 public final System.IAsyncResult beginDeleteMessage(String uniqueId)
@@ -8524,7 +8524,7 @@ Begins an asynchronous message deletion.
 | uniqueId | java.lang.String | The uid of the message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(String uniqueId, boolean commitNow) {#beginDeleteMessage-java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginDeleteMessage(String uniqueId, boolean commitNow)
@@ -8540,7 +8540,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | commitNow | boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(String uniqueId, boolean commitNow, System.AsyncCallback callback) {#beginDeleteMessage-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessage(String uniqueId, boolean commitNow, System.AsyncCallback callback)
@@ -8557,7 +8557,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(String uniqueId, boolean commitNow, System.AsyncCallback callback, Object state) {#beginDeleteMessage-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessage(String uniqueId, boolean commitNow, System.AsyncCallback callback, Object state)
@@ -8575,7 +8575,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(String uniqueId, System.AsyncCallback callback) {#beginDeleteMessage-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessage(String uniqueId, System.AsyncCallback callback)
@@ -8591,7 +8591,7 @@ Begins an asynchronous message deletion.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(String uniqueId, System.AsyncCallback callback, Object state) {#beginDeleteMessage-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessage(String uniqueId, System.AsyncCallback callback, Object state)
@@ -8608,7 +8608,7 @@ Begins an asynchronous message deletion.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(String uniqueId, long modificationSequence) {#beginDeleteMessage-java.lang.String-long-}
 ```
 public final System.IAsyncResult beginDeleteMessage(String uniqueId, long modificationSequence)
@@ -8624,7 +8624,7 @@ Begins an asynchronous message deletion.
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(String uniqueId, long modificationSequence, boolean commitNow) {#beginDeleteMessage-java.lang.String-long-boolean-}
 ```
 public final System.IAsyncResult beginDeleteMessage(String uniqueId, long modificationSequence, boolean commitNow)
@@ -8641,7 +8641,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | commitNow | boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(String uniqueId, long modificationSequence, boolean commitNow, System.AsyncCallback callback) {#beginDeleteMessage-java.lang.String-long-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessage(String uniqueId, long modificationSequence, boolean commitNow, System.AsyncCallback callback)
@@ -8659,7 +8659,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(String uniqueId, long modificationSequence, boolean commitNow, System.AsyncCallback callback, Object state) {#beginDeleteMessage-java.lang.String-long-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessage(String uniqueId, long modificationSequence, boolean commitNow, System.AsyncCallback callback, Object state)
@@ -8678,7 +8678,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(String uniqueId, long modificationSequence, System.AsyncCallback callback) {#beginDeleteMessage-java.lang.String-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessage(String uniqueId, long modificationSequence, System.AsyncCallback callback)
@@ -8695,7 +8695,7 @@ Begins an asynchronous message deletion.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessage(String uniqueId, long modificationSequence, System.AsyncCallback callback, Object state) {#beginDeleteMessage-java.lang.String-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessage(String uniqueId, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -8713,7 +8713,7 @@ Begins an asynchronous message deletion.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, int startSequence, int endSequence) {#beginDeleteMessages-com.aspose.email.IConnection-int-int-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, int startSequence, int endSequence)
@@ -8730,7 +8730,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | endSequence | int | The ending sequence number of a message list |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, int startSequence, int endSequence, System.AsyncCallback callback) {#beginDeleteMessages-com.aspose.email.IConnection-int-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, int startSequence, int endSequence, System.AsyncCallback callback)
@@ -8748,7 +8748,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, int startSequence, int endSequence, System.AsyncCallback callback, Object state) {#beginDeleteMessages-com.aspose.email.IConnection-int-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, int startSequence, int endSequence, System.AsyncCallback callback, Object state)
@@ -8767,7 +8767,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, int startSequence, int endSequence, long modificationSequence) {#beginDeleteMessages-com.aspose.email.IConnection-int-int-long-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, int startSequence, int endSequence, long modificationSequence)
@@ -8785,7 +8785,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, int startSequence, int endSequence, long modificationSequence, System.AsyncCallback callback) {#beginDeleteMessages-com.aspose.email.IConnection-int-int-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, int startSequence, int endSequence, long modificationSequence, System.AsyncCallback callback)
@@ -8804,7 +8804,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, int startSequence, int endSequence, long modificationSequence, System.AsyncCallback callback, Object state) {#beginDeleteMessages-com.aspose.email.IConnection-int-int-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, int startSequence, int endSequence, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -8824,7 +8824,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet)
@@ -8840,7 +8840,7 @@ Begins an asynchronous message deletion.
 | messageInfoSet | java.lang.Iterable<com.aspose.email.ImapMessageInfo> | The set of ImapMessageInfo for deletion |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, boolean commitNow) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--boolean-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, boolean commitNow)
@@ -8857,7 +8857,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | commitNow | boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, boolean commitNow, System.AsyncCallback callback) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, boolean commitNow, System.AsyncCallback callback)
@@ -8875,7 +8875,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, boolean commitNow, System.AsyncCallback callback, Object state) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, boolean commitNow, System.AsyncCallback callback, Object state)
@@ -8894,7 +8894,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, System.AsyncCallback callback) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, System.AsyncCallback callback)
@@ -8911,7 +8911,7 @@ Begins an asynchronous message deletion.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, System.AsyncCallback callback, Object state) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, System.AsyncCallback callback, Object state)
@@ -8929,7 +8929,7 @@ Begins an asynchronous message deletion.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--long-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence)
@@ -8946,7 +8946,7 @@ Begins an asynchronous message deletion.
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, boolean commitNow) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--long-boolean-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, boolean commitNow)
@@ -8964,7 +8964,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | commitNow | boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, boolean commitNow, System.AsyncCallback callback) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--long-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, boolean commitNow, System.AsyncCallback callback)
@@ -8983,7 +8983,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, boolean commitNow, System.AsyncCallback callback, Object state) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--long-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, boolean commitNow, System.AsyncCallback callback, Object state)
@@ -9003,7 +9003,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, System.AsyncCallback callback) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, System.AsyncCallback callback)
@@ -9021,7 +9021,7 @@ Begins an asynchronous message deletion.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, System.AsyncCallback callback, Object state) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -9040,7 +9040,7 @@ Begins an asynchronous message deletion.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, String startUid, String endUid) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, String startUid, String endUid)
@@ -9057,7 +9057,7 @@ Begins an asynchronous message deletion.
 | endUid | java.lang.String | The ending UID of a message list |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, String startUid, String endUid, boolean commitNow) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, String startUid, String endUid, boolean commitNow)
@@ -9075,7 +9075,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | commitNow | boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, String startUid, String endUid, boolean commitNow, System.AsyncCallback callback) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, String startUid, String endUid, boolean commitNow, System.AsyncCallback callback)
@@ -9094,7 +9094,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, String startUid, String endUid, boolean commitNow, System.AsyncCallback callback, Object state) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, String startUid, String endUid, boolean commitNow, System.AsyncCallback callback, Object state)
@@ -9114,7 +9114,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, String startUid, String endUid, System.AsyncCallback callback) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, String startUid, String endUid, System.AsyncCallback callback)
@@ -9132,7 +9132,7 @@ Begins an asynchronous message deletion.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, String startUid, String endUid, System.AsyncCallback callback, Object state) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, String startUid, String endUid, System.AsyncCallback callback, Object state)
@@ -9151,7 +9151,7 @@ Begins an asynchronous message deletion.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, String startUid, String endUid, long modificationSequence) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-long-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, String startUid, String endUid, long modificationSequence)
@@ -9169,7 +9169,7 @@ Begins an asynchronous message deletion.
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, String startUid, String endUid, long modificationSequence, boolean commitNow) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-long-boolean-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, String startUid, String endUid, long modificationSequence, boolean commitNow)
@@ -9188,7 +9188,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | commitNow | boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, String startUid, String endUid, long modificationSequence, boolean commitNow, System.AsyncCallback callback) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-long-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, String startUid, String endUid, long modificationSequence, boolean commitNow, System.AsyncCallback callback)
@@ -9208,7 +9208,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, String startUid, String endUid, long modificationSequence, boolean commitNow, System.AsyncCallback callback, Object state) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-long-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, String startUid, String endUid, long modificationSequence, boolean commitNow, System.AsyncCallback callback, Object state)
@@ -9229,7 +9229,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, String startUid, String endUid, long modificationSequence, System.AsyncCallback callback) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, String startUid, String endUid, long modificationSequence, System.AsyncCallback callback)
@@ -9248,7 +9248,7 @@ Begins an asynchronous message deletion.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(IConnection connection, String startUid, String endUid, long modificationSequence, System.AsyncCallback callback, Object state) {#beginDeleteMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(IConnection connection, String startUid, String endUid, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -9268,7 +9268,7 @@ Begins an asynchronous message deletion.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(int startSequence, int endSequence) {#beginDeleteMessages-int-int-}
 ```
 public final System.IAsyncResult beginDeleteMessages(int startSequence, int endSequence)
@@ -9284,7 +9284,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | endSequence | int | The ending sequence number of a message list |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(int startSequence, int endSequence, System.AsyncCallback callback) {#beginDeleteMessages-int-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(int startSequence, int endSequence, System.AsyncCallback callback)
@@ -9301,7 +9301,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(int startSequence, int endSequence, System.AsyncCallback callback, Object state) {#beginDeleteMessages-int-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(int startSequence, int endSequence, System.AsyncCallback callback, Object state)
@@ -9319,7 +9319,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(int startSequence, int endSequence, long modificationSequence) {#beginDeleteMessages-int-int-long-}
 ```
 public final System.IAsyncResult beginDeleteMessages(int startSequence, int endSequence, long modificationSequence)
@@ -9336,7 +9336,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(int startSequence, int endSequence, long modificationSequence, System.AsyncCallback callback) {#beginDeleteMessages-int-int-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(int startSequence, int endSequence, long modificationSequence, System.AsyncCallback callback)
@@ -9354,7 +9354,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(int startSequence, int endSequence, long modificationSequence, System.AsyncCallback callback, Object state) {#beginDeleteMessages-int-int-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(int startSequence, int endSequence, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -9373,7 +9373,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet) {#beginDeleteMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--}
 ```
 public final System.IAsyncResult beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet)
@@ -9388,7 +9388,7 @@ Begins an asynchronous message deletion.
 | messageInfoSet | java.lang.Iterable<com.aspose.email.ImapMessageInfo> | The set of ImapMessageInfo for deletion |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, boolean commitNow) {#beginDeleteMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--boolean-}
 ```
 public final System.IAsyncResult beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, boolean commitNow)
@@ -9404,7 +9404,7 @@ Begins an asynchronous messages deletion. This method works only if server suppo
 | commitNow | boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, boolean commitNow, System.AsyncCallback callback) {#beginDeleteMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, boolean commitNow, System.AsyncCallback callback)
@@ -9421,7 +9421,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, boolean commitNow, System.AsyncCallback callback, Object state) {#beginDeleteMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, boolean commitNow, System.AsyncCallback callback, Object state)
@@ -9439,7 +9439,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, System.AsyncCallback callback) {#beginDeleteMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, System.AsyncCallback callback)
@@ -9455,7 +9455,7 @@ Begins an asynchronous message deletion.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, System.AsyncCallback callback, Object state) {#beginDeleteMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, System.AsyncCallback callback, Object state)
@@ -9472,7 +9472,7 @@ Begins an asynchronous message deletion.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence) {#beginDeleteMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--long-}
 ```
 public final System.IAsyncResult beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence)
@@ -9488,7 +9488,7 @@ Begins an asynchronous message deletion.
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, boolean commitNow) {#beginDeleteMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--long-boolean-}
 ```
 public final System.IAsyncResult beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, boolean commitNow)
@@ -9505,7 +9505,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | commitNow | boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, boolean commitNow, System.AsyncCallback callback) {#beginDeleteMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--long-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, boolean commitNow, System.AsyncCallback callback)
@@ -9523,7 +9523,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, boolean commitNow, System.AsyncCallback callback, Object state) {#beginDeleteMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--long-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, boolean commitNow, System.AsyncCallback callback, Object state)
@@ -9542,7 +9542,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, System.AsyncCallback callback) {#beginDeleteMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, System.AsyncCallback callback)
@@ -9559,7 +9559,7 @@ Begins an asynchronous message deletion.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, System.AsyncCallback callback, Object state) {#beginDeleteMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(Iterable<ImapMessageInfo> messageInfoSet, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -9577,7 +9577,7 @@ Begins an asynchronous message deletion.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(String startUid, String endUid) {#beginDeleteMessages-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginDeleteMessages(String startUid, String endUid)
@@ -9593,7 +9593,7 @@ Begins an asynchronous message deletion.
 | endUid | java.lang.String | The ending UID of a message list |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(String startUid, String endUid, boolean commitNow) {#beginDeleteMessages-java.lang.String-java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginDeleteMessages(String startUid, String endUid, boolean commitNow)
@@ -9610,7 +9610,7 @@ Begins an asynchronous messages deletion. This method works only if server suppo
 | commitNow | boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(String startUid, String endUid, boolean commitNow, System.AsyncCallback callback) {#beginDeleteMessages-java.lang.String-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(String startUid, String endUid, boolean commitNow, System.AsyncCallback callback)
@@ -9628,7 +9628,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(String startUid, String endUid, boolean commitNow, System.AsyncCallback callback, Object state) {#beginDeleteMessages-java.lang.String-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(String startUid, String endUid, boolean commitNow, System.AsyncCallback callback, Object state)
@@ -9647,7 +9647,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(String startUid, String endUid, System.AsyncCallback callback) {#beginDeleteMessages-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(String startUid, String endUid, System.AsyncCallback callback)
@@ -9664,7 +9664,7 @@ Begins an asynchronous message deletion.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(String startUid, String endUid, System.AsyncCallback callback, Object state) {#beginDeleteMessages-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(String startUid, String endUid, System.AsyncCallback callback, Object state)
@@ -9682,7 +9682,7 @@ Begins an asynchronous message deletion.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(String startUid, String endUid, long modificationSequence) {#beginDeleteMessages-java.lang.String-java.lang.String-long-}
 ```
 public final System.IAsyncResult beginDeleteMessages(String startUid, String endUid, long modificationSequence)
@@ -9699,7 +9699,7 @@ Begins an asynchronous message deletion.
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(String startUid, String endUid, long modificationSequence, boolean commitNow) {#beginDeleteMessages-java.lang.String-java.lang.String-long-boolean-}
 ```
 public final System.IAsyncResult beginDeleteMessages(String startUid, String endUid, long modificationSequence, boolean commitNow)
@@ -9717,7 +9717,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | commitNow | boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(String startUid, String endUid, long modificationSequence, boolean commitNow, System.AsyncCallback callback) {#beginDeleteMessages-java.lang.String-java.lang.String-long-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(String startUid, String endUid, long modificationSequence, boolean commitNow, System.AsyncCallback callback)
@@ -9736,7 +9736,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(String startUid, String endUid, long modificationSequence, boolean commitNow, System.AsyncCallback callback, Object state) {#beginDeleteMessages-java.lang.String-java.lang.String-long-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(String startUid, String endUid, long modificationSequence, boolean commitNow, System.AsyncCallback callback, Object state)
@@ -9756,7 +9756,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(String startUid, String endUid, long modificationSequence, System.AsyncCallback callback) {#beginDeleteMessages-java.lang.String-java.lang.String-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessages(String startUid, String endUid, long modificationSequence, System.AsyncCallback callback)
@@ -9774,7 +9774,7 @@ Begins an asynchronous message deletion.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessages(String startUid, String endUid, long modificationSequence, System.AsyncCallback callback, Object state) {#beginDeleteMessages-java.lang.String-java.lang.String-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessages(String startUid, String endUid, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -9793,7 +9793,7 @@ Begins an asynchronous message deletion.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet) {#beginDeleteMessagesBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--}
 ```
 public final System.IAsyncResult beginDeleteMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet)
@@ -9809,7 +9809,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | sequenceSet | java.lang.Iterable<java.lang.Integer> | The set of sequence numbers for messages |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, System.AsyncCallback callback) {#beginDeleteMessagesBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, System.AsyncCallback callback)
@@ -9826,7 +9826,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, System.AsyncCallback callback, Object state) {#beginDeleteMessagesBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, System.AsyncCallback callback, Object state)
@@ -9844,7 +9844,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, long modificationSequence) {#beginDeleteMessagesBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--long-}
 ```
 public final System.IAsyncResult beginDeleteMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, long modificationSequence)
@@ -9861,7 +9861,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, long modificationSequence, System.AsyncCallback callback) {#beginDeleteMessagesBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, long modificationSequence, System.AsyncCallback callback)
@@ -9879,7 +9879,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, long modificationSequence, System.AsyncCallback callback, Object state) {#beginDeleteMessagesBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -9898,7 +9898,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesBySequences(Iterable<Integer> sequenceSet) {#beginDeleteMessagesBySequences-java.lang.Iterable-java.lang.Integer--}
 ```
 public final System.IAsyncResult beginDeleteMessagesBySequences(Iterable<Integer> sequenceSet)
@@ -9913,7 +9913,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | sequenceSet | java.lang.Iterable<java.lang.Integer> | The set of sequence numbers for messages |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesBySequences(Iterable<Integer> sequenceSet, System.AsyncCallback callback) {#beginDeleteMessagesBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessagesBySequences(Iterable<Integer> sequenceSet, System.AsyncCallback callback)
@@ -9929,7 +9929,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesBySequences(Iterable<Integer> sequenceSet, System.AsyncCallback callback, Object state) {#beginDeleteMessagesBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessagesBySequences(Iterable<Integer> sequenceSet, System.AsyncCallback callback, Object state)
@@ -9946,7 +9946,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesBySequences(Iterable<Integer> sequenceSet, long modificationSequence) {#beginDeleteMessagesBySequences-java.lang.Iterable-java.lang.Integer--long-}
 ```
 public final System.IAsyncResult beginDeleteMessagesBySequences(Iterable<Integer> sequenceSet, long modificationSequence)
@@ -9962,7 +9962,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesBySequences(Iterable<Integer> sequenceSet, long modificationSequence, System.AsyncCallback callback) {#beginDeleteMessagesBySequences-java.lang.Iterable-java.lang.Integer--long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessagesBySequences(Iterable<Integer> sequenceSet, long modificationSequence, System.AsyncCallback callback)
@@ -9979,7 +9979,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesBySequences(Iterable<Integer> sequenceSet, long modificationSequence, System.AsyncCallback callback, Object state) {#beginDeleteMessagesBySequences-java.lang.Iterable-java.lang.Integer--long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessagesBySequences(Iterable<Integer> sequenceSet, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -9997,7 +9997,7 @@ Marks a message with the specified sequence number as deleted asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet) {#beginDeleteMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet)
@@ -10013,7 +10013,7 @@ Begins an asynchronous message deletion.
 | uidSet | java.lang.Iterable<java.lang.String> | The set of UID for messages |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, boolean commitNow) {#beginDeleteMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--boolean-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, boolean commitNow)
@@ -10030,7 +10030,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | commitNow | boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, boolean commitNow, System.AsyncCallback callback) {#beginDeleteMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, boolean commitNow, System.AsyncCallback callback)
@@ -10048,7 +10048,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, boolean commitNow, System.AsyncCallback callback, Object state) {#beginDeleteMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, boolean commitNow, System.AsyncCallback callback, Object state)
@@ -10067,7 +10067,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, System.AsyncCallback callback) {#beginDeleteMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, System.AsyncCallback callback)
@@ -10084,7 +10084,7 @@ Begins an asynchronous message deletion.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, System.AsyncCallback callback, Object state) {#beginDeleteMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, System.AsyncCallback callback, Object state)
@@ -10102,7 +10102,7 @@ Begins an asynchronous message deletion.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, long modificationSequence) {#beginDeleteMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--long-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, long modificationSequence)
@@ -10119,7 +10119,7 @@ Begins an asynchronous message deletion.
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, long modificationSequence, boolean commitNow) {#beginDeleteMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--long-boolean-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, long modificationSequence, boolean commitNow)
@@ -10137,7 +10137,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | commitNow | boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, long modificationSequence, boolean commitNow, System.AsyncCallback callback) {#beginDeleteMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--long-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, long modificationSequence, boolean commitNow, System.AsyncCallback callback)
@@ -10156,7 +10156,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, long modificationSequence, boolean commitNow, System.AsyncCallback callback, Object state) {#beginDeleteMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--long-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, long modificationSequence, boolean commitNow, System.AsyncCallback callback, Object state)
@@ -10176,7 +10176,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, long modificationSequence, System.AsyncCallback callback) {#beginDeleteMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, long modificationSequence, System.AsyncCallback callback)
@@ -10194,7 +10194,7 @@ Begins an asynchronous message deletion.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, long modificationSequence, System.AsyncCallback callback, Object state) {#beginDeleteMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(IConnection connection, Iterable<String> uidSet, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -10213,7 +10213,7 @@ Begins an asynchronous message deletion.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(Iterable<String> uidSet) {#beginDeleteMessagesByUids-java.lang.Iterable-java.lang.String--}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(Iterable<String> uidSet)
@@ -10228,7 +10228,7 @@ Begins an asynchronous message deletion.
 | uidSet | java.lang.Iterable<java.lang.String> | The set of UID for messages |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(Iterable<String> uidSet, boolean commitNow) {#beginDeleteMessagesByUids-java.lang.Iterable-java.lang.String--boolean-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(Iterable<String> uidSet, boolean commitNow)
@@ -10244,7 +10244,7 @@ Begins an asynchronous messages deletion. This method works only if server suppo
 | commitNow | boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(Iterable<String> uidSet, boolean commitNow, System.AsyncCallback callback) {#beginDeleteMessagesByUids-java.lang.Iterable-java.lang.String--boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(Iterable<String> uidSet, boolean commitNow, System.AsyncCallback callback)
@@ -10261,7 +10261,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(Iterable<String> uidSet, boolean commitNow, System.AsyncCallback callback, Object state) {#beginDeleteMessagesByUids-java.lang.Iterable-java.lang.String--boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(Iterable<String> uidSet, boolean commitNow, System.AsyncCallback callback, Object state)
@@ -10279,7 +10279,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(Iterable<String> uidSet, System.AsyncCallback callback) {#beginDeleteMessagesByUids-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(Iterable<String> uidSet, System.AsyncCallback callback)
@@ -10295,7 +10295,7 @@ Begins an asynchronous message deletion.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(Iterable<String> uidSet, System.AsyncCallback callback, Object state) {#beginDeleteMessagesByUids-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(Iterable<String> uidSet, System.AsyncCallback callback, Object state)
@@ -10312,7 +10312,7 @@ Begins an asynchronous message deletion.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(Iterable<String> uidSet, long modificationSequence) {#beginDeleteMessagesByUids-java.lang.Iterable-java.lang.String--long-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(Iterable<String> uidSet, long modificationSequence)
@@ -10328,7 +10328,7 @@ Begins an asynchronous message deletion.
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(Iterable<String> uidSet, long modificationSequence, boolean commitNow) {#beginDeleteMessagesByUids-java.lang.Iterable-java.lang.String--long-boolean-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(Iterable<String> uidSet, long modificationSequence, boolean commitNow)
@@ -10345,7 +10345,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | commitNow | boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(Iterable<String> uidSet, long modificationSequence, boolean commitNow, System.AsyncCallback callback) {#beginDeleteMessagesByUids-java.lang.Iterable-java.lang.String--long-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(Iterable<String> uidSet, long modificationSequence, boolean commitNow, System.AsyncCallback callback)
@@ -10363,7 +10363,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(Iterable<String> uidSet, long modificationSequence, boolean commitNow, System.AsyncCallback callback, Object state) {#beginDeleteMessagesByUids-java.lang.Iterable-java.lang.String--long-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(Iterable<String> uidSet, long modificationSequence, boolean commitNow, System.AsyncCallback callback, Object state)
@@ -10382,7 +10382,7 @@ Begins an asynchronous message deletion. This method works only if server suppor
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(Iterable<String> uidSet, long modificationSequence, System.AsyncCallback callback) {#beginDeleteMessagesByUids-java.lang.Iterable-java.lang.String--long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(Iterable<String> uidSet, long modificationSequence, System.AsyncCallback callback)
@@ -10399,7 +10399,7 @@ Begins an asynchronous message deletion.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginDeleteMessagesByUids(Iterable<String> uidSet, long modificationSequence, System.AsyncCallback callback, Object state) {#beginDeleteMessagesByUids-java.lang.Iterable-java.lang.String--long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginDeleteMessagesByUids(Iterable<String> uidSet, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -10417,7 +10417,7 @@ Begins an asynchronous message deletion.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginExistFolder(IConnection connection, String folderName) {#beginExistFolder-com.aspose.email.IConnection-java.lang.String-}
 ```
 public final System.IAsyncResult beginExistFolder(IConnection connection, String folderName)
@@ -10433,7 +10433,7 @@ Check whether this folder exists
 | folderName | java.lang.String | Name of the folder |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginExistFolder(IConnection connection, String folderName, System.AsyncCallback callback) {#beginExistFolder-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginExistFolder(IConnection connection, String folderName, System.AsyncCallback callback)
@@ -10450,7 +10450,7 @@ Check whether this folder exists
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginExistFolder(IConnection connection, String folderName, System.AsyncCallback callback, Object state) {#beginExistFolder-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginExistFolder(IConnection connection, String folderName, System.AsyncCallback callback, Object state)
@@ -10468,7 +10468,7 @@ Check whether this folder exists
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginExistFolder(String folderName) {#beginExistFolder-java.lang.String-}
 ```
 public final System.IAsyncResult beginExistFolder(String folderName)
@@ -10483,7 +10483,7 @@ Check whether this folder exists
 | folderName | java.lang.String | Name of the folder |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginExistFolder(String folderName, System.AsyncCallback callback) {#beginExistFolder-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginExistFolder(String folderName, System.AsyncCallback callback)
@@ -10499,7 +10499,7 @@ Check whether this folder exists
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginExistFolder(String folderName, System.AsyncCallback callback, Object state) {#beginExistFolder-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginExistFolder(String folderName, System.AsyncCallback callback, Object state)
@@ -10516,7 +10516,7 @@ Check whether this folder exists
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchAttachment(IConnection connection, int sequenceNumber, String attachmentName) {#beginFetchAttachment-com.aspose.email.IConnection-int-java.lang.String-}
 ```
 public final System.IAsyncResult beginFetchAttachment(IConnection connection, int sequenceNumber, String attachmentName)
@@ -10533,7 +10533,7 @@ Begins fetch an attachment.
 | attachmentName | java.lang.String | Attachment name |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - Fetched attachment.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - Fetched attachment.
 ### beginFetchAttachment(IConnection connection, int sequenceNumber, String attachmentName, System.AsyncCallback callback) {#beginFetchAttachment-com.aspose.email.IConnection-int-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginFetchAttachment(IConnection connection, int sequenceNumber, String attachmentName, System.AsyncCallback callback)
@@ -10551,7 +10551,7 @@ Begins fetch an attachment.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - Fetched attachment.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - Fetched attachment.
 ### beginFetchAttachment(IConnection connection, int sequenceNumber, String attachmentName, System.AsyncCallback callback, Object state) {#beginFetchAttachment-com.aspose.email.IConnection-int-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginFetchAttachment(IConnection connection, int sequenceNumber, String attachmentName, System.AsyncCallback callback, Object state)
@@ -10570,7 +10570,7 @@ Begins fetch an attachment.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - Fetched attachment.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - Fetched attachment.
 ### beginFetchAttachment(int sequenceNumber, String attachmentName) {#beginFetchAttachment-int-java.lang.String-}
 ```
 public final System.IAsyncResult beginFetchAttachment(int sequenceNumber, String attachmentName)
@@ -10586,7 +10586,7 @@ Begins fetch an attachment.
 | attachmentName | java.lang.String | Attachment name |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - Fetched attachment.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - Fetched attachment.
 ### beginFetchAttachment(int sequenceNumber, String attachmentName, System.AsyncCallback callback) {#beginFetchAttachment-int-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginFetchAttachment(int sequenceNumber, String attachmentName, System.AsyncCallback callback)
@@ -10603,7 +10603,7 @@ Begins fetch an attachment.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - Fetched attachment.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - Fetched attachment.
 ### beginFetchAttachment(int sequenceNumber, String attachmentName, System.AsyncCallback callback, Object state) {#beginFetchAttachment-int-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginFetchAttachment(int sequenceNumber, String attachmentName, System.AsyncCallback callback, Object state)
@@ -10621,7 +10621,7 @@ Begins fetch an attachment.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - Fetched attachment.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - Fetched attachment.
 ### beginFetchMessage(IConnection connection, int sequenceNumber) {#beginFetchMessage-com.aspose.email.IConnection-int-}
 ```
 public final System.IAsyncResult beginFetchMessage(IConnection connection, int sequenceNumber)
@@ -10637,7 +10637,7 @@ Begins an asynchronous message fetching.
 | sequenceNumber | int | The sequence number of message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessage(IConnection connection, int sequenceNumber, boolean ignoreAttachment) {#beginFetchMessage-com.aspose.email.IConnection-int-boolean-}
 ```
 public final System.IAsyncResult beginFetchMessage(IConnection connection, int sequenceNumber, boolean ignoreAttachment)
@@ -10654,7 +10654,7 @@ Begins an asynchronous message fetching.
 | ignoreAttachment | boolean | A value that defines whether the attachments should not be loaded. If it is set to  true , then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessage(IConnection connection, int sequenceNumber, boolean ignoreAttachment, System.AsyncCallback callback) {#beginFetchMessage-com.aspose.email.IConnection-int-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginFetchMessage(IConnection connection, int sequenceNumber, boolean ignoreAttachment, System.AsyncCallback callback)
@@ -10672,7 +10672,7 @@ Begins an asynchronous message fetching.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessage(IConnection connection, int sequenceNumber, boolean ignoreAttachment, System.AsyncCallback callback, Object state) {#beginFetchMessage-com.aspose.email.IConnection-int-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginFetchMessage(IConnection connection, int sequenceNumber, boolean ignoreAttachment, System.AsyncCallback callback, Object state)
@@ -10691,7 +10691,7 @@ Begins an asynchronous message fetching.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessage(IConnection connection, int sequenceNumber, System.AsyncCallback callback) {#beginFetchMessage-com.aspose.email.IConnection-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginFetchMessage(IConnection connection, int sequenceNumber, System.AsyncCallback callback)
@@ -10708,7 +10708,7 @@ Begins an asynchronous message fetching.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessage(IConnection connection, int sequenceNumber, System.AsyncCallback callback, Object state) {#beginFetchMessage-com.aspose.email.IConnection-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginFetchMessage(IConnection connection, int sequenceNumber, System.AsyncCallback callback, Object state)
@@ -10726,7 +10726,7 @@ Begins an asynchronous message fetching.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessage(IConnection connection, String uniqueId) {#beginFetchMessage-com.aspose.email.IConnection-java.lang.String-}
 ```
 public final System.IAsyncResult beginFetchMessage(IConnection connection, String uniqueId)
@@ -10742,7 +10742,7 @@ Begins an asynchronous message fetching.
 | uniqueId | java.lang.String | The unique id of message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessage(IConnection connection, String uniqueId, System.AsyncCallback callback) {#beginFetchMessage-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginFetchMessage(IConnection connection, String uniqueId, System.AsyncCallback callback)
@@ -10759,7 +10759,7 @@ Begins an asynchronous message fetching.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessage(IConnection connection, String uniqueId, System.AsyncCallback callback, Object state) {#beginFetchMessage-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginFetchMessage(IConnection connection, String uniqueId, System.AsyncCallback callback, Object state)
@@ -10777,7 +10777,7 @@ Begins an asynchronous message fetching.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessage(int sequenceNumber) {#beginFetchMessage-int-}
 ```
 public final System.IAsyncResult beginFetchMessage(int sequenceNumber)
@@ -10792,7 +10792,7 @@ Begins an asynchronous message fetching.
 | sequenceNumber | int | The sequence number of message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessage(int sequenceNumber, boolean ignoreAttachment) {#beginFetchMessage-int-boolean-}
 ```
 public final System.IAsyncResult beginFetchMessage(int sequenceNumber, boolean ignoreAttachment)
@@ -10808,7 +10808,7 @@ Begins an asynchronous message fetching.
 | ignoreAttachment | boolean | A value that defines whether the attachments should not be loaded. If it is set to  true , then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessage(int sequenceNumber, boolean ignoreAttachment, System.AsyncCallback callback) {#beginFetchMessage-int-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginFetchMessage(int sequenceNumber, boolean ignoreAttachment, System.AsyncCallback callback)
@@ -10825,7 +10825,7 @@ Begins an asynchronous message fetching.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessage(int sequenceNumber, boolean ignoreAttachment, System.AsyncCallback callback, Object state) {#beginFetchMessage-int-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginFetchMessage(int sequenceNumber, boolean ignoreAttachment, System.AsyncCallback callback, Object state)
@@ -10843,7 +10843,7 @@ Begins an asynchronous message fetching.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessage(int sequenceNumber, System.AsyncCallback callback) {#beginFetchMessage-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginFetchMessage(int sequenceNumber, System.AsyncCallback callback)
@@ -10859,7 +10859,7 @@ Begins an asynchronous message fetching.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessage(int sequenceNumber, System.AsyncCallback callback, Object state) {#beginFetchMessage-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginFetchMessage(int sequenceNumber, System.AsyncCallback callback, Object state)
@@ -10876,7 +10876,7 @@ Begins an asynchronous message fetching.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessage(String uniqueId) {#beginFetchMessage-java.lang.String-}
 ```
 public final System.IAsyncResult beginFetchMessage(String uniqueId)
@@ -10891,7 +10891,7 @@ Begins an asynchronous message fetching.
 | uniqueId | java.lang.String | The unique id of message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessage(String uniqueId, System.AsyncCallback callback) {#beginFetchMessage-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginFetchMessage(String uniqueId, System.AsyncCallback callback)
@@ -10907,7 +10907,7 @@ Begins an asynchronous message fetching.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessage(String uniqueId, System.AsyncCallback callback, Object state) {#beginFetchMessage-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginFetchMessage(String uniqueId, System.AsyncCallback callback, Object state)
@@ -10924,7 +10924,7 @@ Begins an asynchronous message fetching.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessagesBySequences(IConnection connection, Iterable<Integer> sequenceNumbers) {#beginFetchMessagesBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--}
 ```
 public final System.IAsyncResult beginFetchMessagesBySequences(IConnection connection, Iterable<Integer> sequenceNumbers)
@@ -10940,7 +10940,7 @@ Begins FetchMessages operation asynchronously
 | sequenceNumbers | java.lang.Iterable<java.lang.Integer> |  |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessagesBySequences(IConnection connection, Iterable<Integer> sequenceNumbers, System.AsyncCallback callback) {#beginFetchMessagesBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginFetchMessagesBySequences(IConnection connection, Iterable<Integer> sequenceNumbers, System.AsyncCallback callback)
@@ -10957,7 +10957,7 @@ Begins FetchMessages operation asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessagesBySequences(IConnection connection, Iterable<Integer> sequenceNumbers, System.AsyncCallback callback, Object state) {#beginFetchMessagesBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginFetchMessagesBySequences(IConnection connection, Iterable<Integer> sequenceNumbers, System.AsyncCallback callback, Object state)
@@ -10975,7 +10975,7 @@ Begins FetchMessages operation asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessagesBySequences(Iterable<Integer> sequenceNumbers) {#beginFetchMessagesBySequences-java.lang.Iterable-java.lang.Integer--}
 ```
 public final System.IAsyncResult beginFetchMessagesBySequences(Iterable<Integer> sequenceNumbers)
@@ -10990,7 +10990,7 @@ Begins FetchMessages operation asynchronously
 | sequenceNumbers | java.lang.Iterable<java.lang.Integer> |  |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessagesBySequences(Iterable<Integer> sequenceNumbers, System.AsyncCallback callback) {#beginFetchMessagesBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginFetchMessagesBySequences(Iterable<Integer> sequenceNumbers, System.AsyncCallback callback)
@@ -11006,7 +11006,7 @@ Begins FetchMessages operation asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessagesBySequences(Iterable<Integer> sequenceNumbers, System.AsyncCallback callback, Object state) {#beginFetchMessagesBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginFetchMessagesBySequences(Iterable<Integer> sequenceNumbers, System.AsyncCallback callback, Object state)
@@ -11023,7 +11023,7 @@ Begins FetchMessages operation asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessagesByUids(IConnection connection, Iterable<String> uids) {#beginFetchMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--}
 ```
 public final System.IAsyncResult beginFetchMessagesByUids(IConnection connection, Iterable<String> uids)
@@ -11039,7 +11039,7 @@ Begins FetchMessages operation asynchronously
 | uids | java.lang.Iterable<java.lang.String> | The sequence numbers of the messages |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessagesByUids(IConnection connection, Iterable<String> uids, System.AsyncCallback callback) {#beginFetchMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginFetchMessagesByUids(IConnection connection, Iterable<String> uids, System.AsyncCallback callback)
@@ -11056,7 +11056,7 @@ Begins FetchMessages operation asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessagesByUids(IConnection connection, Iterable<String> uids, System.AsyncCallback callback, Object state) {#beginFetchMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginFetchMessagesByUids(IConnection connection, Iterable<String> uids, System.AsyncCallback callback, Object state)
@@ -11074,7 +11074,7 @@ Begins FetchMessages operation asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessagesByUids(Iterable<String> uids) {#beginFetchMessagesByUids-java.lang.Iterable-java.lang.String--}
 ```
 public final System.IAsyncResult beginFetchMessagesByUids(Iterable<String> uids)
@@ -11089,7 +11089,7 @@ Begins FetchMessages operation asynchronously
 | uids | java.lang.Iterable<java.lang.String> | The sequence numbers of the messages |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessagesByUids(Iterable<String> uids, System.AsyncCallback callback) {#beginFetchMessagesByUids-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginFetchMessagesByUids(Iterable<String> uids, System.AsyncCallback callback)
@@ -11105,7 +11105,7 @@ Begins FetchMessages operation asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginFetchMessagesByUids(Iterable<String> uids, System.AsyncCallback callback, Object state) {#beginFetchMessagesByUids-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginFetchMessagesByUids(Iterable<String> uids, System.AsyncCallback callback, Object state)
@@ -11122,7 +11122,7 @@ Begins FetchMessages operation asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetFolderInfo(IConnection connection, String folderName) {#beginGetFolderInfo-com.aspose.email.IConnection-java.lang.String-}
 ```
 public final System.IAsyncResult beginGetFolderInfo(IConnection connection, String folderName)
@@ -11138,7 +11138,7 @@ Begins an asynchronous folder listing.
 | folderName | java.lang.String | Folder to retrieve information about |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetFolderInfo(IConnection connection, String folderName, System.AsyncCallback callback) {#beginGetFolderInfo-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginGetFolderInfo(IConnection connection, String folderName, System.AsyncCallback callback)
@@ -11155,7 +11155,7 @@ Begins an asynchronous folder listing.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetFolderInfo(IConnection connection, String folderName, System.AsyncCallback callback, Object state) {#beginGetFolderInfo-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginGetFolderInfo(IConnection connection, String folderName, System.AsyncCallback callback, Object state)
@@ -11173,7 +11173,7 @@ Begins an asynchronous folder listing.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetFolderInfo(String folderName) {#beginGetFolderInfo-java.lang.String-}
 ```
 public final System.IAsyncResult beginGetFolderInfo(String folderName)
@@ -11188,7 +11188,7 @@ Begins an asynchronous folder listing.
 | folderName | java.lang.String | Folder to retrieve information about |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetFolderInfo(String folderName, System.AsyncCallback callback) {#beginGetFolderInfo-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginGetFolderInfo(String folderName, System.AsyncCallback callback)
@@ -11204,7 +11204,7 @@ Begins an asynchronous folder listing.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetFolderInfo(String folderName, System.AsyncCallback callback, Object state) {#beginGetFolderInfo-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginGetFolderInfo(String folderName, System.AsyncCallback callback, Object state)
@@ -11221,7 +11221,7 @@ Begins an asynchronous folder listing.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetMessageThreads(BaseSearchConditions conditions, System.AsyncCallback callback, Object state) {#beginGetMessageThreads-com.aspose.email.BaseSearchConditions-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginGetMessageThreads(BaseSearchConditions conditions, System.AsyncCallback callback, Object state)
@@ -11238,7 +11238,7 @@ Begins getting message threads asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetMessageThreads(IConnection connection, BaseSearchConditions conditions, System.AsyncCallback callback, Object state) {#beginGetMessageThreads-com.aspose.email.IConnection-com.aspose.email.BaseSearchConditions-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginGetMessageThreads(IConnection connection, BaseSearchConditions conditions, System.AsyncCallback callback, Object state)
@@ -11256,7 +11256,7 @@ Begins getting message threads asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetNamespaces() {#beginGetNamespaces--}
 ```
 public final System.IAsyncResult beginGetNamespaces()
@@ -11266,7 +11266,7 @@ public final System.IAsyncResult beginGetNamespaces()
 Begins getting namespaces that are available on a server asynchronously.
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetNamespaces(IConnection connection) {#beginGetNamespaces-com.aspose.email.IConnection-}
 ```
 public final System.IAsyncResult beginGetNamespaces(IConnection connection)
@@ -11281,7 +11281,7 @@ Begins getting namespaces that are available on a server asynchronously.
 | connection | [IConnection](../../com.aspose.email/iconnection) | Connection to a server |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetNamespaces(IConnection connection, System.AsyncCallback callback) {#beginGetNamespaces-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginGetNamespaces(IConnection connection, System.AsyncCallback callback)
@@ -11297,7 +11297,7 @@ Begins getting namespaces that are available on a server asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetNamespaces(IConnection connection, System.AsyncCallback callback, Object state) {#beginGetNamespaces-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginGetNamespaces(IConnection connection, System.AsyncCallback callback, Object state)
@@ -11314,7 +11314,7 @@ Begins getting namespaces that are available on a server asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetNamespaces(System.AsyncCallback callback) {#beginGetNamespaces-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginGetNamespaces(System.AsyncCallback callback)
@@ -11329,7 +11329,7 @@ Begins getting namespaces that are available on a server asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetNamespaces(System.AsyncCallback callback, Object state) {#beginGetNamespaces-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginGetNamespaces(System.AsyncCallback callback, Object state)
@@ -11345,7 +11345,7 @@ Begins getting namespaces that are available on a server asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetQuota(IConnection connection, String quotaRootName) {#beginGetQuota-com.aspose.email.IConnection-java.lang.String-}
 ```
 public final System.IAsyncResult beginGetQuota(IConnection connection, String quotaRootName)
@@ -11361,7 +11361,7 @@ Begins getting quota information
 | quotaRootName | java.lang.String | quota root name |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetQuota(IConnection connection, String quotaRootName, System.AsyncCallback callback) {#beginGetQuota-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginGetQuota(IConnection connection, String quotaRootName, System.AsyncCallback callback)
@@ -11378,7 +11378,7 @@ Begins getting quota information
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetQuota(IConnection connection, String quotaRootName, System.AsyncCallback callback, Object state) {#beginGetQuota-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginGetQuota(IConnection connection, String quotaRootName, System.AsyncCallback callback, Object state)
@@ -11396,7 +11396,7 @@ Begins getting quota information
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetQuota(String quotaRootName) {#beginGetQuota-java.lang.String-}
 ```
 public final System.IAsyncResult beginGetQuota(String quotaRootName)
@@ -11411,7 +11411,7 @@ Begins getting quota information
 | quotaRootName | java.lang.String | quota root name |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetQuota(String quotaRootName, System.AsyncCallback callback) {#beginGetQuota-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginGetQuota(String quotaRootName, System.AsyncCallback callback)
@@ -11427,7 +11427,7 @@ Begins getting quota information
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetQuota(String quotaRootName, System.AsyncCallback callback, Object state) {#beginGetQuota-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginGetQuota(String quotaRootName, System.AsyncCallback callback, Object state)
@@ -11444,7 +11444,7 @@ Begins getting quota information
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetQuotaRoot(IConnection connection, String mailboxName) {#beginGetQuotaRoot-com.aspose.email.IConnection-java.lang.String-}
 ```
 public final System.IAsyncResult beginGetQuotaRoot(IConnection connection, String mailboxName)
@@ -11460,7 +11460,7 @@ Begins getting quota root information for mailbox
 | mailboxName | java.lang.String | mailbox name |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetQuotaRoot(IConnection connection, String mailboxName, System.AsyncCallback callback) {#beginGetQuotaRoot-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginGetQuotaRoot(IConnection connection, String mailboxName, System.AsyncCallback callback)
@@ -11477,7 +11477,7 @@ Begins getting quota root information for mailbox
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetQuotaRoot(IConnection connection, String mailboxName, System.AsyncCallback callback, Object state) {#beginGetQuotaRoot-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginGetQuotaRoot(IConnection connection, String mailboxName, System.AsyncCallback callback, Object state)
@@ -11495,7 +11495,7 @@ Begins getting quota root information for mailbox
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetQuotaRoot(String mailboxName) {#beginGetQuotaRoot-java.lang.String-}
 ```
 public final System.IAsyncResult beginGetQuotaRoot(String mailboxName)
@@ -11510,7 +11510,7 @@ Begins getting quota root information for mailbox
 | mailboxName | java.lang.String | mailbox name |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetQuotaRoot(String mailboxName, System.AsyncCallback callback) {#beginGetQuotaRoot-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginGetQuotaRoot(String mailboxName, System.AsyncCallback callback)
@@ -11526,7 +11526,7 @@ Begins getting quota root information for mailbox
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginGetQuotaRoot(String mailboxName, System.AsyncCallback callback, Object state) {#beginGetQuotaRoot-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginGetQuotaRoot(String mailboxName, System.AsyncCallback callback, Object state)
@@ -11543,7 +11543,7 @@ Begins getting quota root information for mailbox
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginIntroduceClient() {#beginIntroduceClient--}
 ```
 public final System.IAsyncResult beginIntroduceClient()
@@ -11553,7 +11553,7 @@ public final System.IAsyncResult beginIntroduceClient()
 Begins introduce client information to a server asynchronously.
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginIntroduceClient(IConnection connection) {#beginIntroduceClient-com.aspose.email.IConnection-}
 ```
 public final System.IAsyncResult beginIntroduceClient(IConnection connection)
@@ -11568,7 +11568,7 @@ Begins introduce client information to a server asynchronously.
 | connection | [IConnection](../../com.aspose.email/iconnection) | Connection to a server |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginIntroduceClient(IConnection connection, ImapIdentificationInfo clientIdentificationInfo) {#beginIntroduceClient-com.aspose.email.IConnection-com.aspose.email.ImapIdentificationInfo-}
 ```
 public final System.IAsyncResult beginIntroduceClient(IConnection connection, ImapIdentificationInfo clientIdentificationInfo)
@@ -11584,7 +11584,7 @@ Begins introduce client information to a server asynchronously.
 | clientIdentificationInfo | [ImapIdentificationInfo](../../com.aspose.email/imapidentificationinfo) | Client identification information |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginIntroduceClient(IConnection connection, ImapIdentificationInfo clientIdentificationInfo, System.AsyncCallback callback) {#beginIntroduceClient-com.aspose.email.IConnection-com.aspose.email.ImapIdentificationInfo-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginIntroduceClient(IConnection connection, ImapIdentificationInfo clientIdentificationInfo, System.AsyncCallback callback)
@@ -11601,7 +11601,7 @@ Begins introduce client information to a server asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginIntroduceClient(IConnection connection, ImapIdentificationInfo clientIdentificationInfo, System.AsyncCallback callback, Object state) {#beginIntroduceClient-com.aspose.email.IConnection-com.aspose.email.ImapIdentificationInfo-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginIntroduceClient(IConnection connection, ImapIdentificationInfo clientIdentificationInfo, System.AsyncCallback callback, Object state)
@@ -11619,7 +11619,7 @@ Begins introduce client information to a server asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginIntroduceClient(IConnection connection, System.AsyncCallback callback) {#beginIntroduceClient-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginIntroduceClient(IConnection connection, System.AsyncCallback callback)
@@ -11635,7 +11635,7 @@ Begins introduce client information to a server asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginIntroduceClient(IConnection connection, System.AsyncCallback callback, Object state) {#beginIntroduceClient-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginIntroduceClient(IConnection connection, System.AsyncCallback callback, Object state)
@@ -11652,7 +11652,7 @@ Begins introduce client information to a server asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginIntroduceClient(ImapIdentificationInfo clientIdentificationInfo) {#beginIntroduceClient-com.aspose.email.ImapIdentificationInfo-}
 ```
 public final System.IAsyncResult beginIntroduceClient(ImapIdentificationInfo clientIdentificationInfo)
@@ -11667,7 +11667,7 @@ Begins introduce client information to a server asynchronously.
 | clientIdentificationInfo | [ImapIdentificationInfo](../../com.aspose.email/imapidentificationinfo) | Client identification information |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginIntroduceClient(ImapIdentificationInfo clientIdentificationInfo, System.AsyncCallback callback) {#beginIntroduceClient-com.aspose.email.ImapIdentificationInfo-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginIntroduceClient(ImapIdentificationInfo clientIdentificationInfo, System.AsyncCallback callback)
@@ -11683,7 +11683,7 @@ Begins introduce client information to a server asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginIntroduceClient(ImapIdentificationInfo clientIdentificationInfo, System.AsyncCallback callback, Object state) {#beginIntroduceClient-com.aspose.email.ImapIdentificationInfo-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginIntroduceClient(ImapIdentificationInfo clientIdentificationInfo, System.AsyncCallback callback, Object state)
@@ -11700,7 +11700,7 @@ Begins introduce client information to a server asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginIntroduceClient(System.AsyncCallback callback) {#beginIntroduceClient-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginIntroduceClient(System.AsyncCallback callback)
@@ -11715,7 +11715,7 @@ Begins introduce client information to a server asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginIntroduceClient(System.AsyncCallback callback, Object state) {#beginIntroduceClient-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginIntroduceClient(System.AsyncCallback callback, Object state)
@@ -11731,7 +11731,7 @@ Begins introduce client information to a server asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListAttachments(int sequenceNumber, System.AsyncCallback callback, Object state) {#beginListAttachments-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListAttachments(int sequenceNumber, System.AsyncCallback callback, Object state)
@@ -11748,7 +11748,7 @@ public final System.IAsyncResult beginListAttachments(int sequenceNumber, System
 | state | java.lang.Object |  |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult)
 ### beginListFolders() {#beginListFolders--}
 ```
 public final System.IAsyncResult beginListFolders()
@@ -11758,7 +11758,7 @@ public final System.IAsyncResult beginListFolders()
 Begins to get the list of folders in the mailbox
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(boolean loadFullInfo) {#beginListFolders-boolean-}
 ```
 public final System.IAsyncResult beginListFolders(boolean loadFullInfo)
@@ -11773,7 +11773,7 @@ Begins to get the list of folders in the mailbox
 | loadFullInfo | boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(boolean loadFullInfo, System.AsyncCallback callback) {#beginListFolders-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListFolders(boolean loadFullInfo, System.AsyncCallback callback)
@@ -11789,7 +11789,7 @@ Begins to get the list of folders in the mailbox
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(boolean loadFullInfo, System.AsyncCallback callback, Object state) {#beginListFolders-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListFolders(boolean loadFullInfo, System.AsyncCallback callback, Object state)
@@ -11806,7 +11806,7 @@ Begins to get the list of folders in the mailbox
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(IConnection connection) {#beginListFolders-com.aspose.email.IConnection-}
 ```
 public final System.IAsyncResult beginListFolders(IConnection connection)
@@ -11821,7 +11821,7 @@ Begins to get the list of folders in the mailbox
 | connection | [IConnection](../../com.aspose.email/iconnection) | Connection to a server |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(IConnection connection, boolean loadFullInfo) {#beginListFolders-com.aspose.email.IConnection-boolean-}
 ```
 public final System.IAsyncResult beginListFolders(IConnection connection, boolean loadFullInfo)
@@ -11837,7 +11837,7 @@ Begins to get the list of folders in the mailbox
 | loadFullInfo | boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(IConnection connection, boolean loadFullInfo, System.AsyncCallback callback) {#beginListFolders-com.aspose.email.IConnection-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListFolders(IConnection connection, boolean loadFullInfo, System.AsyncCallback callback)
@@ -11854,7 +11854,7 @@ Begins to get the list of folders in the mailbox
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(IConnection connection, boolean loadFullInfo, System.AsyncCallback callback, Object state) {#beginListFolders-com.aspose.email.IConnection-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListFolders(IConnection connection, boolean loadFullInfo, System.AsyncCallback callback, Object state)
@@ -11872,7 +11872,7 @@ Begins to get the list of folders in the mailbox
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(IConnection connection, System.AsyncCallback callback) {#beginListFolders-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListFolders(IConnection connection, System.AsyncCallback callback)
@@ -11888,7 +11888,7 @@ Begins to get the list of folders in the mailbox
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(IConnection connection, System.AsyncCallback callback, Object state) {#beginListFolders-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListFolders(IConnection connection, System.AsyncCallback callback, Object state)
@@ -11905,7 +11905,7 @@ Begins to get the list of folders in the mailbox
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(IConnection connection, String parentFolder) {#beginListFolders-com.aspose.email.IConnection-java.lang.String-}
 ```
 public final System.IAsyncResult beginListFolders(IConnection connection, String parentFolder)
@@ -11921,7 +11921,7 @@ Begins to get the list of subfolders in the specified folder
 | parentFolder | java.lang.String | Name of the folder |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(IConnection connection, String parentFolder, boolean loadFullInfo) {#beginListFolders-com.aspose.email.IConnection-java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginListFolders(IConnection connection, String parentFolder, boolean loadFullInfo)
@@ -11938,7 +11938,7 @@ Begins to get the list of subfolders in the specified folder
 | loadFullInfo | boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(IConnection connection, String parentFolder, boolean loadFullInfo, System.AsyncCallback callback) {#beginListFolders-com.aspose.email.IConnection-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListFolders(IConnection connection, String parentFolder, boolean loadFullInfo, System.AsyncCallback callback)
@@ -11956,7 +11956,7 @@ Begins to get the list of subfolders in the specified folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(IConnection connection, String parentFolder, boolean loadFullInfo, System.AsyncCallback callback, Object state) {#beginListFolders-com.aspose.email.IConnection-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListFolders(IConnection connection, String parentFolder, boolean loadFullInfo, System.AsyncCallback callback, Object state)
@@ -11975,7 +11975,7 @@ Begins to get the list of subfolders in the specified folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(IConnection connection, String parentFolder, boolean loadFullInfo, int options, int returnOptions) {#beginListFolders-com.aspose.email.IConnection-java.lang.String-boolean-int-int-}
 ```
 public final System.IAsyncResult beginListFolders(IConnection connection, String parentFolder, boolean loadFullInfo, int options, int returnOptions)
@@ -11994,7 +11994,7 @@ Begins to get the list of subfolders in the specified folder
 | returnOptions | int | Return options for operation |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(IConnection connection, String parentFolder, boolean loadFullInfo, int options, int returnOptions, System.AsyncCallback callback) {#beginListFolders-com.aspose.email.IConnection-java.lang.String-boolean-int-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListFolders(IConnection connection, String parentFolder, boolean loadFullInfo, int options, int returnOptions, System.AsyncCallback callback)
@@ -12014,7 +12014,7 @@ Begins to get the list of subfolders in the specified folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(IConnection connection, String parentFolder, boolean loadFullInfo, int options, int returnOptions, System.AsyncCallback callback, Object state) {#beginListFolders-com.aspose.email.IConnection-java.lang.String-boolean-int-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListFolders(IConnection connection, String parentFolder, boolean loadFullInfo, int options, int returnOptions, System.AsyncCallback callback, Object state)
@@ -12035,7 +12035,7 @@ Begins to get the list of subfolders in the specified folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(IConnection connection, String parentFolder, System.AsyncCallback callback) {#beginListFolders-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListFolders(IConnection connection, String parentFolder, System.AsyncCallback callback)
@@ -12052,7 +12052,7 @@ Begins to get the list of subfolders in the specified folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(IConnection connection, String parentFolder, System.AsyncCallback callback, Object state) {#beginListFolders-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListFolders(IConnection connection, String parentFolder, System.AsyncCallback callback, Object state)
@@ -12070,7 +12070,7 @@ Begins to get the list of subfolders in the specified folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(System.AsyncCallback callback) {#beginListFolders-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListFolders(System.AsyncCallback callback)
@@ -12085,7 +12085,7 @@ Begins to get the list of folders in the mailbox
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(System.AsyncCallback callback, Object state) {#beginListFolders-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListFolders(System.AsyncCallback callback, Object state)
@@ -12101,7 +12101,7 @@ Begins to get the list of folders in the mailbox
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(String parentFolder) {#beginListFolders-java.lang.String-}
 ```
 public final System.IAsyncResult beginListFolders(String parentFolder)
@@ -12116,7 +12116,7 @@ Begins to get the list of subfolders in the specified folder
 | parentFolder | java.lang.String | Name of the folder |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(String parentFolder, boolean loadFullInfo) {#beginListFolders-java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginListFolders(String parentFolder, boolean loadFullInfo)
@@ -12132,7 +12132,7 @@ Begins to get the list of subfolders in the specified folder
 | loadFullInfo | boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(String parentFolder, boolean loadFullInfo, System.AsyncCallback callback) {#beginListFolders-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListFolders(String parentFolder, boolean loadFullInfo, System.AsyncCallback callback)
@@ -12149,7 +12149,7 @@ Begins to get the list of subfolders in the specified folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(String parentFolder, boolean loadFullInfo, System.AsyncCallback callback, Object state) {#beginListFolders-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListFolders(String parentFolder, boolean loadFullInfo, System.AsyncCallback callback, Object state)
@@ -12167,7 +12167,7 @@ Begins to get the list of subfolders in the specified folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(String parentFolder, boolean loadFullInfo, int options, int returnOptions) {#beginListFolders-java.lang.String-boolean-int-int-}
 ```
 public final System.IAsyncResult beginListFolders(String parentFolder, boolean loadFullInfo, int options, int returnOptions)
@@ -12185,7 +12185,7 @@ Begins to get the list of subfolders in the specified folder
 | returnOptions | int | Return options for operation |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(String parentFolder, boolean loadFullInfo, int options, int returnOptions, System.AsyncCallback callback) {#beginListFolders-java.lang.String-boolean-int-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListFolders(String parentFolder, boolean loadFullInfo, int options, int returnOptions, System.AsyncCallback callback)
@@ -12204,7 +12204,7 @@ Begins to get the list of subfolders in the specified folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(String parentFolder, boolean loadFullInfo, int options, int returnOptions, System.AsyncCallback callback, Object state) {#beginListFolders-java.lang.String-boolean-int-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListFolders(String parentFolder, boolean loadFullInfo, int options, int returnOptions, System.AsyncCallback callback, Object state)
@@ -12224,7 +12224,7 @@ Begins to get the list of subfolders in the specified folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(String parentFolder, System.AsyncCallback callback) {#beginListFolders-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListFolders(String parentFolder, System.AsyncCallback callback)
@@ -12240,7 +12240,7 @@ Begins to get the list of subfolders in the specified folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListFolders(String parentFolder, System.AsyncCallback callback, Object state) {#beginListFolders-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListFolders(String parentFolder, System.AsyncCallback callback, Object state)
@@ -12257,7 +12257,7 @@ Begins to get the list of subfolders in the specified folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(IConnection connection, int sequenceNumber) {#beginListMessage-com.aspose.email.IConnection-int-}
 ```
 public final System.IAsyncResult beginListMessage(IConnection connection, int sequenceNumber)
@@ -12273,7 +12273,7 @@ Begins to get information about a message.
 | sequenceNumber | int | The sequence number of message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(IConnection connection, int sequenceNumber, System.AsyncCallback callback) {#beginListMessage-com.aspose.email.IConnection-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessage(IConnection connection, int sequenceNumber, System.AsyncCallback callback)
@@ -12290,7 +12290,7 @@ Begins to get information about a message.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(IConnection connection, int sequenceNumber, System.AsyncCallback callback, Object state) {#beginListMessage-com.aspose.email.IConnection-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessage(IConnection connection, int sequenceNumber, System.AsyncCallback callback, Object state)
@@ -12308,7 +12308,7 @@ Begins to get information about a message.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(IConnection connection, int sequenceNumber, Iterable<String> messageExtraFields) {#beginListMessage-com.aspose.email.IConnection-int-java.lang.Iterable-java.lang.String--}
 ```
 public final System.IAsyncResult beginListMessage(IConnection connection, int sequenceNumber, Iterable<String> messageExtraFields)
@@ -12325,7 +12325,7 @@ Begins to get information about a message.
 | messageExtraFields | java.lang.Iterable<java.lang.String> | List of extra parameters for a message wich will be requested. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(IConnection connection, int sequenceNumber, Iterable<String> messageExtraFields, System.AsyncCallback callback) {#beginListMessage-com.aspose.email.IConnection-int-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessage(IConnection connection, int sequenceNumber, Iterable<String> messageExtraFields, System.AsyncCallback callback)
@@ -12343,7 +12343,7 @@ Begins to get information about a message.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(IConnection connection, int sequenceNumber, Iterable<String> messageExtraFields, System.AsyncCallback callback, Object state) {#beginListMessage-com.aspose.email.IConnection-int-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessage(IConnection connection, int sequenceNumber, Iterable<String> messageExtraFields, System.AsyncCallback callback, Object state)
@@ -12362,7 +12362,7 @@ Begins to get information about a message.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(IConnection connection, String uniqueId) {#beginListMessage-com.aspose.email.IConnection-java.lang.String-}
 ```
 public final System.IAsyncResult beginListMessage(IConnection connection, String uniqueId)
@@ -12378,7 +12378,7 @@ Begins to get information about a message.
 | uniqueId | java.lang.String | The unique Id of the message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(IConnection connection, String uniqueId, System.AsyncCallback callback) {#beginListMessage-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessage(IConnection connection, String uniqueId, System.AsyncCallback callback)
@@ -12395,7 +12395,7 @@ Begins to get information about a message.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(IConnection connection, String uniqueId, System.AsyncCallback callback, Object state) {#beginListMessage-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessage(IConnection connection, String uniqueId, System.AsyncCallback callback, Object state)
@@ -12413,7 +12413,7 @@ Begins to get information about a message.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(IConnection connection, String uniqueId, Iterable<String> messageExtraFields) {#beginListMessage-com.aspose.email.IConnection-java.lang.String-java.lang.Iterable-java.lang.String--}
 ```
 public final System.IAsyncResult beginListMessage(IConnection connection, String uniqueId, Iterable<String> messageExtraFields)
@@ -12430,7 +12430,7 @@ Begins to get information about a message.
 | messageExtraFields | java.lang.Iterable<java.lang.String> | List of extra parameters for a message wich will be requested. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(IConnection connection, String uniqueId, Iterable<String> messageExtraFields, System.AsyncCallback callback) {#beginListMessage-com.aspose.email.IConnection-java.lang.String-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessage(IConnection connection, String uniqueId, Iterable<String> messageExtraFields, System.AsyncCallback callback)
@@ -12448,7 +12448,7 @@ Begins to get information about a message.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(IConnection connection, String uniqueId, Iterable<String> messageExtraFields, System.AsyncCallback callback, Object state) {#beginListMessage-com.aspose.email.IConnection-java.lang.String-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessage(IConnection connection, String uniqueId, Iterable<String> messageExtraFields, System.AsyncCallback callback, Object state)
@@ -12467,7 +12467,7 @@ Begins to get information about a message.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(int sequenceNumber) {#beginListMessage-int-}
 ```
 public final System.IAsyncResult beginListMessage(int sequenceNumber)
@@ -12482,7 +12482,7 @@ Begins to get information about a message.
 | sequenceNumber | int | The sequence number of message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(int sequenceNumber, System.AsyncCallback callback) {#beginListMessage-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessage(int sequenceNumber, System.AsyncCallback callback)
@@ -12498,7 +12498,7 @@ Begins to get information about a message.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(int sequenceNumber, System.AsyncCallback callback, Object state) {#beginListMessage-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessage(int sequenceNumber, System.AsyncCallback callback, Object state)
@@ -12515,7 +12515,7 @@ Begins to get information about a message.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(int sequenceNumber, Iterable<String> messageExtraFields) {#beginListMessage-int-java.lang.Iterable-java.lang.String--}
 ```
 public final System.IAsyncResult beginListMessage(int sequenceNumber, Iterable<String> messageExtraFields)
@@ -12531,7 +12531,7 @@ Begins to get information about a message.
 | messageExtraFields | java.lang.Iterable<java.lang.String> | List of extra parameters for a message wich will be requested. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(int sequenceNumber, Iterable<String> messageExtraFields, System.AsyncCallback callback) {#beginListMessage-int-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessage(int sequenceNumber, Iterable<String> messageExtraFields, System.AsyncCallback callback)
@@ -12548,7 +12548,7 @@ Begins to get information about a message.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(int sequenceNumber, Iterable<String> messageExtraFields, System.AsyncCallback callback, Object state) {#beginListMessage-int-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessage(int sequenceNumber, Iterable<String> messageExtraFields, System.AsyncCallback callback, Object state)
@@ -12566,7 +12566,7 @@ Begins to get information about a message.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(String uniqueId) {#beginListMessage-java.lang.String-}
 ```
 public final System.IAsyncResult beginListMessage(String uniqueId)
@@ -12581,7 +12581,7 @@ Begins to get information about a message.
 | uniqueId | java.lang.String | The unique Id of the message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(String uniqueId, System.AsyncCallback callback) {#beginListMessage-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessage(String uniqueId, System.AsyncCallback callback)
@@ -12597,7 +12597,7 @@ Begins to get information about a message.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(String uniqueId, System.AsyncCallback callback, Object state) {#beginListMessage-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessage(String uniqueId, System.AsyncCallback callback, Object state)
@@ -12614,7 +12614,7 @@ Begins to get information about a message.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(String uniqueId, Iterable<String> messageExtraFields) {#beginListMessage-java.lang.String-java.lang.Iterable-java.lang.String--}
 ```
 public final System.IAsyncResult beginListMessage(String uniqueId, Iterable<String> messageExtraFields)
@@ -12630,7 +12630,7 @@ Begins to get information about a message.
 | messageExtraFields | java.lang.Iterable<java.lang.String> | List of extra parameters for a message wich will be requested. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(String uniqueId, Iterable<String> messageExtraFields, System.AsyncCallback callback) {#beginListMessage-java.lang.String-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessage(String uniqueId, Iterable<String> messageExtraFields, System.AsyncCallback callback)
@@ -12647,7 +12647,7 @@ Begins to get information about a message.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessage(String uniqueId, Iterable<String> messageExtraFields, System.AsyncCallback callback, Object state) {#beginListMessage-java.lang.String-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessage(String uniqueId, Iterable<String> messageExtraFields, System.AsyncCallback callback, Object state)
@@ -12665,7 +12665,7 @@ Begins to get information about a message.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages() {#beginListMessages--}
 ```
 public final System.IAsyncResult beginListMessages()
@@ -12675,7 +12675,7 @@ public final System.IAsyncResult beginListMessages()
 Begins getting the list of messages asynchronously in the current folder
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(IConnection connection, int maxNumberOfMessages) {#beginListMessages-com.aspose.email.IConnection-int-}
 ```
 public final System.IAsyncResult beginListMessages(IConnection connection, int maxNumberOfMessages)
@@ -12691,7 +12691,7 @@ Begins getting the list of messages in the current folder Please, see more https
 | maxNumberOfMessages | int | Maximum number of messages. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(IConnection connection, int maxNumberOfMessages, System.AsyncCallback callback) {#beginListMessages-com.aspose.email.IConnection-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessages(IConnection connection, int maxNumberOfMessages, System.AsyncCallback callback)
@@ -12708,7 +12708,7 @@ Begins getting the list of messages in the current folder Please, see more https
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(IConnection connection, int maxNumberOfMessages, System.AsyncCallback callback, Object state) {#beginListMessages-com.aspose.email.IConnection-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessages(IConnection connection, int maxNumberOfMessages, System.AsyncCallback callback, Object state)
@@ -12726,7 +12726,7 @@ Begins getting the list of messages in the current folder Please, see more https
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(IConnection connection, String folderName, MailQuery query, int maxNumberOfMessages, Iterable<String> messageExtraFields, System.AsyncCallback callback, Object state) {#beginListMessages-com.aspose.email.IConnection-java.lang.String-com.aspose.email.MailQuery-int-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessages(IConnection connection, String folderName, MailQuery query, int maxNumberOfMessages, Iterable<String> messageExtraFields, System.AsyncCallback callback, Object state)
@@ -12747,7 +12747,7 @@ Begins getting the list of messages asynchronously in the current folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(IConnection connection, String folderName, long modificationSequence, boolean retrieveRecursively, Iterable<String> messageExtraFields, System.AsyncCallback callback, Object state) {#beginListMessages-com.aspose.email.IConnection-java.lang.String-long-boolean-java.lang.Iterable-java.lang.String--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessages(IConnection connection, String folderName, long modificationSequence, boolean retrieveRecursively, Iterable<String> messageExtraFields, System.AsyncCallback callback, Object state)
@@ -12768,7 +12768,7 @@ Begins getting the list of messages in the current folder that have a modificati
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(IConnection connection, long modificationSequence) {#beginListMessages-com.aspose.email.IConnection-long-}
 ```
 public final System.IAsyncResult beginListMessages(IConnection connection, long modificationSequence)
@@ -12784,7 +12784,7 @@ Begins getting the list of messages in the current folder that have a modificati
 | modificationSequence | long | Modification sequence |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(IConnection connection, long modificationSequence, System.AsyncCallback callback) {#beginListMessages-com.aspose.email.IConnection-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessages(IConnection connection, long modificationSequence, System.AsyncCallback callback)
@@ -12801,7 +12801,7 @@ Begins getting the list of messages in the current folder that have a modificati
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(IConnection connection, long modificationSequence, System.AsyncCallback callback, Object state) {#beginListMessages-com.aspose.email.IConnection-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessages(IConnection connection, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -12819,7 +12819,7 @@ Begins getting the list of messages in the current folder that have a modificati
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(MailQuery query) {#beginListMessages-com.aspose.email.MailQuery-}
 ```
 public final System.IAsyncResult beginListMessages(MailQuery query)
@@ -12834,7 +12834,7 @@ Begins getting the list of messages asynchronously in the current folder
 | query | [MailQuery](../../com.aspose.email/mailquery) | [MailQuery](../../com.aspose.email/mailquery) that represents search query. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(MailQuery query, System.AsyncCallback callback, Object state) {#beginListMessages-com.aspose.email.MailQuery-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessages(MailQuery query, System.AsyncCallback callback, Object state)
@@ -12851,7 +12851,7 @@ Begins getting the list of messages asynchronously in the current folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(MailQuery query, int maxNumberOfMessages) {#beginListMessages-com.aspose.email.MailQuery-int-}
 ```
 public final System.IAsyncResult beginListMessages(MailQuery query, int maxNumberOfMessages)
@@ -12867,7 +12867,7 @@ Begins getting the list of messages asynchronously in the current folder
 | maxNumberOfMessages | int | Maximum number of messages. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(MailQuery query, int maxNumberOfMessages, System.AsyncCallback callback, Object state) {#beginListMessages-com.aspose.email.MailQuery-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessages(MailQuery query, int maxNumberOfMessages, System.AsyncCallback callback, Object state)
@@ -12885,7 +12885,7 @@ Begins getting the list of messages asynchronously in the current folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(System.AsyncCallback callback) {#beginListMessages-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessages(System.AsyncCallback callback)
@@ -12900,7 +12900,7 @@ Begins getting the list of messages asynchronously in the current folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(System.AsyncCallback callback, Object state) {#beginListMessages-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessages(System.AsyncCallback callback, Object state)
@@ -12916,7 +12916,7 @@ Begins getting the list of messages asynchronously in the current folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(String folderName) {#beginListMessages-java.lang.String-}
 ```
 public final System.IAsyncResult beginListMessages(String folderName)
@@ -12931,7 +12931,7 @@ Begins getting the list of messages asynchronously in the current folder
 | folderName | java.lang.String | Messages location |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(String folderName, MailQuery query) {#beginListMessages-java.lang.String-com.aspose.email.MailQuery-}
 ```
 public final System.IAsyncResult beginListMessages(String folderName, MailQuery query)
@@ -12947,7 +12947,7 @@ Begins getting the list of messages asynchronously in the current folder
 | query | [MailQuery](../../com.aspose.email/mailquery) | [MailQuery](../../com.aspose.email/mailquery) that represents search query. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(String folderName, MailQuery query, System.AsyncCallback callback, Object state) {#beginListMessages-java.lang.String-com.aspose.email.MailQuery-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessages(String folderName, MailQuery query, System.AsyncCallback callback, Object state)
@@ -12965,7 +12965,7 @@ Begins getting the list of messages asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(String folderName, MailQuery query, int maxNumberOfMessages) {#beginListMessages-java.lang.String-com.aspose.email.MailQuery-int-}
 ```
 public final System.IAsyncResult beginListMessages(String folderName, MailQuery query, int maxNumberOfMessages)
@@ -12982,7 +12982,7 @@ Begins getting the list of messages asynchronously in the current folder
 | maxNumberOfMessages | int | Maximum number of messages. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(String folderName, MailQuery query, int maxNumberOfMessages, System.AsyncCallback callback) {#beginListMessages-java.lang.String-com.aspose.email.MailQuery-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessages(String folderName, MailQuery query, int maxNumberOfMessages, System.AsyncCallback callback)
@@ -13000,7 +13000,7 @@ Begins getting the list of messages asynchronously in the current folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(String folderName, MailQuery query, int maxNumberOfMessages, System.AsyncCallback callback, Object state) {#beginListMessages-java.lang.String-com.aspose.email.MailQuery-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessages(String folderName, MailQuery query, int maxNumberOfMessages, System.AsyncCallback callback, Object state)
@@ -13019,7 +13019,7 @@ Begins getting the list of messages asynchronously in the current folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(String folderName, System.AsyncCallback callback) {#beginListMessages-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessages(String folderName, System.AsyncCallback callback)
@@ -13035,7 +13035,7 @@ Begins getting the list of messages asynchronously in the current folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(String folderName, System.AsyncCallback callback, Object state) {#beginListMessages-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessages(String folderName, System.AsyncCallback callback, Object state)
@@ -13052,7 +13052,7 @@ Begins getting the list of messages asynchronously in the current folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(long modificationSequence) {#beginListMessages-long-}
 ```
 public final System.IAsyncResult beginListMessages(long modificationSequence)
@@ -13067,7 +13067,7 @@ Begins getting the list of messages in the current folder that have a modificati
 | modificationSequence | long | Modification sequence |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(long modificationSequence, System.AsyncCallback callback) {#beginListMessages-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessages(long modificationSequence, System.AsyncCallback callback)
@@ -13083,7 +13083,7 @@ Begins getting the list of messages in the current folder that have a modificati
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessages(long modificationSequence, System.AsyncCallback callback, Object state) {#beginListMessages-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessages(long modificationSequence, System.AsyncCallback callback, Object state)
@@ -13100,7 +13100,7 @@ Begins getting the list of messages in the current folder that have a modificati
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(IConnection connection, PageInfo page) {#beginListMessagesByPage-com.aspose.email.IConnection-com.aspose.email.PageInfo-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(IConnection connection, PageInfo page)
@@ -13116,7 +13116,7 @@ Begins getting the list of messages asynchronously in the current folder
 | page | [PageInfo](../../com.aspose.email/pageinfo) | Next page to retrieve |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(IConnection connection, PageInfo page, System.AsyncCallback callback) {#beginListMessagesByPage-com.aspose.email.IConnection-com.aspose.email.PageInfo-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(IConnection connection, PageInfo page, System.AsyncCallback callback)
@@ -13133,7 +13133,7 @@ Begins getting the list of messages asynchronously in the current folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(IConnection connection, PageInfo page, System.AsyncCallback callback, Object state) {#beginListMessagesByPage-com.aspose.email.IConnection-com.aspose.email.PageInfo-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(IConnection connection, PageInfo page, System.AsyncCallback callback, Object state)
@@ -13151,7 +13151,7 @@ Begins getting the list of messages asynchronously in the current folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(IConnection connection, int itemsPerPage) {#beginListMessagesByPage-com.aspose.email.IConnection-int-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(IConnection connection, int itemsPerPage)
@@ -13167,7 +13167,7 @@ Begins getting the list of messages asynchronously in the current folder
 | itemsPerPage | int | A number of items in page |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(IConnection connection, int itemsPerPage, System.AsyncCallback callback) {#beginListMessagesByPage-com.aspose.email.IConnection-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(IConnection connection, int itemsPerPage, System.AsyncCallback callback)
@@ -13184,7 +13184,7 @@ Begins getting the list of messages asynchronously in the current folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(IConnection connection, int itemsPerPage, System.AsyncCallback callback, Object state) {#beginListMessagesByPage-com.aspose.email.IConnection-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(IConnection connection, int itemsPerPage, System.AsyncCallback callback, Object state)
@@ -13202,7 +13202,7 @@ Begins getting the list of messages asynchronously in the current folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(IConnection connection, int itemsPerPage, int pageOffset) {#beginListMessagesByPage-com.aspose.email.IConnection-int-int-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(IConnection connection, int itemsPerPage, int pageOffset)
@@ -13219,7 +13219,7 @@ Begins getting the list of messages asynchronously in the current folder
 | pageOffset | int | An offset of next page in view |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(IConnection connection, int itemsPerPage, int pageOffset, System.AsyncCallback callback) {#beginListMessagesByPage-com.aspose.email.IConnection-int-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(IConnection connection, int itemsPerPage, int pageOffset, System.AsyncCallback callback)
@@ -13237,7 +13237,7 @@ Begins getting the list of messages asynchronously in the current folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(IConnection connection, int itemsPerPage, int pageOffset, System.AsyncCallback callback, Object state) {#beginListMessagesByPage-com.aspose.email.IConnection-int-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(IConnection connection, int itemsPerPage, int pageOffset, System.AsyncCallback callback, Object state)
@@ -13256,7 +13256,7 @@ Begins getting the list of messages asynchronously in the current folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(IConnection connection, String folderName, MailQuery query, PageInfo pageInfo) {#beginListMessagesByPage-com.aspose.email.IConnection-java.lang.String-com.aspose.email.MailQuery-com.aspose.email.PageInfo-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(IConnection connection, String folderName, MailQuery query, PageInfo pageInfo)
@@ -13274,7 +13274,7 @@ Begins getting the list of messages asynchronously in the current folder
 | pageInfo | [PageInfo](../../com.aspose.email/pageinfo) | Next page to retrieve |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(IConnection connection, String folderName, MailQuery query, PageInfo pageInfo, System.AsyncCallback callback) {#beginListMessagesByPage-com.aspose.email.IConnection-java.lang.String-com.aspose.email.MailQuery-com.aspose.email.PageInfo-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(IConnection connection, String folderName, MailQuery query, PageInfo pageInfo, System.AsyncCallback callback)
@@ -13293,7 +13293,7 @@ Begins getting the list of messages asynchronously in the current folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(IConnection connection, String folderName, MailQuery query, PageInfo pageInfo, System.AsyncCallback callback, Object state) {#beginListMessagesByPage-com.aspose.email.IConnection-java.lang.String-com.aspose.email.MailQuery-com.aspose.email.PageInfo-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(IConnection connection, String folderName, MailQuery query, PageInfo pageInfo, System.AsyncCallback callback, Object state)
@@ -13313,7 +13313,7 @@ Begins getting the list of messages asynchronously in the current folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(IConnection connection, String folderName, MailQuery query, int itemsPerPage) {#beginListMessagesByPage-com.aspose.email.IConnection-java.lang.String-com.aspose.email.MailQuery-int-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(IConnection connection, String folderName, MailQuery query, int itemsPerPage)
@@ -13331,7 +13331,7 @@ Begins getting the list of messages asynchronously in the current folder
 | itemsPerPage | int | A number of items in page |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(IConnection connection, String folderName, MailQuery query, int itemsPerPage, System.AsyncCallback callback) {#beginListMessagesByPage-com.aspose.email.IConnection-java.lang.String-com.aspose.email.MailQuery-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(IConnection connection, String folderName, MailQuery query, int itemsPerPage, System.AsyncCallback callback)
@@ -13350,7 +13350,7 @@ Begins getting the list of messages asynchronously in the current folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(IConnection connection, String folderName, MailQuery query, int itemsPerPage, System.AsyncCallback callback, Object state) {#beginListMessagesByPage-com.aspose.email.IConnection-java.lang.String-com.aspose.email.MailQuery-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(IConnection connection, String folderName, MailQuery query, int itemsPerPage, System.AsyncCallback callback, Object state)
@@ -13370,7 +13370,7 @@ Begins getting the list of messages asynchronously in the current folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(MailQuery query, PageInfo pageInfo, PageSettingsAsync settings) {#beginListMessagesByPage-com.aspose.email.MailQuery-com.aspose.email.PageInfo-com.aspose.email.PageSettingsAsync-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(MailQuery query, PageInfo pageInfo, PageSettingsAsync settings)
@@ -13387,7 +13387,7 @@ Begins getting the list of messages asynchronously
 | settings | [PageSettingsAsync](../../com.aspose.email/pagesettingsasync) | The settings. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(PageInfo page) {#beginListMessagesByPage-com.aspose.email.PageInfo-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(PageInfo page)
@@ -13402,7 +13402,7 @@ Begins getting the list of messages asynchronously in the current folder
 | page | [PageInfo](../../com.aspose.email/pageinfo) | Next page to retrieve |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(PageInfo page, System.AsyncCallback callback) {#beginListMessagesByPage-com.aspose.email.PageInfo-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(PageInfo page, System.AsyncCallback callback)
@@ -13418,7 +13418,7 @@ Begins getting the list of messages asynchronously in the current folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(PageInfo page, System.AsyncCallback callback, Object state) {#beginListMessagesByPage-com.aspose.email.PageInfo-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(PageInfo page, System.AsyncCallback callback, Object state)
@@ -13435,7 +13435,7 @@ Begins getting the list of messages asynchronously in the current folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(int itemsPerPage) {#beginListMessagesByPage-int-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(int itemsPerPage)
@@ -13450,7 +13450,7 @@ Begins getting the list of messages asynchronously in the current folder
 | itemsPerPage | int | A number of items in page |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(int itemsPerPage, System.AsyncCallback callback) {#beginListMessagesByPage-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(int itemsPerPage, System.AsyncCallback callback)
@@ -13466,7 +13466,7 @@ Begins getting the list of messages asynchronously in the current folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(int itemsPerPage, System.AsyncCallback callback, Object state) {#beginListMessagesByPage-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(int itemsPerPage, System.AsyncCallback callback, Object state)
@@ -13483,7 +13483,7 @@ Begins getting the list of messages asynchronously in the current folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(int itemsPerPage, int pageOffset) {#beginListMessagesByPage-int-int-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(int itemsPerPage, int pageOffset)
@@ -13499,7 +13499,7 @@ Begins getting the list of messages asynchronously in the current folder
 | pageOffset | int | An offset of next page in view |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(int itemsPerPage, int pageOffset, PageSettingsAsync settings) {#beginListMessagesByPage-int-int-com.aspose.email.PageSettingsAsync-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(int itemsPerPage, int pageOffset, PageSettingsAsync settings)
@@ -13516,7 +13516,7 @@ Begins getting the list of messages asynchronously
 | settings | [PageSettingsAsync](../../com.aspose.email/pagesettingsasync) | The settings. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(int itemsPerPage, int pageOffset, System.AsyncCallback callback) {#beginListMessagesByPage-int-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(int itemsPerPage, int pageOffset, System.AsyncCallback callback)
@@ -13533,7 +13533,7 @@ Begins getting the list of messages asynchronously in the current folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(int itemsPerPage, int pageOffset, System.AsyncCallback callback, Object state) {#beginListMessagesByPage-int-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(int itemsPerPage, int pageOffset, System.AsyncCallback callback, Object state)
@@ -13551,7 +13551,7 @@ Begins getting the list of messages asynchronously in the current folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(String folderName, MailQuery query, PageInfo pageInfo) {#beginListMessagesByPage-java.lang.String-com.aspose.email.MailQuery-com.aspose.email.PageInfo-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(String folderName, MailQuery query, PageInfo pageInfo)
@@ -13568,7 +13568,7 @@ Begins getting the list of messages asynchronously in the current folder
 | pageInfo | [PageInfo](../../com.aspose.email/pageinfo) | Next page to retrieve |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(String folderName, MailQuery query, PageInfo pageInfo, System.AsyncCallback callback) {#beginListMessagesByPage-java.lang.String-com.aspose.email.MailQuery-com.aspose.email.PageInfo-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(String folderName, MailQuery query, PageInfo pageInfo, System.AsyncCallback callback)
@@ -13586,7 +13586,7 @@ Begins getting the list of messages asynchronously in the current folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(String folderName, MailQuery query, PageInfo pageInfo, System.AsyncCallback callback, Object state) {#beginListMessagesByPage-java.lang.String-com.aspose.email.MailQuery-com.aspose.email.PageInfo-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(String folderName, MailQuery query, PageInfo pageInfo, System.AsyncCallback callback, Object state)
@@ -13605,7 +13605,7 @@ Begins getting the list of messages asynchronously in the current folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(String folderName, MailQuery query, int itemsPerPage) {#beginListMessagesByPage-java.lang.String-com.aspose.email.MailQuery-int-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(String folderName, MailQuery query, int itemsPerPage)
@@ -13622,7 +13622,7 @@ Begins getting the list of messages asynchronously in the current folder
 | itemsPerPage | int | A number of items in page |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(String folderName, MailQuery query, int itemsPerPage, System.AsyncCallback callback) {#beginListMessagesByPage-java.lang.String-com.aspose.email.MailQuery-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(String folderName, MailQuery query, int itemsPerPage, System.AsyncCallback callback)
@@ -13640,7 +13640,7 @@ Begins getting the list of messages asynchronously in the current folder
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginListMessagesByPage(String folderName, MailQuery query, int itemsPerPage, System.AsyncCallback callback, Object state) {#beginListMessagesByPage-java.lang.String-com.aspose.email.MailQuery-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginListMessagesByPage(String folderName, MailQuery query, int itemsPerPage, System.AsyncCallback callback, Object state)
@@ -13659,7 +13659,7 @@ Begins getting the list of messages asynchronously in the current folder
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveFolder(IConnection connection, String newParentFolder, String folderName) {#beginMoveFolder-com.aspose.email.IConnection-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginMoveFolder(IConnection connection, String newParentFolder, String folderName)
@@ -13676,7 +13676,7 @@ Moves specified folder and its subfolders to new location asynchronously.
 | folderName | java.lang.String | Folder to move |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveFolder(IConnection connection, String newParentFolder, String folderName, System.AsyncCallback callback) {#beginMoveFolder-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveFolder(IConnection connection, String newParentFolder, String folderName, System.AsyncCallback callback)
@@ -13694,7 +13694,7 @@ Moves specified folder and its subfolders to new location asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveFolder(IConnection connection, String newParentFolder, String folderName, System.AsyncCallback callback, Object state) {#beginMoveFolder-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveFolder(IConnection connection, String newParentFolder, String folderName, System.AsyncCallback callback, Object state)
@@ -13713,7 +13713,7 @@ Moves specified folder and its subfolders to new location asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveFolder(String newParentFolder, String folderName) {#beginMoveFolder-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginMoveFolder(String newParentFolder, String folderName)
@@ -13729,7 +13729,7 @@ Moves specified folder and its subfolders to new location asynchronously.
 | folderName | java.lang.String | Folder to move |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveFolder(String newParentFolder, String folderName, System.AsyncCallback callback) {#beginMoveFolder-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveFolder(String newParentFolder, String folderName, System.AsyncCallback callback)
@@ -13746,7 +13746,7 @@ Moves specified folder and its subfolders to new location asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveFolder(String newParentFolder, String folderName, System.AsyncCallback callback, Object state) {#beginMoveFolder-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveFolder(String newParentFolder, String folderName, System.AsyncCallback callback, Object state)
@@ -13764,7 +13764,7 @@ Moves specified folder and its subfolders to new location asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(IConnection connection, int sequenceNumber, String folderName) {#beginMoveMessage-com.aspose.email.IConnection-int-java.lang.String-}
 ```
 public final System.IAsyncResult beginMoveMessage(IConnection connection, int sequenceNumber, String folderName)
@@ -13781,7 +13781,7 @@ Begins an asynchronous moving.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(IConnection connection, int sequenceNumber, String folderName, boolean commitDeletions) {#beginMoveMessage-com.aspose.email.IConnection-int-java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginMoveMessage(IConnection connection, int sequenceNumber, String folderName, boolean commitDeletions)
@@ -13799,7 +13799,7 @@ Begins an asynchronous moving.
 | commitDeletions | boolean | Specifies whether deletions should be committed. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(IConnection connection, int sequenceNumber, String folderName, boolean commitDeletions, System.AsyncCallback callback) {#beginMoveMessage-com.aspose.email.IConnection-int-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessage(IConnection connection, int sequenceNumber, String folderName, boolean commitDeletions, System.AsyncCallback callback)
@@ -13818,7 +13818,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(IConnection connection, int sequenceNumber, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state) {#beginMoveMessage-com.aspose.email.IConnection-int-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessage(IConnection connection, int sequenceNumber, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state)
@@ -13838,7 +13838,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(IConnection connection, int sequenceNumber, String folderName, System.AsyncCallback callback) {#beginMoveMessage-com.aspose.email.IConnection-int-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessage(IConnection connection, int sequenceNumber, String folderName, System.AsyncCallback callback)
@@ -13856,7 +13856,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(IConnection connection, int sequenceNumber, String folderName, System.AsyncCallback callback, Object state) {#beginMoveMessage-com.aspose.email.IConnection-int-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessage(IConnection connection, int sequenceNumber, String folderName, System.AsyncCallback callback, Object state)
@@ -13875,7 +13875,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(IConnection connection, String uniqueId, String folderName) {#beginMoveMessage-com.aspose.email.IConnection-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginMoveMessage(IConnection connection, String uniqueId, String folderName)
@@ -13892,7 +13892,7 @@ Begins an asynchronous moving.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(IConnection connection, String uniqueId, String folderName, boolean commitDeletions) {#beginMoveMessage-com.aspose.email.IConnection-java.lang.String-java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginMoveMessage(IConnection connection, String uniqueId, String folderName, boolean commitDeletions)
@@ -13910,7 +13910,7 @@ Begins an asynchronous moving.
 | commitDeletions | boolean | Specifies whether deletions should be committed. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(IConnection connection, String uniqueId, String folderName, boolean commitDeletions, System.AsyncCallback callback) {#beginMoveMessage-com.aspose.email.IConnection-java.lang.String-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessage(IConnection connection, String uniqueId, String folderName, boolean commitDeletions, System.AsyncCallback callback)
@@ -13929,7 +13929,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(IConnection connection, String uniqueId, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state) {#beginMoveMessage-com.aspose.email.IConnection-java.lang.String-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessage(IConnection connection, String uniqueId, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state)
@@ -13949,7 +13949,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(IConnection connection, String uniqueId, String folderName, System.AsyncCallback callback) {#beginMoveMessage-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessage(IConnection connection, String uniqueId, String folderName, System.AsyncCallback callback)
@@ -13967,7 +13967,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(IConnection connection, String uniqueId, String folderName, System.AsyncCallback callback, Object state) {#beginMoveMessage-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessage(IConnection connection, String uniqueId, String folderName, System.AsyncCallback callback, Object state)
@@ -13986,7 +13986,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(int sequenceNumber, String folderName) {#beginMoveMessage-int-java.lang.String-}
 ```
 public final System.IAsyncResult beginMoveMessage(int sequenceNumber, String folderName)
@@ -14002,7 +14002,7 @@ Begins an asynchronous moving.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(int sequenceNumber, String folderName, boolean commitDeletions) {#beginMoveMessage-int-java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginMoveMessage(int sequenceNumber, String folderName, boolean commitDeletions)
@@ -14019,7 +14019,7 @@ Begins an asynchronous moving.
 | commitDeletions | boolean | Specifies whether deletions should be committed. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(int sequenceNumber, String folderName, boolean commitDeletions, System.AsyncCallback callback) {#beginMoveMessage-int-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessage(int sequenceNumber, String folderName, boolean commitDeletions, System.AsyncCallback callback)
@@ -14037,7 +14037,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(int sequenceNumber, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state) {#beginMoveMessage-int-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessage(int sequenceNumber, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state)
@@ -14056,7 +14056,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(int sequenceNumber, String folderName, System.AsyncCallback callback) {#beginMoveMessage-int-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessage(int sequenceNumber, String folderName, System.AsyncCallback callback)
@@ -14073,7 +14073,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(int sequenceNumber, String folderName, System.AsyncCallback callback, Object state) {#beginMoveMessage-int-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessage(int sequenceNumber, String folderName, System.AsyncCallback callback, Object state)
@@ -14091,7 +14091,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(String uniqueId, String folderName) {#beginMoveMessage-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginMoveMessage(String uniqueId, String folderName)
@@ -14107,7 +14107,7 @@ Begins an asynchronous moving.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(String uniqueId, String folderName, boolean commitDeletions) {#beginMoveMessage-java.lang.String-java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginMoveMessage(String uniqueId, String folderName, boolean commitDeletions)
@@ -14124,7 +14124,7 @@ Begins an asynchronous moving.
 | commitDeletions | boolean | Specifies whether deletions should be committed. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(String uniqueId, String folderName, boolean commitDeletions, System.AsyncCallback callback) {#beginMoveMessage-java.lang.String-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessage(String uniqueId, String folderName, boolean commitDeletions, System.AsyncCallback callback)
@@ -14142,7 +14142,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(String uniqueId, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state) {#beginMoveMessage-java.lang.String-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessage(String uniqueId, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state)
@@ -14161,7 +14161,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(String uniqueId, String folderName, System.AsyncCallback callback) {#beginMoveMessage-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessage(String uniqueId, String folderName, System.AsyncCallback callback)
@@ -14178,7 +14178,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessage(String uniqueId, String folderName, System.AsyncCallback callback, Object state) {#beginMoveMessage-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessage(String uniqueId, String folderName, System.AsyncCallback callback, Object state)
@@ -14196,7 +14196,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(IConnection connection, int startSequence, int endSequence, String folderName) {#beginMoveMessages-com.aspose.email.IConnection-int-int-java.lang.String-}
 ```
 public final System.IAsyncResult beginMoveMessages(IConnection connection, int startSequence, int endSequence, String folderName)
@@ -14214,7 +14214,7 @@ Begins an asynchronous moving.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(IConnection connection, int startSequence, int endSequence, String folderName, boolean commitDeletions) {#beginMoveMessages-com.aspose.email.IConnection-int-int-java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginMoveMessages(IConnection connection, int startSequence, int endSequence, String folderName, boolean commitDeletions)
@@ -14233,7 +14233,7 @@ Begins an asynchronous moving.
 | commitDeletions | boolean | Specifies whether deletions should be committed. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(IConnection connection, int startSequence, int endSequence, String folderName, boolean commitDeletions, System.AsyncCallback callback) {#beginMoveMessages-com.aspose.email.IConnection-int-int-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessages(IConnection connection, int startSequence, int endSequence, String folderName, boolean commitDeletions, System.AsyncCallback callback)
@@ -14253,7 +14253,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(IConnection connection, int startSequence, int endSequence, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state) {#beginMoveMessages-com.aspose.email.IConnection-int-int-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessages(IConnection connection, int startSequence, int endSequence, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state)
@@ -14274,7 +14274,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(IConnection connection, int startSequence, int endSequence, String folderName, System.AsyncCallback callback) {#beginMoveMessages-com.aspose.email.IConnection-int-int-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessages(IConnection connection, int startSequence, int endSequence, String folderName, System.AsyncCallback callback)
@@ -14293,7 +14293,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(IConnection connection, int startSequence, int endSequence, String folderName, System.AsyncCallback callback, Object state) {#beginMoveMessages-com.aspose.email.IConnection-int-int-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessages(IConnection connection, int startSequence, int endSequence, String folderName, System.AsyncCallback callback, Object state)
@@ -14313,7 +14313,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, String folderName) {#beginMoveMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--java.lang.String-}
 ```
 public final System.IAsyncResult beginMoveMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, String folderName)
@@ -14330,7 +14330,7 @@ Begins an asynchronous moving.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, String folderName, boolean commitDeletions) {#beginMoveMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginMoveMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, String folderName, boolean commitDeletions)
@@ -14348,7 +14348,7 @@ Begins an asynchronous moving.
 | commitDeletions | boolean | Specifies whether deletions should be committed. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, String folderName, boolean commitDeletions, System.AsyncCallback callback) {#beginMoveMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, String folderName, boolean commitDeletions, System.AsyncCallback callback)
@@ -14367,7 +14367,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state) {#beginMoveMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state)
@@ -14387,7 +14387,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, String folderName, System.AsyncCallback callback) {#beginMoveMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, String folderName, System.AsyncCallback callback)
@@ -14405,7 +14405,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, String folderName, System.AsyncCallback callback, Object state) {#beginMoveMessages-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessages(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, String folderName, System.AsyncCallback callback, Object state)
@@ -14424,7 +14424,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(IConnection connection, String startUid, String endUid, String folderName) {#beginMoveMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginMoveMessages(IConnection connection, String startUid, String endUid, String folderName)
@@ -14442,7 +14442,7 @@ Begins an asynchronous moving.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(IConnection connection, String startUid, String endUid, String folderName, boolean commitDeletions) {#beginMoveMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginMoveMessages(IConnection connection, String startUid, String endUid, String folderName, boolean commitDeletions)
@@ -14461,7 +14461,7 @@ Begins an asynchronous moving.
 | commitDeletions | boolean | Specifies whether deletions should be committed. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(IConnection connection, String startUid, String endUid, String folderName, boolean commitDeletions, System.AsyncCallback callback) {#beginMoveMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessages(IConnection connection, String startUid, String endUid, String folderName, boolean commitDeletions, System.AsyncCallback callback)
@@ -14481,7 +14481,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(IConnection connection, String startUid, String endUid, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state) {#beginMoveMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessages(IConnection connection, String startUid, String endUid, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state)
@@ -14502,7 +14502,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(IConnection connection, String startUid, String endUid, String folderName, System.AsyncCallback callback) {#beginMoveMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessages(IConnection connection, String startUid, String endUid, String folderName, System.AsyncCallback callback)
@@ -14521,7 +14521,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(IConnection connection, String startUid, String endUid, String folderName, System.AsyncCallback callback, Object state) {#beginMoveMessages-com.aspose.email.IConnection-java.lang.String-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessages(IConnection connection, String startUid, String endUid, String folderName, System.AsyncCallback callback, Object state)
@@ -14541,7 +14541,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(int startSequence, int endSequence, String folderName) {#beginMoveMessages-int-int-java.lang.String-}
 ```
 public final System.IAsyncResult beginMoveMessages(int startSequence, int endSequence, String folderName)
@@ -14558,7 +14558,7 @@ Begins an asynchronous moving.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(int startSequence, int endSequence, String folderName, boolean commitDeletions) {#beginMoveMessages-int-int-java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginMoveMessages(int startSequence, int endSequence, String folderName, boolean commitDeletions)
@@ -14576,7 +14576,7 @@ Begins an asynchronous moving.
 | commitDeletions | boolean | Specifies whether deletions should be committed. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(int startSequence, int endSequence, String folderName, boolean commitDeletions, System.AsyncCallback callback) {#beginMoveMessages-int-int-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessages(int startSequence, int endSequence, String folderName, boolean commitDeletions, System.AsyncCallback callback)
@@ -14595,7 +14595,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(int startSequence, int endSequence, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state) {#beginMoveMessages-int-int-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessages(int startSequence, int endSequence, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state)
@@ -14615,7 +14615,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(int startSequence, int endSequence, String folderName, System.AsyncCallback callback) {#beginMoveMessages-int-int-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessages(int startSequence, int endSequence, String folderName, System.AsyncCallback callback)
@@ -14633,7 +14633,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(int startSequence, int endSequence, String folderName, System.AsyncCallback callback, Object state) {#beginMoveMessages-int-int-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessages(int startSequence, int endSequence, String folderName, System.AsyncCallback callback, Object state)
@@ -14652,7 +14652,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(Iterable<ImapMessageInfo> messageInfoSet, String folderName) {#beginMoveMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--java.lang.String-}
 ```
 public final System.IAsyncResult beginMoveMessages(Iterable<ImapMessageInfo> messageInfoSet, String folderName)
@@ -14668,7 +14668,7 @@ Begins an asynchronous moving.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(Iterable<ImapMessageInfo> messageInfoSet, String folderName, boolean commitDeletions) {#beginMoveMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginMoveMessages(Iterable<ImapMessageInfo> messageInfoSet, String folderName, boolean commitDeletions)
@@ -14685,7 +14685,7 @@ Begins an asynchronous moving.
 | commitDeletions | boolean | Specifies whether deletions should be committed. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(Iterable<ImapMessageInfo> messageInfoSet, String folderName, boolean commitDeletions, System.AsyncCallback callback) {#beginMoveMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessages(Iterable<ImapMessageInfo> messageInfoSet, String folderName, boolean commitDeletions, System.AsyncCallback callback)
@@ -14703,7 +14703,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(Iterable<ImapMessageInfo> messageInfoSet, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state) {#beginMoveMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessages(Iterable<ImapMessageInfo> messageInfoSet, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state)
@@ -14722,7 +14722,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(Iterable<ImapMessageInfo> messageInfoSet, String folderName, System.AsyncCallback callback) {#beginMoveMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessages(Iterable<ImapMessageInfo> messageInfoSet, String folderName, System.AsyncCallback callback)
@@ -14739,7 +14739,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(Iterable<ImapMessageInfo> messageInfoSet, String folderName, System.AsyncCallback callback, Object state) {#beginMoveMessages-java.lang.Iterable-com.aspose.email.ImapMessageInfo--java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessages(Iterable<ImapMessageInfo> messageInfoSet, String folderName, System.AsyncCallback callback, Object state)
@@ -14757,7 +14757,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(String startUid, String endUid, String folderName) {#beginMoveMessages-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginMoveMessages(String startUid, String endUid, String folderName)
@@ -14774,7 +14774,7 @@ Begins an asynchronous moving.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(String startUid, String endUid, String folderName, boolean commitDeletions) {#beginMoveMessages-java.lang.String-java.lang.String-java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginMoveMessages(String startUid, String endUid, String folderName, boolean commitDeletions)
@@ -14792,7 +14792,7 @@ Begins an asynchronous moving.
 | commitDeletions | boolean | Specifies whether deletions should be committed. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(String startUid, String endUid, String folderName, boolean commitDeletions, System.AsyncCallback callback) {#beginMoveMessages-java.lang.String-java.lang.String-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessages(String startUid, String endUid, String folderName, boolean commitDeletions, System.AsyncCallback callback)
@@ -14811,7 +14811,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(String startUid, String endUid, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state) {#beginMoveMessages-java.lang.String-java.lang.String-java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessages(String startUid, String endUid, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state)
@@ -14831,7 +14831,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(String startUid, String endUid, String folderName, System.AsyncCallback callback) {#beginMoveMessages-java.lang.String-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessages(String startUid, String endUid, String folderName, System.AsyncCallback callback)
@@ -14849,7 +14849,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessages(String startUid, String endUid, String folderName, System.AsyncCallback callback, Object state) {#beginMoveMessages-java.lang.String-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessages(String startUid, String endUid, String folderName, System.AsyncCallback callback, Object state)
@@ -14868,7 +14868,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, String folderName) {#beginMoveMessagesBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--java.lang.String-}
 ```
 public final System.IAsyncResult beginMoveMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, String folderName)
@@ -14885,7 +14885,7 @@ Begins an asynchronous moving.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, String folderName, boolean commitDeletions) {#beginMoveMessagesBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginMoveMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, String folderName, boolean commitDeletions)
@@ -14903,7 +14903,7 @@ Begins an asynchronous moving.
 | commitDeletions | boolean | Specifies whether deletions should be committed. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, String folderName, boolean commitDeletions, System.AsyncCallback callback) {#beginMoveMessagesBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, String folderName, boolean commitDeletions, System.AsyncCallback callback)
@@ -14922,7 +14922,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state) {#beginMoveMessagesBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state)
@@ -14942,7 +14942,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, String folderName, System.AsyncCallback callback) {#beginMoveMessagesBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, String folderName, System.AsyncCallback callback)
@@ -14960,7 +14960,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, String folderName, System.AsyncCallback callback, Object state) {#beginMoveMessagesBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessagesBySequences(IConnection connection, Iterable<Integer> sequenceSet, String folderName, System.AsyncCallback callback, Object state)
@@ -14979,7 +14979,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesBySequences(Iterable<Integer> sequenceSet, String folderName) {#beginMoveMessagesBySequences-java.lang.Iterable-java.lang.Integer--java.lang.String-}
 ```
 public final System.IAsyncResult beginMoveMessagesBySequences(Iterable<Integer> sequenceSet, String folderName)
@@ -14995,7 +14995,7 @@ Begins an asynchronous moving.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesBySequences(Iterable<Integer> sequenceSet, String folderName, boolean commitDeletions) {#beginMoveMessagesBySequences-java.lang.Iterable-java.lang.Integer--java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginMoveMessagesBySequences(Iterable<Integer> sequenceSet, String folderName, boolean commitDeletions)
@@ -15012,7 +15012,7 @@ Begins an asynchronous moving.
 | commitDeletions | boolean | Specifies whether deletions should be committed. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesBySequences(Iterable<Integer> sequenceSet, String folderName, boolean commitDeletions, System.AsyncCallback callback) {#beginMoveMessagesBySequences-java.lang.Iterable-java.lang.Integer--java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessagesBySequences(Iterable<Integer> sequenceSet, String folderName, boolean commitDeletions, System.AsyncCallback callback)
@@ -15030,7 +15030,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesBySequences(Iterable<Integer> sequenceSet, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state) {#beginMoveMessagesBySequences-java.lang.Iterable-java.lang.Integer--java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessagesBySequences(Iterable<Integer> sequenceSet, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state)
@@ -15049,7 +15049,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesBySequences(Iterable<Integer> sequenceSet, String folderName, System.AsyncCallback callback) {#beginMoveMessagesBySequences-java.lang.Iterable-java.lang.Integer--java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessagesBySequences(Iterable<Integer> sequenceSet, String folderName, System.AsyncCallback callback)
@@ -15066,7 +15066,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesBySequences(Iterable<Integer> sequenceSet, String folderName, System.AsyncCallback callback, Object state) {#beginMoveMessagesBySequences-java.lang.Iterable-java.lang.Integer--java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessagesBySequences(Iterable<Integer> sequenceSet, String folderName, System.AsyncCallback callback, Object state)
@@ -15084,7 +15084,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesByUids(IConnection connection, Iterable<String> uidSet, String folderName) {#beginMoveMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--java.lang.String-}
 ```
 public final System.IAsyncResult beginMoveMessagesByUids(IConnection connection, Iterable<String> uidSet, String folderName)
@@ -15101,7 +15101,7 @@ Begins an asynchronous moving.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesByUids(IConnection connection, Iterable<String> uidSet, String folderName, boolean commitDeletions) {#beginMoveMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginMoveMessagesByUids(IConnection connection, Iterable<String> uidSet, String folderName, boolean commitDeletions)
@@ -15119,7 +15119,7 @@ Begins an asynchronous moving.
 | commitDeletions | boolean | Specifies whether deletions should be committed. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesByUids(IConnection connection, Iterable<String> uidSet, String folderName, boolean commitDeletions, System.AsyncCallback callback) {#beginMoveMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessagesByUids(IConnection connection, Iterable<String> uidSet, String folderName, boolean commitDeletions, System.AsyncCallback callback)
@@ -15138,7 +15138,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesByUids(IConnection connection, Iterable<String> uidSet, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state) {#beginMoveMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessagesByUids(IConnection connection, Iterable<String> uidSet, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state)
@@ -15158,7 +15158,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesByUids(IConnection connection, Iterable<String> uidSet, String folderName, System.AsyncCallback callback) {#beginMoveMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessagesByUids(IConnection connection, Iterable<String> uidSet, String folderName, System.AsyncCallback callback)
@@ -15176,7 +15176,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesByUids(IConnection connection, Iterable<String> uidSet, String folderName, System.AsyncCallback callback, Object state) {#beginMoveMessagesByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessagesByUids(IConnection connection, Iterable<String> uidSet, String folderName, System.AsyncCallback callback, Object state)
@@ -15195,7 +15195,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesByUids(Iterable<String> uidSet, String folderName) {#beginMoveMessagesByUids-java.lang.Iterable-java.lang.String--java.lang.String-}
 ```
 public final System.IAsyncResult beginMoveMessagesByUids(Iterable<String> uidSet, String folderName)
@@ -15211,7 +15211,7 @@ Begins an asynchronous moving.
 | folderName | java.lang.String | Folder name where a message is to be moved |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesByUids(Iterable<String> uidSet, String folderName, boolean commitDeletions) {#beginMoveMessagesByUids-java.lang.Iterable-java.lang.String--java.lang.String-boolean-}
 ```
 public final System.IAsyncResult beginMoveMessagesByUids(Iterable<String> uidSet, String folderName, boolean commitDeletions)
@@ -15228,7 +15228,7 @@ Begins an asynchronous moving.
 | commitDeletions | boolean | Specifies whether deletions should be committed. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesByUids(Iterable<String> uidSet, String folderName, boolean commitDeletions, System.AsyncCallback callback) {#beginMoveMessagesByUids-java.lang.Iterable-java.lang.String--java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessagesByUids(Iterable<String> uidSet, String folderName, boolean commitDeletions, System.AsyncCallback callback)
@@ -15246,7 +15246,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesByUids(Iterable<String> uidSet, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state) {#beginMoveMessagesByUids-java.lang.Iterable-java.lang.String--java.lang.String-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessagesByUids(Iterable<String> uidSet, String folderName, boolean commitDeletions, System.AsyncCallback callback, Object state)
@@ -15265,7 +15265,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesByUids(Iterable<String> uidSet, String folderName, System.AsyncCallback callback) {#beginMoveMessagesByUids-java.lang.Iterable-java.lang.String--java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginMoveMessagesByUids(Iterable<String> uidSet, String folderName, System.AsyncCallback callback)
@@ -15282,7 +15282,7 @@ Begins an asynchronous moving.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginMoveMessagesByUids(Iterable<String> uidSet, String folderName, System.AsyncCallback callback, Object state) {#beginMoveMessagesByUids-java.lang.Iterable-java.lang.String--java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginMoveMessagesByUids(Iterable<String> uidSet, String folderName, System.AsyncCallback callback, Object state)
@@ -15300,7 +15300,7 @@ Begins an asynchronous moving.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginNoop() {#beginNoop--}
 ```
 public final System.IAsyncResult beginNoop()
@@ -15310,7 +15310,7 @@ public final System.IAsyncResult beginNoop()
 Begins to execute 'No operation' command
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginNoop(IConnection connection) {#beginNoop-com.aspose.email.IConnection-}
 ```
 public final System.IAsyncResult beginNoop(IConnection connection)
@@ -15325,7 +15325,7 @@ Begins to execute 'No operation' command
 | connection | [IConnection](../../com.aspose.email/iconnection) | Connection to a server |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginNoop(IConnection connection, System.AsyncCallback callback) {#beginNoop-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginNoop(IConnection connection, System.AsyncCallback callback)
@@ -15341,7 +15341,7 @@ Begins to execute 'No operation' command
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginNoop(IConnection connection, System.AsyncCallback callback, Object state) {#beginNoop-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginNoop(IConnection connection, System.AsyncCallback callback, Object state)
@@ -15358,7 +15358,7 @@ Begins to execute 'No operation' command
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginNoop(System.AsyncCallback callback) {#beginNoop-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginNoop(System.AsyncCallback callback)
@@ -15373,7 +15373,7 @@ Begins to execute 'No operation' command
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginNoop(System.AsyncCallback callback, Object state) {#beginNoop-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginNoop(System.AsyncCallback callback, Object state)
@@ -15389,7 +15389,7 @@ Begins to execute 'No operation' command
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags) {#beginRemoveMessageFlags-com.aspose.email.IConnection-int-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags)
@@ -15406,7 +15406,7 @@ Removes the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | The flags to be added |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback) {#beginRemoveMessageFlags-com.aspose.email.IConnection-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -15424,7 +15424,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-com.aspose.email.IConnection-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -15443,7 +15443,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, long modificationSequence) {#beginRemoveMessageFlags-com.aspose.email.IConnection-int-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, long modificationSequence)
@@ -15461,7 +15461,7 @@ Removes the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginRemoveMessageFlags-com.aspose.email.IConnection-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -15480,7 +15480,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-com.aspose.email.IConnection-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -15500,7 +15500,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags) {#beginRemoveMessageFlags-com.aspose.email.IConnection-int-int-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags)
@@ -15518,7 +15518,7 @@ Removes the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback) {#beginRemoveMessageFlags-com.aspose.email.IConnection-int-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -15537,7 +15537,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-com.aspose.email.IConnection-int-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -15557,7 +15557,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence) {#beginRemoveMessageFlags-com.aspose.email.IConnection-int-int-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence)
@@ -15576,7 +15576,7 @@ Removes the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginRemoveMessageFlags-com.aspose.email.IConnection-int-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -15596,7 +15596,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-com.aspose.email.IConnection-int-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -15617,7 +15617,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags) {#beginRemoveMessageFlags-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags)
@@ -15634,7 +15634,7 @@ Removes the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback) {#beginRemoveMessageFlags-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -15652,7 +15652,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -15671,7 +15671,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence) {#beginRemoveMessageFlags-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence)
@@ -15689,7 +15689,7 @@ Removes the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginRemoveMessageFlags-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -15708,7 +15708,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -15728,7 +15728,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags) {#beginRemoveMessageFlags-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags)
@@ -15745,7 +15745,7 @@ Removes the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | The flags to be added |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback) {#beginRemoveMessageFlags-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -15763,7 +15763,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -15782,7 +15782,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, long modificationSequence) {#beginRemoveMessageFlags-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, long modificationSequence)
@@ -15800,7 +15800,7 @@ Removes the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginRemoveMessageFlags-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -15819,7 +15819,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -15839,7 +15839,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags) {#beginRemoveMessageFlags-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags)
@@ -15857,7 +15857,7 @@ Removes the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback) {#beginRemoveMessageFlags-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -15876,7 +15876,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -15896,7 +15896,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, long modificationSequence) {#beginRemoveMessageFlags-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, long modificationSequence)
@@ -15915,7 +15915,7 @@ Removes the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginRemoveMessageFlags-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -15935,7 +15935,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(IConnection connection, String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -15956,7 +15956,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(int sequenceNumber, ImapMessageFlags flags) {#beginRemoveMessageFlags-int-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(int sequenceNumber, ImapMessageFlags flags)
@@ -15972,7 +15972,7 @@ Removes the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | The flags to be added |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback) {#beginRemoveMessageFlags-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -15989,7 +15989,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(int sequenceNumber, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -16007,7 +16007,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(int sequenceNumber, ImapMessageFlags flags, long modificationSequence) {#beginRemoveMessageFlags-int-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(int sequenceNumber, ImapMessageFlags flags, long modificationSequence)
@@ -16024,7 +16024,7 @@ Removes the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginRemoveMessageFlags-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -16042,7 +16042,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(int sequenceNumber, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -16061,7 +16061,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags) {#beginRemoveMessageFlags-int-int-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags)
@@ -16078,7 +16078,7 @@ Removes the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback) {#beginRemoveMessageFlags-int-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -16096,7 +16096,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-int-int-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -16115,7 +16115,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence) {#beginRemoveMessageFlags-int-int-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence)
@@ -16133,7 +16133,7 @@ Removes the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginRemoveMessageFlags-int-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -16152,7 +16152,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-int-int-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(int startSequence, int endSequence, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -16172,7 +16172,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags) {#beginRemoveMessageFlags-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags)
@@ -16188,7 +16188,7 @@ Removes the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback) {#beginRemoveMessageFlags-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -16205,7 +16205,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -16223,7 +16223,7 @@ Removes the flags of the message
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence) {#beginRemoveMessageFlags-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence)
@@ -16240,7 +16240,7 @@ Removes the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginRemoveMessageFlags-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -16258,7 +16258,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-java.lang.Iterable-com.aspose.email.ImapMessageInfo--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(Iterable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -16277,7 +16277,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(String uniqueId, ImapMessageFlags flags) {#beginRemoveMessageFlags-java.lang.String-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(String uniqueId, ImapMessageFlags flags)
@@ -16293,7 +16293,7 @@ Removes the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | The flags to be added |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback) {#beginRemoveMessageFlags-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -16310,7 +16310,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(String uniqueId, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -16328,7 +16328,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(String uniqueId, ImapMessageFlags flags, long modificationSequence) {#beginRemoveMessageFlags-java.lang.String-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(String uniqueId, ImapMessageFlags flags, long modificationSequence)
@@ -16345,7 +16345,7 @@ Removes the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginRemoveMessageFlags-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -16363,7 +16363,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(String uniqueId, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -16382,7 +16382,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(String startUid, String endUid, ImapMessageFlags flags) {#beginRemoveMessageFlags-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(String startUid, String endUid, ImapMessageFlags flags)
@@ -16399,7 +16399,7 @@ Removes the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback) {#beginRemoveMessageFlags-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -16417,7 +16417,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(String startUid, String endUid, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -16436,7 +16436,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(String startUid, String endUid, ImapMessageFlags flags, long modificationSequence) {#beginRemoveMessageFlags-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(String startUid, String endUid, ImapMessageFlags flags, long modificationSequence)
@@ -16454,7 +16454,7 @@ Removes the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginRemoveMessageFlags-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -16473,7 +16473,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlags(String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlags-java.lang.String-java.lang.String-com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlags(String startUid, String endUid, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -16493,7 +16493,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags) {#beginRemoveMessageFlagsBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags)
@@ -16510,7 +16510,7 @@ Removes the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback) {#beginRemoveMessageFlagsBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -16528,7 +16528,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlagsBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -16547,7 +16547,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence) {#beginRemoveMessageFlagsBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence)
@@ -16565,7 +16565,7 @@ Removes the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginRemoveMessageFlagsBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -16584,7 +16584,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlagsBySequences-com.aspose.email.IConnection-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsBySequences(IConnection connection, Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -16604,7 +16604,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags) {#beginRemoveMessageFlagsBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags)
@@ -16620,7 +16620,7 @@ Removes the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback) {#beginRemoveMessageFlagsBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -16637,7 +16637,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlagsBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -16655,7 +16655,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence) {#beginRemoveMessageFlagsBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence)
@@ -16672,7 +16672,7 @@ Removes the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginRemoveMessageFlagsBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -16690,7 +16690,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlagsBySequences-java.lang.Iterable-java.lang.Integer--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsBySequences(Iterable<Integer> sequenceSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -16709,7 +16709,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags) {#beginRemoveMessageFlagsByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags)
@@ -16726,7 +16726,7 @@ Removes the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback) {#beginRemoveMessageFlagsByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -16744,7 +16744,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlagsByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -16763,7 +16763,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence) {#beginRemoveMessageFlagsByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence)
@@ -16781,7 +16781,7 @@ Removes the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginRemoveMessageFlagsByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -16800,7 +16800,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlagsByUids-com.aspose.email.IConnection-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsByUids(IConnection connection, Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -16820,7 +16820,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags) {#beginRemoveMessageFlagsByUids-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags)
@@ -16836,7 +16836,7 @@ Removes the flags of the message asynchronously
 | flags | [ImapMessageFlags](../../com.aspose.email/imapmessageflags) | Flag value |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback) {#beginRemoveMessageFlagsByUids-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback)
@@ -16853,7 +16853,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlagsByUids-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, System.AsyncCallback callback, Object state)
@@ -16871,7 +16871,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence) {#beginRemoveMessageFlagsByUids-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-long-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence)
@@ -16888,7 +16888,7 @@ Removes the flags of the message asynchronously
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback) {#beginRemoveMessageFlagsByUids-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback)
@@ -16906,7 +16906,7 @@ Removes the flags of the message asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRemoveMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state) {#beginRemoveMessageFlagsByUids-java.lang.Iterable-java.lang.String--com.aspose.email.ImapMessageFlags-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRemoveMessageFlagsByUids(Iterable<String> uidSet, ImapMessageFlags flags, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -16925,7 +16925,7 @@ Removes the flags of the message asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRenameFolder(IConnection connection, String folderName, String newFolderName) {#beginRenameFolder-com.aspose.email.IConnection-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginRenameFolder(IConnection connection, String folderName, String newFolderName)
@@ -16942,7 +16942,7 @@ Begins RenameFolder operation asynchronously
 | newFolderName | java.lang.String | New folder name |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRenameFolder(IConnection connection, String folderName, String newFolderName, System.AsyncCallback callback) {#beginRenameFolder-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRenameFolder(IConnection connection, String folderName, String newFolderName, System.AsyncCallback callback)
@@ -16960,7 +16960,7 @@ Begins RenameFolder operation asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRenameFolder(IConnection connection, String folderName, String newFolderName, System.AsyncCallback callback, Object state) {#beginRenameFolder-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRenameFolder(IConnection connection, String folderName, String newFolderName, System.AsyncCallback callback, Object state)
@@ -16979,7 +16979,7 @@ Begins RenameFolder operation asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRenameFolder(String folderName, String newFolderName) {#beginRenameFolder-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginRenameFolder(String folderName, String newFolderName)
@@ -16995,7 +16995,7 @@ Begins RenameFolder operation asynchronously
 | newFolderName | java.lang.String | New folder name |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRenameFolder(String folderName, String newFolderName, System.AsyncCallback callback) {#beginRenameFolder-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRenameFolder(String folderName, String newFolderName, System.AsyncCallback callback)
@@ -17012,7 +17012,7 @@ Begins RenameFolder operation asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRenameFolder(String folderName, String newFolderName, System.AsyncCallback callback, Object state) {#beginRenameFolder-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRenameFolder(String folderName, String newFolderName, System.AsyncCallback callback, Object state)
@@ -17030,7 +17030,7 @@ Begins RenameFolder operation asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRequestCheckpoint() {#beginRequestCheckpoint--}
 ```
 public final System.IAsyncResult beginRequestCheckpoint()
@@ -17040,7 +17040,7 @@ public final System.IAsyncResult beginRequestCheckpoint()
 Begins request a checkpoint of the currently selected mailbox.
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRequestCheckpoint(IConnection connection) {#beginRequestCheckpoint-com.aspose.email.IConnection-}
 ```
 public final System.IAsyncResult beginRequestCheckpoint(IConnection connection)
@@ -17055,7 +17055,7 @@ Begins request a checkpoint of the currently selected mailbox.
 | connection | [IConnection](../../com.aspose.email/iconnection) | Connection to a server |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRequestCheckpoint(IConnection connection, System.AsyncCallback callback) {#beginRequestCheckpoint-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRequestCheckpoint(IConnection connection, System.AsyncCallback callback)
@@ -17071,7 +17071,7 @@ Begins request a checkpoint of the currently selected mailbox.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRequestCheckpoint(IConnection connection, System.AsyncCallback callback, Object state) {#beginRequestCheckpoint-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRequestCheckpoint(IConnection connection, System.AsyncCallback callback, Object state)
@@ -17088,7 +17088,7 @@ Begins request a checkpoint of the currently selected mailbox.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRequestCheckpoint(System.AsyncCallback callback) {#beginRequestCheckpoint-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRequestCheckpoint(System.AsyncCallback callback)
@@ -17103,7 +17103,7 @@ Begins request a checkpoint of the currently selected mailbox.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRequestCheckpoint(System.AsyncCallback callback, Object state) {#beginRequestCheckpoint-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRequestCheckpoint(System.AsyncCallback callback, Object state)
@@ -17119,7 +17119,7 @@ Begins request a checkpoint of the currently selected mailbox.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(IConnection connection, PersonalStorage pst, ImapFolderInfoCollection folders, int options) {#beginRestore-com.aspose.email.IConnection-com.aspose.email.PersonalStorage-com.aspose.email.ImapFolderInfoCollection-int-}
 ```
 public final System.IAsyncResult beginRestore(IConnection connection, PersonalStorage pst, ImapFolderInfoCollection folders, int options)
@@ -17137,7 +17137,7 @@ Begins to restore the specified imap folders from the given personal storage.
 | options | int | Restore options. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(IConnection connection, PersonalStorage pst, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback) {#beginRestore-com.aspose.email.IConnection-com.aspose.email.PersonalStorage-com.aspose.email.ImapFolderInfoCollection-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRestore(IConnection connection, PersonalStorage pst, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback)
@@ -17156,7 +17156,7 @@ Begins to restore the specified imap folders from the given personal storage.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(IConnection connection, PersonalStorage pst, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback, Object state) {#beginRestore-com.aspose.email.IConnection-com.aspose.email.PersonalStorage-com.aspose.email.ImapFolderInfoCollection-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRestore(IConnection connection, PersonalStorage pst, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback, Object state)
@@ -17176,7 +17176,7 @@ Begins to restore the specified imap folders from the given personal storage.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(IConnection connection, PersonalStorage pst, int options) {#beginRestore-com.aspose.email.IConnection-com.aspose.email.PersonalStorage-int-}
 ```
 public final System.IAsyncResult beginRestore(IConnection connection, PersonalStorage pst, int options)
@@ -17193,7 +17193,7 @@ Begins to restore imap folders from the given personal storage.
 | options | int | Restore options. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(IConnection connection, PersonalStorage pst, int options, System.AsyncCallback callback) {#beginRestore-com.aspose.email.IConnection-com.aspose.email.PersonalStorage-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRestore(IConnection connection, PersonalStorage pst, int options, System.AsyncCallback callback)
@@ -17211,7 +17211,7 @@ Begins to restore imap folders from the given personal storage.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(IConnection connection, PersonalStorage pst, int options, System.AsyncCallback callback, Object state) {#beginRestore-com.aspose.email.IConnection-com.aspose.email.PersonalStorage-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRestore(IConnection connection, PersonalStorage pst, int options, System.AsyncCallback callback, Object state)
@@ -17230,7 +17230,7 @@ Begins to restore imap folders from the given personal storage.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(IConnection connection, InputStream stream, ImapFolderInfoCollection folders, int options) {#beginRestore-com.aspose.email.IConnection-java.io.InputStream-com.aspose.email.ImapFolderInfoCollection-int-}
 ```
 public final System.IAsyncResult beginRestore(IConnection connection, InputStream stream, ImapFolderInfoCollection folders, int options)
@@ -17248,7 +17248,7 @@ Begins to restore the specified imap folders from the given stream.
 | options | int | Restore options. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(IConnection connection, InputStream stream, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback) {#beginRestore-com.aspose.email.IConnection-java.io.InputStream-com.aspose.email.ImapFolderInfoCollection-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRestore(IConnection connection, InputStream stream, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback)
@@ -17267,7 +17267,7 @@ Begins to restore the specified imap folders from the given stream.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(IConnection connection, InputStream stream, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback, Object state) {#beginRestore-com.aspose.email.IConnection-java.io.InputStream-com.aspose.email.ImapFolderInfoCollection-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRestore(IConnection connection, InputStream stream, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback, Object state)
@@ -17287,7 +17287,7 @@ Begins to restore the specified imap folders from the given stream.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(IConnection connection, InputStream stream, int options) {#beginRestore-com.aspose.email.IConnection-java.io.InputStream-int-}
 ```
 public final System.IAsyncResult beginRestore(IConnection connection, InputStream stream, int options)
@@ -17304,7 +17304,7 @@ Begins to restore imap folders from the given stream.
 | options | int | Restore options. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(IConnection connection, InputStream stream, int options, System.AsyncCallback callback) {#beginRestore-com.aspose.email.IConnection-java.io.InputStream-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRestore(IConnection connection, InputStream stream, int options, System.AsyncCallback callback)
@@ -17322,7 +17322,7 @@ Begins to restore imap folders from the given stream.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(IConnection connection, InputStream stream, int options, System.AsyncCallback callback, Object state) {#beginRestore-com.aspose.email.IConnection-java.io.InputStream-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRestore(IConnection connection, InputStream stream, int options, System.AsyncCallback callback, Object state)
@@ -17341,7 +17341,7 @@ Begins to restore imap folders from the given stream.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(IConnection connection, String fileName, ImapFolderInfoCollection folders, int options) {#beginRestore-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapFolderInfoCollection-int-}
 ```
 public final System.IAsyncResult beginRestore(IConnection connection, String fileName, ImapFolderInfoCollection folders, int options)
@@ -17359,7 +17359,7 @@ Begins to restore the specified imap folders from the specified personal storage
 | options | int | Restore options. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(IConnection connection, String fileName, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback) {#beginRestore-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapFolderInfoCollection-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRestore(IConnection connection, String fileName, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback)
@@ -17378,7 +17378,7 @@ Begins to restore the specified imap folders from the specified personal storage
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(IConnection connection, String fileName, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback, Object state) {#beginRestore-com.aspose.email.IConnection-java.lang.String-com.aspose.email.ImapFolderInfoCollection-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRestore(IConnection connection, String fileName, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback, Object state)
@@ -17398,7 +17398,7 @@ Begins to restore the specified imap folders from the specified personal storage
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(IConnection connection, String fileName, int options) {#beginRestore-com.aspose.email.IConnection-java.lang.String-int-}
 ```
 public final System.IAsyncResult beginRestore(IConnection connection, String fileName, int options)
@@ -17415,7 +17415,7 @@ Begins to restore imap folders from the specified personal storage file.
 | options | int | Restore options. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(IConnection connection, String fileName, int options, System.AsyncCallback callback) {#beginRestore-com.aspose.email.IConnection-java.lang.String-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRestore(IConnection connection, String fileName, int options, System.AsyncCallback callback)
@@ -17433,7 +17433,7 @@ Begins to restore imap folders from the specified personal storage file.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(IConnection connection, String fileName, int options, System.AsyncCallback callback, Object state) {#beginRestore-com.aspose.email.IConnection-java.lang.String-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRestore(IConnection connection, String fileName, int options, System.AsyncCallback callback, Object state)
@@ -17452,7 +17452,7 @@ Begins to restore imap folders from the specified personal storage file.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(PersonalStorage pst, ImapFolderInfoCollection folders, int options) {#beginRestore-com.aspose.email.PersonalStorage-com.aspose.email.ImapFolderInfoCollection-int-}
 ```
 public final System.IAsyncResult beginRestore(PersonalStorage pst, ImapFolderInfoCollection folders, int options)
@@ -17469,7 +17469,7 @@ Begins to restore the specified imap folders from the given personal storage.
 | options | int | Restore options. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(PersonalStorage pst, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback) {#beginRestore-com.aspose.email.PersonalStorage-com.aspose.email.ImapFolderInfoCollection-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRestore(PersonalStorage pst, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback)
@@ -17487,7 +17487,7 @@ Begins to restore the specified imap folders from the given personal storage.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(PersonalStorage pst, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback, Object state) {#beginRestore-com.aspose.email.PersonalStorage-com.aspose.email.ImapFolderInfoCollection-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRestore(PersonalStorage pst, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback, Object state)
@@ -17506,7 +17506,7 @@ Begins to restore the specified imap folders from the given personal storage.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(PersonalStorage pst, ImapRestoreSettingsAsync settings) {#beginRestore-com.aspose.email.PersonalStorage-com.aspose.email.ImapRestoreSettingsAsync-}
 ```
 public final System.IAsyncResult beginRestore(PersonalStorage pst, ImapRestoreSettingsAsync settings)
@@ -17522,7 +17522,7 @@ Begins to restore imap folders from the given personal storage.
 | settings | [ImapRestoreSettingsAsync](../../com.aspose.email/imaprestoresettingsasync) | The restore settings |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(PersonalStorage pst, int options) {#beginRestore-com.aspose.email.PersonalStorage-int-}
 ```
 public final System.IAsyncResult beginRestore(PersonalStorage pst, int options)
@@ -17538,7 +17538,7 @@ Begins to restore imap folders from the given personal storage.
 | options | int | Restore options. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(PersonalStorage pst, int options, System.AsyncCallback callback) {#beginRestore-com.aspose.email.PersonalStorage-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRestore(PersonalStorage pst, int options, System.AsyncCallback callback)
@@ -17555,7 +17555,7 @@ Begins to restore imap folders from the given personal storage.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(PersonalStorage pst, int options, System.AsyncCallback callback, Object state) {#beginRestore-com.aspose.email.PersonalStorage-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRestore(PersonalStorage pst, int options, System.AsyncCallback callback, Object state)
@@ -17573,7 +17573,7 @@ Begins to restore imap folders from the given personal storage.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(InputStream stream, ImapFolderInfoCollection folders, int options) {#beginRestore-java.io.InputStream-com.aspose.email.ImapFolderInfoCollection-int-}
 ```
 public final System.IAsyncResult beginRestore(InputStream stream, ImapFolderInfoCollection folders, int options)
@@ -17590,7 +17590,7 @@ Begins to restore the specified imap folders from the given stream.
 | options | int | Restore options. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(InputStream stream, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback) {#beginRestore-java.io.InputStream-com.aspose.email.ImapFolderInfoCollection-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRestore(InputStream stream, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback)
@@ -17608,7 +17608,7 @@ Begins to restore the specified imap folders from the given stream.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(InputStream stream, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback, Object state) {#beginRestore-java.io.InputStream-com.aspose.email.ImapFolderInfoCollection-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRestore(InputStream stream, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback, Object state)
@@ -17627,7 +17627,7 @@ Begins to restore the specified imap folders from the given stream.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(InputStream stream, int options) {#beginRestore-java.io.InputStream-int-}
 ```
 public final System.IAsyncResult beginRestore(InputStream stream, int options)
@@ -17643,7 +17643,7 @@ Begins to restore imap folders from the given stream.
 | options | int | Restore options. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(InputStream stream, int options, System.AsyncCallback callback) {#beginRestore-java.io.InputStream-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRestore(InputStream stream, int options, System.AsyncCallback callback)
@@ -17660,7 +17660,7 @@ Begins to restore imap folders from the given stream.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(InputStream stream, int options, System.AsyncCallback callback, Object state) {#beginRestore-java.io.InputStream-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRestore(InputStream stream, int options, System.AsyncCallback callback, Object state)
@@ -17678,7 +17678,7 @@ Begins to restore imap folders from the given stream.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(String fileName, ImapFolderInfoCollection folders, int options) {#beginRestore-java.lang.String-com.aspose.email.ImapFolderInfoCollection-int-}
 ```
 public final System.IAsyncResult beginRestore(String fileName, ImapFolderInfoCollection folders, int options)
@@ -17695,7 +17695,7 @@ Begins to restore the specified imap folders from the specified personal storage
 | options | int | Restore options. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(String fileName, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback) {#beginRestore-java.lang.String-com.aspose.email.ImapFolderInfoCollection-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRestore(String fileName, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback)
@@ -17713,7 +17713,7 @@ Begins to restore the specified imap folders from the specified personal storage
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(String fileName, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback, Object state) {#beginRestore-java.lang.String-com.aspose.email.ImapFolderInfoCollection-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRestore(String fileName, ImapFolderInfoCollection folders, int options, System.AsyncCallback callback, Object state)
@@ -17732,7 +17732,7 @@ Begins to restore the specified imap folders from the specified personal storage
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(String fileName, int options) {#beginRestore-java.lang.String-int-}
 ```
 public final System.IAsyncResult beginRestore(String fileName, int options)
@@ -17748,7 +17748,7 @@ Begins to restore imap folders from the specified personal storage file.
 | options | int | Restore options. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(String fileName, int options, System.AsyncCallback callback) {#beginRestore-java.lang.String-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginRestore(String fileName, int options, System.AsyncCallback callback)
@@ -17765,7 +17765,7 @@ Begins to restore imap folders from the specified personal storage file.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginRestore(String fileName, int options, System.AsyncCallback callback, Object state) {#beginRestore-java.lang.String-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginRestore(String fileName, int options, System.AsyncCallback callback, Object state)
@@ -17783,7 +17783,7 @@ Begins to restore imap folders from the specified personal storage file.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(IConnection connection, int sequenceNumber, OutputStream resultStream) {#beginSaveMessage-com.aspose.email.IConnection-int-java.io.OutputStream-}
 ```
 public final System.IAsyncResult beginSaveMessage(IConnection connection, int sequenceNumber, OutputStream resultStream)
@@ -17800,7 +17800,7 @@ Begins SaveMessage operation asynchronously
 | resultStream | java.io.OutputStream | Stream that will receive the message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(IConnection connection, int sequenceNumber, OutputStream resultStream, System.AsyncCallback callback) {#beginSaveMessage-com.aspose.email.IConnection-int-java.io.OutputStream-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSaveMessage(IConnection connection, int sequenceNumber, OutputStream resultStream, System.AsyncCallback callback)
@@ -17818,7 +17818,7 @@ Begins SaveMessage operation asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(IConnection connection, int sequenceNumber, OutputStream resultStream, System.AsyncCallback callback, Object state) {#beginSaveMessage-com.aspose.email.IConnection-int-java.io.OutputStream-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSaveMessage(IConnection connection, int sequenceNumber, OutputStream resultStream, System.AsyncCallback callback, Object state)
@@ -17837,7 +17837,7 @@ Begins SaveMessage operation asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(IConnection connection, int sequenceNumber, String fileName) {#beginSaveMessage-com.aspose.email.IConnection-int-java.lang.String-}
 ```
 public final System.IAsyncResult beginSaveMessage(IConnection connection, int sequenceNumber, String fileName)
@@ -17854,7 +17854,7 @@ Begins SaveMessage operation asynchronously
 | fileName | java.lang.String | The path of the local file. This cannot be a directory |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(IConnection connection, int sequenceNumber, String fileName, System.AsyncCallback callback) {#beginSaveMessage-com.aspose.email.IConnection-int-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSaveMessage(IConnection connection, int sequenceNumber, String fileName, System.AsyncCallback callback)
@@ -17872,7 +17872,7 @@ Begins SaveMessage operation asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(IConnection connection, int sequenceNumber, String fileName, System.AsyncCallback callback, Object state) {#beginSaveMessage-com.aspose.email.IConnection-int-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSaveMessage(IConnection connection, int sequenceNumber, String fileName, System.AsyncCallback callback, Object state)
@@ -17891,7 +17891,7 @@ Begins SaveMessage operation asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(IConnection connection, String uniqueId, OutputStream resultStream) {#beginSaveMessage-com.aspose.email.IConnection-java.lang.String-java.io.OutputStream-}
 ```
 public final System.IAsyncResult beginSaveMessage(IConnection connection, String uniqueId, OutputStream resultStream)
@@ -17908,7 +17908,7 @@ Begins SaveMessage operation asynchronously
 | resultStream | java.io.OutputStream | Stream that will receive the message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(IConnection connection, String uniqueId, OutputStream resultStream, System.AsyncCallback callback) {#beginSaveMessage-com.aspose.email.IConnection-java.lang.String-java.io.OutputStream-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSaveMessage(IConnection connection, String uniqueId, OutputStream resultStream, System.AsyncCallback callback)
@@ -17926,7 +17926,7 @@ Begins SaveMessage operation asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(IConnection connection, String uniqueId, OutputStream resultStream, System.AsyncCallback callback, Object state) {#beginSaveMessage-com.aspose.email.IConnection-java.lang.String-java.io.OutputStream-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSaveMessage(IConnection connection, String uniqueId, OutputStream resultStream, System.AsyncCallback callback, Object state)
@@ -17945,7 +17945,7 @@ Begins SaveMessage operation asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(IConnection connection, String uniqueId, String fileName) {#beginSaveMessage-com.aspose.email.IConnection-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginSaveMessage(IConnection connection, String uniqueId, String fileName)
@@ -17962,7 +17962,7 @@ Begins SaveMessage operation asynchronously
 | fileName | java.lang.String | The path of the local file. This cannot be a directory |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(IConnection connection, String uniqueId, String fileName, System.AsyncCallback callback) {#beginSaveMessage-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSaveMessage(IConnection connection, String uniqueId, String fileName, System.AsyncCallback callback)
@@ -17980,7 +17980,7 @@ Begins SaveMessage operation asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(IConnection connection, String uniqueId, String fileName, System.AsyncCallback callback, Object state) {#beginSaveMessage-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSaveMessage(IConnection connection, String uniqueId, String fileName, System.AsyncCallback callback, Object state)
@@ -17999,7 +17999,7 @@ Begins SaveMessage operation asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(int sequenceNumber, OutputStream resultStream) {#beginSaveMessage-int-java.io.OutputStream-}
 ```
 public final System.IAsyncResult beginSaveMessage(int sequenceNumber, OutputStream resultStream)
@@ -18015,7 +18015,7 @@ Begins SaveMessage operation asynchronously
 | resultStream | java.io.OutputStream | Stream that will receive the message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(int sequenceNumber, OutputStream resultStream, System.AsyncCallback callback) {#beginSaveMessage-int-java.io.OutputStream-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSaveMessage(int sequenceNumber, OutputStream resultStream, System.AsyncCallback callback)
@@ -18032,7 +18032,7 @@ Begins SaveMessage operation asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(int sequenceNumber, OutputStream resultStream, System.AsyncCallback callback, Object state) {#beginSaveMessage-int-java.io.OutputStream-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSaveMessage(int sequenceNumber, OutputStream resultStream, System.AsyncCallback callback, Object state)
@@ -18050,7 +18050,7 @@ Begins SaveMessage operation asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(int sequenceNumber, String fileName) {#beginSaveMessage-int-java.lang.String-}
 ```
 public final System.IAsyncResult beginSaveMessage(int sequenceNumber, String fileName)
@@ -18066,7 +18066,7 @@ Begins SaveMessage operation asynchronously
 | fileName | java.lang.String | The path of the local file. This cannot be a directory |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(int sequenceNumber, String fileName, System.AsyncCallback callback) {#beginSaveMessage-int-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSaveMessage(int sequenceNumber, String fileName, System.AsyncCallback callback)
@@ -18083,7 +18083,7 @@ Begins SaveMessage operation asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(int sequenceNumber, String fileName, System.AsyncCallback callback, Object state) {#beginSaveMessage-int-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSaveMessage(int sequenceNumber, String fileName, System.AsyncCallback callback, Object state)
@@ -18101,7 +18101,7 @@ Begins SaveMessage operation asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(String uniqueId, OutputStream resultStream) {#beginSaveMessage-java.lang.String-java.io.OutputStream-}
 ```
 public final System.IAsyncResult beginSaveMessage(String uniqueId, OutputStream resultStream)
@@ -18117,7 +18117,7 @@ Begins SaveMessage operation asynchronously
 | resultStream | java.io.OutputStream | Stream that will receive the message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(String uniqueId, OutputStream resultStream, System.AsyncCallback callback) {#beginSaveMessage-java.lang.String-java.io.OutputStream-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSaveMessage(String uniqueId, OutputStream resultStream, System.AsyncCallback callback)
@@ -18134,7 +18134,7 @@ Begins SaveMessage operation asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(String uniqueId, OutputStream resultStream, System.AsyncCallback callback, Object state) {#beginSaveMessage-java.lang.String-java.io.OutputStream-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSaveMessage(String uniqueId, OutputStream resultStream, System.AsyncCallback callback, Object state)
@@ -18152,7 +18152,7 @@ Begins SaveMessage operation asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(String uniqueId, String fileName) {#beginSaveMessage-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginSaveMessage(String uniqueId, String fileName)
@@ -18168,7 +18168,7 @@ Begins SaveMessage operation asynchronously
 | fileName | java.lang.String | The path of the local file. This cannot be a directory |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(String uniqueId, String fileName, System.AsyncCallback callback) {#beginSaveMessage-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSaveMessage(String uniqueId, String fileName, System.AsyncCallback callback)
@@ -18185,7 +18185,7 @@ Begins SaveMessage operation asynchronously
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSaveMessage(String uniqueId, String fileName, System.AsyncCallback callback, Object state) {#beginSaveMessage-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSaveMessage(String uniqueId, String fileName, System.AsyncCallback callback, Object state)
@@ -18203,7 +18203,7 @@ Begins SaveMessage operation asynchronously
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSelectFolder(IConnection connection, String folderName) {#beginSelectFolder-com.aspose.email.IConnection-java.lang.String-}
 ```
 public final System.IAsyncResult beginSelectFolder(IConnection connection, String folderName)
@@ -18219,7 +18219,7 @@ Begins select the specified folder asynchronously.
 | folderName | java.lang.String | Name of the folder. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSelectFolder(IConnection connection, String folderName, System.AsyncCallback callback) {#beginSelectFolder-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSelectFolder(IConnection connection, String folderName, System.AsyncCallback callback)
@@ -18236,7 +18236,7 @@ Begins select the specified folder asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSelectFolder(IConnection connection, String folderName, System.AsyncCallback callback, Object state) {#beginSelectFolder-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSelectFolder(IConnection connection, String folderName, System.AsyncCallback callback, Object state)
@@ -18254,7 +18254,7 @@ Begins select the specified folder asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSelectFolder(IConnection connection, String folderName, Boolean readOnly, System.AsyncCallback callback, Object state) {#beginSelectFolder-com.aspose.email.IConnection-java.lang.String-java.lang.Boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSelectFolder(IConnection connection, String folderName, Boolean readOnly, System.AsyncCallback callback, Object state)
@@ -18273,7 +18273,7 @@ Begins select the specified folder asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSelectFolder(String folderName) {#beginSelectFolder-java.lang.String-}
 ```
 public final System.IAsyncResult beginSelectFolder(String folderName)
@@ -18288,7 +18288,7 @@ Begins select the specified folder asynchronously.
 | folderName | java.lang.String | Name of the folder. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSelectFolder(String folderName, System.AsyncCallback callback) {#beginSelectFolder-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSelectFolder(String folderName, System.AsyncCallback callback)
@@ -18304,7 +18304,7 @@ Begins select the specified folder asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSelectFolder(String folderName, System.AsyncCallback callback, Object state) {#beginSelectFolder-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSelectFolder(String folderName, System.AsyncCallback callback, Object state)
@@ -18321,7 +18321,7 @@ Begins select the specified folder asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSelectFolder(String folderName, Boolean readOnly, System.AsyncCallback callback, Object state) {#beginSelectFolder-java.lang.String-java.lang.Boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSelectFolder(String folderName, Boolean readOnly, System.AsyncCallback callback, Object state)
@@ -18339,7 +18339,7 @@ Begins select the specified folder asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSetQuota(IConnection connection, String quotaRootName, String resourceName, int resourceLimit) {#beginSetQuota-com.aspose.email.IConnection-java.lang.String-java.lang.String-int-}
 ```
 public final System.IAsyncResult beginSetQuota(IConnection connection, String quotaRootName, String resourceName, int resourceLimit)
@@ -18357,7 +18357,7 @@ Begins setting quota information
 | resourceLimit | int | resource limit |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSetQuota(IConnection connection, String quotaRootName, String resourceName, int resourceLimit, System.AsyncCallback callback) {#beginSetQuota-com.aspose.email.IConnection-java.lang.String-java.lang.String-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSetQuota(IConnection connection, String quotaRootName, String resourceName, int resourceLimit, System.AsyncCallback callback)
@@ -18376,7 +18376,7 @@ Begins setting quota information
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSetQuota(IConnection connection, String quotaRootName, String resourceName, int resourceLimit, System.AsyncCallback callback, Object state) {#beginSetQuota-com.aspose.email.IConnection-java.lang.String-java.lang.String-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSetQuota(IConnection connection, String quotaRootName, String resourceName, int resourceLimit, System.AsyncCallback callback, Object state)
@@ -18396,7 +18396,7 @@ Begins setting quota information
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSetQuota(String quotaRootName, String resourceName, int resourceLimit) {#beginSetQuota-java.lang.String-java.lang.String-int-}
 ```
 public final System.IAsyncResult beginSetQuota(String quotaRootName, String resourceName, int resourceLimit)
@@ -18413,7 +18413,7 @@ Begins setting quota information
 | resourceLimit | int | resource limit |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSetQuota(String quotaRootName, String resourceName, int resourceLimit, System.AsyncCallback callback) {#beginSetQuota-java.lang.String-java.lang.String-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSetQuota(String quotaRootName, String resourceName, int resourceLimit, System.AsyncCallback callback)
@@ -18431,7 +18431,7 @@ Begins setting quota information
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSetQuota(String quotaRootName, String resourceName, int resourceLimit, System.AsyncCallback callback, Object state) {#beginSetQuota-java.lang.String-java.lang.String-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSetQuota(String quotaRootName, String resourceName, int resourceLimit, System.AsyncCallback callback, Object state)
@@ -18450,7 +18450,7 @@ Begins setting quota information
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSortMessageThreads(IConnection connection, SortConditions conditions, System.AsyncCallback callback, Object state) {#beginSortMessageThreads-com.aspose.email.IConnection-com.aspose.email.SortConditions-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSortMessageThreads(IConnection connection, SortConditions conditions, System.AsyncCallback callback, Object state)
@@ -18468,7 +18468,7 @@ Begins sorting message threads asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSortMessageThreads(SortConditions conditions, System.AsyncCallback callback, Object state) {#beginSortMessageThreads-com.aspose.email.SortConditions-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSortMessageThreads(SortConditions conditions, System.AsyncCallback callback, Object state)
@@ -18485,7 +18485,7 @@ Begins sorting message threads asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSubscribeFolder(IConnection connection, String folderName) {#beginSubscribeFolder-com.aspose.email.IConnection-java.lang.String-}
 ```
 public final System.IAsyncResult beginSubscribeFolder(IConnection connection, String folderName)
@@ -18501,7 +18501,7 @@ Begins subscribe operation that adds the specified mailbox name to the server's 
 | folderName | java.lang.String | Name of the folder |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSubscribeFolder(IConnection connection, String folderName, System.AsyncCallback callback) {#beginSubscribeFolder-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSubscribeFolder(IConnection connection, String folderName, System.AsyncCallback callback)
@@ -18518,7 +18518,7 @@ Begins subscribe operation that adds the specified mailbox name to the server's 
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSubscribeFolder(IConnection connection, String folderName, System.AsyncCallback callback, Object state) {#beginSubscribeFolder-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSubscribeFolder(IConnection connection, String folderName, System.AsyncCallback callback, Object state)
@@ -18536,7 +18536,7 @@ Begins subscribe operation that adds the specified mailbox name to the server's 
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSubscribeFolder(String folderName) {#beginSubscribeFolder-java.lang.String-}
 ```
 public final System.IAsyncResult beginSubscribeFolder(String folderName)
@@ -18551,7 +18551,7 @@ Begins subscribe operation that adds the specified mailbox name to the server's 
 | folderName | java.lang.String | Name of the folder |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSubscribeFolder(String folderName, System.AsyncCallback callback) {#beginSubscribeFolder-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSubscribeFolder(String folderName, System.AsyncCallback callback)
@@ -18567,7 +18567,7 @@ Begins subscribe operation that adds the specified mailbox name to the server's 
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSubscribeFolder(String folderName, System.AsyncCallback callback, Object state) {#beginSubscribeFolder-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSubscribeFolder(String folderName, System.AsyncCallback callback, Object state)
@@ -18584,7 +18584,7 @@ Begins subscribe operation that adds the specified mailbox name to the server's 
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(IConnection connection, int sequenceNumber) {#beginUndeleteMessage-com.aspose.email.IConnection-int-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(IConnection connection, int sequenceNumber)
@@ -18600,7 +18600,7 @@ Marks a message with the specified sequence number as not deleted.
 | sequenceNumber | int | The sequence number of message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(IConnection connection, int sequenceNumber, System.AsyncCallback callback) {#beginUndeleteMessage-com.aspose.email.IConnection-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(IConnection connection, int sequenceNumber, System.AsyncCallback callback)
@@ -18617,7 +18617,7 @@ Marks a message with the specified sequence number as not deleted.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(IConnection connection, int sequenceNumber, System.AsyncCallback callback, Object state) {#beginUndeleteMessage-com.aspose.email.IConnection-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(IConnection connection, int sequenceNumber, System.AsyncCallback callback, Object state)
@@ -18635,7 +18635,7 @@ Marks a message with the specified sequence number as not deleted.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(IConnection connection, int sequenceNumber, long modificationSequence) {#beginUndeleteMessage-com.aspose.email.IConnection-int-long-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(IConnection connection, int sequenceNumber, long modificationSequence)
@@ -18652,7 +18652,7 @@ Marks a message with the specified sequence number as not deleted.
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(IConnection connection, int sequenceNumber, long modificationSequence, System.AsyncCallback callback) {#beginUndeleteMessage-com.aspose.email.IConnection-int-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(IConnection connection, int sequenceNumber, long modificationSequence, System.AsyncCallback callback)
@@ -18670,7 +18670,7 @@ Marks a message with the specified sequence number as not deleted.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(IConnection connection, int sequenceNumber, long modificationSequence, System.AsyncCallback callback, Object state) {#beginUndeleteMessage-com.aspose.email.IConnection-int-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(IConnection connection, int sequenceNumber, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -18689,7 +18689,7 @@ Marks a message with the specified sequence number as not deleted.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(IConnection connection, String uniqueId) {#beginUndeleteMessage-com.aspose.email.IConnection-java.lang.String-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(IConnection connection, String uniqueId)
@@ -18705,7 +18705,7 @@ Marks a message with the specified sequence number as not deleted.
 | uniqueId | java.lang.String | The unique Id of the message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(IConnection connection, String uniqueId, System.AsyncCallback callback) {#beginUndeleteMessage-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(IConnection connection, String uniqueId, System.AsyncCallback callback)
@@ -18722,7 +18722,7 @@ Marks a message with the specified sequence number as not deleted.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(IConnection connection, String uniqueId, System.AsyncCallback callback, Object state) {#beginUndeleteMessage-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(IConnection connection, String uniqueId, System.AsyncCallback callback, Object state)
@@ -18740,7 +18740,7 @@ Marks a message with the specified sequence number as not deleted.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(IConnection connection, String uniqueId, long modificationSequence) {#beginUndeleteMessage-com.aspose.email.IConnection-java.lang.String-long-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(IConnection connection, String uniqueId, long modificationSequence)
@@ -18757,7 +18757,7 @@ Marks a message with the specified sequence number as not deleted.
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(IConnection connection, String uniqueId, long modificationSequence, System.AsyncCallback callback) {#beginUndeleteMessage-com.aspose.email.IConnection-java.lang.String-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(IConnection connection, String uniqueId, long modificationSequence, System.AsyncCallback callback)
@@ -18775,7 +18775,7 @@ Marks a message with the specified sequence number as not deleted.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(IConnection connection, String uniqueId, long modificationSequence, System.AsyncCallback callback, Object state) {#beginUndeleteMessage-com.aspose.email.IConnection-java.lang.String-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(IConnection connection, String uniqueId, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -18794,7 +18794,7 @@ Marks a message with the specified sequence number as not deleted.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(int sequenceNumber) {#beginUndeleteMessage-int-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(int sequenceNumber)
@@ -18809,7 +18809,7 @@ Marks a message with the specified sequence number as not deleted.
 | sequenceNumber | int | The sequence number of message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(int sequenceNumber, System.AsyncCallback callback) {#beginUndeleteMessage-int-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(int sequenceNumber, System.AsyncCallback callback)
@@ -18825,7 +18825,7 @@ Marks a message with the specified sequence number as not deleted.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(int sequenceNumber, System.AsyncCallback callback, Object state) {#beginUndeleteMessage-int-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(int sequenceNumber, System.AsyncCallback callback, Object state)
@@ -18842,7 +18842,7 @@ Marks a message with the specified sequence number as not deleted.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(int sequenceNumber, long modificationSequence) {#beginUndeleteMessage-int-long-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(int sequenceNumber, long modificationSequence)
@@ -18858,7 +18858,7 @@ Marks a message with the specified sequence number as not deleted.
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(int sequenceNumber, long modificationSequence, System.AsyncCallback callback) {#beginUndeleteMessage-int-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(int sequenceNumber, long modificationSequence, System.AsyncCallback callback)
@@ -18875,7 +18875,7 @@ Marks a message with the specified sequence number as not deleted.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(int sequenceNumber, long modificationSequence, System.AsyncCallback callback, Object state) {#beginUndeleteMessage-int-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(int sequenceNumber, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -18893,7 +18893,7 @@ Marks a message with the specified sequence number as not deleted.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(String uniqueId) {#beginUndeleteMessage-java.lang.String-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(String uniqueId)
@@ -18908,7 +18908,7 @@ Marks a message with the specified sequence number as not deleted.
 | uniqueId | java.lang.String | The unique Id of the message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(String uniqueId, System.AsyncCallback callback) {#beginUndeleteMessage-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(String uniqueId, System.AsyncCallback callback)
@@ -18924,7 +18924,7 @@ Marks a message with the specified sequence number as not deleted.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(String uniqueId, System.AsyncCallback callback, Object state) {#beginUndeleteMessage-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(String uniqueId, System.AsyncCallback callback, Object state)
@@ -18941,7 +18941,7 @@ Marks a message with the specified sequence number as not deleted.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(String uniqueId, long modificationSequence) {#beginUndeleteMessage-java.lang.String-long-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(String uniqueId, long modificationSequence)
@@ -18957,7 +18957,7 @@ Marks a message with the specified sequence number as not deleted.
 | modificationSequence | long | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(String uniqueId, long modificationSequence, System.AsyncCallback callback) {#beginUndeleteMessage-java.lang.String-long-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(String uniqueId, long modificationSequence, System.AsyncCallback callback)
@@ -18974,7 +18974,7 @@ Marks a message with the specified sequence number as not deleted.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUndeleteMessage(String uniqueId, long modificationSequence, System.AsyncCallback callback, Object state) {#beginUndeleteMessage-java.lang.String-long-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginUndeleteMessage(String uniqueId, long modificationSequence, System.AsyncCallback callback, Object state)
@@ -18992,7 +18992,7 @@ Marks a message with the specified sequence number as not deleted.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUnselectFolder() {#beginUnselectFolder--}
 ```
 public final System.IAsyncResult beginUnselectFolder()
@@ -19002,7 +19002,7 @@ public final System.IAsyncResult beginUnselectFolder()
 Begins permanently removes all messages marked as deleted for currently selected folder and removes selected-state for current folder asyncronously.
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUnselectFolder(boolean doNotExpunge) {#beginUnselectFolder-boolean-}
 ```
 public final System.IAsyncResult beginUnselectFolder(boolean doNotExpunge)
@@ -19017,7 +19017,7 @@ Unselects folder which are currently selected asyncronously. if doNotExpunge pro
 | doNotExpunge | boolean | Specifies whether messages marked as deleted should be removed. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUnselectFolder(boolean doNotExpunge, System.AsyncCallback callback) {#beginUnselectFolder-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginUnselectFolder(boolean doNotExpunge, System.AsyncCallback callback)
@@ -19033,7 +19033,7 @@ Unselects folder which are currently selected asyncronously. if doNotExpunge pro
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUnselectFolder(boolean doNotExpunge, System.AsyncCallback callback, Object state) {#beginUnselectFolder-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginUnselectFolder(boolean doNotExpunge, System.AsyncCallback callback, Object state)
@@ -19050,7 +19050,7 @@ Unselects folder which are currently selected asyncronously. if doNotExpunge pro
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUnselectFolder(IConnection connection) {#beginUnselectFolder-com.aspose.email.IConnection-}
 ```
 public final System.IAsyncResult beginUnselectFolder(IConnection connection)
@@ -19065,7 +19065,7 @@ Begins permanently removes all messages marked as deleted for currently selected
 | connection | [IConnection](../../com.aspose.email/iconnection) | Connection to a server |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUnselectFolder(IConnection connection, boolean doNotExpunge) {#beginUnselectFolder-com.aspose.email.IConnection-boolean-}
 ```
 public final System.IAsyncResult beginUnselectFolder(IConnection connection, boolean doNotExpunge)
@@ -19081,7 +19081,7 @@ Unselects folder which are currently selected asyncronously. if doNotExpunge pro
 | doNotExpunge | boolean | Specifies whether messages marked as deleted should be removed. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUnselectFolder(IConnection connection, boolean doNotExpunge, System.AsyncCallback callback) {#beginUnselectFolder-com.aspose.email.IConnection-boolean-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginUnselectFolder(IConnection connection, boolean doNotExpunge, System.AsyncCallback callback)
@@ -19098,7 +19098,7 @@ Unselects folder which are currently selected asyncronously. if doNotExpunge pro
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUnselectFolder(IConnection connection, boolean doNotExpunge, System.AsyncCallback callback, Object state) {#beginUnselectFolder-com.aspose.email.IConnection-boolean-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginUnselectFolder(IConnection connection, boolean doNotExpunge, System.AsyncCallback callback, Object state)
@@ -19116,7 +19116,7 @@ Unselects folder which are currently selected asyncronously. if doNotExpunge pro
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUnselectFolder(IConnection connection, System.AsyncCallback callback) {#beginUnselectFolder-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginUnselectFolder(IConnection connection, System.AsyncCallback callback)
@@ -19132,7 +19132,7 @@ Begins permanently removes all messages marked as deleted for currently selected
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUnselectFolder(IConnection connection, System.AsyncCallback callback, Object state) {#beginUnselectFolder-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginUnselectFolder(IConnection connection, System.AsyncCallback callback, Object state)
@@ -19149,7 +19149,7 @@ Begins permanently removes all messages marked as deleted for currently selected
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUnselectFolder(System.AsyncCallback callback) {#beginUnselectFolder-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginUnselectFolder(System.AsyncCallback callback)
@@ -19164,7 +19164,7 @@ Begins permanently removes all messages marked as deleted for currently selected
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUnselectFolder(System.AsyncCallback callback, Object state) {#beginUnselectFolder-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginUnselectFolder(System.AsyncCallback callback, Object state)
@@ -19180,7 +19180,7 @@ Begins permanently removes all messages marked as deleted for currently selected
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUnsubscribeFolder(IConnection connection, String folderName) {#beginUnsubscribeFolder-com.aspose.email.IConnection-java.lang.String-}
 ```
 public final System.IAsyncResult beginUnsubscribeFolder(IConnection connection, String folderName)
@@ -19196,7 +19196,7 @@ Begins unsubscribe operation that removes the specified mailbox name from the se
 | folderName | java.lang.String | Name of the folder |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUnsubscribeFolder(IConnection connection, String folderName, System.AsyncCallback callback) {#beginUnsubscribeFolder-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginUnsubscribeFolder(IConnection connection, String folderName, System.AsyncCallback callback)
@@ -19213,7 +19213,7 @@ Begins unsubscribe operation that removes the specified mailbox name from the se
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUnsubscribeFolder(IConnection connection, String folderName, System.AsyncCallback callback, Object state) {#beginUnsubscribeFolder-com.aspose.email.IConnection-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginUnsubscribeFolder(IConnection connection, String folderName, System.AsyncCallback callback, Object state)
@@ -19231,7 +19231,7 @@ Begins unsubscribe operation that removes the specified mailbox name from the se
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUnsubscribeFolder(String folderName) {#beginUnsubscribeFolder-java.lang.String-}
 ```
 public final System.IAsyncResult beginUnsubscribeFolder(String folderName)
@@ -19246,7 +19246,7 @@ Begins unsubscribe operation that removes the specified mailbox name from the se
 | folderName | java.lang.String | Name of the folder |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUnsubscribeFolder(String folderName, System.AsyncCallback callback) {#beginUnsubscribeFolder-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginUnsubscribeFolder(String folderName, System.AsyncCallback callback)
@@ -19262,7 +19262,7 @@ Begins unsubscribe operation that removes the specified mailbox name from the se
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginUnsubscribeFolder(String folderName, System.AsyncCallback callback, Object state) {#beginUnsubscribeFolder-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginUnsubscribeFolder(String folderName, System.AsyncCallback callback, Object state)
@@ -19279,7 +19279,7 @@ Begins unsubscribe operation that removes the specified mailbox name from the se
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginValidateCredentials() {#beginValidateCredentials--}
 ```
 public final System.IAsyncResult beginValidateCredentials()
@@ -19289,7 +19289,7 @@ public final System.IAsyncResult beginValidateCredentials()
 Begins to execute credentials validation
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginValidateCredentials(IConnection connection) {#beginValidateCredentials-com.aspose.email.IConnection-}
 ```
 public final System.IAsyncResult beginValidateCredentials(IConnection connection)
@@ -19304,7 +19304,7 @@ Begins to execute credentials validation
 | connection | [IConnection](../../com.aspose.email/iconnection) | Connection to a server |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginValidateCredentials(IConnection connection, System.AsyncCallback callback) {#beginValidateCredentials-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginValidateCredentials(IConnection connection, System.AsyncCallback callback)
@@ -19320,7 +19320,7 @@ Begins to execute credentials validation
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginValidateCredentials(IConnection connection, System.AsyncCallback callback, Object state) {#beginValidateCredentials-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginValidateCredentials(IConnection connection, System.AsyncCallback callback, Object state)
@@ -19337,7 +19337,7 @@ Begins to execute credentials validation
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginValidateCredentials(System.AsyncCallback callback) {#beginValidateCredentials-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginValidateCredentials(System.AsyncCallback callback)
@@ -19352,7 +19352,7 @@ Begins to execute credentials validation
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginValidateCredentials(System.AsyncCallback callback, Object state) {#beginValidateCredentials-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginValidateCredentials(System.AsyncCallback callback, Object state)
@@ -19368,7 +19368,7 @@ Begins to execute credentials validation
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### bindIPEndPoint(BindIPEndPointHandler handler) {#bindIPEndPoint-com.aspose.email.BindIPEndPointHandler-}
 ```
 public void bindIPEndPoint(BindIPEndPointHandler handler)
@@ -23502,7 +23502,7 @@ Gets the list of messages
 | settings | [PageSettings](../../com.aspose.email/pagesettings) | The settings. |
 
 **Returns:**
-[ImapPageInfo](../../com.aspose.email/imappageinfo) - IAsyncResult that represents the status of an asynchronous operation.
+[ImapPageInfo](../../com.aspose.email/imappageinfo) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### listMessagesByPage(PageInfo page) {#listMessagesByPage-com.aspose.email.PageInfo-}
 ```
 public final ImapPageInfo listMessagesByPage(PageInfo page)
@@ -23533,7 +23533,7 @@ Gets the list of messages
 | settings | [PageSettings](../../com.aspose.email/pagesettings) | The settings. |
 
 **Returns:**
-[ImapPageInfo](../../com.aspose.email/imappageinfo) - IAsyncResult that represents the status of an asynchronous operation.
+[ImapPageInfo](../../com.aspose.email/imappageinfo) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### listMessagesByPage(int itemsPerPage) {#listMessagesByPage-int-}
 ```
 public final ImapPageInfo listMessagesByPage(int itemsPerPage)
@@ -23564,7 +23564,7 @@ Gets the list of messages
 | settings | [PageSettings](../../com.aspose.email/pagesettings) | The settings. |
 
 **Returns:**
-[ImapPageInfo](../../com.aspose.email/imappageinfo) - IAsyncResult that represents the status of an asynchronous operation.
+[ImapPageInfo](../../com.aspose.email/imappageinfo) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### listMessagesByPage(int itemsPerPage, int pageOffset) {#listMessagesByPage-int-int-}
 ```
 public final ImapPageInfo listMessagesByPage(int itemsPerPage, int pageOffset)
@@ -23597,7 +23597,7 @@ Gets the list of messages
 | settings | [PageSettings](../../com.aspose.email/pagesettings) | The settings. |
 
 **Returns:**
-[ImapPageInfo](../../com.aspose.email/imappageinfo) - IAsyncResult that represents the status of an asynchronous operation.
+[ImapPageInfo](../../com.aspose.email/imappageinfo) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### listMessagesByPage(String folderName, MailQuery query, PageInfo pageInfo) {#listMessagesByPage-java.lang.String-com.aspose.email.MailQuery-com.aspose.email.PageInfo-}
 ```
 public final ImapPageInfo listMessagesByPage(String folderName, MailQuery query, PageInfo pageInfo)

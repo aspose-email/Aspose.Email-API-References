@@ -1,9 +1,9 @@
 ---
 title: SmtpClient
 second_title: Aspose.Email for Java API Reference
-description: Allows applications to send messages by using the Simple Mail Transfer Protocol SMTP.
+description: Represents an SMTP Simple Mail Transfer Protocol client that sends email messages to the specified SMTP server.
 type: docs
-weight: 674
+weight: 679
 url: /java/com.aspose.email/smtpclient/
 ---
 
@@ -16,7 +16,33 @@ java.lang.Object, [com.aspose.email.EmailClient](../../com.aspose.email/emailcli
 public final class SmtpClient extends EmailClient implements IMailTransferAgent
 ```
 
-Allows applications to send messages by using the Simple Mail Transfer Protocol (SMTP).
+Represents an SMTP (Simple Mail Transfer Protocol) client that sends email messages to the specified SMTP server.
+
+The [SmtpClient](../../com.aspose.email/smtpclient) class allows sending and forwarding email messages using various settings. The message can include plain text or HTML body, and it supports sending to multiple recipients.
+
+This example demonstrates how to create an instance of [SmtpClient](../../com.aspose.email/smtpclient) to send an email with an HTML body.
+
+```
+
+ // Create an instance of SmtpClient and configure settings
+ SmtpClient client = new SmtpClient();
+ client.setHost("mail.server.com");
+ client.setUsername("username");
+ client.setPassword("password");
+ client.setPort(587);
+ client.setSecurityOptions(SecurityOptions.SSLExplicit);
+
+ // Create a new MailMessage instance
+ MailMessage eml = new MailMessage();
+ eml.setFrom(MailAddress.to_MailAddress("from@domain.com"));
+ eml.setTo(MailAddressCollection.to_MailAddressCollection("to1@domain.com, to2@domain.com"));
+ eml.setSubject("New message");
+ eml.setHtmlBody(" This is a new message created by Aspose.Email.");
+
+ // Send the message using the SmtpClient
+ client.send(eml);
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -484,7 +510,7 @@ Begins forward email asynchronously.
 | message | [MailMessage](../../com.aspose.email/mailmessage) | The message for a forwarding. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginForward(IConnection connection, String sender, MailAddressCollection recipients, MailMessage message, System.AsyncCallback callback) {#beginForward-com.aspose.email.IConnection-java.lang.String-com.aspose.email.MailAddressCollection-com.aspose.email.MailMessage-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginForward(IConnection connection, String sender, MailAddressCollection recipients, MailMessage message, System.AsyncCallback callback)
@@ -503,7 +529,7 @@ Begins forward email asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginForward(IConnection connection, String sender, MailAddressCollection recipients, MailMessage message, System.AsyncCallback callback, Object state) {#beginForward-com.aspose.email.IConnection-java.lang.String-com.aspose.email.MailAddressCollection-com.aspose.email.MailMessage-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginForward(IConnection connection, String sender, MailAddressCollection recipients, MailMessage message, System.AsyncCallback callback, Object state)
@@ -523,7 +549,7 @@ Begins forward email asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginForward(IConnection connection, String sender, String recipient, MailMessage message) {#beginForward-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.MailMessage-}
 ```
 public final System.IAsyncResult beginForward(IConnection connection, String sender, String recipient, MailMessage message)
@@ -541,7 +567,7 @@ Begins forward email asynchronously.
 | message | [MailMessage](../../com.aspose.email/mailmessage) | The message for a forwarding. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginForward(IConnection connection, String sender, String recipient, MailMessage message, System.AsyncCallback callback) {#beginForward-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.MailMessage-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginForward(IConnection connection, String sender, String recipient, MailMessage message, System.AsyncCallback callback)
@@ -560,7 +586,7 @@ Begins forward email asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginForward(IConnection connection, String sender, String recipient, MailMessage message, System.AsyncCallback callback, Object state) {#beginForward-com.aspose.email.IConnection-java.lang.String-java.lang.String-com.aspose.email.MailMessage-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginForward(IConnection connection, String sender, String recipient, MailMessage message, System.AsyncCallback callback, Object state)
@@ -580,7 +606,7 @@ Begins forward email asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginForward(String sender, MailAddressCollection recipients, MailMessage message) {#beginForward-java.lang.String-com.aspose.email.MailAddressCollection-com.aspose.email.MailMessage-}
 ```
 public final System.IAsyncResult beginForward(String sender, MailAddressCollection recipients, MailMessage message)
@@ -597,7 +623,7 @@ Begins forward email asynchronously.
 | message | [MailMessage](../../com.aspose.email/mailmessage) | The message for a forwarding. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginForward(String sender, MailAddressCollection recipients, MailMessage message, System.AsyncCallback callback) {#beginForward-java.lang.String-com.aspose.email.MailAddressCollection-com.aspose.email.MailMessage-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginForward(String sender, MailAddressCollection recipients, MailMessage message, System.AsyncCallback callback)
@@ -615,7 +641,7 @@ Begins forward email asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginForward(String sender, MailAddressCollection recipients, MailMessage message, System.AsyncCallback callback, Object state) {#beginForward-java.lang.String-com.aspose.email.MailAddressCollection-com.aspose.email.MailMessage-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginForward(String sender, MailAddressCollection recipients, MailMessage message, System.AsyncCallback callback, Object state)
@@ -634,7 +660,7 @@ Begins forward email asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginForward(String sender, String recipient, MailMessage message) {#beginForward-java.lang.String-java.lang.String-com.aspose.email.MailMessage-}
 ```
 public final System.IAsyncResult beginForward(String sender, String recipient, MailMessage message)
@@ -651,7 +677,7 @@ Begins forward email asynchronously.
 | message | [MailMessage](../../com.aspose.email/mailmessage) | The message for a forwarding. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginForward(String sender, String recipient, MailMessage message, System.AsyncCallback callback) {#beginForward-java.lang.String-java.lang.String-com.aspose.email.MailMessage-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginForward(String sender, String recipient, MailMessage message, System.AsyncCallback callback)
@@ -669,7 +695,7 @@ Begins forward email asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginForward(String sender, String recipient, MailMessage message, System.AsyncCallback callback, Object state) {#beginForward-java.lang.String-java.lang.String-com.aspose.email.MailMessage-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginForward(String sender, String recipient, MailMessage message, System.AsyncCallback callback, Object state)
@@ -688,7 +714,7 @@ Begins forward email asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginNoop() {#beginNoop--}
 ```
 public final System.IAsyncResult beginNoop()
@@ -698,7 +724,7 @@ public final System.IAsyncResult beginNoop()
 Begins to execute 'No operation' command
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginNoop(IConnection connection) {#beginNoop-com.aspose.email.IConnection-}
 ```
 public final System.IAsyncResult beginNoop(IConnection connection)
@@ -713,7 +739,7 @@ Begins to execute 'No operation' command
 | connection | [IConnection](../../com.aspose.email/iconnection) | Connection to a server |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginNoop(IConnection connection, System.AsyncCallback callback) {#beginNoop-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginNoop(IConnection connection, System.AsyncCallback callback)
@@ -729,7 +755,7 @@ Begins to execute 'No operation' command
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginNoop(IConnection connection, System.AsyncCallback callback, Object state) {#beginNoop-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginNoop(IConnection connection, System.AsyncCallback callback, Object state)
@@ -746,7 +772,7 @@ Begins to execute 'No operation' command
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginNoop(System.AsyncCallback callback) {#beginNoop-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginNoop(System.AsyncCallback callback)
@@ -761,7 +787,7 @@ Begins to execute 'No operation' command
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginNoop(System.AsyncCallback callback, Object state) {#beginNoop-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginNoop(System.AsyncCallback callback, Object state)
@@ -777,7 +803,7 @@ Begins to execute 'No operation' command
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(IConnection connection, MailMessage message) {#beginSend-com.aspose.email.IConnection-com.aspose.email.MailMessage-}
 ```
 public final System.IAsyncResult beginSend(IConnection connection, MailMessage message)
@@ -793,7 +819,7 @@ Begins sending email asynchronously.
 | message | [MailMessage](../../com.aspose.email/mailmessage) | Represents an e-mail message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(IConnection connection, MailMessage message, System.AsyncCallback callback) {#beginSend-com.aspose.email.IConnection-com.aspose.email.MailMessage-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSend(IConnection connection, MailMessage message, System.AsyncCallback callback)
@@ -810,7 +836,7 @@ Begins sending email asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(IConnection connection, MailMessage message, System.AsyncCallback callback, Object state) {#beginSend-com.aspose.email.IConnection-com.aspose.email.MailMessage-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSend(IConnection connection, MailMessage message, System.AsyncCallback callback, Object state)
@@ -828,7 +854,7 @@ Begins sending email asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(IConnection connection, MailMessage[] messages) {#beginSend-com.aspose.email.IConnection-com.aspose.email.MailMessage...-}
 ```
 public final System.IAsyncResult beginSend(IConnection connection, MailMessage[] messages)
@@ -844,7 +870,7 @@ Begins sending email asynchronously.
 | messages | [MailMessage\[\]](../../com.aspose.email/mailmessage) | The array of MailMessage that represents an email-messages to send. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(IConnection connection, Iterable<MailMessage> messages) {#beginSend-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.MailMessage--}
 ```
 public final System.IAsyncResult beginSend(IConnection connection, Iterable<MailMessage> messages)
@@ -860,7 +886,7 @@ Begins sending email asynchronously.
 | messages | java.lang.Iterable<com.aspose.email.MailMessage> | The array of MailMessage that represents an email-messages to send. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(IConnection connection, Iterable<MailMessage> messages, System.AsyncCallback callback) {#beginSend-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.MailMessage--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSend(IConnection connection, Iterable<MailMessage> messages, System.AsyncCallback callback)
@@ -877,7 +903,7 @@ Begins sending email asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(IConnection connection, Iterable<MailMessage> messages, System.AsyncCallback callback, Object state) {#beginSend-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.MailMessage--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSend(IConnection connection, Iterable<MailMessage> messages, System.AsyncCallback callback, Object state)
@@ -895,7 +921,7 @@ Begins sending email asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(IConnection connection, Iterable<MailMessage> messages, System.EventHandler<MailMessageEventArgs> messageSentDelegate) {#beginSend-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.MailMessage--com.aspose.ms.System.EventHandler-com.aspose.email.MailMessageEventArgs--}
 ```
 public final System.IAsyncResult beginSend(IConnection connection, Iterable<MailMessage> messages, System.EventHandler<MailMessageEventArgs> messageSentDelegate)
@@ -912,7 +938,7 @@ Begins sending email asynchronously.
 | messageSentDelegate | com.aspose.ms.System.EventHandler<com.aspose.email.MailMessageEventArgs> | References a method to be called when a message has been sent. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(IConnection connection, Iterable<MailMessage> messages, System.EventHandler<MailMessageEventArgs> messageSentDelegate, System.AsyncCallback callback) {#beginSend-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.MailMessage--com.aspose.ms.System.EventHandler-com.aspose.email.MailMessageEventArgs--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSend(IConnection connection, Iterable<MailMessage> messages, System.EventHandler<MailMessageEventArgs> messageSentDelegate, System.AsyncCallback callback)
@@ -930,7 +956,7 @@ Begins sending email asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(IConnection connection, Iterable<MailMessage> messages, System.EventHandler<MailMessageEventArgs> messageSentDelegate, System.AsyncCallback callback, Object state) {#beginSend-com.aspose.email.IConnection-java.lang.Iterable-com.aspose.email.MailMessage--com.aspose.ms.System.EventHandler-com.aspose.email.MailMessageEventArgs--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSend(IConnection connection, Iterable<MailMessage> messages, System.EventHandler<MailMessageEventArgs> messageSentDelegate, System.AsyncCallback callback, Object state)
@@ -949,7 +975,7 @@ Begins sending email asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(IConnection connection, String from, String recipients, String subject, String body) {#beginSend-com.aspose.email.IConnection-java.lang.String-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginSend(IConnection connection, String from, String recipients, String subject, String body)
@@ -968,7 +994,7 @@ Begins sending email asynchronously.
 | body | java.lang.String | A body of message. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(IConnection connection, String from, String recipients, String subject, String body, System.AsyncCallback callback) {#beginSend-com.aspose.email.IConnection-java.lang.String-java.lang.String-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSend(IConnection connection, String from, String recipients, String subject, String body, System.AsyncCallback callback)
@@ -988,7 +1014,7 @@ Begins sending email asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(IConnection connection, String from, String recipients, String subject, String body, System.AsyncCallback callback, Object state) {#beginSend-com.aspose.email.IConnection-java.lang.String-java.lang.String-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSend(IConnection connection, String from, String recipients, String subject, String body, System.AsyncCallback callback, Object state)
@@ -1009,7 +1035,7 @@ Begins sending email asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(MailMessage message) {#beginSend-com.aspose.email.MailMessage-}
 ```
 public final System.IAsyncResult beginSend(MailMessage message)
@@ -1024,7 +1050,7 @@ Begins sending email asynchronously.
 | message | [MailMessage](../../com.aspose.email/mailmessage) | Represents an e-mail message |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(MailMessage message, System.AsyncCallback callback) {#beginSend-com.aspose.email.MailMessage-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSend(MailMessage message, System.AsyncCallback callback)
@@ -1040,7 +1066,7 @@ Begins sending email asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(MailMessage message, System.AsyncCallback callback, Object state) {#beginSend-com.aspose.email.MailMessage-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSend(MailMessage message, System.AsyncCallback callback, Object state)
@@ -1057,7 +1083,7 @@ Begins sending email asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(MailMessage[] messages) {#beginSend-com.aspose.email.MailMessage...-}
 ```
 public final System.IAsyncResult beginSend(MailMessage[] messages)
@@ -1072,7 +1098,7 @@ Begins sending email asynchronously.
 | messages | [MailMessage\[\]](../../com.aspose.email/mailmessage) | The array of MailMessage that represents an email-messages to send. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(Iterable<MailMessage> messages) {#beginSend-java.lang.Iterable-com.aspose.email.MailMessage--}
 ```
 public final System.IAsyncResult beginSend(Iterable<MailMessage> messages)
@@ -1087,7 +1113,7 @@ Begins sending email asynchronously.
 | messages | java.lang.Iterable<com.aspose.email.MailMessage> | The array of MailMessage that represents an email-messages to send. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(Iterable<MailMessage> messages, System.AsyncCallback callback) {#beginSend-java.lang.Iterable-com.aspose.email.MailMessage--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSend(Iterable<MailMessage> messages, System.AsyncCallback callback)
@@ -1103,7 +1129,7 @@ Begins sending email asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(Iterable<MailMessage> messages, System.AsyncCallback callback, Object state) {#beginSend-java.lang.Iterable-com.aspose.email.MailMessage--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSend(Iterable<MailMessage> messages, System.AsyncCallback callback, Object state)
@@ -1120,7 +1146,7 @@ Begins sending email asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(Iterable<MailMessage> messages, System.EventHandler<MailMessageEventArgs> messageSentDelegate) {#beginSend-java.lang.Iterable-com.aspose.email.MailMessage--com.aspose.ms.System.EventHandler-com.aspose.email.MailMessageEventArgs--}
 ```
 public final System.IAsyncResult beginSend(Iterable<MailMessage> messages, System.EventHandler<MailMessageEventArgs> messageSentDelegate)
@@ -1136,7 +1162,7 @@ Begins sending email asynchronously.
 | messageSentDelegate | com.aspose.ms.System.EventHandler<com.aspose.email.MailMessageEventArgs> | References a method to be called when a message has been sent. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(Iterable<MailMessage> messages, System.EventHandler<MailMessageEventArgs> messageSentDelegate, System.AsyncCallback callback) {#beginSend-java.lang.Iterable-com.aspose.email.MailMessage--com.aspose.ms.System.EventHandler-com.aspose.email.MailMessageEventArgs--com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSend(Iterable<MailMessage> messages, System.EventHandler<MailMessageEventArgs> messageSentDelegate, System.AsyncCallback callback)
@@ -1153,7 +1179,7 @@ Begins sending email asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(Iterable<MailMessage> messages, System.EventHandler<MailMessageEventArgs> messageSentDelegate, System.AsyncCallback callback, Object state) {#beginSend-java.lang.Iterable-com.aspose.email.MailMessage--com.aspose.ms.System.EventHandler-com.aspose.email.MailMessageEventArgs--com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSend(Iterable<MailMessage> messages, System.EventHandler<MailMessageEventArgs> messageSentDelegate, System.AsyncCallback callback, Object state)
@@ -1171,7 +1197,7 @@ Begins sending email asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(String from, String recipients, String subject, String body) {#beginSend-java.lang.String-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public final System.IAsyncResult beginSend(String from, String recipients, String subject, String body)
@@ -1189,7 +1215,7 @@ Begins sending email asynchronously.
 | body | java.lang.String | A body of message. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(String from, String recipients, String subject, String body, System.AsyncCallback callback) {#beginSend-java.lang.String-java.lang.String-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSend(String from, String recipients, String subject, String body, System.AsyncCallback callback)
@@ -1208,7 +1234,7 @@ Begins sending email asynchronously.
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSend(String from, String recipients, String subject, String body, System.AsyncCallback callback, Object state) {#beginSend-java.lang.String-java.lang.String-java.lang.String-java.lang.String-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSend(String from, String recipients, String subject, String body, System.AsyncCallback callback, Object state)
@@ -1228,7 +1254,7 @@ Begins sending email asynchronously.
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSendQueue() {#beginSendQueue--}
 ```
 public final System.IAsyncResult beginSendQueue()
@@ -1238,7 +1264,7 @@ public final System.IAsyncResult beginSendQueue()
 Begins to execute 'No operation' command
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSendQueue(System.AsyncCallback callback) {#beginSendQueue-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginSendQueue(System.AsyncCallback callback)
@@ -1253,7 +1279,7 @@ Begins to execute 'No operation' command
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginSendQueue(System.AsyncCallback callback, Object state) {#beginSendQueue-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginSendQueue(System.AsyncCallback callback, Object state)
@@ -1269,7 +1295,7 @@ Begins to execute 'No operation' command
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginValidateCredentials() {#beginValidateCredentials--}
 ```
 public final System.IAsyncResult beginValidateCredentials()
@@ -1279,7 +1305,7 @@ public final System.IAsyncResult beginValidateCredentials()
 Begins to execute credentials validation
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginValidateCredentials(IConnection connection) {#beginValidateCredentials-com.aspose.email.IConnection-}
 ```
 public final System.IAsyncResult beginValidateCredentials(IConnection connection)
@@ -1294,7 +1320,7 @@ Begins to execute credentials validation
 | connection | [IConnection](../../com.aspose.email/iconnection) | Connection to a server |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginValidateCredentials(IConnection connection, System.AsyncCallback callback) {#beginValidateCredentials-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginValidateCredentials(IConnection connection, System.AsyncCallback callback)
@@ -1310,7 +1336,7 @@ Begins to execute credentials validation
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginValidateCredentials(IConnection connection, System.AsyncCallback callback, Object state) {#beginValidateCredentials-com.aspose.email.IConnection-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginValidateCredentials(IConnection connection, System.AsyncCallback callback, Object state)
@@ -1327,7 +1353,7 @@ Begins to execute credentials validation
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginValidateCredentials(System.AsyncCallback callback) {#beginValidateCredentials-com.aspose.ms.System.AsyncCallback-}
 ```
 public final System.IAsyncResult beginValidateCredentials(System.AsyncCallback callback)
@@ -1342,7 +1368,7 @@ Begins to execute credentials validation
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### beginValidateCredentials(System.AsyncCallback callback, Object state) {#beginValidateCredentials-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginValidateCredentials(System.AsyncCallback callback, Object state)
@@ -1358,7 +1384,7 @@ Begins to execute credentials validation
 | state | java.lang.Object | The state. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - [IAsyncResult](../../com.aspose.email.services.ews.misc/iasyncresult) that represents the status of an asynchronous operation.
 ### bindIPEndPoint(BindIPEndPointHandler handler) {#bindIPEndPoint-com.aspose.email.BindIPEndPointHandler-}
 ```
 public void bindIPEndPoint(BindIPEndPointHandler handler)

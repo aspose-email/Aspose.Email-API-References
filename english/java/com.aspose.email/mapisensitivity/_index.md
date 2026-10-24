@@ -3,7 +3,7 @@ title: MapiSensitivity
 second_title: Aspose.Email for Java API Reference
 description: Contains a values that  indicates the message sensitivity.
 type: docs
-weight: 489
+weight: 492
 url: /java/com.aspose.email/mapisensitivity/
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarYearlyAndMonthlyRecurrencePattern
 second_title: Aspose.Email for Java API Reference
-description: Represents the yearly and monthly recurrence pattern of the mapi calendar
+description: Represents the base class for yearly and monthly recurrence patterns in MAPI calendar items.
 type: docs
-weight: 433
+weight: 436
 url: /java/com.aspose.email/mapicalendaryearlyandmonthlyrecurrencepattern/
 ---
 
@@ -13,7 +13,44 @@ java.lang.Object, [com.aspose.email.MapiCalendarRecurrencePattern](../../com.asp
 public class MapiCalendarYearlyAndMonthlyRecurrencePattern extends MapiCalendarRecurrencePattern
 ```
 
-Represents the yearly and monthly recurrence pattern of the mapi calendar
+Represents the base class for yearly and monthly recurrence patterns in MAPI calendar items. This abstract class provides common properties and functionality for patterns that can recur either monthly (on a specific day) or yearly (on a specific day of a specific month).
+
+This class is designed to be inherited by concrete pattern implementations such as [MapiCalendarMonthlyRecurrencePattern](../../com.aspose.email/mapicalendarmonthlyrecurrencepattern). Do not instantiate this class directly. Use the concrete pattern classes to define specific recurrence behaviors. The \#getPeriod().getPeriod() property determines whether the pattern is monthly or yearly based on whether it's divisible by 12. The \#getDay().getDay() property specifies the day of the month, and \#getDayOfWeek().getDayOfWeek() with \#getPosition().getPosition() define weekly occurrences within a month.
+
+The following example shows how to create a yearly recurrence pattern for a MAPI calendar item.
+
+```
+
+ MapiRecipientCollection recipientColl = new MapiRecipientCollection();
+ recipientColl.add("attendee@company.com", "Attendee", MapiRecipientType.MAPI_TO);
+ MapiCalendar newCal = new MapiCalendar(
+     "This is Location",
+     "This is Summary",
+     "This is recurrence test",
+     new Date(),
+     DateUtils.addHours(new Date(), 2),
+     "organizer@company.com",
+     recipientColl);
+
+ // Create a yearly recurrence pattern (repeats every year on January 15th)
+ MapiCalendarYearlyAndMonthlyRecurrencePattern yearlyPattern = new MapiCalendarYearlyAndMonthlyRecurrencePattern();
+ yearlyPattern.setPeriod(12);  // 12 months = 1 year
+ yearlyPattern.setDay(15);     // 15th day of the month
+ yearlyPattern.setStartDate(new Date());
+ yearlyPattern.setEndDate(DateUtils.addYears(new Date(), 5));
+ yearlyPattern.setFrequency(MapiCalendarRecurrenceFrequency.Yearly);
+ yearlyPattern.setPatternType(MapiCalendarRecurrencePatternType.Month);
+ yearlyPattern.setCalendarType(MapiCalendarRecurrenceCalendarType.CAL_GREGORIAN_US);
+
+ // Set the recurrence pattern
+ MapiCalendarEventRecurrence recurrence = new MapiCalendarEventRecurrence();
+ recurrence.setRecurrencePattern(yearlyPattern);
+ calendar.setRecurrence(recurrence);
+
+ // Save the calendar item
+ calendar.save("yearly_meeting.msg", MapiCalendarSaveOptions.getDefaultMsg());
+ 
+```
 ## Constructors
 
 | Constructor | Description |

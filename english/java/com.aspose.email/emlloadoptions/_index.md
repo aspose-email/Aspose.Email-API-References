@@ -1,9 +1,9 @@
 ---
 title: EmlLoadOptions
 second_title: Aspose.Email for Java API Reference
-description: Allows to specify additional options when loading MailMessage from Eml format.
+description: Provides options for controlling how  instances are loaded from EML format.
 type: docs
-weight: 172
+weight: 175
 url: /java/com.aspose.email/emlloadoptions/
 ---
 
@@ -13,28 +13,26 @@ java.lang.Object, [com.aspose.email.LoadOptions](../../com.aspose.email/loadopti
 public class EmlLoadOptions extends LoadOptions
 ```
 
-Allows to specify additional options when loading MailMessage from Eml format.
+Provides options for controlling how [MailMessage](../../com.aspose.email/mailmessage) instances are loaded from EML format. This class allows you to customize the loading behavior for specific EML features such as TNEF attachment handling and embedded message preservation.
 
---------------------
+Use this class with [MailMessage.load(String, LoadOptions)](../../com.aspose.email/mailmessage\#load-String--LoadOptions-) to specify custom loading options. Inherits from [LoadOptions](../../com.aspose.email/loadoptions) and adds EML-specific configuration through properties like \#setPreserveTnefAttachments(boolean).setPreserveTnefAttachments(boolean).
 
-> The following example shows how to convert EML to MSG.
-> 
-> [Java]
-> 
-> ```
-> // Initialize EmlLoadOptions
->  EmlLoadOptions emlLoadOptions = new EmlLoadOptions();
->  emlLoadOptions.setPreserveTnefAttachments(true);
->  emlLoadOptions.setPreserveEmbeddedMessageFormat(true);
-> 
->  // Initialize MailMessage with EmlLoadOptions
->  try (MailMessage message = MailMessage.load("TestEml.eml", emlLoadOptions)) {
->  // Convert EML to MSG
->  message.save("output.msg", SaveOptions.getDefaultMsg());
->  }
-> ```
+The following example shows how to convert EML to MSG.
 
---------------------
+```
+
+ // Initialize EmlLoadOptions
+ EmlLoadOptions emlLoadOptions = new EmlLoadOptions();
+ emlLoadOptions.setPreserveTnefAttachments(true);
+ emlLoadOptions.setPreserveEmbeddedMessageFormat(true);
+
+ // Initialize MailMessage with EmlLoadOptions
+ try (MailMessage message = MailMessage.load("TestEml.eml", emlLoadOptions)) {
+     // Convert EML to MSG
+     message.save("output.msg", SaveOptions.getDefaultMsg());
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |

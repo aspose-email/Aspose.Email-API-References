@@ -3,7 +3,7 @@ title: MapiJournal
 second_title: Aspose.Email for Java API Reference
 description: Represents a MAPI journal item.
 type: docs
-weight: 463
+weight: 466
 url: /java/com.aspose.email/mapijournal/
 ---
 
@@ -119,6 +119,7 @@ Example:
 | [setSensitivity(int value)](#setSensitivity-int-) | Gets the Sensitivity. |
 | [setStartTime(Date value)](#setStartTime-java.util.Date-) | Gets or sets the time at which the activity began. |
 | [setSubject(String value)](#setSubject-java.lang.String-) | Gets or sets the subject of the message. |
+| [toMvPropertyList(Object obj)](#toMvPropertyList-java.lang.Object-) |  |
 | [toString()](#toString--) |  |
 | [tryGetPropertyData(long tag)](#tryGetPropertyData-long-) | Try to get the property data with specified tag key. |
 | [tryGetPropertyDateTime(long tag, Date[] value)](#tryGetPropertyDateTime-long-java.util.Date---) | Gets the value of the specified property as DateTime type. |
@@ -1131,6 +1132,21 @@ When setting a value, the values of SubjectPrefix(PR\_SUBJECT\_PREFIX) and Norma
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### toMvPropertyList(Object obj) {#toMvPropertyList-java.lang.Object-}
+```
+public static System.Collections.Generic.IGenericList<Object> toMvPropertyList(Object obj)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericList<java.lang.Object>
 ### toString() {#toString--}
 ```
 public String toString()

@@ -3,7 +3,7 @@ title: MailboxConverter
 second_title: Aspose.Email for Java API Reference
 description: Provides mailbox conversion routines.
 type: docs
-weight: 397
+weight: 400
 url: /java/com.aspose.email/mailboxconverter/
 ---
 

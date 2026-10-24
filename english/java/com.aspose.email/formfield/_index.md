@@ -3,7 +3,7 @@ title: FormField
 second_title: Aspose.Email for Java API Reference
 description: Describe one field of form.
 type: docs
-weight: 262
+weight: 265
 url: /java/com.aspose.email/formfield/
 ---
 
@@ -27,23 +27,23 @@ Describe one field of form.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getId()](#getId--) | Get or set Id of field. |
-| [getInputType()](#getInputType--) | Get or set input type of field. |
-| [getLabel()](#getLabel--) | Get or set label of field. |
-| [getName()](#getName--) | Get or set name of field. |
-| [getPlaceholder()](#getPlaceholder--) | Get or set placeholder of field. |
-| [getValue()](#getValue--) | Get or set value of field. |
+| [getId()](#getId--) | Get ID of field. |
+| [getInputType()](#getInputType--) | Get input type of field. |
+| [getLabel()](#getLabel--) | Get label of field. |
+| [getName()](#getName--) | Get name of field. |
+| [getPlaceholder()](#getPlaceholder--) | Get placeholder of field. |
+| [getValue()](#getValue--) | Get value of field. |
 | [hashCode()](#hashCode--) |  |
-| [isRequired()](#isRequired--) | Get or set value that define field as required. |
+| [isRequired()](#isRequired--) | Get value that define field as required. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setId(String value)](#setId-java.lang.String-) | Get or set Id of field. |
-| [setInputType(String value)](#setInputType-java.lang.String-) | Get or set input type of field. |
-| [setLabel(String value)](#setLabel-java.lang.String-) | Get or set label of field. |
-| [setName(String value)](#setName-java.lang.String-) | Get or set name of field. |
-| [setPlaceholder(String value)](#setPlaceholder-java.lang.String-) | Get or set placeholder of field. |
-| [setRequired(boolean value)](#setRequired-boolean-) | Get or set value that define field as required. |
-| [setValue(String value)](#setValue-java.lang.String-) | Get or set value of field. |
+| [setId(String value)](#setId-java.lang.String-) | Set ID of field. |
+| [setInputType(String value)](#setInputType-java.lang.String-) | Set input type of field. |
+| [setLabel(String value)](#setLabel-java.lang.String-) | Set label of field. |
+| [setName(String value)](#setName-java.lang.String-) | Set name of field. |
+| [setPlaceholder(String value)](#setPlaceholder-java.lang.String-) | Set placeholder of field. |
+| [setRequired(boolean value)](#setRequired-boolean-) | Set value that define field as required. |
+| [setValue(String value)](#setValue-java.lang.String-) | Set value of field. |
 | [toAmpHtml()](#toAmpHtml--) | Represents amp html version of field. |
 | [toHtml()](#toHtml--) | Represents html version of field. |
 | [toString()](#toString--) |  |
@@ -116,60 +116,60 @@ public final String getId()
 ```
 
 
-Get or set Id of field.
+Get ID of field.
 
 **Returns:**
-java.lang.String
+java.lang.String - ID of field.
 ### getInputType() {#getInputType--}
 ```
 public final String getInputType()
 ```
 
 
-Get or set input type of field.
+Get input type of field.
 
 **Returns:**
-java.lang.String
+java.lang.String - input type of field.
 ### getLabel() {#getLabel--}
 ```
 public final String getLabel()
 ```
 
 
-Get or set label of field.
+Get label of field.
 
 **Returns:**
-java.lang.String
+java.lang.String - label of field.
 ### getName() {#getName--}
 ```
 public final String getName()
 ```
 
 
-Get or set name of field.
+Get name of field.
 
 **Returns:**
-java.lang.String
+java.lang.String - name of field.
 ### getPlaceholder() {#getPlaceholder--}
 ```
 public final String getPlaceholder()
 ```
 
 
-Get or set placeholder of field.
+Get placeholder of field.
 
 **Returns:**
-java.lang.String
+java.lang.String - placeholder of field.
 ### getValue() {#getValue--}
 ```
 public final String getValue()
 ```
 
 
-Get or set value of field.
+Get value of field.
 
 **Returns:**
-java.lang.String
+java.lang.String - value of field.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -186,10 +186,10 @@ public final boolean isRequired()
 ```
 
 
-Get or set value that define field as required.
+Get value that define field as required.
 
 **Returns:**
-boolean
+boolean - value that define field as required.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -212,12 +212,12 @@ public final void setId(String value)
 ```
 
 
-Get or set Id of field.
+Set ID of field.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | ID of field. |
 
 ### setInputType(String value) {#setInputType-java.lang.String-}
 ```
@@ -225,12 +225,12 @@ public final void setInputType(String value)
 ```
 
 
-Get or set input type of field.
+Set input type of field.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | input type of field. |
 
 ### setLabel(String value) {#setLabel-java.lang.String-}
 ```
@@ -238,12 +238,12 @@ public final void setLabel(String value)
 ```
 
 
-Get or set label of field.
+Set label of field.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | label of field. |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -251,12 +251,12 @@ public final void setName(String value)
 ```
 
 
-Get or set name of field.
+Set name of field.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | name of field. |
 
 ### setPlaceholder(String value) {#setPlaceholder-java.lang.String-}
 ```
@@ -264,12 +264,12 @@ public final void setPlaceholder(String value)
 ```
 
 
-Get or set placeholder of field.
+Set placeholder of field.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | placeholder of field. |
 
 ### setRequired(boolean value) {#setRequired-boolean-}
 ```
@@ -277,12 +277,12 @@ public final void setRequired(boolean value)
 ```
 
 
-Get or set value that define field as required.
+Set value that define field as required.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean | value that define field as required. |
 
 ### setValue(String value) {#setValue-java.lang.String-}
 ```
@@ -290,12 +290,12 @@ public final void setValue(String value)
 ```
 
 
-Get or set value of field.
+Set value of field.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | value of field. |
 
 ### toAmpHtml() {#toAmpHtml--}
 ```
@@ -306,7 +306,7 @@ public String toAmpHtml()
 Represents amp html version of field.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toHtml() {#toHtml--}
 ```
 public String toHtml()
@@ -316,7 +316,7 @@ public String toHtml()
 Represents html version of field.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toString() {#toString--}
 ```
 public String toString()

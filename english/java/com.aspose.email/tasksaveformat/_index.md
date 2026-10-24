@@ -3,7 +3,7 @@ title: TaskSaveFormat
 second_title: Aspose.Email for Java API Reference
 description: Enumerates TaskSaveFormat
 type: docs
-weight: 704
+weight: 711
 url: /java/com.aspose.email/tasksaveformat/
 ---
 
@@ -19,6 +19,7 @@ Enumerates TaskSaveFormat
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
+| [Ics](#Ics) | ICS format. |
 | [Msg](#Msg) | MSG format. |
 ## Methods
 
@@ -64,6 +65,14 @@ Enumerates TaskSaveFormat
 public static final char[] EnumSeparatorCharArray
 ```
 
+
+### Ics {#Ics}
+```
+public static final int Ics
+```
+
+
+ICS format.
 
 ### Msg {#Msg}
 ```

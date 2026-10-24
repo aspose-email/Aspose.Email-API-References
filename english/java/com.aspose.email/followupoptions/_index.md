@@ -1,9 +1,9 @@
 ---
 title: FollowUpOptions
 second_title: Aspose.Email for Java API Reference
-description: Represents options for using follow-up flags and reminders in a message.
+description: Represents configuration options for follow-up flags reminders categories and voting buttons in Outlook messages.
 type: docs
-weight: 261
+weight: 264
 url: /java/com.aspose.email/followupoptions/
 ---
 
@@ -13,7 +13,33 @@ java.lang.Object
 public final class FollowUpOptions
 ```
 
-Represents options for using follow-up flags and reminders in a message.
+Represents configuration options for follow-up flags, reminders, categories, and voting buttons in Outlook messages. This class encapsulates all the properties needed to set follow-up behavior on [MapiMessage](../../com.aspose.email/mapimessage) objects through the [FollowUpManager](../../com.aspose.email/followupmanager) class.
+
+Use this class to configure follow-up settings such as flag request text, start date, due date, reminder time, categories, and voting buttons. The \#setFlagRequest(String).setFlagRequest(String) property sets the follow-up text, \#setStartDate(Date).setStartDate(Date) and \#setDueDate(Date).setDueDate(Date) define the task timeline, \#setCategories(String).setCategories(String) specifies message categories, and \#setVotingButtons(String).setVotingButtons(String) configures voting response options.
+
+The following example shows how to use FollowUpOptions to configure follow-up settings for a message.
+
+```
+
+ // Create follow-up options with flag request
+ FollowUpOptions options = new FollowUpOptions("Follow up on this message");
+ options.setStartDate(new Date());
+ options.setDueDate(DateUtils.addDays(new Date(), 7));
+ options.setReminderTime(DateUtils.addHours(new Date(), 1));
+ options.setCategories("Important;Work");
+ options.setVotingButtons("Approve;Reject;More Information");
+
+ // Mark as completed
+ options.markAsCompleted(true);
+
+ // Apply options to a MapiMessage
+ MapiMessage message = MapiMessage.load("message.msg");
+ FollowUpManager.setOptions(message, options);
+
+ // Save the message with follow-up settings
+ message.save("message_with_options.msg", SaveOptions.getDefaultMsgUnicode());
+ 
+```
 ## Constructors
 
 | Constructor | Description |

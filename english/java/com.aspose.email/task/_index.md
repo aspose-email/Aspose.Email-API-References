@@ -3,7 +3,7 @@ title: Task
 second_title: Aspose.Email for Java API Reference
 description: Represents the exchange task information.
 type: docs
-weight: 700
+weight: 705
 url: /java/com.aspose.email/task/
 ---
 
@@ -34,6 +34,8 @@ Represents the exchange task information.
 | [getBody()](#getBody--) | Gets or sets a task body. |
 | [getClass()](#getClass--) |  |
 | [getDueDate()](#getDueDate--) | Gets or sets the date by which the user expects work on the task to be complete. |
+| [getHtmlBody()](#getHtmlBody--) | Gets or sets a task html body. |
+| [getLocation()](#getLocation--) | Gets or sets the location. |
 | [getMethod()](#getMethod--) | Gets or sets iTIP methods associated with an task. |
 | [getOrganizer()](#getOrganizer--) | Gets or sets the organizer. |
 | [getPercentComplete()](#getPercentComplete--) | Gets or sets a pecent of task completion. |
@@ -41,20 +43,27 @@ Represents the exchange task information.
 | [getRelatedTo()](#getRelatedTo--) | Gets or sets a related UID |
 | [getSequenceId()](#getSequenceId--) | Gets or sets the sequence id. |
 | [getStartDate()](#getStartDate--) | Gets or sets a start date of task. |
+| [getStatus()](#getStatus--) | Gets or sets the status of the user's progress on the task. |
 | [getSubject()](#getSubject--) | Gets or sets a task subject. |
 | [getUniqueId()](#getUniqueId--) | Gets or sets unique identifier |
 | [hashCode()](#hashCode--) |  |
+| [load(InputStream stream)](#load-java.io.InputStream-) | Loads [Task](../../com.aspose.email/task) from the stream |
+| [load(String filePath)](#load-java.lang.String-) | Loads [Task](../../com.aspose.email/task) from the file. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [request()](#request--) | Requests the object. |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves current object to the given stream using MSG format. |
+| [save(OutputStream stream, TaskSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.email.TaskSaveOptions-) | Saves current object to the given stream using specified options. |
 | [save(OutputStream stream, int saveFormat)](#save-java.io.OutputStream-int-) | Saves current object to the given stream using specified format. |
 | [save(String filePath)](#save-java.lang.String-) | Saves current object into file using MSG format. |
+| [save(String filePath, TaskSaveOptions saveOptions)](#save-java.lang.String-com.aspose.email.TaskSaveOptions-) | Saves current object into file using specified options. |
 | [save(String filePath, int saveFormat)](#save-java.lang.String-int-) | Saves current object into file using specified format. |
 | [setAttachments(AttachmentCollection value)](#setAttachments-com.aspose.email.AttachmentCollection-) | Gets or sets a collection of file attached to the task. |
 | [setAttendees(MailAddressCollection value)](#setAttendees-com.aspose.email.MailAddressCollection-) | Gets or sets the attendees. |
 | [setBody(String value)](#setBody-java.lang.String-) | Gets or sets a task body. |
 | [setDueDate(Date value)](#setDueDate-java.util.Date-) | Gets or sets the date by which the user expects work on the task to be complete. |
+| [setHtmlBody(String value)](#setHtmlBody-java.lang.String-) | Gets or sets a task html body. |
+| [setLocation(String value)](#setLocation-java.lang.String-) | Gets or sets the location. |
 | [setMethod(int value)](#setMethod-int-) | Gets or sets iTIP methods associated with an task. |
 | [setOrganizer(MailAddress value)](#setOrganizer-com.aspose.email.MailAddress-) | Gets or sets the organizer. |
 | [setPercentComplete(float value)](#setPercentComplete-float-) | Gets or sets a pecent of task completion. |
@@ -62,6 +71,7 @@ Represents the exchange task information.
 | [setRelatedTo(String value)](#setRelatedTo-java.lang.String-) | Gets or sets a related UID |
 | [setSequenceId(int value)](#setSequenceId-int-) | Gets or sets the sequence id. |
 | [setStartDate(Date value)](#setStartDate-java.util.Date-) | Gets or sets a start date of task. |
+| [setStatus(int value)](#setStatus-int-) | Gets or sets the status of the user's progress on the task. |
 | [setSubject(String value)](#setSubject-java.lang.String-) | Gets or sets a task subject. |
 | [setUniqueId(String value)](#setUniqueId-java.lang.String-) | Gets or sets unique identifier |
 | [toString()](#toString--) |  |
@@ -155,6 +165,26 @@ Gets or sets the date by which the user expects work on the task to be complete.
 
 **Returns:**
 java.util.Date
+### getHtmlBody() {#getHtmlBody--}
+```
+public final String getHtmlBody()
+```
+
+
+Gets or sets a task html body.
+
+**Returns:**
+java.lang.String
+### getLocation() {#getLocation--}
+```
+public final String getLocation()
+```
+
+
+Gets or sets the location.
+
+**Returns:**
+java.lang.String
 ### getMethod() {#getMethod--}
 ```
 public final int getMethod()
@@ -227,6 +257,16 @@ Gets or sets a start date of task.
 
 **Returns:**
 java.util.Date
+### getStatus() {#getStatus--}
+```
+public int getStatus()
+```
+
+
+Gets or sets the status of the user's progress on the task.
+
+**Returns:**
+int
 ### getSubject() {#getSubject--}
 ```
 public final String getSubject()
@@ -257,6 +297,36 @@ public native int hashCode()
 
 **Returns:**
 int
+### load(InputStream stream) {#load-java.io.InputStream-}
+```
+public static Task load(InputStream stream)
+```
+
+
+Loads [Task](../../com.aspose.email/task) from the stream
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | A stream to load from |
+
+**Returns:**
+[Task](../../com.aspose.email/task) - A read [Task](../../com.aspose.email/task)
+### load(String filePath) {#load-java.lang.String-}
+```
+public static Task load(String filePath)
+```
+
+
+Loads [Task](../../com.aspose.email/task) from the file. Supported file formats: iCalendar
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | A file path. |
+
+**Returns:**
+[Task](../../com.aspose.email/task) - A read [Appointment](../../com.aspose.email/appointment).
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -296,6 +366,20 @@ Saves current object to the given stream using MSG format.
 | --- | --- | --- |
 | stream | java.io.OutputStream | A stream to save to. |
 
+### save(OutputStream stream, TaskSaveOptions saveOptions) {#save-java.io.OutputStream-com.aspose.email.TaskSaveOptions-}
+```
+public void save(OutputStream stream, TaskSaveOptions saveOptions)
+```
+
+
+Saves current object to the given stream using specified options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream | A stream to save to. |
+| saveOptions | [TaskSaveOptions](../../com.aspose.email/tasksaveoptions) | Specified options.> |
+
 ### save(OutputStream stream, int saveFormat) {#save-java.io.OutputStream-int-}
 ```
 public void save(OutputStream stream, int saveFormat)
@@ -322,6 +406,20 @@ Saves current object into file using MSG format.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filePath | java.lang.String | A file name. |
+
+### save(String filePath, TaskSaveOptions saveOptions) {#save-java.lang.String-com.aspose.email.TaskSaveOptions-}
+```
+public void save(String filePath, TaskSaveOptions saveOptions)
+```
+
+
+Saves current object into file using specified options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | A file name. |
+| saveOptions | [TaskSaveOptions](../../com.aspose.email/tasksaveoptions) | Specified options. |
 
 ### save(String filePath, int saveFormat) {#save-java.lang.String-int-}
 ```
@@ -388,6 +486,32 @@ Gets or sets the date by which the user expects work on the task to be complete.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date |  |
+
+### setHtmlBody(String value) {#setHtmlBody-java.lang.String-}
+```
+public final void setHtmlBody(String value)
+```
+
+
+Gets or sets a task html body.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setLocation(String value) {#setLocation-java.lang.String-}
+```
+public final void setLocation(String value)
+```
+
+
+Gets or sets the location.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setMethod(int value) {#setMethod-int-}
 ```
@@ -481,6 +605,19 @@ Gets or sets a start date of task.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date |  |
+
+### setStatus(int value) {#setStatus-int-}
+```
+public void setStatus(int value)
+```
+
+
+Gets or sets the status of the user's progress on the task.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setSubject(String value) {#setSubject-java.lang.String-}
 ```

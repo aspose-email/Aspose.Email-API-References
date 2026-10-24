@@ -3,7 +3,7 @@ title: Calendar
 second_title: Aspose.Email for Java API Reference
 description: A set of metadata such as a description for a single calendar.
 type: docs
-weight: 92
+weight: 93
 url: /java/com.aspose.email/calendar/
 ---
 
@@ -36,6 +36,7 @@ A set of metadata, such as a description, for a single calendar.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getConferenceProperties()](#getConferenceProperties--) | Gets conferencing properties for this calendar. |
+| [getDataOwner()](#getDataOwner--) | The email of the owner of the calendar. |
 | [getDescription()](#getDescription--) | Description of the calendar. |
 | [getETag()](#getETag--) | An ETag or entity tag is one of several mechanisms that HTTP provides for web cache validation, and which allows a client to make conditional requests. |
 | [getId()](#getId--) | Identifier of the resource. |
@@ -46,6 +47,7 @@ A set of metadata, such as a description, for a single calendar.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setDataOwner(String value)](#setDataOwner-java.lang.String-) | The email of the owner of the calendar. |
 | [setDescription(String value)](#setDescription-java.lang.String-) | Description of the calendar. |
 | [setETag(String value)](#setETag-java.lang.String-) | An ETag or entity tag is one of several mechanisms that HTTP provides for web cache validation, and which allows a client to make conditional requests. |
 | [setId(String value)](#setId-java.lang.String-) | Identifier of the resource. |
@@ -185,6 +187,16 @@ Gets conferencing properties for this calendar.
 
 **Returns:**
 [ConferenceProperties](../../com.aspose.email/conferenceproperties)
+### getDataOwner() {#getDataOwner--}
+```
+public String getDataOwner()
+```
+
+
+The email of the owner of the calendar.
+
+**Returns:**
+java.lang.String
 ### getDescription() {#getDescription--}
 ```
 public String getDescription()
@@ -280,6 +292,19 @@ public final native void notifyAll()
 
 
 
+
+### setDataOwner(String value) {#setDataOwner-java.lang.String-}
+```
+public void setDataOwner(String value)
+```
+
+
+The email of the owner of the calendar.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setDescription(String value) {#setDescription-java.lang.String-}
 ```

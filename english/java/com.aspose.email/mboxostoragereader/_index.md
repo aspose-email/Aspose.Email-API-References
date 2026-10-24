@@ -3,7 +3,7 @@ title: MboxoStorageReader
 second_title: Aspose.Email for Java API Reference
 description: Represents mboxo format storage reader this format is being used by Eudora.
 type: docs
-weight: 508
+weight: 511
 url: /java/com.aspose.email/mboxostoragereader/
 ---
 
@@ -217,7 +217,7 @@ Enumerates a specified number of message information entries, starting from the 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| startIndex | int | The zero-based index of the first message to retrieve. If  startIndex  is greater than or equal to the total number of items, an ArgumentOutOfRangeException is thrown. |
+| startIndex | int | The zero-based index of the first message to retrieve. If  startIndex  is greater than or equal to the total number of items, an [ArgumentOutOfRangeException](../../com.aspose.email.services.ews.core.exception.misc/argumentoutofrangeexception) is thrown. |
 | count | int | The maximum number of message information entries to retrieve. If set to -1, all messages from the start index will be read. |
 
 **Returns:**
@@ -275,7 +275,7 @@ Enumerates a specified number of mail messages, starting from the given index, u
 | Parameter | Type | Description |
 | --- | --- | --- |
 | options | [EmlLoadOptions](../../com.aspose.email/emlloadoptions) | The [EmlLoadOptions](../../com.aspose.email/emlloadoptions) specifying how EML files should be loaded. |
-| startIndex | int | The zero-based index of the first message to retrieve. If  startIndex  is greater than or equal to the total number of items, an ArgumentOutOfRangeException is thrown. |
+| startIndex | int | The zero-based index of the first message to retrieve. If  startIndex  is greater than or equal to the total number of items, an [ArgumentOutOfRangeException](../../com.aspose.email.services.ews.core.exception.misc/argumentoutofrangeexception) is thrown. |
 | count | int | The maximum number of messages to retrieve. If set to -1, all messages from the start index will be read. |
 
 **Returns:**
@@ -306,7 +306,7 @@ Enumerates a specified number of mail messages, starting from the given index.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| startIndex | int | The zero-based index of the first message to retrieve. If  startIndex  is greater than or equal to the total number of items, an ArgumentOutOfRangeException is thrown. |
+| startIndex | int | The zero-based index of the first message to retrieve. If  startIndex  is greater than or equal to the total number of items, an [ArgumentOutOfRangeException](../../com.aspose.email.services.ews.core.exception.misc/argumentoutofrangeexception) is thrown. |
 | count | int | The maximum number of messages to retrieve. If set to -1, all messages from the start index will be read. |
 
 **Returns:**

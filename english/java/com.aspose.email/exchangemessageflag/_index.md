@@ -3,7 +3,7 @@ title: ExchangeMessageFlag
 second_title: Aspose.Email for Java API Reference
 description: Represents a flags of message.
 type: docs
-weight: 222
+weight: 225
 url: /java/com.aspose.email/exchangemessageflag/
 ---
 

@@ -3,7 +3,7 @@ title: EmailValidator
 second_title: Aspose.Email for Java API Reference
 description: EmailValidator class provides the capability to validate e-mail addresses.
 type: docs
-weight: 171
+weight: 174
 url: /java/com.aspose.email/emailvalidator/
 ---
 

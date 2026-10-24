@@ -3,7 +3,7 @@ title: MapiConversionOptions
 second_title: Aspose.Email for Java API Reference
 description: This class allows the user to specify additional options when converting from MailMessage to MapiMessage.
 type: docs
-weight: 452
+weight: 455
 url: /java/com.aspose.email/mapiconversionoptions/
 ---
 
@@ -34,7 +34,6 @@ This class allows the user to specify additional options when converting from Ma
 | [getPreserveEmptyDates()](#getPreserveEmptyDates--) | Gets or sets a value indicating whether it is necessary to keep empty dates when converting a message. |
 | [getPreserveOriginalAddresses()](#getPreserveOriginalAddresses--) | Gets or sets a value indicating whether it is necessary to keep original value of mail addresses (without validation). |
 | [getPreserveOriginalDates()](#getPreserveOriginalDates--) | Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when converting a message. |
-| [getPreserveSignature()](#getPreserveSignature--) | Set to true, if signature is to be preserved. |
 | [getRemoveSignature()](#getRemoveSignature--) | Gets or sets a value indicating whether signature will be removed while converting. |
 | [getUnicodeFormat()](#getUnicodeFormat--) | Returns MapiConversionOptions with OutlookMessageFormat is Unicode(PreserveSignature is False, UseBodyCompression is False). |
 | [getUseBodyCompression()](#getUseBodyCompression--) | Set to true, if need RTF body compression. |
@@ -48,7 +47,6 @@ This class allows the user to specify additional options when converting from Ma
 | [setPreserveEmptyDates(boolean value)](#setPreserveEmptyDates-boolean-) | Gets or sets a value indicating whether it is necessary to keep empty dates when converting a message. |
 | [setPreserveOriginalAddresses(boolean value)](#setPreserveOriginalAddresses-boolean-) | Gets or sets a value indicating whether it is necessary to keep original value of mail addresses (without validation). |
 | [setPreserveOriginalDates(boolean value)](#setPreserveOriginalDates-boolean-) | Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when converting a message. |
-| [setPreserveSignature(boolean value)](#setPreserveSignature-boolean-) | Set to true, if signature is to be preserved. |
 | [setRemoveSignature(boolean value)](#setRemoveSignature-boolean-) | Gets or sets a value indicating whether signature will be removed while converting. |
 | [setUseBodyCompression(boolean value)](#setUseBodyCompression-boolean-) | Set to true, if need RTF body compression. |
 | [toString()](#toString--) |  |
@@ -182,16 +180,6 @@ public final boolean getPreserveOriginalDates()
 
 
 Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when converting a message.
-
-**Returns:**
-boolean
-### getPreserveSignature() {#getPreserveSignature--}
-```
-public final boolean getPreserveSignature()
-```
-
-
-Set to true, if signature is to be preserved.
 
 **Returns:**
 boolean
@@ -342,19 +330,6 @@ public final void setPreserveOriginalDates(boolean value)
 
 
 Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when converting a message.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### setPreserveSignature(boolean value) {#setPreserveSignature-boolean-}
-```
-public final void setPreserveSignature(boolean value)
-```
-
-
-Set to true, if signature is to be preserved.
 
 **Parameters:**
 | Parameter | Type | Description |

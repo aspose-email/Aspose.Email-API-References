@@ -3,7 +3,7 @@ title: InlineAttachmentExtractor
 second_title: Aspose.Email for Java API Reference
 description: Provides ability to extract files from MSO packages.
 type: docs
-weight: 352
+weight: 355
 url: /java/com.aspose.email/inlineattachmentextractor/
 ---
 

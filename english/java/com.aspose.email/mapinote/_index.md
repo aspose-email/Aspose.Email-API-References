@@ -3,7 +3,7 @@ title: MapiNote
 second_title: Aspose.Email for Java API Reference
 description: Represents a MAPI note sticky note item.
 type: docs
-weight: 474
+weight: 477
 url: /java/com.aspose.email/mapinote/
 ---
 
@@ -118,6 +118,7 @@ Example:
 | [setWidth(int value)](#setWidth-int-) | Gets or sets width of the visible message window in pixels |
 | [setXPosition(int value)](#setXPosition-int-) | Gets or sets the distance, in pixels, from the left edge of the screen that a user interface displays a Note object |
 | [setYPosition(int value)](#setYPosition-int-) | Gets or sets the distance, in pixels, from the top edge of the screen that a user interface displays a Note object |
+| [toMvPropertyList(Object obj)](#toMvPropertyList-java.lang.Object-) |  |
 | [toString()](#toString--) |  |
 | [tryGetPropertyData(long tag)](#tryGetPropertyData-long-) | Try to get the property data with specified tag key. |
 | [tryGetPropertyDateTime(long tag, Date[] value)](#tryGetPropertyDateTime-long-java.util.Date---) | Gets the value of the specified property as DateTime type. |
@@ -1102,6 +1103,21 @@ Gets or sets the distance, in pixels, from the top edge of the screen that a use
 | --- | --- | --- |
 | value | int |  |
 
+### toMvPropertyList(Object obj) {#toMvPropertyList-java.lang.Object-}
+```
+public static System.Collections.Generic.IGenericList<Object> toMvPropertyList(Object obj)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericList<java.lang.Object>
 ### toString() {#toString--}
 ```
 public String toString()

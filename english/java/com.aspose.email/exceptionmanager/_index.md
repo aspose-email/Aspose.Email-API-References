@@ -3,7 +3,7 @@ title: ExceptionManager
 second_title: Aspose.Email for Java API Reference
 description: Provides the ability to ignore exceptions.
 type: docs
-weight: 186
+weight: 189
 url: /java/com.aspose.email/exceptionmanager/
 ---
 
