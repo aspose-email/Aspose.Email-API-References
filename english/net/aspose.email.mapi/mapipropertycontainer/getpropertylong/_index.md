@@ -1,14 +1,14 @@
 ---
 title: MapiPropertyContainer.GetPropertyLong
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyContainer method. Gets the value of the property specified by tag as Long int64 type
+description: MapiPropertyContainer method. Gets the value of a property as a 64bit integer
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapipropertycontainer/getpropertylong/
 ---
 ## MapiPropertyContainer.GetPropertyLong method
 
-Gets the value of the property specified by tag as Long (int64) type.
+Gets the value of a property as a 64-bit integer.
 
 ```csharp
 public long? GetPropertyLong(long tag)
@@ -16,11 +16,11 @@ public long? GetPropertyLong(long tag)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | Int64 | The MAPI property tag. |
+| tag | Int64 | The tag of the property. |
 
 ### Return Value
 
-The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+The value, or `null` if the property does not exist.
 
 ### See Also
 

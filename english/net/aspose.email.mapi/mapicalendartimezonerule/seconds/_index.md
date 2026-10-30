@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarTimeZoneRule.Seconds
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarTimeZoneRule property. Gets or sets the seconds
+description: MapiCalendarTimeZoneRule property. Gets or sets the seconds of the time change
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/mapicalendartimezonerule/seconds/
 ---
 ## MapiCalendarTimeZoneRule.Seconds property
 
-Gets or sets the seconds
+Gets or sets the seconds of the time change.
 
 ```csharp
 public ushort Seconds { get; set; }

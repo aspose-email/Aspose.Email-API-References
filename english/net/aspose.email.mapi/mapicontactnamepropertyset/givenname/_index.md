@@ -1,14 +1,14 @@
 ---
 title: MapiContactNamePropertySet.GivenName
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactNamePropertySet property. Gets or sets the given name first name of the contact
+description: MapiContactNamePropertySet property. Gets or sets the given first name of the contact
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapicontactnamepropertyset/givenname/
 ---
 ## MapiContactNamePropertySet.GivenName property
 
-Gets or sets the given name (first name) of the contact
+Gets or sets the given (first) name of the contact.
 
 ```csharp
 public string GivenName { get; set; }

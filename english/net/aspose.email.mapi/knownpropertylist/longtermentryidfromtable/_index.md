@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.LongtermEntryidFromTable
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_LONGTERM_ENTRYID_FROM_TABLE
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_LONGTERM_ENTRYID_FROM_TABLE. Property tag 0x66700102 data type Binary
 type: docs
 weight: 12390
 url: /net/aspose.email.mapi/knownpropertylist/longtermentryidfromtable/
 ---
 ## KnownPropertyList.LongtermEntryidFromTable field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_LONGTERM_ENTRYID_FROM_TABLE
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_LONGTERM_ENTRYID_FROM_TABLE. Property tag: 0x66700102; data type: Binary.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor LongtermEntryidFromTable;

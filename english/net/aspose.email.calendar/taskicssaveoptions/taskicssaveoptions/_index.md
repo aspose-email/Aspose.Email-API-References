@@ -8,7 +8,7 @@ url: /net/aspose.email.calendar/taskicssaveoptions/taskicssaveoptions/
 ---
 ## TaskIcsSaveOptions constructor
 
-Initializes a new instance of the [`TaskIcsSaveOptions`](../) class
+Initializes a new instance of the [`TaskIcsSaveOptions`](../) class.
 
 ```csharp
 public TaskIcsSaveOptions()

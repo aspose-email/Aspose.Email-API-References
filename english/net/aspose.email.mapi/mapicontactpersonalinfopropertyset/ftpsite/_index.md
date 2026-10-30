@@ -1,14 +1,14 @@
 ---
 title: MapiContactPersonalInfoPropertySet.FtpSite
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactPersonalInfoPropertySet property. Specifies the contacts File Transfer Protocol FTP URL
+description: MapiContactPersonalInfoPropertySet property. Gets or sets the FTP URL of the contact
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/ftpsite/
 ---
 ## MapiContactPersonalInfoPropertySet.FtpSite property
 
-Specifies the contact's File Transfer Protocol (FTP) URL
+Gets or sets the FTP URL of the contact.
 
 ```csharp
 public string FtpSite { get; set; }

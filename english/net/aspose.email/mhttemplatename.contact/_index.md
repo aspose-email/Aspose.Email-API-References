@@ -1,14 +1,14 @@
 ---
 title: Class MhtTemplateName.Contact
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.MhtTemplateNameContact class. Defines well known names of headers of Contact for Mhtml formatting
+description: Aspose.Email.MhtTemplateNameContact class. The names of the contact fields that can be rendered when a contact is saved to MHTML
 type: docs
 weight: 17980
 url: /net/aspose.email/mhttemplatename.contact/
 ---
 ## MhtTemplateName.Contact class
 
-Defines well known names of headers of Contact for Mhtml formatting.
+The names of the contact fields that can be rendered when a contact is saved to MHTML.
 
 ```csharp
 public static class Contact
@@ -20,10 +20,10 @@ public static class Contact
 | --- | --- |
 | const [Anniversary](../../aspose.email/contact/anniversary/) | Anniversary header. |
 | const [Birthday](../../aspose.email/contact/birthday/) | Birthday header. |
-| const [Business](../../aspose.email/contact/business/) | Business phone header. |
+| const [Business](../../aspose.email/contact/business/) | The name of the business telephone field. |
 | const [BusinessAddress](../../aspose.email/contact/businessaddress/) | Business Address header. |
 | const [BusinessFax](../../aspose.email/contact/businessfax/) | Business Fax header. |
-| const [BusinessHomePage](../../aspose.email/contact/businesshomepage/) | BusinessHomePage header. |
+| const [BusinessHomePage](../../aspose.email/contact/businesshomepage/) | The name of the business web page field. |
 | const [Company](../../aspose.email/contact/company/) | Company header. |
 | const [Department](../../aspose.email/contact/department/) | Department header. |
 | const [Email](../../aspose.email/contact/email/) | Email header. |
@@ -36,16 +36,16 @@ public static class Contact
 | const [FullName](../../aspose.email/contact/fullname/) | Full Name header. |
 | const [Gender](../../aspose.email/contact/gender/) | Gender header. |
 | const [Hobbies](../../aspose.email/contact/hobbies/) | Hobbies header. |
-| const [Home](../../aspose.email/contact/home/) | Home phone header. |
+| const [Home](../../aspose.email/contact/home/) | The name of the home telephone field. |
 | const [HomeAddress](../../aspose.email/contact/homeaddress/) | Home Address header. |
 | const [JobTitle](../../aspose.email/contact/jobtitle/) | Job Title header. |
 | const [LastName](../../aspose.email/contact/lastname/) | Last Name header. |
 | const [MiddleName](../../aspose.email/contact/middlename/) | Middle Name header. |
-| const [Mobile](../../aspose.email/contact/mobile/) | Mobile phone header. |
+| const [Mobile](../../aspose.email/contact/mobile/) | The name of the mobile telephone field. |
 | const [OtherAddress](../../aspose.email/contact/otheraddress/) | Other Address header. |
-| const [PersonalHomePage](../../aspose.email/contact/personalhomepage/) | PersonalHomePage header. |
+| const [PersonalHomePage](../../aspose.email/contact/personalhomepage/) | The name of the personal web page field. |
 | const [Profession](../../aspose.email/contact/profession/) | Profession header. |
-| const [SpousePartner](../../aspose.email/contact/spousepartner/) | Spouse/Partner header. |
+| const [SpousePartner](../../aspose.email/contact/spousepartner/) | The name of the spouse or partner field. |
 | const [UserField1](../../aspose.email/contact/userfield1/) | UserField1 header. |
 | const [UserField2](../../aspose.email/contact/userfield2/) | UserField2 header. |
 | const [UserField3](../../aspose.email/contact/userfield3/) | UserField3 header. |

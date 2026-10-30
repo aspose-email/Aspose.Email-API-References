@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.CalendarMethod
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies the iCalendar method that is associated with an Appointment object. Area Common Canonical name PidNameCalendarMethod Alternate names urnschemascalendarmethod
+description: KnownPropertyList field. Specifies the iCalendar method that is associated with an Appointment object. Area Common. Canonical name PidNameCalendarMethod. Alternate names urnschemascalendarmethod
 type: docs
 weight: 2420
 url: /net/aspose.email.mapi/knownpropertylist/calendarmethod/
 ---
 ## KnownPropertyList.CalendarMethod field
 
-Specifies the iCalendar method that is associated with an Appointment object. Area: Common Canonical name: PidNameCalendarMethod Alternate names: urn:schemas:calendar:method
+Specifies the iCalendar method that is associated with an Appointment object. Area: Common. Canonical name: PidNameCalendarMethod. Alternate names: urn:schemas:calendar:method.
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarMethod;

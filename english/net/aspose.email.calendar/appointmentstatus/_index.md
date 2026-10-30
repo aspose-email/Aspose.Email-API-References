@@ -1,14 +1,14 @@
 ---
 title: Enum AppointmentStatus
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.AppointmentStatus enum. Defines the overall status or confirmation for the appointment
+description: Aspose.Email.Calendar.AppointmentStatus enum. Defines the status of an event the iCalendar STATUS property
 type: docs
 weight: 550
 url: /net/aspose.email.calendar/appointmentstatus/
 ---
 ## AppointmentStatus enumeration
 
-Defines the overall status or confirmation for the appointment.
+Defines the status of an event (the iCalendar STATUS property).
 
 ```csharp
 public enum AppointmentStatus
@@ -18,10 +18,10 @@ public enum AppointmentStatus
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | `-1` | Value is not defined |
-| Cancelled | `0` | Indicates journal is removed. or Indicates to-do was cancelled. or Indicates event was cancelled. |
-| Tentative | `1` | Indicates event is tentative. |
-| Confirmed | `2` | Indicates event is definite. |
+| NotDefined | `-1` | The status is not set. |
+| Cancelled | `0` | The event is cancelled. |
+| Tentative | `1` | The event is tentative. |
+| Confirmed | `2` | The event is confirmed. |
 
 ### See Also
 

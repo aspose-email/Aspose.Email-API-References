@@ -1,14 +1,14 @@
 ---
 title: MailboxInfo.UniqueId
 second_title: Aspose.Email for .NET API Reference
-description: MailboxInfo property. The unique id of message
+description: MailboxInfo property. Gets or sets the unique identifier of the message in the mailbox
 type: docs
 weight: 20
 url: /net/aspose.email/mailboxinfo/uniqueid/
 ---
 ## MailboxInfo.UniqueId property
 
-The unique id of message.
+Gets or sets the unique identifier of the message in the mailbox.
 
 ```csharp
 public string UniqueId { get; set; }

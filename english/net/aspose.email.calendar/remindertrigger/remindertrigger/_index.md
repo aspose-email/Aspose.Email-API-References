@@ -1,14 +1,14 @@
 ---
 title: ReminderTrigger.ReminderTrigger
 second_title: Aspose.Email for .NET API Reference
-description: ReminderTrigger constructor. Initialize a new instance of ReminderTrigger class
+description: ReminderTrigger constructor. Initializes a new instance of the ReminderTrigger class that triggers at an absolute date and time
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/remindertrigger/remindertrigger/
 ---
 ## ReminderTrigger(DateTime) {#constructor_1}
 
-Initialize a new instance of [`ReminderTrigger`](../) class.
+Initializes a new instance of the [`ReminderTrigger`](../) class that triggers at an absolute date and time.
 
 ```csharp
 public ReminderTrigger(DateTime dateTime)
@@ -16,7 +16,7 @@ public ReminderTrigger(DateTime dateTime)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dateTime | DateTime | Absolute DateTime value. |
+| dateTime | DateTime | The date and time of the trigger. |
 
 ### See Also
 
@@ -28,7 +28,7 @@ public ReminderTrigger(DateTime dateTime)
 
 ## ReminderTrigger(ReminderDuration, ReminderRelated) {#constructor}
 
-Initialize a new instance of [`ReminderTrigger`](../) class.
+Initializes a new instance of the [`ReminderTrigger`](../) class that triggers at a time relative to the event.
 
 ```csharp
 public ReminderTrigger(ReminderDuration duration, ReminderRelated related)
@@ -36,8 +36,8 @@ public ReminderTrigger(ReminderDuration duration, ReminderRelated related)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| duration | ReminderDuration | To specify a relative time for the trigger of the alarm. |
-| related | ReminderRelated | To specify the relationship of the alarm trigger with respect to the start or end of the event. |
+| duration | ReminderDuration | The offset from the start or end of the event; negative for a time before it. |
+| related | ReminderRelated | Whether *duration* is measured from the start or from the end of the event. |
 
 ### See Also
 

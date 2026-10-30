@@ -1,14 +1,14 @@
 ---
 title: Class MailMessageSaveType
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.MailMessageSaveType class. Represents the mail message format.It can be in emlmsg or mhtml format
+description: Aspose.Email.MailMessageSaveType class. Defines the formats a message can be saved to. Pass one to CreateSaveOptions to get options for that format
 type: docs
 weight: 16510
 url: /net/aspose.email/mailmessagesavetype/
 ---
 ## MailMessageSaveType class
 
-Represents the mail message format.It can be in eml,msg or mhtml format.
+Defines the formats a message can be saved to. Pass one to [`CreateSaveOptions`](../saveoptions/createsaveoptions/) to get options for that format.
 
 ```csharp
 public sealed class MailMessageSaveType
@@ -18,21 +18,21 @@ public sealed class MailMessageSaveType
 
 | Name | Description |
 | --- | --- |
-| static [EmlFormat](../../aspose.email/mailmessagesavetype/emlformat/) { get; } | Gets the eml. |
-| static [EmlxFormat](../../aspose.email/mailmessagesavetype/emlxformat/) { get; } | Gets the emlx. |
-| static [HtmlFormat](../../aspose.email/mailmessagesavetype/htmlformat/) { get; } | Gets the Html. |
-| static [MHtmlFormat](../../aspose.email/mailmessagesavetype/mhtmlformat/) { get; } | Gets the MHT. |
-| static [OutlookMessageFormat](../../aspose.email/mailmessagesavetype/outlookmessageformat/) { get; } | Gets the MSG. |
-| static [OutlookMessageFormatUnicode](../../aspose.email/mailmessagesavetype/outlookmessageformatunicode/) { get; } | Gets the MSG. |
-| static [OutlookTemplateFormat](../../aspose.email/mailmessagesavetype/outlooktemplateformat/) { get; } | Gets the MSG. |
+| static [EmlFormat](../../aspose.email/mailmessagesavetype/emlformat/) { get; } | Gets the EML (MIME) format. |
+| static [EmlxFormat](../../aspose.email/mailmessagesavetype/emlxformat/) { get; } | Gets the EMLX format of Apple Mail. |
+| static [HtmlFormat](../../aspose.email/mailmessagesavetype/htmlformat/) { get; } | Gets the HTML format. |
+| static [MHtmlFormat](../../aspose.email/mailmessagesavetype/mhtmlformat/) { get; } | Gets the MHTML (web archive) format. |
+| static [OutlookMessageFormat](../../aspose.email/mailmessagesavetype/outlookmessageformat/) { get; } | Gets the Outlook MSG format with ANSI strings. |
+| static [OutlookMessageFormatUnicode](../../aspose.email/mailmessagesavetype/outlookmessageformatunicode/) { get; } | Gets the Outlook MSG format with Unicode strings. |
+| static [OutlookTemplateFormat](../../aspose.email/mailmessagesavetype/outlooktemplateformat/) { get; } | Gets the Outlook template (OFT) format. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.email/mailmessagesavetype/equals/)(object) | Equalses the specified o. |
-| override [GetHashCode](../../aspose.email/mailmessagesavetype/gethashcode/)() | Serves as a hash function for a particular type. |
-| override [ToString](../../aspose.email/mailmessagesavetype/tostring/)() | Returns a String that represents the current Object. |
+| override [Equals](../../aspose.email/mailmessagesavetype/equals/)(object) | Determines whether the specified object is the same format. |
+| override [GetHashCode](../../aspose.email/mailmessagesavetype/gethashcode/)() | Returns the hash code of the format. |
+| override [ToString](../../aspose.email/mailmessagesavetype/tostring/)() | Returns the name of the format. |
 
 ### See Also
 

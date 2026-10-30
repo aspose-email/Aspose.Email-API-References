@@ -1,14 +1,14 @@
 ---
 title: IMessage.Save
 second_title: Aspose.Email for .NET API Reference
-description: IMessage method. Saves message to the specified file
+description: IMessage method. Saves the message to a file
 type: docs
 weight: 110
 url: /net/aspose.email/imessage/save/
 ---
 ## Save(string) {#save_1}
 
-Saves message to the specified file
+Saves the message to a file.
 
 ```csharp
 public void Save(string fileName)
@@ -16,7 +16,7 @@ public void Save(string fileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | A file name |
+| fileName | String | The path of the file to write. |
 
 ### See Also
 
@@ -28,7 +28,7 @@ public void Save(string fileName)
 
 ## Save(Stream) {#save}
 
-Saves message to the specified stream
+Saves the message to a stream.
 
 ```csharp
 public void Save(Stream stream)
@@ -36,7 +36,7 @@ public void Save(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | A stream to save to |
+| stream | Stream | The stream to write to. |
 
 ### See Also
 

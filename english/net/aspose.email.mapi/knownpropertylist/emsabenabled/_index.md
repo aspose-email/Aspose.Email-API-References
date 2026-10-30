@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.EmsAbEnabled
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_ENABLED
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_EMS_AB_ENABLED. Property tag 0x8C21000B data type Boolean
 type: docs
 weight: 6170
 url: /net/aspose.email.mapi/knownpropertylist/emsabenabled/
 ---
 ## KnownPropertyList.EmsAbEnabled field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_EMS_AB_ENABLED
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_EMS_AB_ENABLED. Property tag: 0x8C21000B; data type: Boolean.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbEnabled;

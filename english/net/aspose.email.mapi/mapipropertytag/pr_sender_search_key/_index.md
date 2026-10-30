@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_SENDER_SEARCH_KEY
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. Identifies an address book search key. Canonical name PidTagSenderSearchKey. Property tag 0x0C1D0102 PT_BINARY
 type: docs
 weight: 19090
 url: /net/aspose.email.mapi/mapipropertytag/pr_sender_search_key/
 ---
 ## MapiPropertyTag.PR_SENDER_SEARCH_KEY field
+
+Identifies an address book search key. Canonical name: PidTagSenderSearchKey. Property tag: 0x0C1D0102 (PT_BINARY).
 
 ```csharp
 public static readonly long PR_SENDER_SEARCH_KEY;

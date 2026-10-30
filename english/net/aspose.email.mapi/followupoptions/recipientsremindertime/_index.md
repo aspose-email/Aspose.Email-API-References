@@ -1,14 +1,14 @@
 ---
 title: FollowUpOptions.RecipientsReminderTime
 second_title: Aspose.Email for .NET API Reference
-description: FollowUpOptions property. Gets or sets a date for recipients indicating the date and time at which the reminder should occur
+description: FollowUpOptions property. Gets or sets the date and time the recipients of the message are reminded
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/followupoptions/recipientsremindertime/
 ---
 ## FollowUpOptions.RecipientsReminderTime property
 
-Gets or sets a date for recipients indicating the date and time at which the reminder should occur.
+Gets or sets the date and time the recipients of the message are reminded.
 
 ```csharp
 public DateTime RecipientsReminderTime { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: MapiPropertyContainer.GetPropertyString
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyContainer method. Gets the string value of the property specified by tag
+description: MapiPropertyContainer method. Gets the value of a property as a string decoding an ANSI string with the specified code page
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapipropertycontainer/getpropertystring/
 ---
 ## GetPropertyString(long, int) {#getpropertystring_1}
 
-Gets the string value of the property specified by tag.
+Gets the value of a property as a string, decoding an ANSI string with the specified code page.
 
 ```csharp
 public string GetPropertyString(long tag, int codepage)
@@ -16,12 +16,12 @@ public string GetPropertyString(long tag, int codepage)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | Int64 | The MAPI property tag. |
-| codepage | Int32 | The specified codepage used to get string value. |
+| tag | Int64 | The tag of the property. |
+| codepage | Int32 | The code page of an ANSI (8-bit) string. |
 
 ### Return Value
 
-The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+The value, or `null` if the property does not exist.
 
 ### See Also
 
@@ -33,7 +33,7 @@ The value of the property. If the property does not exist, returns NULL; otherwi
 
 ## GetPropertyString(long) {#getpropertystring}
 
-Gets the string value of the property specified by tag.
+Gets the value of a property as a string.
 
 ```csharp
 public string GetPropertyString(long tag)
@@ -41,11 +41,11 @@ public string GetPropertyString(long tag)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | Int64 | The MAPI property tag. |
+| tag | Int64 | The tag of the property. |
 
 ### Return Value
 
-The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+The value, or `null` if the property does not exist.
 
 ### See Also
 

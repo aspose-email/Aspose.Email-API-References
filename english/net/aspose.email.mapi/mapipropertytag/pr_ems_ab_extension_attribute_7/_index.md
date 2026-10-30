@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_EMS_AB_EXTENSION_ATTRIBUTE_7
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. Contains custom values defined and populated by the organization that modified the display templates. Canonical name PidTagAddressBookExtensionAttribute7. Property tag 0x8033001E PT_STRING8
 type: docs
 weight: 5870
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_7/
 ---
 ## MapiPropertyTag.PR_EMS_AB_EXTENSION_ATTRIBUTE_7 field
+
+Contains custom values defined and populated by the organization that modified the display templates. Canonical name: PidTagAddressBookExtensionAttribute7. Property tag: 0x8033001E (PT_STRING8).
 
 ```csharp
 public static readonly long PR_EMS_AB_EXTENSION_ATTRIBUTE_7;

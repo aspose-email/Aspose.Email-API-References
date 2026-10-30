@@ -1,14 +1,14 @@
 ---
 title: FolderInfo.AddFile
 second_title: Aspose.Email for .NET API Reference
-description: FolderInfo method. Adds a file into pst folder
+description: FolderInfo method. Adds a file to the folder as a new item with the specified message class
 type: docs
 weight: 130
 url: /net/aspose.email.storage.pst/folderinfo/addfile/
 ---
 ## FolderInfo.AddFile method
 
-Adds a file into pst folder.
+Adds a file to the folder as a new item with the specified message class.
 
 ```csharp
 public string AddFile(string fileName, string messageClass)
@@ -16,20 +16,20 @@ public string AddFile(string fileName, string messageClass)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | The name of file necessary to add. |
-| messageClass | String | The message class. |
+| fileName | String | The path of the file to add. |
+| messageClass | String | The message class of the new item. |
 
 ### Return Value
 
-The string that represents the EntryId of the added message.
+The entry ID of the new item.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | throws, if a PST file version is ANSI. |
-| ArgumentNullException | throws, if a name of file to add is null or empty. |
-| InvalidOperationException | throws, if a PST is open for reading only. |
+| NotImplementedException | The PST is in the ANSI format, which cannot be edited. |
+| ArgumentNullException | *fileName* is `null` or empty. |
+| InvalidOperationException | The PST is open for reading only. |
 
 ### See Also
 

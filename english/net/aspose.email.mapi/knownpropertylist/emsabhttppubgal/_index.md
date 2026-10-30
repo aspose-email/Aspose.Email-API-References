@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.EmsAbHttpPubGal
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_HTTP_PUB_GAL
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_EMS_AB_HTTP_PUB_GAL. Property tag 0x819B000B data type Boolean
 type: docs
 weight: 6760
 url: /net/aspose.email.mapi/knownpropertylist/emsabhttppubgal/
 ---
 ## KnownPropertyList.EmsAbHttpPubGal field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_EMS_AB_HTTP_PUB_GAL
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_EMS_AB_HTTP_PUB_GAL. Property tag: 0x819B000B; data type: Boolean.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbHttpPubGal;

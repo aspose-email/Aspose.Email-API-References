@@ -1,14 +1,14 @@
 ---
 title: AppointmentIcsSaveOptions.StartTimeZone
 second_title: Aspose.Email for .NET API Reference
-description: AppointmentIcsSaveOptions property. Gets or sets the Start time zone
+description: AppointmentIcsSaveOptions property. Gets or sets the time zone for the start of the event. When set it is assigned to the StartTimeZone of each appointment written
 type: docs
 weight: 90
 url: /net/aspose.email.calendar/appointmenticssaveoptions/starttimezone/
 ---
 ## AppointmentIcsSaveOptions.StartTimeZone property
 
-Gets or sets the Start time zone.
+Gets or sets the time zone for the start of the event. When set, it is assigned to the `StartTimeZone` of each appointment written.
 
 ```csharp
 public string StartTimeZone { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: MapiContact.Telephones
 second_title: Aspose.Email for .NET API Reference
-description: MapiContact property. Specify telephone numbers for the contact
+description: MapiContact property. Gets or sets the telephone numbers of the contact
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.email.mapi/mapicontact/telephones/
 ---
 ## MapiContact.Telephones property
 
-Specify telephone numbers for the contact
+Gets or sets the telephone numbers of the contact.
 
 ```csharp
 public MapiContactTelephonePropertySet Telephones { get; set; }

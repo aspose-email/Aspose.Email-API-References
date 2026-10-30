@@ -1,14 +1,14 @@
 ---
 title: MapiContact.OtherFields
 second_title: Aspose.Email for .NET API Reference
-description: MapiContact property. Specify other fields of conhtact
+description: MapiContact property. Gets or sets the other fields of the contact reminder privacy journaling and the userdefined fields
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.email.mapi/mapicontact/otherfields/
 ---
 ## MapiContact.OtherFields property
 
-Specify other fields of conhtact.
+Gets or sets the other fields of the contact: reminder, privacy, journaling and the user-defined fields.
 
 ```csharp
 public MapiContactOtherPropertySet OtherFields { get; set; }

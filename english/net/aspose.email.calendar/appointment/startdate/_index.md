@@ -1,14 +1,14 @@
 ---
 title: Appointment.StartDate
 second_title: Aspose.Email for .NET API Reference
-description: Appointment property. Gets or sets the start date
+description: Appointment property. Gets or sets the start date and time of the event
 type: docs
 weight: 260
 url: /net/aspose.email.calendar/appointment/startdate/
 ---
 ## Appointment.StartDate property
 
-Gets or sets the start date.
+Gets or sets the start date and time of the event.
 
 ```csharp
 public DateTime StartDate { get; set; }

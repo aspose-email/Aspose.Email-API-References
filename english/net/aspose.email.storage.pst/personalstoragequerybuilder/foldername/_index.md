@@ -1,14 +1,14 @@
 ---
 title: PersonalStorageQueryBuilder.FolderName
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorageQueryBuilder property. Search folders with an specified display name
+description: PersonalStorageQueryBuilder property. Gets the field to search folders by name
 type: docs
 weight: 40
 url: /net/aspose.email.storage.pst/personalstoragequerybuilder/foldername/
 ---
 ## PersonalStorageQueryBuilder.FolderName property
 
-Search folders with an specified display name.
+Gets the field to search folders by name.
 
 ```csharp
 public StringComparisonField FolderName { get; }

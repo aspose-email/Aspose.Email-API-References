@@ -1,14 +1,14 @@
 ---
 title: Class MapiCalendarTimeZone
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendarTimeZone class. Represents the mapi calendar time zone information
+description: Aspose.Email.Mapi.MapiCalendarTimeZone class. The time zone of a calendar item with its standard and daylight time rules
 type: docs
 weight: 16920
 url: /net/aspose.email.mapi/mapicalendartimezone/
 ---
 ## MapiCalendarTimeZone class
 
-Represents the mapi calendar time zone information
+The time zone of a calendar item, with its standard and daylight time rules.
 
 ```csharp
 public sealed class MapiCalendarTimeZone
@@ -19,14 +19,14 @@ public sealed class MapiCalendarTimeZone
 | Name | Description |
 | --- | --- |
 | [MapiCalendarTimeZone](mapicalendartimezone/#constructor)() | Initializes a new instance of the `MapiCalendarTimeZone` class. |
-| [MapiCalendarTimeZone](mapicalendartimezone/#constructor_1)(TimeZoneInfo) | Creates a new instance of the `MapiCalendarTimeZone` class from a Standard Timezone. |
+| [MapiCalendarTimeZone](mapicalendartimezone/#constructor_1)(TimeZoneInfo) | Initializes a new instance of the `MapiCalendarTimeZone` class from a .NET time zone. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [KeyName](../../aspose.email.mapi/mapicalendartimezone/keyname/) { get; set; } | Gets or sets a human-readable description of the time zone |
-| [TimeZoneRules](../../aspose.email.mapi/mapicalendartimezone/timezonerules/) { get; set; } | Gets or sets the time zone rules |
+| [KeyName](../../aspose.email.mapi/mapicalendartimezone/keyname/) { get; set; } | Gets or sets the name of the time zone, such as `Pacific Standard Time`. |
+| [TimeZoneRules](../../aspose.email.mapi/mapicalendartimezone/timezonerules/) { get; set; } | Gets or sets the rules of the time zone, one per period of years. |
 
 ### See Also
 

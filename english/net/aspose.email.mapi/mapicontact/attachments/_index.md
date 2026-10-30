@@ -1,14 +1,14 @@
 ---
 title: MapiContact.Attachments
 second_title: Aspose.Email for .NET API Reference
-description: MapiContact property. Gets the attachments in the contact
+description: MapiContact property. Gets the attachments of the contact
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.email.mapi/mapicontact/attachments/
 ---
 ## MapiContact.Attachments property
 
-Gets the attachments in the contact.
+Gets the attachments of the contact.
 
 ```csharp
 public MapiAttachmentCollection Attachments { get; }
@@ -16,7 +16,7 @@ public MapiAttachmentCollection Attachments { get; }
 
 ### Property Value
 
-The attachment collection.
+The attachments.
 
 ### See Also
 

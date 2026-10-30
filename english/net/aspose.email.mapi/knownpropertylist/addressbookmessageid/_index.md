@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AddressBookMessageId
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains the Shortterm Message ID MID MSOXCDATA section 2.2.1.2 of the first message in the local sites offline address book public folder. Area ProviderDefinedNonTransmittable Canonical name PidTagAddressBookMessageId Alternate names ptagAddrbookMID
+description: KnownPropertyList field. Contains the Shortterm Message ID MID MSOXCDATA section 2.2.1.2 of the first message in the local sites offline address book public folder. Area ProviderDefinedNonTransmittable. Canonical name PidTagAddressBookMessageId. Alternate names ptagAddrbookMID
 type: docs
 weight: 740
 url: /net/aspose.email.mapi/knownpropertylist/addressbookmessageid/
 ---
 ## KnownPropertyList.AddressBookMessageId field
 
-Contains the Short-term Message ID (MID) ([MS-OXCDATA] section 2.2.1.2) of the first message in the local site's offline address book public folder. Area: ProviderDefinedNonTransmittable Canonical name: PidTagAddressBookMessageId Alternate names: ptagAddrbookMID
+Contains the Short-term Message ID (MID) ([MS-OXCDATA] section 2.2.1.2) of the first message in the local site's offline address book public folder. Area: ProviderDefinedNonTransmittable. Canonical name: PidTagAddressBookMessageId. Alternate names: ptagAddrbookMID.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookMessageId;

@@ -1,7 +1,7 @@
 ---
 title: Aspose.Email.Tools
 second_title: Aspose.Email for .NET API Reference
-description: Helpers for detecting a file's format and for building reply and forward messages
+description: Helpers for detecting a files format and for building reply and forward messages
 type: docs
 weight: 420
 url: /net/aspose.email.tools/

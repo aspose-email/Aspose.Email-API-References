@@ -1,14 +1,14 @@
 ---
 title: AppointmentReminder.Action
 second_title: Aspose.Email for .NET API Reference
-description: AppointmentReminder property. Defines the action to be invoked when an alarm is triggered
+description: AppointmentReminder property. Gets or sets what happens when the reminder triggers such as showing a message or sending an email
 type: docs
 weight: 30
 url: /net/aspose.email.calendar/appointmentreminder/action/
 ---
 ## AppointmentReminder.Action property
 
-Defines the action to be invoked when an alarm is triggered.
+Gets or sets what happens when the reminder triggers, such as showing a message or sending an email.
 
 ```csharp
 public ReminderAction Action { get; set; }

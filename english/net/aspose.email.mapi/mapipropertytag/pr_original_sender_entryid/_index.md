@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_ORIGINAL_SENDER_ENTRYID
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. Contains an address book EntryID that is set on delivery report messages. Canonical name PidTagOriginalSenderEntryId. Property tag 0x005B0102 PT_BINARY
 type: docs
 weight: 15170
 url: /net/aspose.email.mapi/mapipropertytag/pr_original_sender_entryid/
 ---
 ## MapiPropertyTag.PR_ORIGINAL_SENDER_ENTRYID field
+
+Contains an address book EntryID that is set on delivery report messages. Canonical name: PidTagOriginalSenderEntryId. Property tag: 0x005B0102 (PT_BINARY).
 
 ```csharp
 public static readonly long PR_ORIGINAL_SENDER_ENTRYID;

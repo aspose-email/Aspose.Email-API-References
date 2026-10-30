@@ -18,89 +18,103 @@ public sealed class MapiContact : MapiMessageItemBase
 
 | Name | Description |
 | --- | --- |
-| [MapiContact](mapicontact/#constructor)() | Initializes a new instance of the `MapiContact` class |
-| [MapiContact](mapicontact/#constructor_1)(string, string) | Initializes a new instance of the `MapiContact` class. |
-| [MapiContact](mapicontact/#constructor_2)(string, string, string) | Initializes a new instance of the `MapiContact` class. |
-| [MapiContact](mapicontact/#constructor_3)(string, string, string, string) | Initializes a new instance of the `MapiContact` class. |
+| [MapiContact](mapicontact/#constructor)() | Initializes a new instance of the `MapiContact` class. |
+| [MapiContact](mapicontact/#constructor_1)(string, string) | Initializes a new instance of the `MapiContact` class with the specified details. |
+| [MapiContact](mapicontact/#constructor_2)(string, string, string) | Initializes a new instance of the `MapiContact` class with the specified details. |
+| [MapiContact](mapicontact/#constructor_3)(string, string, string, string) | Initializes a new instance of the `MapiContact` class with the specified details. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Attachments](../../aspose.email.mapi/mapicontact/attachments/) { get; } | Gets the attachments in the contact. |
-| [Billing](../../aspose.email.mapi/mapimessageitembase/billing/) { get; set; } | Contains the billing information associated with an item. |
-| [Body](../../aspose.email.mapi/mapimessageitembase/body/) { get; set; } | Gets the message text. |
-| [BodyHtml](../../aspose.email.mapi/mapimessageitembase/bodyhtml/) { get; } | Gets the [`BodyRtf`](../mapimessageitembase/bodyrtf/) of the message converted to HTML, if present, otherwise an empty string. |
-| [BodyRtf](../../aspose.email.mapi/mapimessageitembase/bodyrtf/) { get; set; } | Gets or sets the RTF formatted message text. |
-| [BodyType](../../aspose.email.mapi/mapimessageitembase/bodytype/) { get; } | Gets the type of the body. |
-| [Categories](../../aspose.email.mapi/mapimessageitembase/categories/) { get; set; } | Contains keywords or categories for the message object. |
-| virtual [CodePage](../../aspose.email.mapi/mapipropertycontainer/codepage/) { get; } | Gets the code page. |
-| [Companies](../../aspose.email.mapi/mapimessageitembase/companies/) { get; set; } | Contains the names of the companies that are associated with an item. |
-| [ElectronicAddresses](../../aspose.email.mapi/mapicontact/electronicaddresses/) { get; set; } | Specify properties for up to three different e-mail addresses and three different fax addresses |
-| [Events](../../aspose.email.mapi/mapicontact/events/) { get; set; } | Specify events associated with a contact |
-| virtual [ItemId](../../aspose.email.mapi/mapimessageitembase/itemid/) { get; } | The item id, uses with a server |
-| [MessageClass](../../aspose.email.mapi/mapimessageitembase/messageclass/) { get; set; } | Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. The message class specifies the type, purpose, or content of the message. |
-| [Mileage](../../aspose.email.mapi/mapimessageitembase/mileage/) { get; set; } | Contains the mileage information that is associated with an item. |
-| [NamedProperties](../../aspose.email.mapi/mapimessageitembase/namedproperties/) { get; } | Gets the named properties of message. |
-| [NamedPropertyMapping](../../aspose.email.mapi/mapimessageitembase/namedpropertymapping/) { get; } | Gets the named property mapping. |
-| [NameInfo](../../aspose.email.mapi/mapicontact/nameinfo/) { get; set; } | The properties are used to specify the name of the person represented by the contact |
-| [OtherFields](../../aspose.email.mapi/mapicontact/otherfields/) { get; set; } | Specify other fields of conhtact. |
-| [PersonalInfo](../../aspose.email.mapi/mapicontact/personalinfo/) { get; set; } | Specify other additional contact information |
-| [Photo](../../aspose.email.mapi/mapicontact/photo/) { get; set; } | Contains contact photo[`MapiContactPhoto`](../mapicontactphoto/). |
-| [PhysicalAddresses](../../aspose.email.mapi/mapicontact/physicaladdresses/) { get; set; } | Specify three physical addresses: Home Address, Work Address, and Other Address. One of the addresses can be marked as the Mailing Address |
-| [ProductId](../../aspose.email.mapi/mapicontact/productid/) { get; set; } | Gets or sets the id of product that created this contact. |
-| [ProfessionalInfo](../../aspose.email.mapi/mapicontact/professionalinfo/) { get; set; } | Properties are used to store professional details for the person represented by the contact |
-| virtual [Properties](../../aspose.email.mapi/mapipropertycontainer/properties/) { get; } | Gets the collection of properties. |
-| [PropertyStream](../../aspose.email.mapi/mapimessageitembase/propertystream/) { get; } | Gets the property stream. |
-| [Recipients](../../aspose.email.mapi/mapimessageitembase/recipients/) { get; set; } | Gets the recipients of the message. |
-| [Sensitivity](../../aspose.email.mapi/mapimessageitembase/sensitivity/) { get; set; } | Gets the Sensitivity. |
+| [Attachments](../../aspose.email.mapi/mapicontact/attachments/) { get; } | Gets the attachments of the contact. |
+| [Billing](../../aspose.email.mapi/mapimessageitembase/billing/) { get; set; } | Gets or sets the billing information of the item. |
+| [Body](../../aspose.email.mapi/mapimessageitembase/body/) { get; set; } | Gets or sets the plain-text body of the item. |
+| [BodyHtml](../../aspose.email.mapi/mapimessageitembase/bodyhtml/) { get; } | Gets the body of the item as HTML, converted from [`BodyRtf`](../mapimessageitembase/bodyrtf/); an empty string when there is no RTF body. |
+| [BodyRtf](../../aspose.email.mapi/mapimessageitembase/bodyrtf/) { get; set; } | Gets or sets the body of the item in RTF format. |
+| [BodyType](../../aspose.email.mapi/mapimessageitembase/bodytype/) { get; } | Gets the format of the body: plain text, HTML or RTF. |
+| [Categories](../../aspose.email.mapi/mapimessageitembase/categories/) { get; set; } | Gets or sets the categories of the item. |
+| virtual [CodePage](../../aspose.email.mapi/mapipropertycontainer/codepage/) { get; } | Gets the code page of the ANSI strings of the object. |
+| [Companies](../../aspose.email.mapi/mapimessageitembase/companies/) { get; set; } | Gets or sets the names of the companies associated with the item. |
+| [ElectronicAddresses](../../aspose.email.mapi/mapicontact/electronicaddresses/) { get; set; } | Gets or sets the e-mail addresses (up to three) and fax numbers (up to three) of the contact. |
+| [Events](../../aspose.email.mapi/mapicontact/events/) { get; set; } | Gets or sets the dates associated with the contact: birthday and anniversary. |
+| virtual [ItemId](../../aspose.email.mapi/mapimessageitembase/itemid/) { get; } | Gets the identifier of the item on the mail server, for items obtained from a server; `null` otherwise. |
+| [MessageClass](../../aspose.email.mapi/mapimessageitembase/messageclass/) { get; set; } | Gets or sets the message class of the item, such as `IPM.Note` for an e-mail message. The class determines the type of the item. |
+| [Mileage](../../aspose.email.mapi/mapimessageitembase/mileage/) { get; set; } | Gets or sets the mileage information of the item. |
+| [NamedProperties](../../aspose.email.mapi/mapimessageitembase/namedproperties/) { get; } | Gets the named properties of the item. |
+| [NamedPropertyMapping](../../aspose.email.mapi/mapimessageitembase/namedpropertymapping/) { get; } | Gets the mapping between the named properties and the tags they are stored under. |
+| [NameInfo](../../aspose.email.mapi/mapicontact/nameinfo/) { get; set; } | Gets or sets the name of the contact: given name, surname, title and so on. |
+| [OtherFields](../../aspose.email.mapi/mapicontact/otherfields/) { get; set; } | Gets or sets the other fields of the contact: reminder, privacy, journaling and the user-defined fields. |
+| [PersonalInfo](../../aspose.email.mapi/mapicontact/personalinfo/) { get; set; } | Gets or sets the personal details of the contact, such as web pages, spouse, children, hobbies and notes. |
+| [Photo](../../aspose.email.mapi/mapicontact/photo/) { get; set; } | Gets or sets the photo of the contact. |
+| [PhysicalAddresses](../../aspose.email.mapi/mapicontact/physicaladdresses/) { get; set; } | Gets or sets the postal addresses of the contact: home, work and other. One of them can be marked as the mailing address. |
+| [ProductId](../../aspose.email.mapi/mapicontact/productid/) { get; set; } | Gets or sets the identifier of the product that created the contact. |
+| [ProfessionalInfo](../../aspose.email.mapi/mapicontact/professionalinfo/) { get; set; } | Gets or sets the professional details of the contact: company, job title, department, manager and so on. |
+| virtual [Properties](../../aspose.email.mapi/mapipropertycontainer/properties/) { get; } | Gets all properties of the object. |
+| [PropertyStream](../../aspose.email.mapi/mapimessageitembase/propertystream/) { get; } | Gets the property stream of the item. |
+| [Recipients](../../aspose.email.mapi/mapimessageitembase/recipients/) { get; set; } | Gets or sets the recipients of the item. |
+| [Sensitivity](../../aspose.email.mapi/mapimessageitembase/sensitivity/) { get; set; } | Gets or sets the sensitivity of the item: normal, personal, private or confidential. |
 | [Subject](../../aspose.email.mapi/mapimessageitembase/subject/) { get; set; } | Gets or sets the subject of the message. |
-| [SubjectPrefix](../../aspose.email.mapi/mapimessageitembase/subjectprefix/) { get; } | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
-| [SubStorages](../../aspose.email.mapi/mapimessageitembase/substorages/) { get; } | Gets the sub storages. |
-| [SupportedType](../../aspose.email.mapi/mapimessageitembase/supportedtype/) { get; } | Gets the supported item type. |
-| [Telephones](../../aspose.email.mapi/mapicontact/telephones/) { get; set; } | Specify telephone numbers for the contact |
+| [SubjectPrefix](../../aspose.email.mapi/mapimessageitembase/subjectprefix/) { get; } | Gets the prefix of the subject, such as `RE: ` or `FW: `. |
+| [SubStorages](../../aspose.email.mapi/mapimessageitembase/substorages/) { get; } | Gets the sub-storages of the item. |
+| [SupportedType](../../aspose.email.mapi/mapimessageitembase/supportedtype/) { get; } | Gets the type of the item, as determined by its message class. |
+| [Telephones](../../aspose.email.mapi/mapicontact/telephones/) { get; set; } | Gets or sets the telephone numbers of the contact. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard/#fromvcard)(Stream) | Reads `MapiContact` from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0 |
-| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard/#fromvcard_3)(string) | Reads `MapiContact` from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
-| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard/#fromvcard_1)(Stream, VCardLoadOptions) | Reads `MapiContact` from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0 |
-| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard/#fromvcard_4)(string, VCardLoadOptions) | Reads `MapiContact` from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
-| virtual [Dispose](../../aspose.email.mapi/mapimessageitembase/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| override [GetProperty](../../aspose.email.mapi/mapimessageitembase/getproperty/)(PropertyDescriptor) | Gets MAPI property by property descriptor. |
-| [GetPropertyBoolean](../../aspose.email.mapi/mapipropertycontainer/getpropertyboolean/)(long) | Gets the value of the property specified by tag as Boolean type. |
-| [GetPropertyBytes](../../aspose.email.mapi/mapipropertycontainer/getpropertybytes/)(long) | Gets the string value of the property specified by tag. |
-| [GetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/getpropertydatetime/)(long) | Gets the value of the property specified by tag as DateTime type. |
-| [GetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/getpropertyint32/)(long) | Gets the int32 value of the property specified by tag. |
-| [GetPropertyLong](../../aspose.email.mapi/mapipropertycontainer/getpropertylong/)(long) | Gets the value of the property specified by tag as Long (int64) type. |
-| [GetPropertyShort](../../aspose.email.mapi/mapipropertycontainer/getpropertyshort/)(long) | Gets the value of the property specified by tag as Short type. |
-| [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring/)(long) | Gets the string value of the property specified by tag. |
-| [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring/)(long, int) | Gets the string value of the property specified by tag. |
+| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard/#fromvcard)(Stream) | Loads a contact from a stream that contains a vCard. vCard versions 2.1 and 3.0 are supported. |
+| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard/#fromvcard_3)(string) | Loads a contact from a vCard file. vCard versions 2.1 and 3.0 are supported. |
+| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard/#fromvcard_1)(Stream, VCardLoadOptions) | Loads a contact from a stream that contains a vCard. vCard versions 2.1 and 3.0 are supported. |
+| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard/#fromvcard_4)(string, VCardLoadOptions) | Loads a contact from a vCard file. vCard versions 2.1 and 3.0 are supported. |
+| static [Load](../../aspose.email.mapi/mapicontact/load/#load)(Stream) | Loads a `MapiContact` from the specified stream. |
+| static [Load](../../aspose.email.mapi/mapicontact/load/#load_1)(string) | Loads a `MapiContact` from the specified file. |
+| virtual [Dispose](../../aspose.email.mapi/mapimessageitembase/dispose/)() | Releases the resources used by the item. |
+| override [GetProperty](../../aspose.email.mapi/mapimessageitembase/getproperty/)(PropertyDescriptor) | Gets a MAPI property of the item by its descriptor. |
+| [GetPropertyBoolean](../../aspose.email.mapi/mapipropertycontainer/getpropertyboolean/)(long) | Gets the value of a property as a Boolean. |
+| [GetPropertyBytes](../../aspose.email.mapi/mapipropertycontainer/getpropertybytes/)(long) | Gets the value of a property as bytes. |
+| [GetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/getpropertydatetime/)(long) | Gets the value of a property as a date and time. |
+| [GetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/getpropertyint32/)(long) | Gets the value of a property as a 32-bit integer. |
+| [GetPropertyLong](../../aspose.email.mapi/mapipropertycontainer/getpropertylong/)(long) | Gets the value of a property as a 64-bit integer. |
+| [GetPropertyShort](../../aspose.email.mapi/mapipropertycontainer/getpropertyshort/)(long) | Gets the value of a property as a 16-bit integer. |
+| [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring/)(long) | Gets the value of a property as a string. |
+| [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring/)(long, int) | Gets the value of a property as a string, decoding an ANSI string with the specified code page. |
 | [GetUnderlyingMessage](../../aspose.email.mapi/mapicontact/getunderlyingmessage/)() | Retrieves the underlying MapiMessage object. |
-| [IsStoreUnicodeOk](../../aspose.email.mapi/mapipropertycontainer/isstoreunicodeok/)() | Determines if string properties are Unicode encoded or not. |
-| [RemoveProperty](../../aspose.email.mapi/mapimessageitembase/removeproperty/)(long) | Provides correctly removing property from all collections. |
-| [Save](../../aspose.email.mapi/mapicontact/save/#save)(Stream) | Saves this `MapiContact` into the given stream with vCard format. The supported vCard version is 2.1 |
-| [Save](../../aspose.email.mapi/mapicontact/save/#save_3)(string) | Saves this `MapiContact` to the vCard file with a default options. The supported vCard version is 2.1 |
-| [Save](../../aspose.email.mapi/mapicontact/save/#save_1)(Stream, ContactSaveFormat) | Saves this `MapiContact` to the given stream with a format using the default options. The supported save format is vCard |
-| [Save](../../aspose.email.mapi/mapicontact/save/#save_2)(Stream, ContactSaveOptions) | Saves this `MapiContact` to the given stream using specified save options. The supported save options is [`VCardSaveOptions`](../../aspose.email.personalinfo.vcard/vcardsaveoptions/) |
-| [Save](../../aspose.email.mapi/mapicontact/save/#save_4)(string, ContactSaveFormat) | Saves this `MapiContact` to the specified file with a format using the default options. The supported save format is vCard. |
-| [Save](../../aspose.email.mapi/mapicontact/save/#save_5)(string, ContactSaveOptions) | Saves this `MapiContact` into file using specified save options. The supported save options is [`VCardSaveOptions`](../../aspose.email.personalinfo.vcard/vcardsaveoptions/) |
+| [IsStoreUnicodeOk](../../aspose.email.mapi/mapipropertycontainer/isstoreunicodeok/)() | Determines whether the string properties of the object are stored in Unicode. |
+| [RemoveProperty](../../aspose.email.mapi/mapimessageitembase/removeproperty/)(long) | Removes a property from the item, including its named-property mapping. |
+| [Save](../../aspose.email.mapi/mapicontact/save/#save)(Stream) | Saves the contact to a stream in vCard 2.1 format. |
+| [Save](../../aspose.email.mapi/mapicontact/save/#save_3)(string) | Saves the contact to a vCard 2.1 file. |
+| [Save](../../aspose.email.mapi/mapicontact/save/#save_1)(Stream, ContactSaveFormat) | Saves the contact to a stream in the specified format with the default options. |
+| [Save](../../aspose.email.mapi/mapicontact/save/#save_2)(Stream, ContactSaveOptions) | Saves the contact to a stream with the specified options. |
+| [Save](../../aspose.email.mapi/mapicontact/save/#save_4)(string, ContactSaveFormat) | Saves the contact to a file in the specified format with the default options. |
+| [Save](../../aspose.email.mapi/mapicontact/save/#save_5)(string, ContactSaveOptions) | Saves the contact to a file with the specified options. |
+| [SaveAsync](../../aspose.email.mapi/mapicontact/saveasync/#saveasync_2)(Stream, CancellationToken) | Saves this `MapiContact` to the given stream asynchronously. The supported save format is vCard. |
+| [SaveAsync](../../aspose.email.mapi/mapicontact/saveasync/#saveasync_5)(string, CancellationToken) | Saves this `MapiContact` to the vCard file with a default options asynchronously. The supported vCard version is 2.1 |
+| [SaveAsync](../../aspose.email.mapi/mapicontact/saveasync/#saveasync)(Stream, ContactSaveFormat, CancellationToken) | Saves this `MapiContact` into the given stream with vCard format asynchronously. The supported vCard version is 2.1 |
+| [SaveAsync](../../aspose.email.mapi/mapicontact/saveasync/#saveasync_1)(Stream, ContactSaveOptions, CancellationToken) | Saves this `MapiContact` to the given stream using specified save options asynchronously. The supported save options is [`VCardSaveOptions`](../../aspose.email.personalinfo.vcard/vcardsaveoptions/) |
+| [SaveAsync](../../aspose.email.mapi/mapicontact/saveasync/#saveasync_3)(string, ContactSaveFormat, CancellationToken) | Saves this `MapiContact` to the specified file with a format using the default options asynchronously. The supported save format is vCard. |
+| [SaveAsync](../../aspose.email.mapi/mapicontact/saveasync/#saveasync_4)(string, ContactSaveOptions, CancellationToken) | Saves this `MapiContact` into file using specified save options asynchronously. The supported save options is [`VCardSaveOptions`](../../aspose.email.personalinfo.vcard/vcardsaveoptions/) |
 | override [SetBodyContent](../../aspose.email.mapi/mapicontact/setbodycontent/#setbodycontent)(string, BodyContentType) | Sets the content of the body. |
-| virtual [SetBodyContent](../../aspose.email.mapi/mapimessageitembase/setbodycontent/)(string, BodyContentType, bool) | Sets the content of the body. |
-| [SetBodyRtf](../../aspose.email.mapi/mapimessageitembase/setbodyrtf/)(string, bool) | Gets or sets the RTF formatted message text. |
-| [SetMessageFlags](../../aspose.email.mapi/mapimessageitembase/setmessageflags/)(MapiMessageFlags) | Sets the message flags. |
-| virtual [SetProperty](../../aspose.email.mapi/mapipropertycontainer/setproperty/)(MapiProperty) | Sets the property. |
-| override [SetProperty](../../aspose.email.mapi/mapimessageitembase/setproperty/)(PropertyDescriptor, object) | Sets MAPI property. |
-| [TryGetPropertyData](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydata/)(long) | Try to get the property data with specified tag key. |
-| [TryGetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydatetime/)(long, ref DateTime) | Gets the value of the specified property as DateTime type. A return value indicates whether the operation succeeded. |
-| [TryGetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/trygetpropertyint32/)(long, ref int) | Gets the value of the specified property as Int32 type. A return value indicates whether the operation succeeded. |
-| [TryGetPropertyLong](../../aspose.email.mapi/mapipropertycontainer/trygetpropertylong/)(long, ref long) | Gets the value of the specified property as Long type. A return value indicates whether the operation succeeded. |
-| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long) | Try to get a property data as string with specified tag. |
-| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, int) | Try to get a property data as string with specified tag and code page. |
-| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string) | Gets the value of the specified property as String type. A return value indicates whether the operation succeeded. |
-| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string, int) | Gets the value of the specified property as String type. A return value indicates whether the operation succeeded. |
+| virtual [SetBodyContent](../../aspose.email.mapi/mapimessageitembase/setbodycontent/)(string, BodyContentType, bool) | Sets the body of the item in the specified format, optionally compressing it. |
+| [SetBodyRtf](../../aspose.email.mapi/mapimessageitembase/setbodyrtf/)(string, bool) | Sets the body of the item in RTF format, optionally compressing it. |
+| [SetMessageFlags](../../aspose.email.mapi/mapimessageitembase/setmessageflags/)(MapiMessageFlags) | Sets the flags of the message, such as read or unsent. |
+| virtual [SetProperty](../../aspose.email.mapi/mapipropertycontainer/setproperty/)(MapiProperty) | Adds the property, or replaces the property with the same tag. |
+| override [SetProperty](../../aspose.email.mapi/mapimessageitembase/setproperty/)(PropertyDescriptor, object) | Sets the value of a MAPI property of the item. |
+| [TryGetPropertyData](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydata/)(long) | Gets the value of a property as bytes. |
+| [TryGetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydatetime/)(long, ref DateTime) | Gets the value of a property as a date and time, if the property exists. |
+| [TryGetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/trygetpropertyint32/)(long, ref int) | Gets the value of a property as a 32-bit integer, if the property exists. |
+| [TryGetPropertyLong](../../aspose.email.mapi/mapipropertycontainer/trygetpropertylong/)(long, ref long) | Gets the value of a property as a 64-bit integer, if the property exists. |
+| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long) | Gets the value of a property as a string. |
+| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, int) | Gets the value of a property as a string, decoding an ANSI string with the specified code page. |
+| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string) | Gets the value of a property as a string, if the property exists. |
+| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string, int) | Gets the value of a property as a string, if the property exists, decoding an ANSI string with the specified code page. |
+| static [FromVCardAsync](../../aspose.email.mapi/mapicontact/fromvcardasync/#fromvcardasync_2)(Stream, CancellationToken) | Reads `MapiContact` from the specified stream containing vCard asynchronously. The supported vCard versions are 2.1 and 3.0 |
+| static [FromVCardAsync](../../aspose.email.mapi/mapicontact/fromvcardasync/#fromvcardasync_5)(string, CancellationToken) | Reads `MapiContact` from the specified vCard file asynchronously. The supported vCard versions are 2.1 and 3.0 |
+| static [FromVCardAsync](../../aspose.email.mapi/mapicontact/fromvcardasync/#fromvcardasync)(Stream, VCardLoadOptions, CancellationToken) | Reads `MapiContact` from the specified stream containing vCard asynchronously. The supported vCard versions are 2.1 and 3.0 |
+| static [FromVCardAsync](../../aspose.email.mapi/mapicontact/fromvcardasync/#fromvcardasync_3)(string, VCardLoadOptions, CancellationToken) | Reads `MapiContact` from the specified vCard file asynchronously. The supported vCard versions are 2.1 and 3.0 |
+| static [LoadAsync](../../aspose.email.mapi/mapicontact/loadasync/#loadasync)(Stream, CancellationToken) | Loads a `MapiContact` from the specified stream asynchronously. |
+| static [LoadAsync](../../aspose.email.mapi/mapicontact/loadasync/#loadasync_1)(string, CancellationToken) | Loads a `MapiContact` from the specified file asynchronously. |
 
 ## Remarks
 

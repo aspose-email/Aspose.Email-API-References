@@ -1,14 +1,14 @@
 ---
 title: FolderInfo.MergeWithAsync
 second_title: Aspose.Email for .NET API Reference
-description: FolderInfo method. Merges the folder with the folder from another pst
+description: FolderInfo method. Asynchronously merges a folder from another PST into this folder
 type: docs
 weight: 330
 url: /net/aspose.email.storage.pst/folderinfo/mergewithasync/
 ---
 ## MergeWithAsync(FolderInfo, CancellationToken) {#mergewithasync_1}
 
-Merges the folder with the folder from another pst.
+Asynchronously merges a folder from another PST into this folder.
 
 ```csharp
 public Task MergeWithAsync(FolderInfo sourceFolder, CancellationToken token = default)
@@ -16,15 +16,15 @@ public Task MergeWithAsync(FolderInfo sourceFolder, CancellationToken token = de
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceFolder | FolderInfo | The source folder. |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
+| sourceFolder | FolderInfo | The folder to merge. It must belong to another PST. |
+| token | CancellationToken | A token to cancel the operation. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Throws when the source folder is located in the same pst. |
-| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
+| InvalidOperationException | *sourceFolder* belongs to the same PST. |
+| NotImplementedException | The PST is in the ANSI format, which cannot be edited. |
 
 ### See Also
 
@@ -36,7 +36,7 @@ public Task MergeWithAsync(FolderInfo sourceFolder, CancellationToken token = de
 
 ## MergeWithAsync(FolderInfo, bool, CancellationToken) {#mergewithasync}
 
-Merges the folder with the folder from another pst. OnItemMoved event is called on both messages and directories.
+Asynchronously merges a folder from another PST into this folder and raises `ItemMoved` for the merged messages and folders.
 
 ```csharp
 public Task MergeWithAsync(FolderInfo sourceFolder, bool recursiveHandler, 
@@ -45,16 +45,16 @@ public Task MergeWithAsync(FolderInfo sourceFolder, bool recursiveHandler,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceFolder | FolderInfo | The source folder. |
-| token | Boolean | Propagates notification that operations should be canceled. |
-| recursiveHandler | CancellationToken | If true, OnItemMoved will be called on all messages, including messages in sub-directories, otherwise OnItemMoved will be called only for messages in the current directory. |
+| sourceFolder | FolderInfo | The folder to merge. It must belong to another PST. |
+| token | Boolean | A token to cancel the operation. |
+| recursiveHandler | CancellationToken | `true` to raise `ItemMoved` for the messages in the subfolders of *sourceFolder* too; `false` to raise it only for the messages directly in *sourceFolder*. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Throws when the source folder is located in the same pst. |
-| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
+| InvalidOperationException | *sourceFolder* belongs to the same PST. |
+| NotImplementedException | The PST is in the ANSI format, which cannot be edited. |
 
 ### See Also
 

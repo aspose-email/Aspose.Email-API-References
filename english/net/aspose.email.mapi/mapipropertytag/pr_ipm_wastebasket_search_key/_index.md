@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_IPM_WASTEBASKET_SEARCH_KEY
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Property tag 0x34120102 PT_BINARY
 type: docs
 weight: 13290
 url: /net/aspose.email.mapi/mapipropertytag/pr_ipm_wastebasket_search_key/
 ---
 ## MapiPropertyTag.PR_IPM_WASTEBASKET_SEARCH_KEY field
+
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x34120102 (PT_BINARY).
 
 ```csharp
 public static readonly long PR_IPM_WASTEBASKET_SEARCH_KEY;

@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.TaskGlobalId
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains a unique GUID for this task which is used to locate an existing task upon receipt of a task response or task update. Area Tasks Canonical name PidLidTaskGlobalId Alternate names dispidTaskGlobalObjId
+description: KnownPropertyList field. Contains a unique GUID for this task which is used to locate an existing task upon receipt of a task response or task update. Area Tasks. Canonical name PidLidTaskGlobalId. Alternate names dispidTaskGlobalObjId
 type: docs
 weight: 18750
 url: /net/aspose.email.mapi/knownpropertylist/taskglobalid/
 ---
 ## KnownPropertyList.TaskGlobalId field
 
-Contains a unique GUID for this task, which is used to locate an existing task upon receipt of a task response or task update. Area: Tasks Canonical name: PidLidTaskGlobalId Alternate names: dispidTaskGlobalObjId
+Contains a unique GUID for this task, which is used to locate an existing task upon receipt of a task response or task update. Area: Tasks. Canonical name: PidLidTaskGlobalId. Alternate names: dispidTaskGlobalObjId.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskGlobalId;

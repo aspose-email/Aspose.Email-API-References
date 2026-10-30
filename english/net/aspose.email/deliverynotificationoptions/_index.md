@@ -1,14 +1,14 @@
 ---
 title: Enum DeliveryNotificationOptions
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.DeliveryNotificationOptions enum. Specifies delivery notifications
+description: Aspose.Email.DeliveryNotificationOptions enum. Defines when the SMTP server sends a delivery status notification to the sender. The values can be combined
 type: docs
 weight: 16000
 url: /net/aspose.email/deliverynotificationoptions/
 ---
 ## DeliveryNotificationOptions enumeration
 
-Specifies delivery notifications.
+Defines when the SMTP server sends a delivery status notification to the sender. The values can be combined.
 
 ```csharp
 [Flags]
@@ -19,11 +19,11 @@ public enum DeliveryNotificationOptions
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0` | No notification information will be sent. The mail server will utilize its configured behavior to determine whether it should generate a delivery notification. |
-| OnSuccess | `1` | Notify if the delivery is successful. |
-| OnFailure | `2` | Notify if the delivery is unsuccessful. |
-| Delay | `4` | Notify if the delivery is delayed. |
-| Never | `8000000` | A notification should not be generated under any circumstances. |
+| None | `0` | No preference; the server decides whether to send a notification. |
+| OnSuccess | `1` | Notify when the message is delivered. |
+| OnFailure | `2` | Notify when delivery fails. |
+| Delay | `4` | Notify when delivery is delayed. |
+| Never | `8000000` | Never send a notification. |
 
 ### See Also
 

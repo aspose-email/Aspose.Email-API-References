@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.RemoveSignature
 second_title: Aspose.Email for .NET API Reference
-description: LoadOptions property. Gets or sets a value indicating whether signature will be removed while loading
+description: LoadOptions property. Gets or sets a value indicating whether the digital signature is removed from a signed message while it is loaded
 type: docs
 weight: 40
 url: /net/aspose.email/loadoptions/removesignature/
 ---
 ## LoadOptions.RemoveSignature property
 
-Gets or sets a value indicating whether signature will be removed while loading.
+Gets or sets a value indicating whether the digital signature is removed from a signed message while it is loaded.
 
 ```csharp
 public bool RemoveSignature { get; set; }
@@ -16,7 +16,7 @@ public bool RemoveSignature { get; set; }
 
 ### Property Value
 
-`true` if will be removed; otherwise, `false`.
+`true` to remove the signature; otherwise, `false`. The default is `false`.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: PropertyDescriptor.GetInstance
 second_title: Aspose.Email for .NET API Reference
-description: PropertyDescriptor method. Retrieves PidTagPropertyDescriptor object
+description: PropertyDescriptor method. Gets the descriptor of a tagged property by its ID and data type
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/propertydescriptor/getinstance/
 ---
 ## GetInstance(int, PropertyDataType) {#getinstance_2}
 
-Retrieves [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor/) object
+Gets the descriptor of a tagged property by its ID and data type.
 
 ```csharp
 public static PidTagPropertyDescriptor GetInstance(int id, PropertyDataType dataType)
@@ -16,12 +16,12 @@ public static PidTagPropertyDescriptor GetInstance(int id, PropertyDataType data
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| id | Int32 | Id of a property |
-| dataType | PropertyDataType | Data type of a property |
+| id | Int32 | The 16-bit ID of the property. |
+| dataType | PropertyDataType | The data type of the property. |
 
 ### Return Value
 
-[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor/) object
+The descriptor: the one from [`KnownPropertyList`](../../knownpropertylist/) if the property is known; otherwise a new one.
 
 ### See Also
 
@@ -35,7 +35,7 @@ public static PidTagPropertyDescriptor GetInstance(int id, PropertyDataType data
 
 ## GetInstance(long) {#getinstance_3}
 
-Retrieves [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor/) object
+Gets the descriptor of a tagged property by its tag.
 
 ```csharp
 public static PidTagPropertyDescriptor GetInstance(long tag)
@@ -43,11 +43,11 @@ public static PidTagPropertyDescriptor GetInstance(long tag)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | Int64 | Tag of a property |
+| tag | Int64 | The tag of the property. |
 
 ### Return Value
 
-[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor/) object
+The descriptor: the one from [`KnownPropertyList`](../../knownpropertylist/) if the property is known; otherwise a new one.
 
 ### See Also
 
@@ -60,7 +60,7 @@ public static PidTagPropertyDescriptor GetInstance(long tag)
 
 ## GetInstance(long, PropertyDataType, Guid) {#getinstance}
 
-Retrieves [`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor/) object
+Gets the descriptor of a named property by its numeric ID (LID).
 
 ```csharp
 public static PidLidPropertyDescriptor GetInstance(long lid, PropertyDataType dataType, 
@@ -69,13 +69,13 @@ public static PidLidPropertyDescriptor GetInstance(long lid, PropertyDataType da
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lid | Int64 | Long id of a property |
-| dataType | PropertyDataType | Data type of a property |
-| propertySet | Guid | PropertySet of a property |
+| lid | Int64 | The numeric ID of the property. |
+| dataType | PropertyDataType | The data type of the property. |
+| propertySet | Guid | The GUID of the property set. |
 
 ### Return Value
 
-[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor/) object
+The descriptor: the one from [`KnownPropertyList`](../../knownpropertylist/) if the property is known; otherwise a new one.
 
 ### See Also
 
@@ -89,7 +89,7 @@ public static PidLidPropertyDescriptor GetInstance(long lid, PropertyDataType da
 
 ## GetInstance(string, PropertyDataType, Guid) {#getinstance_1}
 
-Retrieves [`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor/) object
+Gets the descriptor of a named property by its name.
 
 ```csharp
 public static PidNamePropertyDescriptor GetInstance(string name, PropertyDataType dataType, 
@@ -98,13 +98,13 @@ public static PidNamePropertyDescriptor GetInstance(string name, PropertyDataTyp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | Name of a property |
-| dataType | PropertyDataType | Data type of a property |
-| propertySet | Guid | PropertySet of a property |
+| name | String | The name of the property. |
+| dataType | PropertyDataType | The data type of the property. |
+| propertySet | Guid | The GUID of the property set. |
 
 ### Return Value
 
-[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor/) object
+The descriptor: the one from [`KnownPropertyList`](../../knownpropertylist/) if the property is known; otherwise a new one.
 
 ### See Also
 
@@ -118,7 +118,7 @@ public static PidNamePropertyDescriptor GetInstance(string name, PropertyDataTyp
 
 ## GetInstance(MapiProperty) {#getinstance_4}
 
-Retrieves [`PropertyDescriptor`](../) object from MAPI property
+Gets the descriptor of a MAPI property.
 
 ```csharp
 public static PropertyDescriptor GetInstance(MapiProperty property)
@@ -126,7 +126,11 @@ public static PropertyDescriptor GetInstance(MapiProperty property)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| property | MapiProperty | [`MapiProperty`](../../mapiproperty/) object |
+| property | MapiProperty | The property. |
+
+### Return Value
+
+The descriptor of *property*.
 
 ### See Also
 

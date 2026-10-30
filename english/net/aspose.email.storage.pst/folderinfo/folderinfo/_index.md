@@ -14,6 +14,10 @@ Initializes a new instance of the [`FolderInfo`](../) class.
 public FolderInfo()
 ```
 
+## Remarks
+
+A folder created this way is not connected to any PST. To work with a folder, get it from a [`PersonalStorage`](../../personalstorage/) object.
+
 ### See Also
 
 * class [FolderInfo](../)

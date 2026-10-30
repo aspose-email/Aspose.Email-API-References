@@ -1,14 +1,14 @@
 ---
 title: MessageFormat.GetHashCode
 second_title: Aspose.Email for .NET API Reference
-description: MessageFormat method. Serves as a hash function for a particular type
+description: MessageFormat method. Returns the hash code of the format
 type: docs
 weight: 80
 url: /net/aspose.email/messageformat/gethashcode/
 ---
 ## MessageFormat.GetHashCode method
 
-Serves as a hash function for a particular type.
+Returns the hash code of the format.
 
 ```csharp
 public override int GetHashCode()
@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### Return Value
 
-A hash code for the current Object.
+The hash code.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: MapiTask.History
 second_title: Aspose.Email for .NET API Reference
-description: MapiTask property. Gets or sets the type of change that was last made to the Task object
+description: MapiTask property. Gets or sets the last change made to the task
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.email.mapi/mapitask/history/
 ---
 ## MapiTask.History property
 
-Gets or sets the type of change that was last made to the Task object.
+Gets or sets the last change made to the task.
 
 ```csharp
 public MapiTaskHistory History { get; set; }

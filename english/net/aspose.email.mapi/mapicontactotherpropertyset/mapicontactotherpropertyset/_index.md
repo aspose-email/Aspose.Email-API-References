@@ -1,14 +1,14 @@
 ---
 title: MapiContactOtherPropertySet.MapiContactOtherPropertySet
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactOtherPropertySet constructor. Initializes a new instance of MapiContactOtherPropertySet class
+description: MapiContactOtherPropertySet constructor. Initializes a new instance of the MapiContactOtherPropertySet class
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapicontactotherpropertyset/mapicontactotherpropertyset/
 ---
 ## MapiContactOtherPropertySet constructor
 
-Initializes a new instance of [`MapiContactOtherPropertySet`](../) class
+Initializes a new instance of the [`MapiContactOtherPropertySet`](../) class.
 
 ```csharp
 public MapiContactOtherPropertySet()

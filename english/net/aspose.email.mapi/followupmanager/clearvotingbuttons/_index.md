@@ -1,14 +1,14 @@
 ---
 title: FollowUpManager.ClearVotingButtons
 second_title: Aspose.Email for .NET API Reference
-description: FollowUpManager method. Deletes the voting buttons
+description: FollowUpManager method. Removes all voting buttons from the message
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/followupmanager/clearvotingbuttons/
 ---
 ## FollowUpManager.ClearVotingButtons method
 
-Deletes the voting buttons.
+Removes all voting buttons from the message.
 
 ```csharp
 public static void ClearVotingButtons(MapiMessageItemBase message)
@@ -16,7 +16,7 @@ public static void ClearVotingButtons(MapiMessageItemBase message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which the categories will be cleared. |
+| message | MapiMessageItemBase | The message to remove the buttons from. |
 
 ### Exceptions
 

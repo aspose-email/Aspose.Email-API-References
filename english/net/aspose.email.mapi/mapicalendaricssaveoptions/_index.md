@@ -1,14 +1,14 @@
 ---
 title: Class MapiCalendarIcsSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendarIcsSaveOptions class. Provides options for controlling how MapiCalendar instances are saved to iCalendar ICS format. This class extends MapiCalendarSaveOptions and adds iCalendarspecific configuration options for date/time handling and product identification
+description: Aspose.Email.Mapi.MapiCalendarIcsSaveOptions class. Options for saving a MapiCalendar to iCalendar .ics format
 type: docs
 weight: 16790
 url: /net/aspose.email.mapi/mapicalendaricssaveoptions/
 ---
 ## MapiCalendarIcsSaveOptions class
 
-Provides options for controlling how [`MapiCalendar`](../mapicalendar/) instances are saved to iCalendar (ICS) format. This class extends [`MapiCalendarSaveOptions`](../mapicalendarsaveoptions/) and adds iCalendar-specific configuration options for date/time handling and product identification.
+Options for saving a [`MapiCalendar`](../mapicalendar/) to iCalendar (.ics) format.
 
 ```csharp
 public class MapiCalendarIcsSaveOptions : MapiCalendarSaveOptions
@@ -18,19 +18,19 @@ public class MapiCalendarIcsSaveOptions : MapiCalendarSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [MapiCalendarIcsSaveOptions](mapicalendaricssaveoptions/)() | Initializes a new instance of the [`MapiCalendarSaveOptions`](../mapicalendarsaveoptions/) class |
+| [MapiCalendarIcsSaveOptions](mapicalendaricssaveoptions/)() | Initializes a new instance of the `MapiCalendarIcsSaveOptions` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [KeepOriginalDateTimeStamp](../../aspose.email.mapi/mapicalendaricssaveoptions/keeporiginaldatetimestamp/) { get; set; } | Gets or sets a value indicating whether to keep the original date and time stamps when saving to iCalendar format. When set to true, the original timestamp information is preserved in the output ICS file. |
-| [ProductIdentifier](../../aspose.email.mapi/mapicalendarsaveoptions/productidentifier/) { get; set; } | Gets or sets the product identifier. |
-| [SaveFormat](../../aspose.email.mapi/mapicalendarsaveoptions/saveformat/) { get; } | Gets a save format. |
+| [KeepOriginalDateTimeStamp](../../aspose.email.mapi/mapicalendaricssaveoptions/keeporiginaldatetimestamp/) { get; set; } | Gets or sets a value indicating whether the original date and time stamp (`DTSTAMP`) of the item is written instead of the time of saving. |
+| [ProductIdentifier](../../aspose.email.mapi/mapicalendarsaveoptions/productidentifier/) { get; set; } | Gets or sets the identifier of the product that created the iCalendar file, written to its `PRODID` property. |
+| [SaveFormat](../../aspose.email.mapi/mapicalendarsaveoptions/saveformat/) { get; } | Gets the format these options save to. |
 
 ## Remarks
 
-Use this class with [`Save`](../mapicalendar/save/) to save calendar items in iCalendar format. The [`KeepOriginalDateTimeStamp`](./keeporiginaldatetimestamp/) property controls whether original date/time stamps are preserved, and !:ProductIdentifier allows you to specify the product identifier for the generated iCalendar object.
+Pass an instance to [`Save`](../mapicalendar/save/). [`KeepOriginalDateTimeStamp`](./keeporiginaldatetimestamp/) keeps the `DTSTAMP` of the item, and the inherited [`ProductIdentifier`](../mapicalendarsaveoptions/productidentifier/) sets the `PRODID` of the file.
 
 ### See Also
 

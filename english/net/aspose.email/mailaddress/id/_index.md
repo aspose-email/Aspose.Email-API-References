@@ -1,14 +1,14 @@
 ---
 title: MailAddress.Id
 second_title: Aspose.Email for .NET API Reference
-description: MailAddress property. Gets object identification information
+description: MailAddress property. Gets the identifiers of the address on the server it came from such as Exchange
 type: docs
 weight: 60
 url: /net/aspose.email/mailaddress/id/
 ---
 ## MailAddress.Id property
 
-Gets object identification information
+Gets the identifiers of the address on the server it came from, such as Exchange.
 
 ```csharp
 public ObjectIdentifier Id { get; }

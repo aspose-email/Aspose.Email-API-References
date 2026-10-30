@@ -1,14 +1,14 @@
 ---
 title: MapiNamedPropertyMappingStorage.Content
 second_title: Aspose.Email for .NET API Reference
-description: MapiNamedPropertyMappingStorage property. Gets the content
+description: MapiNamedPropertyMappingStorage property. Gets the content of the storage
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapinamedpropertymappingstorage/content/
 ---
 ## MapiNamedPropertyMappingStorage.Content property
 
-Gets the content
+Gets the content of the storage.
 
 ```csharp
 public object Content { get; }
@@ -16,7 +16,7 @@ public object Content { get; }
 
 ### Property Value
 
-The content
+The content.
 
 ### See Also
 

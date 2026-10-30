@@ -1,14 +1,14 @@
 ---
 title: MapiJournal.Flags
 second_title: Aspose.Email for .NET API Reference
-description: MapiJournal property. Gets or sets a flags that contains metadata about the Journal object
+description: MapiJournal property. Gets or sets the flags of the journal entry
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.email.mapi/mapijournal/flags/
 ---
 ## MapiJournal.Flags property
 
-Gets or sets a flags that contains metadata about the Journal object.
+Gets or sets the flags of the journal entry.
 
 ```csharp
 public MapiJournalFlags Flags { get; set; }
@@ -16,7 +16,7 @@ public MapiJournalFlags Flags { get; set; }
 
 ### Property Value
 
-The journal flags.
+The flags.
 
 ### See Also
 

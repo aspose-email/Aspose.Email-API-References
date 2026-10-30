@@ -8,7 +8,7 @@ url: /net/aspose.email.mapi/mapicontactnamepropertyset/displayname/
 ---
 ## MapiContactNamePropertySet.DisplayName property
 
-Gets or sets the full name of the contact
+Gets or sets the full name of the contact.
 
 ```csharp
 public string DisplayName { get; set; }

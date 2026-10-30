@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.MessageFormat
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage property. Gets the outlook message format
+description: MapiMessage property. Gets the format of the message Unicode or ANSI
 type: docs
 weight: 200
 url: /net/aspose.email.mapi/mapimessage/messageformat/
 ---
 ## MapiMessage.MessageFormat property
 
-Gets the outlook message format.
+Gets the format of the message: Unicode or ANSI.
 
 ```csharp
 public OutlookMessageFormat MessageFormat { get; }
@@ -16,7 +16,7 @@ public OutlookMessageFormat MessageFormat { get; }
 
 ### Property Value
 
-The outlook message format.
+The format.
 
 ### See Also
 

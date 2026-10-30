@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.DisplayNamePrefix
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage property. Gets a prefix of the display name
+description: MapiMessage property. Gets the prefix of the display name such as a title
 type: docs
 weight: 120
 url: /net/aspose.email.mapi/mapimessage/displaynameprefix/
 ---
 ## MapiMessage.DisplayNamePrefix property
 
-Gets a prefix of the display name.
+Gets the prefix of the display name, such as a title.
 
 ```csharp
 public string DisplayNamePrefix { get; }
@@ -16,7 +16,7 @@ public string DisplayNamePrefix { get; }
 
 ### Property Value
 
-The string that represents display name prefix.
+The prefix.
 
 ### See Also
 

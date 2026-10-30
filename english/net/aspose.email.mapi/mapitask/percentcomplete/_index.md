@@ -1,14 +1,14 @@
 ---
 title: MapiTask.PercentComplete
 second_title: Aspose.Email for .NET API Reference
-description: MapiTask property. Gets or sets the progress the user has made on a task
+description: MapiTask property. Gets or sets the progress of the task from 0 to 100 percent
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.email.mapi/mapitask/percentcomplete/
 ---
 ## MapiTask.PercentComplete property
 
-Gets or sets the progress the user has made on a task.
+Gets or sets the progress of the task, from 0 to 100 percent.
 
 ```csharp
 public int PercentComplete { get; set; }

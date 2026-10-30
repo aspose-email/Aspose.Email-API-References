@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.CdoRecurrenceid
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Identifies a specific instance of a recurring appointment. Area Exchange Canonical name PidTagCdoRecurrenceid Alternate names PR_CDO_RECURRENCEID urnschemascalendarrecurrenceid
+description: KnownPropertyList field. Identifies a specific instance of a recurring appointment. Area Exchange. Canonical name PidTagCdoRecurrenceid. Alternate names PR_CDO_RECURRENCEID urnschemascalendarrecurrenceid
 type: docs
 weight: 2620
 url: /net/aspose.email.mapi/knownpropertylist/cdorecurrenceid/
 ---
 ## KnownPropertyList.CdoRecurrenceid field
 
-Identifies a specific instance of a recurring appointment. Area: Exchange Canonical name: PidTagCdoRecurrenceid Alternate names: PR_CDO_RECURRENCEID, urn:schemas:calendar:recurrenceid
+Identifies a specific instance of a recurring appointment. Area: Exchange. Canonical name: PidTagCdoRecurrenceid. Alternate names: PR_CDO_RECURRENCEID, urn:schemas:calendar:recurrenceid.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor CdoRecurrenceid;

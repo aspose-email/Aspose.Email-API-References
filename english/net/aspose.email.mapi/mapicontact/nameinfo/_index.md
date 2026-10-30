@@ -1,14 +1,14 @@
 ---
 title: MapiContact.NameInfo
 second_title: Aspose.Email for .NET API Reference
-description: MapiContact property. The properties are used to specify the name of the person represented by the contact
+description: MapiContact property. Gets or sets the name of the contact given name surname title and so on
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.email.mapi/mapicontact/nameinfo/
 ---
 ## MapiContact.NameInfo property
 
-The properties are used to specify the name of the person represented by the contact
+Gets or sets the name of the contact: given name, surname, title and so on.
 
 ```csharp
 public MapiContactNamePropertySet NameInfo { get; set; }

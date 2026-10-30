@@ -1,14 +1,14 @@
 ---
 title: Class TaskSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.TaskSaveOptions class. Represents base task save options
+description: Aspose.Email.Calendar.TaskSaveOptions class. The base class for task save options use TaskIcsSaveOptions or TaskMsgSaveOptions
 type: docs
 weight: 920
 url: /net/aspose.email.calendar/tasksaveoptions/
 ---
 ## TaskSaveOptions class
 
-Represents base task save options
+The base class for task save options; use [`TaskIcsSaveOptions`](../taskicssaveoptions/) or [`TaskMsgSaveOptions`](../taskmsgsaveoptions/).
 
 ```csharp
 public abstract class TaskSaveOptions
@@ -18,7 +18,7 @@ public abstract class TaskSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [SaveFormat](../../aspose.email.calendar/tasksaveoptions/saveformat/) { get; } | Gets a save format |
+| [SaveFormat](../../aspose.email.calendar/tasksaveoptions/saveformat/) { get; } | Gets the format these options save to. |
 
 ### See Also
 

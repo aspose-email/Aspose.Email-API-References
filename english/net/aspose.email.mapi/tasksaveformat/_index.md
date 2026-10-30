@@ -1,14 +1,14 @@
 ---
 title: Enum TaskSaveFormat
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.TaskSaveFormat enum. Enumerates TaskSaveFormat
+description: Aspose.Email.Mapi.TaskSaveFormat enum. Defines the formats of a task
 type: docs
 weight: 17890
 url: /net/aspose.email.mapi/tasksaveformat/
 ---
 ## TaskSaveFormat enumeration
 
-Enumerates TaskSaveFormat
+Defines the formats of a task.
 
 ```csharp
 public enum TaskSaveFormat
@@ -18,8 +18,8 @@ public enum TaskSaveFormat
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Msg | `0` | MSG format. |
-| Ics | `1` | ICS format. |
+| Msg | `0` | Outlook message (.msg). |
+| Ics | `1` | iCalendar (.ics) with a VTODO. |
 
 ### See Also
 

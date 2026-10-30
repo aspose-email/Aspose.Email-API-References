@@ -1,14 +1,14 @@
 ---
 title: AppointmentIcsSaveOptions.Default
 second_title: Aspose.Email for .NET API Reference
-description: AppointmentIcsSaveOptions property. Gets the default Ics save options
+description: AppointmentIcsSaveOptions property. Gets a new instance of the default iCalendar save options with Action set to AppointmentAction.Create
 type: docs
 weight: 20
 url: /net/aspose.email.calendar/appointmenticssaveoptions/default/
 ---
 ## AppointmentIcsSaveOptions.Default property
 
-Gets the default Ics save options
+Gets a new instance of the default iCalendar save options, with `Action` set to `AppointmentAction.Create`.
 
 ```csharp
 public static AppointmentIcsSaveOptions Default { get; }

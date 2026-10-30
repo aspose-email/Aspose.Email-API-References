@@ -16,7 +16,7 @@ public MapiMessagePropertyStream(MapiMessageItemBase parent)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parent | MapiMessageItemBase | The parent. |
+| parent | MapiMessageItemBase | The item the stream belongs to. |
 
 ### See Also
 

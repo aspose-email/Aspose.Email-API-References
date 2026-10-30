@@ -1,14 +1,14 @@
 ---
 title: MapiJournal.Save
 second_title: Aspose.Email for .NET API Reference
-description: MapiJournal method. Saves the specified file name
+description: MapiJournal method. Saves the journal entry to a file in MSG format
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.email.mapi/mapijournal/save/
 ---
 ## Save(string) {#save_1}
 
-Saves the specified file name.
+Saves the journal entry to a file in MSG format.
 
 ```csharp
 public void Save(string fileName)
@@ -16,7 +16,7 @@ public void Save(string fileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Name of the file. |
+| fileName | String | The path of the file to write. |
 
 ### See Also
 
@@ -28,7 +28,7 @@ public void Save(string fileName)
 
 ## Save(Stream) {#save}
 
-Saves the specified stream.
+Saves the journal entry to a stream in MSG format.
 
 ```csharp
 public void Save(Stream stream)
@@ -36,7 +36,7 @@ public void Save(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The stream. |
+| stream | Stream | The stream to write to. |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: Enum AppointmentMethodType
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.AppointmentMethodType enum. Defines the iCalendar object method type associated with the calendar object
+description: Aspose.Email.Calendar.AppointmentMethodType enum. Defines the iCalendar METHOD of a calendar object as specified by iTIP RFC 5546
 type: docs
 weight: 490
 url: /net/aspose.email.calendar/appointmentmethodtype/
 ---
 ## AppointmentMethodType enumeration
 
-Defines the iCalendar object method type associated with the calendar object.
+Defines the iCalendar METHOD of a calendar object, as specified by iTIP (RFC 5546).
 
 ```csharp
 public enum AppointmentMethodType
@@ -18,15 +18,15 @@ public enum AppointmentMethodType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0` | Method is not defined. |
-| Publish | `1` | Post notification of an event. Used primarily as a method of advertising the existence of an event. |
-| Request | `2` | Make a request for an event. This is an explicit invitation to one or more "Attendees". |
-| Reply | `3` | Reply to an event request. |
-| Add | `4` | Add one or more instances to an existing event. |
-| Cancel | `5` | Cancel one or more instances of an existing event. |
-| Refresh | `6` | A request is sent to an "Organizer" by an "Attendee" asking for the latest version of an event to be resent to the requester. |
-| Counter | `7` | Counter a REQUEST with an alternative proposal, Sent by an "Attendee" to the "Organizer". |
-| DeclineCounter | `8` | Decline a counter proposal. Sent to an "Attendee" by the "Organizer". |
+| None | `0` | The method is not set. |
+| Publish | `1` | Publishes an event to share it, without inviting anyone. |
+| Request | `2` | Invites one or more attendees to an event, or updates an existing invitation. |
+| Reply | `3` | Replies to a request, for example to accept or decline it. |
+| Add | `4` | Adds one or more instances to an existing event. |
+| Cancel | `5` | Cancels one or more instances of an existing event. |
+| Refresh | `6` | Sent by an attendee to the organizer to ask for the latest version of an event. |
+| Counter | `7` | Sent by an attendee to the organizer to propose a change to an event. |
+| DeclineCounter | `8` | Sent by the organizer to an attendee to decline a proposed change. |
 
 ### See Also
 

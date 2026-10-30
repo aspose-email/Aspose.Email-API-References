@@ -1,14 +1,14 @@
 ---
 title: MapiMessageItemBase.Attachments
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessageItemBase property. Gets the attachments in the message
+description: MapiMessageItemBase property. Gets the attachments of the item
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapimessageitembase/attachments/
 ---
 ## MapiMessageItemBase.Attachments property
 
-Gets the attachments in the message.
+Gets the attachments of the item.
 
 ```csharp
 public MapiAttachmentCollection Attachments { get; }
@@ -16,7 +16,7 @@ public MapiAttachmentCollection Attachments { get; }
 
 ### Property Value
 
-The attachment collection.
+The attachments.
 
 ### See Also
 

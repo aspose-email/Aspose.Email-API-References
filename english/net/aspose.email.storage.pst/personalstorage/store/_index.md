@@ -16,7 +16,7 @@ public MessageStore Store { get; }
 
 ### Property Value
 
-The [`MessageStore`](../../messagestore/) which is the rough equivalent of the top of a Mailbox.
+The [`MessageStore`](../../messagestore/), the top-level object of the PST.
 
 ### See Also
 

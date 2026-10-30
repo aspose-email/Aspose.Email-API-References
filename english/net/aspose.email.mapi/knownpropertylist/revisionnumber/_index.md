@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.RevisionNumber
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies the revision number of the file attached to the Document object. Area Common Canonical name PidNameRevisionNumber Alternate names urnschemasmicrosoftcomofficeofficeRevision
+description: KnownPropertyList field. Specifies the revision number of the file attached to the Document object. Area Common. Canonical name PidNameRevisionNumber. Alternate names urnschemasmicrosoftcomofficeofficeRevision
 type: docs
 weight: 16360
 url: /net/aspose.email.mapi/knownpropertylist/revisionnumber/
 ---
 ## KnownPropertyList.RevisionNumber field
 
-Specifies the revision number of the file attached to the Document object. Area: Common Canonical name: PidNameRevisionNumber Alternate names: urn:schemas-microsoft-com:office:office#Revision
+Specifies the revision number of the file attached to the Document object. Area: Common. Canonical name: PidNameRevisionNumber. Alternate names: urn:schemas-microsoft-com:office:office#Revision.
 
 ```csharp
 public static readonly PidNamePropertyDescriptor RevisionNumber;

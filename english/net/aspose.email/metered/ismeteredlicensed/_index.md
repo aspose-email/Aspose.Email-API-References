@@ -1,14 +1,14 @@
 ---
 title: Metered.IsMeteredLicensed
 second_title: Aspose.Email for .NET API Reference
-description: Metered method. Check whether metered is licensed
+description: Metered method. Gets a value indicating whether a metered license is active
 type: docs
 weight: 80
 url: /net/aspose.email/metered/ismeteredlicensed/
 ---
 ## Metered.IsMeteredLicensed method
 
-Check whether metered is licensed
+Gets a value indicating whether a metered license is active.
 
 ```csharp
 public static bool IsMeteredLicensed()
@@ -16,7 +16,7 @@ public static bool IsMeteredLicensed()
 
 ### Return Value
 
-True or false
+`true` if a metered license is active; otherwise, `false`.
 
 ### See Also
 

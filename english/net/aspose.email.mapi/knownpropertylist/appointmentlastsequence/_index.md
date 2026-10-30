@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AppointmentLastSequence
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Indicates to the organizer the last sequence number that was sent to any attendee. Area Meetings Canonical name PidLidAppointmentLastSequence Alternate names dispidApptLastSequence
+description: KnownPropertyList field. Indicates to the organizer the last sequence number that was sent to any attendee. Area Meetings. Canonical name PidLidAppointmentLastSequence. Alternate names dispidApptLastSequence
 type: docs
 weight: 1180
 url: /net/aspose.email.mapi/knownpropertylist/appointmentlastsequence/
 ---
 ## KnownPropertyList.AppointmentLastSequence field
 
-Indicates to the organizer the last sequence number that was sent to any attendee. Area: Meetings Canonical name: PidLidAppointmentLastSequence Alternate names: dispidApptLastSequence
+Indicates to the organizer the last sequence number that was sent to any attendee. Area: Meetings. Canonical name: PidLidAppointmentLastSequence. Alternate names: dispidApptLastSequence.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentLastSequence;

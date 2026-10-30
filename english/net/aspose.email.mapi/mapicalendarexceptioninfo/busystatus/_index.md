@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarExceptionInfo.BusyStatus
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarExceptionInfo property. Gets or sets the busy status
+description: MapiCalendarExceptionInfo property. Gets or sets the busy status of the exception
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/busystatus/
 ---
 ## MapiCalendarExceptionInfo.BusyStatus property
 
-Gets or sets the busy status.
+Gets or sets the busy status of the exception.
 
 ```csharp
 public MapiCalendarBusyStatus BusyStatus { get; set; }

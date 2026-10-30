@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarExceptionInfo.StartDateTime
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarExceptionInfo property. Gets or sets the start date
+description: MapiCalendarExceptionInfo property. Gets or sets the start date and time of the exception
 type: docs
 weight: 130
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/startdatetime/
 ---
 ## MapiCalendarExceptionInfo.StartDateTime property
 
-Gets or sets the start date.
+Gets or sets the start date and time of the exception.
 
 ```csharp
 public DateTime StartDateTime { get; set; }
@@ -16,7 +16,7 @@ public DateTime StartDateTime { get; set; }
 
 ### Property Value
 
-The start date time.
+The start date and time.
 
 ### See Also
 

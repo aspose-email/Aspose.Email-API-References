@@ -29,24 +29,24 @@ public class MailAddress : IMailAddress
 
 | Name | Description |
 | --- | --- |
-| [Address](../../aspose.email/mailaddress/address/) { get; set; } | Gets or sets the e-mail address. |
-| [Count](../../aspose.email/mailaddress/count/) { get; } | Contains count of mail addresses. |
-| [DisplayName](../../aspose.email/mailaddress/displayname/) { get; set; } | Gets or sets a display name. |
-| [Host](../../aspose.email/mailaddress/host/) { get; } | Gets the host portion of the address. |
-| [Id](../../aspose.email/mailaddress/id/) { get; } | Gets object identification information |
-| [Item](../../aspose.email/mailaddress/item/) { get; } | Gets the element at the specified index. |
-| [OriginalAddressString](../../aspose.email/mailaddress/originaladdressstring/) { get; } | Gets or sets the original e-mail address string. |
-| [ParticipationStatus](../../aspose.email/mailaddress/participationstatus/) { get; set; } | Gets or sets the participation status for the calendar user. |
-| [User](../../aspose.email/mailaddress/user/) { get; } | Gets the username. |
-| [X500Address](../../aspose.email/mailaddress/x500address/) { get; } | Gets the email address in Exchange format, if it exists. |
+| [Address](../../aspose.email/mailaddress/address/) { get; set; } | Gets or sets the e-mail address, such as `john@example.com`. |
+| [Count](../../aspose.email/mailaddress/count/) { get; } | Gets the number of addresses, which is always 1. Together with the indexer it lets an address be used where a list is expected. |
+| [DisplayName](../../aspose.email/mailaddress/displayname/) { get; set; } | Gets or sets the display name, such as `John Smith`. |
+| [Host](../../aspose.email/mailaddress/host/) { get; } | Gets the host part of the address: the part after `@`. |
+| [Id](../../aspose.email/mailaddress/id/) { get; } | Gets the identifiers of the address on the server it came from, such as Exchange. |
+| [Item](../../aspose.email/mailaddress/item/) { get; } | Gets the address itself; the index is ignored. |
+| [OriginalAddressString](../../aspose.email/mailaddress/originaladdressstring/) { get; } | Gets the address exactly as it appeared in the message, before it was parsed. |
+| [ParticipationStatus](../../aspose.email/mailaddress/participationstatus/) { get; set; } | Gets or sets the response of the attendee to a meeting request, when the address is a meeting attendee. |
+| [User](../../aspose.email/mailaddress/user/) { get; } | Gets the user part of the address: the part before `@`. |
+| [X500Address](../../aspose.email/mailaddress/x500address/) { get; } | Gets the Exchange (X.500) form of the address, if the message has one. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.email/mailaddress/equals/)(object) | Determines whether the specified Object is equal to this instance. |
+| override [Equals](../../aspose.email/mailaddress/equals/)(object) | Determines whether the specified object is the same e-mail address. |
 | override [GetHashCode](../../aspose.email/mailaddress/gethashcode/)() | Returns a hash code for this instance. |
-| override [ToString](../../aspose.email/mailaddress/tostring/)() | Returns a String that represents this instance. |
+| override [ToString](../../aspose.email/mailaddress/tostring/)() | Returns the address with its display name, as written in a header. |
 | [implicit operator](../../aspose.email/mailaddress/op_implicit/#op_implicit_1) | Performs an implicit conversion from String to `MailAddress`. (2 operators) |
 
 ## Remarks

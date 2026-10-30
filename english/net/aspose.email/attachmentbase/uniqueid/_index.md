@@ -1,14 +1,14 @@
 ---
 title: AttachmentBase.UniqueId
 second_title: Aspose.Email for .NET API Reference
-description: AttachmentBase property. Gets or sets a unique identifier for the attachment that will be constant for each application run
+description: AttachmentBase property. Gets an identifier of the part that stays the same while the application runs
 type: docs
 weight: 60
 url: /net/aspose.email/attachmentbase/uniqueid/
 ---
 ## AttachmentBase.UniqueId property
 
-Gets or sets a unique identifier for the attachment that will be constant for each application run.
+Gets an identifier of the part that stays the same while the application runs.
 
 ```csharp
 public string UniqueId { get; }

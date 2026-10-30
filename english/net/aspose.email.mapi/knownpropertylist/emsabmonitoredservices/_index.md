@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.EmsAbMonitoredServices
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_MONITORED_SERVICES
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_EMS_AB_MONITORED_SERVICES. Property tag 0x80DB101E data type MultipleString8
 type: docs
 weight: 7400
 url: /net/aspose.email.mapi/knownpropertylist/emsabmonitoredservices/
 ---
 ## KnownPropertyList.EmsAbMonitoredServices field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_EMS_AB_MONITORED_SERVICES
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_EMS_AB_MONITORED_SERVICES. Property tag: 0x80DB101E; data type: MultipleString8.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbMonitoredServices;

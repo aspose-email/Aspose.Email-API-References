@@ -1,14 +1,14 @@
 ---
 title: FollowUpManager.GetCategories
 second_title: Aspose.Email for .NET API Reference
-description: FollowUpManager method. Get the available message categories
+description: FollowUpManager method. Gets the categories of the message
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/followupmanager/getcategories/
 ---
 ## FollowUpManager.GetCategories method
 
-Get the available message categories.
+Gets the categories of the message.
 
 ```csharp
 public static IList<string> GetCategories(MapiMessageItemBase message)
@@ -16,11 +16,11 @@ public static IList<string> GetCategories(MapiMessageItemBase message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which the categories are added. |
+| message | MapiMessageItemBase | The message to read. |
 
 ### Return Value
 
-The list of added categories.
+The names of the categories; an empty list if the message has none.
 
 ### Exceptions
 

@@ -8,7 +8,7 @@ url: /net/aspose.email.mapi/mapicontactphysicaladdress/postofficebox/
 ---
 ## MapiContactPhysicalAddress.PostOfficeBox property
 
-Gets or sets the post office box
+Gets or sets the post office box.
 
 ```csharp
 public string PostOfficeBox { get; set; }

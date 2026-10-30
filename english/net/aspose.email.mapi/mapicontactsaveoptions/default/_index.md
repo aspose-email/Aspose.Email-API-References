@@ -1,14 +1,14 @@
 ---
 title: MapiContactSaveOptions.Default
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactSaveOptions property. Gets the default options
+description: MapiContactSaveOptions property. Gets new MSG save options with the default settings
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicontactsaveoptions/default/
 ---
 ## MapiContactSaveOptions.Default property
 
-Gets the default options.
+Gets new MSG save options with the default settings.
 
 ```csharp
 public static MapiContactSaveOptions Default { get; }
@@ -16,7 +16,7 @@ public static MapiContactSaveOptions Default { get; }
 
 ### Property Value
 
-The [`MapiContactSaveOptions`](../) by default.
+The default options.
 
 ### See Also
 

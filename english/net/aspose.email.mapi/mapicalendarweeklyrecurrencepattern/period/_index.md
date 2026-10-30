@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarWeeklyRecurrencePattern.Period
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarWeeklyRecurrencePattern property. Gets or sets interval in weeks at which the meeting pattern repeats
+description: MapiCalendarWeeklyRecurrencePattern property. Gets or sets the interval of the recurrence in weeks
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapicalendarweeklyrecurrencepattern/period/
 ---
 ## MapiCalendarWeeklyRecurrencePattern.Period property
 
-Gets or sets interval (in weeks) at which the meeting pattern repeats
+Gets or sets the interval of the recurrence, in weeks.
 
 ```csharp
 public override uint Period { get; set; }

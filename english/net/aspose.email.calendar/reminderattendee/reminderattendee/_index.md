@@ -1,14 +1,14 @@
 ---
 title: ReminderAttendee.ReminderAttendee
 second_title: Aspose.Email for .NET API Reference
-description: ReminderAttendee constructor. Initialize a new instance of ReminderAttendee class
+description: ReminderAttendee constructor. Initializes a new instance of the ReminderAttendee class
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/reminderattendee/reminderattendee/
 ---
 ## ReminderAttendee constructor
 
-Initialize a new instance of [`ReminderAttendee`](../) class.
+Initializes a new instance of the [`ReminderAttendee`](../) class.
 
 ```csharp
 public ReminderAttendee(string address)
@@ -16,7 +16,13 @@ public ReminderAttendee(string address)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| address | String | Email address. |
+| address | String | The email address of the recipient. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | *address* is not a valid email address. |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AddressBookRoomDescription
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains a description of the Resource object. Area Address Book Canonical name PidTagAddressBookRoomDescription Alternate names PR_EMS_AB_ROOM_DESCRIPTION PR_EMS_AB_ROOM_DESCRIPTION_A PR_EMS_AB_ROOM_DESCRIPTION_W
+description: KnownPropertyList field. Contains a description of the Resource object. Area Address Book. Canonical name PidTagAddressBookRoomDescription. Alternate names PR_EMS_AB_ROOM_DESCRIPTION PR_EMS_AB_ROOM_DESCRIPTION_A PR_EMS_AB_ROOM_DESCRIPTION_W
 type: docs
 weight: 950
 url: /net/aspose.email.mapi/knownpropertylist/addressbookroomdescription/
 ---
 ## KnownPropertyList.AddressBookRoomDescription field
 
-Contains a description of the Resource object. Area: Address Book Canonical name: PidTagAddressBookRoomDescription Alternate names: PR_EMS_AB_ROOM_DESCRIPTION, PR_EMS_AB_ROOM_DESCRIPTION_A, PR_EMS_AB_ROOM_DESCRIPTION_W
+Contains a description of the Resource object. Area: Address Book. Canonical name: PidTagAddressBookRoomDescription. Alternate names: PR_EMS_AB_ROOM_DESCRIPTION, PR_EMS_AB_ROOM_DESCRIPTION_A, PR_EMS_AB_ROOM_DESCRIPTION_W.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookRoomDescription;

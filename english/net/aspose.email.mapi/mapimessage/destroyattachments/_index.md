@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.DestroyAttachments
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage method. Destroies the attachments in the specified Outlook Message files. DestroyAttachments will ignore the attachment parsing
+description: MapiMessage method. Removes all attachments from an MSG file and overwrites the file. The attachments are not read which is faster than RemoveAttachments
 type: docs
-weight: 450
+weight: 460
 url: /net/aspose.email.mapi/mapimessage/destroyattachments/
 ---
 ## MapiMessage.DestroyAttachments method
 
-Destroies the attachments in the specified Outlook Message files. DestroyAttachments will ignore the attachment parsing.
+Removes all attachments from an MSG file and overwrites the file. The attachments are not read, which is faster than [`RemoveAttachments`](../removeattachments/).
 
 ```csharp
 public static void DestroyAttachments(string path)
@@ -16,24 +16,29 @@ public static void DestroyAttachments(string path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | String | The name of the Outlook Message file. |
+| path | String | The path of the MSG file. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *path* is `null`. |
+| ArgumentException | *path* is empty. |
 
 ## Examples
 
-The following exmaple demonstrates how to destroy attachments in Outlook Message files.
+This example removes the attachments of an MSG file without reading them.
 
 [C#]
 
 ```csharp
-//Destroy attachments from Outlook Message files
-MapiMessage.DestroyAttachment(@"c:\outlookmessage.msg");
+MapiMessage.DestroyAttachments(@"c:\messages\message.msg");
 ```
 
 [Visual Basic]
 
 ```csharp
-'Destroy attachments from Outlook Message files
-MapiMessage.DestroyAttachment("c:\outlookmessage.msg")
+MapiMessage.DestroyAttachments("c:\messages\message.msg")
 ```
 
 ### See Also

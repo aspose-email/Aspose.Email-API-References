@@ -1,14 +1,14 @@
 ---
 title: HeadersFormattingOptions.DefaultHeaderFormat
 second_title: Aspose.Email for .NET API Reference
-description: HeadersFormattingOptions property. Default header line format
+description: HeadersFormattingOptions property. Gets or sets the HTML format of a header line from which the template of each header in FormatTemplates is built 0 stands for the name of the header
 type: docs
 weight: 50
 url: /net/aspose.email/headersformattingoptions/defaultheaderformat/
 ---
 ## HeadersFormattingOptions.DefaultHeaderFormat property
 
-Default header line format.
+Gets or sets the HTML format of a header line, from which the template of each header in [`FormatTemplates`](../formattemplates/) is built; `{0}` stands for the name of the header.
 
 ```csharp
 public string DefaultHeaderFormat { get; set; }
@@ -16,7 +16,7 @@ public string DefaultHeaderFormat { get; set; }
 
 ### Property Value
 
-The styles to be injected into resulting html body.
+The format of a header line.
 
 ### See Also
 

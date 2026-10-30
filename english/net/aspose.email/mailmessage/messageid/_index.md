@@ -1,14 +1,14 @@
 ---
 title: MailMessage.MessageId
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage property. Gets or sets the message id
+description: MailMessage property. Gets or sets the unique identifier of the message the MessageID header
 type: docs
 weight: 230
 url: /net/aspose.email/mailmessage/messageid/
 ---
 ## MailMessage.MessageId property
 
-Gets or sets the message id
+Gets or sets the unique identifier of the message (the `Message-ID` header).
 
 ```csharp
 public virtual string MessageId { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Delegate ConversionProgressEventHandler
 second_title: Aspose.Email for .NET API Reference
-description: Represents signature for method that usually supplied by calling side and handles progress events
+description: Represents the method that handles the progress events of a conversion
 type: docs
 weight: 15990
 url: /net/aspose.email/conversionprogresseventhandler/
 ---
 ## ConversionProgressEventHandler delegate
 
-Represents signature for method that usually supplied by calling side and handles progress events.
+Represents the method that handles the progress events of a conversion.
 
 ```csharp
 public delegate void ConversionProgressEventHandler(ProgressEventHandlerInfo eventInfo);
@@ -16,7 +16,7 @@ public delegate void ConversionProgressEventHandler(ProgressEventHandlerInfo eve
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| eventInfo | ProgressEventHandlerInfo |  |
+| eventInfo | ProgressEventHandlerInfo | Information about the progress. |
 
 ### See Also
 

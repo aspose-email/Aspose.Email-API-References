@@ -1,14 +1,14 @@
 ---
 title: Delegate MessageAddedEventHandler
 second_title: Aspose.Email for .NET API Reference
-description: Represents the method that will handle an MessageAdded event
+description: Represents the method that will handle a MessageAdded event
 type: docs
 weight: 19200
 url: /net/aspose.email.storage.pst/messageaddedeventhandler/
 ---
 ## MessageAddedEventHandler delegate
 
-Represents the method that will handle an [`MessageAdded`](../folderinfo/messageadded/) event.
+Represents the method that will handle a [`MessageAdded`](../folderinfo/messageadded/) event.
 
 ```csharp
 public delegate void MessageAddedEventHandler(object sender, MessageAddedEventArgs e);

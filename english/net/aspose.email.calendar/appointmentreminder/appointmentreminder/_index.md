@@ -1,14 +1,14 @@
 ---
 title: AppointmentReminder.AppointmentReminder
 second_title: Aspose.Email for .NET API Reference
-description: AppointmentReminder constructor. Initialize a new instance of AppointmentReminder class
+description: AppointmentReminder constructor. Initializes a new instance of the AppointmentReminder class
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/appointmentreminder/appointmentreminder/
 ---
 ## AppointmentReminder constructor
 
-Initialize a new instance of [`AppointmentReminder`](../) class.
+Initializes a new instance of the [`AppointmentReminder`](../) class.
 
 ```csharp
 public AppointmentReminder()

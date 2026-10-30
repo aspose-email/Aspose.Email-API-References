@@ -24,7 +24,7 @@ public AsposeInvalidOperationException()
 
 ## AsposeInvalidOperationException(string) {#constructor_1}
 
-Initializes a new instance of the [`AsposeInvalidOperationException`](../) class with a specified error message.
+Initializes a new instance of the [`AsposeInvalidOperationException`](../) class with the specified error message.
 
 ```csharp
 public AsposeInvalidOperationException(string message)
@@ -32,7 +32,7 @@ public AsposeInvalidOperationException(string message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | A message that describes the error. |
+| message | String | The message that describes the error. |
 
 ### See Also
 
@@ -44,9 +44,16 @@ public AsposeInvalidOperationException(string message)
 
 ## AsposeInvalidOperationException(string, string) {#constructor_4}
 
+Initializes a new instance of the [`AsposeInvalidOperationException`](../) class with an error message built from a format string with one argument.
+
 ```csharp
 public AsposeInvalidOperationException(string format, string parameter)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| format | String | A composite format string with one placeholder, `{0}`. |
+| parameter | String | The value inserted into *format*. |
 
 ### See Also
 
@@ -58,7 +65,7 @@ public AsposeInvalidOperationException(string format, string parameter)
 
 ## AsposeInvalidOperationException(string, params object[]) {#constructor_3}
 
-Initializes a new instance of the [`AsposeInvalidOperationException`](../) class with a specified error message.
+Initializes a new instance of the [`AsposeInvalidOperationException`](../) class with an error message built from a composite format string.
 
 ```csharp
 public AsposeInvalidOperationException(string format, params object[] parameters)
@@ -66,8 +73,8 @@ public AsposeInvalidOperationException(string format, params object[] parameters
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | String | Message format |
-| parameters | Object[] | Format parameters |
+| format | String | A composite format string, as for `String.Format`. |
+| parameters | Object[] | The objects to insert into *format*. |
 
 ### See Also
 
@@ -79,7 +86,7 @@ public AsposeInvalidOperationException(string format, params object[] parameters
 
 ## AsposeInvalidOperationException(string, Exception) {#constructor_2}
 
-Initializes a new instance of the [`AsposeInvalidOperationException`](../) class with a specified error message.
+Initializes a new instance of the [`AsposeInvalidOperationException`](../) class with the specified error message and a reference to the exception that caused it.
 
 ```csharp
 public AsposeInvalidOperationException(string message, Exception inner)
@@ -87,8 +94,8 @@ public AsposeInvalidOperationException(string message, Exception inner)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | A message that describes the error. |
-| inner | Exception | The exception causing the current exception. |
+| message | String | The message that describes the error. |
+| inner | Exception | The exception that caused this exception, or `null`. |
 
 ### See Also
 

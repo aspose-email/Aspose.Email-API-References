@@ -1,14 +1,14 @@
 ---
 title: FollowUpManager.AddVotingButton
 second_title: Aspose.Email for .NET API Reference
-description: FollowUpManager method. Adds the voting button
+description: FollowUpManager method. Adds a voting button to the message
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/followupmanager/addvotingbutton/
 ---
 ## FollowUpManager.AddVotingButton method
 
-Adds the voting button.
+Adds a voting button to the message.
 
 ```csharp
 public static void AddVotingButton(MapiMessageItemBase message, string displayName)
@@ -16,15 +16,15 @@ public static void AddVotingButton(MapiMessageItemBase message, string displayNa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which the voting button is added. |
-| displayName | String | The display name of button. |
+| message | MapiMessageItemBase | The message to add the button to. |
+| displayName | String | The text of the button, for example `Yes`. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | If *message* is null. |
-| ArgumentException | If *displayName* is null or empty. |
+| ArgumentNullException | *message* is `null`. |
+| ArgumentException | *displayName* is `null` or empty. |
 
 ### See Also
 

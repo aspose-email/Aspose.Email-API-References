@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ConferencingType
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies the type of the meeting. Area Conferencing Canonical name PidLidConferencingType Alternate names dispidConfType
+description: KnownPropertyList field. Specifies the type of the meeting. Area Conferencing. Canonical name PidLidConferencingType. Alternate names dispidConfType
 type: docs
 weight: 2950
 url: /net/aspose.email.mapi/knownpropertylist/conferencingtype/
 ---
 ## KnownPropertyList.ConferencingType field
 
-Specifies the type of the meeting. Area: Conferencing Canonical name: PidLidConferencingType Alternate names: dispidConfType
+Specifies the type of the meeting. Area: Conferencing. Canonical name: PidLidConferencingType. Alternate names: dispidConfType.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ConferencingType;

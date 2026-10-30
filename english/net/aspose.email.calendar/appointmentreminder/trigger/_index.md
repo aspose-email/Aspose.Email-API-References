@@ -1,14 +1,14 @@
 ---
 title: AppointmentReminder.Trigger
 second_title: Aspose.Email for .NET API Reference
-description: AppointmentReminder property. Specifies when an alarm will trigger
+description: AppointmentReminder property. Gets or sets when the reminder triggers
 type: docs
 weight: 100
 url: /net/aspose.email.calendar/appointmentreminder/trigger/
 ---
 ## AppointmentReminder.Trigger property
 
-Specifies when an alarm will trigger.
+Gets or sets when the reminder triggers.
 
 ```csharp
 public ReminderTrigger Trigger { get; set; }

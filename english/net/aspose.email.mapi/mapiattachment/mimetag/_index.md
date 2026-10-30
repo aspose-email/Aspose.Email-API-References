@@ -1,14 +1,14 @@
 ---
 title: MapiAttachment.MimeTag
 second_title: Aspose.Email for .NET API Reference
-description: MapiAttachment property. Gets formatting information about a Multipurpose Internet Mail Extensions MIME attachment
+description: MapiAttachment property. Gets the MIME content type of the attachment such as image/png
 type: docs
 weight: 120
 url: /net/aspose.email.mapi/mapiattachment/mimetag/
 ---
 ## MapiAttachment.MimeTag property
 
-Gets formatting information about a Multipurpose Internet Mail Extensions (MIME) attachment.
+Gets the MIME content type of the attachment, such as `image/png`.
 
 ```csharp
 public string MimeTag { get; }
@@ -16,7 +16,7 @@ public string MimeTag { get; }
 
 ### Property Value
 
-The mime tag.
+The MIME type.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: MapiAttachment.LoadFromTnef
 second_title: Aspose.Email for .NET API Reference
-description: MapiAttachment method. Load MapiAttachment from file with tnef content
+description: MapiAttachment method. Loads an attachment from a file in TNEF format
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapiattachment/loadfromtnef/
 ---
 ## LoadFromTnef(string) {#loadfromtnef_1}
 
-Load MapiAttachment from file with tnef content.
+Loads an attachment from a file in TNEF format.
 
 ```csharp
 public static MapiAttachment LoadFromTnef(string fileName)
@@ -16,17 +16,17 @@ public static MapiAttachment LoadFromTnef(string fileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Source file path. |
+| fileName | String | The path of the file. |
 
 ### Return Value
 
-MapiAttachment
+The loaded attachment.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | If *fileName* is null. |
+| ArgumentNullException | *fileName* is `null`. |
 
 ### See Also
 
@@ -38,7 +38,7 @@ MapiAttachment
 
 ## LoadFromTnef(Stream) {#loadfromtnef}
 
-Load MapiAttachment from stream with tnef content.
+Loads an attachment from a stream in TNEF format.
 
 ```csharp
 public static MapiAttachment LoadFromTnef(Stream stream)
@@ -46,11 +46,11 @@ public static MapiAttachment LoadFromTnef(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Source stream |
+| stream | Stream | The stream to read. |
 
 ### Return Value
 
-MapiAttachment
+The loaded attachment.
 
 ### See Also
 

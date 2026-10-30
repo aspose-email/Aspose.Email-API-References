@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.DesignInProgress
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_DESIGN_IN_PROGRESS
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_DESIGN_IN_PROGRESS. Property tag 0x3FE4000B data type Boolean
 type: docs
 weight: 4100
 url: /net/aspose.email.mapi/knownpropertylist/designinprogress/
 ---
 ## KnownPropertyList.DesignInProgress field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_DESIGN_IN_PROGRESS
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_DESIGN_IN_PROGRESS. Property tag: 0x3FE4000B; data type: Boolean.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DesignInProgress;

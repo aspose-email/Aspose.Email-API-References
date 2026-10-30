@@ -1,14 +1,14 @@
 ---
 title: MapiConversionOptions.PreserveOriginalDates
 second_title: Aspose.Email for .NET API Reference
-description: MapiConversionOptions property. Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when converting a message
+description: MapiConversionOptions property. Gets or sets a value indicating whether the sent date of the source message is kept. When false the time of the conversion is used. The default is true
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapiconversionoptions/preserveoriginaldates/
 ---
 ## MapiConversionOptions.PreserveOriginalDates property
 
-Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when converting a message.
+Gets or sets a value indicating whether the sent date of the source message is kept. When `false`, the time of the conversion is used. The default is `true`.
 
 ```csharp
 public bool PreserveOriginalDates { get; set; }

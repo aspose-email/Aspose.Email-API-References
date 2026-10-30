@@ -1,14 +1,14 @@
 ---
 title: Enum FileFormat
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Storage.Pst.FileFormat enum. Specifies the file format used to store messages calendar events and other items
+description: Aspose.Email.Storage.Pst.FileFormat enum. Defines the format of an Outlook data file
 type: docs
 weight: 19090
 url: /net/aspose.email.storage.pst/fileformat/
 ---
 ## FileFormat enumeration
 
-Specifies the file format used to store messages, calendar events, and other items.
+Defines the format of an Outlook data file.
 
 ```csharp
 public enum FileFormat
@@ -18,8 +18,8 @@ public enum FileFormat
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Pst | `0` | Personal Storage Table (.pst file format). |
-| Ost | `1` | Off-line Storage Table (.ost file format). |
+| Pst | `0` | Personal Storage Table (.pst). |
+| Ost | `1` | Offline Storage Table (.ost). |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.Keywords
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains keywords or categories for the Message object. Area General Message Properties Canonical name PidNameKeywords Alternate names urnschemasmicrosoftcomofficeofficeKeywords
+description: KnownPropertyList field. Contains keywords or categories for the Message object. Area General Message Properties. Canonical name PidNameKeywords. Alternate names urnschemasmicrosoftcomofficeofficeKeywords
 type: docs
 weight: 12010
 url: /net/aspose.email.mapi/knownpropertylist/keywords/
 ---
 ## KnownPropertyList.Keywords field
 
-Contains keywords or categories for the Message object. Area: General Message Properties Canonical name: PidNameKeywords Alternate names: urn:schemas-microsoft-com:office:office#Keywords,
+Contains keywords or categories for the Message object. Area: General Message Properties. Canonical name: PidNameKeywords. Alternate names: urn:schemas-microsoft-com:office:office#Keywords.
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Keywords;

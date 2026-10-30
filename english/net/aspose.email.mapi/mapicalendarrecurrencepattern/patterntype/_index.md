@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarRecurrencePattern.PatternType
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarRecurrencePattern property. Gets or sets the type of recurrence pattern
+description: MapiCalendarRecurrencePattern property. Gets or sets the type of the recurrence pattern
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/mapicalendarrecurrencepattern/patterntype/
 ---
 ## MapiCalendarRecurrencePattern.PatternType property
 
-Gets or sets the type of recurrence pattern
+Gets or sets the type of the recurrence pattern.
 
 ```csharp
 public MapiCalendarRecurrencePatternType PatternType { get; set; }

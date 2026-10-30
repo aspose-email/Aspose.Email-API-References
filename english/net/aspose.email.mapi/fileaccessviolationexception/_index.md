@@ -1,14 +1,14 @@
 ---
 title: Class FileAccessViolationException
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.FileAccessViolationException class. This exception wile be thrown when the file open and locked by another caller
+description: Aspose.Email.Mapi.FileAccessViolationException class. The exception that is thrown when a file cannot be opened because another process has opened and locked it
 type: docs
 weight: 16580
 url: /net/aspose.email.mapi/fileaccessviolationexception/
 ---
 ## FileAccessViolationException class
 
-This exception wile be thrown when the file open and locked by another caller.
+The exception that is thrown when a file cannot be opened because another process has opened and locked it.
 
 ```csharp
 public class FileAccessViolationException : IOException
@@ -18,9 +18,9 @@ public class FileAccessViolationException : IOException
 
 | Name | Description |
 | --- | --- |
-| [FileAccessViolationException](fileaccessviolationexception/#constructor)() | Initializes a new instance of the class with default error message. |
-| [FileAccessViolationException](fileaccessviolationexception/#constructor_1)(string) | Initializes a new instance of the class with a specified error message. |
-| [FileAccessViolationException](fileaccessviolationexception/#constructor_2)(string, Exception) | Initializes a new instance of the Exception class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [FileAccessViolationException](fileaccessviolationexception/#constructor)() | Initializes a new instance of the `FileAccessViolationException` class with a default error message. |
+| [FileAccessViolationException](fileaccessviolationexception/#constructor_1)(string) | Initializes a new instance of the `FileAccessViolationException` class with the specified error message. |
+| [FileAccessViolationException](fileaccessviolationexception/#constructor_2)(string, Exception) | Initializes a new instance of the `FileAccessViolationException` class with the specified error message and a reference to the exception that caused this one. |
 
 ### See Also
 

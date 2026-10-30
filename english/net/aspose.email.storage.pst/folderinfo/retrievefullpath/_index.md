@@ -1,14 +1,14 @@
 ---
 title: FolderInfo.RetrieveFullPath
 second_title: Aspose.Email for .NET API Reference
-description: FolderInfo method. Retrieves the full path of folder within the PST file
+description: FolderInfo method. Gets the path of the folder from the root of the PST
 type: docs
 weight: 360
 url: /net/aspose.email.storage.pst/folderinfo/retrievefullpath/
 ---
 ## FolderInfo.RetrieveFullPath method
 
-Retrieves the full path of folder within the PST file.
+Gets the path of the folder from the root of the PST.
 
 ```csharp
 public string RetrieveFullPath()
@@ -16,7 +16,7 @@ public string RetrieveFullPath()
 
 ### Return Value
 
-The string that represents the full path.
+The full path of the folder.
 
 ### See Also
 

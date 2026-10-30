@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AddressBookPhoneticGivenName
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains the phonetic representation of the PidTagGivenName property section 2.705. Area Address Book Canonical name PidTagAddressBookPhoneticGivenName Alternate names PR_EMS_AB_PHONETIC_GIVEN_NAME PR_EMS_AB_PHONETIC_GIVEN_NAME_A PR_EMS_AB_PHONETIC_GIVEN_NAME_W
+description: KnownPropertyList field. Contains the phonetic representation of the PidTagGivenName property section 2.705. Area Address Book. Canonical name PidTagAddressBookPhoneticGivenName. Alternate names PR_EMS_AB_PHONETIC_GIVEN_NAME PR_EMS_AB_PHONETIC_GIVEN_NAME_A PR_EMS_AB_PHONETIC_GIVEN_NAME_W
 type: docs
 weight: 860
 url: /net/aspose.email.mapi/knownpropertylist/addressbookphoneticgivenname/
 ---
 ## KnownPropertyList.AddressBookPhoneticGivenName field
 
-Contains the phonetic representation of the PidTagGivenName property (section 2.705). Area: Address Book Canonical name: PidTagAddressBookPhoneticGivenName Alternate names: PR_EMS_AB_PHONETIC_GIVEN_NAME, PR_EMS_AB_PHONETIC_GIVEN_NAME_A, PR_EMS_AB_PHONETIC_GIVEN_NAME_W
+Contains the phonetic representation of the PidTagGivenName property (section 2.705). Area: Address Book. Canonical name: PidTagAddressBookPhoneticGivenName. Alternate names: PR_EMS_AB_PHONETIC_GIVEN_NAME, PR_EMS_AB_PHONETIC_GIVEN_NAME_A, PR_EMS_AB_PHONETIC_GIVEN_NAME_W.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookPhoneticGivenName;

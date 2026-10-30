@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.RemindersOnlineEntryId
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains an EntryID for the Reminders folder. Area MapiContainer Canonical name PidTagRemindersOnlineEntryId Alternate names PR_REM_ONLINE_ENTRYID ptagRemOnlineEntryId
+description: KnownPropertyList field. Contains an EntryID for the Reminders folder. Area MapiContainer. Canonical name PidTagRemindersOnlineEntryId. Alternate names PR_REM_ONLINE_ENTRYID ptagRemOnlineEntryId
 type: docs
 weight: 15810
 url: /net/aspose.email.mapi/knownpropertylist/remindersonlineentryid/
 ---
 ## KnownPropertyList.RemindersOnlineEntryId field
 
-Contains an EntryID for the Reminders folder. Area: MapiContainer Canonical name: PidTagRemindersOnlineEntryId Alternate names: PR_REM_ONLINE_ENTRYID, ptagRemOnlineEntryId
+Contains an EntryID for the Reminders folder. Area: MapiContainer. Canonical name: PidTagRemindersOnlineEntryId. Alternate names: PR_REM_ONLINE_ENTRYID, ptagRemOnlineEntryId.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RemindersOnlineEntryId;

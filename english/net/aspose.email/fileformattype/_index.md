@@ -1,14 +1,14 @@
 ---
 title: Enum FileFormatType
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.FileFormatType enum. Enumerates file format types
+description: Aspose.Email.FileFormatType enum. Defines the file formats that can be detected
 type: docs
 weight: 16220
 url: /net/aspose.email/fileformattype/
 ---
 ## FileFormatType enumeration
 
-Enumerates file format types.
+Defines the file formats that can be detected.
 
 ```csharp
 public enum FileFormatType
@@ -18,22 +18,22 @@ public enum FileFormatType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Unknown | `0` | Unknown file format. |
-| Msg | `1` | Outlook MSG file format. |
-| Eml | `2` | File in the MIME standard. |
-| Mht | `3` | File is a Single File Web Page, also known as a Web Archive file. |
-| Emlx | `4` | Apple's Mail.app program file format. |
-| Ics | `5` | iCalendar file format. |
-| Vcf | `6` | vCard file format. |
-| Ost | `7` | Outlook Data Files format for for offline mode. |
-| Pst | `8` | Outlook Data Files format. |
-| Tnef | `9` | Transport Neutral Encapsulation Format. |
-| Mbox | `10` | File format used for holding collections of electronic mail messages. |
-| Oft | `11` | Outlook MSG file format for message template. |
-| Olm | `12` | Outlook for Mac File Format. |
-| Tgz | `13` | TAR archive file format. Zimbra mail client utilizes TGZ to export mailbox data. |
-| Nsf | `14` | The Notes Storage Facility (NSF) database file is used by (IBM) Lotus Notes and Domino. |
-| RfcMessage | `15` | This includes messages in other text formats, consisting of headers and optionally a message body if a specific protocol could not be determined. |
+| Unknown | `0` | The format is not known. |
+| Msg | `1` | Outlook message (.msg). |
+| Eml | `2` | MIME message (.eml). |
+| Mht | `3` | MHTML web archive (.mht, .mhtml). |
+| Emlx | `4` | Apple Mail message (.emlx). |
+| Ics | `5` | iCalendar (.ics). |
+| Vcf | `6` | vCard (.vcf). |
+| Ost | `7` | Outlook offline storage table (.ost). |
+| Pst | `8` | Outlook personal storage table (.pst). |
+| Tnef | `9` | Transport Neutral Encapsulation Format (winmail.dat). |
+| Mbox | `10` | mbox mailbox: many messages in one file. |
+| Oft | `11` | Outlook template (.oft). |
+| Olm | `12` | Outlook for Mac archive (.olm). |
+| Tgz | `13` | TAR archive (.tgz), as exported by Zimbra. |
+| Nsf | `14` | IBM Lotus Notes and Domino database (.nsf). |
+| RfcMessage | `15` | A text message of headers and an optional body that is not of a more specific format. |
 
 ### See Also
 

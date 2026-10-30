@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.FromProperties
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage method. Creates an instance of MapiMessage from a collection of Mapi properties
+description: MapiMessage method. Creates a message from a collection of MAPI properties
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapimessage/fromproperties/
 ---
 ## MapiMessage.FromProperties method
 
-Creates an instance of MapiMessage from a collection of Mapi properties.
+Creates a message from a collection of MAPI properties.
 
 ```csharp
 public static MapiMessage FromProperties(MapiPropertyCollection properties)
@@ -16,11 +16,11 @@ public static MapiMessage FromProperties(MapiPropertyCollection properties)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| properties | MapiPropertyCollection | A collection of MapiProperty. |
+| properties | MapiPropertyCollection | The properties of the message. |
 
 ### Return Value
 
-Returns a MapiMessage instance which is loaded from the specified properties.
+The new message.
 
 ### See Also
 

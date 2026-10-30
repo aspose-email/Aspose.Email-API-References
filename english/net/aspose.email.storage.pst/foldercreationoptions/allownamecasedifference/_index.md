@@ -20,7 +20,7 @@ public bool AllowNameCaseDifference { get; set; }
 
 ## Remarks
 
-If a folder with the same name already exists when adding a new folder and `AllowNameCaseDifference` is set to `true`, the folder names will be treated as different even if the casing differs. In this case, no exception will be thrown, and the folder will be added. When `AllowNameCaseDifference` is set to `false`, the comparison will be case-insensitive, and the folder creation operation will consider folders with the same name but different casing as duplicates, throwing an InvalidOperationException to indicate that a folder with the specified name already exists.
+When `true`, a folder whose name differs from an existing one only in case is created as a separate folder. When `false`, names are compared case-insensitively, and adding a folder whose name matches an existing one throws `InvalidOperationException`.
 
 ### See Also
 

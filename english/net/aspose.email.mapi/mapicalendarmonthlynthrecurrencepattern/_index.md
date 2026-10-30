@@ -1,14 +1,14 @@
 ---
 title: Class MapiCalendarMonthlyNthRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendarMonthlyNthRecurrencePattern class. Represents a monthly recurrence pattern that occurs on the Nth occurrence of specific days of the week e.g. the 2nd Monday of each month. This class inherits from MapiCalendarYearlyAndMonthlyRecurrencePattern and provides the base functionality for monthly recurrence patterns in MAPI calendar items
+description: Aspose.Email.Mapi.MapiCalendarMonthlyNthRecurrencePattern class. A recurrence on the Nth weekday of every N months such as the second Monday of every month
 type: docs
 weight: 16800
 url: /net/aspose.email.mapi/mapicalendarmonthlynthrecurrencepattern/
 ---
 ## MapiCalendarMonthlyNthRecurrencePattern class
 
-Represents a monthly recurrence pattern that occurs on the Nth occurrence of specific days of the week (e.g., "the 2nd Monday of each month"). This class inherits from [`MapiCalendarYearlyAndMonthlyRecurrencePattern`](../mapicalendaryearlyandmonthlyrecurrencepattern/) and provides the base functionality for monthly recurrence patterns in MAPI calendar items.
+A recurrence on the Nth weekday of every N months, such as "the second Monday of every month".
 
 ```csharp
 public sealed class MapiCalendarMonthlyNthRecurrencePattern : 
@@ -25,26 +25,26 @@ public sealed class MapiCalendarMonthlyNthRecurrencePattern :
 
 | Name | Description |
 | --- | --- |
-| [CalendarType](../../aspose.email.mapi/mapicalendarrecurrencepattern/calendartype/) { get; set; } | Gets or sets the type of calendar that is used |
-| [Day](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/day/) { get; set; } | Gets or sets day of the month on which the recurrence falls. |
-| [DayOfWeek](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/dayofweek/) { get; set; } | Gets or sets the days of week at which the event occurs |
-| [DeletedInstanceDates](../../aspose.email.mapi/mapicalendarrecurrencepattern/deletedinstancedates/) { get; } | An array of dates, each of which is the original instance date of either a deleted instance or a modified instance for this recurrence. |
-| [EndDate](../../aspose.email.mapi/mapicalendarrecurrencepattern/enddate/) { get; set; } | Gets or sets Defines the end date of an item recurrence pattern. |
-| [EndType](../../aspose.email.mapi/mapicalendarrecurrencepattern/endtype/) { get; set; } | Gets or sets the ending type for the recurrence. |
-| [Exceptions](../../aspose.email.mapi/mapicalendarrecurrencepattern/exceptions/) { get; } | An exception specifies changes to an instance of a recurring series. |
-| override [Frequency](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/frequency/) { get; } | Gets or sets the frequency of the recurring series. |
-| [ModifiedInstanceDates](../../aspose.email.mapi/mapicalendarrecurrencepattern/modifiedinstancedates/) { get; } | An array of dates, each of which is the date of a modified instance. |
-| [OccurrenceCount](../../aspose.email.mapi/mapicalendarrecurrencepattern/occurrencecount/) { get; set; } | Gets or sets the number of occurrences in a recurrence. |
-| [PatternType](../../aspose.email.mapi/mapicalendarrecurrencepattern/patterntype/) { get; set; } | Gets or sets the type of recurrence pattern |
-| override [Period](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/period/) { get; set; } | Gets or sets interval (in months) at which the meeting pattern repeats |
-| [Position](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/position/) { get; set; } | Gets or sets the occurrence of the recurrence's days in each month in which the recurrence falls. |
-| [SlidingFlag](../../aspose.email.mapi/mapicalendarrecurrencepattern/slidingflag/) { get; set; } | Defines whether pattern is sliding or not. |
-| [StartDate](../../aspose.email.mapi/mapicalendarrecurrencepattern/startdate/) { get; set; } | Gets or sets the start date of an item recurrence pattern. |
-| [WeekStartDay](../../aspose.email.mapi/mapicalendarrecurrencepattern/weekstartday/) { get; set; } | Gets or sets the first day of the calendar week. |
+| [CalendarType](../../aspose.email.mapi/mapicalendarrecurrencepattern/calendartype/) { get; set; } | Gets or sets the calendar system of the recurrence. |
+| [Day](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/day/) { get; set; } | Gets or sets the day of the month the event occurs on. |
+| [DayOfWeek](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/dayofweek/) { get; set; } | Gets or sets the days of the week the event occurs on, for a recurrence on the Nth weekday of the month. |
+| [DeletedInstanceDates](../../aspose.email.mapi/mapicalendarrecurrencepattern/deletedinstancedates/) { get; } | Gets the original dates of the occurrences that were deleted or changed. |
+| [EndDate](../../aspose.email.mapi/mapicalendarrecurrencepattern/enddate/) { get; set; } | Gets or sets the date of the last occurrence, used when [`EndType`](../mapicalendarrecurrencepattern/endtype/) is `EndAfterDate`. |
+| [EndType](../../aspose.email.mapi/mapicalendarrecurrencepattern/endtype/) { get; set; } | Gets or sets how the series ends. |
+| [Exceptions](../../aspose.email.mapi/mapicalendarrecurrencepattern/exceptions/) { get; } | Gets the exceptions of the series: the occurrences whose details were changed. |
+| override [Frequency](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/frequency/) { get; } | Gets how often the series repeats: `Yearly` when [`Period`](../mapicalendaryearlyandmonthlyrecurrencepattern/period/) is a multiple of 12, otherwise `Monthly`. |
+| [ModifiedInstanceDates](../../aspose.email.mapi/mapicalendarrecurrencepattern/modifiedinstancedates/) { get; } | Gets the dates of the occurrences that were changed. |
+| [OccurrenceCount](../../aspose.email.mapi/mapicalendarrecurrencepattern/occurrencecount/) { get; set; } | Gets or sets the number of occurrences, used when [`EndType`](../mapicalendarrecurrencepattern/endtype/) is `EndAfterNOccurrences`. |
+| [PatternType](../../aspose.email.mapi/mapicalendarrecurrencepattern/patterntype/) { get; set; } | Gets or sets the type of the recurrence pattern. |
+| override [Period](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/period/) { get; set; } | Gets or sets the interval of the recurrence, in months: 12 for a yearly recurrence. |
+| [Position](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/position/) { get; set; } | Gets or sets which occurrence of [`DayOfWeek`](../mapicalendaryearlyandmonthlyrecurrencepattern/dayofweek/) in the month the event falls on, such as the second or the last. |
+| [SlidingFlag](../../aspose.email.mapi/mapicalendarrecurrencepattern/slidingflag/) { get; set; } | Gets or sets a value indicating whether the next occurrence is calculated from the completion of the previous one rather than from a fixed schedule. Used by recurring tasks. |
+| [StartDate](../../aspose.email.mapi/mapicalendarrecurrencepattern/startdate/) { get; set; } | Gets or sets the date of the first occurrence. |
+| [WeekStartDay](../../aspose.email.mapi/mapicalendarrecurrencepattern/weekstartday/) { get; set; } | Gets or sets the first day of the week. |
 
 ## Remarks
 
-Use this pattern for calendar events that recur on specific weekly occurrences within a month, such as "the first Friday" or "the last Tuesday". The recurrence behavior is defined by properties inherited from the base class, including !:MapiCalendarRecurrencePattern.DayOfWeek and !:MapiCalendarRecurrencePattern.DayOfWeekIndex. This pattern is used in [`MapiCalendar`](../mapicalendar/) to configure recurring monthly meeting schedules.
+Set the day with [`DayOfWeek`](../mapicalendaryearlyandmonthlyrecurrencepattern/dayofweek/), which occurrence of it with [`Position`](../mapicalendaryearlyandmonthlyrecurrencepattern/position/) and the interval in months with [`Period`](../mapicalendaryearlyandmonthlyrecurrencepattern/period/).
 
 ### See Also
 

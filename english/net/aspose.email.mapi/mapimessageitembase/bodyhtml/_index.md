@@ -1,14 +1,14 @@
 ---
 title: MapiMessageItemBase.BodyHtml
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessageItemBase property. Gets the BodyRtf of the message converted to HTML if present otherwise an empty string
+description: MapiMessageItemBase property. Gets the body of the item as HTML converted from BodyRtf an empty string when there is no RTF body
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapimessageitembase/bodyhtml/
 ---
 ## MapiMessageItemBase.BodyHtml property
 
-Gets the [`BodyRtf`](../bodyrtf/) of the message converted to HTML, if present, otherwise an empty string.
+Gets the body of the item as HTML, converted from [`BodyRtf`](../bodyrtf/); an empty string when there is no RTF body.
 
 ```csharp
 public string BodyHtml { get; }

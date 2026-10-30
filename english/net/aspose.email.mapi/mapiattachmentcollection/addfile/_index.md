@@ -20,7 +20,7 @@ public MapiAttachment AddFile(string filePath)
 
 ### Return Value
 
-Newly created attachment[`MapiAttachment`](../../mapiattachment/)
+The new [`MapiAttachment`](../../mapiattachment/).
 
 ### Exceptions
 
@@ -56,7 +56,7 @@ public MapiAttachment AddFile(string filePath, string displayName)
 
 ### Return Value
 
-Newly created attachment[`MapiAttachment`](../../mapiattachment/)
+The new [`MapiAttachment`](../../mapiattachment/).
 
 ### Exceptions
 

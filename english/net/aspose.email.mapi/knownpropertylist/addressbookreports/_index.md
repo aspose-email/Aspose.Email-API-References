@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AddressBookReports
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Lists all of the mail users direct reports. Area Address Book Canonical name PidTagAddressBookReports Alternate names PR_EMS_AB_REPORTS PR_EMS_AB_REPORTS_A PR_EMS_AB_REPORTS_W
+description: KnownPropertyList field. Lists all of the mail users direct reports. Area Address Book. Canonical name PidTagAddressBookReports. Alternate names PR_EMS_AB_REPORTS PR_EMS_AB_REPORTS_A PR_EMS_AB_REPORTS_W
 type: docs
 weight: 920
 url: /net/aspose.email.mapi/knownpropertylist/addressbookreports/
 ---
 ## KnownPropertyList.AddressBookReports field
 
-Lists all of the mail user�s direct reports. Area: Address Book Canonical name: PidTagAddressBookReports Alternate names: PR_EMS_AB_REPORTS, PR_EMS_AB_REPORTS_A, PR_EMS_AB_REPORTS_W
+Lists all of the mail user's direct reports. Area: Address Book. Canonical name: PidTagAddressBookReports. Alternate names: PR_EMS_AB_REPORTS, PR_EMS_AB_REPORTS_A, PR_EMS_AB_REPORTS_W.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookReports;

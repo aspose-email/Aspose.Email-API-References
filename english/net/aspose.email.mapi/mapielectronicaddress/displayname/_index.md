@@ -1,14 +1,14 @@
 ---
 title: MapiElectronicAddress.DisplayName
 second_title: Aspose.Email for .NET API Reference
-description: MapiElectronicAddress property. Gets or sets the userreadable display name for the email address
+description: MapiElectronicAddress property. Gets or sets the name shown for the address
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapielectronicaddress/displayname/
 ---
 ## MapiElectronicAddress.DisplayName property
 
-Gets or sets the user-readable display name for the e-mail address.
+Gets or sets the name shown for the address.
 
 ```csharp
 public string DisplayName { get; set; }

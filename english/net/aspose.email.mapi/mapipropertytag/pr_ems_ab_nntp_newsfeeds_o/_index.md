@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_EMS_AB_NNTP_NEWSFEEDS_O
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Property tag 0x81A6000D PT_OBJECT
 type: docs
 weight: 8280
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_newsfeeds_o/
 ---
 ## MapiPropertyTag.PR_EMS_AB_NNTP_NEWSFEEDS_O field
+
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81A6000D (PT_OBJECT).
 
 ```csharp
 public static readonly long PR_EMS_AB_NNTP_NEWSFEEDS_O;

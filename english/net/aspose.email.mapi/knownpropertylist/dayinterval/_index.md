@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.DayInterval
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Identifies the day interval for the recurrence pattern. Area Meetings Canonical name PidLidDayInterval Alternate names LID_DAY_INTERVAL
+description: KnownPropertyList field. Identifies the day interval for the recurrence pattern. Area Meetings. Canonical name PidLidDayInterval. Alternate names LID_DAY_INTERVAL
 type: docs
 weight: 3770
 url: /net/aspose.email.mapi/knownpropertylist/dayinterval/
 ---
 ## KnownPropertyList.DayInterval field
 
-Identifies the day interval for the recurrence pattern. Area: Meetings Canonical name: PidLidDayInterval Alternate names: LID_DAY_INTERVAL
+Identifies the day interval for the recurrence pattern. Area: Meetings. Canonical name: PidLidDayInterval. Alternate names: LID_DAY_INTERVAL.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor DayInterval;

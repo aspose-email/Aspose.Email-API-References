@@ -1,14 +1,14 @@
 ---
 title: MapiDistributionList.Save
 second_title: Aspose.Email for .NET API Reference
-description: MapiDistributionList method. Saves the specified file name
+description: MapiDistributionList method. Saves the distribution list to a file in MSG format
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.email.mapi/mapidistributionlist/save/
 ---
 ## Save(string) {#save_2}
 
-Saves the specified file name.
+Saves the distribution list to a file in MSG format.
 
 ```csharp
 public void Save(string fileName)
@@ -16,7 +16,7 @@ public void Save(string fileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Name of the file. |
+| fileName | String | The path of the file to write. |
 
 ### See Also
 
@@ -28,7 +28,7 @@ public void Save(string fileName)
 
 ## Save(string, MapiDistributionListSaveOptions) {#save_3}
 
-Saves the specified file name.
+Saves the distribution list to a file with the specified options.
 
 ```csharp
 public void Save(string fileName, MapiDistributionListSaveOptions options)
@@ -36,15 +36,15 @@ public void Save(string fileName, MapiDistributionListSaveOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Name of the file. |
-| options | MapiDistributionListSaveOptions | Additional options for saving DistributionList. |
+| fileName | String | The path of the file to write. |
+| options | MapiDistributionListSaveOptions | The options; [`SaveFormat`](../../contactsaveoptions/saveformat/) selects MSG or vCard. In vCard format every member is written as a separate vCard. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Thrown if DistributionList is empty. |
-| NotSupportedException | Thrown if the DistributionList is saved in WebDav |
+| InvalidOperationException | The format is vCard and the list has no members. |
+| NotSupportedException | The format is WebDAV, which a distribution list cannot be saved to. |
 
 ### See Also
 
@@ -57,7 +57,7 @@ public void Save(string fileName, MapiDistributionListSaveOptions options)
 
 ## Save(Stream) {#save}
 
-Saves the specified stream.
+Saves the distribution list to a stream in MSG format.
 
 ```csharp
 public void Save(Stream stream)
@@ -65,7 +65,7 @@ public void Save(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The stream. |
+| stream | Stream | The stream to write to. |
 
 ### See Also
 
@@ -77,7 +77,7 @@ public void Save(Stream stream)
 
 ## Save(Stream, MapiDistributionListSaveOptions) {#save_1}
 
-Saves the specified stream.
+Saves the distribution list to a stream with the specified options.
 
 ```csharp
 public void Save(Stream stream, MapiDistributionListSaveOptions options)
@@ -85,15 +85,15 @@ public void Save(Stream stream, MapiDistributionListSaveOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The stream. |
-| options | MapiDistributionListSaveOptions | Additional options for saving DistributionList. |
+| stream | Stream | The stream to write to. |
+| options | MapiDistributionListSaveOptions | The options; [`SaveFormat`](../../contactsaveoptions/saveformat/) selects MSG or vCard. In vCard format every member is written as a separate vCard. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Thrown if DistributionList is empty. |
-| NotSupportedException | Thrown if the DistributionList is saved in WebDav |
+| InvalidOperationException | The format is vCard and the list has no members. |
+| NotSupportedException | The format is WebDAV, which a distribution list cannot be saved to. |
 
 ### See Also
 

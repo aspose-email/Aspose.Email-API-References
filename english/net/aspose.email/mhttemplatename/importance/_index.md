@@ -1,14 +1,14 @@
 ---
 title: MhtTemplateName.Importance
 second_title: Aspose.Email for .NET API Reference
-description: MhtTemplateName field. Importance header
+description: MhtTemplateName field. The name of the header with the importance
 type: docs
 weight: 80
 url: /net/aspose.email/mhttemplatename/importance/
 ---
 ## MhtTemplateName.Importance field
 
-Importance header.
+The name of the header with the importance.
 
 ```csharp
 public const string Importance;

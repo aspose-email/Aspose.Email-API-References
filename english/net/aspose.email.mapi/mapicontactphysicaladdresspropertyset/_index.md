@@ -1,14 +1,14 @@
 ---
 title: Class MapiContactPhysicalAddressPropertySet
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiContactPhysicalAddressPropertySet class. Specify three physical addresses Home Address Work Address and Other Address. One of the addresses can be marked as the Mailing Address
+description: Aspose.Email.Mapi.MapiContactPhysicalAddressPropertySet class. The postal addresses of a contact home work and other. One of them can be marked as the mailing address
 type: docs
 weight: 17120
 url: /net/aspose.email.mapi/mapicontactphysicaladdresspropertyset/
 ---
 ## MapiContactPhysicalAddressPropertySet class
 
-Specify three physical addresses: Home Address, Work Address, and Other Address. One of the addresses can be marked as the Mailing Address
+The postal addresses of a contact: home, work and other. One of them can be marked as the mailing address.
 
 ```csharp
 public sealed class MapiContactPhysicalAddressPropertySet : MapiContactPropertySet
@@ -18,16 +18,16 @@ public sealed class MapiContactPhysicalAddressPropertySet : MapiContactPropertyS
 
 | Name | Description |
 | --- | --- |
-| [MapiContactPhysicalAddressPropertySet](mapicontactphysicaladdresspropertyset/#constructor)() | Initializes a new instance of the `MapiContactPhysicalAddressPropertySet` class |
-| [MapiContactPhysicalAddressPropertySet](mapicontactphysicaladdresspropertyset/#constructor_1)(MapiPropertyCollection) | Initializes a new instance of the `MapiContactPhysicalAddressPropertySet` class |
+| [MapiContactPhysicalAddressPropertySet](mapicontactphysicaladdresspropertyset/#constructor)() | Initializes a new instance of the `MapiContactPhysicalAddressPropertySet` class. |
+| [MapiContactPhysicalAddressPropertySet](mapicontactphysicaladdresspropertyset/#constructor_1)(MapiPropertyCollection) | Initializes a new instance of the `MapiContactPhysicalAddressPropertySet` class from contact properties. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [HomeAddress](../../aspose.email.mapi/mapicontactphysicaladdresspropertyset/homeaddress/) { get; set; } | Specifies the address of the contact's home |
-| [OtherAddress](../../aspose.email.mapi/mapicontactphysicaladdresspropertyset/otheraddress/) { get; set; } | Specifies the other contact's address |
-| [WorkAddress](../../aspose.email.mapi/mapicontactphysicaladdresspropertyset/workaddress/) { get; set; } | Specifies the address of the contact's work |
+| [HomeAddress](../../aspose.email.mapi/mapicontactphysicaladdresspropertyset/homeaddress/) { get; set; } | Gets or sets the home address. |
+| [OtherAddress](../../aspose.email.mapi/mapicontactphysicaladdresspropertyset/otheraddress/) { get; set; } | Gets or sets the other address. |
+| [WorkAddress](../../aspose.email.mapi/mapicontactphysicaladdresspropertyset/workaddress/) { get; set; } | Gets or sets the work address. |
 
 ### See Also
 

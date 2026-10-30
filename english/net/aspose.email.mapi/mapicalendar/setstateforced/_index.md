@@ -3,7 +3,7 @@ title: MapiCalendar.SetStateForced
 second_title: Aspose.Email for .NET API Reference
 description: MapiCalendar method. Sets the state of the calendar object overriding any default behavior
 type: docs
-weight: 250
+weight: 280
 url: /net/aspose.email.mapi/mapicalendar/setstateforced/
 ---
 ## MapiCalendar.SetStateForced method

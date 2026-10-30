@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.CustomProgressHandler
 second_title: Aspose.Email for .NET API Reference
-description: SaveOptions property. Represents method that usually supplied by calling side and handles progress events
+description: SaveOptions property. Gets or sets a handler that is called as the saving progresses
 type: docs
 weight: 20
 url: /net/aspose.email/saveoptions/customprogresshandler/
 ---
 ## SaveOptions.CustomProgressHandler property
 
-Represents method that usually supplied by calling side and handles progress events.
+Gets or sets a handler that is called as the saving progresses.
 
 ```csharp
 public ConversionProgressEventHandler CustomProgressHandler { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: EmlSaveOptions.FileCompatibilityMode
 second_title: Aspose.Email for .NET API Reference
-description: EmlSaveOptions property. Defines inner conversionsthat are necessarily to be done when saving a message. The default value is FileCompatibilityMode.None
+description: EmlSaveOptions property. Gets or sets conversions applied while saving such as encoding the TNEF attachment again. The default is FileCompatibilityMode.None
 type: docs
 weight: 40
 url: /net/aspose.email/emlsaveoptions/filecompatibilitymode/
 ---
 ## EmlSaveOptions.FileCompatibilityMode property
 
-Defines inner conversions,that are necessarily to be done when saving a message. The default value is FileCompatibilityMode.None.
+Gets or sets conversions applied while saving, such as encoding the TNEF attachment again. The default is `FileCompatibilityMode.None`.
 
 ```csharp
 public FileCompatibilityMode FileCompatibilityMode { get; set; }

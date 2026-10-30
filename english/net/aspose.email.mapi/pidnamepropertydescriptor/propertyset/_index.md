@@ -1,14 +1,14 @@
 ---
 title: PidNamePropertyDescriptor.PropertySet
 second_title: Aspose.Email for .NET API Reference
-description: PidNamePropertyDescriptor property. A GUID that identifies a group of properties with a similar purpose
+description: PidNamePropertyDescriptor property. Gets the GUID of the property set the property belongs to
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/pidnamepropertydescriptor/propertyset/
 ---
 ## PidNamePropertyDescriptor.PropertySet property
 
-A GUID that identifies a group of properties with a similar purpose.
+Gets the GUID of the property set the property belongs to.
 
 ```csharp
 public Guid PropertySet { get; }

@@ -1,14 +1,14 @@
 ---
 title: MailMessage.GetHtmlBodyText
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage method. Gets the message html body as plain text. This method parses the HtmlBody property and returns plain text content ignoring the html markup
+description: MailMessage method. Gets the text of the HTML body without the markup
 type: docs
 weight: 510
 url: /net/aspose.email/mailmessage/gethtmlbodytext/
 ---
 ## GetHtmlBodyText(bool) {#gethtmlbodytext_1}
 
-Gets the message html body as plain text. This method parses the HtmlBody property and returns plain text content ignoring the html markup.
+Gets the text of the HTML body without the markup.
 
 ```csharp
 public virtual string GetHtmlBodyText(bool showUrl)
@@ -16,7 +16,11 @@ public virtual string GetHtmlBodyText(bool showUrl)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| showUrl | Boolean | Defines need to show URL in text. |
+| showUrl | Boolean | `true` to write the URLs of hyperlinks after their text. |
+
+### Return Value
+
+The text of the HTML body.
 
 ## Examples
 
@@ -54,7 +58,7 @@ Console.WriteLine($"Body without URL: {bodyWithoutUrl}")
 
 ## GetHtmlBodyText(HyperlinkRenderingCallback) {#gethtmlbodytext}
 
-Gets the message htmlbody as plain text.
+Gets the text of the HTML body without the markup, rendering hyperlinks with a custom method.
 
 ```csharp
 public virtual string GetHtmlBodyText(HyperlinkRenderingCallback hyperlinkRenderingCallback)
@@ -62,11 +66,11 @@ public virtual string GetHtmlBodyText(HyperlinkRenderingCallback hyperlinkRender
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| hyperlinkRenderingCallback | HyperlinkRenderingCallback | Reference to custom method for handling rendering of hyperlink. |
+| hyperlinkRenderingCallback | HyperlinkRenderingCallback | The method that renders each hyperlink as text. |
 
 ### Return Value
 
-Result string of custom handling rendering of hyperlink.
+The text of the HTML body.
 
 ### See Also
 

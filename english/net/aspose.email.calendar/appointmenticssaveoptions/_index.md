@@ -18,22 +18,22 @@ public sealed class AppointmentIcsSaveOptions : AppointmentSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [AppointmentIcsSaveOptions](appointmenticssaveoptions/#constructor)() | Initializes a new instance of the `AppointmentIcsSaveOptions` class |
-| [AppointmentIcsSaveOptions](appointmenticssaveoptions/#constructor_1)(AppointmentAction) | Initializes a new instance of the `AppointmentIcsSaveOptions` class |
+| [AppointmentIcsSaveOptions](appointmenticssaveoptions/#constructor)() | Initializes a new instance of the `AppointmentIcsSaveOptions` class with the default settings. |
+| [AppointmentIcsSaveOptions](appointmenticssaveoptions/#constructor_1)(AppointmentAction) | Initializes a new instance of the `AppointmentIcsSaveOptions` class for the specified action. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| static [Default](../../aspose.email.calendar/appointmenticssaveoptions/default/) { get; } | Gets the default Ics save options |
-| [Action](../../aspose.email.calendar/appointmenticssaveoptions/action/) { get; set; } | Gets or sets appointment Action |
-| [CreateNew](../../aspose.email.calendar/appointmenticssaveoptions/createnew/) { get; set; } | Gets or sets value indicating whether need create new calendar or append events in existing calendar. Default value is true. |
-| [EndTimeZone](../../aspose.email.calendar/appointmenticssaveoptions/endtimezone/) { get; set; } | Gets or sets the End time zone. |
-| [MethodType](../../aspose.email.calendar/appointmenticssaveoptions/methodtype/) { get; set; } | Gets or sets the iCalendar object method type associated with the calendar object. |
-| [ProductId](../../aspose.email.calendar/appointmenticssaveoptions/productid/) { get; set; } | Gets or sets the product identifier that created iCalendar object. |
-| [SaveFormat](../../aspose.email.calendar/appointmentsaveoptions/saveformat/) { get; } | Gets a save format |
-| [SequenceId](../../aspose.email.calendar/appointmenticssaveoptions/sequenceid/) { get; set; } | Gets or sets the sequence id. |
-| [StartTimeZone](../../aspose.email.calendar/appointmenticssaveoptions/starttimezone/) { get; set; } | Gets or sets the Start time zone. |
+| static [Default](../../aspose.email.calendar/appointmenticssaveoptions/default/) { get; } | Gets a new instance of the default iCalendar save options, with `Action` set to `AppointmentAction.Create`. |
+| [Action](../../aspose.email.calendar/appointmenticssaveoptions/action/) { get; set; } | Gets or sets whether the event is saved as new, as an update or as a cancellation. The default is `AppointmentAction.Create`. |
+| [CreateNew](../../aspose.email.calendar/appointmenticssaveoptions/createnew/) { get; set; } | Gets or sets whether to create a new calendar (`true`, the default) or to add the event to the end of an existing one (`false`). |
+| [EndTimeZone](../../aspose.email.calendar/appointmenticssaveoptions/endtimezone/) { get; set; } | Gets or sets the time zone for the end of the event. When set, it is assigned to the `EndTimeZone` of each appointment written. |
+| [MethodType](../../aspose.email.calendar/appointmenticssaveoptions/methodtype/) { get; set; } | Gets or sets the iCalendar METHOD to write. `AppointmentMethodType.None`, the default, keeps the `MethodType` of the appointment. |
+| [ProductId](../../aspose.email.calendar/appointmenticssaveoptions/productid/) { get; set; } | Gets or sets the identifier of the product that creates the calendar (the iCalendar PRODID property). |
+| [SaveFormat](../../aspose.email.calendar/appointmentsaveoptions/saveformat/) { get; } | Gets the format these options save to. |
+| [SequenceId](../../aspose.email.calendar/appointmenticssaveoptions/sequenceid/) { get; set; } | Gets or sets the sequence number to write (the iCalendar SEQUENCE property). A negative value, the default, keeps the `SequenceId` of the appointment. |
+| [StartTimeZone](../../aspose.email.calendar/appointmenticssaveoptions/starttimezone/) { get; set; } | Gets or sets the time zone for the start of the event. When set, it is assigned to the `StartTimeZone` of each appointment written. |
 
 ## Remarks
 
@@ -60,7 +60,7 @@ var meeting = new Appointment(
 var saveOptions = new AppointmentIcsSaveOptions
 {
     CreateNew = true,
-    MethodType = AppointmentMethodType.Add,
+    MethodType = AppointmentMethodType.Request,
     ProductId = "Aspose.Email",
     Action = AppointmentAction.Create
 };
@@ -85,7 +85,7 @@ Dim meeting As New Appointment(
 ' Set the save options for ICS file
 Dim saveOptions As New AppointmentIcsSaveOptions With {
     .CreateNew = True,
-    .MethodType = AppointmentMethodType.Add,
+    .MethodType = AppointmentMethodType.Request,
     .ProductId = "Aspose.Email",
     .Action = AppointmentAction.Create
 }

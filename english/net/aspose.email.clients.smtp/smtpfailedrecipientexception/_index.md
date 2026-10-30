@@ -29,17 +29,17 @@ public class SmtpFailedRecipientException : SmtpException
 
 | Name | Description |
 | --- | --- |
-| [ErrorDetails](../../aspose.email/asposeexception/errordetails/) { get; } | Gets extra information aboout error |
+| [ErrorDetails](../../aspose.email/asposeexception/errordetails/) { get; } | Gets additional information about the error, if the operation provides any. |
 | [FailedRecipient](../../aspose.email.clients.smtp/smtpfailedrecipientexception/failedrecipient/) { get; } | Failed recipient |
-| override [Message](../../aspose.email/asposeexception/message/) { get; } | Gets a message that describes the current exception. |
-| [OperationDetails](../../aspose.email/smtpexception/operationdetails/) { get; } | Gets extra information aboout error |
-| [StatusCode](../../aspose.email/smtpexception/statuscode/) { get; set; } | Smtp status code |
+| override [Message](../../aspose.email/asposeexception/message/) { get; } | Gets the message that describes the error. |
+| [OperationDetails](../../aspose.email/smtpexception/operationdetails/) { get; } | Gets the result of the operation: the messages that were sent and the messages that failed, with their errors. |
+| [StatusCode](../../aspose.email/smtpexception/statuscode/) { get; set; } | Gets or sets the SMTP status code returned by the server. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](../../aspose.email/asposeexception/tostring/)() | Returns a string that represents the current object. |
+| override [ToString](../../aspose.email/asposeexception/tostring/)() | Returns the type, the message and the stack trace of the exception. |
 
 ### See Also
 

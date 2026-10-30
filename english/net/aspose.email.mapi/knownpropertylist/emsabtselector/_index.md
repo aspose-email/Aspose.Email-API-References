@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.EmsAbTSelector
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_T_SELECTOR
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_EMS_AB_T_SELECTOR. Property tag 0x81400102 data type Binary
 type: docs
 weight: 9320
 url: /net/aspose.email.mapi/knownpropertylist/emsabtselector/
 ---
 ## KnownPropertyList.EmsAbTSelector field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_EMS_AB_T_SELECTOR
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_EMS_AB_T_SELECTOR. Property tag: 0x81400102; data type: Binary.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbTSelector;

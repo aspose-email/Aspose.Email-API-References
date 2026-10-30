@@ -1,14 +1,14 @@
 ---
 title: HeaderType.ToString
 second_title: Aspose.Email for .NET API Reference
-description: HeaderType method. Returns a String that represents the current Object
+description: HeaderType method. Returns the name of the header such as ReturnPath
 type: docs
 weight: 300
 url: /net/aspose.email/headertype/tostring/
 ---
 ## HeaderType.ToString method
 
-Returns a String that represents the current Object.
+Returns the name of the header, such as `Return-Path`.
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Return Value
 
-A String that represents the current Object.
+The name of the header.
 
 ### See Also
 

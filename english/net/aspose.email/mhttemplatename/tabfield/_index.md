@@ -1,14 +1,14 @@
 ---
 title: MhtTemplateName.TabField
 second_title: Aspose.Email for .NET API Reference
-description: MhtTemplateName field. This name used for indent in multiline header
+description: MhtTemplateName field. The name of the template used to indent the continuation lines of a multiline header
 type: docs
 weight: 200
 url: /net/aspose.email/mhttemplatename/tabfield/
 ---
 ## MhtTemplateName.TabField field
 
-This name used for indent in multiline header.
+The name of the template used to indent the continuation lines of a multi-line header.
 
 ```csharp
 public const string TabField;

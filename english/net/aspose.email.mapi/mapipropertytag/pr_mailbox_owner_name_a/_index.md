@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_MAILBOX_OWNER_NAME_A
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. The ANSI form of PR_MAILBOX_OWNER_NAME. Property tag 0x661C001E PT_STRING8
 type: docs
 weight: 13680
 url: /net/aspose.email.mapi/mapipropertytag/pr_mailbox_owner_name_a/
 ---
 ## MapiPropertyTag.PR_MAILBOX_OWNER_NAME_A field
+
+The ANSI form of [`PR_MAILBOX_OWNER_NAME`](../pr_mailbox_owner_name/). Property tag: 0x661C001E (PT_STRING8).
 
 ```csharp
 public static readonly long PR_MAILBOX_OWNER_NAME_A;

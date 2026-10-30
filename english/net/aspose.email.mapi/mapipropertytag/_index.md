@@ -24,2044 +24,2044 @@ public static class MapiPropertyTag
 
 | Name | Description |
 | --- | --- |
-| static readonly [PidTagUrlName](../../aspose.email.mapi/mapipropertytag/pidtagurlname/) |  |
+| static readonly [PidTagUrlName](../../aspose.email.mapi/mapipropertytag/pidtagurlname/) | The tag of the PidTagUrlName MAPI property. Property tag: 0x6707001E (PT_STRING8). |
 | static readonly [PR_7BIT_DISPLAY_NAME](../../aspose.email.mapi/mapipropertytag/pr_7bit_display_name/) | The PR_7BIT_DISPLAY_NAME property contains a 7-bit ASCII version of a messaging user's name. |
 | static readonly [PR_7BIT_DISPLAY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_7bit_display_name_a/) | The ASCII peer for PR_7BIT_DISPLAY_NAME. |
 | static readonly [PR_7BIT_DISPLAY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_7bit_display_name_w/) | The Unicode peer for PR_7BIT_DISPLAY_NAME. |
-| static readonly [PR_ABSTRACT](../../aspose.email.mapi/mapipropertytag/pr_abstract/) |  |
-| static readonly [PR_ABSTRACT_A](../../aspose.email.mapi/mapipropertytag/pr_abstract_a/) |  |
-| static readonly [PR_ABSTRACT_W](../../aspose.email.mapi/mapipropertytag/pr_abstract_w/) |  |
+| static readonly [PR_ABSTRACT](../../aspose.email.mapi/mapipropertytag/pr_abstract/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FDA001E (PT_STRING8). |
+| static readonly [PR_ABSTRACT_A](../../aspose.email.mapi/mapipropertytag/pr_abstract_a/) | The ANSI form of [`PR_ABSTRACT`](./pr_abstract/). Property tag: 0x3FDA001E (PT_STRING8). |
+| static readonly [PR_ABSTRACT_W](../../aspose.email.mapi/mapipropertytag/pr_abstract_w/) | The Unicode form of [`PR_ABSTRACT`](./pr_abstract/). Property tag: 0x3FDA001F (PT_UNICODE). |
 | static readonly [PR_AB_DEFAULT_DIR](../../aspose.email.mapi/mapipropertytag/pr_ab_default_dir/) | The PR_AB_DEFAULT_DIR property contains the entry identifier of the address book container that is to be shown to the user first. |
 | static readonly [PR_AB_DEFAULT_PAB](../../aspose.email.mapi/mapipropertytag/pr_ab_default_pab/) | The PR_AB_DEFAULT_PAB property contains the entry identifier of the address book container that is to be used as the personal address book. |
 | static readonly [PR_AB_PROVIDERS](../../aspose.email.mapi/mapipropertytag/pr_ab_providers/) | The PR_AB_PROVIDERS property contains a list of identifiers for address book providers in the current profile. |
-| static readonly [PR_AB_PROVIDER_ID](../../aspose.email.mapi/mapipropertytag/pr_ab_provider_id/) | The PR_AB_DEFAULT_PAB property contains the entry identifier of the address book container that is to be used as the personal address book. |
-| static readonly [PR_AB_SEARCH_PATH](../../aspose.email.mapi/mapipropertytag/pr_ab_search_path/) | The PR_AB_PROVIDERS property contains a list of identifiers for address book providers in the current profile. |
-| static readonly [PR_AB_SEARCH_PATH_UPDATE](../../aspose.email.mapi/mapipropertytag/pr_ab_search_path_update/) |  |
-| static readonly [PR_ACCESS](../../aspose.email.mapi/mapipropertytag/pr_access/) |  |
-| static readonly [PR_ACCESS_LEVEL](../../aspose.email.mapi/mapipropertytag/pr_access_level/) |  |
-| static readonly [PR_ACCOUNT](../../aspose.email.mapi/mapipropertytag/pr_account/) |  |
-| static readonly [PR_ACCOUNT_A](../../aspose.email.mapi/mapipropertytag/pr_account_a/) |  |
-| static readonly [PR_ACCOUNT_W](../../aspose.email.mapi/mapipropertytag/pr_account_w/) |  |
-| static readonly [PR_ACKNOWLEDGEMENT_MODE](../../aspose.email.mapi/mapipropertytag/pr_acknowledgement_mode/) |  |
-| static readonly [PR_ACL_DATA](../../aspose.email.mapi/mapipropertytag/pr_acl_data/) |  |
-| static readonly [PR_ACL_TABLE](../../aspose.email.mapi/mapipropertytag/pr_acl_table/) |  |
-| static readonly [PR_ACTIVE_USER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_active_user_entryid/) |  |
-| static readonly [PR_ADDRBOOK_FOR_LOCAL_SITE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_addrbook_for_local_site_entryid/) |  |
-| static readonly [PR_ADDRESS_BOOK_DISPLAY_NAME](../../aspose.email.mapi/mapipropertytag/pr_address_book_display_name/) |  |
-| static readonly [PR_ADDRESS_BOOK_DISPLAY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_address_book_display_name_a/) |  |
-| static readonly [PR_ADDRESS_BOOK_DISPLAY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_address_book_display_name_w/) |  |
-| static readonly [PR_ADDRESS_BOOK_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_address_book_entryid/) |  |
-| static readonly [PR_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_addrtype/) |  |
-| static readonly [PR_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_addrtype_a/) |  |
-| static readonly [PR_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_addrtype_w/) |  |
-| static readonly [PR_ALTERNATE_RECIPIENT](../../aspose.email.mapi/mapipropertytag/pr_alternate_recipient/) |  |
-| static readonly [PR_ALTERNATE_RECIPIENT_ALLOWED](../../aspose.email.mapi/mapipropertytag/pr_alternate_recipient_allowed/) |  |
-| static readonly [PR_ANR](../../aspose.email.mapi/mapipropertytag/pr_anr/) |  |
-| static readonly [PR_ANR_A](../../aspose.email.mapi/mapipropertytag/pr_anr_a/) |  |
-| static readonly [PR_ANR_W](../../aspose.email.mapi/mapipropertytag/pr_anr_w/) |  |
-| static readonly [PR_ARRIVAL_TIME](../../aspose.email.mapi/mapipropertytag/pr_arrival_time/) |  |
-| static readonly [PR_ASSISTANT](../../aspose.email.mapi/mapipropertytag/pr_assistant/) |  |
-| static readonly [PR_ASSISTANT_A](../../aspose.email.mapi/mapipropertytag/pr_assistant_a/) |  |
-| static readonly [PR_ASSISTANT_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_assistant_telephone_number/) |  |
-| static readonly [PR_ASSISTANT_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_assistant_telephone_number_a/) |  |
-| static readonly [PR_ASSISTANT_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_assistant_telephone_number_w/) |  |
-| static readonly [PR_ASSISTANT_W](../../aspose.email.mapi/mapipropertytag/pr_assistant_w/) |  |
-| static readonly [PR_ASSOC_CONTENT_COUNT](../../aspose.email.mapi/mapipropertytag/pr_assoc_content_count/) |  |
-| static readonly [PR_ASSOC_MESSAGE_SIZE](../../aspose.email.mapi/mapipropertytag/pr_assoc_message_size/) |  |
-| static readonly [PR_ASSOC_MESSAGE_SIZE_EXTENDED](../../aspose.email.mapi/mapipropertytag/pr_assoc_message_size_extended/) |  |
-| static readonly [PR_ASSOC_MSG_W_ATTACH_COUNT](../../aspose.email.mapi/mapipropertytag/pr_assoc_msg_w_attach_count/) |  |
-| static readonly [PR_ATTACHMENT_CONTACTPHOTO](../../aspose.email.mapi/mapipropertytag/pr_attachment_contactphoto/) |  |
-| static readonly [PR_ATTACHMENT_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_attachment_flags/) |  |
-| static readonly [PR_ATTACHMENT_HIDDEN](../../aspose.email.mapi/mapipropertytag/pr_attachment_hidden/) |  |
-| static readonly [PR_ATTACHMENT_X400_PARAMETERS](../../aspose.email.mapi/mapipropertytag/pr_attachment_x400_parameters/) |  |
-| static readonly [PR_ATTACH_ADDITIONAL_INFO](../../aspose.email.mapi/mapipropertytag/pr_attach_additional_info/) |  |
+| static readonly [PR_AB_PROVIDER_ID](../../aspose.email.mapi/mapipropertytag/pr_ab_provider_id/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x36150102 (PT_BINARY). |
+| static readonly [PR_AB_SEARCH_PATH](../../aspose.email.mapi/mapipropertytag/pr_ab_search_path/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3D051102 (PT_MV_BINARY). |
+| static readonly [PR_AB_SEARCH_PATH_UPDATE](../../aspose.email.mapi/mapipropertytag/pr_ab_search_path_update/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3D110102 (PT_BINARY). |
+| static readonly [PR_ACCESS](../../aspose.email.mapi/mapipropertytag/pr_access/) | Indicates the operations available to the client for the object. Canonical name: PidTagAccess. Property tag: 0x0FF40003 (PT_LONG). |
+| static readonly [PR_ACCESS_LEVEL](../../aspose.email.mapi/mapipropertytag/pr_access_level/) | Indicates the client's access level to the object. Canonical name: PidTagAccessLevel. Property tag: 0x0FF70003 (PT_LONG). |
+| static readonly [PR_ACCOUNT](../../aspose.email.mapi/mapipropertytag/pr_account/) | Contains the alias of an Address Book object, which is an alternative name by which the object can be identified. Canonical name: PidTagAccount. Property tag: 0x3A00001E (PT_STRING8). |
+| static readonly [PR_ACCOUNT_A](../../aspose.email.mapi/mapipropertytag/pr_account_a/) | The ANSI form of [`PR_ACCOUNT`](./pr_account/). Property tag: 0x3A00001E (PT_STRING8). |
+| static readonly [PR_ACCOUNT_W](../../aspose.email.mapi/mapipropertytag/pr_account_w/) | The Unicode form of [`PR_ACCOUNT`](./pr_account/). Property tag: 0x3A00001F (PT_UNICODE). |
+| static readonly [PR_ACKNOWLEDGEMENT_MODE](../../aspose.email.mapi/mapipropertytag/pr_acknowledgement_mode/) | Describes the controls used in the template that is used to retrieve address book information. Canonical name: PidTagTemplateData. Property tag: 0x00010003 (PT_LONG). |
+| static readonly [PR_ACL_DATA](../../aspose.email.mapi/mapipropertytag/pr_acl_data/) | Contains a permissions list for a folder. Canonical name: PidTagAccessControlListData. Property tag: 0x3FE00102 (PT_BINARY). |
+| static readonly [PR_ACL_TABLE](../../aspose.email.mapi/mapipropertytag/pr_acl_table/) | Contains a permissions list for a folder. Canonical name: PidTagAccessControlListData. Property tag: 0x3FE0000D (PT_OBJECT). |
+| static readonly [PR_ACTIVE_USER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_active_user_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66520102 (PT_BINARY). |
+| static readonly [PR_ADDRBOOK_FOR_LOCAL_SITE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_addrbook_for_local_site_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66260102 (PT_BINARY). |
+| static readonly [PR_ADDRESS_BOOK_DISPLAY_NAME](../../aspose.email.mapi/mapipropertytag/pr_address_book_display_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FE8001E (PT_STRING8). |
+| static readonly [PR_ADDRESS_BOOK_DISPLAY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_address_book_display_name_a/) | The ANSI form of [`PR_ADDRESS_BOOK_DISPLAY_NAME`](./pr_address_book_display_name/). Property tag: 0x3FE8001E (PT_STRING8). |
+| static readonly [PR_ADDRESS_BOOK_DISPLAY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_address_book_display_name_w/) | The Unicode form of [`PR_ADDRESS_BOOK_DISPLAY_NAME`](./pr_address_book_display_name/). Property tag: 0x3FE8001F (PT_UNICODE). |
+| static readonly [PR_ADDRESS_BOOK_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_address_book_entryid/) | Contains the name-service EntryID of a directory object that refers to a public folder. Canonical name: PidTagAddressBookEntryId. Property tag: 0x663B0102 (PT_BINARY). |
+| static readonly [PR_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_addrtype/) | Contains the email address type of a Message object. Canonical name: PidTagAddressType. Property tag: 0x3002001E (PT_STRING8). |
+| static readonly [PR_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_addrtype_a/) | The ANSI form of [`PR_ADDRTYPE`](./pr_addrtype/). Property tag: 0x3002001E (PT_STRING8). |
+| static readonly [PR_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_addrtype_w/) | The Unicode form of [`PR_ADDRTYPE`](./pr_addrtype/). Property tag: 0x3002001F (PT_UNICODE). |
+| static readonly [PR_ALTERNATE_RECIPIENT](../../aspose.email.mapi/mapipropertytag/pr_alternate_recipient/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3A010102 (PT_BINARY). |
+| static readonly [PR_ALTERNATE_RECIPIENT_ALLOWED](../../aspose.email.mapi/mapipropertytag/pr_alternate_recipient_allowed/) | Specifies whether the sender permits the message to be auto-forwarded. Canonical name: PidTagAlternateRecipientAllowed. Property tag: 0x0002000B (PT_BOOLEAN). |
+| static readonly [PR_ANR](../../aspose.email.mapi/mapipropertytag/pr_anr/) | Contains a filter value used in ambiguous name resolution. Canonical name: PidTagAnr. Property tag: 0x360C001E (PT_STRING8). |
+| static readonly [PR_ANR_A](../../aspose.email.mapi/mapipropertytag/pr_anr_a/) | The ANSI form of [`PR_ANR`](./pr_anr/). Property tag: 0x360C001E (PT_STRING8). |
+| static readonly [PR_ANR_W](../../aspose.email.mapi/mapipropertytag/pr_anr_w/) | The Unicode form of [`PR_ANR`](./pr_anr/). Property tag: 0x360C001F (PT_UNICODE). |
+| static readonly [PR_ARRIVAL_TIME](../../aspose.email.mapi/mapipropertytag/pr_arrival_time/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x665F0040 (PT_SYSTIME). |
+| static readonly [PR_ASSISTANT](../../aspose.email.mapi/mapipropertytag/pr_assistant/) | Contains the name of the mail user's administrative assistant. Canonical name: PidTagAssistant. Property tag: 0x3A30001E (PT_STRING8). |
+| static readonly [PR_ASSISTANT_A](../../aspose.email.mapi/mapipropertytag/pr_assistant_a/) | The ANSI form of [`PR_ASSISTANT`](./pr_assistant/). Property tag: 0x3A30001E (PT_STRING8). |
+| static readonly [PR_ASSISTANT_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_assistant_telephone_number/) | Contains the telephone number of the mail user's administrative assistant. Canonical name: PidTagAssistantTelephoneNumber. Property tag: 0x3A2E001E (PT_STRING8). |
+| static readonly [PR_ASSISTANT_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_assistant_telephone_number_a/) | The ANSI form of [`PR_ASSISTANT_TELEPHONE_NUMBER`](./pr_assistant_telephone_number/). Property tag: 0x3A2E001E (PT_STRING8). |
+| static readonly [PR_ASSISTANT_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_assistant_telephone_number_w/) | The Unicode form of [`PR_ASSISTANT_TELEPHONE_NUMBER`](./pr_assistant_telephone_number/). Property tag: 0x3A2E001F (PT_UNICODE). |
+| static readonly [PR_ASSISTANT_W](../../aspose.email.mapi/mapipropertytag/pr_assistant_w/) | The Unicode form of [`PR_ASSISTANT`](./pr_assistant/). Property tag: 0x3A30001F (PT_UNICODE). |
+| static readonly [PR_ASSOC_CONTENT_COUNT](../../aspose.email.mapi/mapipropertytag/pr_assoc_content_count/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x36170003 (PT_LONG). |
+| static readonly [PR_ASSOC_MESSAGE_SIZE](../../aspose.email.mapi/mapipropertytag/pr_assoc_message_size/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66B40003 (PT_LONG). |
+| static readonly [PR_ASSOC_MESSAGE_SIZE_EXTENDED](../../aspose.email.mapi/mapipropertytag/pr_assoc_message_size_extended/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66B40014 (PT_LONGLONG). |
+| static readonly [PR_ASSOC_MSG_W_ATTACH_COUNT](../../aspose.email.mapi/mapipropertytag/pr_assoc_msg_w_attach_count/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66AE0003 (PT_LONG). |
+| static readonly [PR_ATTACHMENT_CONTACTPHOTO](../../aspose.email.mapi/mapipropertytag/pr_attachment_contactphoto/) | Indicates that a contact photo attachment is attached to a Contact object. Canonical name: PidTagAttachmentContactPhoto. Property tag: 0x7FFF000B (PT_BOOLEAN). |
+| static readonly [PR_ATTACHMENT_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_attachment_flags/) | Indicates special handling for an Attachment object. Canonical name: PidTagAttachmentFlags. Property tag: 0x7FFD0003 (PT_LONG). |
+| static readonly [PR_ATTACHMENT_HIDDEN](../../aspose.email.mapi/mapipropertytag/pr_attachment_hidden/) | Indicates whether an Attachment object is hidden from the end user. Canonical name: PidTagAttachmentHidden. Property tag: 0x7FFE000B (PT_BOOLEAN). |
+| static readonly [PR_ATTACHMENT_X400_PARAMETERS](../../aspose.email.mapi/mapipropertytag/pr_attachment_x400_parameters/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x37000102 (PT_BINARY). |
+| static readonly [PR_ATTACH_ADDITIONAL_INFO](../../aspose.email.mapi/mapipropertytag/pr_attach_additional_info/) | Contains attachment encoding information. Canonical name: PidTagAttachAdditionalInformation. Property tag: 0x370F0102 (PT_BINARY). |
 | static readonly [PR_ATTACH_CONTENT_ID](../../aspose.email.mapi/mapipropertytag/pr_attach_content_id/) | Contains the content identification header of a MIME message attachment. This property is used for MHTML support. |
 | static readonly [PR_ATTACH_CONTENT_ID_A](../../aspose.email.mapi/mapipropertytag/pr_attach_content_id_a/) | Contains the content identification header of a MIME message attachment. This property is used for MHTML support. Non-UNICODE compilation. |
 | static readonly [PR_ATTACH_CONTENT_ID_W](../../aspose.email.mapi/mapipropertytag/pr_attach_content_id_w/) | Contains the content identification header of a MIME message attachment. This property is used for MHTML support. UNICODE compilation. |
-| static readonly [PR_ATTACH_CONTENT_LOCATION](../../aspose.email.mapi/mapipropertytag/pr_attach_content_location/) |  |
-| static readonly [PR_ATTACH_CONTENT_LOCATION_W](../../aspose.email.mapi/mapipropertytag/pr_attach_content_location_w/) |  |
-| static readonly [PR_ATTACH_DATA_BIN](../../aspose.email.mapi/mapipropertytag/pr_attach_data_bin/) |  |
-| static readonly [PR_ATTACH_DATA_OBJ](../../aspose.email.mapi/mapipropertytag/pr_attach_data_obj/) |  |
-| static readonly [PR_ATTACH_ENCODING](../../aspose.email.mapi/mapipropertytag/pr_attach_encoding/) |  |
-| static readonly [PR_ATTACH_EXTENSION](../../aspose.email.mapi/mapipropertytag/pr_attach_extension/) |  |
-| static readonly [PR_ATTACH_EXTENSION_A](../../aspose.email.mapi/mapipropertytag/pr_attach_extension_a/) |  |
-| static readonly [PR_ATTACH_EXTENSION_W](../../aspose.email.mapi/mapipropertytag/pr_attach_extension_w/) |  |
-| static readonly [PR_ATTACH_FILENAME](../../aspose.email.mapi/mapipropertytag/pr_attach_filename/) |  |
-| static readonly [PR_ATTACH_FILENAME_A](../../aspose.email.mapi/mapipropertytag/pr_attach_filename_a/) |  |
-| static readonly [PR_ATTACH_FILENAME_W](../../aspose.email.mapi/mapipropertytag/pr_attach_filename_w/) |  |
+| static readonly [PR_ATTACH_CONTENT_LOCATION](../../aspose.email.mapi/mapipropertytag/pr_attach_content_location/) | Contains a relative or full URI that matches a corresponding reference in the HTML body of a Message object. Canonical name: PidTagAttachContentLocation. Property tag: 0x3713001E (PT_STRING8). |
+| static readonly [PR_ATTACH_CONTENT_LOCATION_W](../../aspose.email.mapi/mapipropertytag/pr_attach_content_location_w/) | The Unicode form of [`PR_ATTACH_CONTENT_LOCATION`](./pr_attach_content_location/). Property tag: 0x3713001F (PT_UNICODE). |
+| static readonly [PR_ATTACH_DATA_BIN](../../aspose.email.mapi/mapipropertytag/pr_attach_data_bin/) | Contains the contents of the file to be attached. Canonical name: PidTagAttachDataBinary. Property tag: 0x37010102 (PT_BINARY). |
+| static readonly [PR_ATTACH_DATA_OBJ](../../aspose.email.mapi/mapipropertytag/pr_attach_data_obj/) | Contains the binary representation of the Attachment object in an application-specific format. Canonical name: PidTagAttachDataObject. Property tag: 0x3701000D (PT_OBJECT). |
+| static readonly [PR_ATTACH_ENCODING](../../aspose.email.mapi/mapipropertytag/pr_attach_encoding/) | Contains encoding information about the Attachment object. Canonical name: PidTagAttachEncoding. Property tag: 0x37020102 (PT_BINARY). |
+| static readonly [PR_ATTACH_EXTENSION](../../aspose.email.mapi/mapipropertytag/pr_attach_extension/) | Contains a file name extension that indicates the document type of an attachment. Canonical name: PidTagAttachExtension. Property tag: 0x3703001E (PT_STRING8). |
+| static readonly [PR_ATTACH_EXTENSION_A](../../aspose.email.mapi/mapipropertytag/pr_attach_extension_a/) | The ANSI form of [`PR_ATTACH_EXTENSION`](./pr_attach_extension/). Property tag: 0x3703001E (PT_STRING8). |
+| static readonly [PR_ATTACH_EXTENSION_W](../../aspose.email.mapi/mapipropertytag/pr_attach_extension_w/) | The Unicode form of [`PR_ATTACH_EXTENSION`](./pr_attach_extension/). Property tag: 0x3703001F (PT_UNICODE). |
+| static readonly [PR_ATTACH_FILENAME](../../aspose.email.mapi/mapipropertytag/pr_attach_filename/) | Contains the 8.3 name of the PidTagAttachLongFilename property (section 2.586). Canonical name: PidTagAttachFilename. Property tag: 0x3704001E (PT_STRING8). |
+| static readonly [PR_ATTACH_FILENAME_A](../../aspose.email.mapi/mapipropertytag/pr_attach_filename_a/) | The ANSI form of [`PR_ATTACH_FILENAME`](./pr_attach_filename/). Property tag: 0x3704001E (PT_STRING8). |
+| static readonly [PR_ATTACH_FILENAME_W](../../aspose.email.mapi/mapipropertytag/pr_attach_filename_w/) | The Unicode form of [`PR_ATTACH_FILENAME`](./pr_attach_filename/). Property tag: 0x3704001F (PT_UNICODE). |
 | static readonly [PR_ATTACH_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_attach_flags/) | Contains a bitmask of flags for an attachment. |
-| static readonly [PR_ATTACH_LONG_FILENAME](../../aspose.email.mapi/mapipropertytag/pr_attach_long_filename/) |  |
-| static readonly [PR_ATTACH_LONG_FILENAME_A](../../aspose.email.mapi/mapipropertytag/pr_attach_long_filename_a/) |  |
-| static readonly [PR_ATTACH_LONG_FILENAME_W](../../aspose.email.mapi/mapipropertytag/pr_attach_long_filename_w/) |  |
-| static readonly [PR_ATTACH_LONG_PATHNAME](../../aspose.email.mapi/mapipropertytag/pr_attach_long_pathname/) |  |
-| static readonly [PR_ATTACH_LONG_PATHNAME_A](../../aspose.email.mapi/mapipropertytag/pr_attach_long_pathname_a/) |  |
-| static readonly [PR_ATTACH_LONG_PATHNAME_W](../../aspose.email.mapi/mapipropertytag/pr_attach_long_pathname_w/) |  |
-| static readonly [PR_ATTACH_METHOD](../../aspose.email.mapi/mapipropertytag/pr_attach_method/) |  |
-| static readonly [PR_ATTACH_MIME_TAG](../../aspose.email.mapi/mapipropertytag/pr_attach_mime_tag/) |  |
-| static readonly [PR_ATTACH_MIME_TAG_A](../../aspose.email.mapi/mapipropertytag/pr_attach_mime_tag_a/) |  |
-| static readonly [PR_ATTACH_MIME_TAG_W](../../aspose.email.mapi/mapipropertytag/pr_attach_mime_tag_w/) |  |
-| static readonly [PR_ATTACH_NUM](../../aspose.email.mapi/mapipropertytag/pr_attach_num/) |  |
-| static readonly [PR_ATTACH_ON_ASSOC_MSG_COUNT](../../aspose.email.mapi/mapipropertytag/pr_attach_on_assoc_msg_count/) |  |
-| static readonly [PR_ATTACH_ON_NORMAL_MSG_COUNT](../../aspose.email.mapi/mapipropertytag/pr_attach_on_normal_msg_count/) |  |
-| static readonly [PR_ATTACH_PATHNAME](../../aspose.email.mapi/mapipropertytag/pr_attach_pathname/) |  |
-| static readonly [PR_ATTACH_PATHNAME_A](../../aspose.email.mapi/mapipropertytag/pr_attach_pathname_a/) |  |
-| static readonly [PR_ATTACH_PATHNAME_W](../../aspose.email.mapi/mapipropertytag/pr_attach_pathname_w/) |  |
-| static readonly [PR_ATTACH_RENDERING](../../aspose.email.mapi/mapipropertytag/pr_attach_rendering/) |  |
-| static readonly [PR_ATTACH_SIZE](../../aspose.email.mapi/mapipropertytag/pr_attach_size/) |  |
-| static readonly [PR_ATTACH_TAG](../../aspose.email.mapi/mapipropertytag/pr_attach_tag/) |  |
-| static readonly [PR_ATTACH_TRANSPORT_NAME](../../aspose.email.mapi/mapipropertytag/pr_attach_transport_name/) |  |
-| static readonly [PR_ATTACH_TRANSPORT_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_attach_transport_name_a/) |  |
-| static readonly [PR_ATTACH_TRANSPORT_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_attach_transport_name_w/) |  |
-| static readonly [PR_AUTHORIZING_USERS](../../aspose.email.mapi/mapipropertytag/pr_authorizing_users/) |  |
-| static readonly [PR_AUTO_ADD_NEW_SUBS](../../aspose.email.mapi/mapipropertytag/pr_auto_add_new_subs/) |  |
-| static readonly [PR_AUTO_FORWARDED](../../aspose.email.mapi/mapipropertytag/pr_auto_forwarded/) |  |
-| static readonly [PR_AUTO_FORWARD_COMMENT](../../aspose.email.mapi/mapipropertytag/pr_auto_forward_comment/) |  |
-| static readonly [PR_AUTO_FORWARD_COMMENT_A](../../aspose.email.mapi/mapipropertytag/pr_auto_forward_comment_a/) |  |
-| static readonly [PR_AUTO_FORWARD_COMMENT_W](../../aspose.email.mapi/mapipropertytag/pr_auto_forward_comment_w/) |  |
-| static readonly [PR_AUTO_RESPONSE_SUPPRESS](../../aspose.email.mapi/mapipropertytag/pr_auto_response_suppress/) |  |
-| static readonly [PR_BEEPER_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_beeper_telephone_number/) |  |
-| static readonly [PR_BEEPER_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_beeper_telephone_number_a/) |  |
-| static readonly [PR_BEEPER_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_beeper_telephone_number_w/) |  |
-| static readonly [PR_BILATERAL_INFO](../../aspose.email.mapi/mapipropertytag/pr_bilateral_info/) |  |
-| static readonly [PR_BIRTHDAY](../../aspose.email.mapi/mapipropertytag/pr_birthday/) |  |
-| static readonly [PR_BODY](../../aspose.email.mapi/mapipropertytag/pr_body/) |  |
-| static readonly [PR_BODY_A](../../aspose.email.mapi/mapipropertytag/pr_body_a/) |  |
-| static readonly [PR_BODY_CRC](../../aspose.email.mapi/mapipropertytag/pr_body_crc/) |  |
+| static readonly [PR_ATTACH_LONG_FILENAME](../../aspose.email.mapi/mapipropertytag/pr_attach_long_filename/) | Contains the full filename and extension of the Attachment object. Canonical name: PidTagAttachLongFilename. Property tag: 0x3707001E (PT_STRING8). |
+| static readonly [PR_ATTACH_LONG_FILENAME_A](../../aspose.email.mapi/mapipropertytag/pr_attach_long_filename_a/) | The ANSI form of [`PR_ATTACH_LONG_FILENAME`](./pr_attach_long_filename/). Property tag: 0x3707001E (PT_STRING8). |
+| static readonly [PR_ATTACH_LONG_FILENAME_W](../../aspose.email.mapi/mapipropertytag/pr_attach_long_filename_w/) | The Unicode form of [`PR_ATTACH_LONG_FILENAME`](./pr_attach_long_filename/). Property tag: 0x3707001F (PT_UNICODE). |
+| static readonly [PR_ATTACH_LONG_PATHNAME](../../aspose.email.mapi/mapipropertytag/pr_attach_long_pathname/) | Contains the fully-qualified path and file name with extension. Canonical name: PidTagAttachLongPathname. Property tag: 0x370D001E (PT_STRING8). |
+| static readonly [PR_ATTACH_LONG_PATHNAME_A](../../aspose.email.mapi/mapipropertytag/pr_attach_long_pathname_a/) | The ANSI form of [`PR_ATTACH_LONG_PATHNAME`](./pr_attach_long_pathname/). Property tag: 0x370D001E (PT_STRING8). |
+| static readonly [PR_ATTACH_LONG_PATHNAME_W](../../aspose.email.mapi/mapipropertytag/pr_attach_long_pathname_w/) | The Unicode form of [`PR_ATTACH_LONG_PATHNAME`](./pr_attach_long_pathname/). Property tag: 0x370D001F (PT_UNICODE). |
+| static readonly [PR_ATTACH_METHOD](../../aspose.email.mapi/mapipropertytag/pr_attach_method/) | Represents the way the contents of an attachment are accessed. Canonical name: PidTagAttachMethod. Property tag: 0x37050003 (PT_LONG). |
+| static readonly [PR_ATTACH_MIME_TAG](../../aspose.email.mapi/mapipropertytag/pr_attach_mime_tag/) | Contains a content-type MIME header. Canonical name: PidTagAttachMimeTag. Property tag: 0x370E001E (PT_STRING8). |
+| static readonly [PR_ATTACH_MIME_TAG_A](../../aspose.email.mapi/mapipropertytag/pr_attach_mime_tag_a/) | The ANSI form of [`PR_ATTACH_MIME_TAG`](./pr_attach_mime_tag/). Property tag: 0x370E001E (PT_STRING8). |
+| static readonly [PR_ATTACH_MIME_TAG_W](../../aspose.email.mapi/mapipropertytag/pr_attach_mime_tag_w/) | The Unicode form of [`PR_ATTACH_MIME_TAG`](./pr_attach_mime_tag/). Property tag: 0x370E001F (PT_UNICODE). |
+| static readonly [PR_ATTACH_NUM](../../aspose.email.mapi/mapipropertytag/pr_attach_num/) | Identifies the Attachment object within its Message object. Canonical name: PidTagAttachNumber. Property tag: 0x0E210003 (PT_LONG). |
+| static readonly [PR_ATTACH_ON_ASSOC_MSG_COUNT](../../aspose.email.mapi/mapipropertytag/pr_attach_on_assoc_msg_count/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66B20003 (PT_LONG). |
+| static readonly [PR_ATTACH_ON_NORMAL_MSG_COUNT](../../aspose.email.mapi/mapipropertytag/pr_attach_on_normal_msg_count/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66B10003 (PT_LONG). |
+| static readonly [PR_ATTACH_PATHNAME](../../aspose.email.mapi/mapipropertytag/pr_attach_pathname/) | Contains the 8.3 name of the PidTagAttachLongPathname property (section 2.587). Canonical name: PidTagAttachPathname. Property tag: 0x3708001E (PT_STRING8). |
+| static readonly [PR_ATTACH_PATHNAME_A](../../aspose.email.mapi/mapipropertytag/pr_attach_pathname_a/) | The ANSI form of [`PR_ATTACH_PATHNAME`](./pr_attach_pathname/). Property tag: 0x3708001E (PT_STRING8). |
+| static readonly [PR_ATTACH_PATHNAME_W](../../aspose.email.mapi/mapipropertytag/pr_attach_pathname_w/) | The Unicode form of [`PR_ATTACH_PATHNAME`](./pr_attach_pathname/). Property tag: 0x3708001F (PT_UNICODE). |
+| static readonly [PR_ATTACH_RENDERING](../../aspose.email.mapi/mapipropertytag/pr_attach_rendering/) | Contains a Windows Metafile, as specified in [MS-WMF], for the Attachment object. Canonical name: PidTagAttachRendering. Property tag: 0x37090102 (PT_BINARY). |
+| static readonly [PR_ATTACH_SIZE](../../aspose.email.mapi/mapipropertytag/pr_attach_size/) | Contains the size, in bytes, consumed by the Attachment object on the server. Canonical name: PidTagAttachSize. Property tag: 0x0E200003 (PT_LONG). |
+| static readonly [PR_ATTACH_TAG](../../aspose.email.mapi/mapipropertytag/pr_attach_tag/) | Contains the identifier information for the application that supplied the Attachment object data. Canonical name: PidTagAttachTag. Property tag: 0x370A0102 (PT_BINARY). |
+| static readonly [PR_ATTACH_TRANSPORT_NAME](../../aspose.email.mapi/mapipropertytag/pr_attach_transport_name/) | Contains the name of an attachment file, modified so that it can be correlated with TNEF messages. Canonical name: PidTagAttachTransportName. Property tag: 0x370C001E (PT_STRING8). |
+| static readonly [PR_ATTACH_TRANSPORT_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_attach_transport_name_a/) | The ANSI form of [`PR_ATTACH_TRANSPORT_NAME`](./pr_attach_transport_name/). Property tag: 0x370C001E (PT_STRING8). |
+| static readonly [PR_ATTACH_TRANSPORT_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_attach_transport_name_w/) | The Unicode form of [`PR_ATTACH_TRANSPORT_NAME`](./pr_attach_transport_name/). Property tag: 0x370C001F (PT_UNICODE). |
+| static readonly [PR_AUTHORIZING_USERS](../../aspose.email.mapi/mapipropertytag/pr_authorizing_users/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x00030102 (PT_BINARY). |
+| static readonly [PR_AUTO_ADD_NEW_SUBS](../../aspose.email.mapi/mapipropertytag/pr_auto_add_new_subs/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x65E5000B (PT_BOOLEAN). |
+| static readonly [PR_AUTO_FORWARDED](../../aspose.email.mapi/mapipropertytag/pr_auto_forwarded/) | Indicates that a Message object has been automatically generated or automatically forwarded. Canonical name: PidTagAutoForwarded. Property tag: 0x0005000B (PT_BOOLEAN). |
+| static readonly [PR_AUTO_FORWARD_COMMENT](../../aspose.email.mapi/mapipropertytag/pr_auto_forward_comment/) | Contains text included in an automatically-generated message. Canonical name: PidTagAutoForwardComment. Property tag: 0x0004001E (PT_STRING8). |
+| static readonly [PR_AUTO_FORWARD_COMMENT_A](../../aspose.email.mapi/mapipropertytag/pr_auto_forward_comment_a/) | The ANSI form of [`PR_AUTO_FORWARD_COMMENT`](./pr_auto_forward_comment/). Property tag: 0x0004001E (PT_STRING8). |
+| static readonly [PR_AUTO_FORWARD_COMMENT_W](../../aspose.email.mapi/mapipropertytag/pr_auto_forward_comment_w/) | The Unicode form of [`PR_AUTO_FORWARD_COMMENT`](./pr_auto_forward_comment/). Property tag: 0x0004001F (PT_UNICODE). |
+| static readonly [PR_AUTO_RESPONSE_SUPPRESS](../../aspose.email.mapi/mapipropertytag/pr_auto_response_suppress/) | Specifies whether a client or server application should forego sending automated replies in response to this message. Canonical name: PidTagAutoResponseSuppress. Property tag: 0x3FDF0003 (PT_LONG). |
+| static readonly [PR_BEEPER_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_beeper_telephone_number/) | Contains the mail user's pager telephone number. Canonical name: PidTagPagerTelephoneNumber. Property tag: 0x3A21001E (PT_STRING8). |
+| static readonly [PR_BEEPER_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_beeper_telephone_number_a/) | The ANSI form of [`PR_BEEPER_TELEPHONE_NUMBER`](./pr_beeper_telephone_number/). Property tag: 0x3A21001E (PT_STRING8). |
+| static readonly [PR_BEEPER_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_beeper_telephone_number_w/) | The Unicode form of [`PR_BEEPER_TELEPHONE_NUMBER`](./pr_beeper_telephone_number/). Property tag: 0x3A21001F (PT_UNICODE). |
+| static readonly [PR_BILATERAL_INFO](../../aspose.email.mapi/mapipropertytag/pr_bilateral_info/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FDC0102 (PT_BINARY). |
+| static readonly [PR_BIRTHDAY](../../aspose.email.mapi/mapipropertytag/pr_birthday/) | Contains the date of the mail user's birthday at midnight. Canonical name: PidTagBirthday. Property tag: 0x3A420040 (PT_SYSTIME). |
+| static readonly [PR_BODY](../../aspose.email.mapi/mapipropertytag/pr_body/) | Contains message body text in plain text format. Canonical name: PidTagBody. Property tag: 0x1000001E (PT_STRING8). |
+| static readonly [PR_BODY_A](../../aspose.email.mapi/mapipropertytag/pr_body_a/) | The ANSI form of [`PR_BODY`](./pr_body/). Property tag: 0x1000001E (PT_STRING8). |
+| static readonly [PR_BODY_CRC](../../aspose.email.mapi/mapipropertytag/pr_body_crc/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E1C0003 (PT_LONG). |
 | static readonly [PR_BODY_HTML](../../aspose.email.mapi/mapipropertytag/pr_body_html/) | Contains the Hypertext Markup Language (HTML)-encoded text body. |
 | static readonly [PR_BODY_HTML_A](../../aspose.email.mapi/mapipropertytag/pr_body_html_a/) | Contains the HTML-encoded text body. Non-UNICODE compilation. |
 | static readonly [PR_BODY_HTML_W](../../aspose.email.mapi/mapipropertytag/pr_body_html_w/) | Contains the HTML-encoded text body. UNICODE compilation. |
-| static readonly [PR_BODY_W](../../aspose.email.mapi/mapipropertytag/pr_body_w/) |  |
-| static readonly [PR_BUSINESS2_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_business2_telephone_number/) |  |
-| static readonly [PR_BUSINESS2_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_business2_telephone_number_a/) |  |
-| static readonly [PR_BUSINESS2_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_business2_telephone_number_w/) |  |
-| static readonly [PR_BUSINESS_ADDRESS_CITY](../../aspose.email.mapi/mapipropertytag/pr_business_address_city/) |  |
-| static readonly [PR_BUSINESS_ADDRESS_CITY_A](../../aspose.email.mapi/mapipropertytag/pr_business_address_city_a/) |  |
-| static readonly [PR_BUSINESS_ADDRESS_CITY_W](../../aspose.email.mapi/mapipropertytag/pr_business_address_city_w/) |  |
-| static readonly [PR_BUSINESS_ADDRESS_COUNTRY](../../aspose.email.mapi/mapipropertytag/pr_business_address_country/) |  |
-| static readonly [PR_BUSINESS_ADDRESS_COUNTRY_A](../../aspose.email.mapi/mapipropertytag/pr_business_address_country_a/) |  |
-| static readonly [PR_BUSINESS_ADDRESS_COUNTRY_W](../../aspose.email.mapi/mapipropertytag/pr_business_address_country_w/) |  |
-| static readonly [PR_BUSINESS_ADDRESS_POSTAL_CODE](../../aspose.email.mapi/mapipropertytag/pr_business_address_postal_code/) |  |
-| static readonly [PR_BUSINESS_ADDRESS_POSTAL_CODE_A](../../aspose.email.mapi/mapipropertytag/pr_business_address_postal_code_a/) |  |
-| static readonly [PR_BUSINESS_ADDRESS_POSTAL_CODE_W](../../aspose.email.mapi/mapipropertytag/pr_business_address_postal_code_w/) |  |
-| static readonly [PR_BUSINESS_ADDRESS_POST_OFFICE_BOX](../../aspose.email.mapi/mapipropertytag/pr_business_address_post_office_box/) |  |
-| static readonly [PR_BUSINESS_ADDRESS_POST_OFFICE_BOX_A](../../aspose.email.mapi/mapipropertytag/pr_business_address_post_office_box_a/) |  |
-| static readonly [PR_BUSINESS_ADDRESS_POST_OFFICE_BOX_W](../../aspose.email.mapi/mapipropertytag/pr_business_address_post_office_box_w/) |  |
-| static readonly [PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE](../../aspose.email.mapi/mapipropertytag/pr_business_address_state_or_province/) |  |
-| static readonly [PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_A](../../aspose.email.mapi/mapipropertytag/pr_business_address_state_or_province_a/) |  |
-| static readonly [PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_W](../../aspose.email.mapi/mapipropertytag/pr_business_address_state_or_province_w/) |  |
-| static readonly [PR_BUSINESS_ADDRESS_STREET](../../aspose.email.mapi/mapipropertytag/pr_business_address_street/) |  |
-| static readonly [PR_BUSINESS_ADDRESS_STREET_A](../../aspose.email.mapi/mapipropertytag/pr_business_address_street_a/) |  |
-| static readonly [PR_BUSINESS_ADDRESS_STREET_W](../../aspose.email.mapi/mapipropertytag/pr_business_address_street_w/) |  |
-| static readonly [PR_BUSINESS_FAX_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_business_fax_number/) |  |
-| static readonly [PR_BUSINESS_FAX_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_business_fax_number_a/) |  |
-| static readonly [PR_BUSINESS_FAX_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_business_fax_number_w/) |  |
-| static readonly [PR_BUSINESS_HOME_PAGE](../../aspose.email.mapi/mapipropertytag/pr_business_home_page/) |  |
-| static readonly [PR_BUSINESS_HOME_PAGE_A](../../aspose.email.mapi/mapipropertytag/pr_business_home_page_a/) |  |
-| static readonly [PR_BUSINESS_HOME_PAGE_W](../../aspose.email.mapi/mapipropertytag/pr_business_home_page_w/) |  |
-| static readonly [PR_BUSINESS_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_business_telephone_number/) |  |
-| static readonly [PR_BUSINESS_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_business_telephone_number_a/) |  |
-| static readonly [PR_BUSINESS_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_business_telephone_number_w/) |  |
-| static readonly [PR_CACHED_COLUMN_COUNT](../../aspose.email.mapi/mapipropertytag/pr_cached_column_count/) |  |
-| static readonly [PR_CALLBACK_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_callback_telephone_number/) |  |
-| static readonly [PR_CALLBACK_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_callback_telephone_number_a/) |  |
-| static readonly [PR_CALLBACK_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_callback_telephone_number_w/) |  |
-| static readonly [PR_CAR_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_car_telephone_number/) |  |
-| static readonly [PR_CAR_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_car_telephone_number_a/) |  |
-| static readonly [PR_CAR_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_car_telephone_number_w/) |  |
-| static readonly [PR_CATEG_COUNT](../../aspose.email.mapi/mapipropertytag/pr_categ_count/) |  |
-| static readonly [PR_CELLULAR_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_cellular_telephone_number/) |  |
-| static readonly [PR_CELLULAR_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_cellular_telephone_number_a/) |  |
-| static readonly [PR_CELLULAR_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_cellular_telephone_number_w/) |  |
-| static readonly [PR_CHANGE_ADVISOR](../../aspose.email.mapi/mapipropertytag/pr_change_advisor/) |  |
-| static readonly [PR_CHANGE_KEY](../../aspose.email.mapi/mapipropertytag/pr_change_key/) |  |
-| static readonly [PR_CHANGE_NOTIFICATION_GUID](../../aspose.email.mapi/mapipropertytag/pr_change_notification_guid/) |  |
-| static readonly [PR_CHILDRENS_NAMES](../../aspose.email.mapi/mapipropertytag/pr_childrens_names/) |  |
-| static readonly [PR_CLIENT_ACTIONS](../../aspose.email.mapi/mapipropertytag/pr_client_actions/) |  |
-| static readonly [PR_CLIENT_SUBMIT_TIME](../../aspose.email.mapi/mapipropertytag/pr_client_submit_time/) |  |
-| static readonly [PR_CODE_PAGE_ID](../../aspose.email.mapi/mapipropertytag/pr_code_page_id/) |  |
-| static readonly [PR_COLLECTOR](../../aspose.email.mapi/mapipropertytag/pr_collector/) |  |
-| static readonly [PR_COMMENT](../../aspose.email.mapi/mapipropertytag/pr_comment/) |  |
-| static readonly [PR_COMMENT_A](../../aspose.email.mapi/mapipropertytag/pr_comment_a/) |  |
-| static readonly [PR_COMMENT_W](../../aspose.email.mapi/mapipropertytag/pr_comment_w/) |  |
-| static readonly [PR_COMMON_VIEWS_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_common_views_entryid/) |  |
-| static readonly [PR_COMPANY_MAIN_PHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_company_main_phone_number/) |  |
-| static readonly [PR_COMPANY_MAIN_PHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_company_main_phone_number_a/) |  |
-| static readonly [PR_COMPANY_MAIN_PHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_company_main_phone_number_w/) |  |
-| static readonly [PR_COMPANY_NAME](../../aspose.email.mapi/mapipropertytag/pr_company_name/) |  |
-| static readonly [PR_COMPANY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_company_name_a/) |  |
-| static readonly [PR_COMPANY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_company_name_w/) |  |
-| static readonly [PR_COMPUTER_NETWORK_NAME](../../aspose.email.mapi/mapipropertytag/pr_computer_network_name/) |  |
-| static readonly [PR_COMPUTER_NETWORK_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_computer_network_name_a/) |  |
-| static readonly [PR_COMPUTER_NETWORK_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_computer_network_name_w/) |  |
-| static readonly [PR_CONFLICT_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_conflict_entryid/) |  |
-| static readonly [PR_CONTACT_ADDRTYPES](../../aspose.email.mapi/mapipropertytag/pr_contact_addrtypes/) |  |
-| static readonly [PR_CONTACT_COUNT](../../aspose.email.mapi/mapipropertytag/pr_contact_count/) |  |
-| static readonly [PR_CONTACT_DEFAULT_ADDRESS_INDEX](../../aspose.email.mapi/mapipropertytag/pr_contact_default_address_index/) |  |
-| static readonly [PR_CONTACT_EMAIL_ADDRESSES](../../aspose.email.mapi/mapipropertytag/pr_contact_email_addresses/) |  |
-| static readonly [PR_CONTACT_ENTRYIDS](../../aspose.email.mapi/mapipropertytag/pr_contact_entryids/) |  |
-| static readonly [PR_CONTACT_VERSION](../../aspose.email.mapi/mapipropertytag/pr_contact_version/) |  |
-| static readonly [PR_CONTAINER_CLASS](../../aspose.email.mapi/mapipropertytag/pr_container_class/) |  |
-| static readonly [PR_CONTAINER_CLASS_A](../../aspose.email.mapi/mapipropertytag/pr_container_class_a/) |  |
-| static readonly [PR_CONTAINER_CLASS_W](../../aspose.email.mapi/mapipropertytag/pr_container_class_w/) |  |
-| static readonly [PR_CONTAINER_CONTENTS](../../aspose.email.mapi/mapipropertytag/pr_container_contents/) |  |
-| static readonly [PR_CONTAINER_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_container_flags/) |  |
-| static readonly [PR_CONTAINER_HIERARCHY](../../aspose.email.mapi/mapipropertytag/pr_container_hierarchy/) |  |
-| static readonly [PR_CONTAINER_MODIFY_VERSION](../../aspose.email.mapi/mapipropertytag/pr_container_modify_version/) |  |
-| static readonly [PR_CONTENTS_SORT_ORDER](../../aspose.email.mapi/mapipropertytag/pr_contents_sort_order/) |  |
-| static readonly [PR_CONTENTS_SYNCHRONIZER](../../aspose.email.mapi/mapipropertytag/pr_contents_synchronizer/) |  |
-| static readonly [PR_CONTENT_CONFIDENTIALITY_ALGORITHM_ID](../../aspose.email.mapi/mapipropertytag/pr_content_confidentiality_algorithm_id/) |  |
-| static readonly [PR_CONTENT_CORRELATOR](../../aspose.email.mapi/mapipropertytag/pr_content_correlator/) |  |
-| static readonly [PR_CONTENT_COUNT](../../aspose.email.mapi/mapipropertytag/pr_content_count/) |  |
-| static readonly [PR_CONTENT_IDENTIFIER](../../aspose.email.mapi/mapipropertytag/pr_content_identifier/) |  |
-| static readonly [PR_CONTENT_IDENTIFIER_A](../../aspose.email.mapi/mapipropertytag/pr_content_identifier_a/) |  |
-| static readonly [PR_CONTENT_IDENTIFIER_W](../../aspose.email.mapi/mapipropertytag/pr_content_identifier_w/) |  |
-| static readonly [PR_CONTENT_INTEGRITY_CHECK](../../aspose.email.mapi/mapipropertytag/pr_content_integrity_check/) |  |
-| static readonly [PR_CONTENT_LENGTH](../../aspose.email.mapi/mapipropertytag/pr_content_length/) |  |
-| static readonly [PR_CONTENT_RETURN_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_content_return_requested/) |  |
-| static readonly [PR_CONTENT_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_content_search_key/) |  |
-| static readonly [PR_CONTENT_UNREAD](../../aspose.email.mapi/mapipropertytag/pr_content_unread/) |  |
-| static readonly [PR_CONTROL_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_control_flags/) |  |
-| static readonly [PR_CONTROL_ID](../../aspose.email.mapi/mapipropertytag/pr_control_id/) |  |
-| static readonly [PR_CONTROL_STRUCTURE](../../aspose.email.mapi/mapipropertytag/pr_control_structure/) |  |
-| static readonly [PR_CONTROL_TYPE](../../aspose.email.mapi/mapipropertytag/pr_control_type/) |  |
-| static readonly [PR_CONVERSATION_INDEX](../../aspose.email.mapi/mapipropertytag/pr_conversation_index/) |  |
-| static readonly [PR_CONVERSATION_INDEX_TRACKING](../../aspose.email.mapi/mapipropertytag/pr_conversation_index_tracking/) |  |
-| static readonly [PR_CONVERSATION_KEY](../../aspose.email.mapi/mapipropertytag/pr_conversation_key/) |  |
-| static readonly [PR_CONVERSATION_TOPIC](../../aspose.email.mapi/mapipropertytag/pr_conversation_topic/) |  |
-| static readonly [PR_CONVERSATION_TOPIC_A](../../aspose.email.mapi/mapipropertytag/pr_conversation_topic_a/) |  |
-| static readonly [PR_CONVERSATION_TOPIC_W](../../aspose.email.mapi/mapipropertytag/pr_conversation_topic_w/) |  |
-| static readonly [PR_CONVERSION_EITS](../../aspose.email.mapi/mapipropertytag/pr_conversion_eits/) |  |
-| static readonly [PR_CONVERSION_PROHIBITED](../../aspose.email.mapi/mapipropertytag/pr_conversion_prohibited/) |  |
-| static readonly [PR_CONVERSION_WITH_LOSS_PROHIBITED](../../aspose.email.mapi/mapipropertytag/pr_conversion_with_loss_prohibited/) |  |
-| static readonly [PR_CONVERTED_EITS](../../aspose.email.mapi/mapipropertytag/pr_converted_eits/) |  |
-| static readonly [PR_CORRELATE](../../aspose.email.mapi/mapipropertytag/pr_correlate/) |  |
-| static readonly [PR_CORRELATE_MTSID](../../aspose.email.mapi/mapipropertytag/pr_correlate_mtsid/) |  |
-| static readonly [PR_COUNTRY](../../aspose.email.mapi/mapipropertytag/pr_country/) |  |
-| static readonly [PR_COUNTRY_A](../../aspose.email.mapi/mapipropertytag/pr_country_a/) |  |
-| static readonly [PR_COUNTRY_W](../../aspose.email.mapi/mapipropertytag/pr_country_w/) |  |
-| static readonly [PR_CREATE_TEMPLATES](../../aspose.email.mapi/mapipropertytag/pr_create_templates/) |  |
-| static readonly [PR_CREATION_TIME](../../aspose.email.mapi/mapipropertytag/pr_creation_time/) |  |
-| static readonly [PR_CREATION_VERSION](../../aspose.email.mapi/mapipropertytag/pr_creation_version/) |  |
-| static readonly [PR_CREATOR_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_creator_entryid/) |  |
-| static readonly [PR_CREATOR_NAME](../../aspose.email.mapi/mapipropertytag/pr_creator_name/) |  |
-| static readonly [PR_CREATOR_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_creator_name_a/) |  |
-| static readonly [PR_CREATOR_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_creator_name_w/) |  |
-| static readonly [PR_CURRENT_VERSION](../../aspose.email.mapi/mapipropertytag/pr_current_version/) |  |
-| static readonly [PR_CUSTOMER_ID](../../aspose.email.mapi/mapipropertytag/pr_customer_id/) |  |
-| static readonly [PR_CUSTOMER_ID_A](../../aspose.email.mapi/mapipropertytag/pr_customer_id_a/) |  |
-| static readonly [PR_CUSTOMER_ID_W](../../aspose.email.mapi/mapipropertytag/pr_customer_id_w/) |  |
-| static readonly [PR_DAM_BACK_PATCHED](../../aspose.email.mapi/mapipropertytag/pr_dam_back_patched/) |  |
-| static readonly [PR_DAM_ORIGINAL_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_dam_original_entryid/) |  |
-| static readonly [PR_DEFAULT_PROFILE](../../aspose.email.mapi/mapipropertytag/pr_default_profile/) |  |
-| static readonly [PR_DEFAULT_STORE](../../aspose.email.mapi/mapipropertytag/pr_default_store/) |  |
-| static readonly [PR_DEFAULT_VIEW_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_default_view_entryid/) |  |
-| static readonly [PR_DEFERRED_DELIVERY_TIME](../../aspose.email.mapi/mapipropertytag/pr_deferred_delivery_time/) |  |
-| static readonly [PR_DEFERRED_SEND_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_deferred_send_number/) |  |
-| static readonly [PR_DEFERRED_SEND_TIME](../../aspose.email.mapi/mapipropertytag/pr_deferred_send_time/) |  |
-| static readonly [PR_DEFERRED_SEND_UNITS](../../aspose.email.mapi/mapipropertytag/pr_deferred_send_units/) |  |
-| static readonly [PR_DEF_CREATE_DL](../../aspose.email.mapi/mapipropertytag/pr_def_create_dl/) |  |
-| static readonly [PR_DEF_CREATE_MAILUSER](../../aspose.email.mapi/mapipropertytag/pr_def_create_mailuser/) |  |
-| static readonly [PR_DELEGATED_BY_RULE](../../aspose.email.mapi/mapipropertytag/pr_delegated_by_rule/) |  |
-| static readonly [PR_DELEGATION](../../aspose.email.mapi/mapipropertytag/pr_delegation/) |  |
-| static readonly [PR_DELETED_ASSOC_MESSAGE_SIZE_EXTENDED](../../aspose.email.mapi/mapipropertytag/pr_deleted_assoc_message_size_extended/) |  |
-| static readonly [PR_DELETED_ASSOC_MSG_COUNT](../../aspose.email.mapi/mapipropertytag/pr_deleted_assoc_msg_count/) |  |
-| static readonly [PR_DELETED_FOLDER_COUNT](../../aspose.email.mapi/mapipropertytag/pr_deleted_folder_count/) |  |
-| static readonly [PR_DELETED_MESSAGE_SIZE_EXTENDED](../../aspose.email.mapi/mapipropertytag/pr_deleted_message_size_extended/) |  |
-| static readonly [PR_DELETED_MSG_COUNT](../../aspose.email.mapi/mapipropertytag/pr_deleted_msg_count/) |  |
-| static readonly [PR_DELETED_NORMAL_MESSAGE_SIZE_EXTENDED](../../aspose.email.mapi/mapipropertytag/pr_deleted_normal_message_size_extended/) |  |
-| static readonly [PR_DELETED_ON](../../aspose.email.mapi/mapipropertytag/pr_deleted_on/) |  |
-| static readonly [PR_DELETE_AFTER_SUBMIT](../../aspose.email.mapi/mapipropertytag/pr_delete_after_submit/) |  |
-| static readonly [PR_DELIVERY_POINT](../../aspose.email.mapi/mapipropertytag/pr_delivery_point/) |  |
-| static readonly [PR_DELIVER_TIME](../../aspose.email.mapi/mapipropertytag/pr_deliver_time/) |  |
-| static readonly [PR_DELTAX](../../aspose.email.mapi/mapipropertytag/pr_deltax/) |  |
-| static readonly [PR_DELTAY](../../aspose.email.mapi/mapipropertytag/pr_deltay/) |  |
-| static readonly [PR_DEPARTMENT_NAME](../../aspose.email.mapi/mapipropertytag/pr_department_name/) |  |
-| static readonly [PR_DEPARTMENT_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_department_name_a/) |  |
-| static readonly [PR_DEPARTMENT_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_department_name_w/) |  |
-| static readonly [PR_DEPTH](../../aspose.email.mapi/mapipropertytag/pr_depth/) |  |
-| static readonly [PR_DESIGN_IN_PROGRESS](../../aspose.email.mapi/mapipropertytag/pr_design_in_progress/) |  |
-| static readonly [PR_DETAILS_TABLE](../../aspose.email.mapi/mapipropertytag/pr_details_table/) |  |
-| static readonly [PR_DISABLE_FULL_FIDELITY](../../aspose.email.mapi/mapipropertytag/pr_disable_full_fidelity/) |  |
-| static readonly [PR_DISABLE_WINSOCK](../../aspose.email.mapi/mapipropertytag/pr_disable_winsock/) |  |
-| static readonly [PR_DISCARD_REASON](../../aspose.email.mapi/mapipropertytag/pr_discard_reason/) |  |
-| static readonly [PR_DISCLOSE_RECIPIENTS](../../aspose.email.mapi/mapipropertytag/pr_disclose_recipients/) |  |
-| static readonly [PR_DISCLOSURE_OF_RECIPIENTS](../../aspose.email.mapi/mapipropertytag/pr_disclosure_of_recipients/) |  |
-| static readonly [PR_DISCRETE_VALUES](../../aspose.email.mapi/mapipropertytag/pr_discrete_values/) |  |
-| static readonly [PR_DISC_VAL](../../aspose.email.mapi/mapipropertytag/pr_disc_val/) |  |
-| static readonly [PR_DISPLAY_BCC](../../aspose.email.mapi/mapipropertytag/pr_display_bcc/) |  |
-| static readonly [PR_DISPLAY_BCC_A](../../aspose.email.mapi/mapipropertytag/pr_display_bcc_a/) |  |
-| static readonly [PR_DISPLAY_BCC_W](../../aspose.email.mapi/mapipropertytag/pr_display_bcc_w/) |  |
-| static readonly [PR_DISPLAY_CC](../../aspose.email.mapi/mapipropertytag/pr_display_cc/) |  |
-| static readonly [PR_DISPLAY_CC_A](../../aspose.email.mapi/mapipropertytag/pr_display_cc_a/) |  |
-| static readonly [PR_DISPLAY_CC_W](../../aspose.email.mapi/mapipropertytag/pr_display_cc_w/) |  |
-| static readonly [PR_DISPLAY_NAME](../../aspose.email.mapi/mapipropertytag/pr_display_name/) |  |
-| static readonly [PR_DISPLAY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_display_name_a/) |  |
-| static readonly [PR_DISPLAY_NAME_PREFIX](../../aspose.email.mapi/mapipropertytag/pr_display_name_prefix/) |  |
-| static readonly [PR_DISPLAY_NAME_PREFIX_A](../../aspose.email.mapi/mapipropertytag/pr_display_name_prefix_a/) |  |
-| static readonly [PR_DISPLAY_NAME_PREFIX_W](../../aspose.email.mapi/mapipropertytag/pr_display_name_prefix_w/) |  |
-| static readonly [PR_DISPLAY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_display_name_w/) |  |
-| static readonly [PR_DISPLAY_TO](../../aspose.email.mapi/mapipropertytag/pr_display_to/) |  |
-| static readonly [PR_DISPLAY_TO_A](../../aspose.email.mapi/mapipropertytag/pr_display_to_a/) |  |
-| static readonly [PR_DISPLAY_TO_W](../../aspose.email.mapi/mapipropertytag/pr_display_to_w/) |  |
-| static readonly [PR_DISPLAY_TYPE](../../aspose.email.mapi/mapipropertytag/pr_display_type/) |  |
-| static readonly [PR_DL_EXPANSION_HISTORY](../../aspose.email.mapi/mapipropertytag/pr_dl_expansion_history/) |  |
-| static readonly [PR_DL_EXPANSION_PROHIBITED](../../aspose.email.mapi/mapipropertytag/pr_dl_expansion_prohibited/) |  |
-| static readonly [PR_DL_REPORT_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_dl_report_flags/) |  |
-| static readonly [PR_EFORMS_FOR_LOCALE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_eforms_for_locale_entryid/) |  |
-| static readonly [PR_EFORMS_LOCALE_ID](../../aspose.email.mapi/mapipropertytag/pr_eforms_locale_id/) |  |
-| static readonly [PR_EFORMS_REGISTRY_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_eforms_registry_entryid/) |  |
-| static readonly [PR_EMAIL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_email_address/) |  |
-| static readonly [PR_EMAIL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_email_address_a/) |  |
-| static readonly [PR_EMAIL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_email_address_w/) |  |
-| static readonly [PR_EMS_AB_ACCESS_CATEGORY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_access_category/) |  |
-| static readonly [PR_EMS_AB_ACTIVATION_SCHEDULE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_activation_schedule/) |  |
-| static readonly [PR_EMS_AB_ACTIVATION_STYLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_activation_style/) |  |
-| static readonly [PR_EMS_AB_ADDRESS_ENTRY_DISPLAY_TABLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_address_entry_display_table/) |  |
-| static readonly [PR_EMS_AB_ADDRESS_ENTRY_DISPLAY_TABLE_MSDOS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_address_entry_display_table_msdos/) |  |
-| static readonly [PR_EMS_AB_ADDRESS_SYNTAX](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_address_syntax/) |  |
-| static readonly [PR_EMS_AB_ADDRESS_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_address_type/) |  |
-| static readonly [PR_EMS_AB_ADDRESS_TYPE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_address_type_a/) |  |
-| static readonly [PR_EMS_AB_ADDRESS_TYPE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_address_type_w/) |  |
-| static readonly [PR_EMS_AB_ADMD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admd/) |  |
-| static readonly [PR_EMS_AB_ADMD_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admd_a/) |  |
-| static readonly [PR_EMS_AB_ADMD_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admd_w/) |  |
-| static readonly [PR_EMS_AB_ADMIN_DESCRIPTION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admin_description/) |  |
-| static readonly [PR_EMS_AB_ADMIN_DESCRIPTION_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admin_description_a/) |  |
-| static readonly [PR_EMS_AB_ADMIN_DESCRIPTION_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admin_description_w/) |  |
-| static readonly [PR_EMS_AB_ADMIN_DISPLAY_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admin_display_name/) |  |
-| static readonly [PR_EMS_AB_ADMIN_DISPLAY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admin_display_name_a/) |  |
-| static readonly [PR_EMS_AB_ADMIN_DISPLAY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admin_display_name_w/) |  |
-| static readonly [PR_EMS_AB_ADMIN_EXTENSION_DLL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admin_extension_dll/) |  |
-| static readonly [PR_EMS_AB_ADMIN_EXTENSION_DLL_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admin_extension_dll_a/) |  |
-| static readonly [PR_EMS_AB_ADMIN_EXTENSION_DLL_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admin_extension_dll_w/) |  |
-| static readonly [PR_EMS_AB_ALIASED_OBJECT_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_aliased_object_name/) |  |
-| static readonly [PR_EMS_AB_ALIASED_OBJECT_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_aliased_object_name_a/) |  |
-| static readonly [PR_EMS_AB_ALIASED_OBJECT_NAME_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_aliased_object_name_o/) |  |
-| static readonly [PR_EMS_AB_ALIASED_OBJECT_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_aliased_object_name_w/) |  |
-| static readonly [PR_EMS_AB_ALT_RECIPIENT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_alt_recipient/) |  |
-| static readonly [PR_EMS_AB_ALT_RECIPIENT_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_alt_recipient_a/) |  |
-| static readonly [PR_EMS_AB_ALT_RECIPIENT_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_alt_recipient_bl/) |  |
-| static readonly [PR_EMS_AB_ALT_RECIPIENT_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_alt_recipient_bl_o/) |  |
-| static readonly [PR_EMS_AB_ALT_RECIPIENT_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_alt_recipient_o/) |  |
-| static readonly [PR_EMS_AB_ALT_RECIPIENT_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_alt_recipient_w/) |  |
-| static readonly [PR_EMS_AB_ANCESTOR_ID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ancestor_id/) |  |
-| static readonly [PR_EMS_AB_ANONYMOUS_ACCESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_anonymous_access/) |  |
-| static readonly [PR_EMS_AB_ANONYMOUS_ACCOUNT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_anonymous_account/) |  |
-| static readonly [PR_EMS_AB_ANONYMOUS_ACCOUNT_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_anonymous_account_a/) |  |
-| static readonly [PR_EMS_AB_ANONYMOUS_ACCOUNT_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_anonymous_account_w/) |  |
-| static readonly [PR_EMS_AB_ASSOCIATION_LIFETIME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_association_lifetime/) |  |
-| static readonly [PR_EMS_AB_ASSOC_NT_ACCOUNT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_assoc_nt_account/) |  |
-| static readonly [PR_EMS_AB_ASSOC_PROTOCOL_CFG_NNTP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_assoc_protocol_cfg_nntp/) |  |
-| static readonly [PR_EMS_AB_ASSOC_PROTOCOL_CFG_NNTP_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_assoc_protocol_cfg_nntp_a/) |  |
-| static readonly [PR_EMS_AB_ASSOC_PROTOCOL_CFG_NNTP_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_assoc_protocol_cfg_nntp_o/) |  |
-| static readonly [PR_EMS_AB_ASSOC_PROTOCOL_CFG_NNTP_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_assoc_protocol_cfg_nntp_w/) |  |
-| static readonly [PR_EMS_AB_ASSOC_REMOTE_DXA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_assoc_remote_dxa/) |  |
-| static readonly [PR_EMS_AB_ASSOC_REMOTE_DXA_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_assoc_remote_dxa_o/) |  |
-| static readonly [PR_EMS_AB_ATTRIBUTE_CERTIFICATE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_attribute_certificate/) |  |
-| static readonly [PR_EMS_AB_AUTHENTICATION_TO_USE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authentication_to_use/) |  |
-| static readonly [PR_EMS_AB_AUTHENTICATION_TO_USE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authentication_to_use_a/) |  |
-| static readonly [PR_EMS_AB_AUTHENTICATION_TO_USE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authentication_to_use_w/) |  |
-| static readonly [PR_EMS_AB_AUTHORITY_REVOCATION_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authority_revocation_list/) |  |
-| static readonly [PR_EMS_AB_AUTHORIZED_DOMAIN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authorized_domain/) |  |
-| static readonly [PR_EMS_AB_AUTHORIZED_DOMAIN_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authorized_domain_a/) |  |
-| static readonly [PR_EMS_AB_AUTHORIZED_DOMAIN_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authorized_domain_w/) |  |
-| static readonly [PR_EMS_AB_AUTHORIZED_PASSWORD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authorized_password/) |  |
-| static readonly [PR_EMS_AB_AUTHORIZED_PASSWORD_CONFIRM](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authorized_password_confirm/) |  |
-| static readonly [PR_EMS_AB_AUTHORIZED_USER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authorized_user/) |  |
-| static readonly [PR_EMS_AB_AUTHORIZED_USER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authorized_user_a/) |  |
-| static readonly [PR_EMS_AB_AUTHORIZED_USER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authorized_user_w/) |  |
-| static readonly [PR_EMS_AB_AUTH_ORIG_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_auth_orig_bl/) |  |
-| static readonly [PR_EMS_AB_AUTH_ORIG_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_auth_orig_bl_o/) |  |
-| static readonly [PR_EMS_AB_AUTOREPLY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_autoreply/) |  |
-| static readonly [PR_EMS_AB_AUTOREPLY_MESSAGE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_autoreply_message/) |  |
-| static readonly [PR_EMS_AB_AUTOREPLY_MESSAGE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_autoreply_message_a/) |  |
-| static readonly [PR_EMS_AB_AUTOREPLY_MESSAGE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_autoreply_message_w/) |  |
-| static readonly [PR_EMS_AB_AUTOREPLY_SUBJECT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_autoreply_subject/) |  |
-| static readonly [PR_EMS_AB_AUTOREPLY_SUBJECT_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_autoreply_subject_a/) |  |
-| static readonly [PR_EMS_AB_AUTOREPLY_SUBJECT_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_autoreply_subject_w/) |  |
-| static readonly [PR_EMS_AB_AVAILABLE_AUTHORIZATION_PACKAGES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_available_authorization_packages/) |  |
-| static readonly [PR_EMS_AB_AVAILABLE_DISTRIBUTIONS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_available_distributions/) |  |
-| static readonly [PR_EMS_AB_AVAILABLE_DISTRIBUTIONS_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_available_distributions_a/) |  |
-| static readonly [PR_EMS_AB_AVAILABLE_DISTRIBUTIONS_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_available_distributions_w/) |  |
-| static readonly [PR_EMS_AB_BRIDGEHEAD_SERVERS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_bridgehead_servers/) |  |
-| static readonly [PR_EMS_AB_BRIDGEHEAD_SERVERS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_bridgehead_servers_o/) |  |
-| static readonly [PR_EMS_AB_BUSINESS_CATEGORY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_business_category/) |  |
-| static readonly [PR_EMS_AB_BUSINESS_ROLES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_business_roles/) |  |
-| static readonly [PR_EMS_AB_CAN_CREATE_PF](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_create_pf/) |  |
-| static readonly [PR_EMS_AB_CAN_CREATE_PF_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_create_pf_bl/) |  |
-| static readonly [PR_EMS_AB_CAN_CREATE_PF_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_create_pf_bl_o/) |  |
-| static readonly [PR_EMS_AB_CAN_CREATE_PF_DL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_create_pf_dl/) |  |
-| static readonly [PR_EMS_AB_CAN_CREATE_PF_DL_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_create_pf_dl_bl/) |  |
-| static readonly [PR_EMS_AB_CAN_CREATE_PF_DL_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_create_pf_dl_bl_o/) |  |
-| static readonly [PR_EMS_AB_CAN_CREATE_PF_DL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_create_pf_dl_o/) |  |
-| static readonly [PR_EMS_AB_CAN_CREATE_PF_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_create_pf_o/) |  |
-| static readonly [PR_EMS_AB_CAN_NOT_CREATE_PF](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_not_create_pf/) |  |
-| static readonly [PR_EMS_AB_CAN_NOT_CREATE_PF_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_not_create_pf_bl/) |  |
-| static readonly [PR_EMS_AB_CAN_NOT_CREATE_PF_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_not_create_pf_bl_o/) |  |
-| static readonly [PR_EMS_AB_CAN_NOT_CREATE_PF_DL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_not_create_pf_dl/) |  |
-| static readonly [PR_EMS_AB_CAN_NOT_CREATE_PF_DL_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_not_create_pf_dl_bl/) |  |
-| static readonly [PR_EMS_AB_CAN_NOT_CREATE_PF_DL_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_not_create_pf_dl_bl_o/) |  |
-| static readonly [PR_EMS_AB_CAN_NOT_CREATE_PF_DL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_not_create_pf_dl_o/) |  |
-| static readonly [PR_EMS_AB_CAN_NOT_CREATE_PF_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_not_create_pf_o/) |  |
-| static readonly [PR_EMS_AB_CAN_PRESERVE_DNS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_preserve_dns/) |  |
-| static readonly [PR_EMS_AB_CA_CERTIFICATE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ca_certificate/) |  |
-| static readonly [PR_EMS_AB_CERTIFICATE_CHAIN_V3](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_certificate_chain_v3/) |  |
-| static readonly [PR_EMS_AB_CERTIFICATE_REVOCATION_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_certificate_revocation_list/) |  |
-| static readonly [PR_EMS_AB_CERTIFICATE_REVOCATION_LIST_V1](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_certificate_revocation_list_v1/) |  |
-| static readonly [PR_EMS_AB_CERTIFICATE_REVOCATION_LIST_V3](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_certificate_revocation_list_v3/) |  |
-| static readonly [PR_EMS_AB_CHARACTER_SET](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_character_set/) |  |
-| static readonly [PR_EMS_AB_CHARACTER_SET_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_character_set_a/) |  |
-| static readonly [PR_EMS_AB_CHARACTER_SET_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_character_set_list/) |  |
-| static readonly [PR_EMS_AB_CHARACTER_SET_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_character_set_w/) |  |
-| static readonly [PR_EMS_AB_CHILD_RDNS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_child_rdns/) |  |
-| static readonly [PR_EMS_AB_CLIENT_ACCESS_ENABLED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_client_access_enabled/) |  |
-| static readonly [PR_EMS_AB_CLOCK_ALERT_OFFSET](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_clock_alert_offset/) |  |
-| static readonly [PR_EMS_AB_CLOCK_ALERT_REPAIR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_clock_alert_repair/) |  |
-| static readonly [PR_EMS_AB_CLOCK_WARNING_OFFSET](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_clock_warning_offset/) |  |
-| static readonly [PR_EMS_AB_CLOCK_WARNING_REPAIR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_clock_warning_repair/) |  |
-| static readonly [PR_EMS_AB_COMPROMISED_KEY_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_compromised_key_list/) |  |
-| static readonly [PR_EMS_AB_COMPUTER_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_computer_name/) |  |
-| static readonly [PR_EMS_AB_COMPUTER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_computer_name_a/) |  |
-| static readonly [PR_EMS_AB_COMPUTER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_computer_name_w/) |  |
-| static readonly [PR_EMS_AB_CONNECTED_DOMAINS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_connected_domains/) |  |
-| static readonly [PR_EMS_AB_CONNECTION_LIST_FILTER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_connection_list_filter/) |  |
-| static readonly [PR_EMS_AB_CONNECTION_LIST_FILTER_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_connection_list_filter_type/) |  |
-| static readonly [PR_EMS_AB_CONNECTION_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_connection_type/) |  |
-| static readonly [PR_EMS_AB_CONTAINERID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_containerid/) |  |
-| static readonly [PR_EMS_AB_CONTAINER_INFO](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_container_info/) |  |
-| static readonly [PR_EMS_AB_CONTENT_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_content_type/) |  |
-| static readonly [PR_EMS_AB_CONTROL_MSG_FOLDER_ID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_control_msg_folder_id/) |  |
-| static readonly [PR_EMS_AB_CONTROL_MSG_RULES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_control_msg_rules/) |  |
-| static readonly [PR_EMS_AB_COST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_cost/) |  |
-| static readonly [PR_EMS_AB_COUNTRY_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_country_name/) |  |
-| static readonly [PR_EMS_AB_COUNTRY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_country_name_a/) |  |
-| static readonly [PR_EMS_AB_COUNTRY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_country_name_w/) |  |
-| static readonly [PR_EMS_AB_CROSS_CERTIFICATE_CRL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_cross_certificate_crl/) |  |
-| static readonly [PR_EMS_AB_CROSS_CERTIFICATE_PAIR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_cross_certificate_pair/) |  |
-| static readonly [PR_EMS_AB_DEFAULT_MESSAGE_FORMAT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_default_message_format/) |  |
-| static readonly [PR_EMS_AB_DELEGATE_USER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_delegate_user/) |  |
-| static readonly [PR_EMS_AB_DELIVERY_MECHANISM](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_delivery_mechanism/) |  |
-| static readonly [PR_EMS_AB_DELIVER_AND_REDIRECT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_deliver_and_redirect/) |  |
-| static readonly [PR_EMS_AB_DELIV_CONT_LENGTH](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_deliv_cont_length/) |  |
-| static readonly [PR_EMS_AB_DELIV_EITS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_deliv_eits/) |  |
-| static readonly [PR_EMS_AB_DELIV_EXT_CONT_TYPES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_deliv_ext_cont_types/) |  |
-| static readonly [PR_EMS_AB_DELTA_REVOCATION_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_delta_revocation_list/) |  |
-| static readonly [PR_EMS_AB_DESCRIPTION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_description/) |  |
-| static readonly [PR_EMS_AB_DESTINATION_INDICATOR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_destination_indicator/) |  |
-| static readonly [PR_EMS_AB_DIAGNOSTIC_REG_KEY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_diagnostic_reg_key/) |  |
-| static readonly [PR_EMS_AB_DIAGNOSTIC_REG_KEY_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_diagnostic_reg_key_a/) |  |
-| static readonly [PR_EMS_AB_DIAGNOSTIC_REG_KEY_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_diagnostic_reg_key_w/) |  |
-| static readonly [PR_EMS_AB_DISABLED_GATEWAY_PROXY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_disabled_gateway_proxy/) |  |
-| static readonly [PR_EMS_AB_DISABLE_DEFERRED_COMMIT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_disable_deferred_commit/) |  |
-| static readonly [PR_EMS_AB_DISPLAY_NAME_OVERRIDE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_display_name_override/) |  |
-| static readonly [PR_EMS_AB_DISPLAY_NAME_PRINTABLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_display_name_printable/) |  |
-| static readonly [PR_EMS_AB_DISPLAY_NAME_PRINTABLE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_display_name_printable_a/) |  |
-| static readonly [PR_EMS_AB_DISPLAY_NAME_PRINTABLE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_display_name_printable_w/) |  |
-| static readonly [PR_EMS_AB_DISPLAY_NAME_SUFFIX](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_display_name_suffix/) |  |
-| static readonly [PR_EMS_AB_DISPLAY_NAME_SUFFIX_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_display_name_suffix_a/) |  |
-| static readonly [PR_EMS_AB_DISPLAY_NAME_SUFFIX_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_display_name_suffix_w/) |  |
-| static readonly [PR_EMS_AB_DL_MEMBER_RULE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dl_member_rule/) |  |
-| static readonly [PR_EMS_AB_DL_MEM_REJECT_PERMS_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dl_mem_reject_perms_bl/) |  |
-| static readonly [PR_EMS_AB_DL_MEM_REJECT_PERMS_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dl_mem_reject_perms_bl_o/) |  |
-| static readonly [PR_EMS_AB_DL_MEM_SUBMIT_PERMS_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dl_mem_submit_perms_bl/) |  |
-| static readonly [PR_EMS_AB_DL_MEM_SUBMIT_PERMS_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dl_mem_submit_perms_bl_o/) |  |
-| static readonly [PR_EMS_AB_DMD_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dmd_name/) |  |
-| static readonly [PR_EMS_AB_DMD_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dmd_name_a/) |  |
-| static readonly [PR_EMS_AB_DMD_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dmd_name_w/) |  |
-| static readonly [PR_EMS_AB_DOMAIN_DEF_ALT_RECIP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_domain_def_alt_recip/) |  |
-| static readonly [PR_EMS_AB_DOMAIN_DEF_ALT_RECIP_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_domain_def_alt_recip_a/) |  |
-| static readonly [PR_EMS_AB_DOMAIN_DEF_ALT_RECIP_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_domain_def_alt_recip_o/) |  |
-| static readonly [PR_EMS_AB_DOMAIN_DEF_ALT_RECIP_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_domain_def_alt_recip_w/) |  |
-| static readonly [PR_EMS_AB_DOMAIN_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_domain_name/) |  |
-| static readonly [PR_EMS_AB_DOMAIN_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_domain_name_a/) |  |
-| static readonly [PR_EMS_AB_DOMAIN_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_domain_name_w/) |  |
-| static readonly [PR_EMS_AB_DOS_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dos_entryid/) |  |
-| static readonly [PR_EMS_AB_DO_OAB_VERSION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_do_oab_version/) |  |
-| static readonly [PR_EMS_AB_DSA_SIGNATURE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dsa_signature/) |  |
-| static readonly [PR_EMS_AB_DXA_ADMIN_COPY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_admin_copy/) |  |
-| static readonly [PR_EMS_AB_DXA_ADMIN_FORWARD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_admin_forward/) |  |
-| static readonly [PR_EMS_AB_DXA_ADMIN_UPDATE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_admin_update/) |  |
-| static readonly [PR_EMS_AB_DXA_APPEND_REQCN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_append_reqcn/) |  |
-| static readonly [PR_EMS_AB_DXA_CONF_CONTAINER_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_conf_container_list/) |  |
-| static readonly [PR_EMS_AB_DXA_CONF_CONTAINER_LIST_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_conf_container_list_o/) |  |
-| static readonly [PR_EMS_AB_DXA_CONF_REQ_TIME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_conf_req_time/) |  |
-| static readonly [PR_EMS_AB_DXA_CONF_SEQ](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_conf_seq/) |  |
-| static readonly [PR_EMS_AB_DXA_CONF_SEQ_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_conf_seq_a/) |  |
-| static readonly [PR_EMS_AB_DXA_CONF_SEQ_USN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_conf_seq_usn/) |  |
-| static readonly [PR_EMS_AB_DXA_CONF_SEQ_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_conf_seq_w/) |  |
-| static readonly [PR_EMS_AB_DXA_EXCHANGE_OPTIONS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_exchange_options/) |  |
-| static readonly [PR_EMS_AB_DXA_EXPORT_NOW](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_export_now/) |  |
-| static readonly [PR_EMS_AB_DXA_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_flags/) |  |
-| static readonly [PR_EMS_AB_DXA_IMPORT_NOW](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_import_now/) |  |
-| static readonly [PR_EMS_AB_DXA_IMP_SEQ](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_imp_seq/) |  |
-| static readonly [PR_EMS_AB_DXA_IMP_SEQ_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_imp_seq_a/) |  |
-| static readonly [PR_EMS_AB_DXA_IMP_SEQ_TIME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_imp_seq_time/) |  |
-| static readonly [PR_EMS_AB_DXA_IMP_SEQ_USN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_imp_seq_usn/) |  |
-| static readonly [PR_EMS_AB_DXA_IMP_SEQ_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_imp_seq_w/) |  |
-| static readonly [PR_EMS_AB_DXA_IN_TEMPLATE_MAP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_in_template_map/) |  |
-| static readonly [PR_EMS_AB_DXA_LOCAL_ADMIN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_local_admin/) |  |
-| static readonly [PR_EMS_AB_DXA_LOCAL_ADMIN_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_local_admin_a/) |  |
-| static readonly [PR_EMS_AB_DXA_LOCAL_ADMIN_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_local_admin_o/) |  |
-| static readonly [PR_EMS_AB_DXA_LOCAL_ADMIN_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_local_admin_w/) |  |
-| static readonly [PR_EMS_AB_DXA_LOGGING_LEVEL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_logging_level/) |  |
-| static readonly [PR_EMS_AB_DXA_NATIVE_ADDRESS_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_native_address_type/) |  |
-| static readonly [PR_EMS_AB_DXA_NATIVE_ADDRESS_TYPE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_native_address_type_a/) |  |
-| static readonly [PR_EMS_AB_DXA_NATIVE_ADDRESS_TYPE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_native_address_type_w/) |  |
-| static readonly [PR_EMS_AB_DXA_OUT_TEMPLATE_MAP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_out_template_map/) |  |
-| static readonly [PR_EMS_AB_DXA_PASSWORD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_password/) |  |
-| static readonly [PR_EMS_AB_DXA_PASSWORD_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_password_a/) |  |
-| static readonly [PR_EMS_AB_DXA_PASSWORD_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_password_w/) |  |
-| static readonly [PR_EMS_AB_DXA_PREV_EXCHANGE_OPTIONS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_exchange_options/) |  |
-| static readonly [PR_EMS_AB_DXA_PREV_EXPORT_NATIVE_ONLY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_export_native_only/) |  |
-| static readonly [PR_EMS_AB_DXA_PREV_IN_EXCHANGE_SENSITIVITY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_in_exchange_sensitivity/) |  |
-| static readonly [PR_EMS_AB_DXA_PREV_REMOTE_ENTRIES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_remote_entries/) |  |
-| static readonly [PR_EMS_AB_DXA_PREV_REMOTE_ENTRIES_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_remote_entries_a/) |  |
-| static readonly [PR_EMS_AB_DXA_PREV_REMOTE_ENTRIES_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_remote_entries_o/) |  |
-| static readonly [PR_EMS_AB_DXA_PREV_REMOTE_ENTRIES_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_remote_entries_w/) |  |
-| static readonly [PR_EMS_AB_DXA_PREV_REPLICATION_SENSITIVITY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_replication_sensitivity/) |  |
-| static readonly [PR_EMS_AB_DXA_PREV_TEMPLATE_OPTIONS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_template_options/) |  |
-| static readonly [PR_EMS_AB_DXA_PREV_TYPES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_types/) |  |
-| static readonly [PR_EMS_AB_DXA_RECIPIENT_CP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_recipient_cp/) |  |
-| static readonly [PR_EMS_AB_DXA_RECIPIENT_CP_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_recipient_cp_a/) |  |
-| static readonly [PR_EMS_AB_DXA_RECIPIENT_CP_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_recipient_cp_w/) |  |
-| static readonly [PR_EMS_AB_DXA_REMOTE_CLIENT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_remote_client/) |  |
-| static readonly [PR_EMS_AB_DXA_REMOTE_CLIENT_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_remote_client_a/) |  |
-| static readonly [PR_EMS_AB_DXA_REMOTE_CLIENT_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_remote_client_o/) |  |
-| static readonly [PR_EMS_AB_DXA_REMOTE_CLIENT_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_remote_client_w/) |  |
-| static readonly [PR_EMS_AB_DXA_REQNAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_reqname/) |  |
-| static readonly [PR_EMS_AB_DXA_REQNAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_reqname_a/) |  |
-| static readonly [PR_EMS_AB_DXA_REQNAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_reqname_w/) |  |
-| static readonly [PR_EMS_AB_DXA_REQ_SEQ](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_req_seq/) |  |
-| static readonly [PR_EMS_AB_DXA_REQ_SEQ_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_req_seq_a/) |  |
-| static readonly [PR_EMS_AB_DXA_REQ_SEQ_TIME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_req_seq_time/) |  |
-| static readonly [PR_EMS_AB_DXA_REQ_SEQ_USN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_req_seq_usn/) |  |
-| static readonly [PR_EMS_AB_DXA_REQ_SEQ_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_req_seq_w/) |  |
-| static readonly [PR_EMS_AB_DXA_SVR_SEQ](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_svr_seq/) |  |
-| static readonly [PR_EMS_AB_DXA_SVR_SEQ_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_svr_seq_a/) |  |
-| static readonly [PR_EMS_AB_DXA_SVR_SEQ_TIME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_svr_seq_time/) |  |
-| static readonly [PR_EMS_AB_DXA_SVR_SEQ_USN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_svr_seq_usn/) |  |
-| static readonly [PR_EMS_AB_DXA_SVR_SEQ_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_svr_seq_w/) |  |
-| static readonly [PR_EMS_AB_DXA_TASK](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_task/) |  |
-| static readonly [PR_EMS_AB_DXA_TEMPLATE_OPTIONS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_template_options/) |  |
-| static readonly [PR_EMS_AB_DXA_TEMPLATE_TIMESTAMP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_template_timestamp/) |  |
-| static readonly [PR_EMS_AB_DXA_TYPES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_types/) |  |
-| static readonly [PR_EMS_AB_DXA_UNCONF_CONTAINER_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_unconf_container_list/) |  |
-| static readonly [PR_EMS_AB_DXA_UNCONF_CONTAINER_LIST_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_unconf_container_list_o/) |  |
-| static readonly [PR_EMS_AB_EMPLOYEE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_employee_number/) |  |
-| static readonly [PR_EMS_AB_EMPLOYEE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_employee_number_a/) |  |
-| static readonly [PR_EMS_AB_EMPLOYEE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_employee_number_w/) |  |
-| static readonly [PR_EMS_AB_EMPLOYEE_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_employee_type/) |  |
-| static readonly [PR_EMS_AB_EMPLOYEE_TYPE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_employee_type_a/) |  |
-| static readonly [PR_EMS_AB_EMPLOYEE_TYPE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_employee_type_w/) |  |
-| static readonly [PR_EMS_AB_ENABLED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_enabled/) |  |
-| static readonly [PR_EMS_AB_ENABLED_AUTHORIZATION_PACKAGES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_enabled_authorization_packages/) |  |
-| static readonly [PR_EMS_AB_ENABLED_PROTOCOLS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_enabled_protocols/) |  |
-| static readonly [PR_EMS_AB_ENABLED_PROTOCOL_CFG](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_enabled_protocol_cfg/) |  |
-| static readonly [PR_EMS_AB_ENABLE_COMPATIBILITY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_enable_compatibility/) |  |
-| static readonly [PR_EMS_AB_ENCAPSULATION_METHOD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encapsulation_method/) |  |
-| static readonly [PR_EMS_AB_ENCRYPT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encrypt/) |  |
-| static readonly [PR_EMS_AB_ENCRYPT_ALG_LIST_NA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encrypt_alg_list_na/) |  |
-| static readonly [PR_EMS_AB_ENCRYPT_ALG_LIST_OTHER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encrypt_alg_list_other/) |  |
-| static readonly [PR_EMS_AB_ENCRYPT_ALG_SELECTED_NA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encrypt_alg_selected_na/) |  |
-| static readonly [PR_EMS_AB_ENCRYPT_ALG_SELECTED_NA_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encrypt_alg_selected_na_a/) |  |
-| static readonly [PR_EMS_AB_ENCRYPT_ALG_SELECTED_NA_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encrypt_alg_selected_na_w/) |  |
-| static readonly [PR_EMS_AB_ENCRYPT_ALG_SELECTED_OTHER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encrypt_alg_selected_other/) |  |
-| static readonly [PR_EMS_AB_ENCRYPT_ALG_SELECTED_OTHER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encrypt_alg_selected_other_a/) |  |
-| static readonly [PR_EMS_AB_ENCRYPT_ALG_SELECTED_OTHER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encrypt_alg_selected_other_w/) |  |
-| static readonly [PR_EMS_AB_EXPAND_DLS_LOCALLY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_expand_dls_locally/) |  |
-| static readonly [PR_EMS_AB_EXPIRATION_TIME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_expiration_time/) |  |
-| static readonly [PR_EMS_AB_EXPORT_CONTAINERS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_export_containers/) |  |
-| static readonly [PR_EMS_AB_EXPORT_CONTAINERS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_export_containers_o/) |  |
-| static readonly [PR_EMS_AB_EXPORT_CUSTOM_RECIPIENTS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_export_custom_recipients/) |  |
-| static readonly [PR_EMS_AB_EXTENDED_CHARS_ALLOWED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extended_chars_allowed/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_1](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_1/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_10](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_10/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_10_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_10_a/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_10_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_10_w/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_11](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_11/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_11_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_11_a/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_11_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_11_w/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_12](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_12/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_12_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_12_a/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_12_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_12_w/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_13](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_13/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_13_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_13_a/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_13_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_13_w/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_14](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_14/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_14_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_14_a/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_14_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_14_w/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_15](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_15/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_15_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_15_a/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_15_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_15_w/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_1_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_1_a/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_1_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_1_w/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_2](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_2/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_2_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_2_a/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_2_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_2_w/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_3](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_3/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_3_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_3_a/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_3_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_3_w/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_4](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_4/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_4_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_4_a/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_4_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_4_w/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_5](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_5/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_5_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_5_a/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_5_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_5_w/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_6](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_6/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_6_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_6_a/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_6_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_6_w/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_7](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_7/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_7_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_7_a/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_7_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_7_w/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_8](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_8/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_8_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_8_a/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_8_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_8_w/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_9](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_9/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_9_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_9_a/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_9_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_9_w/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_DATA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_data/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_name/) |  |
-| static readonly [PR_EMS_AB_EXTENSION_NAME_INHERITED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_name_inherited/) |  |
-| static readonly [PR_EMS_AB_FACSIMILE_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_facsimile_telephone_number/) |  |
-| static readonly [PR_EMS_AB_FILE_VERSION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_file_version/) |  |
-| static readonly [PR_EMS_AB_FILTER_LOCAL_ADDRESSES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_filter_local_addresses/) |  |
-| static readonly [PR_EMS_AB_FOLDERS_CONTAINER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_folders_container/) |  |
-| static readonly [PR_EMS_AB_FOLDERS_CONTAINER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_folders_container_a/) |  |
-| static readonly [PR_EMS_AB_FOLDERS_CONTAINER_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_folders_container_o/) |  |
-| static readonly [PR_EMS_AB_FOLDERS_CONTAINER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_folders_container_w/) |  |
-| static readonly [PR_EMS_AB_FOLDER_PATHNAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_folder_pathname/) |  |
-| static readonly [PR_EMS_AB_FOLDER_PATHNAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_folder_pathname_a/) |  |
-| static readonly [PR_EMS_AB_FOLDER_PATHNAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_folder_pathname_w/) |  |
-| static readonly [PR_EMS_AB_FORM_DATA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_form_data/) |  |
-| static readonly [PR_EMS_AB_FORWARDING_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_forwarding_address/) |  |
-| static readonly [PR_EMS_AB_FORWARDING_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_forwarding_address_a/) |  |
-| static readonly [PR_EMS_AB_FORWARDING_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_forwarding_address_w/) |  |
-| static readonly [PR_EMS_AB_GARBAGE_COLL_PERIOD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_garbage_coll_period/) |  |
-| static readonly [PR_EMS_AB_GATEWAY_LOCAL_CRED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_gateway_local_cred/) |  |
-| static readonly [PR_EMS_AB_GATEWAY_LOCAL_CRED_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_gateway_local_cred_a/) |  |
-| static readonly [PR_EMS_AB_GATEWAY_LOCAL_CRED_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_gateway_local_cred_w/) |  |
-| static readonly [PR_EMS_AB_GATEWAY_LOCAL_DESIG](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_gateway_local_desig/) |  |
-| static readonly [PR_EMS_AB_GATEWAY_LOCAL_DESIG_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_gateway_local_desig_a/) |  |
-| static readonly [PR_EMS_AB_GATEWAY_LOCAL_DESIG_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_gateway_local_desig_w/) |  |
-| static readonly [PR_EMS_AB_GATEWAY_PROXY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_gateway_proxy/) |  |
-| static readonly [PR_EMS_AB_GATEWAY_ROUTING_TREE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_gateway_routing_tree/) |  |
-| static readonly [PR_EMS_AB_GENERATION_QUALIFIER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_generation_qualifier/) |  |
-| static readonly [PR_EMS_AB_GENERATION_QUALIFIER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_generation_qualifier_a/) |  |
-| static readonly [PR_EMS_AB_GENERATION_QUALIFIER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_generation_qualifier_w/) |  |
-| static readonly [PR_EMS_AB_GROUP_BY_ATTR_1](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_1/) |  |
-| static readonly [PR_EMS_AB_GROUP_BY_ATTR_1_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_1_a/) |  |
-| static readonly [PR_EMS_AB_GROUP_BY_ATTR_1_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_1_w/) |  |
-| static readonly [PR_EMS_AB_GROUP_BY_ATTR_2](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_2/) |  |
-| static readonly [PR_EMS_AB_GROUP_BY_ATTR_2_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_2_a/) |  |
-| static readonly [PR_EMS_AB_GROUP_BY_ATTR_2_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_2_w/) |  |
-| static readonly [PR_EMS_AB_GROUP_BY_ATTR_3](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_3/) |  |
-| static readonly [PR_EMS_AB_GROUP_BY_ATTR_3_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_3_a/) |  |
-| static readonly [PR_EMS_AB_GROUP_BY_ATTR_3_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_3_w/) |  |
-| static readonly [PR_EMS_AB_GROUP_BY_ATTR_4](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_4/) |  |
-| static readonly [PR_EMS_AB_GROUP_BY_ATTR_4_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_4_a/) |  |
-| static readonly [PR_EMS_AB_GROUP_BY_ATTR_4_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_4_w/) |  |
-| static readonly [PR_EMS_AB_GROUP_BY_ATTR_VALUE_DN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_value_dn/) |  |
-| static readonly [PR_EMS_AB_GROUP_BY_ATTR_VALUE_DN_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_value_dn_a/) |  |
-| static readonly [PR_EMS_AB_GROUP_BY_ATTR_VALUE_DN_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_value_dn_o/) |  |
-| static readonly [PR_EMS_AB_GROUP_BY_ATTR_VALUE_DN_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_value_dn_w/) |  |
-| static readonly [PR_EMS_AB_GROUP_BY_ATTR_VALUE_STR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_value_str/) |  |
-| static readonly [PR_EMS_AB_GROUP_BY_ATTR_VALUE_STR_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_value_str_a/) |  |
-| static readonly [PR_EMS_AB_GROUP_BY_ATTR_VALUE_STR_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_value_str_w/) |  |
-| static readonly [PR_EMS_AB_GWART_LAST_MODIFIED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_gwart_last_modified/) |  |
-| static readonly [PR_EMS_AB_HAS_FULL_REPLICA_NCS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_has_full_replica_ncs/) |  |
-| static readonly [PR_EMS_AB_HAS_FULL_REPLICA_NCS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_has_full_replica_ncs_o/) |  |
-| static readonly [PR_EMS_AB_HAS_MASTER_NCS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_has_master_ncs/) |  |
-| static readonly [PR_EMS_AB_HAS_MASTER_NCS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_has_master_ncs_o/) |  |
-| static readonly [PR_EMS_AB_HELP_DATA16](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_help_data16/) |  |
-| static readonly [PR_EMS_AB_HELP_DATA32](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_help_data32/) |  |
-| static readonly [PR_EMS_AB_HELP_FILE_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_help_file_name/) |  |
-| static readonly [PR_EMS_AB_HELP_FILE_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_help_file_name_a/) |  |
-| static readonly [PR_EMS_AB_HELP_FILE_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_help_file_name_w/) |  |
-| static readonly [PR_EMS_AB_HEURISTICS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_heuristics/) |  |
-| static readonly [PR_EMS_AB_HIDE_DL_MEMBERSHIP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_hide_dl_membership/) |  |
-| static readonly [PR_EMS_AB_HIDE_FROM_ADDRESS_BOOK](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_hide_from_address_book/) |  |
-| static readonly [PR_EMS_AB_HIERARCHY_PATH](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_hierarchy_path/) |  |
-| static readonly [PR_EMS_AB_HIERARCHY_PATH_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_hierarchy_path_a/) |  |
-| static readonly [PR_EMS_AB_HIERARCHY_PATH_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_hierarchy_path_w/) |  |
-| static readonly [PR_EMS_AB_HOME_MDB](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mdb/) |  |
-| static readonly [PR_EMS_AB_HOME_MDB_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mdb_a/) |  |
-| static readonly [PR_EMS_AB_HOME_MDB_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mdb_bl/) |  |
-| static readonly [PR_EMS_AB_HOME_MDB_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mdb_bl_o/) |  |
-| static readonly [PR_EMS_AB_HOME_MDB_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mdb_o/) |  |
-| static readonly [PR_EMS_AB_HOME_MDB_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mdb_w/) |  |
-| static readonly [PR_EMS_AB_HOME_MTA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mta/) |  |
-| static readonly [PR_EMS_AB_HOME_MTA_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mta_a/) |  |
-| static readonly [PR_EMS_AB_HOME_MTA_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mta_o/) |  |
-| static readonly [PR_EMS_AB_HOME_MTA_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mta_w/) |  |
-| static readonly [PR_EMS_AB_HOME_PUBLIC_SERVER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_public_server/) |  |
-| static readonly [PR_EMS_AB_HOME_PUBLIC_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_public_server_a/) |  |
-| static readonly [PR_EMS_AB_HOME_PUBLIC_SERVER_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_public_server_o/) |  |
-| static readonly [PR_EMS_AB_HOME_PUBLIC_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_public_server_w/) |  |
-| static readonly [PR_EMS_AB_HOUSE_IDENTIFIER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_house_identifier/) |  |
-| static readonly [PR_EMS_AB_HOUSE_IDENTIFIER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_house_identifier_a/) |  |
-| static readonly [PR_EMS_AB_HOUSE_IDENTIFIER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_house_identifier_w/) |  |
-| static readonly [PR_EMS_AB_HTTP_PUB_AB_ATTRIBUTES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_http_pub_ab_attributes/) |  |
-| static readonly [PR_EMS_AB_HTTP_PUB_GAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_http_pub_gal/) |  |
-| static readonly [PR_EMS_AB_HTTP_PUB_GAL_LIMIT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_http_pub_gal_limit/) |  |
-| static readonly [PR_EMS_AB_HTTP_PUB_PF](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_http_pub_pf/) |  |
-| static readonly [PR_EMS_AB_HTTP_SERVERS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_http_servers/) |  |
-| static readonly [PR_EMS_AB_IMPORTED_FROM](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_imported_from/) |  |
-| static readonly [PR_EMS_AB_IMPORTED_FROM_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_imported_from_a/) |  |
-| static readonly [PR_EMS_AB_IMPORTED_FROM_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_imported_from_w/) |  |
-| static readonly [PR_EMS_AB_IMPORT_CONTAINER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_import_container/) |  |
-| static readonly [PR_EMS_AB_IMPORT_CONTAINER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_import_container_a/) |  |
-| static readonly [PR_EMS_AB_IMPORT_CONTAINER_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_import_container_o/) |  |
-| static readonly [PR_EMS_AB_IMPORT_CONTAINER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_import_container_w/) |  |
-| static readonly [PR_EMS_AB_IMPORT_SENSITIVITY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_import_sensitivity/) |  |
-| static readonly [PR_EMS_AB_INBOUND_ACCEPT_ALL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_accept_all/) |  |
-| static readonly [PR_EMS_AB_INBOUND_DN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_dn/) |  |
-| static readonly [PR_EMS_AB_INBOUND_DN_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_dn_a/) |  |
-| static readonly [PR_EMS_AB_INBOUND_DN_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_dn_o/) |  |
-| static readonly [PR_EMS_AB_INBOUND_DN_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_dn_w/) |  |
-| static readonly [PR_EMS_AB_INBOUND_HOST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_host/) |  |
-| static readonly [PR_EMS_AB_INBOUND_NEWSFEED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_newsfeed/) |  |
-| static readonly [PR_EMS_AB_INBOUND_NEWSFEED_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_newsfeed_a/) |  |
-| static readonly [PR_EMS_AB_INBOUND_NEWSFEED_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_newsfeed_type/) |  |
-| static readonly [PR_EMS_AB_INBOUND_NEWSFEED_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_newsfeed_w/) |  |
-| static readonly [PR_EMS_AB_INBOUND_SITES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_sites/) |  |
-| static readonly [PR_EMS_AB_INBOUND_SITES_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_sites_o/) |  |
-| static readonly [PR_EMS_AB_INCOMING_MSG_SIZE_LIMIT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_incoming_msg_size_limit/) |  |
-| static readonly [PR_EMS_AB_INCOMING_PASSWORD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_incoming_password/) |  |
-| static readonly [PR_EMS_AB_INSADMIN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_insadmin/) |  |
-| static readonly [PR_EMS_AB_INSADMIN_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_insadmin_a/) |  |
-| static readonly [PR_EMS_AB_INSADMIN_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_insadmin_o/) |  |
-| static readonly [PR_EMS_AB_INSADMIN_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_insadmin_w/) |  |
-| static readonly [PR_EMS_AB_INSTANCE_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_instance_type/) |  |
-| static readonly [PR_EMS_AB_INTERNATIONAL_ISDN_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_international_isdn_number/) |  |
-| static readonly [PR_EMS_AB_INVOCATION_ID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_invocation_id/) |  |
-| static readonly [PR_EMS_AB_IS_DELETED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_is_deleted/) |  |
-| static readonly [PR_EMS_AB_IS_MASTER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_is_master/) |  |
-| static readonly [PR_EMS_AB_IS_MEMBER_OF_DL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_is_member_of_dl/) |  |
-| static readonly [PR_EMS_AB_IS_MEMBER_OF_DL_T](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_is_member_of_dl_t/) |  |
-| static readonly [PR_EMS_AB_IS_MEMBER_OF_DL_T_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_is_member_of_dl_t_a/) |  |
-| static readonly [PR_EMS_AB_IS_MEMBER_OF_DL_T_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_is_member_of_dl_t_w/) |  |
-| static readonly [PR_EMS_AB_IS_SINGLE_VALUED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_is_single_valued/) |  |
-| static readonly [PR_EMS_AB_KCC_STATUS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_kcc_status/) |  |
-| static readonly [PR_EMS_AB_KM_SERVER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_km_server/) |  |
-| static readonly [PR_EMS_AB_KM_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_km_server_a/) |  |
-| static readonly [PR_EMS_AB_KM_SERVER_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_km_server_o/) |  |
-| static readonly [PR_EMS_AB_KM_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_km_server_w/) |  |
-| static readonly [PR_EMS_AB_KNOWLEDGE_INFORMATION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_knowledge_information/) |  |
-| static readonly [PR_EMS_AB_LABELEDURI](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_labeleduri/) |  |
-| static readonly [PR_EMS_AB_LABELEDURI_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_labeleduri_a/) |  |
-| static readonly [PR_EMS_AB_LABELEDURI_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_labeleduri_w/) |  |
-| static readonly [PR_EMS_AB_LANGUAGE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_language/) |  |
-| static readonly [PR_EMS_AB_LANGUAGE_ISO639](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_language_iso639/) |  |
-| static readonly [PR_EMS_AB_LANGUAGE_ISO639_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_language_iso639_a/) |  |
-| static readonly [PR_EMS_AB_LANGUAGE_ISO639_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_language_iso639_w/) |  |
-| static readonly [PR_EMS_AB_LDAP_DISPLAY_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ldap_display_name/) |  |
-| static readonly [PR_EMS_AB_LDAP_SEARCH_CFG](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ldap_search_cfg/) |  |
-| static readonly [PR_EMS_AB_LINE_WRAP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_line_wrap/) |  |
-| static readonly [PR_EMS_AB_LINK_ID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_link_id/) |  |
-| static readonly [PR_EMS_AB_LIST_PUBLIC_FOLDERS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_list_public_folders/) |  |
-| static readonly [PR_EMS_AB_LOCAL_BRIDGE_HEAD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_local_bridge_head/) |  |
-| static readonly [PR_EMS_AB_LOCAL_BRIDGE_HEAD_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_local_bridge_head_a/) |  |
-| static readonly [PR_EMS_AB_LOCAL_BRIDGE_HEAD_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_local_bridge_head_address/) |  |
-| static readonly [PR_EMS_AB_LOCAL_BRIDGE_HEAD_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_local_bridge_head_address_a/) |  |
-| static readonly [PR_EMS_AB_LOCAL_BRIDGE_HEAD_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_local_bridge_head_address_w/) |  |
-| static readonly [PR_EMS_AB_LOCAL_BRIDGE_HEAD_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_local_bridge_head_w/) |  |
-| static readonly [PR_EMS_AB_LOCAL_INITIAL_TURN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_local_initial_turn/) |  |
-| static readonly [PR_EMS_AB_LOCAL_SCOPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_local_scope/) |  |
-| static readonly [PR_EMS_AB_LOCAL_SCOPE_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_local_scope_o/) |  |
-| static readonly [PR_EMS_AB_LOG_FILENAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_log_filename/) |  |
-| static readonly [PR_EMS_AB_LOG_FILENAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_log_filename_a/) |  |
-| static readonly [PR_EMS_AB_LOG_FILENAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_log_filename_w/) |  |
-| static readonly [PR_EMS_AB_LOG_ROLLOVER_INTERVAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_log_rollover_interval/) |  |
-| static readonly [PR_EMS_AB_MAIL_DROP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mail_drop/) |  |
-| static readonly [PR_EMS_AB_MAIL_DROP_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mail_drop_a/) |  |
-| static readonly [PR_EMS_AB_MAIL_DROP_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mail_drop_w/) |  |
-| static readonly [PR_EMS_AB_MAINTAIN_AUTOREPLY_HISTORY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_maintain_autoreply_history/) |  |
-| static readonly [PR_EMS_AB_MANAGER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_manager/) |  |
-| static readonly [PR_EMS_AB_MANAGER_T](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_manager_t/) |  |
-| static readonly [PR_EMS_AB_MANAGER_T_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_manager_t_a/) |  |
-| static readonly [PR_EMS_AB_MANAGER_T_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_manager_t_w/) |  |
-| static readonly [PR_EMS_AB_MAPI_DISPLAY_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mapi_display_type/) |  |
-| static readonly [PR_EMS_AB_MAPI_ID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mapi_id/) |  |
-| static readonly [PR_EMS_AB_MAXIMUM_OBJECT_ID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_maximum_object_id/) |  |
-| static readonly [PR_EMS_AB_MDB_BACKOFF_INTERVAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mdb_backoff_interval/) |  |
-| static readonly [PR_EMS_AB_MDB_MSG_TIME_OUT_PERIOD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mdb_msg_time_out_period/) |  |
-| static readonly [PR_EMS_AB_MDB_OVER_QUOTA_LIMIT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mdb_over_quota_limit/) |  |
-| static readonly [PR_EMS_AB_MDB_STORAGE_QUOTA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mdb_storage_quota/) |  |
-| static readonly [PR_EMS_AB_MDB_UNREAD_LIMIT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mdb_unread_limit/) |  |
-| static readonly [PR_EMS_AB_MDB_USE_DEFAULTS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mdb_use_defaults/) |  |
-| static readonly [PR_EMS_AB_MEMBER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_member/) |  |
-| static readonly [PR_EMS_AB_MEMBER_T](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_member_t/) |  |
-| static readonly [PR_EMS_AB_MEMBER_T_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_member_t_a/) |  |
-| static readonly [PR_EMS_AB_MEMBER_T_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_member_t_w/) |  |
-| static readonly [PR_EMS_AB_MESSAGE_TRACKING_ENABLED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_message_tracking_enabled/) |  |
-| static readonly [PR_EMS_AB_MIME_TYPES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mime_types/) |  |
-| static readonly [PR_EMS_AB_MODERATED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_moderated/) |  |
-| static readonly [PR_EMS_AB_MODERATOR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_moderator/) |  |
-| static readonly [PR_EMS_AB_MODERATOR_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_moderator_a/) |  |
-| static readonly [PR_EMS_AB_MODERATOR_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_moderator_w/) |  |
-| static readonly [PR_EMS_AB_MONITORED_CONFIGURATIONS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitored_configurations/) |  |
-| static readonly [PR_EMS_AB_MONITORED_CONFIGURATIONS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitored_configurations_o/) |  |
-| static readonly [PR_EMS_AB_MONITORED_SERVERS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitored_servers/) |  |
-| static readonly [PR_EMS_AB_MONITORED_SERVERS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitored_servers_o/) |  |
-| static readonly [PR_EMS_AB_MONITORED_SERVICES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitored_services/) |  |
-| static readonly [PR_EMS_AB_MONITORING_ALERT_DELAY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_alert_delay/) |  |
-| static readonly [PR_EMS_AB_MONITORING_ALERT_UNITS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_alert_units/) |  |
-| static readonly [PR_EMS_AB_MONITORING_AVAILABILITY_STYLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_availability_style/) |  |
-| static readonly [PR_EMS_AB_MONITORING_AVAILABILITY_WINDOW](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_availability_window/) |  |
-| static readonly [PR_EMS_AB_MONITORING_CACHED_VIA_MAIL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_cached_via_mail/) |  |
-| static readonly [PR_EMS_AB_MONITORING_CACHED_VIA_MAIL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_cached_via_mail_o/) |  |
-| static readonly [PR_EMS_AB_MONITORING_CACHED_VIA_RPC](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_cached_via_rpc/) |  |
-| static readonly [PR_EMS_AB_MONITORING_CACHED_VIA_RPC_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_cached_via_rpc_o/) |  |
-| static readonly [PR_EMS_AB_MONITORING_ESCALATION_PROCEDURE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_escalation_procedure/) |  |
-| static readonly [PR_EMS_AB_MONITORING_HOTSITE_POLL_INTERVAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_hotsite_poll_interval/) |  |
-| static readonly [PR_EMS_AB_MONITORING_HOTSITE_POLL_UNITS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_hotsite_poll_units/) |  |
-| static readonly [PR_EMS_AB_MONITORING_MAIL_UPDATE_INTERVAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_mail_update_interval/) |  |
-| static readonly [PR_EMS_AB_MONITORING_MAIL_UPDATE_UNITS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_mail_update_units/) |  |
-| static readonly [PR_EMS_AB_MONITORING_NORMAL_POLL_INTERVAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_normal_poll_interval/) |  |
-| static readonly [PR_EMS_AB_MONITORING_NORMAL_POLL_UNITS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_normal_poll_units/) |  |
-| static readonly [PR_EMS_AB_MONITORING_RECIPIENTS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_recipients/) |  |
-| static readonly [PR_EMS_AB_MONITORING_RECIPIENTS_NDR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_recipients_ndr/) |  |
-| static readonly [PR_EMS_AB_MONITORING_RECIPIENTS_NDR_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_recipients_ndr_o/) |  |
-| static readonly [PR_EMS_AB_MONITORING_RECIPIENTS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_recipients_o/) |  |
-| static readonly [PR_EMS_AB_MONITORING_RPC_UPDATE_INTERVAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_rpc_update_interval/) |  |
-| static readonly [PR_EMS_AB_MONITORING_RPC_UPDATE_UNITS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_rpc_update_units/) |  |
-| static readonly [PR_EMS_AB_MONITORING_WARNING_DELAY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_warning_delay/) |  |
-| static readonly [PR_EMS_AB_MONITORING_WARNING_UNITS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_warning_units/) |  |
-| static readonly [PR_EMS_AB_MONITOR_CLOCK](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitor_clock/) |  |
-| static readonly [PR_EMS_AB_MONITOR_SERVERS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitor_servers/) |  |
-| static readonly [PR_EMS_AB_MONITOR_SERVICES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitor_services/) |  |
-| static readonly [PR_EMS_AB_MTA_LOCAL_CRED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mta_local_cred/) |  |
-| static readonly [PR_EMS_AB_MTA_LOCAL_CRED_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mta_local_cred_a/) |  |
-| static readonly [PR_EMS_AB_MTA_LOCAL_CRED_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mta_local_cred_w/) |  |
-| static readonly [PR_EMS_AB_MTA_LOCAL_DESIG](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mta_local_desig/) |  |
-| static readonly [PR_EMS_AB_MTA_LOCAL_DESIG_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mta_local_desig_a/) |  |
-| static readonly [PR_EMS_AB_MTA_LOCAL_DESIG_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mta_local_desig_w/) |  |
-| static readonly [PR_EMS_AB_NETWORK_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_network_address/) |  |
-| static readonly [PR_EMS_AB_NEWSFEED_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_newsfeed_type/) |  |
-| static readonly [PR_EMS_AB_NEWSGROUP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_newsgroup/) |  |
-| static readonly [PR_EMS_AB_NEWSGROUP_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_newsgroup_a/) |  |
-| static readonly [PR_EMS_AB_NEWSGROUP_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_newsgroup_list/) |  |
-| static readonly [PR_EMS_AB_NEWSGROUP_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_newsgroup_w/) |  |
-| static readonly [PR_EMS_AB_NNTP_CHARACTER_SET](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_character_set/) |  |
-| static readonly [PR_EMS_AB_NNTP_CHARACTER_SET_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_character_set_a/) |  |
-| static readonly [PR_EMS_AB_NNTP_CHARACTER_SET_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_character_set_w/) |  |
-| static readonly [PR_EMS_AB_NNTP_CONTENT_FORMAT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_content_format/) |  |
-| static readonly [PR_EMS_AB_NNTP_CONTENT_FORMAT_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_content_format_a/) |  |
-| static readonly [PR_EMS_AB_NNTP_CONTENT_FORMAT_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_content_format_w/) |  |
-| static readonly [PR_EMS_AB_NNTP_DISTRIBUTIONS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_distributions/) |  |
-| static readonly [PR_EMS_AB_NNTP_DISTRIBUTIONS_FLAG](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_distributions_flag/) |  |
-| static readonly [PR_EMS_AB_NNTP_NEWSFEEDS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_newsfeeds/) |  |
-| static readonly [PR_EMS_AB_NNTP_NEWSFEEDS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_newsfeeds_o/) |  |
-| static readonly [PR_EMS_AB_NT_MACHINE_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nt_machine_name/) |  |
-| static readonly [PR_EMS_AB_NT_MACHINE_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nt_machine_name_a/) |  |
-| static readonly [PR_EMS_AB_NT_MACHINE_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nt_machine_name_w/) |  |
-| static readonly [PR_EMS_AB_NT_SECURITY_DESCRIPTOR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nt_security_descriptor/) |  |
-| static readonly [PR_EMS_AB_NUM_OF_OPEN_RETRIES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_num_of_open_retries/) |  |
-| static readonly [PR_EMS_AB_NUM_OF_TRANSFER_RETRIES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_num_of_transfer_retries/) |  |
-| static readonly [PR_EMS_AB_N_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_n_address/) |  |
-| static readonly [PR_EMS_AB_N_ADDRESS_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_n_address_type/) |  |
-| static readonly [PR_EMS_AB_OBJECT_CLASS_CATEGORY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_object_class_category/) |  |
-| static readonly [PR_EMS_AB_OBJECT_OID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_object_oid/) |  |
-| static readonly [PR_EMS_AB_OBJECT_VERSION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_object_version/) |  |
-| static readonly [PR_EMS_AB_OBJ_DIST_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_obj_dist_name/) |  |
-| static readonly [PR_EMS_AB_OBJ_DIST_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_obj_dist_name_a/) |  |
-| static readonly [PR_EMS_AB_OBJ_DIST_NAME_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_obj_dist_name_o/) |  |
-| static readonly [PR_EMS_AB_OBJ_DIST_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_obj_dist_name_w/) |  |
-| static readonly [PR_EMS_AB_OBJ_VIEW_CONTAINERS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_obj_view_containers/) |  |
-| static readonly [PR_EMS_AB_OBJ_VIEW_CONTAINERS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_obj_view_containers_o/) |  |
-| static readonly [PR_EMS_AB_OFF_LINE_AB_CONTAINERS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_off_line_ab_containers/) |  |
-| static readonly [PR_EMS_AB_OFF_LINE_AB_CONTAINERS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_off_line_ab_containers_o/) |  |
-| static readonly [PR_EMS_AB_OFF_LINE_AB_SCHEDULE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_off_line_ab_schedule/) |  |
-| static readonly [PR_EMS_AB_OFF_LINE_AB_SERVER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_off_line_ab_server/) |  |
-| static readonly [PR_EMS_AB_OFF_LINE_AB_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_off_line_ab_server_a/) |  |
-| static readonly [PR_EMS_AB_OFF_LINE_AB_SERVER_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_off_line_ab_server_o/) |  |
-| static readonly [PR_EMS_AB_OFF_LINE_AB_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_off_line_ab_server_w/) |  |
-| static readonly [PR_EMS_AB_OFF_LINE_AB_STYLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_off_line_ab_style/) |  |
-| static readonly [PR_EMS_AB_OID_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_oid_type/) |  |
-| static readonly [PR_EMS_AB_OM_OBJECT_CLASS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_om_object_class/) |  |
-| static readonly [PR_EMS_AB_OM_SYNTAX](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_om_syntax/) |  |
-| static readonly [PR_EMS_AB_OOF_REPLY_TO_ORIGINATOR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_oof_reply_to_originator/) |  |
-| static readonly [PR_EMS_AB_OPEN_RETRY_INTERVAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_open_retry_interval/) |  |
-| static readonly [PR_EMS_AB_ORGANIZATIONAL_UNIT_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_organizational_unit_name/) |  |
-| static readonly [PR_EMS_AB_ORGANIZATION_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_organization_name/) |  |
-| static readonly [PR_EMS_AB_ORIGINAL_DISPLAY_TABLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_original_display_table/) |  |
-| static readonly [PR_EMS_AB_ORIGINAL_DISPLAY_TABLE_MSDOS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_original_display_table_msdos/) |  |
-| static readonly [PR_EMS_AB_OTHER_RECIPS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_other_recips/) |  |
-| static readonly [PR_EMS_AB_OUTBOUND_HOST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_outbound_host/) |  |
-| static readonly [PR_EMS_AB_OUTBOUND_HOST_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_outbound_host_type/) |  |
-| static readonly [PR_EMS_AB_OUTBOUND_NEWSFEED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_outbound_newsfeed/) |  |
-| static readonly [PR_EMS_AB_OUTBOUND_NEWSFEED_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_outbound_newsfeed_a/) |  |
-| static readonly [PR_EMS_AB_OUTBOUND_NEWSFEED_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_outbound_newsfeed_w/) |  |
-| static readonly [PR_EMS_AB_OUTBOUND_SITES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_outbound_sites/) |  |
-| static readonly [PR_EMS_AB_OUTBOUND_SITES_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_outbound_sites_o/) |  |
-| static readonly [PR_EMS_AB_OUTGOING_MSG_SIZE_LIMIT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_outgoing_msg_size_limit/) |  |
-| static readonly [PR_EMS_AB_OVERRIDE_NNTP_CONTENT_FORMAT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_override_nntp_content_format/) |  |
-| static readonly [PR_EMS_AB_OWA_SERVER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_owa_server/) |  |
-| static readonly [PR_EMS_AB_OWA_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_owa_server_a/) |  |
-| static readonly [PR_EMS_AB_OWA_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_owa_server_w/) |  |
-| static readonly [PR_EMS_AB_OWNER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_owner/) |  |
-| static readonly [PR_EMS_AB_OWNER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_owner_a/) |  |
-| static readonly [PR_EMS_AB_OWNER_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_owner_bl/) |  |
-| static readonly [PR_EMS_AB_OWNER_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_owner_bl_o/) |  |
-| static readonly [PR_EMS_AB_OWNER_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_owner_o/) |  |
-| static readonly [PR_EMS_AB_OWNER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_owner_w/) |  |
-| static readonly [PR_EMS_AB_PARENT_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_parent_entryid/) |  |
-| static readonly [PR_EMS_AB_PERIOD_REPL_STAGGER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_period_repl_stagger/) |  |
-| static readonly [PR_EMS_AB_PERIOD_REP_SYNC_TIMES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_period_rep_sync_times/) |  |
-| static readonly [PR_EMS_AB_PERSONAL_TITLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_personal_title/) |  |
-| static readonly [PR_EMS_AB_PERSONAL_TITLE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_personal_title_a/) |  |
-| static readonly [PR_EMS_AB_PERSONAL_TITLE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_personal_title_w/) |  |
-| static readonly [PR_EMS_AB_PER_MSG_DIALOG_DISPLAY_TABLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_per_msg_dialog_display_table/) |  |
-| static readonly [PR_EMS_AB_PER_RECIP_DIALOG_DISPLAY_TABLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_per_recip_dialog_display_table/) |  |
-| static readonly [PR_EMS_AB_PF_CONTACTS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_pf_contacts/) |  |
-| static readonly [PR_EMS_AB_PF_CONTACTS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_pf_contacts_o/) |  |
-| static readonly [PR_EMS_AB_POP_CHARACTER_SET](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_pop_character_set/) |  |
-| static readonly [PR_EMS_AB_POP_CHARACTER_SET_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_pop_character_set_a/) |  |
-| static readonly [PR_EMS_AB_POP_CHARACTER_SET_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_pop_character_set_w/) |  |
-| static readonly [PR_EMS_AB_POP_CONTENT_FORMAT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_pop_content_format/) |  |
-| static readonly [PR_EMS_AB_POP_CONTENT_FORMAT_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_pop_content_format_a/) |  |
-| static readonly [PR_EMS_AB_POP_CONTENT_FORMAT_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_pop_content_format_w/) |  |
-| static readonly [PR_EMS_AB_PORT_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_port_number/) |  |
-| static readonly [PR_EMS_AB_POSTAL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_postal_address/) |  |
-| static readonly [PR_EMS_AB_PREFERRED_DELIVERY_METHOD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_preferred_delivery_method/) |  |
-| static readonly [PR_EMS_AB_PRESERVE_INTERNET_CONTENT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_preserve_internet_content/) |  |
-| static readonly [PR_EMS_AB_PRMD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_prmd/) |  |
-| static readonly [PR_EMS_AB_PRMD_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_prmd_a/) |  |
-| static readonly [PR_EMS_AB_PRMD_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_prmd_w/) |  |
-| static readonly [PR_EMS_AB_PROMO_EXPIRATION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_promo_expiration/) |  |
-| static readonly [PR_EMS_AB_PROTOCOL_SETTINGS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_protocol_settings/) |  |
-| static readonly [PR_EMS_AB_PROXY_ADDRESSES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_proxy_addresses/) |  |
-| static readonly [PR_EMS_AB_PROXY_GENERATION_ENABLED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_proxy_generation_enabled/) |  |
-| static readonly [PR_EMS_AB_PROXY_GENERATOR_DLL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_proxy_generator_dll/) |  |
-| static readonly [PR_EMS_AB_PROXY_GENERATOR_DLL_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_proxy_generator_dll_a/) |  |
-| static readonly [PR_EMS_AB_PROXY_GENERATOR_DLL_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_proxy_generator_dll_w/) |  |
-| static readonly [PR_EMS_AB_PUBLIC_DELEGATES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_public_delegates/) |  |
-| static readonly [PR_EMS_AB_PUBLIC_DELEGATES_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_public_delegates_bl/) |  |
-| static readonly [PR_EMS_AB_PUBLIC_DELEGATES_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_public_delegates_bl_o/) |  |
-| static readonly [PR_EMS_AB_PUBLIC_DELEGATES_T](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_public_delegates_t/) |  |
-| static readonly [PR_EMS_AB_PUBLIC_DELEGATES_T_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_public_delegates_t_a/) |  |
-| static readonly [PR_EMS_AB_PUBLIC_DELEGATES_T_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_public_delegates_t_w/) |  |
-| static readonly [PR_EMS_AB_P_SELECTOR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_p_selector/) |  |
-| static readonly [PR_EMS_AB_P_SELECTOR_INBOUND](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_p_selector_inbound/) |  |
-| static readonly [PR_EMS_AB_QUOTA_NOTIFICATION_SCHEDULE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_quota_notification_schedule/) |  |
-| static readonly [PR_EMS_AB_QUOTA_NOTIFICATION_STYLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_quota_notification_style/) |  |
-| static readonly [PR_EMS_AB_RANGE_LOWER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_range_lower/) |  |
-| static readonly [PR_EMS_AB_RANGE_UPPER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_range_upper/) |  |
-| static readonly [PR_EMS_AB_RAS_ACCOUNT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_account/) |  |
-| static readonly [PR_EMS_AB_RAS_ACCOUNT_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_account_a/) |  |
-| static readonly [PR_EMS_AB_RAS_ACCOUNT_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_account_w/) |  |
-| static readonly [PR_EMS_AB_RAS_CALLBACK_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_callback_number/) |  |
-| static readonly [PR_EMS_AB_RAS_CALLBACK_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_callback_number_a/) |  |
-| static readonly [PR_EMS_AB_RAS_CALLBACK_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_callback_number_w/) |  |
-| static readonly [PR_EMS_AB_RAS_PASSWORD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_password/) |  |
-| static readonly [PR_EMS_AB_RAS_PHONEBOOK_ENTRY_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_phonebook_entry_name/) |  |
-| static readonly [PR_EMS_AB_RAS_PHONEBOOK_ENTRY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_phonebook_entry_name_a/) |  |
-| static readonly [PR_EMS_AB_RAS_PHONEBOOK_ENTRY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_phonebook_entry_name_w/) |  |
-| static readonly [PR_EMS_AB_RAS_PHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_phone_number/) |  |
-| static readonly [PR_EMS_AB_RAS_PHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_phone_number_a/) |  |
-| static readonly [PR_EMS_AB_RAS_PHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_phone_number_w/) |  |
-| static readonly [PR_EMS_AB_RAS_REMOTE_SRVR_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_remote_srvr_name/) |  |
-| static readonly [PR_EMS_AB_RAS_REMOTE_SRVR_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_remote_srvr_name_a/) |  |
-| static readonly [PR_EMS_AB_RAS_REMOTE_SRVR_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_remote_srvr_name_w/) |  |
-| static readonly [PR_EMS_AB_REFERRAL_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_referral_list/) |  |
-| static readonly [PR_EMS_AB_REGISTERED_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_registered_address/) |  |
-| static readonly [PR_EMS_AB_REMOTE_BRIDGE_HEAD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_bridge_head/) |  |
-| static readonly [PR_EMS_AB_REMOTE_BRIDGE_HEAD_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_bridge_head_a/) |  |
-| static readonly [PR_EMS_AB_REMOTE_BRIDGE_HEAD_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_bridge_head_address/) |  |
-| static readonly [PR_EMS_AB_REMOTE_BRIDGE_HEAD_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_bridge_head_address_a/) |  |
-| static readonly [PR_EMS_AB_REMOTE_BRIDGE_HEAD_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_bridge_head_address_w/) |  |
-| static readonly [PR_EMS_AB_REMOTE_BRIDGE_HEAD_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_bridge_head_w/) |  |
-| static readonly [PR_EMS_AB_REMOTE_OUT_BH_SERVER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_out_bh_server/) |  |
-| static readonly [PR_EMS_AB_REMOTE_OUT_BH_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_out_bh_server_a/) |  |
-| static readonly [PR_EMS_AB_REMOTE_OUT_BH_SERVER_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_out_bh_server_o/) |  |
-| static readonly [PR_EMS_AB_REMOTE_OUT_BH_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_out_bh_server_w/) |  |
-| static readonly [PR_EMS_AB_REMOTE_SITE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_site/) |  |
-| static readonly [PR_EMS_AB_REMOTE_SITE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_site_a/) |  |
-| static readonly [PR_EMS_AB_REMOTE_SITE_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_site_o/) |  |
-| static readonly [PR_EMS_AB_REMOTE_SITE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_site_w/) |  |
-| static readonly [PR_EMS_AB_REPLICATED_OBJECT_VERSION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_replicated_object_version/) |  |
-| static readonly [PR_EMS_AB_REPLICATION_MAIL_MSG_SIZE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_replication_mail_msg_size/) |  |
-| static readonly [PR_EMS_AB_REPLICATION_SENSITIVITY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_replication_sensitivity/) |  |
-| static readonly [PR_EMS_AB_REPLICATION_STAGGER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_replication_stagger/) |  |
-| static readonly [PR_EMS_AB_REPORTS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_reports/) |  |
-| static readonly [PR_EMS_AB_REPORTS_T](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_reports_t/) |  |
-| static readonly [PR_EMS_AB_REPORT_TO_ORIGINATOR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_report_to_originator/) |  |
-| static readonly [PR_EMS_AB_REPORT_TO_OWNER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_report_to_owner/) |  |
-| static readonly [PR_EMS_AB_REQUIRE_SSL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_require_ssl/) |  |
-| static readonly [PR_EMS_AB_REQ_SEQ](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_req_seq/) |  |
-| static readonly [PR_EMS_AB_RESPONSIBLE_LOCAL_DXA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_responsible_local_dxa/) |  |
-| static readonly [PR_EMS_AB_RESPONSIBLE_LOCAL_DXA_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_responsible_local_dxa_a/) |  |
-| static readonly [PR_EMS_AB_RESPONSIBLE_LOCAL_DXA_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_responsible_local_dxa_o/) |  |
-| static readonly [PR_EMS_AB_RESPONSIBLE_LOCAL_DXA_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_responsible_local_dxa_w/) |  |
-| static readonly [PR_EMS_AB_RETURN_EXACT_MSG_SIZE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_return_exact_msg_size/) |  |
-| static readonly [PR_EMS_AB_RID_SERVER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_rid_server/) |  |
-| static readonly [PR_EMS_AB_RID_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_rid_server_a/) |  |
-| static readonly [PR_EMS_AB_RID_SERVER_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_rid_server_o/) |  |
-| static readonly [PR_EMS_AB_RID_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_rid_server_w/) |  |
-| static readonly [PR_EMS_AB_ROLE_OCCUPANT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_role_occupant/) |  |
-| static readonly [PR_EMS_AB_ROLE_OCCUPANT_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_role_occupant_o/) |  |
-| static readonly [PR_EMS_AB_ROOT_NEWSGROUPS_FOLDER_ID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_root_newsgroups_folder_id/) |  |
-| static readonly [PR_EMS_AB_ROUTING_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_routing_list/) |  |
-| static readonly [PR_EMS_AB_RTS_CHECKPOINT_SIZE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_rts_checkpoint_size/) |  |
-| static readonly [PR_EMS_AB_RTS_RECOVERY_TIMEOUT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_rts_recovery_timeout/) |  |
-| static readonly [PR_EMS_AB_RTS_WINDOW_SIZE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_rts_window_size/) |  |
-| static readonly [PR_EMS_AB_RUNS_ON](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_runs_on/) |  |
-| static readonly [PR_EMS_AB_RUNS_ON_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_runs_on_o/) |  |
-| static readonly [PR_EMS_AB_SCHEMA_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_schema_flags/) |  |
-| static readonly [PR_EMS_AB_SCHEMA_VERSION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_schema_version/) |  |
-| static readonly [PR_EMS_AB_SEARCH_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_search_flags/) |  |
-| static readonly [PR_EMS_AB_SEARCH_GUIDE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_search_guide/) |  |
-| static readonly [PR_EMS_AB_SECURITY_POLICY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_security_policy/) |  |
-| static readonly [PR_EMS_AB_SECURITY_PROTOCOL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_security_protocol/) |  |
-| static readonly [PR_EMS_AB_SEE_ALSO](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_see_also/) |  |
-| static readonly [PR_EMS_AB_SEE_ALSO_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_see_also_o/) |  |
-| static readonly [PR_EMS_AB_SEND_EMAIL_MESSAGE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_send_email_message/) |  |
-| static readonly [PR_EMS_AB_SEND_TNEF](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_send_tnef/) |  |
-| static readonly [PR_EMS_AB_SERIAL_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_serial_number/) |  |
-| static readonly [PR_EMS_AB_SERVER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_server/) |  |
-| static readonly [PR_EMS_AB_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_server_a/) |  |
-| static readonly [PR_EMS_AB_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_server_w/) |  |
-| static readonly [PR_EMS_AB_SERVICE_ACTION_FIRST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_service_action_first/) |  |
-| static readonly [PR_EMS_AB_SERVICE_ACTION_OTHER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_service_action_other/) |  |
-| static readonly [PR_EMS_AB_SERVICE_ACTION_SECOND](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_service_action_second/) |  |
-| static readonly [PR_EMS_AB_SERVICE_RESTART_DELAY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_service_restart_delay/) |  |
-| static readonly [PR_EMS_AB_SERVICE_RESTART_MESSAGE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_service_restart_message/) |  |
-| static readonly [PR_EMS_AB_SERVICE_RESTART_MESSAGE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_service_restart_message_a/) |  |
-| static readonly [PR_EMS_AB_SERVICE_RESTART_MESSAGE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_service_restart_message_w/) |  |
-| static readonly [PR_EMS_AB_SESSION_DISCONNECT_TIMER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_session_disconnect_timer/) |  |
-| static readonly [PR_EMS_AB_SITE_AFFINITY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_site_affinity/) |  |
-| static readonly [PR_EMS_AB_SITE_FOLDER_GUID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_site_folder_guid/) |  |
-| static readonly [PR_EMS_AB_SITE_FOLDER_SERVER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_site_folder_server/) |  |
-| static readonly [PR_EMS_AB_SITE_FOLDER_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_site_folder_server_a/) |  |
-| static readonly [PR_EMS_AB_SITE_FOLDER_SERVER_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_site_folder_server_o/) |  |
-| static readonly [PR_EMS_AB_SITE_FOLDER_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_site_folder_server_w/) |  |
-| static readonly [PR_EMS_AB_SITE_PROXY_SPACE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_site_proxy_space/) |  |
-| static readonly [PR_EMS_AB_SMIME_ALG_LIST_NA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_smime_alg_list_na/) |  |
-| static readonly [PR_EMS_AB_SMIME_ALG_LIST_OTHER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_smime_alg_list_other/) |  |
-| static readonly [PR_EMS_AB_SMIME_ALG_SELECTED_NA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_smime_alg_selected_na/) |  |
-| static readonly [PR_EMS_AB_SMIME_ALG_SELECTED_NA_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_smime_alg_selected_na_a/) |  |
-| static readonly [PR_EMS_AB_SMIME_ALG_SELECTED_NA_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_smime_alg_selected_na_w/) |  |
-| static readonly [PR_EMS_AB_SMIME_ALG_SELECTED_OTHER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_smime_alg_selected_other/) |  |
-| static readonly [PR_EMS_AB_SMIME_ALG_SELECTED_OTHER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_smime_alg_selected_other_a/) |  |
-| static readonly [PR_EMS_AB_SMIME_ALG_SELECTED_OTHER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_smime_alg_selected_other_w/) |  |
-| static readonly [PR_EMS_AB_SPACE_LAST_COMPUTED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_space_last_computed/) |  |
-| static readonly [PR_EMS_AB_STREET_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_street_address/) |  |
-| static readonly [PR_EMS_AB_STREET_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_street_address_a/) |  |
-| static readonly [PR_EMS_AB_STREET_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_street_address_w/) |  |
-| static readonly [PR_EMS_AB_SUBMISSION_CONT_LENGTH](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_submission_cont_length/) |  |
-| static readonly [PR_EMS_AB_SUB_REFS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_sub_refs/) |  |
-| static readonly [PR_EMS_AB_SUB_REFS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_sub_refs_o/) |  |
-| static readonly [PR_EMS_AB_SUB_SITE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_sub_site/) |  |
-| static readonly [PR_EMS_AB_SUB_SITE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_sub_site_a/) |  |
-| static readonly [PR_EMS_AB_SUB_SITE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_sub_site_w/) |  |
-| static readonly [PR_EMS_AB_SUPPORTED_ALGORITHMS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_supported_algorithms/) |  |
-| static readonly [PR_EMS_AB_SUPPORTED_APPLICATION_CONTEXT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_supported_application_context/) |  |
-| static readonly [PR_EMS_AB_SUPPORTING_STACK](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_supporting_stack/) |  |
-| static readonly [PR_EMS_AB_SUPPORTING_STACK_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_supporting_stack_bl/) |  |
-| static readonly [PR_EMS_AB_SUPPORTING_STACK_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_supporting_stack_bl_o/) |  |
-| static readonly [PR_EMS_AB_SUPPORTING_STACK_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_supporting_stack_o/) |  |
-| static readonly [PR_EMS_AB_SUPPORT_SMIME_SIGNATURES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_support_smime_signatures/) |  |
-| static readonly [PR_EMS_AB_S_SELECTOR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_s_selector/) |  |
-| static readonly [PR_EMS_AB_S_SELECTOR_INBOUND](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_s_selector_inbound/) |  |
-| static readonly [PR_EMS_AB_TAGGED_X509_CERT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_tagged_x509_cert/) |  |
-| static readonly [PR_EMS_AB_TARGET_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_target_address/) |  |
-| static readonly [PR_EMS_AB_TARGET_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_target_address_a/) |  |
-| static readonly [PR_EMS_AB_TARGET_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_target_address_w/) |  |
-| static readonly [PR_EMS_AB_TARGET_MTAS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_target_mtas/) |  |
-| static readonly [PR_EMS_AB_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_telephone_number/) |  |
-| static readonly [PR_EMS_AB_TELEPHONE_PERSONAL_PAGER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_telephone_personal_pager/) |  |
-| static readonly [PR_EMS_AB_TELEPHONE_PERSONAL_PAGER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_telephone_personal_pager_a/) |  |
-| static readonly [PR_EMS_AB_TELEPHONE_PERSONAL_PAGER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_telephone_personal_pager_w/) |  |
-| static readonly [PR_EMS_AB_TELETEX_TERMINAL_IDENTIFIER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_teletex_terminal_identifier/) |  |
-| static readonly [PR_EMS_AB_TEMP_ASSOC_THRESHOLD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_temp_assoc_threshold/) |  |
-| static readonly [PR_EMS_AB_TOMBSTONE_LIFETIME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_tombstone_lifetime/) |  |
-| static readonly [PR_EMS_AB_TRACKING_LOG_PATH_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_tracking_log_path_name/) |  |
-| static readonly [PR_EMS_AB_TRACKING_LOG_PATH_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_tracking_log_path_name_a/) |  |
-| static readonly [PR_EMS_AB_TRACKING_LOG_PATH_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_tracking_log_path_name_w/) |  |
-| static readonly [PR_EMS_AB_TRANSFER_RETRY_INTERVAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_transfer_retry_interval/) |  |
-| static readonly [PR_EMS_AB_TRANSFER_TIMEOUT_NON_URGENT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_transfer_timeout_non_urgent/) |  |
-| static readonly [PR_EMS_AB_TRANSFER_TIMEOUT_NORMAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_transfer_timeout_normal/) |  |
-| static readonly [PR_EMS_AB_TRANSFER_TIMEOUT_URGENT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_transfer_timeout_urgent/) |  |
-| static readonly [PR_EMS_AB_TRANSLATION_TABLE_USED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_translation_table_used/) |  |
-| static readonly [PR_EMS_AB_TRANSPORT_EXPEDITED_DATA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_transport_expedited_data/) |  |
-| static readonly [PR_EMS_AB_TRANS_RETRY_MINS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_trans_retry_mins/) |  |
-| static readonly [PR_EMS_AB_TRANS_TIMEOUT_MINS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_trans_timeout_mins/) |  |
-| static readonly [PR_EMS_AB_TRUST_LEVEL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_trust_level/) |  |
-| static readonly [PR_EMS_AB_TURN_REQUEST_THRESHOLD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_turn_request_threshold/) |  |
-| static readonly [PR_EMS_AB_TWO_WAY_ALTERNATE_FACILITY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_two_way_alternate_facility/) |  |
-| static readonly [PR_EMS_AB_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_type/) |  |
-| static readonly [PR_EMS_AB_TYPE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_type_a/) |  |
-| static readonly [PR_EMS_AB_TYPE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_type_w/) |  |
-| static readonly [PR_EMS_AB_T_SELECTOR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_t_selector/) |  |
-| static readonly [PR_EMS_AB_T_SELECTOR_INBOUND](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_t_selector_inbound/) |  |
-| static readonly [PR_EMS_AB_UNAUTH_ORIG_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_unauth_orig_bl/) |  |
-| static readonly [PR_EMS_AB_UNAUTH_ORIG_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_unauth_orig_bl_o/) |  |
-| static readonly [PR_EMS_AB_USENET_SITE_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_usenet_site_name/) |  |
-| static readonly [PR_EMS_AB_USENET_SITE_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_usenet_site_name_a/) |  |
-| static readonly [PR_EMS_AB_USENET_SITE_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_usenet_site_name_w/) |  |
-| static readonly [PR_EMS_AB_USER_PASSWORD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_user_password/) |  |
-| static readonly [PR_EMS_AB_USE_SERVER_VALUES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_use_server_values/) |  |
-| static readonly [PR_EMS_AB_USE_SITE_VALUES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_use_site_values/) |  |
-| static readonly [PR_EMS_AB_USN_CHANGED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_usn_changed/) |  |
-| static readonly [PR_EMS_AB_USN_CREATED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_usn_created/) |  |
-| static readonly [PR_EMS_AB_USN_DSA_LAST_OBJ_REMOVED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_usn_dsa_last_obj_removed/) |  |
-| static readonly [PR_EMS_AB_USN_INTERSITE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_usn_intersite/) |  |
-| static readonly [PR_EMS_AB_USN_LAST_OBJ_REM](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_usn_last_obj_rem/) |  |
-| static readonly [PR_EMS_AB_USN_SOURCE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_usn_source/) |  |
-| static readonly [PR_EMS_AB_VIEW_CONTAINER_1](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_container_1/) |  |
-| static readonly [PR_EMS_AB_VIEW_CONTAINER_1_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_container_1_a/) |  |
-| static readonly [PR_EMS_AB_VIEW_CONTAINER_1_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_container_1_w/) |  |
-| static readonly [PR_EMS_AB_VIEW_CONTAINER_2](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_container_2/) |  |
-| static readonly [PR_EMS_AB_VIEW_CONTAINER_2_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_container_2_a/) |  |
-| static readonly [PR_EMS_AB_VIEW_CONTAINER_2_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_container_2_w/) |  |
-| static readonly [PR_EMS_AB_VIEW_CONTAINER_3](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_container_3/) |  |
-| static readonly [PR_EMS_AB_VIEW_CONTAINER_3_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_container_3_a/) |  |
-| static readonly [PR_EMS_AB_VIEW_CONTAINER_3_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_container_3_w/) |  |
-| static readonly [PR_EMS_AB_VIEW_DEFINITION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_definition/) |  |
-| static readonly [PR_EMS_AB_VIEW_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_flags/) |  |
-| static readonly [PR_EMS_AB_VIEW_SITE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_site/) |  |
-| static readonly [PR_EMS_AB_VIEW_SITE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_site_a/) |  |
-| static readonly [PR_EMS_AB_VIEW_SITE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_site_w/) |  |
-| static readonly [PR_EMS_AB_VOICE_MAIL_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_flags/) |  |
-| static readonly [PR_EMS_AB_VOICE_MAIL_GREETINGS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_greetings/) |  |
-| static readonly [PR_EMS_AB_VOICE_MAIL_PASSWORD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_password/) |  |
-| static readonly [PR_EMS_AB_VOICE_MAIL_PASSWORD_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_password_a/) |  |
-| static readonly [PR_EMS_AB_VOICE_MAIL_PASSWORD_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_password_w/) |  |
-| static readonly [PR_EMS_AB_VOICE_MAIL_RECORDED_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_recorded_name/) |  |
-| static readonly [PR_EMS_AB_VOICE_MAIL_RECORDING_LENGTH](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_recording_length/) |  |
-| static readonly [PR_EMS_AB_VOICE_MAIL_SPEED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_speed/) |  |
-| static readonly [PR_EMS_AB_VOICE_MAIL_SYSTEM_GUID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_system_guid/) |  |
-| static readonly [PR_EMS_AB_VOICE_MAIL_USER_ID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_user_id/) |  |
-| static readonly [PR_EMS_AB_VOICE_MAIL_USER_ID_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_user_id_a/) |  |
-| static readonly [PR_EMS_AB_VOICE_MAIL_USER_ID_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_user_id_w/) |  |
-| static readonly [PR_EMS_AB_VOICE_MAIL_VOLUME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_volume/) |  |
-| static readonly [PR_EMS_AB_WWW_HOME_PAGE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_www_home_page/) |  |
-| static readonly [PR_EMS_AB_WWW_HOME_PAGE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_www_home_page_a/) |  |
-| static readonly [PR_EMS_AB_WWW_HOME_PAGE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_www_home_page_w/) |  |
-| static readonly [PR_EMS_AB_X121_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x121_address/) |  |
-| static readonly [PR_EMS_AB_X25_CALL_USER_DATA_INCOMING](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x25_call_user_data_incoming/) |  |
-| static readonly [PR_EMS_AB_X25_CALL_USER_DATA_OUTGOING](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x25_call_user_data_outgoing/) |  |
-| static readonly [PR_EMS_AB_X25_FACILITIES_DATA_INCOMING](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x25_facilities_data_incoming/) |  |
-| static readonly [PR_EMS_AB_X25_FACILITIES_DATA_OUTGOING](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x25_facilities_data_outgoing/) |  |
-| static readonly [PR_EMS_AB_X25_LEASED_LINE_PORT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x25_leased_line_port/) |  |
-| static readonly [PR_EMS_AB_X25_LEASED_OR_SWITCHED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x25_leased_or_switched/) |  |
-| static readonly [PR_EMS_AB_X25_REMOTE_MTA_PHONE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x25_remote_mta_phone/) |  |
-| static readonly [PR_EMS_AB_X25_REMOTE_MTA_PHONE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x25_remote_mta_phone_a/) |  |
-| static readonly [PR_EMS_AB_X25_REMOTE_MTA_PHONE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x25_remote_mta_phone_w/) |  |
-| static readonly [PR_EMS_AB_X400_ATTACHMENT_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x400_attachment_type/) |  |
-| static readonly [PR_EMS_AB_X400_SELECTOR_SYNTAX](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x400_selector_syntax/) |  |
-| static readonly [PR_EMS_AB_X500_ACCESS_CONTROL_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x500_access_control_list/) |  |
-| static readonly [PR_EMS_AB_X500_NC](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x500_nc/) |  |
-| static readonly [PR_EMS_AB_X500_NC_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x500_nc_a/) |  |
-| static readonly [PR_EMS_AB_X500_NC_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x500_nc_w/) |  |
-| static readonly [PR_EMS_AB_X500_RDN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x500_rdn/) |  |
-| static readonly [PR_EMS_AB_X500_RDN_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x500_rdn_a/) |  |
-| static readonly [PR_EMS_AB_X500_RDN_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x500_rdn_w/) |  |
-| static readonly [PR_EMS_AB_XMIT_TIMEOUT_NON_URGENT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_xmit_timeout_non_urgent/) |  |
-| static readonly [PR_EMS_AB_XMIT_TIMEOUT_NORMAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_xmit_timeout_normal/) |  |
-| static readonly [PR_EMS_AB_XMIT_TIMEOUT_URGENT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_xmit_timeout_urgent/) |  |
-| static readonly [PR_END_DATE](../../aspose.email.mapi/mapipropertytag/pr_end_date/) |  |
-| static readonly [PR_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_entryid/) |  |
-| static readonly [PR_EVENTS_ROOT_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_events_root_folder_entryid/) |  |
+| static readonly [PR_BODY_W](../../aspose.email.mapi/mapipropertytag/pr_body_w/) | The Unicode form of [`PR_BODY`](./pr_body/). Property tag: 0x1000001F (PT_UNICODE). |
+| static readonly [PR_BUSINESS2_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_business2_telephone_number/) | The tag of the PR_BUSINESS2_TELEPHONE_NUMBER MAPI property. Property tag: 0x3A1B001E (PT_STRING8). |
+| static readonly [PR_BUSINESS2_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_business2_telephone_number_a/) | The ANSI form of [`PR_BUSINESS2_TELEPHONE_NUMBER`](./pr_business2_telephone_number/). Property tag: 0x3A1B001E (PT_STRING8). |
+| static readonly [PR_BUSINESS2_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_business2_telephone_number_w/) | The Unicode form of [`PR_BUSINESS2_TELEPHONE_NUMBER`](./pr_business2_telephone_number/). Property tag: 0x3A1B001F (PT_UNICODE). |
+| static readonly [PR_BUSINESS_ADDRESS_CITY](../../aspose.email.mapi/mapipropertytag/pr_business_address_city/) | Contains the name of the mail user's locality, such as the town or city. Canonical name: PidTagLocality. Property tag: 0x3A27001E (PT_STRING8). |
+| static readonly [PR_BUSINESS_ADDRESS_CITY_A](../../aspose.email.mapi/mapipropertytag/pr_business_address_city_a/) | The ANSI form of [`PR_BUSINESS_ADDRESS_CITY`](./pr_business_address_city/). Property tag: 0x3A27001E (PT_STRING8). |
+| static readonly [PR_BUSINESS_ADDRESS_CITY_W](../../aspose.email.mapi/mapipropertytag/pr_business_address_city_w/) | The Unicode form of [`PR_BUSINESS_ADDRESS_CITY`](./pr_business_address_city/). Property tag: 0x3A27001F (PT_UNICODE). |
+| static readonly [PR_BUSINESS_ADDRESS_COUNTRY](../../aspose.email.mapi/mapipropertytag/pr_business_address_country/) | Contains the name of the mail user's country/region. Canonical name: PidTagCountry. Property tag: 0x3A26001E (PT_STRING8). |
+| static readonly [PR_BUSINESS_ADDRESS_COUNTRY_A](../../aspose.email.mapi/mapipropertytag/pr_business_address_country_a/) | The ANSI form of [`PR_BUSINESS_ADDRESS_COUNTRY`](./pr_business_address_country/). Property tag: 0x3A26001E (PT_STRING8). |
+| static readonly [PR_BUSINESS_ADDRESS_COUNTRY_W](../../aspose.email.mapi/mapipropertytag/pr_business_address_country_w/) | The Unicode form of [`PR_BUSINESS_ADDRESS_COUNTRY`](./pr_business_address_country/). Property tag: 0x3A26001F (PT_UNICODE). |
+| static readonly [PR_BUSINESS_ADDRESS_POSTAL_CODE](../../aspose.email.mapi/mapipropertytag/pr_business_address_postal_code/) | Contains the postal code for the mail user's postal address. Canonical name: PidTagPostalCode. Property tag: 0x3A2A001E (PT_STRING8). |
+| static readonly [PR_BUSINESS_ADDRESS_POSTAL_CODE_A](../../aspose.email.mapi/mapipropertytag/pr_business_address_postal_code_a/) | The ANSI form of [`PR_BUSINESS_ADDRESS_POSTAL_CODE`](./pr_business_address_postal_code/). Property tag: 0x3A2A001E (PT_STRING8). |
+| static readonly [PR_BUSINESS_ADDRESS_POSTAL_CODE_W](../../aspose.email.mapi/mapipropertytag/pr_business_address_postal_code_w/) | The Unicode form of [`PR_BUSINESS_ADDRESS_POSTAL_CODE`](./pr_business_address_postal_code/). Property tag: 0x3A2A001F (PT_UNICODE). |
+| static readonly [PR_BUSINESS_ADDRESS_POST_OFFICE_BOX](../../aspose.email.mapi/mapipropertytag/pr_business_address_post_office_box/) | Contains the number or identifier of the mail user's post office box. Canonical name: PidTagPostOfficeBox. Property tag: 0x3A2B001E (PT_STRING8). |
+| static readonly [PR_BUSINESS_ADDRESS_POST_OFFICE_BOX_A](../../aspose.email.mapi/mapipropertytag/pr_business_address_post_office_box_a/) | The ANSI form of [`PR_BUSINESS_ADDRESS_POST_OFFICE_BOX`](./pr_business_address_post_office_box/). Property tag: 0x3A2B001E (PT_STRING8). |
+| static readonly [PR_BUSINESS_ADDRESS_POST_OFFICE_BOX_W](../../aspose.email.mapi/mapipropertytag/pr_business_address_post_office_box_w/) | The Unicode form of [`PR_BUSINESS_ADDRESS_POST_OFFICE_BOX`](./pr_business_address_post_office_box/). Property tag: 0x3A2B001F (PT_UNICODE). |
+| static readonly [PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE](../../aspose.email.mapi/mapipropertytag/pr_business_address_state_or_province/) | Contains the name of the mail user's state or province. Canonical name: PidTagStateOrProvince. Property tag: 0x3A28001E (PT_STRING8). |
+| static readonly [PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_A](../../aspose.email.mapi/mapipropertytag/pr_business_address_state_or_province_a/) | The ANSI form of [`PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE`](./pr_business_address_state_or_province/). Property tag: 0x3A28001E (PT_STRING8). |
+| static readonly [PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_W](../../aspose.email.mapi/mapipropertytag/pr_business_address_state_or_province_w/) | The Unicode form of [`PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE`](./pr_business_address_state_or_province/). Property tag: 0x3A28001F (PT_UNICODE). |
+| static readonly [PR_BUSINESS_ADDRESS_STREET](../../aspose.email.mapi/mapipropertytag/pr_business_address_street/) | Contains the mail user's street address. Canonical name: PidTagStreetAddress. Property tag: 0x3A29001E (PT_STRING8). |
+| static readonly [PR_BUSINESS_ADDRESS_STREET_A](../../aspose.email.mapi/mapipropertytag/pr_business_address_street_a/) | The ANSI form of [`PR_BUSINESS_ADDRESS_STREET`](./pr_business_address_street/). Property tag: 0x3A29001E (PT_STRING8). |
+| static readonly [PR_BUSINESS_ADDRESS_STREET_W](../../aspose.email.mapi/mapipropertytag/pr_business_address_street_w/) | The Unicode form of [`PR_BUSINESS_ADDRESS_STREET`](./pr_business_address_street/). Property tag: 0x3A29001F (PT_UNICODE). |
+| static readonly [PR_BUSINESS_FAX_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_business_fax_number/) | Contains the telephone number of the mail user's business fax machine. Canonical name: PidTagBusinessFaxNumber. Property tag: 0x3A24001E (PT_STRING8). |
+| static readonly [PR_BUSINESS_FAX_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_business_fax_number_a/) | The ANSI form of [`PR_BUSINESS_FAX_NUMBER`](./pr_business_fax_number/). Property tag: 0x3A24001E (PT_STRING8). |
+| static readonly [PR_BUSINESS_FAX_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_business_fax_number_w/) | The Unicode form of [`PR_BUSINESS_FAX_NUMBER`](./pr_business_fax_number/). Property tag: 0x3A24001F (PT_UNICODE). |
+| static readonly [PR_BUSINESS_HOME_PAGE](../../aspose.email.mapi/mapipropertytag/pr_business_home_page/) | Contains the URL of the mail user's business home page. Canonical name: PidTagBusinessHomePage. Property tag: 0x3A51001E (PT_STRING8). |
+| static readonly [PR_BUSINESS_HOME_PAGE_A](../../aspose.email.mapi/mapipropertytag/pr_business_home_page_a/) | The ANSI form of [`PR_BUSINESS_HOME_PAGE`](./pr_business_home_page/). Property tag: 0x3A51001E (PT_STRING8). |
+| static readonly [PR_BUSINESS_HOME_PAGE_W](../../aspose.email.mapi/mapipropertytag/pr_business_home_page_w/) | The Unicode form of [`PR_BUSINESS_HOME_PAGE`](./pr_business_home_page/). Property tag: 0x3A51001F (PT_UNICODE). |
+| static readonly [PR_BUSINESS_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_business_telephone_number/) | Contains the primary telephone number of the mail user's place of business. Canonical name: PidTagBusinessTelephoneNumber. Property tag: 0x3A08001E (PT_STRING8). |
+| static readonly [PR_BUSINESS_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_business_telephone_number_a/) | The ANSI form of [`PR_BUSINESS_TELEPHONE_NUMBER`](./pr_business_telephone_number/). Property tag: 0x3A08001E (PT_STRING8). |
+| static readonly [PR_BUSINESS_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_business_telephone_number_w/) | The Unicode form of [`PR_BUSINESS_TELEPHONE_NUMBER`](./pr_business_telephone_number/). Property tag: 0x3A08001F (PT_UNICODE). |
+| static readonly [PR_CACHED_COLUMN_COUNT](../../aspose.email.mapi/mapipropertytag/pr_cached_column_count/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66AC0003 (PT_LONG). |
+| static readonly [PR_CALLBACK_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_callback_telephone_number/) | Contains a telephone number to reach the mail user. Canonical name: PidTagCallbackTelephoneNumber. Property tag: 0x3A02001E (PT_STRING8). |
+| static readonly [PR_CALLBACK_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_callback_telephone_number_a/) | The ANSI form of [`PR_CALLBACK_TELEPHONE_NUMBER`](./pr_callback_telephone_number/). Property tag: 0x3A02001E (PT_STRING8). |
+| static readonly [PR_CALLBACK_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_callback_telephone_number_w/) | The Unicode form of [`PR_CALLBACK_TELEPHONE_NUMBER`](./pr_callback_telephone_number/). Property tag: 0x3A02001F (PT_UNICODE). |
+| static readonly [PR_CAR_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_car_telephone_number/) | Contains the mail user's car telephone number. Canonical name: PidTagCarTelephoneNumber. Property tag: 0x3A1E001E (PT_STRING8). |
+| static readonly [PR_CAR_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_car_telephone_number_a/) | The ANSI form of [`PR_CAR_TELEPHONE_NUMBER`](./pr_car_telephone_number/). Property tag: 0x3A1E001E (PT_STRING8). |
+| static readonly [PR_CAR_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_car_telephone_number_w/) | The Unicode form of [`PR_CAR_TELEPHONE_NUMBER`](./pr_car_telephone_number/). Property tag: 0x3A1E001F (PT_UNICODE). |
+| static readonly [PR_CATEG_COUNT](../../aspose.email.mapi/mapipropertytag/pr_categ_count/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66AB0003 (PT_LONG). |
+| static readonly [PR_CELLULAR_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_cellular_telephone_number/) | Contains the mail user's cellular telephone number. Canonical name: PidTagMobileTelephoneNumber. Property tag: 0x3A1C001E (PT_STRING8). |
+| static readonly [PR_CELLULAR_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_cellular_telephone_number_a/) | The ANSI form of [`PR_CELLULAR_TELEPHONE_NUMBER`](./pr_cellular_telephone_number/). Property tag: 0x3A1C001E (PT_STRING8). |
+| static readonly [PR_CELLULAR_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_cellular_telephone_number_w/) | The Unicode form of [`PR_CELLULAR_TELEPHONE_NUMBER`](./pr_cellular_telephone_number/). Property tag: 0x3A1C001F (PT_UNICODE). |
+| static readonly [PR_CHANGE_ADVISOR](../../aspose.email.mapi/mapipropertytag/pr_change_advisor/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6634000D (PT_OBJECT). |
+| static readonly [PR_CHANGE_KEY](../../aspose.email.mapi/mapipropertytag/pr_change_key/) | Contains a structure that identifies the last change to the object. Canonical name: PidTagChangeKey. Property tag: 0x65E20102 (PT_BINARY). |
+| static readonly [PR_CHANGE_NOTIFICATION_GUID](../../aspose.email.mapi/mapipropertytag/pr_change_notification_guid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66370048 (PT_CLSID). |
+| static readonly [PR_CHILDRENS_NAMES](../../aspose.email.mapi/mapipropertytag/pr_childrens_names/) | Specifies the names of the children of the contact. Canonical name: PidTagChildrensNames. Property tag: 0x3A58101E (PT_MV_STRING8). |
+| static readonly [PR_CLIENT_ACTIONS](../../aspose.email.mapi/mapipropertytag/pr_client_actions/) | Specifies the actions the client is required to take on the message. Canonical name: PidTagClientActions. Property tag: 0x66450102 (PT_BINARY). |
+| static readonly [PR_CLIENT_SUBMIT_TIME](../../aspose.email.mapi/mapipropertytag/pr_client_submit_time/) | Contains the current time, in UTC, when the email message is submitted. Canonical name: PidTagClientSubmitTime. Property tag: 0x00390040 (PT_SYSTIME). |
+| static readonly [PR_CODE_PAGE_ID](../../aspose.email.mapi/mapipropertytag/pr_code_page_id/) | Contains the identifier for the client code page used for Unicode to double-byte character set (DBCS) string conversion. Canonical name: PidTagCodePageId. Property tag: 0x66C30003 (PT_LONG). |
+| static readonly [PR_COLLECTOR](../../aspose.email.mapi/mapipropertytag/pr_collector/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x662E000D (PT_OBJECT). |
+| static readonly [PR_COMMENT](../../aspose.email.mapi/mapipropertytag/pr_comment/) | Contains a comment about the purpose or content of the Address Book object. Canonical name: PidTagComment. Property tag: 0x3004001E (PT_STRING8). |
+| static readonly [PR_COMMENT_A](../../aspose.email.mapi/mapipropertytag/pr_comment_a/) | The ANSI form of [`PR_COMMENT`](./pr_comment/). Property tag: 0x3004001E (PT_STRING8). |
+| static readonly [PR_COMMENT_W](../../aspose.email.mapi/mapipropertytag/pr_comment_w/) | The Unicode form of [`PR_COMMENT`](./pr_comment/). Property tag: 0x3004001F (PT_UNICODE). |
+| static readonly [PR_COMMON_VIEWS_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_common_views_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x35E60102 (PT_BINARY). |
+| static readonly [PR_COMPANY_MAIN_PHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_company_main_phone_number/) | Contains the main telephone number of the mail user's company. Canonical name: PidTagCompanyMainTelephoneNumber. Property tag: 0x3A57001E (PT_STRING8). |
+| static readonly [PR_COMPANY_MAIN_PHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_company_main_phone_number_a/) | The ANSI form of [`PR_COMPANY_MAIN_PHONE_NUMBER`](./pr_company_main_phone_number/). Property tag: 0x3A57001E (PT_STRING8). |
+| static readonly [PR_COMPANY_MAIN_PHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_company_main_phone_number_w/) | The Unicode form of [`PR_COMPANY_MAIN_PHONE_NUMBER`](./pr_company_main_phone_number/). Property tag: 0x3A57001F (PT_UNICODE). |
+| static readonly [PR_COMPANY_NAME](../../aspose.email.mapi/mapipropertytag/pr_company_name/) | Contains the mail user's company name. Canonical name: PidTagCompanyName. Property tag: 0x3A16001E (PT_STRING8). |
+| static readonly [PR_COMPANY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_company_name_a/) | The ANSI form of [`PR_COMPANY_NAME`](./pr_company_name/). Property tag: 0x3A16001E (PT_STRING8). |
+| static readonly [PR_COMPANY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_company_name_w/) | The Unicode form of [`PR_COMPANY_NAME`](./pr_company_name/). Property tag: 0x3A16001F (PT_UNICODE). |
+| static readonly [PR_COMPUTER_NETWORK_NAME](../../aspose.email.mapi/mapipropertytag/pr_computer_network_name/) | Contains the name of the mail user's computer network. Canonical name: PidTagComputerNetworkName. Property tag: 0x3A49001E (PT_STRING8). |
+| static readonly [PR_COMPUTER_NETWORK_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_computer_network_name_a/) | The ANSI form of [`PR_COMPUTER_NETWORK_NAME`](./pr_computer_network_name/). Property tag: 0x3A49001E (PT_STRING8). |
+| static readonly [PR_COMPUTER_NETWORK_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_computer_network_name_w/) | The Unicode form of [`PR_COMPUTER_NETWORK_NAME`](./pr_computer_network_name/). Property tag: 0x3A49001F (PT_UNICODE). |
+| static readonly [PR_CONFLICT_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_conflict_entryid/) | Contains the EntryID of the conflict resolve message. Canonical name: PidTagConflictEntryId. Property tag: 0x3FF00102 (PT_BINARY). |
+| static readonly [PR_CONTACT_ADDRTYPES](../../aspose.email.mapi/mapipropertytag/pr_contact_addrtypes/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3A54101E (PT_MV_STRING8). |
+| static readonly [PR_CONTACT_COUNT](../../aspose.email.mapi/mapipropertytag/pr_contact_count/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66B70003 (PT_LONG). |
+| static readonly [PR_CONTACT_DEFAULT_ADDRESS_INDEX](../../aspose.email.mapi/mapipropertytag/pr_contact_default_address_index/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3A550003 (PT_LONG). |
+| static readonly [PR_CONTACT_EMAIL_ADDRESSES](../../aspose.email.mapi/mapipropertytag/pr_contact_email_addresses/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3A56101E (PT_MV_STRING8). |
+| static readonly [PR_CONTACT_ENTRYIDS](../../aspose.email.mapi/mapipropertytag/pr_contact_entryids/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3A531102 (PT_MV_BINARY). |
+| static readonly [PR_CONTACT_VERSION](../../aspose.email.mapi/mapipropertytag/pr_contact_version/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3A520048 (PT_CLSID). |
+| static readonly [PR_CONTAINER_CLASS](../../aspose.email.mapi/mapipropertytag/pr_container_class/) | Contains a string value that describes the type of Message object that a folder contains. Canonical name: PidTagContainerClass. Property tag: 0x3613001E (PT_STRING8). |
+| static readonly [PR_CONTAINER_CLASS_A](../../aspose.email.mapi/mapipropertytag/pr_container_class_a/) | The ANSI form of [`PR_CONTAINER_CLASS`](./pr_container_class/). Property tag: 0x3613001E (PT_STRING8). |
+| static readonly [PR_CONTAINER_CLASS_W](../../aspose.email.mapi/mapipropertytag/pr_container_class_w/) | The Unicode form of [`PR_CONTAINER_CLASS`](./pr_container_class/). Property tag: 0x3613001F (PT_UNICODE). |
+| static readonly [PR_CONTAINER_CONTENTS](../../aspose.email.mapi/mapipropertytag/pr_container_contents/) | Always empty. An NSPI server defines this value for distribution lists and it is not present for other objects. Canonical name: PidTagContainerContents. Property tag: 0x360F000D (PT_OBJECT). |
+| static readonly [PR_CONTAINER_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_container_flags/) | Contains a bitmask of flags that describe capabilities of an address book container. Canonical name: PidTagContainerFlags. Property tag: 0x36000003 (PT_LONG). |
+| static readonly [PR_CONTAINER_HIERARCHY](../../aspose.email.mapi/mapipropertytag/pr_container_hierarchy/) | Identifies all of the subfolders of the current folder. Canonical name: PidTagContainerHierarchy. Property tag: 0x360E000D (PT_OBJECT). |
+| static readonly [PR_CONTAINER_MODIFY_VERSION](../../aspose.email.mapi/mapipropertytag/pr_container_modify_version/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x36140014 (PT_LONGLONG). |
+| static readonly [PR_CONTENTS_SORT_ORDER](../../aspose.email.mapi/mapipropertytag/pr_contents_sort_order/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x360D1003 (PT_MV_LONG). |
+| static readonly [PR_CONTENTS_SYNCHRONIZER](../../aspose.email.mapi/mapipropertytag/pr_contents_synchronizer/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x662D000D (PT_OBJECT). |
+| static readonly [PR_CONTENT_CONFIDENTIALITY_ALGORITHM_ID](../../aspose.email.mapi/mapipropertytag/pr_content_confidentiality_algorithm_id/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x00060102 (PT_BINARY). |
+| static readonly [PR_CONTENT_CORRELATOR](../../aspose.email.mapi/mapipropertytag/pr_content_correlator/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x00070102 (PT_BINARY). |
+| static readonly [PR_CONTENT_COUNT](../../aspose.email.mapi/mapipropertytag/pr_content_count/) | Specifies the number of rows under the header row. Canonical name: PidTagContentCount. Property tag: 0x36020003 (PT_LONG). |
+| static readonly [PR_CONTENT_IDENTIFIER](../../aspose.email.mapi/mapipropertytag/pr_content_identifier/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0008001E (PT_STRING8). |
+| static readonly [PR_CONTENT_IDENTIFIER_A](../../aspose.email.mapi/mapipropertytag/pr_content_identifier_a/) | The ANSI form of [`PR_CONTENT_IDENTIFIER`](./pr_content_identifier/). Property tag: 0x0008001E (PT_STRING8). |
+| static readonly [PR_CONTENT_IDENTIFIER_W](../../aspose.email.mapi/mapipropertytag/pr_content_identifier_w/) | The Unicode form of [`PR_CONTENT_IDENTIFIER`](./pr_content_identifier/). Property tag: 0x0008001F (PT_UNICODE). |
+| static readonly [PR_CONTENT_INTEGRITY_CHECK](../../aspose.email.mapi/mapipropertytag/pr_content_integrity_check/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C000102 (PT_BINARY). |
+| static readonly [PR_CONTENT_LENGTH](../../aspose.email.mapi/mapipropertytag/pr_content_length/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x00090003 (PT_LONG). |
+| static readonly [PR_CONTENT_RETURN_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_content_return_requested/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x000A000B (PT_BOOLEAN). |
+| static readonly [PR_CONTENT_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_content_search_key/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66660102 (PT_BINARY). |
+| static readonly [PR_CONTENT_UNREAD](../../aspose.email.mapi/mapipropertytag/pr_content_unread/) | Specifies the number of rows under the header row that have the PidTagRead property (section 2.869) set to FALSE. Canonical name: PidTagContentUnreadCount. Property tag: 0x36030003 (PT_LONG). |
+| static readonly [PR_CONTROL_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_control_flags/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3F000003 (PT_LONG). |
+| static readonly [PR_CONTROL_ID](../../aspose.email.mapi/mapipropertytag/pr_control_id/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3F070102 (PT_BINARY). |
+| static readonly [PR_CONTROL_STRUCTURE](../../aspose.email.mapi/mapipropertytag/pr_control_structure/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3F010102 (PT_BINARY). |
+| static readonly [PR_CONTROL_TYPE](../../aspose.email.mapi/mapipropertytag/pr_control_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3F020003 (PT_LONG). |
+| static readonly [PR_CONVERSATION_INDEX](../../aspose.email.mapi/mapipropertytag/pr_conversation_index/) | Indicates the relative position of this message within a conversation thread. Canonical name: PidTagConversationIndex. Property tag: 0x00710102 (PT_BINARY). |
+| static readonly [PR_CONVERSATION_INDEX_TRACKING](../../aspose.email.mapi/mapipropertytag/pr_conversation_index_tracking/) | Indicates whether the GUID portion of the PidTagConversationIndex property (section 2.641) is to be used to compute the PidTagConversationId property (section 2.640). Canonical name: PidTagConversationIndexTracking. Property tag: 0x3016000B (PT_BOOLEAN). |
+| static readonly [PR_CONVERSATION_KEY](../../aspose.email.mapi/mapipropertytag/pr_conversation_key/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x000B0102 (PT_BINARY). |
+| static readonly [PR_CONVERSATION_TOPIC](../../aspose.email.mapi/mapipropertytag/pr_conversation_topic/) | Contains an unchanging copy of the original subject. Canonical name: PidTagConversationTopic. Property tag: 0x0070001E (PT_STRING8). |
+| static readonly [PR_CONVERSATION_TOPIC_A](../../aspose.email.mapi/mapipropertytag/pr_conversation_topic_a/) | The ANSI form of [`PR_CONVERSATION_TOPIC`](./pr_conversation_topic/). Property tag: 0x0070001E (PT_STRING8). |
+| static readonly [PR_CONVERSATION_TOPIC_W](../../aspose.email.mapi/mapipropertytag/pr_conversation_topic_w/) | The Unicode form of [`PR_CONVERSATION_TOPIC`](./pr_conversation_topic/). Property tag: 0x0070001F (PT_UNICODE). |
+| static readonly [PR_CONVERSION_EITS](../../aspose.email.mapi/mapipropertytag/pr_conversion_eits/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x000C0102 (PT_BINARY). |
+| static readonly [PR_CONVERSION_PROHIBITED](../../aspose.email.mapi/mapipropertytag/pr_conversion_prohibited/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3A03000B (PT_BOOLEAN). |
+| static readonly [PR_CONVERSION_WITH_LOSS_PROHIBITED](../../aspose.email.mapi/mapipropertytag/pr_conversion_with_loss_prohibited/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x000D000B (PT_BOOLEAN). |
+| static readonly [PR_CONVERTED_EITS](../../aspose.email.mapi/mapipropertytag/pr_converted_eits/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x000E0102 (PT_BINARY). |
+| static readonly [PR_CORRELATE](../../aspose.email.mapi/mapipropertytag/pr_correlate/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E0C000B (PT_BOOLEAN). |
+| static readonly [PR_CORRELATE_MTSID](../../aspose.email.mapi/mapipropertytag/pr_correlate_mtsid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E0D0102 (PT_BINARY). |
+| static readonly [PR_COUNTRY](../../aspose.email.mapi/mapipropertytag/pr_country/) | Contains the name of the mail user's country/region. Canonical name: PidTagCountry. Property tag: 0x3A26001E (PT_STRING8). |
+| static readonly [PR_COUNTRY_A](../../aspose.email.mapi/mapipropertytag/pr_country_a/) | The ANSI form of [`PR_COUNTRY`](./pr_country/). Property tag: 0x3A26001E (PT_STRING8). |
+| static readonly [PR_COUNTRY_W](../../aspose.email.mapi/mapipropertytag/pr_country_w/) | The Unicode form of [`PR_COUNTRY`](./pr_country/). Property tag: 0x3A26001F (PT_UNICODE). |
+| static readonly [PR_CREATE_TEMPLATES](../../aspose.email.mapi/mapipropertytag/pr_create_templates/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3604000D (PT_OBJECT). |
+| static readonly [PR_CREATION_TIME](../../aspose.email.mapi/mapipropertytag/pr_creation_time/) | Contains the time, in UTC, that the object was created. Canonical name: PidTagCreationTime. Property tag: 0x30070040 (PT_SYSTIME). |
+| static readonly [PR_CREATION_VERSION](../../aspose.email.mapi/mapipropertytag/pr_creation_version/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E190014 (PT_LONGLONG). |
+| static readonly [PR_CREATOR_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_creator_entryid/) | Specifies the original author of the message according to their Address Book EntryID. Canonical name: PidTagCreatorEntryId. Property tag: 0x3FF90102 (PT_BINARY). |
+| static readonly [PR_CREATOR_NAME](../../aspose.email.mapi/mapipropertytag/pr_creator_name/) | Contains the name of the creator of a Message object. Canonical name: PidTagCreatorName. Property tag: 0x3FF8001E (PT_STRING8). |
+| static readonly [PR_CREATOR_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_creator_name_a/) | The ANSI form of [`PR_CREATOR_NAME`](./pr_creator_name/). Property tag: 0x3FF8001E (PT_STRING8). |
+| static readonly [PR_CREATOR_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_creator_name_w/) | The Unicode form of [`PR_CREATOR_NAME`](./pr_creator_name/). Property tag: 0x3FF8001F (PT_UNICODE). |
+| static readonly [PR_CURRENT_VERSION](../../aspose.email.mapi/mapipropertytag/pr_current_version/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E000014 (PT_LONGLONG). |
+| static readonly [PR_CUSTOMER_ID](../../aspose.email.mapi/mapipropertytag/pr_customer_id/) | Contains the mail user's customer identification number. Canonical name: PidTagCustomerId. Property tag: 0x3A4A001E (PT_STRING8). |
+| static readonly [PR_CUSTOMER_ID_A](../../aspose.email.mapi/mapipropertytag/pr_customer_id_a/) | The ANSI form of [`PR_CUSTOMER_ID`](./pr_customer_id/). Property tag: 0x3A4A001E (PT_STRING8). |
+| static readonly [PR_CUSTOMER_ID_W](../../aspose.email.mapi/mapipropertytag/pr_customer_id_w/) | The Unicode form of [`PR_CUSTOMER_ID`](./pr_customer_id/). Property tag: 0x3A4A001F (PT_UNICODE). |
+| static readonly [PR_DAM_BACK_PATCHED](../../aspose.email.mapi/mapipropertytag/pr_dam_back_patched/) | Indicates whether the Deferred Action Message (DAM) was updated by the server. Canonical name: PidTagDamBackPatched. Property tag: 0x6647000B (PT_BOOLEAN). |
+| static readonly [PR_DAM_ORIGINAL_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_dam_original_entryid/) | Contains the EntryID of the delivered message that the client has to process. Canonical name: PidTagDamOriginalEntryId. Property tag: 0x66460102 (PT_BINARY). |
+| static readonly [PR_DEFAULT_PROFILE](../../aspose.email.mapi/mapipropertytag/pr_default_profile/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3D04000B (PT_BOOLEAN). |
+| static readonly [PR_DEFAULT_STORE](../../aspose.email.mapi/mapipropertytag/pr_default_store/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3400000B (PT_BOOLEAN). |
+| static readonly [PR_DEFAULT_VIEW_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_default_view_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x36160102 (PT_BINARY). |
+| static readonly [PR_DEFERRED_DELIVERY_TIME](../../aspose.email.mapi/mapipropertytag/pr_deferred_delivery_time/) | Contains the date and time, in UTC, at which the sender prefers that the message be delivered. Canonical name: PidTagDeferredDeliveryTime. Property tag: 0x000F0040 (PT_SYSTIME). |
+| static readonly [PR_DEFERRED_SEND_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_deferred_send_number/) | Contains a number used in the calculation of how long to defer sending a message. Canonical name: PidTagDeferredSendNumber. Property tag: 0x3FEB0003 (PT_LONG). |
+| static readonly [PR_DEFERRED_SEND_TIME](../../aspose.email.mapi/mapipropertytag/pr_deferred_send_time/) | Contains the amount of time after which a client would like to defer sending the message. Canonical name: PidTagDeferredSendTime. Property tag: 0x3FEF0040 (PT_SYSTIME). |
+| static readonly [PR_DEFERRED_SEND_UNITS](../../aspose.email.mapi/mapipropertytag/pr_deferred_send_units/) | Specifies the unit of time used as a multiplier with the PidTagDeferredSendNumber property (section 2.654) value. Canonical name: PidTagDeferredSendUnits. Property tag: 0x3FEC0003 (PT_LONG). |
+| static readonly [PR_DEF_CREATE_DL](../../aspose.email.mapi/mapipropertytag/pr_def_create_dl/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x36110102 (PT_BINARY). |
+| static readonly [PR_DEF_CREATE_MAILUSER](../../aspose.email.mapi/mapipropertytag/pr_def_create_mailuser/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x36120102 (PT_BINARY). |
+| static readonly [PR_DELEGATED_BY_RULE](../../aspose.email.mapi/mapipropertytag/pr_delegated_by_rule/) | Specifies whether the message was forwarded due to the triggering of a delegate forward rule. Canonical name: PidTagDelegatedByRule. Property tag: 0x3FE3000B (PT_BOOLEAN). |
+| static readonly [PR_DELEGATION](../../aspose.email.mapi/mapipropertytag/pr_delegation/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x007E0102 (PT_BINARY). |
+| static readonly [PR_DELETED_ASSOC_MESSAGE_SIZE_EXTENDED](../../aspose.email.mapi/mapipropertytag/pr_deleted_assoc_message_size_extended/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x669D0014 (PT_LONGLONG). |
+| static readonly [PR_DELETED_ASSOC_MSG_COUNT](../../aspose.email.mapi/mapipropertytag/pr_deleted_assoc_msg_count/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66430003 (PT_LONG). |
+| static readonly [PR_DELETED_FOLDER_COUNT](../../aspose.email.mapi/mapipropertytag/pr_deleted_folder_count/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66410003 (PT_LONG). |
+| static readonly [PR_DELETED_MESSAGE_SIZE_EXTENDED](../../aspose.email.mapi/mapipropertytag/pr_deleted_message_size_extended/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x669B0014 (PT_LONGLONG). |
+| static readonly [PR_DELETED_MSG_COUNT](../../aspose.email.mapi/mapipropertytag/pr_deleted_msg_count/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66400003 (PT_LONG). |
+| static readonly [PR_DELETED_NORMAL_MESSAGE_SIZE_EXTENDED](../../aspose.email.mapi/mapipropertytag/pr_deleted_normal_message_size_extended/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x669C0014 (PT_LONGLONG). |
+| static readonly [PR_DELETED_ON](../../aspose.email.mapi/mapipropertytag/pr_deleted_on/) | Specifies the time, in UTC, when the item or folder was soft deleted. Canonical name: PidTagDeletedOn. Property tag: 0x668F0040 (PT_SYSTIME). |
+| static readonly [PR_DELETE_AFTER_SUBMIT](../../aspose.email.mapi/mapipropertytag/pr_delete_after_submit/) | Indicates that the original message is to be deleted after it is sent. Canonical name: PidTagDeleteAfterSubmit. Property tag: 0x0E01000B (PT_BOOLEAN). |
+| static readonly [PR_DELIVERY_POINT](../../aspose.email.mapi/mapipropertytag/pr_delivery_point/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C070003 (PT_LONG). |
+| static readonly [PR_DELIVER_TIME](../../aspose.email.mapi/mapipropertytag/pr_deliver_time/) | Contains the delivery time for a delivery status notification, as specified [RFC3464], or a message disposition notification, as specified in [RFC3798]. Canonical name: PidTagDeliverTime. Property tag: 0x00100040 (PT_SYSTIME). |
+| static readonly [PR_DELTAX](../../aspose.email.mapi/mapipropertytag/pr_deltax/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3F030003 (PT_LONG). |
+| static readonly [PR_DELTAY](../../aspose.email.mapi/mapipropertytag/pr_deltay/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3F040003 (PT_LONG). |
+| static readonly [PR_DEPARTMENT_NAME](../../aspose.email.mapi/mapipropertytag/pr_department_name/) | Contains a name for the department in which the mail user works. Canonical name: PidTagDepartmentName. Property tag: 0x3A18001E (PT_STRING8). |
+| static readonly [PR_DEPARTMENT_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_department_name_a/) | The ANSI form of [`PR_DEPARTMENT_NAME`](./pr_department_name/). Property tag: 0x3A18001E (PT_STRING8). |
+| static readonly [PR_DEPARTMENT_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_department_name_w/) | The Unicode form of [`PR_DEPARTMENT_NAME`](./pr_department_name/). Property tag: 0x3A18001F (PT_UNICODE). |
+| static readonly [PR_DEPTH](../../aspose.email.mapi/mapipropertytag/pr_depth/) | Specifies the number of nested categories in which a given row is contained. Canonical name: PidTagDepth. Property tag: 0x30050003 (PT_LONG). |
+| static readonly [PR_DESIGN_IN_PROGRESS](../../aspose.email.mapi/mapipropertytag/pr_design_in_progress/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FE4000B (PT_BOOLEAN). |
+| static readonly [PR_DETAILS_TABLE](../../aspose.email.mapi/mapipropertytag/pr_details_table/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3605000D (PT_OBJECT). |
+| static readonly [PR_DISABLE_FULL_FIDELITY](../../aspose.email.mapi/mapipropertytag/pr_disable_full_fidelity/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x10F2000B (PT_BOOLEAN). |
+| static readonly [PR_DISABLE_WINSOCK](../../aspose.email.mapi/mapipropertytag/pr_disable_winsock/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66180003 (PT_LONG). |
+| static readonly [PR_DISCARD_REASON](../../aspose.email.mapi/mapipropertytag/pr_discard_reason/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x00110003 (PT_LONG). |
+| static readonly [PR_DISCLOSE_RECIPIENTS](../../aspose.email.mapi/mapipropertytag/pr_disclose_recipients/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3A04000B (PT_BOOLEAN). |
+| static readonly [PR_DISCLOSURE_OF_RECIPIENTS](../../aspose.email.mapi/mapipropertytag/pr_disclosure_of_recipients/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0012000B (PT_BOOLEAN). |
+| static readonly [PR_DISCRETE_VALUES](../../aspose.email.mapi/mapipropertytag/pr_discrete_values/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E0E000B (PT_BOOLEAN). |
+| static readonly [PR_DISC_VAL](../../aspose.email.mapi/mapipropertytag/pr_disc_val/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x004A000B (PT_BOOLEAN). |
+| static readonly [PR_DISPLAY_BCC](../../aspose.email.mapi/mapipropertytag/pr_display_bcc/) | Contains a list of blind carbon copy (Bcc) recipient display names. Canonical name: PidTagDisplayBcc. Property tag: 0x0E02001E (PT_STRING8). |
+| static readonly [PR_DISPLAY_BCC_A](../../aspose.email.mapi/mapipropertytag/pr_display_bcc_a/) | The ANSI form of [`PR_DISPLAY_BCC`](./pr_display_bcc/). Property tag: 0x0E02001E (PT_STRING8). |
+| static readonly [PR_DISPLAY_BCC_W](../../aspose.email.mapi/mapipropertytag/pr_display_bcc_w/) | The Unicode form of [`PR_DISPLAY_BCC`](./pr_display_bcc/). Property tag: 0x0E02001F (PT_UNICODE). |
+| static readonly [PR_DISPLAY_CC](../../aspose.email.mapi/mapipropertytag/pr_display_cc/) | Contains a list of carbon copy (Cc) recipient display names. Canonical name: PidTagDisplayCc. Property tag: 0x0E03001E (PT_STRING8). |
+| static readonly [PR_DISPLAY_CC_A](../../aspose.email.mapi/mapipropertytag/pr_display_cc_a/) | The ANSI form of [`PR_DISPLAY_CC`](./pr_display_cc/). Property tag: 0x0E03001E (PT_STRING8). |
+| static readonly [PR_DISPLAY_CC_W](../../aspose.email.mapi/mapipropertytag/pr_display_cc_w/) | The Unicode form of [`PR_DISPLAY_CC`](./pr_display_cc/). Property tag: 0x0E03001F (PT_UNICODE). |
+| static readonly [PR_DISPLAY_NAME](../../aspose.email.mapi/mapipropertytag/pr_display_name/) | Contains the display name of the folder. Canonical name: PidTagDisplayName. Property tag: 0x3001001E (PT_STRING8). |
+| static readonly [PR_DISPLAY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_display_name_a/) | The ANSI form of [`PR_DISPLAY_NAME`](./pr_display_name/). Property tag: 0x3001001E (PT_STRING8). |
+| static readonly [PR_DISPLAY_NAME_PREFIX](../../aspose.email.mapi/mapipropertytag/pr_display_name_prefix/) | Contains the mail user's honorific title. Canonical name: PidTagDisplayNamePrefix. Property tag: 0x3A45001E (PT_STRING8). |
+| static readonly [PR_DISPLAY_NAME_PREFIX_A](../../aspose.email.mapi/mapipropertytag/pr_display_name_prefix_a/) | The ANSI form of [`PR_DISPLAY_NAME_PREFIX`](./pr_display_name_prefix/). Property tag: 0x3A45001E (PT_STRING8). |
+| static readonly [PR_DISPLAY_NAME_PREFIX_W](../../aspose.email.mapi/mapipropertytag/pr_display_name_prefix_w/) | The Unicode form of [`PR_DISPLAY_NAME_PREFIX`](./pr_display_name_prefix/). Property tag: 0x3A45001F (PT_UNICODE). |
+| static readonly [PR_DISPLAY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_display_name_w/) | The Unicode form of [`PR_DISPLAY_NAME`](./pr_display_name/). Property tag: 0x3001001F (PT_UNICODE). |
+| static readonly [PR_DISPLAY_TO](../../aspose.email.mapi/mapipropertytag/pr_display_to/) | Contains a list of the primary recipient display names, separated by semicolons, when an email message has primary recipients . Canonical name: PidTagDisplayTo. Property tag: 0x0E04001E (PT_STRING8). |
+| static readonly [PR_DISPLAY_TO_A](../../aspose.email.mapi/mapipropertytag/pr_display_to_a/) | The ANSI form of [`PR_DISPLAY_TO`](./pr_display_to/). Property tag: 0x0E04001E (PT_STRING8). |
+| static readonly [PR_DISPLAY_TO_W](../../aspose.email.mapi/mapipropertytag/pr_display_to_w/) | The Unicode form of [`PR_DISPLAY_TO`](./pr_display_to/). Property tag: 0x0E04001F (PT_UNICODE). |
+| static readonly [PR_DISPLAY_TYPE](../../aspose.email.mapi/mapipropertytag/pr_display_type/) | Contains an integer value that indicates how to display an Address Book object in a table or as an addressee on a message. Canonical name: PidTagDisplayType. Property tag: 0x39000003 (PT_LONG). |
+| static readonly [PR_DL_EXPANSION_HISTORY](../../aspose.email.mapi/mapipropertytag/pr_dl_expansion_history/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x00130102 (PT_BINARY). |
+| static readonly [PR_DL_EXPANSION_PROHIBITED](../../aspose.email.mapi/mapipropertytag/pr_dl_expansion_prohibited/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0014000B (PT_BOOLEAN). |
+| static readonly [PR_DL_REPORT_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_dl_report_flags/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FDB0003 (PT_LONG). |
+| static readonly [PR_EFORMS_FOR_LOCALE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_eforms_for_locale_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66240102 (PT_BINARY). |
+| static readonly [PR_EFORMS_LOCALE_ID](../../aspose.email.mapi/mapipropertytag/pr_eforms_locale_id/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FE90003 (PT_LONG). |
+| static readonly [PR_EFORMS_REGISTRY_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_eforms_registry_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66210102 (PT_BINARY). |
+| static readonly [PR_EMAIL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_email_address/) | Contains the email address of a Message object. Canonical name: PidTagEmailAddress. Property tag: 0x3003001E (PT_STRING8). |
+| static readonly [PR_EMAIL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_email_address_a/) | The ANSI form of [`PR_EMAIL_ADDRESS`](./pr_email_address/). Property tag: 0x3003001E (PT_STRING8). |
+| static readonly [PR_EMAIL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_email_address_w/) | The Unicode form of [`PR_EMAIL_ADDRESS`](./pr_email_address/). Property tag: 0x3003001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_ACCESS_CATEGORY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_access_category/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80440003 (PT_LONG). |
+| static readonly [PR_EMS_AB_ACTIVATION_SCHEDULE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_activation_schedule/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80450102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_ACTIVATION_STYLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_activation_style/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80460003 (PT_LONG). |
+| static readonly [PR_EMS_AB_ADDRESS_ENTRY_DISPLAY_TABLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_address_entry_display_table/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80170102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_ADDRESS_ENTRY_DISPLAY_TABLE_MSDOS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_address_entry_display_table_msdos/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80470102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_ADDRESS_SYNTAX](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_address_syntax/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80180102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_ADDRESS_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_address_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8048001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ADDRESS_TYPE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_address_type_a/) | The ANSI form of [`PR_EMS_AB_ADDRESS_TYPE`](./pr_ems_ab_address_type/). Property tag: 0x8048001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ADDRESS_TYPE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_address_type_w/) | The Unicode form of [`PR_EMS_AB_ADDRESS_TYPE`](./pr_ems_ab_address_type/). Property tag: 0x8048001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_ADMD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admd/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8049001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ADMD_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admd_a/) | The ANSI form of [`PR_EMS_AB_ADMD`](./pr_ems_ab_admd/). Property tag: 0x8049001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ADMD_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admd_w/) | The Unicode form of [`PR_EMS_AB_ADMD`](./pr_ems_ab_admd/). Property tag: 0x8049001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_ADMIN_DESCRIPTION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admin_description/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x804A001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ADMIN_DESCRIPTION_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admin_description_a/) | The ANSI form of [`PR_EMS_AB_ADMIN_DESCRIPTION`](./pr_ems_ab_admin_description/). Property tag: 0x804A001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ADMIN_DESCRIPTION_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admin_description_w/) | The Unicode form of [`PR_EMS_AB_ADMIN_DESCRIPTION`](./pr_ems_ab_admin_description/). Property tag: 0x804A001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_ADMIN_DISPLAY_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admin_display_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x804B001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ADMIN_DISPLAY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admin_display_name_a/) | The ANSI form of [`PR_EMS_AB_ADMIN_DISPLAY_NAME`](./pr_ems_ab_admin_display_name/). Property tag: 0x804B001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ADMIN_DISPLAY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admin_display_name_w/) | The Unicode form of [`PR_EMS_AB_ADMIN_DISPLAY_NAME`](./pr_ems_ab_admin_display_name/). Property tag: 0x804B001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_ADMIN_EXTENSION_DLL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admin_extension_dll/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x804C001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ADMIN_EXTENSION_DLL_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admin_extension_dll_a/) | The ANSI form of [`PR_EMS_AB_ADMIN_EXTENSION_DLL`](./pr_ems_ab_admin_extension_dll/). Property tag: 0x804C001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ADMIN_EXTENSION_DLL_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_admin_extension_dll_w/) | The Unicode form of [`PR_EMS_AB_ADMIN_EXTENSION_DLL`](./pr_ems_ab_admin_extension_dll/). Property tag: 0x804C001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_ALIASED_OBJECT_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_aliased_object_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x804D001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ALIASED_OBJECT_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_aliased_object_name_a/) | The ANSI form of [`PR_EMS_AB_ALIASED_OBJECT_NAME`](./pr_ems_ab_aliased_object_name/). Property tag: 0x804D001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ALIASED_OBJECT_NAME_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_aliased_object_name_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x804D000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_ALIASED_OBJECT_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_aliased_object_name_w/) | The Unicode form of [`PR_EMS_AB_ALIASED_OBJECT_NAME`](./pr_ems_ab_aliased_object_name/). Property tag: 0x804D001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_ALT_RECIPIENT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_alt_recipient/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x804E001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ALT_RECIPIENT_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_alt_recipient_a/) | The ANSI form of [`PR_EMS_AB_ALT_RECIPIENT`](./pr_ems_ab_alt_recipient/). Property tag: 0x804E001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ALT_RECIPIENT_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_alt_recipient_bl/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x804F101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_ALT_RECIPIENT_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_alt_recipient_bl_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x804F000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_ALT_RECIPIENT_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_alt_recipient_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x804E000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_ALT_RECIPIENT_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_alt_recipient_w/) | The Unicode form of [`PR_EMS_AB_ALT_RECIPIENT`](./pr_ems_ab_alt_recipient/). Property tag: 0x804E001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_ANCESTOR_ID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ancestor_id/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80500102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_ANONYMOUS_ACCESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_anonymous_access/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8187000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_ANONYMOUS_ACCOUNT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_anonymous_account/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C26001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ANONYMOUS_ACCOUNT_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_anonymous_account_a/) | The ANSI form of [`PR_EMS_AB_ANONYMOUS_ACCOUNT`](./pr_ems_ab_anonymous_account/). Property tag: 0x8C26001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ANONYMOUS_ACCOUNT_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_anonymous_account_w/) | The Unicode form of [`PR_EMS_AB_ANONYMOUS_ACCOUNT`](./pr_ems_ab_anonymous_account/). Property tag: 0x8C26001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_ASSOCIATION_LIFETIME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_association_lifetime/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80520003 (PT_LONG). |
+| static readonly [PR_EMS_AB_ASSOC_NT_ACCOUNT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_assoc_nt_account/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80270102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_ASSOC_PROTOCOL_CFG_NNTP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_assoc_protocol_cfg_nntp/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81A5001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ASSOC_PROTOCOL_CFG_NNTP_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_assoc_protocol_cfg_nntp_a/) | The ANSI form of [`PR_EMS_AB_ASSOC_PROTOCOL_CFG_NNTP`](./pr_ems_ab_assoc_protocol_cfg_nntp/). Property tag: 0x81A5001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ASSOC_PROTOCOL_CFG_NNTP_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_assoc_protocol_cfg_nntp_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81A5000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_ASSOC_PROTOCOL_CFG_NNTP_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_assoc_protocol_cfg_nntp_w/) | The Unicode form of [`PR_EMS_AB_ASSOC_PROTOCOL_CFG_NNTP`](./pr_ems_ab_assoc_protocol_cfg_nntp/). Property tag: 0x81A5001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_ASSOC_REMOTE_DXA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_assoc_remote_dxa/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8051101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_ASSOC_REMOTE_DXA_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_assoc_remote_dxa_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8051000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_ATTRIBUTE_CERTIFICATE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_attribute_certificate/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C451102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_AUTHENTICATION_TO_USE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authentication_to_use/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x819A001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_AUTHENTICATION_TO_USE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authentication_to_use_a/) | The ANSI form of [`PR_EMS_AB_AUTHENTICATION_TO_USE`](./pr_ems_ab_authentication_to_use/). Property tag: 0x819A001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_AUTHENTICATION_TO_USE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authentication_to_use_w/) | The Unicode form of [`PR_EMS_AB_AUTHENTICATION_TO_USE`](./pr_ems_ab_authentication_to_use/). Property tag: 0x819A001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_AUTHORITY_REVOCATION_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authority_revocation_list/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80261102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_AUTHORIZED_DOMAIN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authorized_domain/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8054001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_AUTHORIZED_DOMAIN_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authorized_domain_a/) | The ANSI form of [`PR_EMS_AB_AUTHORIZED_DOMAIN`](./pr_ems_ab_authorized_domain/). Property tag: 0x8054001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_AUTHORIZED_DOMAIN_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authorized_domain_w/) | The Unicode form of [`PR_EMS_AB_AUTHORIZED_DOMAIN`](./pr_ems_ab_authorized_domain/). Property tag: 0x8054001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_AUTHORIZED_PASSWORD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authorized_password/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80550102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_AUTHORIZED_PASSWORD_CONFIRM](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authorized_password_confirm/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81920102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_AUTHORIZED_USER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authorized_user/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8056001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_AUTHORIZED_USER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authorized_user_a/) | The ANSI form of [`PR_EMS_AB_AUTHORIZED_USER`](./pr_ems_ab_authorized_user/). Property tag: 0x8056001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_AUTHORIZED_USER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_authorized_user_w/) | The Unicode form of [`PR_EMS_AB_AUTHORIZED_USER`](./pr_ems_ab_authorized_user/). Property tag: 0x8056001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_AUTH_ORIG_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_auth_orig_bl/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8053101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_AUTH_ORIG_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_auth_orig_bl_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8053000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_AUTOREPLY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_autoreply/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x800B000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_AUTOREPLY_MESSAGE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_autoreply_message/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x800A001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_AUTOREPLY_MESSAGE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_autoreply_message_a/) | The ANSI form of [`PR_EMS_AB_AUTOREPLY_MESSAGE`](./pr_ems_ab_autoreply_message/). Property tag: 0x800A001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_AUTOREPLY_MESSAGE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_autoreply_message_w/) | The Unicode form of [`PR_EMS_AB_AUTOREPLY_MESSAGE`](./pr_ems_ab_autoreply_message/). Property tag: 0x800A001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_AUTOREPLY_SUBJECT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_autoreply_subject/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x803E001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_AUTOREPLY_SUBJECT_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_autoreply_subject_a/) | The ANSI form of [`PR_EMS_AB_AUTOREPLY_SUBJECT`](./pr_ems_ab_autoreply_subject/). Property tag: 0x803E001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_AUTOREPLY_SUBJECT_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_autoreply_subject_w/) | The Unicode form of [`PR_EMS_AB_AUTOREPLY_SUBJECT`](./pr_ems_ab_autoreply_subject/). Property tag: 0x803E001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_AVAILABLE_AUTHORIZATION_PACKAGES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_available_authorization_packages/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8181101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_AVAILABLE_DISTRIBUTIONS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_available_distributions/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x818B001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_AVAILABLE_DISTRIBUTIONS_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_available_distributions_a/) | The ANSI form of [`PR_EMS_AB_AVAILABLE_DISTRIBUTIONS`](./pr_ems_ab_available_distributions/). Property tag: 0x818B001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_AVAILABLE_DISTRIBUTIONS_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_available_distributions_w/) | The Unicode form of [`PR_EMS_AB_AVAILABLE_DISTRIBUTIONS`](./pr_ems_ab_available_distributions/). Property tag: 0x818B001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_BRIDGEHEAD_SERVERS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_bridgehead_servers/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8174101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_BRIDGEHEAD_SERVERS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_bridgehead_servers_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8174000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_BUSINESS_CATEGORY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_business_category/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8057101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_BUSINESS_ROLES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_business_roles/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80230102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_CAN_CREATE_PF](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_create_pf/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8058101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_CAN_CREATE_PF_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_create_pf_bl/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8059101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_CAN_CREATE_PF_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_create_pf_bl_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8059000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_CAN_CREATE_PF_DL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_create_pf_dl/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x805A101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_CAN_CREATE_PF_DL_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_create_pf_dl_bl/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x805B101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_CAN_CREATE_PF_DL_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_create_pf_dl_bl_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x805B000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_CAN_CREATE_PF_DL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_create_pf_dl_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x805A000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_CAN_CREATE_PF_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_create_pf_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8058000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_CAN_NOT_CREATE_PF](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_not_create_pf/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x805C101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_CAN_NOT_CREATE_PF_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_not_create_pf_bl/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x805D101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_CAN_NOT_CREATE_PF_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_not_create_pf_bl_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x805D000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_CAN_NOT_CREATE_PF_DL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_not_create_pf_dl/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x805E101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_CAN_NOT_CREATE_PF_DL_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_not_create_pf_dl_bl/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x805F101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_CAN_NOT_CREATE_PF_DL_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_not_create_pf_dl_bl_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x805F000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_CAN_NOT_CREATE_PF_DL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_not_create_pf_dl_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x805E000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_CAN_NOT_CREATE_PF_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_not_create_pf_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x805C000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_CAN_PRESERVE_DNS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_can_preserve_dns/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8060000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_CA_CERTIFICATE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ca_certificate/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80031102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_CERTIFICATE_CHAIN_V3](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_certificate_chain_v3/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C270102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_CERTIFICATE_REVOCATION_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_certificate_revocation_list/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80160102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_CERTIFICATE_REVOCATION_LIST_V1](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_certificate_revocation_list_v1/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C290102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_CERTIFICATE_REVOCATION_LIST_V3](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_certificate_revocation_list_v3/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C280102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_CHARACTER_SET](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_character_set/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8185001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_CHARACTER_SET_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_character_set_a/) | The ANSI form of [`PR_EMS_AB_CHARACTER_SET`](./pr_ems_ab_character_set/). Property tag: 0x8185001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_CHARACTER_SET_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_character_set_list/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8182101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_CHARACTER_SET_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_character_set_w/) | The Unicode form of [`PR_EMS_AB_CHARACTER_SET`](./pr_ems_ab_character_set/). Property tag: 0x8185001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_CHILD_RDNS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_child_rdns/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0xFFF8101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_CLIENT_ACCESS_ENABLED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_client_access_enabled/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C24000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_CLOCK_ALERT_OFFSET](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_clock_alert_offset/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80610003 (PT_LONG). |
+| static readonly [PR_EMS_AB_CLOCK_ALERT_REPAIR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_clock_alert_repair/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8062000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_CLOCK_WARNING_OFFSET](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_clock_warning_offset/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80630003 (PT_LONG). |
+| static readonly [PR_EMS_AB_CLOCK_WARNING_REPAIR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_clock_warning_repair/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8064000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_COMPROMISED_KEY_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_compromised_key_list/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81C40102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_COMPUTER_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_computer_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8065001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_COMPUTER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_computer_name_a/) | The ANSI form of [`PR_EMS_AB_COMPUTER_NAME`](./pr_ems_ab_computer_name/). Property tag: 0x8065001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_COMPUTER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_computer_name_w/) | The Unicode form of [`PR_EMS_AB_COMPUTER_NAME`](./pr_ems_ab_computer_name/). Property tag: 0x8065001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_CONNECTED_DOMAINS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_connected_domains/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8066101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_CONNECTION_LIST_FILTER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_connection_list_filter/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81800102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_CONNECTION_LIST_FILTER_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_connection_list_filter_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81B40003 (PT_LONG). |
+| static readonly [PR_EMS_AB_CONNECTION_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_connection_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81B3000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_CONTAINERID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_containerid/) | Contains the ID of a container on an NSPI server. Canonical name: PidTagAddressBookContainerId. Property tag: 0xFFFD0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_CONTAINER_INFO](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_container_info/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80670003 (PT_LONG). |
+| static readonly [PR_EMS_AB_CONTENT_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_content_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81860003 (PT_LONG). |
+| static readonly [PR_EMS_AB_CONTROL_MSG_FOLDER_ID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_control_msg_folder_id/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81880102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_CONTROL_MSG_RULES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_control_msg_rules/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x818A0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_COST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_cost/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80680003 (PT_LONG). |
+| static readonly [PR_EMS_AB_COUNTRY_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_country_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8069001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_COUNTRY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_country_name_a/) | The ANSI form of [`PR_EMS_AB_COUNTRY_NAME`](./pr_ems_ab_country_name/). Property tag: 0x8069001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_COUNTRY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_country_name_w/) | The Unicode form of [`PR_EMS_AB_COUNTRY_NAME`](./pr_ems_ab_country_name/). Property tag: 0x8069001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_CROSS_CERTIFICATE_CRL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_cross_certificate_crl/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C301102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_CROSS_CERTIFICATE_PAIR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_cross_certificate_pair/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80251102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_DEFAULT_MESSAGE_FORMAT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_default_message_format/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C37000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_DELEGATE_USER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_delegate_user/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C49000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_DELIVERY_MECHANISM](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_delivery_mechanism/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x806E0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DELIVER_AND_REDIRECT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_deliver_and_redirect/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x806D000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_DELIV_CONT_LENGTH](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_deliv_cont_length/) | Specifies the maximum size, in bytes, of a message that a recipient can receive. Canonical name: PidTagAddressBookDeliveryContentLength. Property tag: 0x806A0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DELIV_EITS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_deliv_eits/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x806B1102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_DELIV_EXT_CONT_TYPES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_deliv_ext_cont_types/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x806C1102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_DELTA_REVOCATION_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_delta_revocation_list/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C461102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_DESCRIPTION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_description/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x806F101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_DESTINATION_INDICATOR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_destination_indicator/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8070101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_DIAGNOSTIC_REG_KEY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_diagnostic_reg_key/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8071001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DIAGNOSTIC_REG_KEY_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_diagnostic_reg_key_a/) | The ANSI form of [`PR_EMS_AB_DIAGNOSTIC_REG_KEY`](./pr_ems_ab_diagnostic_reg_key/). Property tag: 0x8071001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DIAGNOSTIC_REG_KEY_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_diagnostic_reg_key_w/) | The Unicode form of [`PR_EMS_AB_DIAGNOSTIC_REG_KEY`](./pr_ems_ab_diagnostic_reg_key/). Property tag: 0x8071001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_DISABLED_GATEWAY_PROXY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_disabled_gateway_proxy/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81C3101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_DISABLE_DEFERRED_COMMIT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_disable_deferred_commit/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C23000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_DISPLAY_NAME_OVERRIDE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_display_name_override/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8001000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_DISPLAY_NAME_PRINTABLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_display_name_printable/) | Contains the printable string version of the display name. Canonical name: PidTagAddressBookDisplayNamePrintable. Property tag: 0x39FF001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DISPLAY_NAME_PRINTABLE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_display_name_printable_a/) | The ANSI form of [`PR_EMS_AB_DISPLAY_NAME_PRINTABLE`](./pr_ems_ab_display_name_printable/). Property tag: 0x39FF001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DISPLAY_NAME_PRINTABLE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_display_name_printable_w/) | The Unicode form of [`PR_EMS_AB_DISPLAY_NAME_PRINTABLE`](./pr_ems_ab_display_name_printable/). Property tag: 0x39FF001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_DISPLAY_NAME_SUFFIX](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_display_name_suffix/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C44001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DISPLAY_NAME_SUFFIX_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_display_name_suffix_a/) | The ANSI form of [`PR_EMS_AB_DISPLAY_NAME_SUFFIX`](./pr_ems_ab_display_name_suffix/). Property tag: 0x8C44001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DISPLAY_NAME_SUFFIX_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_display_name_suffix_w/) | The Unicode form of [`PR_EMS_AB_DISPLAY_NAME_SUFFIX`](./pr_ems_ab_display_name_suffix/). Property tag: 0x8C44001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_DL_MEMBER_RULE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dl_member_rule/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80741102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_DL_MEM_REJECT_PERMS_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dl_mem_reject_perms_bl/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8072101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_DL_MEM_REJECT_PERMS_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dl_mem_reject_perms_bl_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8072000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_DL_MEM_SUBMIT_PERMS_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dl_mem_submit_perms_bl/) | The tag of the PR_EMS_AB_DL_MEM_SUBMIT_PERMS_BL MAPI property. Property tag: 0x8073101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_DL_MEM_SUBMIT_PERMS_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dl_mem_submit_perms_bl_o/) | Indicates that delivery restrictions exist for a recipient. Canonical name: PidTagAddressBookDistributionListMemberSubmitAccepted. Property tag: 0x8073000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_DMD_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dmd_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C56001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DMD_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dmd_name_a/) | The ANSI form of [`PR_EMS_AB_DMD_NAME`](./pr_ems_ab_dmd_name/). Property tag: 0x8C56001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DMD_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dmd_name_w/) | The Unicode form of [`PR_EMS_AB_DMD_NAME`](./pr_ems_ab_dmd_name/). Property tag: 0x8C56001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_DOMAIN_DEF_ALT_RECIP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_domain_def_alt_recip/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8075001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DOMAIN_DEF_ALT_RECIP_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_domain_def_alt_recip_a/) | The ANSI form of [`PR_EMS_AB_DOMAIN_DEF_ALT_RECIP`](./pr_ems_ab_domain_def_alt_recip/). Property tag: 0x8075001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DOMAIN_DEF_ALT_RECIP_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_domain_def_alt_recip_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8075000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_DOMAIN_DEF_ALT_RECIP_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_domain_def_alt_recip_w/) | The Unicode form of [`PR_EMS_AB_DOMAIN_DEF_ALT_RECIP`](./pr_ems_ab_domain_def_alt_recip/). Property tag: 0x8075001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_DOMAIN_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_domain_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8076001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DOMAIN_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_domain_name_a/) | The ANSI form of [`PR_EMS_AB_DOMAIN_NAME`](./pr_ems_ab_domain_name/). Property tag: 0x8076001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DOMAIN_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_domain_name_w/) | The Unicode form of [`PR_EMS_AB_DOMAIN_NAME`](./pr_ems_ab_domain_name/). Property tag: 0x8076001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_DOS_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dos_entryid/) | The tag of the PR_EMS_AB_DOS_ENTRYID MAPI property. Property tag: 0xFFFD0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DO_OAB_VERSION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_do_oab_version/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C3A0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DSA_SIGNATURE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dsa_signature/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80770102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_DXA_ADMIN_COPY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_admin_copy/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8078000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_DXA_ADMIN_FORWARD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_admin_forward/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8079000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_DXA_ADMIN_UPDATE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_admin_update/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x807A0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DXA_APPEND_REQCN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_append_reqcn/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x807B000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_DXA_CONF_CONTAINER_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_conf_container_list/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x807C101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_DXA_CONF_CONTAINER_LIST_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_conf_container_list_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x807C000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_DXA_CONF_REQ_TIME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_conf_req_time/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x807D0040 (PT_SYSTIME). |
+| static readonly [PR_EMS_AB_DXA_CONF_SEQ](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_conf_seq/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x807E001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_CONF_SEQ_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_conf_seq_a/) | The ANSI form of [`PR_EMS_AB_DXA_CONF_SEQ`](./pr_ems_ab_dxa_conf_seq/). Property tag: 0x807E001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_CONF_SEQ_USN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_conf_seq_usn/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x807F0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DXA_CONF_SEQ_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_conf_seq_w/) | The Unicode form of [`PR_EMS_AB_DXA_CONF_SEQ`](./pr_ems_ab_dxa_conf_seq/). Property tag: 0x807E001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_DXA_EXCHANGE_OPTIONS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_exchange_options/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80800003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DXA_EXPORT_NOW](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_export_now/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8081000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_DXA_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_flags/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80820003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DXA_IMPORT_NOW](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_import_now/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8086000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_DXA_IMP_SEQ](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_imp_seq/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8083001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_IMP_SEQ_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_imp_seq_a/) | The ANSI form of [`PR_EMS_AB_DXA_IMP_SEQ`](./pr_ems_ab_dxa_imp_seq/). Property tag: 0x8083001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_IMP_SEQ_TIME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_imp_seq_time/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80840040 (PT_SYSTIME). |
+| static readonly [PR_EMS_AB_DXA_IMP_SEQ_USN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_imp_seq_usn/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80850003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DXA_IMP_SEQ_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_imp_seq_w/) | The Unicode form of [`PR_EMS_AB_DXA_IMP_SEQ`](./pr_ems_ab_dxa_imp_seq/). Property tag: 0x8083001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_DXA_IN_TEMPLATE_MAP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_in_template_map/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8087101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_DXA_LOCAL_ADMIN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_local_admin/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8088001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_LOCAL_ADMIN_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_local_admin_a/) | The ANSI form of [`PR_EMS_AB_DXA_LOCAL_ADMIN`](./pr_ems_ab_dxa_local_admin/). Property tag: 0x8088001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_LOCAL_ADMIN_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_local_admin_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8088000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_DXA_LOCAL_ADMIN_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_local_admin_w/) | The Unicode form of [`PR_EMS_AB_DXA_LOCAL_ADMIN`](./pr_ems_ab_dxa_local_admin/). Property tag: 0x8088001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_DXA_LOGGING_LEVEL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_logging_level/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80890003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DXA_NATIVE_ADDRESS_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_native_address_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x808A001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_NATIVE_ADDRESS_TYPE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_native_address_type_a/) | The ANSI form of [`PR_EMS_AB_DXA_NATIVE_ADDRESS_TYPE`](./pr_ems_ab_dxa_native_address_type/). Property tag: 0x808A001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_NATIVE_ADDRESS_TYPE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_native_address_type_w/) | The Unicode form of [`PR_EMS_AB_DXA_NATIVE_ADDRESS_TYPE`](./pr_ems_ab_dxa_native_address_type/). Property tag: 0x808A001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_DXA_OUT_TEMPLATE_MAP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_out_template_map/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x808B101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_DXA_PASSWORD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_password/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x808C001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_PASSWORD_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_password_a/) | The ANSI form of [`PR_EMS_AB_DXA_PASSWORD`](./pr_ems_ab_dxa_password/). Property tag: 0x808C001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_PASSWORD_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_password_w/) | The Unicode form of [`PR_EMS_AB_DXA_PASSWORD`](./pr_ems_ab_dxa_password/). Property tag: 0x808C001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_DXA_PREV_EXCHANGE_OPTIONS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_exchange_options/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x808D0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DXA_PREV_EXPORT_NATIVE_ONLY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_export_native_only/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x808E000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_DXA_PREV_IN_EXCHANGE_SENSITIVITY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_in_exchange_sensitivity/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x808F0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DXA_PREV_REMOTE_ENTRIES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_remote_entries/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8090001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_PREV_REMOTE_ENTRIES_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_remote_entries_a/) | The ANSI form of [`PR_EMS_AB_DXA_PREV_REMOTE_ENTRIES`](./pr_ems_ab_dxa_prev_remote_entries/). Property tag: 0x8090001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_PREV_REMOTE_ENTRIES_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_remote_entries_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8090000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_DXA_PREV_REMOTE_ENTRIES_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_remote_entries_w/) | The Unicode form of [`PR_EMS_AB_DXA_PREV_REMOTE_ENTRIES`](./pr_ems_ab_dxa_prev_remote_entries/). Property tag: 0x8090001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_DXA_PREV_REPLICATION_SENSITIVITY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_replication_sensitivity/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80910003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DXA_PREV_TEMPLATE_OPTIONS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_template_options/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80920003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DXA_PREV_TYPES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_prev_types/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80930003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DXA_RECIPIENT_CP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_recipient_cp/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8094001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_RECIPIENT_CP_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_recipient_cp_a/) | The ANSI form of [`PR_EMS_AB_DXA_RECIPIENT_CP`](./pr_ems_ab_dxa_recipient_cp/). Property tag: 0x8094001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_RECIPIENT_CP_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_recipient_cp_w/) | The Unicode form of [`PR_EMS_AB_DXA_RECIPIENT_CP`](./pr_ems_ab_dxa_recipient_cp/). Property tag: 0x8094001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_DXA_REMOTE_CLIENT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_remote_client/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8095001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_REMOTE_CLIENT_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_remote_client_a/) | The ANSI form of [`PR_EMS_AB_DXA_REMOTE_CLIENT`](./pr_ems_ab_dxa_remote_client/). Property tag: 0x8095001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_REMOTE_CLIENT_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_remote_client_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8095000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_DXA_REMOTE_CLIENT_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_remote_client_w/) | The Unicode form of [`PR_EMS_AB_DXA_REMOTE_CLIENT`](./pr_ems_ab_dxa_remote_client/). Property tag: 0x8095001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_DXA_REQNAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_reqname/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8099001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_REQNAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_reqname_a/) | The ANSI form of [`PR_EMS_AB_DXA_REQNAME`](./pr_ems_ab_dxa_reqname/). Property tag: 0x8099001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_REQNAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_reqname_w/) | The Unicode form of [`PR_EMS_AB_DXA_REQNAME`](./pr_ems_ab_dxa_reqname/). Property tag: 0x8099001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_DXA_REQ_SEQ](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_req_seq/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8096001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_REQ_SEQ_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_req_seq_a/) | The ANSI form of [`PR_EMS_AB_DXA_REQ_SEQ`](./pr_ems_ab_dxa_req_seq/). Property tag: 0x8096001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_REQ_SEQ_TIME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_req_seq_time/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80970040 (PT_SYSTIME). |
+| static readonly [PR_EMS_AB_DXA_REQ_SEQ_USN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_req_seq_usn/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80980003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DXA_REQ_SEQ_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_req_seq_w/) | The Unicode form of [`PR_EMS_AB_DXA_REQ_SEQ`](./pr_ems_ab_dxa_req_seq/). Property tag: 0x8096001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_DXA_SVR_SEQ](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_svr_seq/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x809A001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_SVR_SEQ_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_svr_seq_a/) | The ANSI form of [`PR_EMS_AB_DXA_SVR_SEQ`](./pr_ems_ab_dxa_svr_seq/). Property tag: 0x809A001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_DXA_SVR_SEQ_TIME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_svr_seq_time/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x809B0040 (PT_SYSTIME). |
+| static readonly [PR_EMS_AB_DXA_SVR_SEQ_USN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_svr_seq_usn/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x809C0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DXA_SVR_SEQ_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_svr_seq_w/) | The Unicode form of [`PR_EMS_AB_DXA_SVR_SEQ`](./pr_ems_ab_dxa_svr_seq/). Property tag: 0x809A001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_DXA_TASK](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_task/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x809D0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DXA_TEMPLATE_OPTIONS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_template_options/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x809E0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DXA_TEMPLATE_TIMESTAMP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_template_timestamp/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x809F0040 (PT_SYSTIME). |
+| static readonly [PR_EMS_AB_DXA_TYPES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_types/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80A00003 (PT_LONG). |
+| static readonly [PR_EMS_AB_DXA_UNCONF_CONTAINER_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_unconf_container_list/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80A1101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_DXA_UNCONF_CONTAINER_LIST_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_unconf_container_list_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80A1000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_EMPLOYEE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_employee_number/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C67001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EMPLOYEE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_employee_number_a/) | The ANSI form of [`PR_EMS_AB_EMPLOYEE_NUMBER`](./pr_ems_ab_employee_number/). Property tag: 0x8C67001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EMPLOYEE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_employee_number_w/) | The Unicode form of [`PR_EMS_AB_EMPLOYEE_NUMBER`](./pr_ems_ab_employee_number/). Property tag: 0x8C67001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_EMPLOYEE_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_employee_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C69001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EMPLOYEE_TYPE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_employee_type_a/) | The ANSI form of [`PR_EMS_AB_EMPLOYEE_TYPE`](./pr_ems_ab_employee_type/). Property tag: 0x8C69001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EMPLOYEE_TYPE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_employee_type_w/) | The Unicode form of [`PR_EMS_AB_EMPLOYEE_TYPE`](./pr_ems_ab_employee_type/). Property tag: 0x8C69001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_ENABLED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_enabled/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C21000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_ENABLED_AUTHORIZATION_PACKAGES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_enabled_authorization_packages/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8184101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_ENABLED_PROTOCOLS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_enabled_protocols/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x817F0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_ENABLED_PROTOCOL_CFG](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_enabled_protocol_cfg/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81A8000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_ENABLE_COMPATIBILITY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_enable_compatibility/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C32000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_ENCAPSULATION_METHOD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encapsulation_method/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80A20003 (PT_LONG). |
+| static readonly [PR_EMS_AB_ENCRYPT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encrypt/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80A3000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_ENCRYPT_ALG_LIST_NA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encrypt_alg_list_na/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8040101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_ENCRYPT_ALG_LIST_OTHER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encrypt_alg_list_other/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8041101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_ENCRYPT_ALG_SELECTED_NA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encrypt_alg_selected_na/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8043001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ENCRYPT_ALG_SELECTED_NA_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encrypt_alg_selected_na_a/) | The ANSI form of [`PR_EMS_AB_ENCRYPT_ALG_SELECTED_NA`](./pr_ems_ab_encrypt_alg_selected_na/). Property tag: 0x8043001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ENCRYPT_ALG_SELECTED_NA_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encrypt_alg_selected_na_w/) | The Unicode form of [`PR_EMS_AB_ENCRYPT_ALG_SELECTED_NA`](./pr_ems_ab_encrypt_alg_selected_na/). Property tag: 0x8043001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_ENCRYPT_ALG_SELECTED_OTHER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encrypt_alg_selected_other/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x803D001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ENCRYPT_ALG_SELECTED_OTHER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encrypt_alg_selected_other_a/) | The ANSI form of [`PR_EMS_AB_ENCRYPT_ALG_SELECTED_OTHER`](./pr_ems_ab_encrypt_alg_selected_other/). Property tag: 0x803D001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_ENCRYPT_ALG_SELECTED_OTHER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_encrypt_alg_selected_other_w/) | The Unicode form of [`PR_EMS_AB_ENCRYPT_ALG_SELECTED_OTHER`](./pr_ems_ab_encrypt_alg_selected_other/). Property tag: 0x803D001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_EXPAND_DLS_LOCALLY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_expand_dls_locally/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80A4000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_EXPIRATION_TIME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_expiration_time/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80280040 (PT_SYSTIME). |
+| static readonly [PR_EMS_AB_EXPORT_CONTAINERS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_export_containers/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80A5101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_EXPORT_CONTAINERS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_export_containers_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80A5000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_EXPORT_CUSTOM_RECIPIENTS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_export_custom_recipients/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80A6000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_EXTENDED_CHARS_ALLOWED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extended_chars_allowed/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80A7000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_1](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_1/) | Contains custom values defined and populated by the organization that modified the display templates. Canonical name: PidTagAddressBookExtensionAttribute1. Property tag: 0x802D001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_10](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_10/) | Contains custom values defined and populated by the organization that modified the display templates. Canonical name: PidTagAddressBookExtensionAttribute10. Property tag: 0x8036001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_10_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_10_a/) | The ANSI form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_10`](./pr_ems_ab_extension_attribute_10/). Property tag: 0x8036001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_10_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_10_w/) | The Unicode form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_10`](./pr_ems_ab_extension_attribute_10/). Property tag: 0x8036001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_11](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_11/) | Contains custom values defined and populated by the organization that modified the display templates. Canonical name: PidTagAddressBookExtensionAttribute11. Property tag: 0x8C57001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_11_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_11_a/) | The ANSI form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_11`](./pr_ems_ab_extension_attribute_11/). Property tag: 0x8C57001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_11_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_11_w/) | The Unicode form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_11`](./pr_ems_ab_extension_attribute_11/). Property tag: 0x8C57001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_12](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_12/) | Contains custom values defined and populated by the organization that modified the display templates. Canonical name: PidTagAddressBookExtensionAttribute12. Property tag: 0x8C58001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_12_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_12_a/) | The ANSI form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_12`](./pr_ems_ab_extension_attribute_12/). Property tag: 0x8C58001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_12_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_12_w/) | The Unicode form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_12`](./pr_ems_ab_extension_attribute_12/). Property tag: 0x8C58001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_13](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_13/) | Contains custom values defined and populated by the organization that modified the display templates. Canonical name: PidTagAddressBookExtensionAttribute13. Property tag: 0x8C59001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_13_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_13_a/) | The ANSI form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_13`](./pr_ems_ab_extension_attribute_13/). Property tag: 0x8C59001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_13_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_13_w/) | The Unicode form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_13`](./pr_ems_ab_extension_attribute_13/). Property tag: 0x8C59001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_14](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_14/) | Contains custom values defined and populated by the organization that modified the display templates. Canonical name: PidTagAddressBookExtensionAttribute14. Property tag: 0x8C60001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_14_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_14_a/) | The ANSI form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_14`](./pr_ems_ab_extension_attribute_14/). Property tag: 0x8C60001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_14_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_14_w/) | The Unicode form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_14`](./pr_ems_ab_extension_attribute_14/). Property tag: 0x8C60001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_15](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_15/) | Contains custom values defined and populated by the organization that modified the display templates. Canonical name: PidTagAddressBookExtensionAttribute15. Property tag: 0x8C61001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_15_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_15_a/) | The ANSI form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_15`](./pr_ems_ab_extension_attribute_15/). Property tag: 0x8C61001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_15_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_15_w/) | The Unicode form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_15`](./pr_ems_ab_extension_attribute_15/). Property tag: 0x8C61001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_1_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_1_a/) | The ANSI form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_1`](./pr_ems_ab_extension_attribute_1/). Property tag: 0x802D001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_1_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_1_w/) | The Unicode form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_1`](./pr_ems_ab_extension_attribute_1/). Property tag: 0x802D001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_2](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_2/) | Contains custom values defined and populated by the organization that modified the display templates. Canonical name: PidTagAddressBookExtensionAttribute2. Property tag: 0x802E001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_2_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_2_a/) | The ANSI form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_2`](./pr_ems_ab_extension_attribute_2/). Property tag: 0x802E001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_2_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_2_w/) | The Unicode form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_2`](./pr_ems_ab_extension_attribute_2/). Property tag: 0x802E001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_3](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_3/) | Contains custom values defined and populated by the organization that modified the display templates. Canonical name: PidTagAddressBookExtensionAttribute3. Property tag: 0x802F001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_3_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_3_a/) | The ANSI form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_3`](./pr_ems_ab_extension_attribute_3/). Property tag: 0x802F001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_3_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_3_w/) | The Unicode form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_3`](./pr_ems_ab_extension_attribute_3/). Property tag: 0x802F001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_4](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_4/) | Contains custom values defined and populated by the organization that modified the display templates. Canonical name: PidTagAddressBookExtensionAttribute4. Property tag: 0x8030001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_4_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_4_a/) | The ANSI form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_4`](./pr_ems_ab_extension_attribute_4/). Property tag: 0x8030001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_4_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_4_w/) | The Unicode form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_4`](./pr_ems_ab_extension_attribute_4/). Property tag: 0x8030001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_5](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_5/) | Contains custom values defined and populated by the organization that modified the display templates. Canonical name: PidTagAddressBookExtensionAttribute5. Property tag: 0x8031001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_5_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_5_a/) | The ANSI form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_5`](./pr_ems_ab_extension_attribute_5/). Property tag: 0x8031001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_5_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_5_w/) | The Unicode form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_5`](./pr_ems_ab_extension_attribute_5/). Property tag: 0x8031001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_6](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_6/) | Contains custom values defined and populated by the organization that modified the display templates. Canonical name: PidTagAddressBookExtensionAttribute6. Property tag: 0x8032001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_6_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_6_a/) | The ANSI form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_6`](./pr_ems_ab_extension_attribute_6/). Property tag: 0x8032001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_6_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_6_w/) | The Unicode form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_6`](./pr_ems_ab_extension_attribute_6/). Property tag: 0x8032001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_7](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_7/) | Contains custom values defined and populated by the organization that modified the display templates. Canonical name: PidTagAddressBookExtensionAttribute7. Property tag: 0x8033001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_7_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_7_a/) | The ANSI form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_7`](./pr_ems_ab_extension_attribute_7/). Property tag: 0x8033001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_7_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_7_w/) | The Unicode form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_7`](./pr_ems_ab_extension_attribute_7/). Property tag: 0x8033001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_8](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_8/) | Contains custom values defined and populated by the organization that modified the display templates. Canonical name: PidTagAddressBookExtensionAttribute8. Property tag: 0x8034001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_8_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_8_a/) | The ANSI form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_8`](./pr_ems_ab_extension_attribute_8/). Property tag: 0x8034001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_8_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_8_w/) | The Unicode form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_8`](./pr_ems_ab_extension_attribute_8/). Property tag: 0x8034001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_9](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_9/) | Contains custom values defined and populated by the organization that modified the display templates. Canonical name: PidTagAddressBookExtensionAttribute9. Property tag: 0x8035001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_9_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_9_a/) | The ANSI form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_9`](./pr_ems_ab_extension_attribute_9/). Property tag: 0x8035001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_ATTRIBUTE_9_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_attribute_9_w/) | The Unicode form of [`PR_EMS_AB_EXTENSION_ATTRIBUTE_9`](./pr_ems_ab_extension_attribute_9/). Property tag: 0x8035001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_EXTENSION_DATA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_data/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80A81102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_EXTENSION_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80A9101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_EXTENSION_NAME_INHERITED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_extension_name_inherited/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80AA101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_FACSIMILE_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_facsimile_telephone_number/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80AB1102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_FILE_VERSION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_file_version/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80AC0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_FILTER_LOCAL_ADDRESSES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_filter_local_addresses/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80AD000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_FOLDERS_CONTAINER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_folders_container/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80AE001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_FOLDERS_CONTAINER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_folders_container_a/) | The ANSI form of [`PR_EMS_AB_FOLDERS_CONTAINER`](./pr_ems_ab_folders_container/). Property tag: 0x80AE001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_FOLDERS_CONTAINER_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_folders_container_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80AE000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_FOLDERS_CONTAINER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_folders_container_w/) | The Unicode form of [`PR_EMS_AB_FOLDERS_CONTAINER`](./pr_ems_ab_folders_container/). Property tag: 0x80AE001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_FOLDER_PATHNAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_folder_pathname/) | This property is deprecated and is to be ignored. Canonical name: PidTagAddressBookFolderPathname. Property tag: 0x8004001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_FOLDER_PATHNAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_folder_pathname_a/) | The ANSI form of [`PR_EMS_AB_FOLDER_PATHNAME`](./pr_ems_ab_folder_pathname/). Property tag: 0x8004001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_FOLDER_PATHNAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_folder_pathname_w/) | The Unicode form of [`PR_EMS_AB_FOLDER_PATHNAME`](./pr_ems_ab_folder_pathname/). Property tag: 0x8004001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_FORM_DATA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_form_data/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C650102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_FORWARDING_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_forwarding_address/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C64001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_FORWARDING_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_forwarding_address_a/) | The ANSI form of [`PR_EMS_AB_FORWARDING_ADDRESS`](./pr_ems_ab_forwarding_address/). Property tag: 0x8C64001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_FORWARDING_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_forwarding_address_w/) | The Unicode form of [`PR_EMS_AB_FORWARDING_ADDRESS`](./pr_ems_ab_forwarding_address/). Property tag: 0x8C64001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_GARBAGE_COLL_PERIOD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_garbage_coll_period/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80AF0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_GATEWAY_LOCAL_CRED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_gateway_local_cred/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80B0001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_GATEWAY_LOCAL_CRED_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_gateway_local_cred_a/) | The ANSI form of [`PR_EMS_AB_GATEWAY_LOCAL_CRED`](./pr_ems_ab_gateway_local_cred/). Property tag: 0x80B0001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_GATEWAY_LOCAL_CRED_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_gateway_local_cred_w/) | The Unicode form of [`PR_EMS_AB_GATEWAY_LOCAL_CRED`](./pr_ems_ab_gateway_local_cred/). Property tag: 0x80B0001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_GATEWAY_LOCAL_DESIG](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_gateway_local_desig/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80B1001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_GATEWAY_LOCAL_DESIG_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_gateway_local_desig_a/) | The ANSI form of [`PR_EMS_AB_GATEWAY_LOCAL_DESIG`](./pr_ems_ab_gateway_local_desig/). Property tag: 0x80B1001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_GATEWAY_LOCAL_DESIG_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_gateway_local_desig_w/) | The Unicode form of [`PR_EMS_AB_GATEWAY_LOCAL_DESIG`](./pr_ems_ab_gateway_local_desig/). Property tag: 0x80B1001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_GATEWAY_PROXY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_gateway_proxy/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80B2101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_GATEWAY_ROUTING_TREE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_gateway_routing_tree/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80B30102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_GENERATION_QUALIFIER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_generation_qualifier/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C53001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_GENERATION_QUALIFIER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_generation_qualifier_a/) | The ANSI form of [`PR_EMS_AB_GENERATION_QUALIFIER`](./pr_ems_ab_generation_qualifier/). Property tag: 0x8C53001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_GENERATION_QUALIFIER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_generation_qualifier_w/) | The Unicode form of [`PR_EMS_AB_GENERATION_QUALIFIER`](./pr_ems_ab_generation_qualifier/). Property tag: 0x8C53001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_GROUP_BY_ATTR_1](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_1/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81B7001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_GROUP_BY_ATTR_1_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_1_a/) | The ANSI form of [`PR_EMS_AB_GROUP_BY_ATTR_1`](./pr_ems_ab_group_by_attr_1/). Property tag: 0x81B7001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_GROUP_BY_ATTR_1_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_1_w/) | The Unicode form of [`PR_EMS_AB_GROUP_BY_ATTR_1`](./pr_ems_ab_group_by_attr_1/). Property tag: 0x81B7001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_GROUP_BY_ATTR_2](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_2/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81B8001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_GROUP_BY_ATTR_2_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_2_a/) | The ANSI form of [`PR_EMS_AB_GROUP_BY_ATTR_2`](./pr_ems_ab_group_by_attr_2/). Property tag: 0x81B8001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_GROUP_BY_ATTR_2_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_2_w/) | The Unicode form of [`PR_EMS_AB_GROUP_BY_ATTR_2`](./pr_ems_ab_group_by_attr_2/). Property tag: 0x81B8001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_GROUP_BY_ATTR_3](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_3/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81B9001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_GROUP_BY_ATTR_3_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_3_a/) | The ANSI form of [`PR_EMS_AB_GROUP_BY_ATTR_3`](./pr_ems_ab_group_by_attr_3/). Property tag: 0x81B9001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_GROUP_BY_ATTR_3_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_3_w/) | The Unicode form of [`PR_EMS_AB_GROUP_BY_ATTR_3`](./pr_ems_ab_group_by_attr_3/). Property tag: 0x81B9001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_GROUP_BY_ATTR_4](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_4/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81BA001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_GROUP_BY_ATTR_4_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_4_a/) | The ANSI form of [`PR_EMS_AB_GROUP_BY_ATTR_4`](./pr_ems_ab_group_by_attr_4/). Property tag: 0x81BA001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_GROUP_BY_ATTR_4_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_4_w/) | The Unicode form of [`PR_EMS_AB_GROUP_BY_ATTR_4`](./pr_ems_ab_group_by_attr_4/). Property tag: 0x81BA001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_GROUP_BY_ATTR_VALUE_DN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_value_dn/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C1A001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_GROUP_BY_ATTR_VALUE_DN_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_value_dn_a/) | The ANSI form of [`PR_EMS_AB_GROUP_BY_ATTR_VALUE_DN`](./pr_ems_ab_group_by_attr_value_dn/). Property tag: 0x8C1A001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_GROUP_BY_ATTR_VALUE_DN_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_value_dn_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C1A000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_GROUP_BY_ATTR_VALUE_DN_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_value_dn_w/) | The Unicode form of [`PR_EMS_AB_GROUP_BY_ATTR_VALUE_DN`](./pr_ems_ab_group_by_attr_value_dn/). Property tag: 0x8C1A001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_GROUP_BY_ATTR_VALUE_STR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_value_str/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C19001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_GROUP_BY_ATTR_VALUE_STR_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_value_str_a/) | The ANSI form of [`PR_EMS_AB_GROUP_BY_ATTR_VALUE_STR`](./pr_ems_ab_group_by_attr_value_str/). Property tag: 0x8C19001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_GROUP_BY_ATTR_VALUE_STR_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_value_str_w/) | The Unicode form of [`PR_EMS_AB_GROUP_BY_ATTR_VALUE_STR`](./pr_ems_ab_group_by_attr_value_str/). Property tag: 0x8C19001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_GWART_LAST_MODIFIED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_gwart_last_modified/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80B40040 (PT_SYSTIME). |
+| static readonly [PR_EMS_AB_HAS_FULL_REPLICA_NCS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_has_full_replica_ncs/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80B5101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_HAS_FULL_REPLICA_NCS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_has_full_replica_ncs_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80B5000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_HAS_MASTER_NCS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_has_master_ncs/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80B6101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_HAS_MASTER_NCS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_has_master_ncs_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80B6000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_HELP_DATA16](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_help_data16/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x803A0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_HELP_DATA32](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_help_data32/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80100102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_HELP_FILE_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_help_file_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x803B001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_HELP_FILE_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_help_file_name_a/) | The ANSI form of [`PR_EMS_AB_HELP_FILE_NAME`](./pr_ems_ab_help_file_name/). Property tag: 0x803B001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_HELP_FILE_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_help_file_name_w/) | The Unicode form of [`PR_EMS_AB_HELP_FILE_NAME`](./pr_ems_ab_help_file_name/). Property tag: 0x803B001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_HEURISTICS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_heuristics/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80B70003 (PT_LONG). |
+| static readonly [PR_EMS_AB_HIDE_DL_MEMBERSHIP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_hide_dl_membership/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80B8000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_HIDE_FROM_ADDRESS_BOOK](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_hide_from_address_book/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80B9000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_HIERARCHY_PATH](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_hierarchy_path/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0xFFF9001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_HIERARCHY_PATH_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_hierarchy_path_a/) | The ANSI form of [`PR_EMS_AB_HIERARCHY_PATH`](./pr_ems_ab_hierarchy_path/). Property tag: 0xFFF9001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_HIERARCHY_PATH_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_hierarchy_path_w/) | The Unicode form of [`PR_EMS_AB_HIERARCHY_PATH`](./pr_ems_ab_hierarchy_path/). Property tag: 0xFFF9001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_HOME_MDB](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mdb/) | Contains the DN expressed in the X500 DN format. This property is returned from a PtypString8. Canonical name: PidTagAddressBookHomeMessageDatabase. Property tag: 0x8006001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_HOME_MDB_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mdb_a/) | The ANSI form of [`PR_EMS_AB_HOME_MDB`](./pr_ems_ab_home_mdb/). Property tag: 0x8006001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_HOME_MDB_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mdb_bl/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8014101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_HOME_MDB_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mdb_bl_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8014000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_HOME_MDB_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mdb_o/) | The tag of the PR_EMS_AB_HOME_MDB_O MAPI property. Property tag: 0x8006000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_HOME_MDB_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mdb_w/) | The Unicode form of [`PR_EMS_AB_HOME_MDB`](./pr_ems_ab_home_mdb/). Property tag: 0x8006001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_HOME_MTA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mta/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8007001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_HOME_MTA_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mta_a/) | The ANSI form of [`PR_EMS_AB_HOME_MTA`](./pr_ems_ab_home_mta/). Property tag: 0x8007001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_HOME_MTA_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mta_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8007000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_HOME_MTA_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_mta_w/) | The Unicode form of [`PR_EMS_AB_HOME_MTA`](./pr_ems_ab_home_mta/). Property tag: 0x8007001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_HOME_PUBLIC_SERVER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_public_server/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x803F001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_HOME_PUBLIC_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_public_server_a/) | The ANSI form of [`PR_EMS_AB_HOME_PUBLIC_SERVER`](./pr_ems_ab_home_public_server/). Property tag: 0x803F001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_HOME_PUBLIC_SERVER_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_public_server_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x803F000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_HOME_PUBLIC_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_home_public_server_w/) | The Unicode form of [`PR_EMS_AB_HOME_PUBLIC_SERVER`](./pr_ems_ab_home_public_server/). Property tag: 0x803F001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_HOUSE_IDENTIFIER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_house_identifier/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C54001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_HOUSE_IDENTIFIER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_house_identifier_a/) | The ANSI form of [`PR_EMS_AB_HOUSE_IDENTIFIER`](./pr_ems_ab_house_identifier/). Property tag: 0x8C54001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_HOUSE_IDENTIFIER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_house_identifier_w/) | The Unicode form of [`PR_EMS_AB_HOUSE_IDENTIFIER`](./pr_ems_ab_house_identifier/). Property tag: 0x8C54001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_HTTP_PUB_AB_ATTRIBUTES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_http_pub_ab_attributes/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81A9101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_HTTP_PUB_GAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_http_pub_gal/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x819B000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_HTTP_PUB_GAL_LIMIT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_http_pub_gal_limit/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x819C0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_HTTP_PUB_PF](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_http_pub_pf/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x819E1102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_HTTP_SERVERS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_http_servers/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81AB101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_IMPORTED_FROM](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_imported_from/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8042001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_IMPORTED_FROM_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_imported_from_a/) | The ANSI form of [`PR_EMS_AB_IMPORTED_FROM`](./pr_ems_ab_imported_from/). Property tag: 0x8042001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_IMPORTED_FROM_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_imported_from_w/) | The Unicode form of [`PR_EMS_AB_IMPORTED_FROM`](./pr_ems_ab_imported_from/). Property tag: 0x8042001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_IMPORT_CONTAINER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_import_container/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80BA001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_IMPORT_CONTAINER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_import_container_a/) | The ANSI form of [`PR_EMS_AB_IMPORT_CONTAINER`](./pr_ems_ab_import_container/). Property tag: 0x80BA001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_IMPORT_CONTAINER_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_import_container_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80BA000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_IMPORT_CONTAINER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_import_container_w/) | The Unicode form of [`PR_EMS_AB_IMPORT_CONTAINER`](./pr_ems_ab_import_container/). Property tag: 0x80BA001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_IMPORT_SENSITIVITY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_import_sensitivity/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80BB0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_INBOUND_ACCEPT_ALL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_accept_all/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C20000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_INBOUND_DN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_dn/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C1E001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_INBOUND_DN_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_dn_a/) | The ANSI form of [`PR_EMS_AB_INBOUND_DN`](./pr_ems_ab_inbound_dn/). Property tag: 0x8C1E001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_INBOUND_DN_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_dn_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C1E000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_INBOUND_DN_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_dn_w/) | The Unicode form of [`PR_EMS_AB_INBOUND_DN`](./pr_ems_ab_inbound_dn/). Property tag: 0x8C1E001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_INBOUND_HOST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_host/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x818E101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_INBOUND_NEWSFEED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_newsfeed/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8193001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_INBOUND_NEWSFEED_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_newsfeed_a/) | The ANSI form of [`PR_EMS_AB_INBOUND_NEWSFEED`](./pr_ems_ab_inbound_newsfeed/). Property tag: 0x8193001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_INBOUND_NEWSFEED_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_newsfeed_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C1F000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_INBOUND_NEWSFEED_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_newsfeed_w/) | The Unicode form of [`PR_EMS_AB_INBOUND_NEWSFEED`](./pr_ems_ab_inbound_newsfeed/). Property tag: 0x8193001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_INBOUND_SITES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_sites/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80BC101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_INBOUND_SITES_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_sites_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80BC000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_INCOMING_MSG_SIZE_LIMIT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_incoming_msg_size_limit/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81900003 (PT_LONG). |
+| static readonly [PR_EMS_AB_INCOMING_PASSWORD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_incoming_password/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81AF0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_INSADMIN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_insadmin/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81C5001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_INSADMIN_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_insadmin_a/) | The ANSI form of [`PR_EMS_AB_INSADMIN`](./pr_ems_ab_insadmin/). Property tag: 0x81C5001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_INSADMIN_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_insadmin_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81C5000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_INSADMIN_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_insadmin_w/) | The Unicode form of [`PR_EMS_AB_INSADMIN`](./pr_ems_ab_insadmin/). Property tag: 0x81C5001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_INSTANCE_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_instance_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80BD0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_INTERNATIONAL_ISDN_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_international_isdn_number/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80BE101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_INVOCATION_ID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_invocation_id/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80BF0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_IS_DELETED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_is_deleted/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80C0000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_IS_MASTER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_is_master/) | Contains a Boolean value of TRUE if it is possible to create Address Book objects in that container, and FALSE otherwise. Canonical name: PidTagAddressBookIsMaster. Property tag: 0xFFFB000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_IS_MEMBER_OF_DL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_is_member_of_dl/) | Lists all of the distribution lists for which the object is a member. This property is returned from an NSPI server as a PtypEmbeddedTable. Otherwise, the data type is PtypString8. Canonical name: PidTagAddressBookIsMemberOfDistributionList. Property tag: 0x8008000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_IS_MEMBER_OF_DL_T](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_is_member_of_dl_t/) | The tag of the PR_EMS_AB_IS_MEMBER_OF_DL_T MAPI property. Property tag: 0x8008001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_IS_MEMBER_OF_DL_T_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_is_member_of_dl_t_a/) | The ANSI form of [`PR_EMS_AB_IS_MEMBER_OF_DL_T`](./pr_ems_ab_is_member_of_dl_t/). Property tag: 0x8008001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_IS_MEMBER_OF_DL_T_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_is_member_of_dl_t_w/) | The Unicode form of [`PR_EMS_AB_IS_MEMBER_OF_DL_T`](./pr_ems_ab_is_member_of_dl_t/). Property tag: 0x8008001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_IS_SINGLE_VALUED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_is_single_valued/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80C1000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_KCC_STATUS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_kcc_status/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80C21102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_KM_SERVER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_km_server/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x800D001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_KM_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_km_server_a/) | The ANSI form of [`PR_EMS_AB_KM_SERVER`](./pr_ems_ab_km_server/). Property tag: 0x800D001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_KM_SERVER_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_km_server_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x800D000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_KM_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_km_server_w/) | The Unicode form of [`PR_EMS_AB_KM_SERVER`](./pr_ems_ab_km_server/). Property tag: 0x800D001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_KNOWLEDGE_INFORMATION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_knowledge_information/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80C3101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_LABELEDURI](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_labeleduri/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C51001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_LABELEDURI_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_labeleduri_a/) | The ANSI form of [`PR_EMS_AB_LABELEDURI`](./pr_ems_ab_labeleduri/). Property tag: 0x8C51001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_LABELEDURI_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_labeleduri_w/) | The Unicode form of [`PR_EMS_AB_LABELEDURI`](./pr_ems_ab_labeleduri/). Property tag: 0x8C51001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_LANGUAGE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_language/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81780003 (PT_LONG). |
+| static readonly [PR_EMS_AB_LANGUAGE_ISO639](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_language_iso639/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C6C001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_LANGUAGE_ISO639_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_language_iso639_a/) | The ANSI form of [`PR_EMS_AB_LANGUAGE_ISO639`](./pr_ems_ab_language_iso639/). Property tag: 0x8C6C001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_LANGUAGE_ISO639_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_language_iso639_w/) | The Unicode form of [`PR_EMS_AB_LANGUAGE_ISO639`](./pr_ems_ab_language_iso639/). Property tag: 0x8C6C001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_LDAP_DISPLAY_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ldap_display_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8171101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_LDAP_SEARCH_CFG](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ldap_search_cfg/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C1D0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_LINE_WRAP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_line_wrap/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80C40003 (PT_LONG). |
+| static readonly [PR_EMS_AB_LINK_ID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_link_id/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80C50003 (PT_LONG). |
+| static readonly [PR_EMS_AB_LIST_PUBLIC_FOLDERS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_list_public_folders/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C50000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_LOCAL_BRIDGE_HEAD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_local_bridge_head/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80C6001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_LOCAL_BRIDGE_HEAD_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_local_bridge_head_a/) | The ANSI form of [`PR_EMS_AB_LOCAL_BRIDGE_HEAD`](./pr_ems_ab_local_bridge_head/). Property tag: 0x80C6001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_LOCAL_BRIDGE_HEAD_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_local_bridge_head_address/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80C7001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_LOCAL_BRIDGE_HEAD_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_local_bridge_head_address_a/) | The ANSI form of [`PR_EMS_AB_LOCAL_BRIDGE_HEAD_ADDRESS`](./pr_ems_ab_local_bridge_head_address/). Property tag: 0x80C7001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_LOCAL_BRIDGE_HEAD_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_local_bridge_head_address_w/) | The Unicode form of [`PR_EMS_AB_LOCAL_BRIDGE_HEAD_ADDRESS`](./pr_ems_ab_local_bridge_head_address/). Property tag: 0x80C7001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_LOCAL_BRIDGE_HEAD_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_local_bridge_head_w/) | The Unicode form of [`PR_EMS_AB_LOCAL_BRIDGE_HEAD`](./pr_ems_ab_local_bridge_head/). Property tag: 0x80C6001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_LOCAL_INITIAL_TURN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_local_initial_turn/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80C8000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_LOCAL_SCOPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_local_scope/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80C9101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_LOCAL_SCOPE_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_local_scope_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80C9000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_LOG_FILENAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_log_filename/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80CA001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_LOG_FILENAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_log_filename_a/) | The ANSI form of [`PR_EMS_AB_LOG_FILENAME`](./pr_ems_ab_log_filename/). Property tag: 0x80CA001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_LOG_FILENAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_log_filename_w/) | The Unicode form of [`PR_EMS_AB_LOG_FILENAME`](./pr_ems_ab_log_filename/). Property tag: 0x80CA001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_LOG_ROLLOVER_INTERVAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_log_rollover_interval/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80CB0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MAIL_DROP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mail_drop/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C63001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_MAIL_DROP_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mail_drop_a/) | The ANSI form of [`PR_EMS_AB_MAIL_DROP`](./pr_ems_ab_mail_drop/). Property tag: 0x8C63001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_MAIL_DROP_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mail_drop_w/) | The Unicode form of [`PR_EMS_AB_MAIL_DROP`](./pr_ems_ab_mail_drop/). Property tag: 0x8C63001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_MAINTAIN_AUTOREPLY_HISTORY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_maintain_autoreply_history/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80CC000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_MANAGER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_manager/) | Contains one row that references the mail user's manager. Canonical name: PidTagAddressBookManager. Property tag: 0x8005000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_MANAGER_T](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_manager_t/) | Contains the DN of the mail user's manager. Canonical name: PidTagAddressBookManagerDistinguishedName. Property tag: 0x8005001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_MANAGER_T_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_manager_t_a/) | The ANSI form of [`PR_EMS_AB_MANAGER_T`](./pr_ems_ab_manager_t/). Property tag: 0x8005001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_MANAGER_T_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_manager_t_w/) | The Unicode form of [`PR_EMS_AB_MANAGER_T`](./pr_ems_ab_manager_t/). Property tag: 0x8005001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_MAPI_DISPLAY_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mapi_display_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80CD0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MAPI_ID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mapi_id/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80CE0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MAXIMUM_OBJECT_ID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_maximum_object_id/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81690102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_MDB_BACKOFF_INTERVAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mdb_backoff_interval/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80CF0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MDB_MSG_TIME_OUT_PERIOD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mdb_msg_time_out_period/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80D00003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MDB_OVER_QUOTA_LIMIT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mdb_over_quota_limit/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80D10003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MDB_STORAGE_QUOTA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mdb_storage_quota/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80D20003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MDB_UNREAD_LIMIT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mdb_unread_limit/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80D30003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MDB_USE_DEFAULTS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mdb_use_defaults/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80D4000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_MEMBER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_member/) | Contains the members of the distribution list. Canonical name: PidTagAddressBookMember. Property tag: 0x8009000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_MEMBER_T](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_member_t/) | The tag of the PR_EMS_AB_MEMBER_T MAPI property. Property tag: 0x8009001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_MEMBER_T_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_member_t_a/) | The ANSI form of [`PR_EMS_AB_MEMBER_T`](./pr_ems_ab_member_t/). Property tag: 0x8009001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_MEMBER_T_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_member_t_w/) | The Unicode form of [`PR_EMS_AB_MEMBER_T`](./pr_ems_ab_member_t/). Property tag: 0x8009001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_MESSAGE_TRACKING_ENABLED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_message_tracking_enabled/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80D5000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_MIME_TYPES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mime_types/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C1C0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_MODERATED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_moderated/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81AC000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_MODERATOR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_moderator/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8199001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_MODERATOR_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_moderator_a/) | The ANSI form of [`PR_EMS_AB_MODERATOR`](./pr_ems_ab_moderator/). Property tag: 0x8199001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_MODERATOR_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_moderator_w/) | The Unicode form of [`PR_EMS_AB_MODERATOR`](./pr_ems_ab_moderator/). Property tag: 0x8199001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_MONITORED_CONFIGURATIONS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitored_configurations/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80D9101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_MONITORED_CONFIGURATIONS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitored_configurations_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80D9000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_MONITORED_SERVERS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitored_servers/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80DA101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_MONITORED_SERVERS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitored_servers_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80DA000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_MONITORED_SERVICES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitored_services/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80DB101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_MONITORING_ALERT_DELAY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_alert_delay/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80DC0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MONITORING_ALERT_UNITS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_alert_units/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80DD0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MONITORING_AVAILABILITY_STYLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_availability_style/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80DE0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MONITORING_AVAILABILITY_WINDOW](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_availability_window/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80DF0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_MONITORING_CACHED_VIA_MAIL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_cached_via_mail/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80E0101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_MONITORING_CACHED_VIA_MAIL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_cached_via_mail_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80E0000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_MONITORING_CACHED_VIA_RPC](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_cached_via_rpc/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80E1101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_MONITORING_CACHED_VIA_RPC_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_cached_via_rpc_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80E1000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_MONITORING_ESCALATION_PROCEDURE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_escalation_procedure/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80E21102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_MONITORING_HOTSITE_POLL_INTERVAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_hotsite_poll_interval/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80E30003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MONITORING_HOTSITE_POLL_UNITS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_hotsite_poll_units/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80E40003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MONITORING_MAIL_UPDATE_INTERVAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_mail_update_interval/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80E50003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MONITORING_MAIL_UPDATE_UNITS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_mail_update_units/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80E60003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MONITORING_NORMAL_POLL_INTERVAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_normal_poll_interval/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80E70003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MONITORING_NORMAL_POLL_UNITS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_normal_poll_units/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80E80003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MONITORING_RECIPIENTS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_recipients/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80E9101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_MONITORING_RECIPIENTS_NDR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_recipients_ndr/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80EA101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_MONITORING_RECIPIENTS_NDR_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_recipients_ndr_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80EA000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_MONITORING_RECIPIENTS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_recipients_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80E9000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_MONITORING_RPC_UPDATE_INTERVAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_rpc_update_interval/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80EB0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MONITORING_RPC_UPDATE_UNITS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_rpc_update_units/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80EC0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MONITORING_WARNING_DELAY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_warning_delay/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80ED0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MONITORING_WARNING_UNITS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_warning_units/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80EE0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_MONITOR_CLOCK](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitor_clock/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80D6000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_MONITOR_SERVERS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitor_servers/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80D7000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_MONITOR_SERVICES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_monitor_services/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80D8000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_MTA_LOCAL_CRED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mta_local_cred/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80EF001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_MTA_LOCAL_CRED_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mta_local_cred_a/) | The ANSI form of [`PR_EMS_AB_MTA_LOCAL_CRED`](./pr_ems_ab_mta_local_cred/). Property tag: 0x80EF001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_MTA_LOCAL_CRED_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mta_local_cred_w/) | The Unicode form of [`PR_EMS_AB_MTA_LOCAL_CRED`](./pr_ems_ab_mta_local_cred/). Property tag: 0x80EF001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_MTA_LOCAL_DESIG](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mta_local_desig/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80F0001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_MTA_LOCAL_DESIG_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mta_local_desig_a/) | The ANSI form of [`PR_EMS_AB_MTA_LOCAL_DESIG`](./pr_ems_ab_mta_local_desig/). Property tag: 0x80F0001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_MTA_LOCAL_DESIG_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_mta_local_desig_w/) | The Unicode form of [`PR_EMS_AB_MTA_LOCAL_DESIG`](./pr_ems_ab_mta_local_desig/). Property tag: 0x80F0001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_NETWORK_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_network_address/) | Contains a list of names by which a server is known to the various transports in use by the network. Canonical name: PidTagAddressBookNetworkAddress. Property tag: 0x8170101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_NEWSFEED_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_newsfeed_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81940003 (PT_LONG). |
+| static readonly [PR_EMS_AB_NEWSGROUP](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_newsgroup/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8198001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_NEWSGROUP_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_newsgroup_a/) | The ANSI form of [`PR_EMS_AB_NEWSGROUP`](./pr_ems_ab_newsgroup/). Property tag: 0x8198001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_NEWSGROUP_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_newsgroup_list/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81960102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_NEWSGROUP_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_newsgroup_w/) | The Unicode form of [`PR_EMS_AB_NEWSGROUP`](./pr_ems_ab_newsgroup/). Property tag: 0x8198001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_NNTP_CHARACTER_SET](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_character_set/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x817D001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_NNTP_CHARACTER_SET_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_character_set_a/) | The ANSI form of [`PR_EMS_AB_NNTP_CHARACTER_SET`](./pr_ems_ab_nntp_character_set/). Property tag: 0x817D001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_NNTP_CHARACTER_SET_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_character_set_w/) | The Unicode form of [`PR_EMS_AB_NNTP_CHARACTER_SET`](./pr_ems_ab_nntp_character_set/). Property tag: 0x817D001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_NNTP_CONTENT_FORMAT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_content_format/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8176001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_NNTP_CONTENT_FORMAT_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_content_format_a/) | The ANSI form of [`PR_EMS_AB_NNTP_CONTENT_FORMAT`](./pr_ems_ab_nntp_content_format/). Property tag: 0x8176001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_NNTP_CONTENT_FORMAT_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_content_format_w/) | The Unicode form of [`PR_EMS_AB_NNTP_CONTENT_FORMAT`](./pr_ems_ab_nntp_content_format/). Property tag: 0x8176001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_NNTP_DISTRIBUTIONS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_distributions/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8197101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_NNTP_DISTRIBUTIONS_FLAG](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_distributions_flag/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81A4000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_NNTP_NEWSFEEDS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_newsfeeds/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81A6101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_NNTP_NEWSFEEDS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_newsfeeds_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81A6000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_NT_MACHINE_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nt_machine_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80F3001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_NT_MACHINE_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nt_machine_name_a/) | The ANSI form of [`PR_EMS_AB_NT_MACHINE_NAME`](./pr_ems_ab_nt_machine_name/). Property tag: 0x80F3001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_NT_MACHINE_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nt_machine_name_w/) | The Unicode form of [`PR_EMS_AB_NT_MACHINE_NAME`](./pr_ems_ab_nt_machine_name/). Property tag: 0x80F3001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_NT_SECURITY_DESCRIPTOR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_nt_security_descriptor/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80130102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_NUM_OF_OPEN_RETRIES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_num_of_open_retries/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80F40003 (PT_LONG). |
+| static readonly [PR_EMS_AB_NUM_OF_TRANSFER_RETRIES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_num_of_transfer_retries/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80F50003 (PT_LONG). |
+| static readonly [PR_EMS_AB_N_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_n_address/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80F10102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_N_ADDRESS_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_n_address_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80F20003 (PT_LONG). |
+| static readonly [PR_EMS_AB_OBJECT_CLASS_CATEGORY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_object_class_category/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80F60003 (PT_LONG). |
+| static readonly [PR_EMS_AB_OBJECT_OID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_object_oid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0xFFFA0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_OBJECT_VERSION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_object_version/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80F70003 (PT_LONG). |
+| static readonly [PR_EMS_AB_OBJ_DIST_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_obj_dist_name/) | Contains the DN of the Address Book object. Canonical name: PidTagAddressBookObjectDistinguishedName. Property tag: 0x803C001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_OBJ_DIST_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_obj_dist_name_a/) | The ANSI form of [`PR_EMS_AB_OBJ_DIST_NAME`](./pr_ems_ab_obj_dist_name/). Property tag: 0x803C001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_OBJ_DIST_NAME_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_obj_dist_name_o/) | The tag of the PR_EMS_AB_OBJ_DIST_NAME_O MAPI property. Property tag: 0x803C000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_OBJ_DIST_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_obj_dist_name_w/) | The Unicode form of [`PR_EMS_AB_OBJ_DIST_NAME`](./pr_ems_ab_obj_dist_name/). Property tag: 0x803C001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_OBJ_VIEW_CONTAINERS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_obj_view_containers/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81C7101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_OBJ_VIEW_CONTAINERS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_obj_view_containers_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81C7000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_OFF_LINE_AB_CONTAINERS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_off_line_ab_containers/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80F8101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_OFF_LINE_AB_CONTAINERS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_off_line_ab_containers_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80F8000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_OFF_LINE_AB_SCHEDULE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_off_line_ab_schedule/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80F90102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_OFF_LINE_AB_SERVER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_off_line_ab_server/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80FA001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_OFF_LINE_AB_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_off_line_ab_server_a/) | The ANSI form of [`PR_EMS_AB_OFF_LINE_AB_SERVER`](./pr_ems_ab_off_line_ab_server/). Property tag: 0x80FA001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_OFF_LINE_AB_SERVER_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_off_line_ab_server_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80FA000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_OFF_LINE_AB_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_off_line_ab_server_w/) | The Unicode form of [`PR_EMS_AB_OFF_LINE_AB_SERVER`](./pr_ems_ab_off_line_ab_server/). Property tag: 0x80FA001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_OFF_LINE_AB_STYLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_off_line_ab_style/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80FB0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_OID_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_oid_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80FC0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_OM_OBJECT_CLASS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_om_object_class/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80FD0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_OM_SYNTAX](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_om_syntax/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80FE0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_OOF_REPLY_TO_ORIGINATOR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_oof_reply_to_originator/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80FF000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_OPEN_RETRY_INTERVAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_open_retry_interval/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81000003 (PT_LONG). |
+| static readonly [PR_EMS_AB_ORGANIZATIONAL_UNIT_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_organizational_unit_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8102101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_ORGANIZATION_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_organization_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8101101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_ORIGINAL_DISPLAY_TABLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_original_display_table/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81030102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_ORIGINAL_DISPLAY_TABLE_MSDOS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_original_display_table_msdos/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81040102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_OTHER_RECIPS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_other_recips/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0xF000000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_OUTBOUND_HOST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_outbound_host/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x818D0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_OUTBOUND_HOST_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_outbound_host_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81B0000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_OUTBOUND_NEWSFEED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_outbound_newsfeed/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8195001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_OUTBOUND_NEWSFEED_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_outbound_newsfeed_a/) | The ANSI form of [`PR_EMS_AB_OUTBOUND_NEWSFEED`](./pr_ems_ab_outbound_newsfeed/). Property tag: 0x8195001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_OUTBOUND_NEWSFEED_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_outbound_newsfeed_w/) | The Unicode form of [`PR_EMS_AB_OUTBOUND_NEWSFEED`](./pr_ems_ab_outbound_newsfeed/). Property tag: 0x8195001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_OUTBOUND_SITES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_outbound_sites/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8105101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_OUTBOUND_SITES_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_outbound_sites_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8105000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_OUTGOING_MSG_SIZE_LIMIT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_outgoing_msg_size_limit/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x818F0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_OVERRIDE_NNTP_CONTENT_FORMAT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_override_nntp_content_format/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81C6000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_OWA_SERVER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_owa_server/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C66001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_OWA_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_owa_server_a/) | The ANSI form of [`PR_EMS_AB_OWA_SERVER`](./pr_ems_ab_owa_server/). Property tag: 0x8C66001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_OWA_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_owa_server_w/) | The Unicode form of [`PR_EMS_AB_OWA_SERVER`](./pr_ems_ab_owa_server/). Property tag: 0x8C66001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_OWNER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_owner/) | The tag of the PR_EMS_AB_OWNER MAPI property. Property tag: 0x800C001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_OWNER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_owner_a/) | The ANSI form of [`PR_EMS_AB_OWNER`](./pr_ems_ab_owner/). Property tag: 0x800C001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_OWNER_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_owner_bl/) | The tag of the PR_EMS_AB_OWNER_BL MAPI property. Property tag: 0x8024101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_OWNER_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_owner_bl_o/) | Contains a list of the distribution lists owned by a mail user. Canonical name: PidTagAddressBookOwnerBackLink. Property tag: 0x8024000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_OWNER_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_owner_o/) | Contains one row that references the distribution list's owner. Canonical name: PidTagAddressBookOwner. Property tag: 0x800C000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_OWNER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_owner_w/) | The Unicode form of [`PR_EMS_AB_OWNER`](./pr_ems_ab_owner/). Property tag: 0x800C001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_PARENT_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_parent_entryid/) | Contains the EntryID of the parent container in a hierarchy of address book containers. Canonical name: PidTagAddressBookParentEntryId. Property tag: 0xFFFC0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_PERIOD_REPL_STAGGER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_period_repl_stagger/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x810B0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_PERIOD_REP_SYNC_TIMES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_period_rep_sync_times/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x810A0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_PERSONAL_TITLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_personal_title/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C6B001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_PERSONAL_TITLE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_personal_title_a/) | The ANSI form of [`PR_EMS_AB_PERSONAL_TITLE`](./pr_ems_ab_personal_title/). Property tag: 0x8C6B001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_PERSONAL_TITLE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_personal_title_w/) | The Unicode form of [`PR_EMS_AB_PERSONAL_TITLE`](./pr_ems_ab_personal_title/). Property tag: 0x8C6B001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_PER_MSG_DIALOG_DISPLAY_TABLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_per_msg_dialog_display_table/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81080102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_PER_RECIP_DIALOG_DISPLAY_TABLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_per_recip_dialog_display_table/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81090102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_PF_CONTACTS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_pf_contacts/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8038101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_PF_CONTACTS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_pf_contacts_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8038000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_POP_CHARACTER_SET](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_pop_character_set/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8179001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_POP_CHARACTER_SET_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_pop_character_set_a/) | The ANSI form of [`PR_EMS_AB_POP_CHARACTER_SET`](./pr_ems_ab_pop_character_set/). Property tag: 0x8179001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_POP_CHARACTER_SET_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_pop_character_set_w/) | The Unicode form of [`PR_EMS_AB_POP_CHARACTER_SET`](./pr_ems_ab_pop_character_set/). Property tag: 0x8179001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_POP_CONTENT_FORMAT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_pop_content_format/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8177001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_POP_CONTENT_FORMAT_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_pop_content_format_a/) | The ANSI form of [`PR_EMS_AB_POP_CONTENT_FORMAT`](./pr_ems_ab_pop_content_format/). Property tag: 0x8177001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_POP_CONTENT_FORMAT_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_pop_content_format_w/) | The Unicode form of [`PR_EMS_AB_POP_CONTENT_FORMAT`](./pr_ems_ab_pop_content_format/). Property tag: 0x8177001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_PORT_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_port_number/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81B50003 (PT_LONG). |
+| static readonly [PR_EMS_AB_POSTAL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_postal_address/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x810C1102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_PREFERRED_DELIVERY_METHOD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_preferred_delivery_method/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x810D1003 (PT_MV_LONG). |
+| static readonly [PR_EMS_AB_PRESERVE_INTERNET_CONTENT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_preserve_internet_content/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C22000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_PRMD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_prmd/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x810E001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_PRMD_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_prmd_a/) | The ANSI form of [`PR_EMS_AB_PRMD`](./pr_ems_ab_prmd/). Property tag: 0x810E001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_PRMD_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_prmd_w/) | The Unicode form of [`PR_EMS_AB_PRMD`](./pr_ems_ab_prmd/). Property tag: 0x810E001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_PROMO_EXPIRATION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_promo_expiration/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81C20040 (PT_SYSTIME). |
+| static readonly [PR_EMS_AB_PROTOCOL_SETTINGS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_protocol_settings/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81B6101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_PROXY_ADDRESSES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_proxy_addresses/) | Contains alternate email addresses for the Address Book object. Canonical name: PidTagAddressBookProxyAddresses. Property tag: 0x800F101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_PROXY_GENERATION_ENABLED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_proxy_generation_enabled/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81B1000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_PROXY_GENERATOR_DLL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_proxy_generator_dll/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x810F001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_PROXY_GENERATOR_DLL_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_proxy_generator_dll_a/) | The ANSI form of [`PR_EMS_AB_PROXY_GENERATOR_DLL`](./pr_ems_ab_proxy_generator_dll/). Property tag: 0x810F001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_PROXY_GENERATOR_DLL_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_proxy_generator_dll_w/) | The Unicode form of [`PR_EMS_AB_PROXY_GENERATOR_DLL`](./pr_ems_ab_proxy_generator_dll/). Property tag: 0x810F001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_PUBLIC_DELEGATES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_public_delegates/) | Contains a list of mail users who are allowed to send email on behalf of the mailbox owner. Canonical name: PidTagAddressBookPublicDelegates. Property tag: 0x8015000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_PUBLIC_DELEGATES_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_public_delegates_bl/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8110101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_PUBLIC_DELEGATES_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_public_delegates_bl_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8110000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_PUBLIC_DELEGATES_T](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_public_delegates_t/) | The tag of the PR_EMS_AB_PUBLIC_DELEGATES_T MAPI property. Property tag: 0x8015001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_PUBLIC_DELEGATES_T_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_public_delegates_t_a/) | The ANSI form of [`PR_EMS_AB_PUBLIC_DELEGATES_T`](./pr_ems_ab_public_delegates_t/). Property tag: 0x8015001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_PUBLIC_DELEGATES_T_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_public_delegates_t_w/) | The Unicode form of [`PR_EMS_AB_PUBLIC_DELEGATES_T`](./pr_ems_ab_public_delegates_t/). Property tag: 0x8015001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_P_SELECTOR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_p_selector/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81060102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_P_SELECTOR_INBOUND](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_p_selector_inbound/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81070102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_QUOTA_NOTIFICATION_SCHEDULE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_quota_notification_schedule/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81110102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_QUOTA_NOTIFICATION_STYLE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_quota_notification_style/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81120003 (PT_LONG). |
+| static readonly [PR_EMS_AB_RANGE_LOWER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_range_lower/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81130003 (PT_LONG). |
+| static readonly [PR_EMS_AB_RANGE_UPPER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_range_upper/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81140003 (PT_LONG). |
+| static readonly [PR_EMS_AB_RAS_ACCOUNT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_account/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81AD001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_RAS_ACCOUNT_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_account_a/) | The ANSI form of [`PR_EMS_AB_RAS_ACCOUNT`](./pr_ems_ab_ras_account/). Property tag: 0x81AD001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_RAS_ACCOUNT_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_account_w/) | The Unicode form of [`PR_EMS_AB_RAS_ACCOUNT`](./pr_ems_ab_ras_account/). Property tag: 0x81AD001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_RAS_CALLBACK_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_callback_number/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8115001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_RAS_CALLBACK_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_callback_number_a/) | The ANSI form of [`PR_EMS_AB_RAS_CALLBACK_NUMBER`](./pr_ems_ab_ras_callback_number/). Property tag: 0x8115001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_RAS_CALLBACK_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_callback_number_w/) | The Unicode form of [`PR_EMS_AB_RAS_CALLBACK_NUMBER`](./pr_ems_ab_ras_callback_number/). Property tag: 0x8115001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_RAS_PASSWORD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_password/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81AE0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_RAS_PHONEBOOK_ENTRY_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_phonebook_entry_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8117001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_RAS_PHONEBOOK_ENTRY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_phonebook_entry_name_a/) | The ANSI form of [`PR_EMS_AB_RAS_PHONEBOOK_ENTRY_NAME`](./pr_ems_ab_ras_phonebook_entry_name/). Property tag: 0x8117001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_RAS_PHONEBOOK_ENTRY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_phonebook_entry_name_w/) | The Unicode form of [`PR_EMS_AB_RAS_PHONEBOOK_ENTRY_NAME`](./pr_ems_ab_ras_phonebook_entry_name/). Property tag: 0x8117001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_RAS_PHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_phone_number/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8116001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_RAS_PHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_phone_number_a/) | The ANSI form of [`PR_EMS_AB_RAS_PHONE_NUMBER`](./pr_ems_ab_ras_phone_number/). Property tag: 0x8116001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_RAS_PHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_phone_number_w/) | The Unicode form of [`PR_EMS_AB_RAS_PHONE_NUMBER`](./pr_ems_ab_ras_phone_number/). Property tag: 0x8116001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_RAS_REMOTE_SRVR_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_remote_srvr_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8118001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_RAS_REMOTE_SRVR_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_remote_srvr_name_a/) | The ANSI form of [`PR_EMS_AB_RAS_REMOTE_SRVR_NAME`](./pr_ems_ab_ras_remote_srvr_name/). Property tag: 0x8118001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_RAS_REMOTE_SRVR_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_ras_remote_srvr_name_w/) | The Unicode form of [`PR_EMS_AB_RAS_REMOTE_SRVR_NAME`](./pr_ems_ab_ras_remote_srvr_name/). Property tag: 0x8118001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_REFERRAL_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_referral_list/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81A3101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_REGISTERED_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_registered_address/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81191102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_REMOTE_BRIDGE_HEAD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_bridge_head/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x811A001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_REMOTE_BRIDGE_HEAD_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_bridge_head_a/) | The ANSI form of [`PR_EMS_AB_REMOTE_BRIDGE_HEAD`](./pr_ems_ab_remote_bridge_head/). Property tag: 0x811A001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_REMOTE_BRIDGE_HEAD_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_bridge_head_address/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x811B001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_REMOTE_BRIDGE_HEAD_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_bridge_head_address_a/) | The ANSI form of [`PR_EMS_AB_REMOTE_BRIDGE_HEAD_ADDRESS`](./pr_ems_ab_remote_bridge_head_address/). Property tag: 0x811B001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_REMOTE_BRIDGE_HEAD_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_bridge_head_address_w/) | The Unicode form of [`PR_EMS_AB_REMOTE_BRIDGE_HEAD_ADDRESS`](./pr_ems_ab_remote_bridge_head_address/). Property tag: 0x811B001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_REMOTE_BRIDGE_HEAD_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_bridge_head_w/) | The Unicode form of [`PR_EMS_AB_REMOTE_BRIDGE_HEAD`](./pr_ems_ab_remote_bridge_head/). Property tag: 0x811A001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_REMOTE_OUT_BH_SERVER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_out_bh_server/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x811C001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_REMOTE_OUT_BH_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_out_bh_server_a/) | The ANSI form of [`PR_EMS_AB_REMOTE_OUT_BH_SERVER`](./pr_ems_ab_remote_out_bh_server/). Property tag: 0x811C001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_REMOTE_OUT_BH_SERVER_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_out_bh_server_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x811C000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_REMOTE_OUT_BH_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_out_bh_server_w/) | The Unicode form of [`PR_EMS_AB_REMOTE_OUT_BH_SERVER`](./pr_ems_ab_remote_out_bh_server/). Property tag: 0x811C001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_REMOTE_SITE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_site/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x811D001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_REMOTE_SITE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_site_a/) | The ANSI form of [`PR_EMS_AB_REMOTE_SITE`](./pr_ems_ab_remote_site/). Property tag: 0x811D001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_REMOTE_SITE_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_site_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x811D000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_REMOTE_SITE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_site_w/) | The Unicode form of [`PR_EMS_AB_REMOTE_SITE`](./pr_ems_ab_remote_site/). Property tag: 0x811D001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_REPLICATED_OBJECT_VERSION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_replicated_object_version/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C620003 (PT_LONG). |
+| static readonly [PR_EMS_AB_REPLICATION_MAIL_MSG_SIZE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_replication_mail_msg_size/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81680003 (PT_LONG). |
+| static readonly [PR_EMS_AB_REPLICATION_SENSITIVITY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_replication_sensitivity/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x811E0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_REPLICATION_STAGGER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_replication_stagger/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x811F0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_REPORTS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_reports/) | Lists all of the mail user's direct reports. Canonical name: PidTagAddressBookReports. Property tag: 0x800E000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_REPORTS_T](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_reports_t/) | The tag of the PR_EMS_AB_REPORTS_T MAPI property. Property tag: 0x800E000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_REPORT_TO_ORIGINATOR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_report_to_originator/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8120000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_REPORT_TO_OWNER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_report_to_owner/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8121000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_REQUIRE_SSL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_require_ssl/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C25000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_REQ_SEQ](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_req_seq/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81220003 (PT_LONG). |
+| static readonly [PR_EMS_AB_RESPONSIBLE_LOCAL_DXA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_responsible_local_dxa/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8123001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_RESPONSIBLE_LOCAL_DXA_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_responsible_local_dxa_a/) | The ANSI form of [`PR_EMS_AB_RESPONSIBLE_LOCAL_DXA`](./pr_ems_ab_responsible_local_dxa/). Property tag: 0x8123001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_RESPONSIBLE_LOCAL_DXA_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_responsible_local_dxa_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8123000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_RESPONSIBLE_LOCAL_DXA_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_responsible_local_dxa_w/) | The Unicode form of [`PR_EMS_AB_RESPONSIBLE_LOCAL_DXA`](./pr_ems_ab_responsible_local_dxa/). Property tag: 0x8123001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_RETURN_EXACT_MSG_SIZE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_return_exact_msg_size/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C52000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_RID_SERVER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_rid_server/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8124001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_RID_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_rid_server_a/) | The ANSI form of [`PR_EMS_AB_RID_SERVER`](./pr_ems_ab_rid_server/). Property tag: 0x8124001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_RID_SERVER_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_rid_server_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8124000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_RID_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_rid_server_w/) | The Unicode form of [`PR_EMS_AB_RID_SERVER`](./pr_ems_ab_rid_server/). Property tag: 0x8124001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_ROLE_OCCUPANT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_role_occupant/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8125101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_ROLE_OCCUPANT_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_role_occupant_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8125000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_ROOT_NEWSGROUPS_FOLDER_ID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_root_newsgroups_folder_id/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81B20102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_ROUTING_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_routing_list/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8126101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_RTS_CHECKPOINT_SIZE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_rts_checkpoint_size/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81270003 (PT_LONG). |
+| static readonly [PR_EMS_AB_RTS_RECOVERY_TIMEOUT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_rts_recovery_timeout/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81280003 (PT_LONG). |
+| static readonly [PR_EMS_AB_RTS_WINDOW_SIZE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_rts_window_size/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81290003 (PT_LONG). |
+| static readonly [PR_EMS_AB_RUNS_ON](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_runs_on/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x812A101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_RUNS_ON_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_runs_on_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x812A000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_SCHEMA_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_schema_flags/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81730003 (PT_LONG). |
+| static readonly [PR_EMS_AB_SCHEMA_VERSION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_schema_version/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x817C1003 (PT_MV_LONG). |
+| static readonly [PR_EMS_AB_SEARCH_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_search_flags/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x812D0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_SEARCH_GUIDE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_search_guide/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x812E1102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_SECURITY_POLICY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_security_policy/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C471102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_SECURITY_PROTOCOL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_security_protocol/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80371102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_SEE_ALSO](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_see_also/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x812F101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_SEE_ALSO_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_see_also_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x812F000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_SEND_EMAIL_MESSAGE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_send_email_message/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C31000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_SEND_TNEF](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_send_tnef/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8191000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_SERIAL_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_serial_number/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8130101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_SERVER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_server/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0xFFFE001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_server_a/) | The ANSI form of [`PR_EMS_AB_SERVER`](./pr_ems_ab_server/). Property tag: 0xFFFE001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_server_w/) | The Unicode form of [`PR_EMS_AB_SERVER`](./pr_ems_ab_server/). Property tag: 0xFFFE001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_SERVICE_ACTION_FIRST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_service_action_first/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81310003 (PT_LONG). |
+| static readonly [PR_EMS_AB_SERVICE_ACTION_OTHER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_service_action_other/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81320003 (PT_LONG). |
+| static readonly [PR_EMS_AB_SERVICE_ACTION_SECOND](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_service_action_second/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81330003 (PT_LONG). |
+| static readonly [PR_EMS_AB_SERVICE_RESTART_DELAY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_service_restart_delay/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81340003 (PT_LONG). |
+| static readonly [PR_EMS_AB_SERVICE_RESTART_MESSAGE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_service_restart_message/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8135001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_SERVICE_RESTART_MESSAGE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_service_restart_message_a/) | The ANSI form of [`PR_EMS_AB_SERVICE_RESTART_MESSAGE`](./pr_ems_ab_service_restart_message/). Property tag: 0x8135001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_SERVICE_RESTART_MESSAGE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_service_restart_message_w/) | The Unicode form of [`PR_EMS_AB_SERVICE_RESTART_MESSAGE`](./pr_ems_ab_service_restart_message/). Property tag: 0x8135001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_SESSION_DISCONNECT_TIMER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_session_disconnect_timer/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81360003 (PT_LONG). |
+| static readonly [PR_EMS_AB_SITE_AFFINITY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_site_affinity/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8137101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_SITE_FOLDER_GUID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_site_folder_guid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81660102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_SITE_FOLDER_SERVER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_site_folder_server/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8167001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_SITE_FOLDER_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_site_folder_server_a/) | The ANSI form of [`PR_EMS_AB_SITE_FOLDER_SERVER`](./pr_ems_ab_site_folder_server/). Property tag: 0x8167001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_SITE_FOLDER_SERVER_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_site_folder_server_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8167000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_SITE_FOLDER_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_site_folder_server_w/) | The Unicode form of [`PR_EMS_AB_SITE_FOLDER_SERVER`](./pr_ems_ab_site_folder_server/). Property tag: 0x8167001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_SITE_PROXY_SPACE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_site_proxy_space/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8138101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_SMIME_ALG_LIST_NA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_smime_alg_list_na/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C33101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_SMIME_ALG_LIST_OTHER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_smime_alg_list_other/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C34101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_SMIME_ALG_SELECTED_NA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_smime_alg_selected_na/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C35001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_SMIME_ALG_SELECTED_NA_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_smime_alg_selected_na_a/) | The ANSI form of [`PR_EMS_AB_SMIME_ALG_SELECTED_NA`](./pr_ems_ab_smime_alg_selected_na/). Property tag: 0x8C35001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_SMIME_ALG_SELECTED_NA_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_smime_alg_selected_na_w/) | The Unicode form of [`PR_EMS_AB_SMIME_ALG_SELECTED_NA`](./pr_ems_ab_smime_alg_selected_na/). Property tag: 0x8C35001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_SMIME_ALG_SELECTED_OTHER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_smime_alg_selected_other/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C36001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_SMIME_ALG_SELECTED_OTHER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_smime_alg_selected_other_a/) | The ANSI form of [`PR_EMS_AB_SMIME_ALG_SELECTED_OTHER`](./pr_ems_ab_smime_alg_selected_other/). Property tag: 0x8C36001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_SMIME_ALG_SELECTED_OTHER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_smime_alg_selected_other_w/) | The Unicode form of [`PR_EMS_AB_SMIME_ALG_SELECTED_OTHER`](./pr_ems_ab_smime_alg_selected_other/). Property tag: 0x8C36001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_SPACE_LAST_COMPUTED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_space_last_computed/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81390040 (PT_SYSTIME). |
+| static readonly [PR_EMS_AB_STREET_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_street_address/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x813A001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_STREET_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_street_address_a/) | The ANSI form of [`PR_EMS_AB_STREET_ADDRESS`](./pr_ems_ab_street_address/). Property tag: 0x813A001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_STREET_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_street_address_w/) | The Unicode form of [`PR_EMS_AB_STREET_ADDRESS`](./pr_ems_ab_street_address/). Property tag: 0x813A001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_SUBMISSION_CONT_LENGTH](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_submission_cont_length/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x813C0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_SUB_REFS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_sub_refs/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x813B101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_SUB_REFS_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_sub_refs_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x813B000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_SUB_SITE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_sub_site/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x817B001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_SUB_SITE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_sub_site_a/) | The ANSI form of [`PR_EMS_AB_SUB_SITE`](./pr_ems_ab_sub_site/). Property tag: 0x817B001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_SUB_SITE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_sub_site_w/) | The Unicode form of [`PR_EMS_AB_SUB_SITE`](./pr_ems_ab_sub_site/). Property tag: 0x817B001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_SUPPORTED_ALGORITHMS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_supported_algorithms/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C550102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_SUPPORTED_APPLICATION_CONTEXT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_supported_application_context/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x813D1102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_SUPPORTING_STACK](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_supporting_stack/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x813E101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_SUPPORTING_STACK_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_supporting_stack_bl/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x813F101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_SUPPORTING_STACK_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_supporting_stack_bl_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x813F000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_SUPPORTING_STACK_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_supporting_stack_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x813E000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_SUPPORT_SMIME_SIGNATURES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_support_smime_signatures/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C48000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_S_SELECTOR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_s_selector/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x812B0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_S_SELECTOR_INBOUND](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_s_selector_inbound/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x812C0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_TAGGED_X509_CERT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_tagged_x509_cert/) | The tag of the PR_EMS_AB_TAGGED_X509_CERT MAPI property. Property tag: 0x8C6A1102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_TARGET_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_target_address/) | Contains the foreign system email address of an Address Book object. Canonical name: PidTagAddressBookTargetAddress. Property tag: 0x8011001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_TARGET_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_target_address_a/) | The ANSI form of [`PR_EMS_AB_TARGET_ADDRESS`](./pr_ems_ab_target_address/). Property tag: 0x8011001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_TARGET_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_target_address_w/) | The Unicode form of [`PR_EMS_AB_TARGET_ADDRESS`](./pr_ems_ab_target_address/). Property tag: 0x8011001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_TARGET_MTAS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_target_mtas/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8142101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_telephone_number/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8012101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_TELEPHONE_PERSONAL_PAGER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_telephone_personal_pager/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C68001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_TELEPHONE_PERSONAL_PAGER_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_telephone_personal_pager_a/) | The ANSI form of [`PR_EMS_AB_TELEPHONE_PERSONAL_PAGER`](./pr_ems_ab_telephone_personal_pager/). Property tag: 0x8C68001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_TELEPHONE_PERSONAL_PAGER_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_telephone_personal_pager_w/) | The Unicode form of [`PR_EMS_AB_TELEPHONE_PERSONAL_PAGER`](./pr_ems_ab_telephone_personal_pager/). Property tag: 0x8C68001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_TELETEX_TERMINAL_IDENTIFIER](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_teletex_terminal_identifier/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81431102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_TEMP_ASSOC_THRESHOLD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_temp_assoc_threshold/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81440003 (PT_LONG). |
+| static readonly [PR_EMS_AB_TOMBSTONE_LIFETIME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_tombstone_lifetime/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81450003 (PT_LONG). |
+| static readonly [PR_EMS_AB_TRACKING_LOG_PATH_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_tracking_log_path_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8146001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_TRACKING_LOG_PATH_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_tracking_log_path_name_a/) | The ANSI form of [`PR_EMS_AB_TRACKING_LOG_PATH_NAME`](./pr_ems_ab_tracking_log_path_name/). Property tag: 0x8146001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_TRACKING_LOG_PATH_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_tracking_log_path_name_w/) | The Unicode form of [`PR_EMS_AB_TRACKING_LOG_PATH_NAME`](./pr_ems_ab_tracking_log_path_name/). Property tag: 0x8146001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_TRANSFER_RETRY_INTERVAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_transfer_retry_interval/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81490003 (PT_LONG). |
+| static readonly [PR_EMS_AB_TRANSFER_TIMEOUT_NON_URGENT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_transfer_timeout_non_urgent/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x814A0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_TRANSFER_TIMEOUT_NORMAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_transfer_timeout_normal/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x814B0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_TRANSFER_TIMEOUT_URGENT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_transfer_timeout_urgent/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x814C0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_TRANSLATION_TABLE_USED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_translation_table_used/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x814D0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_TRANSPORT_EXPEDITED_DATA](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_transport_expedited_data/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x814E000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_TRANS_RETRY_MINS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_trans_retry_mins/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81470003 (PT_LONG). |
+| static readonly [PR_EMS_AB_TRANS_TIMEOUT_MINS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_trans_timeout_mins/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81480003 (PT_LONG). |
+| static readonly [PR_EMS_AB_TRUST_LEVEL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_trust_level/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x814F0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_TURN_REQUEST_THRESHOLD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_turn_request_threshold/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81500003 (PT_LONG). |
+| static readonly [PR_EMS_AB_TWO_WAY_ALTERNATE_FACILITY](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_two_way_alternate_facility/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8151000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C38001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_TYPE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_type_a/) | The ANSI form of [`PR_EMS_AB_TYPE`](./pr_ems_ab_type/). Property tag: 0x8C38001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_TYPE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_type_w/) | The Unicode form of [`PR_EMS_AB_TYPE`](./pr_ems_ab_type/). Property tag: 0x8C38001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_T_SELECTOR](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_t_selector/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81400102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_T_SELECTOR_INBOUND](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_t_selector_inbound/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81410102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_UNAUTH_ORIG_BL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_unauth_orig_bl/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8152101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_UNAUTH_ORIG_BL_O](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_unauth_orig_bl_o/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8152000D (PT_OBJECT). |
+| static readonly [PR_EMS_AB_USENET_SITE_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_usenet_site_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8189001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_USENET_SITE_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_usenet_site_name_a/) | The ANSI form of [`PR_EMS_AB_USENET_SITE_NAME`](./pr_ems_ab_usenet_site_name/). Property tag: 0x8189001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_USENET_SITE_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_usenet_site_name_w/) | The Unicode form of [`PR_EMS_AB_USENET_SITE_NAME`](./pr_ems_ab_usenet_site_name/). Property tag: 0x8189001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_USER_PASSWORD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_user_password/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81531102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_USE_SERVER_VALUES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_use_server_values/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x817E000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_USE_SITE_VALUES](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_use_site_values/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8183000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_USN_CHANGED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_usn_changed/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x80290003 (PT_LONG). |
+| static readonly [PR_EMS_AB_USN_CREATED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_usn_created/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81540003 (PT_LONG). |
+| static readonly [PR_EMS_AB_USN_DSA_LAST_OBJ_REMOVED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_usn_dsa_last_obj_removed/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81550003 (PT_LONG). |
+| static readonly [PR_EMS_AB_USN_INTERSITE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_usn_intersite/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x817A0003 (PT_LONG). |
+| static readonly [PR_EMS_AB_USN_LAST_OBJ_REM](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_usn_last_obj_rem/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81560003 (PT_LONG). |
+| static readonly [PR_EMS_AB_USN_SOURCE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_usn_source/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81570003 (PT_LONG). |
+| static readonly [PR_EMS_AB_VIEW_CONTAINER_1](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_container_1/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81BF001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_VIEW_CONTAINER_1_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_container_1_a/) | The ANSI form of [`PR_EMS_AB_VIEW_CONTAINER_1`](./pr_ems_ab_view_container_1/). Property tag: 0x81BF001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_VIEW_CONTAINER_1_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_container_1_w/) | The Unicode form of [`PR_EMS_AB_VIEW_CONTAINER_1`](./pr_ems_ab_view_container_1/). Property tag: 0x81BF001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_VIEW_CONTAINER_2](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_container_2/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81C0001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_VIEW_CONTAINER_2_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_container_2_a/) | The ANSI form of [`PR_EMS_AB_VIEW_CONTAINER_2`](./pr_ems_ab_view_container_2/). Property tag: 0x81C0001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_VIEW_CONTAINER_2_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_container_2_w/) | The Unicode form of [`PR_EMS_AB_VIEW_CONTAINER_2`](./pr_ems_ab_view_container_2/). Property tag: 0x81C0001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_VIEW_CONTAINER_3](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_container_3/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81C1001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_VIEW_CONTAINER_3_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_container_3_a/) | The ANSI form of [`PR_EMS_AB_VIEW_CONTAINER_3`](./pr_ems_ab_view_container_3/). Property tag: 0x81C1001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_VIEW_CONTAINER_3_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_container_3_w/) | The Unicode form of [`PR_EMS_AB_VIEW_CONTAINER_3`](./pr_ems_ab_view_container_3/). Property tag: 0x81C1001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_VIEW_DEFINITION](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_definition/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C1B1102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_VIEW_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_flags/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C180003 (PT_LONG). |
+| static readonly [PR_EMS_AB_VIEW_SITE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_site/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81BE001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_VIEW_SITE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_site_a/) | The ANSI form of [`PR_EMS_AB_VIEW_SITE`](./pr_ems_ab_view_site/). Property tag: 0x81BE001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_VIEW_SITE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_view_site_w/) | The Unicode form of [`PR_EMS_AB_VIEW_SITE`](./pr_ems_ab_view_site/). Property tag: 0x81BE001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_VOICE_MAIL_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_flags/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C401102 (PT_MV_BINARY). |
+| static readonly [PR_EMS_AB_VOICE_MAIL_GREETINGS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_greetings/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C3F101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_VOICE_MAIL_PASSWORD](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_password/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C3D001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_VOICE_MAIL_PASSWORD_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_password_a/) | The ANSI form of [`PR_EMS_AB_VOICE_MAIL_PASSWORD`](./pr_ems_ab_voice_mail_password/). Property tag: 0x8C3D001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_VOICE_MAIL_PASSWORD_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_password_w/) | The Unicode form of [`PR_EMS_AB_VOICE_MAIL_PASSWORD`](./pr_ems_ab_voice_mail_password/). Property tag: 0x8C3D001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_VOICE_MAIL_RECORDED_NAME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_recorded_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C3E0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_VOICE_MAIL_RECORDING_LENGTH](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_recording_length/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C431003 (PT_MV_LONG). |
+| static readonly [PR_EMS_AB_VOICE_MAIL_SPEED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_speed/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C420003 (PT_LONG). |
+| static readonly [PR_EMS_AB_VOICE_MAIL_SYSTEM_GUID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_system_guid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C3B0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_VOICE_MAIL_USER_ID](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_user_id/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C3C001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_VOICE_MAIL_USER_ID_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_user_id_a/) | The ANSI form of [`PR_EMS_AB_VOICE_MAIL_USER_ID`](./pr_ems_ab_voice_mail_user_id/). Property tag: 0x8C3C001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_VOICE_MAIL_USER_ID_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_user_id_w/) | The Unicode form of [`PR_EMS_AB_VOICE_MAIL_USER_ID`](./pr_ems_ab_voice_mail_user_id/). Property tag: 0x8C3C001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_VOICE_MAIL_VOLUME](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_volume/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C410003 (PT_LONG). |
+| static readonly [PR_EMS_AB_WWW_HOME_PAGE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_www_home_page/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8175001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_WWW_HOME_PAGE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_www_home_page_a/) | The ANSI form of [`PR_EMS_AB_WWW_HOME_PAGE`](./pr_ems_ab_www_home_page/). Property tag: 0x8175001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_WWW_HOME_PAGE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_www_home_page_w/) | The Unicode form of [`PR_EMS_AB_WWW_HOME_PAGE`](./pr_ems_ab_www_home_page/). Property tag: 0x8175001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_X121_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x121_address/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8158101E (PT_MV_STRING8). |
+| static readonly [PR_EMS_AB_X25_CALL_USER_DATA_INCOMING](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x25_call_user_data_incoming/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81590102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_X25_CALL_USER_DATA_OUTGOING](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x25_call_user_data_outgoing/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x815A0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_X25_FACILITIES_DATA_INCOMING](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x25_facilities_data_incoming/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x815B0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_X25_FACILITIES_DATA_OUTGOING](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x25_facilities_data_outgoing/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x815C0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_X25_LEASED_LINE_PORT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x25_leased_line_port/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x815D0102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_X25_LEASED_OR_SWITCHED](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x25_leased_or_switched/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x815E000B (PT_BOOLEAN). |
+| static readonly [PR_EMS_AB_X25_REMOTE_MTA_PHONE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x25_remote_mta_phone/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x815F001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_X25_REMOTE_MTA_PHONE_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x25_remote_mta_phone_a/) | The ANSI form of [`PR_EMS_AB_X25_REMOTE_MTA_PHONE`](./pr_ems_ab_x25_remote_mta_phone/). Property tag: 0x815F001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_X25_REMOTE_MTA_PHONE_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x25_remote_mta_phone_w/) | The Unicode form of [`PR_EMS_AB_X25_REMOTE_MTA_PHONE`](./pr_ems_ab_x25_remote_mta_phone/). Property tag: 0x815F001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_X400_ATTACHMENT_TYPE](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x400_attachment_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81600102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_X400_SELECTOR_SYNTAX](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x400_selector_syntax/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81610003 (PT_LONG). |
+| static readonly [PR_EMS_AB_X500_ACCESS_CONTROL_LIST](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x500_access_control_list/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81620102 (PT_BINARY). |
+| static readonly [PR_EMS_AB_X500_NC](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x500_nc/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81A2001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_X500_NC_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x500_nc_a/) | The ANSI form of [`PR_EMS_AB_X500_NC`](./pr_ems_ab_x500_nc/). Property tag: 0x81A2001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_X500_NC_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x500_nc_w/) | The Unicode form of [`PR_EMS_AB_X500_NC`](./pr_ems_ab_x500_nc/). Property tag: 0x81A2001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_X500_RDN](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x500_rdn/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81A1001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_X500_RDN_A](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x500_rdn_a/) | The ANSI form of [`PR_EMS_AB_X500_RDN`](./pr_ems_ab_x500_rdn/). Property tag: 0x81A1001E (PT_STRING8). |
+| static readonly [PR_EMS_AB_X500_RDN_W](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_x500_rdn_w/) | The Unicode form of [`PR_EMS_AB_X500_RDN`](./pr_ems_ab_x500_rdn/). Property tag: 0x81A1001F (PT_UNICODE). |
+| static readonly [PR_EMS_AB_XMIT_TIMEOUT_NON_URGENT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_xmit_timeout_non_urgent/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81630003 (PT_LONG). |
+| static readonly [PR_EMS_AB_XMIT_TIMEOUT_NORMAL](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_xmit_timeout_normal/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81640003 (PT_LONG). |
+| static readonly [PR_EMS_AB_XMIT_TIMEOUT_URGENT](../../aspose.email.mapi/mapipropertytag/pr_ems_ab_xmit_timeout_urgent/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81650003 (PT_LONG). |
+| static readonly [PR_END_DATE](../../aspose.email.mapi/mapipropertytag/pr_end_date/) | Contains the value of the PidLidAppointmentEndWhole property (section 2.14). Canonical name: PidTagEndDate. Property tag: 0x00610040 (PT_SYSTIME). |
+| static readonly [PR_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_entryid/) | Contains the information to identify many different types of messaging objects. Canonical name: PidTagEntryId. Property tag: 0x0FFF0102 (PT_BINARY). |
+| static readonly [PR_EVENTS_ROOT_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_events_root_folder_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x668A0102 (PT_BINARY). |
 | static readonly [PR_EXCEPTION_ENDTIME](../../aspose.email.mapi/mapipropertytag/pr_exception_endtime/) | Contains the end date and time of the exception in the local time zone of the computer when the exception is created. |
 | static readonly [PR_EXCEPTION_REPLACETIME](../../aspose.email.mapi/mapipropertytag/pr_exception_replacetime/) | Indicates the original date and time, in UTC, at which the instance in the recurrence pattern would have occurred if it were not an exception. |
 | static readonly [PR_EXCEPTION_STARTTIME](../../aspose.email.mapi/mapipropertytag/pr_exception_starttime/) | Contains the start date and time of the exception in the local time zone of the computer when the exception is created. |
-| static readonly [PR_EXCESS_STORAGE_USED](../../aspose.email.mapi/mapipropertytag/pr_excess_storage_used/) |  |
-| static readonly [PR_EXPIRY_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_expiry_number/) |  |
-| static readonly [PR_EXPIRY_TIME](../../aspose.email.mapi/mapipropertytag/pr_expiry_time/) |  |
-| static readonly [PR_EXPIRY_UNITS](../../aspose.email.mapi/mapipropertytag/pr_expiry_units/) |  |
-| static readonly [PR_EXPLICIT_CONVERSION](../../aspose.email.mapi/mapipropertytag/pr_explicit_conversion/) |  |
-| static readonly [PR_EXTENDED_ACL_DATA](../../aspose.email.mapi/mapipropertytag/pr_extended_acl_data/) |  |
-| static readonly [PR_FAST_TRANSFER](../../aspose.email.mapi/mapipropertytag/pr_fast_transfer/) |  |
-| static readonly [PR_FAVORITES_DEFAULT_NAME](../../aspose.email.mapi/mapipropertytag/pr_favorites_default_name/) |  |
-| static readonly [PR_FAVORITES_DEFAULT_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_favorites_default_name_a/) |  |
-| static readonly [PR_FAVORITES_DEFAULT_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_favorites_default_name_w/) |  |
-| static readonly [PR_FILTERING_HOOKS](../../aspose.email.mapi/mapipropertytag/pr_filtering_hooks/) |  |
-| static readonly [PR_FINDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_finder_entryid/) |  |
+| static readonly [PR_EXCESS_STORAGE_USED](../../aspose.email.mapi/mapipropertytag/pr_excess_storage_used/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FF60003 (PT_LONG). |
+| static readonly [PR_EXPIRY_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_expiry_number/) | Contains an integer value that is used along with the PidTagExpiryUnits property (section 2.681) to define the expiry send time. Canonical name: PidTagExpiryNumber. Property tag: 0x3FED0003 (PT_LONG). |
+| static readonly [PR_EXPIRY_TIME](../../aspose.email.mapi/mapipropertytag/pr_expiry_time/) | Contains the time, in UTC, after which a client wants to receive an expiry event if the message arrives late. Canonical name: PidTagExpiryTime. Property tag: 0x00150040 (PT_SYSTIME). |
+| static readonly [PR_EXPIRY_UNITS](../../aspose.email.mapi/mapipropertytag/pr_expiry_units/) | Contains the unit of time that the value of the PidTagExpiryNumber property (section 2.679) multiplies. Canonical name: PidTagExpiryUnits. Property tag: 0x3FEE0003 (PT_LONG). |
+| static readonly [PR_EXPLICIT_CONVERSION](../../aspose.email.mapi/mapipropertytag/pr_explicit_conversion/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C010003 (PT_LONG). |
+| static readonly [PR_EXTENDED_ACL_DATA](../../aspose.email.mapi/mapipropertytag/pr_extended_acl_data/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FFE0102 (PT_BINARY). |
+| static readonly [PR_FAST_TRANSFER](../../aspose.email.mapi/mapipropertytag/pr_fast_transfer/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x662F000D (PT_OBJECT). |
+| static readonly [PR_FAVORITES_DEFAULT_NAME](../../aspose.email.mapi/mapipropertytag/pr_favorites_default_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6635001E (PT_STRING8). |
+| static readonly [PR_FAVORITES_DEFAULT_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_favorites_default_name_a/) | The ANSI form of [`PR_FAVORITES_DEFAULT_NAME`](./pr_favorites_default_name/). Property tag: 0x6635001E (PT_STRING8). |
+| static readonly [PR_FAVORITES_DEFAULT_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_favorites_default_name_w/) | The Unicode form of [`PR_FAVORITES_DEFAULT_NAME`](./pr_favorites_default_name/). Property tag: 0x6635001F (PT_UNICODE). |
+| static readonly [PR_FILTERING_HOOKS](../../aspose.email.mapi/mapipropertytag/pr_filtering_hooks/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3D080102 (PT_BINARY). |
+| static readonly [PR_FINDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_finder_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x35E70102 (PT_BINARY). |
 | static readonly [PR_FLAG_COMPLETE_TIME](../../aspose.email.mapi/mapipropertytag/pr_flag_complete_time/) | Specifies the date and time in Coordinated Universal Time (UTC) that the message object was flagged as completed. |
 | static readonly [PR_FLAG_ICON](../../aspose.email.mapi/mapipropertytag/pr_flag_icon/) | Specifies the flag icon of the message object. |
 | static readonly [PR_FLAG_STATUS](../../aspose.email.mapi/mapipropertytag/pr_flag_status/) | Specifies the flag state of the message object. |
-| static readonly [PR_FOLDER_ASSOCIATED_CONTENTS](../../aspose.email.mapi/mapipropertytag/pr_folder_associated_contents/) |  |
-| static readonly [PR_FOLDER_CHILD_COUNT](../../aspose.email.mapi/mapipropertytag/pr_folder_child_count/) |  |
-| static readonly [PR_FOLDER_DESIGN_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_folder_design_flags/) |  |
-| static readonly [PR_FOLDER_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_folder_flags/) |  |
-| static readonly [PR_FOLDER_PATHNAME](../../aspose.email.mapi/mapipropertytag/pr_folder_pathname/) |  |
-| static readonly [PR_FOLDER_PATHNAME_A](../../aspose.email.mapi/mapipropertytag/pr_folder_pathname_a/) |  |
-| static readonly [PR_FOLDER_PATHNAME_W](../../aspose.email.mapi/mapipropertytag/pr_folder_pathname_w/) |  |
-| static readonly [PR_FOLDER_TYPE](../../aspose.email.mapi/mapipropertytag/pr_folder_type/) |  |
-| static readonly [PR_FOREIGN_ID](../../aspose.email.mapi/mapipropertytag/pr_foreign_id/) |  |
-| static readonly [PR_FOREIGN_REPORT_ID](../../aspose.email.mapi/mapipropertytag/pr_foreign_report_id/) |  |
-| static readonly [PR_FOREIGN_SUBJECT_ID](../../aspose.email.mapi/mapipropertytag/pr_foreign_subject_id/) |  |
-| static readonly [PR_FORM_CATEGORY](../../aspose.email.mapi/mapipropertytag/pr_form_category/) |  |
-| static readonly [PR_FORM_CATEGORY_A](../../aspose.email.mapi/mapipropertytag/pr_form_category_a/) |  |
-| static readonly [PR_FORM_CATEGORY_SUB](../../aspose.email.mapi/mapipropertytag/pr_form_category_sub/) |  |
-| static readonly [PR_FORM_CATEGORY_SUB_A](../../aspose.email.mapi/mapipropertytag/pr_form_category_sub_a/) |  |
-| static readonly [PR_FORM_CATEGORY_SUB_W](../../aspose.email.mapi/mapipropertytag/pr_form_category_sub_w/) |  |
-| static readonly [PR_FORM_CATEGORY_W](../../aspose.email.mapi/mapipropertytag/pr_form_category_w/) |  |
-| static readonly [PR_FORM_CLSID](../../aspose.email.mapi/mapipropertytag/pr_form_clsid/) |  |
-| static readonly [PR_FORM_CONTACT_NAME](../../aspose.email.mapi/mapipropertytag/pr_form_contact_name/) |  |
-| static readonly [PR_FORM_CONTACT_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_form_contact_name_a/) |  |
-| static readonly [PR_FORM_CONTACT_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_form_contact_name_w/) |  |
-| static readonly [PR_FORM_DESIGNER_GUID](../../aspose.email.mapi/mapipropertytag/pr_form_designer_guid/) |  |
-| static readonly [PR_FORM_DESIGNER_NAME](../../aspose.email.mapi/mapipropertytag/pr_form_designer_name/) |  |
-| static readonly [PR_FORM_DESIGNER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_form_designer_name_a/) |  |
-| static readonly [PR_FORM_DESIGNER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_form_designer_name_w/) |  |
-| static readonly [PR_FORM_HIDDEN](../../aspose.email.mapi/mapipropertytag/pr_form_hidden/) |  |
-| static readonly [PR_FORM_HOST_MAP](../../aspose.email.mapi/mapipropertytag/pr_form_host_map/) |  |
-| static readonly [PR_FORM_MESSAGE_BEHAVIOR](../../aspose.email.mapi/mapipropertytag/pr_form_message_behavior/) |  |
-| static readonly [PR_FORM_VERSION](../../aspose.email.mapi/mapipropertytag/pr_form_version/) |  |
-| static readonly [PR_FORM_VERSION_A](../../aspose.email.mapi/mapipropertytag/pr_form_version_a/) |  |
-| static readonly [PR_FORM_VERSION_W](../../aspose.email.mapi/mapipropertytag/pr_form_version_w/) |  |
-| static readonly [PR_FREE_BUSY_FOR_LOCAL_SITE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_free_busy_for_local_site_entryid/) |  |
-| static readonly [PR_FTP_SITE](../../aspose.email.mapi/mapipropertytag/pr_ftp_site/) |  |
-| static readonly [PR_FTP_SITE_A](../../aspose.email.mapi/mapipropertytag/pr_ftp_site_a/) |  |
-| static readonly [PR_FTP_SITE_W](../../aspose.email.mapi/mapipropertytag/pr_ftp_site_w/) |  |
-| static readonly [PR_GENDER](../../aspose.email.mapi/mapipropertytag/pr_gender/) |  |
-| static readonly [PR_GENERATION](../../aspose.email.mapi/mapipropertytag/pr_generation/) |  |
-| static readonly [PR_GENERATION_A](../../aspose.email.mapi/mapipropertytag/pr_generation_a/) |  |
-| static readonly [PR_GENERATION_W](../../aspose.email.mapi/mapipropertytag/pr_generation_w/) |  |
-| static readonly [PR_GIVEN_NAME](../../aspose.email.mapi/mapipropertytag/pr_given_name/) |  |
-| static readonly [PR_GIVEN_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_given_name_a/) |  |
-| static readonly [PR_GIVEN_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_given_name_w/) |  |
-| static readonly [PR_GOVERNMENT_ID_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_government_id_number/) |  |
-| static readonly [PR_GOVERNMENT_ID_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_government_id_number_a/) |  |
-| static readonly [PR_GOVERNMENT_ID_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_government_id_number_w/) |  |
-| static readonly [PR_GW_ADMIN_OPERATIONS](../../aspose.email.mapi/mapipropertytag/pr_gw_admin_operations/) |  |
-| static readonly [PR_GW_MTSIN_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_gw_mtsin_entryid/) |  |
-| static readonly [PR_GW_MTSOUT_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_gw_mtsout_entryid/) |  |
-| static readonly [PR_HASATTACH](../../aspose.email.mapi/mapipropertytag/pr_hasattach/) |  |
-| static readonly [PR_HAS_DAMS](../../aspose.email.mapi/mapipropertytag/pr_has_dams/) |  |
-| static readonly [PR_HAS_MODERATOR_RULES](../../aspose.email.mapi/mapipropertytag/pr_has_moderator_rules/) |  |
-| static readonly [PR_HAS_NAMED_PROPERTIES](../../aspose.email.mapi/mapipropertytag/pr_has_named_properties/) |  |
-| static readonly [PR_HAS_RULES](../../aspose.email.mapi/mapipropertytag/pr_has_rules/) |  |
-| static readonly [PR_HEADER_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_header_folder_entryid/) |  |
-| static readonly [PR_HIERARCHY_CHANGE_NUM](../../aspose.email.mapi/mapipropertytag/pr_hierarchy_change_num/) |  |
-| static readonly [PR_HIERARCHY_SERVER](../../aspose.email.mapi/mapipropertytag/pr_hierarchy_server/) |  |
-| static readonly [PR_HIERARCHY_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_hierarchy_server_a/) |  |
-| static readonly [PR_HIERARCHY_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_hierarchy_server_w/) |  |
-| static readonly [PR_HIERARCHY_SYNCHRONIZER](../../aspose.email.mapi/mapipropertytag/pr_hierarchy_synchronizer/) |  |
-| static readonly [PR_HOBBIES](../../aspose.email.mapi/mapipropertytag/pr_hobbies/) |  |
-| static readonly [PR_HOBBIES_A](../../aspose.email.mapi/mapipropertytag/pr_hobbies_a/) |  |
-| static readonly [PR_HOBBIES_W](../../aspose.email.mapi/mapipropertytag/pr_hobbies_w/) |  |
-| static readonly [PR_HOME2_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_home2_telephone_number/) |  |
-| static readonly [PR_HOME2_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_home2_telephone_number_a/) |  |
-| static readonly [PR_HOME2_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_home2_telephone_number_w/) |  |
-| static readonly [PR_HOME_ADDRESS_CITY](../../aspose.email.mapi/mapipropertytag/pr_home_address_city/) |  |
-| static readonly [PR_HOME_ADDRESS_CITY_A](../../aspose.email.mapi/mapipropertytag/pr_home_address_city_a/) |  |
-| static readonly [PR_HOME_ADDRESS_CITY_W](../../aspose.email.mapi/mapipropertytag/pr_home_address_city_w/) |  |
-| static readonly [PR_HOME_ADDRESS_COUNTRY](../../aspose.email.mapi/mapipropertytag/pr_home_address_country/) |  |
-| static readonly [PR_HOME_ADDRESS_COUNTRY_A](../../aspose.email.mapi/mapipropertytag/pr_home_address_country_a/) |  |
-| static readonly [PR_HOME_ADDRESS_COUNTRY_W](../../aspose.email.mapi/mapipropertytag/pr_home_address_country_w/) |  |
-| static readonly [PR_HOME_ADDRESS_POSTAL_CODE](../../aspose.email.mapi/mapipropertytag/pr_home_address_postal_code/) |  |
-| static readonly [PR_HOME_ADDRESS_POSTAL_CODE_A](../../aspose.email.mapi/mapipropertytag/pr_home_address_postal_code_a/) |  |
-| static readonly [PR_HOME_ADDRESS_POSTAL_CODE_W](../../aspose.email.mapi/mapipropertytag/pr_home_address_postal_code_w/) |  |
-| static readonly [PR_HOME_ADDRESS_POST_OFFICE_BOX](../../aspose.email.mapi/mapipropertytag/pr_home_address_post_office_box/) |  |
-| static readonly [PR_HOME_ADDRESS_POST_OFFICE_BOX_A](../../aspose.email.mapi/mapipropertytag/pr_home_address_post_office_box_a/) |  |
-| static readonly [PR_HOME_ADDRESS_POST_OFFICE_BOX_W](../../aspose.email.mapi/mapipropertytag/pr_home_address_post_office_box_w/) |  |
-| static readonly [PR_HOME_ADDRESS_STATE_OR_PROVINCE](../../aspose.email.mapi/mapipropertytag/pr_home_address_state_or_province/) |  |
-| static readonly [PR_HOME_ADDRESS_STATE_OR_PROVINCE_A](../../aspose.email.mapi/mapipropertytag/pr_home_address_state_or_province_a/) |  |
-| static readonly [PR_HOME_ADDRESS_STATE_OR_PROVINCE_W](../../aspose.email.mapi/mapipropertytag/pr_home_address_state_or_province_w/) |  |
-| static readonly [PR_HOME_ADDRESS_STREET](../../aspose.email.mapi/mapipropertytag/pr_home_address_street/) |  |
-| static readonly [PR_HOME_ADDRESS_STREET_A](../../aspose.email.mapi/mapipropertytag/pr_home_address_street_a/) |  |
-| static readonly [PR_HOME_ADDRESS_STREET_W](../../aspose.email.mapi/mapipropertytag/pr_home_address_street_w/) |  |
-| static readonly [PR_HOME_FAX_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_home_fax_number/) |  |
-| static readonly [PR_HOME_FAX_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_home_fax_number_a/) |  |
-| static readonly [PR_HOME_FAX_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_home_fax_number_w/) |  |
-| static readonly [PR_HOME_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_home_telephone_number/) |  |
-| static readonly [PR_HOME_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_home_telephone_number_a/) |  |
-| static readonly [PR_HOME_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_home_telephone_number_w/) |  |
-| static readonly [PR_HTML](../../aspose.email.mapi/mapipropertytag/pr_html/) |  |
-| static readonly [PR_ICON](../../aspose.email.mapi/mapipropertytag/pr_icon/) |  |
-| static readonly [PR_IDENTITY_DISPLAY](../../aspose.email.mapi/mapipropertytag/pr_identity_display/) |  |
-| static readonly [PR_IDENTITY_DISPLAY_A](../../aspose.email.mapi/mapipropertytag/pr_identity_display_a/) |  |
-| static readonly [PR_IDENTITY_DISPLAY_W](../../aspose.email.mapi/mapipropertytag/pr_identity_display_w/) |  |
-| static readonly [PR_IDENTITY_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_identity_entryid/) |  |
-| static readonly [PR_IDENTITY_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_identity_search_key/) |  |
-| static readonly [PR_IMAP_INTERNAL_DATE](../../aspose.email.mapi/mapipropertytag/pr_imap_internal_date/) |  |
-| static readonly [PR_IMPLICIT_CONVERSION_PROHIBITED](../../aspose.email.mapi/mapipropertytag/pr_implicit_conversion_prohibited/) |  |
-| static readonly [PR_IMPORTANCE](../../aspose.email.mapi/mapipropertytag/pr_importance/) |  |
-| static readonly [PR_INBOUND_NEWSFEED_DN](../../aspose.email.mapi/mapipropertytag/pr_inbound_newsfeed_dn/) |  |
-| static readonly [PR_INBOUND_NEWSFEED_DN_A](../../aspose.email.mapi/mapipropertytag/pr_inbound_newsfeed_dn_a/) |  |
-| static readonly [PR_INBOUND_NEWSFEED_DN_W](../../aspose.email.mapi/mapipropertytag/pr_inbound_newsfeed_dn_w/) |  |
-| static readonly [PR_INCOMPLETE_COPY](../../aspose.email.mapi/mapipropertytag/pr_incomplete_copy/) |  |
-| static readonly [PR_INITIALS](../../aspose.email.mapi/mapipropertytag/pr_initials/) |  |
-| static readonly [PR_INITIALS_A](../../aspose.email.mapi/mapipropertytag/pr_initials_a/) |  |
-| static readonly [PR_INITIALS_W](../../aspose.email.mapi/mapipropertytag/pr_initials_w/) |  |
-| static readonly [PR_INITIAL_DETAILS_PANE](../../aspose.email.mapi/mapipropertytag/pr_initial_details_pane/) |  |
-| static readonly [PR_INSTANCE_KEY](../../aspose.email.mapi/mapipropertytag/pr_instance_key/) |  |
-| static readonly [PR_INTERNAL_TRACE_INFO](../../aspose.email.mapi/mapipropertytag/pr_internal_trace_info/) |  |
-| static readonly [PR_INTERNET_APPROVED](../../aspose.email.mapi/mapipropertytag/pr_internet_approved/) |  |
-| static readonly [PR_INTERNET_APPROVED_A](../../aspose.email.mapi/mapipropertytag/pr_internet_approved_a/) |  |
-| static readonly [PR_INTERNET_APPROVED_W](../../aspose.email.mapi/mapipropertytag/pr_internet_approved_w/) |  |
-| static readonly [PR_INTERNET_ARTICLE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_internet_article_number/) |  |
-| static readonly [PR_INTERNET_CHARSET](../../aspose.email.mapi/mapipropertytag/pr_internet_charset/) |  |
-| static readonly [PR_INTERNET_CHARSET_A](../../aspose.email.mapi/mapipropertytag/pr_internet_charset_a/) |  |
-| static readonly [PR_INTERNET_CHARSET_W](../../aspose.email.mapi/mapipropertytag/pr_internet_charset_w/) |  |
-| static readonly [PR_INTERNET_CONTROL](../../aspose.email.mapi/mapipropertytag/pr_internet_control/) |  |
-| static readonly [PR_INTERNET_CONTROL_A](../../aspose.email.mapi/mapipropertytag/pr_internet_control_a/) |  |
-| static readonly [PR_INTERNET_CONTROL_W](../../aspose.email.mapi/mapipropertytag/pr_internet_control_w/) |  |
-| static readonly [PR_INTERNET_CPID](../../aspose.email.mapi/mapipropertytag/pr_internet_cpid/) |  |
-| static readonly [PR_INTERNET_DISTRIBUTION](../../aspose.email.mapi/mapipropertytag/pr_internet_distribution/) |  |
-| static readonly [PR_INTERNET_DISTRIBUTION_A](../../aspose.email.mapi/mapipropertytag/pr_internet_distribution_a/) |  |
-| static readonly [PR_INTERNET_DISTRIBUTION_W](../../aspose.email.mapi/mapipropertytag/pr_internet_distribution_w/) |  |
-| static readonly [PR_INTERNET_FOLLOWUP_TO](../../aspose.email.mapi/mapipropertytag/pr_internet_followup_to/) |  |
-| static readonly [PR_INTERNET_FOLLOWUP_TO_A](../../aspose.email.mapi/mapipropertytag/pr_internet_followup_to_a/) |  |
-| static readonly [PR_INTERNET_FOLLOWUP_TO_W](../../aspose.email.mapi/mapipropertytag/pr_internet_followup_to_w/) |  |
-| static readonly [PR_INTERNET_LINES](../../aspose.email.mapi/mapipropertytag/pr_internet_lines/) |  |
-| static readonly [PR_INTERNET_MESSAGE_ID](../../aspose.email.mapi/mapipropertytag/pr_internet_message_id/) |  |
-| static readonly [PR_INTERNET_MESSAGE_ID_A](../../aspose.email.mapi/mapipropertytag/pr_internet_message_id_a/) |  |
-| static readonly [PR_INTERNET_MESSAGE_ID_W](../../aspose.email.mapi/mapipropertytag/pr_internet_message_id_w/) |  |
-| static readonly [PR_INTERNET_NEWSGROUPS](../../aspose.email.mapi/mapipropertytag/pr_internet_newsgroups/) |  |
-| static readonly [PR_INTERNET_NEWSGROUPS_A](../../aspose.email.mapi/mapipropertytag/pr_internet_newsgroups_a/) |  |
-| static readonly [PR_INTERNET_NEWSGROUPS_W](../../aspose.email.mapi/mapipropertytag/pr_internet_newsgroups_w/) |  |
-| static readonly [PR_INTERNET_NEWSGROUP_NAME](../../aspose.email.mapi/mapipropertytag/pr_internet_newsgroup_name/) |  |
-| static readonly [PR_INTERNET_NEWSGROUP_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_internet_newsgroup_name_a/) |  |
-| static readonly [PR_INTERNET_NEWSGROUP_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_internet_newsgroup_name_w/) |  |
-| static readonly [PR_INTERNET_NNTP_PATH](../../aspose.email.mapi/mapipropertytag/pr_internet_nntp_path/) |  |
-| static readonly [PR_INTERNET_NNTP_PATH_A](../../aspose.email.mapi/mapipropertytag/pr_internet_nntp_path_a/) |  |
-| static readonly [PR_INTERNET_NNTP_PATH_W](../../aspose.email.mapi/mapipropertytag/pr_internet_nntp_path_w/) |  |
-| static readonly [PR_INTERNET_ORGANIZATION](../../aspose.email.mapi/mapipropertytag/pr_internet_organization/) |  |
-| static readonly [PR_INTERNET_ORGANIZATION_A](../../aspose.email.mapi/mapipropertytag/pr_internet_organization_a/) |  |
-| static readonly [PR_INTERNET_ORGANIZATION_W](../../aspose.email.mapi/mapipropertytag/pr_internet_organization_w/) |  |
-| static readonly [PR_INTERNET_PRECEDENCE](../../aspose.email.mapi/mapipropertytag/pr_internet_precedence/) |  |
-| static readonly [PR_INTERNET_PRECEDENCE_A](../../aspose.email.mapi/mapipropertytag/pr_internet_precedence_a/) |  |
-| static readonly [PR_INTERNET_PRECEDENCE_W](../../aspose.email.mapi/mapipropertytag/pr_internet_precedence_w/) |  |
-| static readonly [PR_INTERNET_REFERENCES](../../aspose.email.mapi/mapipropertytag/pr_internet_references/) |  |
-| static readonly [PR_INTERNET_REFERENCES_A](../../aspose.email.mapi/mapipropertytag/pr_internet_references_a/) |  |
-| static readonly [PR_INTERNET_REFERENCES_W](../../aspose.email.mapi/mapipropertytag/pr_internet_references_w/) |  |
-| static readonly [PR_IN_CONFLICT](../../aspose.email.mapi/mapipropertytag/pr_in_conflict/) |  |
-| static readonly [PR_IN_REPLY_TO_ID](../../aspose.email.mapi/mapipropertytag/pr_in_reply_to_id/) |  |
-| static readonly [PR_IN_REPLY_TO_ID_A](../../aspose.email.mapi/mapipropertytag/pr_in_reply_to_id_a/) |  |
-| static readonly [PR_IN_REPLY_TO_ID_W](../../aspose.email.mapi/mapipropertytag/pr_in_reply_to_id_w/) |  |
-| static readonly [PR_IN_TRANSIT](../../aspose.email.mapi/mapipropertytag/pr_in_transit/) |  |
+| static readonly [PR_FOLDER_ASSOCIATED_CONTENTS](../../aspose.email.mapi/mapipropertytag/pr_folder_associated_contents/) | Identifies all FAI messages in the current folder. Canonical name: PidTagFolderAssociatedContents. Property tag: 0x3610000D (PT_OBJECT). |
+| static readonly [PR_FOLDER_CHILD_COUNT](../../aspose.email.mapi/mapipropertytag/pr_folder_child_count/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66380003 (PT_LONG). |
+| static readonly [PR_FOLDER_DESIGN_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_folder_design_flags/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FE20003 (PT_LONG). |
+| static readonly [PR_FOLDER_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_folder_flags/) | Contains a computed value to specify the type or state of a folder. Canonical name: PidTagFolderFlags. Property tag: 0x66A80003 (PT_LONG). |
+| static readonly [PR_FOLDER_PATHNAME](../../aspose.email.mapi/mapipropertytag/pr_folder_pathname/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66B5001E (PT_STRING8). |
+| static readonly [PR_FOLDER_PATHNAME_A](../../aspose.email.mapi/mapipropertytag/pr_folder_pathname_a/) | The ANSI form of [`PR_FOLDER_PATHNAME`](./pr_folder_pathname/). Property tag: 0x66B5001E (PT_STRING8). |
+| static readonly [PR_FOLDER_PATHNAME_W](../../aspose.email.mapi/mapipropertytag/pr_folder_pathname_w/) | The Unicode form of [`PR_FOLDER_PATHNAME`](./pr_folder_pathname/). Property tag: 0x66B5001F (PT_UNICODE). |
+| static readonly [PR_FOLDER_TYPE](../../aspose.email.mapi/mapipropertytag/pr_folder_type/) | Specifies the type of a folder that includes the Root folder, Generic folder, and Search folder. Canonical name: PidTagFolderType. Property tag: 0x36010003 (PT_LONG). |
+| static readonly [PR_FOREIGN_ID](../../aspose.email.mapi/mapipropertytag/pr_foreign_id/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66670102 (PT_BINARY). |
+| static readonly [PR_FOREIGN_REPORT_ID](../../aspose.email.mapi/mapipropertytag/pr_foreign_report_id/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66680102 (PT_BINARY). |
+| static readonly [PR_FOREIGN_SUBJECT_ID](../../aspose.email.mapi/mapipropertytag/pr_foreign_subject_id/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66690102 (PT_BINARY). |
+| static readonly [PR_FORM_CATEGORY](../../aspose.email.mapi/mapipropertytag/pr_form_category/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3304001E (PT_STRING8). |
+| static readonly [PR_FORM_CATEGORY_A](../../aspose.email.mapi/mapipropertytag/pr_form_category_a/) | The ANSI form of [`PR_FORM_CATEGORY`](./pr_form_category/). Property tag: 0x3304001E (PT_STRING8). |
+| static readonly [PR_FORM_CATEGORY_SUB](../../aspose.email.mapi/mapipropertytag/pr_form_category_sub/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3305001E (PT_STRING8). |
+| static readonly [PR_FORM_CATEGORY_SUB_A](../../aspose.email.mapi/mapipropertytag/pr_form_category_sub_a/) | The ANSI form of [`PR_FORM_CATEGORY_SUB`](./pr_form_category_sub/). Property tag: 0x3305001E (PT_STRING8). |
+| static readonly [PR_FORM_CATEGORY_SUB_W](../../aspose.email.mapi/mapipropertytag/pr_form_category_sub_w/) | The Unicode form of [`PR_FORM_CATEGORY_SUB`](./pr_form_category_sub/). Property tag: 0x3305001F (PT_UNICODE). |
+| static readonly [PR_FORM_CATEGORY_W](../../aspose.email.mapi/mapipropertytag/pr_form_category_w/) | The Unicode form of [`PR_FORM_CATEGORY`](./pr_form_category/). Property tag: 0x3304001F (PT_UNICODE). |
+| static readonly [PR_FORM_CLSID](../../aspose.email.mapi/mapipropertytag/pr_form_clsid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x33020048 (PT_CLSID). |
+| static readonly [PR_FORM_CONTACT_NAME](../../aspose.email.mapi/mapipropertytag/pr_form_contact_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3303001E (PT_STRING8). |
+| static readonly [PR_FORM_CONTACT_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_form_contact_name_a/) | The ANSI form of [`PR_FORM_CONTACT_NAME`](./pr_form_contact_name/). Property tag: 0x3303001E (PT_STRING8). |
+| static readonly [PR_FORM_CONTACT_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_form_contact_name_w/) | The Unicode form of [`PR_FORM_CONTACT_NAME`](./pr_form_contact_name/). Property tag: 0x3303001F (PT_UNICODE). |
+| static readonly [PR_FORM_DESIGNER_GUID](../../aspose.email.mapi/mapipropertytag/pr_form_designer_guid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x33090048 (PT_CLSID). |
+| static readonly [PR_FORM_DESIGNER_NAME](../../aspose.email.mapi/mapipropertytag/pr_form_designer_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3308001E (PT_STRING8). |
+| static readonly [PR_FORM_DESIGNER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_form_designer_name_a/) | The ANSI form of [`PR_FORM_DESIGNER_NAME`](./pr_form_designer_name/). Property tag: 0x3308001E (PT_STRING8). |
+| static readonly [PR_FORM_DESIGNER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_form_designer_name_w/) | The Unicode form of [`PR_FORM_DESIGNER_NAME`](./pr_form_designer_name/). Property tag: 0x3308001F (PT_UNICODE). |
+| static readonly [PR_FORM_HIDDEN](../../aspose.email.mapi/mapipropertytag/pr_form_hidden/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3307000B (PT_BOOLEAN). |
+| static readonly [PR_FORM_HOST_MAP](../../aspose.email.mapi/mapipropertytag/pr_form_host_map/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x33061003 (PT_MV_LONG). |
+| static readonly [PR_FORM_MESSAGE_BEHAVIOR](../../aspose.email.mapi/mapipropertytag/pr_form_message_behavior/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x330A0003 (PT_LONG). |
+| static readonly [PR_FORM_VERSION](../../aspose.email.mapi/mapipropertytag/pr_form_version/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3301001E (PT_STRING8). |
+| static readonly [PR_FORM_VERSION_A](../../aspose.email.mapi/mapipropertytag/pr_form_version_a/) | The ANSI form of [`PR_FORM_VERSION`](./pr_form_version/). Property tag: 0x3301001E (PT_STRING8). |
+| static readonly [PR_FORM_VERSION_W](../../aspose.email.mapi/mapipropertytag/pr_form_version_w/) | The Unicode form of [`PR_FORM_VERSION`](./pr_form_version/). Property tag: 0x3301001F (PT_UNICODE). |
+| static readonly [PR_FREE_BUSY_FOR_LOCAL_SITE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_free_busy_for_local_site_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66250102 (PT_BINARY). |
+| static readonly [PR_FTP_SITE](../../aspose.email.mapi/mapipropertytag/pr_ftp_site/) | Contains the File Transfer Protocol (FTP) site address of the mail user. Canonical name: PidTagFtpSite. Property tag: 0x3A4C001E (PT_STRING8). |
+| static readonly [PR_FTP_SITE_A](../../aspose.email.mapi/mapipropertytag/pr_ftp_site_a/) | The ANSI form of [`PR_FTP_SITE`](./pr_ftp_site/). Property tag: 0x3A4C001E (PT_STRING8). |
+| static readonly [PR_FTP_SITE_W](../../aspose.email.mapi/mapipropertytag/pr_ftp_site_w/) | The Unicode form of [`PR_FTP_SITE`](./pr_ftp_site/). Property tag: 0x3A4C001F (PT_UNICODE). |
+| static readonly [PR_GENDER](../../aspose.email.mapi/mapipropertytag/pr_gender/) | Contains a value that represents the mail user's gender. Canonical name: PidTagGender. Property tag: 0x3A4D0002 (PT_SHORT). |
+| static readonly [PR_GENERATION](../../aspose.email.mapi/mapipropertytag/pr_generation/) | Contains a generational abbreviation that follows the full name of the mail user. Canonical name: PidTagGeneration. Property tag: 0x3A05001E (PT_STRING8). |
+| static readonly [PR_GENERATION_A](../../aspose.email.mapi/mapipropertytag/pr_generation_a/) | The ANSI form of [`PR_GENERATION`](./pr_generation/). Property tag: 0x3A05001E (PT_STRING8). |
+| static readonly [PR_GENERATION_W](../../aspose.email.mapi/mapipropertytag/pr_generation_w/) | The Unicode form of [`PR_GENERATION`](./pr_generation/). Property tag: 0x3A05001F (PT_UNICODE). |
+| static readonly [PR_GIVEN_NAME](../../aspose.email.mapi/mapipropertytag/pr_given_name/) | Contains the mail user's given name. Canonical name: PidTagGivenName. Property tag: 0x3A06001E (PT_STRING8). |
+| static readonly [PR_GIVEN_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_given_name_a/) | The ANSI form of [`PR_GIVEN_NAME`](./pr_given_name/). Property tag: 0x3A06001E (PT_STRING8). |
+| static readonly [PR_GIVEN_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_given_name_w/) | The Unicode form of [`PR_GIVEN_NAME`](./pr_given_name/). Property tag: 0x3A06001F (PT_UNICODE). |
+| static readonly [PR_GOVERNMENT_ID_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_government_id_number/) | Contains a government identifier for the mail user. Canonical name: PidTagGovernmentIdNumber. Property tag: 0x3A07001E (PT_STRING8). |
+| static readonly [PR_GOVERNMENT_ID_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_government_id_number_a/) | The ANSI form of [`PR_GOVERNMENT_ID_NUMBER`](./pr_government_id_number/). Property tag: 0x3A07001E (PT_STRING8). |
+| static readonly [PR_GOVERNMENT_ID_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_government_id_number_w/) | The Unicode form of [`PR_GOVERNMENT_ID_NUMBER`](./pr_government_id_number/). Property tag: 0x3A07001F (PT_UNICODE). |
+| static readonly [PR_GW_ADMIN_OPERATIONS](../../aspose.email.mapi/mapipropertytag/pr_gw_admin_operations/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66580003 (PT_LONG). |
+| static readonly [PR_GW_MTSIN_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_gw_mtsin_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66280102 (PT_BINARY). |
+| static readonly [PR_GW_MTSOUT_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_gw_mtsout_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66290102 (PT_BINARY). |
+| static readonly [PR_HASATTACH](../../aspose.email.mapi/mapipropertytag/pr_hasattach/) | Indicates whether the Message object contains at least one attachment. Canonical name: PidTagHasAttachments. Property tag: 0x0E1B000B (PT_BOOLEAN). |
+| static readonly [PR_HAS_DAMS](../../aspose.email.mapi/mapipropertytag/pr_has_dams/) | Indicates whether a Message object has a deferred action message associated with it. Canonical name: PidTagHasDeferredActionMessages. Property tag: 0x3FEA000B (PT_BOOLEAN). |
+| static readonly [PR_HAS_MODERATOR_RULES](../../aspose.email.mapi/mapipropertytag/pr_has_moderator_rules/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x663F000B (PT_BOOLEAN). |
+| static readonly [PR_HAS_NAMED_PROPERTIES](../../aspose.email.mapi/mapipropertytag/pr_has_named_properties/) | Indicates whether the Message object has a named property. Canonical name: PidTagHasNamedProperties. Property tag: 0x664A000B (PT_BOOLEAN). |
+| static readonly [PR_HAS_RULES](../../aspose.email.mapi/mapipropertytag/pr_has_rules/) | Indicates whether a Folder object has rules. Canonical name: PidTagHasRules. Property tag: 0x663A000B (PT_BOOLEAN). |
+| static readonly [PR_HEADER_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_header_folder_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3E0A0102 (PT_BINARY). |
+| static readonly [PR_HIERARCHY_CHANGE_NUM](../../aspose.email.mapi/mapipropertytag/pr_hierarchy_change_num/) | Contains a number that monotonically increases every time a subfolder is added to, or deleted from, this folder. Canonical name: PidTagHierarchyChangeNumber. Property tag: 0x663E0003 (PT_LONG). |
+| static readonly [PR_HIERARCHY_SERVER](../../aspose.email.mapi/mapipropertytag/pr_hierarchy_server/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6623001E (PT_STRING8). |
+| static readonly [PR_HIERARCHY_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_hierarchy_server_a/) | The ANSI form of [`PR_HIERARCHY_SERVER`](./pr_hierarchy_server/). Property tag: 0x6623001E (PT_STRING8). |
+| static readonly [PR_HIERARCHY_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_hierarchy_server_w/) | The Unicode form of [`PR_HIERARCHY_SERVER`](./pr_hierarchy_server/). Property tag: 0x6623001F (PT_UNICODE). |
+| static readonly [PR_HIERARCHY_SYNCHRONIZER](../../aspose.email.mapi/mapipropertytag/pr_hierarchy_synchronizer/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x662C000D (PT_OBJECT). |
+| static readonly [PR_HOBBIES](../../aspose.email.mapi/mapipropertytag/pr_hobbies/) | Contains the names of the mail user's hobbies. Canonical name: PidTagHobbies. Property tag: 0x3A43001E (PT_STRING8). |
+| static readonly [PR_HOBBIES_A](../../aspose.email.mapi/mapipropertytag/pr_hobbies_a/) | The ANSI form of [`PR_HOBBIES`](./pr_hobbies/). Property tag: 0x3A43001E (PT_STRING8). |
+| static readonly [PR_HOBBIES_W](../../aspose.email.mapi/mapipropertytag/pr_hobbies_w/) | The Unicode form of [`PR_HOBBIES`](./pr_hobbies/). Property tag: 0x3A43001F (PT_UNICODE). |
+| static readonly [PR_HOME2_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_home2_telephone_number/) | Contains a secondary telephone number at the mail user's home. Canonical name: PidTagHome2TelephoneNumber. Property tag: 0x3A2F001E (PT_STRING8). |
+| static readonly [PR_HOME2_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_home2_telephone_number_a/) | The ANSI form of [`PR_HOME2_TELEPHONE_NUMBER`](./pr_home2_telephone_number/). Property tag: 0x3A2F001E (PT_STRING8). |
+| static readonly [PR_HOME2_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_home2_telephone_number_w/) | The Unicode form of [`PR_HOME2_TELEPHONE_NUMBER`](./pr_home2_telephone_number/). Property tag: 0x3A2F001F (PT_UNICODE). |
+| static readonly [PR_HOME_ADDRESS_CITY](../../aspose.email.mapi/mapipropertytag/pr_home_address_city/) | Contains the name of the mail user's home locality, such as the town or city. Canonical name: PidTagHomeAddressCity. Property tag: 0x3A59001E (PT_STRING8). |
+| static readonly [PR_HOME_ADDRESS_CITY_A](../../aspose.email.mapi/mapipropertytag/pr_home_address_city_a/) | The ANSI form of [`PR_HOME_ADDRESS_CITY`](./pr_home_address_city/). Property tag: 0x3A59001E (PT_STRING8). |
+| static readonly [PR_HOME_ADDRESS_CITY_W](../../aspose.email.mapi/mapipropertytag/pr_home_address_city_w/) | The Unicode form of [`PR_HOME_ADDRESS_CITY`](./pr_home_address_city/). Property tag: 0x3A59001F (PT_UNICODE). |
+| static readonly [PR_HOME_ADDRESS_COUNTRY](../../aspose.email.mapi/mapipropertytag/pr_home_address_country/) | Contains the name of the mail user's home country/region. Canonical name: PidTagHomeAddressCountry. Property tag: 0x3A5A001E (PT_STRING8). |
+| static readonly [PR_HOME_ADDRESS_COUNTRY_A](../../aspose.email.mapi/mapipropertytag/pr_home_address_country_a/) | The ANSI form of [`PR_HOME_ADDRESS_COUNTRY`](./pr_home_address_country/). Property tag: 0x3A5A001E (PT_STRING8). |
+| static readonly [PR_HOME_ADDRESS_COUNTRY_W](../../aspose.email.mapi/mapipropertytag/pr_home_address_country_w/) | The Unicode form of [`PR_HOME_ADDRESS_COUNTRY`](./pr_home_address_country/). Property tag: 0x3A5A001F (PT_UNICODE). |
+| static readonly [PR_HOME_ADDRESS_POSTAL_CODE](../../aspose.email.mapi/mapipropertytag/pr_home_address_postal_code/) | Contains the postal code for the mail user's home postal address. Canonical name: PidTagHomeAddressPostalCode. Property tag: 0x3A5B001E (PT_STRING8). |
+| static readonly [PR_HOME_ADDRESS_POSTAL_CODE_A](../../aspose.email.mapi/mapipropertytag/pr_home_address_postal_code_a/) | The ANSI form of [`PR_HOME_ADDRESS_POSTAL_CODE`](./pr_home_address_postal_code/). Property tag: 0x3A5B001E (PT_STRING8). |
+| static readonly [PR_HOME_ADDRESS_POSTAL_CODE_W](../../aspose.email.mapi/mapipropertytag/pr_home_address_postal_code_w/) | The Unicode form of [`PR_HOME_ADDRESS_POSTAL_CODE`](./pr_home_address_postal_code/). Property tag: 0x3A5B001F (PT_UNICODE). |
+| static readonly [PR_HOME_ADDRESS_POST_OFFICE_BOX](../../aspose.email.mapi/mapipropertytag/pr_home_address_post_office_box/) | Contains the number or identifier of the mail user's home post office box. Canonical name: PidTagHomeAddressPostOfficeBox. Property tag: 0x3A5E001E (PT_STRING8). |
+| static readonly [PR_HOME_ADDRESS_POST_OFFICE_BOX_A](../../aspose.email.mapi/mapipropertytag/pr_home_address_post_office_box_a/) | The ANSI form of [`PR_HOME_ADDRESS_POST_OFFICE_BOX`](./pr_home_address_post_office_box/). Property tag: 0x3A5E001E (PT_STRING8). |
+| static readonly [PR_HOME_ADDRESS_POST_OFFICE_BOX_W](../../aspose.email.mapi/mapipropertytag/pr_home_address_post_office_box_w/) | The Unicode form of [`PR_HOME_ADDRESS_POST_OFFICE_BOX`](./pr_home_address_post_office_box/). Property tag: 0x3A5E001F (PT_UNICODE). |
+| static readonly [PR_HOME_ADDRESS_STATE_OR_PROVINCE](../../aspose.email.mapi/mapipropertytag/pr_home_address_state_or_province/) | Contains the name of the mail user's home state or province. Canonical name: PidTagHomeAddressStateOrProvince. Property tag: 0x3A5C001E (PT_STRING8). |
+| static readonly [PR_HOME_ADDRESS_STATE_OR_PROVINCE_A](../../aspose.email.mapi/mapipropertytag/pr_home_address_state_or_province_a/) | The ANSI form of [`PR_HOME_ADDRESS_STATE_OR_PROVINCE`](./pr_home_address_state_or_province/). Property tag: 0x3A5C001E (PT_STRING8). |
+| static readonly [PR_HOME_ADDRESS_STATE_OR_PROVINCE_W](../../aspose.email.mapi/mapipropertytag/pr_home_address_state_or_province_w/) | The Unicode form of [`PR_HOME_ADDRESS_STATE_OR_PROVINCE`](./pr_home_address_state_or_province/). Property tag: 0x3A5C001F (PT_UNICODE). |
+| static readonly [PR_HOME_ADDRESS_STREET](../../aspose.email.mapi/mapipropertytag/pr_home_address_street/) | Contains the mail user's home street address. Canonical name: PidTagHomeAddressStreet. Property tag: 0x3A5D001E (PT_STRING8). |
+| static readonly [PR_HOME_ADDRESS_STREET_A](../../aspose.email.mapi/mapipropertytag/pr_home_address_street_a/) | The ANSI form of [`PR_HOME_ADDRESS_STREET`](./pr_home_address_street/). Property tag: 0x3A5D001E (PT_STRING8). |
+| static readonly [PR_HOME_ADDRESS_STREET_W](../../aspose.email.mapi/mapipropertytag/pr_home_address_street_w/) | The Unicode form of [`PR_HOME_ADDRESS_STREET`](./pr_home_address_street/). Property tag: 0x3A5D001F (PT_UNICODE). |
+| static readonly [PR_HOME_FAX_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_home_fax_number/) | Contains the telephone number of the mail user's home fax machine. Canonical name: PidTagHomeFaxNumber. Property tag: 0x3A25001E (PT_STRING8). |
+| static readonly [PR_HOME_FAX_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_home_fax_number_a/) | The ANSI form of [`PR_HOME_FAX_NUMBER`](./pr_home_fax_number/). Property tag: 0x3A25001E (PT_STRING8). |
+| static readonly [PR_HOME_FAX_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_home_fax_number_w/) | The Unicode form of [`PR_HOME_FAX_NUMBER`](./pr_home_fax_number/). Property tag: 0x3A25001F (PT_UNICODE). |
+| static readonly [PR_HOME_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_home_telephone_number/) | Contains the primary telephone number of the mail user's home. Canonical name: PidTagHomeTelephoneNumber. Property tag: 0x3A09001E (PT_STRING8). |
+| static readonly [PR_HOME_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_home_telephone_number_a/) | The ANSI form of [`PR_HOME_TELEPHONE_NUMBER`](./pr_home_telephone_number/). Property tag: 0x3A09001E (PT_STRING8). |
+| static readonly [PR_HOME_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_home_telephone_number_w/) | The Unicode form of [`PR_HOME_TELEPHONE_NUMBER`](./pr_home_telephone_number/). Property tag: 0x3A09001F (PT_UNICODE). |
+| static readonly [PR_HTML](../../aspose.email.mapi/mapipropertytag/pr_html/) | Contains message body text in HTML format. Canonical name: PidTagHtml. Property tag: 0x10130102 (PT_BINARY). |
+| static readonly [PR_ICON](../../aspose.email.mapi/mapipropertytag/pr_icon/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0FFD0102 (PT_BINARY). |
+| static readonly [PR_IDENTITY_DISPLAY](../../aspose.email.mapi/mapipropertytag/pr_identity_display/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3E00001E (PT_STRING8). |
+| static readonly [PR_IDENTITY_DISPLAY_A](../../aspose.email.mapi/mapipropertytag/pr_identity_display_a/) | The ANSI form of [`PR_IDENTITY_DISPLAY`](./pr_identity_display/). Property tag: 0x3E00001E (PT_STRING8). |
+| static readonly [PR_IDENTITY_DISPLAY_W](../../aspose.email.mapi/mapipropertytag/pr_identity_display_w/) | The Unicode form of [`PR_IDENTITY_DISPLAY`](./pr_identity_display/). Property tag: 0x3E00001F (PT_UNICODE). |
+| static readonly [PR_IDENTITY_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_identity_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3E010102 (PT_BINARY). |
+| static readonly [PR_IDENTITY_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_identity_search_key/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3E050102 (PT_BINARY). |
+| static readonly [PR_IMAP_INTERNAL_DATE](../../aspose.email.mapi/mapipropertytag/pr_imap_internal_date/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x65F50040 (PT_SYSTIME). |
+| static readonly [PR_IMPLICIT_CONVERSION_PROHIBITED](../../aspose.email.mapi/mapipropertytag/pr_implicit_conversion_prohibited/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0016000B (PT_BOOLEAN). |
+| static readonly [PR_IMPORTANCE](../../aspose.email.mapi/mapipropertytag/pr_importance/) | Indicates the level of importance assigned by the end user to the Message object. Canonical name: PidTagImportance. Property tag: 0x00170003 (PT_LONG). |
+| static readonly [PR_INBOUND_NEWSFEED_DN](../../aspose.email.mapi/mapipropertytag/pr_inbound_newsfeed_dn/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x668D001E (PT_STRING8). |
+| static readonly [PR_INBOUND_NEWSFEED_DN_A](../../aspose.email.mapi/mapipropertytag/pr_inbound_newsfeed_dn_a/) | The ANSI form of [`PR_INBOUND_NEWSFEED_DN`](./pr_inbound_newsfeed_dn/). Property tag: 0x668D001E (PT_STRING8). |
+| static readonly [PR_INBOUND_NEWSFEED_DN_W](../../aspose.email.mapi/mapipropertytag/pr_inbound_newsfeed_dn_w/) | The Unicode form of [`PR_INBOUND_NEWSFEED_DN`](./pr_inbound_newsfeed_dn/). Property tag: 0x668D001F (PT_UNICODE). |
+| static readonly [PR_INCOMPLETE_COPY](../../aspose.email.mapi/mapipropertytag/pr_incomplete_copy/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0035000B (PT_BOOLEAN). |
+| static readonly [PR_INITIALS](../../aspose.email.mapi/mapipropertytag/pr_initials/) | Contains the initials for parts of the full name of the mail user. Canonical name: PidTagInitials. Property tag: 0x3A0A001E (PT_STRING8). |
+| static readonly [PR_INITIALS_A](../../aspose.email.mapi/mapipropertytag/pr_initials_a/) | The ANSI form of [`PR_INITIALS`](./pr_initials/). Property tag: 0x3A0A001E (PT_STRING8). |
+| static readonly [PR_INITIALS_W](../../aspose.email.mapi/mapipropertytag/pr_initials_w/) | The Unicode form of [`PR_INITIALS`](./pr_initials/). Property tag: 0x3A0A001F (PT_UNICODE). |
+| static readonly [PR_INITIAL_DETAILS_PANE](../../aspose.email.mapi/mapipropertytag/pr_initial_details_pane/) | Indicates which page of a display template to display first. Canonical name: PidTagInitialDetailsPane. Property tag: 0x3F080003 (PT_LONG). |
+| static readonly [PR_INSTANCE_KEY](../../aspose.email.mapi/mapipropertytag/pr_instance_key/) | Contains an object on an NSPI server. Canonical name: PidTagInstanceKey. Property tag: 0x0FF60102 (PT_BINARY). |
+| static readonly [PR_INTERNAL_TRACE_INFO](../../aspose.email.mapi/mapipropertytag/pr_internal_trace_info/) | Maximum size, in kilobytes, that a user is allowed to accumulate in their mailbox before no further email will be delivered to their mailbox. Canonical name: PidTagProhibitReceiveQuota. Property tag: 0x666A0102 (PT_BINARY). |
+| static readonly [PR_INTERNET_APPROVED](../../aspose.email.mapi/mapipropertytag/pr_internet_approved/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x1030001E (PT_STRING8). |
+| static readonly [PR_INTERNET_APPROVED_A](../../aspose.email.mapi/mapipropertytag/pr_internet_approved_a/) | The ANSI form of [`PR_INTERNET_APPROVED`](./pr_internet_approved/). Property tag: 0x1030001E (PT_STRING8). |
+| static readonly [PR_INTERNET_APPROVED_W](../../aspose.email.mapi/mapipropertytag/pr_internet_approved_w/) | The Unicode form of [`PR_INTERNET_APPROVED`](./pr_internet_approved/). Property tag: 0x1030001F (PT_UNICODE). |
+| static readonly [PR_INTERNET_ARTICLE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_internet_article_number/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E230003 (PT_LONG). |
+| static readonly [PR_INTERNET_CHARSET](../../aspose.email.mapi/mapipropertytag/pr_internet_charset/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x669A001E (PT_STRING8). |
+| static readonly [PR_INTERNET_CHARSET_A](../../aspose.email.mapi/mapipropertytag/pr_internet_charset_a/) | The ANSI form of [`PR_INTERNET_CHARSET`](./pr_internet_charset/). Property tag: 0x669A001E (PT_STRING8). |
+| static readonly [PR_INTERNET_CHARSET_W](../../aspose.email.mapi/mapipropertytag/pr_internet_charset_w/) | The Unicode form of [`PR_INTERNET_CHARSET`](./pr_internet_charset/). Property tag: 0x669A001F (PT_UNICODE). |
+| static readonly [PR_INTERNET_CONTROL](../../aspose.email.mapi/mapipropertytag/pr_internet_control/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x1031001E (PT_STRING8). |
+| static readonly [PR_INTERNET_CONTROL_A](../../aspose.email.mapi/mapipropertytag/pr_internet_control_a/) | The ANSI form of [`PR_INTERNET_CONTROL`](./pr_internet_control/). Property tag: 0x1031001E (PT_STRING8). |
+| static readonly [PR_INTERNET_CONTROL_W](../../aspose.email.mapi/mapipropertytag/pr_internet_control_w/) | The Unicode form of [`PR_INTERNET_CONTROL`](./pr_internet_control/). Property tag: 0x1031001F (PT_UNICODE). |
+| static readonly [PR_INTERNET_CPID](../../aspose.email.mapi/mapipropertytag/pr_internet_cpid/) | Indicates the code page used for the PidTagBody property (section 2.609) or the PidTagBodyHtml property (section 2.612). Canonical name: PidTagInternetCodepage. Property tag: 0x3FDE0003 (PT_LONG). |
+| static readonly [PR_INTERNET_DISTRIBUTION](../../aspose.email.mapi/mapipropertytag/pr_internet_distribution/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x1032001E (PT_STRING8). |
+| static readonly [PR_INTERNET_DISTRIBUTION_A](../../aspose.email.mapi/mapipropertytag/pr_internet_distribution_a/) | The ANSI form of [`PR_INTERNET_DISTRIBUTION`](./pr_internet_distribution/). Property tag: 0x1032001E (PT_STRING8). |
+| static readonly [PR_INTERNET_DISTRIBUTION_W](../../aspose.email.mapi/mapipropertytag/pr_internet_distribution_w/) | The Unicode form of [`PR_INTERNET_DISTRIBUTION`](./pr_internet_distribution/). Property tag: 0x1032001F (PT_UNICODE). |
+| static readonly [PR_INTERNET_FOLLOWUP_TO](../../aspose.email.mapi/mapipropertytag/pr_internet_followup_to/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x1033001E (PT_STRING8). |
+| static readonly [PR_INTERNET_FOLLOWUP_TO_A](../../aspose.email.mapi/mapipropertytag/pr_internet_followup_to_a/) | The ANSI form of [`PR_INTERNET_FOLLOWUP_TO`](./pr_internet_followup_to/). Property tag: 0x1033001E (PT_STRING8). |
+| static readonly [PR_INTERNET_FOLLOWUP_TO_W](../../aspose.email.mapi/mapipropertytag/pr_internet_followup_to_w/) | The Unicode form of [`PR_INTERNET_FOLLOWUP_TO`](./pr_internet_followup_to/). Property tag: 0x1033001F (PT_UNICODE). |
+| static readonly [PR_INTERNET_LINES](../../aspose.email.mapi/mapipropertytag/pr_internet_lines/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x10340003 (PT_LONG). |
+| static readonly [PR_INTERNET_MESSAGE_ID](../../aspose.email.mapi/mapipropertytag/pr_internet_message_id/) | Corresponds to the message-id field. Canonical name: PidTagInternetMessageId. Property tag: 0x1035001E (PT_STRING8). |
+| static readonly [PR_INTERNET_MESSAGE_ID_A](../../aspose.email.mapi/mapipropertytag/pr_internet_message_id_a/) | The ANSI form of [`PR_INTERNET_MESSAGE_ID`](./pr_internet_message_id/). Property tag: 0x1035001E (PT_STRING8). |
+| static readonly [PR_INTERNET_MESSAGE_ID_W](../../aspose.email.mapi/mapipropertytag/pr_internet_message_id_w/) | The Unicode form of [`PR_INTERNET_MESSAGE_ID`](./pr_internet_message_id/). Property tag: 0x1035001F (PT_UNICODE). |
+| static readonly [PR_INTERNET_NEWSGROUPS](../../aspose.email.mapi/mapipropertytag/pr_internet_newsgroups/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x1036001E (PT_STRING8). |
+| static readonly [PR_INTERNET_NEWSGROUPS_A](../../aspose.email.mapi/mapipropertytag/pr_internet_newsgroups_a/) | The ANSI form of [`PR_INTERNET_NEWSGROUPS`](./pr_internet_newsgroups/). Property tag: 0x1036001E (PT_STRING8). |
+| static readonly [PR_INTERNET_NEWSGROUPS_W](../../aspose.email.mapi/mapipropertytag/pr_internet_newsgroups_w/) | The Unicode form of [`PR_INTERNET_NEWSGROUPS`](./pr_internet_newsgroups/). Property tag: 0x1036001F (PT_UNICODE). |
+| static readonly [PR_INTERNET_NEWSGROUP_NAME](../../aspose.email.mapi/mapipropertytag/pr_internet_newsgroup_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66A7001E (PT_STRING8). |
+| static readonly [PR_INTERNET_NEWSGROUP_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_internet_newsgroup_name_a/) | The ANSI form of [`PR_INTERNET_NEWSGROUP_NAME`](./pr_internet_newsgroup_name/). Property tag: 0x66A7001E (PT_STRING8). |
+| static readonly [PR_INTERNET_NEWSGROUP_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_internet_newsgroup_name_w/) | The Unicode form of [`PR_INTERNET_NEWSGROUP_NAME`](./pr_internet_newsgroup_name/). Property tag: 0x66A7001F (PT_UNICODE). |
+| static readonly [PR_INTERNET_NNTP_PATH](../../aspose.email.mapi/mapipropertytag/pr_internet_nntp_path/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x1038001E (PT_STRING8). |
+| static readonly [PR_INTERNET_NNTP_PATH_A](../../aspose.email.mapi/mapipropertytag/pr_internet_nntp_path_a/) | The ANSI form of [`PR_INTERNET_NNTP_PATH`](./pr_internet_nntp_path/). Property tag: 0x1038001E (PT_STRING8). |
+| static readonly [PR_INTERNET_NNTP_PATH_W](../../aspose.email.mapi/mapipropertytag/pr_internet_nntp_path_w/) | The Unicode form of [`PR_INTERNET_NNTP_PATH`](./pr_internet_nntp_path/). Property tag: 0x1038001F (PT_UNICODE). |
+| static readonly [PR_INTERNET_ORGANIZATION](../../aspose.email.mapi/mapipropertytag/pr_internet_organization/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x1037001E (PT_STRING8). |
+| static readonly [PR_INTERNET_ORGANIZATION_A](../../aspose.email.mapi/mapipropertytag/pr_internet_organization_a/) | The ANSI form of [`PR_INTERNET_ORGANIZATION`](./pr_internet_organization/). Property tag: 0x1037001E (PT_STRING8). |
+| static readonly [PR_INTERNET_ORGANIZATION_W](../../aspose.email.mapi/mapipropertytag/pr_internet_organization_w/) | The Unicode form of [`PR_INTERNET_ORGANIZATION`](./pr_internet_organization/). Property tag: 0x1037001F (PT_UNICODE). |
+| static readonly [PR_INTERNET_PRECEDENCE](../../aspose.email.mapi/mapipropertytag/pr_internet_precedence/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x1041001E (PT_STRING8). |
+| static readonly [PR_INTERNET_PRECEDENCE_A](../../aspose.email.mapi/mapipropertytag/pr_internet_precedence_a/) | The ANSI form of [`PR_INTERNET_PRECEDENCE`](./pr_internet_precedence/). Property tag: 0x1041001E (PT_STRING8). |
+| static readonly [PR_INTERNET_PRECEDENCE_W](../../aspose.email.mapi/mapipropertytag/pr_internet_precedence_w/) | The Unicode form of [`PR_INTERNET_PRECEDENCE`](./pr_internet_precedence/). Property tag: 0x1041001F (PT_UNICODE). |
+| static readonly [PR_INTERNET_REFERENCES](../../aspose.email.mapi/mapipropertytag/pr_internet_references/) | Contains a list of message IDs that specify the messages to which this reply is related. Canonical name: PidTagInternetReferences. Property tag: 0x1039001E (PT_STRING8). |
+| static readonly [PR_INTERNET_REFERENCES_A](../../aspose.email.mapi/mapipropertytag/pr_internet_references_a/) | The ANSI form of [`PR_INTERNET_REFERENCES`](./pr_internet_references/). Property tag: 0x1039001E (PT_STRING8). |
+| static readonly [PR_INTERNET_REFERENCES_W](../../aspose.email.mapi/mapipropertytag/pr_internet_references_w/) | The Unicode form of [`PR_INTERNET_REFERENCES`](./pr_internet_references/). Property tag: 0x1039001F (PT_UNICODE). |
+| static readonly [PR_IN_CONFLICT](../../aspose.email.mapi/mapipropertytag/pr_in_conflict/) | Specifies whether the attachment represents an alternate replica. Canonical name: PidTagInConflict. Property tag: 0x666C000B (PT_BOOLEAN). |
+| static readonly [PR_IN_REPLY_TO_ID](../../aspose.email.mapi/mapipropertytag/pr_in_reply_to_id/) | Contains the value of the original message's PidTagInternetMessageId property (section 2.739) value. Canonical name: PidTagInReplyToId. Property tag: 0x1042001E (PT_STRING8). |
+| static readonly [PR_IN_REPLY_TO_ID_A](../../aspose.email.mapi/mapipropertytag/pr_in_reply_to_id_a/) | The ANSI form of [`PR_IN_REPLY_TO_ID`](./pr_in_reply_to_id/). Property tag: 0x1042001E (PT_STRING8). |
+| static readonly [PR_IN_REPLY_TO_ID_W](../../aspose.email.mapi/mapipropertytag/pr_in_reply_to_id_w/) | The Unicode form of [`PR_IN_REPLY_TO_ID`](./pr_in_reply_to_id/). Property tag: 0x1042001F (PT_UNICODE). |
+| static readonly [PR_IN_TRANSIT](../../aspose.email.mapi/mapipropertytag/pr_in_transit/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6618000B (PT_BOOLEAN). |
 | static readonly [PR_IPM_APPOINTMENT_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_appointment_entryid/) | Contains the EntryID of the Outlook Calendar folder. |
 | static readonly [PR_IPM_CONTACT_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_contact_entryid/) | Contains the EntryID of the Outlook Contacts folder. |
-| static readonly [PR_IPM_DAF_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_daf_entryid/) |  |
+| static readonly [PR_IPM_DAF_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_daf_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x661F0102 (PT_BINARY). |
 | static readonly [PR_IPM_DRAFTS_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_drafts_entryid/) | Contains the EntryID of the Outlook Drafts folder. |
-| static readonly [PR_IPM_FAVORITES_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_favorites_entryid/) |  |
-| static readonly [PR_IPM_ID](../../aspose.email.mapi/mapipropertytag/pr_ipm_id/) |  |
+| static readonly [PR_IPM_FAVORITES_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_favorites_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66300102 (PT_BINARY). |
+| static readonly [PR_IPM_ID](../../aspose.email.mapi/mapipropertytag/pr_ipm_id/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x00180102 (PT_BINARY). |
 | static readonly [PR_IPM_JOURNAL_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_journal_entryid/) | Contains the EntryID of the Outlook Journal folder. |
 | static readonly [PR_IPM_NOTE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_note_entryid/) | Contains the EntryID of the Outlook Notes folder. |
-| static readonly [PR_IPM_OUTBOX_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_outbox_entryid/) |  |
-| static readonly [PR_IPM_OUTBOX_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_ipm_outbox_search_key/) |  |
-| static readonly [PR_IPM_PUBLIC_FOLDERS_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_public_folders_entryid/) |  |
-| static readonly [PR_IPM_RETURN_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_ipm_return_requested/) |  |
-| static readonly [PR_IPM_SENTMAIL_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_sentmail_entryid/) |  |
-| static readonly [PR_IPM_SENTMAIL_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_ipm_sentmail_search_key/) |  |
-| static readonly [PR_IPM_SUBTREE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_subtree_entryid/) |  |
-| static readonly [PR_IPM_SUBTREE_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_ipm_subtree_search_key/) |  |
+| static readonly [PR_IPM_OUTBOX_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_outbox_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x35E20102 (PT_BINARY). |
+| static readonly [PR_IPM_OUTBOX_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_ipm_outbox_search_key/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x34110102 (PT_BINARY). |
+| static readonly [PR_IPM_PUBLIC_FOLDERS_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_public_folders_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66310102 (PT_BINARY). |
+| static readonly [PR_IPM_RETURN_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_ipm_return_requested/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C02000B (PT_BOOLEAN). |
+| static readonly [PR_IPM_SENTMAIL_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_sentmail_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x35E40102 (PT_BINARY). |
+| static readonly [PR_IPM_SENTMAIL_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_ipm_sentmail_search_key/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x34130102 (PT_BINARY). |
+| static readonly [PR_IPM_SUBTREE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_subtree_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x35E00102 (PT_BINARY). |
+| static readonly [PR_IPM_SUBTREE_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_ipm_subtree_search_key/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x34100102 (PT_BINARY). |
 | static readonly [PR_IPM_TASK_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_task_entryid/) | Contains the EntryID of the Outlook Tasks folder. |
-| static readonly [PR_IPM_WASTEBASKET_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_wastebasket_entryid/) |  |
-| static readonly [PR_IPM_WASTEBASKET_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_ipm_wastebasket_search_key/) |  |
-| static readonly [PR_ISDN_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_isdn_number/) |  |
-| static readonly [PR_ISDN_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_isdn_number_a/) |  |
-| static readonly [PR_ISDN_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_isdn_number_w/) |  |
-| static readonly [PR_IS_NEWSGROUP](../../aspose.email.mapi/mapipropertytag/pr_is_newsgroup/) |  |
-| static readonly [PR_IS_NEWSGROUP_ANCHOR](../../aspose.email.mapi/mapipropertytag/pr_is_newsgroup_anchor/) |  |
-| static readonly [PR_KEYWORD](../../aspose.email.mapi/mapipropertytag/pr_keyword/) |  |
-| static readonly [PR_KEYWORD_A](../../aspose.email.mapi/mapipropertytag/pr_keyword_a/) |  |
-| static readonly [PR_KEYWORD_W](../../aspose.email.mapi/mapipropertytag/pr_keyword_w/) |  |
-| static readonly [PR_LANGUAGE](../../aspose.email.mapi/mapipropertytag/pr_language/) |  |
-| static readonly [PR_LANGUAGES](../../aspose.email.mapi/mapipropertytag/pr_languages/) |  |
-| static readonly [PR_LANGUAGES_A](../../aspose.email.mapi/mapipropertytag/pr_languages_a/) |  |
-| static readonly [PR_LANGUAGES_W](../../aspose.email.mapi/mapipropertytag/pr_languages_w/) |  |
-| static readonly [PR_LANGUAGE_A](../../aspose.email.mapi/mapipropertytag/pr_language_a/) |  |
-| static readonly [PR_LANGUAGE_W](../../aspose.email.mapi/mapipropertytag/pr_language_w/) |  |
-| static readonly [PR_LAST_ACCESS_TIME](../../aspose.email.mapi/mapipropertytag/pr_last_access_time/) |  |
-| static readonly [PR_LAST_FULL_BACKUP](../../aspose.email.mapi/mapipropertytag/pr_last_full_backup/) |  |
-| static readonly [PR_LAST_LOGOFF_TIME](../../aspose.email.mapi/mapipropertytag/pr_last_logoff_time/) |  |
-| static readonly [PR_LAST_LOGON_TIME](../../aspose.email.mapi/mapipropertytag/pr_last_logon_time/) |  |
-| static readonly [PR_LAST_MODIFICATION_TIME](../../aspose.email.mapi/mapipropertytag/pr_last_modification_time/) |  |
-| static readonly [PR_LAST_MODIFIER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_last_modifier_entryid/) |  |
-| static readonly [PR_LAST_MODIFIER_NAME](../../aspose.email.mapi/mapipropertytag/pr_last_modifier_name/) |  |
-| static readonly [PR_LAST_MODIFIER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_last_modifier_name_a/) |  |
-| static readonly [PR_LAST_MODIFIER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_last_modifier_name_w/) |  |
+| static readonly [PR_IPM_WASTEBASKET_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_wastebasket_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x35E30102 (PT_BINARY). |
+| static readonly [PR_IPM_WASTEBASKET_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_ipm_wastebasket_search_key/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x34120102 (PT_BINARY). |
+| static readonly [PR_ISDN_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_isdn_number/) | Contains the Integrated Services Digital Network (ISDN) telephone number of the mail user. Canonical name: PidTagIsdnNumber. Property tag: 0x3A2D001E (PT_STRING8). |
+| static readonly [PR_ISDN_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_isdn_number_a/) | The ANSI form of [`PR_ISDN_NUMBER`](./pr_isdn_number/). Property tag: 0x3A2D001E (PT_STRING8). |
+| static readonly [PR_ISDN_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_isdn_number_w/) | The Unicode form of [`PR_ISDN_NUMBER`](./pr_isdn_number/). Property tag: 0x3A2D001F (PT_UNICODE). |
+| static readonly [PR_IS_NEWSGROUP](../../aspose.email.mapi/mapipropertytag/pr_is_newsgroup/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6697000B (PT_BOOLEAN). |
+| static readonly [PR_IS_NEWSGROUP_ANCHOR](../../aspose.email.mapi/mapipropertytag/pr_is_newsgroup_anchor/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6696000B (PT_BOOLEAN). |
+| static readonly [PR_KEYWORD](../../aspose.email.mapi/mapipropertytag/pr_keyword/) | Contains a keyword that identifies the mail user to the mail user's system administrator. Canonical name: PidTagKeyword. Property tag: 0x3A0B001E (PT_STRING8). |
+| static readonly [PR_KEYWORD_A](../../aspose.email.mapi/mapipropertytag/pr_keyword_a/) | The ANSI form of [`PR_KEYWORD`](./pr_keyword/). Property tag: 0x3A0B001E (PT_STRING8). |
+| static readonly [PR_KEYWORD_W](../../aspose.email.mapi/mapipropertytag/pr_keyword_w/) | The Unicode form of [`PR_KEYWORD`](./pr_keyword/). Property tag: 0x3A0B001F (PT_UNICODE). |
+| static readonly [PR_LANGUAGE](../../aspose.email.mapi/mapipropertytag/pr_language/) | Contains a value that indicates the language in which the messaging user is writing messages. Canonical name: PidTagLanguage. Property tag: 0x3A0C001E (PT_STRING8). |
+| static readonly [PR_LANGUAGES](../../aspose.email.mapi/mapipropertytag/pr_languages/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x002F001E (PT_STRING8). |
+| static readonly [PR_LANGUAGES_A](../../aspose.email.mapi/mapipropertytag/pr_languages_a/) | The ANSI form of [`PR_LANGUAGES`](./pr_languages/). Property tag: 0x002F001E (PT_STRING8). |
+| static readonly [PR_LANGUAGES_W](../../aspose.email.mapi/mapipropertytag/pr_languages_w/) | The Unicode form of [`PR_LANGUAGES`](./pr_languages/). Property tag: 0x002F001F (PT_UNICODE). |
+| static readonly [PR_LANGUAGE_A](../../aspose.email.mapi/mapipropertytag/pr_language_a/) | The ANSI form of [`PR_LANGUAGE`](./pr_language/). Property tag: 0x3A0C001E (PT_STRING8). |
+| static readonly [PR_LANGUAGE_W](../../aspose.email.mapi/mapipropertytag/pr_language_w/) | The Unicode form of [`PR_LANGUAGE`](./pr_language/). Property tag: 0x3A0C001F (PT_UNICODE). |
+| static readonly [PR_LAST_ACCESS_TIME](../../aspose.email.mapi/mapipropertytag/pr_last_access_time/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66A90040 (PT_SYSTIME). |
+| static readonly [PR_LAST_FULL_BACKUP](../../aspose.email.mapi/mapipropertytag/pr_last_full_backup/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66850040 (PT_SYSTIME). |
+| static readonly [PR_LAST_LOGOFF_TIME](../../aspose.email.mapi/mapipropertytag/pr_last_logoff_time/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66A30040 (PT_SYSTIME). |
+| static readonly [PR_LAST_LOGON_TIME](../../aspose.email.mapi/mapipropertytag/pr_last_logon_time/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66A20040 (PT_SYSTIME). |
+| static readonly [PR_LAST_MODIFICATION_TIME](../../aspose.email.mapi/mapipropertytag/pr_last_modification_time/) | Contains the time, in UTC, of the last modification to the object. Canonical name: PidTagLastModificationTime. Property tag: 0x30080040 (PT_SYSTIME). |
+| static readonly [PR_LAST_MODIFIER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_last_modifier_entryid/) | Specifies the Address Book EntryID of the last user to modify the contents of the message. Canonical name: PidTagLastModifierEntryId. Property tag: 0x3FFB0102 (PT_BINARY). |
+| static readonly [PR_LAST_MODIFIER_NAME](../../aspose.email.mapi/mapipropertytag/pr_last_modifier_name/) | Contains the name of the last mail user to change the Message object. Canonical name: PidTagLastModifierName. Property tag: 0x3FFA001E (PT_STRING8). |
+| static readonly [PR_LAST_MODIFIER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_last_modifier_name_a/) | The ANSI form of [`PR_LAST_MODIFIER_NAME`](./pr_last_modifier_name/). Property tag: 0x3FFA001E (PT_STRING8). |
+| static readonly [PR_LAST_MODIFIER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_last_modifier_name_w/) | The Unicode form of [`PR_LAST_MODIFIER_NAME`](./pr_last_modifier_name/). Property tag: 0x3FFA001F (PT_UNICODE). |
 | static readonly [PR_LAST_VERB_EXECUTED](../../aspose.email.mapi/mapipropertytag/pr_last_verb_executed/) | Specifies the last verb executed for the message item to which it is related |
 | static readonly [PR_LAST_VERB_EXECUTION_TIME](../../aspose.email.mapi/mapipropertytag/pr_last_verb_execution_time/) | Contains the time when the last verb was executed. |
-| static readonly [PR_LATEST_DELIVERY_TIME](../../aspose.email.mapi/mapipropertytag/pr_latest_delivery_time/) |  |
-| static readonly [PR_LOCALE_ID](../../aspose.email.mapi/mapipropertytag/pr_locale_id/) |  |
-| static readonly [PR_LOCALITY](../../aspose.email.mapi/mapipropertytag/pr_locality/) |  |
-| static readonly [PR_LOCALITY_A](../../aspose.email.mapi/mapipropertytag/pr_locality_a/) |  |
-| static readonly [PR_LOCALITY_W](../../aspose.email.mapi/mapipropertytag/pr_locality_w/) |  |
-| static readonly [PR_LOCATION](../../aspose.email.mapi/mapipropertytag/pr_location/) |  |
-| static readonly [PR_LOCATION_A](../../aspose.email.mapi/mapipropertytag/pr_location_a/) |  |
-| static readonly [PR_LOCATION_W](../../aspose.email.mapi/mapipropertytag/pr_location_w/) |  |
-| static readonly [PR_LONGTERM_ENTRYID_FROM_TABLE](../../aspose.email.mapi/mapipropertytag/pr_longterm_entryid_from_table/) |  |
+| static readonly [PR_LATEST_DELIVERY_TIME](../../aspose.email.mapi/mapipropertytag/pr_latest_delivery_time/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x00190040 (PT_SYSTIME). |
+| static readonly [PR_LOCALE_ID](../../aspose.email.mapi/mapipropertytag/pr_locale_id/) | Contains the Logon object LocaleID. Canonical name: PidTagLocaleId. Property tag: 0x66A10003 (PT_LONG). |
+| static readonly [PR_LOCALITY](../../aspose.email.mapi/mapipropertytag/pr_locality/) | Contains the name of the mail user's locality, such as the town or city. Canonical name: PidTagLocality. Property tag: 0x3A27001E (PT_STRING8). |
+| static readonly [PR_LOCALITY_A](../../aspose.email.mapi/mapipropertytag/pr_locality_a/) | The ANSI form of [`PR_LOCALITY`](./pr_locality/). Property tag: 0x3A27001E (PT_STRING8). |
+| static readonly [PR_LOCALITY_W](../../aspose.email.mapi/mapipropertytag/pr_locality_w/) | The Unicode form of [`PR_LOCALITY`](./pr_locality/). Property tag: 0x3A27001F (PT_UNICODE). |
+| static readonly [PR_LOCATION](../../aspose.email.mapi/mapipropertytag/pr_location/) | Contains the location of the mail user. Canonical name: PidTagLocation. Property tag: 0x3A0D001E (PT_STRING8). |
+| static readonly [PR_LOCATION_A](../../aspose.email.mapi/mapipropertytag/pr_location_a/) | The ANSI form of [`PR_LOCATION`](./pr_location/). Property tag: 0x3A0D001E (PT_STRING8). |
+| static readonly [PR_LOCATION_W](../../aspose.email.mapi/mapipropertytag/pr_location_w/) | The Unicode form of [`PR_LOCATION`](./pr_location/). Property tag: 0x3A0D001F (PT_UNICODE). |
+| static readonly [PR_LONGTERM_ENTRYID_FROM_TABLE](../../aspose.email.mapi/mapipropertytag/pr_longterm_entryid_from_table/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66700102 (PT_BINARY). |
 | static readonly [PR_LTP_ROW_ID](../../aspose.email.mapi/mapipropertytag/pr_ltp_row_id/) | LTP Row ID. |
 | static readonly [PR_LTP_ROW_VER](../../aspose.email.mapi/mapipropertytag/pr_ltp_row_ver/) | LTP Row Ver. |
-| static readonly [PR_MAILBOX_OWNER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_mailbox_owner_entryid/) |  |
-| static readonly [PR_MAILBOX_OWNER_NAME](../../aspose.email.mapi/mapipropertytag/pr_mailbox_owner_name/) |  |
-| static readonly [PR_MAILBOX_OWNER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_mailbox_owner_name_a/) |  |
-| static readonly [PR_MAILBOX_OWNER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_mailbox_owner_name_w/) |  |
-| static readonly [PR_MAIL_PERMISSION](../../aspose.email.mapi/mapipropertytag/pr_mail_permission/) |  |
-| static readonly [PR_MANAGER_NAME](../../aspose.email.mapi/mapipropertytag/pr_manager_name/) |  |
-| static readonly [PR_MANAGER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_manager_name_a/) |  |
-| static readonly [PR_MANAGER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_manager_name_w/) |  |
-| static readonly [PR_MAPPING_SIGNATURE](../../aspose.email.mapi/mapipropertytag/pr_mapping_signature/) |  |
-| static readonly [PR_MDB_PROVIDER](../../aspose.email.mapi/mapipropertytag/pr_mdb_provider/) |  |
-| static readonly [PR_MEMBER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_member_entryid/) |  |
-| static readonly [PR_MEMBER_ID](../../aspose.email.mapi/mapipropertytag/pr_member_id/) |  |
-| static readonly [PR_MEMBER_NAME](../../aspose.email.mapi/mapipropertytag/pr_member_name/) |  |
-| static readonly [PR_MEMBER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_member_name_a/) |  |
-| static readonly [PR_MEMBER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_member_name_w/) |  |
-| static readonly [PR_MEMBER_RIGHTS](../../aspose.email.mapi/mapipropertytag/pr_member_rights/) |  |
-| static readonly [PR_MESSAGE_ATTACHMENTS](../../aspose.email.mapi/mapipropertytag/pr_message_attachments/) |  |
-| static readonly [PR_MESSAGE_CC_ME](../../aspose.email.mapi/mapipropertytag/pr_message_cc_me/) |  |
-| static readonly [PR_MESSAGE_CLASS](../../aspose.email.mapi/mapipropertytag/pr_message_class/) |  |
-| static readonly [PR_MESSAGE_CLASS_A](../../aspose.email.mapi/mapipropertytag/pr_message_class_a/) |  |
-| static readonly [PR_MESSAGE_CLASS_W](../../aspose.email.mapi/mapipropertytag/pr_message_class_w/) |  |
-| static readonly [PR_MESSAGE_CODEPAGE](../../aspose.email.mapi/mapipropertytag/pr_message_codepage/) |  |
-| static readonly [PR_MESSAGE_DELIVERY_ID](../../aspose.email.mapi/mapipropertytag/pr_message_delivery_id/) |  |
-| static readonly [PR_MESSAGE_DELIVERY_TIME](../../aspose.email.mapi/mapipropertytag/pr_message_delivery_time/) |  |
-| static readonly [PR_MESSAGE_DOWNLOAD_TIME](../../aspose.email.mapi/mapipropertytag/pr_message_download_time/) |  |
-| static readonly [PR_MESSAGE_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_message_flags/) |  |
-| static readonly [PR_MESSAGE_LOCALE_ID](../../aspose.email.mapi/mapipropertytag/pr_message_locale_id/) |  |
-| static readonly [PR_MESSAGE_PROCESSED](../../aspose.email.mapi/mapipropertytag/pr_message_processed/) |  |
-| static readonly [PR_MESSAGE_RECIPIENTS](../../aspose.email.mapi/mapipropertytag/pr_message_recipients/) |  |
-| static readonly [PR_MESSAGE_RECIP_ME](../../aspose.email.mapi/mapipropertytag/pr_message_recip_me/) |  |
-| static readonly [PR_MESSAGE_SECURITY_LABEL](../../aspose.email.mapi/mapipropertytag/pr_message_security_label/) |  |
-| static readonly [PR_MESSAGE_SITE_NAME](../../aspose.email.mapi/mapipropertytag/pr_message_site_name/) |  |
-| static readonly [PR_MESSAGE_SITE_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_message_site_name_a/) |  |
-| static readonly [PR_MESSAGE_SITE_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_message_site_name_w/) |  |
-| static readonly [PR_MESSAGE_SIZE](../../aspose.email.mapi/mapipropertytag/pr_message_size/) |  |
-| static readonly [PR_MESSAGE_SIZE_EXTENDED](../../aspose.email.mapi/mapipropertytag/pr_message_size_extended/) |  |
-| static readonly [PR_MESSAGE_SUBMISSION_ID](../../aspose.email.mapi/mapipropertytag/pr_message_submission_id/) |  |
-| static readonly [PR_MESSAGE_TOKEN](../../aspose.email.mapi/mapipropertytag/pr_message_token/) |  |
-| static readonly [PR_MESSAGE_TO_ME](../../aspose.email.mapi/mapipropertytag/pr_message_to_me/) |  |
-| static readonly [PR_MHS_COMMON_NAME](../../aspose.email.mapi/mapipropertytag/pr_mhs_common_name/) |  |
-| static readonly [PR_MHS_COMMON_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_mhs_common_name_a/) |  |
-| static readonly [PR_MHS_COMMON_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_mhs_common_name_w/) |  |
-| static readonly [PR_MIDDLE_NAME](../../aspose.email.mapi/mapipropertytag/pr_middle_name/) |  |
-| static readonly [PR_MIDDLE_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_middle_name_a/) |  |
-| static readonly [PR_MIDDLE_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_middle_name_w/) |  |
-| static readonly [PR_MINI_ICON](../../aspose.email.mapi/mapipropertytag/pr_mini_icon/) |  |
-| static readonly [PR_MOBILE_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_mobile_telephone_number/) |  |
-| static readonly [PR_MOBILE_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_mobile_telephone_number_a/) |  |
-| static readonly [PR_MOBILE_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_mobile_telephone_number_w/) |  |
-| static readonly [PR_MODIFY_VERSION](../../aspose.email.mapi/mapipropertytag/pr_modify_version/) |  |
-| static readonly [PR_MOVE_TO_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_move_to_folder_entryid/) |  |
-| static readonly [PR_MOVE_TO_STORE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_move_to_store_entryid/) |  |
-| static readonly [PR_MSG_BODY_ID](../../aspose.email.mapi/mapipropertytag/pr_msg_body_id/) |  |
-| static readonly [PR_MSG_STATUS](../../aspose.email.mapi/mapipropertytag/pr_msg_status/) |  |
-| static readonly [PR_MTS_ID](../../aspose.email.mapi/mapipropertytag/pr_mts_id/) |  |
-| static readonly [PR_MTS_REPORT_ID](../../aspose.email.mapi/mapipropertytag/pr_mts_report_id/) |  |
-| static readonly [PR_MTS_SUBJECT_ID](../../aspose.email.mapi/mapipropertytag/pr_mts_subject_id/) |  |
-| static readonly [PR_NDR_DIAG_CODE](../../aspose.email.mapi/mapipropertytag/pr_ndr_diag_code/) |  |
-| static readonly [PR_NDR_REASON_CODE](../../aspose.email.mapi/mapipropertytag/pr_ndr_reason_code/) |  |
-| static readonly [PR_NEWSFEED_INFO](../../aspose.email.mapi/mapipropertytag/pr_newsfeed_info/) |  |
-| static readonly [PR_NEWSGROUP_COMPONENT](../../aspose.email.mapi/mapipropertytag/pr_newsgroup_component/) |  |
-| static readonly [PR_NEWSGROUP_COMPONENT_A](../../aspose.email.mapi/mapipropertytag/pr_newsgroup_component_a/) |  |
-| static readonly [PR_NEWSGROUP_COMPONENT_W](../../aspose.email.mapi/mapipropertytag/pr_newsgroup_component_w/) |  |
-| static readonly [PR_NEWSGROUP_NAME](../../aspose.email.mapi/mapipropertytag/pr_newsgroup_name/) |  |
-| static readonly [PR_NEWSGROUP_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_newsgroup_name_a/) |  |
-| static readonly [PR_NEWSGROUP_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_newsgroup_name_w/) |  |
-| static readonly [PR_NEWSGROUP_ROOT_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_newsgroup_root_folder_entryid/) |  |
-| static readonly [PR_NEW_SUBS_GET_AUTO_ADD](../../aspose.email.mapi/mapipropertytag/pr_new_subs_get_auto_add/) |  |
-| static readonly [PR_NICKNAME](../../aspose.email.mapi/mapipropertytag/pr_nickname/) |  |
-| static readonly [PR_NICKNAME_A](../../aspose.email.mapi/mapipropertytag/pr_nickname_a/) |  |
-| static readonly [PR_NICKNAME_W](../../aspose.email.mapi/mapipropertytag/pr_nickname_w/) |  |
-| static readonly [PR_NNTP_ARTICLE_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_nntp_article_folder_entryid/) |  |
-| static readonly [PR_NNTP_CONTROL_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_nntp_control_folder_entryid/) |  |
-| static readonly [PR_NNTP_XREF](../../aspose.email.mapi/mapipropertytag/pr_nntp_xref/) |  |
-| static readonly [PR_NNTP_XREF_A](../../aspose.email.mapi/mapipropertytag/pr_nntp_xref_a/) |  |
-| static readonly [PR_NNTP_XREF_W](../../aspose.email.mapi/mapipropertytag/pr_nntp_xref_w/) |  |
-| static readonly [PR_NON_IPM_SUBTREE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_non_ipm_subtree_entryid/) |  |
-| static readonly [PR_NON_RECEIPT_NOTIFICATION_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_non_receipt_notification_requested/) |  |
-| static readonly [PR_NON_RECEIPT_REASON](../../aspose.email.mapi/mapipropertytag/pr_non_receipt_reason/) |  |
-| static readonly [PR_NORMALIZED_SUBJECT](../../aspose.email.mapi/mapipropertytag/pr_normalized_subject/) |  |
-| static readonly [PR_NORMALIZED_SUBJECT_A](../../aspose.email.mapi/mapipropertytag/pr_normalized_subject_a/) |  |
-| static readonly [PR_NORMALIZED_SUBJECT_W](../../aspose.email.mapi/mapipropertytag/pr_normalized_subject_w/) |  |
-| static readonly [PR_NORMAL_MESSAGE_SIZE](../../aspose.email.mapi/mapipropertytag/pr_normal_message_size/) |  |
-| static readonly [PR_NORMAL_MESSAGE_SIZE_EXTENDED](../../aspose.email.mapi/mapipropertytag/pr_normal_message_size_extended/) |  |
-| static readonly [PR_NORMAL_MSG_W_ATTACH_COUNT](../../aspose.email.mapi/mapipropertytag/pr_normal_msg_w_attach_count/) |  |
-| static readonly [PR_NT_USER_NAME](../../aspose.email.mapi/mapipropertytag/pr_nt_user_name/) |  |
-| static readonly [PR_NT_USER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_nt_user_name_a/) |  |
-| static readonly [PR_NT_USER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_nt_user_name_w/) |  |
-| static readonly [PR_OBJECT_TYPE](../../aspose.email.mapi/mapipropertytag/pr_object_type/) |  |
-| static readonly [PR_OBSOLETED_IPMS](../../aspose.email.mapi/mapipropertytag/pr_obsoleted_ipms/) |  |
-| static readonly [PR_OFFICE2_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_office2_telephone_number/) |  |
-| static readonly [PR_OFFICE2_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_office2_telephone_number_a/) |  |
-| static readonly [PR_OFFICE2_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_office2_telephone_number_w/) |  |
-| static readonly [PR_OFFICE_LOCATION](../../aspose.email.mapi/mapipropertytag/pr_office_location/) |  |
-| static readonly [PR_OFFICE_LOCATION_A](../../aspose.email.mapi/mapipropertytag/pr_office_location_a/) |  |
-| static readonly [PR_OFFICE_LOCATION_W](../../aspose.email.mapi/mapipropertytag/pr_office_location_w/) |  |
-| static readonly [PR_OFFICE_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_office_telephone_number/) |  |
-| static readonly [PR_OFFICE_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_office_telephone_number_a/) |  |
-| static readonly [PR_OFFICE_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_office_telephone_number_w/) |  |
-| static readonly [PR_OFFLINE_ADDRBOOK_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_offline_addrbook_entryid/) |  |
-| static readonly [PR_OFFLINE_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_offline_flags/) |  |
-| static readonly [PR_OFFLINE_MESSAGE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_offline_message_entryid/) |  |
-| static readonly [PR_OLDEST_DELETED_ON](../../aspose.email.mapi/mapipropertytag/pr_oldest_deleted_on/) |  |
-| static readonly [PR_OOF_STATE](../../aspose.email.mapi/mapipropertytag/pr_oof_state/) |  |
-| static readonly [PR_ORGANIZATIONAL_ID_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_organizational_id_number/) |  |
-| static readonly [PR_ORGANIZATIONAL_ID_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_organizational_id_number_a/) |  |
-| static readonly [PR_ORGANIZATIONAL_ID_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_organizational_id_number_w/) |  |
-| static readonly [PR_ORG_EMAIL_ADDR](../../aspose.email.mapi/mapipropertytag/pr_org_email_addr/) |  |
-| static readonly [PR_ORG_EMAIL_ADDR_A](../../aspose.email.mapi/mapipropertytag/pr_org_email_addr_a/) |  |
-| static readonly [PR_ORG_EMAIL_ADDR_W](../../aspose.email.mapi/mapipropertytag/pr_org_email_addr_w/) |  |
-| static readonly [PR_ORIGINALLY_INTENDED_RECIPIENT_NAME](../../aspose.email.mapi/mapipropertytag/pr_originally_intended_recipient_name/) |  |
-| static readonly [PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_originally_intended_recip_addrtype/) |  |
-| static readonly [PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_originally_intended_recip_addrtype_a/) |  |
-| static readonly [PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_originally_intended_recip_addrtype_w/) |  |
-| static readonly [PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_originally_intended_recip_email_address/) |  |
-| static readonly [PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_originally_intended_recip_email_address_a/) |  |
-| static readonly [PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_originally_intended_recip_email_address_w/) |  |
-| static readonly [PR_ORIGINALLY_INTENDED_RECIP_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_originally_intended_recip_entryid/) |  |
-| static readonly [PR_ORIGINAL_AUTHOR_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_original_author_addrtype/) |  |
-| static readonly [PR_ORIGINAL_AUTHOR_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_original_author_addrtype_a/) |  |
-| static readonly [PR_ORIGINAL_AUTHOR_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_original_author_addrtype_w/) |  |
-| static readonly [PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_original_author_email_address/) |  |
-| static readonly [PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_original_author_email_address_a/) |  |
-| static readonly [PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_original_author_email_address_w/) |  |
-| static readonly [PR_ORIGINAL_AUTHOR_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_original_author_entryid/) |  |
-| static readonly [PR_ORIGINAL_AUTHOR_NAME](../../aspose.email.mapi/mapipropertytag/pr_original_author_name/) |  |
-| static readonly [PR_ORIGINAL_AUTHOR_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_original_author_name_a/) |  |
-| static readonly [PR_ORIGINAL_AUTHOR_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_original_author_name_w/) |  |
-| static readonly [PR_ORIGINAL_AUTHOR_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_original_author_search_key/) |  |
-| static readonly [PR_ORIGINAL_DELIVERY_TIME](../../aspose.email.mapi/mapipropertytag/pr_original_delivery_time/) |  |
-| static readonly [PR_ORIGINAL_DISPLAY_BCC](../../aspose.email.mapi/mapipropertytag/pr_original_display_bcc/) |  |
-| static readonly [PR_ORIGINAL_DISPLAY_BCC_A](../../aspose.email.mapi/mapipropertytag/pr_original_display_bcc_a/) |  |
-| static readonly [PR_ORIGINAL_DISPLAY_BCC_W](../../aspose.email.mapi/mapipropertytag/pr_original_display_bcc_w/) |  |
-| static readonly [PR_ORIGINAL_DISPLAY_CC](../../aspose.email.mapi/mapipropertytag/pr_original_display_cc/) |  |
-| static readonly [PR_ORIGINAL_DISPLAY_CC_A](../../aspose.email.mapi/mapipropertytag/pr_original_display_cc_a/) |  |
-| static readonly [PR_ORIGINAL_DISPLAY_CC_W](../../aspose.email.mapi/mapipropertytag/pr_original_display_cc_w/) |  |
-| static readonly [PR_ORIGINAL_DISPLAY_NAME](../../aspose.email.mapi/mapipropertytag/pr_original_display_name/) |  |
-| static readonly [PR_ORIGINAL_DISPLAY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_original_display_name_a/) |  |
-| static readonly [PR_ORIGINAL_DISPLAY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_original_display_name_w/) |  |
-| static readonly [PR_ORIGINAL_DISPLAY_TO](../../aspose.email.mapi/mapipropertytag/pr_original_display_to/) |  |
-| static readonly [PR_ORIGINAL_DISPLAY_TO_A](../../aspose.email.mapi/mapipropertytag/pr_original_display_to_a/) |  |
-| static readonly [PR_ORIGINAL_DISPLAY_TO_W](../../aspose.email.mapi/mapipropertytag/pr_original_display_to_w/) |  |
-| static readonly [PR_ORIGINAL_EITS](../../aspose.email.mapi/mapipropertytag/pr_original_eits/) |  |
-| static readonly [PR_ORIGINAL_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_original_entryid/) |  |
-| static readonly [PR_ORIGINAL_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_original_search_key/) |  |
-| static readonly [PR_ORIGINAL_SENDER_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_original_sender_addrtype/) |  |
-| static readonly [PR_ORIGINAL_SENDER_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_original_sender_addrtype_a/) |  |
-| static readonly [PR_ORIGINAL_SENDER_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_original_sender_addrtype_w/) |  |
-| static readonly [PR_ORIGINAL_SENDER_EMAIL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_original_sender_email_address/) |  |
-| static readonly [PR_ORIGINAL_SENDER_EMAIL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_original_sender_email_address_a/) |  |
-| static readonly [PR_ORIGINAL_SENDER_EMAIL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_original_sender_email_address_w/) |  |
-| static readonly [PR_ORIGINAL_SENDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_original_sender_entryid/) |  |
-| static readonly [PR_ORIGINAL_SENDER_NAME](../../aspose.email.mapi/mapipropertytag/pr_original_sender_name/) |  |
-| static readonly [PR_ORIGINAL_SENDER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_original_sender_name_a/) |  |
-| static readonly [PR_ORIGINAL_SENDER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_original_sender_name_w/) |  |
-| static readonly [PR_ORIGINAL_SENDER_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_original_sender_search_key/) |  |
-| static readonly [PR_ORIGINAL_SENSITIVITY](../../aspose.email.mapi/mapipropertytag/pr_original_sensitivity/) |  |
-| static readonly [PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_addrtype/) |  |
-| static readonly [PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_addrtype_a/) |  |
-| static readonly [PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_addrtype_w/) |  |
-| static readonly [PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_email_address/) |  |
-| static readonly [PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_email_address_a/) |  |
-| static readonly [PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_email_address_w/) |  |
-| static readonly [PR_ORIGINAL_SENT_REPRESENTING_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_entryid/) |  |
-| static readonly [PR_ORIGINAL_SENT_REPRESENTING_NAME](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_name/) |  |
-| static readonly [PR_ORIGINAL_SENT_REPRESENTING_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_name_a/) |  |
-| static readonly [PR_ORIGINAL_SENT_REPRESENTING_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_name_w/) |  |
-| static readonly [PR_ORIGINAL_SENT_REPRESENTING_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_search_key/) |  |
-| static readonly [PR_ORIGINAL_SUBJECT](../../aspose.email.mapi/mapipropertytag/pr_original_subject/) |  |
-| static readonly [PR_ORIGINAL_SUBJECT_A](../../aspose.email.mapi/mapipropertytag/pr_original_subject_a/) |  |
-| static readonly [PR_ORIGINAL_SUBJECT_W](../../aspose.email.mapi/mapipropertytag/pr_original_subject_w/) |  |
-| static readonly [PR_ORIGINAL_SUBMIT_TIME](../../aspose.email.mapi/mapipropertytag/pr_original_submit_time/) |  |
-| static readonly [PR_ORIGINATING_MTA_CERTIFICATE](../../aspose.email.mapi/mapipropertytag/pr_originating_mta_certificate/) |  |
-| static readonly [PR_ORIGINATOR_ADDR](../../aspose.email.mapi/mapipropertytag/pr_originator_addr/) |  |
-| static readonly [PR_ORIGINATOR_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_originator_addrtype/) |  |
-| static readonly [PR_ORIGINATOR_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_originator_addrtype_a/) |  |
-| static readonly [PR_ORIGINATOR_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_originator_addrtype_w/) |  |
-| static readonly [PR_ORIGINATOR_ADDR_A](../../aspose.email.mapi/mapipropertytag/pr_originator_addr_a/) |  |
-| static readonly [PR_ORIGINATOR_ADDR_W](../../aspose.email.mapi/mapipropertytag/pr_originator_addr_w/) |  |
-| static readonly [PR_ORIGINATOR_AND_DL_EXPANSION_HISTORY](../../aspose.email.mapi/mapipropertytag/pr_originator_and_dl_expansion_history/) |  |
-| static readonly [PR_ORIGINATOR_CERTIFICATE](../../aspose.email.mapi/mapipropertytag/pr_originator_certificate/) |  |
-| static readonly [PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_originator_delivery_report_requested/) |  |
-| static readonly [PR_ORIGINATOR_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_originator_entryid/) |  |
-| static readonly [PR_ORIGINATOR_NAME](../../aspose.email.mapi/mapipropertytag/pr_originator_name/) |  |
-| static readonly [PR_ORIGINATOR_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_originator_name_a/) |  |
-| static readonly [PR_ORIGINATOR_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_originator_name_w/) |  |
-| static readonly [PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_originator_non_delivery_report_requested/) |  |
-| static readonly [PR_ORIGINATOR_REQUESTED_ALTERNATE_RECIPIENT](../../aspose.email.mapi/mapipropertytag/pr_originator_requested_alternate_recipient/) |  |
-| static readonly [PR_ORIGINATOR_RETURN_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_originator_return_address/) |  |
-| static readonly [PR_ORIGIN_CHECK](../../aspose.email.mapi/mapipropertytag/pr_origin_check/) |  |
-| static readonly [PR_ORIG_MESSAGE_CLASS](../../aspose.email.mapi/mapipropertytag/pr_orig_message_class/) |  |
-| static readonly [PR_ORIG_MESSAGE_CLASS_A](../../aspose.email.mapi/mapipropertytag/pr_orig_message_class_a/) |  |
-| static readonly [PR_ORIG_MESSAGE_CLASS_W](../../aspose.email.mapi/mapipropertytag/pr_orig_message_class_w/) |  |
-| static readonly [PR_OST_ENCRYPTION](../../aspose.email.mapi/mapipropertytag/pr_ost_encryption/) |  |
-| static readonly [PR_OTHER_ADDRESS_CITY](../../aspose.email.mapi/mapipropertytag/pr_other_address_city/) |  |
-| static readonly [PR_OTHER_ADDRESS_CITY_A](../../aspose.email.mapi/mapipropertytag/pr_other_address_city_a/) |  |
-| static readonly [PR_OTHER_ADDRESS_CITY_W](../../aspose.email.mapi/mapipropertytag/pr_other_address_city_w/) |  |
-| static readonly [PR_OTHER_ADDRESS_COUNTRY](../../aspose.email.mapi/mapipropertytag/pr_other_address_country/) |  |
-| static readonly [PR_OTHER_ADDRESS_COUNTRY_A](../../aspose.email.mapi/mapipropertytag/pr_other_address_country_a/) |  |
-| static readonly [PR_OTHER_ADDRESS_COUNTRY_W](../../aspose.email.mapi/mapipropertytag/pr_other_address_country_w/) |  |
-| static readonly [PR_OTHER_ADDRESS_POSTAL_CODE](../../aspose.email.mapi/mapipropertytag/pr_other_address_postal_code/) |  |
-| static readonly [PR_OTHER_ADDRESS_POSTAL_CODE_A](../../aspose.email.mapi/mapipropertytag/pr_other_address_postal_code_a/) |  |
-| static readonly [PR_OTHER_ADDRESS_POSTAL_CODE_W](../../aspose.email.mapi/mapipropertytag/pr_other_address_postal_code_w/) |  |
-| static readonly [PR_OTHER_ADDRESS_POST_OFFICE_BOX](../../aspose.email.mapi/mapipropertytag/pr_other_address_post_office_box/) |  |
-| static readonly [PR_OTHER_ADDRESS_POST_OFFICE_BOX_A](../../aspose.email.mapi/mapipropertytag/pr_other_address_post_office_box_a/) |  |
-| static readonly [PR_OTHER_ADDRESS_POST_OFFICE_BOX_W](../../aspose.email.mapi/mapipropertytag/pr_other_address_post_office_box_w/) |  |
-| static readonly [PR_OTHER_ADDRESS_STATE_OR_PROVINCE](../../aspose.email.mapi/mapipropertytag/pr_other_address_state_or_province/) |  |
-| static readonly [PR_OTHER_ADDRESS_STATE_OR_PROVINCE_A](../../aspose.email.mapi/mapipropertytag/pr_other_address_state_or_province_a/) |  |
-| static readonly [PR_OTHER_ADDRESS_STATE_OR_PROVINCE_W](../../aspose.email.mapi/mapipropertytag/pr_other_address_state_or_province_w/) |  |
-| static readonly [PR_OTHER_ADDRESS_STREET](../../aspose.email.mapi/mapipropertytag/pr_other_address_street/) |  |
-| static readonly [PR_OTHER_ADDRESS_STREET_A](../../aspose.email.mapi/mapipropertytag/pr_other_address_street_a/) |  |
-| static readonly [PR_OTHER_ADDRESS_STREET_W](../../aspose.email.mapi/mapipropertytag/pr_other_address_street_w/) |  |
-| static readonly [PR_OTHER_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_other_telephone_number/) |  |
-| static readonly [PR_OTHER_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_other_telephone_number_a/) |  |
-| static readonly [PR_OTHER_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_other_telephone_number_w/) |  |
-| static readonly [PR_OUTBOUND_NEWSFEED_DN](../../aspose.email.mapi/mapipropertytag/pr_outbound_newsfeed_dn/) |  |
-| static readonly [PR_OUTBOUND_NEWSFEED_DN_A](../../aspose.email.mapi/mapipropertytag/pr_outbound_newsfeed_dn_a/) |  |
-| static readonly [PR_OUTBOUND_NEWSFEED_DN_W](../../aspose.email.mapi/mapipropertytag/pr_outbound_newsfeed_dn_w/) |  |
-| static readonly [PR_OVERALL_AGE_LIMIT](../../aspose.email.mapi/mapipropertytag/pr_overall_age_limit/) |  |
-| static readonly [PR_OVERALL_MSG_AGE_LIMIT](../../aspose.email.mapi/mapipropertytag/pr_overall_msg_age_limit/) |  |
-| static readonly [PR_OWA_URL](../../aspose.email.mapi/mapipropertytag/pr_owa_url/) |  |
-| static readonly [PR_OWA_URL_A](../../aspose.email.mapi/mapipropertytag/pr_owa_url_a/) |  |
-| static readonly [PR_OWA_URL_W](../../aspose.email.mapi/mapipropertytag/pr_owa_url_w/) |  |
-| static readonly [PR_OWNER_APPT_ID](../../aspose.email.mapi/mapipropertytag/pr_owner_appt_id/) |  |
-| static readonly [PR_OWNER_COUNT](../../aspose.email.mapi/mapipropertytag/pr_owner_count/) |  |
-| static readonly [PR_OWN_STORE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_own_store_entryid/) |  |
-| static readonly [PR_P1_CONTENT](../../aspose.email.mapi/mapipropertytag/pr_p1_content/) |  |
-| static readonly [PR_P1_CONTENT_TYPE](../../aspose.email.mapi/mapipropertytag/pr_p1_content_type/) |  |
-| static readonly [PR_PAGER_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_pager_telephone_number/) |  |
-| static readonly [PR_PAGER_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_pager_telephone_number_a/) |  |
-| static readonly [PR_PAGER_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_pager_telephone_number_w/) |  |
-| static readonly [PR_PARENT_DISPLAY](../../aspose.email.mapi/mapipropertytag/pr_parent_display/) |  |
-| static readonly [PR_PARENT_DISPLAY_A](../../aspose.email.mapi/mapipropertytag/pr_parent_display_a/) |  |
-| static readonly [PR_PARENT_DISPLAY_W](../../aspose.email.mapi/mapipropertytag/pr_parent_display_w/) |  |
-| static readonly [PR_PARENT_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_parent_entryid/) |  |
-| static readonly [PR_PARENT_KEY](../../aspose.email.mapi/mapipropertytag/pr_parent_key/) |  |
-| static readonly [PR_PARENT_SOURCE_KEY](../../aspose.email.mapi/mapipropertytag/pr_parent_source_key/) |  |
-| static readonly [PR_PERSONAL_HOME_PAGE](../../aspose.email.mapi/mapipropertytag/pr_personal_home_page/) |  |
-| static readonly [PR_PERSONAL_HOME_PAGE_A](../../aspose.email.mapi/mapipropertytag/pr_personal_home_page_a/) |  |
-| static readonly [PR_PERSONAL_HOME_PAGE_W](../../aspose.email.mapi/mapipropertytag/pr_personal_home_page_w/) |  |
-| static readonly [PR_PHYSICAL_DELIVERY_BUREAU_FAX_DELIVERY](../../aspose.email.mapi/mapipropertytag/pr_physical_delivery_bureau_fax_delivery/) |  |
-| static readonly [PR_PHYSICAL_DELIVERY_MODE](../../aspose.email.mapi/mapipropertytag/pr_physical_delivery_mode/) |  |
-| static readonly [PR_PHYSICAL_DELIVERY_REPORT_REQUEST](../../aspose.email.mapi/mapipropertytag/pr_physical_delivery_report_request/) |  |
-| static readonly [PR_PHYSICAL_FORWARDING_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_physical_forwarding_address/) |  |
-| static readonly [PR_PHYSICAL_FORWARDING_ADDRESS_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_physical_forwarding_address_requested/) |  |
-| static readonly [PR_PHYSICAL_FORWARDING_PROHIBITED](../../aspose.email.mapi/mapipropertytag/pr_physical_forwarding_prohibited/) |  |
-| static readonly [PR_PHYSICAL_RENDITION_ATTRIBUTES](../../aspose.email.mapi/mapipropertytag/pr_physical_rendition_attributes/) |  |
-| static readonly [PR_POSTAL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_postal_address/) |  |
-| static readonly [PR_POSTAL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_postal_address_a/) |  |
-| static readonly [PR_POSTAL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_postal_address_w/) |  |
-| static readonly [PR_POSTAL_CODE](../../aspose.email.mapi/mapipropertytag/pr_postal_code/) |  |
-| static readonly [PR_POSTAL_CODE_A](../../aspose.email.mapi/mapipropertytag/pr_postal_code_a/) |  |
-| static readonly [PR_POSTAL_CODE_W](../../aspose.email.mapi/mapipropertytag/pr_postal_code_w/) |  |
-| static readonly [PR_POST_FOLDER_ENTRIES](../../aspose.email.mapi/mapipropertytag/pr_post_folder_entries/) |  |
-| static readonly [PR_POST_FOLDER_NAMES](../../aspose.email.mapi/mapipropertytag/pr_post_folder_names/) |  |
-| static readonly [PR_POST_FOLDER_NAMES_A](../../aspose.email.mapi/mapipropertytag/pr_post_folder_names_a/) |  |
-| static readonly [PR_POST_FOLDER_NAMES_W](../../aspose.email.mapi/mapipropertytag/pr_post_folder_names_w/) |  |
-| static readonly [PR_POST_OFFICE_BOX](../../aspose.email.mapi/mapipropertytag/pr_post_office_box/) |  |
-| static readonly [PR_POST_OFFICE_BOX_A](../../aspose.email.mapi/mapipropertytag/pr_post_office_box_a/) |  |
-| static readonly [PR_POST_OFFICE_BOX_W](../../aspose.email.mapi/mapipropertytag/pr_post_office_box_w/) |  |
-| static readonly [PR_POST_REPLY_DENIED](../../aspose.email.mapi/mapipropertytag/pr_post_reply_denied/) |  |
-| static readonly [PR_POST_REPLY_FOLDER_ENTRIES](../../aspose.email.mapi/mapipropertytag/pr_post_reply_folder_entries/) |  |
-| static readonly [PR_POST_REPLY_FOLDER_NAMES](../../aspose.email.mapi/mapipropertytag/pr_post_reply_folder_names/) |  |
-| static readonly [PR_POST_REPLY_FOLDER_NAMES_A](../../aspose.email.mapi/mapipropertytag/pr_post_reply_folder_names_a/) |  |
-| static readonly [PR_POST_REPLY_FOLDER_NAMES_W](../../aspose.email.mapi/mapipropertytag/pr_post_reply_folder_names_w/) |  |
-| static readonly [PR_PREDECESSOR_CHANGE_LIST](../../aspose.email.mapi/mapipropertytag/pr_predecessor_change_list/) |  |
-| static readonly [PR_PREFERRED_BY_NAME](../../aspose.email.mapi/mapipropertytag/pr_preferred_by_name/) |  |
-| static readonly [PR_PREFERRED_BY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_preferred_by_name_a/) |  |
-| static readonly [PR_PREFERRED_BY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_preferred_by_name_w/) |  |
-| static readonly [PR_PREPROCESS](../../aspose.email.mapi/mapipropertytag/pr_preprocess/) |  |
-| static readonly [PR_PREVENT_MSG_CREATE](../../aspose.email.mapi/mapipropertytag/pr_prevent_msg_create/) |  |
-| static readonly [PR_PREVIEW](../../aspose.email.mapi/mapipropertytag/pr_preview/) |  |
-| static readonly [PR_PREVIEW_A](../../aspose.email.mapi/mapipropertytag/pr_preview_a/) |  |
-| static readonly [PR_PREVIEW_UNREAD](../../aspose.email.mapi/mapipropertytag/pr_preview_unread/) |  |
-| static readonly [PR_PREVIEW_UNREAD_A](../../aspose.email.mapi/mapipropertytag/pr_preview_unread_a/) |  |
-| static readonly [PR_PREVIEW_UNREAD_W](../../aspose.email.mapi/mapipropertytag/pr_preview_unread_w/) |  |
-| static readonly [PR_PREVIEW_W](../../aspose.email.mapi/mapipropertytag/pr_preview_w/) |  |
-| static readonly [PR_PRIMARY_CAPABILITY](../../aspose.email.mapi/mapipropertytag/pr_primary_capability/) |  |
-| static readonly [PR_PRIMARY_FAX_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_primary_fax_number/) |  |
-| static readonly [PR_PRIMARY_FAX_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_primary_fax_number_a/) |  |
-| static readonly [PR_PRIMARY_FAX_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_primary_fax_number_w/) |  |
-| static readonly [PR_PRIMARY_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_primary_telephone_number/) |  |
-| static readonly [PR_PRIMARY_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_primary_telephone_number_a/) |  |
-| static readonly [PR_PRIMARY_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_primary_telephone_number_w/) |  |
-| static readonly [PR_PRIORITY](../../aspose.email.mapi/mapipropertytag/pr_priority/) |  |
-| static readonly [PR_PROFESSION](../../aspose.email.mapi/mapipropertytag/pr_profession/) |  |
-| static readonly [PR_PROFESSION_A](../../aspose.email.mapi/mapipropertytag/pr_profession_a/) |  |
-| static readonly [PR_PROFESSION_W](../../aspose.email.mapi/mapipropertytag/pr_profession_w/) |  |
-| static readonly [PR_PROFILE_AB_FILES_PATH](../../aspose.email.mapi/mapipropertytag/pr_profile_ab_files_path/) |  |
-| static readonly [PR_PROFILE_AB_FILES_PATH_A](../../aspose.email.mapi/mapipropertytag/pr_profile_ab_files_path_a/) |  |
-| static readonly [PR_PROFILE_AB_FILES_PATH_W](../../aspose.email.mapi/mapipropertytag/pr_profile_ab_files_path_w/) |  |
-| static readonly [PR_PROFILE_ADDR_INFO](../../aspose.email.mapi/mapipropertytag/pr_profile_addr_info/) |  |
-| static readonly [PR_PROFILE_ALLPUB_COMMENT](../../aspose.email.mapi/mapipropertytag/pr_profile_allpub_comment/) |  |
-| static readonly [PR_PROFILE_ALLPUB_COMMENT_A](../../aspose.email.mapi/mapipropertytag/pr_profile_allpub_comment_a/) |  |
-| static readonly [PR_PROFILE_ALLPUB_COMMENT_W](../../aspose.email.mapi/mapipropertytag/pr_profile_allpub_comment_w/) |  |
-| static readonly [PR_PROFILE_ALLPUB_DISPLAY_NAME](../../aspose.email.mapi/mapipropertytag/pr_profile_allpub_display_name/) |  |
-| static readonly [PR_PROFILE_ALLPUB_DISPLAY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_profile_allpub_display_name_a/) |  |
-| static readonly [PR_PROFILE_ALLPUB_DISPLAY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_profile_allpub_display_name_w/) |  |
-| static readonly [PR_PROFILE_AUTH_PACKAGE](../../aspose.email.mapi/mapipropertytag/pr_profile_auth_package/) |  |
-| static readonly [PR_PROFILE_BINDING_ORDER](../../aspose.email.mapi/mapipropertytag/pr_profile_binding_order/) |  |
-| static readonly [PR_PROFILE_BINDING_ORDER_A](../../aspose.email.mapi/mapipropertytag/pr_profile_binding_order_a/) |  |
-| static readonly [PR_PROFILE_BINDING_ORDER_W](../../aspose.email.mapi/mapipropertytag/pr_profile_binding_order_w/) |  |
-| static readonly [PR_PROFILE_CONFIG_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_profile_config_flags/) |  |
-| static readonly [PR_PROFILE_CONNECT_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_profile_connect_flags/) |  |
-| static readonly [PR_PROFILE_FAVFLD_COMMENT](../../aspose.email.mapi/mapipropertytag/pr_profile_favfld_comment/) |  |
-| static readonly [PR_PROFILE_FAVFLD_COMMENT_A](../../aspose.email.mapi/mapipropertytag/pr_profile_favfld_comment_a/) |  |
-| static readonly [PR_PROFILE_FAVFLD_COMMENT_W](../../aspose.email.mapi/mapipropertytag/pr_profile_favfld_comment_w/) |  |
-| static readonly [PR_PROFILE_FAVFLD_DISPLAY_NAME](../../aspose.email.mapi/mapipropertytag/pr_profile_favfld_display_name/) |  |
-| static readonly [PR_PROFILE_FAVFLD_DISPLAY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_profile_favfld_display_name_a/) |  |
-| static readonly [PR_PROFILE_FAVFLD_DISPLAY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_profile_favfld_display_name_w/) |  |
-| static readonly [PR_PROFILE_HOME_SERVER](../../aspose.email.mapi/mapipropertytag/pr_profile_home_server/) |  |
-| static readonly [PR_PROFILE_HOME_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_profile_home_server_a/) |  |
-| static readonly [PR_PROFILE_HOME_SERVER_ADDRS](../../aspose.email.mapi/mapipropertytag/pr_profile_home_server_addrs/) |  |
-| static readonly [PR_PROFILE_HOME_SERVER_DN](../../aspose.email.mapi/mapipropertytag/pr_profile_home_server_dn/) |  |
-| static readonly [PR_PROFILE_HOME_SERVER_DN_A](../../aspose.email.mapi/mapipropertytag/pr_profile_home_server_dn_a/) |  |
-| static readonly [PR_PROFILE_HOME_SERVER_DN_W](../../aspose.email.mapi/mapipropertytag/pr_profile_home_server_dn_w/) |  |
-| static readonly [PR_PROFILE_HOME_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_profile_home_server_w/) |  |
-| static readonly [PR_PROFILE_MAILBOX](../../aspose.email.mapi/mapipropertytag/pr_profile_mailbox/) |  |
-| static readonly [PR_PROFILE_MAILBOX_A](../../aspose.email.mapi/mapipropertytag/pr_profile_mailbox_a/) |  |
-| static readonly [PR_PROFILE_MAILBOX_W](../../aspose.email.mapi/mapipropertytag/pr_profile_mailbox_w/) |  |
-| static readonly [PR_PROFILE_MAX_RESTRICT](../../aspose.email.mapi/mapipropertytag/pr_profile_max_restrict/) |  |
-| static readonly [PR_PROFILE_MOAB](../../aspose.email.mapi/mapipropertytag/pr_profile_moab/) |  |
-| static readonly [PR_PROFILE_MOAB_A](../../aspose.email.mapi/mapipropertytag/pr_profile_moab_a/) |  |
-| static readonly [PR_PROFILE_MOAB_GUID](../../aspose.email.mapi/mapipropertytag/pr_profile_moab_guid/) |  |
-| static readonly [PR_PROFILE_MOAB_GUID_A](../../aspose.email.mapi/mapipropertytag/pr_profile_moab_guid_a/) |  |
-| static readonly [PR_PROFILE_MOAB_GUID_W](../../aspose.email.mapi/mapipropertytag/pr_profile_moab_guid_w/) |  |
-| static readonly [PR_PROFILE_MOAB_SEQ](../../aspose.email.mapi/mapipropertytag/pr_profile_moab_seq/) |  |
-| static readonly [PR_PROFILE_MOAB_W](../../aspose.email.mapi/mapipropertytag/pr_profile_moab_w/) |  |
-| static readonly [PR_PROFILE_NAME](../../aspose.email.mapi/mapipropertytag/pr_profile_name/) |  |
-| static readonly [PR_PROFILE_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_profile_name_a/) |  |
-| static readonly [PR_PROFILE_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_profile_name_w/) |  |
-| static readonly [PR_PROFILE_OFFLINE_INFO](../../aspose.email.mapi/mapipropertytag/pr_profile_offline_info/) |  |
-| static readonly [PR_PROFILE_OFFLINE_STORE_PATH](../../aspose.email.mapi/mapipropertytag/pr_profile_offline_store_path/) |  |
-| static readonly [PR_PROFILE_OFFLINE_STORE_PATH_A](../../aspose.email.mapi/mapipropertytag/pr_profile_offline_store_path_a/) |  |
-| static readonly [PR_PROFILE_OFFLINE_STORE_PATH_W](../../aspose.email.mapi/mapipropertytag/pr_profile_offline_store_path_w/) |  |
-| static readonly [PR_PROFILE_OPEN_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_profile_open_flags/) |  |
-| static readonly [PR_PROFILE_OPTIONS_DATA](../../aspose.email.mapi/mapipropertytag/pr_profile_options_data/) |  |
-| static readonly [PR_PROFILE_SECURE_MAILBOX](../../aspose.email.mapi/mapipropertytag/pr_profile_secure_mailbox/) |  |
-| static readonly [PR_PROFILE_SERVER](../../aspose.email.mapi/mapipropertytag/pr_profile_server/) |  |
-| static readonly [PR_PROFILE_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_profile_server_a/) |  |
-| static readonly [PR_PROFILE_SERVER_DN](../../aspose.email.mapi/mapipropertytag/pr_profile_server_dn/) |  |
-| static readonly [PR_PROFILE_SERVER_DN_A](../../aspose.email.mapi/mapipropertytag/pr_profile_server_dn_a/) |  |
-| static readonly [PR_PROFILE_SERVER_DN_W](../../aspose.email.mapi/mapipropertytag/pr_profile_server_dn_w/) |  |
-| static readonly [PR_PROFILE_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_profile_server_w/) |  |
-| static readonly [PR_PROFILE_TRANSPORT_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_profile_transport_flags/) |  |
-| static readonly [PR_PROFILE_TYPE](../../aspose.email.mapi/mapipropertytag/pr_profile_type/) |  |
-| static readonly [PR_PROFILE_UI_STATE](../../aspose.email.mapi/mapipropertytag/pr_profile_ui_state/) |  |
-| static readonly [PR_PROFILE_UNRESOLVED_NAME](../../aspose.email.mapi/mapipropertytag/pr_profile_unresolved_name/) |  |
-| static readonly [PR_PROFILE_UNRESOLVED_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_profile_unresolved_name_a/) |  |
-| static readonly [PR_PROFILE_UNRESOLVED_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_profile_unresolved_name_w/) |  |
-| static readonly [PR_PROFILE_UNRESOLVED_SERVER](../../aspose.email.mapi/mapipropertytag/pr_profile_unresolved_server/) |  |
-| static readonly [PR_PROFILE_UNRESOLVED_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_profile_unresolved_server_a/) |  |
-| static readonly [PR_PROFILE_UNRESOLVED_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_profile_unresolved_server_w/) |  |
-| static readonly [PR_PROFILE_USER](../../aspose.email.mapi/mapipropertytag/pr_profile_user/) |  |
-| static readonly [PR_PROFILE_USER_A](../../aspose.email.mapi/mapipropertytag/pr_profile_user_a/) |  |
-| static readonly [PR_PROFILE_USER_W](../../aspose.email.mapi/mapipropertytag/pr_profile_user_w/) |  |
-| static readonly [PR_PROFILE_VERSION](../../aspose.email.mapi/mapipropertytag/pr_profile_version/) |  |
-| static readonly [PR_PROMOTE_PROP_ID_LIST](../../aspose.email.mapi/mapipropertytag/pr_promote_prop_id_list/) |  |
-| static readonly [PR_PROOF_OF_DELIVERY](../../aspose.email.mapi/mapipropertytag/pr_proof_of_delivery/) |  |
-| static readonly [PR_PROOF_OF_DELIVERY_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_proof_of_delivery_requested/) |  |
-| static readonly [PR_PROOF_OF_SUBMISSION](../../aspose.email.mapi/mapipropertytag/pr_proof_of_submission/) |  |
-| static readonly [PR_PROOF_OF_SUBMISSION_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_proof_of_submission_requested/) |  |
-| static readonly [PR_PROVIDER_DISPLAY](../../aspose.email.mapi/mapipropertytag/pr_provider_display/) |  |
-| static readonly [PR_PROVIDER_DISPLAY_A](../../aspose.email.mapi/mapipropertytag/pr_provider_display_a/) |  |
-| static readonly [PR_PROVIDER_DISPLAY_W](../../aspose.email.mapi/mapipropertytag/pr_provider_display_w/) |  |
-| static readonly [PR_PROVIDER_DLL_NAME](../../aspose.email.mapi/mapipropertytag/pr_provider_dll_name/) |  |
-| static readonly [PR_PROVIDER_DLL_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_provider_dll_name_a/) |  |
-| static readonly [PR_PROVIDER_DLL_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_provider_dll_name_w/) |  |
-| static readonly [PR_PROVIDER_ORDINAL](../../aspose.email.mapi/mapipropertytag/pr_provider_ordinal/) |  |
-| static readonly [PR_PROVIDER_SUBMIT_TIME](../../aspose.email.mapi/mapipropertytag/pr_provider_submit_time/) |  |
-| static readonly [PR_PROVIDER_UID](../../aspose.email.mapi/mapipropertytag/pr_provider_uid/) |  |
-| static readonly [PR_PST_ENCRYPTION](../../aspose.email.mapi/mapipropertytag/pr_pst_encryption/) |  |
+| static readonly [PR_MAILBOX_OWNER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_mailbox_owner_entryid/) | Contains the EntryID in the Global Address List (GAL) of the owner of the mailbox. Canonical name: PidTagMailboxOwnerEntryId. Property tag: 0x661B0102 (PT_BINARY). |
+| static readonly [PR_MAILBOX_OWNER_NAME](../../aspose.email.mapi/mapipropertytag/pr_mailbox_owner_name/) | Contains the display name of the owner of the mailbox. Canonical name: PidTagMailboxOwnerName. Property tag: 0x661C001E (PT_STRING8). |
+| static readonly [PR_MAILBOX_OWNER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_mailbox_owner_name_a/) | The ANSI form of [`PR_MAILBOX_OWNER_NAME`](./pr_mailbox_owner_name/). Property tag: 0x661C001E (PT_STRING8). |
+| static readonly [PR_MAILBOX_OWNER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_mailbox_owner_name_w/) | The Unicode form of [`PR_MAILBOX_OWNER_NAME`](./pr_mailbox_owner_name/). Property tag: 0x661C001F (PT_UNICODE). |
+| static readonly [PR_MAIL_PERMISSION](../../aspose.email.mapi/mapipropertytag/pr_mail_permission/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3A0E000B (PT_BOOLEAN). |
+| static readonly [PR_MANAGER_NAME](../../aspose.email.mapi/mapipropertytag/pr_manager_name/) | Contains the name of the mail user's manager. Canonical name: PidTagManagerName. Property tag: 0x3A4E001E (PT_STRING8). |
+| static readonly [PR_MANAGER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_manager_name_a/) | The ANSI form of [`PR_MANAGER_NAME`](./pr_manager_name/). Property tag: 0x3A4E001E (PT_STRING8). |
+| static readonly [PR_MANAGER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_manager_name_w/) | The Unicode form of [`PR_MANAGER_NAME`](./pr_manager_name/). Property tag: 0x3A4E001F (PT_UNICODE). |
+| static readonly [PR_MAPPING_SIGNATURE](../../aspose.email.mapi/mapipropertytag/pr_mapping_signature/) | A 16-byte constant that is present on all Address Book objects, but is not present on objects in an offline address book. Canonical name: PidTagMappingSignature. Property tag: 0x0FF80102 (PT_BINARY). |
+| static readonly [PR_MDB_PROVIDER](../../aspose.email.mapi/mapipropertytag/pr_mdb_provider/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x34140102 (PT_BINARY). |
+| static readonly [PR_MEMBER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_member_entryid/) | Contains the information to identify many different types of messaging objects. Canonical name: PidTagEntryId. Property tag: 0x0FFF0102 (PT_BINARY). |
+| static readonly [PR_MEMBER_ID](../../aspose.email.mapi/mapipropertytag/pr_member_id/) | Contains a unique identifier that the messaging server generates for each user. Canonical name: PidTagMemberId. Property tag: 0x66710014 (PT_LONGLONG). |
+| static readonly [PR_MEMBER_NAME](../../aspose.email.mapi/mapipropertytag/pr_member_name/) | Contains the user-readable name of the user. Canonical name: PidTagMemberName. Property tag: 0x6672001E (PT_STRING8). |
+| static readonly [PR_MEMBER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_member_name_a/) | The ANSI form of [`PR_MEMBER_NAME`](./pr_member_name/). Property tag: 0x6672001E (PT_STRING8). |
+| static readonly [PR_MEMBER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_member_name_w/) | The Unicode form of [`PR_MEMBER_NAME`](./pr_member_name/). Property tag: 0x6672001F (PT_UNICODE). |
+| static readonly [PR_MEMBER_RIGHTS](../../aspose.email.mapi/mapipropertytag/pr_member_rights/) | Contains the permissions for the specified user. Canonical name: PidTagMemberRights. Property tag: 0x66730003 (PT_LONG). |
+| static readonly [PR_MESSAGE_ATTACHMENTS](../../aspose.email.mapi/mapipropertytag/pr_message_attachments/) | Identifies all attachments to the current message. Canonical name: PidTagMessageAttachments. Property tag: 0x0E13000D (PT_OBJECT). |
+| static readonly [PR_MESSAGE_CC_ME](../../aspose.email.mapi/mapipropertytag/pr_message_cc_me/) | Canonical name: PidTagMessageCcMe. Property tag: 0x0058000B (PT_BOOLEAN). |
+| static readonly [PR_MESSAGE_CLASS](../../aspose.email.mapi/mapipropertytag/pr_message_class/) | Denotes the specific type of the Message object. Canonical name: PidTagMessageClass. Property tag: 0x001A001E (PT_STRING8). |
+| static readonly [PR_MESSAGE_CLASS_A](../../aspose.email.mapi/mapipropertytag/pr_message_class_a/) | The ANSI form of [`PR_MESSAGE_CLASS`](./pr_message_class/). Property tag: 0x001A001E (PT_STRING8). |
+| static readonly [PR_MESSAGE_CLASS_W](../../aspose.email.mapi/mapipropertytag/pr_message_class_w/) | The Unicode form of [`PR_MESSAGE_CLASS`](./pr_message_class/). Property tag: 0x001A001F (PT_UNICODE). |
+| static readonly [PR_MESSAGE_CODEPAGE](../../aspose.email.mapi/mapipropertytag/pr_message_codepage/) | Specifies the code page used to encode the non-Unicode string properties on this Message object. Canonical name: PidTagMessageCodepage. Property tag: 0x3FFD0003 (PT_LONG). |
+| static readonly [PR_MESSAGE_DELIVERY_ID](../../aspose.email.mapi/mapipropertytag/pr_message_delivery_id/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x001B0102 (PT_BINARY). |
+| static readonly [PR_MESSAGE_DELIVERY_TIME](../../aspose.email.mapi/mapipropertytag/pr_message_delivery_time/) | Specifies the time (in UTC) when the server received the message. Canonical name: PidTagMessageDeliveryTime. Property tag: 0x0E060040 (PT_SYSTIME). |
+| static readonly [PR_MESSAGE_DOWNLOAD_TIME](../../aspose.email.mapi/mapipropertytag/pr_message_download_time/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E180003 (PT_LONG). |
+| static readonly [PR_MESSAGE_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_message_flags/) | Specifies the status of the Message object. Canonical name: PidTagMessageFlags. Property tag: 0x0E070003 (PT_LONG). |
+| static readonly [PR_MESSAGE_LOCALE_ID](../../aspose.email.mapi/mapipropertytag/pr_message_locale_id/) | Contains the Windows Locale ID of the end-user who created this message. Canonical name: PidTagMessageLocaleId. Property tag: 0x3FF10003 (PT_LONG). |
+| static readonly [PR_MESSAGE_PROCESSED](../../aspose.email.mapi/mapipropertytag/pr_message_processed/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x65E8000B (PT_BOOLEAN). |
+| static readonly [PR_MESSAGE_RECIPIENTS](../../aspose.email.mapi/mapipropertytag/pr_message_recipients/) | Identifies all of the recipients of the current message. Canonical name: PidTagMessageRecipients. Property tag: 0x0E12000D (PT_OBJECT). |
+| static readonly [PR_MESSAGE_RECIP_ME](../../aspose.email.mapi/mapipropertytag/pr_message_recip_me/) | Indicates that the receiving mailbox owner is a primary or a carbon copy (Cc) recipient of this email message. Canonical name: PidTagMessageRecipientMe. Property tag: 0x0059000B (PT_BOOLEAN). |
+| static readonly [PR_MESSAGE_SECURITY_LABEL](../../aspose.email.mapi/mapipropertytag/pr_message_security_label/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x001E0102 (PT_BINARY). |
+| static readonly [PR_MESSAGE_SITE_NAME](../../aspose.email.mapi/mapipropertytag/pr_message_site_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x65E7001E (PT_STRING8). |
+| static readonly [PR_MESSAGE_SITE_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_message_site_name_a/) | The ANSI form of [`PR_MESSAGE_SITE_NAME`](./pr_message_site_name/). Property tag: 0x65E7001E (PT_STRING8). |
+| static readonly [PR_MESSAGE_SITE_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_message_site_name_w/) | The Unicode form of [`PR_MESSAGE_SITE_NAME`](./pr_message_site_name/). Property tag: 0x65E7001F (PT_UNICODE). |
+| static readonly [PR_MESSAGE_SIZE](../../aspose.email.mapi/mapipropertytag/pr_message_size/) | Contains the size, in bytes, consumed by the Message object on the server. Canonical name: PidTagMessageSize. Property tag: 0x0E080003 (PT_LONG). |
+| static readonly [PR_MESSAGE_SIZE_EXTENDED](../../aspose.email.mapi/mapipropertytag/pr_message_size_extended/) | Specifies the 64-bit version of the PidTagMessageSize property (section 2.787). Canonical name: PidTagMessageSizeExtended. Property tag: 0x0E080014 (PT_LONGLONG). |
+| static readonly [PR_MESSAGE_SUBMISSION_ID](../../aspose.email.mapi/mapipropertytag/pr_message_submission_id/) | Contains a message identifier assigned by a message transfer agent. Canonical name: PidTagMessageSubmissionId. Property tag: 0x00470102 (PT_BINARY). |
+| static readonly [PR_MESSAGE_TOKEN](../../aspose.email.mapi/mapipropertytag/pr_message_token/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C030102 (PT_BINARY). |
+| static readonly [PR_MESSAGE_TO_ME](../../aspose.email.mapi/mapipropertytag/pr_message_to_me/) | Indicates that the receiving mailbox owner is one of the primary recipients of this email message. Canonical name: PidTagMessageToMe. Property tag: 0x0057000B (PT_BOOLEAN). |
+| static readonly [PR_MHS_COMMON_NAME](../../aspose.email.mapi/mapipropertytag/pr_mhs_common_name/) | Contains the common name of a messaging user for use in a message header. Canonical name: PidTagMessageHandlingSystemCommonName. Property tag: 0x3A0F001E (PT_STRING8). |
+| static readonly [PR_MHS_COMMON_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_mhs_common_name_a/) | The ANSI form of [`PR_MHS_COMMON_NAME`](./pr_mhs_common_name/). Property tag: 0x3A0F001E (PT_STRING8). |
+| static readonly [PR_MHS_COMMON_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_mhs_common_name_w/) | The Unicode form of [`PR_MHS_COMMON_NAME`](./pr_mhs_common_name/). Property tag: 0x3A0F001F (PT_UNICODE). |
+| static readonly [PR_MIDDLE_NAME](../../aspose.email.mapi/mapipropertytag/pr_middle_name/) | Specifies the middle name(s) of the contact. Canonical name: PidTagMiddleName. Property tag: 0x3A44001E (PT_STRING8). |
+| static readonly [PR_MIDDLE_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_middle_name_a/) | The ANSI form of [`PR_MIDDLE_NAME`](./pr_middle_name/). Property tag: 0x3A44001E (PT_STRING8). |
+| static readonly [PR_MIDDLE_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_middle_name_w/) | The Unicode form of [`PR_MIDDLE_NAME`](./pr_middle_name/). Property tag: 0x3A44001F (PT_UNICODE). |
+| static readonly [PR_MINI_ICON](../../aspose.email.mapi/mapipropertytag/pr_mini_icon/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0FFC0102 (PT_BINARY). |
+| static readonly [PR_MOBILE_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_mobile_telephone_number/) | Contains the mail user's cellular telephone number. Canonical name: PidTagMobileTelephoneNumber. Property tag: 0x3A1C001E (PT_STRING8). |
+| static readonly [PR_MOBILE_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_mobile_telephone_number_a/) | The ANSI form of [`PR_MOBILE_TELEPHONE_NUMBER`](./pr_mobile_telephone_number/). Property tag: 0x3A1C001E (PT_STRING8). |
+| static readonly [PR_MOBILE_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_mobile_telephone_number_w/) | The Unicode form of [`PR_MOBILE_TELEPHONE_NUMBER`](./pr_mobile_telephone_number/). Property tag: 0x3A1C001F (PT_UNICODE). |
+| static readonly [PR_MODIFY_VERSION](../../aspose.email.mapi/mapipropertytag/pr_modify_version/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E1A0014 (PT_LONGLONG). |
+| static readonly [PR_MOVE_TO_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_move_to_folder_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FF40102 (PT_BINARY). |
+| static readonly [PR_MOVE_TO_STORE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_move_to_store_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FF30102 (PT_BINARY). |
+| static readonly [PR_MSG_BODY_ID](../../aspose.email.mapi/mapipropertytag/pr_msg_body_id/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FDD0003 (PT_LONG). |
+| static readonly [PR_MSG_STATUS](../../aspose.email.mapi/mapipropertytag/pr_msg_status/) | Specifies the status of a message in a contents table. Canonical name: PidTagMessageStatus. Property tag: 0x0E170003 (PT_LONG). |
+| static readonly [PR_MTS_ID](../../aspose.email.mapi/mapipropertytag/pr_mts_id/) | Contains a message identifier assigned by a message transfer agent. Canonical name: PidTagMessageSubmissionId. Property tag: 0x00470102 (PT_BINARY). |
+| static readonly [PR_MTS_REPORT_ID](../../aspose.email.mapi/mapipropertytag/pr_mts_report_id/) | Contains a message identifier assigned by a message transfer agent. Canonical name: PidTagMessageSubmissionId. Property tag: 0x00470102 (PT_BINARY). |
+| static readonly [PR_MTS_SUBJECT_ID](../../aspose.email.mapi/mapipropertytag/pr_mts_subject_id/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66630102 (PT_BINARY). |
+| static readonly [PR_NDR_DIAG_CODE](../../aspose.email.mapi/mapipropertytag/pr_ndr_diag_code/) | Contains the diagnostic code for a delivery status notification, as specified in [RFC3464]. Canonical name: PidTagNonDeliveryReportDiagCode. Property tag: 0x0C050003 (PT_LONG). |
+| static readonly [PR_NDR_REASON_CODE](../../aspose.email.mapi/mapipropertytag/pr_ndr_reason_code/) | Contains an integer value that indicates a reason for delivery failure. Canonical name: PidTagNonDeliveryReportReasonCode. Property tag: 0x0C040003 (PT_LONG). |
+| static readonly [PR_NEWSFEED_INFO](../../aspose.email.mapi/mapipropertytag/pr_newsfeed_info/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66A60102 (PT_BINARY). |
+| static readonly [PR_NEWSGROUP_COMPONENT](../../aspose.email.mapi/mapipropertytag/pr_newsgroup_component/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66A5001E (PT_STRING8). |
+| static readonly [PR_NEWSGROUP_COMPONENT_A](../../aspose.email.mapi/mapipropertytag/pr_newsgroup_component_a/) | The ANSI form of [`PR_NEWSGROUP_COMPONENT`](./pr_newsgroup_component/). Property tag: 0x66A5001E (PT_STRING8). |
+| static readonly [PR_NEWSGROUP_COMPONENT_W](../../aspose.email.mapi/mapipropertytag/pr_newsgroup_component_w/) | The Unicode form of [`PR_NEWSGROUP_COMPONENT`](./pr_newsgroup_component/). Property tag: 0x66A5001F (PT_UNICODE). |
+| static readonly [PR_NEWSGROUP_NAME](../../aspose.email.mapi/mapipropertytag/pr_newsgroup_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E24001E (PT_STRING8). |
+| static readonly [PR_NEWSGROUP_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_newsgroup_name_a/) | The ANSI form of [`PR_NEWSGROUP_NAME`](./pr_newsgroup_name/). Property tag: 0x0E24001E (PT_STRING8). |
+| static readonly [PR_NEWSGROUP_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_newsgroup_name_w/) | The Unicode form of [`PR_NEWSGROUP_NAME`](./pr_newsgroup_name/). Property tag: 0x0E24001F (PT_UNICODE). |
+| static readonly [PR_NEWSGROUP_ROOT_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_newsgroup_root_folder_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x668C0102 (PT_BINARY). |
+| static readonly [PR_NEW_SUBS_GET_AUTO_ADD](../../aspose.email.mapi/mapipropertytag/pr_new_subs_get_auto_add/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x65E6000B (PT_BOOLEAN). |
+| static readonly [PR_NICKNAME](../../aspose.email.mapi/mapipropertytag/pr_nickname/) | Contains the mail user's nickname. Canonical name: PidTagNickname. Property tag: 0x3A4F001E (PT_STRING8). |
+| static readonly [PR_NICKNAME_A](../../aspose.email.mapi/mapipropertytag/pr_nickname_a/) | The ANSI form of [`PR_NICKNAME`](./pr_nickname/). Property tag: 0x3A4F001E (PT_STRING8). |
+| static readonly [PR_NICKNAME_W](../../aspose.email.mapi/mapipropertytag/pr_nickname_w/) | The Unicode form of [`PR_NICKNAME`](./pr_nickname/). Property tag: 0x3A4F001F (PT_UNICODE). |
+| static readonly [PR_NNTP_ARTICLE_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_nntp_article_folder_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x668A0102 (PT_BINARY). |
+| static readonly [PR_NNTP_CONTROL_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_nntp_control_folder_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x668B0102 (PT_BINARY). |
+| static readonly [PR_NNTP_XREF](../../aspose.email.mapi/mapipropertytag/pr_nntp_xref/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x1040001E (PT_STRING8). |
+| static readonly [PR_NNTP_XREF_A](../../aspose.email.mapi/mapipropertytag/pr_nntp_xref_a/) | The ANSI form of [`PR_NNTP_XREF`](./pr_nntp_xref/). Property tag: 0x1040001E (PT_STRING8). |
+| static readonly [PR_NNTP_XREF_W](../../aspose.email.mapi/mapipropertytag/pr_nntp_xref_w/) | The Unicode form of [`PR_NNTP_XREF`](./pr_nntp_xref/). Property tag: 0x1040001F (PT_UNICODE). |
+| static readonly [PR_NON_IPM_SUBTREE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_non_ipm_subtree_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66200102 (PT_BINARY). |
+| static readonly [PR_NON_RECEIPT_NOTIFICATION_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_non_receipt_notification_requested/) | Specifies whether the client sends a non-read receipt. Canonical name: PidTagNonReceiptNotificationRequested. Property tag: 0x0C06000B (PT_BOOLEAN). |
+| static readonly [PR_NON_RECEIPT_REASON](../../aspose.email.mapi/mapipropertytag/pr_non_receipt_reason/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x003E0003 (PT_LONG). |
+| static readonly [PR_NORMALIZED_SUBJECT](../../aspose.email.mapi/mapipropertytag/pr_normalized_subject/) | Contains the normalized subject of the message. Canonical name: PidTagNormalizedSubject. Property tag: 0x0E1D001E (PT_STRING8). |
+| static readonly [PR_NORMALIZED_SUBJECT_A](../../aspose.email.mapi/mapipropertytag/pr_normalized_subject_a/) | The ANSI form of [`PR_NORMALIZED_SUBJECT`](./pr_normalized_subject/). Property tag: 0x0E1D001E (PT_STRING8). |
+| static readonly [PR_NORMALIZED_SUBJECT_W](../../aspose.email.mapi/mapipropertytag/pr_normalized_subject_w/) | The Unicode form of [`PR_NORMALIZED_SUBJECT`](./pr_normalized_subject/). Property tag: 0x0E1D001F (PT_UNICODE). |
+| static readonly [PR_NORMAL_MESSAGE_SIZE](../../aspose.email.mapi/mapipropertytag/pr_normal_message_size/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66B30003 (PT_LONG). |
+| static readonly [PR_NORMAL_MESSAGE_SIZE_EXTENDED](../../aspose.email.mapi/mapipropertytag/pr_normal_message_size_extended/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66B30014 (PT_LONGLONG). |
+| static readonly [PR_NORMAL_MSG_W_ATTACH_COUNT](../../aspose.email.mapi/mapipropertytag/pr_normal_msg_w_attach_count/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66AD0003 (PT_LONG). |
+| static readonly [PR_NT_USER_NAME](../../aspose.email.mapi/mapipropertytag/pr_nt_user_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66A0001E (PT_STRING8). |
+| static readonly [PR_NT_USER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_nt_user_name_a/) | The ANSI form of [`PR_NT_USER_NAME`](./pr_nt_user_name/). Property tag: 0x66A0001E (PT_STRING8). |
+| static readonly [PR_NT_USER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_nt_user_name_w/) | The Unicode form of [`PR_NT_USER_NAME`](./pr_nt_user_name/). Property tag: 0x66A0001F (PT_UNICODE). |
+| static readonly [PR_OBJECT_TYPE](../../aspose.email.mapi/mapipropertytag/pr_object_type/) | Indicates the type of Server object. Canonical name: PidTagObjectType. Property tag: 0x0FFE0003 (PT_LONG). |
+| static readonly [PR_OBSOLETED_IPMS](../../aspose.email.mapi/mapipropertytag/pr_obsoleted_ipms/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x001F0102 (PT_BINARY). |
+| static readonly [PR_OFFICE2_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_office2_telephone_number/) | Contains a secondary telephone number at the mail user's place of business. Canonical name: PidTagBusiness2TelephoneNumber. Property tag: 0x3A1B001E (PT_STRING8). |
+| static readonly [PR_OFFICE2_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_office2_telephone_number_a/) | The ANSI form of [`PR_OFFICE2_TELEPHONE_NUMBER`](./pr_office2_telephone_number/). Property tag: 0x3A1B001E (PT_STRING8). |
+| static readonly [PR_OFFICE2_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_office2_telephone_number_w/) | The Unicode form of [`PR_OFFICE2_TELEPHONE_NUMBER`](./pr_office2_telephone_number/). Property tag: 0x3A1B001F (PT_UNICODE). |
+| static readonly [PR_OFFICE_LOCATION](../../aspose.email.mapi/mapipropertytag/pr_office_location/) | Contains the mail user's office location. Canonical name: PidTagOfficeLocation. Property tag: 0x3A19001E (PT_STRING8). |
+| static readonly [PR_OFFICE_LOCATION_A](../../aspose.email.mapi/mapipropertytag/pr_office_location_a/) | The ANSI form of [`PR_OFFICE_LOCATION`](./pr_office_location/). Property tag: 0x3A19001E (PT_STRING8). |
+| static readonly [PR_OFFICE_LOCATION_W](../../aspose.email.mapi/mapipropertytag/pr_office_location_w/) | The Unicode form of [`PR_OFFICE_LOCATION`](./pr_office_location/). Property tag: 0x3A19001F (PT_UNICODE). |
+| static readonly [PR_OFFICE_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_office_telephone_number/) | Contains the primary telephone number of the mail user's place of business. Canonical name: PidTagBusinessTelephoneNumber. Property tag: 0x3A08001E (PT_STRING8). |
+| static readonly [PR_OFFICE_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_office_telephone_number_a/) | The ANSI form of [`PR_OFFICE_TELEPHONE_NUMBER`](./pr_office_telephone_number/). Property tag: 0x3A08001E (PT_STRING8). |
+| static readonly [PR_OFFICE_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_office_telephone_number_w/) | The Unicode form of [`PR_OFFICE_TELEPHONE_NUMBER`](./pr_office_telephone_number/). Property tag: 0x3A08001F (PT_UNICODE). |
+| static readonly [PR_OFFLINE_ADDRBOOK_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_offline_addrbook_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66230102 (PT_BINARY). |
+| static readonly [PR_OFFLINE_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_offline_flags/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x663D0003 (PT_LONG). |
+| static readonly [PR_OFFLINE_MESSAGE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_offline_message_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66270102 (PT_BINARY). |
+| static readonly [PR_OLDEST_DELETED_ON](../../aspose.email.mapi/mapipropertytag/pr_oldest_deleted_on/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66420040 (PT_SYSTIME). |
+| static readonly [PR_OOF_STATE](../../aspose.email.mapi/mapipropertytag/pr_oof_state/) | Indicates whether the user is OOF. Canonical name: PidTagOutOfOfficeState. Property tag: 0x661D000B (PT_BOOLEAN). |
+| static readonly [PR_ORGANIZATIONAL_ID_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_organizational_id_number/) | Contains an identifier for the mail user used within the mail user's organization. Canonical name: PidTagOrganizationalIdNumber. Property tag: 0x3A10001E (PT_STRING8). |
+| static readonly [PR_ORGANIZATIONAL_ID_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_organizational_id_number_a/) | The ANSI form of [`PR_ORGANIZATIONAL_ID_NUMBER`](./pr_organizational_id_number/). Property tag: 0x3A10001E (PT_STRING8). |
+| static readonly [PR_ORGANIZATIONAL_ID_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_organizational_id_number_w/) | The Unicode form of [`PR_ORGANIZATIONAL_ID_NUMBER`](./pr_organizational_id_number/). Property tag: 0x3A10001F (PT_UNICODE). |
+| static readonly [PR_ORG_EMAIL_ADDR](../../aspose.email.mapi/mapipropertytag/pr_org_email_addr/) | The tag of the PR_ORG_EMAIL_ADDR MAPI property. Property tag: 0x403E001E (PT_STRING8). |
+| static readonly [PR_ORG_EMAIL_ADDR_A](../../aspose.email.mapi/mapipropertytag/pr_org_email_addr_a/) | The ANSI form of [`PR_ORG_EMAIL_ADDR`](./pr_org_email_addr/). Property tag: 0x403E001E (PT_STRING8). |
+| static readonly [PR_ORG_EMAIL_ADDR_W](../../aspose.email.mapi/mapipropertytag/pr_org_email_addr_w/) | The Unicode form of [`PR_ORG_EMAIL_ADDR`](./pr_org_email_addr/). Property tag: 0x403E001F (PT_UNICODE). |
+| static readonly [PR_ORIGINALLY_INTENDED_RECIPIENT_NAME](../../aspose.email.mapi/mapipropertytag/pr_originally_intended_recipient_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x00200102 (PT_BINARY). |
+| static readonly [PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_originally_intended_recip_addrtype/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x007B001E (PT_STRING8). |
+| static readonly [PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_originally_intended_recip_addrtype_a/) | The ANSI form of [`PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE`](./pr_originally_intended_recip_addrtype/). Property tag: 0x007B001E (PT_STRING8). |
+| static readonly [PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_originally_intended_recip_addrtype_w/) | The Unicode form of [`PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE`](./pr_originally_intended_recip_addrtype/). Property tag: 0x007B001F (PT_UNICODE). |
+| static readonly [PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_originally_intended_recip_email_address/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x007C001E (PT_STRING8). |
+| static readonly [PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_originally_intended_recip_email_address_a/) | The ANSI form of [`PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS`](./pr_originally_intended_recip_email_address/). Property tag: 0x007C001E (PT_STRING8). |
+| static readonly [PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_originally_intended_recip_email_address_w/) | The Unicode form of [`PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS`](./pr_originally_intended_recip_email_address/). Property tag: 0x007C001F (PT_UNICODE). |
+| static readonly [PR_ORIGINALLY_INTENDED_RECIP_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_originally_intended_recip_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x10120102 (PT_BINARY). |
+| static readonly [PR_ORIGINAL_AUTHOR_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_original_author_addrtype/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0079001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_AUTHOR_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_original_author_addrtype_a/) | The ANSI form of [`PR_ORIGINAL_AUTHOR_ADDRTYPE`](./pr_original_author_addrtype/). Property tag: 0x0079001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_AUTHOR_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_original_author_addrtype_w/) | The Unicode form of [`PR_ORIGINAL_AUTHOR_ADDRTYPE`](./pr_original_author_addrtype/). Property tag: 0x0079001F (PT_UNICODE). |
+| static readonly [PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_original_author_email_address/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x007A001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_original_author_email_address_a/) | The ANSI form of [`PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS`](./pr_original_author_email_address/). Property tag: 0x007A001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_original_author_email_address_w/) | The Unicode form of [`PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS`](./pr_original_author_email_address/). Property tag: 0x007A001F (PT_UNICODE). |
+| static readonly [PR_ORIGINAL_AUTHOR_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_original_author_entryid/) | Contains an address book EntryID structure ([MS-OXCDATA] section 2.2.5.2) and is defined in report messages to identify the user who sent the original message. Canonical name: PidTagOriginalAuthorEntryId. Property tag: 0x004C0102 (PT_BINARY). |
+| static readonly [PR_ORIGINAL_AUTHOR_NAME](../../aspose.email.mapi/mapipropertytag/pr_original_author_name/) | Contains the display name of the sender of the original message referenced by a report message. Canonical name: PidTagOriginalAuthorName. Property tag: 0x004D001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_AUTHOR_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_original_author_name_a/) | The ANSI form of [`PR_ORIGINAL_AUTHOR_NAME`](./pr_original_author_name/). Property tag: 0x004D001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_AUTHOR_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_original_author_name_w/) | The Unicode form of [`PR_ORIGINAL_AUTHOR_NAME`](./pr_original_author_name/). Property tag: 0x004D001F (PT_UNICODE). |
+| static readonly [PR_ORIGINAL_AUTHOR_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_original_author_search_key/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x00560102 (PT_BINARY). |
+| static readonly [PR_ORIGINAL_DELIVERY_TIME](../../aspose.email.mapi/mapipropertytag/pr_original_delivery_time/) | Contains the delivery time, in UTC, from the original message. Canonical name: PidTagOriginalDeliveryTime. Property tag: 0x00550040 (PT_SYSTIME). |
+| static readonly [PR_ORIGINAL_DISPLAY_BCC](../../aspose.email.mapi/mapipropertytag/pr_original_display_bcc/) | Contains the value of the PidTagDisplayBcc property (section 2.665) from the original message. Canonical name: PidTagOriginalDisplayBcc. Property tag: 0x0072001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_DISPLAY_BCC_A](../../aspose.email.mapi/mapipropertytag/pr_original_display_bcc_a/) | The ANSI form of [`PR_ORIGINAL_DISPLAY_BCC`](./pr_original_display_bcc/). Property tag: 0x0072001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_DISPLAY_BCC_W](../../aspose.email.mapi/mapipropertytag/pr_original_display_bcc_w/) | The Unicode form of [`PR_ORIGINAL_DISPLAY_BCC`](./pr_original_display_bcc/). Property tag: 0x0072001F (PT_UNICODE). |
+| static readonly [PR_ORIGINAL_DISPLAY_CC](../../aspose.email.mapi/mapipropertytag/pr_original_display_cc/) | Contains the value of the PidTagDisplayCc property(section 2.666) from the original message. Canonical name: PidTagOriginalDisplayCc. Property tag: 0x0073001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_DISPLAY_CC_A](../../aspose.email.mapi/mapipropertytag/pr_original_display_cc_a/) | The ANSI form of [`PR_ORIGINAL_DISPLAY_CC`](./pr_original_display_cc/). Property tag: 0x0073001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_DISPLAY_CC_W](../../aspose.email.mapi/mapipropertytag/pr_original_display_cc_w/) | The Unicode form of [`PR_ORIGINAL_DISPLAY_CC`](./pr_original_display_cc/). Property tag: 0x0073001F (PT_UNICODE). |
+| static readonly [PR_ORIGINAL_DISPLAY_NAME](../../aspose.email.mapi/mapipropertytag/pr_original_display_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3A13001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_DISPLAY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_original_display_name_a/) | The ANSI form of [`PR_ORIGINAL_DISPLAY_NAME`](./pr_original_display_name/). Property tag: 0x3A13001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_DISPLAY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_original_display_name_w/) | The Unicode form of [`PR_ORIGINAL_DISPLAY_NAME`](./pr_original_display_name/). Property tag: 0x3A13001F (PT_UNICODE). |
+| static readonly [PR_ORIGINAL_DISPLAY_TO](../../aspose.email.mapi/mapipropertytag/pr_original_display_to/) | Contains the value of the PidTagDisplayTo property (section 2.669) from the original message. Canonical name: PidTagOriginalDisplayTo. Property tag: 0x0074001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_DISPLAY_TO_A](../../aspose.email.mapi/mapipropertytag/pr_original_display_to_a/) | The ANSI form of [`PR_ORIGINAL_DISPLAY_TO`](./pr_original_display_to/). Property tag: 0x0074001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_DISPLAY_TO_W](../../aspose.email.mapi/mapipropertytag/pr_original_display_to_w/) | The Unicode form of [`PR_ORIGINAL_DISPLAY_TO`](./pr_original_display_to/). Property tag: 0x0074001F (PT_UNICODE). |
+| static readonly [PR_ORIGINAL_EITS](../../aspose.email.mapi/mapipropertytag/pr_original_eits/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x00210102 (PT_BINARY). |
+| static readonly [PR_ORIGINAL_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_original_entryid/) | Contains the original EntryID of an object. Canonical name: PidTagOriginalEntryId. Property tag: 0x3A120102 (PT_BINARY). |
+| static readonly [PR_ORIGINAL_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_original_search_key/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3A140102 (PT_BINARY). |
+| static readonly [PR_ORIGINAL_SENDER_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_original_sender_addrtype/) | Contains the value of the original message sender's PidTagSenderAddressType property (section 2.991). Canonical name: PidTagOriginalSenderAddressType. Property tag: 0x0066001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_SENDER_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_original_sender_addrtype_a/) | The ANSI form of [`PR_ORIGINAL_SENDER_ADDRTYPE`](./pr_original_sender_addrtype/). Property tag: 0x0066001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_SENDER_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_original_sender_addrtype_w/) | The Unicode form of [`PR_ORIGINAL_SENDER_ADDRTYPE`](./pr_original_sender_addrtype/). Property tag: 0x0066001F (PT_UNICODE). |
+| static readonly [PR_ORIGINAL_SENDER_EMAIL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_original_sender_email_address/) | Contains the value of the original message sender's PidTagSenderEmailAddress property (section 2.992). Canonical name: PidTagOriginalSenderEmailAddress. Property tag: 0x0067001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_SENDER_EMAIL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_original_sender_email_address_a/) | The ANSI form of [`PR_ORIGINAL_SENDER_EMAIL_ADDRESS`](./pr_original_sender_email_address/). Property tag: 0x0067001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_SENDER_EMAIL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_original_sender_email_address_w/) | The Unicode form of [`PR_ORIGINAL_SENDER_EMAIL_ADDRESS`](./pr_original_sender_email_address/). Property tag: 0x0067001F (PT_UNICODE). |
+| static readonly [PR_ORIGINAL_SENDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_original_sender_entryid/) | Contains an address book EntryID that is set on delivery report messages. Canonical name: PidTagOriginalSenderEntryId. Property tag: 0x005B0102 (PT_BINARY). |
+| static readonly [PR_ORIGINAL_SENDER_NAME](../../aspose.email.mapi/mapipropertytag/pr_original_sender_name/) | Contains the value of the original message sender's PidTagSenderName property (section 2.995), and is set on delivery report messages. Canonical name: PidTagOriginalSenderName. Property tag: 0x005A001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_SENDER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_original_sender_name_a/) | The ANSI form of [`PR_ORIGINAL_SENDER_NAME`](./pr_original_sender_name/). Property tag: 0x005A001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_SENDER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_original_sender_name_w/) | The Unicode form of [`PR_ORIGINAL_SENDER_NAME`](./pr_original_sender_name/). Property tag: 0x005A001F (PT_UNICODE). |
+| static readonly [PR_ORIGINAL_SENDER_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_original_sender_search_key/) | Contains an address book search key set on the original email message. Canonical name: PidTagOriginalSenderSearchKey. Property tag: 0x005C0102 (PT_BINARY). |
+| static readonly [PR_ORIGINAL_SENSITIVITY](../../aspose.email.mapi/mapipropertytag/pr_original_sensitivity/) | Contains the sensitivity value of the original email message. Canonical name: PidTagOriginalSensitivity. Property tag: 0x002E0003 (PT_LONG). |
+| static readonly [PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_addrtype/) | Contains the address type of the end user who is represented by the original email message sender. Canonical name: PidTagOriginalSentRepresentingAddressType. Property tag: 0x0068001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_addrtype_a/) | The ANSI form of [`PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE`](./pr_original_sent_representing_addrtype/). Property tag: 0x0068001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_addrtype_w/) | The Unicode form of [`PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE`](./pr_original_sent_representing_addrtype/). Property tag: 0x0068001F (PT_UNICODE). |
+| static readonly [PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_email_address/) | Contains the email address of the end user who is represented by the original email message sender. Canonical name: PidTagOriginalSentRepresentingEmailAddress. Property tag: 0x0069001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_email_address_a/) | The ANSI form of [`PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS`](./pr_original_sent_representing_email_address/). Property tag: 0x0069001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_email_address_w/) | The Unicode form of [`PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS`](./pr_original_sent_representing_email_address/). Property tag: 0x0069001F (PT_UNICODE). |
+| static readonly [PR_ORIGINAL_SENT_REPRESENTING_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_entryid/) | Identifies an address book EntryID that contains the entry identifier of the end user who is represented by the original message sender. Canonical name: PidTagOriginalSentRepresentingEntryId. Property tag: 0x005E0102 (PT_BINARY). |
+| static readonly [PR_ORIGINAL_SENT_REPRESENTING_NAME](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_name/) | Contains the display name of the end user who is represented by the original email message sender. Canonical name: PidTagOriginalSentRepresentingName. Property tag: 0x005D001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_SENT_REPRESENTING_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_name_a/) | The ANSI form of [`PR_ORIGINAL_SENT_REPRESENTING_NAME`](./pr_original_sent_representing_name/). Property tag: 0x005D001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_SENT_REPRESENTING_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_name_w/) | The Unicode form of [`PR_ORIGINAL_SENT_REPRESENTING_NAME`](./pr_original_sent_representing_name/). Property tag: 0x005D001F (PT_UNICODE). |
+| static readonly [PR_ORIGINAL_SENT_REPRESENTING_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_original_sent_representing_search_key/) | Identifies an address book search key that contains the SearchKey of the end user who is represented by the original message sender. Canonical name: PidTagOriginalSentRepresentingSearchKey. Property tag: 0x005F0102 (PT_BINARY). |
+| static readonly [PR_ORIGINAL_SUBJECT](../../aspose.email.mapi/mapipropertytag/pr_original_subject/) | Specifies the subject of the original message. Canonical name: PidTagOriginalSubject. Property tag: 0x0049001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_SUBJECT_A](../../aspose.email.mapi/mapipropertytag/pr_original_subject_a/) | The ANSI form of [`PR_ORIGINAL_SUBJECT`](./pr_original_subject/). Property tag: 0x0049001E (PT_STRING8). |
+| static readonly [PR_ORIGINAL_SUBJECT_W](../../aspose.email.mapi/mapipropertytag/pr_original_subject_w/) | The Unicode form of [`PR_ORIGINAL_SUBJECT`](./pr_original_subject/). Property tag: 0x0049001F (PT_UNICODE). |
+| static readonly [PR_ORIGINAL_SUBMIT_TIME](../../aspose.email.mapi/mapipropertytag/pr_original_submit_time/) | Specifies the original email message's submission date and time, in UTC. Canonical name: PidTagOriginalSubmitTime. Property tag: 0x004E0040 (PT_SYSTIME). |
+| static readonly [PR_ORIGINATING_MTA_CERTIFICATE](../../aspose.email.mapi/mapipropertytag/pr_originating_mta_certificate/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E250102 (PT_BINARY). |
+| static readonly [PR_ORIGINATOR_ADDR](../../aspose.email.mapi/mapipropertytag/pr_originator_addr/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x665C001E (PT_STRING8). |
+| static readonly [PR_ORIGINATOR_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_originator_addrtype/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x665D001E (PT_STRING8). |
+| static readonly [PR_ORIGINATOR_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_originator_addrtype_a/) | The ANSI form of [`PR_ORIGINATOR_ADDRTYPE`](./pr_originator_addrtype/). Property tag: 0x665D001E (PT_STRING8). |
+| static readonly [PR_ORIGINATOR_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_originator_addrtype_w/) | The Unicode form of [`PR_ORIGINATOR_ADDRTYPE`](./pr_originator_addrtype/). Property tag: 0x665D001F (PT_UNICODE). |
+| static readonly [PR_ORIGINATOR_ADDR_A](../../aspose.email.mapi/mapipropertytag/pr_originator_addr_a/) | The ANSI form of [`PR_ORIGINATOR_ADDR`](./pr_originator_addr/). Property tag: 0x665C001E (PT_STRING8). |
+| static readonly [PR_ORIGINATOR_ADDR_W](../../aspose.email.mapi/mapipropertytag/pr_originator_addr_w/) | The Unicode form of [`PR_ORIGINATOR_ADDR`](./pr_originator_addr/). Property tag: 0x665C001F (PT_UNICODE). |
+| static readonly [PR_ORIGINATOR_AND_DL_EXPANSION_HISTORY](../../aspose.email.mapi/mapipropertytag/pr_originator_and_dl_expansion_history/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x10020102 (PT_BINARY). |
+| static readonly [PR_ORIGINATOR_CERTIFICATE](../../aspose.email.mapi/mapipropertytag/pr_originator_certificate/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x00220102 (PT_BINARY). |
+| static readonly [PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_originator_delivery_report_requested/) | Indicates whether an email sender requests an email delivery receipt from the messaging system. Canonical name: PidTagOriginatorDeliveryReportRequested. Property tag: 0x0023000B (PT_BOOLEAN). |
+| static readonly [PR_ORIGINATOR_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_originator_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x665E0102 (PT_BINARY). |
+| static readonly [PR_ORIGINATOR_NAME](../../aspose.email.mapi/mapipropertytag/pr_originator_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x665B001E (PT_STRING8). |
+| static readonly [PR_ORIGINATOR_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_originator_name_a/) | The ANSI form of [`PR_ORIGINATOR_NAME`](./pr_originator_name/). Property tag: 0x665B001E (PT_STRING8). |
+| static readonly [PR_ORIGINATOR_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_originator_name_w/) | The Unicode form of [`PR_ORIGINATOR_NAME`](./pr_originator_name/). Property tag: 0x665B001F (PT_UNICODE). |
+| static readonly [PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_originator_non_delivery_report_requested/) | Specifies whether an email sender requests suppression of nondelivery receipts. Canonical name: PidTagOriginatorNonDeliveryReportRequested. Property tag: 0x0C08000B (PT_BOOLEAN). |
+| static readonly [PR_ORIGINATOR_REQUESTED_ALTERNATE_RECIPIENT](../../aspose.email.mapi/mapipropertytag/pr_originator_requested_alternate_recipient/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C090102 (PT_BINARY). |
+| static readonly [PR_ORIGINATOR_RETURN_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_originator_return_address/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x00240102 (PT_BINARY). |
+| static readonly [PR_ORIGIN_CHECK](../../aspose.email.mapi/mapipropertytag/pr_origin_check/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x00270102 (PT_BINARY). |
+| static readonly [PR_ORIG_MESSAGE_CLASS](../../aspose.email.mapi/mapipropertytag/pr_orig_message_class/) | Designates the PidTagMessageClass property ([MS-OXCMSG] section 2.2.1.3) from the original message. Canonical name: PidTagOriginalMessageClass. Property tag: 0x004B001E (PT_STRING8). |
+| static readonly [PR_ORIG_MESSAGE_CLASS_A](../../aspose.email.mapi/mapipropertytag/pr_orig_message_class_a/) | The ANSI form of [`PR_ORIG_MESSAGE_CLASS`](./pr_orig_message_class/). Property tag: 0x004B001E (PT_STRING8). |
+| static readonly [PR_ORIG_MESSAGE_CLASS_W](../../aspose.email.mapi/mapipropertytag/pr_orig_message_class_w/) | The Unicode form of [`PR_ORIG_MESSAGE_CLASS`](./pr_orig_message_class/). Property tag: 0x004B001F (PT_UNICODE). |
+| static readonly [PR_OST_ENCRYPTION](../../aspose.email.mapi/mapipropertytag/pr_ost_encryption/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x67020003 (PT_LONG). |
+| static readonly [PR_OTHER_ADDRESS_CITY](../../aspose.email.mapi/mapipropertytag/pr_other_address_city/) | Contains the name of the mail user's other locality, such as the town or city. Canonical name: PidTagOtherAddressCity. Property tag: 0x3A5F001E (PT_STRING8). |
+| static readonly [PR_OTHER_ADDRESS_CITY_A](../../aspose.email.mapi/mapipropertytag/pr_other_address_city_a/) | The ANSI form of [`PR_OTHER_ADDRESS_CITY`](./pr_other_address_city/). Property tag: 0x3A5F001E (PT_STRING8). |
+| static readonly [PR_OTHER_ADDRESS_CITY_W](../../aspose.email.mapi/mapipropertytag/pr_other_address_city_w/) | The Unicode form of [`PR_OTHER_ADDRESS_CITY`](./pr_other_address_city/). Property tag: 0x3A5F001F (PT_UNICODE). |
+| static readonly [PR_OTHER_ADDRESS_COUNTRY](../../aspose.email.mapi/mapipropertytag/pr_other_address_country/) | Contains the name of the mail user's other country/region. Canonical name: PidTagOtherAddressCountry. Property tag: 0x3A60001E (PT_STRING8). |
+| static readonly [PR_OTHER_ADDRESS_COUNTRY_A](../../aspose.email.mapi/mapipropertytag/pr_other_address_country_a/) | The ANSI form of [`PR_OTHER_ADDRESS_COUNTRY`](./pr_other_address_country/). Property tag: 0x3A60001E (PT_STRING8). |
+| static readonly [PR_OTHER_ADDRESS_COUNTRY_W](../../aspose.email.mapi/mapipropertytag/pr_other_address_country_w/) | The Unicode form of [`PR_OTHER_ADDRESS_COUNTRY`](./pr_other_address_country/). Property tag: 0x3A60001F (PT_UNICODE). |
+| static readonly [PR_OTHER_ADDRESS_POSTAL_CODE](../../aspose.email.mapi/mapipropertytag/pr_other_address_postal_code/) | Contains the postal code for the mail user's other postal address. Canonical name: PidTagOtherAddressPostalCode. Property tag: 0x3A61001E (PT_STRING8). |
+| static readonly [PR_OTHER_ADDRESS_POSTAL_CODE_A](../../aspose.email.mapi/mapipropertytag/pr_other_address_postal_code_a/) | The ANSI form of [`PR_OTHER_ADDRESS_POSTAL_CODE`](./pr_other_address_postal_code/). Property tag: 0x3A61001E (PT_STRING8). |
+| static readonly [PR_OTHER_ADDRESS_POSTAL_CODE_W](../../aspose.email.mapi/mapipropertytag/pr_other_address_postal_code_w/) | The Unicode form of [`PR_OTHER_ADDRESS_POSTAL_CODE`](./pr_other_address_postal_code/). Property tag: 0x3A61001F (PT_UNICODE). |
+| static readonly [PR_OTHER_ADDRESS_POST_OFFICE_BOX](../../aspose.email.mapi/mapipropertytag/pr_other_address_post_office_box/) | Contains the number or identifier of the mail user's other post office box. Canonical name: PidTagOtherAddressPostOfficeBox. Property tag: 0x3A64001E (PT_STRING8). |
+| static readonly [PR_OTHER_ADDRESS_POST_OFFICE_BOX_A](../../aspose.email.mapi/mapipropertytag/pr_other_address_post_office_box_a/) | The ANSI form of [`PR_OTHER_ADDRESS_POST_OFFICE_BOX`](./pr_other_address_post_office_box/). Property tag: 0x3A64001E (PT_STRING8). |
+| static readonly [PR_OTHER_ADDRESS_POST_OFFICE_BOX_W](../../aspose.email.mapi/mapipropertytag/pr_other_address_post_office_box_w/) | The Unicode form of [`PR_OTHER_ADDRESS_POST_OFFICE_BOX`](./pr_other_address_post_office_box/). Property tag: 0x3A64001F (PT_UNICODE). |
+| static readonly [PR_OTHER_ADDRESS_STATE_OR_PROVINCE](../../aspose.email.mapi/mapipropertytag/pr_other_address_state_or_province/) | Contains the name of the mail user's other state or province. Canonical name: PidTagOtherAddressStateOrProvince. Property tag: 0x3A62001E (PT_STRING8). |
+| static readonly [PR_OTHER_ADDRESS_STATE_OR_PROVINCE_A](../../aspose.email.mapi/mapipropertytag/pr_other_address_state_or_province_a/) | The ANSI form of [`PR_OTHER_ADDRESS_STATE_OR_PROVINCE`](./pr_other_address_state_or_province/). Property tag: 0x3A62001E (PT_STRING8). |
+| static readonly [PR_OTHER_ADDRESS_STATE_OR_PROVINCE_W](../../aspose.email.mapi/mapipropertytag/pr_other_address_state_or_province_w/) | The Unicode form of [`PR_OTHER_ADDRESS_STATE_OR_PROVINCE`](./pr_other_address_state_or_province/). Property tag: 0x3A62001F (PT_UNICODE). |
+| static readonly [PR_OTHER_ADDRESS_STREET](../../aspose.email.mapi/mapipropertytag/pr_other_address_street/) | Contains the mail user's other street address. Canonical name: PidTagOtherAddressStreet. Property tag: 0x3A63001E (PT_STRING8). |
+| static readonly [PR_OTHER_ADDRESS_STREET_A](../../aspose.email.mapi/mapipropertytag/pr_other_address_street_a/) | The ANSI form of [`PR_OTHER_ADDRESS_STREET`](./pr_other_address_street/). Property tag: 0x3A63001E (PT_STRING8). |
+| static readonly [PR_OTHER_ADDRESS_STREET_W](../../aspose.email.mapi/mapipropertytag/pr_other_address_street_w/) | The Unicode form of [`PR_OTHER_ADDRESS_STREET`](./pr_other_address_street/). Property tag: 0x3A63001F (PT_UNICODE). |
+| static readonly [PR_OTHER_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_other_telephone_number/) | Contains an alternate telephone number for the mail user. Canonical name: PidTagOtherTelephoneNumber. Property tag: 0x3A1F001E (PT_STRING8). |
+| static readonly [PR_OTHER_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_other_telephone_number_a/) | The ANSI form of [`PR_OTHER_TELEPHONE_NUMBER`](./pr_other_telephone_number/). Property tag: 0x3A1F001E (PT_STRING8). |
+| static readonly [PR_OTHER_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_other_telephone_number_w/) | The Unicode form of [`PR_OTHER_TELEPHONE_NUMBER`](./pr_other_telephone_number/). Property tag: 0x3A1F001F (PT_UNICODE). |
+| static readonly [PR_OUTBOUND_NEWSFEED_DN](../../aspose.email.mapi/mapipropertytag/pr_outbound_newsfeed_dn/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x668E001E (PT_STRING8). |
+| static readonly [PR_OUTBOUND_NEWSFEED_DN_A](../../aspose.email.mapi/mapipropertytag/pr_outbound_newsfeed_dn_a/) | The ANSI form of [`PR_OUTBOUND_NEWSFEED_DN`](./pr_outbound_newsfeed_dn/). Property tag: 0x668E001E (PT_STRING8). |
+| static readonly [PR_OUTBOUND_NEWSFEED_DN_W](../../aspose.email.mapi/mapipropertytag/pr_outbound_newsfeed_dn_w/) | The Unicode form of [`PR_OUTBOUND_NEWSFEED_DN`](./pr_outbound_newsfeed_dn/). Property tag: 0x668E001F (PT_UNICODE). |
+| static readonly [PR_OVERALL_AGE_LIMIT](../../aspose.email.mapi/mapipropertytag/pr_overall_age_limit/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66990003 (PT_LONG). |
+| static readonly [PR_OVERALL_MSG_AGE_LIMIT](../../aspose.email.mapi/mapipropertytag/pr_overall_msg_age_limit/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66930003 (PT_LONG). |
+| static readonly [PR_OWA_URL](../../aspose.email.mapi/mapipropertytag/pr_owa_url/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x10F1001E (PT_STRING8). |
+| static readonly [PR_OWA_URL_A](../../aspose.email.mapi/mapipropertytag/pr_owa_url_a/) | The ANSI form of [`PR_OWA_URL`](./pr_owa_url/). Property tag: 0x10F1001E (PT_STRING8). |
+| static readonly [PR_OWA_URL_W](../../aspose.email.mapi/mapipropertytag/pr_owa_url_w/) | The Unicode form of [`PR_OWA_URL`](./pr_owa_url/). Property tag: 0x10F1001F (PT_UNICODE). |
+| static readonly [PR_OWNER_APPT_ID](../../aspose.email.mapi/mapipropertytag/pr_owner_appt_id/) | Specifies a quasi-unique value among all of the Calendar objects in a user's mailbox. Canonical name: PidTagOwnerAppointmentId. Property tag: 0x00620003 (PT_LONG). |
+| static readonly [PR_OWNER_COUNT](../../aspose.email.mapi/mapipropertytag/pr_owner_count/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66B60003 (PT_LONG). |
+| static readonly [PR_OWN_STORE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_own_store_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3E060102 (PT_BINARY). |
+| static readonly [PR_P1_CONTENT](../../aspose.email.mapi/mapipropertytag/pr_p1_content/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x11000102 (PT_BINARY). |
+| static readonly [PR_P1_CONTENT_TYPE](../../aspose.email.mapi/mapipropertytag/pr_p1_content_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x11010102 (PT_BINARY). |
+| static readonly [PR_PAGER_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_pager_telephone_number/) | Contains the mail user's pager telephone number. Canonical name: PidTagPagerTelephoneNumber. Property tag: 0x3A21001E (PT_STRING8). |
+| static readonly [PR_PAGER_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_pager_telephone_number_a/) | The ANSI form of [`PR_PAGER_TELEPHONE_NUMBER`](./pr_pager_telephone_number/). Property tag: 0x3A21001E (PT_STRING8). |
+| static readonly [PR_PAGER_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_pager_telephone_number_w/) | The Unicode form of [`PR_PAGER_TELEPHONE_NUMBER`](./pr_pager_telephone_number/). Property tag: 0x3A21001F (PT_UNICODE). |
+| static readonly [PR_PARENT_DISPLAY](../../aspose.email.mapi/mapipropertytag/pr_parent_display/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E05001E (PT_STRING8). |
+| static readonly [PR_PARENT_DISPLAY_A](../../aspose.email.mapi/mapipropertytag/pr_parent_display_a/) | The ANSI form of [`PR_PARENT_DISPLAY`](./pr_parent_display/). Property tag: 0x0E05001E (PT_STRING8). |
+| static readonly [PR_PARENT_DISPLAY_W](../../aspose.email.mapi/mapipropertytag/pr_parent_display_w/) | The Unicode form of [`PR_PARENT_DISPLAY`](./pr_parent_display/). Property tag: 0x0E05001F (PT_UNICODE). |
+| static readonly [PR_PARENT_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_parent_entryid/) | Contains the EntryID of the folder where messages or subfolders reside. Canonical name: PidTagParentEntryId. Property tag: 0x0E090102 (PT_BINARY). |
+| static readonly [PR_PARENT_KEY](../../aspose.email.mapi/mapipropertytag/pr_parent_key/) | Contains the search key that is used to correlate the original message and the reports about the original message. Canonical name: PidTagParentKey. Property tag: 0x00250102 (PT_BINARY). |
+| static readonly [PR_PARENT_SOURCE_KEY](../../aspose.email.mapi/mapipropertytag/pr_parent_source_key/) | Contains a value on a folder that contains the PidTagSourceKey property (section 2.1012) of the parent folder. Canonical name: PidTagParentSourceKey. Property tag: 0x65E10102 (PT_BINARY). |
+| static readonly [PR_PERSONAL_HOME_PAGE](../../aspose.email.mapi/mapipropertytag/pr_personal_home_page/) | Contains the URL of the mail user's personal home page. Canonical name: PidTagPersonalHomePage. Property tag: 0x3A50001E (PT_STRING8). |
+| static readonly [PR_PERSONAL_HOME_PAGE_A](../../aspose.email.mapi/mapipropertytag/pr_personal_home_page_a/) | The ANSI form of [`PR_PERSONAL_HOME_PAGE`](./pr_personal_home_page/). Property tag: 0x3A50001E (PT_STRING8). |
+| static readonly [PR_PERSONAL_HOME_PAGE_W](../../aspose.email.mapi/mapipropertytag/pr_personal_home_page_w/) | The Unicode form of [`PR_PERSONAL_HOME_PAGE`](./pr_personal_home_page/). Property tag: 0x3A50001F (PT_UNICODE). |
+| static readonly [PR_PHYSICAL_DELIVERY_BUREAU_FAX_DELIVERY](../../aspose.email.mapi/mapipropertytag/pr_physical_delivery_bureau_fax_delivery/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C0A000B (PT_BOOLEAN). |
+| static readonly [PR_PHYSICAL_DELIVERY_MODE](../../aspose.email.mapi/mapipropertytag/pr_physical_delivery_mode/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C0B0003 (PT_LONG). |
+| static readonly [PR_PHYSICAL_DELIVERY_REPORT_REQUEST](../../aspose.email.mapi/mapipropertytag/pr_physical_delivery_report_request/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C0C0003 (PT_LONG). |
+| static readonly [PR_PHYSICAL_FORWARDING_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_physical_forwarding_address/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C0D0102 (PT_BINARY). |
+| static readonly [PR_PHYSICAL_FORWARDING_ADDRESS_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_physical_forwarding_address_requested/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C0E000B (PT_BOOLEAN). |
+| static readonly [PR_PHYSICAL_FORWARDING_PROHIBITED](../../aspose.email.mapi/mapipropertytag/pr_physical_forwarding_prohibited/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C0F000B (PT_BOOLEAN). |
+| static readonly [PR_PHYSICAL_RENDITION_ATTRIBUTES](../../aspose.email.mapi/mapipropertytag/pr_physical_rendition_attributes/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C100102 (PT_BINARY). |
+| static readonly [PR_POSTAL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_postal_address/) | Contains the mail user's postal address. Canonical name: PidTagPostalAddress. Property tag: 0x3A15001E (PT_STRING8). |
+| static readonly [PR_POSTAL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_postal_address_a/) | The ANSI form of [`PR_POSTAL_ADDRESS`](./pr_postal_address/). Property tag: 0x3A15001E (PT_STRING8). |
+| static readonly [PR_POSTAL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_postal_address_w/) | The Unicode form of [`PR_POSTAL_ADDRESS`](./pr_postal_address/). Property tag: 0x3A15001F (PT_UNICODE). |
+| static readonly [PR_POSTAL_CODE](../../aspose.email.mapi/mapipropertytag/pr_postal_code/) | Contains the postal code for the mail user's postal address. Canonical name: PidTagPostalCode. Property tag: 0x3A2A001E (PT_STRING8). |
+| static readonly [PR_POSTAL_CODE_A](../../aspose.email.mapi/mapipropertytag/pr_postal_code_a/) | The ANSI form of [`PR_POSTAL_CODE`](./pr_postal_code/). Property tag: 0x3A2A001E (PT_STRING8). |
+| static readonly [PR_POSTAL_CODE_W](../../aspose.email.mapi/mapipropertytag/pr_postal_code_w/) | The Unicode form of [`PR_POSTAL_CODE`](./pr_postal_code/). Property tag: 0x3A2A001F (PT_UNICODE). |
+| static readonly [PR_POST_FOLDER_ENTRIES](../../aspose.email.mapi/mapipropertytag/pr_post_folder_entries/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x103B0102 (PT_BINARY). |
+| static readonly [PR_POST_FOLDER_NAMES](../../aspose.email.mapi/mapipropertytag/pr_post_folder_names/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x103C001E (PT_STRING8). |
+| static readonly [PR_POST_FOLDER_NAMES_A](../../aspose.email.mapi/mapipropertytag/pr_post_folder_names_a/) | The ANSI form of [`PR_POST_FOLDER_NAMES`](./pr_post_folder_names/). Property tag: 0x103C001E (PT_STRING8). |
+| static readonly [PR_POST_FOLDER_NAMES_W](../../aspose.email.mapi/mapipropertytag/pr_post_folder_names_w/) | The Unicode form of [`PR_POST_FOLDER_NAMES`](./pr_post_folder_names/). Property tag: 0x103C001F (PT_UNICODE). |
+| static readonly [PR_POST_OFFICE_BOX](../../aspose.email.mapi/mapipropertytag/pr_post_office_box/) | Contains the number or identifier of the mail user's post office box. Canonical name: PidTagPostOfficeBox. Property tag: 0x3A2B001E (PT_STRING8). |
+| static readonly [PR_POST_OFFICE_BOX_A](../../aspose.email.mapi/mapipropertytag/pr_post_office_box_a/) | The ANSI form of [`PR_POST_OFFICE_BOX`](./pr_post_office_box/). Property tag: 0x3A2B001E (PT_STRING8). |
+| static readonly [PR_POST_OFFICE_BOX_W](../../aspose.email.mapi/mapipropertytag/pr_post_office_box_w/) | The Unicode form of [`PR_POST_OFFICE_BOX`](./pr_post_office_box/). Property tag: 0x3A2B001F (PT_UNICODE). |
+| static readonly [PR_POST_REPLY_DENIED](../../aspose.email.mapi/mapipropertytag/pr_post_reply_denied/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x103F0102 (PT_BINARY). |
+| static readonly [PR_POST_REPLY_FOLDER_ENTRIES](../../aspose.email.mapi/mapipropertytag/pr_post_reply_folder_entries/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x103D0102 (PT_BINARY). |
+| static readonly [PR_POST_REPLY_FOLDER_NAMES](../../aspose.email.mapi/mapipropertytag/pr_post_reply_folder_names/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x103E001E (PT_STRING8). |
+| static readonly [PR_POST_REPLY_FOLDER_NAMES_A](../../aspose.email.mapi/mapipropertytag/pr_post_reply_folder_names_a/) | The ANSI form of [`PR_POST_REPLY_FOLDER_NAMES`](./pr_post_reply_folder_names/). Property tag: 0x103E001E (PT_STRING8). |
+| static readonly [PR_POST_REPLY_FOLDER_NAMES_W](../../aspose.email.mapi/mapipropertytag/pr_post_reply_folder_names_w/) | The Unicode form of [`PR_POST_REPLY_FOLDER_NAMES`](./pr_post_reply_folder_names/). Property tag: 0x103E001F (PT_UNICODE). |
+| static readonly [PR_PREDECESSOR_CHANGE_LIST](../../aspose.email.mapi/mapipropertytag/pr_predecessor_change_list/) | Contains a value that contains a serialized representation of a PredecessorChangeList structure. Canonical name: PidTagPredecessorChangeList. Property tag: 0x65E30102 (PT_BINARY). |
+| static readonly [PR_PREFERRED_BY_NAME](../../aspose.email.mapi/mapipropertytag/pr_preferred_by_name/) | Contains the name of the mail user's referral. Canonical name: PidTagReferredByName. Property tag: 0x3A47001E (PT_STRING8). |
+| static readonly [PR_PREFERRED_BY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_preferred_by_name_a/) | The ANSI form of [`PR_PREFERRED_BY_NAME`](./pr_preferred_by_name/). Property tag: 0x3A47001E (PT_STRING8). |
+| static readonly [PR_PREFERRED_BY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_preferred_by_name_w/) | The Unicode form of [`PR_PREFERRED_BY_NAME`](./pr_preferred_by_name/). Property tag: 0x3A47001F (PT_UNICODE). |
+| static readonly [PR_PREPROCESS](../../aspose.email.mapi/mapipropertytag/pr_preprocess/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E22000B (PT_BOOLEAN). |
+| static readonly [PR_PREVENT_MSG_CREATE](../../aspose.email.mapi/mapipropertytag/pr_prevent_msg_create/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x65F4000B (PT_BOOLEAN). |
+| static readonly [PR_PREVIEW](../../aspose.email.mapi/mapipropertytag/pr_preview/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FD9001E (PT_STRING8). |
+| static readonly [PR_PREVIEW_A](../../aspose.email.mapi/mapipropertytag/pr_preview_a/) | The ANSI form of [`PR_PREVIEW`](./pr_preview/). Property tag: 0x3FD9001E (PT_STRING8). |
+| static readonly [PR_PREVIEW_UNREAD](../../aspose.email.mapi/mapipropertytag/pr_preview_unread/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FD8001E (PT_STRING8). |
+| static readonly [PR_PREVIEW_UNREAD_A](../../aspose.email.mapi/mapipropertytag/pr_preview_unread_a/) | The ANSI form of [`PR_PREVIEW_UNREAD`](./pr_preview_unread/). Property tag: 0x3FD8001E (PT_STRING8). |
+| static readonly [PR_PREVIEW_UNREAD_W](../../aspose.email.mapi/mapipropertytag/pr_preview_unread_w/) | The Unicode form of [`PR_PREVIEW_UNREAD`](./pr_preview_unread/). Property tag: 0x3FD8001F (PT_UNICODE). |
+| static readonly [PR_PREVIEW_W](../../aspose.email.mapi/mapipropertytag/pr_preview_w/) | The Unicode form of [`PR_PREVIEW`](./pr_preview/). Property tag: 0x3FD9001F (PT_UNICODE). |
+| static readonly [PR_PRIMARY_CAPABILITY](../../aspose.email.mapi/mapipropertytag/pr_primary_capability/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x39040102 (PT_BINARY). |
+| static readonly [PR_PRIMARY_FAX_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_primary_fax_number/) | Contains the telephone number of the mail user's primary fax machine. Canonical name: PidTagPrimaryFaxNumber. Property tag: 0x3A23001E (PT_STRING8). |
+| static readonly [PR_PRIMARY_FAX_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_primary_fax_number_a/) | The ANSI form of [`PR_PRIMARY_FAX_NUMBER`](./pr_primary_fax_number/). Property tag: 0x3A23001E (PT_STRING8). |
+| static readonly [PR_PRIMARY_FAX_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_primary_fax_number_w/) | The Unicode form of [`PR_PRIMARY_FAX_NUMBER`](./pr_primary_fax_number/). Property tag: 0x3A23001F (PT_UNICODE). |
+| static readonly [PR_PRIMARY_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_primary_telephone_number/) | Contains the mail user's primary telephone number. Canonical name: PidTagPrimaryTelephoneNumber. Property tag: 0x3A1A001E (PT_STRING8). |
+| static readonly [PR_PRIMARY_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_primary_telephone_number_a/) | The ANSI form of [`PR_PRIMARY_TELEPHONE_NUMBER`](./pr_primary_telephone_number/). Property tag: 0x3A1A001E (PT_STRING8). |
+| static readonly [PR_PRIMARY_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_primary_telephone_number_w/) | The Unicode form of [`PR_PRIMARY_TELEPHONE_NUMBER`](./pr_primary_telephone_number/). Property tag: 0x3A1A001F (PT_UNICODE). |
+| static readonly [PR_PRIORITY](../../aspose.email.mapi/mapipropertytag/pr_priority/) | Indicates the client's request for the priority with which the message is to be sent by the messaging system. Canonical name: PidTagPriority. Property tag: 0x00260003 (PT_LONG). |
+| static readonly [PR_PROFESSION](../../aspose.email.mapi/mapipropertytag/pr_profession/) | Contains the name of the mail user's line of business. Canonical name: PidTagProfession. Property tag: 0x3A46001E (PT_STRING8). |
+| static readonly [PR_PROFESSION_A](../../aspose.email.mapi/mapipropertytag/pr_profession_a/) | The ANSI form of [`PR_PROFESSION`](./pr_profession/). Property tag: 0x3A46001E (PT_STRING8). |
+| static readonly [PR_PROFESSION_W](../../aspose.email.mapi/mapipropertytag/pr_profession_w/) | The Unicode form of [`PR_PROFESSION`](./pr_profession/). Property tag: 0x3A46001F (PT_UNICODE). |
+| static readonly [PR_PROFILE_AB_FILES_PATH](../../aspose.email.mapi/mapipropertytag/pr_profile_ab_files_path/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x660E001E (PT_STRING8). |
+| static readonly [PR_PROFILE_AB_FILES_PATH_A](../../aspose.email.mapi/mapipropertytag/pr_profile_ab_files_path_a/) | The ANSI form of [`PR_PROFILE_AB_FILES_PATH`](./pr_profile_ab_files_path/). Property tag: 0x660E001E (PT_STRING8). |
+| static readonly [PR_PROFILE_AB_FILES_PATH_W](../../aspose.email.mapi/mapipropertytag/pr_profile_ab_files_path_w/) | The Unicode form of [`PR_PROFILE_AB_FILES_PATH`](./pr_profile_ab_files_path/). Property tag: 0x660E001F (PT_UNICODE). |
+| static readonly [PR_PROFILE_ADDR_INFO](../../aspose.email.mapi/mapipropertytag/pr_profile_addr_info/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66870102 (PT_BINARY). |
+| static readonly [PR_PROFILE_ALLPUB_COMMENT](../../aspose.email.mapi/mapipropertytag/pr_profile_allpub_comment/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6617001E (PT_STRING8). |
+| static readonly [PR_PROFILE_ALLPUB_COMMENT_A](../../aspose.email.mapi/mapipropertytag/pr_profile_allpub_comment_a/) | The ANSI form of [`PR_PROFILE_ALLPUB_COMMENT`](./pr_profile_allpub_comment/). Property tag: 0x6617001E (PT_STRING8). |
+| static readonly [PR_PROFILE_ALLPUB_COMMENT_W](../../aspose.email.mapi/mapipropertytag/pr_profile_allpub_comment_w/) | The Unicode form of [`PR_PROFILE_ALLPUB_COMMENT`](./pr_profile_allpub_comment/). Property tag: 0x6617001F (PT_UNICODE). |
+| static readonly [PR_PROFILE_ALLPUB_DISPLAY_NAME](../../aspose.email.mapi/mapipropertytag/pr_profile_allpub_display_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6616001E (PT_STRING8). |
+| static readonly [PR_PROFILE_ALLPUB_DISPLAY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_profile_allpub_display_name_a/) | The ANSI form of [`PR_PROFILE_ALLPUB_DISPLAY_NAME`](./pr_profile_allpub_display_name/). Property tag: 0x6616001E (PT_STRING8). |
+| static readonly [PR_PROFILE_ALLPUB_DISPLAY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_profile_allpub_display_name_w/) | The Unicode form of [`PR_PROFILE_ALLPUB_DISPLAY_NAME`](./pr_profile_allpub_display_name/). Property tag: 0x6616001F (PT_UNICODE). |
+| static readonly [PR_PROFILE_AUTH_PACKAGE](../../aspose.email.mapi/mapipropertytag/pr_profile_auth_package/) | Address book EntryID of the user logged on to the public folders. Canonical name: PidTagUserEntryId. Property tag: 0x66190003 (PT_LONG). |
+| static readonly [PR_PROFILE_BINDING_ORDER](../../aspose.email.mapi/mapipropertytag/pr_profile_binding_order/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6609001E (PT_STRING8). |
+| static readonly [PR_PROFILE_BINDING_ORDER_A](../../aspose.email.mapi/mapipropertytag/pr_profile_binding_order_a/) | The ANSI form of [`PR_PROFILE_BINDING_ORDER`](./pr_profile_binding_order/). Property tag: 0x6609001E (PT_STRING8). |
+| static readonly [PR_PROFILE_BINDING_ORDER_W](../../aspose.email.mapi/mapipropertytag/pr_profile_binding_order_w/) | The Unicode form of [`PR_PROFILE_BINDING_ORDER`](./pr_profile_binding_order/). Property tag: 0x6609001F (PT_UNICODE). |
+| static readonly [PR_PROFILE_CONFIG_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_profile_config_flags/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66010003 (PT_LONG). |
+| static readonly [PR_PROFILE_CONNECT_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_profile_connect_flags/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66040003 (PT_LONG). |
+| static readonly [PR_PROFILE_FAVFLD_COMMENT](../../aspose.email.mapi/mapipropertytag/pr_profile_favfld_comment/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6615001E (PT_STRING8). |
+| static readonly [PR_PROFILE_FAVFLD_COMMENT_A](../../aspose.email.mapi/mapipropertytag/pr_profile_favfld_comment_a/) | The ANSI form of [`PR_PROFILE_FAVFLD_COMMENT`](./pr_profile_favfld_comment/). Property tag: 0x6615001E (PT_STRING8). |
+| static readonly [PR_PROFILE_FAVFLD_COMMENT_W](../../aspose.email.mapi/mapipropertytag/pr_profile_favfld_comment_w/) | The Unicode form of [`PR_PROFILE_FAVFLD_COMMENT`](./pr_profile_favfld_comment/). Property tag: 0x6615001F (PT_UNICODE). |
+| static readonly [PR_PROFILE_FAVFLD_DISPLAY_NAME](../../aspose.email.mapi/mapipropertytag/pr_profile_favfld_display_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x660F001E (PT_STRING8). |
+| static readonly [PR_PROFILE_FAVFLD_DISPLAY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_profile_favfld_display_name_a/) | The ANSI form of [`PR_PROFILE_FAVFLD_DISPLAY_NAME`](./pr_profile_favfld_display_name/). Property tag: 0x660F001E (PT_STRING8). |
+| static readonly [PR_PROFILE_FAVFLD_DISPLAY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_profile_favfld_display_name_w/) | The Unicode form of [`PR_PROFILE_FAVFLD_DISPLAY_NAME`](./pr_profile_favfld_display_name/). Property tag: 0x660F001F (PT_UNICODE). |
+| static readonly [PR_PROFILE_HOME_SERVER](../../aspose.email.mapi/mapipropertytag/pr_profile_home_server/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6602001E (PT_STRING8). |
+| static readonly [PR_PROFILE_HOME_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_profile_home_server_a/) | The ANSI form of [`PR_PROFILE_HOME_SERVER`](./pr_profile_home_server/). Property tag: 0x6602001E (PT_STRING8). |
+| static readonly [PR_PROFILE_HOME_SERVER_ADDRS](../../aspose.email.mapi/mapipropertytag/pr_profile_home_server_addrs/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6613101E (PT_MV_STRING8). |
+| static readonly [PR_PROFILE_HOME_SERVER_DN](../../aspose.email.mapi/mapipropertytag/pr_profile_home_server_dn/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6612001E (PT_STRING8). |
+| static readonly [PR_PROFILE_HOME_SERVER_DN_A](../../aspose.email.mapi/mapipropertytag/pr_profile_home_server_dn_a/) | The ANSI form of [`PR_PROFILE_HOME_SERVER_DN`](./pr_profile_home_server_dn/). Property tag: 0x6612001E (PT_STRING8). |
+| static readonly [PR_PROFILE_HOME_SERVER_DN_W](../../aspose.email.mapi/mapipropertytag/pr_profile_home_server_dn_w/) | The Unicode form of [`PR_PROFILE_HOME_SERVER_DN`](./pr_profile_home_server_dn/). Property tag: 0x6612001F (PT_UNICODE). |
+| static readonly [PR_PROFILE_HOME_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_profile_home_server_w/) | The Unicode form of [`PR_PROFILE_HOME_SERVER`](./pr_profile_home_server/). Property tag: 0x6602001F (PT_UNICODE). |
+| static readonly [PR_PROFILE_MAILBOX](../../aspose.email.mapi/mapipropertytag/pr_profile_mailbox/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x660B001E (PT_STRING8). |
+| static readonly [PR_PROFILE_MAILBOX_A](../../aspose.email.mapi/mapipropertytag/pr_profile_mailbox_a/) | The ANSI form of [`PR_PROFILE_MAILBOX`](./pr_profile_mailbox/). Property tag: 0x660B001E (PT_STRING8). |
+| static readonly [PR_PROFILE_MAILBOX_W](../../aspose.email.mapi/mapipropertytag/pr_profile_mailbox_w/) | The Unicode form of [`PR_PROFILE_MAILBOX`](./pr_profile_mailbox/). Property tag: 0x660B001F (PT_UNICODE). |
+| static readonly [PR_PROFILE_MAX_RESTRICT](../../aspose.email.mapi/mapipropertytag/pr_profile_max_restrict/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x660D0003 (PT_LONG). |
+| static readonly [PR_PROFILE_MOAB](../../aspose.email.mapi/mapipropertytag/pr_profile_moab/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x667B001E (PT_STRING8). |
+| static readonly [PR_PROFILE_MOAB_A](../../aspose.email.mapi/mapipropertytag/pr_profile_moab_a/) | The ANSI form of [`PR_PROFILE_MOAB`](./pr_profile_moab/). Property tag: 0x667B001E (PT_STRING8). |
+| static readonly [PR_PROFILE_MOAB_GUID](../../aspose.email.mapi/mapipropertytag/pr_profile_moab_guid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x667C001E (PT_STRING8). |
+| static readonly [PR_PROFILE_MOAB_GUID_A](../../aspose.email.mapi/mapipropertytag/pr_profile_moab_guid_a/) | The ANSI form of [`PR_PROFILE_MOAB_GUID`](./pr_profile_moab_guid/). Property tag: 0x667C001E (PT_STRING8). |
+| static readonly [PR_PROFILE_MOAB_GUID_W](../../aspose.email.mapi/mapipropertytag/pr_profile_moab_guid_w/) | The Unicode form of [`PR_PROFILE_MOAB_GUID`](./pr_profile_moab_guid/). Property tag: 0x667C001F (PT_UNICODE). |
+| static readonly [PR_PROFILE_MOAB_SEQ](../../aspose.email.mapi/mapipropertytag/pr_profile_moab_seq/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x667D0003 (PT_LONG). |
+| static readonly [PR_PROFILE_MOAB_W](../../aspose.email.mapi/mapipropertytag/pr_profile_moab_w/) | The Unicode form of [`PR_PROFILE_MOAB`](./pr_profile_moab/). Property tag: 0x667B001F (PT_UNICODE). |
+| static readonly [PR_PROFILE_NAME](../../aspose.email.mapi/mapipropertytag/pr_profile_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3D12001E (PT_STRING8). |
+| static readonly [PR_PROFILE_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_profile_name_a/) | The ANSI form of [`PR_PROFILE_NAME`](./pr_profile_name/). Property tag: 0x3D12001E (PT_STRING8). |
+| static readonly [PR_PROFILE_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_profile_name_w/) | The Unicode form of [`PR_PROFILE_NAME`](./pr_profile_name/). Property tag: 0x3D12001F (PT_UNICODE). |
+| static readonly [PR_PROFILE_OFFLINE_INFO](../../aspose.email.mapi/mapipropertytag/pr_profile_offline_info/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66110102 (PT_BINARY). |
+| static readonly [PR_PROFILE_OFFLINE_STORE_PATH](../../aspose.email.mapi/mapipropertytag/pr_profile_offline_store_path/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6610001E (PT_STRING8). |
+| static readonly [PR_PROFILE_OFFLINE_STORE_PATH_A](../../aspose.email.mapi/mapipropertytag/pr_profile_offline_store_path_a/) | The ANSI form of [`PR_PROFILE_OFFLINE_STORE_PATH`](./pr_profile_offline_store_path/). Property tag: 0x6610001E (PT_STRING8). |
+| static readonly [PR_PROFILE_OFFLINE_STORE_PATH_W](../../aspose.email.mapi/mapipropertytag/pr_profile_offline_store_path_w/) | The Unicode form of [`PR_PROFILE_OFFLINE_STORE_PATH`](./pr_profile_offline_store_path/). Property tag: 0x6610001F (PT_UNICODE). |
+| static readonly [PR_PROFILE_OPEN_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_profile_open_flags/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66090003 (PT_LONG). |
+| static readonly [PR_PROFILE_OPTIONS_DATA](../../aspose.email.mapi/mapipropertytag/pr_profile_options_data/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66890102 (PT_BINARY). |
+| static readonly [PR_PROFILE_SECURE_MAILBOX](../../aspose.email.mapi/mapipropertytag/pr_profile_secure_mailbox/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x67F00102 (PT_BINARY). |
+| static readonly [PR_PROFILE_SERVER](../../aspose.email.mapi/mapipropertytag/pr_profile_server/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x660C001E (PT_STRING8). |
+| static readonly [PR_PROFILE_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_profile_server_a/) | The ANSI form of [`PR_PROFILE_SERVER`](./pr_profile_server/). Property tag: 0x660C001E (PT_STRING8). |
+| static readonly [PR_PROFILE_SERVER_DN](../../aspose.email.mapi/mapipropertytag/pr_profile_server_dn/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6614001E (PT_STRING8). |
+| static readonly [PR_PROFILE_SERVER_DN_A](../../aspose.email.mapi/mapipropertytag/pr_profile_server_dn_a/) | The ANSI form of [`PR_PROFILE_SERVER_DN`](./pr_profile_server_dn/). Property tag: 0x6614001E (PT_STRING8). |
+| static readonly [PR_PROFILE_SERVER_DN_W](../../aspose.email.mapi/mapipropertytag/pr_profile_server_dn_w/) | The Unicode form of [`PR_PROFILE_SERVER_DN`](./pr_profile_server_dn/). Property tag: 0x6614001F (PT_UNICODE). |
+| static readonly [PR_PROFILE_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_profile_server_w/) | The Unicode form of [`PR_PROFILE_SERVER`](./pr_profile_server/). Property tag: 0x660C001F (PT_UNICODE). |
+| static readonly [PR_PROFILE_TRANSPORT_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_profile_transport_flags/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66050003 (PT_LONG). |
+| static readonly [PR_PROFILE_TYPE](../../aspose.email.mapi/mapipropertytag/pr_profile_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x660A0003 (PT_LONG). |
+| static readonly [PR_PROFILE_UI_STATE](../../aspose.email.mapi/mapipropertytag/pr_profile_ui_state/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66060003 (PT_LONG). |
+| static readonly [PR_PROFILE_UNRESOLVED_NAME](../../aspose.email.mapi/mapipropertytag/pr_profile_unresolved_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6607001E (PT_STRING8). |
+| static readonly [PR_PROFILE_UNRESOLVED_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_profile_unresolved_name_a/) | The ANSI form of [`PR_PROFILE_UNRESOLVED_NAME`](./pr_profile_unresolved_name/). Property tag: 0x6607001E (PT_STRING8). |
+| static readonly [PR_PROFILE_UNRESOLVED_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_profile_unresolved_name_w/) | The Unicode form of [`PR_PROFILE_UNRESOLVED_NAME`](./pr_profile_unresolved_name/). Property tag: 0x6607001F (PT_UNICODE). |
+| static readonly [PR_PROFILE_UNRESOLVED_SERVER](../../aspose.email.mapi/mapipropertytag/pr_profile_unresolved_server/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6608001E (PT_STRING8). |
+| static readonly [PR_PROFILE_UNRESOLVED_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_profile_unresolved_server_a/) | The ANSI form of [`PR_PROFILE_UNRESOLVED_SERVER`](./pr_profile_unresolved_server/). Property tag: 0x6608001E (PT_STRING8). |
+| static readonly [PR_PROFILE_UNRESOLVED_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_profile_unresolved_server_w/) | The Unicode form of [`PR_PROFILE_UNRESOLVED_SERVER`](./pr_profile_unresolved_server/). Property tag: 0x6608001F (PT_UNICODE). |
+| static readonly [PR_PROFILE_USER](../../aspose.email.mapi/mapipropertytag/pr_profile_user/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6603001E (PT_STRING8). |
+| static readonly [PR_PROFILE_USER_A](../../aspose.email.mapi/mapipropertytag/pr_profile_user_a/) | The ANSI form of [`PR_PROFILE_USER`](./pr_profile_user/). Property tag: 0x6603001E (PT_STRING8). |
+| static readonly [PR_PROFILE_USER_W](../../aspose.email.mapi/mapipropertytag/pr_profile_user_w/) | The Unicode form of [`PR_PROFILE_USER`](./pr_profile_user/). Property tag: 0x6603001F (PT_UNICODE). |
+| static readonly [PR_PROFILE_VERSION](../../aspose.email.mapi/mapipropertytag/pr_profile_version/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66000003 (PT_LONG). |
+| static readonly [PR_PROMOTE_PROP_ID_LIST](../../aspose.email.mapi/mapipropertytag/pr_promote_prop_id_list/) | Maximum size, in kilobytes, that a user is allowed to accumulate in their mailbox before no further email will be delivered to their mailbox. Canonical name: PidTagProhibitReceiveQuota. Property tag: 0x666A0102 (PT_BINARY). |
+| static readonly [PR_PROOF_OF_DELIVERY](../../aspose.email.mapi/mapipropertytag/pr_proof_of_delivery/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C110102 (PT_BINARY). |
+| static readonly [PR_PROOF_OF_DELIVERY_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_proof_of_delivery_requested/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C12000B (PT_BOOLEAN). |
+| static readonly [PR_PROOF_OF_SUBMISSION](../../aspose.email.mapi/mapipropertytag/pr_proof_of_submission/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E260102 (PT_BINARY). |
+| static readonly [PR_PROOF_OF_SUBMISSION_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_proof_of_submission_requested/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0028000B (PT_BOOLEAN). |
+| static readonly [PR_PROVIDER_DISPLAY](../../aspose.email.mapi/mapipropertytag/pr_provider_display/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3006001E (PT_STRING8). |
+| static readonly [PR_PROVIDER_DISPLAY_A](../../aspose.email.mapi/mapipropertytag/pr_provider_display_a/) | The ANSI form of [`PR_PROVIDER_DISPLAY`](./pr_provider_display/). Property tag: 0x3006001E (PT_STRING8). |
+| static readonly [PR_PROVIDER_DISPLAY_W](../../aspose.email.mapi/mapipropertytag/pr_provider_display_w/) | The Unicode form of [`PR_PROVIDER_DISPLAY`](./pr_provider_display/). Property tag: 0x3006001F (PT_UNICODE). |
+| static readonly [PR_PROVIDER_DLL_NAME](../../aspose.email.mapi/mapipropertytag/pr_provider_dll_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x300A001E (PT_STRING8). |
+| static readonly [PR_PROVIDER_DLL_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_provider_dll_name_a/) | The ANSI form of [`PR_PROVIDER_DLL_NAME`](./pr_provider_dll_name/). Property tag: 0x300A001E (PT_STRING8). |
+| static readonly [PR_PROVIDER_DLL_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_provider_dll_name_w/) | The Unicode form of [`PR_PROVIDER_DLL_NAME`](./pr_provider_dll_name/). Property tag: 0x300A001F (PT_UNICODE). |
+| static readonly [PR_PROVIDER_ORDINAL](../../aspose.email.mapi/mapipropertytag/pr_provider_ordinal/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x300D0003 (PT_LONG). |
+| static readonly [PR_PROVIDER_SUBMIT_TIME](../../aspose.email.mapi/mapipropertytag/pr_provider_submit_time/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x00480040 (PT_SYSTIME). |
+| static readonly [PR_PROVIDER_UID](../../aspose.email.mapi/mapipropertytag/pr_provider_uid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x300C0102 (PT_BINARY). |
+| static readonly [PR_PST_ENCRYPTION](../../aspose.email.mapi/mapipropertytag/pr_pst_encryption/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x67020003 (PT_LONG). |
 | static readonly [PR_PST_PASSWORD](../../aspose.email.mapi/mapipropertytag/pr_pst_password/) | Contains the CRC-32 hash of the password string of PST. If the property exists and is nonzero, then the PST file is password protected. |
-| static readonly [PR_PST_PATH](../../aspose.email.mapi/mapipropertytag/pr_pst_path/) |  |
-| static readonly [PR_PST_PATH_A](../../aspose.email.mapi/mapipropertytag/pr_pst_path_a/) |  |
-| static readonly [PR_PST_PATH_W](../../aspose.email.mapi/mapipropertytag/pr_pst_path_w/) |  |
-| static readonly [PR_PST_PW_SZ_NEW](../../aspose.email.mapi/mapipropertytag/pr_pst_pw_sz_new/) |  |
-| static readonly [PR_PST_PW_SZ_NEW_A](../../aspose.email.mapi/mapipropertytag/pr_pst_pw_sz_new_a/) |  |
-| static readonly [PR_PST_PW_SZ_NEW_W](../../aspose.email.mapi/mapipropertytag/pr_pst_pw_sz_new_w/) |  |
-| static readonly [PR_PST_PW_SZ_OLD](../../aspose.email.mapi/mapipropertytag/pr_pst_pw_sz_old/) |  |
-| static readonly [PR_PST_PW_SZ_OLD_A](../../aspose.email.mapi/mapipropertytag/pr_pst_pw_sz_old_a/) |  |
-| static readonly [PR_PST_PW_SZ_OLD_W](../../aspose.email.mapi/mapipropertytag/pr_pst_pw_sz_old_w/) |  |
-| static readonly [PR_PST_REMEMBER_PW](../../aspose.email.mapi/mapipropertytag/pr_pst_remember_pw/) |  |
-| static readonly [PR_PUBLIC_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_public_folder_entryid/) |  |
-| static readonly [PR_PUBLISH_IN_ADDRESS_BOOK](../../aspose.email.mapi/mapipropertytag/pr_publish_in_address_book/) |  |
-| static readonly [PR_RADIO_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_radio_telephone_number/) |  |
-| static readonly [PR_RADIO_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_radio_telephone_number_a/) |  |
-| static readonly [PR_RADIO_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_radio_telephone_number_w/) |  |
-| static readonly [PR_RCVD_REPRESENTING_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_addrtype/) |  |
-| static readonly [PR_RCVD_REPRESENTING_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_addrtype_a/) |  |
-| static readonly [PR_RCVD_REPRESENTING_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_addrtype_w/) |  |
-| static readonly [PR_RCVD_REPRESENTING_EMAIL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_email_address/) |  |
-| static readonly [PR_RCVD_REPRESENTING_EMAIL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_email_address_a/) |  |
-| static readonly [PR_RCVD_REPRESENTING_EMAIL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_email_address_w/) |  |
-| static readonly [PR_RCVD_REPRESENTING_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_entryid/) |  |
-| static readonly [PR_RCVD_REPRESENTING_NAME](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_name/) |  |
-| static readonly [PR_RCVD_REPRESENTING_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_name_a/) |  |
-| static readonly [PR_RCVD_REPRESENTING_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_name_w/) |  |
-| static readonly [PR_RCVD_REPRESENTING_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_search_key/) |  |
-| static readonly [PR_READ_RECEIPT_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_read_receipt_entryid/) |  |
-| static readonly [PR_READ_RECEIPT_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_read_receipt_requested/) |  |
-| static readonly [PR_READ_RECEIPT_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_read_receipt_search_key/) |  |
-| static readonly [PR_RECEIPT_TIME](../../aspose.email.mapi/mapipropertytag/pr_receipt_time/) |  |
-| static readonly [PR_RECEIVED_BY_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_received_by_addrtype/) |  |
-| static readonly [PR_RECEIVED_BY_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_received_by_addrtype_a/) |  |
-| static readonly [PR_RECEIVED_BY_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_received_by_addrtype_w/) |  |
-| static readonly [PR_RECEIVED_BY_EMAIL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_received_by_email_address/) |  |
-| static readonly [PR_RECEIVED_BY_EMAIL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_received_by_email_address_a/) |  |
-| static readonly [PR_RECEIVED_BY_EMAIL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_received_by_email_address_w/) |  |
-| static readonly [PR_RECEIVED_BY_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_received_by_entryid/) |  |
-| static readonly [PR_RECEIVED_BY_NAME](../../aspose.email.mapi/mapipropertytag/pr_received_by_name/) |  |
-| static readonly [PR_RECEIVED_BY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_received_by_name_a/) |  |
-| static readonly [PR_RECEIVED_BY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_received_by_name_w/) |  |
-| static readonly [PR_RECEIVED_BY_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_received_by_search_key/) |  |
-| static readonly [PR_RECEIVE_FOLDER_SETTINGS](../../aspose.email.mapi/mapipropertytag/pr_receive_folder_settings/) |  |
-| static readonly [PR_RECIPIENT_AUTORESPONSE_PROP_RESPONSE](../../aspose.email.mapi/mapipropertytag/pr_recipient_autoresponse_prop_response/) |  |
-| static readonly [PR_RECIPIENT_CERTIFICATE](../../aspose.email.mapi/mapipropertytag/pr_recipient_certificate/) |  |
+| static readonly [PR_PST_PATH](../../aspose.email.mapi/mapipropertytag/pr_pst_path/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6700001E (PT_STRING8). |
+| static readonly [PR_PST_PATH_A](../../aspose.email.mapi/mapipropertytag/pr_pst_path_a/) | The ANSI form of [`PR_PST_PATH`](./pr_pst_path/). Property tag: 0x6700001E (PT_STRING8). |
+| static readonly [PR_PST_PATH_W](../../aspose.email.mapi/mapipropertytag/pr_pst_path_w/) | The Unicode form of [`PR_PST_PATH`](./pr_pst_path/). Property tag: 0x6700001F (PT_UNICODE). |
+| static readonly [PR_PST_PW_SZ_NEW](../../aspose.email.mapi/mapipropertytag/pr_pst_pw_sz_new/) | Contains information for use in display templates for distribution lists. Canonical name: PidTagAddressBookManageDistributionList. Property tag: 0x6704001E (PT_STRING8). |
+| static readonly [PR_PST_PW_SZ_NEW_A](../../aspose.email.mapi/mapipropertytag/pr_pst_pw_sz_new_a/) | The ANSI form of [`PR_PST_PW_SZ_NEW`](./pr_pst_pw_sz_new/). Property tag: 0x6704001E (PT_STRING8). |
+| static readonly [PR_PST_PW_SZ_NEW_W](../../aspose.email.mapi/mapipropertytag/pr_pst_pw_sz_new_w/) | The Unicode form of [`PR_PST_PW_SZ_NEW`](./pr_pst_pw_sz_new/). Property tag: 0x6704001F (PT_UNICODE). |
+| static readonly [PR_PST_PW_SZ_OLD](../../aspose.email.mapi/mapipropertytag/pr_pst_pw_sz_old/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6703001E (PT_STRING8). |
+| static readonly [PR_PST_PW_SZ_OLD_A](../../aspose.email.mapi/mapipropertytag/pr_pst_pw_sz_old_a/) | The ANSI form of [`PR_PST_PW_SZ_OLD`](./pr_pst_pw_sz_old/). Property tag: 0x6703001E (PT_STRING8). |
+| static readonly [PR_PST_PW_SZ_OLD_W](../../aspose.email.mapi/mapipropertytag/pr_pst_pw_sz_old_w/) | The Unicode form of [`PR_PST_PW_SZ_OLD`](./pr_pst_pw_sz_old/). Property tag: 0x6703001F (PT_UNICODE). |
+| static readonly [PR_PST_REMEMBER_PW](../../aspose.email.mapi/mapipropertytag/pr_pst_remember_pw/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6701000B (PT_BOOLEAN). |
+| static readonly [PR_PUBLIC_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_public_folder_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x663C0102 (PT_BINARY). |
+| static readonly [PR_PUBLISH_IN_ADDRESS_BOOK](../../aspose.email.mapi/mapipropertytag/pr_publish_in_address_book/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FE6000B (PT_BOOLEAN). |
+| static readonly [PR_RADIO_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_radio_telephone_number/) | Contains the mail user's radio telephone number. Canonical name: PidTagRadioTelephoneNumber. Property tag: 0x3A1D001E (PT_STRING8). |
+| static readonly [PR_RADIO_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_radio_telephone_number_a/) | The ANSI form of [`PR_RADIO_TELEPHONE_NUMBER`](./pr_radio_telephone_number/). Property tag: 0x3A1D001E (PT_STRING8). |
+| static readonly [PR_RADIO_TELEPHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_radio_telephone_number_w/) | The Unicode form of [`PR_RADIO_TELEPHONE_NUMBER`](./pr_radio_telephone_number/). Property tag: 0x3A1D001F (PT_UNICODE). |
+| static readonly [PR_RCVD_REPRESENTING_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_addrtype/) | Contains the email address type for the end user represented by the receiving mailbox owner. Canonical name: PidTagReceivedRepresentingAddressType. Property tag: 0x0077001E (PT_STRING8). |
+| static readonly [PR_RCVD_REPRESENTING_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_addrtype_a/) | The ANSI form of [`PR_RCVD_REPRESENTING_ADDRTYPE`](./pr_rcvd_representing_addrtype/). Property tag: 0x0077001E (PT_STRING8). |
+| static readonly [PR_RCVD_REPRESENTING_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_addrtype_w/) | The Unicode form of [`PR_RCVD_REPRESENTING_ADDRTYPE`](./pr_rcvd_representing_addrtype/). Property tag: 0x0077001F (PT_UNICODE). |
+| static readonly [PR_RCVD_REPRESENTING_EMAIL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_email_address/) | Contains the email address for the end user represented by the receiving mailbox owner. Canonical name: PidTagReceivedRepresentingEmailAddress. Property tag: 0x0078001E (PT_STRING8). |
+| static readonly [PR_RCVD_REPRESENTING_EMAIL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_email_address_a/) | The ANSI form of [`PR_RCVD_REPRESENTING_EMAIL_ADDRESS`](./pr_rcvd_representing_email_address/). Property tag: 0x0078001E (PT_STRING8). |
+| static readonly [PR_RCVD_REPRESENTING_EMAIL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_email_address_w/) | The Unicode form of [`PR_RCVD_REPRESENTING_EMAIL_ADDRESS`](./pr_rcvd_representing_email_address/). Property tag: 0x0078001F (PT_UNICODE). |
+| static readonly [PR_RCVD_REPRESENTING_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_entryid/) | Contains an address book EntryID that identifies the end user represented by the receiving mailbox owner. Canonical name: PidTagReceivedRepresentingEntryId. Property tag: 0x00430102 (PT_BINARY). |
+| static readonly [PR_RCVD_REPRESENTING_NAME](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_name/) | Contains the display name for the end user represented by the receiving mailbox owner. Canonical name: PidTagReceivedRepresentingName. Property tag: 0x0044001E (PT_STRING8). |
+| static readonly [PR_RCVD_REPRESENTING_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_name_a/) | The ANSI form of [`PR_RCVD_REPRESENTING_NAME`](./pr_rcvd_representing_name/). Property tag: 0x0044001E (PT_STRING8). |
+| static readonly [PR_RCVD_REPRESENTING_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_name_w/) | The Unicode form of [`PR_RCVD_REPRESENTING_NAME`](./pr_rcvd_representing_name/). Property tag: 0x0044001F (PT_UNICODE). |
+| static readonly [PR_RCVD_REPRESENTING_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_rcvd_representing_search_key/) | Identifies an address book search key that contains a binary-comparable key of the end user represented by the receiving mailbox owner. Canonical name: PidTagReceivedRepresentingSearchKey. Property tag: 0x00520102 (PT_BINARY). |
+| static readonly [PR_READ_RECEIPT_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_read_receipt_entryid/) | Contains an address book EntryID. Canonical name: PidTagReadReceiptEntryId. Property tag: 0x00460102 (PT_BINARY). |
+| static readonly [PR_READ_RECEIPT_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_read_receipt_requested/) | Specifies whether the email sender requests a read receipt from all recipients when this email message is read or opened. Canonical name: PidTagReadReceiptRequested. Property tag: 0x0029000B (PT_BOOLEAN). |
+| static readonly [PR_READ_RECEIPT_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_read_receipt_search_key/) | Contains an address book search key. Canonical name: PidTagReadReceiptSearchKey. Property tag: 0x00530102 (PT_BINARY). |
+| static readonly [PR_RECEIPT_TIME](../../aspose.email.mapi/mapipropertytag/pr_receipt_time/) | Contains the sent time for a message disposition notification, as specified in [RFC3798]. Canonical name: PidTagReceiptTime. Property tag: 0x002A0040 (PT_SYSTIME). |
+| static readonly [PR_RECEIVED_BY_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_received_by_addrtype/) | Contains the email message receiver's email address type. Canonical name: PidTagReceivedByAddressType. Property tag: 0x0075001E (PT_STRING8). |
+| static readonly [PR_RECEIVED_BY_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_received_by_addrtype_a/) | The ANSI form of [`PR_RECEIVED_BY_ADDRTYPE`](./pr_received_by_addrtype/). Property tag: 0x0075001E (PT_STRING8). |
+| static readonly [PR_RECEIVED_BY_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_received_by_addrtype_w/) | The Unicode form of [`PR_RECEIVED_BY_ADDRTYPE`](./pr_received_by_addrtype/). Property tag: 0x0075001F (PT_UNICODE). |
+| static readonly [PR_RECEIVED_BY_EMAIL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_received_by_email_address/) | Contains the email message receiver's email address. Canonical name: PidTagReceivedByEmailAddress. Property tag: 0x0076001E (PT_STRING8). |
+| static readonly [PR_RECEIVED_BY_EMAIL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_received_by_email_address_a/) | The ANSI form of [`PR_RECEIVED_BY_EMAIL_ADDRESS`](./pr_received_by_email_address/). Property tag: 0x0076001E (PT_STRING8). |
+| static readonly [PR_RECEIVED_BY_EMAIL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_received_by_email_address_w/) | The Unicode form of [`PR_RECEIVED_BY_EMAIL_ADDRESS`](./pr_received_by_email_address/). Property tag: 0x0076001F (PT_UNICODE). |
+| static readonly [PR_RECEIVED_BY_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_received_by_entryid/) | Contains the address book EntryID of the mailbox receiving the Email object. Canonical name: PidTagReceivedByEntryId. Property tag: 0x003F0102 (PT_BINARY). |
+| static readonly [PR_RECEIVED_BY_NAME](../../aspose.email.mapi/mapipropertytag/pr_received_by_name/) | Contains the email message receiver's display name. Canonical name: PidTagReceivedByName. Property tag: 0x0040001E (PT_STRING8). |
+| static readonly [PR_RECEIVED_BY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_received_by_name_a/) | The ANSI form of [`PR_RECEIVED_BY_NAME`](./pr_received_by_name/). Property tag: 0x0040001E (PT_STRING8). |
+| static readonly [PR_RECEIVED_BY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_received_by_name_w/) | The Unicode form of [`PR_RECEIVED_BY_NAME`](./pr_received_by_name/). Property tag: 0x0040001F (PT_UNICODE). |
+| static readonly [PR_RECEIVED_BY_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_received_by_search_key/) | Identifies an address book search key that contains a binary-comparable key that is used to identify correlated objects for a search. Canonical name: PidTagReceivedBySearchKey. Property tag: 0x00510102 (PT_BINARY). |
+| static readonly [PR_RECEIVE_FOLDER_SETTINGS](../../aspose.email.mapi/mapipropertytag/pr_receive_folder_settings/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3415000D (PT_OBJECT). |
+| static readonly [PR_RECIPIENT_AUTORESPONSE_PROP_RESPONSE](../../aspose.email.mapi/mapipropertytag/pr_recipient_autoresponse_prop_response/) | The tag of the PR_RECIPIENT_AUTORESPONSE_PROP_RESPONSE MAPI property. Property tag: 0x5FEC001F (PT_UNICODE). |
+| static readonly [PR_RECIPIENT_CERTIFICATE](../../aspose.email.mapi/mapipropertytag/pr_recipient_certificate/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C130102 (PT_BINARY). |
 | static readonly [PR_RECIPIENT_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_recipient_flags/) | Specifies a bit field that describes the recipient status. |
-| static readonly [PR_RECIPIENT_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_recipient_number/) |  |
-| static readonly [PR_RECIPIENT_NUMBER_FOR_ADVICE](../../aspose.email.mapi/mapipropertytag/pr_recipient_number_for_advice/) |  |
-| static readonly [PR_RECIPIENT_NUMBER_FOR_ADVICE_A](../../aspose.email.mapi/mapipropertytag/pr_recipient_number_for_advice_a/) |  |
-| static readonly [PR_RECIPIENT_NUMBER_FOR_ADVICE_W](../../aspose.email.mapi/mapipropertytag/pr_recipient_number_for_advice_w/) |  |
-| static readonly [PR_RECIPIENT_ON_ASSOC_MSG_COUNT](../../aspose.email.mapi/mapipropertytag/pr_recipient_on_assoc_msg_count/) |  |
-| static readonly [PR_RECIPIENT_ON_NORMAL_MSG_COUNT](../../aspose.email.mapi/mapipropertytag/pr_recipient_on_normal_msg_count/) |  |
-| static readonly [PR_RECIPIENT_REASSIGNMENT_PROHIBITED](../../aspose.email.mapi/mapipropertytag/pr_recipient_reassignment_prohibited/) |  |
-| static readonly [PR_RECIPIENT_STATUS](../../aspose.email.mapi/mapipropertytag/pr_recipient_status/) |  |
-| static readonly [PR_RECIPIENT_TRACKSTATUS](../../aspose.email.mapi/mapipropertytag/pr_recipient_trackstatus/) |  |
+| static readonly [PR_RECIPIENT_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_recipient_number/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66620003 (PT_LONG). |
+| static readonly [PR_RECIPIENT_NUMBER_FOR_ADVICE](../../aspose.email.mapi/mapipropertytag/pr_recipient_number_for_advice/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C14001E (PT_STRING8). |
+| static readonly [PR_RECIPIENT_NUMBER_FOR_ADVICE_A](../../aspose.email.mapi/mapipropertytag/pr_recipient_number_for_advice_a/) | The ANSI form of [`PR_RECIPIENT_NUMBER_FOR_ADVICE`](./pr_recipient_number_for_advice/). Property tag: 0x0C14001E (PT_STRING8). |
+| static readonly [PR_RECIPIENT_NUMBER_FOR_ADVICE_W](../../aspose.email.mapi/mapipropertytag/pr_recipient_number_for_advice_w/) | The Unicode form of [`PR_RECIPIENT_NUMBER_FOR_ADVICE`](./pr_recipient_number_for_advice/). Property tag: 0x0C14001F (PT_UNICODE). |
+| static readonly [PR_RECIPIENT_ON_ASSOC_MSG_COUNT](../../aspose.email.mapi/mapipropertytag/pr_recipient_on_assoc_msg_count/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66B00003 (PT_LONG). |
+| static readonly [PR_RECIPIENT_ON_NORMAL_MSG_COUNT](../../aspose.email.mapi/mapipropertytag/pr_recipient_on_normal_msg_count/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66AF0003 (PT_LONG). |
+| static readonly [PR_RECIPIENT_REASSIGNMENT_PROHIBITED](../../aspose.email.mapi/mapipropertytag/pr_recipient_reassignment_prohibited/) | Specifies whether adding additional or different recipients is prohibited for the email message when forwarding the email message. Canonical name: PidTagRecipientReassignmentProhibited. Property tag: 0x002B000B (PT_BOOLEAN). |
+| static readonly [PR_RECIPIENT_STATUS](../../aspose.email.mapi/mapipropertytag/pr_recipient_status/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E150003 (PT_LONG). |
+| static readonly [PR_RECIPIENT_TRACKSTATUS](../../aspose.email.mapi/mapipropertytag/pr_recipient_trackstatus/) | Indicates the response status that is returned by the attendee. Canonical name: PidTagRecipientTrackStatus. Property tag: 0x5FFF0003 (PT_LONG). |
 | static readonly [PR_RECIPIENT_TRACKSTATUS_TIME](../../aspose.email.mapi/mapipropertytag/pr_recipient_trackstatus_time/) | Indicates the date and time at which the attendee responded. The value is specified in UTC. |
 | static readonly [PR_RECIPIENT_TRACKSTATUS_TIME_DELIVERY](../../aspose.email.mapi/mapipropertytag/pr_recipient_trackstatus_time_delivery/) | Indicates the date and time at which the message was delivered. The value is specified in UTC. |
 | static readonly [PR_RECIPIENT_TRACKSTATUS_TIME_READ](../../aspose.email.mapi/mapipropertytag/pr_recipient_trackstatus_time_read/) | Indicates the date and time at which the recipient read the message. The value is specified in UTC. |
-| static readonly [PR_RECIPIENT_TYPE](../../aspose.email.mapi/mapipropertytag/pr_recipient_type/) |  |
-| static readonly [PR_RECORD_KEY](../../aspose.email.mapi/mapipropertytag/pr_record_key/) |  |
-| static readonly [PR_REDIRECTION_HISTORY](../../aspose.email.mapi/mapipropertytag/pr_redirection_history/) |  |
-| static readonly [PR_REFERRED_BY_NAME](../../aspose.email.mapi/mapipropertytag/pr_referred_by_name/) |  |
-| static readonly [PR_REFERRED_BY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_referred_by_name_a/) |  |
-| static readonly [PR_REFERRED_BY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_referred_by_name_w/) |  |
-| static readonly [PR_REGISTERED_MAIL_TYPE](../../aspose.email.mapi/mapipropertytag/pr_registered_mail_type/) |  |
-| static readonly [PR_RELATED_IPMS](../../aspose.email.mapi/mapipropertytag/pr_related_ipms/) |  |
-| static readonly [PR_REMOTE_PROGRESS](../../aspose.email.mapi/mapipropertytag/pr_remote_progress/) |  |
-| static readonly [PR_REMOTE_PROGRESS_TEXT](../../aspose.email.mapi/mapipropertytag/pr_remote_progress_text/) |  |
-| static readonly [PR_REMOTE_PROGRESS_TEXT_A](../../aspose.email.mapi/mapipropertytag/pr_remote_progress_text_a/) |  |
-| static readonly [PR_REMOTE_PROGRESS_TEXT_W](../../aspose.email.mapi/mapipropertytag/pr_remote_progress_text_w/) |  |
-| static readonly [PR_REMOTE_VALIDATE_OK](../../aspose.email.mapi/mapipropertytag/pr_remote_validate_ok/) |  |
-| static readonly [PR_RENDERING_POSITION](../../aspose.email.mapi/mapipropertytag/pr_rendering_position/) |  |
-| static readonly [PR_REPLICATION_ALWAYS_INTERVAL](../../aspose.email.mapi/mapipropertytag/pr_replication_always_interval/) |  |
-| static readonly [PR_REPLICATION_MESSAGE_PRIORITY](../../aspose.email.mapi/mapipropertytag/pr_replication_message_priority/) |  |
-| static readonly [PR_REPLICATION_MSG_SIZE](../../aspose.email.mapi/mapipropertytag/pr_replication_msg_size/) |  |
-| static readonly [PR_REPLICATION_SCHEDULE](../../aspose.email.mapi/mapipropertytag/pr_replication_schedule/) |  |
-| static readonly [PR_REPLICATION_STYLE](../../aspose.email.mapi/mapipropertytag/pr_replication_style/) |  |
-| static readonly [PR_REPLICA_LIST](../../aspose.email.mapi/mapipropertytag/pr_replica_list/) |  |
-| static readonly [PR_REPLICA_SERVER](../../aspose.email.mapi/mapipropertytag/pr_replica_server/) |  |
-| static readonly [PR_REPLICA_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_replica_server_a/) |  |
-| static readonly [PR_REPLICA_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_replica_server_w/) |  |
-| static readonly [PR_REPLICA_VERSION](../../aspose.email.mapi/mapipropertytag/pr_replica_version/) |  |
-| static readonly [PR_REPLY_RECIPIENT_ENTRIES](../../aspose.email.mapi/mapipropertytag/pr_reply_recipient_entries/) |  |
-| static readonly [PR_REPLY_RECIPIENT_NAMES](../../aspose.email.mapi/mapipropertytag/pr_reply_recipient_names/) |  |
-| static readonly [PR_REPLY_RECIPIENT_NAMES_A](../../aspose.email.mapi/mapipropertytag/pr_reply_recipient_names_a/) |  |
-| static readonly [PR_REPLY_RECIPIENT_NAMES_W](../../aspose.email.mapi/mapipropertytag/pr_reply_recipient_names_w/) |  |
-| static readonly [PR_REPLY_RECIPIENT_SMTP_PROXIES](../../aspose.email.mapi/mapipropertytag/pr_reply_recipient_smtp_proxies/) |  |
-| static readonly [PR_REPLY_RECIPIENT_SMTP_PROXIES_A](../../aspose.email.mapi/mapipropertytag/pr_reply_recipient_smtp_proxies_a/) |  |
-| static readonly [PR_REPLY_RECIPIENT_SMTP_PROXIES_W](../../aspose.email.mapi/mapipropertytag/pr_reply_recipient_smtp_proxies_w/) |  |
-| static readonly [PR_REPLY_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_reply_requested/) |  |
-| static readonly [PR_REPLY_TIME](../../aspose.email.mapi/mapipropertytag/pr_reply_time/) |  |
-| static readonly [PR_REPORTING_DL_NAME](../../aspose.email.mapi/mapipropertytag/pr_reporting_dl_name/) |  |
-| static readonly [PR_REPORTING_MTA_CERTIFICATE](../../aspose.email.mapi/mapipropertytag/pr_reporting_mta_certificate/) |  |
-| static readonly [PR_REPORT_DESTINATION_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_report_destination_entryid/) |  |
-| static readonly [PR_REPORT_DESTINATION_NAME](../../aspose.email.mapi/mapipropertytag/pr_report_destination_name/) |  |
-| static readonly [PR_REPORT_DESTINATION_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_report_destination_name_a/) |  |
-| static readonly [PR_REPORT_DESTINATION_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_report_destination_name_w/) |  |
-| static readonly [PR_REPORT_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_report_entryid/) |  |
-| static readonly [PR_REPORT_NAME](../../aspose.email.mapi/mapipropertytag/pr_report_name/) |  |
-| static readonly [PR_REPORT_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_report_name_a/) |  |
-| static readonly [PR_REPORT_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_report_name_w/) |  |
-| static readonly [PR_REPORT_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_report_search_key/) |  |
-| static readonly [PR_REPORT_TAG](../../aspose.email.mapi/mapipropertytag/pr_report_tag/) |  |
-| static readonly [PR_REPORT_TEXT](../../aspose.email.mapi/mapipropertytag/pr_report_text/) |  |
-| static readonly [PR_REPORT_TEXT_A](../../aspose.email.mapi/mapipropertytag/pr_report_text_a/) |  |
-| static readonly [PR_REPORT_TEXT_W](../../aspose.email.mapi/mapipropertytag/pr_report_text_w/) |  |
-| static readonly [PR_REPORT_TIME](../../aspose.email.mapi/mapipropertytag/pr_report_time/) |  |
-| static readonly [PR_REQUESTED_DELIVERY_METHOD](../../aspose.email.mapi/mapipropertytag/pr_requested_delivery_method/) |  |
-| static readonly [PR_RESOLVE_METHOD](../../aspose.email.mapi/mapipropertytag/pr_resolve_method/) |  |
-| static readonly [PR_RESOURCE_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_resource_flags/) |  |
-| static readonly [PR_RESOURCE_METHODS](../../aspose.email.mapi/mapipropertytag/pr_resource_methods/) |  |
-| static readonly [PR_RESOURCE_PATH](../../aspose.email.mapi/mapipropertytag/pr_resource_path/) |  |
-| static readonly [PR_RESOURCE_PATH_A](../../aspose.email.mapi/mapipropertytag/pr_resource_path_a/) |  |
-| static readonly [PR_RESOURCE_PATH_W](../../aspose.email.mapi/mapipropertytag/pr_resource_path_w/) |  |
-| static readonly [PR_RESOURCE_TYPE](../../aspose.email.mapi/mapipropertytag/pr_resource_type/) |  |
-| static readonly [PR_RESPONSE_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_response_requested/) |  |
-| static readonly [PR_RESPONSIBILITY](../../aspose.email.mapi/mapipropertytag/pr_responsibility/) |  |
-| static readonly [PR_RESTRICTION_COUNT](../../aspose.email.mapi/mapipropertytag/pr_restriction_count/) |  |
-| static readonly [PR_RETENTION_AGE_LIMIT](../../aspose.email.mapi/mapipropertytag/pr_retention_age_limit/) |  |
-| static readonly [PR_RETURNED_IPM](../../aspose.email.mapi/mapipropertytag/pr_returned_ipm/) |  |
-| static readonly [PR_RIGHTS](../../aspose.email.mapi/mapipropertytag/pr_rights/) |  |
-| static readonly [PR_ROWID](../../aspose.email.mapi/mapipropertytag/pr_rowid/) |  |
-| static readonly [PR_ROW_TYPE](../../aspose.email.mapi/mapipropertytag/pr_row_type/) |  |
-| static readonly [PR_RTF_COMPRESSED](../../aspose.email.mapi/mapipropertytag/pr_rtf_compressed/) |  |
-| static readonly [PR_RTF_IN_SYNC](../../aspose.email.mapi/mapipropertytag/pr_rtf_in_sync/) |  |
-| static readonly [PR_RTF_SYNC_BODY_COUNT](../../aspose.email.mapi/mapipropertytag/pr_rtf_sync_body_count/) |  |
-| static readonly [PR_RTF_SYNC_BODY_CRC](../../aspose.email.mapi/mapipropertytag/pr_rtf_sync_body_crc/) |  |
-| static readonly [PR_RTF_SYNC_BODY_TAG](../../aspose.email.mapi/mapipropertytag/pr_rtf_sync_body_tag/) |  |
-| static readonly [PR_RTF_SYNC_BODY_TAG_A](../../aspose.email.mapi/mapipropertytag/pr_rtf_sync_body_tag_a/) |  |
-| static readonly [PR_RTF_SYNC_BODY_TAG_W](../../aspose.email.mapi/mapipropertytag/pr_rtf_sync_body_tag_w/) |  |
-| static readonly [PR_RTF_SYNC_PREFIX_COUNT](../../aspose.email.mapi/mapipropertytag/pr_rtf_sync_prefix_count/) |  |
-| static readonly [PR_RTF_SYNC_TRAILING_COUNT](../../aspose.email.mapi/mapipropertytag/pr_rtf_sync_trailing_count/) |  |
-| static readonly [PR_RULES_DATA](../../aspose.email.mapi/mapipropertytag/pr_rules_data/) |  |
-| static readonly [PR_RULES_TABLE](../../aspose.email.mapi/mapipropertytag/pr_rules_table/) |  |
-| static readonly [PR_RULE_ACTIONS](../../aspose.email.mapi/mapipropertytag/pr_rule_actions/) |  |
-| static readonly [PR_RULE_ACTION_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_rule_action_number/) |  |
-| static readonly [PR_RULE_ACTION_TYPE](../../aspose.email.mapi/mapipropertytag/pr_rule_action_type/) |  |
-| static readonly [PR_RULE_CONDITION](../../aspose.email.mapi/mapipropertytag/pr_rule_condition/) |  |
-| static readonly [PR_RULE_ERROR](../../aspose.email.mapi/mapipropertytag/pr_rule_error/) |  |
-| static readonly [PR_RULE_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_rule_folder_entryid/) |  |
-| static readonly [PR_RULE_ID](../../aspose.email.mapi/mapipropertytag/pr_rule_id/) |  |
-| static readonly [PR_RULE_IDS](../../aspose.email.mapi/mapipropertytag/pr_rule_ids/) |  |
-| static readonly [PR_RULE_LEVEL](../../aspose.email.mapi/mapipropertytag/pr_rule_level/) |  |
-| static readonly [PR_RULE_NAME](../../aspose.email.mapi/mapipropertytag/pr_rule_name/) |  |
-| static readonly [PR_RULE_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_rule_name_a/) |  |
-| static readonly [PR_RULE_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_rule_name_w/) |  |
-| static readonly [PR_RULE_PROVIDER](../../aspose.email.mapi/mapipropertytag/pr_rule_provider/) |  |
-| static readonly [PR_RULE_PROVIDER_A](../../aspose.email.mapi/mapipropertytag/pr_rule_provider_a/) |  |
-| static readonly [PR_RULE_PROVIDER_DATA](../../aspose.email.mapi/mapipropertytag/pr_rule_provider_data/) |  |
-| static readonly [PR_RULE_PROVIDER_W](../../aspose.email.mapi/mapipropertytag/pr_rule_provider_w/) |  |
-| static readonly [PR_RULE_SEQUENCE](../../aspose.email.mapi/mapipropertytag/pr_rule_sequence/) |  |
-| static readonly [PR_RULE_STATE](../../aspose.email.mapi/mapipropertytag/pr_rule_state/) |  |
-| static readonly [PR_RULE_TRIGGER_HISTORY](../../aspose.email.mapi/mapipropertytag/pr_rule_trigger_history/) |  |
-| static readonly [PR_RULE_USER_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_rule_user_flags/) |  |
-| static readonly [PR_SCHEDULE_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_schedule_folder_entryid/) |  |
-| static readonly [PR_SEARCH](../../aspose.email.mapi/mapipropertytag/pr_search/) |  |
-| static readonly [PR_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_search_key/) |  |
-| static readonly [PR_SECURE_IN_SITE](../../aspose.email.mapi/mapipropertytag/pr_secure_in_site/) |  |
-| static readonly [PR_SECURE_ORIGINATION](../../aspose.email.mapi/mapipropertytag/pr_secure_origination/) |  |
-| static readonly [PR_SECURITY](../../aspose.email.mapi/mapipropertytag/pr_security/) |  |
-| static readonly [PR_SELECTABLE](../../aspose.email.mapi/mapipropertytag/pr_selectable/) |  |
-| static readonly [PR_SENDER_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_sender_addrtype/) |  |
-| static readonly [PR_SENDER_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_sender_addrtype_a/) |  |
-| static readonly [PR_SENDER_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_sender_addrtype_w/) |  |
-| static readonly [PR_SENDER_EMAIL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_sender_email_address/) |  |
-| static readonly [PR_SENDER_EMAIL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_sender_email_address_a/) |  |
-| static readonly [PR_SENDER_EMAIL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_sender_email_address_w/) |  |
-| static readonly [PR_SENDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_sender_entryid/) |  |
-| static readonly [PR_SENDER_NAME](../../aspose.email.mapi/mapipropertytag/pr_sender_name/) |  |
-| static readonly [PR_SENDER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_sender_name_a/) |  |
-| static readonly [PR_SENDER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_sender_name_w/) |  |
-| static readonly [PR_SENDER_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_sender_search_key/) |  |
-| static readonly [PR_SENDER_SMTP_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_sender_smtp_address/) |  |
-| static readonly [PR_SENDER_SMTP_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_sender_smtp_address_a/) |  |
-| static readonly [PR_SENDER_SMTP_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_sender_smtp_address_w/) |  |
-| static readonly [PR_SEND_INTERNET_ENCODING](../../aspose.email.mapi/mapipropertytag/pr_send_internet_encoding/) |  |
-| static readonly [PR_SEND_RICH_INFO](../../aspose.email.mapi/mapipropertytag/pr_send_rich_info/) |  |
-| static readonly [PR_SENSITIVITY](../../aspose.email.mapi/mapipropertytag/pr_sensitivity/) |  |
-| static readonly [PR_SENTMAIL_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_sentmail_entryid/) |  |
-| static readonly [PR_SENT_REPRESENTING_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_addrtype/) |  |
-| static readonly [PR_SENT_REPRESENTING_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_addrtype_a/) |  |
-| static readonly [PR_SENT_REPRESENTING_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_addrtype_w/) |  |
-| static readonly [PR_SENT_REPRESENTING_EMAIL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_email_address/) |  |
-| static readonly [PR_SENT_REPRESENTING_EMAIL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_email_address_a/) |  |
-| static readonly [PR_SENT_REPRESENTING_EMAIL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_email_address_w/) |  |
-| static readonly [PR_SENT_REPRESENTING_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_entryid/) |  |
-| static readonly [PR_SENT_REPRESENTING_NAME](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_name/) |  |
-| static readonly [PR_SENT_REPRESENTING_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_name_a/) |  |
-| static readonly [PR_SENT_REPRESENTING_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_name_w/) |  |
-| static readonly [PR_SENT_REPRESENTING_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_search_key/) |  |
-| static readonly [PR_SENT_REPRESENTING_SMTP_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_smtp_address/) |  |
-| static readonly [PR_SENT_REPRESENTING_SMTP_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_smtp_address_a/) |  |
-| static readonly [PR_SENT_REPRESENTING_SMTP_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_smtp_address_w/) |  |
-| static readonly [PR_SERVICES](../../aspose.email.mapi/mapipropertytag/pr_services/) |  |
-| static readonly [PR_SERVICE_DELETE_FILES](../../aspose.email.mapi/mapipropertytag/pr_service_delete_files/) |  |
-| static readonly [PR_SERVICE_DLL_NAME](../../aspose.email.mapi/mapipropertytag/pr_service_dll_name/) |  |
-| static readonly [PR_SERVICE_DLL_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_service_dll_name_a/) |  |
-| static readonly [PR_SERVICE_DLL_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_service_dll_name_w/) |  |
-| static readonly [PR_SERVICE_ENTRY_NAME](../../aspose.email.mapi/mapipropertytag/pr_service_entry_name/) |  |
-| static readonly [PR_SERVICE_ENTRY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_service_entry_name_a/) |  |
-| static readonly [PR_SERVICE_ENTRY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_service_entry_name_w/) |  |
-| static readonly [PR_SERVICE_EXTRA_UIDS](../../aspose.email.mapi/mapipropertytag/pr_service_extra_uids/) |  |
-| static readonly [PR_SERVICE_NAME](../../aspose.email.mapi/mapipropertytag/pr_service_name/) |  |
-| static readonly [PR_SERVICE_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_service_name_a/) |  |
-| static readonly [PR_SERVICE_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_service_name_w/) |  |
-| static readonly [PR_SERVICE_SUPPORT_FILES](../../aspose.email.mapi/mapipropertytag/pr_service_support_files/) |  |
-| static readonly [PR_SERVICE_UID](../../aspose.email.mapi/mapipropertytag/pr_service_uid/) |  |
-| static readonly [PR_SMTP_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_smtp_address/) |  |
-| static readonly [PR_SMTP_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_smtp_address_w/) |  |
-| static readonly [PR_SORT_LOCALE_ID](../../aspose.email.mapi/mapipropertytag/pr_sort_locale_id/) |  |
-| static readonly [PR_SOURCE_KEY](../../aspose.email.mapi/mapipropertytag/pr_source_key/) |  |
-| static readonly [PR_SPLUS_FREE_BUSY_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_splus_free_busy_entryid/) |  |
-| static readonly [PR_SPOOLER_STATUS](../../aspose.email.mapi/mapipropertytag/pr_spooler_status/) |  |
-| static readonly [PR_SPOUSE_NAME](../../aspose.email.mapi/mapipropertytag/pr_spouse_name/) |  |
-| static readonly [PR_SPOUSE_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_spouse_name_a/) |  |
-| static readonly [PR_SPOUSE_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_spouse_name_w/) |  |
-| static readonly [PR_START_DATE](../../aspose.email.mapi/mapipropertytag/pr_start_date/) |  |
-| static readonly [PR_STATE_OR_PROVINCE](../../aspose.email.mapi/mapipropertytag/pr_state_or_province/) |  |
-| static readonly [PR_STATE_OR_PROVINCE_A](../../aspose.email.mapi/mapipropertytag/pr_state_or_province_a/) |  |
-| static readonly [PR_STATE_OR_PROVINCE_W](../../aspose.email.mapi/mapipropertytag/pr_state_or_province_w/) |  |
-| static readonly [PR_STATUS](../../aspose.email.mapi/mapipropertytag/pr_status/) |  |
-| static readonly [PR_STATUS_CODE](../../aspose.email.mapi/mapipropertytag/pr_status_code/) |  |
-| static readonly [PR_STATUS_STRING](../../aspose.email.mapi/mapipropertytag/pr_status_string/) |  |
-| static readonly [PR_STATUS_STRING_A](../../aspose.email.mapi/mapipropertytag/pr_status_string_a/) |  |
-| static readonly [PR_STATUS_STRING_W](../../aspose.email.mapi/mapipropertytag/pr_status_string_w/) |  |
-| static readonly [PR_STORAGE_LIMIT_INFORMATION](../../aspose.email.mapi/mapipropertytag/pr_storage_limit_information/) |  |
-| static readonly [PR_STORAGE_QUOTA_LIMIT](../../aspose.email.mapi/mapipropertytag/pr_storage_quota_limit/) |  |
-| static readonly [PR_STORE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_store_entryid/) |  |
-| static readonly [PR_STORE_OFFLINE](../../aspose.email.mapi/mapipropertytag/pr_store_offline/) |  |
-| static readonly [PR_STORE_PROVIDERS](../../aspose.email.mapi/mapipropertytag/pr_store_providers/) |  |
-| static readonly [PR_STORE_RECORD_KEY](../../aspose.email.mapi/mapipropertytag/pr_store_record_key/) |  |
-| static readonly [PR_STORE_SLOWLINK](../../aspose.email.mapi/mapipropertytag/pr_store_slowlink/) |  |
-| static readonly [PR_STORE_STATE](../../aspose.email.mapi/mapipropertytag/pr_store_state/) |  |
-| static readonly [PR_STORE_SUPPORT_MASK](../../aspose.email.mapi/mapipropertytag/pr_store_support_mask/) |  |
-| static readonly [PR_STREET_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_street_address/) |  |
-| static readonly [PR_STREET_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_street_address_a/) |  |
-| static readonly [PR_STREET_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_street_address_w/) |  |
-| static readonly [PR_SUBFOLDERS](../../aspose.email.mapi/mapipropertytag/pr_subfolders/) |  |
-| static readonly [PR_SUBJECT](../../aspose.email.mapi/mapipropertytag/pr_subject/) |  |
-| static readonly [PR_SUBJECT_A](../../aspose.email.mapi/mapipropertytag/pr_subject_a/) |  |
-| static readonly [PR_SUBJECT_IPM](../../aspose.email.mapi/mapipropertytag/pr_subject_ipm/) |  |
-| static readonly [PR_SUBJECT_PREFIX](../../aspose.email.mapi/mapipropertytag/pr_subject_prefix/) |  |
-| static readonly [PR_SUBJECT_PREFIX_A](../../aspose.email.mapi/mapipropertytag/pr_subject_prefix_a/) |  |
-| static readonly [PR_SUBJECT_PREFIX_W](../../aspose.email.mapi/mapipropertytag/pr_subject_prefix_w/) |  |
-| static readonly [PR_SUBJECT_TRACE_INFO](../../aspose.email.mapi/mapipropertytag/pr_subject_trace_info/) |  |
-| static readonly [PR_SUBJECT_W](../../aspose.email.mapi/mapipropertytag/pr_subject_w/) |  |
-| static readonly [PR_SUBMIT_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_submit_flags/) |  |
-| static readonly [PR_SUPERSEDES](../../aspose.email.mapi/mapipropertytag/pr_supersedes/) |  |
-| static readonly [PR_SUPERSEDES_A](../../aspose.email.mapi/mapipropertytag/pr_supersedes_a/) |  |
-| static readonly [PR_SUPERSEDES_W](../../aspose.email.mapi/mapipropertytag/pr_supersedes_w/) |  |
-| static readonly [PR_SUPPLEMENTARY_INFO](../../aspose.email.mapi/mapipropertytag/pr_supplementary_info/) |  |
-| static readonly [PR_SUPPLEMENTARY_INFO_A](../../aspose.email.mapi/mapipropertytag/pr_supplementary_info_a/) |  |
-| static readonly [PR_SUPPLEMENTARY_INFO_W](../../aspose.email.mapi/mapipropertytag/pr_supplementary_info_w/) |  |
-| static readonly [PR_SURNAME](../../aspose.email.mapi/mapipropertytag/pr_surname/) |  |
-| static readonly [PR_SURNAME_A](../../aspose.email.mapi/mapipropertytag/pr_surname_a/) |  |
-| static readonly [PR_SURNAME_W](../../aspose.email.mapi/mapipropertytag/pr_surname_w/) |  |
-| static readonly [PR_SVR_GENERATING_QUOTA_MSG](../../aspose.email.mapi/mapipropertytag/pr_svr_generating_quota_msg/) |  |
-| static readonly [PR_SVR_GENERATING_QUOTA_MSG_A](../../aspose.email.mapi/mapipropertytag/pr_svr_generating_quota_msg_a/) |  |
-| static readonly [PR_SVR_GENERATING_QUOTA_MSG_W](../../aspose.email.mapi/mapipropertytag/pr_svr_generating_quota_msg_w/) |  |
+| static readonly [PR_RECIPIENT_TYPE](../../aspose.email.mapi/mapipropertytag/pr_recipient_type/) | Represents the recipient type of a recipient on the message. Canonical name: PidTagRecipientType. Property tag: 0x0C150003 (PT_LONG). |
+| static readonly [PR_RECORD_KEY](../../aspose.email.mapi/mapipropertytag/pr_record_key/) | Contains a unique binary-comparable identifier for a specific object. Canonical name: PidTagRecordKey. Property tag: 0x0FF90102 (PT_BINARY). |
+| static readonly [PR_REDIRECTION_HISTORY](../../aspose.email.mapi/mapipropertytag/pr_redirection_history/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x002C0102 (PT_BINARY). |
+| static readonly [PR_REFERRED_BY_NAME](../../aspose.email.mapi/mapipropertytag/pr_referred_by_name/) | Contains the name of the mail user's referral. Canonical name: PidTagReferredByName. Property tag: 0x3A47001E (PT_STRING8). |
+| static readonly [PR_REFERRED_BY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_referred_by_name_a/) | The ANSI form of [`PR_REFERRED_BY_NAME`](./pr_referred_by_name/). Property tag: 0x3A47001E (PT_STRING8). |
+| static readonly [PR_REFERRED_BY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_referred_by_name_w/) | The Unicode form of [`PR_REFERRED_BY_NAME`](./pr_referred_by_name/). Property tag: 0x3A47001F (PT_UNICODE). |
+| static readonly [PR_REGISTERED_MAIL_TYPE](../../aspose.email.mapi/mapipropertytag/pr_registered_mail_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C160003 (PT_LONG). |
+| static readonly [PR_RELATED_IPMS](../../aspose.email.mapi/mapipropertytag/pr_related_ipms/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x002D0102 (PT_BINARY). |
+| static readonly [PR_REMOTE_PROGRESS](../../aspose.email.mapi/mapipropertytag/pr_remote_progress/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3E0B0003 (PT_LONG). |
+| static readonly [PR_REMOTE_PROGRESS_TEXT](../../aspose.email.mapi/mapipropertytag/pr_remote_progress_text/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3E0C001E (PT_STRING8). |
+| static readonly [PR_REMOTE_PROGRESS_TEXT_A](../../aspose.email.mapi/mapipropertytag/pr_remote_progress_text_a/) | The ANSI form of [`PR_REMOTE_PROGRESS_TEXT`](./pr_remote_progress_text/). Property tag: 0x3E0C001E (PT_STRING8). |
+| static readonly [PR_REMOTE_PROGRESS_TEXT_W](../../aspose.email.mapi/mapipropertytag/pr_remote_progress_text_w/) | The Unicode form of [`PR_REMOTE_PROGRESS_TEXT`](./pr_remote_progress_text/). Property tag: 0x3E0C001F (PT_UNICODE). |
+| static readonly [PR_REMOTE_VALIDATE_OK](../../aspose.email.mapi/mapipropertytag/pr_remote_validate_ok/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3E0D000B (PT_BOOLEAN). |
+| static readonly [PR_RENDERING_POSITION](../../aspose.email.mapi/mapipropertytag/pr_rendering_position/) | Represents an offset, in rendered characters, to use when rendering an attachment within the main message text. Canonical name: PidTagRenderingPosition. Property tag: 0x370B0003 (PT_LONG). |
+| static readonly [PR_REPLICATION_ALWAYS_INTERVAL](../../aspose.email.mapi/mapipropertytag/pr_replication_always_interval/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66940003 (PT_LONG). |
+| static readonly [PR_REPLICATION_MESSAGE_PRIORITY](../../aspose.email.mapi/mapipropertytag/pr_replication_message_priority/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66920003 (PT_LONG). |
+| static readonly [PR_REPLICATION_MSG_SIZE](../../aspose.email.mapi/mapipropertytag/pr_replication_msg_size/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66950003 (PT_LONG). |
+| static readonly [PR_REPLICATION_SCHEDULE](../../aspose.email.mapi/mapipropertytag/pr_replication_schedule/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66910102 (PT_BINARY). |
+| static readonly [PR_REPLICATION_STYLE](../../aspose.email.mapi/mapipropertytag/pr_replication_style/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66900003 (PT_LONG). |
+| static readonly [PR_REPLICA_LIST](../../aspose.email.mapi/mapipropertytag/pr_replica_list/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66980102 (PT_BINARY). |
+| static readonly [PR_REPLICA_SERVER](../../aspose.email.mapi/mapipropertytag/pr_replica_server/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6644001E (PT_STRING8). |
+| static readonly [PR_REPLICA_SERVER_A](../../aspose.email.mapi/mapipropertytag/pr_replica_server_a/) | The ANSI form of [`PR_REPLICA_SERVER`](./pr_replica_server/). Property tag: 0x6644001E (PT_STRING8). |
+| static readonly [PR_REPLICA_SERVER_W](../../aspose.email.mapi/mapipropertytag/pr_replica_server_w/) | The Unicode form of [`PR_REPLICA_SERVER`](./pr_replica_server/). Property tag: 0x6644001F (PT_UNICODE). |
+| static readonly [PR_REPLICA_VERSION](../../aspose.email.mapi/mapipropertytag/pr_replica_version/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x664B0014 (PT_LONGLONG). |
+| static readonly [PR_REPLY_RECIPIENT_ENTRIES](../../aspose.email.mapi/mapipropertytag/pr_reply_recipient_entries/) | Identifies a FlatEntryList structure ([MS-OXCDATA] section 2.3.3) of address book EntryIDs for recipients that are to receive a reply. Canonical name: PidTagReplyRecipientEntries. Property tag: 0x004F0102 (PT_BINARY). |
+| static readonly [PR_REPLY_RECIPIENT_NAMES](../../aspose.email.mapi/mapipropertytag/pr_reply_recipient_names/) | Contains a list of display names for recipients that are to receive a reply. Canonical name: PidTagReplyRecipientNames. Property tag: 0x0050001E (PT_STRING8). |
+| static readonly [PR_REPLY_RECIPIENT_NAMES_A](../../aspose.email.mapi/mapipropertytag/pr_reply_recipient_names_a/) | The ANSI form of [`PR_REPLY_RECIPIENT_NAMES`](./pr_reply_recipient_names/). Property tag: 0x0050001E (PT_STRING8). |
+| static readonly [PR_REPLY_RECIPIENT_NAMES_W](../../aspose.email.mapi/mapipropertytag/pr_reply_recipient_names_w/) | The Unicode form of [`PR_REPLY_RECIPIENT_NAMES`](./pr_reply_recipient_names/). Property tag: 0x0050001F (PT_UNICODE). |
+| static readonly [PR_REPLY_RECIPIENT_SMTP_PROXIES](../../aspose.email.mapi/mapipropertytag/pr_reply_recipient_smtp_proxies/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FFC001E (PT_STRING8). |
+| static readonly [PR_REPLY_RECIPIENT_SMTP_PROXIES_A](../../aspose.email.mapi/mapipropertytag/pr_reply_recipient_smtp_proxies_a/) | The ANSI form of [`PR_REPLY_RECIPIENT_SMTP_PROXIES`](./pr_reply_recipient_smtp_proxies/). Property tag: 0x3FFC001E (PT_STRING8). |
+| static readonly [PR_REPLY_RECIPIENT_SMTP_PROXIES_W](../../aspose.email.mapi/mapipropertytag/pr_reply_recipient_smtp_proxies_w/) | The Unicode form of [`PR_REPLY_RECIPIENT_SMTP_PROXIES`](./pr_reply_recipient_smtp_proxies/). Property tag: 0x3FFC001F (PT_UNICODE). |
+| static readonly [PR_REPLY_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_reply_requested/) | Indicates whether a reply is requested to a Message object. Canonical name: PidTagReplyRequested. Property tag: 0x0C17000B (PT_BOOLEAN). |
+| static readonly [PR_REPLY_TIME](../../aspose.email.mapi/mapipropertytag/pr_reply_time/) | Specifies the time, in UTC, that the sender has designated for an associated work item to be due. Canonical name: PidTagReplyTime. Property tag: 0x00300040 (PT_SYSTIME). |
+| static readonly [PR_REPORTING_DL_NAME](../../aspose.email.mapi/mapipropertytag/pr_reporting_dl_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x10030102 (PT_BINARY). |
+| static readonly [PR_REPORTING_MTA_CERTIFICATE](../../aspose.email.mapi/mapipropertytag/pr_reporting_mta_certificate/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x10040102 (PT_BINARY). |
+| static readonly [PR_REPORT_DESTINATION_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_report_destination_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66650102 (PT_BINARY). |
+| static readonly [PR_REPORT_DESTINATION_NAME](../../aspose.email.mapi/mapipropertytag/pr_report_destination_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6664001E (PT_STRING8). |
+| static readonly [PR_REPORT_DESTINATION_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_report_destination_name_a/) | The ANSI form of [`PR_REPORT_DESTINATION_NAME`](./pr_report_destination_name/). Property tag: 0x6664001E (PT_STRING8). |
+| static readonly [PR_REPORT_DESTINATION_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_report_destination_name_w/) | The Unicode form of [`PR_REPORT_DESTINATION_NAME`](./pr_report_destination_name/). Property tag: 0x6664001F (PT_UNICODE). |
+| static readonly [PR_REPORT_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_report_entryid/) | Specifies an entry ID that identifies the application that generated a report message. Canonical name: PidTagReportEntryId. Property tag: 0x00450102 (PT_BINARY). |
+| static readonly [PR_REPORT_NAME](../../aspose.email.mapi/mapipropertytag/pr_report_name/) | Contains the display name for the entity (usually a server agent) that generated the report message. Canonical name: PidTagReportName. Property tag: 0x003A001E (PT_STRING8). |
+| static readonly [PR_REPORT_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_report_name_a/) | The ANSI form of [`PR_REPORT_NAME`](./pr_report_name/). Property tag: 0x003A001E (PT_STRING8). |
+| static readonly [PR_REPORT_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_report_name_w/) | The Unicode form of [`PR_REPORT_NAME`](./pr_report_name/). Property tag: 0x003A001F (PT_UNICODE). |
+| static readonly [PR_REPORT_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_report_search_key/) | Contains an address book search key representing the entity (usually a server agent) that generated the report message. Canonical name: PidTagReportSearchKey. Property tag: 0x00540102 (PT_BINARY). |
+| static readonly [PR_REPORT_TAG](../../aspose.email.mapi/mapipropertytag/pr_report_tag/) | Contains the data that is used to correlate the report and the original message. Canonical name: PidTagReportTag. Property tag: 0x00310102 (PT_BINARY). |
+| static readonly [PR_REPORT_TEXT](../../aspose.email.mapi/mapipropertytag/pr_report_text/) | Contains the optional text for a report message. Canonical name: PidTagReportText. Property tag: 0x1001001E (PT_STRING8). |
+| static readonly [PR_REPORT_TEXT_A](../../aspose.email.mapi/mapipropertytag/pr_report_text_a/) | The ANSI form of [`PR_REPORT_TEXT`](./pr_report_text/). Property tag: 0x1001001E (PT_STRING8). |
+| static readonly [PR_REPORT_TEXT_W](../../aspose.email.mapi/mapipropertytag/pr_report_text_w/) | The Unicode form of [`PR_REPORT_TEXT`](./pr_report_text/). Property tag: 0x1001001F (PT_UNICODE). |
+| static readonly [PR_REPORT_TIME](../../aspose.email.mapi/mapipropertytag/pr_report_time/) | Indicates the last time that the contact list that is controlled by the PidTagJunkIncludeContacts property (section 2.749) was updated. Canonical name: PidTagReportTime. Property tag: 0x00320040 (PT_SYSTIME). |
+| static readonly [PR_REQUESTED_DELIVERY_METHOD](../../aspose.email.mapi/mapipropertytag/pr_requested_delivery_method/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C180003 (PT_LONG). |
+| static readonly [PR_RESOLVE_METHOD](../../aspose.email.mapi/mapipropertytag/pr_resolve_method/) | Specifies how to resolve any conflicts with the message. Canonical name: PidTagResolveMethod. Property tag: 0x3FE70003 (PT_LONG). |
+| static readonly [PR_RESOURCE_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_resource_flags/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x30090003 (PT_LONG). |
+| static readonly [PR_RESOURCE_METHODS](../../aspose.email.mapi/mapipropertytag/pr_resource_methods/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3E020003 (PT_LONG). |
+| static readonly [PR_RESOURCE_PATH](../../aspose.email.mapi/mapipropertytag/pr_resource_path/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3E07001E (PT_STRING8). |
+| static readonly [PR_RESOURCE_PATH_A](../../aspose.email.mapi/mapipropertytag/pr_resource_path_a/) | The ANSI form of [`PR_RESOURCE_PATH`](./pr_resource_path/). Property tag: 0x3E07001E (PT_STRING8). |
+| static readonly [PR_RESOURCE_PATH_W](../../aspose.email.mapi/mapipropertytag/pr_resource_path_w/) | The Unicode form of [`PR_RESOURCE_PATH`](./pr_resource_path/). Property tag: 0x3E07001F (PT_UNICODE). |
+| static readonly [PR_RESOURCE_TYPE](../../aspose.email.mapi/mapipropertytag/pr_resource_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3E030003 (PT_LONG). |
+| static readonly [PR_RESPONSE_REQUESTED](../../aspose.email.mapi/mapipropertytag/pr_response_requested/) | Indicates whether a response is requested to a Message object. Canonical name: PidTagResponseRequested. Property tag: 0x0063000B (PT_BOOLEAN). |
+| static readonly [PR_RESPONSIBILITY](../../aspose.email.mapi/mapipropertytag/pr_responsibility/) | Specifies whether another mail agent has ensured that the message will be delivered. Canonical name: PidTagResponsibility. Property tag: 0x0E0F000B (PT_BOOLEAN). |
+| static readonly [PR_RESTRICTION_COUNT](../../aspose.email.mapi/mapipropertytag/pr_restriction_count/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66AA0003 (PT_LONG). |
+| static readonly [PR_RETENTION_AGE_LIMIT](../../aspose.email.mapi/mapipropertytag/pr_retention_age_limit/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66C40003 (PT_LONG). |
+| static readonly [PR_RETURNED_IPM](../../aspose.email.mapi/mapipropertytag/pr_returned_ipm/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0033000B (PT_BOOLEAN). |
+| static readonly [PR_RIGHTS](../../aspose.email.mapi/mapipropertytag/pr_rights/) | Specifies a user's folder permissions. Canonical name: PidTagRights. Property tag: 0x66390003 (PT_LONG). |
+| static readonly [PR_ROWID](../../aspose.email.mapi/mapipropertytag/pr_rowid/) | Contains a unique identifier for a recipient in a message's recipient table. Canonical name: PidTagRowid. Property tag: 0x30000003 (PT_LONG). |
+| static readonly [PR_ROW_TYPE](../../aspose.email.mapi/mapipropertytag/pr_row_type/) | Identifies the type of the row. Canonical name: PidTagRowType. Property tag: 0x0FF50003 (PT_LONG). |
+| static readonly [PR_RTF_COMPRESSED](../../aspose.email.mapi/mapipropertytag/pr_rtf_compressed/) | Contains message body text in compressed RTF format. Canonical name: PidTagRtfCompressed. Property tag: 0x10090102 (PT_BINARY). |
+| static readonly [PR_RTF_IN_SYNC](../../aspose.email.mapi/mapipropertytag/pr_rtf_in_sync/) | Indicates whether the PidTagBody property (section 2.609) and the PidTagRtfCompressed property (section 2.932) contain the same text (ignoring formatting). Canonical name: PidTagRtfInSync. Property tag: 0x0E1F000B (PT_BOOLEAN). |
+| static readonly [PR_RTF_SYNC_BODY_COUNT](../../aspose.email.mapi/mapipropertytag/pr_rtf_sync_body_count/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x10070003 (PT_LONG). |
+| static readonly [PR_RTF_SYNC_BODY_CRC](../../aspose.email.mapi/mapipropertytag/pr_rtf_sync_body_crc/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x10060003 (PT_LONG). |
+| static readonly [PR_RTF_SYNC_BODY_TAG](../../aspose.email.mapi/mapipropertytag/pr_rtf_sync_body_tag/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x1008001E (PT_STRING8). |
+| static readonly [PR_RTF_SYNC_BODY_TAG_A](../../aspose.email.mapi/mapipropertytag/pr_rtf_sync_body_tag_a/) | The ANSI form of [`PR_RTF_SYNC_BODY_TAG`](./pr_rtf_sync_body_tag/). Property tag: 0x1008001E (PT_STRING8). |
+| static readonly [PR_RTF_SYNC_BODY_TAG_W](../../aspose.email.mapi/mapipropertytag/pr_rtf_sync_body_tag_w/) | The Unicode form of [`PR_RTF_SYNC_BODY_TAG`](./pr_rtf_sync_body_tag/). Property tag: 0x1008001F (PT_UNICODE). |
+| static readonly [PR_RTF_SYNC_PREFIX_COUNT](../../aspose.email.mapi/mapipropertytag/pr_rtf_sync_prefix_count/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x10100003 (PT_LONG). |
+| static readonly [PR_RTF_SYNC_TRAILING_COUNT](../../aspose.email.mapi/mapipropertytag/pr_rtf_sync_trailing_count/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x10110003 (PT_LONG). |
+| static readonly [PR_RULES_DATA](../../aspose.email.mapi/mapipropertytag/pr_rules_data/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FE10102 (PT_BINARY). |
+| static readonly [PR_RULES_TABLE](../../aspose.email.mapi/mapipropertytag/pr_rules_table/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FE1000D (PT_OBJECT). |
+| static readonly [PR_RULE_ACTIONS](../../aspose.email.mapi/mapipropertytag/pr_rule_actions/) | Contains the set of actions associated with the rule. Canonical name: PidTagRuleActions. Property tag: 0x668000FE (PT_ACTIONS). |
+| static readonly [PR_RULE_ACTION_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_rule_action_number/) | Contains the index of a rule action that failed. Canonical name: PidTagRuleActionNumber. Property tag: 0x66500003 (PT_LONG). |
+| static readonly [PR_RULE_ACTION_TYPE](../../aspose.email.mapi/mapipropertytag/pr_rule_action_type/) | Contains the ActionType field ([MS-OXORULE] section 2.2.5.1) of a rule that failed. Canonical name: PidTagRuleActionType. Property tag: 0x66490003 (PT_LONG). |
+| static readonly [PR_RULE_CONDITION](../../aspose.email.mapi/mapipropertytag/pr_rule_condition/) | Defines the conditions under which a rule action is to be executed. Canonical name: PidTagRuleCondition. Property tag: 0x667900FD (PT_SRESTRICTION). |
+| static readonly [PR_RULE_ERROR](../../aspose.email.mapi/mapipropertytag/pr_rule_error/) | Contains the error code that indicates the cause of an error encountered during the execution of the rule. Canonical name: PidTagRuleError. Property tag: 0x66480003 (PT_LONG). |
+| static readonly [PR_RULE_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_rule_folder_entryid/) | Contains the EntryID of the folder where the rule that triggered the generation of a DAM is stored. Canonical name: PidTagRuleFolderEntryId. Property tag: 0x66510102 (PT_BINARY). |
+| static readonly [PR_RULE_ID](../../aspose.email.mapi/mapipropertytag/pr_rule_id/) | Specifies a unique identifier that is generated by the messaging server for each rule when the rule is first created. Canonical name: PidTagRuleId. Property tag: 0x66740014 (PT_LONGLONG). |
+| static readonly [PR_RULE_IDS](../../aspose.email.mapi/mapipropertytag/pr_rule_ids/) | Contains a buffer that is obtained by concatenating the PidTagRuleId property (section property (section 2.625). Canonical name: PidTagRuleIds. Property tag: 0x66750102 (PT_BINARY). |
+| static readonly [PR_RULE_LEVEL](../../aspose.email.mapi/mapipropertytag/pr_rule_level/) | Contains 0x00000000. This property is not used. Canonical name: PidTagRuleLevel. Property tag: 0x66830003 (PT_LONG). |
+| static readonly [PR_RULE_NAME](../../aspose.email.mapi/mapipropertytag/pr_rule_name/) | Specifies the name of the rule. Canonical name: PidTagRuleName. Property tag: 0x6682001E (PT_STRING8). |
+| static readonly [PR_RULE_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_rule_name_a/) | The ANSI form of [`PR_RULE_NAME`](./pr_rule_name/). Property tag: 0x6682001E (PT_STRING8). |
+| static readonly [PR_RULE_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_rule_name_w/) | The Unicode form of [`PR_RULE_NAME`](./pr_rule_name/). Property tag: 0x6682001F (PT_UNICODE). |
+| static readonly [PR_RULE_PROVIDER](../../aspose.email.mapi/mapipropertytag/pr_rule_provider/) | A string identifying the client application that owns a rule. Canonical name: PidTagRuleProvider. Property tag: 0x6681001E (PT_STRING8). |
+| static readonly [PR_RULE_PROVIDER_A](../../aspose.email.mapi/mapipropertytag/pr_rule_provider_a/) | The ANSI form of [`PR_RULE_PROVIDER`](./pr_rule_provider/). Property tag: 0x6681001E (PT_STRING8). |
+| static readonly [PR_RULE_PROVIDER_DATA](../../aspose.email.mapi/mapipropertytag/pr_rule_provider_data/) | Contains opaque data set by the client for the exclusive use of the client. Canonical name: PidTagRuleProviderData. Property tag: 0x66840102 (PT_BINARY). |
+| static readonly [PR_RULE_PROVIDER_W](../../aspose.email.mapi/mapipropertytag/pr_rule_provider_w/) | The Unicode form of [`PR_RULE_PROVIDER`](./pr_rule_provider/). Property tag: 0x6681001F (PT_UNICODE). |
+| static readonly [PR_RULE_SEQUENCE](../../aspose.email.mapi/mapipropertytag/pr_rule_sequence/) | Contains a value used to determine the order in which rules are evaluated and executed. Canonical name: PidTagRuleSequence. Property tag: 0x66760003 (PT_LONG). |
+| static readonly [PR_RULE_STATE](../../aspose.email.mapi/mapipropertytag/pr_rule_state/) | Contains flags that specify the state of the rule. Canonical name: PidTagRuleState. Property tag: 0x66770003 (PT_LONG). |
+| static readonly [PR_RULE_TRIGGER_HISTORY](../../aspose.email.mapi/mapipropertytag/pr_rule_trigger_history/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FF20102 (PT_BINARY). |
+| static readonly [PR_RULE_USER_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_rule_user_flags/) | Contains an opaque property that the client sets for the exclusive use of the client. Canonical name: PidTagRuleUserFlags. Property tag: 0x66780003 (PT_LONG). |
+| static readonly [PR_SCHEDULE_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_schedule_folder_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x661E0102 (PT_BINARY). |
+| static readonly [PR_SEARCH](../../aspose.email.mapi/mapipropertytag/pr_search/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3607000D (PT_OBJECT). |
+| static readonly [PR_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_search_key/) | Contains a unique binary-comparable key that identifies an object for a search. Canonical name: PidTagSearchKey. Property tag: 0x300B0102 (PT_BINARY). |
+| static readonly [PR_SECURE_IN_SITE](../../aspose.email.mapi/mapipropertytag/pr_secure_in_site/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x669E000B (PT_BOOLEAN). |
+| static readonly [PR_SECURE_ORIGINATION](../../aspose.email.mapi/mapipropertytag/pr_secure_origination/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FE5000B (PT_BOOLEAN). |
+| static readonly [PR_SECURITY](../../aspose.email.mapi/mapipropertytag/pr_security/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x00340003 (PT_LONG). |
+| static readonly [PR_SELECTABLE](../../aspose.email.mapi/mapipropertytag/pr_selectable/) | This property is not set and, if set, is ignored. Canonical name: PidTagSelectable. Property tag: 0x3609000B (PT_BOOLEAN). |
+| static readonly [PR_SENDER_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_sender_addrtype/) | Contains the email address type of the sending mailbox owner. Canonical name: PidTagSenderAddressType. Property tag: 0x0C1E001E (PT_STRING8). |
+| static readonly [PR_SENDER_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_sender_addrtype_a/) | The ANSI form of [`PR_SENDER_ADDRTYPE`](./pr_sender_addrtype/). Property tag: 0x0C1E001E (PT_STRING8). |
+| static readonly [PR_SENDER_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_sender_addrtype_w/) | The Unicode form of [`PR_SENDER_ADDRTYPE`](./pr_sender_addrtype/). Property tag: 0x0C1E001F (PT_UNICODE). |
+| static readonly [PR_SENDER_EMAIL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_sender_email_address/) | Contains the email address of the sending mailbox owner. Canonical name: PidTagSenderEmailAddress. Property tag: 0x0C1F001E (PT_STRING8). |
+| static readonly [PR_SENDER_EMAIL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_sender_email_address_a/) | The ANSI form of [`PR_SENDER_EMAIL_ADDRESS`](./pr_sender_email_address/). Property tag: 0x0C1F001E (PT_STRING8). |
+| static readonly [PR_SENDER_EMAIL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_sender_email_address_w/) | The Unicode form of [`PR_SENDER_EMAIL_ADDRESS`](./pr_sender_email_address/). Property tag: 0x0C1F001F (PT_UNICODE). |
+| static readonly [PR_SENDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_sender_entryid/) | Identifies an address book EntryID that contains the address book EntryID of the sending mailbox owner. Canonical name: PidTagSenderEntryId. Property tag: 0x0C190102 (PT_BINARY). |
+| static readonly [PR_SENDER_NAME](../../aspose.email.mapi/mapipropertytag/pr_sender_name/) | Contains the display name of the sending mailbox owner. Canonical name: PidTagSenderName. Property tag: 0x0C1A001E (PT_STRING8). |
+| static readonly [PR_SENDER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_sender_name_a/) | The ANSI form of [`PR_SENDER_NAME`](./pr_sender_name/). Property tag: 0x0C1A001E (PT_STRING8). |
+| static readonly [PR_SENDER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_sender_name_w/) | The Unicode form of [`PR_SENDER_NAME`](./pr_sender_name/). Property tag: 0x0C1A001F (PT_UNICODE). |
+| static readonly [PR_SENDER_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_sender_search_key/) | Identifies an address book search key. Canonical name: PidTagSenderSearchKey. Property tag: 0x0C1D0102 (PT_BINARY). |
+| static readonly [PR_SENDER_SMTP_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_sender_smtp_address/) | Contains the SMTP email address format of the e-mail address of the sending mailbox owner. Canonical name: PidTagSenderSmtpAddress. Property tag: 0x5D01001E (PT_STRING8). |
+| static readonly [PR_SENDER_SMTP_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_sender_smtp_address_a/) | The ANSI form of [`PR_SENDER_SMTP_ADDRESS`](./pr_sender_smtp_address/). Property tag: 0x5D01001E (PT_STRING8). |
+| static readonly [PR_SENDER_SMTP_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_sender_smtp_address_w/) | The Unicode form of [`PR_SENDER_SMTP_ADDRESS`](./pr_sender_smtp_address/). Property tag: 0x5D01001F (PT_UNICODE). |
+| static readonly [PR_SEND_INTERNET_ENCODING](../../aspose.email.mapi/mapipropertytag/pr_send_internet_encoding/) | Contains a bitmask of message encoding preferences for email sent to an email-enabled entity that is represented by this Address Book object. Canonical name: PidTagSendInternetEncoding. Property tag: 0x3A710003 (PT_LONG). |
+| static readonly [PR_SEND_RICH_INFO](../../aspose.email.mapi/mapipropertytag/pr_send_rich_info/) | Indicates whether the email-enabled entity represented by the Address Book object can receive all message content, including Rich Text Format (RTF) and other embedded objects. Canonical name: PidTagSendRichInfo. Property tag: 0x3A40000B (PT_BOOLEAN). |
+| static readonly [PR_SENSITIVITY](../../aspose.email.mapi/mapipropertytag/pr_sensitivity/) | Indicates the sender's assessment of the sensitivity of the Message object. Canonical name: PidTagSensitivity. Property tag: 0x00360003 (PT_LONG). |
+| static readonly [PR_SENTMAIL_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_sentmail_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E0A0102 (PT_BINARY). |
+| static readonly [PR_SENT_REPRESENTING_ADDRTYPE](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_addrtype/) | Contains an email address type. Canonical name: PidTagSentRepresentingAddressType. Property tag: 0x0064001E (PT_STRING8). |
+| static readonly [PR_SENT_REPRESENTING_ADDRTYPE_A](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_addrtype_a/) | The ANSI form of [`PR_SENT_REPRESENTING_ADDRTYPE`](./pr_sent_representing_addrtype/). Property tag: 0x0064001E (PT_STRING8). |
+| static readonly [PR_SENT_REPRESENTING_ADDRTYPE_W](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_addrtype_w/) | The Unicode form of [`PR_SENT_REPRESENTING_ADDRTYPE`](./pr_sent_representing_addrtype/). Property tag: 0x0064001F (PT_UNICODE). |
+| static readonly [PR_SENT_REPRESENTING_EMAIL_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_email_address/) | Contains an email address for the end user who is represented by the sending mailbox owner. Canonical name: PidTagSentRepresentingEmailAddress. Property tag: 0x0065001E (PT_STRING8). |
+| static readonly [PR_SENT_REPRESENTING_EMAIL_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_email_address_a/) | The ANSI form of [`PR_SENT_REPRESENTING_EMAIL_ADDRESS`](./pr_sent_representing_email_address/). Property tag: 0x0065001E (PT_STRING8). |
+| static readonly [PR_SENT_REPRESENTING_EMAIL_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_email_address_w/) | The Unicode form of [`PR_SENT_REPRESENTING_EMAIL_ADDRESS`](./pr_sent_representing_email_address/). Property tag: 0x0065001F (PT_UNICODE). |
+| static readonly [PR_SENT_REPRESENTING_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_entryid/) | Contains the identifier of the end user who is represented by the sending mailbox owner. Canonical name: PidTagSentRepresentingEntryId. Property tag: 0x00410102 (PT_BINARY). |
+| static readonly [PR_SENT_REPRESENTING_NAME](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_name/) | Contains the display name for the end user who is represented by the sending mailbox owner. Canonical name: PidTagSentRepresentingName. Property tag: 0x0042001E (PT_STRING8). |
+| static readonly [PR_SENT_REPRESENTING_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_name_a/) | The ANSI form of [`PR_SENT_REPRESENTING_NAME`](./pr_sent_representing_name/). Property tag: 0x0042001E (PT_STRING8). |
+| static readonly [PR_SENT_REPRESENTING_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_name_w/) | The Unicode form of [`PR_SENT_REPRESENTING_NAME`](./pr_sent_representing_name/). Property tag: 0x0042001F (PT_UNICODE). |
+| static readonly [PR_SENT_REPRESENTING_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_search_key/) | Contains a binary-comparable key that represents the end user who is represented by the sending mailbox owner. Canonical name: PidTagSentRepresentingSearchKey. Property tag: 0x003B0102 (PT_BINARY). |
+| static readonly [PR_SENT_REPRESENTING_SMTP_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_smtp_address/) | Contains the SMTP email address of the end user who is represented by the sending mailbox owner. Canonical name: PidTagSentRepresentingSmtpAddress. Property tag: 0x5D02001E (PT_STRING8). |
+| static readonly [PR_SENT_REPRESENTING_SMTP_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_smtp_address_a/) | The ANSI form of [`PR_SENT_REPRESENTING_SMTP_ADDRESS`](./pr_sent_representing_smtp_address/). Property tag: 0x5D02001E (PT_STRING8). |
+| static readonly [PR_SENT_REPRESENTING_SMTP_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_sent_representing_smtp_address_w/) | The Unicode form of [`PR_SENT_REPRESENTING_SMTP_ADDRESS`](./pr_sent_representing_smtp_address/). Property tag: 0x5D02001F (PT_UNICODE). |
+| static readonly [PR_SERVICES](../../aspose.email.mapi/mapipropertytag/pr_services/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3D0E0102 (PT_BINARY). |
+| static readonly [PR_SERVICE_DELETE_FILES](../../aspose.email.mapi/mapipropertytag/pr_service_delete_files/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3D10101E (PT_MV_STRING8). |
+| static readonly [PR_SERVICE_DLL_NAME](../../aspose.email.mapi/mapipropertytag/pr_service_dll_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3D0A001E (PT_STRING8). |
+| static readonly [PR_SERVICE_DLL_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_service_dll_name_a/) | The ANSI form of [`PR_SERVICE_DLL_NAME`](./pr_service_dll_name/). Property tag: 0x3D0A001E (PT_STRING8). |
+| static readonly [PR_SERVICE_DLL_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_service_dll_name_w/) | The Unicode form of [`PR_SERVICE_DLL_NAME`](./pr_service_dll_name/). Property tag: 0x3D0A001F (PT_UNICODE). |
+| static readonly [PR_SERVICE_ENTRY_NAME](../../aspose.email.mapi/mapipropertytag/pr_service_entry_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3D0B001E (PT_STRING8). |
+| static readonly [PR_SERVICE_ENTRY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_service_entry_name_a/) | The ANSI form of [`PR_SERVICE_ENTRY_NAME`](./pr_service_entry_name/). Property tag: 0x3D0B001E (PT_STRING8). |
+| static readonly [PR_SERVICE_ENTRY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_service_entry_name_w/) | The Unicode form of [`PR_SERVICE_ENTRY_NAME`](./pr_service_entry_name/). Property tag: 0x3D0B001F (PT_UNICODE). |
+| static readonly [PR_SERVICE_EXTRA_UIDS](../../aspose.email.mapi/mapipropertytag/pr_service_extra_uids/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3D0D0102 (PT_BINARY). |
+| static readonly [PR_SERVICE_NAME](../../aspose.email.mapi/mapipropertytag/pr_service_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3D09001E (PT_STRING8). |
+| static readonly [PR_SERVICE_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_service_name_a/) | The ANSI form of [`PR_SERVICE_NAME`](./pr_service_name/). Property tag: 0x3D09001E (PT_STRING8). |
+| static readonly [PR_SERVICE_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_service_name_w/) | The Unicode form of [`PR_SERVICE_NAME`](./pr_service_name/). Property tag: 0x3D09001F (PT_UNICODE). |
+| static readonly [PR_SERVICE_SUPPORT_FILES](../../aspose.email.mapi/mapipropertytag/pr_service_support_files/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3D0F101E (PT_MV_STRING8). |
+| static readonly [PR_SERVICE_UID](../../aspose.email.mapi/mapipropertytag/pr_service_uid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3D0C0102 (PT_BINARY). |
+| static readonly [PR_SMTP_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_smtp_address/) | Contains the SMTP address of the Message object. Canonical name: PidTagSmtpAddress. Property tag: 0x39FE001E (PT_STRING8). |
+| static readonly [PR_SMTP_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_smtp_address_w/) | The Unicode form of [`PR_SMTP_ADDRESS`](./pr_smtp_address/). Property tag: 0x39FE001F (PT_UNICODE). |
+| static readonly [PR_SORT_LOCALE_ID](../../aspose.email.mapi/mapipropertytag/pr_sort_locale_id/) | Contains the locale identifier. Canonical name: PidTagSortLocaleId. Property tag: 0x67050003 (PT_LONG). |
+| static readonly [PR_SOURCE_KEY](../../aspose.email.mapi/mapipropertytag/pr_source_key/) | Contains a value that contains an internal global identifier (GID) for this folder or message. Canonical name: PidTagSourceKey. Property tag: 0x65E00102 (PT_BINARY). |
+| static readonly [PR_SPLUS_FREE_BUSY_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_splus_free_busy_entryid/) | Contains the EntryID of the folder named "SCHEDULE+ FREE BUSY" under the non-IPM subtree of the public folder message store. Canonical name: PidTagSchedulePlusFreeBusyEntryId. Property tag: 0x66220102 (PT_BINARY). |
+| static readonly [PR_SPOOLER_STATUS](../../aspose.email.mapi/mapipropertytag/pr_spooler_status/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E100003 (PT_LONG). |
+| static readonly [PR_SPOUSE_NAME](../../aspose.email.mapi/mapipropertytag/pr_spouse_name/) | Contains the name of the mail user's spouse/partner. Canonical name: PidTagSpouseName. Property tag: 0x3A48001E (PT_STRING8). |
+| static readonly [PR_SPOUSE_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_spouse_name_a/) | The ANSI form of [`PR_SPOUSE_NAME`](./pr_spouse_name/). Property tag: 0x3A48001E (PT_STRING8). |
+| static readonly [PR_SPOUSE_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_spouse_name_w/) | The Unicode form of [`PR_SPOUSE_NAME`](./pr_spouse_name/). Property tag: 0x3A48001F (PT_UNICODE). |
+| static readonly [PR_START_DATE](../../aspose.email.mapi/mapipropertytag/pr_start_date/) | Contains the value of the PidLidAppointmentStartWhole property (section 2.29). Canonical name: PidTagStartDate. Property tag: 0x00600040 (PT_SYSTIME). |
+| static readonly [PR_STATE_OR_PROVINCE](../../aspose.email.mapi/mapipropertytag/pr_state_or_province/) | Contains the name of the mail user's state or province. Canonical name: PidTagStateOrProvince. Property tag: 0x3A28001E (PT_STRING8). |
+| static readonly [PR_STATE_OR_PROVINCE_A](../../aspose.email.mapi/mapipropertytag/pr_state_or_province_a/) | The ANSI form of [`PR_STATE_OR_PROVINCE`](./pr_state_or_province/). Property tag: 0x3A28001E (PT_STRING8). |
+| static readonly [PR_STATE_OR_PROVINCE_W](../../aspose.email.mapi/mapipropertytag/pr_state_or_province_w/) | The Unicode form of [`PR_STATE_OR_PROVINCE`](./pr_state_or_province/). Property tag: 0x3A28001F (PT_UNICODE). |
+| static readonly [PR_STATUS](../../aspose.email.mapi/mapipropertytag/pr_status/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x360B0003 (PT_LONG). |
+| static readonly [PR_STATUS_CODE](../../aspose.email.mapi/mapipropertytag/pr_status_code/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3E040003 (PT_LONG). |
+| static readonly [PR_STATUS_STRING](../../aspose.email.mapi/mapipropertytag/pr_status_string/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3E08001E (PT_STRING8). |
+| static readonly [PR_STATUS_STRING_A](../../aspose.email.mapi/mapipropertytag/pr_status_string_a/) | The ANSI form of [`PR_STATUS_STRING`](./pr_status_string/). Property tag: 0x3E08001E (PT_STRING8). |
+| static readonly [PR_STATUS_STRING_W](../../aspose.email.mapi/mapipropertytag/pr_status_string_w/) | The Unicode form of [`PR_STATUS_STRING`](./pr_status_string/). Property tag: 0x3E08001F (PT_UNICODE). |
+| static readonly [PR_STORAGE_LIMIT_INFORMATION](../../aspose.email.mapi/mapipropertytag/pr_storage_limit_information/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66A40003 (PT_LONG). |
+| static readonly [PR_STORAGE_QUOTA_LIMIT](../../aspose.email.mapi/mapipropertytag/pr_storage_quota_limit/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FF50003 (PT_LONG). |
+| static readonly [PR_STORE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_store_entryid/) | Contains the unique EntryID of the message store where an object resides. Canonical name: PidTagStoreEntryId. Property tag: 0x0FFB0102 (PT_BINARY). |
+| static readonly [PR_STORE_OFFLINE](../../aspose.email.mapi/mapipropertytag/pr_store_offline/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x6632000B (PT_BOOLEAN). |
+| static readonly [PR_STORE_PROVIDERS](../../aspose.email.mapi/mapipropertytag/pr_store_providers/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3D000102 (PT_BINARY). |
+| static readonly [PR_STORE_RECORD_KEY](../../aspose.email.mapi/mapipropertytag/pr_store_record_key/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0FFA0102 (PT_BINARY). |
+| static readonly [PR_STORE_SLOWLINK](../../aspose.email.mapi/mapipropertytag/pr_store_slowlink/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x7C0A000B (PT_BOOLEAN). |
+| static readonly [PR_STORE_STATE](../../aspose.email.mapi/mapipropertytag/pr_store_state/) | Indicates whether a mailbox has any active Search folders. Canonical name: PidTagStoreState. Property tag: 0x340E0003 (PT_LONG). |
+| static readonly [PR_STORE_SUPPORT_MASK](../../aspose.email.mapi/mapipropertytag/pr_store_support_mask/) | Indicates whether string properties within the .msg file are Unicode-encoded. Canonical name: PidTagStoreSupportMask. Property tag: 0x340D0003 (PT_LONG). |
+| static readonly [PR_STREET_ADDRESS](../../aspose.email.mapi/mapipropertytag/pr_street_address/) | Contains the mail user's street address. Canonical name: PidTagStreetAddress. Property tag: 0x3A29001E (PT_STRING8). |
+| static readonly [PR_STREET_ADDRESS_A](../../aspose.email.mapi/mapipropertytag/pr_street_address_a/) | The ANSI form of [`PR_STREET_ADDRESS`](./pr_street_address/). Property tag: 0x3A29001E (PT_STRING8). |
+| static readonly [PR_STREET_ADDRESS_W](../../aspose.email.mapi/mapipropertytag/pr_street_address_w/) | The Unicode form of [`PR_STREET_ADDRESS`](./pr_street_address/). Property tag: 0x3A29001F (PT_UNICODE). |
+| static readonly [PR_SUBFOLDERS](../../aspose.email.mapi/mapipropertytag/pr_subfolders/) | Specifies whether a folder has subfolders. Canonical name: PidTagSubfolders. Property tag: 0x360A000B (PT_BOOLEAN). |
+| static readonly [PR_SUBJECT](../../aspose.email.mapi/mapipropertytag/pr_subject/) | Contains the subject of the email message. Canonical name: PidTagSubject. Property tag: 0x0037001E (PT_STRING8). |
+| static readonly [PR_SUBJECT_A](../../aspose.email.mapi/mapipropertytag/pr_subject_a/) | The ANSI form of [`PR_SUBJECT`](./pr_subject/). Property tag: 0x0037001E (PT_STRING8). |
+| static readonly [PR_SUBJECT_IPM](../../aspose.email.mapi/mapipropertytag/pr_subject_ipm/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x00380102 (PT_BINARY). |
+| static readonly [PR_SUBJECT_PREFIX](../../aspose.email.mapi/mapipropertytag/pr_subject_prefix/) | Contains the prefix for the subject of the message. Canonical name: PidTagSubjectPrefix. Property tag: 0x003D001E (PT_STRING8). |
+| static readonly [PR_SUBJECT_PREFIX_A](../../aspose.email.mapi/mapipropertytag/pr_subject_prefix_a/) | The ANSI form of [`PR_SUBJECT_PREFIX`](./pr_subject_prefix/). Property tag: 0x003D001E (PT_STRING8). |
+| static readonly [PR_SUBJECT_PREFIX_W](../../aspose.email.mapi/mapipropertytag/pr_subject_prefix_w/) | The Unicode form of [`PR_SUBJECT_PREFIX`](./pr_subject_prefix/). Property tag: 0x003D001F (PT_UNICODE). |
+| static readonly [PR_SUBJECT_TRACE_INFO](../../aspose.email.mapi/mapipropertytag/pr_subject_trace_info/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66610102 (PT_BINARY). |
+| static readonly [PR_SUBJECT_W](../../aspose.email.mapi/mapipropertytag/pr_subject_w/) | The Unicode form of [`PR_SUBJECT`](./pr_subject/). Property tag: 0x0037001F (PT_UNICODE). |
+| static readonly [PR_SUBMIT_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_submit_flags/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E140003 (PT_LONG). |
+| static readonly [PR_SUPERSEDES](../../aspose.email.mapi/mapipropertytag/pr_supersedes/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x103A001E (PT_STRING8). |
+| static readonly [PR_SUPERSEDES_A](../../aspose.email.mapi/mapipropertytag/pr_supersedes_a/) | The ANSI form of [`PR_SUPERSEDES`](./pr_supersedes/). Property tag: 0x103A001E (PT_STRING8). |
+| static readonly [PR_SUPERSEDES_W](../../aspose.email.mapi/mapipropertytag/pr_supersedes_w/) | The Unicode form of [`PR_SUPERSEDES`](./pr_supersedes/). Property tag: 0x103A001F (PT_UNICODE). |
+| static readonly [PR_SUPPLEMENTARY_INFO](../../aspose.email.mapi/mapipropertytag/pr_supplementary_info/) | Contains supplementary information about a delivery status notification, as specified in [RFC3464]. Canonical name: PidTagSupplementaryInfo. Property tag: 0x0C1B001E (PT_STRING8). |
+| static readonly [PR_SUPPLEMENTARY_INFO_A](../../aspose.email.mapi/mapipropertytag/pr_supplementary_info_a/) | The ANSI form of [`PR_SUPPLEMENTARY_INFO`](./pr_supplementary_info/). Property tag: 0x0C1B001E (PT_STRING8). |
+| static readonly [PR_SUPPLEMENTARY_INFO_W](../../aspose.email.mapi/mapipropertytag/pr_supplementary_info_w/) | The Unicode form of [`PR_SUPPLEMENTARY_INFO`](./pr_supplementary_info/). Property tag: 0x0C1B001F (PT_UNICODE). |
+| static readonly [PR_SURNAME](../../aspose.email.mapi/mapipropertytag/pr_surname/) | Contains the mail user's family name. Canonical name: PidTagSurname. Property tag: 0x3A11001E (PT_STRING8). |
+| static readonly [PR_SURNAME_A](../../aspose.email.mapi/mapipropertytag/pr_surname_a/) | The ANSI form of [`PR_SURNAME`](./pr_surname/). Property tag: 0x3A11001E (PT_STRING8). |
+| static readonly [PR_SURNAME_W](../../aspose.email.mapi/mapipropertytag/pr_surname_w/) | The Unicode form of [`PR_SURNAME`](./pr_surname/). Property tag: 0x3A11001F (PT_UNICODE). |
+| static readonly [PR_SVR_GENERATING_QUOTA_MSG](../../aspose.email.mapi/mapipropertytag/pr_svr_generating_quota_msg/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3FF7001E (PT_STRING8). |
+| static readonly [PR_SVR_GENERATING_QUOTA_MSG_A](../../aspose.email.mapi/mapipropertytag/pr_svr_generating_quota_msg_a/) | The ANSI form of [`PR_SVR_GENERATING_QUOTA_MSG`](./pr_svr_generating_quota_msg/). Property tag: 0x3FF7001E (PT_STRING8). |
+| static readonly [PR_SVR_GENERATING_QUOTA_MSG_W](../../aspose.email.mapi/mapipropertytag/pr_svr_generating_quota_msg_w/) | The Unicode form of [`PR_SVR_GENERATING_QUOTA_MSG`](./pr_svr_generating_quota_msg/). Property tag: 0x3FF7001F (PT_UNICODE). |
 | static readonly [PR_SWAPPED_TODO_DATA](../../aspose.email.mapi/mapipropertytag/pr_swapped_todo_data/) | Maintains a second set of property values that do not affect the flagged state of the Message object. |
-| static readonly [PR_SYNCHRONIZE_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_synchronize_flags/) |  |
-| static readonly [PR_SYS_CONFIG_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_sys_config_folder_entryid/) |  |
-| static readonly [PR_TELEX_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_telex_number/) |  |
-| static readonly [PR_TELEX_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_telex_number_a/) |  |
-| static readonly [PR_TELEX_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_telex_number_w/) |  |
-| static readonly [PR_TEMPLATEID](../../aspose.email.mapi/mapipropertytag/pr_templateid/) |  |
-| static readonly [PR_TEST_LINE_SPEED](../../aspose.email.mapi/mapipropertytag/pr_test_line_speed/) |  |
-| static readonly [PR_TITLE](../../aspose.email.mapi/mapipropertytag/pr_title/) |  |
-| static readonly [PR_TITLE_A](../../aspose.email.mapi/mapipropertytag/pr_title_a/) |  |
-| static readonly [PR_TITLE_W](../../aspose.email.mapi/mapipropertytag/pr_title_w/) |  |
-| static readonly [PR_TNEF_CORRELATION_KEY](../../aspose.email.mapi/mapipropertytag/pr_tnef_correlation_key/) |  |
+| static readonly [PR_SYNCHRONIZE_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_synchronize_flags/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x65E40003 (PT_LONG). |
+| static readonly [PR_SYS_CONFIG_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_sys_config_folder_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66360102 (PT_BINARY). |
+| static readonly [PR_TELEX_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_telex_number/) | Contains the mail user's telex number. This property is returned from an NSPI server as a PtypMultipleBinary. Otherwise, the data type is PtypString. Canonical name: PidTagTelexNumber. Property tag: 0x3A2C001E (PT_STRING8). |
+| static readonly [PR_TELEX_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_telex_number_a/) | The ANSI form of [`PR_TELEX_NUMBER`](./pr_telex_number/). Property tag: 0x3A2C001E (PT_STRING8). |
+| static readonly [PR_TELEX_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_telex_number_w/) | The Unicode form of [`PR_TELEX_NUMBER`](./pr_telex_number/). Property tag: 0x3A2C001F (PT_UNICODE). |
+| static readonly [PR_TEMPLATEID](../../aspose.email.mapi/mapipropertytag/pr_templateid/) | Contains the value of the PidTagEntryId property (section 2.674), expressed as a Permanent Entry ID format. Canonical name: PidTagTemplateid. Property tag: 0x39020102 (PT_BINARY). |
+| static readonly [PR_TEST_LINE_SPEED](../../aspose.email.mapi/mapipropertytag/pr_test_line_speed/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x662B0102 (PT_BINARY). |
+| static readonly [PR_TITLE](../../aspose.email.mapi/mapipropertytag/pr_title/) | Contains the mail user's job title. Canonical name: PidTagTitle. Property tag: 0x3A17001E (PT_STRING8). |
+| static readonly [PR_TITLE_A](../../aspose.email.mapi/mapipropertytag/pr_title_a/) | The ANSI form of [`PR_TITLE`](./pr_title/). Property tag: 0x3A17001E (PT_STRING8). |
+| static readonly [PR_TITLE_W](../../aspose.email.mapi/mapipropertytag/pr_title_w/) | The Unicode form of [`PR_TITLE`](./pr_title/). Property tag: 0x3A17001F (PT_UNICODE). |
+| static readonly [PR_TNEF_CORRELATION_KEY](../../aspose.email.mapi/mapipropertytag/pr_tnef_correlation_key/) | Contains a value that correlates a Transport Neutral Encapsulation Format (TNEF) attachment with a message. Canonical name: PidTagTnefCorrelationKey. Property tag: 0x007F0102 (PT_BINARY). |
 | static readonly [PR_TODO_ITEM_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_todo_item_flags/) | Represents a To-Do item's flagged condition. |
-| static readonly [PR_TRACE_INFO](../../aspose.email.mapi/mapipropertytag/pr_trace_info/) |  |
-| static readonly [PR_TRANSFER_ENABLED](../../aspose.email.mapi/mapipropertytag/pr_transfer_enabled/) |  |
-| static readonly [PR_TRANSMITABLE_DISPLAY_NAME](../../aspose.email.mapi/mapipropertytag/pr_transmitable_display_name/) |  |
-| static readonly [PR_TRANSMITABLE_DISPLAY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_transmitable_display_name_a/) |  |
-| static readonly [PR_TRANSMITABLE_DISPLAY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_transmitable_display_name_w/) |  |
-| static readonly [PR_TRANSPORT_KEY](../../aspose.email.mapi/mapipropertytag/pr_transport_key/) |  |
-| static readonly [PR_TRANSPORT_MESSAGE_HEADERS](../../aspose.email.mapi/mapipropertytag/pr_transport_message_headers/) |  |
-| static readonly [PR_TRANSPORT_MESSAGE_HEADERS_A](../../aspose.email.mapi/mapipropertytag/pr_transport_message_headers_a/) |  |
-| static readonly [PR_TRANSPORT_MESSAGE_HEADERS_W](../../aspose.email.mapi/mapipropertytag/pr_transport_message_headers_w/) |  |
-| static readonly [PR_TRANSPORT_PROVIDERS](../../aspose.email.mapi/mapipropertytag/pr_transport_providers/) |  |
-| static readonly [PR_TRANSPORT_STATUS](../../aspose.email.mapi/mapipropertytag/pr_transport_status/) |  |
-| static readonly [PR_TTYTDD_PHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_ttytdd_phone_number/) |  |
-| static readonly [PR_TTYTDD_PHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_ttytdd_phone_number_a/) |  |
-| static readonly [PR_TTYTDD_PHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_ttytdd_phone_number_w/) |  |
-| static readonly [PR_TYPE_OF_MTS_USER](../../aspose.email.mapi/mapipropertytag/pr_type_of_mts_user/) |  |
-| static readonly [PR_USER_CERTIFICATE](../../aspose.email.mapi/mapipropertytag/pr_user_certificate/) |  |
-| static readonly [PR_USER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_user_entryid/) |  |
-| static readonly [PR_USER_NAME](../../aspose.email.mapi/mapipropertytag/pr_user_name/) |  |
-| static readonly [PR_USER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_user_name_a/) |  |
-| static readonly [PR_USER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_user_name_w/) |  |
-| static readonly [PR_USER_X509_CERTIFICATE](../../aspose.email.mapi/mapipropertytag/pr_user_x509_certificate/) |  |
-| static readonly [PR_VALID_FOLDER_MASK](../../aspose.email.mapi/mapipropertytag/pr_valid_folder_mask/) |  |
-| static readonly [PR_VIEWS_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_views_entryid/) |  |
-| static readonly [PR_WEDDING_ANNIVERSARY](../../aspose.email.mapi/mapipropertytag/pr_wedding_anniversary/) |  |
-| static readonly [PR_X400_CONTENT_TYPE](../../aspose.email.mapi/mapipropertytag/pr_x400_content_type/) |  |
-| static readonly [PR_X400_DEFERRED_DELIVERY_CANCEL](../../aspose.email.mapi/mapipropertytag/pr_x400_deferred_delivery_cancel/) |  |
-| static readonly [PR_X400_ENVELOPE_TYPE](../../aspose.email.mapi/mapipropertytag/pr_x400_envelope_type/) |  |
-| static readonly [PR_XPOS](../../aspose.email.mapi/mapipropertytag/pr_xpos/) |  |
-| static readonly [PR_YPOS](../../aspose.email.mapi/mapipropertytag/pr_ypos/) |  |
+| static readonly [PR_TRACE_INFO](../../aspose.email.mapi/mapipropertytag/pr_trace_info/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66600102 (PT_BINARY). |
+| static readonly [PR_TRANSFER_ENABLED](../../aspose.email.mapi/mapipropertytag/pr_transfer_enabled/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x662A000B (PT_BOOLEAN). |
+| static readonly [PR_TRANSMITABLE_DISPLAY_NAME](../../aspose.email.mapi/mapipropertytag/pr_transmitable_display_name/) | Contains an Address Book object's display name that is transmitted with the message. Canonical name: PidTagTransmittableDisplayName. Property tag: 0x3A20001E (PT_STRING8). |
+| static readonly [PR_TRANSMITABLE_DISPLAY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_transmitable_display_name_a/) | The ANSI form of [`PR_TRANSMITABLE_DISPLAY_NAME`](./pr_transmitable_display_name/). Property tag: 0x3A20001E (PT_STRING8). |
+| static readonly [PR_TRANSMITABLE_DISPLAY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_transmitable_display_name_w/) | The Unicode form of [`PR_TRANSMITABLE_DISPLAY_NAME`](./pr_transmitable_display_name/). Property tag: 0x3A20001F (PT_UNICODE). |
+| static readonly [PR_TRANSPORT_KEY](../../aspose.email.mapi/mapipropertytag/pr_transport_key/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E160003 (PT_LONG). |
+| static readonly [PR_TRANSPORT_MESSAGE_HEADERS](../../aspose.email.mapi/mapipropertytag/pr_transport_message_headers/) | Contains transport-specific message envelope information for email. Canonical name: PidTagTransportMessageHeaders. Property tag: 0x007D001E (PT_STRING8). |
+| static readonly [PR_TRANSPORT_MESSAGE_HEADERS_A](../../aspose.email.mapi/mapipropertytag/pr_transport_message_headers_a/) | The ANSI form of [`PR_TRANSPORT_MESSAGE_HEADERS`](./pr_transport_message_headers/). Property tag: 0x007D001E (PT_STRING8). |
+| static readonly [PR_TRANSPORT_MESSAGE_HEADERS_W](../../aspose.email.mapi/mapipropertytag/pr_transport_message_headers_w/) | The Unicode form of [`PR_TRANSPORT_MESSAGE_HEADERS`](./pr_transport_message_headers/). Property tag: 0x007D001F (PT_UNICODE). |
+| static readonly [PR_TRANSPORT_PROVIDERS](../../aspose.email.mapi/mapipropertytag/pr_transport_providers/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3D020102 (PT_BINARY). |
+| static readonly [PR_TRANSPORT_STATUS](../../aspose.email.mapi/mapipropertytag/pr_transport_status/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E110003 (PT_LONG). |
+| static readonly [PR_TTYTDD_PHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_ttytdd_phone_number/) | Contains the mail user's telecommunication device for the deaf (TTY/TDD) telephone number. Canonical name: PidTagTelecommunicationsDeviceForDeafTelephoneNumber. Property tag: 0x3A4B001E (PT_STRING8). |
+| static readonly [PR_TTYTDD_PHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_ttytdd_phone_number_a/) | The ANSI form of [`PR_TTYTDD_PHONE_NUMBER`](./pr_ttytdd_phone_number/). Property tag: 0x3A4B001E (PT_STRING8). |
+| static readonly [PR_TTYTDD_PHONE_NUMBER_W](../../aspose.email.mapi/mapipropertytag/pr_ttytdd_phone_number_w/) | The Unicode form of [`PR_TTYTDD_PHONE_NUMBER`](./pr_ttytdd_phone_number/). Property tag: 0x3A4B001F (PT_UNICODE). |
+| static readonly [PR_TYPE_OF_MTS_USER](../../aspose.email.mapi/mapipropertytag/pr_type_of_mts_user/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0C1C0003 (PT_LONG). |
+| static readonly [PR_USER_CERTIFICATE](../../aspose.email.mapi/mapipropertytag/pr_user_certificate/) | Contains an ASN.1 authentication certificate for a messaging user. Canonical name: PidTagUserCertificate. Property tag: 0x3A220102 (PT_BINARY). |
+| static readonly [PR_USER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_user_entryid/) | Address book EntryID of the user logged on to the public folders. Canonical name: PidTagUserEntryId. Property tag: 0x66190102 (PT_BINARY). |
+| static readonly [PR_USER_NAME](../../aspose.email.mapi/mapipropertytag/pr_user_name/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x661A001E (PT_STRING8). |
+| static readonly [PR_USER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_user_name_a/) | The ANSI form of [`PR_USER_NAME`](./pr_user_name/). Property tag: 0x661A001E (PT_STRING8). |
+| static readonly [PR_USER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_user_name_w/) | The Unicode form of [`PR_USER_NAME`](./pr_user_name/). Property tag: 0x661A001F (PT_UNICODE). |
+| static readonly [PR_USER_X509_CERTIFICATE](../../aspose.email.mapi/mapipropertytag/pr_user_x509_certificate/) | Contains a list of certificates for the mail user. Canonical name: PidTagUserX509Certificate. Property tag: 0x3A701102 (PT_MV_BINARY). |
+| static readonly [PR_VALID_FOLDER_MASK](../../aspose.email.mapi/mapipropertytag/pr_valid_folder_mask/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x35DF0003 (PT_LONG). |
+| static readonly [PR_VIEWS_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_views_entryid/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x35E50102 (PT_BINARY). |
+| static readonly [PR_WEDDING_ANNIVERSARY](../../aspose.email.mapi/mapipropertytag/pr_wedding_anniversary/) | Contains the date of the mail user's wedding anniversary. Canonical name: PidTagWeddingAnniversary. Property tag: 0x3A410040 (PT_SYSTIME). |
+| static readonly [PR_X400_CONTENT_TYPE](../../aspose.email.mapi/mapipropertytag/pr_x400_content_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x003C0102 (PT_BINARY). |
+| static readonly [PR_X400_DEFERRED_DELIVERY_CANCEL](../../aspose.email.mapi/mapipropertytag/pr_x400_deferred_delivery_cancel/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3E09000B (PT_BOOLEAN). |
+| static readonly [PR_X400_ENVELOPE_TYPE](../../aspose.email.mapi/mapipropertytag/pr_x400_envelope_type/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66530003 (PT_LONG). |
+| static readonly [PR_XPOS](../../aspose.email.mapi/mapipropertytag/pr_xpos/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3F050003 (PT_LONG). |
+| static readonly [PR_YPOS](../../aspose.email.mapi/mapipropertytag/pr_ypos/) | A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3F060003 (PT_LONG). |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.FindSubfolders
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Finds the identifiers of subfolders for for the current folder. It might be useful in case of reading corrupted pst when the GetSubfolders and EnumerateFolders methods could throw an exception
+description: PersonalStorage method. Finds the entry IDs of the subfolders of a folder. Use it to read a damaged PST when FolderInfo.GetSubFolders and FolderInfo.EnumerateFolders throw
 type: docs
 weight: 270
 url: /net/aspose.email.storage.pst/personalstorage/findsubfolders/
 ---
 ## PersonalStorage.FindSubfolders method
 
-Finds the identifiers of subfolders for for the current folder. It might be useful in case of reading corrupted pst when the GetSubfolders and EnumerateFolders methods could throw an exception.
+Finds the entry IDs of the subfolders of a folder. Use it to read a damaged PST when `FolderInfo.GetSubFolders` and `FolderInfo.EnumerateFolders` throw.
 
 ```csharp
 public IList<string> FindSubfolders(string parentEntryId)
@@ -16,11 +16,17 @@ public IList<string> FindSubfolders(string parentEntryId)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parentEntryId | String | Entry id of the parent folder. |
+| parentEntryId | String | The entry ID of the folder. |
 
 ### Return Value
 
-Collection of entry Ids.
+The entry IDs of the subfolders.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *parentEntryId* is `null` or empty. |
 
 ### See Also
 

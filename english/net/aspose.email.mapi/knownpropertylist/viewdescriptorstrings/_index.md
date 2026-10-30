@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ViewDescriptorStrings
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains view definitions in string format. Area MessageClassDefinedTransmittable Canonical name PidTagViewDescriptorStrings Alternate names PR_VD_STRINGS PR_VD_STRINGS_W
+description: KnownPropertyList field. Contains view definitions in string format. Area MessageClassDefinedTransmittable. Canonical name PidTagViewDescriptorStrings. Alternate names PR_VD_STRINGS PR_VD_STRINGS_W
 type: docs
 weight: 19350
 url: /net/aspose.email.mapi/knownpropertylist/viewdescriptorstrings/
 ---
 ## KnownPropertyList.ViewDescriptorStrings field
 
-Contains view definitions in string format. Area: MessageClassDefinedTransmittable Canonical name: PidTagViewDescriptorStrings Alternate names: PR_VD_STRINGS, PR_VD_STRINGS_W
+Contains view definitions in string format. Area: MessageClassDefinedTransmittable. Canonical name: PidTagViewDescriptorStrings. Alternate names: PR_VD_STRINGS, PR_VD_STRINGS_W.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ViewDescriptorStrings;

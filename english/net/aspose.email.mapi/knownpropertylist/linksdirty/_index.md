@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.LinksDirty
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Indicates whether the links in the document are uptodate. Area Common Canonical name PidNameLinksDirty Alternate names urnschemasmicrosoftcomofficeofficeLinksUpToDate
+description: KnownPropertyList field. Indicates whether the links in the document are uptodate. Area Common. Canonical name PidNameLinksDirty. Alternate names urnschemasmicrosoftcomofficeofficeLinksUpToDate
 type: docs
 weight: 12190
 url: /net/aspose.email.mapi/knownpropertylist/linksdirty/
 ---
 ## KnownPropertyList.LinksDirty field
 
-Indicates whether the links in the document are up-to-date. Area: Common Canonical name: PidNameLinksDirty Alternate names: urn:schemas-microsoft-com:office:office#LinksUpToDate
+Indicates whether the links in the document are up-to-date. Area: Common. Canonical name: PidNameLinksDirty. Alternate names: urn:schemas-microsoft-com:office:office#LinksUpToDate.
 
 ```csharp
 public static readonly PidNamePropertyDescriptor LinksDirty;

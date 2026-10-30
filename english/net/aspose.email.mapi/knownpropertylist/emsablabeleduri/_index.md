@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.EmsAbLabeleduri
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_LABELEDURI
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_EMS_AB_LABELEDURI. Property tag 0x8C51001E data type String8
 type: docs
 weight: 7050
 url: /net/aspose.email.mapi/knownpropertylist/emsablabeleduri/
 ---
 ## KnownPropertyList.EmsAbLabeleduri field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_EMS_AB_LABELEDURI
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_EMS_AB_LABELEDURI. Property tag: 0x8C51001E; data type: String8.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbLabeleduri;

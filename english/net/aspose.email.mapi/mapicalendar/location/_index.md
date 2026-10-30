@@ -3,12 +3,12 @@ title: MapiCalendar.Location
 second_title: Aspose.Email for .NET API Reference
 description: MapiCalendar property. Gets or sets the location of the event
 type: docs
-weight: 110
+weight: 130
 url: /net/aspose.email.mapi/mapicalendar/location/
 ---
 ## MapiCalendar.Location property
 
-Gets or sets the location of the event
+Gets or sets the location of the event.
 
 ```csharp
 public string Location { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: MapiDistributionListMember.EntryId
 second_title: Aspose.Email for .NET API Reference
-description: MapiDistributionListMember property. Gets or sets the EntryID of a member of a personal distribution list
+description: MapiDistributionListMember property. Gets or sets the EntryID of the member of a contact of another list or of a oneoff address
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapidistributionlistmember/entryid/
 ---
 ## MapiDistributionListMember.EntryId property
 
-Gets or sets the EntryID of a member of a personal distribution list.
+Gets or sets the EntryID of the member: of a contact, of another list, or of a one-off address.
 
 ```csharp
 public byte[] EntryId { get; set; }
@@ -16,7 +16,7 @@ public byte[] EntryId { get; set; }
 
 ### Property Value
 
-The entry id.
+The EntryID.
 
 ### See Also
 

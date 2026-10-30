@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_IDENTITY_SEARCH_KEY
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Property tag 0x3E050102 PT_BINARY
 type: docs
 weight: 12530
 url: /net/aspose.email.mapi/mapipropertytag/pr_identity_search_key/
 ---
 ## MapiPropertyTag.PR_IDENTITY_SEARCH_KEY field
+
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3E050102 (PT_BINARY).
 
 ```csharp
 public static readonly long PR_IDENTITY_SEARCH_KEY;

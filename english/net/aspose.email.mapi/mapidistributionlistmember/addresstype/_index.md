@@ -1,14 +1,14 @@
 ---
 title: MapiDistributionListMember.AddressType
 second_title: Aspose.Email for .NET API Reference
-description: MapiDistributionListMember property. Gets or sets the recipients email address type
+description: MapiDistributionListMember property. Gets or sets the type of the email address such as SMTP
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapidistributionlistmember/addresstype/
 ---
 ## MapiDistributionListMember.AddressType property
 
-Gets or sets the recipient's e-mail address type.
+Gets or sets the type of the e-mail address, such as `SMTP`.
 
 ```csharp
 public string AddressType { get; set; }
@@ -16,7 +16,7 @@ public string AddressType { get; set; }
 
 ### Property Value
 
-The type of the address.
+The address type.
 
 ### See Also
 

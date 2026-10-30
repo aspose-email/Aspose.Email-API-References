@@ -24,7 +24,7 @@ public MapiMessageParseException()
 
 ## MapiMessageParseException(string) {#constructor_1}
 
-Initializes a new instance of the MapiMessageParseException class.
+Initializes a new instance of the [`MapiMessageParseException`](../) class with the specified error message.
 
 ```csharp
 public MapiMessageParseException(string message)
@@ -32,7 +32,7 @@ public MapiMessageParseException(string message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | The error message. |
+| message | String | The message that describes the error. |
 
 ### See Also
 
@@ -44,7 +44,7 @@ public MapiMessageParseException(string message)
 
 ## MapiMessageParseException(string, Exception) {#constructor_2}
 
-Initializes a new instance of the MapiMessageParseException class.
+Initializes a new instance of the [`MapiMessageParseException`](../) class with the specified error message and the exception that caused it.
 
 ```csharp
 public MapiMessageParseException(string message, Exception innerException)
@@ -52,8 +52,8 @@ public MapiMessageParseException(string message, Exception innerException)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | The error message. |
-| innerException | Exception | The inner exception. |
+| message | String | The message that describes the error. |
+| innerException | Exception | The exception that caused this one. |
 
 ### See Also
 

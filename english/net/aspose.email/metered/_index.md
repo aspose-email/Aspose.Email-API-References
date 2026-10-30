@@ -1,14 +1,14 @@
 ---
 title: Class Metered
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Metered class. Provides methods to set metered key
+description: Aspose.Email.Metered class. Licenses the product with a metered payperuse key and reports the consumption
 type: docs
 weight: 17940
 url: /net/aspose.email/metered/
 ---
 ## Metered class
 
-Provides methods to set metered key.
+Licenses the product with a metered (pay-per-use) key and reports the consumption.
 
 ```csharp
 public class Metered
@@ -18,24 +18,24 @@ public class Metered
 
 | Name | Description |
 | --- | --- |
-| [Metered](metered/)() | Initializes a new instance of this class. |
+| [Metered](metered/)() | Initializes a new instance of the `Metered` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| static [IsBillingServiceRun](../../aspose.email/metered/isbillingservicerun/) { get; } |  |
+| static [IsBillingServiceRun](../../aspose.email/metered/isbillingservicerun/) { get; } | Gets a value indicating whether the metered billing service is running. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetBillingStatus](../../aspose.email/metered/getbillingstatus/)() | Check the status of the Billing API. |
-| [GetProductName](../../aspose.email/metered/getproductname/)() |  |
-| [SetMeteredKey](../../aspose.email/metered/setmeteredkey/)(string, string) | Sets metered public and private key. If you purchase metered license, when start application, this API should be called, normally, this is enough. However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status, to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again. |
-| static [GetConsumptionCredit](../../aspose.email/metered/getconsumptioncredit/)() | Gets consumption credit |
-| static [GetConsumptionQuantity](../../aspose.email/metered/getconsumptionquantity/)() | Gets consumption file size |
-| static [IsMeteredLicensed](../../aspose.email/metered/ismeteredlicensed/)() | Check whether metered is licensed |
+| [GetBillingStatus](../../aspose.email/metered/getbillingstatus/)() | Checks whether the billing service is available. |
+| [GetProductName](../../aspose.email/metered/getproductname/)() | Gets the name of the product the metered license is for. |
+| [SetMeteredKey](../../aspose.email/metered/setmeteredkey/)(string, string) | Activates the metered license with the public and private keys. |
+| static [GetConsumptionCredit](../../aspose.email/metered/getconsumptioncredit/)() | Gets the number of credits consumed. |
+| static [GetConsumptionQuantity](../../aspose.email/metered/getconsumptionquantity/)() | Gets the amount of data processed under the metered license. |
+| static [IsMeteredLicensed](../../aspose.email/metered/ismeteredlicensed/)() | Gets a value indicating whether a metered license is active. |
 
 ## Examples
 

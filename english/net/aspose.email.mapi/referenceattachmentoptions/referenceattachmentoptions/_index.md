@@ -1,14 +1,14 @@
 ---
 title: ReferenceAttachmentOptions.ReferenceAttachmentOptions
 second_title: Aspose.Email for .NET API Reference
-description: ReferenceAttachmentOptions constructor. Initializes a new instance of the ReferenceAttachmentOptions class with the specified shared link URL and provider name
+description: ReferenceAttachmentOptions constructor. Initializes a new instance of the ReferenceAttachmentOptions class with a link a URL and a provider
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/referenceattachmentoptions/referenceattachmentoptions/
 ---
 ## ReferenceAttachmentOptions constructor
 
-Initializes a new instance of the [`ReferenceAttachmentOptions`](../) class with the specified shared link, URL, and provider name.
+Initializes a new instance of the [`ReferenceAttachmentOptions`](../) class with a link, a URL and a provider.
 
 ```csharp
 public ReferenceAttachmentOptions(string sharedLink, string url, string providerName)
@@ -16,9 +16,9 @@ public ReferenceAttachmentOptions(string sharedLink, string url, string provider
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sharedLink | String | The shared link of the reference attachment. |
-| url | String | The direct URL for accessing the reference attachment. |
-| providerName | String | The name of the provider for the reference attachment. |
+| sharedLink | String | The shared link of the file. |
+| url | String | The direct URL of the file. |
+| providerName | String | The name of the storage provider, such as `OneDrive`. |
 
 ### See Also
 

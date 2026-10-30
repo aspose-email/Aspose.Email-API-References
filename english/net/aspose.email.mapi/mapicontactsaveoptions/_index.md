@@ -1,14 +1,14 @@
 ---
 title: Class MapiContactSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiContactSaveOptions class. Specifies the contact save options
+description: Aspose.Email.Mapi.MapiContactSaveOptions class. Options for saving a contact to Outlook MSG format
 type: docs
 weight: 17150
 url: /net/aspose.email.mapi/mapicontactsaveoptions/
 ---
 ## MapiContactSaveOptions class
 
-Specifies the contact save options.
+Options for saving a contact to Outlook MSG format.
 
 ```csharp
 public sealed class MapiContactSaveOptions : ContactSaveOptions
@@ -24,10 +24,10 @@ public sealed class MapiContactSaveOptions : ContactSaveOptions
 
 | Name | Description |
 | --- | --- |
-| static [Default](../../aspose.email.mapi/mapicontactsaveoptions/default/) { get; } | Gets the default options. |
-| [ProductId](../../aspose.email.mapi/contactsaveoptions/productid/) { get; set; } | Gets or sets the product identifier that created VCard object. |
-| [SaveFormat](../../aspose.email.mapi/contactsaveoptions/saveformat/) { get; } | Gets a save format |
-| [Version](../../aspose.email.mapi/contactsaveoptions/version/) { get; set; } | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
+| static [Default](../../aspose.email.mapi/mapicontactsaveoptions/default/) { get; } | Gets new MSG save options with the default settings. |
+| [ProductId](../../aspose.email.mapi/contactsaveoptions/productid/) { get; set; } | Gets or sets the identifier of the product that created the vCard, written to its `PRODID` property. |
+| [SaveFormat](../../aspose.email.mapi/contactsaveoptions/saveformat/) { get; } | Gets the format this options object saves to. |
+| [Version](../../aspose.email.mapi/contactsaveoptions/version/) { get; set; } | Gets or sets the vCard version to write. Used only when the contact is saved to vCard. |
 
 ### See Also
 

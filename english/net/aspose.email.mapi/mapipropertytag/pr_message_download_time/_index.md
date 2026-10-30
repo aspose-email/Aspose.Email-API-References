@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_MESSAGE_DOWNLOAD_TIME
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Property tag 0x0E180003 PT_LONG
 type: docs
 weight: 13900
 url: /net/aspose.email.mapi/mapipropertytag/pr_message_download_time/
 ---
 ## MapiPropertyTag.PR_MESSAGE_DOWNLOAD_TIME field
+
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x0E180003 (PT_LONG).
 
 ```csharp
 public static readonly long PR_MESSAGE_DOWNLOAD_TIME;

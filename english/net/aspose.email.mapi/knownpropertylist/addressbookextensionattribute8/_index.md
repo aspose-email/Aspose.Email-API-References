@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AddressBookExtensionAttribute8
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains custom values defined and populated by the organization that modified the display templates. Area Address Book Canonical name PidTagAddressBookExtensionAttribute8 Alternate names PR_EMS_AB_EXTENSION_ATTRIBUTE_8 PR_EMS_AB_EXTENSION_ATTRIBUTE_8_A PR_EMS_AB_EXTENSION_ATTRIBUTE_8_W
+description: KnownPropertyList field. Contains custom values defined and populated by the organization that modified the display templates. Area Address Book. Canonical name PidTagAddressBookExtensionAttribute8. Alternate names PR_EMS_AB_EXTENSION_ATTRIBUTE_8 PR_EMS_AB_EXTENSION_ATTRIBUTE_8_A PR_EMS_AB_EXTENSION_ATTRIBUTE_8_W
 type: docs
 weight: 580
 url: /net/aspose.email.mapi/knownpropertylist/addressbookextensionattribute8/
 ---
 ## KnownPropertyList.AddressBookExtensionAttribute8 field
 
-Contains custom values defined and populated by the organization that modified the display templates. Area: Address Book Canonical name: PidTagAddressBookExtensionAttribute8 Alternate names: PR_EMS_AB_EXTENSION_ATTRIBUTE_8, PR_EMS_AB_EXTENSION_ATTRIBUTE_8_A, PR_EMS_AB_EXTENSION_ATTRIBUTE_8_W
+Contains custom values defined and populated by the organization that modified the display templates. Area: Address Book. Canonical name: PidTagAddressBookExtensionAttribute8. Alternate names: PR_EMS_AB_EXTENSION_ATTRIBUTE_8, PR_EMS_AB_EXTENSION_ATTRIBUTE_8_A, PR_EMS_AB_EXTENSION_ATTRIBUTE_8_W.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookExtensionAttribute8;

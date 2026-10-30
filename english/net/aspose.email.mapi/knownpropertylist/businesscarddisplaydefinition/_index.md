@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.BusinessCardDisplayDefinition
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains user customization details for displaying a contact as a business card. Area Contact Properties Canonical name PidLidBusinessCardDisplayDefinition Alternate names dispidBCDisplayDefinition
+description: KnownPropertyList field. Contains user customization details for displaying a contact as a business card. Area Contact Properties. Canonical name PidLidBusinessCardDisplayDefinition. Alternate names dispidBCDisplayDefinition
 type: docs
 weight: 2190
 url: /net/aspose.email.mapi/knownpropertylist/businesscarddisplaydefinition/
 ---
 ## KnownPropertyList.BusinessCardDisplayDefinition field
 
-Contains user customization details for displaying a contact as a business card. Area: Contact Properties Canonical name: PidLidBusinessCardDisplayDefinition Alternate names: dispidBCDisplayDefinition
+Contains user customization details for displaying a contact as a business card. Area: Contact Properties. Canonical name: PidLidBusinessCardDisplayDefinition. Alternate names: dispidBCDisplayDefinition.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor BusinessCardDisplayDefinition;

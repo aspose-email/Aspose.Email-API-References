@@ -8,7 +8,7 @@ url: /net/aspose.email.storage.pst/storageprocessedeventargs/
 ---
 ## StorageProcessedEventArgs class
 
-Provides data for the [`StorageProcessed`](../personalstorage/storageprocessed/) event
+Provides data for the [`StorageProcessed`](../personalstorage/storageprocessed/) event.
 
 ```csharp
 public class StorageProcessedEventArgs : EventArgs
@@ -18,8 +18,8 @@ public class StorageProcessedEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [Chunk](../../aspose.email.storage.pst/storageprocessedeventargs/chunk/) { get; } | Gets the pst that represents the chunk. |
-| [FileName](../../aspose.email.storage.pst/storageprocessedeventargs/filename/) { get; } | Gets the name of the pst file, that represents the chunk. |
+| [Chunk](../../aspose.email.storage.pst/storageprocessedeventargs/chunk/) { get; } | Gets the PST part that has been created while splitting. |
+| [FileName](../../aspose.email.storage.pst/storageprocessedeventargs/filename/) { get; } | Gets the name of the PST file that has been processed. |
 
 ### See Also
 

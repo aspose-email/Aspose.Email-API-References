@@ -1,14 +1,14 @@
 ---
 title: OleDocumentFormat.MicrosoftOfficeWordDocument
 second_title: Aspose.Email for .NET API Reference
-description: OleDocumentFormat property. Microsoft office word format
+description: OleDocumentFormat property. Gets the format of a Microsoft Word document
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/oledocumentformat/microsoftofficeworddocument/
 ---
 ## OleDocumentFormat.MicrosoftOfficeWordDocument property
 
-Microsoft office word format.
+Gets the format of a Microsoft Word document.
 
 ```csharp
 public static OleDocumentFormat MicrosoftOfficeWordDocument { get; }

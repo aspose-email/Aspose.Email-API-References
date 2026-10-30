@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.EmsAbObjectClassCategory
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_OBJECT_CLASS_CATEGORY
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_EMS_AB_OBJECT_CLASS_CATEGORY. Property tag 0x80F60003 data type Integer32
 type: docs
 weight: 7830
 url: /net/aspose.email.mapi/knownpropertylist/emsabobjectclasscategory/
 ---
 ## KnownPropertyList.EmsAbObjectClassCategory field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_EMS_AB_OBJECT_CLASS_CATEGORY
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_EMS_AB_OBJECT_CLASS_CATEGORY. Property tag: 0x80F60003; data type: Integer32.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbObjectClassCategory;

@@ -1,14 +1,14 @@
 ---
 title: FolderInfo.ItemMoved
 second_title: Aspose.Email for .NET API Reference
-description: FolderInfo event. Occurs when an item is moved to the another folder
+description: FolderInfo event. Occurs when an item is moved to another folder
 type: docs
 weight: 110
 url: /net/aspose.email.storage.pst/folderinfo/itemmoved/
 ---
 ## FolderInfo.ItemMoved event
 
-Occurs when an item is moved to the another folder.
+Occurs when an item is moved to another folder.
 
 ```csharp
 public event ItemMovedEventHandler ItemMoved;

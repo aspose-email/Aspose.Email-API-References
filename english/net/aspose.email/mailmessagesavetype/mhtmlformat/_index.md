@@ -1,14 +1,14 @@
 ---
 title: MailMessageSaveType.MHtmlFormat
 second_title: Aspose.Email for .NET API Reference
-description: MailMessageSaveType property. Gets the MHT
+description: MailMessageSaveType property. Gets the MHTML web archive format
 type: docs
 weight: 40
 url: /net/aspose.email/mailmessagesavetype/mhtmlformat/
 ---
 ## MailMessageSaveType.MHtmlFormat property
 
-Gets the MHT.
+Gets the MHTML (web archive) format.
 
 ```csharp
 public static MailMessageSaveType MHtmlFormat { get; }
@@ -16,7 +16,7 @@ public static MailMessageSaveType MHtmlFormat { get; }
 
 ### Property Value
 
-The MHT.
+The MHTML format.
 
 ### See Also
 

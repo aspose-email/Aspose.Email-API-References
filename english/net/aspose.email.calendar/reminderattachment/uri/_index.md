@@ -1,18 +1,24 @@
 ---
 title: ReminderAttachment.Uri
 second_title: Aspose.Email for .NET API Reference
-description: ReminderAttachment property. URI type of reference to the data
+description: ReminderAttachment property. Gets or sets the location of the attachment content. Setting it clears BinaryData
 type: docs
 weight: 30
 url: /net/aspose.email.calendar/reminderattachment/uri/
 ---
 ## ReminderAttachment.Uri property
 
-URI type of reference to the data.
+Gets or sets the location of the attachment content. Setting it clears `BinaryData`.
 
 ```csharp
 public Uri Uri { get; set; }
 ```
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception/) | *value* is `null`. |
 
 ### See Also
 

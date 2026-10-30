@@ -1,14 +1,14 @@
 ---
 title: MapiPropertyContainer.SetProperty
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyContainer method. Sets MAPI property
+description: MapiPropertyContainer method. Sets the value of a MAPI property creating the property if needed
 type: docs
 weight: 120
 url: /net/aspose.email.mapi/mapipropertycontainer/setproperty/
 ---
 ## SetProperty(PropertyDescriptor, object) {#setproperty_1}
 
-Sets MAPI property.
+Sets the value of a MAPI property, creating the property if needed.
 
 ```csharp
 public virtual void SetProperty(PropertyDescriptor pd, object value)
@@ -16,8 +16,8 @@ public virtual void SetProperty(PropertyDescriptor pd, object value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pd | PropertyDescriptor | The property descriptor. |
-| value | Object | The property data. |
+| pd | PropertyDescriptor | The descriptor of the property, for example one from [`KnownPropertyList`](../../knownpropertylist/). |
+| value | Object | The value, of a .NET type that matches the data type of the property. |
 
 ### See Also
 
@@ -30,7 +30,7 @@ public virtual void SetProperty(PropertyDescriptor pd, object value)
 
 ## SetProperty(MapiProperty) {#setproperty}
 
-Sets the property.
+Adds the property, or replaces the property with the same tag.
 
 ```csharp
 public virtual void SetProperty(MapiProperty value)
@@ -38,7 +38,7 @@ public virtual void SetProperty(MapiProperty value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | MapiProperty | The property. |
+| value | MapiProperty | The property to set. |
 
 ### Exceptions
 

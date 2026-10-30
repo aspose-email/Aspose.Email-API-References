@@ -1,14 +1,14 @@
 ---
 title: MapiCalendar.KeyWords
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendar property. Gets or sets the categories of the calendar object
+description: MapiCalendar property. Gets or sets the categories of the calendar item
 type: docs
-weight: 100
+weight: 120
 url: /net/aspose.email.mapi/mapicalendar/keywords/
 ---
 ## MapiCalendar.KeyWords property
 
-Gets or sets the categories of the calendar object
+Gets or sets the categories of the calendar item.
 
 ```csharp
 public string KeyWords { get; set; }

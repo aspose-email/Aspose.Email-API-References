@@ -1,14 +1,14 @@
 ---
 title: CalendarReader.CalendarReader
 second_title: Aspose.Email for .NET API Reference
-description: CalendarReader constructor. Initializes a new instance of CalendarReader with source file and default Appointment LoadOptions
+description: CalendarReader constructor. Initializes a new instance of the CalendarReader class that reads the specified file with the default options
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/calendarreader/calendarreader/
 ---
 ## CalendarReader(string) {#constructor_2}
 
-Initializes a new instance of CalendarReader with source file and default Appointment LoadOptions.
+Initializes a new instance of the [`CalendarReader`](../) class that reads the specified file with the default options.
 
 ```csharp
 public CalendarReader(string path)
@@ -16,7 +16,14 @@ public CalendarReader(string path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | String | Path to source file. |
+| path | String | The path of the ICS file. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| FileNotFoundException | The file specified by *path* does not exist. |
+| InvalidOperationException | `AppointmentLoadOptions.EventIndex` is beyond the last event. |
 
 ### See Also
 
@@ -28,7 +35,7 @@ public CalendarReader(string path)
 
 ## CalendarReader(string, AppointmentLoadOptions) {#constructor_3}
 
-Initializes a new instance of CalendarReader with source file and Appointment LoadOptions.
+Initializes a new instance of the [`CalendarReader`](../) class that reads the specified file with the specified options.
 
 ```csharp
 public CalendarReader(string path, AppointmentLoadOptions options)
@@ -36,8 +43,15 @@ public CalendarReader(string path, AppointmentLoadOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | String | Path to source file. |
-| options | AppointmentLoadOptions | Additional LoadOptions. |
+| path | String | The path of the ICS file. |
+| options | AppointmentLoadOptions | Options that control loading, or `null` to use the defaults. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| FileNotFoundException | The file specified by *path* does not exist. |
+| InvalidOperationException | `AppointmentLoadOptions.EventIndex` is beyond the last event. |
 
 ### See Also
 
@@ -50,7 +64,7 @@ public CalendarReader(string path, AppointmentLoadOptions options)
 
 ## CalendarReader(Stream) {#constructor}
 
-Initializes a new instance of CalendarReader with source stream and default Appointment LoadOptions.
+Initializes a new instance of the [`CalendarReader`](../) class that reads the specified stream with the default options.
 
 ```csharp
 public CalendarReader(Stream stream)
@@ -58,7 +72,15 @@ public CalendarReader(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Source stream. |
+| stream | Stream | The stream of iCalendar data. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *stream* is `null`. |
+| NotSupportedException | *stream* does not support reading. |
+| InvalidOperationException | `AppointmentLoadOptions.EventIndex` is beyond the last event. |
 
 ### See Also
 
@@ -70,7 +92,7 @@ public CalendarReader(Stream stream)
 
 ## CalendarReader(Stream, AppointmentLoadOptions) {#constructor_1}
 
-Initializes a new instance of CalendarReader with source stream and Appointment LoadOptions.
+Initializes a new instance of the [`CalendarReader`](../) class that reads the specified stream with the specified options.
 
 ```csharp
 public CalendarReader(Stream stream, AppointmentLoadOptions options)
@@ -78,8 +100,16 @@ public CalendarReader(Stream stream, AppointmentLoadOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Source stream. |
-| options | AppointmentLoadOptions | Additional LoadOptions. |
+| stream | Stream | The stream of iCalendar data. |
+| options | AppointmentLoadOptions | Options that control loading, or `null` to use the defaults. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *stream* is `null`. |
+| NotSupportedException | *stream* does not support reading. |
+| InvalidOperationException | `AppointmentLoadOptions.EventIndex` is beyond the last event. |
 
 ### See Also
 

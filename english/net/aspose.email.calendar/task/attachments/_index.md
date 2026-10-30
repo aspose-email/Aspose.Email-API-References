@@ -1,14 +1,14 @@
 ---
 title: Task.Attachments
 second_title: Aspose.Email for .NET API Reference
-description: Task property. Gets or sets a collection of file attached to the task
+description: Task property. Gets or sets the files attached to the task
 type: docs
 weight: 30
 url: /net/aspose.email.calendar/task/attachments/
 ---
 ## Task.Attachments property
 
-Gets or sets a collection of file attached to the task.
+Gets or sets the files attached to the task.
 
 ```csharp
 public AttachmentCollection Attachments { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.TransportProviders
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_TRANSPORT_PROVIDERS
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_TRANSPORT_PROVIDERS. Property tag 0x3D020102 data type Binary
 type: docs
 weight: 19200
 url: /net/aspose.email.mapi/knownpropertylist/transportproviders/
 ---
 ## KnownPropertyList.TransportProviders field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_TRANSPORT_PROVIDERS
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_TRANSPORT_PROVIDERS. Property tag: 0x3D020102; data type: Binary.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TransportProviders;

@@ -1,14 +1,14 @@
 ---
 title: Class AlternateView
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.AlternateView class. Represents an alternative format view of an email message such as plain text or HTML versions. This class allows you to provide multiple content representations for email clients with different capabilities. Alternate views can include linked resources embedded images files and support content encoding and transfer encoding configuration
+description: Aspose.Email.AlternateView class. One representation of the body of a message such as plain text or HTML. A message can carry several and the mail client shows the best one it supports
 type: docs
 weight: 10
 url: /net/aspose.email/alternateview/
 ---
 ## AlternateView class
 
-Represents an alternative format view of an email message, such as plain text or HTML versions. This class allows you to provide multiple content representations for email clients with different capabilities. Alternate views can include linked resources (embedded images, files) and support content encoding and transfer encoding configuration.
+One representation of the body of a message, such as plain text or HTML. A message can carry several, and the mail client shows the best one it supports.
 
 ```csharp
 public class AlternateView : AttachmentBase
@@ -18,37 +18,37 @@ public class AlternateView : AttachmentBase
 
 | Name | Description |
 | --- | --- |
-| [AlternateView](alternateview/#constructor)(Stream) | Initializes a new instance of the `AlternateView` class. |
-| [AlternateView](alternateview/#constructor_3)(string) | Initializes a new instance of the `AlternateView` class. |
-| [AlternateView](alternateview/#constructor_1)(Stream, ContentType) | Initializes a new instance of the `AlternateView` class. |
-| [AlternateView](alternateview/#constructor_2)(Stream, string) | Initializes a new instance of the `AlternateView` class. |
-| [AlternateView](alternateview/#constructor_4)(string, ContentType) | Initializes a new instance of the `AlternateView` class. |
-| [AlternateView](alternateview/#constructor_5)(string, string) | Initializes a new instance of the `AlternateView` class. |
+| [AlternateView](alternateview/#constructor)(Stream) | Initializes a new instance of the `AlternateView` class with the content of a stream. |
+| [AlternateView](alternateview/#constructor_3)(string) | Initializes a new instance of the `AlternateView` class with the content of a file. |
+| [AlternateView](alternateview/#constructor_1)(Stream, ContentType) | Initializes a new instance of the `AlternateView` class with the content of a stream. |
+| [AlternateView](alternateview/#constructor_2)(Stream, string) | Initializes a new instance of the `AlternateView` class with the content of a stream. |
+| [AlternateView](alternateview/#constructor_4)(string, ContentType) | Initializes a new instance of the `AlternateView` class with the content of a file. |
+| [AlternateView](alternateview/#constructor_5)(string, string) | Initializes a new instance of the `AlternateView` class with the content of a file. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [BaseUri](../../aspose.email/alternateview/baseuri/) { get; set; } | Gets or sets the base URI. |
-| [ContentId](../../aspose.email/attachmentbase/contentid/) { get; set; } | Gets or sets the content id. |
-| [ContentStream](../../aspose.email/attachmentbase/contentstream/) { get; set; } | Gets or sets the content stream. |
-| [ContentType](../../aspose.email/attachmentbase/contenttype/) { get; set; } | Gets or sets the type of the content. |
-| virtual [Headers](../../aspose.email/attachmentbase/headers/) { get; } | Gets headers collection of attachment. |
-| [LinkedResources](../../aspose.email/alternateview/linkedresources/) { get; } | Gets the set of embedded resources referred to by this alternate view. |
-| [TransferEncoding](../../aspose.email/attachmentbase/transferencoding/) { get; set; } | Gets or sets the transfer encoding. |
-| [UniqueId](../../aspose.email/attachmentbase/uniqueid/) { get; } | Gets or sets a unique identifier for the attachment that will be constant for each application run. |
+| [BaseUri](../../aspose.email/alternateview/baseuri/) { get; set; } | Gets or sets the base URI used to resolve relative URLs in the content of the view. |
+| [ContentId](../../aspose.email/attachmentbase/contentid/) { get; set; } | Gets or sets the content ID of the part, by which HTML refers to it with a `cid:` URL. |
+| [ContentStream](../../aspose.email/attachmentbase/contentstream/) { get; set; } | Gets or sets the stream that holds the content. |
+| [ContentType](../../aspose.email/attachmentbase/contenttype/) { get; set; } | Gets or sets the content type of the part: its media type, name and character set. |
+| virtual [Headers](../../aspose.email/attachmentbase/headers/) { get; } | Gets the MIME headers of the part. |
+| [LinkedResources](../../aspose.email/alternateview/linkedresources/) { get; } | Gets the resources embedded in this view, such as the images an HTML view refers to by `cid:` URLs. |
+| [TransferEncoding](../../aspose.email/attachmentbase/transferencoding/) { get; set; } | Gets or sets how the content is encoded for transfer, such as Base64 or quoted-printable. |
+| [UniqueId](../../aspose.email/attachmentbase/uniqueid/) { get; } | Gets an identifier of the part that stays the same while the application runs. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring/#createalternateviewfromstring)(string) | Creates a AlternateView of using the content specified in a string. |
-| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring/#createalternateviewfromstring_1)(string, ContentType) | Creates a AlternateView of using the content specified in a string. |
-| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring/#createalternateviewfromstring_2)(string, ContentType, TransferEncoding) | Creates a AlternateView of using the content specified in a string. |
-| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring/#createalternateviewfromstring_3)(string, Encoding, string) | Creates a AlternateView of using the content specified in a string. |
-| [Dispose](../../aspose.email/attachmentbase/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| virtual [Save](../../aspose.email/attachmentbase/save/)(Stream) | Saves the specified stream. |
-| virtual [Save](../../aspose.email/attachmentbase/save/)(string) | Saves the specified file name. |
+| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring/#createalternateviewfromstring)(string) | Creates a plain-text view from a string. |
+| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring/#createalternateviewfromstring_1)(string, ContentType) | Creates a view from a string with the specified content type. |
+| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring/#createalternateviewfromstring_2)(string, ContentType, TransferEncoding) | Creates a view from a string with the specified content type and transfer encoding. |
+| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring/#createalternateviewfromstring_3)(string, Encoding, string) | Creates a view from a string with the specified encoding and media type. |
+| [Dispose](../../aspose.email/attachmentbase/dispose/)() | Releases the resources used by the part, including its content stream. |
+| virtual [Save](../../aspose.email/attachmentbase/save/)(Stream) | Saves the decoded content of the part to a stream. |
+| virtual [Save](../../aspose.email/attachmentbase/save/)(string) | Saves the decoded content of the part to a file. |
 
 ## Remarks
 

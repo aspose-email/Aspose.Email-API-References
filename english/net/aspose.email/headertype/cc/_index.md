@@ -1,14 +1,14 @@
 ---
 title: HeaderType.CC
 second_title: Aspose.Email for .NET API Reference
-description: HeaderType property. This header can be considered an extension of the To field as it is used to specifiy additional recipients. In this case the copy of an email message sent to a recipient has the recipients address appearing in the message. This is useful if you want to copy a message to many people with each of them seeing who the other recipients are contrast with Bcc above. This header does appear in incoming email. Exmple Cc gboydnetcom.com
+description: HeaderType property. Gets the Cc header the carbon copy recipients which all recipients see
 type: docs
 weight: 40
 url: /net/aspose.email/headertype/cc/
 ---
 ## HeaderType.CC property
 
-This header can be considered an extension of the "To:" field as it is used to specifiy additional recipients. In this case, the copy of an e-mail message sent to a recipient has the recipient's address appearing in the message. This is useful if you want to copy a message to many people with each of them seeing who the other recipients are; contrast with Bcc above. This header does appear in incoming e-mail. Exmple: Cc: gboyd@netcom.com
+Gets the `Cc` header: the carbon copy recipients, which all recipients see.
 
 ```csharp
 public static HeaderType CC { get; }

@@ -1,14 +1,14 @@
 ---
 title: MapiPropertyContainer.TryGetPropertyDateTime
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyContainer method. Gets the value of the specified property as DateTime type. A return value indicates whether the operation succeeded
+description: MapiPropertyContainer method. Gets the value of a property as a date and time if the property exists
 type: docs
 weight: 140
 url: /net/aspose.email.mapi/mapipropertycontainer/trygetpropertydatetime/
 ---
 ## MapiPropertyContainer.TryGetPropertyDateTime method
 
-Gets the value of the specified property as DateTime type. A return value indicates whether the operation succeeded.
+Gets the value of a property as a date and time, if the property exists.
 
 ```csharp
 public bool TryGetPropertyDateTime(long tag, ref DateTime value)
@@ -16,12 +16,12 @@ public bool TryGetPropertyDateTime(long tag, ref DateTime value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | Int64 | The MAPI property tag. |
-| value | DateTime& | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+| tag | Int64 | The tag of the property. |
+| value | DateTime& | When this method returns, the value of the property, if it exists; otherwise, the value is unchanged. |
 
 ### Return Value
 
-true if s was converted successfully; otherwise, false.
+`true` if the property exists; otherwise, `false`.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.InfoPathFormName
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains the name of the form associated with this message. Area Common Canonical name PidLidInfoPathFormName Alternate names
+description: KnownPropertyList field. Contains the name of the form associated with this message. Area Common. Canonical name PidLidInfoPathFormName
 type: docs
 weight: 11400
 url: /net/aspose.email.mapi/knownpropertylist/infopathformname/
 ---
 ## KnownPropertyList.InfoPathFormName field
 
-Contains the name of the form associated with this message. Area: Common Canonical name: PidLidInfoPathFormName Alternate names:
+Contains the name of the form associated with this message. Area: Common. Canonical name: PidLidInfoPathFormName.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor InfoPathFormName;

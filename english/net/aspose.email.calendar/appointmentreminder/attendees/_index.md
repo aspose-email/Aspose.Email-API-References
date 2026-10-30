@@ -1,14 +1,14 @@
 ---
 title: AppointmentReminder.Attendees
 second_title: Aspose.Email for .NET API Reference
-description: AppointmentReminder property. Contains collection of ReminderAttendee ReminderAttendeeobjects
+description: AppointmentReminder property. Gets the recipients of an email reminder
 type: docs
 weight: 50
 url: /net/aspose.email.calendar/appointmentreminder/attendees/
 ---
 ## AppointmentReminder.Attendees property
 
-Contains collection of ReminderAttendee [`ReminderAttendee`](../../reminderattendee/)objects.
+Gets the recipients of an email reminder.
 
 ```csharp
 public ReminderAttendeeCollection Attendees { get; }

@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.FromStream
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Load PST from stream
+description: PersonalStorage method. Opens a PST or OST from a stream
 type: docs
 weight: 40
 url: /net/aspose.email.storage.pst/personalstorage/fromstream/
 ---
 ## FromStream(Stream, bool) {#fromstream_2}
 
-Load PST from stream.
+Opens a PST or OST from a stream.
 
 ```csharp
 public static PersonalStorage FromStream(Stream stream, bool writable)
@@ -16,12 +16,16 @@ public static PersonalStorage FromStream(Stream stream, bool writable)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The System.IO.Stream. |
-| writable | Boolean | if set to `true` then the the pst will support writing, otherwise it will be opened in read-only mode. |
+| stream | Stream | The stream with the PST or OST data. |
+| writable | Boolean | `true` to open the PST for reading and writing; `false` for reading only. |
 
 ### Return Value
 
-A PersonalStorage object that represents the current PST.
+The opened storage.
+
+## Remarks
+
+The stream is closed when the storage is disposed. To keep it open, use the overload with [`PersonalStorageLoadOptions`](../../personalstorageloadoptions/) and set its `LeaveStreamOpen` property.
 
 ### See Also
 
@@ -33,7 +37,7 @@ A PersonalStorage object that represents the current PST.
 
 ## FromStream(Stream, PersonalStorageLoadOptions) {#fromstream_1}
 
-Load PST from stream.
+Opens a PST or OST from a stream with the specified options.
 
 ```csharp
 public static PersonalStorage FromStream(Stream stream, PersonalStorageLoadOptions loadOptions)
@@ -41,12 +45,16 @@ public static PersonalStorage FromStream(Stream stream, PersonalStorageLoadOptio
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The System.IO.Stream. |
-| loadOptions | PersonalStorageLoadOptions | The load options. |
+| stream | Stream | The stream with the PST or OST data. |
+| loadOptions | PersonalStorageLoadOptions | The options for opening the stream. |
 
 ### Return Value
 
-A PersonalStorage object that represents the current PST.
+The opened storage.
+
+## Remarks
+
+The PST is opened for writing only if `PersonalStorageLoadOptions.Writable` is `true`, which is not the default.
 
 ### See Also
 
@@ -59,7 +67,7 @@ A PersonalStorage object that represents the current PST.
 
 ## FromStream(Stream) {#fromstream}
 
-Load PST from stream.
+Opens a PST or OST from a stream for reading and writing.
 
 ```csharp
 public static PersonalStorage FromStream(Stream stream)
@@ -67,15 +75,21 @@ public static PersonalStorage FromStream(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The System.IO.Stream. |
+| stream | Stream | The stream with the PST or OST data. |
 
 ### Return Value
 
-A PersonalStorage object that represents the current PST.
+The opened storage.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *stream* is `null`. |
 
 ## Remarks
 
-By default, the pst will support writing.
+The stream is closed when the storage is disposed. To keep it open, use the overload with [`PersonalStorageLoadOptions`](../../personalstorageloadoptions/) and set its `LeaveStreamOpen` property.
 
 ### See Also
 

@@ -16,7 +16,7 @@ public AlternateViewRemovedEventArgs(AlternateView av)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| av | AlternateView |  |
+| av | AlternateView | The view that was removed. |
 
 ### See Also
 

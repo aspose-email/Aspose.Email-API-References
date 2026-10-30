@@ -1,14 +1,14 @@
 ---
 title: AppointmentLoadOptions.EventIndex
 second_title: Aspose.Email for .NET API Reference
-description: AppointmentLoadOptions property. Determines VEVENT index in case multiple events in a single ics file. The starting VEVENT in case reading multiple events by CalendarReaderCalendarReader
+description: AppointmentLoadOptions property. Gets or sets the zerobased index of the event VEVENT to load when the calendar contains several. For CalendarReader it is the index of the first event to read. The default is 0
 type: docs
 weight: 40
 url: /net/aspose.email.calendar/appointmentloadoptions/eventindex/
 ---
 ## AppointmentLoadOptions.EventIndex property
 
-Determines VEVENT index in case multiple events in a single ics file. The starting VEVENT in case reading multiple events by CalendarReader[`CalendarReader`](../../calendarreader/).
+Gets or sets the zero-based index of the event (VEVENT) to load when the calendar contains several. For [`CalendarReader`](../../calendarreader/) it is the index of the first event to read. The default is 0.
 
 ```csharp
 public int EventIndex { get; set; }

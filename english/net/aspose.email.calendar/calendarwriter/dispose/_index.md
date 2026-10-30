@@ -1,14 +1,14 @@
 ---
 title: CalendarWriter.Dispose
 second_title: Aspose.Email for .NET API Reference
-description: CalendarWriter method. Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources
+description: CalendarWriter method. Closes the underlying stream including a stream passed to the constructor
 type: docs
 weight: 20
 url: /net/aspose.email.calendar/calendarwriter/dispose/
 ---
 ## CalendarWriter.Dispose method
 
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+Closes the underlying stream, including a stream passed to the constructor.
 
 ```csharp
 public void Dispose()

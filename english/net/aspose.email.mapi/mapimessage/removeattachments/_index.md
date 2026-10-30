@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.RemoveAttachments
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage method. Removes all of the attachments from the specified Outlook Message files
+description: MapiMessage method. Removes all attachments from an MSG file overwrites the file and returns the removed attachments
 type: docs
-weight: 470
+weight: 490
 url: /net/aspose.email.mapi/mapimessage/removeattachments/
 ---
 ## MapiMessage.RemoveAttachments method
 
-Removes all of the attachments from the specified Outlook Message files.
+Removes all attachments from an MSG file, overwrites the file, and returns the removed attachments.
 
 ```csharp
 public static MapiAttachmentCollection RemoveAttachments(string path)
@@ -16,40 +16,43 @@ public static MapiAttachmentCollection RemoveAttachments(string path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | String | The name of the Outlook Message file. |
+| path | String | The path of the MSG file. |
 
 ### Return Value
 
-The attachments collection.
+The removed attachments.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *path* is `null`. |
+| ArgumentException | *path* is empty. |
 
 ## Examples
 
-The following exmaple demonstrates how to destroy attachments in Outlook Message files.
+This example removes the attachments from an MSG file and saves them to disk.
 
 [C#]
 
 ```csharp
-//Remove attachments from Outlook Message files
-MapiAttachmentCollection attachments = MapiMessage.RemoveAttachments(@"c:\outlookmessage.msg");
+MapiAttachmentCollection attachments = MapiMessage.RemoveAttachments(@"c:\messages\message.msg");
 
-//Attachments
-foreach(MapiAttachment att in attachments)
+foreach (MapiAttachment attachment in attachments)
 {
-   Console.WriteLine("Attachment Name:"+att.FileName);
-   att.Save(att.FileName);
+    Console.WriteLine("Attachment: " + attachment.LongFileName);
+    attachment.Save(Path.Combine(@"c:\attachments", attachment.LongFileName));
 }
 ```
 
 [Visual Basic]
 
 ```csharp
-'Remove attachments from Outlook Message files
-MapiAttachmentCollection attachments = MapiMessage.RemoveAttachments("c:\outlookmessage.msg");
+Dim attachments As MapiAttachmentCollection = MapiMessage.RemoveAttachments("c:\messages\message.msg")
 
-'Attachments 
-For Each att As MapiAttachment In msg.Attachments 
-     Console.WriteLine("Attachment Name:" + att.FileName) 
-     att.Save(att.FileName) 
+For Each attachment As MapiAttachment In attachments
+    Console.WriteLine("Attachment: " + attachment.LongFileName)
+    attachment.Save(Path.Combine("c:\attachments", attachment.LongFileName))
 Next
 ```
 

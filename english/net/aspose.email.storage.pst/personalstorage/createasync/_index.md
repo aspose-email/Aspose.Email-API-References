@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.CreateAsync
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Creates the new PST file with the specified file name
+description: PersonalStorage method. Asynchronously creates a new PST file
 type: docs
 weight: 420
 url: /net/aspose.email.storage.pst/personalstorage/createasync/
 ---
 ## CreateAsync(string, FileFormatVersion, CancellationToken) {#createasync_2}
 
-Creates the new PST file with the specified file name.
+Asynchronously creates a new PST file.
 
 ```csharp
 public static Task<PersonalStorage> CreateAsync(string fileName, FileFormatVersion version, 
@@ -17,24 +17,25 @@ public static Task<PersonalStorage> CreateAsync(string fileName, FileFormatVersi
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | The full name of the file. |
-| version | FileFormatVersion | The PST file version. |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
+| fileName | String | The path of the file to create. The file must not exist. |
+| version | FileFormatVersion | The version of the PST. Only `FileFormatVersion.Unicode` is supported. |
+| token | CancellationToken | A token to cancel the operation. |
 
 ### Return Value
 
-A PersonalStorage object that represents the new PST.
+A task whose result is the new PST, open for writing.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | throws if ANSI file version is created |
-| ArgumentNullException | throws if file name is null or empty |
+| NotImplementedException | *version* is `FileFormatVersion.ANSI`. |
+| ArgumentNullException | *fileName* is `null` or empty. |
+| IOException | A file named *fileName* already exists. |
 
 ## Remarks
 
-Note, only Unicode file version creation is supported now.
+Only Unicode PST files can be created.
 
 ### See Also
 
@@ -47,7 +48,7 @@ Note, only Unicode file version creation is supported now.
 
 ## CreateAsync(Stream, FileFormatVersion, CancellationToken) {#createasync_1}
 
-Creates the PST in a stream.
+Asynchronously creates a new PST in a stream.
 
 ```csharp
 public static Task<PersonalStorage> CreateAsync(Stream stream, FileFormatVersion version, 
@@ -56,24 +57,24 @@ public static Task<PersonalStorage> CreateAsync(Stream stream, FileFormatVersion
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The stream in which PST is created. |
-| version | FileFormatVersion | The PST file version. |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
+| stream | Stream | The stream to write the PST to. |
+| version | FileFormatVersion | The version of the PST. Only `FileFormatVersion.Unicode` is supported. |
+| token | CancellationToken | A token to cancel the operation. |
 
 ### Return Value
 
-A PersonalStorage object that represents the new PST.
+A task whose result is the new PST, open for writing.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | throws if ANSI file version is created |
-| ArgumentNullException | throws if file name is null or empty |
+| NotImplementedException | *version* is `FileFormatVersion.ANSI`. |
+| ArgumentNullException | *stream* is `null`. |
 
 ## Remarks
 
-Note, only Unicode file version creation is supported now.
+Only Unicode PST files can be created. The stream is closed when the storage is disposed. Use the overload with leaveStreamOpen to keep it open.
 
 ### See Also
 
@@ -86,7 +87,7 @@ Note, only Unicode file version creation is supported now.
 
 ## CreateAsync(Stream, FileFormatVersion, bool, CancellationToken) {#createasync}
 
-Creates the PST in a stream.
+Asynchronously creates a new PST in a stream.
 
 ```csharp
 public static Task<PersonalStorage> CreateAsync(Stream stream, FileFormatVersion version, 
@@ -95,25 +96,25 @@ public static Task<PersonalStorage> CreateAsync(Stream stream, FileFormatVersion
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The stream in which PST is created. |
-| version | FileFormatVersion | The PST file version. |
-| leaveStreamOpen | Boolean | Leave stream open when PersonalStorage is disposed. |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
+| stream | Stream | The stream to write the PST to. |
+| version | FileFormatVersion | The version of the PST. Only `FileFormatVersion.Unicode` is supported. |
+| leaveStreamOpen | Boolean | `true` to leave *stream* open when the storage is disposed. |
+| token | CancellationToken | A token to cancel the operation. |
 
 ### Return Value
 
-A PersonalStorage object that represents the new PST.
+A task whose result is the new PST, open for writing.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | throws if ANSI file version is created |
-| ArgumentNullException | throws if file name is null or empty |
+| NotImplementedException | *version* is `FileFormatVersion.ANSI`. |
+| ArgumentNullException | *stream* is `null`. |
 
 ## Remarks
 
-Note, only Unicode file version creation is supported now.
+Only Unicode PST files can be created.
 
 ### See Also
 

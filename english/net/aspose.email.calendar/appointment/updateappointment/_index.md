@@ -1,14 +1,14 @@
 ---
 title: Appointment.UpdateAppointment
 second_title: Aspose.Email for .NET API Reference
-description: Appointment method. Updates the appointment
+description: Appointment method. Creates an update of this meeting to send to its attendees
 type: docs
 weight: 420
 url: /net/aspose.email.calendar/appointment/updateappointment/
 ---
 ## UpdateAppointment() {#updateappointment}
 
-Updates the appointment.
+Creates an update of this meeting to send to its attendees.
 
 ```csharp
 public AlternateView UpdateAppointment()
@@ -16,7 +16,11 @@ public AlternateView UpdateAppointment()
 
 ### Return Value
 
-AlternateView[`AlternateView`](../../../aspose.email/alternateview/) that represents the format to view an email message.
+An [`AlternateView`](../../../aspose.email/alternateview/) with the iCalendar data (text/calendar) to add to a [`MailMessage`](../../../aspose.email/mailmessage/).
+
+## Remarks
+
+The update gets sequence number 1. Use the overload with a sequence number to set it explicitly.
 
 ### See Also
 
@@ -29,7 +33,7 @@ AlternateView[`AlternateView`](../../../aspose.email/alternateview/) that repres
 
 ## UpdateAppointment(int) {#updateappointment_1}
 
-Updates the appointment.
+Creates an update of this meeting with the specified sequence number.
 
 ```csharp
 public AlternateView UpdateAppointment(int seqId)
@@ -37,11 +41,11 @@ public AlternateView UpdateAppointment(int seqId)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| seqId | Int32 | The sequence id. |
+| seqId | Int32 | The sequence number to write (the iCalendar SEQUENCE property). |
 
 ### Return Value
 
-AlternateView[`AlternateView`](../../../aspose.email/alternateview/) that represents the format to view an email message.
+An [`AlternateView`](../../../aspose.email/alternateview/) with the iCalendar data (text/calendar) to add to a [`MailMessage`](../../../aspose.email/mailmessage/).
 
 ### See Also
 

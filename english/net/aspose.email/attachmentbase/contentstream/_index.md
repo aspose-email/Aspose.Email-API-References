@@ -1,14 +1,14 @@
 ---
 title: AttachmentBase.ContentStream
 second_title: Aspose.Email for .NET API Reference
-description: AttachmentBase property. Gets or sets the content stream
+description: AttachmentBase property. Gets or sets the stream that holds the content
 type: docs
 weight: 20
 url: /net/aspose.email/attachmentbase/contentstream/
 ---
 ## AttachmentBase.ContentStream property
 
-Gets or sets the content stream.
+Gets or sets the stream that holds the content.
 
 ```csharp
 public Stream ContentStream { get; set; }

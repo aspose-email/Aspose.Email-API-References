@@ -1,14 +1,14 @@
 ---
 title: MessageStore.ChangePassword
 second_title: Aspose.Email for .NET API Reference
-description: MessageStore method. Sets the password
+description: MessageStore method. Sets or changes the password of the PST
 type: docs
 weight: 50
 url: /net/aspose.email.storage.pst/messagestore/changepassword/
 ---
 ## MessageStore.ChangePassword method
 
-Sets the password.
+Sets or changes the password of the PST.
 
 ```csharp
 public void ChangePassword(string password)
@@ -16,13 +16,13 @@ public void ChangePassword(string password)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | String | The string that represents the password. |
+| password | String | The new password. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
+| NotImplementedException | The PST is in the ANSI format, which cannot be edited. |
 
 ### See Also
 

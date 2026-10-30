@@ -24,7 +24,7 @@ public MapiContactCollection()
 
 ## MapiContactCollection(IEnumerable&lt;MapiContact&gt;) {#constructor_1}
 
-Initializes a new instance of the [`MapiContactCollection`](../) class.
+Initializes a new instance of the [`MapiContactCollection`](../) class with the specified items.
 
 ```csharp
 public MapiContactCollection(IEnumerable<MapiContact> collection)
@@ -32,7 +32,7 @@ public MapiContactCollection(IEnumerable<MapiContact> collection)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| collection | IEnumerable`1 | Initial items of collection |
+| collection | IEnumerable`1 | The items to add. |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ReplicationMessagePriority
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_REPLICATION_MESSAGE_PRIORITY
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_REPLICATION_MESSAGE_PRIORITY. Property tag 0x66920003 data type Integer32
 type: docs
 weight: 15950
 url: /net/aspose.email.mapi/knownpropertylist/replicationmessagepriority/
 ---
 ## KnownPropertyList.ReplicationMessagePriority field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_REPLICATION_MESSAGE_PRIORITY
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_REPLICATION_MESSAGE_PRIORITY. Property tag: 0x66920003; data type: Integer32.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReplicationMessagePriority;

@@ -24,7 +24,7 @@ public MapiCalendarCollection()
 
 ## MapiCalendarCollection(IEnumerable&lt;MapiCalendar&gt;) {#constructor_1}
 
-Initializes a new instance of the [`MapiCalendarCollection`](../) class.
+Initializes a new instance of the [`MapiCalendarCollection`](../) class with the specified items.
 
 ```csharp
 public MapiCalendarCollection(IEnumerable<MapiCalendar> collection)
@@ -32,7 +32,7 @@ public MapiCalendarCollection(IEnumerable<MapiCalendar> collection)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| collection | IEnumerable`1 | Initial items of collection |
+| collection | IEnumerable`1 | The items to add. |
 
 ### See Also
 

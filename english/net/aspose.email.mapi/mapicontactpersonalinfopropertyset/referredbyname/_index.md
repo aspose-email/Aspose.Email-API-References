@@ -1,14 +1,14 @@
 ---
 title: MapiContactPersonalInfoPropertySet.ReferredByName
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactPersonalInfoPropertySet property. Specifies the name of the person who referred this contact to the user
+description: MapiContactPersonalInfoPropertySet property. Gets or sets the name of the person who referred the contact to the user
 type: docs
 weight: 190
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/referredbyname/
 ---
 ## MapiContactPersonalInfoPropertySet.ReferredByName property
 
-Specifies the name of the person who referred this contact to the user
+Gets or sets the name of the person who referred the contact to the user.
 
 ```csharp
 public string ReferredByName { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: MapiAttachment.SubStorages
 second_title: Aspose.Email for .NET API Reference
-description: MapiAttachment property. Gets the sub storages
+description: MapiAttachment property. Gets the substorages of the attachment
 type: docs
 weight: 160
 url: /net/aspose.email.mapi/mapiattachment/substorages/
 ---
 ## MapiAttachment.SubStorages property
 
-Gets the sub storages.
+Gets the sub-storages of the attachment.
 
 ```csharp
 public MapiPropertyCollection SubStorages { get; }
@@ -16,7 +16,7 @@ public MapiPropertyCollection SubStorages { get; }
 
 ### Property Value
 
-The sub storages.
+The sub-storages.
 
 ### See Also
 

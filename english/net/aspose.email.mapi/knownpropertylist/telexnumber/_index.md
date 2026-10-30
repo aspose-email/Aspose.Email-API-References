@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.TelexNumber
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains the mail users telex number. This property is returned from an NSPI server as a PtypMultipleBinary. Otherwise the data type is PtypString. Area MapiMailUser Canonical name PidTagTelexNumber Alternate names PR_TELEX_NUMBER PR_TELEX_NUMBER_A PR_TELEX_NUMBER_W
+description: KnownPropertyList field. Contains the mail users telex number. This property is returned from an NSPI server as a PtypMultipleBinary. Otherwise the data type is PtypString. Area MapiMailUser. Canonical name PidTagTelexNumber. Alternate names PR_TELEX_NUMBER PR_TELEX_NUMBER_A PR_TELEX_NUMBER_W
 type: docs
 weight: 18970
 url: /net/aspose.email.mapi/knownpropertylist/telexnumber/
 ---
 ## KnownPropertyList.TelexNumber field
 
-Contains the mail user's telex number. This property is returned from an NSPI server as a PtypMultipleBinary. Otherwise, the data type is PtypString. Area: MapiMailUser Canonical name: PidTagTelexNumber Alternate names: PR_TELEX_NUMBER, PR_TELEX_NUMBER_A, PR_TELEX_NUMBER_W,
+Contains the mail user's telex number. This property is returned from an NSPI server as a PtypMultipleBinary. Otherwise, the data type is PtypString. Area: MapiMailUser. Canonical name: PidTagTelexNumber. Alternate names: PR_TELEX_NUMBER, PR_TELEX_NUMBER_A, PR_TELEX_NUMBER_W.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TelexNumber;

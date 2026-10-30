@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.LatestDeliveryTime
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_LATEST_DELIVERY_TIME
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_LATEST_DELIVERY_TIME. Property tag 0x00190040 data type Time
 type: docs
 weight: 12160
 url: /net/aspose.email.mapi/knownpropertylist/latestdeliverytime/
 ---
 ## KnownPropertyList.LatestDeliveryTime field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_LATEST_DELIVERY_TIME
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_LATEST_DELIVERY_TIME. Property tag: 0x00190040; data type: Time.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor LatestDeliveryTime;

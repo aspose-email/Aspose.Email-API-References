@@ -1,14 +1,14 @@
 ---
 title: SaveResult.MissedProperties
 second_title: Aspose.Email for .NET API Reference
-description: SaveResult property. Gets the collection of missed properties
+description: SaveResult property. Gets the properties that could not be read
 type: docs
 weight: 20
 url: /net/aspose.email.storage.pst/saveresult/missedproperties/
 ---
 ## SaveResult.MissedProperties property
 
-Gets the collection of missed properties.
+Gets the properties that could not be read.
 
 ```csharp
 public List<PropertyDescriptor> MissedProperties { get; }

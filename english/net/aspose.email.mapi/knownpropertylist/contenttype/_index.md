@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ContentType
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies the type of the body part content. Area Email Canonical name PidNameContentType Alternate names urnschemasmailheadercontenttype
+description: KnownPropertyList field. Specifies the type of the body part content. Area Email. Canonical name PidNameContentType. Alternate names urnschemasmailheadercontenttype
 type: docs
 weight: 3360
 url: /net/aspose.email.mapi/knownpropertylist/contenttype/
 ---
 ## KnownPropertyList.ContentType field
 
-Specifies the type of the body part content. Area: Email Canonical name: PidNameContentType Alternate names: urn:schemas:mailheader:content-type
+Specifies the type of the body part content. Area: Email. Canonical name: PidNameContentType. Alternate names: urn:schemas:mailheader:content-type.
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ContentType;

@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarTimeZoneInfo.TimeZoneFlags
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarTimeZoneInfo property. Gets or sets individual bit flags that specify information about this TimeZoneRule
+description: MapiCalendarTimeZoneInfo property. Gets or sets the flags of the rule
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapicalendartimezoneinfo/timezoneflags/
 ---
 ## MapiCalendarTimeZoneInfo.TimeZoneFlags property
 
-Gets or sets individual bit flags that specify information about this TimeZoneRule
+Gets or sets the flags of the rule.
 
 ```csharp
 public MapiCalendarTimeZoneFlags TimeZoneFlags { get; set; }

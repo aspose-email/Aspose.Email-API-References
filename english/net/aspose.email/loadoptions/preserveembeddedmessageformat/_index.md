@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.PreserveEmbeddedMessageFormat
 second_title: Aspose.Email for .NET API Reference
-description: LoadOptions property. Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. By default the value is false
+description: LoadOptions property. Gets or sets a value indicating whether embedded messages keep their original format EML or MSG when loaded. The default is false
 type: docs
 weight: 30
 url: /net/aspose.email/loadoptions/preserveembeddedmessageformat/
 ---
 ## LoadOptions.PreserveEmbeddedMessageFormat property
 
-Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. By default the value is false.
+Gets or sets a value indicating whether embedded messages keep their original format (EML or MSG) when loaded. The default is `false`.
 
 ```csharp
 public bool PreserveEmbeddedMessageFormat { get; set; }

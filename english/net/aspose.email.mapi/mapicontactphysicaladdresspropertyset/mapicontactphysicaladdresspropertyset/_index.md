@@ -8,7 +8,7 @@ url: /net/aspose.email.mapi/mapicontactphysicaladdresspropertyset/mapicontactphy
 ---
 ## MapiContactPhysicalAddressPropertySet() {#constructor}
 
-Initializes a new instance of the [`MapiContactPhysicalAddressPropertySet`](../) class
+Initializes a new instance of the [`MapiContactPhysicalAddressPropertySet`](../) class.
 
 ```csharp
 public MapiContactPhysicalAddressPropertySet()
@@ -24,7 +24,7 @@ public MapiContactPhysicalAddressPropertySet()
 
 ## MapiContactPhysicalAddressPropertySet(MapiPropertyCollection) {#constructor_1}
 
-Initializes a new instance of the [`MapiContactPhysicalAddressPropertySet`](../) class
+Initializes a new instance of the [`MapiContactPhysicalAddressPropertySet`](../) class from contact properties.
 
 ```csharp
 public MapiContactPhysicalAddressPropertySet(MapiPropertyCollection properties)
@@ -32,7 +32,7 @@ public MapiContactPhysicalAddressPropertySet(MapiPropertyCollection properties)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| properties | MapiPropertyCollection | A [`MapiPropertyCollection`](../../mapipropertycollection/) containing contact physical addresses properties |
+| properties | MapiPropertyCollection | The properties that contain the addresses. |
 
 ### See Also
 

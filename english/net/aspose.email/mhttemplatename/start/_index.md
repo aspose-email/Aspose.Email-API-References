@@ -1,14 +1,14 @@
 ---
 title: MhtTemplateName.Start
 second_title: Aspose.Email for .NET API Reference
-description: MhtTemplateName field. Start header
+description: MhtTemplateName field. The name of the header with the start of an event
 type: docs
 weight: 180
 url: /net/aspose.email/mhttemplatename/start/
 ---
 ## MhtTemplateName.Start field
 
-Start header.
+The name of the header with the start of an event.
 
 ```csharp
 public const string Start;

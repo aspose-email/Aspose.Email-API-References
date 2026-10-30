@@ -1,14 +1,14 @@
 ---
 title: Class MailboxInfo
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.MailboxInfo class. Represents identification information about message in a mailbox
+description: Aspose.Email.MailboxInfo class. Identifies a message in a mailbox on a server
 type: docs
 weight: 16540
 url: /net/aspose.email/mailboxinfo/
 ---
 ## MailboxInfo class
 
-Represents identification information about message in a mailbox.
+Identifies a message in a mailbox on a server.
 
 ```csharp
 public class MailboxInfo
@@ -18,8 +18,8 @@ public class MailboxInfo
 
 | Name | Description |
 | --- | --- |
-| [SequenceNumber](../../aspose.email/mailboxinfo/sequencenumber/) { get; set; } | The sequence number of message. |
-| [UniqueId](../../aspose.email/mailboxinfo/uniqueid/) { get; set; } | The unique id of message. |
+| [SequenceNumber](../../aspose.email/mailboxinfo/sequencenumber/) { get; set; } | Gets or sets the sequence number of the message in the mailbox. |
+| [UniqueId](../../aspose.email/mailboxinfo/uniqueid/) { get; set; } | Gets or sets the unique identifier of the message in the mailbox. |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.PagerTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains the mail users pager telephone number. Area Address Properties Canonical name PidTagPagerTelephoneNumber Alternate names PR_PAGER_TELEPHONE_NUMBER PR_PAGER_TELEPHONE_NUMBER_A
+description: KnownPropertyList field. Contains the mail users pager telephone number. Area Address Properties. Canonical name PidTagPagerTelephoneNumber. Alternate names PR_PAGER_TELEPHONE_NUMBER PR_PAGER_TELEPHONE_NUMBER_A
 type: docs
 weight: 14240
 url: /net/aspose.email.mapi/knownpropertylist/pagertelephonenumber/
 ---
 ## KnownPropertyList.PagerTelephoneNumber field
 
-Contains the mail user's pager telephone number. Area: Address Properties Canonical name: PidTagPagerTelephoneNumber Alternate names: PR_PAGER_TELEPHONE_NUMBER, PR_PAGER_TELEPHONE_NUMBER_A,
+Contains the mail user's pager telephone number. Area: Address Properties. Canonical name: PidTagPagerTelephoneNumber. Alternate names: PR_PAGER_TELEPHONE_NUMBER, PR_PAGER_TELEPHONE_NUMBER_A.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PagerTelephoneNumber;

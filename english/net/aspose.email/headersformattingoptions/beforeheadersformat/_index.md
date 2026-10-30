@@ -1,14 +1,14 @@
 ---
 title: HeadersFormattingOptions.BeforeHeadersFormat
 second_title: Aspose.Email for .NET API Reference
-description: HeadersFormattingOptions property. Before headers format
+description: HeadersFormattingOptions property. Gets or sets the HTML written before the block of headers
 type: docs
 weight: 30
 url: /net/aspose.email/headersformattingoptions/beforeheadersformat/
 ---
 ## HeadersFormattingOptions.BeforeHeadersFormat property
 
-Before headers format.
+Gets or sets the HTML written before the block of headers.
 
 ```csharp
 public string BeforeHeadersFormat { get; set; }
@@ -16,7 +16,7 @@ public string BeforeHeadersFormat { get; set; }
 
 ### Property Value
 
-The styles to be injected into resulting html body.
+The HTML fragment.
 
 ### See Also
 

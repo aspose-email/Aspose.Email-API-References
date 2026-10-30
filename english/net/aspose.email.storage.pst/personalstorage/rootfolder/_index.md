@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.RootFolder
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage property. Gets the root folder of PST
+description: PersonalStorage property. Gets the root folder of the PST which contains all other folders
 type: docs
 weight: 80
 url: /net/aspose.email.storage.pst/personalstorage/rootfolder/
 ---
 ## PersonalStorage.RootFolder property
 
-Gets the root folder of PST.
+Gets the root folder of the PST, which contains all other folders.
 
 ```csharp
 public FolderInfo RootFolder { get; }

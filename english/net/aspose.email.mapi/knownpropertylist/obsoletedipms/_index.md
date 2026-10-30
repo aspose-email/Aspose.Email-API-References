@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ObsoletedIpms
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_OBSOLETED_IPMS
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_OBSOLETED_IPMS. Property tag 0x001F0102 data type Binary
 type: docs
 weight: 13280
 url: /net/aspose.email.mapi/knownpropertylist/obsoletedipms/
 ---
 ## KnownPropertyList.ObsoletedIpms field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_OBSOLETED_IPMS
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_OBSOLETED_IPMS. Property tag: 0x001F0102; data type: Binary.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ObsoletedIpms;

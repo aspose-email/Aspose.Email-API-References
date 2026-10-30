@@ -1,14 +1,14 @@
 ---
 title: FolderInfo.MoveSubfolders
 second_title: Aspose.Email for .NET API Reference
-description: FolderInfo method. Moves the subfolders to a new parent folder
+description: FolderInfo method. Moves all subfolders of this folder to another parent folder
 type: docs
 weight: 350
 url: /net/aspose.email.storage.pst/folderinfo/movesubfolders/
 ---
 ## FolderInfo.MoveSubfolders method
 
-Moves the subfolders to a new parent folder.
+Moves all subfolders of this folder to another parent folder.
 
 ```csharp
 public void MoveSubfolders(FolderInfo newFolder)
@@ -22,8 +22,10 @@ public void MoveSubfolders(FolderInfo newFolder)
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
-| ArgumentNullException | Thrown when new folder is null. |
+| NotImplementedException | The PST is in the ANSI format, which cannot be edited. |
+| ArgumentNullException | *newFolder* is `null`. |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | *newFolder* was not obtained from a [`PersonalStorage`](../../personalstorage/). |
+| InvalidOperationException | *newFolder* is a subfolder of this folder. |
 
 ### See Also
 

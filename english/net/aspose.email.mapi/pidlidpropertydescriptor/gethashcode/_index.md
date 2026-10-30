@@ -1,14 +1,14 @@
 ---
 title: PidLidPropertyDescriptor.GetHashCode
 second_title: Aspose.Email for .NET API Reference
-description: PidLidPropertyDescriptor method. Serves as a hash function for a type
+description: PidLidPropertyDescriptor method. Returns the hash code of the descriptor
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/pidlidpropertydescriptor/gethashcode/
 ---
 ## PidLidPropertyDescriptor.GetHashCode method
 
-Serves as a hash function for a type.
+Returns the hash code of the descriptor.
 
 ```csharp
 public override int GetHashCode()
@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### Return Value
 
-A hash code for the current object.
+The hash code.
 
 ### See Also
 

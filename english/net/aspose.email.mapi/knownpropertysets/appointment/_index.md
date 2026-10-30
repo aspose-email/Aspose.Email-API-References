@@ -1,14 +1,14 @@
 ---
 title: KnownPropertySets.Appointment
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertySets field. Area name Calendar Property set name PSETID_Appointment
+description: KnownPropertySets field. The PSETID_Appointment property set calendar appointment properties
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/knownpropertysets/appointment/
 ---
 ## KnownPropertySets.Appointment field
 
-Area name: Calendar Property set name: PSETID_Appointment
+The `PSETID_Appointment` property set: calendar (appointment) properties.
 
 ```csharp
 public static readonly Guid Appointment;

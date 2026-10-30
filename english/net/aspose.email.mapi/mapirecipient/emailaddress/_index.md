@@ -1,14 +1,14 @@
 ---
 title: MapiRecipient.EmailAddress
 second_title: Aspose.Email for .NET API Reference
-description: MapiRecipient property. Gets or sets the email address of the message recipient or sender
+description: MapiRecipient property. Gets or sets the email address of the recipient in SMTP form
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapirecipient/emailaddress/
 ---
 ## MapiRecipient.EmailAddress property
 
-Gets or sets the email address of the message recipient or sender.
+Gets or sets the e-mail address of the recipient, in SMTP form.
 
 ```csharp
 public string EmailAddress { get; set; }
@@ -16,18 +16,18 @@ public string EmailAddress { get; set; }
 
 ### Property Value
 
-The email address.
+The e-mail address.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | throws if recipient address is null or empty. |
-| ArgumentException | throws if recipient address is not in a recognized format. |
+| ArgumentNullException | The value is `null` or empty. |
+| ArgumentException | The address is not valid. |
 
 ## Remarks
 
-Note, this property displays an address in SMTP format. It means that if MapiRecipient.AddressType == "EX" and MapiPropertyTag.PR_EMAIL_ADDRESS contain an address in Exchange-style, the value for mapiRecipient.EmailAddress property filling is picked from PR_SMTP_ADDRESS. When setting a value, the values of PR_SEARCH_KEY and PR_ENTRYID properties are updated as well.
+For an Exchange (`EX`) recipient the SMTP address is returned, taken from `PR_SMTP_ADDRESS`. Setting the address also updates the search key and the EntryID of the recipient.
 
 ### See Also
 

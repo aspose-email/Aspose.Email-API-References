@@ -1,14 +1,14 @@
 ---
 title: TaskSaveOptions.SaveFormat
 second_title: Aspose.Email for .NET API Reference
-description: TaskSaveOptions property. Gets a save format
+description: TaskSaveOptions property. Gets the format these options save to
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/tasksaveoptions/saveformat/
 ---
 ## TaskSaveOptions.SaveFormat property
 
-Gets a save format
+Gets the format these options save to.
 
 ```csharp
 public TaskSaveFormat SaveFormat { get; }

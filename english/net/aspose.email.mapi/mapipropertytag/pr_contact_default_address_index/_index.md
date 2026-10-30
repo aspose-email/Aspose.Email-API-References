@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_CONTACT_DEFAULT_ADDRESS_INDEX
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Property tag 0x3A550003 PT_LONG
 type: docs
 weight: 1730
 url: /net/aspose.email.mapi/mapipropertytag/pr_contact_default_address_index/
 ---
 ## MapiPropertyTag.PR_CONTACT_DEFAULT_ADDRESS_INDEX field
+
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x3A550003 (PT_LONG).
 
 ```csharp
 public static readonly long PR_CONTACT_DEFAULT_ADDRESS_INDEX;

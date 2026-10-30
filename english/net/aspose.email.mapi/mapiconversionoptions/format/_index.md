@@ -1,14 +1,14 @@
 ---
 title: MapiConversionOptions.Format
 second_title: Aspose.Email for .NET API Reference
-description: MapiConversionOptions property. Represents outlook message format
+description: MapiConversionOptions property. Gets or sets the format of the resulting message Unicode or ANSI. The default is ANSI
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapiconversionoptions/format/
 ---
 ## MapiConversionOptions.Format property
 
-Represents outlook message format.
+Gets or sets the format of the resulting message: Unicode or ANSI. The default is ANSI.
 
 ```csharp
 public OutlookMessageFormat Format { get; set; }

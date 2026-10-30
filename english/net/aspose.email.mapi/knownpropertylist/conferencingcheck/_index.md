@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ConferencingCheck
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Area Conferencing Canonical name PidLidConferencingCheck Alternate names dispidConfCheck
+description: KnownPropertyList field. Area Conferencing. Canonical name PidLidConferencingCheck. Alternate names dispidConfCheck
 type: docs
 weight: 2940
 url: /net/aspose.email.mapi/knownpropertylist/conferencingcheck/
 ---
 ## KnownPropertyList.ConferencingCheck field
 
-Area: Conferencing Canonical name: PidLidConferencingCheck Alternate names: dispidConfCheck
+Area: Conferencing. Canonical name: PidLidConferencingCheck. Alternate names: dispidConfCheck.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ConferencingCheck;

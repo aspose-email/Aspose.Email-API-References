@@ -1,14 +1,14 @@
 ---
 title: BuildVersionInfo.ProductMajor
 second_title: Aspose.Email for .NET API Reference
-description: BuildVersionInfo field. Gets the product major version
+description: BuildVersionInfo field. The major version of the product
 type: docs
 weight: 40
 url: /net/aspose.email/buildversioninfo/productmajor/
 ---
 ## BuildVersionInfo.ProductMajor field
 
-Gets the product major version.
+The major version of the product.
 
 ```csharp
 public static readonly int ProductMajor;

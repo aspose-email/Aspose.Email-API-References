@@ -1,14 +1,14 @@
 ---
 title: MapiMessageReader.ReadMessage
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessageReader method. Parse the current stream and returns the data as a MapiMessage
+description: MapiMessageReader method. Reads the message
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapimessagereader/readmessage/
 ---
 ## MapiMessageReader.ReadMessage method
 
-Parse the current stream and returns the data as a MapiMessage.
+Reads the message.
 
 ```csharp
 public MapiMessage ReadMessage()
@@ -16,7 +16,7 @@ public MapiMessage ReadMessage()
 
 ### Return Value
 
-The MapiMessage from the input stream.
+The message.
 
 ### See Also
 

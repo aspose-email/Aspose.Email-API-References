@@ -1,14 +1,14 @@
 ---
 title: MhtTemplateName.ShowTimeAs
 second_title: Aspose.Email for .NET API Reference
-description: MhtTemplateName field. ShowTimeAs header
+description: MhtTemplateName field. The name of the header with the busy status of an event
 type: docs
 weight: 170
 url: /net/aspose.email/mhttemplatename/showtimeas/
 ---
 ## MhtTemplateName.ShowTimeAs field
 
-ShowTimeAs header.
+The name of the header with the busy status of an event.
 
 ```csharp
 public const string ShowTimeAs;

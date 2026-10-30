@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_ORIGINAL_SENT_REPRESENTING_SEARCH_KEY
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. Identifies an address book search key that contains the SearchKey of the end user who is represented by the original message sender. Canonical name PidTagOriginalSentRepresentingSearchKey. Property tag 0x005F0102 PT_BINARY
 type: docs
 weight: 15330
 url: /net/aspose.email.mapi/mapipropertytag/pr_original_sent_representing_search_key/
 ---
 ## MapiPropertyTag.PR_ORIGINAL_SENT_REPRESENTING_SEARCH_KEY field
+
+Identifies an address book search key that contains the SearchKey of the end user who is represented by the original message sender. Canonical name: PidTagOriginalSentRepresentingSearchKey. Property tag: 0x005F0102 (PT_BINARY).
 
 ```csharp
 public static readonly long PR_ORIGINAL_SENT_REPRESENTING_SEARCH_KEY;

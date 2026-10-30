@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.ToMailMessage
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage method. Creates an instance of MailMessage from this MapiMessage
+description: MapiMessage method. Converts the message to a MailMessage with the specified options
 type: docs
-weight: 430
+weight: 440
 url: /net/aspose.email.mapi/mapimessage/tomailmessage/
 ---
 ## MapiMessage.ToMailMessage method
 
-Creates an instance of MailMessage from this MapiMessage.
+Converts the message to a [`MailMessage`](../../../aspose.email/mailmessage/) with the specified options.
 
 ```csharp
 public MailMessage ToMailMessage(MailConversionOptions options)
@@ -16,11 +16,11 @@ public MailMessage ToMailMessage(MailConversionOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | MailConversionOptions | Allows to specify additional options when converting from MapiMessage to MailMessage. |
+| options | MailConversionOptions | The options of the conversion. |
 
 ### Return Value
 
-Returns a MailMessage instance which is loaded from this MapiMessage.
+The new [`MailMessage`](../../../aspose.email/mailmessage/).
 
 ### See Also
 

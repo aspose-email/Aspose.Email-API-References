@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AttachmentHidden
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Indicates whether an Attachment object is hidden from the end user. Area Message Attachment Properties Canonical name PidTagAttachmentHidden Alternate names PR_ATTACHMENT_HIDDEN
+description: KnownPropertyList field. Indicates whether an Attachment object is hidden from the end user. Area Message Attachment Properties. Canonical name PidTagAttachmentHidden. Alternate names PR_ATTACHMENT_HIDDEN
 type: docs
 weight: 1650
 url: /net/aspose.email.mapi/knownpropertylist/attachmenthidden/
 ---
 ## KnownPropertyList.AttachmentHidden field
 
-Indicates whether an Attachment object is hidden from the end user. Area: Message Attachment Properties Canonical name: PidTagAttachmentHidden Alternate names: PR_ATTACHMENT_HIDDEN
+Indicates whether an Attachment object is hidden from the end user. Area: Message Attachment Properties. Canonical name: PidTagAttachmentHidden. Alternate names: PR_ATTACHMENT_HIDDEN.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachmentHidden;

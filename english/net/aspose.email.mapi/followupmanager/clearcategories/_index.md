@@ -1,14 +1,14 @@
 ---
 title: FollowUpManager.ClearCategories
 second_title: Aspose.Email for .NET API Reference
-description: FollowUpManager method. Clears the categories
+description: FollowUpManager method. Removes all categories from the message
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/followupmanager/clearcategories/
 ---
 ## FollowUpManager.ClearCategories method
 
-Clears the categories.
+Removes all categories from the message.
 
 ```csharp
 public static void ClearCategories(MapiMessageItemBase message)
@@ -16,7 +16,7 @@ public static void ClearCategories(MapiMessageItemBase message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which the categories will be cleared. |
+| message | MapiMessageItemBase | The message to clear. |
 
 ### Exceptions
 

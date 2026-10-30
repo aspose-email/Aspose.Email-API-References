@@ -1,14 +1,14 @@
 ---
 title: MapiMessageItemBase.SubStorages
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessageItemBase property. Gets the sub storages
+description: MapiMessageItemBase property. Gets the substorages of the item
 type: docs
 weight: 190
 url: /net/aspose.email.mapi/mapimessageitembase/substorages/
 ---
 ## MapiMessageItemBase.SubStorages property
 
-Gets the sub storages.
+Gets the sub-storages of the item.
 
 ```csharp
 public MapiPropertyCollection SubStorages { get; }
@@ -16,7 +16,7 @@ public MapiPropertyCollection SubStorages { get; }
 
 ### Property Value
 
-The sub storages.
+The sub-storages.
 
 ### See Also
 

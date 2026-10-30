@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ResolveMethod
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies how to resolve any conflicts with the message. Area MapiStatus Canonical name PidTagResolveMethod Alternate names PR_RESOLVE_METHOD ptagResolveMethod
+description: KnownPropertyList field. Specifies how to resolve any conflicts with the message. Area MapiStatus. Canonical name PidTagResolveMethod. Alternate names PR_RESOLVE_METHOD ptagResolveMethod
 type: docs
 weight: 16210
 url: /net/aspose.email.mapi/knownpropertylist/resolvemethod/
 ---
 ## KnownPropertyList.ResolveMethod field
 
-Specifies how to resolve any conflicts with the message. Area: MapiStatus Canonical name: PidTagResolveMethod Alternate names: PR_RESOLVE_METHOD, ptagResolveMethod
+Specifies how to resolve any conflicts with the message. Area: MapiStatus. Canonical name: PidTagResolveMethod. Alternate names: PR_RESOLVE_METHOD, ptagResolveMethod.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ResolveMethod;

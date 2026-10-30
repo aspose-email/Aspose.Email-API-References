@@ -24,7 +24,7 @@ public FollowUpOptions()
 
 ## FollowUpOptions(string) {#constructor_1}
 
-Initializes a new instance of the [`FollowUpOptions`](../) class.
+Initializes a new instance of the [`FollowUpOptions`](../) class with the requested action.
 
 ```csharp
 public FollowUpOptions(string flagRequest)
@@ -32,7 +32,7 @@ public FollowUpOptions(string flagRequest)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| flagRequest | String | The flag request. |
+| flagRequest | String | The requested action, for example `Follow up`. |
 
 ### See Also
 
@@ -44,7 +44,7 @@ public FollowUpOptions(string flagRequest)
 
 ## FollowUpOptions(string, DateTime, DateTime) {#constructor_2}
 
-Initializes a new instance of the [`FollowUpOptions`](../) class.
+Initializes a new instance of the [`FollowUpOptions`](../) class with the requested action and its dates.
 
 ```csharp
 public FollowUpOptions(string flagRequest, DateTime startDate, DateTime dueDate)
@@ -52,9 +52,9 @@ public FollowUpOptions(string flagRequest, DateTime startDate, DateTime dueDate)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| flagRequest | String | The flag request. |
-| startDate | DateTime | The start Date. |
-| dueDate | DateTime | The due Date. |
+| flagRequest | String | The requested action, for example `Follow up`. |
+| startDate | DateTime | The date the follow-up starts. |
+| dueDate | DateTime | The date the follow-up is due. |
 
 ### See Also
 
@@ -66,7 +66,7 @@ public FollowUpOptions(string flagRequest, DateTime startDate, DateTime dueDate)
 
 ## FollowUpOptions(string, DateTime, DateTime, DateTime) {#constructor_3}
 
-Initializes a new instance of the [`FollowUpOptions`](../) class.
+Initializes a new instance of the [`FollowUpOptions`](../) class with the requested action, its dates and a reminder.
 
 ```csharp
 public FollowUpOptions(string flagRequest, DateTime startDate, DateTime dueDate, 
@@ -75,10 +75,10 @@ public FollowUpOptions(string flagRequest, DateTime startDate, DateTime dueDate,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| flagRequest | String | The flag request. |
-| startDate | DateTime | The start date. |
-| dueDate | DateTime | The due date. |
-| reminderTime | DateTime | The reminder time. |
+| flagRequest | String | The requested action, for example `Follow up`. |
+| startDate | DateTime | The date the follow-up starts. |
+| dueDate | DateTime | The date the follow-up is due. |
+| reminderTime | DateTime | The date and time of the reminder. |
 
 ### See Also
 

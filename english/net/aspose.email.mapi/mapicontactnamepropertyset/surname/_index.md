@@ -8,7 +8,7 @@ url: /net/aspose.email.mapi/mapicontactnamepropertyset/surname/
 ---
 ## MapiContactNamePropertySet.Surname property
 
-Gets or sets the surname (family name) of the contact
+Gets or sets the surname (family name) of the contact.
 
 ```csharp
 public string Surname { get; set; }

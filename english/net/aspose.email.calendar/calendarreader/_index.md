@@ -1,14 +1,14 @@
 ---
 title: Class CalendarReader
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.CalendarReader class. Provides functionality to read and extract events from an ICS iCalendar file
+description: Aspose.Email.Calendar.CalendarReader class. Reads the events of an iCalendar ICS file or stream one by one
 type: docs
 weight: 570
 url: /net/aspose.email.calendar/calendarreader/
 ---
 ## CalendarReader class
 
-Provides functionality to read and extract events from an ICS (iCalendar) file.
+Reads the events of an iCalendar (ICS) file or stream one by one.
 
 ```csharp
 public class CalendarReader
@@ -18,31 +18,31 @@ public class CalendarReader
 
 | Name | Description |
 | --- | --- |
-| [CalendarReader](calendarreader/#constructor)(Stream) | Initializes a new instance of CalendarReader with source stream and default Appointment LoadOptions. |
-| [CalendarReader](calendarreader/#constructor_2)(string) | Initializes a new instance of CalendarReader with source file and default Appointment LoadOptions. |
-| [CalendarReader](calendarreader/#constructor_1)(Stream, AppointmentLoadOptions) | Initializes a new instance of CalendarReader with source stream and Appointment LoadOptions. |
-| [CalendarReader](calendarreader/#constructor_3)(string, AppointmentLoadOptions) | Initializes a new instance of CalendarReader with source file and Appointment LoadOptions. |
+| [CalendarReader](calendarreader/#constructor)(Stream) | Initializes a new instance of the `CalendarReader` class that reads the specified stream with the default options. |
+| [CalendarReader](calendarreader/#constructor_2)(string) | Initializes a new instance of the `CalendarReader` class that reads the specified file with the default options. |
+| [CalendarReader](calendarreader/#constructor_1)(Stream, AppointmentLoadOptions) | Initializes a new instance of the `CalendarReader` class that reads the specified stream with the specified options. |
+| [CalendarReader](calendarreader/#constructor_3)(string, AppointmentLoadOptions) | Initializes a new instance of the `CalendarReader` class that reads the specified file with the specified options. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.email.calendar/calendarreader/count/) { get; } | Gets the number of Vevent components. |
-| [Current](../../aspose.email.calendar/calendarreader/current/) { get; } | Current read event. |
-| [IsMultiEvents](../../aspose.email.calendar/calendarreader/ismultievents/) { get; } | Gets whether calendar contains multi events. |
-| [Method](../../aspose.email.calendar/calendarreader/method/) { get; } | Gets the iCalendar object method type associated with the calendar object. |
-| [Version](../../aspose.email.calendar/calendarreader/version/) { get; } | Gets the Version of calendar. |
+| [Count](../../aspose.email.calendar/calendarreader/count/) { get; } | Gets the number of events (VEVENT components) in the calendar. |
+| [Current](../../aspose.email.calendar/calendarreader/current/) { get; } | Gets the event read by the last call to `NextEvent`, or `null` before the first call. |
+| [IsMultiEvents](../../aspose.email.calendar/calendarreader/ismultievents/) { get; } | Gets a value indicating whether the calendar contains more than one event. |
+| [Method](../../aspose.email.calendar/calendarreader/method/) { get; } | Gets the iCalendar METHOD of the calendar. |
+| [Version](../../aspose.email.calendar/calendarreader/version/) { get; } | Gets the version of the calendar: 2.0 for iCalendar, 1.0 for vCalendar. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [LoadAsMultiple](../../aspose.email.calendar/calendarreader/loadasmultiple/)() | Loads a list of events from a calendar with multiple events. |
-| [NextEvent](../../aspose.email.calendar/calendarreader/nextevent/)() | Reads next Event from source and save it to the Current. |
+| [LoadAsMultiple](../../aspose.email.calendar/calendarreader/loadasmultiple/)() | Reads all events of the calendar. |
+| [NextEvent](../../aspose.email.calendar/calendarreader/nextevent/)() | Reads the next event and makes it available in `Current`. |
 
 ## Remarks
 
-The `CalendarReader` class allows sequential reading of events from an iCalendar (.ics) file. It is designed to parse and access event details such as appointments, meetings, and other calendar items.
+The calendar is parsed when the reader is created. Call `NextEvent` until it returns `false` and take each event from `Current`, or call `LoadAsMultiple` to get all events at once. Only events (VEVENT components) are read.
 
 ## Examples
 

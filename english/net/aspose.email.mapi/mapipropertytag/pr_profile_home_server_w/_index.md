@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_PROFILE_HOME_SERVER_W
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. The Unicode form of PR_PROFILE_HOME_SERVER. Property tag 0x6602001F PT_UNICODE
 type: docs
 weight: 16820
 url: /net/aspose.email.mapi/mapipropertytag/pr_profile_home_server_w/
 ---
 ## MapiPropertyTag.PR_PROFILE_HOME_SERVER_W field
+
+The Unicode form of [`PR_PROFILE_HOME_SERVER`](../pr_profile_home_server/). Property tag: 0x6602001F (PT_UNICODE).
 
 ```csharp
 public static readonly long PR_PROFILE_HOME_SERVER_W;

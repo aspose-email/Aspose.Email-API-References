@@ -1,14 +1,14 @@
 ---
 title: Class ReminderAttachmentCollection
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.ReminderAttachmentCollection class. Contains collection of ReminderAttachment ReminderAttachmentobjects
+description: Aspose.Email.Calendar.ReminderAttachmentCollection class. A list of ReminderAttachment objects
 type: docs
 weight: 810
 url: /net/aspose.email.calendar/reminderattachmentcollection/
 ---
 ## ReminderAttachmentCollection class
 
-Contains collection of ReminderAttachment [`ReminderAttachment`](../reminderattachment/)objects.
+A list of [`ReminderAttachment`](../reminderattachment/) objects.
 
 ```csharp
 public class ReminderAttachmentCollection : List<ReminderAttachment>

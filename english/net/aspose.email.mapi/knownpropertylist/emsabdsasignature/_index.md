@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.EmsAbDsaSignature
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_DSA_SIGNATURE
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_EMS_AB_DSA_SIGNATURE. Property tag 0x80770102 data type Binary
 type: docs
 weight: 5660
 url: /net/aspose.email.mapi/knownpropertylist/emsabdsasignature/
 ---
 ## KnownPropertyList.EmsAbDsaSignature field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_EMS_AB_DSA_SIGNATURE
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_EMS_AB_DSA_SIGNATURE. Property tag: 0x80770102; data type: Binary.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDsaSignature;

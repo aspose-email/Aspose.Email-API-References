@@ -1,14 +1,14 @@
 ---
 title: MapiCalendar.EndDateTimeZone
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendar property. Gets or sets time zone information that indicates the time zone of the EndDate property
+description: MapiCalendar property. Gets or sets the time zone of EndDate
 type: docs
-weight: 80
+weight: 100
 url: /net/aspose.email.mapi/mapicalendar/enddatetimezone/
 ---
 ## MapiCalendar.EndDateTimeZone property
 
-Gets or sets time zone information that indicates the time zone of the EndDate property
+Gets or sets the time zone of [`EndDate`](../enddate/).
 
 ```csharp
 public MapiCalendarTimeZone EndDateTimeZone { get; set; }

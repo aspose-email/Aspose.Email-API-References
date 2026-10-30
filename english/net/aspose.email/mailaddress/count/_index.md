@@ -1,14 +1,14 @@
 ---
 title: MailAddress.Count
 second_title: Aspose.Email for .NET API Reference
-description: MailAddress property. Contains count of mail addresses
+description: MailAddress property. Gets the number of addresses which is always 1. Together with the indexer it lets an address be used where a list is expected
 type: docs
 weight: 30
 url: /net/aspose.email/mailaddress/count/
 ---
 ## MailAddress.Count property
 
-Contains count of mail addresses.
+Gets the number of addresses, which is always 1. Together with the indexer it lets an address be used where a list is expected.
 
 ```csharp
 public int Count { get; }

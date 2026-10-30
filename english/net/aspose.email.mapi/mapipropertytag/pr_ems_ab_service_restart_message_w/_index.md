@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_EMS_AB_SERVICE_RESTART_MESSAGE_W
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. The Unicode form of PR_EMS_AB_SERVICE_RESTART_MESSAGE. Property tag 0x8135001F PT_UNICODE
 type: docs
 weight: 10040
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_service_restart_message_w/
 ---
 ## MapiPropertyTag.PR_EMS_AB_SERVICE_RESTART_MESSAGE_W field
+
+The Unicode form of [`PR_EMS_AB_SERVICE_RESTART_MESSAGE`](../pr_ems_ab_service_restart_message/). Property tag: 0x8135001F (PT_UNICODE).
 
 ```csharp
 public static readonly long PR_EMS_AB_SERVICE_RESTART_MESSAGE_W;

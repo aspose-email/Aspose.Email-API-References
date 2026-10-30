@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.MergeWithAsync
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Merges the pst storage with one or more other pst files. Thus the combined files are sources
+description: PersonalStorage method. Asynchronously merges one or more other PST files into this PST
 type: docs
 weight: 340
 url: /net/aspose.email.storage.pst/personalstorage/mergewithasync/
 ---
 ## MergeWithAsync(string[], CancellationToken) {#mergewithasync_1}
 
-Merges the pst storage with one or more other pst files. Thus, the combined files are sources.
+Asynchronously merges one or more other PST files into this PST.
 
 ```csharp
 public Task MergeWithAsync(string[] sourceFileNames, CancellationToken token = default)
@@ -16,15 +16,15 @@ public Task MergeWithAsync(string[] sourceFileNames, CancellationToken token = d
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceFileNames | String[] | The source file names. |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
+| sourceFileNames | String[] | The paths of the PST files to merge. |
+| token | CancellationToken | A token to cancel the operation. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | "Throws when the filename collection is null." |
-| ArgumentException | "Throws when the filename in collection is null or empty." |
+| ArgumentNullException | *sourceFileNames* is `null`. |
+| ArgumentException | An element of *sourceFileNames* is `null` or empty. |
 
 ### See Also
 
@@ -36,7 +36,7 @@ public Task MergeWithAsync(string[] sourceFileNames, CancellationToken token = d
 
 ## MergeWithAsync(Stream[], CancellationToken) {#mergewithasync}
 
-Merges the pst storage with one or more other pst streams. Thus, the combined stream are sources.
+Asynchronously merges one or more other PST streams into this PST.
 
 ```csharp
 public Task MergeWithAsync(Stream[] sourceStreams, CancellationToken token = default)
@@ -44,15 +44,15 @@ public Task MergeWithAsync(Stream[] sourceStreams, CancellationToken token = def
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceStreams | Stream[] | The source streams. |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
+| sourceStreams | Stream[] | The streams with the PST data to merge. |
+| token | CancellationToken | A token to cancel the operation. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | "Throws when the stream collection is null." |
-| ArgumentException | "Throws when the stream in collection is null." |
+| ArgumentNullException | *sourceStreams* is `null`. |
+| ArgumentException | An element of *sourceStreams* is `null`. |
 
 ### See Also
 

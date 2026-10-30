@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarExceptionInfo.Location
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarExceptionInfo property. Gets or sets the location
+description: MapiCalendarExceptionInfo property. Gets or sets the location of the exception
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/location/
 ---
 ## MapiCalendarExceptionInfo.Location property
 
-Gets or sets the location.
+Gets or sets the location of the exception.
 
 ```csharp
 public string Location { get; set; }

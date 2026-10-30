@@ -1,14 +1,14 @@
 ---
 title: HeadersFormattingOptions.AfterHeadersFormat
 second_title: Aspose.Email for .NET API Reference
-description: HeadersFormattingOptions property. After headers format
+description: HeadersFormattingOptions property. Gets or sets the HTML written after the block of headers
 type: docs
 weight: 20
 url: /net/aspose.email/headersformattingoptions/afterheadersformat/
 ---
 ## HeadersFormattingOptions.AfterHeadersFormat property
 
-After headers format.
+Gets or sets the HTML written after the block of headers.
 
 ```csharp
 public string AfterHeadersFormat { get; set; }
@@ -16,7 +16,7 @@ public string AfterHeadersFormat { get; set; }
 
 ### Property Value
 
-The styles to be injected into resulting html body.
+The HTML fragment.
 
 ### See Also
 

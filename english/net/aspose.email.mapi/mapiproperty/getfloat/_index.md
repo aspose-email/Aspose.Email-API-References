@@ -1,14 +1,14 @@
 ---
 title: MapiProperty.GetFloat
 second_title: Aspose.Email for .NET API Reference
-description: MapiProperty method. Gets the bytes of the binary data as float
+description: MapiProperty method. Gets the value as a 32bit floatingpoint number
 type: docs
 weight: 190
 url: /net/aspose.email.mapi/mapiproperty/getfloat/
 ---
 ## MapiProperty.GetFloat method
 
-Gets the bytes of the binary data as float.
+Gets the value as a 32-bit floating-point number.
 
 ```csharp
 public virtual float GetFloat()
@@ -16,7 +16,7 @@ public virtual float GetFloat()
 
 ### Return Value
 
-The double value.
+The value.
 
 ### See Also
 

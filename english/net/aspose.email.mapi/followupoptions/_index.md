@@ -1,14 +1,14 @@
 ---
 title: Class FollowUpOptions
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.FollowUpOptions class. Represents configuration options for followup flags reminders categories and voting buttons in Outlook messages. This class encapsulates all the properties needed to set followup behavior on MapiMessage objects through the FollowUpManager class
+description: Aspose.Email.Mapi.FollowUpOptions class. The followup settings of a message flag dates reminder categories and voting buttons
 type: docs
 weight: 16600
 url: /net/aspose.email.mapi/followupoptions/
 ---
 ## FollowUpOptions class
 
-Represents configuration options for follow-up flags, reminders, categories, and voting buttons in Outlook messages. This class encapsulates all the properties needed to set follow-up behavior on [`MapiMessage`](../mapimessage/) objects through the [`FollowUpManager`](../followupmanager/) class.
+The follow-up settings of a message: flag, dates, reminder, categories and voting buttons.
 
 ```csharp
 public sealed class FollowUpOptions
@@ -19,28 +19,28 @@ public sealed class FollowUpOptions
 | Name | Description |
 | --- | --- |
 | [FollowUpOptions](followupoptions/#constructor)() | Initializes a new instance of the `FollowUpOptions` class. |
-| [FollowUpOptions](followupoptions/#constructor_1)(string) | Initializes a new instance of the `FollowUpOptions` class. |
-| [FollowUpOptions](followupoptions/#constructor_2)(string, DateTime, DateTime) | Initializes a new instance of the `FollowUpOptions` class. |
-| [FollowUpOptions](followupoptions/#constructor_3)(string, DateTime, DateTime, DateTime) | Initializes a new instance of the `FollowUpOptions` class. |
+| [FollowUpOptions](followupoptions/#constructor_1)(string) | Initializes a new instance of the `FollowUpOptions` class with the requested action. |
+| [FollowUpOptions](followupoptions/#constructor_2)(string, DateTime, DateTime) | Initializes a new instance of the `FollowUpOptions` class with the requested action and its dates. |
+| [FollowUpOptions](followupoptions/#constructor_3)(string, DateTime, DateTime, DateTime) | Initializes a new instance of the `FollowUpOptions` class with the requested action, its dates and a reminder. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Categories](../../aspose.email.mapi/followupoptions/categories/) { get; set; } | Gets or sets string that represents list of the categories, separated by semicolons (;). |
-| [CodePage](../../aspose.email.mapi/followupoptions/codepage/) { get; set; } | Gets or sets the code page. |
-| [DueDate](../../aspose.email.mapi/followupoptions/duedate/) { get; set; } | Gets or sets a date indicating the due date for the flagged message. |
-| [FlagRequest](../../aspose.email.mapi/followupoptions/flagrequest/) { get; set; } | Gets or sets a string indicating the requested action for an e-mail message. |
-| [IsCompleted](../../aspose.email.mapi/followupoptions/iscompleted/) { get; } | Gets a value indicating whether the Message object was flagged as completed. |
-| [RecipientsFlagRequest](../../aspose.email.mapi/followupoptions/recipientsflagrequest/) { get; set; } | Gets or sets a string indicating the requested action for recipients of an e-mail message. |
-| [RecipientsReminderTime](../../aspose.email.mapi/followupoptions/recipientsremindertime/) { get; set; } | Gets or sets a date for recipients indicating the date and time at which the reminder should occur. |
-| [ReminderTime](../../aspose.email.mapi/followupoptions/remindertime/) { get; set; } | Gets or sets a date indicating the date and time at which the reminder should occur. |
-| [StartDate](../../aspose.email.mapi/followupoptions/startdate/) { get; set; } | Gets or sets a date specifying the starting date and time for the flagged message. |
-| [VotingButtons](../../aspose.email.mapi/followupoptions/votingbuttons/) { get; set; } | Gets or sets string that represents list of the voting buttons names, separated by semicolons (;). |
+| [Categories](../../aspose.email.mapi/followupoptions/categories/) { get; set; } | Gets or sets the categories, separated by semicolons (`;`). |
+| [CodePage](../../aspose.email.mapi/followupoptions/codepage/) { get; set; } | Gets or sets the code page used to encode the strings of the options in an ANSI message. |
+| [DueDate](../../aspose.email.mapi/followupoptions/duedate/) { get; set; } | Gets or sets the date the follow-up is due. |
+| [FlagRequest](../../aspose.email.mapi/followupoptions/flagrequest/) { get; set; } | Gets or sets the requested action that Outlook shows with the flag, for example `Follow up`. |
+| [IsCompleted](../../aspose.email.mapi/followupoptions/iscompleted/) { get; } | Gets a value indicating whether the flag is marked as completed. |
+| [RecipientsFlagRequest](../../aspose.email.mapi/followupoptions/recipientsflagrequest/) { get; set; } | Gets or sets the requested action that the recipients of the message see with the flag. |
+| [RecipientsReminderTime](../../aspose.email.mapi/followupoptions/recipientsremindertime/) { get; set; } | Gets or sets the date and time the recipients of the message are reminded. |
+| [ReminderTime](../../aspose.email.mapi/followupoptions/remindertime/) { get; set; } | Gets or sets the date and time of the reminder. |
+| [StartDate](../../aspose.email.mapi/followupoptions/startdate/) { get; set; } | Gets or sets the date the follow-up starts. |
+| [VotingButtons](../../aspose.email.mapi/followupoptions/votingbuttons/) { get; set; } | Gets or sets the texts of the voting buttons, separated by semicolons (`;`). |
 
 ## Remarks
 
-Use this class to configure follow-up settings such as flag request text, start date, due date, reminder time, categories, and voting buttons. The [`FlagRequest`](./flagrequest/) property sets the follow-up text, [`StartDate`](./startdate/) and [`DueDate`](./duedate/) define the task timeline, [`Categories`](./categories/) specifies message categories, and [`VotingButtons`](./votingbuttons/) configures voting response options.
+Fill an instance and pass it to [`SetOptions`](../followupmanager/setoptions/), or read the settings of a message with [`GetOptions`](../followupmanager/getoptions/).
 
 ## Examples
 

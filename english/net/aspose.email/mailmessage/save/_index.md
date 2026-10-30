@@ -1,14 +1,14 @@
 ---
 title: MailMessage.Save
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage method. Save message as a file
+description: MailMessage method. Saves the message to a file in EML format whatever the file extension
 type: docs
 weight: 550
 url: /net/aspose.email/mailmessage/save/
 ---
 ## Save(string) {#save_2}
 
-Save message as a file
+Saves the message to a file in EML format, whatever the file extension.
 
 ```csharp
 public virtual void Save(string fileName)
@@ -16,7 +16,7 @@ public virtual void Save(string fileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Name of a file to save message. |
+| fileName | String | The path of the file to write. |
 
 ### See Also
 
@@ -28,7 +28,7 @@ public virtual void Save(string fileName)
 
 ## Save(string, SaveOptions) {#save_3}
 
-Save message as a file with additional options.
+Saves the message to a file in the format selected by the options.
 
 ```csharp
 public virtual void Save(string fileName, SaveOptions options)
@@ -36,8 +36,8 @@ public virtual void Save(string fileName, SaveOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Stream into which message is saved. |
-| options | SaveOptions | Additional options for saving[`SaveOptions`](../../saveoptions/). |
+| fileName | String | The path of the file to write. |
+| options | SaveOptions | The options; their class selects the format, such as [`MsgSaveOptions`](../../msgsaveoptions/) or [`MhtSaveOptions`](../../mhtsaveoptions/). |
 
 ## Examples
 
@@ -81,7 +81,7 @@ eml.Save($"{fileName}.html", options)
 
 ## Save(Stream, SaveOptions) {#save_1}
 
-Save message as a stream with additional options.
+Saves the message to a stream in the format selected by the options.
 
 ```csharp
 public virtual void Save(Stream stream, SaveOptions options)
@@ -89,8 +89,8 @@ public virtual void Save(Stream stream, SaveOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Stream into which message is saved. |
-| options | SaveOptions | Additional options for saving[`SaveOptions`](../../saveoptions/). |
+| stream | Stream | The stream to write to. |
+| options | SaveOptions | The options; their class selects the format, such as [`MsgSaveOptions`](../../msgsaveoptions/) or [`MhtSaveOptions`](../../mhtsaveoptions/). |
 
 ### See Also
 
@@ -103,7 +103,7 @@ public virtual void Save(Stream stream, SaveOptions options)
 
 ## Save(Stream) {#save}
 
-Save message as a stream
+Saves the message to a stream in EML format.
 
 ```csharp
 public virtual void Save(Stream stream)
@@ -111,7 +111,7 @@ public virtual void Save(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Stream into which message is saved |
+| stream | Stream | The stream to write to. |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: MapiConversionOptions.PreserveEmbeddedMessageFormat
 second_title: Aspose.Email for .NET API Reference
-description: MapiConversionOptions property. Gets or sets a value indicating whether it is necessary to preserve EML format of embedded message at converting to MapiMessage. By default the value is false
+description: MapiConversionOptions property. Gets or sets a value indicating whether embedded messages stay in EML format instead of being converted to MSG. The default is false
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapiconversionoptions/preserveembeddedmessageformat/
 ---
 ## MapiConversionOptions.PreserveEmbeddedMessageFormat property
 
-Gets or sets a value indicating whether it is necessary to preserve EML format of embedded message at converting to MapiMessage. By default the value is false.
+Gets or sets a value indicating whether embedded messages stay in EML format instead of being converted to MSG. The default is `false`.
 
 ```csharp
 public bool PreserveEmbeddedMessageFormat { get; set; }

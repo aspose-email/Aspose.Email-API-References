@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ListSubscribe
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains the URI that subscribes a recipient to a messages associated mailing list. Area Miscellaneous Properties Canonical name PidTagListSubscribe Alternate names PR_LIST_SUBSCRIBE PR_LIST_SUBSCRIBE_A PR_LIST_SUBSCRIBE_W
+description: KnownPropertyList field. Contains the URI that subscribes a recipient to a messages associated mailing list. Area Miscellaneous Properties. Canonical name PidTagListSubscribe. Alternate names PR_LIST_SUBSCRIBE PR_LIST_SUBSCRIBE_A PR_LIST_SUBSCRIBE_W
 type: docs
 weight: 12210
 url: /net/aspose.email.mapi/knownpropertylist/listsubscribe/
 ---
 ## KnownPropertyList.ListSubscribe field
 
-Contains the URI that subscribes a recipient to a message�s associated mailing list. Area: Miscellaneous Properties Canonical name: PidTagListSubscribe Alternate names: PR_LIST_SUBSCRIBE, PR_LIST_SUBSCRIBE_A, PR_LIST_SUBSCRIBE_W
+Contains the URI that subscribes a recipient to a message's associated mailing list. Area: Miscellaneous Properties. Canonical name: PidTagListSubscribe. Alternate names: PR_LIST_SUBSCRIBE, PR_LIST_SUBSCRIBE_A, PR_LIST_SUBSCRIBE_W.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ListSubscribe;

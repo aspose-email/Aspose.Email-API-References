@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.Language
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains a value that indicates the language in which the messaging user is writing messages. Area Address Properties Canonical name PidTagLanguage Alternate names PR_LANGUAGE PR_LANGUAGE_A PR_LANGUAGE_W
+description: KnownPropertyList field. Contains a value that indicates the language in which the messaging user is writing messages. Area Address Properties. Canonical name PidTagLanguage. Alternate names PR_LANGUAGE PR_LANGUAGE_A PR_LANGUAGE_W
 type: docs
 weight: 12020
 url: /net/aspose.email.mapi/knownpropertylist/language/
 ---
 ## KnownPropertyList.Language field
 
-Contains a value that indicates the language in which the messaging user is writing messages. Area: Address Properties Canonical name: PidTagLanguage Alternate names: PR_LANGUAGE, PR_LANGUAGE_A, PR_LANGUAGE_W,
+Contains a value that indicates the language in which the messaging user is writing messages. Area: Address Properties. Canonical name: PidTagLanguage. Alternate names: PR_LANGUAGE, PR_LANGUAGE_A, PR_LANGUAGE_W.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Language;

@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ListUnsubscribe
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains the URI that unsubscribes a recipient from a messages associated mailing list. Area Miscellaneous Properties Canonical name PidTagListUnsubscribe Alternate names PR_LIST_UNSUBSCRIBE PR_LIST_UNSUBSCRIBE_A PR_LIST_UNSUBSCRIBE_W
+description: KnownPropertyList field. Contains the URI that unsubscribes a recipient from a messages associated mailing list. Area Miscellaneous Properties. Canonical name PidTagListUnsubscribe. Alternate names PR_LIST_UNSUBSCRIBE PR_LIST_UNSUBSCRIBE_A PR_LIST_UNSUBSCRIBE_W
 type: docs
 weight: 12220
 url: /net/aspose.email.mapi/knownpropertylist/listunsubscribe/
 ---
 ## KnownPropertyList.ListUnsubscribe field
 
-Contains the URI that unsubscribes a recipient from a message�s associated mailing list. Area: Miscellaneous Properties Canonical name: PidTagListUnsubscribe Alternate names: PR_LIST_UNSUBSCRIBE, PR_LIST_UNSUBSCRIBE_A, PR_LIST_UNSUBSCRIBE_W
+Contains the URI that unsubscribes a recipient from a message's associated mailing list. Area: Miscellaneous Properties. Canonical name: PidTagListUnsubscribe. Alternate names: PR_LIST_UNSUBSCRIBE, PR_LIST_UNSUBSCRIBE_A, PR_LIST_UNSUBSCRIBE_W.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ListUnsubscribe;

@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_HOME_TELEPHONE_NUMBER
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. Contains the primary telephone number of the mail users home. Canonical name PidTagHomeTelephoneNumber. Property tag 0x3A09001E PT_STRING8
 type: docs
 weight: 12440
 url: /net/aspose.email.mapi/mapipropertytag/pr_home_telephone_number/
 ---
 ## MapiPropertyTag.PR_HOME_TELEPHONE_NUMBER field
+
+Contains the primary telephone number of the mail user's home. Canonical name: PidTagHomeTelephoneNumber. Property tag: 0x3A09001E (PT_STRING8).
 
 ```csharp
 public static readonly long PR_HOME_TELEPHONE_NUMBER;

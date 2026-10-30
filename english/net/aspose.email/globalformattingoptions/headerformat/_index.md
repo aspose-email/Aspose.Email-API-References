@@ -1,14 +1,14 @@
 ---
 title: GlobalFormattingOptions.HeaderFormat
 second_title: Aspose.Email for .NET API Reference
-description: GlobalFormattingOptions property. HeaderFormat for instances of HeadersFormattingOptions if DefaultHeaderFormat is not set
+description: GlobalFormattingOptions property. Gets or sets the default for DefaultHeaderFormat
 type: docs
 weight: 30
 url: /net/aspose.email/globalformattingoptions/headerformat/
 ---
 ## GlobalFormattingOptions.HeaderFormat property
 
-HeaderFormat for instances of HeadersFormattingOptions if DefaultHeaderFormat is not set.
+Gets or sets the default for [`DefaultHeaderFormat`](../../headersformattingoptions/defaultheaderformat/).
 
 ```csharp
 public static string HeaderFormat { get; set; }

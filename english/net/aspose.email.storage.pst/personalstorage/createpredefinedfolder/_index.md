@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.CreatePredefinedFolder
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Creates the standard interpersonal message IPM folder
+description: PersonalStorage method. Creates a standard Outlook folder such as Inbox or Calendar with the specified name
 type: docs
 weight: 160
 url: /net/aspose.email.storage.pst/personalstorage/createpredefinedfolder/
 ---
 ## CreatePredefinedFolder(string, StandardIpmFolder, bool) {#createpredefinedfolder_1}
 
-Creates the standard interpersonal message (IPM) folder.
+Creates a standard Outlook folder, such as Inbox or Calendar, with the specified name.
 
 ```csharp
 public FolderInfo CreatePredefinedFolder(string name, StandardIpmFolder defaultFolder, 
@@ -17,19 +17,19 @@ public FolderInfo CreatePredefinedFolder(string name, StandardIpmFolder defaultF
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | The name of folder. |
-| defaultFolder | StandardIpmFolder | The value of [`StandardIpmFolder`](../../standardipmfolder/) enumeration. |
-| createHierarchy | Boolean | if set to `true`, it is possible to create a folder hierarchy using string notation. Backslash ('\') is used as path separator. |
+| name | String | The name of the folder. |
+| defaultFolder | StandardIpmFolder | Which standard folder to create. |
+| createHierarchy | Boolean | `true` to treat *name* as a path separated by backslashes and create the folders that do not exist yet. |
 
 ### Return Value
 
-A [`FolderInfo`](../../folderinfo/) object that represents a standard IPM folder.
+The new folder.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | throws, if a PST file version is ANSI. |
+| NotImplementedException | The PST is in the ANSI format, which cannot be edited. |
 
 ### See Also
 
@@ -43,7 +43,7 @@ A [`FolderInfo`](../../folderinfo/) object that represents a standard IPM folder
 
 ## CreatePredefinedFolder(string, StandardIpmFolder) {#createpredefinedfolder}
 
-Creates the standard interpersonal message (IPM) folder.
+Creates a standard Outlook folder, such as Inbox or Calendar, with the specified name.
 
 ```csharp
 public FolderInfo CreatePredefinedFolder(string name, StandardIpmFolder defaultFolder)
@@ -51,21 +51,21 @@ public FolderInfo CreatePredefinedFolder(string name, StandardIpmFolder defaultF
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | The name of folder. |
-| defaultFolder | StandardIpmFolder | The value of [`StandardIpmFolder`](../../standardipmfolder/) enumeration. |
+| name | String | The name of the folder. |
+| defaultFolder | StandardIpmFolder | Which standard folder to create. |
 
 ### Return Value
 
-A [`FolderInfo`](../../folderinfo/) object that represents a standard IPM folder.
+The new folder.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Thrown when attempting to modify a PST file that is open for reading only. |
-| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
-| InvalidOperationException | Thrown when standard folder already exists. |
-| NotImplementedException | Thrown when attempting to edit the OST file format. |
+| InvalidOperationException | The PST is open for reading only. |
+| NotImplementedException | The PST is in the ANSI format, which cannot be edited. |
+| InvalidOperationException | This standard folder already exists in the PST. |
+| NotImplementedException | The file is an OST. |
 
 ### See Also
 

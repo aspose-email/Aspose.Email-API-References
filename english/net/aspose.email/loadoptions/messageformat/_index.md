@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.MessageFormat
 second_title: Aspose.Email for .NET API Reference
-description: LoadOptions property. Represents the mail message format.It can be in emlmsg or mhtml format. The default value is Eml
+description: LoadOptions property. Gets the format this options object loads as determined by its class EML MSG MHTML HTML and so on
 type: docs
 weight: 10
 url: /net/aspose.email/loadoptions/messageformat/
 ---
 ## LoadOptions.MessageFormat property
 
-Represents the mail message format.It can be in eml,msg or mhtml format. The default value is Eml.
+Gets the format this options object loads, as determined by its class: EML, MSG, MHTML, HTML and so on.
 
 ```csharp
 public MessageFormat MessageFormat { get; }

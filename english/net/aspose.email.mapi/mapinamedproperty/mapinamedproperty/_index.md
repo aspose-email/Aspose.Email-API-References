@@ -24,7 +24,7 @@ public MapiNamedProperty()
 
 ## MapiNamedProperty(long, string, Guid, byte[]) {#constructor_4}
 
-Initializes a new instance of the [`MapiNamedProperty`](../) class.
+Initializes a new instance of the [`MapiNamedProperty`](../) class for a property identified by a string name.
 
 ```csharp
 public MapiNamedProperty(long propertyTag, string nameIdentifier, Guid propertyGuid, 
@@ -33,10 +33,10 @@ public MapiNamedProperty(long propertyTag, string nameIdentifier, Guid propertyG
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| propertyTag | Int64 | The property tag represented a 32-bit value that contains a property type and a property ID. The low-order 16 bits represent the property type. The high-order 16 bits represent the property ID. |
-| nameIdentifier | String | The name identifier that is used to refer to a named property. |
-| propertyGuid | Guid | The property unique identifier. |
-| propertyValue | Byte[] | A property value. |
+| propertyTag | Int64 | The tag the property is stored under: the property ID in the high-order 16 bits and the data type in the low-order 16 bits. |
+| nameIdentifier | String | The name of the property. |
+| propertyGuid | Guid | The GUID of the property set. |
+| propertyValue | Byte[] | The value, as bytes. |
 
 ### See Also
 
@@ -48,7 +48,7 @@ public MapiNamedProperty(long propertyTag, string nameIdentifier, Guid propertyG
 
 ## MapiNamedProperty(long, long, Guid, byte[]) {#constructor_3}
 
-Initializes a new instance of the [`MapiNamedProperty`](../) class.
+Initializes a new instance of the [`MapiNamedProperty`](../) class for a property identified by a numeric ID.
 
 ```csharp
 public MapiNamedProperty(long propertyTag, long nameIdentifier, Guid propertyGuid, 
@@ -57,10 +57,10 @@ public MapiNamedProperty(long propertyTag, long nameIdentifier, Guid propertyGui
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| propertyTag | Int64 | The property tag represented a 32-bit value that contains a property type and a property ID. The low-order 16 bits represent the property type. The high-order 16 bits represent the property ID. |
-| nameIdentifier | Int64 | The name identifier that is used to refer to a named property. |
-| propertyGuid | Guid | The property unique identifier. |
-| propertyValue | Byte[] | A property value. |
+| propertyTag | Int64 | The tag the property is stored under: the property ID in the high-order 16 bits and the data type in the low-order 16 bits. |
+| nameIdentifier | Int64 | The numeric ID (LID) of the property. |
+| propertyGuid | Guid | The GUID of the property set. |
+| propertyValue | Byte[] | The value, as bytes. |
 
 ### See Also
 
@@ -72,7 +72,7 @@ public MapiNamedProperty(long propertyTag, long nameIdentifier, Guid propertyGui
 
 ## MapiNamedProperty(INamedPropertyTagProvider, PidLidPropertyDescriptor, object) {#constructor_1}
 
-Initializes a new instance of the [`MapiNamedProperty`](../) class.
+Initializes a new instance of the [`MapiNamedProperty`](../) class from a descriptor of a property with a numeric ID.
 
 ```csharp
 public MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidLidPropertyDescriptor pd, 
@@ -81,9 +81,9 @@ public MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidLidPropertyDe
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tagProvider | INamedPropertyTagProvider | Property storage that can provide tag for named property |
-| pd | PidLidPropertyDescriptor | Property descriptor |
-| data | Object | A property value. |
+| tagProvider | INamedPropertyTagProvider | The property collection that assigns the tag, such as the properties of the message. |
+| pd | PidLidPropertyDescriptor | The descriptor of the property. |
+| data | Object | The value. |
 
 ### See Also
 
@@ -97,7 +97,7 @@ public MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidLidPropertyDe
 
 ## MapiNamedProperty(INamedPropertyTagProvider, PidNamePropertyDescriptor, object) {#constructor_2}
 
-Initializes a new instance of the [`MapiNamedProperty`](../) class.
+Initializes a new instance of the [`MapiNamedProperty`](../) class from a descriptor of a property with a string name.
 
 ```csharp
 public MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidNamePropertyDescriptor pd, 
@@ -106,9 +106,9 @@ public MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidNamePropertyD
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tagProvider | INamedPropertyTagProvider | Property storage that can provide tag for named property |
-| pd | PidNamePropertyDescriptor | Property descriptor |
-| data | Object | A property value. |
+| tagProvider | INamedPropertyTagProvider | The property collection that assigns the tag, such as the properties of the message. |
+| pd | PidNamePropertyDescriptor | The descriptor of the property. |
+| data | Object | The value. |
 
 ### See Also
 

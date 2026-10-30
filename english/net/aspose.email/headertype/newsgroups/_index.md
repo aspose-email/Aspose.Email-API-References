@@ -1,14 +1,14 @@
 ---
 title: HeaderType.Newsgroups
 second_title: Aspose.Email for .NET API Reference
-description: HeaderType property. In Usenet News groups to which this article was posted. Some systems provide this header field also in email although it is not standardized there. Unfortunately the header field can appear in email with three different and contradictory meanings a Indicating the newsgroup recipient of an article/message sent to both email and Usenet News recipients. b In a message adressed to some mail to news gateways indicates the newsgroups that the message is to be posted to. c In a personally addressed reply to an article in a newsgroup indicating the newsgroup in which this discussion originated. Defined in RFC 1036 2.1.3 not standardized and controversial for use in email
+description: HeaderType property. Gets the Newsgroups header the newsgroups a Usenet article was posted to RFC 1036. Not standard in email where it is used with different meanings
 type: docs
 weight: 160
 url: /net/aspose.email/headertype/newsgroups/
 ---
 ## HeaderType.Newsgroups property
 
-In Usenet News: group(s) to which this article was posted. Some systems provide this header field also in e-mail although it is not standardized there. Unfortunately, the header field can appear in e-mail with three different and contradictory meanings: (a) Indicating the newsgroup recipient of an article/message sent to both e-mail and Usenet News recipients. (b) In a message adressed to some mail to news gateways, indicates the newsgroup(s) that the message is to be posted to. (c) In a personally addressed reply to an article in a news-group, indicating the newsgroup in which this discussion originated. Defined in RFC 1036: 2.1.3, not standardized and controversial for use in e-mail.
+Gets the `Newsgroups` header: the newsgroups a Usenet article was posted to (RFC 1036). Not standard in e-mail, where it is used with different meanings.
 
 ```csharp
 public static HeaderType Newsgroups { get; }

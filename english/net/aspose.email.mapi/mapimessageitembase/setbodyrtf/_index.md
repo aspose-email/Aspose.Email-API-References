@@ -1,14 +1,14 @@
 ---
 title: MapiMessageItemBase.SetBodyRtf
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessageItemBase method. Gets or sets the RTF formatted message text
+description: MapiMessageItemBase method. Sets the body of the item in RTF format optionally compressing it
 type: docs
 weight: 250
 url: /net/aspose.email.mapi/mapimessageitembase/setbodyrtf/
 ---
 ## MapiMessageItemBase.SetBodyRtf method
 
-Gets or sets the RTF formatted message text.
+Sets the body of the item in RTF format, optionally compressing it.
 
 ```csharp
 public void SetBodyRtf(string content, bool compression)
@@ -16,12 +16,12 @@ public void SetBodyRtf(string content, bool compression)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | String | The content. |
-| compression | Boolean | Specify that the content should be compressed. |
+| content | String | The body in RTF. |
+| compression | Boolean | `true` to store the RTF body compressed. |
 
 ## Remarks
 
-When setting a value, the values of PR_RTF_COMPRESSED, PR_RTF_DECOMPRESSES, PR_BODY properties are updated. A string value being set must have RTF format. Thus, if it is necessary to set a value in HTML format, the value must be first to encoded within RTF, according to RTF Extensions Specification. To set the content of the body message in HTML or Plain Text formats quickly, please, use SetBodyContent method. When setting a null value or empty string, the values of BodyRtf and Body properties are set null.
+Setting a value updates the plain-text body and the compressed RTF property as well. The value must be RTF; to set an HTML or plain-text body, use [`SetBodyContent`](../setbodycontent/). Setting `null` or an empty string clears both bodies.
 
 ### See Also
 

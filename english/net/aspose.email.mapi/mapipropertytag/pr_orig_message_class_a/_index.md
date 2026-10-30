@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_ORIG_MESSAGE_CLASS_A
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. The ANSI form of PR_ORIG_MESSAGE_CLASS. Property tag 0x004B001E PT_STRING8
 type: docs
 weight: 15570
 url: /net/aspose.email.mapi/mapipropertytag/pr_orig_message_class_a/
 ---
 ## MapiPropertyTag.PR_ORIG_MESSAGE_CLASS_A field
+
+The ANSI form of [`PR_ORIG_MESSAGE_CLASS`](../pr_orig_message_class/). Property tag: 0x004B001E (PT_STRING8).
 
 ```csharp
 public static readonly long PR_ORIG_MESSAGE_CLASS_A;

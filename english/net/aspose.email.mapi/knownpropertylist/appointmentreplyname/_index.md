@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AppointmentReplyName
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies the user who last replied to the meeting request or meeting update. Area Meetings Canonical name PidLidAppointmentReplyName Alternate names dispidApptReplyName http//schemas.microsoft.com/mapi/apptreplyname
+description: KnownPropertyList field. Specifies the user who last replied to the meeting request or meeting update. Area Meetings. Canonical name PidLidAppointmentReplyName. Alternate names dispidApptReplyName http//schemas.microsoft.com/mapi/apptreplyname
 type: docs
 weight: 1260
 url: /net/aspose.email.mapi/knownpropertylist/appointmentreplyname/
 ---
 ## KnownPropertyList.AppointmentReplyName field
 
-Specifies the user who last replied to the meeting request or meeting update. Area: Meetings Canonical name: PidLidAppointmentReplyName Alternate names: dispidApptReplyName, http://schemas.microsoft.com/mapi/apptreplyname
+Specifies the user who last replied to the meeting request or meeting update. Area: Meetings. Canonical name: PidLidAppointmentReplyName. Alternate names: dispidApptReplyName, http://schemas.microsoft.com/mapi/apptreplyname.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentReplyName;

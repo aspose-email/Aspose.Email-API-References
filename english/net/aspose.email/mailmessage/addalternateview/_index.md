@@ -1,14 +1,14 @@
 ---
 title: MailMessage.AddAlternateView
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage method. Add an alternate view to message
+description: MailMessage method. Adds an alternate view of the body to the message
 type: docs
 weight: 380
 url: /net/aspose.email/mailmessage/addalternateview/
 ---
 ## MailMessage.AddAlternateView method
 
-Add an alternate view to message
+Adds an alternate view of the body to the message.
 
 ```csharp
 public virtual void AddAlternateView(AlternateView view)
@@ -16,7 +16,7 @@ public virtual void AddAlternateView(AlternateView view)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| view | AlternateView | Alternate view for adding |
+| view | AlternateView | The view to add. |
 
 ### See Also
 

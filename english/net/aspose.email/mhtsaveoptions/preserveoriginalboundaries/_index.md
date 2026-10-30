@@ -1,14 +1,14 @@
 ---
 title: MhtSaveOptions.PreserveOriginalBoundaries
 second_title: Aspose.Email for .NET API Reference
-description: MhtSaveOptions property. Defines whether need keep original boundaries in mail message when saving or not
+description: MhtSaveOptions property. Gets or sets a value indicating whether the MIME boundaries of the original message are kept. The default is false
 type: docs
 weight: 40
 url: /net/aspose.email/mhtsaveoptions/preserveoriginalboundaries/
 ---
 ## MhtSaveOptions.PreserveOriginalBoundaries property
 
-Defines whether need keep original boundaries in mail message when saving or not.
+Gets or sets a value indicating whether the MIME boundaries of the original message are kept. The default is `false`.
 
 ```csharp
 public bool PreserveOriginalBoundaries { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: MailAddress.Item
 second_title: Aspose.Email for .NET API Reference
-description: MailAddress property. Gets the element at the specified index
+description: MailAddress property. Gets the address itself the index is ignored
 type: docs
 weight: 70
 url: /net/aspose.email/mailaddress/item/
 ---
 ## MailAddress indexer
 
-Gets the element at the specified index.
+Gets the address itself; the index is ignored.
 
 ```csharp
 public MailAddress this[int i] { get; }
@@ -16,11 +16,11 @@ public MailAddress this[int i] { get; }
 
 | Parameter | Description |
 | --- | --- |
-| i | The zero-based index of the element to get or set. |
+| i | Ignored. |
 
 ### Return Value
 
-Returns the element at the specified index.
+This address.
 
 ### See Also
 

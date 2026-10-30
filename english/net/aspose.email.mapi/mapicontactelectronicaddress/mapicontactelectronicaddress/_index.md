@@ -32,9 +32,9 @@ public MapiContactElectronicAddress(string displayName, string addressType, stri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| displayName | String | The display name. |
-| addressType | String | Type of the address. |
-| emailAddress | String | The email address. |
+| displayName | String | The name shown for the address. |
+| addressType | String | The type of the address, such as `SMTP`. |
+| emailAddress | String | The e-mail address. |
 
 ### See Also
 
@@ -46,7 +46,7 @@ public MapiContactElectronicAddress(string displayName, string addressType, stri
 
 ## MapiContactElectronicAddress(string) {#constructor_1}
 
-Initializes a new instance of the [`MapiContactElectronicAddress`](../) class.
+Initializes a new instance of the [`MapiContactElectronicAddress`](../) class with an e-mail address.
 
 ```csharp
 public MapiContactElectronicAddress(string emailAddress)
@@ -54,7 +54,7 @@ public MapiContactElectronicAddress(string emailAddress)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| emailAddress | String | The email address. |
+| emailAddress | String | The e-mail address. |
 
 ### See Also
 
@@ -66,7 +66,7 @@ public MapiContactElectronicAddress(string emailAddress)
 
 ## MapiContactElectronicAddress(string, string) {#constructor_2}
 
-Initializes a new instance of the [`MapiContactElectronicAddress`](../) class.
+Initializes a new instance of the [`MapiContactElectronicAddress`](../) class with a fax number and an e-mail address.
 
 ```csharp
 public MapiContactElectronicAddress(string faxNumber, string emailAddress)
@@ -75,7 +75,7 @@ public MapiContactElectronicAddress(string faxNumber, string emailAddress)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | faxNumber | String | The fax number. |
-| emailAddress | String | The email address. |
+| emailAddress | String | The e-mail address. |
 
 ### See Also
 

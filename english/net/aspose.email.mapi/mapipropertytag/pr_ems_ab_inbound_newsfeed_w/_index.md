@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_EMS_AB_INBOUND_NEWSFEED_W
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. The Unicode form of PR_EMS_AB_INBOUND_NEWSFEED. Property tag 0x8193001F PT_UNICODE
 type: docs
 weight: 6990
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_newsfeed_w/
 ---
 ## MapiPropertyTag.PR_EMS_AB_INBOUND_NEWSFEED_W field
+
+The Unicode form of [`PR_EMS_AB_INBOUND_NEWSFEED`](../pr_ems_ab_inbound_newsfeed/). Property tag: 0x8193001F (PT_UNICODE).
 
 ```csharp
 public static readonly long PR_EMS_AB_INBOUND_NEWSFEED_W;

@@ -16,7 +16,7 @@ public int ContentUnreadCount { get; }
 
 ### Property Value
 
-The content unread count.
+The number of unread items in the folder.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.SenderAddressType
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage property. Gets the message senders email address type
+description: MapiMessage property. Gets the type of the address of the sender such as SMTP or EX
 type: docs
 weight: 240
 url: /net/aspose.email.mapi/mapimessage/senderaddresstype/
 ---
 ## MapiMessage.SenderAddressType property
 
-Gets the message sender's e-mail address type.
+Gets the type of the address of the sender, such as `SMTP` or `EX`.
 
 ```csharp
 public string SenderAddressType { get; }
@@ -16,7 +16,7 @@ public string SenderAddressType { get; }
 
 ### Property Value
 
-The string that represents sender address type.
+The address type.
 
 ### See Also
 

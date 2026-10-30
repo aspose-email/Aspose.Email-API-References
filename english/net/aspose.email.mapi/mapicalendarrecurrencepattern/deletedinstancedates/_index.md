@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarRecurrencePattern.DeletedInstanceDates
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarRecurrencePattern property. An array of dates each of which is the original instance date of either a deleted instance or a modified instance for this recurrence
+description: MapiCalendarRecurrencePattern property. Gets the original dates of the occurrences that were deleted or changed
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicalendarrecurrencepattern/deletedinstancedates/
 ---
 ## MapiCalendarRecurrencePattern.DeletedInstanceDates property
 
-An array of dates, each of which is the original instance date of either a deleted instance or a modified instance for this recurrence.
+Gets the original dates of the occurrences that were deleted or changed.
 
 ```csharp
 public IList<DateTime> DeletedInstanceDates { get; }

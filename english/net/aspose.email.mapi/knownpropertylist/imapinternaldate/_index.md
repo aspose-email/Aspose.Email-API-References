@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ImapInternalDate
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_IMAP_INTERNAL_DATE
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_IMAP_INTERNAL_DATE. Property tag 0x65F50040 data type Time
 type: docs
 weight: 11330
 url: /net/aspose.email.mapi/knownpropertylist/imapinternaldate/
 ---
 ## KnownPropertyList.ImapInternalDate field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_IMAP_INTERNAL_DATE
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_IMAP_INTERNAL_DATE. Property tag: 0x65F50040; data type: Time.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ImapInternalDate;

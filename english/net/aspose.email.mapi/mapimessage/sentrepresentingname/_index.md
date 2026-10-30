@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.SentRepresentingName
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage property. Gets or sets the display name for the messaging user represented by the sender
+description: MapiMessage property. Gets or sets the display name of the user on whose behalf the message was sent
 type: docs
 weight: 300
 url: /net/aspose.email.mapi/mapimessage/sentrepresentingname/
 ---
 ## MapiMessage.SentRepresentingName property
 
-Gets or sets the display name for the messaging user represented by the sender.
+Gets or sets the display name of the user on whose behalf the message was sent.
 
 ```csharp
 public string SentRepresentingName { get; set; }
@@ -16,11 +16,11 @@ public string SentRepresentingName { get; set; }
 
 ### Property Value
 
-The string that represents sent representing name.
+The display name.
 
 ## Remarks
 
-When setting a null value or empty string, the values of the property are set in SentRepresentingEmailAddress.
+Setting `null` or an empty string sets the name to [`SentRepresentingEmailAddress`](../sentrepresentingemailaddress/).
 
 ### See Also
 

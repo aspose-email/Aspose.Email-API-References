@@ -1,14 +1,14 @@
 ---
 title: Class TaskIcsSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.TaskIcsSaveOptions class. Represents task to iCalendar save options
+description: Aspose.Email.Calendar.TaskIcsSaveOptions class. Options for saving a task in iCalendar ICS format
 type: docs
 weight: 900
 url: /net/aspose.email.calendar/taskicssaveoptions/
 ---
 ## TaskIcsSaveOptions class
 
-Represents task to iCalendar save options
+Options for saving a task in iCalendar (ICS) format.
 
 ```csharp
 public sealed class TaskIcsSaveOptions : TaskSaveOptions
@@ -18,13 +18,13 @@ public sealed class TaskIcsSaveOptions : TaskSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [TaskIcsSaveOptions](taskicssaveoptions/)() | Initializes a new instance of the `TaskIcsSaveOptions` class |
+| [TaskIcsSaveOptions](taskicssaveoptions/)() | Initializes a new instance of the `TaskIcsSaveOptions` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [SaveFormat](../../aspose.email.calendar/tasksaveoptions/saveformat/) { get; } | Gets a save format |
+| [SaveFormat](../../aspose.email.calendar/tasksaveoptions/saveformat/) { get; } | Gets the format these options save to. |
 
 ### See Also
 

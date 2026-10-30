@@ -1,14 +1,14 @@
 ---
 title: MapiAttachment.SaveToTnef
 second_title: Aspose.Email for .NET API Reference
-description: MapiAttachment method. Save attachment to tnef content
+description: MapiAttachment method. Saves the attachment to a file in TNEF format
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.email.mapi/mapiattachment/savetotnef/
 ---
 ## SaveToTnef(string) {#savetotnef_1}
 
-Save attachment to tnef content.
+Saves the attachment to a file in TNEF format.
 
 ```csharp
 public void SaveToTnef(string filename)
@@ -16,7 +16,7 @@ public void SaveToTnef(string filename)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | String | The file name to save. |
+| filename | String | The path of the file to write. |
 
 ### See Also
 
@@ -28,7 +28,7 @@ public void SaveToTnef(string filename)
 
 ## SaveToTnef(Stream) {#savetotnef}
 
-Save attachment to tnef content.
+Saves the attachment to a stream in TNEF format.
 
 ```csharp
 public void SaveToTnef(Stream stream)
@@ -36,7 +36,7 @@ public void SaveToTnef(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The stream to save. |
+| stream | Stream | The stream to write to. |
 
 ### See Also
 

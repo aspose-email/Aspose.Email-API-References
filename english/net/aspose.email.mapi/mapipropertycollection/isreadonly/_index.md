@@ -1,14 +1,14 @@
 ---
 title: MapiPropertyCollection.IsReadOnly
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyCollection property. Gets a value indicating whether the collection is read only
+description: MapiPropertyCollection property. Gets a value indicating whether the collection is readonly
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapipropertycollection/isreadonly/
 ---
 ## MapiPropertyCollection.IsReadOnly property
 
-Gets a value indicating whether the collection is read only.
+Gets a value indicating whether the collection is read-only.
 
 ```csharp
 public bool IsReadOnly { get; }

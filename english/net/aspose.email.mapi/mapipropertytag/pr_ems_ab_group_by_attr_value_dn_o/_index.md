@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_EMS_AB_GROUP_BY_ATTR_VALUE_DN_O
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Property tag 0x8C1A000D PT_OBJECT
 type: docs
 weight: 6390
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_value_dn_o/
 ---
 ## MapiPropertyTag.PR_EMS_AB_GROUP_BY_ATTR_VALUE_DN_O field
+
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x8C1A000D (PT_OBJECT).
 
 ```csharp
 public static readonly long PR_EMS_AB_GROUP_BY_ATTR_VALUE_DN_O;

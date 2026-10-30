@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.DefaultHtml
 second_title: Aspose.Email for .NET API Reference
-description: SaveOptions property. Gets options with default values for saving message to Html format
+description: SaveOptions property. Gets new options with the default settings for saving to HTML
 type: docs
 weight: 60
 url: /net/aspose.email/saveoptions/defaulthtml/
 ---
 ## SaveOptions.DefaultHtml property
 
-Gets options with default values for saving message to Html format.
+Gets new options with the default settings for saving to HTML.
 
 ```csharp
 public static HtmlSaveOptions DefaultHtml { get; }

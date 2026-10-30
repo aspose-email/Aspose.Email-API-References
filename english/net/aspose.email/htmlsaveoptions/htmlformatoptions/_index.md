@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.HtmlFormatOptions
 second_title: Aspose.Email for .NET API Reference
-description: HtmlSaveOptions property. Gets or sets additional options when saving in HTML format. Default value is HtmlFormatOptions.None
+description: HtmlSaveOptions property. Gets or sets options for the HTML output such as whether the headers are written. The default is HtmlFormatOptions.None
 type: docs
 weight: 30
 url: /net/aspose.email/htmlsaveoptions/htmlformatoptions/
 ---
 ## HtmlSaveOptions.HtmlFormatOptions property
 
-Gets or sets additional options when saving in HTML format. Default value is HtmlFormatOptions.None.
+Gets or sets options for the HTML output, such as whether the headers are written. The default is `HtmlFormatOptions.None`.
 
 ```csharp
 public HtmlFormatOptions HtmlFormatOptions { get; set; }

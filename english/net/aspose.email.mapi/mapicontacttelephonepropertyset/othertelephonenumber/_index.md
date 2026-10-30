@@ -1,14 +1,14 @@
 ---
 title: MapiContactTelephonePropertySet.OtherTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactTelephonePropertySet property. Gets or sets an alternate telephone number
+description: MapiContactTelephonePropertySet property. Gets or sets another telephone number
 type: docs
 weight: 140
 url: /net/aspose.email.mapi/mapicontacttelephonepropertyset/othertelephonenumber/
 ---
 ## MapiContactTelephonePropertySet.OtherTelephoneNumber property
 
-Gets or sets an alternate telephone number
+Gets or sets another telephone number.
 
 ```csharp
 public string OtherTelephoneNumber { get; set; }

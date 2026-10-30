@@ -1,14 +1,14 @@
 ---
 title: KnownPropertySets.InternetHeaders
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertySets field. Area name Email Property set name PS_INTERNET_HEADERS
+description: KnownPropertySets field. The PS_INTERNET_HEADERS property set Internet message headers stored as named properties
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/knownpropertysets/internetheaders/
 ---
 ## KnownPropertySets.InternetHeaders field
 
-Area name: Email Property set name: PS_INTERNET_HEADERS
+The `PS_INTERNET_HEADERS` property set: Internet message headers stored as named properties.
 
 ```csharp
 public static readonly Guid InternetHeaders;

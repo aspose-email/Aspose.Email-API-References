@@ -1,14 +1,14 @@
 ---
 title: MapiContactPersonalInfoPropertySet.Gender
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactPersonalInfoPropertySet property. Specifies the gender of the contact
+description: MapiContactPersonalInfoPropertySet property. Gets or sets the gender of the contact
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/gender/
 ---
 ## MapiContactPersonalInfoPropertySet.Gender property
 
-Specifies the gender of the contact
+Gets or sets the gender of the contact.
 
 ```csharp
 public MapiContactGender Gender { get; set; }

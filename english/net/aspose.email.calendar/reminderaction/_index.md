@@ -1,14 +1,14 @@
 ---
 title: Enum ReminderAction
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.ReminderAction enum. Defines the action to be invoked when an alarm is triggered
+description: Aspose.Email.Calendar.ReminderAction enum. Defines what happens when a reminder triggers the iCalendar ACTION property
 type: docs
 weight: 790
 url: /net/aspose.email.calendar/reminderaction/
 ---
 ## ReminderAction enumeration
 
-Defines the action to be invoked when an alarm is triggered.
+Defines what happens when a reminder triggers (the iCalendar ACTION property).
 
 ```csharp
 public enum ReminderAction
@@ -18,11 +18,11 @@ public enum ReminderAction
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Audio | `0` | Audio action. |
-| Display | `1` | Display action. |
-| Email | `2` | Email action. |
-| Procedure | `3` | Procedure action. |
-| None | `4` | None action. |
+| Audio | `0` | Plays a sound. |
+| Display | `1` | Shows a message. |
+| Email | `2` | Sends an email. |
+| Procedure | `3` | Runs a procedure. |
+| None | `4` | Does nothing. |
 
 ### See Also
 

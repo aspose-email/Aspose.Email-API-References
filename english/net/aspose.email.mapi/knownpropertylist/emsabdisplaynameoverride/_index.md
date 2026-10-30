@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.EmsAbDisplayNameOverride
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_DISPLAY_NAME_OVERRIDE
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_EMS_AB_DISPLAY_NAME_OVERRIDE. Property tag 0x8001000B data type Boolean
 type: docs
 weight: 5560
 url: /net/aspose.email.mapi/knownpropertylist/emsabdisplaynameoverride/
 ---
 ## KnownPropertyList.EmsAbDisplayNameOverride field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_EMS_AB_DISPLAY_NAME_OVERRIDE
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_EMS_AB_DISPLAY_NAME_OVERRIDE. Property tag: 0x8001000B; data type: Boolean.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDisplayNameOverride;

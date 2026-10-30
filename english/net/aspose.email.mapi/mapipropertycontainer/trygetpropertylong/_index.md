@@ -1,14 +1,14 @@
 ---
 title: MapiPropertyContainer.TryGetPropertyLong
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyContainer method. Gets the value of the specified property as Long type. A return value indicates whether the operation succeeded
+description: MapiPropertyContainer method. Gets the value of a property as a 64bit integer if the property exists
 type: docs
 weight: 160
 url: /net/aspose.email.mapi/mapipropertycontainer/trygetpropertylong/
 ---
 ## MapiPropertyContainer.TryGetPropertyLong method
 
-Gets the value of the specified property as Long type. A return value indicates whether the operation succeeded.
+Gets the value of a property as a 64-bit integer, if the property exists.
 
 ```csharp
 public bool TryGetPropertyLong(long tag, ref long value)
@@ -16,12 +16,12 @@ public bool TryGetPropertyLong(long tag, ref long value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | Int64 | The MAPI property tag. |
-| value | Int64& | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+| tag | Int64 | The tag of the property. |
+| value | Int64& | When this method returns, the value of the property, if it exists; otherwise, the value is unchanged. |
 
 ### Return Value
 
-true if s was converted successfully; otherwise, false.
+`true` if the property exists; otherwise, `false`.
 
 ### See Also
 

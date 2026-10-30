@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ResourceRenderingMode
 second_title: Aspose.Email for .NET API Reference
-description: HtmlSaveOptions property. Provides set various modes of rendering resources in html. Default value EmbedIntoHtml
+description: HtmlSaveOptions property. Gets or sets how attachments and other resources are rendered into the HTML. The default is ResourceRenderingMode.EmbedIntoHtml
 type: docs
 weight: 40
 url: /net/aspose.email/htmlsaveoptions/resourcerenderingmode/
 ---
 ## HtmlSaveOptions.ResourceRenderingMode property
 
-Provides set various modes of rendering resources in html. Default value EmbedIntoHtml.
+Gets or sets how attachments and other resources are rendered into the HTML. The default is `ResourceRenderingMode.EmbedIntoHtml`.
 
 ```csharp
 public ResourceRenderingMode ResourceRenderingMode { get; set; }

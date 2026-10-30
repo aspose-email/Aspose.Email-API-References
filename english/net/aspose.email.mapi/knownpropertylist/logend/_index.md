@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.LogEnd
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains the time in UTC at which the activity ended. Area Journal Canonical name PidLidLogEnd Alternate names dispidLogEnd
+description: KnownPropertyList field. Contains the time in UTC at which the activity ended. Area Journal. Canonical name PidLidLogEnd. Alternate names dispidLogEnd
 type: docs
 weight: 12340
 url: /net/aspose.email.mapi/knownpropertylist/logend/
 ---
 ## KnownPropertyList.LogEnd field
 
-Contains the time, in UTC, at which the activity ended. Area: Journal Canonical name: PidLidLogEnd Alternate names: dispidLogEnd
+Contains the time, in UTC, at which the activity ended. Area: Journal. Canonical name: PidLidLogEnd. Alternate names: dispidLogEnd.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LogEnd;

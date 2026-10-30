@@ -1,14 +1,14 @@
 ---
 title: Enum TaskStatus
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.TaskStatus enum. Represents the statuses of the users progress on the task
+description: Aspose.Email.Calendar.TaskStatus enum. Defines how far work on a task has progressed
 type: docs
 weight: 930
 url: /net/aspose.email.calendar/taskstatus/
 ---
 ## TaskStatus enumeration
 
-Represents the statuses of the user's progress on the task.
+Defines how far work on a task has progressed.
 
 ```csharp
 public enum TaskStatus
@@ -18,11 +18,11 @@ public enum TaskStatus
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotStarted | `0` | The user has not started work on the Task object. |
-| InProgress | `1` | The user's work on this Task object is in progress. |
-| Complete | `2` | The user's work on this Task object is complete. |
-| Waiting | `3` | The user is waiting on somebody else. |
-| Deferred | `4` | The user has deferred work on the Task object. |
+| NotStarted | `0` | Work on the task has not started. |
+| InProgress | `1` | Work on the task is in progress. |
+| Complete | `2` | The task is complete. |
+| Waiting | `3` | The task is waiting for someone else. |
+| Deferred | `4` | Work on the task has been deferred. |
 
 ### See Also
 

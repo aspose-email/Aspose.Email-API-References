@@ -1,14 +1,14 @@
 ---
 title: SecureEmailManager.AttachSignature
 second_title: Aspose.Email for .NET API Reference
-description: SecureEmailManager method. Creates a copy of the specified MailMessage and adds a digital signature to it
+description: SecureEmailManager method. Creates a signed copy of the message S/MIME
 type: docs
 weight: 20
 url: /net/aspose.email/secureemailmanager/attachsignature/
 ---
 ## AttachSignature(MailMessage, X509Certificate2) {#attachsignature_2}
 
-Creates a copy of the specified MailMessage and adds a digital signature to it.
+Creates a signed copy of the message (S/MIME).
 
 ```csharp
 public virtual MailMessage AttachSignature(MailMessage msg, X509Certificate2 certificate)
@@ -16,12 +16,12 @@ public virtual MailMessage AttachSignature(MailMessage msg, X509Certificate2 cer
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| certificate | MailMessage | X.509 certificate. |
-| msg | X509Certificate2 | Source MailMessage. |
+| certificate | MailMessage | The certificate, with its private key, to sign with. |
+| msg | X509Certificate2 | The message to sign. |
 
 ### Return Value
 
-Signed MailMessage
+A signed copy of the message.
 
 ### See Also
 
@@ -34,7 +34,7 @@ Signed MailMessage
 
 ## AttachSignature(MapiMessage, X509Certificate2) {#attachsignature_6}
 
-Creates a copy of the specified MapiMessage and adds a digital signature to it.
+Creates a signed copy of the message (S/MIME).
 
 ```csharp
 public virtual MapiMessage AttachSignature(MapiMessage msg, X509Certificate2 certificate)
@@ -42,12 +42,12 @@ public virtual MapiMessage AttachSignature(MapiMessage msg, X509Certificate2 cer
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| certificate | MapiMessage | X.509 certificate. |
-| msg | X509Certificate2 | Source MapiMessage. |
+| certificate | MapiMessage | The certificate, with its private key, to sign with. |
+| msg | X509Certificate2 | The message to sign. |
 
 ### Return Value
 
-Signed MapiMessage
+A signed copy of the message.
 
 ### See Also
 
@@ -60,7 +60,7 @@ Signed MapiMessage
 
 ## AttachSignature(MailMessage, CmsSigner) {#attachsignature}
 
-Creates a copy of the specified MailMessage and adds a digital signature to it.
+Creates a signed copy of the message (S/MIME).
 
 ```csharp
 public virtual MailMessage AttachSignature(MailMessage msg, CmsSigner signer)
@@ -68,12 +68,12 @@ public virtual MailMessage AttachSignature(MailMessage msg, CmsSigner signer)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| msg | MailMessage | Source MailMessage. |
-| signer | CmsSigner | System.Security.Cryptography.Pkcs.CmsSigner. |
+| msg | MailMessage | The message to sign. |
+| signer | CmsSigner | The signer, with its certificate and options. |
 
 ### Return Value
 
-Signed MailMessage
+A signed copy of the message.
 
 ### See Also
 
@@ -86,7 +86,7 @@ Signed MailMessage
 
 ## AttachSignature(MapiMessage, CmsSigner) {#attachsignature_4}
 
-Creates a copy of the specified MapiMessage and adds a digital signature to it.
+Creates a signed copy of the message (S/MIME).
 
 ```csharp
 public virtual MapiMessage AttachSignature(MapiMessage msg, CmsSigner signer)
@@ -94,12 +94,12 @@ public virtual MapiMessage AttachSignature(MapiMessage msg, CmsSigner signer)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| msg | MapiMessage | Source MapiMessage. |
-| signer | CmsSigner | System.Security.Cryptography.Pkcs.CmsSigner. |
+| msg | MapiMessage | The message to sign. |
+| signer | CmsSigner | The signer, with its certificate and options. |
 
 ### Return Value
 
-Signed MapiMessage
+A signed copy of the message.
 
 ### See Also
 
@@ -112,7 +112,7 @@ Signed MapiMessage
 
 ## AttachSignature(MailMessage, X509Certificate2, SignatureOptions) {#attachsignature_3}
 
-Creates a copy of the specified MailMessage and adds a digital signature to it.
+Creates a signed copy of the message (S/MIME) with the specified options.
 
 ```csharp
 public virtual MailMessage AttachSignature(MailMessage msg, X509Certificate2 certificate, 
@@ -121,13 +121,13 @@ public virtual MailMessage AttachSignature(MailMessage msg, X509Certificate2 cer
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| msg | MailMessage | Source MailMessage. |
-| certificate | X509Certificate2 | X.509 certificate. |
-| options | SignatureOptions | Additional options [`SignatureOptions`](../../signatureoptions/) |
+| msg | MailMessage | The message to sign. |
+| certificate | X509Certificate2 | The certificate, with its private key, to sign with. |
+| options | SignatureOptions | Options of the signature, such as whether it is detached. |
 
 ### Return Value
 
-Signed MailMessage
+A signed copy of the message.
 
 ### See Also
 
@@ -141,7 +141,7 @@ Signed MailMessage
 
 ## AttachSignature(MapiMessage, X509Certificate2, SignatureOptions) {#attachsignature_7}
 
-Creates a copy of the specified MapiMessage and adds a digital signature to it.
+Creates a signed copy of the message (S/MIME) with the specified options.
 
 ```csharp
 public virtual MapiMessage AttachSignature(MapiMessage msg, X509Certificate2 certificate, 
@@ -150,13 +150,13 @@ public virtual MapiMessage AttachSignature(MapiMessage msg, X509Certificate2 cer
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| msg | MapiMessage | Source MapiMessage. |
-| certificate | X509Certificate2 | X.509 certificate. |
-| options | SignatureOptions | Additional options [`SignatureOptions`](../../signatureoptions/) |
+| msg | MapiMessage | The message to sign. |
+| certificate | X509Certificate2 | The certificate, with its private key, to sign with. |
+| options | SignatureOptions | Options of the signature, such as whether it is detached. |
 
 ### Return Value
 
-Signed MapiMessage
+A signed copy of the message.
 
 ### See Also
 
@@ -170,7 +170,7 @@ Signed MapiMessage
 
 ## AttachSignature(MailMessage, CmsSigner, SignatureOptions) {#attachsignature_1}
 
-Creates a copy of the specified MailMessage and adds a digital signature to it.
+Creates a signed copy of the message (S/MIME) with the specified options.
 
 ```csharp
 public virtual MailMessage AttachSignature(MailMessage msg, CmsSigner signer, 
@@ -179,13 +179,13 @@ public virtual MailMessage AttachSignature(MailMessage msg, CmsSigner signer,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| msg | MailMessage | Source MailMessage. |
-| signer | CmsSigner | System.Security.Cryptography.Pkcs.CmsSigner. |
-| options | SignatureOptions | Additional options [`SignatureOptions`](../../signatureoptions/) |
+| msg | MailMessage | The message to sign. |
+| signer | CmsSigner | The signer, with its certificate and options. |
+| options | SignatureOptions | Options of the signature, such as whether it is detached. |
 
 ### Return Value
 
-Signed MailMessage
+A signed copy of the message.
 
 ### See Also
 
@@ -199,7 +199,7 @@ Signed MailMessage
 
 ## AttachSignature(MapiMessage, CmsSigner, SignatureOptions) {#attachsignature_5}
 
-Creates a copy of the specified MapiMessage and adds a digital signature to it.
+Creates a signed copy of the message (S/MIME) with the specified options.
 
 ```csharp
 public virtual MapiMessage AttachSignature(MapiMessage msg, CmsSigner signer, 
@@ -208,13 +208,13 @@ public virtual MapiMessage AttachSignature(MapiMessage msg, CmsSigner signer,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| msg | MapiMessage | Source MapiMessage. |
-| signer | CmsSigner | System.Security.Cryptography.Pkcs.CmsSigner. |
-| options | SignatureOptions | Additional options [`SignatureOptions`](../../signatureoptions/) |
+| msg | MapiMessage | The message to sign. |
+| signer | CmsSigner | The signer, with its certificate and options. |
+| options | SignatureOptions | Options of the signature, such as whether it is detached. |
 
 ### Return Value
 
-Signed MapiMessage
+A signed copy of the message.
 
 ### See Also
 

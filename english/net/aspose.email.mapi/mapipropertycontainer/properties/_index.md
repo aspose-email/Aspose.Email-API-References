@@ -1,14 +1,14 @@
 ---
 title: MapiPropertyContainer.Properties
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyContainer property. Gets the collection of properties
+description: MapiPropertyContainer property. Gets all properties of the object
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapipropertycontainer/properties/
 ---
 ## MapiPropertyContainer.Properties property
 
-Gets the collection of properties.
+Gets all properties of the object.
 
 ```csharp
 public virtual MapiPropertyCollection Properties { get; }

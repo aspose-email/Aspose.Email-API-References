@@ -1,14 +1,14 @@
 ---
 title: MapiContactPersonalInfoPropertySet.OrganizationalIdNumber
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactPersonalInfoPropertySet property. Specifies an organizational ID number for the contact
+description: MapiContactPersonalInfoPropertySet property. Gets or sets the organizational ID number of the contact
 type: docs
 weight: 170
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/organizationalidnumber/
 ---
 ## MapiContactPersonalInfoPropertySet.OrganizationalIdNumber property
 
-Specifies an organizational ID number for the contact
+Gets or sets the organizational ID number of the contact.
 
 ```csharp
 public string OrganizationalIdNumber { get; set; }

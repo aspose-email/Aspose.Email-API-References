@@ -1,14 +1,14 @@
 ---
 title: MailMessage.Bcc
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage property. Gets or sets the address collection that contains the BCC recipients of message
+description: MailMessage property. Gets or sets the BCC recipients
 type: docs
 weight: 50
 url: /net/aspose.email/mailmessage/bcc/
 ---
 ## MailMessage.Bcc property
 
-Gets or sets the address collection that contains the BCC recipients of message
+Gets or sets the BCC recipients.
 
 ```csharp
 public virtual MailAddressCollection Bcc { get; set; }

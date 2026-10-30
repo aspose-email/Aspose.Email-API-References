@@ -18,21 +18,21 @@ public abstract class SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [CustomProgressHandler](../../aspose.email/saveoptions/customprogresshandler/) { get; set; } | Represents method that usually supplied by calling side and handles progress events. |
-| [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype/) { get; set; } | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. The default value is Eml. |
-| static [DefaultEml](../../aspose.email/saveoptions/defaulteml/) { get; } | Gets options with default values for saving message to Eml format. |
-| static [DefaultEmlx](../../aspose.email/saveoptions/defaultemlx/) { get; } | Gets options with default values for saving message to Emlx format. |
-| static [DefaultHtml](../../aspose.email/saveoptions/defaulthtml/) { get; } | Gets options with default values for saving message to Html format. |
-| static [DefaultMhtml](../../aspose.email/saveoptions/defaultmhtml/) { get; } | Gets options with default values for saving message to Mhtml format. |
-| static [DefaultMsg](../../aspose.email/saveoptions/defaultmsg/) { get; } | Gets options with default values for saving message to Msg(ASCII) format. |
-| static [DefaultMsgUnicode](../../aspose.email/saveoptions/defaultmsgunicode/) { get; } | Gets options with default values for saving message to Msg(Unicode) format. |
-| static [DefaultOft](../../aspose.email/saveoptions/defaultoft/) { get; } | Gets options with default values for saving message to Outlook template (Oft) format. |
+| [CustomProgressHandler](../../aspose.email/saveoptions/customprogresshandler/) { get; set; } | Gets or sets a handler that is called as the saving progresses. |
+| [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype/) { get; set; } | Gets or sets the format the options save to. |
+| static [DefaultEml](../../aspose.email/saveoptions/defaulteml/) { get; } | Gets new options with the default settings for saving to EML. |
+| static [DefaultEmlx](../../aspose.email/saveoptions/defaultemlx/) { get; } | Gets new options with the default settings for saving to EMLX. |
+| static [DefaultHtml](../../aspose.email/saveoptions/defaulthtml/) { get; } | Gets new options with the default settings for saving to HTML. |
+| static [DefaultMhtml](../../aspose.email/saveoptions/defaultmhtml/) { get; } | Gets new options with the default settings for saving to MHTML. |
+| static [DefaultMsg](../../aspose.email/saveoptions/defaultmsg/) { get; } | Gets new options with the default settings for saving to MSG with ANSI strings. |
+| static [DefaultMsgUnicode](../../aspose.email/saveoptions/defaultmsgunicode/) { get; } | Gets new options with the default settings for saving to MSG with Unicode strings. |
+| static [DefaultOft](../../aspose.email/saveoptions/defaultoft/) { get; } | Gets new options with the default settings for saving to Outlook template (OFT). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [CreateSaveOptions](../../aspose.email/saveoptions/createsaveoptions/)(MailMessageSaveType) | Creates a save options object of a class suitable for the specified save type. |
+| static [CreateSaveOptions](../../aspose.email/saveoptions/createsaveoptions/)(MailMessageSaveType) | Creates save options of the class that matches the specified format. |
 
 ## Remarks
 

@@ -1,14 +1,14 @@
 ---
 title: MapiPropertyCollection.MapiPropertyCollection
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyCollection constructor. Creates a new instance of class MapiProperty
+description: MapiPropertyCollection constructor. Initializes a new instance of the MapiPropertyCollection class
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapipropertycollection/mapipropertycollection/
 ---
 ## MapiPropertyCollection constructor
 
-Creates a new instance of class MapiProperty.
+Initializes a new instance of the [`MapiPropertyCollection`](../) class.
 
 ```csharp
 public MapiPropertyCollection()

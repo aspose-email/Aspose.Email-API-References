@@ -8,7 +8,7 @@ url: /net/aspose.email.mapi/mapicalendar/mapicalendar/
 ---
 ## MapiCalendar() {#constructor}
 
-Initializes a new instance of the [`MapiCalendar`](../) class
+Initializes a new instance of the [`MapiCalendar`](../) class.
 
 ```csharp
 public MapiCalendar()
@@ -24,7 +24,7 @@ public MapiCalendar()
 
 ## MapiCalendar(string, string, string, DateTime, DateTime) {#constructor_1}
 
-Initializes a new instance of the [`MapiCalendar`](../) class.
+Initializes a new instance of the [`MapiCalendar`](../) class that represents an appointment.
 
 ```csharp
 public MapiCalendar(string location, string summary, string description, DateTime startDate, 
@@ -33,11 +33,11 @@ public MapiCalendar(string location, string summary, string description, DateTim
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location | String | The appointment location. |
-| summary | String | The appointment summary. |
-| description | String | The appointment description. |
-| startDate | DateTime | The start date. |
-| endDate | DateTime | The end date. |
+| location | String | The location of the appointment. |
+| summary | String | The subject of the appointment. |
+| description | String | The body of the appointment. |
+| startDate | DateTime | The start date and time. |
+| endDate | DateTime | The end date and time. |
 
 ### See Also
 
@@ -49,7 +49,7 @@ public MapiCalendar(string location, string summary, string description, DateTim
 
 ## MapiCalendar(string, string, string, DateTime, DateTime, string, MapiRecipientCollection) {#constructor_3}
 
-Initializes a new instance of the [`MapiCalendar`](../) class.
+Initializes a new instance of the [`MapiCalendar`](../) class that represents a meeting.
 
 ```csharp
 public MapiCalendar(string location, string summary, string description, DateTime startDate, 
@@ -58,13 +58,13 @@ public MapiCalendar(string location, string summary, string description, DateTim
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location | String | The meeting location. |
-| summary | String | The meeting summary. |
-| description | String | The meeting description. |
-| startDate | DateTime | The start date. |
-| endDate | DateTime | The end date. |
-| organizer | String | The meeting organizer address. |
-| attendees | MapiRecipientCollection | The meeting attendees. |
+| location | String | The location of the meeting. |
+| summary | String | The subject of the meeting. |
+| description | String | The body of the meeting. |
+| startDate | DateTime | The start date and time. |
+| endDate | DateTime | The end date and time. |
+| organizer | String | The e-mail address of the organizer. |
+| attendees | MapiRecipientCollection | The attendees. |
 
 ### See Also
 
@@ -77,7 +77,7 @@ public MapiCalendar(string location, string summary, string description, DateTim
 
 ## MapiCalendar(string, string, string, DateTime, DateTime, MapiElectronicAddress, MapiRecipientCollection) {#constructor_2}
 
-Initializes a new instance of the [`MapiCalendar`](../) class.
+Initializes a new instance of the [`MapiCalendar`](../) class that represents a meeting.
 
 ```csharp
 public MapiCalendar(string location, string summary, string description, DateTime startDate, 
@@ -86,13 +86,13 @@ public MapiCalendar(string location, string summary, string description, DateTim
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location | String | The meeting location. |
-| summary | String | The meeting summary. |
-| description | String | The meeting description. |
-| startDate | DateTime | The start date. |
-| endDate | DateTime | The end date. |
-| organizer | MapiElectronicAddress | The meeting organizer. |
-| attendees | MapiRecipientCollection | The meeting attendees. |
+| location | String | The location of the meeting. |
+| summary | String | The subject of the meeting. |
+| description | String | The body of the meeting. |
+| startDate | DateTime | The start date and time. |
+| endDate | DateTime | The end date and time. |
+| organizer | MapiElectronicAddress | The organizer. |
+| attendees | MapiRecipientCollection | The attendees. |
 
 ### See Also
 

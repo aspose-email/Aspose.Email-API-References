@@ -1,14 +1,14 @@
 ---
 title: MapiConversionOptions.UseBodyCompression
 second_title: Aspose.Email for .NET API Reference
-description: MapiConversionOptions property. Set to true if need RTF body compression
+description: MapiConversionOptions property. Gets or sets a value indicating whether the RTF body is stored compressed. The default is false
 type: docs
 weight: 120
 url: /net/aspose.email.mapi/mapiconversionoptions/usebodycompression/
 ---
 ## MapiConversionOptions.UseBodyCompression property
 
-Set to true, if need RTF body compression.
+Gets or sets a value indicating whether the RTF body is stored compressed. The default is `false`.
 
 ```csharp
 public bool UseBodyCompression { get; set; }

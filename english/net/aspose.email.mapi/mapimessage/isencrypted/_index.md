@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.IsEncrypted
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage property. Gets a value indicating whether the message is encrypted
+description: MapiMessage property. Gets a value indicating whether the message is encrypted S/MIME
 type: docs
 weight: 170
 url: /net/aspose.email.mapi/mapimessage/isencrypted/
 ---
 ## MapiMessage.IsEncrypted property
 
-Gets a value indicating whether the message is encrypted.
+Gets a value indicating whether the message is encrypted (S/MIME).
 
 ```csharp
 public bool IsEncrypted { get; }

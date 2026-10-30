@@ -1,14 +1,14 @@
 ---
 title: MapiRecipientCollection.Add
 second_title: Aspose.Email for .NET API Reference
-description: MapiRecipientCollection method. Adds the new recipient
+description: MapiRecipientCollection method. Adds a recipient
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapirecipientcollection/add/
 ---
 ## Add(string, string, MapiRecipientType) {#add}
 
-Adds the new recipient.
+Adds a recipient.
 
 ```csharp
 public MapiRecipient Add(string address, string displayName, MapiRecipientType recipientType)
@@ -16,24 +16,24 @@ public MapiRecipient Add(string address, string displayName, MapiRecipientType r
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| address | String | The mail address of recipient. |
-| displayName | String | The display name of recipient. |
-| recipientType | MapiRecipientType | Type of the recipient. |
+| address | String | The e-mail address. |
+| displayName | String | The display name. |
+| recipientType | MapiRecipientType | The type: To, CC or BCC. |
 
 ### Return Value
 
-Newly created recipient[`MapiRecipient`](../../mapirecipient/)
+The new [`MapiRecipient`](../../mapirecipient/).
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | throws if recipient address is null or empty. |
-| ArgumentException | throws if recipient address is not in a recognized format. |
+| ArgumentNullException | *address* is `null` or empty. |
+| ArgumentException | *address* is not valid. |
 
 ## Remarks
 
-When adding a new recepient, the value of either MapiMessage.DisplayTo or MapiMessage.DisplayBcc or MapiMessage.DisplayCC is also updated depending on the type of recepient.
+Adding a recipient also updates [`DisplayTo`](../../mapimessage/displayto/), [`DisplayCc`](../../mapimessage/displaycc/) or [`DisplayBcc`](../../mapimessage/displaybcc/) of the message, depending on the type of the recipient.
 
 ### See Also
 
@@ -47,7 +47,7 @@ When adding a new recepient, the value of either MapiMessage.DisplayTo or MapiMe
 
 ## Add(string, string, string, MapiRecipientType) {#add_1}
 
-Adds the new recipient.
+Adds a recipient with an address of the specified type.
 
 ```csharp
 public MapiRecipient Add(string address, string addressType, string displayName, 
@@ -56,25 +56,25 @@ public MapiRecipient Add(string address, string addressType, string displayName,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| address | String | The mail address of recipient. |
-| addressType | String | The type of address. |
-| displayName | String | The display name of recipient. |
-| recipientType | MapiRecipientType | Type of the recipient. |
+| address | String | The address. |
+| addressType | String | The type of the address, such as `SMTP` or `EX`. |
+| displayName | String | The display name. |
+| recipientType | MapiRecipientType | The type: To, CC or BCC. |
 
 ### Return Value
 
-Newly created recipient[`MapiRecipient`](../../mapirecipient/)
+The new [`MapiRecipient`](../../mapirecipient/).
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | throws if recipient address is null or empty. |
-| ArgumentException | throws if recipient address is not in a recognized format. |
+| ArgumentNullException | *address* is `null` or empty. |
+| ArgumentException | *address* is not valid. |
 
 ## Remarks
 
-When adding a new recepient, the value of either MapiMessage.DisplayTo or MapiMessage.DisplayBcc or MapiMessage.DisplayCC is also updated depending on the type of recepient.
+Adding a recipient also updates [`DisplayTo`](../../mapimessage/displayto/), [`DisplayCc`](../../mapimessage/displaycc/) or [`DisplayBcc`](../../mapimessage/displaybcc/) of the message, depending on the type of the recipient.
 
 ### See Also
 
@@ -88,7 +88,7 @@ When adding a new recepient, the value of either MapiMessage.DisplayTo or MapiMe
 
 ## Add(MapiRecipient) {#add_2}
 
-Adds an object to the end of the Collection.
+Adds an existing recipient to the end of the collection.
 
 ```csharp
 public void Add(MapiRecipient item)
@@ -96,7 +96,7 @@ public void Add(MapiRecipient item)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | MapiRecipient | The object to be added to the end of the Collection. The value can be null for reference types. |
+| item | MapiRecipient | The recipient to add. |
 
 ### See Also
 

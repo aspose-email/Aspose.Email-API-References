@@ -1,14 +1,14 @@
 ---
 title: MapiTask.LastUpdate
 second_title: Aspose.Email for .NET API Reference
-description: MapiTask property. Gets or sets the date and time of the most recent change made to the Task object
+description: MapiTask property. Gets or sets the date and time of the last change made to the task
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.email.mapi/mapitask/lastupdate/
 ---
 ## MapiTask.LastUpdate property
 
-Gets or sets the date and time of the most recent change made to the Task object.
+Gets or sets the date and time of the last change made to the task.
 
 ```csharp
 public DateTime LastUpdate { get; set; }

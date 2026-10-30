@@ -1,14 +1,14 @@
 ---
 title: MapiProperty.GetValue
 second_title: Aspose.Email for .NET API Reference
-description: MapiProperty method. Gets value as object
+description: MapiProperty method. Gets the value as an object of the .NET type that matches the data type
 type: docs
 weight: 260
 url: /net/aspose.email.mapi/mapiproperty/getvalue/
 ---
 ## MapiProperty.GetValue method
 
-Gets value as object
+Gets the value as an object of the .NET type that matches the data type.
 
 ```csharp
 public object GetValue()
@@ -16,7 +16,7 @@ public object GetValue()
 
 ### Return Value
 
-value of a property
+The value.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: MapiRecipient.PropertyStream
 second_title: Aspose.Email for .NET API Reference
-description: MapiRecipient property. Gets the property stream
+description: MapiRecipient property. Gets the property stream of the recipient
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapirecipient/propertystream/
 ---
 ## MapiRecipient.PropertyStream property
 
-Gets the property stream.
+Gets the property stream of the recipient.
 
 ```csharp
 public MapiPropertyStream PropertyStream { get; }

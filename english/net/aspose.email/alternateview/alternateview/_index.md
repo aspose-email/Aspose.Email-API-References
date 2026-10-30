@@ -1,14 +1,14 @@
 ---
 title: AlternateView.AlternateView
 second_title: Aspose.Email for .NET API Reference
-description: AlternateView constructor. Initializes a new instance of the AlternateView class
+description: AlternateView constructor. Initializes a new instance of the AlternateView class with the content of a file
 type: docs
 weight: 10
 url: /net/aspose.email/alternateview/alternateview/
 ---
 ## AlternateView(string) {#constructor_3}
 
-Initializes a new instance of the [`AlternateView`](../) class.
+Initializes a new instance of the [`AlternateView`](../) class with the content of a file.
 
 ```csharp
 public AlternateView(string fileName)
@@ -16,7 +16,7 @@ public AlternateView(string fileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Name of the file. |
+| fileName | String | The path of the file that contains the content of the view. |
 
 ### See Also
 
@@ -28,7 +28,7 @@ public AlternateView(string fileName)
 
 ## AlternateView(string, string) {#constructor_5}
 
-Initializes a new instance of the [`AlternateView`](../) class.
+Initializes a new instance of the [`AlternateView`](../) class with the content of a file.
 
 ```csharp
 public AlternateView(string fileName, string mediaType)
@@ -36,8 +36,8 @@ public AlternateView(string fileName, string mediaType)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Name of the file. |
-| mediaType | String | Internet media type. |
+| fileName | String | The path of the file that contains the content of the view. |
+| mediaType | String | The MIME media type of the content, such as `text/html`. |
 
 ### See Also
 
@@ -49,7 +49,7 @@ public AlternateView(string fileName, string mediaType)
 
 ## AlternateView(string, ContentType) {#constructor_4}
 
-Initializes a new instance of the [`AlternateView`](../) class.
+Initializes a new instance of the [`AlternateView`](../) class with the content of a file.
 
 ```csharp
 public AlternateView(string fileName, ContentType contentType)
@@ -57,8 +57,8 @@ public AlternateView(string fileName, ContentType contentType)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Name of the file. |
-| contentType | ContentType | Content type. |
+| fileName | String | The path of the file that contains the content of the view. |
+| contentType | ContentType | The content type of the view, with its media type and character set. |
 
 ### See Also
 
@@ -71,7 +71,7 @@ public AlternateView(string fileName, ContentType contentType)
 
 ## AlternateView(Stream) {#constructor}
 
-Initializes a new instance of the [`AlternateView`](../) class.
+Initializes a new instance of the [`AlternateView`](../) class with the content of a stream.
 
 ```csharp
 public AlternateView(Stream contentStream)
@@ -79,7 +79,7 @@ public AlternateView(Stream contentStream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| contentStream | Stream | The content stream. |
+| contentStream | Stream | The stream that contains the content of the view. |
 
 ### See Also
 
@@ -91,7 +91,7 @@ public AlternateView(Stream contentStream)
 
 ## AlternateView(Stream, string) {#constructor_2}
 
-Initializes a new instance of the [`AlternateView`](../) class.
+Initializes a new instance of the [`AlternateView`](../) class with the content of a stream.
 
 ```csharp
 public AlternateView(Stream contentStream, string mediaType)
@@ -99,8 +99,8 @@ public AlternateView(Stream contentStream, string mediaType)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| contentStream | Stream | The content stream. |
-| mediaType | String | Internet media type. |
+| contentStream | Stream | The stream that contains the content of the view. |
+| mediaType | String | The MIME media type of the content, such as `text/html`. |
 
 ### See Also
 
@@ -112,7 +112,7 @@ public AlternateView(Stream contentStream, string mediaType)
 
 ## AlternateView(Stream, ContentType) {#constructor_1}
 
-Initializes a new instance of the [`AlternateView`](../) class.
+Initializes a new instance of the [`AlternateView`](../) class with the content of a stream.
 
 ```csharp
 public AlternateView(Stream contentStream, ContentType contentType)
@@ -120,8 +120,8 @@ public AlternateView(Stream contentStream, ContentType contentType)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| contentStream | Stream | The content stream. |
-| contentType | ContentType | Content type. |
+| contentStream | Stream | The stream that contains the content of the view. |
+| contentType | ContentType | The content type of the view, with its media type and character set. |
 
 ### See Also
 

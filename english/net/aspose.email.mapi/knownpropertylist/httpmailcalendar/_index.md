@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.HttpmailCalendar
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies the URL for the Calendar folder for a particular user. Area Common Canonical name PidNameHttpmailCalendar Alternate names urnschemashttpmailcalendar
+description: KnownPropertyList field. Specifies the URL for the Calendar folder for a particular user. Area Common. Canonical name PidNameHttpmailCalendar. Alternate names urnschemashttpmailcalendar
 type: docs
 weight: 11190
 url: /net/aspose.email.mapi/knownpropertylist/httpmailcalendar/
 ---
 ## KnownPropertyList.HttpmailCalendar field
 
-Specifies the URL for the Calendar folder for a particular user. Area: Common Canonical name: PidNameHttpmailCalendar Alternate names: urn:schemas:httpmail:calendar
+Specifies the URL for the Calendar folder for a particular user. Area: Common. Canonical name: PidNameHttpmailCalendar. Alternate names: urn:schemas:httpmail:calendar.
 
 ```csharp
 public static readonly PidNamePropertyDescriptor HttpmailCalendar;

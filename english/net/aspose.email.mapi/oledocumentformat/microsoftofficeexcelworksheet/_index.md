@@ -1,14 +1,14 @@
 ---
 title: OleDocumentFormat.MicrosoftOfficeExcelWorksheet
 second_title: Aspose.Email for .NET API Reference
-description: OleDocumentFormat property. Microsoft office exccel format
+description: OleDocumentFormat property. Gets the format of a Microsoft Excel worksheet
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/oledocumentformat/microsoftofficeexcelworksheet/
 ---
 ## OleDocumentFormat.MicrosoftOfficeExcelWorksheet property
 
-Microsoft office exccel format.
+Gets the format of a Microsoft Excel worksheet.
 
 ```csharp
 public static OleDocumentFormat MicrosoftOfficeExcelWorksheet { get; }

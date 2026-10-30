@@ -1,14 +1,14 @@
 ---
 title: FolderInfo.AddSubFolder
 second_title: Aspose.Email for .NET API Reference
-description: FolderInfo method. Adds the new subfolder
+description: FolderInfo method. Adds a subfolder. With createHierarchy the name can be a path and the missing folders are created
 type: docs
 weight: 170
 url: /net/aspose.email.storage.pst/folderinfo/addsubfolder/
 ---
 ## AddSubFolder(string, bool) {#addsubfolder_2}
 
-Adds the new sub-folder.
+Adds a subfolder. With *createHierarchy*, the name can be a path, and the missing folders are created.
 
 ```csharp
 public FolderInfo AddSubFolder(string name, bool createHierarchy)
@@ -16,20 +16,24 @@ public FolderInfo AddSubFolder(string name, bool createHierarchy)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | The name of sub-folder. |
-| createHierarchy | Boolean | if set to `true`, it is possible to create a folder hierarchy using string notation. Backslash ('\') is used as path separator. |
+| name | String | The name of the subfolder, or a path such as `Parent\Child` when *createHierarchy* is `true`. |
+| createHierarchy | Boolean | `true` to treat *name* as a path separated by backslashes and create the folders that do not exist yet. |
 
 ### Return Value
 
-The new sub-folder.
+The new subfolder.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | throws, if a PST file version is ANSI. |
-| ArgumentNullException | throws, if a sub-folder name is null or empty. |
-| InvalidOperationException | throws, if a PST is open for reading only. |
+| NotImplementedException | The PST is in the ANSI format, which cannot be edited. |
+| ArgumentNullException | *name* is `null` or empty. |
+| InvalidOperationException | The PST is open for reading only. |
+
+## Remarks
+
+The new folder gets the container class of this folder, or `IPF.Note` if this folder has none.
 
 ### See Also
 
@@ -41,7 +45,7 @@ The new sub-folder.
 
 ## AddSubFolder(string) {#addsubfolder}
 
-Adds the new sub-folder.
+Adds a subfolder with the specified name.
 
 ```csharp
 public FolderInfo AddSubFolder(string name)
@@ -49,20 +53,24 @@ public FolderInfo AddSubFolder(string name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | The name of sub-folder. |
+| name | String | The name of the subfolder. |
 
 ### Return Value
 
-The new sub-folder.
+The new subfolder.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | throws, if a PST file version is ANSI. |
-| ArgumentNullException | throws, if a sub-folder name is null or empty. |
-| InvalidOperationException | throws, if a PST is open for reading only. |
-| InvalidOperationException | throws, if a folder with same name already exists. The comparison will be case-insensitive, and the folder creation operation will consider folders with the same name but different casing as duplicates. |
+| NotImplementedException | The PST is in the ANSI format, which cannot be edited. |
+| ArgumentNullException | *name* is `null` or empty. |
+| InvalidOperationException | The PST is open for reading only. |
+| InvalidOperationException | A subfolder with this name already exists. Names are compared case-insensitively. |
+
+## Remarks
+
+The new folder gets the container class of this folder, or `IPF.Note` if this folder has none.
 
 ### See Also
 
@@ -74,7 +82,7 @@ The new sub-folder.
 
 ## AddSubFolder(string, string) {#addsubfolder_3}
 
-Adds the new subfolder.
+Adds a subfolder with the specified name and container class.
 
 ```csharp
 public FolderInfo AddSubFolder(string name, string containerClass)
@@ -82,8 +90,8 @@ public FolderInfo AddSubFolder(string name, string containerClass)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | The name of subfolder. |
-| containerClass | String | Container class of the sub-Folder object. |
+| name | String | The name of the subfolder. |
+| containerClass | String | The container class of the new folder, for example `IPF.Note` for mail or `IPF.Appointment` for a calendar. |
 
 ### Return Value
 
@@ -93,10 +101,10 @@ The new subfolder.
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | throws, if a PST file version is ANSI. |
-| ArgumentNullException | throws, if a subfolder name is null or empty. |
-| InvalidOperationException | throws, if a PST is open for reading only. |
-| InvalidOperationException | throws, if a folder with same name already exists. The comparison will be case-insensitive, and the folder creation operation will consider folders with the same name but different casing as duplicates. |
+| NotImplementedException | The PST is in the ANSI format, which cannot be edited. |
+| ArgumentNullException | *name* is `null` or empty. |
+| InvalidOperationException | The PST is open for reading only. |
+| InvalidOperationException | A subfolder with this name already exists. Names are compared case-insensitively. |
 
 ### See Also
 
@@ -134,7 +142,36 @@ The [`FolderInfo`](../) representing the added subfolder.
 
 ## Remarks
 
-The *name* parameter specifies the name of the subfolder to add. The *creationOptions* parameter allows customization of the subfolder creation behavior, such as specifying whether to create the hierarchy of parent folders and the container class of the new subfolder. If the subfolder with the specified name already exists, the behavior depends on the value of [`AllowNameCaseDifference`](../../foldercreationoptions/allownamecasedifference/). If [`AllowNameCaseDifference`](../../foldercreationoptions/allownamecasedifference/) is set to `true`, a difference in name casing will be allowed, and the subfolder will be added even if an existing folder with the same name but in a different case exists. If [`AllowNameCaseDifference`](../../foldercreationoptions/allownamecasedifference/) is set to `false`, the comparison will be case-insensitive, and an InvalidOperationException will be thrown to indicate that a folder with the specified name already exists. The name may contain backslash (\) as the path separators (for example, "parent1\parent2\subfolder"). In this case if [`CreateHierarchy`](../../foldercreationoptions/createhierarchy/) is set to `true`, the hierarchy of parent folders should be created.
+*name* can be a path with backslash separators, such as `Parent1\Parent2\Subfolder`; set `FolderCreationOptions.CreateHierarchy` to create the parent folders that do not exist yet. Whether a folder with the same name already exists depends on `FolderCreationOptions.AllowNameCaseDifference`: when it is `false` (the default), names are compared case-insensitively and an existing name throws `InvalidOperationException`; when it is `true`, a name that differs only in case creates a new folder.
+
+## Examples
+
+This example creates a folder three levels deep, adding the parent folders that are missing.
+
+[C#]
+
+```csharp
+using (var pst = PersonalStorage.FromFile("archive.pst"))
+{
+    // Treat the name as a path and create the folders that do not exist yet
+    var options = new FolderCreationOptions { CreateHierarchy = true };
+
+    var folder = pst.RootFolder.AddSubFolder(@"Projects\2026\Reports", options);
+    Console.WriteLine($"Created {folder.DisplayName}");
+}
+```
+
+[Visual Basic]
+
+```csharp
+Using pst As PersonalStorage = PersonalStorage.FromFile("archive.pst")
+    ' Treat the name as a path and create the folders that do not exist yet
+    Dim options As New FolderCreationOptions With {.CreateHierarchy = True}
+
+    Dim folder As FolderInfo = pst.RootFolder.AddSubFolder("Projects\2026\Reports", options)
+    Console.WriteLine($"Created {folder.DisplayName}")
+End Using
+```
 
 ### See Also
 

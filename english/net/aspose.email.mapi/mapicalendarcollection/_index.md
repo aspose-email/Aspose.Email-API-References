@@ -1,14 +1,14 @@
 ---
 title: Class MapiCalendarCollection
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendarCollection class. Represents a stronglytyped collection of MapiCalendar objects for managing multiple calendar items in a single collection. This class provides standard collection operations while maintaining type safety for MAPI calendar entries
+description: Aspose.Email.Mapi.MapiCalendarCollection class. A collection of MapiCalendar items
 type: docs
 weight: 16740
 url: /net/aspose.email.mapi/mapicalendarcollection/
 ---
 ## MapiCalendarCollection class
 
-Represents a strongly-typed collection of [`MapiCalendar`](../mapicalendar/) objects for managing multiple calendar items in a single collection. This class provides standard collection operations while maintaining type safety for MAPI calendar entries.
+A collection of [`MapiCalendar`](../mapicalendar/) items.
 
 ```csharp
 public sealed class MapiCalendarCollection : List<MapiCalendar>
@@ -19,7 +19,7 @@ public sealed class MapiCalendarCollection : List<MapiCalendar>
 | Name | Description |
 | --- | --- |
 | [MapiCalendarCollection](mapicalendarcollection/#constructor)() | Initializes a new instance of the `MapiCalendarCollection` class. |
-| [MapiCalendarCollection](mapicalendarcollection/#constructor_1)(IEnumerable&lt;MapiCalendar&gt;) | Initializes a new instance of the `MapiCalendarCollection` class. |
+| [MapiCalendarCollection](mapicalendarcollection/#constructor_1)(IEnumerable&lt;MapiCalendar&gt;) | Initializes a new instance of the `MapiCalendarCollection` class with the specified items. |
 
 ## Methods
 
@@ -29,7 +29,7 @@ public sealed class MapiCalendarCollection : List<MapiCalendar>
 
 ## Remarks
 
-This collection class extends List and supports all standard list operations such as adding, removing, and iterating through calendar items. It also supports implicit conversion from arrays of [`MapiCalendar`](../mapicalendar/) objects for convenient initialization. Use this collection when working with multiple calendar items, such as when exporting or importing calendar data in MAPI format.
+A `List<MapiCalendar>` with the usual list operations.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: Enum MailSensitivity
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.MailSensitivity enum. Specifies the sensitivity of a MailMessage
+description: Aspose.Email.MailSensitivity enum. Defines the sensitivity of a message
 type: docs
 weight: 16530
 url: /net/aspose.email/mailsensitivity/
 ---
 ## MailSensitivity enumeration
 
-Specifies the sensitivity of a MailMessage.
+Defines the sensitivity of a message.
 
 ```csharp
 public enum MailSensitivity
@@ -18,11 +18,11 @@ public enum MailSensitivity
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0` | No Sensitivity set. |
-| Normal | `1` | The normal sensitivity. |
-| Personal | `2` | Sets the sensitivity to Personal. |
-| Private | `3` | Sets the sensitivity to Private. |
-| CompanyConfidential | `4` | Sets the sensitivity to CompanyConfidential. |
+| None | `0` | Not set. |
+| Normal | `1` | Normal. |
+| Personal | `2` | Personal. |
+| Private | `3` | Private. |
+| CompanyConfidential | `4` | Company confidential. |
 
 ### See Also
 

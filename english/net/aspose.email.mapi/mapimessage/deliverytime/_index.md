@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.DeliveryTime
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage property. Gets or sets the date and time a message was delivered
+description: MapiMessage property. Gets or sets the date and time the message was delivered
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapimessage/deliverytime/
 ---
 ## MapiMessage.DeliveryTime property
 
-Gets or sets the date and time a message was delivered.
+Gets or sets the date and time the message was delivered.
 
 ```csharp
 public DateTime DeliveryTime { get; set; }
@@ -16,11 +16,11 @@ public DateTime DeliveryTime { get; set; }
 
 ### Property Value
 
-The DateTime that represents delivery time.
+The date and time of delivery.
 
 ## Remarks
 
-If the property was not available, DateTime.MinValue is returned.
+`DateTime.MinValue` is returned when the message has no such date.
 
 ### See Also
 

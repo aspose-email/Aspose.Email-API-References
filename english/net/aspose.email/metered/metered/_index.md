@@ -1,14 +1,14 @@
 ---
 title: Metered.Metered
 second_title: Aspose.Email for .NET API Reference
-description: Metered constructor. Initializes a new instance of this class
+description: Metered constructor. Initializes a new instance of the Metered class
 type: docs
 weight: 10
 url: /net/aspose.email/metered/metered/
 ---
 ## Metered constructor
 
-Initializes a new instance of this class.
+Initializes a new instance of the [`Metered`](../) class.
 
 ```csharp
 public Metered()

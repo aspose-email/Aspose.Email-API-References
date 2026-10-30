@@ -3,7 +3,7 @@ title: MapiDistributionList.GetUnderlyingMessage
 second_title: Aspose.Email for .NET API Reference
 description: MapiDistributionList method. Retrieves the underlying MapiMessage object
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.email.mapi/mapidistributionlist/getunderlyingmessage/
 ---
 ## MapiDistributionList.GetUnderlyingMessage method

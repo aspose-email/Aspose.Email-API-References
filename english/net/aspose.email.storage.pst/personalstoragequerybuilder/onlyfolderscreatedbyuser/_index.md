@@ -1,14 +1,14 @@
 ---
 title: PersonalStorageQueryBuilder.OnlyFoldersCreatedByUser
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorageQueryBuilder property. Gets folders that created by user i.e. excludes all standard IPM folders
+description: PersonalStorageQueryBuilder property. Gets the field to search only the folders created by the user leaving out the standard Outlook folders
 type: docs
 weight: 90
 url: /net/aspose.email.storage.pst/personalstoragequerybuilder/onlyfolderscreatedbyuser/
 ---
 ## PersonalStorageQueryBuilder.OnlyFoldersCreatedByUser property
 
-Gets folders that created by user, i.e. excludes all standard IPM folders.
+Gets the field to search only the folders created by the user, leaving out the standard Outlook folders.
 
 ```csharp
 public BoolComparisonField OnlyFoldersCreatedByUser { get; }
@@ -16,7 +16,7 @@ public BoolComparisonField OnlyFoldersCreatedByUser { get; }
 
 ### Property Value
 
-The[`BoolComparisonField`](../../../aspose.email.tools.search/boolcomparisonfield/) that represents search field.
+The [`BoolComparisonField`](../../../aspose.email.tools.search/boolcomparisonfield/) that represents the search field.
 
 ### See Also
 

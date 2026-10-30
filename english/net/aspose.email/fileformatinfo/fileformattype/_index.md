@@ -1,14 +1,14 @@
 ---
 title: FileFormatInfo.FileFormatType
 second_title: Aspose.Email for .NET API Reference
-description: FileFormatInfo property. Gets file format type
+description: FileFormatInfo property. Gets the detected file format
 type: docs
 weight: 10
 url: /net/aspose.email/fileformatinfo/fileformattype/
 ---
 ## FileFormatInfo.FileFormatType property
 
-Gets file format type.
+Gets the detected file format.
 
 ```csharp
 public FileFormatType FileFormatType { get; }

@@ -1,14 +1,14 @@
 ---
 title: Appointment.Appointment
 second_title: Aspose.Email for .NET API Reference
-description: Appointment constructor. Initialize a new instance of the Appointment class
+description: Appointment constructor. Initializes a new instance of the Appointment class with the location time organizer and attendees of the event
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/appointment/appointment/
 ---
 ## Appointment(string, DateTime, DateTime, MailAddress, MailAddressCollection) {#constructor}
 
-Initialize a new instance of the [`Appointment`](../) class.
+Initializes a new instance of the [`Appointment`](../) class with the location, time, organizer and attendees of the event.
 
 ```csharp
 public Appointment(string location, DateTime startDate, DateTime endDate, MailAddress organizer, 
@@ -17,11 +17,11 @@ public Appointment(string location, DateTime startDate, DateTime endDate, MailAd
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location | String | The location of the calendar event. |
-| startDate | DateTime | The start time of the calendar event. |
-| endDate | DateTime | The end time of the calendar event. |
-| organizer | MailAddress | The organizer of the calendar event. |
-| attendees | MailAddressCollection | The attendees of th calendar event. |
+| location | String | The location of the event. |
+| startDate | DateTime | The start date and time of the event. |
+| endDate | DateTime | The end date and time of the event. |
+| organizer | MailAddress | The organizer of the event. |
+| attendees | MailAddressCollection | The attendees of the event. |
 
 ### See Also
 
@@ -35,7 +35,7 @@ public Appointment(string location, DateTime startDate, DateTime endDate, MailAd
 
 ## Appointment(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection) {#constructor_1}
 
-Initialize a new instance of the [`Appointment`](../) class.
+Initializes a new instance of the [`Appointment`](../) class with the location, summary, description, time, organizer and attendees of the event.
 
 ```csharp
 public Appointment(string location, string summary, string description, DateTime startDate, 
@@ -44,13 +44,13 @@ public Appointment(string location, string summary, string description, DateTime
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location | String | The location of the calendar event. |
-| summary | String | The summary of the calendar event. |
-| description | String | The description of the calendar event. |
-| startDate | DateTime | The start time of the calendar event. |
-| endDate | DateTime | The end time of the calendar event. |
-| organizer | MailAddress | The organizer of the calendar event. |
-| attendees | MailAddressCollection | The attendees of th calendar event. |
+| location | String | The location of the event. |
+| summary | String | The summary (subject) of the event. |
+| description | String | The plain-text description of the event. |
+| startDate | DateTime | The start date and time of the event. |
+| endDate | DateTime | The end date and time of the event. |
+| organizer | MailAddress | The organizer of the event. |
+| attendees | MailAddressCollection | The attendees of the event. |
 
 ### See Also
 
@@ -64,7 +64,7 @@ public Appointment(string location, string summary, string description, DateTime
 
 ## Appointment(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection, string) {#constructor_3}
 
-Initialize a new instance of the [`Appointment`](../) class.
+Initializes a new instance of the [`Appointment`](../) class with an explicit unique identifier.
 
 ```csharp
 public Appointment(string location, string summary, string description, DateTime startDate, 
@@ -73,14 +73,14 @@ public Appointment(string location, string summary, string description, DateTime
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location | String | The location of the calendar event. |
-| summary | String | The summary of the calendar event. |
-| description | String | The description of the calendar event. |
-| startDate | DateTime | The start time of the calendar event. |
-| endDate | DateTime | The end time of the calendar event. |
-| organizer | MailAddress | The organizer of the calendar event. |
-| attendees | MailAddressCollection | The attendees of th calendar event. |
-| uid | String | The unique identifier of th calendar event. |
+| location | String | The location of the event. |
+| summary | String | The summary (subject) of the event. |
+| description | String | The plain-text description of the event. |
+| startDate | DateTime | The start date and time of the event. |
+| endDate | DateTime | The end date and time of the event. |
+| organizer | MailAddress | The organizer of the event. |
+| attendees | MailAddressCollection | The attendees of the event. |
+| uid | String | The unique identifier of the event (the iCalendar UID property). |
 
 ### See Also
 
@@ -94,7 +94,7 @@ public Appointment(string location, string summary, string description, DateTime
 
 ## Appointment(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection, RecurrencePattern) {#constructor_2}
 
-Initialize a new instance of the [`Appointment`](../) class.
+Initializes a new instance of the [`Appointment`](../) class for a recurring event.
 
 ```csharp
 public Appointment(string location, string summary, string description, DateTime startDate, 
@@ -104,14 +104,14 @@ public Appointment(string location, string summary, string description, DateTime
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location | String | The location of the calendar event. |
-| summary | String | The summary of the calendar event. |
-| description | String | The description of the calendar event. |
-| startDate | DateTime | The start time of the calendar event. |
-| endDate | DateTime | The end time of the calendar event. |
-| organizer | MailAddress | The organizer of the calendar event. |
-| attendees | MailAddressCollection | The attendees of th calendar event. |
-| recurrencePattern | RecurrencePattern | The recurrence pattern. |
+| location | String | The location of the event. |
+| summary | String | The summary (subject) of the event. |
+| description | String | The plain-text description of the event. |
+| startDate | DateTime | The start date and time of the event. |
+| endDate | DateTime | The end date and time of the event. |
+| organizer | MailAddress | The organizer of the event. |
+| attendees | MailAddressCollection | The attendees of the event. |
+| recurrencePattern | RecurrencePattern | The recurrence pattern of the event, or `null` for a single occurrence. |
 
 ### See Also
 
@@ -126,7 +126,7 @@ public Appointment(string location, string summary, string description, DateTime
 
 ## Appointment(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection, string, RecurrencePattern) {#constructor_4}
 
-Initialize a new instance of the [`Appointment`](../) class.
+Initializes a new instance of the [`Appointment`](../) class for a recurring event with an explicit unique identifier.
 
 ```csharp
 public Appointment(string location, string summary, string description, DateTime startDate, 
@@ -136,15 +136,15 @@ public Appointment(string location, string summary, string description, DateTime
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location | String | The location of the calendar event. |
-| summary | String | The summary of the calendar event. |
-| description | String | The description of the calendar event. |
-| startDate | DateTime | The start time of the calendar event. |
-| endDate | DateTime | The end time of the calendar event. |
-| organizer | MailAddress | The organizer of the calendar event. |
-| attendees | MailAddressCollection | The attendees of th calendar event. |
-| uid | String | The unique identifier of th calendar event. |
-| recurrencePattern | RecurrencePattern | The recurrence pattern. |
+| location | String | The location of the event. |
+| summary | String | The summary (subject) of the event. |
+| description | String | The plain-text description of the event. |
+| startDate | DateTime | The start date and time of the event. |
+| endDate | DateTime | The end date and time of the event. |
+| organizer | MailAddress | The organizer of the event. |
+| attendees | MailAddressCollection | The attendees of the event. |
+| uid | String | The unique identifier of the event (the iCalendar UID property). |
+| recurrencePattern | RecurrencePattern | The recurrence pattern of the event, or `null` for a single occurrence. |
 
 ### See Also
 

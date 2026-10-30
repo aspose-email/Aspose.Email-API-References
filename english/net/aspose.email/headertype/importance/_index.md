@@ -1,14 +1,14 @@
 ---
 title: HeaderType.Importance
 second_title: Aspose.Email for .NET API Reference
-description: HeaderType property. Gets the importance
+description: HeaderType property. Gets the Importance header the importance of the message low normal or high
 type: docs
 weight: 120
 url: /net/aspose.email/headertype/importance/
 ---
 ## HeaderType.Importance property
 
-Gets the importance.
+Gets the `Importance` header: the importance of the message: low, normal or high.
 
 ```csharp
 public static HeaderType Importance { get; }

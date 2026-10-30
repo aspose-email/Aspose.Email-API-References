@@ -1,14 +1,14 @@
 ---
 title: MhtTemplateName.Contact.Home
 second_title: Aspose.Email for .NET API Reference
-description: Contact field. Home phone header
+description: Contact field. The name of the home telephone field
 type: docs
 weight: 190
 url: /net/aspose.email/mhttemplatename.contact/home/
 ---
 ## MhtTemplateName.Contact.Home field
 
-Home phone header.
+The name of the home telephone field.
 
 ```csharp
 public const string Home;

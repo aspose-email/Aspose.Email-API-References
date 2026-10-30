@@ -1,14 +1,14 @@
 ---
 title: MapiMessageItemBase.SetBodyContent
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessageItemBase method. Sets the content of the body
+description: MapiMessageItemBase method. Sets the body of the item in the specified format
 type: docs
 weight: 240
 url: /net/aspose.email.mapi/mapimessageitembase/setbodycontent/
 ---
 ## SetBodyContent(string, BodyContentType) {#setbodycontent}
 
-Sets the content of the body.
+Sets the body of the item in the specified format.
 
 ```csharp
 public virtual void SetBodyContent(string content, BodyContentType contentType)
@@ -16,18 +16,18 @@ public virtual void SetBodyContent(string content, BodyContentType contentType)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | String | The content. |
-| contentType | BodyContentType | Type of the content. |
+| content | String | The text of the body. |
+| contentType | BodyContentType | The format of *content*. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | throws if the specified content string is null or empty. |
+| ArgumentNullException | *content* is `null` or empty. |
 
 ## Remarks
 
-It is provided for setting of the content of the body message in RTF, HTML or Plain Text formats. When setting a value, the values of PR_RTF_COMPRESSED, PR_RTF_DECOMPRESSES, PR_BODY properties are updated as well. Note, after the value in HTML format is set, BodyRtf property returns the value which is encoded within RTF.
+The plain-text body, the RTF body and the compressed RTF property are all updated. After HTML content is set, [`BodyRtf`](../bodyrtf/) returns that HTML encapsulated in RTF.
 
 ### See Also
 
@@ -40,7 +40,7 @@ It is provided for setting of the content of the body message in RTF, HTML or Pl
 
 ## SetBodyContent(string, BodyContentType, bool) {#setbodycontent_1}
 
-Sets the content of the body.
+Sets the body of the item in the specified format, optionally compressing it.
 
 ```csharp
 public virtual void SetBodyContent(string content, BodyContentType contentType, bool compression)
@@ -48,19 +48,19 @@ public virtual void SetBodyContent(string content, BodyContentType contentType, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | String | The content. |
-| contentType | BodyContentType | Type of the content. |
-| compression | Boolean | Specify that the content should be compressed. |
+| content | String | The text of the body. |
+| contentType | BodyContentType | The format of *content*. |
+| compression | Boolean | `true` to store the RTF body compressed. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | throws if the specified content string is null or empty. |
+| ArgumentNullException | *content* is `null` or empty. |
 
 ## Remarks
 
-It is provided for setting of the content of the body message in RTF, HTML or Plain Text formats. When setting a value, the values of PR_RTF_COMPRESSED, PR_RTF_DECOMPRESSES, PR_BODY properties are updated as well. Note, after the value in HTML format is set, BodyRtf property returns the value which is encoded within RTF.
+The plain-text body, the RTF body and the compressed RTF property are all updated. After HTML content is set, [`BodyRtf`](../bodyrtf/) returns that HTML encapsulated in RTF.
 
 ### See Also
 

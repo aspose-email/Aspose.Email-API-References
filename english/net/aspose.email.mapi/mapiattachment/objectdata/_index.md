@@ -1,14 +1,14 @@
 ---
 title: MapiAttachment.ObjectData
 second_title: Aspose.Email for .NET API Reference
-description: MapiAttachment property. Gets an attachment object typically accessed through the OLE IStorage interface
+description: MapiAttachment property. Gets the embedded object of the attachment such as an attached Outlook message or an OLE document
 type: docs
 weight: 140
 url: /net/aspose.email.mapi/mapiattachment/objectdata/
 ---
 ## MapiAttachment.ObjectData property
 
-Gets an attachment object typically accessed through the OLE IStorage interface.
+Gets the embedded object of the attachment, such as an attached Outlook message or an OLE document.
 
 ```csharp
 public MapiObjectProperty ObjectData { get; }
@@ -16,7 +16,7 @@ public MapiObjectProperty ObjectData { get; }
 
 ### Property Value
 
-The object data.
+The embedded object, or `null` for a file attachment.
 
 ### See Also
 

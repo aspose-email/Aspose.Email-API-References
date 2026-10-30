@@ -1,14 +1,14 @@
 ---
 title: LinkedResourceCollection.RemoveAt
 second_title: Aspose.Email for .NET API Reference
-description: LinkedResourceCollection method. Removes the element at the specified index from this collection
+description: LinkedResourceCollection method. Removes the resource at the specified position optionally also removing the reference to it from the HTML body
 type: docs
 weight: 40
 url: /net/aspose.email/linkedresourcecollection/removeat/
 ---
 ## LinkedResourceCollection.RemoveAt method
 
-Removes the element at the specified index from this collection.
+Removes the resource at the specified position, optionally also removing the reference to it from the HTML body.
 
 ```csharp
 public void RemoveAt(int index, bool removeHtmlLink)
@@ -16,8 +16,8 @@ public void RemoveAt(int index, bool removeHtmlLink)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The zero-based index of the element to remove. |
-| removeHtmlLink | Boolean | Defines need remove link from html body or not. |
+| index | Int32 | The zero-based position of the resource. |
+| removeHtmlLink | Boolean | `true` to also remove the `cid:` reference to the resource from the HTML body. |
 
 ### See Also
 

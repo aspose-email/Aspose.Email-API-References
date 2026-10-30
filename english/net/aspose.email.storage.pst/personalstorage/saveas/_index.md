@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.SaveAs
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Saves the current object to a specified file format in a different file
+description: PersonalStorage method. Saves the storage to another file in the specified format
 type: docs
 weight: 360
 url: /net/aspose.email.storage.pst/personalstorage/saveas/
 ---
 ## SaveAs(string, FileFormat) {#saveas_1}
 
-Saves the current object to a specified file format in a different file.
+Saves the storage to another file in the specified format.
 
 ```csharp
 public void SaveAs(string fileName, FileFormat format)
@@ -16,12 +16,33 @@ public void SaveAs(string fileName, FileFormat format)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | The name of the file to be saved. |
-| format | FileFormat | The [`FileFormat`](../../fileformat/) is to be used when saving a file. |
+| fileName | String | The path of the file to create. |
+| format | FileFormat | The format to save in. |
 
 ## Remarks
 
-It is used for the fast OST to PST conversion. The method doesn't support conversion of OST created by MS Office 2013 and later versions. To convert an OST of later version, create a new PST and use the [`MergeWith`](../mergewith/) method.
+Use it for a fast OST to PST conversion. It does not support OST files of Outlook 2013 and later; to convert such a file, create a new PST and call its [`MergeWith`](../mergewith/) method.
+
+## Examples
+
+This example converts an OST file to PST.
+
+[C#]
+
+```csharp
+using (var ost = PersonalStorage.FromFile("mailbox.ost"))
+{
+    ost.SaveAs("mailbox.pst", FileFormat.Pst);
+}
+```
+
+[Visual Basic]
+
+```csharp
+Using ost As PersonalStorage = PersonalStorage.FromFile("mailbox.ost")
+    ost.SaveAs("mailbox.pst", FileFormat.Pst)
+End Using
+```
 
 ### See Also
 
@@ -34,7 +55,7 @@ It is used for the fast OST to PST conversion. The method doesn't support conver
 
 ## SaveAs(Stream, FileFormat) {#saveas}
 
-Saves the current object to a specified file format in a stream.
+Saves the storage to a stream in the specified format.
 
 ```csharp
 public void SaveAs(Stream stream, FileFormat format)
@@ -42,12 +63,12 @@ public void SaveAs(Stream stream, FileFormat format)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The stream to be saved. |
-| format | FileFormat | The [`FileFormat`](../../fileformat/) is to be used. |
+| stream | Stream | The stream to write to. |
+| format | FileFormat | The format to save in. |
 
 ## Remarks
 
-It is used for the fast OST to PST conversion. The method doesn't support conversion of OST created by MS Office 2013 and later versions. To convert an OST of later version, create a new PST and use the [`MergeWith`](../mergewith/) method.
+Use it for a fast OST to PST conversion. It does not support OST files of Outlook 2013 and later; to convert such a file, create a new PST and call its [`MergeWith`](../mergewith/) method.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: MapiObjectProperty.IsOutlookMessage
 second_title: Aspose.Email for .NET API Reference
-description: MapiObjectProperty property. Indicates whether the object property is an embedded outlook message
+description: MapiObjectProperty property. Gets a value indicating whether the object is an Outlook message
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapiobjectproperty/isoutlookmessage/
 ---
 ## MapiObjectProperty.IsOutlookMessage property
 
-Indicates whether the object property is an embedded outlook message.
+Gets a value indicating whether the object is an Outlook message.
 
 ```csharp
 public bool IsOutlookMessage { get; }

@@ -1,14 +1,14 @@
 ---
 title: MailMessage.HtmlBody
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage property. Gets or sets html body
+description: MailMessage property. Gets or sets the HTML body
 type: docs
 weight: 150
 url: /net/aspose.email/mailmessage/htmlbody/
 ---
 ## MailMessage.HtmlBody property
 
-Gets or sets html body
+Gets or sets the HTML body.
 
 ```csharp
 public virtual string HtmlBody { get; set; }

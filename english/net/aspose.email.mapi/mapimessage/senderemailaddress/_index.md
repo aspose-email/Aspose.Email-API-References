@@ -16,17 +16,17 @@ public string SenderEmailAddress { get; set; }
 
 ### Property Value
 
-The string that represents sender email address.
+The e-mail address of the sender.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | throws if sender address is not in a recognized format. |
+| ArgumentException | The address is not valid. |
 
 ## Remarks
 
-When setting a value, the values of PR_SENDER_SEARCH_KEY and PR_SENDER_ENTRYID properties are updated as well. When setting a null value or empty string, the values of properties are set null.
+Setting the address also updates the search key and the EntryID of the sender. Setting `null` or an empty string clears them.
 
 ### See Also
 

@@ -8,7 +8,7 @@ url: /net/aspose.email.calendar/taskmsgsaveoptions/taskmsgsaveoptions/
 ---
 ## TaskMsgSaveOptions constructor
 
-Initializes a new instance of the [`TaskMsgSaveOptions`](../) class
+Initializes a new instance of the [`TaskMsgSaveOptions`](../) class.
 
 ```csharp
 public TaskMsgSaveOptions()

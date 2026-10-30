@@ -1,14 +1,14 @@
 ---
 title: Class TaskMsgSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.TaskMsgSaveOptions class. Represents task to MSG save options
+description: Aspose.Email.Calendar.TaskMsgSaveOptions class. Options for saving a task as an Outlook message MSG
 type: docs
 weight: 910
 url: /net/aspose.email.calendar/taskmsgsaveoptions/
 ---
 ## TaskMsgSaveOptions class
 
-Represents task to MSG save options
+Options for saving a task as an Outlook message (MSG).
 
 ```csharp
 public sealed class TaskMsgSaveOptions : TaskSaveOptions
@@ -18,13 +18,13 @@ public sealed class TaskMsgSaveOptions : TaskSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [TaskMsgSaveOptions](taskmsgsaveoptions/)() | Initializes a new instance of the `TaskMsgSaveOptions` class |
+| [TaskMsgSaveOptions](taskmsgsaveoptions/)() | Initializes a new instance of the `TaskMsgSaveOptions` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [SaveFormat](../../aspose.email.calendar/tasksaveoptions/saveformat/) { get; } | Gets a save format |
+| [SaveFormat](../../aspose.email.calendar/tasksaveoptions/saveformat/) { get; } | Gets the format these options save to. |
 
 ### See Also
 

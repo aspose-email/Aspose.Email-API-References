@@ -1,14 +1,14 @@
 ---
 title: MapiContactElectronicAddressPropertySet.Email1
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactElectronicAddressPropertySet property. Refers to the group of properties that define the first email address for a contact
+description: MapiContactElectronicAddressPropertySet property. Gets or sets the first email address
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicontactelectronicaddresspropertyset/email1/
 ---
 ## MapiContactElectronicAddressPropertySet.Email1 property
 
-Refers to the group of properties that define the first e-mail address for a contact.
+Gets or sets the first e-mail address.
 
 ```csharp
 public MapiContactElectronicAddress Email1 { get; set; }

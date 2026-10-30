@@ -1,14 +1,14 @@
 ---
 title: MapiAttachment.ItemId
 second_title: Aspose.Email for .NET API Reference
-description: MapiAttachment property. The item id uses with a server
+description: MapiAttachment property. Gets the identifier of the attachment on the mail server for attachments obtained from a server null otherwise
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapiattachment/itemid/
 ---
 ## MapiAttachment.ItemId property
 
-The item id, uses with a server
+Gets the identifier of the attachment on the mail server, for attachments obtained from a server; `null` otherwise.
 
 ```csharp
 public virtual string ItemId { get; }

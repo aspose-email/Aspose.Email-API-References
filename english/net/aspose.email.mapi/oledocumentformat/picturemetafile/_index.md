@@ -1,14 +1,14 @@
 ---
 title: OleDocumentFormat.PictureMetafile
 second_title: Aspose.Email for .NET API Reference
-description: OleDocumentFormat property. PictureMetafile type
+description: OleDocumentFormat property. Gets the format of a picture metafile
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/oledocumentformat/picturemetafile/
 ---
 ## OleDocumentFormat.PictureMetafile property
 
-Picture(Metafile) type.
+Gets the format of a picture (metafile).
 
 ```csharp
 public static OleDocumentFormat PictureMetafile { get; }

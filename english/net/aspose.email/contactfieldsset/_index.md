@@ -1,14 +1,14 @@
 ---
 title: Enum ContactFieldsSet
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.ContactFieldsSet enum. Enumerates the groups of Contact fields that will be included in resultant mhtml file
+description: Aspose.Email.ContactFieldsSet enum. Defines the groups of contact fields written when a contact is saved to MHTML. The values can be combined
 type: docs
 weight: 15980
 url: /net/aspose.email/contactfieldsset/
 ---
 ## ContactFieldsSet enumeration
 
-Enumerates the groups of Contact fields that will be included in resultant mhtml file.
+Defines the groups of contact fields written when a contact is saved to MHTML. The values can be combined.
 
 ```csharp
 [Flags]
@@ -19,16 +19,16 @@ public enum ContactFieldsSet
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0` | Indicates that none fields will be included in resultant mhtml file. Only NOTE of contact will be displayed in html body. |
-| NameInfo | `1` | Indicates that NameInfo fields will be included in resultant mhtml file. |
-| PersonalInfo | `2` | Indicates that PersonalInfo fields will be included in resultant mhtml file. |
-| ProfessionalInfo | `4` | Indicates that ProfessionalInfo fields will be included in resultant mhtml file. |
-| PhysicalAddresses | `8` | Indicates that PhysicalAddresses fields will be included in resultant mhtml file. |
-| Telephones | `10` | Indicates that Telephones fields will be included in resultant mhtml file. |
-| ElectronicAddresses | `20` | Indicates that ElectronicAddresses fields will be included in resultant mhtml file. |
-| Events | `40` | Indicates that Events fields will be included in resultant mhtml file. |
-| OtherFields | `80` | Indicates that OtherFields fields will be included in resultant mhtml file. |
-| AllExisting | `100` | Indicates that all existing fields will be included in resultant mhtml file. |
+| None | `0` | No fields; only the notes of the contact are written. |
+| NameInfo | `1` | The name fields. |
+| PersonalInfo | `2` | The personal information fields. |
+| ProfessionalInfo | `4` | The professional information fields. |
+| PhysicalAddresses | `8` | The postal addresses. |
+| Telephones | `10` | The telephone numbers. |
+| ElectronicAddresses | `20` | The e-mail addresses and fax numbers. |
+| Events | `40` | The dates, such as the birthday. |
+| OtherFields | `80` | The other fields. |
+| AllExisting | `100` | All fields that have a value. |
 
 ### See Also
 

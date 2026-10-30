@@ -1,14 +1,14 @@
 ---
 title: IMessage.From
 second_title: Aspose.Email for .NET API Reference
-description: IMessage property. Gets or sets a from address
+description: IMessage property. Gets or sets the author of the message
 type: docs
 weight: 70
 url: /net/aspose.email/imessage/from/
 ---
 ## IMessage.From property
 
-Gets or sets a from address
+Gets or sets the author of the message.
 
 ```csharp
 public IMailAddress From { get; set; }

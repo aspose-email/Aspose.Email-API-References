@@ -1,14 +1,14 @@
 ---
 title: MailAddress.ToString
 second_title: Aspose.Email for .NET API Reference
-description: MailAddress method. Returns a String that represents this instance
+description: MailAddress method. Returns the address with its display name as written in a header
 type: docs
 weight: 140
 url: /net/aspose.email/mailaddress/tostring/
 ---
 ## MailAddress.ToString method
 
-Returns a String that represents this instance.
+Returns the address with its display name, as written in a header.
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Return Value
 
-A String that represents this instance.
+The address, such as `"John Smith" <john@example.com>`.
 
 ### See Also
 

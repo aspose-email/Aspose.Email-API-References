@@ -1,14 +1,14 @@
 ---
 title: Appointment.OptionalAttendees
 second_title: Aspose.Email for .NET API Reference
-description: Appointment property. Gets the optional attendees
+description: Appointment property. Gets the optional attendees of the event those with ROLEOPTPARTICIPANT
 type: docs
 weight: 200
 url: /net/aspose.email.calendar/appointment/optionalattendees/
 ---
 ## Appointment.OptionalAttendees property
 
-Gets the optional attendees.
+Gets the optional attendees of the event (those with ROLE=OPT-PARTICIPANT).
 
 ```csharp
 public MailAddressCollection OptionalAttendees { get; }

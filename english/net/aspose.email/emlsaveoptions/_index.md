@@ -18,19 +18,19 @@ public class EmlSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [EmlSaveOptions](emlsaveoptions/)(MailMessageSaveType) | Initializes a new instance of this class that can be used to save a MailMessage in the Eml and Emlx format. |
+| [EmlSaveOptions](emlsaveoptions/)(MailMessageSaveType) | Initializes a new instance of the `EmlSaveOptions` class for the specified format. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [BoundariesTemplate](../../aspose.email/emlsaveoptions/boundariestemplate/) { get; set; } | Gets or sets the boundary template for the message. Default value is null. |
-| [CheckBodyContentEncoding](../../aspose.email/emlsaveoptions/checkbodycontentencoding/) { get; set; } | Defines whether need check message body content encoding when saving. By default the value is false. |
-| [CustomProgressHandler](../../aspose.email/saveoptions/customprogresshandler/) { get; set; } | Represents method that usually supplied by calling side and handles progress events. |
-| [FileCompatibilityMode](../../aspose.email/emlsaveoptions/filecompatibilitymode/) { get; set; } | Defines inner conversions,that are necessarily to be done when saving a message. The default value is FileCompatibilityMode.None. |
-| [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype/) { get; set; } | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. The default value is Eml. |
-| [PreserveEmbeddedMessageFormat](../../aspose.email/emlsaveoptions/preserveembeddedmessageformat/) { get; set; } | Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. By default the value is false. |
-| [PreserveSignedContent](../../aspose.email/emlsaveoptions/preservesignedcontent/) { get; set; } | Gets or sets a value indicating whether it is necessary to save signed message without changes of content to provide correctly structure of digital sign. By default the value is false. |
+| [BoundariesTemplate](../../aspose.email/emlsaveoptions/boundariestemplate/) { get; set; } | Gets or sets the template for the MIME boundaries of the message; `null` (the default) uses generated boundaries. |
+| [CheckBodyContentEncoding](../../aspose.email/emlsaveoptions/checkbodycontentencoding/) { get; set; } | Gets or sets a value indicating whether the encoding of the HTML body is checked before saving. The default is `false`. |
+| [CustomProgressHandler](../../aspose.email/saveoptions/customprogresshandler/) { get; set; } | Gets or sets a handler that is called as the saving progresses. |
+| [FileCompatibilityMode](../../aspose.email/emlsaveoptions/filecompatibilitymode/) { get; set; } | Gets or sets conversions applied while saving, such as encoding the TNEF attachment again. The default is `FileCompatibilityMode.None`. |
+| [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype/) { get; set; } | Gets or sets the format the options save to. |
+| [PreserveEmbeddedMessageFormat](../../aspose.email/emlsaveoptions/preserveembeddedmessageformat/) { get; set; } | Gets or sets a value indicating whether embedded messages keep their original format (MSG) instead of being converted to EML. The default is `false`. |
+| [PreserveSignedContent](../../aspose.email/emlsaveoptions/preservesignedcontent/) { get; set; } | Gets or sets a value indicating whether a signed message is saved exactly as it was loaded, so that its signature stays valid. The default is `false`. |
 
 ## Remarks
 

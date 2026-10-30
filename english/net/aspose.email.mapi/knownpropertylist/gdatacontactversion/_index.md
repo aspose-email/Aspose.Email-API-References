@@ -8,7 +8,7 @@ url: /net/aspose.email.mapi/knownpropertylist/gdatacontactversion/
 ---
 ## KnownPropertyList.GDataContactVersion field
 
-Contains GData contact version (ETag). https://developers.google.com/contacts/v3/ https://developers.google.com/gdata/docs/2.0/reference?csw=1#ResourceVersioning This property does not transmit via transport protocols. Area: User-defined Aspose specified properties
+Contains GData contact version (ETag). https://developers.google.com/contacts/v3/ https://developers.google.com/gdata/docs/2.0/reference?csw=1#ResourceVersioning This property does not transmit via transport protocols. Area: User-defined Aspose specified properties.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor GDataContactVersion;

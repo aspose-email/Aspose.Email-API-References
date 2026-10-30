@@ -1,14 +1,14 @@
 ---
 title: MapiContact.Photo
 second_title: Aspose.Email for .NET API Reference
-description: MapiContact property. Contains contact photoMapiContactPhoto
+description: MapiContact property. Gets or sets the photo of the contact
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.email.mapi/mapicontact/photo/
 ---
 ## MapiContact.Photo property
 
-Contains contact photo[`MapiContactPhoto`](../../mapicontactphoto/).
+Gets or sets the photo of the contact.
 
 ```csharp
 public MapiContactPhoto Photo { get; set; }

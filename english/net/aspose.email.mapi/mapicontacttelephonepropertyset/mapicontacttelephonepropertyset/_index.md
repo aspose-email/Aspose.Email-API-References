@@ -24,7 +24,7 @@ public MapiContactTelephonePropertySet()
 
 ## MapiContactTelephonePropertySet(string) {#constructor_2}
 
-Initializes a new instance of the [`MapiContactTelephonePropertySet`](../) class.
+Initializes a new instance of the [`MapiContactTelephonePropertySet`](../) class with the primary telephone number.
 
 ```csharp
 public MapiContactTelephonePropertySet(string primaryTelephoneNumber)
@@ -44,7 +44,7 @@ public MapiContactTelephonePropertySet(string primaryTelephoneNumber)
 
 ## MapiContactTelephonePropertySet(MapiPropertyCollection) {#constructor_1}
 
-Initializes a new instance of the [`MapiContactTelephonePropertySet`](../) class
+Initializes a new instance of the [`MapiContactTelephonePropertySet`](../) class from contact properties.
 
 ```csharp
 public MapiContactTelephonePropertySet(MapiPropertyCollection properties)
@@ -52,7 +52,7 @@ public MapiContactTelephonePropertySet(MapiPropertyCollection properties)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| properties | MapiPropertyCollection | A [`MapiPropertyCollection`](../../mapipropertycollection/) containing contact telephone properties |
+| properties | MapiPropertyCollection | The properties that contain the telephone numbers. |
 
 ### See Also
 

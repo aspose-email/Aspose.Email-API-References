@@ -1,14 +1,14 @@
 ---
 title: PersonalStorageQueryBuilder.HasNoSubfolders
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorageQueryBuilder method. Search folders which does not contains subfolders
+description: PersonalStorageQueryBuilder method. Adds a condition that finds folders without subfolders
 type: docs
 weight: 140
 url: /net/aspose.email.storage.pst/personalstoragequerybuilder/hasnosubfolders/
 ---
 ## PersonalStorageQueryBuilder.HasNoSubfolders method
 
-Search folders which does not contains subfolders.
+Adds a condition that finds folders without subfolders.
 
 ```csharp
 public MailQuery HasNoSubfolders()
@@ -16,7 +16,7 @@ public MailQuery HasNoSubfolders()
 
 ### Return Value
 
-[`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents search query (one searching criteria).
+The query for this condition.
 
 ### See Also
 

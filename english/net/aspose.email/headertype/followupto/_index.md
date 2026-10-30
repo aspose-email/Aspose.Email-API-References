@@ -1,14 +1,14 @@
 ---
 title: HeaderType.FollowupTo
 second_title: Aspose.Email for .NET API Reference
-description: HeaderType property. Used in Usenet News to indicate that future discussions followup on an article should go to a different set of newsgroups than the repliedto article. The most common usage is when an article is posted to several newsgroups and further discussions is to take place in only one of them. Defined in RFC 1036 2.2.3 not standardized for use in email
+description: HeaderType property. Gets the FollowupTo header the newsgroups that followup discussion should go to RFC 1036. Not standard in email
 type: docs
 weight: 100
 url: /net/aspose.email/headertype/followupto/
 ---
 ## HeaderType.FollowupTo property
 
-Used in Usenet News to indicate that future discussions (=follow-up) on an article should go to a different set of newsgroups than the replied-to article. The most common usage is when an article is posted to several newsgroups, and further discussions is to take place in only one of them. Defined in RFC 1036: 2.2.3, not standardized for use in e-mail.
+Gets the `Followup-To` header: the newsgroups that follow-up discussion should go to (RFC 1036). Not standard in e-mail.
 
 ```csharp
 public static HeaderType FollowupTo { get; }

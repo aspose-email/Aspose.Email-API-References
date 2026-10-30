@@ -1,14 +1,14 @@
 ---
 title: Enum MapiTaskHistory
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiTaskHistory enum. Indicates the type of change that was last made to the Task object
+description: Aspose.Email.Mapi.MapiTaskHistory enum. Defines the last change made to a task
 type: docs
 weight: 17550
 url: /net/aspose.email.mapi/mapitaskhistory/
 ---
 ## MapiTaskHistory enumeration
 
-Indicates the type of change that was last made to the Task object.
+Defines the last change made to a task.
 
 ```csharp
 public enum MapiTaskHistory
@@ -18,11 +18,11 @@ public enum MapiTaskHistory
 
 | Name | Value | Description |
 | --- | --- | --- |
-| DueDateChanged | `4` | The PidLidTaskDueDate property changed. |
-| AnotherPropertyChanged | `3` | Another property was changed. |
-| Accepted | `1` | The task assignee accepted this Task object. |
-| Rejected | `2` | The task assignee rejected this Task object. |
-| Assigned | `5` | The Task object has been assigned to a task assignee. |
+| DueDateChanged | `4` | The due date changed. |
+| AnotherPropertyChanged | `3` | Another property changed. |
+| Accepted | `1` | The assignee accepted the task. |
+| Rejected | `2` | The assignee rejected the task. |
+| Assigned | `5` | The task was assigned. |
 | NoChanges | `0` | No changes were made. |
 
 ### See Also

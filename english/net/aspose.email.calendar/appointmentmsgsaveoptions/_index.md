@@ -1,14 +1,14 @@
 ---
 title: Class AppointmentMsgSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.AppointmentMsgSaveOptions class. Represents options for saving an appointment or calendar event to a message format
+description: Aspose.Email.Calendar.AppointmentMsgSaveOptions class. Options for saving an appointment as an Outlook message MSG
 type: docs
 weight: 500
 url: /net/aspose.email.calendar/appointmentmsgsaveoptions/
 ---
 ## AppointmentMsgSaveOptions class
 
-Represents options for saving an appointment or calendar event to a message format.
+Options for saving an appointment as an Outlook message (MSG).
 
 ```csharp
 public sealed class AppointmentMsgSaveOptions : AppointmentSaveOptions
@@ -18,13 +18,13 @@ public sealed class AppointmentMsgSaveOptions : AppointmentSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [AppointmentMsgSaveOptions](appointmentmsgsaveoptions/)() | Initializes a new instance of the [`MsgSaveOptions`](../../aspose.email/msgsaveoptions/) class |
+| [AppointmentMsgSaveOptions](appointmentmsgsaveoptions/)() | Initializes a new instance of the `AppointmentMsgSaveOptions` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [SaveFormat](../../aspose.email.calendar/appointmentsaveoptions/saveformat/) { get; } | Gets a save format |
+| [SaveFormat](../../aspose.email.calendar/appointmentsaveoptions/saveformat/) { get; } | Gets the format these options save to. |
 
 ## Remarks
 

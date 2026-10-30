@@ -1,14 +1,14 @@
 ---
 title: FolderInfo.MessageAdded
 second_title: Aspose.Email for .NET API Reference
-description: FolderInfo event. Occurs when a message is added to the current folder
+description: FolderInfo event. Occurs when a message is added to the folder
 type: docs
 weight: 120
 url: /net/aspose.email.storage.pst/folderinfo/messageadded/
 ---
 ## FolderInfo.MessageAdded event
 
-Occurs when a message is added to the current folder.
+Occurs when a message is added to the folder.
 
 ```csharp
 public event MessageAddedEventHandler MessageAdded;

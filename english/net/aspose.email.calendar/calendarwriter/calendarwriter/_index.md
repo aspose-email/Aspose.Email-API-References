@@ -1,14 +1,14 @@
 ---
 title: CalendarWriter.CalendarWriter
 second_title: Aspose.Email for .NET API Reference
-description: CalendarWriter constructor. Initializes a new instance of CalendarReader with source file and default AppointmentIcsSaveOptions
+description: CalendarWriter constructor. Initializes a new instance of the CalendarWriter class that creates the specified file with the default options
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/calendarwriter/calendarwriter/
 ---
 ## CalendarWriter(string) {#constructor_2}
 
-Initializes a new instance of CalendarReader with source file and default AppointmentIcsSaveOptions.
+Initializes a new instance of the [`CalendarWriter`](../) class that creates the specified file with the default options.
 
 ```csharp
 public CalendarWriter(string path)
@@ -16,7 +16,7 @@ public CalendarWriter(string path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | String | Path to source file. |
+| path | String | The path of the ICS file to create. An existing file is overwritten. |
 
 ### See Also
 
@@ -28,7 +28,7 @@ public CalendarWriter(string path)
 
 ## CalendarWriter(Stream) {#constructor}
 
-Initializes a new instance of CalendarReader with source stream and default AppointmentIcsSaveOptions.
+Initializes a new instance of the [`CalendarWriter`](../) class that writes to the specified stream with the default options.
 
 ```csharp
 public CalendarWriter(Stream stream)
@@ -36,7 +36,14 @@ public CalendarWriter(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Source stream. |
+| stream | Stream | The stream to write to. It must be empty. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *stream* is `null`. |
+| InvalidOperationException | `CreateNew` is `true` and *stream* is not empty. |
 
 ### See Also
 
@@ -48,7 +55,7 @@ public CalendarWriter(Stream stream)
 
 ## CalendarWriter(string, AppointmentIcsSaveOptions) {#constructor_3}
 
-Initializes a new instance of CalendarReader with source file and additional AppointmentIcsSaveOptions.
+Initializes a new instance of the [`CalendarWriter`](../) class that writes to the specified file with the specified options.
 
 ```csharp
 public CalendarWriter(string path, AppointmentIcsSaveOptions icsSaveOptions)
@@ -56,8 +63,8 @@ public CalendarWriter(string path, AppointmentIcsSaveOptions icsSaveOptions)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | String | Path to source file. |
-| icsSaveOptions | AppointmentIcsSaveOptions | Additional AppointmentIcsSaveOptions. |
+| path | String | The path of the ICS file. When `CreateNew` is `false`, the file must exist and the events are added to it. |
+| icsSaveOptions | AppointmentIcsSaveOptions | The save options, or `null` to use the defaults. |
 
 ### See Also
 
@@ -70,7 +77,7 @@ public CalendarWriter(string path, AppointmentIcsSaveOptions icsSaveOptions)
 
 ## CalendarWriter(Stream, AppointmentIcsSaveOptions) {#constructor_1}
 
-Initializes a new instance of CalendarReader with source file and additional AppointmentIcsSaveOptions.
+Initializes a new instance of the [`CalendarWriter`](../) class that writes to the specified stream with the specified options.
 
 ```csharp
 public CalendarWriter(Stream stream, AppointmentIcsSaveOptions icsSaveOptions)
@@ -78,8 +85,15 @@ public CalendarWriter(Stream stream, AppointmentIcsSaveOptions icsSaveOptions)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Source stream. |
-| icsSaveOptions | AppointmentIcsSaveOptions | Additional AppointmentIcsSaveOptions. |
+| stream | Stream | The stream to write to. When `CreateNew` is `true`, the default, it must be empty. |
+| icsSaveOptions | AppointmentIcsSaveOptions | The save options, or `null` to use the defaults. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *stream* is `null`. |
+| InvalidOperationException | `CreateNew` is `true` and *stream* is not empty. |
 
 ### See Also
 

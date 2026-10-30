@@ -1,14 +1,14 @@
 ---
 title: MapiMessageItemBase.NamedProperties
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessageItemBase property. Gets the named properties of message
+description: MapiMessageItemBase property. Gets the named properties of the item
 type: docs
 weight: 120
 url: /net/aspose.email.mapi/mapimessageitembase/namedproperties/
 ---
 ## MapiMessageItemBase.NamedProperties property
 
-Gets the named properties of message.
+Gets the named properties of the item.
 
 ```csharp
 public MapiPropertyCollection NamedProperties { get; }
@@ -16,7 +16,7 @@ public MapiPropertyCollection NamedProperties { get; }
 
 ### Property Value
 
-The collection of named properties.
+The named properties.
 
 ### See Also
 

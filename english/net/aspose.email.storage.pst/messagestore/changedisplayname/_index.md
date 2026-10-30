@@ -1,14 +1,14 @@
 ---
 title: MessageStore.ChangeDisplayName
 second_title: Aspose.Email for .NET API Reference
-description: MessageStore method. Changes the pst display name
+description: MessageStore method. Changes the display name of the PST
 type: docs
 weight: 40
 url: /net/aspose.email.storage.pst/messagestore/changedisplayname/
 ---
 ## MessageStore.ChangeDisplayName method
 
-Changes the pst display name.
+Changes the display name of the PST.
 
 ```csharp
 public void ChangeDisplayName(string newName)
@@ -16,14 +16,15 @@ public void ChangeDisplayName(string newName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newName | String | The new display name of message store. |
+| newName | String | The new display name. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | Thrown when the display name of the message store is provided as null or empty. |
-| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
+| ArgumentNullException | *newName* is `null` or empty. |
+| NotImplementedException | The PST is in the ANSI format, which cannot be edited. |
+| InvalidOperationException | The message store has no display name property to change. |
 
 ### See Also
 

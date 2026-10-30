@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.InternetDistribution
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_INTERNET_DISTRIBUTION
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_INTERNET_DISTRIBUTION. Property tag 0x1032001E data type String8
 type: docs
 weight: 11560
 url: /net/aspose.email.mapi/knownpropertylist/internetdistribution/
 ---
 ## KnownPropertyList.InternetDistribution field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_INTERNET_DISTRIBUTION
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_INTERNET_DISTRIBUTION. Property tag: 0x1032001E; data type: String8.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InternetDistribution;

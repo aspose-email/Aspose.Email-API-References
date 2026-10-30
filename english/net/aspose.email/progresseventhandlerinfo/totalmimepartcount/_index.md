@@ -1,14 +1,14 @@
 ---
 title: ProgressEventHandlerInfo.TotalMimePartCount
 second_title: Aspose.Email for .NET API Reference
-description: ProgressEventHandlerInfo property. Total amount of mime parts
+description: ProgressEventHandlerInfo property. Gets or sets the total number of MIME parts
 type: docs
 weight: 40
 url: /net/aspose.email/progresseventhandlerinfo/totalmimepartcount/
 ---
 ## ProgressEventHandlerInfo.TotalMimePartCount property
 
-Total amount of mime parts.
+Gets or sets the total number of MIME parts.
 
 ```csharp
 public int TotalMimePartCount { get; set; }

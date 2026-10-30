@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.OverallMsgAgeLimit
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_OVERALL_MSG_AGE_LIMIT
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_OVERALL_MSG_AGE_LIMIT. Property tag 0x66930003 data type Integer32
 type: docs
 weight: 14140
 url: /net/aspose.email.mapi/knownpropertylist/overallmsgagelimit/
 ---
 ## KnownPropertyList.OverallMsgAgeLimit field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_OVERALL_MSG_AGE_LIMIT
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_OVERALL_MSG_AGE_LIMIT. Property tag: 0x66930003; data type: Integer32.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OverallMsgAgeLimit;

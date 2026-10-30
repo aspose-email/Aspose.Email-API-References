@@ -1,14 +1,14 @@
 ---
 title: MailMessage.AddAttachment
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage method. Add an attachment to message
+description: MailMessage method. Adds an attachment to the message
 type: docs
 weight: 390
 url: /net/aspose.email/mailmessage/addattachment/
 ---
 ## MailMessage.AddAttachment method
 
-Add an attachment to message
+Adds an attachment to the message.
 
 ```csharp
 public virtual void AddAttachment(Attachment attachment)
@@ -16,7 +16,7 @@ public virtual void AddAttachment(Attachment attachment)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| attachment | Attachment | Attachment for adding |
+| attachment | Attachment | The attachment to add. |
 
 ## Examples
 

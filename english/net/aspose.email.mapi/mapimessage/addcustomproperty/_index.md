@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.AddCustomProperty
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage method. Adds the custom property
+description: MapiMessage method. Adds a custom named property with a string name
 type: docs
 weight: 330
 url: /net/aspose.email.mapi/mapimessage/addcustomproperty/
 ---
 ## AddCustomProperty(MapiProperty, string) {#addcustomproperty}
 
-Adds the custom property.
+Adds a custom named property with a string name.
 
 ```csharp
 public void AddCustomProperty(MapiProperty property, string stringNameId)
@@ -16,16 +16,16 @@ public void AddCustomProperty(MapiProperty property, string stringNameId)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| property | MapiProperty | The property[`MapiProperty`](../../mapiproperty/). |
-| stringNameId | String | The name of propertyString. |
+| property | MapiProperty | The property, with its type and value. |
+| stringNameId | String | The name of the property. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | If *property* is null. |
-| ArgumentException | If property data is null. |
-| NotSupportedException | If data type is not supported yet. |
+| ArgumentNullException | *property* is `null`. |
+| ArgumentException | The data of the property is `null`. |
+| NotSupportedException | The data type of the property is not supported. |
 
 ### See Also
 
@@ -38,7 +38,7 @@ public void AddCustomProperty(MapiProperty property, string stringNameId)
 
 ## AddCustomProperty(MapiPropertyType, byte[], string) {#addcustomproperty_1}
 
-Adds the custom property.
+Adds a custom named property with a string name.
 
 ```csharp
 public void AddCustomProperty(MapiPropertyType type, byte[] data, string stringNameId)
@@ -46,16 +46,16 @@ public void AddCustomProperty(MapiPropertyType type, byte[] data, string stringN
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | MapiPropertyType | Type of MapiProperty[`MapiPropertyType`](../../mapipropertytype/) |
-| data | Byte[] | MapiProperty data.Byte |
-| stringNameId | String | The name of propertyString. |
+| type | MapiPropertyType | The data type of the property. |
+| data | Byte[] | The value of the property, as bytes. |
+| stringNameId | String | The name of the property. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | If property data is null. |
-| NotSupportedException | If data type is not supported yet. |
+| ArgumentException | *data* is `null`. |
+| NotSupportedException | *type* is not supported. |
 
 ### See Also
 

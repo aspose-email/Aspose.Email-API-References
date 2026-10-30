@@ -1,14 +1,14 @@
 ---
 title: MhtSaveOptions.SkipInlineImages
 second_title: Aspose.Email for .NET API Reference
-description: MhtSaveOptions property. Defines whether skip references on images at saving in mhtml or not. Default value is false
+description: MhtSaveOptions property. Gets or sets a value indicating whether inline images are left out of the output. The default is false
 type: docs
 weight: 90
 url: /net/aspose.email/mhtsaveoptions/skipinlineimages/
 ---
 ## MhtSaveOptions.SkipInlineImages property
 
-Defines whether skip references on images at saving in mhtml or not. Default value is false.
+Gets or sets a value indicating whether inline images are left out of the output. The default is `false`.
 
 ```csharp
 public bool SkipInlineImages { get; set; }

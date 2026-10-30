@@ -1,14 +1,14 @@
 ---
 title: SecureEmailManager.CheckSignature
 second_title: Aspose.Email for .NET API Reference
-description: SecureEmailManager method. Checking signature MapiMessage
+description: SecureEmailManager method. Verifies the signature of the message
 type: docs
 weight: 30
 url: /net/aspose.email/secureemailmanager/checksignature/
 ---
 ## CheckSignature(MapiMessage) {#checksignature_3}
 
-Checking signature MapiMessage.
+Verifies the signature of the message.
 
 ```csharp
 public SmimeResult CheckSignature(MapiMessage msg)
@@ -16,11 +16,11 @@ public SmimeResult CheckSignature(MapiMessage msg)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| msg | MapiMessage | The MapiMessage to check. |
+| msg | MapiMessage | The message to check. |
 
 ### Return Value
 
-Result of checking[`SmimeResult`](../../smimeresult/)
+The result of the check, with the signing and encryption certificates.
 
 ### See Also
 
@@ -34,7 +34,7 @@ Result of checking[`SmimeResult`](../../smimeresult/)
 
 ## CheckSignature(MapiMessage, X509Certificate2) {#checksignature_4}
 
-Checking signature MapiMessage.
+Verifies the signature of the message, decrypting it first if needed.
 
 ```csharp
 public SmimeResult CheckSignature(MapiMessage msg, X509Certificate2 certificateForDecrypt)
@@ -42,12 +42,12 @@ public SmimeResult CheckSignature(MapiMessage msg, X509Certificate2 certificateF
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| msg | MapiMessage | The MapiMessage to check. |
-| certificateForDecrypt | X509Certificate2 | The certificate to decrypt the MapiMessage if it is encrypted. |
+| msg | MapiMessage | The message to check. |
+| certificateForDecrypt | X509Certificate2 | The certificate to decrypt the message with, if it is encrypted. |
 
 ### Return Value
 
-Result of checking[`SmimeResult`](../../smimeresult/)
+The result of the check, with the signing and encryption certificates.
 
 ### See Also
 
@@ -61,7 +61,7 @@ Result of checking[`SmimeResult`](../../smimeresult/)
 
 ## CheckSignature(MapiMessage, X509Certificate2, X509Store) {#checksignature_5}
 
-Checking signature MapiMessage.
+Verifies the signature of the message, decrypting it first if needed.
 
 ```csharp
 public SmimeResult CheckSignature(MapiMessage msg, X509Certificate2 certificateForDecrypt, 
@@ -70,13 +70,13 @@ public SmimeResult CheckSignature(MapiMessage msg, X509Certificate2 certificateF
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| msg | MapiMessage | The MapiMessage to check. |
-| certificateForDecrypt | X509Certificate2 | The certificate to decrypt the MapiMessage if it is encrypted. |
-| store | X509Store | Store to look up encryption certificates, if null then X509Store(StoreLocation.CurrentUser) is used. |
+| msg | MapiMessage | The message to check. |
+| certificateForDecrypt | X509Certificate2 | The certificate to decrypt the message with, if it is encrypted. |
+| store | X509Store | The store to search for the decryption certificate; `null` for the store of the current user. |
 
 ### Return Value
 
-Result of checking[`SmimeResult`](../../smimeresult/)
+The result of the check, with the signing and encryption certificates.
 
 ### See Also
 
@@ -90,7 +90,7 @@ Result of checking[`SmimeResult`](../../smimeresult/)
 
 ## CheckSignature(MailMessage) {#checksignature}
 
-Checking signature MailMessage.
+Verifies the signature of the message.
 
 ```csharp
 public SmimeResult CheckSignature(MailMessage msg)
@@ -98,11 +98,11 @@ public SmimeResult CheckSignature(MailMessage msg)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| msg | MailMessage | The MailMessage to check. |
+| msg | MailMessage | The message to check. |
 
 ### Return Value
 
-Result of checking[`SmimeResult`](../../smimeresult/)
+The result of the check, with the signing and encryption certificates.
 
 ### See Also
 
@@ -116,7 +116,7 @@ Result of checking[`SmimeResult`](../../smimeresult/)
 
 ## CheckSignature(MailMessage, X509Certificate2) {#checksignature_1}
 
-Checking signature MailMessage.
+Verifies the signature of the message, decrypting it first if needed.
 
 ```csharp
 public SmimeResult CheckSignature(MailMessage msg, X509Certificate2 certificateForDecrypt)
@@ -124,12 +124,12 @@ public SmimeResult CheckSignature(MailMessage msg, X509Certificate2 certificateF
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| msg | MailMessage | The MailMessage to check. |
-| certificateForDecrypt | X509Certificate2 | The certificate to decrypt the MailMessage if it is encrypted. |
+| msg | MailMessage | The message to check. |
+| certificateForDecrypt | X509Certificate2 | The certificate to decrypt the message with, if it is encrypted. |
 
 ### Return Value
 
-Result of checking[`SmimeResult`](../../smimeresult/)
+The result of the check, with the signing and encryption certificates.
 
 ### See Also
 
@@ -143,7 +143,7 @@ Result of checking[`SmimeResult`](../../smimeresult/)
 
 ## CheckSignature(MailMessage, X509Certificate2, X509Store) {#checksignature_2}
 
-Checking signature MailMessage.
+Verifies the signature of the message, decrypting it first if needed.
 
 ```csharp
 public SmimeResult CheckSignature(MailMessage msg, X509Certificate2 certificateForDecrypt, 
@@ -152,13 +152,13 @@ public SmimeResult CheckSignature(MailMessage msg, X509Certificate2 certificateF
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| msg | MailMessage | The MailMessage to check. |
-| certificateForDecrypt | X509Certificate2 | The certificate to decrypt the MailMessage if it is encrypted. |
-| store | X509Store | Store to look up encryption certificates, if null then X509Store(StoreLocation.CurrentUser) is used. |
+| msg | MailMessage | The message to check. |
+| certificateForDecrypt | X509Certificate2 | The certificate to decrypt the message with, if it is encrypted. |
+| store | X509Store | The store to search for the decryption certificate; `null` for the store of the current user. |
 
 ### Return Value
 
-Result of checking[`SmimeResult`](../../smimeresult/)
+The result of the check, with the signing and encryption certificates.
 
 ### See Also
 

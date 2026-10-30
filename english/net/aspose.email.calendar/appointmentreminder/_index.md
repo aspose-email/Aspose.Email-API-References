@@ -1,14 +1,14 @@
 ---
 title: Class AppointmentReminder
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.AppointmentReminder class. Provides a grouping of component properties that define an alarm
+description: Aspose.Email.Calendar.AppointmentReminder class. Represents a reminder of an event the iCalendar VALARM component
 type: docs
 weight: 510
 url: /net/aspose.email.calendar/appointmentreminder/
 ---
 ## AppointmentReminder class
 
-Provides a grouping of component properties that define an alarm.
+Represents a reminder of an event (the iCalendar VALARM component).
 
 ```csharp
 public class AppointmentReminder
@@ -18,21 +18,21 @@ public class AppointmentReminder
 
 | Name | Description |
 | --- | --- |
-| [AppointmentReminder](appointmentreminder/)() | Initialize a new instance of `AppointmentReminder` class. |
+| [AppointmentReminder](appointmentreminder/)() | Initializes a new instance of the `AppointmentReminder` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| static [Default15MinReminder](../../aspose.email.calendar/appointmentreminder/default15minreminder/) { get; } | Gets the default 15 min reminder. |
-| [Action](../../aspose.email.calendar/appointmentreminder/action/) { get; set; } | Defines the action to be invoked when an alarm is triggered. |
-| [Attachments](../../aspose.email.calendar/appointmentreminder/attachments/) { get; } | Contains collection of ReminderAttachment [`ReminderAttachment`](../reminderattachment/)objects. |
-| [Attendees](../../aspose.email.calendar/appointmentreminder/attendees/) { get; } | Contains collection of ReminderAttendee [`ReminderAttendee`](../reminderattendee/)objects. |
-| [Description](../../aspose.email.calendar/appointmentreminder/description/) { get; set; } | Provides a more complete description of the alarm. |
-| [Duration](../../aspose.email.calendar/appointmentreminder/duration/) { get; set; } | Specifies the delay period, after which the alarm will repeat. |
-| [Repeat](../../aspose.email.calendar/appointmentreminder/repeat/) { get; set; } | Defines the number of time the alarm should be repeated, after the initial trigger. |
-| [Summary](../../aspose.email.calendar/appointmentreminder/summary/) { get; set; } | Defines a short summary or subject for the alarm. |
-| [Trigger](../../aspose.email.calendar/appointmentreminder/trigger/) { get; set; } | Specifies when an alarm will trigger. |
+| static [Default15MinReminder](../../aspose.email.calendar/appointmentreminder/default15minreminder/) { get; } | Gets a new reminder that shows a message 15 minutes before the event starts. |
+| [Action](../../aspose.email.calendar/appointmentreminder/action/) { get; set; } | Gets or sets what happens when the reminder triggers, such as showing a message or sending an email. |
+| [Attachments](../../aspose.email.calendar/appointmentreminder/attachments/) { get; } | Gets the files attached to the reminder, such as the sound of an audio reminder. |
+| [Attendees](../../aspose.email.calendar/appointmentreminder/attendees/) { get; } | Gets the recipients of an email reminder. |
+| [Description](../../aspose.email.calendar/appointmentreminder/description/) { get; set; } | Gets or sets the text of the reminder: the message to show, or the body of an email reminder. |
+| [Duration](../../aspose.email.calendar/appointmentreminder/duration/) { get; set; } | Gets or sets the interval between repetitions of the reminder. Use it together with `Repeat`. |
+| [Repeat](../../aspose.email.calendar/appointmentreminder/repeat/) { get; set; } | Gets or sets how many more times the reminder repeats after it first triggers. Use it together with `Duration`. |
+| [Summary](../../aspose.email.calendar/appointmentreminder/summary/) { get; set; } | Gets or sets a short summary of the reminder, used as the subject of an email reminder. |
+| [Trigger](../../aspose.email.calendar/appointmentreminder/trigger/) { get; set; } | Gets or sets when the reminder triggers. |
 
 ### See Also
 

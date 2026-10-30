@@ -1,14 +1,14 @@
 ---
 title: Enum MapiCalendarRecurrenceEndType
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendarRecurrenceEndType enum. Enumerates the ending type for the recurrence
+description: Aspose.Email.Mapi.MapiCalendarRecurrenceEndType enum. Defines how a recurring series ends
 type: docs
 weight: 16850
 url: /net/aspose.email.mapi/mapicalendarrecurrenceendtype/
 ---
 ## MapiCalendarRecurrenceEndType enumeration
 
-Enumerates the ending type for the recurrence.
+Defines how a recurring series ends.
 
 ```csharp
 public enum MapiCalendarRecurrenceEndType
@@ -18,10 +18,10 @@ public enum MapiCalendarRecurrenceEndType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0` | No values are set |
-| EndAfterDate | `8225` | Ends after date. |
-| EndAfterNOccurrences | `8226` | Ends after N occurrences. |
-| NeverEnd | `8227` | Never ends. |
+| None | `0` | Not set. |
+| EndAfterDate | `8225` | The series ends on a date. |
+| EndAfterNOccurrences | `8226` | The series ends after a number of occurrences. |
+| NeverEnd | `8227` | The series has no end. |
 
 ### See Also
 

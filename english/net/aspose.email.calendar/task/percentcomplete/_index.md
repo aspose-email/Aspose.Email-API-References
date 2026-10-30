@@ -1,14 +1,14 @@
 ---
 title: Task.PercentComplete
 second_title: Aspose.Email for .NET API Reference
-description: Task property. Gets or sets a pecent of task completion
+description: Task property. Gets or sets how much of the task is complete in percent
 type: docs
 weight: 110
 url: /net/aspose.email.calendar/task/percentcomplete/
 ---
 ## Task.PercentComplete property
 
-Gets or sets a pecent of task completion.
+Gets or sets how much of the task is complete, in percent.
 
 ```csharp
 public float PercentComplete { get; set; }

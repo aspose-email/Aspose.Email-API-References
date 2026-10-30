@@ -1,14 +1,14 @@
 ---
 title: Enum MapiTaskPriority
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiTaskPriority enum. Represents the priority on the task
+description: Aspose.Email.Mapi.MapiTaskPriority enum. Defines the priorities of a task
 type: docs
 weight: 17580
 url: /net/aspose.email.mapi/mapitaskpriority/
 ---
 ## MapiTaskPriority enumeration
 
-Represents the priority on the task.
+Defines the priorities of a task.
 
 ```csharp
 public enum MapiTaskPriority
@@ -20,7 +20,7 @@ public enum MapiTaskPriority
 | --- | --- | --- |
 | Low | `-1` | Low priority. |
 | Normal | `0` | Normal priority. |
-| High | `1` | High priority . |
+| High | `1` | High priority. |
 
 ### See Also
 

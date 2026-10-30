@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarTimeZoneRule.Month
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarTimeZoneRule property. Gets or sets the month
+description: MapiCalendarTimeZoneRule property. Gets or sets the month of the time change
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapicalendartimezonerule/month/
 ---
 ## MapiCalendarTimeZoneRule.Month property
 
-Gets or sets the month
+Gets or sets the month of the time change.
 
 ```csharp
 public ushort Month { get; set; }

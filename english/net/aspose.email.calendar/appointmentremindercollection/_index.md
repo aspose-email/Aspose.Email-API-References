@@ -1,14 +1,14 @@
 ---
 title: Class AppointmentReminderCollection
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.AppointmentReminderCollection class. Contains collection of AppointmentReminder AppointmentReminderobjects
+description: Aspose.Email.Calendar.AppointmentReminderCollection class. A list of AppointmentReminder objects
 type: docs
 weight: 520
 url: /net/aspose.email.calendar/appointmentremindercollection/
 ---
 ## AppointmentReminderCollection class
 
-Contains collection of AppointmentReminder [`AppointmentReminder`](../appointmentreminder/)objects.
+A list of [`AppointmentReminder`](../appointmentreminder/) objects.
 
 ```csharp
 public class AppointmentReminderCollection : List<AppointmentReminder>

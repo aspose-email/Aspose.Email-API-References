@@ -1,14 +1,14 @@
 ---
 title: Metered.SetMeteredKey
 second_title: Aspose.Email for .NET API Reference
-description: Metered method. Sets metered public and private key. If you purchase metered license when start application this API should be called normally this is enough. However if always fail to upload consumption data and exceed 24 hours the license will be set to evaluation status to avoid such case you should regularly check the license status if it is evaluation status call this API again
+description: Metered method. Activates the metered license with the public and private keys
 type: docs
 weight: 40
 url: /net/aspose.email/metered/setmeteredkey/
 ---
 ## Metered.SetMeteredKey method
 
-Sets metered public and private key. If you purchase metered license, when start application, this API should be called, normally, this is enough. However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status, to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again.
+Activates the metered license with the public and private keys.
 
 ```csharp
 public void SetMeteredKey(string publicKey, string privateKey)
@@ -16,8 +16,12 @@ public void SetMeteredKey(string publicKey, string privateKey)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| publicKey | String | public key |
-| privateKey | String | private key |
+| publicKey | String | The public key. |
+| privateKey | String | The private key. |
+
+## Remarks
+
+Call it once at application start. If the consumption data cannot be uploaded for more than 24 hours, the license falls back to evaluation mode; check [`IsMeteredLicensed`](../ismeteredlicensed/) periodically and call this method again if needed.
 
 ### See Also
 

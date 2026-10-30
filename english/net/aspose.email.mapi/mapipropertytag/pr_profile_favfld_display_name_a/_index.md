@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_PROFILE_FAVFLD_DISPLAY_NAME_A
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. The ANSI form of PR_PROFILE_FAVFLD_DISPLAY_NAME. Property tag 0x660F001E PT_STRING8
 type: docs
 weight: 16740
 url: /net/aspose.email.mapi/mapipropertytag/pr_profile_favfld_display_name_a/
 ---
 ## MapiPropertyTag.PR_PROFILE_FAVFLD_DISPLAY_NAME_A field
+
+The ANSI form of [`PR_PROFILE_FAVFLD_DISPLAY_NAME`](../pr_profile_favfld_display_name/). Property tag: 0x660F001E (PT_STRING8).
 
 ```csharp
 public static readonly long PR_PROFILE_FAVFLD_DISPLAY_NAME_A;

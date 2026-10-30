@@ -8,7 +8,7 @@ url: /net/aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/mapica
 ---
 ## MapiCalendarYearlyAndMonthlyRecurrencePattern constructor
 
-Initializes a new instance of the [`MapiCalendarYearlyAndMonthlyRecurrencePattern`](../) class
+Initializes a new instance of the [`MapiCalendarYearlyAndMonthlyRecurrencePattern`](../) class.
 
 ```csharp
 public MapiCalendarYearlyAndMonthlyRecurrencePattern()

@@ -1,14 +1,14 @@
 ---
 title: FolderInfo.EnumerateMessagesEntryId
 second_title: Aspose.Email for .NET API Reference
-description: FolderInfo method. Enumerates the entryID of messages
+description: FolderInfo method. Enumerates the entry IDs of the messages in the folder
 type: docs
 weight: 270
 url: /net/aspose.email.storage.pst/folderinfo/enumeratemessagesentryid/
 ---
 ## FolderInfo.EnumerateMessagesEntryId method
 
-Enumerates the entryID of messages.
+Enumerates the entry IDs of the messages in the folder.
 
 ```csharp
 public IEnumerable<string> EnumerateMessagesEntryId()
@@ -16,7 +16,7 @@ public IEnumerable<string> EnumerateMessagesEntryId()
 
 ### Return Value
 
-IEnumerable, that represents an enumerator that iterates through entryID of messages in folder.
+The entry IDs as strings. They are read from the file as the sequence is enumerated.
 
 ### See Also
 

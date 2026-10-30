@@ -8,7 +8,7 @@ url: /net/aspose.email.storage.pst/itemmovedeventargs/
 ---
 ## ItemMovedEventArgs class
 
-Provides data for the [`ItemMoved`](../folderinfo/itemmoved/) event
+Provides data for the [`ItemMoved`](../folderinfo/itemmoved/) event.
 
 ```csharp
 public class ItemMovedEventArgs : EventArgs
@@ -18,19 +18,19 @@ public class ItemMovedEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [ItemMovedEventArgs](itemmovedeventargs/#constructor)(FolderInfo) | Initializes a new instance of the `ItemMovedEventArgs` class. |
-| [ItemMovedEventArgs](itemmovedeventargs/#constructor_1)(MessageInfo) | Initializes a new instance of the `ItemMovedEventArgs` class. |
-| [ItemMovedEventArgs](itemmovedeventargs/#constructor_2)(string, MapiPropertyCollection) | Initializes a new instance of the `ItemMovedEventArgs` class. |
+| [ItemMovedEventArgs](itemmovedeventargs/#constructor)(FolderInfo) | Initializes a new instance of the `ItemMovedEventArgs` class for a moved folder. |
+| [ItemMovedEventArgs](itemmovedeventargs/#constructor_1)(MessageInfo) | Initializes a new instance of the `ItemMovedEventArgs` class for a moved message. |
+| [ItemMovedEventArgs](itemmovedeventargs/#constructor_2)(string, MapiPropertyCollection) | Initializes a new instance of the `ItemMovedEventArgs` class for an item given by its entry ID and properties. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [DestinationFolder](../../aspose.email.storage.pst/itemmovedeventargs/destinationfolder/) { get; } | Gets the destination folder. |
-| [EntryId](../../aspose.email.storage.pst/itemmovedeventargs/entryid/) { get; } | Gets the string that represents the EntryId of the moved message. |
-| [IsFolder](../../aspose.email.storage.pst/itemmovedeventargs/isfolder/) { get; } | Return true, if entry refers to a Folder |
-| [IsMessage](../../aspose.email.storage.pst/itemmovedeventargs/ismessage/) { get; } | Return true, if entry refers to a Message |
-| [ItemProperties](../../aspose.email.storage.pst/itemmovedeventargs/itemproperties/) { get; } | Gets the item properties that has been moved. |
+| [DestinationFolder](../../aspose.email.storage.pst/itemmovedeventargs/destinationfolder/) { get; } | Gets the folder the item was moved to. |
+| [EntryId](../../aspose.email.storage.pst/itemmovedeventargs/entryid/) { get; } | Gets the entry ID of the moved item. |
+| [IsFolder](../../aspose.email.storage.pst/itemmovedeventargs/isfolder/) { get; } | Gets a value indicating whether the moved item is a folder. |
+| [IsMessage](../../aspose.email.storage.pst/itemmovedeventargs/ismessage/) { get; } | Gets a value indicating whether the moved item is a message. |
+| [ItemProperties](../../aspose.email.storage.pst/itemmovedeventargs/itemproperties/) { get; } | Gets the properties of the moved item. |
 
 ### See Also
 

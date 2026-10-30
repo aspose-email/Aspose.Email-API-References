@@ -1,14 +1,14 @@
 ---
 title: ReminderAttachment.ReminderAttachment
 second_title: Aspose.Email for .NET API Reference
-description: ReminderAttachment constructor. Initialize a new instance of ReminderAttachment class
+description: ReminderAttachment constructor. Initializes a new instance of the ReminderAttachment class with inline content
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/reminderattachment/reminderattachment/
 ---
 ## ReminderAttachment(byte[]) {#constructor}
 
-Initialize a new instance of [`ReminderAttachment`](../) class.
+Initializes a new instance of the [`ReminderAttachment`](../) class with inline content.
 
 ```csharp
 public ReminderAttachment(byte[] binaryData)
@@ -16,7 +16,13 @@ public ReminderAttachment(byte[] binaryData)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| binaryData | Byte[] | Binary data. |
+| binaryData | Byte[] | The content of the attachment. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception/) | *binaryData* is `null`. |
 
 ### See Also
 
@@ -28,7 +34,7 @@ public ReminderAttachment(byte[] binaryData)
 
 ## ReminderAttachment(Uri) {#constructor_1}
 
-Initialize a new instance of [`ReminderAttachment`](../) class.
+Initializes a new instance of the [`ReminderAttachment`](../) class that refers to its content by URI.
 
 ```csharp
 public ReminderAttachment(Uri uri)
@@ -36,7 +42,13 @@ public ReminderAttachment(Uri uri)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uri | Uri | Uri. |
+| uri | Uri | The location of the content. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception/) | *uri* is `null`. |
 
 ### See Also
 

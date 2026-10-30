@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AutoResponseSuppress
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies whether a client or server application should forego sending automated replies in response to this message. Area Email Canonical name PidTagAutoResponseSuppress Alternate names PR_AUTO_RESPONSE_SUPPRESS ptagAutoResponseSuppress
+description: KnownPropertyList field. Specifies whether a client or server application should forego sending automated replies in response to this message. Area Email. Canonical name PidTagAutoResponseSuppress. Alternate names PR_AUTO_RESPONSE_SUPPRESS ptagAutoResponseSuppress
 type: docs
 weight: 2030
 url: /net/aspose.email.mapi/knownpropertylist/autoresponsesuppress/
 ---
 ## KnownPropertyList.AutoResponseSuppress field
 
-Specifies whether a client or server application should forego sending automated replies in response to this message. Area: Email Canonical name: PidTagAutoResponseSuppress Alternate names: PR_AUTO_RESPONSE_SUPPRESS, ptagAutoResponseSuppress
+Specifies whether a client or server application should forego sending automated replies in response to this message. Area: Email. Canonical name: PidTagAutoResponseSuppress. Alternate names: PR_AUTO_RESPONSE_SUPPRESS, ptagAutoResponseSuppress.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AutoResponseSuppress;

@@ -1,14 +1,14 @@
 ---
 title: MailConversionOptions.PreserveEmbeddedMessageFormat
 second_title: Aspose.Email for .NET API Reference
-description: MailConversionOptions property. Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. By default the value is false
+description: MailConversionOptions property. Gets or sets a value indicating whether embedded messages stay in MSG format instead of being converted to EML. The default is false
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mailconversionoptions/preserveembeddedmessageformat/
 ---
 ## MailConversionOptions.PreserveEmbeddedMessageFormat property
 
-Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. By default the value is false.
+Gets or sets a value indicating whether embedded messages stay in MSG format instead of being converted to EML. The default is `false`.
 
 ```csharp
 public bool PreserveEmbeddedMessageFormat { get; set; }

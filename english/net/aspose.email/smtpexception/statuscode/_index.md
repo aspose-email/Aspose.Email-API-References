@@ -1,14 +1,14 @@
 ---
 title: SmtpException.StatusCode
 second_title: Aspose.Email for .NET API Reference
-description: SmtpException property. Smtp status code
+description: SmtpException property. Gets or sets the SMTP status code returned by the server
 type: docs
 weight: 30
 url: /net/aspose.email/smtpexception/statuscode/
 ---
 ## SmtpException.StatusCode property
 
-Smtp status code
+Gets or sets the SMTP status code returned by the server.
 
 ```csharp
 public SmtpStatusCode StatusCode { get; set; }

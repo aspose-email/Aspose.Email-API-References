@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ServiceDeleteFiles
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_SERVICE_DELETE_FILES
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_SERVICE_DELETE_FILES. Property tag 0x3D10101E data type MultipleString8
 type: docs
 weight: 17390
 url: /net/aspose.email.mapi/knownpropertylist/servicedeletefiles/
 ---
 ## KnownPropertyList.ServiceDeleteFiles field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_SERVICE_DELETE_FILES
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_SERVICE_DELETE_FILES. Property tag: 0x3D10101E; data type: MultipleString8.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ServiceDeleteFiles;

@@ -1,14 +1,14 @@
 ---
 title: Appointment.CancelAppointment
 second_title: Aspose.Email for .NET API Reference
-description: Appointment method. Cancels the appointment
+description: Appointment method. Creates a cancellation of this meeting iCalendar METHODCANCEL to send to its attendees
 type: docs
 weight: 330
 url: /net/aspose.email.calendar/appointment/cancelappointment/
 ---
 ## CancelAppointment() {#cancelappointment}
 
-Cancels the appointment.
+Creates a cancellation of this meeting (iCalendar METHOD:CANCEL) to send to its attendees.
 
 ```csharp
 public AlternateView CancelAppointment()
@@ -16,7 +16,11 @@ public AlternateView CancelAppointment()
 
 ### Return Value
 
-AlternateView[`AlternateView`](../../../aspose.email/alternateview/) that represents the format to view an email message.
+An [`AlternateView`](../../../aspose.email/alternateview/) with the iCalendar data (text/calendar) to add to a [`MailMessage`](../../../aspose.email/mailmessage/).
+
+## Remarks
+
+The cancellation gets sequence number 2. Use the overload with a sequence number to set it explicitly.
 
 ### See Also
 
@@ -29,7 +33,7 @@ AlternateView[`AlternateView`](../../../aspose.email/alternateview/) that repres
 
 ## CancelAppointment(int) {#cancelappointment_1}
 
-Cancels the appointment.
+Creates a cancellation of this meeting (iCalendar METHOD:CANCEL) with the specified sequence number.
 
 ```csharp
 public AlternateView CancelAppointment(int seqId)
@@ -37,11 +41,11 @@ public AlternateView CancelAppointment(int seqId)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| seqId | Int32 | The sequence id. |
+| seqId | Int32 | The sequence number to write (the iCalendar SEQUENCE property). |
 
 ### Return Value
 
-AlternateView[`AlternateView`](../../../aspose.email/alternateview/) that represents the format to view an email message.
+An [`AlternateView`](../../../aspose.email/alternateview/) with the iCalendar data (text/calendar) to add to a [`MailMessage`](../../../aspose.email/mailmessage/).
 
 ### See Also
 

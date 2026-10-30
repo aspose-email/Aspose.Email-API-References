@@ -1,14 +1,14 @@
 ---
 title: HeaderType.ReturnPath
 second_title: Aspose.Email for .NET API Reference
-description: HeaderType property. Used to convey the information from the MAIL FROM envelope attribute in final delivery when the message leaves the SMTP environment in which MAIL FROM is used. ///
+description: HeaderType property. Gets the ReturnPath header the address that bounces are returned to the envelope sender MAIL FROM added on final delivery
 type: docs
 weight: 200
 url: /net/aspose.email/headertype/returnpath/
 ---
 ## HeaderType.ReturnPath property
 
-Used to convey the information from the MAIL FROM envelope attribute in final delivery, when the message leaves the SMTP environment in which "MAIL FROM" is used. ///
+Gets the `Return-Path` header: the address that bounces are returned to: the envelope sender (`MAIL FROM`), added on final delivery.
 
 ```csharp
 public static HeaderType ReturnPath { get; }

@@ -1,14 +1,14 @@
 ---
 title: Enum MapiTaskFlags
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiTaskFlags enum. Contains indication flags of the Task object
+description: Aspose.Email.Mapi.MapiTaskFlags enum. Defines the flags of a task. The values can be combined
 type: docs
 weight: 17540
 url: /net/aspose.email.mapi/mapitaskflags/
 ---
 ## MapiTaskFlags enumeration
 
-Contains indication flags of the Task object.
+Defines the flags of a task. The values can be combined.
 
 ```csharp
 [Flags]
@@ -19,13 +19,13 @@ public enum MapiTaskFlags
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Complete | `1` | Indicates whether the task has been completed. |
-| Accepted | `2` | Indicates whether a task assignee has replied to a task request for this Task object. |
-| Updates | `4` | Indicates whether the task assignee has been requested to send a task update when the assigned Task object changes. |
-| Recurring | `8` | Indicates whether the task includes a recurrence pattern. |
-| StatusOnComplete | `10` | Indicates whether the task assignee has been requested to send an e-mail message update when the task assignee completes the assigned task. |
-| DeadOccurrence | `20` | Indicates whether new occurrences remain to be generated. |
-| ResetReminder | `40` | Indicates whether future instances of recurring tasks need reminders. |
+| Complete | `1` | The task is complete. |
+| Accepted | `2` | The assignee has replied to the task request. |
+| Updates | `4` | The assignee is asked to send an update when the task changes. |
+| Recurring | `8` | The task has a recurrence. |
+| StatusOnComplete | `10` | The assignee is asked to send a status report when the task is complete. |
+| DeadOccurrence | `20` | No more occurrences of the recurring task are to be generated. |
+| ResetReminder | `40` | The future occurrences of the recurring task need reminders. |
 
 ### See Also
 

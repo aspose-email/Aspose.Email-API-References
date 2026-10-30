@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AlternateRecipientAllowed
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies whether the sender permits the message to be autoforwarded. Area Address Properties Canonical name PidTagAlternateRecipientAllowed Alternate names PR_ALTERNATE_RECIPIENT_ALLOWED ptagAlternateRecipientAllowed
+description: KnownPropertyList field. Specifies whether the sender permits the message to be autoforwarded. Area Address Properties. Canonical name PidTagAlternateRecipientAllowed. Alternate names PR_ALTERNATE_RECIPIENT_ALLOWED ptagAlternateRecipientAllowed
 type: docs
 weight: 1070
 url: /net/aspose.email.mapi/knownpropertylist/alternaterecipientallowed/
 ---
 ## KnownPropertyList.AlternateRecipientAllowed field
 
-Specifies whether the sender permits the message to be auto-forwarded. Area: Address Properties Canonical name: PidTagAlternateRecipientAllowed Alternate names: PR_ALTERNATE_RECIPIENT_ALLOWED, ptagAlternateRecipientAllowed
+Specifies whether the sender permits the message to be auto-forwarded. Area: Address Properties. Canonical name: PidTagAlternateRecipientAllowed. Alternate names: PR_ALTERNATE_RECIPIENT_ALLOWED, ptagAlternateRecipientAllowed.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AlternateRecipientAllowed;

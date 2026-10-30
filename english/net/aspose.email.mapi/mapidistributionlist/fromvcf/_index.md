@@ -1,14 +1,14 @@
 ---
 title: MapiDistributionList.FromVCF
 second_title: Aspose.Email for .NET API Reference
-description: MapiDistributionList method. Loads MapiDistributionList from VCF file
+description: MapiDistributionList method. Loads a distribution list from a vCard .vcf file that contains the contacts of its members
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapidistributionlist/fromvcf/
 ---
 ## FromVCF(string) {#fromvcf_1}
 
-Loads MapiDistributionList from VCF file.
+Loads a distribution list from a vCard (.vcf) file that contains the contacts of its members.
 
 ```csharp
 public static MapiDistributionList FromVCF(string filePath)
@@ -16,11 +16,11 @@ public static MapiDistributionList FromVCF(string filePath)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | Path to the VCF file. |
+| filePath | String | The path of the file. |
 
 ### Return Value
 
-The result MapiDistributionList.
+The loaded distribution list.
 
 ### See Also
 
@@ -32,7 +32,7 @@ The result MapiDistributionList.
 
 ## FromVCF(Stream) {#fromvcf}
 
-Loads MapiDistributionList from VCF stream.
+Loads a distribution list from a vCard stream that contains the contacts of its members.
 
 ```csharp
 public static MapiDistributionList FromVCF(Stream stream)
@@ -40,11 +40,11 @@ public static MapiDistributionList FromVCF(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Stream in the VCF format. |
+| stream | Stream | The stream to read. |
 
 ### Return Value
 
-The result MapiDistributionList.
+The loaded distribution list.
 
 ### See Also
 

@@ -8,7 +8,7 @@ url: /net/aspose.email.mapi/mapicalendareventrecurrence/recurrencepattern/
 ---
 ## MapiCalendarEventRecurrence.RecurrencePattern property
 
-Gets or sets the recurrence pattern
+Gets or sets the recurrence pattern.
 
 ```csharp
 public MapiCalendarRecurrencePattern RecurrencePattern { get; set; }

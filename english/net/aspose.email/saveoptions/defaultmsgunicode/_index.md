@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.DefaultMsgUnicode
 second_title: Aspose.Email for .NET API Reference
-description: SaveOptions property. Gets options with default values for saving message to MsgUnicode format
+description: SaveOptions property. Gets new options with the default settings for saving to MSG with Unicode strings
 type: docs
 weight: 90
 url: /net/aspose.email/saveoptions/defaultmsgunicode/
 ---
 ## SaveOptions.DefaultMsgUnicode property
 
-Gets options with default values for saving message to Msg(Unicode) format.
+Gets new options with the default settings for saving to MSG with Unicode strings.
 
 ```csharp
 public static MsgSaveOptions DefaultMsgUnicode { get; }

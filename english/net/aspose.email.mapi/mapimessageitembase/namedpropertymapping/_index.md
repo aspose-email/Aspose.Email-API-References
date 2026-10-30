@@ -1,14 +1,14 @@
 ---
 title: MapiMessageItemBase.NamedPropertyMapping
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessageItemBase property. Gets the named property mapping
+description: MapiMessageItemBase property. Gets the mapping between the named properties and the tags they are stored under
 type: docs
 weight: 130
 url: /net/aspose.email.mapi/mapimessageitembase/namedpropertymapping/
 ---
 ## MapiMessageItemBase.NamedPropertyMapping property
 
-Gets the named property mapping.
+Gets the mapping between the named properties and the tags they are stored under.
 
 ```csharp
 public MapiNamedPropertyMappingStorage NamedPropertyMapping { get; }

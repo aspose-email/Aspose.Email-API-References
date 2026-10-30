@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ContentConfidentialityAlgorithmId
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_CONTENT_CONFIDENTIALITY_ALGORITHM_ID
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_CONTENT_CONFIDENTIALITY_ALGORITHM_ID. Property tag 0x00060102 data type Binary
 type: docs
 weight: 3250
 url: /net/aspose.email.mapi/knownpropertylist/contentconfidentialityalgorithmid/
 ---
 ## KnownPropertyList.ContentConfidentialityAlgorithmId field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_CONTENT_CONFIDENTIALITY_ALGORITHM_ID
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_CONTENT_CONFIDENTIALITY_ALGORITHM_ID. Property tag: 0x00060102; data type: Binary.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContentConfidentialityAlgorithmId;

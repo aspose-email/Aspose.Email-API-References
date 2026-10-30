@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ContactAddrtypes
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_CONTACT_ADDRTYPES
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_CONTACT_ADDRTYPES. Property tag 0x3A54101E data type MultipleString8
 type: docs
 weight: 2970
 url: /net/aspose.email.mapi/knownpropertylist/contactaddrtypes/
 ---
 ## KnownPropertyList.ContactAddrtypes field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_CONTACT_ADDRTYPES
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_CONTACT_ADDRTYPES. Property tag: 0x3A54101E; data type: MultipleString8.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContactAddrtypes;

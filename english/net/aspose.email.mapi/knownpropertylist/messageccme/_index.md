@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.MessageCcMe
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Area General Message Properties Canonical name PidTagMessageCcMe Alternate names PR_MESSAGE_CC_ME ptagMessageCcMe
+description: KnownPropertyList field. Area General Message Properties. Canonical name PidTagMessageCcMe. Alternate names PR_MESSAGE_CC_ME ptagMessageCcMe
 type: docs
 weight: 12540
 url: /net/aspose.email.mapi/knownpropertylist/messageccme/
 ---
 ## KnownPropertyList.MessageCcMe field
 
-Area: General Message Properties Canonical name: PidTagMessageCcMe Alternate names: PR_MESSAGE_CC_ME, ptagMessageCcMe
+Area: General Message Properties. Canonical name: PidTagMessageCcMe. Alternate names: PR_MESSAGE_CC_ME, ptagMessageCcMe.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageCcMe;

@@ -1,14 +1,14 @@
 ---
 title: MapiContactElectronicAddressPropertySet.BusinessFax
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactElectronicAddressPropertySet property. Refers to the group of properties that define the business fax address for a contact
+description: MapiContactElectronicAddressPropertySet property. Gets or sets the business fax number
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicontactelectronicaddresspropertyset/businessfax/
 ---
 ## MapiContactElectronicAddressPropertySet.BusinessFax property
 
-Refers to the group of properties that define the business fax address for a contact.
+Gets or sets the business fax number.
 
 ```csharp
 public MapiContactElectronicAddress BusinessFax { get; set; }

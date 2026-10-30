@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_LAST_MODIFIER_NAME_A
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. The ANSI form of PR_LAST_MODIFIER_NAME. Property tag 0x3FFA001E PT_STRING8
 type: docs
 weight: 13510
 url: /net/aspose.email.mapi/mapipropertytag/pr_last_modifier_name_a/
 ---
 ## MapiPropertyTag.PR_LAST_MODIFIER_NAME_A field
+
+The ANSI form of [`PR_LAST_MODIFIER_NAME`](../pr_last_modifier_name/). Property tag: 0x3FFA001E (PT_STRING8).
 
 ```csharp
 public static readonly long PR_LAST_MODIFIER_NAME_A;

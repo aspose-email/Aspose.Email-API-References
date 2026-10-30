@@ -1,14 +1,14 @@
 ---
 title: MapiProperty.CreateMapiPropertyFromDateTime
 second_title: Aspose.Email for .NET API Reference
-description: MapiProperty method. Creates the mapi property from date time
+description: MapiProperty method. Creates a property with a date and time value
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapiproperty/createmapipropertyfromdatetime/
 ---
 ## MapiProperty.CreateMapiPropertyFromDateTime method
 
-Creates the mapi property from date time.
+Creates a property with a date and time value.
 
 ```csharp
 public static MapiProperty CreateMapiPropertyFromDateTime(long tag, DateTime data)
@@ -16,8 +16,12 @@ public static MapiProperty CreateMapiPropertyFromDateTime(long tag, DateTime dat
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | Int64 | The tag. |
-| data | DateTime | The data. |
+| tag | Int64 | The tag of the property. |
+| data | DateTime | The value. |
+
+### Return Value
+
+The new property.
 
 ### See Also
 

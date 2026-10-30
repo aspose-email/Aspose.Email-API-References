@@ -1,14 +1,14 @@
 ---
 title: MapiMessageItemBase.Companies
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessageItemBase property. Contains the names of the companies that are associated with an item
+description: MapiMessageItemBase property. Gets or sets the names of the companies associated with the item
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapimessageitembase/companies/
 ---
 ## MapiMessageItemBase.Companies property
 
-Contains the names of the companies that are associated with an item.
+Gets or sets the names of the companies associated with the item.
 
 ```csharp
 public string[] Companies { get; set; }

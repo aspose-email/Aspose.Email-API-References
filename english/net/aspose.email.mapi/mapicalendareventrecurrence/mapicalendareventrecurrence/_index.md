@@ -8,7 +8,7 @@ url: /net/aspose.email.mapi/mapicalendareventrecurrence/mapicalendareventrecurre
 ---
 ## MapiCalendarEventRecurrence constructor
 
-Initializes a new instance of the [`MapiCalendarEventRecurrence`](../) class
+Initializes a new instance of the [`MapiCalendarEventRecurrence`](../) class.
 
 ```csharp
 public MapiCalendarEventRecurrence()

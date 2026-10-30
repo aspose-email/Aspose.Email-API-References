@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_NORMAL_MESSAGE_SIZE_EXTENDED
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Property tag 0x66B30014 PT_LONGLONG
 type: docs
 weight: 14490
 url: /net/aspose.email.mapi/mapipropertytag/pr_normal_message_size_extended/
 ---
 ## MapiPropertyTag.PR_NORMAL_MESSAGE_SIZE_EXTENDED field
+
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x66B30014 (PT_LONGLONG).
 
 ```csharp
 public static readonly long PR_NORMAL_MESSAGE_SIZE_EXTENDED;

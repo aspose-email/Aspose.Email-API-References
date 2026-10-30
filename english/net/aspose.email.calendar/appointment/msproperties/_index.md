@@ -1,14 +1,14 @@
 ---
 title: Appointment.MSProperties
 second_title: Aspose.Email for .NET API Reference
-description: Appointment property. Gets extended MS properties of an appointment
+description: Appointment property. Gets the Microsoftspecific properties of the event those whose names start with XMICROSOFT keyed by property name
 type: docs
 weight: 190
 url: /net/aspose.email.calendar/appointment/msproperties/
 ---
 ## Appointment.MSProperties property
 
-Gets extended MS properties of an appointment.
+Gets the Microsoft-specific properties of the event (those whose names start with X-MICROSOFT), keyed by property name.
 
 ```csharp
 public Dictionary<string, string> MSProperties { get; }

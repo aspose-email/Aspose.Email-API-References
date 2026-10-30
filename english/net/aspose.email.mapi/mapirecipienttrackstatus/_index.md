@@ -1,14 +1,14 @@
 ---
 title: Enum MapiRecipientTrackStatus
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiRecipientTrackStatus enum. Represents the response status returned by the attendee
+description: Aspose.Email.Mapi.MapiRecipientTrackStatus enum. Defines the responses of an attendee to a meeting request
 type: docs
 weight: 17490
 url: /net/aspose.email.mapi/mapirecipienttrackstatus/
 ---
 ## MapiRecipientTrackStatus enumeration
 
-Represents the response status returned by the attendee.
+Defines the responses of an attendee to a meeting request.
 
 ```csharp
 public enum MapiRecipientTrackStatus
@@ -18,10 +18,10 @@ public enum MapiRecipientTrackStatus
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0` | No response is required for this object. This is the case for appointment objects and meeting response objects. |
-| Tentative | `1` | This value on the attendee’s meeting object indicates that the attendee has tentatively accepted the meeting request object. |
-| Accepted | `2` | This value on the attendee’s meeting object indicates that the attendee has accepted the meeting request object. |
-| Declined | `3` | This value on the attendee’s meeting object indicates that the attendee has declined the meeting request object. |
+| None | `0` | No response is required, as for appointments and meeting responses. |
+| Tentative | `1` | The attendee has tentatively accepted. |
+| Accepted | `2` | The attendee has accepted. |
+| Declined | `3` | The attendee has declined. |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarSaveOptions.ProductIdentifier
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarSaveOptions property. Gets or sets the product identifier
+description: MapiCalendarSaveOptions property. Gets or sets the identifier of the product that created the iCalendar file written to its PRODID property
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicalendarsaveoptions/productidentifier/
 ---
 ## MapiCalendarSaveOptions.ProductIdentifier property
 
-Gets or sets the product identifier.
+Gets or sets the identifier of the product that created the iCalendar file, written to its `PRODID` property.
 
 ```csharp
 public string ProductIdentifier { get; set; }
@@ -16,11 +16,11 @@ public string ProductIdentifier { get; set; }
 
 ### Property Value
 
-The product identifier. This property specifies the identifier for the product that created the iCalendar object.
+The product identifier.
 
 ## Remarks
 
-If the property is not set or equal to null, the default PRODID is -//Aspose Ltd//iCalendar Builder (v3.0)//EN
+When the value is `null`, `-//Aspose Ltd//iCalendar Builder (v3.0)//EN` is written.
 
 ### See Also
 

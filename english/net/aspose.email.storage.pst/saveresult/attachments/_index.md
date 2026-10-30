@@ -1,14 +1,14 @@
 ---
 title: SaveResult.Attachments
 second_title: Aspose.Email for .NET API Reference
-description: SaveResult property. Gets the save results of attachments
+description: SaveResult property. Gets the results of saving the attachments of the message
 type: docs
 weight: 10
 url: /net/aspose.email.storage.pst/saveresult/attachments/
 ---
 ## SaveResult.Attachments property
 
-Gets the save results of attachments.
+Gets the results of saving the attachments of the message.
 
 ```csharp
 public List<SaveResult> Attachments { get; }

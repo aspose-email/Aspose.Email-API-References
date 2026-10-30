@@ -1,14 +1,14 @@
 ---
 title: PidTagPropertyDescriptor.Tag
 second_title: Aspose.Email for .NET API Reference
-description: PidTagPropertyDescriptor property. A property tag is a 32bit number that contains a unique property identifier in bits 16 through 31 and a property type in bits 0 through 15
+description: PidTagPropertyDescriptor property. Gets the tag of the property the ID in the highorder 16 bits and the data type in the loworder 16 bits
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/pidtagpropertydescriptor/tag/
 ---
 ## PidTagPropertyDescriptor.Tag property
 
-A property tag is a 32-bit number that contains a unique property identifier in bits 16 through 31 and a property type in bits 0 through 15.
+Gets the tag of the property: the ID in the high-order 16 bits and the data type in the low-order 16 bits.
 
 ```csharp
 public long Tag { get; }

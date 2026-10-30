@@ -16,11 +16,11 @@ public string SenderName { get; set; }
 
 ### Property Value
 
-The the string that represents sender name.
+The display name of the sender.
 
 ## Remarks
 
-When setting a null value or empty string, the values of the property get the value equal to SenderEmailAddress.
+Setting `null` or an empty string sets the name to [`SenderEmailAddress`](../senderemailaddress/).
 
 ### See Also
 

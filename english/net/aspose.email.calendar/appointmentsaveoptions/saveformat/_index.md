@@ -1,14 +1,14 @@
 ---
 title: AppointmentSaveOptions.SaveFormat
 second_title: Aspose.Email for .NET API Reference
-description: AppointmentSaveOptions property. Gets a save format
+description: AppointmentSaveOptions property. Gets the format these options save to
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/appointmentsaveoptions/saveformat/
 ---
 ## AppointmentSaveOptions.SaveFormat property
 
-Gets a save format
+Gets the format these options save to.
 
 ```csharp
 public AppointmentSaveFormat SaveFormat { get; }

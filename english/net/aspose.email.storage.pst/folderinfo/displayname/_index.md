@@ -16,7 +16,7 @@ public string DisplayName { get; }
 
 ### Property Value
 
-The display name.
+The name of the folder.
 
 ### See Also
 

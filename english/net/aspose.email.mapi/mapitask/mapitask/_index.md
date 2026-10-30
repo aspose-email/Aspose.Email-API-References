@@ -24,7 +24,7 @@ public MapiTask()
 
 ## MapiTask(string, string, DateTime, DateTime) {#constructor_1}
 
-Initializes a new instance of the [`MapiTask`](../) class.
+Initializes a new instance of the [`MapiTask`](../) class with a subject, a body and dates.
 
 ```csharp
 public MapiTask(string subject, string body, DateTime startDate, DateTime dueDate)
@@ -33,9 +33,9 @@ public MapiTask(string subject, string body, DateTime startDate, DateTime dueDat
 | Parameter | Type | Description |
 | --- | --- | --- |
 | subject | String | The subject. |
-| body | String | The message body. |
-| startDate | DateTime | The start date. |
-| dueDate | DateTime | The due date. |
+| body | String | The body. |
+| startDate | DateTime | The date the work starts. |
+| dueDate | DateTime | The date the task is due. |
 
 ### See Also
 

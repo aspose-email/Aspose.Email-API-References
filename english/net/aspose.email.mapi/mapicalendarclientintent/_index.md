@@ -1,14 +1,14 @@
 ---
 title: Enum MapiCalendarClientIntent
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendarClientIntent enum. Enumerates the actions the user can taken on the Meeting object
+description: Aspose.Email.Mapi.MapiCalendarClientIntent enum. Defines the actions the user has taken on a meeting. The values can be combined
 type: docs
 weight: 16730
 url: /net/aspose.email.mapi/mapicalendarclientintent/
 ---
 ## MapiCalendarClientIntent enumeration
 
-Enumerates the actions the user can taken on the Meeting object
+Defines the actions the user has taken on a meeting. The values can be combined.
 
 ```csharp
 [Flags]

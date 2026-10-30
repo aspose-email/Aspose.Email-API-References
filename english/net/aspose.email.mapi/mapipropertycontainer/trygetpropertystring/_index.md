@@ -1,14 +1,14 @@
 ---
 title: MapiPropertyContainer.TryGetPropertyString
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyContainer method. Try to get a property data as string with specified tag and code page
+description: MapiPropertyContainer method. Gets the value of a property as a string decoding an ANSI string with the specified code page
 type: docs
 weight: 170
 url: /net/aspose.email.mapi/mapipropertycontainer/trygetpropertystring/
 ---
 ## TryGetPropertyString(long, int) {#trygetpropertystring_3}
 
-Try to get a property data as string with specified tag and code page.
+Gets the value of a property as a string, decoding an ANSI string with the specified code page.
 
 ```csharp
 public string TryGetPropertyString(long tag, int codepage)
@@ -16,12 +16,12 @@ public string TryGetPropertyString(long tag, int codepage)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | Int64 | The property tag key. |
-| codepage | Int32 | The code page. |
+| tag | Int64 | The tag of the property. |
+| codepage | Int32 | The code page of an ANSI (8-bit) string. |
 
 ### Return Value
 
-String that contains the contents of property data.
+The value, or `null` if the property does not exist.
 
 ### See Also
 
@@ -33,7 +33,7 @@ String that contains the contents of property data.
 
 ## TryGetPropertyString(long) {#trygetpropertystring_2}
 
-Try to get a property data as string with specified tag.
+Gets the value of a property as a string.
 
 ```csharp
 public string TryGetPropertyString(long tag)
@@ -41,11 +41,11 @@ public string TryGetPropertyString(long tag)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | Int64 | The property tag key. |
+| tag | Int64 | The tag of the property. |
 
 ### Return Value
 
-String that contains the contents of property data.
+The value, or `null` if the property does not exist.
 
 ### See Also
 
@@ -57,7 +57,7 @@ String that contains the contents of property data.
 
 ## TryGetPropertyString(long, ref string, int) {#trygetpropertystring_1}
 
-Gets the value of the specified property as String type. A return value indicates whether the operation succeeded.
+Gets the value of a property as a string, if the property exists, decoding an ANSI string with the specified code page.
 
 ```csharp
 public bool TryGetPropertyString(long tag, ref string value, int codepage)
@@ -65,13 +65,13 @@ public bool TryGetPropertyString(long tag, ref string value, int codepage)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | Int64 | The MAPI property tag. |
-| value | String& | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
-| codepage | Int32 | The specified codepage used to get string value. |
+| tag | Int64 | The tag of the property. |
+| value | String& | When this method returns, the value of the property, if it exists; otherwise, the value is unchanged. |
+| codepage | Int32 | The code page of an ANSI (8-bit) string. |
 
 ### Return Value
 
-true if s was converted successfully; otherwise, false.
+`true` if the property exists; otherwise, `false`.
 
 ### See Also
 
@@ -83,7 +83,7 @@ true if s was converted successfully; otherwise, false.
 
 ## TryGetPropertyString(long, ref string) {#trygetpropertystring}
 
-Gets the value of the specified property as String type. A return value indicates whether the operation succeeded.
+Gets the value of a property as a string, if the property exists.
 
 ```csharp
 public bool TryGetPropertyString(long tag, ref string value)
@@ -91,12 +91,12 @@ public bool TryGetPropertyString(long tag, ref string value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | Int64 | The MAPI property tag. |
-| value | String& | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+| tag | Int64 | The tag of the property. |
+| value | String& | When this method returns, the value of the property, if it exists; otherwise, the value is unchanged. |
 
 ### Return Value
 
-true if s was converted successfully; otherwise, false.
+`true` if the property exists; otherwise, `false`.
 
 ### See Also
 

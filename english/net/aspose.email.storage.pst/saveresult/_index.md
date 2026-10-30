@@ -1,14 +1,14 @@
 ---
 title: Class SaveResult
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Storage.Pst.SaveResult class. Represents the result of saving the retrieved item
+description: Aspose.Email.Storage.Pst.SaveResult class. The result of saving a message with TryToSaveMessage
 type: docs
 weight: 19320
 url: /net/aspose.email.storage.pst/saveresult/
 ---
 ## SaveResult class
 
-Represents the result of saving the retrieved item.
+The result of saving a message with [`TryToSaveMessage`](../personalstorage/trytosavemessage/).
 
 ```csharp
 public class SaveResult
@@ -18,9 +18,9 @@ public class SaveResult
 
 | Name | Description |
 | --- | --- |
-| [Attachments](../../aspose.email.storage.pst/saveresult/attachments/) { get; } | Gets the save results of attachments. |
-| [MissedProperties](../../aspose.email.storage.pst/saveresult/missedproperties/) { get; } | Gets the collection of missed properties. |
-| [Status](../../aspose.email.storage.pst/saveresult/status/) { get; } | Gets the saving status. |
+| [Attachments](../../aspose.email.storage.pst/saveresult/attachments/) { get; } | Gets the results of saving the attachments of the message. |
+| [MissedProperties](../../aspose.email.storage.pst/saveresult/missedproperties/) { get; } | Gets the properties that could not be read. |
+| [Status](../../aspose.email.storage.pst/saveresult/status/) { get; } | Gets whether the message was saved completely, partially or not at all. |
 
 ### See Also
 

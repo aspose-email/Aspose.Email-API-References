@@ -1,14 +1,14 @@
 ---
 title: MapiContactPersonalInfoPropertySet.Location
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactPersonalInfoPropertySet property. Specifies the location of the contact
+description: MapiContactPersonalInfoPropertySet property. Gets or sets the location of the contact
 type: docs
 weight: 150
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/location/
 ---
 ## MapiContactPersonalInfoPropertySet.Location property
 
-Specifies the location of the contact
+Gets or sets the location of the contact.
 
 ```csharp
 public string Location { get; set; }

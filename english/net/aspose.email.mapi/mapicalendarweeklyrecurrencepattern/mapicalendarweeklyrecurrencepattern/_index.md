@@ -8,7 +8,7 @@ url: /net/aspose.email.mapi/mapicalendarweeklyrecurrencepattern/mapicalendarweek
 ---
 ## MapiCalendarWeeklyRecurrencePattern constructor
 
-Initializes a new instance of the [`MapiCalendarWeeklyRecurrencePattern`](../) class
+Initializes a new instance of the [`MapiCalendarWeeklyRecurrencePattern`](../) class.
 
 ```csharp
 public MapiCalendarWeeklyRecurrencePattern()

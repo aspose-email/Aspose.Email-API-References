@@ -1,14 +1,14 @@
 ---
 title: OleDocumentFormat.Equals
 second_title: Aspose.Email for .NET API Reference
-description: OleDocumentFormat method. Returns a value indicating whether this instance is equal to a specified object
+description: OleDocumentFormat method. Determines whether the specified object is the same format
 type: docs
 weight: 110
 url: /net/aspose.email.mapi/oledocumentformat/equals/
 ---
 ## OleDocumentFormat.Equals method
 
-Returns a value indicating whether this instance is equal to a specified object.
+Determines whether the specified object is the same format.
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | Object | The object to compare with this instance. |
+| obj | Object | The object to compare with. |
 
 ### Return Value
 
-true if o is a System.Guid that has the same value as this instance; otherwise, false.
+`true` if *obj* is an [`OleDocumentFormat`](../) with the same GUID; otherwise, `false`.
 
 ### See Also
 

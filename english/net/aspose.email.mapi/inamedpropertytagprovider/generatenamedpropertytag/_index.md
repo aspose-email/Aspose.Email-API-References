@@ -1,14 +1,14 @@
 ---
 title: INamedPropertyTagProvider.GenerateNamedPropertyTag
 second_title: Aspose.Email for .NET API Reference
-description: INamedPropertyTagProvider method. Generates named property tag
+description: INamedPropertyTagProvider method. Generates a tag for a new named property of the specified type
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/inamedpropertytagprovider/generatenamedpropertytag/
 ---
 ## GenerateNamedPropertyTag(PropertyDataType) {#generatenamedpropertytag_1}
 
-Generates named property tag
+Generates a tag for a new named property of the specified type.
 
 ```csharp
 public long GenerateNamedPropertyTag(PropertyDataType dataType)
@@ -16,11 +16,11 @@ public long GenerateNamedPropertyTag(PropertyDataType dataType)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataType | PropertyDataType | Named property data type |
+| dataType | PropertyDataType | The data type of the property: [`PropertyDataType`](../../propertydatatype/). |
 
 ### Return Value
 
-Returns tag for named property for current tag provider
+A free tag in the named property range, with the type in its low-order 16 bits.
 
 ### See Also
 
@@ -33,7 +33,7 @@ Returns tag for named property for current tag provider
 
 ## GenerateNamedPropertyTag(MapiPropertyType) {#generatenamedpropertytag}
 
-Generates named property tag
+Generates a tag for a new named property of the specified type.
 
 ```csharp
 public long GenerateNamedPropertyTag(MapiPropertyType dataType)
@@ -41,11 +41,11 @@ public long GenerateNamedPropertyTag(MapiPropertyType dataType)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataType | MapiPropertyType | Named property data type |
+| dataType | MapiPropertyType | The data type of the property: [`MapiPropertyType`](../../mapipropertytype/). |
 
 ### Return Value
 
-Returns tag for named property for current tag provider
+A free tag in the named property range, with the type in its low-order 16 bits.
 
 ### See Also
 
@@ -58,7 +58,7 @@ Returns tag for named property for current tag provider
 
 ## GenerateNamedPropertyTag(long) {#generatenamedpropertytag_2}
 
-Generates named property tag
+Generates a tag for a new named property of the specified type.
 
 ```csharp
 public long GenerateNamedPropertyTag(long dataType)
@@ -66,11 +66,11 @@ public long GenerateNamedPropertyTag(long dataType)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataType | Int64 | Named property data type |
+| dataType | Int64 | The data type of the property: the property type, as a number. |
 
 ### Return Value
 
-Returns tag for named property for current tag provider
+A free tag in the named property range, with the type in its low-order 16 bits.
 
 ### See Also
 

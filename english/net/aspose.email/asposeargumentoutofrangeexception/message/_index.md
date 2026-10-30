@@ -1,14 +1,14 @@
 ---
 title: AsposeArgumentOutOfRangeException.Message
 second_title: Aspose.Email for .NET API Reference
-description: AsposeArgumentOutOfRangeException property. Gets a message that describes the current exception
+description: AsposeArgumentOutOfRangeException property. Gets the message that describes the error
 type: docs
 weight: 20
 url: /net/aspose.email/asposeargumentoutofrangeexception/message/
 ---
 ## AsposeArgumentOutOfRangeException.Message property
 
-Gets a message that describes the current exception.
+Gets the message that describes the error.
 
 ```csharp
 public override string Message { get; }

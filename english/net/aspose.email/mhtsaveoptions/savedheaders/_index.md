@@ -1,14 +1,14 @@
 ---
 title: MhtSaveOptions.SavedHeaders
 second_title: Aspose.Email for .NET API Reference
-description: MhtSaveOptions property. Gets list of headers which will be present in saved mhtml content. Default value is empty list
+description: MhtSaveOptions property. Gets the headers of the message that are kept in the MIME headers of the MHTML file the others are dropped. The list is empty by default
 type: docs
 weight: 80
 url: /net/aspose.email/mhtsaveoptions/savedheaders/
 ---
 ## MhtSaveOptions.SavedHeaders property
 
-Gets list of headers which will be present in saved mhtml content. Default value is empty list.
+Gets the headers of the message that are kept in the MIME headers of the MHTML file; the others are dropped. The list is empty by default.
 
 ```csharp
 public List<string> SavedHeaders { get; }

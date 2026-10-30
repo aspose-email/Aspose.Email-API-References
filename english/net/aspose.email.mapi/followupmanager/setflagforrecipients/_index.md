@@ -1,14 +1,14 @@
 ---
 title: FollowUpManager.SetFlagForRecipients
 second_title: Aspose.Email for .NET API Reference
-description: FollowUpManager method. Sets the flag for a draft message to remind recipients to followup
+description: FollowUpManager method. Sets a flag on a draft message that reminds its recipients to follow up
 type: docs
 weight: 140
 url: /net/aspose.email.mapi/followupmanager/setflagforrecipients/
 ---
 ## SetFlagForRecipients(MapiMessageItemBase, string) {#setflagforrecipients}
 
-Sets the flag for a draft message to remind recipients to follow-up.
+Sets a flag on a draft message that reminds its recipients to follow up.
 
 ```csharp
 public static void SetFlagForRecipients(MapiMessageItemBase message, string flagRequest)
@@ -16,16 +16,16 @@ public static void SetFlagForRecipients(MapiMessageItemBase message, string flag
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which a flag will be set. |
-| flagRequest | String | A string indicating the requested action action for recipients of an e-mail message. |
+| message | MapiMessageItemBase | The draft message to flag. |
+| flagRequest | String | The requested action that recipients see with the flag. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | If *message* is null. |
-| ArgumentException | If *flagRequest* is null or empty. |
-| InvalidOperationException | If message is not set on a draft mode. |
+| ArgumentNullException | *message* is `null`. |
+| ArgumentException | *flagRequest* is `null` or empty. |
+| InvalidOperationException | The message is not a draft (it has already been sent). |
 
 ### See Also
 
@@ -38,7 +38,7 @@ public static void SetFlagForRecipients(MapiMessageItemBase message, string flag
 
 ## SetFlagForRecipients(MapiMessageItemBase, string, DateTime) {#setflagforrecipients_1}
 
-Sets the flag for a draft message to remind recipients to follow-up.
+Sets a flag with a reminder on a draft message that reminds its recipients to follow up.
 
 ```csharp
 public static void SetFlagForRecipients(MapiMessageItemBase message, string flagRequest, 
@@ -47,17 +47,17 @@ public static void SetFlagForRecipients(MapiMessageItemBase message, string flag
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which a flag will be set. |
-| flagRequest | String | A string indicating the requested action action for recipients of an e-mail message. |
-| reminderTime | DateTime | A date indicating the date and time at which the reminder should occur. |
+| message | MapiMessageItemBase | The draft message to flag. |
+| flagRequest | String | The requested action that recipients see with the flag. |
+| reminderTime | DateTime | The date and time the recipients are reminded. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | If *message* is null. |
-| ArgumentException | If *flagRequest* is null or empty. |
-| InvalidOperationException | If message is not set on a draft mode. |
+| ArgumentNullException | *message* is `null`. |
+| ArgumentException | *flagRequest* is `null` or empty. |
+| InvalidOperationException | The message is not a draft (it has already been sent). |
 
 ### See Also
 

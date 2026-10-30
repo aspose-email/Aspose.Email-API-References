@@ -3,7 +3,7 @@ title: MapiTask.GetUnderlyingMessage
 second_title: Aspose.Email for .NET API Reference
 description: MapiTask method. Retrieves the underlying MapiMessage object
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.email.mapi/mapitask/getunderlyingmessage/
 ---
 ## MapiTask.GetUnderlyingMessage method

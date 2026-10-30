@@ -28,6 +28,7 @@ public sealed class VCardIdentificationInfo
 | [Birthday](../../aspose.email.personalinfo.vcard/vcardidentificationinfo/birthday/) { get; set; } | Gets or sets a contact's bithday |
 | [DisplayName](../../aspose.email.personalinfo.vcard/vcardidentificationinfo/displayname/) { get; set; } | Gets or sets a contact's display(formatted) name |
 | [FullName](../../aspose.email.personalinfo.vcard/vcardidentificationinfo/fullname/) { get; set; } | Gets or sets a contact's full name |
+| [Gender](../../aspose.email.personalinfo.vcard/vcardidentificationinfo/gender/) { get; set; } | Gets or sets gender of a person. |
 | [Nickname](../../aspose.email.personalinfo.vcard/vcardidentificationinfo/nickname/) { get; set; } | Gets or sets a contact's nickname |
 | [Photo](../../aspose.email.personalinfo.vcard/vcardidentificationinfo/photo/) { get; set; } | Gets or sets a contact's photo |
 

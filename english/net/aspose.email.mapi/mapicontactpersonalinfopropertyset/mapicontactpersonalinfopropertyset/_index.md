@@ -8,7 +8,7 @@ url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/mapicontactperson
 ---
 ## MapiContactPersonalInfoPropertySet() {#constructor}
 
-Initializes a new instance of the [`MapiContactPersonalInfoPropertySet`](../) class
+Initializes a new instance of the [`MapiContactPersonalInfoPropertySet`](../) class.
 
 ```csharp
 public MapiContactPersonalInfoPropertySet()
@@ -24,7 +24,7 @@ public MapiContactPersonalInfoPropertySet()
 
 ## MapiContactPersonalInfoPropertySet(MapiPropertyCollection) {#constructor_1}
 
-Initializes a new instance of the [`MapiContactPersonalInfoPropertySet`](../) class
+Initializes a new instance of the [`MapiContactPersonalInfoPropertySet`](../) class from contact properties.
 
 ```csharp
 public MapiContactPersonalInfoPropertySet(MapiPropertyCollection properties)
@@ -32,7 +32,7 @@ public MapiContactPersonalInfoPropertySet(MapiPropertyCollection properties)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| properties | MapiPropertyCollection | A [`MapiPropertyCollection`](../../mapipropertycollection/) containing contact personal properties |
+| properties | MapiPropertyCollection | The properties that contain the personal details. |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: MapiContactPersonalInfoPropertySet.CustomerId
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactPersonalInfoPropertySet property. Specifies the contacts customer ID number
+description: MapiContactPersonalInfoPropertySet property. Gets or sets the customer ID of the contact
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/customerid/
 ---
 ## MapiContactPersonalInfoPropertySet.CustomerId property
 
-Specifies the contact's customer ID number
+Gets or sets the customer ID of the contact.
 
 ```csharp
 public string CustomerId { get; set; }

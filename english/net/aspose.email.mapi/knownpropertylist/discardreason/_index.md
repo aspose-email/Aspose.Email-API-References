@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.DiscardReason
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_DISCARD_REASON
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_DISCARD_REASON. Property tag 0x00110003 data type Integer32
 type: docs
 weight: 4150
 url: /net/aspose.email.mapi/knownpropertylist/discardreason/
 ---
 ## KnownPropertyList.DiscardReason field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_DISCARD_REASON
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_DISCARD_REASON. Property tag: 0x00110003; data type: Integer32.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DiscardReason;

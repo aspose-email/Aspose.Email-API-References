@@ -1,14 +1,14 @@
 ---
 title: Class ProgressEventHandlerInfo
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.ProgressEventHandlerInfo class. This class represents information about conversion progress that can be used in external applicatuion to show conversion progress to end user
+description: Aspose.Email.ProgressEventHandlerInfo class. Information about the progress of a conversion passed to a ConversionProgressEventHandler
 type: docs
 weight: 18750
 url: /net/aspose.email/progresseventhandlerinfo/
 ---
 ## ProgressEventHandlerInfo class
 
-This class represents information about conversion progress that can be used in external applicatuion to show conversion progress to end user.
+Information about the progress of a conversion, passed to a [`ConversionProgressEventHandler`](../conversionprogresseventhandler/).
 
 ```csharp
 public class ProgressEventHandlerInfo
@@ -24,9 +24,9 @@ public class ProgressEventHandlerInfo
 
 | Name | Description |
 | --- | --- |
-| [EventType](../../aspose.email/progresseventhandlerinfo/eventtype/) { get; set; } | Type of progress event that occured. |
-| [SavedMimePartCount](../../aspose.email/progresseventhandlerinfo/savedmimepartcount/) { get; set; } | Amount of mime parts that were saved. |
-| [TotalMimePartCount](../../aspose.email/progresseventhandlerinfo/totalmimepartcount/) { get; set; } | Total amount of mime parts. |
+| [EventType](../../aspose.email/progresseventhandlerinfo/eventtype/) { get; set; } | Gets or sets the stage of the conversion the event reports. |
+| [SavedMimePartCount](../../aspose.email/progresseventhandlerinfo/savedmimepartcount/) { get; set; } | Gets or sets the number of MIME parts saved so far. |
+| [TotalMimePartCount](../../aspose.email/progresseventhandlerinfo/totalmimepartcount/) { get; set; } | Gets or sets the total number of MIME parts. |
 
 ### See Also
 

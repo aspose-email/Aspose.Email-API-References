@@ -1,14 +1,14 @@
 ---
 title: MapiTaskUsers.Attendees
 second_title: Aspose.Email for .NET API Reference
-description: MapiTaskUsers property. Gets the attendees
+description: MapiTaskUsers property. Gets the users the task is assigned to
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapitaskusers/attendees/
 ---
 ## MapiTaskUsers.Attendees property
 
-Gets the attendees.
+Gets the users the task is assigned to.
 
 ```csharp
 public MapiRecipientCollection Attendees { get; }

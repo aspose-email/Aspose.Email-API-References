@@ -8,7 +8,7 @@ url: /net/aspose.email.mapi/mapicontacteventpropertyset/mapicontacteventproperty
 ---
 ## MapiContactEventPropertySet() {#constructor}
 
-Initializes a new instance of the [`MapiContactEventPropertySet`](../) class
+Initializes a new instance of the [`MapiContactEventPropertySet`](../) class.
 
 ```csharp
 public MapiContactEventPropertySet()
@@ -24,7 +24,7 @@ public MapiContactEventPropertySet()
 
 ## MapiContactEventPropertySet(MapiPropertyCollection) {#constructor_1}
 
-Initializes a new instance of the [`MapiContactEventPropertySet`](../) class
+Initializes a new instance of the [`MapiContactEventPropertySet`](../) class from contact properties.
 
 ```csharp
 public MapiContactEventPropertySet(MapiPropertyCollection properties)
@@ -32,7 +32,7 @@ public MapiContactEventPropertySet(MapiPropertyCollection properties)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| properties | MapiPropertyCollection | A [`MapiPropertyCollection`](../../mapipropertycollection/) containing contact events properties |
+| properties | MapiPropertyCollection | The properties that contain the dates. |
 
 ### See Also
 

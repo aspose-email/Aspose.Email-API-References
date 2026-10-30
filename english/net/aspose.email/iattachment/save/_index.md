@@ -1,14 +1,14 @@
 ---
 title: IAttachment.Save
 second_title: Aspose.Email for .NET API Reference
-description: IAttachment method. Saves attachment to file
+description: IAttachment method. Saves the attachment to a file
 type: docs
 weight: 20
 url: /net/aspose.email/iattachment/save/
 ---
 ## Save(string) {#save_1}
 
-Saves attachment to file
+Saves the attachment to a file.
 
 ```csharp
 public void Save(string fileName)
@@ -16,7 +16,7 @@ public void Save(string fileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | A file name |
+| fileName | String | The path of the file to write. |
 
 ### See Also
 
@@ -28,7 +28,7 @@ public void Save(string fileName)
 
 ## Save(Stream) {#save}
 
-Saves an attachment to stream
+Saves the attachment to a stream.
 
 ```csharp
 public void Save(Stream stream)
@@ -36,7 +36,7 @@ public void Save(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | A stream to save to |
+| stream | Stream | The stream to write to. |
 
 ### See Also
 

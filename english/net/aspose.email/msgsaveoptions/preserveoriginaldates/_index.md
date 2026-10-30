@@ -1,14 +1,14 @@
 ---
 title: MsgSaveOptions.PreserveOriginalDates
 second_title: Aspose.Email for .NET API Reference
-description: MsgSaveOptions property. Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message. By default the value is true meaning the creation and modification dates will be not set to DateTime.Now
+description: MsgSaveOptions property. Gets or sets a value indicating whether the dates of the message are kept. When false the creation and modification dates are set to the time of saving. The default is true
 type: docs
 weight: 20
 url: /net/aspose.email/msgsaveoptions/preserveoriginaldates/
 ---
 ## MsgSaveOptions.PreserveOriginalDates property
 
-Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message. By default the value is true, meaning the creation and modification dates will be not set to DateTime.Now.
+Gets or sets a value indicating whether the dates of the message are kept. When `false`, the creation and modification dates are set to the time of saving. The default is `true`.
 
 ```csharp
 public bool PreserveOriginalDates { get; set; }

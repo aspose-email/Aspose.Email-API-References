@@ -1,14 +1,14 @@
 ---
 title: ItemMovedEventArgs.EntryId
 second_title: Aspose.Email for .NET API Reference
-description: ItemMovedEventArgs property. Gets the string that represents the EntryId of the moved message
+description: ItemMovedEventArgs property. Gets the entry ID of the moved item
 type: docs
 weight: 30
 url: /net/aspose.email.storage.pst/itemmovedeventargs/entryid/
 ---
 ## ItemMovedEventArgs.EntryId property
 
-Gets the string that represents the EntryId of the moved message.
+Gets the entry ID of the moved item.
 
 ```csharp
 public string EntryId { get; }
@@ -16,7 +16,7 @@ public string EntryId { get; }
 
 ### Property Value
 
-The entry id.
+The entry ID.
 
 ### See Also
 

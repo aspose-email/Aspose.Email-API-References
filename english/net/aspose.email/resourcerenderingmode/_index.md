@@ -1,14 +1,14 @@
 ---
 title: Enum ResourceRenderingMode
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.ResourceRenderingMode enum. Provides set various modes of rendering resources in html
+description: Aspose.Email.ResourceRenderingMode enum. Defines how attachments and other resources are rendered into HTML
 type: docs
 weight: 18790
 url: /net/aspose.email/resourcerenderingmode/
 ---
 ## ResourceRenderingMode enumeration
 
-Provides set various modes of rendering resources in html.
+Defines how attachments and other resources are rendered into HTML.
 
 ```csharp
 public enum ResourceRenderingMode
@@ -18,10 +18,10 @@ public enum ResourceRenderingMode
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0` | Not rendering resources in html. |
-| EmbedIntoHtml | `1` | Embeding resources in html as base64 string. |
-| SaveToFile | `2` | Saving resources to file and inserting in html src tag with path to this file. |
-| SubstituteFromFile | `3` | Using custom file as icon and inserting in html src tag with path to this file. |
+| None | `0` | Resources are not rendered. |
+| EmbedIntoHtml | `1` | Resources are embedded into the HTML as Base64 data. |
+| SaveToFile | `2` | Resources are saved to files that the HTML refers to. |
+| SubstituteFromFile | `3` | A file you supply, such as an icon, is used instead of each resource. |
 
 ### See Also
 

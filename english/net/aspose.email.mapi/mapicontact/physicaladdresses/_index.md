@@ -1,14 +1,14 @@
 ---
 title: MapiContact.PhysicalAddresses
 second_title: Aspose.Email for .NET API Reference
-description: MapiContact property. Specify three physical addresses Home Address Work Address and Other Address. One of the addresses can be marked as the Mailing Address
+description: MapiContact property. Gets or sets the postal addresses of the contact home work and other. One of them can be marked as the mailing address
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.email.mapi/mapicontact/physicaladdresses/
 ---
 ## MapiContact.PhysicalAddresses property
 
-Specify three physical addresses: Home Address, Work Address, and Other Address. One of the addresses can be marked as the Mailing Address
+Gets or sets the postal addresses of the contact: home, work and other. One of them can be marked as the mailing address.
 
 ```csharp
 public MapiContactPhysicalAddressPropertySet PhysicalAddresses { get; set; }

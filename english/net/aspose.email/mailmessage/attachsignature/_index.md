@@ -1,14 +1,14 @@
 ---
 title: MailMessage.AttachSignature
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage method. Creates a signed message. Creates a readonly copy of the specified MailMessage and adds a digital signature to it
+description: MailMessage method. Creates a signed copy of the message S/MIME. The copy is readonly
 type: docs
 weight: 400
 url: /net/aspose.email/mailmessage/attachsignature/
 ---
 ## AttachSignature(X509Certificate2, bool) {#attachsignature_3}
 
-Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it.
+Creates a signed copy of the message (S/MIME). The copy is read-only.
 
 ```csharp
 public virtual MailMessage AttachSignature(X509Certificate2 certificate, bool detached)
@@ -16,8 +16,12 @@ public virtual MailMessage AttachSignature(X509Certificate2 certificate, bool de
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| certificate | X509Certificate2 | X.509 certificate. |
-| detached | Boolean | .If detached is true, the signature is detached.If detached is false(the default), the signature is not detached. |
+| certificate | X509Certificate2 | The certificate, with its private key, to sign with. |
+| detached | Boolean | `true` to create a detached signature (`multipart/signed`), which clients that do not support S/MIME can still read; `false` (the default) to embed the message in the signature. |
+
+### Return Value
+
+A signed, read-only copy of the message.
 
 ### See Also
 
@@ -29,7 +33,7 @@ public virtual MailMessage AttachSignature(X509Certificate2 certificate, bool de
 
 ## AttachSignature(CmsSigner, bool) {#attachsignature_1}
 
-Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it.
+Creates a signed copy of the message (S/MIME). The copy is read-only.
 
 ```csharp
 public virtual MailMessage AttachSignature(CmsSigner signer, bool detached)
@@ -37,12 +41,12 @@ public virtual MailMessage AttachSignature(CmsSigner signer, bool detached)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| signer | CmsSigner | System.Security.Cryptography.Pkcs.CmsSigner. |
-| detached | Boolean | .If detached is true, the signature is detached.If detached is false(the default), the signature is not detached. |
+| signer | CmsSigner | The signer, with its certificate and options. |
+| detached | Boolean | `true` to create a detached signature (`multipart/signed`), which clients that do not support S/MIME can still read; `false` (the default) to embed the message in the signature. |
 
 ### Return Value
 
-The signed MailMessage.
+A signed, read-only copy of the message.
 
 ### See Also
 
@@ -54,7 +58,7 @@ The signed MailMessage.
 
 ## AttachSignature(X509Certificate2) {#attachsignature_2}
 
-Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it.
+Creates a signed copy of the message (S/MIME). The copy is read-only.
 
 ```csharp
 public virtual MailMessage AttachSignature(X509Certificate2 certificate)
@@ -62,11 +66,11 @@ public virtual MailMessage AttachSignature(X509Certificate2 certificate)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| certificate | X509Certificate2 | X.509 certificate. |
+| certificate | X509Certificate2 | The certificate, with its private key, to sign with. |
 
 ### Return Value
 
-The signed MailMessage.
+A signed, read-only copy of the message.
 
 ## Examples
 
@@ -100,7 +104,7 @@ Dim signed = msg.AttachSignature(privateCert, True)
 
 ## AttachSignature(CmsSigner) {#attachsignature}
 
-Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it.
+Creates a signed copy of the message (S/MIME). The copy is read-only.
 
 ```csharp
 public virtual MailMessage AttachSignature(CmsSigner signer)
@@ -108,11 +112,11 @@ public virtual MailMessage AttachSignature(CmsSigner signer)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| signer | CmsSigner | System.Security.Cryptography.Pkcs.CmsSigner. |
+| signer | CmsSigner | The signer, with its certificate and options. |
 
 ### Return Value
 
-The signed MailMessage.
+A signed, read-only copy of the message.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: IMessage.To
 second_title: Aspose.Email for .NET API Reference
-description: IMessage property. Gets recipients
+description: IMessage property. Gets the To recipients
 type: docs
 weight: 100
 url: /net/aspose.email/imessage/to/
 ---
 ## IMessage.To property
 
-Gets recipients
+Gets the To recipients.
 
 ```csharp
 public ICollection<MailAddress> To { get; }

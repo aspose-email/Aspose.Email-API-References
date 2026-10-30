@@ -1,14 +1,14 @@
 ---
 title: MhtTemplateName.Subject
 second_title: Aspose.Email for .NET API Reference
-description: MhtTemplateName field. Subject header
+description: MhtTemplateName field. The name of the header with the subject
 type: docs
 weight: 190
 url: /net/aspose.email/mhttemplatename/subject/
 ---
 ## MhtTemplateName.Subject field
 
-Subject header.
+The name of the header with the subject.
 
 ```csharp
 public const string Subject;

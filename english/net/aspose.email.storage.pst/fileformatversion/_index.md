@@ -1,14 +1,14 @@
 ---
 title: Enum FileFormatVersion
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Storage.Pst.FileFormatVersion enum. Represents version of file
+description: Aspose.Email.Storage.Pst.FileFormatVersion enum. Defines the version of a PST file Unicode used by Outlook 2003 and later or ANSI used by earlier versions
 type: docs
 weight: 19100
 url: /net/aspose.email.storage.pst/fileformatversion/
 ---
 ## FileFormatVersion enumeration
 
-Represents version of file.
+Defines the version of a PST file: Unicode, used by Outlook 2003 and later, or ANSI, used by earlier versions.
 
 ```csharp
 public enum FileFormatVersion
@@ -18,8 +18,8 @@ public enum FileFormatVersion
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Unicode | `0` | Unicode file format. |
-| ANSI | `1` | ANSI file format. |
+| Unicode | `0` | Unicode PST. It can be read, created and edited. |
+| ANSI | `1` | ANSI PST. It can be read, but not created or edited. |
 
 ### See Also
 

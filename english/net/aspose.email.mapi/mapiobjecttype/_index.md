@@ -1,14 +1,14 @@
 ---
 title: Enum MapiObjectType
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiObjectType enum. Represents the mapi object type
+description: Aspose.Email.Mapi.MapiObjectType enum. Defines the types of MAPI objects
 type: docs
 weight: 17390
 url: /net/aspose.email.mapi/mapiobjecttype/
 ---
 ## MapiObjectType enumeration
 
-Represents the mapi object type.
+Defines the types of MAPI objects.
 
 ```csharp
 public enum MapiObjectType
@@ -18,19 +18,19 @@ public enum MapiObjectType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| MAPI_ABCONT | `4` | MAPI_ABCONT |
-| MAPI_ADDRBOOK | `2` | MAPI_ADDRBOOK |
-| MAPI_ATTACH | `7` | MAPI_ATTACH |
-| MAPI_DISTLIST | `8` | MAPI_DISTLIST |
-| MAPI_FOLDER | `3` | MAPI_FOLDER |
-| MAPI_FORMINFO | `12` | MAPI_FORMINFO |
-| MAPI_MAILUSER | `6` | MAPI_MAILUSER |
-| MAPI_MESSAGE | `5` | MAPI_MESSAGE |
-| MAPI_PROFSECT | `9` | MAPI_PROFSECT |
-| MAPI_SESSION | `11` | MAPI_SESSION |
-| MAPI_STATUS | `10` | MAPI_STATUS |
-| MAPI_STORE | `1` | MAPI_STORE |
-| None | `0` | No values are set. |
+| MAPI_ABCONT | `4` | An address book container. |
+| MAPI_ADDRBOOK | `2` | An address book. |
+| MAPI_ATTACH | `7` | An attachment. |
+| MAPI_DISTLIST | `8` | A distribution list. |
+| MAPI_FOLDER | `3` | A folder. |
+| MAPI_FORMINFO | `12` | A form. |
+| MAPI_MAILUSER | `6` | A mail user. |
+| MAPI_MESSAGE | `5` | A message. |
+| MAPI_PROFSECT | `9` | A profile section. |
+| MAPI_SESSION | `11` | A session. |
+| MAPI_STATUS | `10` | A status object. |
+| MAPI_STORE | `1` | A message store. |
+| None | `0` | Not set. |
 
 ### See Also
 

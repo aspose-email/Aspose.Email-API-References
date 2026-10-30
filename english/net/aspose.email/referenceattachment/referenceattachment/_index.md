@@ -24,7 +24,7 @@ public ReferenceAttachment()
 
 ## ReferenceAttachment(Uri) {#constructor_2}
 
-Initializes a new instance of [`ReferenceAttachment`](../).
+Initializes a new instance of the [`ReferenceAttachment`](../) class with the URL of the file.
 
 ```csharp
 public ReferenceAttachment(Uri uri)
@@ -32,7 +32,7 @@ public ReferenceAttachment(Uri uri)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uri | Uri | Url |
+| uri | Uri | The URL of the file. |
 
 ### See Also
 
@@ -44,7 +44,7 @@ public ReferenceAttachment(Uri uri)
 
 ## ReferenceAttachment(string) {#constructor_1}
 
-Initializes a new instance of [`ReferenceAttachment`](../).
+Initializes a new instance of the [`ReferenceAttachment`](../) class with the URL of the file.
 
 ```csharp
 public ReferenceAttachment(string uri)
@@ -52,7 +52,7 @@ public ReferenceAttachment(string uri)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uri | String | string Url |
+| uri | String | The URL of the file. |
 
 ### See Also
 

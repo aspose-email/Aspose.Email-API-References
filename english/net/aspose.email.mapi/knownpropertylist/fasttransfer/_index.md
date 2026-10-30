@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.FastTransfer
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_FAST_TRANSFER
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_FAST_TRANSFER. Property tag 0x662F000D data type Object
 type: docs
 weight: 10190
 url: /net/aspose.email.mapi/knownpropertylist/fasttransfer/
 ---
 ## KnownPropertyList.FastTransfer field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_FAST_TRANSFER
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_FAST_TRANSFER. Property tag: 0x662F000D; data type: Object.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FastTransfer;

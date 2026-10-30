@@ -1,14 +1,14 @@
 ---
 title: HeaderType.To
 second_title: Aspose.Email for .NET API Reference
-description: HeaderType property. Primary recipients. Example To someonesomedomain.com
+description: HeaderType property. Gets the To header the primary recipients
 type: docs
 weight: 250
 url: /net/aspose.email/headertype/to/
 ---
 ## HeaderType.To property
 
-Primary recipients. Example: To: someone@somedomain.com
+Gets the `To` header: the primary recipients.
 
 ```csharp
 public static HeaderType To { get; }

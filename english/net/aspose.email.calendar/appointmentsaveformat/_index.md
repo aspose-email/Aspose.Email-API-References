@@ -1,14 +1,14 @@
 ---
 title: Enum AppointmentSaveFormat
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.AppointmentSaveFormat enum. Enumerates AppointmentSaveFormat
+description: Aspose.Email.Calendar.AppointmentSaveFormat enum. Formats an appointment can be saved in
 type: docs
 weight: 530
 url: /net/aspose.email.calendar/appointmentsaveformat/
 ---
 ## AppointmentSaveFormat enumeration
 
-Enumerates AppointmentSaveFormat
+Formats an appointment can be saved in.
 
 ```csharp
 public enum AppointmentSaveFormat
@@ -18,8 +18,8 @@ public enum AppointmentSaveFormat
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Ics | `0` | ICalendar format |
-| Msg | `1` | MSG format. |
+| Ics | `0` | iCalendar (ICS). |
+| Msg | `1` | Outlook message (MSG). |
 
 ### See Also
 

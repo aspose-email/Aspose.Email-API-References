@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.Save
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage method. Saves message as a stream with additional options
+description: MapiMessage method. Saves the message to a stream in the format selected by the options such as MSG OFT EML EMLX HTML or MHTML
 type: docs
 weight: 400
 url: /net/aspose.email.mapi/mapimessage/save/
 ---
 ## Save(Stream, SaveOptions) {#save_1}
 
-Saves message as a stream with additional options.
+Saves the message to a stream in the format selected by the options, such as MSG, OFT, EML, EMLX, HTML or MHTML.
 
 ```csharp
 public void Save(Stream stream, SaveOptions options)
@@ -16,8 +16,8 @@ public void Save(Stream stream, SaveOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Stream into which message is saved. |
-| options | SaveOptions | Additional options for saving[`SaveOptions`](../../../aspose.email/saveoptions/). |
+| stream | Stream | The stream to write to. |
+| options | SaveOptions | The options; their class selects the format. |
 
 ### See Also
 
@@ -30,7 +30,7 @@ public void Save(Stream stream, SaveOptions options)
 
 ## Save(string) {#save_2}
 
-Saves to the specified file as Msg.
+Saves the message to a file in MSG format.
 
 ```csharp
 public void Save(string fileName)
@@ -38,7 +38,7 @@ public void Save(string fileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Name of the file. |
+| fileName | String | The path of the file to write. |
 
 ### See Also
 
@@ -50,7 +50,7 @@ public void Save(string fileName)
 
 ## Save(Stream) {#save}
 
-Saves to the specified stream as Msg.
+Saves the message to a stream in MSG format.
 
 ```csharp
 public void Save(Stream stream)
@@ -58,7 +58,7 @@ public void Save(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The stream. |
+| stream | Stream | The stream to write to. |
 
 ### See Also
 
@@ -70,7 +70,7 @@ public void Save(Stream stream)
 
 ## Save(string, SaveOptions) {#save_3}
 
-Saves message as a file with additional options.
+Saves the message to a file in the format selected by the options, such as MSG, OFT, EML, EMLX, HTML or MHTML.
 
 ```csharp
 public void Save(string fileName, SaveOptions options)
@@ -78,8 +78,8 @@ public void Save(string fileName, SaveOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Stream into which message is saved. |
-| options | SaveOptions | Additional options for saving[`SaveOptions`](../../../aspose.email/saveoptions/). |
+| fileName | String | The path of the file to write. |
+| options | SaveOptions | The options; their class selects the format. |
 
 ### See Also
 
