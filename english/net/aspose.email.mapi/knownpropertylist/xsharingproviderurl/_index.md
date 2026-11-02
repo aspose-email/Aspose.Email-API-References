@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.XSharingProviderUrl
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains the same value as the PidLidSharingProviderUrl property section 2.268. Area Sharing Canonical name PidNameXSharingProviderUrl Alternate names
+description: KnownPropertyList field. Contains the same value as the PidLidSharingProviderUrl property section 2.268. Area Sharing. Canonical name PidNameXSharingProviderUrl
 type: docs
 weight: 19880
 url: /net/aspose.email.mapi/knownpropertylist/xsharingproviderurl/
 ---
 ## KnownPropertyList.XSharingProviderUrl field
 
-Contains the same value as the PidLidSharingProviderUrl property (section 2.268). Area: Sharing Canonical name: PidNameXSharingProviderUrl Alternate names:
+Contains the same value as the PidLidSharingProviderUrl property (section 2.268). Area: Sharing. Canonical name: PidNameXSharingProviderUrl.
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingProviderUrl;

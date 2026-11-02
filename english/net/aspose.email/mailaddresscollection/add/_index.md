@@ -1,14 +1,14 @@
 ---
 title: MailAddressCollection.Add
 second_title: Aspose.Email for .NET API Reference
-description: MailAddressCollection method. Add a MailAddress to the collection
+description: MailAddressCollection method. Adds an address to the collection
 type: docs
 weight: 20
 url: /net/aspose.email/mailaddresscollection/add/
 ---
 ## Add(MailAddress) {#add}
 
-Add a [`MailAddress`](../../mailaddress/) to the collection.
+Adds an address to the collection.
 
 ```csharp
 public void Add(MailAddress address)
@@ -16,7 +16,7 @@ public void Add(MailAddress address)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| address | MailAddress | The [`MailAddress`](../../mailaddress/) |
+| address | MailAddress | The address to add. |
 
 ### See Also
 
@@ -29,7 +29,7 @@ public void Add(MailAddress address)
 
 ## Add(string) {#add_2}
 
-Add a list of e-mail addresses to the collection.
+Adds one or more addresses to the collection.
 
 ```csharp
 public void Add(string addresses)
@@ -37,7 +37,7 @@ public void Add(string addresses)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| addresses | String | An address list. Addresses must be separated with a comma character. |
+| addresses | String | The addresses, separated by commas. |
 
 ### See Also
 

@@ -16,7 +16,7 @@ public int ContentCount { get; }
 
 ### Property Value
 
-The content count.
+The number of items in the folder.
 
 ### See Also
 

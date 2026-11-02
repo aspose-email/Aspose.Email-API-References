@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.PrimaryCapability
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_PRIMARY_CAPABILITY
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_PRIMARY_CAPABILITY. Property tag 0x39040102 data type Binary
 type: docs
 weight: 14650
 url: /net/aspose.email.mapi/knownpropertylist/primarycapability/
 ---
 ## KnownPropertyList.PrimaryCapability field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_PRIMARY_CAPABILITY
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_PRIMARY_CAPABILITY. Property tag: 0x39040102; data type: Binary.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PrimaryCapability;

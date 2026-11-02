@@ -1,14 +1,14 @@
 ---
 title: PropertyDescriptor.DataType
 second_title: Aspose.Email for .NET API Reference
-description: PropertyDescriptor property. The property value type as described in MSOXCDATA that specifies the type of values allowed for the property
+description: PropertyDescriptor property. Gets the data type of the property value
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/propertydescriptor/datatype/
 ---
 ## PropertyDescriptor.DataType property
 
-The property value type, as described in [MS-OXCDATA], that specifies the type of values allowed for the property.
+Gets the data type of the property value.
 
 ```csharp
 public PropertyDataType DataType { get; }

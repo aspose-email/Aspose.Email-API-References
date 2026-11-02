@@ -8,7 +8,7 @@ url: /net/aspose.email.mapi/mapicontact/mapicontact/
 ---
 ## MapiContact() {#constructor}
 
-Initializes a new instance of the [`MapiContact`](../) class
+Initializes a new instance of the [`MapiContact`](../) class.
 
 ```csharp
 public MapiContact()
@@ -24,7 +24,7 @@ public MapiContact()
 
 ## MapiContact(string, string) {#constructor_1}
 
-Initializes a new instance of the [`MapiContact`](../) class.
+Initializes a new instance of the [`MapiContact`](../) class with the specified details.
 
 ```csharp
 public MapiContact(string displayName, string electonicAddress)
@@ -32,8 +32,8 @@ public MapiContact(string displayName, string electonicAddress)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| displayName | String | The display name. |
-| electonicAddress | String | The electonic address. |
+| displayName | String | The full name of the contact. |
+| electonicAddress | String | The e-mail address. |
 
 ### See Also
 
@@ -45,7 +45,7 @@ public MapiContact(string displayName, string electonicAddress)
 
 ## MapiContact(string, string, string) {#constructor_2}
 
-Initializes a new instance of the [`MapiContact`](../) class.
+Initializes a new instance of the [`MapiContact`](../) class with the specified details.
 
 ```csharp
 public MapiContact(string displayName, string electonicAddress, string companyName)
@@ -53,9 +53,9 @@ public MapiContact(string displayName, string electonicAddress, string companyNa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| displayName | String | The display name. |
-| electonicAddress | String | The electonic address. |
-| companyName | String | Name of the company. |
+| displayName | String | The full name of the contact. |
+| electonicAddress | String | The e-mail address. |
+| companyName | String | The name of the company. |
 
 ### See Also
 
@@ -67,7 +67,7 @@ public MapiContact(string displayName, string electonicAddress, string companyNa
 
 ## MapiContact(string, string, string, string) {#constructor_3}
 
-Initializes a new instance of the [`MapiContact`](../) class.
+Initializes a new instance of the [`MapiContact`](../) class with the specified details.
 
 ```csharp
 public MapiContact(string displayName, string electonicAddress, string companyName, 
@@ -76,10 +76,10 @@ public MapiContact(string displayName, string electonicAddress, string companyNa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| displayName | String | The display name. |
-| electonicAddress | String | The electonic address. |
-| companyName | String | Name of the company. |
-| primaryTelephoneNumber | String | The telephone number. |
+| displayName | String | The full name of the contact. |
+| electonicAddress | String | The e-mail address. |
+| companyName | String | The name of the company. |
+| primaryTelephoneNumber | String | The primary telephone number. |
 
 ### See Also
 

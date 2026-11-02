@@ -1,14 +1,14 @@
 ---
 title: PersonalStorageQueryBuilder.MessageClass
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorageQueryBuilder property. Gets messages with an specified message class
+description: PersonalStorageQueryBuilder property. Gets the field to search messages by message class
 type: docs
 weight: 60
 url: /net/aspose.email.storage.pst/personalstoragequerybuilder/messageclass/
 ---
 ## PersonalStorageQueryBuilder.MessageClass property
 
-Gets messages with an specified message class.
+Gets the field to search messages by message class.
 
 ```csharp
 public StringComparisonField MessageClass { get; }

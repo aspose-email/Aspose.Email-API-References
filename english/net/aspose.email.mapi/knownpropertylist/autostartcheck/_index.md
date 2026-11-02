@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AutoStartCheck
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies whether to automatically start the conferencing application when a reminder for the start of a meeting is executed. Area Conferencing Canonical name PidLidAutoStartCheck Alternate names dispidAutoStartCheck
+description: KnownPropertyList field. Specifies whether to automatically start the conferencing application when a reminder for the start of a meeting is executed. Area Conferencing. Canonical name PidLidAutoStartCheck. Alternate names dispidAutoStartCheck
 type: docs
 weight: 2040
 url: /net/aspose.email.mapi/knownpropertylist/autostartcheck/
 ---
 ## KnownPropertyList.AutoStartCheck field
 
-Specifies whether to automatically start the conferencing application when a reminder for the start of a meeting is executed. Area: Conferencing Canonical name: PidLidAutoStartCheck Alternate names: dispidAutoStartCheck
+Specifies whether to automatically start the conferencing application when a reminder for the start of a meeting is executed. Area: Conferencing. Canonical name: PidLidAutoStartCheck. Alternate names: dispidAutoStartCheck.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AutoStartCheck;

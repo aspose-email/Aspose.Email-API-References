@@ -1,14 +1,14 @@
 ---
 title: MapiPropertyContainer.GetPropertyDateTime
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyContainer method. Gets the value of the property specified by tag as DateTime type
+description: MapiPropertyContainer method. Gets the value of a property as a date and time
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapipropertycontainer/getpropertydatetime/
 ---
 ## MapiPropertyContainer.GetPropertyDateTime method
 
-Gets the value of the property specified by tag as DateTime type.
+Gets the value of a property as a date and time.
 
 ```csharp
 public DateTime? GetPropertyDateTime(long key)
@@ -16,11 +16,11 @@ public DateTime? GetPropertyDateTime(long key)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | Int64 | The MAPI property tag. |
+| key | Int64 | The tag of the property. |
 
 ### Return Value
 
-The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+The value, or `null` if the property does not exist.
 
 ### See Also
 

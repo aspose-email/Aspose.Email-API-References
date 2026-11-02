@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.SplitInto
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Splits the pst storage based on criteria
+description: PersonalStorage method. Splits the PST into several files by search criteria
 type: docs
 weight: 380
 url: /net/aspose.email.storage.pst/personalstorage/splitinto/
 ---
 ## SplitInto(IList&lt;MailQuery&gt;, string) {#splitinto_2}
 
-Splits the pst storage based on criteria.
+Splits the PST into several files by search criteria.
 
 ```csharp
 public void SplitInto(IList<MailQuery> criteria, string path)
@@ -16,14 +16,14 @@ public void SplitInto(IList<MailQuery> criteria, string path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| criteria | IList`1 | The collection of [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents criteria of pst splitting. |
-| path | String | The folder path where chunks will be created. |
+| criteria | IList`1 | The search criteria. A separate PST is created for the messages that match each [`MailQuery`](../../../aspose.email.tools.search/mailquery/). |
+| path | String | The folder to create the PST files in. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Throws when the path parameter is null or empty. |
+| ArgumentException | *path* is `null` or empty. |
 
 ### See Also
 
@@ -36,7 +36,7 @@ public void SplitInto(IList<MailQuery> criteria, string path)
 
 ## SplitInto(long, string, string) {#splitinto_1}
 
-Splits the pst storage into less sized parts.
+Splits the PST into files of about the specified size, named with a prefix.
 
 ```csharp
 public void SplitInto(long chunkSize, string partFileNamePrefix, string path)
@@ -44,20 +44,48 @@ public void SplitInto(long chunkSize, string partFileNamePrefix, string path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chunkSize | Int64 | The approximate size of a chunk in bytes. |
-| path | String | The folder path where chunks will be created. |
-| partFileNamePrefix | String | The prefix to be added to the filename of each part of pst. If provided, the prefix will be added to the beginning of each file name. If not provided (null or empty), the pst parts will be created without a prefix. |
+| chunkSize | Int64 | The approximate size of each PST file, in bytes. It must be greater than 271,360 bytes. |
+| path | String | The folder to create the PST files in. |
+| partFileNamePrefix | String | The prefix of the file names. If it is `null` or empty, the files are named without a prefix. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Throws when the path parameter is null or empty. |
-| ArgumentException | Throws when the chunk size is less then the minimum size of pst file. |
+| ArgumentException | *path* is `null` or empty. |
+| ArgumentException | *chunkSize* is not greater than 271,360 bytes, the minimum size of a PST file. |
+| InvalidOperationException | The library runs in evaluation mode and *chunkSize* is greater than 100,000,000 bytes. |
 
 ## Remarks
 
-The pst file names are produced using the following template: {prefix}_part{number}.pst - {prefix}: The filename prefix provided by the partFileNamePrefix parameter. If not provided, this part will be omitted. - {number}: The number of the chunk file.
+The files are named after the template `{prefix}_part{number}.pst`; without a prefix, the `{prefix}` part is left out. `StorageProcessed` is raised after each file is created.
+
+## Examples
+
+This example splits a PST into files of about 50 MB and reports each new file.
+
+[C#]
+
+```csharp
+using (var pst = PersonalStorage.FromFile("archive.pst"))
+{
+    pst.StorageProcessed += (sender, e) => Console.WriteLine($"Created {e.FileName}");
+
+    // Files of about 50 MB, named archive_part{number}.pst
+    pst.SplitInto(50 * 1024 * 1024, "archive", @"C:\Split");
+}
+```
+
+[Visual Basic]
+
+```csharp
+Using pst As PersonalStorage = PersonalStorage.FromFile("archive.pst")
+    AddHandler pst.StorageProcessed, Sub(sender, e) Console.WriteLine($"Created {e.FileName}")
+
+    ' Files of about 50 MB, named archive_part{number}.pst
+    pst.SplitInto(50 * 1024 * 1024, "archive", "C:\Split")
+End Using
+```
 
 ### See Also
 
@@ -69,7 +97,7 @@ The pst file names are produced using the following template: {prefix}_part{numb
 
 ## SplitInto(IList&lt;MailQuery&gt;, string, string) {#splitinto_3}
 
-Splits the pst storage based on criteria.
+Splits the PST into several files by search criteria, named with a prefix.
 
 ```csharp
 public void SplitInto(IList<MailQuery> criteria, string partFileNamePrefix, string path)
@@ -77,19 +105,19 @@ public void SplitInto(IList<MailQuery> criteria, string partFileNamePrefix, stri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| criteria | IList`1 | The collection of [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents criteria of pst splitting. |
-| path | String | The folder path where chunks will be created. |
-| partFileNamePrefix | String | The prefix to be added to the filename of each part of pst. If provided, the prefix will be added to the beginning of each file name. If not provided (null or empty), the pst parts will be created without a prefix. |
+| criteria | IList`1 | The search criteria. A separate PST is created for the messages that match each [`MailQuery`](../../../aspose.email.tools.search/mailquery/). |
+| path | String | The folder to create the PST files in. |
+| partFileNamePrefix | String | The prefix of the file names. If it is `null` or empty, the files are named without a prefix. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Throws when the path parameter is null or empty. |
+| ArgumentException | *path* is `null` or empty. |
 
 ## Remarks
 
-The pst file names are produced using the following template: {prefix}_part{number}.pst - {prefix}: The filename prefix provided by the partFileNamePrefix parameter. If not provided, this part will be omitted. - {number}: The number of the chunk file.
+The files are named after the template `{prefix}_part{number}.pst`; without a prefix, the `{prefix}` part is left out. `StorageProcessed` is raised after each file is created.
 
 ### See Also
 
@@ -102,7 +130,7 @@ The pst file names are produced using the following template: {prefix}_part{numb
 
 ## SplitInto(long, string) {#splitinto}
 
-Splits the pst storage into less sized parts.
+Splits the PST into files of about the specified size.
 
 ```csharp
 public void SplitInto(long chunkSize, string path)
@@ -110,15 +138,16 @@ public void SplitInto(long chunkSize, string path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chunkSize | Int64 | The approximate size of a chunk in bytes. |
-| path | String | The folder path where chunks will be created. |
+| chunkSize | Int64 | The approximate size of each PST file, in bytes. It must be greater than 271,360 bytes. |
+| path | String | The folder to create the PST files in. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Throws when the path parameter is null or empty. |
-| ArgumentException | Throws when the chunk size is less then the minimum size of pst file. |
+| ArgumentException | *path* is `null` or empty. |
+| ArgumentException | *chunkSize* is not greater than 271,360 bytes, the minimum size of a PST file. |
+| InvalidOperationException | The library runs in evaluation mode and *chunkSize* is greater than 100,000,000 bytes. |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: MapiTask.State
 second_title: Aspose.Email for .NET API Reference
-description: MapiTask property. Gets or sets the current assignment state of the Task object
+description: MapiTask property. Gets or sets the assignment state of the task
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.email.mapi/mapitask/state/
 ---
 ## MapiTask.State property
 
-Gets or sets the current assignment state of the Task object.
+Gets or sets the assignment state of the task.
 
 ```csharp
 public MapiTaskState State { get; set; }

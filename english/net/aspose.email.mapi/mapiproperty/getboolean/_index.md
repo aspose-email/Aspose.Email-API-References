@@ -1,14 +1,14 @@
 ---
 title: MapiProperty.GetBoolean
 second_title: Aspose.Email for .NET API Reference
-description: MapiProperty method. Gets the first bytes of the binary data as boolean
+description: MapiProperty method. Gets the value as a Boolean
 type: docs
 weight: 150
 url: /net/aspose.email.mapi/mapiproperty/getboolean/
 ---
 ## MapiProperty.GetBoolean method
 
-Gets the first bytes of the binary data as boolean.
+Gets the value as a Boolean.
 
 ```csharp
 public virtual bool GetBoolean()
@@ -16,7 +16,7 @@ public virtual bool GetBoolean()
 
 ### Return Value
 
-The boolean value.
+The value.
 
 ### See Also
 

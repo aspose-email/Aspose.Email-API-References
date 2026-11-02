@@ -1,14 +1,14 @@
 ---
 title: MapiContactTelephonePropertySet.Home2TelephoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactTelephonePropertySet property. Gets or sets a second home telephone number
+description: MapiContactTelephonePropertySet property. Gets or sets the second home telephone number
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/mapicontacttelephonepropertyset/home2telephonenumber/
 ---
 ## MapiContactTelephonePropertySet.Home2TelephoneNumber property
 
-Gets or sets a second home telephone number
+Gets or sets the second home telephone number.
 
 ```csharp
 public string Home2TelephoneNumber { get; set; }

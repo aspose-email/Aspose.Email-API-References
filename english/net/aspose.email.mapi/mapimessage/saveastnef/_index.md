@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.SaveAsTnef
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage method. Save message in TNEF format
+description: MapiMessage method. Saves the message to a stream in TNEF format the format of winmail.dat
 type: docs
 weight: 410
 url: /net/aspose.email.mapi/mapimessage/saveastnef/
 ---
 ## SaveAsTnef(Stream) {#saveastnef}
 
-Save message in TNEF format.
+Saves the message to a stream in TNEF format (the format of winmail.dat).
 
 ```csharp
 public void SaveAsTnef(Stream stream)
@@ -16,7 +16,7 @@ public void SaveAsTnef(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The stream where a message will be saved to. |
+| stream | Stream | The stream to write to. |
 
 ### See Also
 
@@ -28,7 +28,7 @@ public void SaveAsTnef(Stream stream)
 
 ## SaveAsTnef(string) {#saveastnef_1}
 
-Save message in TNEF format.
+Saves the message to a file in TNEF format (the format of winmail.dat).
 
 ```csharp
 public void SaveAsTnef(string fileName)
@@ -36,7 +36,7 @@ public void SaveAsTnef(string fileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Name of the file where a message will be saved to. |
+| fileName | String | The path of the file to write. |
 
 ### See Also
 

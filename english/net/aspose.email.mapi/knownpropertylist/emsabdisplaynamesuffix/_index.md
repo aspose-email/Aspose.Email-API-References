@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.EmsAbDisplayNameSuffix
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_DISPLAY_NAME_SUFFIX
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_EMS_AB_DISPLAY_NAME_SUFFIX. Property tag 0x8C44001E data type String8
 type: docs
 weight: 5570
 url: /net/aspose.email.mapi/knownpropertylist/emsabdisplaynamesuffix/
 ---
 ## KnownPropertyList.EmsAbDisplayNameSuffix field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_EMS_AB_DISPLAY_NAME_SUFFIX
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_EMS_AB_DISPLAY_NAME_SUFFIX. Property tag: 0x8C44001E; data type: String8.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDisplayNameSuffix;

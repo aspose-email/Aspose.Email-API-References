@@ -1,14 +1,14 @@
 ---
 title: Enum HtmlFormatOptions
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.HtmlFormatOptions enum. Enumerates the Html format options
+description: Aspose.Email.HtmlFormatOptions enum. Defines options for saving a message to HTML. The values can be combined
 type: docs
 weight: 16280
 url: /net/aspose.email/htmlformatoptions/
 ---
 ## HtmlFormatOptions enumeration
 
-Enumerates the Html format options.
+Defines options for saving a message to HTML. The values can be combined.
 
 ```csharp
 [Flags]
@@ -19,18 +19,18 @@ public enum HtmlFormatOptions
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0` | No specific settings are specified. |
-| WriteHeader | `1` | Indicates that header information should be written. |
-| WriteCompleteEmailAddress | `2` | Indicates that complete e-mail address should be written in all email headers. |
-| WriteCompleteToEmailAddress | `4` | Indicates that complete e-mail address should be written in 'To' header. |
-| WriteCompleteFromEmailAddress | `8` | Indicates that complete e-mail address should be written in 'From' header. |
-| WriteCompleteCcEmailAddress | `10` | Indicates that complete e-mail address should be written in 'Cc' header. |
-| WriteCompleteBccEmailAddress | `20` | Indicates that complete e-mail address should be written in 'Bcc' header. |
-| DisplayAsOutlook | `40` | Indicates that From header will be displayed as in Outlook. |
-| RenderCalendarEvent | `80` | Indicates that text from calendar event should be written in output mhtml. |
-| RenderVCardInfo | `100` | Indicates that text from VCard AlternativeView should be written in output html. |
-| RenderTaskFields | `200` | Indicates that the specific Task fields should be written in output html. |
-| PrintFormat | `400` | Indicates that the HTML body should be created in a format suitable for printing. |
+| None | `0` | No options. |
+| WriteHeader | `1` | Write the headers of the message above the body. |
+| WriteCompleteEmailAddress | `2` | Write the full e-mail addresses, not only the display names, in all headers. |
+| WriteCompleteToEmailAddress | `4` | Write the full e-mail address, not only the display name, in the `To` header. |
+| WriteCompleteFromEmailAddress | `8` | Write the full e-mail address, not only the display name, in the `From` header. |
+| WriteCompleteCcEmailAddress | `10` | Write the full e-mail address, not only the display name, in the `Cc` header. |
+| WriteCompleteBccEmailAddress | `20` | Write the full e-mail address, not only the display name, in the `Bcc` header. |
+| DisplayAsOutlook | `40` | Write the `From` header the way Outlook shows it. |
+| RenderCalendarEvent | `80` | Write the details of a calendar event the message carries. |
+| RenderVCardInfo | `100` | Write the details of a vCard the message carries. |
+| RenderTaskFields | `200` | Write the fields of a task. |
+| PrintFormat | `400` | Format the output for printing. |
 
 ### See Also
 

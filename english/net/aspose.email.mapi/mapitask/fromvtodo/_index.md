@@ -1,14 +1,14 @@
 ---
 title: MapiTask.FromVTodo
 second_title: Aspose.Email for .NET API Reference
-description: MapiTask method. Creates an instance of MapiTask from the specified .ics file
+description: MapiTask method. Loads a task from an iCalendar .ics file with a VTODO
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapitask/fromvtodo/
 ---
 ## FromVTodo(string) {#fromvtodo_2}
 
-Creates an instance of MapiTask from the specified .ics file.
+Loads a task from an iCalendar (.ics) file with a VTODO.
 
 ```csharp
 public static MapiTask FromVTodo(string filePath)
@@ -16,11 +16,11 @@ public static MapiTask FromVTodo(string filePath)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | The path to the file to be loaded. |
+| filePath | String | The path of the file. |
 
 ### Return Value
 
-Returns a MapiTask instance which is loaded from the specified file.
+The loaded task.
 
 ### See Also
 
@@ -32,7 +32,7 @@ Returns a MapiTask instance which is loaded from the specified file.
 
 ## FromVTodo(string, bool) {#fromvtodo_3}
 
-Creates an instance of MapiTask from the specified .ics file.
+Loads a task from an iCalendar (.ics) file with a VTODO, optionally detecting the encoding.
 
 ```csharp
 public static MapiTask FromVTodo(string filePath, bool detectEncoding)
@@ -40,12 +40,12 @@ public static MapiTask FromVTodo(string filePath, bool detectEncoding)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | The path to the file to be loaded. |
-| detectEncoding | Boolean | Determines a data encoding by analyzing its byte order mark (BOM) |
+| filePath | String | The path of the file. |
+| detectEncoding | Boolean | `true` to detect the encoding of the data from its byte order mark (BOM). |
 
 ### Return Value
 
-Returns a MapiTask instance which is loaded from the specified file.
+The loaded task.
 
 ### See Also
 
@@ -57,7 +57,7 @@ Returns a MapiTask instance which is loaded from the specified file.
 
 ## FromVTodo(Stream) {#fromvtodo}
 
-Creates an instance of MapiTask from the specified stream.
+Loads a task from a stream that contains an iCalendar VTODO.
 
 ```csharp
 public static MapiTask FromVTodo(Stream stream)
@@ -65,11 +65,11 @@ public static MapiTask FromVTodo(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The stream to be loaded. |
+| stream | Stream | The stream to read. |
 
 ### Return Value
 
-Returns a MapiTask instance which is loaded from the specified stream.
+The loaded task.
 
 ### See Also
 
@@ -81,7 +81,7 @@ Returns a MapiTask instance which is loaded from the specified stream.
 
 ## FromVTodo(Stream, bool) {#fromvtodo_1}
 
-Creates an instance of MapiTask from the specified stream.
+Loads a task from a stream that contains an iCalendar VTODO, optionally detecting the encoding.
 
 ```csharp
 public static MapiTask FromVTodo(Stream stream, bool detectEncoding)
@@ -89,12 +89,12 @@ public static MapiTask FromVTodo(Stream stream, bool detectEncoding)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The stream to be loaded. |
-| detectEncoding | Boolean | Determines a data encoding by analyzing its byte order mark (BOM) |
+| stream | Stream | The stream to read. |
+| detectEncoding | Boolean | `true` to detect the encoding of the data from its byte order mark (BOM). |
 
 ### Return Value
 
-Returns a MapiTask instance which is loaded from the specified stream.
+The loaded task.
 
 ### See Also
 

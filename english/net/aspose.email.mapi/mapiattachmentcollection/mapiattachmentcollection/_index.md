@@ -24,7 +24,7 @@ public MapiAttachmentCollection()
 
 ## MapiAttachmentCollection(MapiMessageItemBase) {#constructor_1}
 
-Initializes a new instance of the MapiAttachmentCollection class.
+Initializes a new instance of the [`MapiAttachmentCollection`](../) class that belongs to the specified item.
 
 ```csharp
 public MapiAttachmentCollection(MapiMessageItemBase owner)
@@ -32,7 +32,7 @@ public MapiAttachmentCollection(MapiMessageItemBase owner)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| owner | MapiMessageItemBase | The owner message. |
+| owner | MapiMessageItemBase | The item the attachments belong to. |
 
 ### See Also
 

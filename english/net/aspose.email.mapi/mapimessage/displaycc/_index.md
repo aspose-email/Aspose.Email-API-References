@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.DisplayCc
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage property. Gets a list of the display names of any carbon copy CC message recipients separated by semicolons 
+description: MapiMessage property. Gets the display names of the CC recipients separated by semicolons 
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapimessage/displaycc/
 ---
 ## MapiMessage.DisplayCc property
 
-Gets a list of the display names of any carbon copy (CC) message recipients, separated by semicolons (;).
+Gets the display names of the CC recipients, separated by semicolons (`;`).
 
 ```csharp
 public string DisplayCc { get; }
@@ -16,7 +16,7 @@ public string DisplayCc { get; }
 
 ### Property Value
 
-The string that represents display cc.
+The display names.
 
 ### See Also
 

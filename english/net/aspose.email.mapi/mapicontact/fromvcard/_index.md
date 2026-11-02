@@ -1,14 +1,14 @@
 ---
 title: MapiContact.FromVCard
 second_title: Aspose.Email for .NET API Reference
-description: MapiContact method. Reads MapiContact from the specified vCard file The supported vCard versions are 2.1 and 3.0
+description: MapiContact method. Loads a contact from a vCard file. vCard versions 2.1 and 3.0 are supported
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicontact/fromvcard/
 ---
 ## FromVCard(string) {#fromvcard_3}
 
-Reads [`MapiContact`](../) from the specified vCard file The supported vCard versions are 2.1 and 3.0
+Loads a contact from a vCard file. vCard versions 2.1 and 3.0 are supported.
 
 ```csharp
 public static MapiContact FromVCard(string filePath)
@@ -16,17 +16,17 @@ public static MapiContact FromVCard(string filePath)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | A file name to read from |
+| filePath | String | The path of the vCard file. |
 
 ### Return Value
 
-A read [`MapiContact`](../)
+The loaded contact.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | *filePath* is `null` or `empty` |
+| ArgumentException | *filePath* is `null` or empty. |
 
 ### See Also
 
@@ -38,7 +38,7 @@ A read [`MapiContact`](../)
 
 ## FromVCard(string, VCardLoadOptions) {#fromvcard_4}
 
-Reads [`MapiContact`](../) from the specified vCard file The supported vCard versions are 2.1 and 3.0
+Loads a contact from a vCard file. vCard versions 2.1 and 3.0 are supported.
 
 ```csharp
 public static MapiContact FromVCard(string filePath, VCardLoadOptions options)
@@ -46,18 +46,18 @@ public static MapiContact FromVCard(string filePath, VCardLoadOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | A file name to read from |
-| options | VCardLoadOptions | Additional options when loading a VCardContact |
+| filePath | String | The path of the vCard file. |
+| options | VCardLoadOptions | Options for loading the vCard. |
 
 ### Return Value
 
-A read [`MapiContact`](../)
+The loaded contact.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | *filePath* is `null` or `empty` |
+| ArgumentException | *filePath* is `null` or empty. |
 
 ### See Also
 
@@ -70,7 +70,7 @@ A read [`MapiContact`](../)
 
 ## FromVCard(Stream) {#fromvcard}
 
-Reads [`MapiContact`](../) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
+Loads a contact from a stream that contains a vCard. vCard versions 2.1 and 3.0 are supported.
 
 ```csharp
 public static MapiContact FromVCard(Stream stream)
@@ -78,18 +78,18 @@ public static MapiContact FromVCard(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | A stream to read from |
+| stream | Stream | The stream to read. |
 
 ### Return Value
 
-A read [`MapiContact`](../)
+The loaded contact.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | *stream* is `null` |
-| NotSupportedException | *stream* does not support reading |
+| ArgumentNullException | *stream* is `null`. |
+| NotSupportedException | *stream* does not support reading. |
 
 ### See Also
 
@@ -101,7 +101,7 @@ A read [`MapiContact`](../)
 
 ## FromVCard(Stream, VCardLoadOptions) {#fromvcard_1}
 
-Reads [`MapiContact`](../) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
+Loads a contact from a stream that contains a vCard. vCard versions 2.1 and 3.0 are supported.
 
 ```csharp
 public static MapiContact FromVCard(Stream stream, VCardLoadOptions options)
@@ -109,19 +109,19 @@ public static MapiContact FromVCard(Stream stream, VCardLoadOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | A stream to read from |
-| options | VCardLoadOptions | Additional options when loading a VCardContact |
+| stream | Stream | The stream to read. |
+| options | VCardLoadOptions | Options for loading the vCard. |
 
 ### Return Value
 
-A read [`MapiContact`](../)
+The loaded contact.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | *stream* is `null` |
-| NotSupportedException | *stream* does not support reading |
+| ArgumentNullException | *stream* is `null`. |
+| NotSupportedException | *stream* does not support reading. |
 
 ### See Also
 

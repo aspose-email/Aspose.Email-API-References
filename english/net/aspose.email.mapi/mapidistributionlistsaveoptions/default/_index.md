@@ -1,14 +1,14 @@
 ---
 title: MapiDistributionListSaveOptions.Default
 second_title: Aspose.Email for .NET API Reference
-description: MapiDistributionListSaveOptions property. Gets the default options
+description: MapiDistributionListSaveOptions property. Gets new options that save to MSG format
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapidistributionlistsaveoptions/default/
 ---
 ## MapiDistributionListSaveOptions.Default property
 
-Gets the default options.
+Gets new options that save to MSG format.
 
 ```csharp
 public static MapiDistributionListSaveOptions Default { get; }
@@ -16,7 +16,7 @@ public static MapiDistributionListSaveOptions Default { get; }
 
 ### Property Value
 
-The [`MapiDistributionListSaveOptions`](../) by default.
+The default options.
 
 ### See Also
 

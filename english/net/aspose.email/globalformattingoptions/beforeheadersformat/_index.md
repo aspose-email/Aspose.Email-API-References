@@ -1,14 +1,14 @@
 ---
 title: GlobalFormattingOptions.BeforeHeadersFormat
 second_title: Aspose.Email for .NET API Reference
-description: GlobalFormattingOptions property. BeforeHeadersFormat for instances of HeadersFormattingOptions if BeforeHeadersFormat is not set
+description: GlobalFormattingOptions property. Gets or sets the default for BeforeHeadersFormat
 type: docs
 weight: 20
 url: /net/aspose.email/globalformattingoptions/beforeheadersformat/
 ---
 ## GlobalFormattingOptions.BeforeHeadersFormat property
 
-BeforeHeadersFormat for instances of HeadersFormattingOptions if BeforeHeadersFormat is not set.
+Gets or sets the default for [`BeforeHeadersFormat`](../../headersformattingoptions/beforeheadersformat/).
 
 ```csharp
 public static string BeforeHeadersFormat { get; set; }

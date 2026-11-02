@@ -1,14 +1,14 @@
 ---
 title: GoogleClientException.ErrorCode
 second_title: Aspose.Email for .NET API Reference
-description: GoogleClientException property. Returns a code of error
+description: GoogleClientException property. Gets the error code returned by the Google service
 type: docs
 weight: 20
 url: /net/aspose.email/googleclientexception/errorcode/
 ---
 ## GoogleClientException.ErrorCode property
 
-Returns a code of error.
+Gets the error code returned by the Google service.
 
 ```csharp
 public int ErrorCode { get; }

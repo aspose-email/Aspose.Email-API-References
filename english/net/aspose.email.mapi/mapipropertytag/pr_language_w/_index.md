@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_LANGUAGE_W
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. The Unicode form of PR_LANGUAGE. Property tag 0x3A0C001F PT_UNICODE
 type: docs
 weight: 13430
 url: /net/aspose.email.mapi/mapipropertytag/pr_language_w/
 ---
 ## MapiPropertyTag.PR_LANGUAGE_W field
+
+The Unicode form of [`PR_LANGUAGE`](../pr_language/). Property tag: 0x3A0C001F (PT_UNICODE).
 
 ```csharp
 public static readonly long PR_LANGUAGE_W;

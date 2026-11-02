@@ -1,14 +1,14 @@
 ---
 title: AttachmentBase.Save
 second_title: Aspose.Email for .NET API Reference
-description: AttachmentBase method. Saves the specified stream
+description: AttachmentBase method. Saves the decoded content of the part to a stream
 type: docs
 weight: 80
 url: /net/aspose.email/attachmentbase/save/
 ---
 ## Save(Stream) {#save}
 
-Saves the specified stream.
+Saves the decoded content of the part to a stream.
 
 ```csharp
 public virtual void Save(Stream stream)
@@ -16,7 +16,7 @@ public virtual void Save(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The stream. |
+| stream | Stream | The stream to write to. |
 
 ### See Also
 
@@ -28,7 +28,7 @@ public virtual void Save(Stream stream)
 
 ## Save(string) {#save_1}
 
-Saves the specified file name.
+Saves the decoded content of the part to a file.
 
 ```csharp
 public virtual void Save(string fileName)
@@ -36,7 +36,7 @@ public virtual void Save(string fileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Name of the file. |
+| fileName | String | The path of the file to write. |
 
 ### See Also
 

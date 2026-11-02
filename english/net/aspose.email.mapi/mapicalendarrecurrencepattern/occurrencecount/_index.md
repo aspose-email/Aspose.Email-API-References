@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarRecurrencePattern.OccurrenceCount
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarRecurrencePattern property. Gets or sets the number of occurrences in a recurrence
+description: MapiCalendarRecurrencePattern property. Gets or sets the number of occurrences used when EndType is EndAfterNOccurrences
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapicalendarrecurrencepattern/occurrencecount/
 ---
 ## MapiCalendarRecurrencePattern.OccurrenceCount property
 
-Gets or sets the number of occurrences in a recurrence.
+Gets or sets the number of occurrences, used when [`EndType`](../endtype/) is `EndAfterNOccurrences`.
 
 ```csharp
 public uint OccurrenceCount { get; set; }

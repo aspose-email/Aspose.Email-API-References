@@ -1,14 +1,14 @@
 ---
 title: HeadersFormattingOptions.DefaultPageHeaderFormat
 second_title: Aspose.Email for .NET API Reference
-description: HeadersFormattingOptions property. Default page header format
+description: HeadersFormattingOptions property. Gets or sets the HTML format of the page header
 type: docs
 weight: 60
 url: /net/aspose.email/headersformattingoptions/defaultpageheaderformat/
 ---
 ## HeadersFormattingOptions.DefaultPageHeaderFormat property
 
-Default page header format.
+Gets or sets the HTML format of the page header.
 
 ```csharp
 public string DefaultPageHeaderFormat { get; set; }
@@ -16,7 +16,7 @@ public string DefaultPageHeaderFormat { get; set; }
 
 ### Property Value
 
-The styles to be injected into resulting html body.
+The format of the page header.
 
 ### See Also
 

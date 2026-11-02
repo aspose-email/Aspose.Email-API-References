@@ -16,11 +16,11 @@ public string Subject { get; set; }
 
 ### Property Value
 
-The string that represents message subject.
+The subject.
 
 ## Remarks
 
-When setting a value, the values of SubjectPrefix(PR_SUBJECT_PREFIX) and NormalizedSubject(PR_NORMALIZED_SUBJECT) properties are updated as well. If Subject has no prefix, the value of SubjectPrefix property is set null. When setting a null value or empty string, the values of Subject, SubjectPrefix, NormalizedSubject properties are set null.
+Setting the subject also sets the subject prefix (such as `RE: `) and the normalized subject (the subject without the prefix). Setting `null` or an empty string clears all three.
 
 ### See Also
 

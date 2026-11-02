@@ -1,14 +1,14 @@
 ---
 title: HeadersFormattingOptions.ExtractHTMLBodyResourcesAsAttachments
 second_title: Aspose.Email for .NET API Reference
-description: HeadersFormattingOptions property. Defines whether extract HTML body resources as attachments or not. Default value is false
+description: HeadersFormattingOptions property. Gets or sets a value indicating whether the resources of the HTML body such as images are also written as attachments. The default is false
 type: docs
 weight: 70
 url: /net/aspose.email/headersformattingoptions/extracthtmlbodyresourcesasattachments/
 ---
 ## HeadersFormattingOptions.ExtractHTMLBodyResourcesAsAttachments property
 
-Defines whether extract HTML body resources as attachments or not. Default value is false.
+Gets or sets a value indicating whether the resources of the HTML body, such as images, are also written as attachments. The default is `false`.
 
 ```csharp
 public bool ExtractHTMLBodyResourcesAsAttachments { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: MapiProperty.GetGuid
 second_title: Aspose.Email for .NET API Reference
-description: MapiProperty method. Gets the bytes of the binary data as Guid
+description: MapiProperty method. Gets the value as a GUID
 type: docs
 weight: 210
 url: /net/aspose.email.mapi/mapiproperty/getguid/
 ---
 ## MapiProperty.GetGuid method
 
-Gets the bytes of the binary data as Guid.
+Gets the value as a GUID.
 
 ```csharp
 public virtual Guid GetGuid()
@@ -16,7 +16,7 @@ public virtual Guid GetGuid()
 
 ### Return Value
 
-The Guid value.
+The value.
 
 ### See Also
 

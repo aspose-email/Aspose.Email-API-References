@@ -1,14 +1,14 @@
 ---
 title: OleDocumentFormat.ToString
 second_title: Aspose.Email for .NET API Reference
-description: OleDocumentFormat method. Overridden. Returns a string representation of this instance
+description: OleDocumentFormat method. Returns the name of the format
 type: docs
 weight: 130
 url: /net/aspose.email.mapi/oledocumentformat/tostring/
 ---
 ## OleDocumentFormat.ToString method
 
-Overridden. Returns a string representation of this instance.
+Returns the name of the format.
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Return Value
 
-A string contains the mail addresse.
+The name of the format.
 
 ### See Also
 

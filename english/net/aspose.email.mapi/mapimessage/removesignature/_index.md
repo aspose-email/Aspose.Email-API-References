@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.RemoveSignature
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage method. Remove signature
+description: MapiMessage method. Returns a copy of a signed message without the signature
 type: docs
 weight: 390
 url: /net/aspose.email.mapi/mapimessage/removesignature/
 ---
 ## MapiMessage.RemoveSignature method
 
-Remove signature.
+Returns a copy of a signed message without the signature.
 
 ```csharp
 public MapiMessage RemoveSignature()
@@ -16,7 +16,7 @@ public MapiMessage RemoveSignature()
 
 ### Return Value
 
-Unsigned MapiMessage message
+The message without the signature.
 
 ### See Also
 

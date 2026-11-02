@@ -1,14 +1,14 @@
 ---
 title: HeaderType.GetHashCode
 second_title: Aspose.Email for .NET API Reference
-description: HeaderType method. Serves as a hash function for a particular type
+description: HeaderType method. Returns the hash code of the header type
 type: docs
 weight: 290
 url: /net/aspose.email/headertype/gethashcode/
 ---
 ## HeaderType.GetHashCode method
 
-Serves as a hash function for a particular type.
+Returns the hash code of the header type.
 
 ```csharp
 public override int GetHashCode()
@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### Return Value
 
-A hash code for the current Object.
+The hash code.
 
 ### See Also
 

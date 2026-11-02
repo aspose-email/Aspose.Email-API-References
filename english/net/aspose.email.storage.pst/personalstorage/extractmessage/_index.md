@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.ExtractMessage
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Get the message from PST
+description: PersonalStorage method. Loads the full message that a MessageInfo describes
 type: docs
 weight: 210
 url: /net/aspose.email.storage.pst/personalstorage/extractmessage/
 ---
 ## ExtractMessage(MessageInfo) {#extractmessage}
 
-Get the message from PST.
+Loads the full message that a [`MessageInfo`](../../messageinfo/) describes.
 
 ```csharp
 public MapiMessage ExtractMessage(MessageInfo messageInfo)
@@ -16,11 +16,17 @@ public MapiMessage ExtractMessage(MessageInfo messageInfo)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| messageInfo | MessageInfo | A MessageInfo object that represents information about message. |
+| messageInfo | MessageInfo | Information about the message, from `FolderInfo.GetContents` or `FolderInfo.EnumerateMessages`. |
 
 ### Return Value
 
-A MapiMessage object.
+The message with its body, recipients and attachments.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | *messageInfo* was not obtained from a [`PersonalStorage`](../). |
 
 ### See Also
 
@@ -34,7 +40,7 @@ A MapiMessage object.
 
 ## ExtractMessage(byte[]) {#extractmessage_1}
 
-Get the message from PST.
+Loads the full message with the specified entry ID.
 
 ```csharp
 public MapiMessage ExtractMessage(byte[] entryId)
@@ -42,11 +48,11 @@ public MapiMessage ExtractMessage(byte[] entryId)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | Byte[] | EntryId of message. |
+| entryId | Byte[] | The entry ID of the message. |
 
 ### Return Value
 
-A MapiMessage object.
+The message with its body, recipients and attachments.
 
 ### See Also
 
@@ -59,7 +65,7 @@ A MapiMessage object.
 
 ## ExtractMessage(string) {#extractmessage_2}
 
-Get the message from PST.
+Loads the full message with the specified entry ID.
 
 ```csharp
 public MapiMessage ExtractMessage(string entryId)
@@ -67,11 +73,11 @@ public MapiMessage ExtractMessage(string entryId)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | String | String representation of EntryId. |
+| entryId | String | The entry ID of the message, as a string. |
 
 ### Return Value
 
-A MapiMessage object.
+The message with its body, recipients and attachments.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: KnownPropertySets.Sharing
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertySets field. Area name Sharing Property set name PSETID_Sharing
+description: KnownPropertySets field. The PSETID_Sharing property set sharing properties
 type: docs
 weight: 160
 url: /net/aspose.email.mapi/knownpropertysets/sharing/
 ---
 ## KnownPropertySets.Sharing field
 
-Area name: Sharing Property set name: PSETID_Sharing
+The `PSETID_Sharing` property set: sharing properties.
 
 ```csharp
 public static readonly Guid Sharing;

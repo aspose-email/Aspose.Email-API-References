@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_RECEIVED_BY_SEARCH_KEY
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. Identifies an address book search key that contains a binarycomparable key that is used to identify correlated objects for a search. Canonical name PidTagReceivedBySearchKey. Property tag 0x00510102 PT_BINARY
 type: docs
 weight: 17790
 url: /net/aspose.email.mapi/mapipropertytag/pr_received_by_search_key/
 ---
 ## MapiPropertyTag.PR_RECEIVED_BY_SEARCH_KEY field
+
+Identifies an address book search key that contains a binary-comparable key that is used to identify correlated objects for a search. Canonical name: PidTagReceivedBySearchKey. Property tag: 0x00510102 (PT_BINARY).
 
 ```csharp
 public static readonly long PR_RECEIVED_BY_SEARCH_KEY;

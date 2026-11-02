@@ -1,14 +1,14 @@
 ---
 title: Class MapiContactProfessionalPropertySet
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiContactProfessionalPropertySet class. Properties are used to store professional details for the person represented by the contact
+description: Aspose.Email.Mapi.MapiContactProfessionalPropertySet class. The professional details of a contact company job title department office manager and assistant
 type: docs
 weight: 17130
 url: /net/aspose.email.mapi/mapicontactprofessionalpropertyset/
 ---
 ## MapiContactProfessionalPropertySet class
 
-Properties are used to store professional details for the person represented by the contact
+The professional details of a contact: company, job title, department, office, manager and assistant.
 
 ```csharp
 public sealed class MapiContactProfessionalPropertySet : MapiContactPropertySet
@@ -19,8 +19,8 @@ public sealed class MapiContactProfessionalPropertySet : MapiContactPropertySet
 | Name | Description |
 | --- | --- |
 | [MapiContactProfessionalPropertySet](mapicontactprofessionalpropertyset/#constructor)() | Initializes a new instance of the `MapiContactProfessionalPropertySet` class. |
-| [MapiContactProfessionalPropertySet](mapicontactprofessionalpropertyset/#constructor_1)(MapiPropertyCollection) | Initializes a new instance of the `MapiContactProfessionalPropertySet` class |
-| [MapiContactProfessionalPropertySet](mapicontactprofessionalpropertyset/#constructor_2)(string, string) | Initializes a new instance of the `MapiContactProfessionalPropertySet` class. |
+| [MapiContactProfessionalPropertySet](mapicontactprofessionalpropertyset/#constructor_1)(MapiPropertyCollection) | Initializes a new instance of the `MapiContactProfessionalPropertySet` class from contact properties. |
+| [MapiContactProfessionalPropertySet](mapicontactprofessionalpropertyset/#constructor_2)(string, string) | Initializes a new instance of the `MapiContactProfessionalPropertySet` class with the company and the job title. |
 
 ## Properties
 

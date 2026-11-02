@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.OMSAccountGuid
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains the GUID of the SMS account used to deliver the message. Area SMS Canonical name PidNameOMSAccountGuid Alternate names
+description: KnownPropertyList field. Contains the GUID of the SMS account used to deliver the message. Area SMS. Canonical name PidNameOMSAccountGuid
 type: docs
 weight: 13450
 url: /net/aspose.email.mapi/knownpropertylist/omsaccountguid/
 ---
 ## KnownPropertyList.OMSAccountGuid field
 
-Contains the GUID of the SMS account used to deliver the message. Area: SMS Canonical name: PidNameOMSAccountGuid Alternate names:
+Contains the GUID of the SMS account used to deliver the message. Area: SMS. Canonical name: PidNameOMSAccountGuid.
 
 ```csharp
 public static readonly PidNamePropertyDescriptor OMSAccountGuid;

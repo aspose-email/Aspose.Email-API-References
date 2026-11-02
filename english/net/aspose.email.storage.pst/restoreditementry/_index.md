@@ -1,14 +1,14 @@
 ---
 title: Class RestoredItemEntry
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Storage.Pst.RestoredItemEntry class. Represents an entry for a softdeleted item in the PST file containing the message and the folder Id it was in
+description: Aspose.Email.Storage.Pst.RestoredItemEntry class. A softdeleted message found in a PST with the folder it was in
 type: docs
 weight: 19310
 url: /net/aspose.email.storage.pst/restoreditementry/
 ---
 ## RestoredItemEntry class
 
-Represents an entry for a soft-deleted item in the PST file, containing the message and the folder Id it was in.
+A soft-deleted message found in a PST, with the folder it was in.
 
 ```csharp
 public class RestoredItemEntry
@@ -18,7 +18,7 @@ public class RestoredItemEntry
 
 | Name | Description |
 | --- | --- |
-| [FolderId](../../aspose.email.storage.pst/restoreditementry/folderid/) { get; } | Gets the folder Id in which the message was originally located. |
+| [FolderId](../../aspose.email.storage.pst/restoreditementry/folderid/) { get; } | Gets the entry ID of the folder the message was in before it was deleted. |
 | [Item](../../aspose.email.storage.pst/restoreditementry/item/) { get; } | Gets the soft-deleted message. |
 
 ### See Also

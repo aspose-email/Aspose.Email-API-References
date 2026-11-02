@@ -1,14 +1,14 @@
 ---
 title: Appointment.GetAppointmentText
 second_title: Aspose.Email for .NET API Reference
-description: Appointment method. Gets the calendar text
+description: Appointment method. Returns the details of the appointment formatted with the specified templates
 type: docs
 weight: 350
 url: /net/aspose.email.calendar/appointment/getappointmenttext/
 ---
 ## GetAppointmentText(AppointmentFormattingOptions) {#getappointmenttext_1}
 
-Gets the calendar text.
+Returns the details of the appointment, formatted with the specified templates.
 
 ```csharp
 public string GetAppointmentText(AppointmentFormattingOptions formattingOptions)
@@ -16,17 +16,17 @@ public string GetAppointmentText(AppointmentFormattingOptions formattingOptions)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| formattingOptions | AppointmentFormattingOptions | [`AppointmentFormattingOptions`](../../appointmentformattingoptions/) that represents appointment formatting options. |
+| formattingOptions | AppointmentFormattingOptions | The templates to format the details with. Use `AppointmentFormattingOptions.CreateAsHtml` to get HTML. |
 
 ### Return Value
 
-The text representation of appointment.
+The title, organizer, start and end time, time zone, location and description of the appointment.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | throws when *formattingOptions* is `null`. |
+| ArgumentNullException | *formattingOptions* is `null`. |
 
 ### See Also
 
@@ -39,7 +39,7 @@ The text representation of appointment.
 
 ## GetAppointmentText() {#getappointmenttext}
 
-Gets the calendar text.
+Returns the details of the appointment as plain text.
 
 ```csharp
 public string GetAppointmentText()
@@ -47,7 +47,7 @@ public string GetAppointmentText()
 
 ### Return Value
 
-String value of calendar as plain text.
+The title, organizer, start and end time, time zone, location and description of the appointment, formatted with the default plain-text templates.
 
 ### See Also
 

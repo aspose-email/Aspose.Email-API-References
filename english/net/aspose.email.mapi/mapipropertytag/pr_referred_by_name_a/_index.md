@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_REFERRED_BY_NAME_A
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. The ANSI form of PR_REFERRED_BY_NAME. Property tag 0x3A47001E PT_STRING8
 type: docs
 weight: 18000
 url: /net/aspose.email.mapi/mapipropertytag/pr_referred_by_name_a/
 ---
 ## MapiPropertyTag.PR_REFERRED_BY_NAME_A field
+
+The ANSI form of [`PR_REFERRED_BY_NAME`](../pr_referred_by_name/). Property tag: 0x3A47001E (PT_STRING8).
 
 ```csharp
 public static readonly long PR_REFERRED_BY_NAME_A;

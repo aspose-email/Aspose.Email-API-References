@@ -1,14 +1,14 @@
 ---
 title: Class AlternateViewRemovedEventArgs
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.AlternateViewRemovedEventArgs class. Provides data for the AlternateViewRemoved event
+description: Aspose.Email.AlternateViewRemovedEventArgs class. Provides data for the event raised when an alternate view is removed from a message
 type: docs
 weight: 30
 url: /net/aspose.email/alternateviewremovedeventargs/
 ---
 ## AlternateViewRemovedEventArgs class
 
-Provides data for the AlternateViewRemoved event.
+Provides data for the event raised when an alternate view is removed from a message.
 
 ```csharp
 public class AlternateViewRemovedEventArgs : EventArgs
@@ -24,7 +24,7 @@ public class AlternateViewRemovedEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [AlternateView](../../aspose.email/alternateviewremovedeventargs/alternateview/) { get; } | Get the AlternateView that has been removed. |
+| [AlternateView](../../aspose.email/alternateviewremovedeventargs/alternateview/) { get; } | Gets the view that was removed. |
 
 ### See Also
 

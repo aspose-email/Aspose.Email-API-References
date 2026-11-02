@@ -1,14 +1,14 @@
 ---
 title: Class MapiCalendarTimeZoneInfo
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendarTimeZoneInfo class. Represents the mapi calendar time zone rule
+description: Aspose.Email.Mapi.MapiCalendarTimeZoneInfo class. A rule of a time zone its offsets and when daylight saving time begins and ends
 type: docs
 weight: 16940
 url: /net/aspose.email.mapi/mapicalendartimezoneinfo/
 ---
 ## MapiCalendarTimeZoneInfo class
 
-Represents the mapi calendar time zone rule
+A rule of a time zone: its offsets and when daylight saving time begins and ends.
 
 ```csharp
 public sealed class MapiCalendarTimeZoneInfo
@@ -24,13 +24,13 @@ public sealed class MapiCalendarTimeZoneInfo
 
 | Name | Description |
 | --- | --- |
-| [Bias](../../aspose.email.mapi/mapicalendartimezoneinfo/bias/) { get; set; } | Gets or sets the time zone's offset in minutes from UTC. |
-| [DaylightBias](../../aspose.email.mapi/mapicalendartimezoneinfo/daylightbias/) { get; set; } | Gets or sets offset in minutes from lBias during daylight saving time. |
-| [DaylightDate](../../aspose.email.mapi/mapicalendartimezoneinfo/daylightdate/) { get; set; } | Gets or sets the date and local time that indicate when to begin using the DaylightBias. |
-| [StandardBias](../../aspose.email.mapi/mapicalendartimezoneinfo/standardbias/) { get; set; } | Gets or sets the offset in minutes from lBias during standard time. |
-| [StandardDate](../../aspose.email.mapi/mapicalendartimezoneinfo/standarddate/) { get; set; } | Gets or sets the date and local time that indicate when to begin using the StandardBias. |
-| [TimeZoneFlags](../../aspose.email.mapi/mapicalendartimezoneinfo/timezoneflags/) { get; set; } | Gets or sets individual bit flags that specify information about this TimeZoneRule |
-| [Year](../../aspose.email.mapi/mapicalendartimezoneinfo/year/) { get; set; } | Gets or sets the year in which this rule is scheduled to take effect. |
+| [Bias](../../aspose.email.mapi/mapicalendartimezoneinfo/bias/) { get; set; } | Gets or sets the offset of the time zone from UTC, in minutes. |
+| [DaylightBias](../../aspose.email.mapi/mapicalendartimezoneinfo/daylightbias/) { get; set; } | Gets or sets the offset during daylight saving time, in minutes, added to [`Bias`](./bias/). |
+| [DaylightDate](../../aspose.email.mapi/mapicalendartimezoneinfo/daylightdate/) { get; set; } | Gets or sets when daylight saving time begins. |
+| [StandardBias](../../aspose.email.mapi/mapicalendartimezoneinfo/standardbias/) { get; set; } | Gets or sets the offset during standard time, in minutes, added to [`Bias`](./bias/). |
+| [StandardDate](../../aspose.email.mapi/mapicalendartimezoneinfo/standarddate/) { get; set; } | Gets or sets when standard time begins. |
+| [TimeZoneFlags](../../aspose.email.mapi/mapicalendartimezoneinfo/timezoneflags/) { get; set; } | Gets or sets the flags of the rule. |
+| [Year](../../aspose.email.mapi/mapicalendartimezoneinfo/year/) { get; set; } | Gets or sets the year from which the rule applies. |
 
 ### See Also
 

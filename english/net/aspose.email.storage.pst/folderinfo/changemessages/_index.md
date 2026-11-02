@@ -1,14 +1,14 @@
 ---
 title: FolderInfo.ChangeMessages
 second_title: Aspose.Email for .NET API Reference
-description: FolderInfo method. Changes the messages in folder
+description: FolderInfo method. Sets the specified properties on the given messages of the folder
 type: docs
 weight: 200
 url: /net/aspose.email.storage.pst/folderinfo/changemessages/
 ---
 ## ChangeMessages(IEnumerable&lt;string&gt;, MapiPropertyCollection) {#changemessages_1}
 
-Changes the messages in folder.
+Sets the specified properties on the given messages of the folder.
 
 ```csharp
 public void ChangeMessages(IEnumerable<string> entryIdCollection, 
@@ -17,16 +17,18 @@ public void ChangeMessages(IEnumerable<string> entryIdCollection,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryIdCollection | IEnumerable`1 | The entry identifier collection. |
-| updatedProperties | MapiPropertyCollection | The updated properties. |
+| entryIdCollection | IEnumerable`1 | The entry IDs of the messages to change. |
+| updatedProperties | MapiPropertyCollection | The properties to set. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | The ANSI file version editing is not implemented. |
-| InvalidOperationException | The PST is open for reading only. or The entryId is incorrect. |
-| ArgumentNullException | entryIdCollection;The collection of entry ids cannot be null. or updatedProperties;The collection of properties cannot be null. |
+| NotImplementedException | The PST is in the ANSI format, which cannot be edited. |
+| InvalidOperationException | The PST is open for reading only. |
+| ArgumentNullException | *entryIdCollection* is `null`. |
+| ArgumentNullException | *updatedProperties* is `null`. |
+| InvalidOperationException | An entry ID in *entryIdCollection* is not valid. |
 
 ### See Also
 
@@ -39,7 +41,7 @@ public void ChangeMessages(IEnumerable<string> entryIdCollection,
 
 ## ChangeMessages(MapiPropertyCollection) {#changemessages}
 
-Changes all messages in folder.
+Sets the specified properties on all messages of the folder.
 
 ```csharp
 public void ChangeMessages(MapiPropertyCollection updatedProperties)
@@ -47,15 +49,15 @@ public void ChangeMessages(MapiPropertyCollection updatedProperties)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| updatedProperties | MapiPropertyCollection | The updated properties. |
+| updatedProperties | MapiPropertyCollection | The properties to set. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | The ANSI file version editing is not implemented. |
-| InvalidOperationException | The PST is open for reading only. or The entryId is incorrect. |
-| ArgumentNullException | entryIdCollection;The collection of entry ids cannot be null. or updatedProperties;The collection of properties cannot be null. |
+| NotImplementedException | The PST is in the ANSI format, which cannot be edited. |
+| InvalidOperationException | The PST is open for reading only. |
+| ArgumentNullException | *updatedProperties* is `null`. |
 
 ### See Also
 

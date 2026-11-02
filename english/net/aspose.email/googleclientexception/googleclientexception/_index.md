@@ -1,14 +1,14 @@
 ---
 title: GoogleClientException.GoogleClientException
 second_title: Aspose.Email for .NET API Reference
-description: GoogleClientException constructor. Initializes a new instance of the GoogleClientException class with a specified error message
+description: GoogleClientException constructor. Initializes a new instance of the GoogleClientException class with the specified error message
 type: docs
 weight: 10
 url: /net/aspose.email/googleclientexception/googleclientexception/
 ---
 ## GoogleClientException(string) {#constructor_2}
 
-Initializes a new instance of the [`GoogleClientException`](../) class with a specified error message.
+Initializes a new instance of the [`GoogleClientException`](../) class with the specified error message.
 
 ```csharp
 public GoogleClientException(string message)
@@ -16,7 +16,7 @@ public GoogleClientException(string message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | A message that describes the error. |
+| message | String | The message that describes the error. |
 
 ### See Also
 
@@ -44,7 +44,7 @@ public GoogleClientException()
 
 ## GoogleClientException(string, Exception) {#constructor_3}
 
-Initializes a new instance of the [`GoogleClientException`](../) class with a specified error message and a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [`GoogleClientException`](../) class with the specified error message and a reference to the exception that caused it.
 
 ```csharp
 public GoogleClientException(string message, Exception innerException)
@@ -52,8 +52,8 @@ public GoogleClientException(string message, Exception innerException)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | The error message that explains the reason for the exception. |
-| innerException | Exception | The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. |
+| message | String | The message that describes the error. |
+| innerException | Exception | The exception that caused this exception, or `null`. |
 
 ### See Also
 
@@ -65,7 +65,7 @@ public GoogleClientException(string message, Exception innerException)
 
 ## GoogleClientException(Exception) {#constructor_1}
 
-Initializes a new instance of the [`GoogleClientException`](../) class with a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [`GoogleClientException`](../) class with a reference to the exception that caused it.
 
 ```csharp
 public GoogleClientException(Exception innerException)
@@ -73,7 +73,7 @@ public GoogleClientException(Exception innerException)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| innerException | Exception | The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. |
+| innerException | Exception | The exception that caused this exception, or `null`. |
 
 ### See Also
 

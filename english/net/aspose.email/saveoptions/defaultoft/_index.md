@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.DefaultOft
 second_title: Aspose.Email for .NET API Reference
-description: SaveOptions property. Gets options with default values for saving message to Outlook template Oft format
+description: SaveOptions property. Gets new options with the default settings for saving to Outlook template OFT
 type: docs
 weight: 100
 url: /net/aspose.email/saveoptions/defaultoft/
 ---
 ## SaveOptions.DefaultOft property
 
-Gets options with default values for saving message to Outlook template (Oft) format.
+Gets new options with the default settings for saving to Outlook template (OFT).
 
 ```csharp
 public static MsgSaveOptions DefaultOft { get; }

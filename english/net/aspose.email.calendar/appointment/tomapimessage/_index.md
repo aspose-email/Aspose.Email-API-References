@@ -1,18 +1,22 @@
 ---
 title: Appointment.ToMapiMessage
 second_title: Aspose.Email for .NET API Reference
-description: Appointment method. onverts ICalendar item .ics to MAPI .msg message
+description: Appointment method. Converts the appointment to an Outlook message which can then be saved as an .msg file
 type: docs
 weight: 410
 url: /net/aspose.email.calendar/appointment/tomapimessage/
 ---
 ## Appointment.ToMapiMessage method
 
-�onverts ICalendar item (.ics) to MAPI (.msg) message.
+Converts the appointment to an Outlook message, which can then be saved as an .msg file.
 
 ```csharp
 public MapiMessage ToMapiMessage()
 ```
+
+### Return Value
+
+A [`MapiMessage`](../../../aspose.email.mapi/mapimessage/) that represents the appointment.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AppointmentProposedEndWhole
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies the proposed value for the PidLidAppointmentEndWhole property section 2.14 for a counter proposal. Area Meetings Canonical name PidLidAppointmentProposedEndWhole Alternate names dispidApptProposedEndWhole
+description: KnownPropertyList field. Specifies the proposed value for the PidLidAppointmentEndWhole property section 2.14 for a counter proposal. Area Meetings. Canonical name PidLidAppointmentProposedEndWhole. Alternate names dispidApptProposedEndWhole
 type: docs
 weight: 1230
 url: /net/aspose.email.mapi/knownpropertylist/appointmentproposedendwhole/
 ---
 ## KnownPropertyList.AppointmentProposedEndWhole field
 
-Specifies the proposed value for the PidLidAppointmentEndWhole property (section 2.14) for a counter proposal. Area: Meetings Canonical name: PidLidAppointmentProposedEndWhole Alternate names: dispidApptProposedEndWhole
+Specifies the proposed value for the PidLidAppointmentEndWhole property (section 2.14) for a counter proposal. Area: Meetings. Canonical name: PidLidAppointmentProposedEndWhole. Alternate names: dispidApptProposedEndWhole.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentProposedEndWhole;

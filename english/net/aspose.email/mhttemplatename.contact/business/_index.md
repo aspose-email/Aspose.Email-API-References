@@ -1,14 +1,14 @@
 ---
 title: MhtTemplateName.Contact.Business
 second_title: Aspose.Email for .NET API Reference
-description: Contact field. Business phone header
+description: Contact field. The name of the business telephone field
 type: docs
 weight: 30
 url: /net/aspose.email/mhttemplatename.contact/business/
 ---
 ## MhtTemplateName.Contact.Business field
 
-Business phone header.
+The name of the business telephone field.
 
 ```csharp
 public const string Business;

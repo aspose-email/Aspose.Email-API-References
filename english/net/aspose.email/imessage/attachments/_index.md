@@ -1,14 +1,14 @@
 ---
 title: IMessage.Attachments
 second_title: Aspose.Email for .NET API Reference
-description: IMessage property. Gets message attachments
+description: IMessage property. Gets the attachments of the message
 type: docs
 weight: 10
 url: /net/aspose.email/imessage/attachments/
 ---
 ## IMessage.Attachments property
 
-Gets message attachments
+Gets the attachments of the message.
 
 ```csharp
 public ICollection<Attachment> Attachments { get; }

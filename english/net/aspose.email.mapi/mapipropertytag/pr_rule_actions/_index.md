@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_RULE_ACTIONS
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. Contains the set of actions associated with the rule. Canonical name PidTagRuleActions. Property tag 0x668000FE PT_ACTIONS
 type: docs
 weight: 18720
 url: /net/aspose.email.mapi/mapipropertytag/pr_rule_actions/
 ---
 ## MapiPropertyTag.PR_RULE_ACTIONS field
+
+Contains the set of actions associated with the rule. Canonical name: PidTagRuleActions. Property tag: 0x668000FE (PT_ACTIONS).
 
 ```csharp
 public static readonly long PR_RULE_ACTIONS;

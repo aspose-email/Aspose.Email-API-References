@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.DelegatedByRule
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies whether the message was forwarded due to the triggering of a delegate forward rule. Area MapiStatus Canonical name PidTagDelegatedByRule Alternate names PR_DELEGATED_BY_RULE
+description: KnownPropertyList field. Specifies whether the message was forwarded due to the triggering of a delegate forward rule. Area MapiStatus. Canonical name PidTagDelegatedByRule. Alternate names PR_DELEGATED_BY_RULE
 type: docs
 weight: 3900
 url: /net/aspose.email.mapi/knownpropertylist/delegatedbyrule/
 ---
 ## KnownPropertyList.DelegatedByRule field
 
-Specifies whether the message was forwarded due to the triggering of a delegate forward rule. Area: MapiStatus Canonical name: PidTagDelegatedByRule Alternate names: PR_DELEGATED_BY_RULE
+Specifies whether the message was forwarded due to the triggering of a delegate forward rule. Area: MapiStatus. Canonical name: PidTagDelegatedByRule. Alternate names: PR_DELEGATED_BY_RULE.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DelegatedByRule;

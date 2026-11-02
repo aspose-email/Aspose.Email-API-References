@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.RulesTable
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_RULES_TABLE
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_RULES_TABLE. Property tag 0x3FE1000D data type Object
 type: docs
 weight: 16720
 url: /net/aspose.email.mapi/knownpropertylist/rulestable/
 ---
 ## KnownPropertyList.RulesTable field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_RULES_TABLE
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_RULES_TABLE. Property tag: 0x3FE1000D; data type: Object.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RulesTable;

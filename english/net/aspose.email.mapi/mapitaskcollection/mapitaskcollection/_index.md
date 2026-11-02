@@ -24,7 +24,7 @@ public MapiTaskCollection()
 
 ## MapiTaskCollection(IEnumerable&lt;MapiTask&gt;) {#constructor_1}
 
-Initializes a new instance of the [`MapiTaskCollection`](../) class.
+Initializes a new instance of the [`MapiTaskCollection`](../) class with the specified items.
 
 ```csharp
 public MapiTaskCollection(IEnumerable<MapiTask> collection)
@@ -32,7 +32,7 @@ public MapiTaskCollection(IEnumerable<MapiTask> collection)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| collection | IEnumerable`1 | Initial items of collection |
+| collection | IEnumerable`1 | The items to add. |
 
 ### See Also
 

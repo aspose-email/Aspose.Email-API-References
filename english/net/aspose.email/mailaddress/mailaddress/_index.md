@@ -16,8 +16,8 @@ public MailAddress(string address, bool ignoreSmtpCheck)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| address | String | The mail address. |
-| ignoreSmtpCheck | Boolean | if set to `true` then SMTP check will be omitted. |
+| address | String | The e-mail address, optionally with a display name, such as `John Smith <john@example.com>`. |
+| ignoreSmtpCheck | Boolean | `true` to skip the check that the address is a valid SMTP address. |
 
 ### See Also
 
@@ -37,9 +37,9 @@ public MailAddress(string address, string displayName, bool ignoreSmtpCheck)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| address | String | The mail address. |
+| address | String | The e-mail address. |
 | displayName | String | The display name. |
-| ignoreSmtpCheck | Boolean | if set to `true` then SMTP check will be omitted. |
+| ignoreSmtpCheck | Boolean | `true` to skip the check that the address is a valid SMTP address. |
 
 ### See Also
 
@@ -59,9 +59,9 @@ public MailAddress(string address, string displayName, Encoding displayNameEncod
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| address | String | The mail address. |
+| address | String | The e-mail address. |
 | displayName | String | The display name. |
-| displayNameEncoding | Encoding | The display name encoding. |
+| displayNameEncoding | Encoding | The encoding of the display name in the headers. |
 
 ### See Also
 
@@ -82,10 +82,10 @@ public MailAddress(string address, string displayName, Encoding displayNameEncod
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| address | String | The mail address. |
+| address | String | The e-mail address. |
 | displayName | String | The display name. |
-| displayNameEncoding | Encoding | The display name encoding. |
-| ignoreSmtpCheck | Boolean | if set to `true` then SMTP check will be omitted. |
+| displayNameEncoding | Encoding | The encoding of the display name in the headers. |
+| ignoreSmtpCheck | Boolean | `true` to skip the check that the address is a valid SMTP address. |
 
 ### See Also
 
@@ -105,7 +105,7 @@ public MailAddress(string address)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| address | String | The mail address. |
+| address | String | The e-mail address, optionally with a display name, such as `John Smith <john@example.com>`. |
 
 ### See Also
 
@@ -125,7 +125,7 @@ public MailAddress(string address, string displayName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| address | String | The mail address. |
+| address | String | The e-mail address. |
 | displayName | String | The display name. |
 
 ### See Also

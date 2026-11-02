@@ -1,14 +1,14 @@
 ---
 title: FolderCreationOptions.FolderCreationOptions
 second_title: Aspose.Email for .NET API Reference
-description: FolderCreationOptions constructor. Initializes a new instance of the FolderCreationOptions class with default values
+description: FolderCreationOptions constructor. Initializes a new instance of the FolderCreationOptions class with the default settings the name is not a path names are compared caseinsensitively and the container class is IPF.Note
 type: docs
 weight: 10
 url: /net/aspose.email.storage.pst/foldercreationoptions/foldercreationoptions/
 ---
 ## FolderCreationOptions() {#constructor}
 
-Initializes a new instance of the [`FolderCreationOptions`](../) class with default values.
+Initializes a new instance of the [`FolderCreationOptions`](../) class with the default settings: the name is not a path, names are compared case-insensitively, and the container class is `IPF.Note`.
 
 ```csharp
 public FolderCreationOptions()

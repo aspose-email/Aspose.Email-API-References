@@ -1,14 +1,14 @@
 ---
 title: IMapiMessageItem.MessageClass
 second_title: Aspose.Email for .NET API Reference
-description: IMapiMessageItem property. Gets message class
+description: IMapiMessageItem property. Gets the message class of the item such as IPM.Note or IPM.Contact
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/imapimessageitem/messageclass/
 ---
 ## IMapiMessageItem.MessageClass property
 
-Gets message class
+Gets the message class of the item, such as `IPM.Note` or `IPM.Contact`.
 
 ```csharp
 public string MessageClass { get; }

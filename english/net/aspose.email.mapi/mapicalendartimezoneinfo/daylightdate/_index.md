@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarTimeZoneInfo.DaylightDate
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarTimeZoneInfo property. Gets or sets the date and local time that indicate when to begin using the DaylightBias
+description: MapiCalendarTimeZoneInfo property. Gets or sets when daylight saving time begins
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicalendartimezoneinfo/daylightdate/
 ---
 ## MapiCalendarTimeZoneInfo.DaylightDate property
 
-Gets or sets the date and local time that indicate when to begin using the DaylightBias.
+Gets or sets when daylight saving time begins.
 
 ```csharp
 public MapiCalendarTimeZoneRule DaylightDate { get; set; }

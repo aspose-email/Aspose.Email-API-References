@@ -8,7 +8,7 @@ url: /net/aspose.email.mapi/mapicontactnamepropertyset/middlename/
 ---
 ## MapiContactNamePropertySet.MiddleName property
 
-Gets or sets the middle name of the contact
+Gets or sets the middle name of the contact.
 
 ```csharp
 public string MiddleName { get; set; }

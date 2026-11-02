@@ -1,14 +1,14 @@
 ---
 title: LinkedResource.ContentDisposition
 second_title: Aspose.Email for .NET API Reference
-description: LinkedResource property. Gets ContentDisposition header
+description: LinkedResource property. Gets the ContentDisposition header of the resource
 type: docs
 weight: 30
 url: /net/aspose.email/linkedresource/contentdisposition/
 ---
 ## LinkedResource.ContentDisposition property
 
-Gets Content-Disposition header
+Gets the `Content-Disposition` header of the resource.
 
 ```csharp
 public ContentDisposition ContentDisposition { get; }

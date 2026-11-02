@@ -8,7 +8,7 @@ url: /net/aspose.email.mapi/mapicalendarattendees/mapicalendarattendees/
 ---
 ## MapiCalendarAttendees constructor
 
-Initializes a new instance of the [`MapiCalendarAttendees`](../) class
+Initializes a new instance of the [`MapiCalendarAttendees`](../) class.
 
 ```csharp
 public MapiCalendarAttendees()

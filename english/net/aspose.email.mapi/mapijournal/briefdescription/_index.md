@@ -1,14 +1,14 @@
 ---
 title: MapiJournal.BriefDescription
 second_title: Aspose.Email for .NET API Reference
-description: MapiJournal property. Gets or sets the brief description of activity that is being recorded
+description: MapiJournal property. Gets or sets a brief description of the recorded activity such as Phone call
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.email.mapi/mapijournal/briefdescription/
 ---
 ## MapiJournal.BriefDescription property
 
-Gets or sets the brief description of activity that is being recorded.
+Gets or sets a brief description of the recorded activity, such as `Phone call`.
 
 ```csharp
 public string BriefDescription { get; set; }
@@ -16,7 +16,7 @@ public string BriefDescription { get; set; }
 
 ### Property Value
 
-The string that represents activity.
+The brief description.
 
 ### See Also
 

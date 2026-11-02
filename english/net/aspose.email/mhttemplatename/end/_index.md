@@ -1,14 +1,14 @@
 ---
 title: MhtTemplateName.End
 second_title: Aspose.Email for .NET API Reference
-description: MhtTemplateName field. End header
+description: MhtTemplateName field. The name of the header with the end of an event
 type: docs
 weight: 60
 url: /net/aspose.email/mhttemplatename/end/
 ---
 ## MhtTemplateName.End field
 
-End header.
+The name of the header with the end of an event.
 
 ```csharp
 public const string End;

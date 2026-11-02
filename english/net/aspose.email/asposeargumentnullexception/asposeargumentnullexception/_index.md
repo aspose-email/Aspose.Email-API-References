@@ -24,7 +24,7 @@ public AsposeArgumentNullException()
 
 ## AsposeArgumentNullException(string) {#constructor_2}
 
-Initializes a new instance of the [`AsposeArgumentNullException`](../) class with a specified error message.
+Initializes a new instance of the [`AsposeArgumentNullException`](../) class with the specified error message.
 
 ```csharp
 public AsposeArgumentNullException(string message)
@@ -44,7 +44,7 @@ public AsposeArgumentNullException(string message)
 
 ## AsposeArgumentNullException(string, string) {#constructor_5}
 
-Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception/) class with a specified error message.
+Initializes a new instance of the [`AsposeArgumentNullException`](../) class with an error message built from a format string with one argument.
 
 ```csharp
 public AsposeArgumentNullException(string format, string parameters)
@@ -52,8 +52,8 @@ public AsposeArgumentNullException(string format, string parameters)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | String | Message format |
-| parameters | String | Format parameter |
+| format | String | A composite format string with one placeholder, `{0}`. |
+| parameters | String | The value inserted into *format*. |
 
 ### See Also
 
@@ -65,7 +65,7 @@ public AsposeArgumentNullException(string format, string parameters)
 
 ## AsposeArgumentNullException(string, params object[]) {#constructor_4}
 
-Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception/) class with a specified error message.
+Initializes a new instance of the [`AsposeArgumentNullException`](../) class with an error message built from a composite format string.
 
 ```csharp
 public AsposeArgumentNullException(string format, params object[] parameters)
@@ -73,8 +73,8 @@ public AsposeArgumentNullException(string format, params object[] parameters)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | String | Message format |
-| parameters | Object[] | Format parameters |
+| format | String | A composite format string, as for `String.Format`. |
+| parameters | Object[] | The objects to insert into *format*. |
 
 ### See Also
 
@@ -86,7 +86,7 @@ public AsposeArgumentNullException(string format, params object[] parameters)
 
 ## AsposeArgumentNullException(string, Exception) {#constructor_3}
 
-Initializes a new instance of the [`AsposeException`](../../asposeexception/) class with a specified error message and a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [`AsposeArgumentNullException`](../) class with the specified error message and a reference to the exception that caused it.
 
 ```csharp
 public AsposeArgumentNullException(string message, Exception innerException)
@@ -94,8 +94,8 @@ public AsposeArgumentNullException(string message, Exception innerException)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | The error message that explains the reason for the exception. |
-| innerException | Exception | The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. |
+| message | String | The message that describes the error. |
+| innerException | Exception | The exception that caused this exception, or `null`. |
 
 ### See Also
 
@@ -107,7 +107,7 @@ public AsposeArgumentNullException(string message, Exception innerException)
 
 ## AsposeArgumentNullException(Exception) {#constructor_1}
 
-Initializes a new instance of the [`AsposeArgumentNullException`](../) class with a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [`AsposeArgumentNullException`](../) class with a reference to the exception that caused it.
 
 ```csharp
 public AsposeArgumentNullException(Exception innerException)
@@ -115,7 +115,7 @@ public AsposeArgumentNullException(Exception innerException)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| innerException | Exception | The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. |
+| innerException | Exception | The exception that caused this exception, or `null`. |
 
 ### See Also
 

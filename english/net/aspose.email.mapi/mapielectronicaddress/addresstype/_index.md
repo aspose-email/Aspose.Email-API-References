@@ -1,14 +1,14 @@
 ---
 title: MapiElectronicAddress.AddressType
 second_title: Aspose.Email for .NET API Reference
-description: MapiElectronicAddress property. Gets or sets the address type of an electronic address
+description: MapiElectronicAddress property. Gets or sets the type of the address such as SMTP or EX Exchange
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapielectronicaddress/addresstype/
 ---
 ## MapiElectronicAddress.AddressType property
 
-Gets or sets the address type of an electronic address.
+Gets or sets the type of the address, such as `SMTP` or `EX` (Exchange).
 
 ```csharp
 public string AddressType { get; set; }

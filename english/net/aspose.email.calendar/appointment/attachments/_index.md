@@ -1,14 +1,14 @@
 ---
 title: Appointment.Attachments
 second_title: Aspose.Email for .NET API Reference
-description: Appointment property. Gets the collection of attachments of appointment
+description: Appointment property. Gets the files attached to the event
 type: docs
 weight: 30
 url: /net/aspose.email.calendar/appointment/attachments/
 ---
 ## Appointment.Attachments property
 
-Gets the collection of attachments of appointment.
+Gets the files attached to the event.
 
 ```csharp
 public AttachmentCollection Attachments { get; }

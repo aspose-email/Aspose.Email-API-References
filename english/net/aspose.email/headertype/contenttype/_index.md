@@ -1,14 +1,14 @@
 ---
 title: HeaderType.ContentType
 second_title: Aspose.Email for .NET API Reference
-description: HeaderType property. The ContentType defines the format of content character set etc. Note that the values for this header are defined in different ways in RFC1049 and in MIME RFC2045. Look for the MIMEversion header to understand if ContentType is to be interpreted according to RFC1049 or according to MIME RFC2045. The MIME definition should be used in generating mail. Historically ContentType field was proposed in RFC1049. In it ContentType did not distinguish type and subtype like RFC2045 does. Example ContentType text/plain charsetusascii Contenttype text/plain charsetUSASCII ContentType text/plain charsetiso88591 ContentType text/plain charsetkoi8r ContentType text/plain charsetunknown8bit
+description: HeaderType property. Gets the ContentType header the media type of the content and its parameters such as text/plain charsetutf8 RFC 2045
 type: docs
 weight: 70
 url: /net/aspose.email/headertype/contenttype/
 ---
 ## HeaderType.ContentType property
 
-The "Content-Type" defines the format of content (character set etc.) Note that the values for this header are defined in different ways in RFC1049 and in MIME (RFC2045). Look for the MIME-version: header to understand if Content-Type is to be interpreted according to RFC1049 or according to MIME (RFC2045). The MIME definition should be used in generating mail. Historically, Content-Type field was proposed in RFC1049. In it, Content-Type did not distinguish type and subtype like RFC2045 does. Example: Content-Type: text/plain; charset="us-ascii" Content-type: text/plain; charset=US-ASCII Content-Type: text/plain; charset="iso-8859-1" Content-Type: text/plain; charset=koi8-r Content-Type: text/plain; charset=unknown-8bit
+Gets the `Content-Type` header: the media type of the content and its parameters, such as `text/plain; charset="utf-8"` (RFC 2045).
 
 ```csharp
 public static HeaderType ContentType { get; }

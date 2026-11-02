@@ -1,14 +1,14 @@
 ---
 title: FolderInfo.GetSubFolders
 second_title: Aspose.Email for .NET API Reference
-description: FolderInfo method. Gets collection of subfolders
+description: FolderInfo method. Gets the subfolders of the folder
 type: docs
 weight: 310
 url: /net/aspose.email.storage.pst/folderinfo/getsubfolders/
 ---
 ## GetSubFolders() {#getsubfolders}
 
-Gets collection of subfolders.
+Gets the subfolders of the folder.
 
 ```csharp
 public FolderInfoCollection GetSubFolders()
@@ -16,7 +16,11 @@ public FolderInfoCollection GetSubFolders()
 
 ### Return Value
 
-The FolderInfo collection.
+The subfolders.
+
+## Remarks
+
+For a folder with many subfolders, `EnumerateFolders` reads them one at a time.
 
 ### See Also
 
@@ -29,7 +33,7 @@ The FolderInfo collection.
 
 ## GetSubFolders(FolderKind) {#getsubfolders_1}
 
-Gets collection of subfolders.
+Gets the subfolders of the specified kind.
 
 ```csharp
 public FolderInfoCollection GetSubFolders(FolderKind kind)
@@ -37,11 +41,11 @@ public FolderInfoCollection GetSubFolders(FolderKind kind)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| kind | FolderKind | The [`FolderKind`](../../folderkind/) that represents kind of folder. |
+| kind | FolderKind | Which kinds of folders to return: normal folders, search folders or both. |
 
 ### Return Value
 
-The FolderInfo collection.
+The subfolders.
 
 ### See Also
 
@@ -55,7 +59,7 @@ The FolderInfo collection.
 
 ## GetSubFolders(MailQuery) {#getsubfolders_2}
 
-Gets collection of subfolders.
+Gets the subfolders that match a query.
 
 ```csharp
 public FolderInfoCollection GetSubFolders(MailQuery query)
@@ -63,11 +67,11 @@ public FolderInfoCollection GetSubFolders(MailQuery query)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents search query. |
+| query | MailQuery | The search query, built with [`PersonalStorageQueryBuilder`](../../personalstoragequerybuilder/), for example with its `FolderName` or `ContentsCount` field. |
 
 ### Return Value
 
-The FolderInfo collection.
+The matching subfolders.
 
 ### See Also
 

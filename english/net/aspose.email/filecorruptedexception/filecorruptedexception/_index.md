@@ -24,7 +24,7 @@ public FileCorruptedException()
 
 ## FileCorruptedException(string) {#constructor_1}
 
-Initializes a new instance of the [`FileCorruptedException`](../) class with a specified error message.
+Initializes a new instance of the [`FileCorruptedException`](../) class with the specified error message.
 
 ```csharp
 public FileCorruptedException(string message)
@@ -32,7 +32,7 @@ public FileCorruptedException(string message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | A message that describes the error. |
+| message | String | The message that describes the error. |
 
 ### See Also
 
@@ -44,7 +44,7 @@ public FileCorruptedException(string message)
 
 ## FileCorruptedException(string, Exception) {#constructor_2}
 
-Initializes a new instance of the [`FileCorruptedException`](../) class with a specified error message.
+Initializes a new instance of the [`FileCorruptedException`](../) class with the specified error message and a reference to the exception that caused it.
 
 ```csharp
 public FileCorruptedException(string message, Exception inner)
@@ -52,8 +52,8 @@ public FileCorruptedException(string message, Exception inner)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | A message that describes the error. |
-| inner | Exception | The exception causing the current exception. |
+| message | String | The message that describes the error. |
+| inner | Exception | The exception that caused this exception, or `null`. |
 
 ### See Also
 

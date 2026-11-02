@@ -1,14 +1,14 @@
 ---
 title: MailMessage.Load
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage method. Load message from file
+description: MailMessage method. Loads a message from a file. MSG is recognized automatically any other file is read as EML
 type: docs
 weight: 20
 url: /net/aspose.email/mailmessage/load/
 ---
 ## Load(string) {#load_2}
 
-Load message from file
+Loads a message from a file. MSG is recognized automatically; any other file is read as EML.
 
 ```csharp
 public static MailMessage Load(string fileName)
@@ -16,11 +16,18 @@ public static MailMessage Load(string fileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Message file name. The message file must be in eml or msg format. |
+| fileName | String | The path of the file. |
 
 ### Return Value
 
-E-mail message
+The loaded message.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *fileName* is `null` or empty. |
+| [FormatNotSupportedException](../../formatnotsupportedexception/) | The format of the data is not supported. |
 
 ### See Also
 
@@ -32,7 +39,7 @@ E-mail message
 
 ## Load(Stream) {#load}
 
-Load message from stream
+Loads a message from a stream. MSG is recognized automatically; any other data is read as EML.
 
 ```csharp
 public static MailMessage Load(Stream stream)
@@ -40,11 +47,19 @@ public static MailMessage Load(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Stream that represents message in eml or msg format |
+| stream | Stream | The stream to read. |
 
 ### Return Value
 
-E-mail message
+The loaded message.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *stream* is `null`. |
+| NotSupportedException | *stream* does not support reading. |
+| [FormatNotSupportedException](../../formatnotsupportedexception/) | The format of the data is not supported. |
 
 ### See Also
 
@@ -56,7 +71,7 @@ E-mail message
 
 ## Load(string, LoadOptions) {#load_3}
 
-Load message from file with additional options.
+Loads a message from a file in the format selected by the options.
 
 ```csharp
 public static MailMessage Load(string fileName, LoadOptions options)
@@ -64,18 +79,19 @@ public static MailMessage Load(string fileName, LoadOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Source file pathString. |
-| options | LoadOptions | Additional options [`LoadOptions`](../../loadoptions/). |
+| fileName | String | The path of the file. |
+| options | LoadOptions | The options; their class selects the format, such as [`EmlLoadOptions`](../../emlloadoptions/) or [`MsgLoadOptions`](../../msgloadoptions/). |
 
 ### Return Value
 
-Mail message[`MailMessage`](../).
+The loaded message.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | If *fileName* is null. |
+| ArgumentNullException | *fileName* is `null`. |
+| [FormatNotSupportedException](../../formatnotsupportedexception/) | The format of the data is not supported. |
 
 ## Examples
 
@@ -146,7 +162,7 @@ MailMessage.Load("description.html", emlLoadOptions)
 
 ## Load(Stream, LoadOptions) {#load_1}
 
-Load message from stream with additional options.
+Loads a message from a stream in the format selected by the options.
 
 ```csharp
 public static MailMessage Load(Stream stream, LoadOptions options)
@@ -154,18 +170,19 @@ public static MailMessage Load(Stream stream, LoadOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Source streamStream. |
-| options | LoadOptions | Additional options [`LoadOptions`](../../loadoptions/). |
+| stream | Stream | The stream to read. |
+| options | LoadOptions | The options; their class selects the format, such as [`EmlLoadOptions`](../../emlloadoptions/) or [`MsgLoadOptions`](../../msgloadoptions/). |
 
 ### Return Value
 
-Mail message[`MailMessage`](../).
+The loaded message.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | If *stream* is null. |
+| ArgumentNullException | *stream* is `null`. |
+| [FormatNotSupportedException](../../formatnotsupportedexception/) | The format of the data is not supported. |
 
 ### See Also
 

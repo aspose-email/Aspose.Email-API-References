@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AddressBookAuthorizedSenders
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Indicates whether delivery restrictions exist for a recipient. Area Address Book Canonical name PidTagAddressBookAuthorizedSenders Alternate names PR_EMS_AB_AUTH_ORIG
+description: KnownPropertyList field. Indicates whether delivery restrictions exist for a recipient. Area Address Book. Canonical name PidTagAddressBookAuthorizedSenders. Alternate names PR_EMS_AB_AUTH_ORIG
 type: docs
 weight: 330
 url: /net/aspose.email.mapi/knownpropertylist/addressbookauthorizedsenders/
 ---
 ## KnownPropertyList.AddressBookAuthorizedSenders field
 
-Indicates whether delivery restrictions exist for a recipient. Area: Address Book Canonical name: PidTagAddressBookAuthorizedSenders Alternate names: PR_EMS_AB_AUTH_ORIG
+Indicates whether delivery restrictions exist for a recipient. Area: Address Book. Canonical name: PidTagAddressBookAuthorizedSenders. Alternate names: PR_EMS_AB_AUTH_ORIG.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookAuthorizedSenders;

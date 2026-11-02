@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_EMS_AB_COUNTRY_NAME_W
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. The Unicode form of PR_EMS_AB_COUNTRY_NAME. Property tag 0x8069001F PT_UNICODE
 type: docs
 weight: 4120
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_country_name_w/
 ---
 ## MapiPropertyTag.PR_EMS_AB_COUNTRY_NAME_W field
+
+The Unicode form of [`PR_EMS_AB_COUNTRY_NAME`](../pr_ems_ab_country_name/). Property tag: 0x8069001F (PT_UNICODE).
 
 ```csharp
 public static readonly long PR_EMS_AB_COUNTRY_NAME_W;

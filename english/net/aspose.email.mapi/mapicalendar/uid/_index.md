@@ -1,14 +1,14 @@
 ---
 title: MapiCalendar.Uid
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendar property. Gets the unique identifier
+description: MapiCalendar property. Gets or sets the unique identifier of the event which links a meeting request its updates and responses
 type: docs
-weight: 210
+weight: 230
 url: /net/aspose.email.mapi/mapicalendar/uid/
 ---
 ## MapiCalendar.Uid property
 
-Gets the unique identifier
+Gets or sets the unique identifier of the event, which links a meeting request, its updates and responses.
 
 ```csharp
 public string Uid { get; set; }

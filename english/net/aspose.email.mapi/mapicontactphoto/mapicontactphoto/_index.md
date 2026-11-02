@@ -8,7 +8,7 @@ url: /net/aspose.email.mapi/mapicontactphoto/mapicontactphoto/
 ---
 ## MapiContactPhoto constructor
 
-Initializes a new instance of the [`MapiContactPhoto`](../) class
+Initializes a new instance of the [`MapiContactPhoto`](../) class.
 
 ```csharp
 public MapiContactPhoto(byte[] data, MapiContactPhotoImageFormat photoImageFormat)
@@ -16,8 +16,8 @@ public MapiContactPhoto(byte[] data, MapiContactPhotoImageFormat photoImageForma
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | Byte[] | Image data of photo. |
-| photoImageFormat | MapiContactPhotoImageFormat | Image format of photo [`MapiContactPhotoImageFormat`](../../mapicontactphotoimageformat/). |
+| data | Byte[] | The image data. |
+| photoImageFormat | MapiContactPhotoImageFormat | The format of the image. |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: HeaderType.Subject
 second_title: Aspose.Email for .NET API Reference
-description: HeaderType property. Title heading subject. Often used as thread indicator for messages replying to or commenting on other messages
+description: HeaderType property. Gets the Subject header the subject of the message
 type: docs
 weight: 240
 url: /net/aspose.email/headertype/subject/
 ---
 ## HeaderType.Subject property
 
-Title, heading, subject. Often used as thread indicator for messages replying to or commenting on other messages.
+Gets the `Subject` header: the subject of the message.
 
 ```csharp
 public static HeaderType Subject { get; }

@@ -1,14 +1,14 @@
 ---
 title: Delegate MessageAcceptanceCallback
 second_title: Aspose.Email for .NET API Reference
-description: Callback function which is being called during the conversion process
+description: Represents a method that decides whether a message is included in a conversion
 type: docs
 weight: 17920
 url: /net/aspose.email/messageacceptancecallback/
 ---
 ## MessageAcceptanceCallback delegate
 
-Callback function which is being called during the conversion process.
+Represents a method that decides whether a message is included in a conversion.
 
 ```csharp
 public delegate bool MessageAcceptanceCallback(MapiMessage mapiMessage);
@@ -20,7 +20,7 @@ public delegate bool MessageAcceptanceCallback(MapiMessage mapiMessage);
 
 ### Return Value
 
-If it returns true it indicates that message can be accepted for conversion, otherwise it will be skipped.
+`true` to convert the message; `false` to skip it.
 
 ### See Also
 

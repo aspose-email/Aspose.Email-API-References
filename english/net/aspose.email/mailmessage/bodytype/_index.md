@@ -1,14 +1,14 @@
 ---
 title: MailMessage.BodyType
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage property. Gets the type of the body
+description: MailMessage property. Gets the format of the body plain text HTML or RTF
 type: docs
 weight: 80
 url: /net/aspose.email/mailmessage/bodytype/
 ---
 ## MailMessage.BodyType property
 
-Gets the type of the body.
+Gets the format of the body: plain text, HTML or RTF.
 
 ```csharp
 public BodyContentType BodyType { get; }

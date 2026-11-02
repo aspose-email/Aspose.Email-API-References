@@ -1,14 +1,14 @@
 ---
 title: Class MapiContactPhoto
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiContactPhoto class. Contains data and type of contacts photo
+description: Aspose.Email.Mapi.MapiContactPhoto class. The photo of a contact the image data and its format
 type: docs
 weight: 17090
 url: /net/aspose.email.mapi/mapicontactphoto/
 ---
 ## MapiContactPhoto class
 
-Contains data and type of contact's photo.
+The photo of a contact: the image data and its format.
 
 ```csharp
 public sealed class MapiContactPhoto : ContactPhoto
@@ -18,7 +18,7 @@ public sealed class MapiContactPhoto : ContactPhoto
 
 | Name | Description |
 | --- | --- |
-| [MapiContactPhoto](mapicontactphoto/)(byte[], MapiContactPhotoImageFormat) | Initializes a new instance of the `MapiContactPhoto` class |
+| [MapiContactPhoto](mapicontactphoto/)(byte[], MapiContactPhotoImageFormat) | Initializes a new instance of the `MapiContactPhoto` class. |
 
 ## Properties
 

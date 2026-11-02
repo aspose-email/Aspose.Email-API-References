@@ -1,14 +1,14 @@
 ---
 title: Class LinkedResourceCollection
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.LinkedResourceCollection class. Represents a collection of LinkedResource objects
+description: Aspose.Email.LinkedResourceCollection class. The resources embedded in an alternate view or a message
 type: docs
 weight: 16400
 url: /net/aspose.email/linkedresourcecollection/
 ---
 ## LinkedResourceCollection class
 
-Represents a collection of LinkedResource objects
+The resources embedded in an alternate view or a message.
 
 ```csharp
 public sealed class LinkedResourceCollection : Collection<LinkedResource>, IDisposable
@@ -18,10 +18,10 @@ public sealed class LinkedResourceCollection : Collection<LinkedResource>, IDisp
 
 | Name | Description |
 | --- | --- |
-| [Clear](../../aspose.email/linkedresourcecollection/clear/#clear_1)(bool) | Removes all elements from this collection. |
-| [Dispose](../../aspose.email/linkedresourcecollection/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [Clear](../../aspose.email/linkedresourcecollection/clear/#clear_1)(bool) | Removes all resources from the collection, optionally also removing the references to them from the HTML body. |
+| [Dispose](../../aspose.email/linkedresourcecollection/dispose/)() | Releases the resources used by the items of the collection. |
 | [Remove](../../aspose.email/linkedresourcecollection/remove/#remove)(LinkedResource) | Removes the first occurrence of a LinkedResource object from the LinkedResourceCollection. |
-| [RemoveAt](../../aspose.email/linkedresourcecollection/removeat/#removeat_1)(int, bool) | Removes the element at the specified index from this collection. |
+| [RemoveAt](../../aspose.email/linkedresourcecollection/removeat/#removeat_1)(int, bool) | Removes the resource at the specified position, optionally also removing the reference to it from the HTML body. |
 
 ### See Also
 

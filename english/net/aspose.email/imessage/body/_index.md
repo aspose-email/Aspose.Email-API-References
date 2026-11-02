@@ -1,14 +1,14 @@
 ---
 title: IMessage.Body
 second_title: Aspose.Email for .NET API Reference
-description: IMessage property. Gets or sets a message body
+description: IMessage property. Gets or sets the plaintext body
 type: docs
 weight: 30
 url: /net/aspose.email/imessage/body/
 ---
 ## IMessage.Body property
 
-Gets or sets a message body
+Gets or sets the plain-text body.
 
 ```csharp
 public string Body { get; set; }

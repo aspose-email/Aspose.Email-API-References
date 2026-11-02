@@ -18,15 +18,15 @@ public enum TIPMethod
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0` | Method is not defined. |
-| Publish | `1` | Post notification of an object. Used primarily as a method of advertising the existence of an object. |
-| Request | `2` | Assign an object. This is an explicit assignment to one or more Calendar Users. The REQUEST method is also used to update or change an existing object. Clients that cannot handle REQUEST MAY degrade the method to treat it as a PUBLISH. |
-| Reply | `3` | Reply to an object request. |
-| Add | `4` | Add one or more instances to an existing object. |
-| Cancel | `5` | Cancel one or more instances of an existing object. |
-| Refresh | `6` | A request sent to an object Organizer asking for the latest version of an object. |
-| Counter | `7` | Counter a REQUEST with an alternative proposal. |
-| DeclineCounter | `8` | Decline a counter proposal by an Attendee. |
+| None | `0` | The method is not set. |
+| Publish | `1` | Publishes an object to share it, without assigning it to anyone. |
+| Request | `2` | Assigns an object to one or more calendar users, or updates an existing one. Clients that cannot handle a request may treat it as a publication. |
+| Reply | `3` | Replies to a request, for example to accept or decline it. |
+| Add | `4` | Adds one or more instances to an existing object. |
+| Cancel | `5` | Cancels one or more instances of an existing object. |
+| Refresh | `6` | Sent to the organizer to ask for the latest version of an object. |
+| Counter | `7` | Proposes a change to a request. |
+| DeclineCounter | `8` | Sent by the organizer to decline a proposed change. |
 
 ### See Also
 

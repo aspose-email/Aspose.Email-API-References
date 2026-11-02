@@ -1,14 +1,14 @@
 ---
 title: PidLidPropertyDescriptor.PidLidPropertyDescriptor
 second_title: Aspose.Email for .NET API Reference
-description: PidLidPropertyDescriptor constructor. Initializes a new instance of the PidLidPropertyDescriptor class Properties identified by an unsigned 32bit quantity along with a property set
+description: PidLidPropertyDescriptor constructor. Initializes a new instance of the PidLidPropertyDescriptor class
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/pidlidpropertydescriptor/pidlidpropertydescriptor/
 ---
 ## PidLidPropertyDescriptor(long, PropertyDataType, Guid) {#constructor}
 
-Initializes a new instance of the [`PidLidPropertyDescriptor`](../) class Properties identified by an unsigned 32-bit quantity along with a property set.
+Initializes a new instance of the [`PidLidPropertyDescriptor`](../) class.
 
 ```csharp
 public PidLidPropertyDescriptor(long longId, PropertyDataType type, Guid propertySet)
@@ -16,9 +16,9 @@ public PidLidPropertyDescriptor(long longId, PropertyDataType type, Guid propert
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| longId | Int64 | long ID (LID): An unsigned 32-bit quantity that, in combination with a GUID, defines a named property. |
-| type | PropertyDataType | Specifies the type of values allowed for the property. |
-| propertySet | Guid | A GUID that identifies a group of properties with a similar purpose. |
+| longId | Int64 | The numeric ID (LID) of the property within its property set. |
+| type | PropertyDataType | The data type of the property. |
+| propertySet | Guid | The GUID of the property set, for example one from [`KnownPropertySets`](../../knownpropertysets/). |
 
 ### See Also
 
@@ -31,7 +31,7 @@ public PidLidPropertyDescriptor(long longId, PropertyDataType type, Guid propert
 
 ## PidLidPropertyDescriptor(string, long, PropertyDataType, Guid) {#constructor_1}
 
-Initializes a new instance of the [`PidLidPropertyDescriptor`](../) class Properties identified by an unsigned 32-bit quantity along with a property set.
+Initializes a new instance of the [`PidLidPropertyDescriptor`](../) class.
 
 ```csharp
 public PidLidPropertyDescriptor(string canonicalName, long longId, PropertyDataType type, 
@@ -40,10 +40,10 @@ public PidLidPropertyDescriptor(string canonicalName, long longId, PropertyDataT
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| canonicalName | String | The name used to refer to the property in the documentation. |
-| longId | Int64 | long ID (LID): An unsigned 32-bit quantity that, in combination with a GUID, defines a named property. |
-| type | PropertyDataType | Specifies the type of values allowed for the property. |
-| propertySet | Guid | A GUID that identifies a group of properties with a similar purpose. |
+| canonicalName | String | The canonical name of the property, such as `PidLidLocation`. |
+| longId | Int64 | The numeric ID (LID) of the property within its property set. |
+| type | PropertyDataType | The data type of the property. |
+| propertySet | Guid | The GUID of the property set, for example one from [`KnownPropertySets`](../../knownpropertysets/). |
 
 ### See Also
 
@@ -56,7 +56,7 @@ public PidLidPropertyDescriptor(string canonicalName, long longId, PropertyDataT
 
 ## PidLidPropertyDescriptor(string, string, long, PropertyDataType, Guid) {#constructor_2}
 
-Initializes a new instance of the [`PidLidPropertyDescriptor`](../) class Properties identified by an unsigned 32-bit quantity along with a property set.
+Initializes a new instance of the [`PidLidPropertyDescriptor`](../) class.
 
 ```csharp
 public PidLidPropertyDescriptor(string canonicalName, string name, long longId, 
@@ -65,11 +65,11 @@ public PidLidPropertyDescriptor(string canonicalName, string name, long longId,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| canonicalName | String | The name used to refer to the property in the documentation. |
-| name | String | The MAPI name used to refer to the property in the documentation. |
-| longId | Int64 | long ID (LID): An unsigned 32-bit quantity that, in combination with a GUID, defines a named property. |
-| type | PropertyDataType | Specifies the type of values allowed for the property. |
-| propertySet | Guid | A GUID that identifies a group of properties with a similar purpose. |
+| canonicalName | String | The canonical name of the property, such as `PidLidLocation`. |
+| name | String | The alternate (MAPI) name of the property, such as `dispidLocation`. |
+| longId | Int64 | The numeric ID (LID) of the property within its property set. |
+| type | PropertyDataType | The data type of the property. |
+| propertySet | Guid | The GUID of the property set, for example one from [`KnownPropertySets`](../../knownpropertysets/). |
 
 ### See Also
 

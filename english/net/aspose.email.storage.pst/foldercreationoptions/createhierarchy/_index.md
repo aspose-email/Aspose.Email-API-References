@@ -20,7 +20,7 @@ public bool CreateHierarchy { get; set; }
 
 ## Remarks
 
-When specifying the subfolder path, use the backslash (\) as the separator between folder names. For example, "parent1\parent2\subfolder".
+Separate the folder names in the path with a backslash, for example `Parent1\Parent2\Subfolder`.
 
 ### See Also
 

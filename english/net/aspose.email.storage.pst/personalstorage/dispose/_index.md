@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.Dispose
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources
+description: PersonalStorage method. Closes the PST and releases the resources it uses. The underlying stream is closed too unless the storage was opened or created with the option to leave it open
 type: docs
 weight: 180
 url: /net/aspose.email.storage.pst/personalstorage/dispose/
 ---
 ## PersonalStorage.Dispose method
 
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+Closes the PST and releases the resources it uses. The underlying stream is closed too, unless the storage was opened or created with the option to leave it open.
 
 ```csharp
 public void Dispose()

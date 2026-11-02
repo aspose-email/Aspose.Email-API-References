@@ -112,6 +112,43 @@ An enumerable collection of [`MessageInfo`](../../messageinfo/) objects starting
 
 Use this method to fetch a subset of messages from the folder, which is useful for paginated retrieval or scenarios requiring controlled message processing. When *count* is set to `-1`, all messages from *startIndex* to the end of the folder are returned.
 
+## Examples
+
+This example reads a large folder in pages of 100 messages.
+
+[C#]
+
+```csharp
+using (var pst = PersonalStorage.FromFile("archive.pst"))
+{
+    var inbox = pst.GetPredefinedFolder(StandardIpmFolder.Inbox);
+    const int pageSize = 100;
+
+    for (int start = 0; start < inbox.ContentCount; start += pageSize)
+    {
+        foreach (var messageInfo in inbox.EnumerateMessages(start, pageSize))
+        {
+            Console.WriteLine(messageInfo.Subject);
+        }
+    }
+}
+```
+
+[Visual Basic]
+
+```csharp
+Using pst As PersonalStorage = PersonalStorage.FromFile("archive.pst")
+    Dim inbox As FolderInfo = pst.GetPredefinedFolder(StandardIpmFolder.Inbox)
+    Const pageSize As Integer = 100
+
+    For start As Integer = 0 To inbox.ContentCount - 1 Step pageSize
+        For Each messageInfo As MessageInfo In inbox.EnumerateMessages(start, pageSize)
+            Console.WriteLine(messageInfo.Subject)
+        Next
+    Next
+End Using
+```
+
 ### See Also
 
 * class [MessageInfo](../../messageinfo/)

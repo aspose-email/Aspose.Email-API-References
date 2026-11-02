@@ -1,14 +1,14 @@
 ---
 title: ReferenceAttachment.PermissionType
 second_title: Aspose.Email for .NET API Reference
-description: ReferenceAttachment property. Specifies the permission type
+description: ReferenceAttachment property. Gets or sets who can view or edit the linked file
 type: docs
 weight: 20
 url: /net/aspose.email/referenceattachment/permissiontype/
 ---
 ## ReferenceAttachment.PermissionType property
 
-Specifies the permission type.
+Gets or sets who can view or edit the linked file.
 
 ```csharp
 public AttachmentPermissionType PermissionType { get; set; }

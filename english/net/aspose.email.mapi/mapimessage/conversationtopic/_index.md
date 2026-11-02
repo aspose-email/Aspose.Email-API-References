@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.ConversationTopic
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage property. Gets the topic of the first message in a conversation thread
+description: MapiMessage property. Gets the topic of the conversation the message belongs to the subject of its first message without prefixes
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapimessage/conversationtopic/
 ---
 ## MapiMessage.ConversationTopic property
 
-Gets the topic of the first message in a conversation thread.
+Gets the topic of the conversation the message belongs to: the subject of its first message, without prefixes.
 
 ```csharp
 public string ConversationTopic { get; }
@@ -16,7 +16,7 @@ public string ConversationTopic { get; }
 
 ### Property Value
 
-The string that represens conversation topic.
+The conversation topic.
 
 ### See Also
 

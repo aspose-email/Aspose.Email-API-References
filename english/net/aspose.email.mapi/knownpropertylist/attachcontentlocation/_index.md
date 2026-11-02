@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AttachContentLocation
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains a relative or full URI that matches a corresponding reference in the HTML body of a Message object. Area Message Attachment Properties Canonical name PidTagAttachContentLocation Alternate names PR_ATTACH_CONTENT_LOCATION PR_ATTACH_CONTENT_LOCATION_A PR_ATTACH_CONTENT_LOCATION_W
+description: KnownPropertyList field. Contains a relative or full URI that matches a corresponding reference in the HTML body of a Message object. Area Message Attachment Properties. Canonical name PidTagAttachContentLocation. Alternate names PR_ATTACH_CONTENT_LOCATION PR_ATTACH_CONTENT_LOCATION_A PR_ATTACH_CONTENT_LOCATION_W
 type: docs
 weight: 1540
 url: /net/aspose.email.mapi/knownpropertylist/attachcontentlocation/
 ---
 ## KnownPropertyList.AttachContentLocation field
 
-Contains a relative or full URI that matches a corresponding reference in the HTML body of a Message object. Area: Message Attachment Properties Canonical name: PidTagAttachContentLocation Alternate names: PR_ATTACH_CONTENT_LOCATION, PR_ATTACH_CONTENT_LOCATION_A, PR_ATTACH_CONTENT_LOCATION_W
+Contains a relative or full URI that matches a corresponding reference in the HTML body of a Message object. Area: Message Attachment Properties. Canonical name: PidTagAttachContentLocation. Alternate names: PR_ATTACH_CONTENT_LOCATION, PR_ATTACH_CONTENT_LOCATION_A, PR_ATTACH_CONTENT_LOCATION_W.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachContentLocation;

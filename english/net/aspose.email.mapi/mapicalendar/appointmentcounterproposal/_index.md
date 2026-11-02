@@ -1,14 +1,14 @@
 ---
 title: MapiCalendar.AppointmentCounterProposal
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendar property. Gets or sets a value indicating whether a Meeting Response object is a counter proposal
+description: MapiCalendar property. Gets or sets a value indicating whether a meeting response proposes a new time for the meeting
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.email.mapi/mapicalendar/appointmentcounterproposal/
 ---
 ## MapiCalendar.AppointmentCounterProposal property
 
-Gets or sets a value indicating whether a Meeting Response object is a counter proposal.
+Gets or sets a value indicating whether a meeting response proposes a new time for the meeting.
 
 ```csharp
 public bool AppointmentCounterProposal { get; set; }

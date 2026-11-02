@@ -1,14 +1,14 @@
 ---
 title: MapiTask.DueDate
 second_title: Aspose.Email for .NET API Reference
-description: MapiTask property. Gets or sets the date by which the user expects work on the task to be complete
+description: MapiTask property. Gets or sets the date the task is due
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.email.mapi/mapitask/duedate/
 ---
 ## MapiTask.DueDate property
 
-Gets or sets the date by which the user expects work on the task to be complete.
+Gets or sets the date the task is due.
 
 ```csharp
 public DateTime DueDate { get; set; }

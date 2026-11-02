@@ -1,14 +1,14 @@
 ---
 title: UserReaction.Type
 second_title: Aspose.Email for .NET API Reference
-description: UserReaction property. Gets or sets the reaction type
+description: UserReaction property. Gets or sets the type of the reaction
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/userreaction/type/
 ---
 ## UserReaction.Type property
 
-Gets or sets the reaction type.
+Gets or sets the type of the reaction.
 
 ```csharp
 public ReactionType Type { get; set; }

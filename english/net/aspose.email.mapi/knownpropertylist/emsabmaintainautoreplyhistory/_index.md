@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.EmsAbMaintainAutoreplyHistory
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_MAINTAIN_AUTOREPLY_HISTORY
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_EMS_AB_MAINTAIN_AUTOREPLY_HISTORY. Property tag 0x80CC000B data type Boolean
 type: docs
 weight: 7210
 url: /net/aspose.email.mapi/knownpropertylist/emsabmaintainautoreplyhistory/
 ---
 ## KnownPropertyList.EmsAbMaintainAutoreplyHistory field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_EMS_AB_MAINTAIN_AUTOREPLY_HISTORY
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_EMS_AB_MAINTAIN_AUTOREPLY_HISTORY. Property tag: 0x80CC000B; data type: Boolean.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbMaintainAutoreplyHistory;

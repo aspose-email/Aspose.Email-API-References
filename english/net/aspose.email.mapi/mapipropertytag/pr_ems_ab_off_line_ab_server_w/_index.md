@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_EMS_AB_OFF_LINE_AB_SERVER_W
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. The Unicode form of PR_EMS_AB_OFF_LINE_AB_SERVER. Property tag 0x80FA001F PT_UNICODE
 type: docs
 weight: 8520
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_off_line_ab_server_w/
 ---
 ## MapiPropertyTag.PR_EMS_AB_OFF_LINE_AB_SERVER_W field
+
+The Unicode form of [`PR_EMS_AB_OFF_LINE_AB_SERVER`](../pr_ems_ab_off_line_ab_server/). Property tag: 0x80FA001F (PT_UNICODE).
 
 ```csharp
 public static readonly long PR_EMS_AB_OFF_LINE_AB_SERVER_W;

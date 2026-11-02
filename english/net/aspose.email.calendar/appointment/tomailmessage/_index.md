@@ -1,14 +1,14 @@
 ---
 title: Appointment.ToMailMessage
 second_title: Aspose.Email for .NET API Reference
-description: Appointment method. onverts ICalendar item .ics to MIME .eml message
+description: Appointment method. Creates an email message that carries this appointment as a meeting request update or cancellation
 type: docs
 weight: 400
 url: /net/aspose.email.calendar/appointment/tomailmessage/
 ---
 ## ToMailMessage(AppointmentAction, int) {#tomailmessage_2}
 
-�onverts ICalendar item (.ics) to MIME (.eml) message.
+Creates an email message that carries this appointment as a meeting request, update or cancellation.
 
 ```csharp
 public MailMessage ToMailMessage(AppointmentAction action, int seqId)
@@ -16,8 +16,12 @@ public MailMessage ToMailMessage(AppointmentAction action, int seqId)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| action | AppointmentAction | An [`AppointmentAction`](../../appointmentaction/) parameter. |
-| seqId | Int32 | The sequence id. Defines the revision sequence number of the calendar component within a sequence of revisions. |
+| action | AppointmentAction | Whether the message requests, updates or cancels the meeting. |
+| seqId | Int32 | The sequence number (the iCalendar SEQUENCE property): the revision of the event within a sequence of updates. |
+
+### Return Value
+
+A [`MailMessage`](../../../aspose.email/mailmessage/) that carries the event as a text/calendar alternate view.
 
 ### See Also
 
@@ -31,7 +35,7 @@ public MailMessage ToMailMessage(AppointmentAction action, int seqId)
 
 ## ToMailMessage(AppointmentAction) {#tomailmessage_1}
 
-�onverts ICalendar item (.ics) to MIME (.eml) message.
+Creates an email message that carries this appointment as a meeting request, update or cancellation.
 
 ```csharp
 public MailMessage ToMailMessage(AppointmentAction action)
@@ -39,7 +43,15 @@ public MailMessage ToMailMessage(AppointmentAction action)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| action | AppointmentAction | An [`AppointmentAction`](../../appointmentaction/) parameter. |
+| action | AppointmentAction | Whether the message requests, updates or cancels the meeting. |
+
+### Return Value
+
+A [`MailMessage`](../../../aspose.email/mailmessage/) that carries the event as a text/calendar alternate view.
+
+## Remarks
+
+The sequence number is 0 for a request, 1 for an update and 2 for a cancellation.
 
 ### See Also
 
@@ -53,7 +65,7 @@ public MailMessage ToMailMessage(AppointmentAction action)
 
 ## ToMailMessage() {#tomailmessage}
 
-�onverts ICalendar item (.ics) to MIME (.eml) message.
+Creates an email message that carries this appointment as a meeting request.
 
 ```csharp
 public MailMessage ToMailMessage()
@@ -61,7 +73,11 @@ public MailMessage ToMailMessage()
 
 ### Return Value
 
-A [`MailMessage`](../../../aspose.email/mailmessage/) that represents email in MIME format.
+A [`MailMessage`](../../../aspose.email/mailmessage/) that carries the event as a text/calendar alternate view.
+
+## Remarks
+
+The METHOD is taken from `MethodType`, or is REQUEST when that is `AppointmentMethodType.None`; the sequence number is 0.
 
 ### See Also
 

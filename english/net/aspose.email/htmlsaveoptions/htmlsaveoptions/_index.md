@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.HtmlSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: HtmlSaveOptions constructor. Initializes a new instance of this class that can be used to save a MailMessage in the Html format
+description: HtmlSaveOptions constructor. Initializes a new instance of the HtmlSaveOptions class with the default options
 type: docs
 weight: 10
 url: /net/aspose.email/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions constructor
 
-Initializes a new instance of this class that can be used to save a MailMessage in the Html format.
+Initializes a new instance of the [`HtmlSaveOptions`](../) class with the default options.
 
 ```csharp
 public HtmlSaveOptions()

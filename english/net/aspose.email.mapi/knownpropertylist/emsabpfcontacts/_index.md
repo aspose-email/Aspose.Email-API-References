@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.EmsAbPfContacts
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_PF_CONTACTS
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_EMS_AB_PF_CONTACTS. Property tag 0x8038101E data type MultipleString8
 type: docs
 weight: 8170
 url: /net/aspose.email.mapi/knownpropertylist/emsabpfcontacts/
 ---
 ## KnownPropertyList.EmsAbPfContacts field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_EMS_AB_PF_CONTACTS
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_EMS_AB_PF_CONTACTS. Property tag: 0x8038101E; data type: MultipleString8.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbPfContacts;

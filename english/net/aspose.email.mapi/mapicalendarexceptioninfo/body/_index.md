@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarExceptionInfo.Body
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarExceptionInfo property. Gets or sets the body
+description: MapiCalendarExceptionInfo property. Gets or sets the body of the exception
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/body/
 ---
 ## MapiCalendarExceptionInfo.Body property
 
-Gets or sets the body.
+Gets or sets the body of the exception.
 
 ```csharp
 public string Body { get; set; }

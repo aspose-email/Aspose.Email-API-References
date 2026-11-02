@@ -1,14 +1,14 @@
 ---
 title: MapiContactOtherPropertySet.ReminderTime
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactOtherPropertySet property. Specifies the initial signal time for a reminder
+description: MapiContactOtherPropertySet property. Gets or sets the date and time of the reminder
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicontactotherpropertyset/remindertime/
 ---
 ## MapiContactOtherPropertySet.ReminderTime property
 
-Specifies the initial signal time for a reminder.
+Gets or sets the date and time of the reminder.
 
 ```csharp
 public DateTime ReminderTime { get; set; }

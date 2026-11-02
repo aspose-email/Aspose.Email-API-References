@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AddressCountryCode
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies the country code portion of the mailing address of the contact. Area Contact Properties Canonical name PidLidAddressCountryCode Alternate names dispidAddressCountryCode
+description: KnownPropertyList field. Specifies the country code portion of the mailing address of the contact. Area Contact Properties. Canonical name PidLidAddressCountryCode. Alternate names dispidAddressCountryCode
 type: docs
 weight: 1010
 url: /net/aspose.email.mapi/knownpropertylist/addresscountrycode/
 ---
 ## KnownPropertyList.AddressCountryCode field
 
-Specifies the country code portion of the mailing address of the contact. Area: Contact Properties Canonical name: PidLidAddressCountryCode Alternate names: dispidAddressCountryCode
+Specifies the country code portion of the mailing address of the contact. Area: Contact Properties. Canonical name: PidLidAddressCountryCode. Alternate names: dispidAddressCountryCode.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AddressCountryCode;

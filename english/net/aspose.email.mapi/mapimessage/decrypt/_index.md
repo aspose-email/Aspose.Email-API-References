@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.Decrypt
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage method. Decrypts this message
+description: MapiMessage method. Decrypts the message with a certificate found in the certificate store
 type: docs
 weight: 370
 url: /net/aspose.email.mapi/mapimessage/decrypt/
 ---
 ## Decrypt() {#decrypt}
 
-Decrypts this message
+Decrypts the message with a certificate found in the certificate store.
 
 ```csharp
 public MapiMessage Decrypt()
@@ -16,11 +16,11 @@ public MapiMessage Decrypt()
 
 ### Return Value
 
-Decrypted MapiMessage
+The decrypted message.
 
 ## Remarks
 
-Method searches the current user and computer My stores for the appropriate certificate and private key.
+The certificate and its private key are searched for in the personal (My) stores of the current user and of the computer.
 
 ### See Also
 
@@ -32,7 +32,7 @@ Method searches the current user and computer My stores for the appropriate cert
 
 ## Decrypt(X509Certificate2) {#decrypt_1}
 
-Decrypts this message
+Decrypts the message with the specified certificate.
 
 ```csharp
 public MapiMessage Decrypt(X509Certificate2 certificate)
@@ -40,11 +40,11 @@ public MapiMessage Decrypt(X509Certificate2 certificate)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| certificate | X509Certificate2 | System.Security.Cryptography.X509Certificates.X509Certificate2 |
+| certificate | X509Certificate2 | The certificate, with its private key, to decrypt with. |
 
 ### Return Value
 
-E-mail message
+The decrypted message.
 
 ### See Also
 

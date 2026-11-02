@@ -1,14 +1,14 @@
 ---
 title: MailAddress.Host
 second_title: Aspose.Email for .NET API Reference
-description: MailAddress property. Gets the host portion of the address
+description: MailAddress property. Gets the host part of the address the part after 
 type: docs
 weight: 50
 url: /net/aspose.email/mailaddress/host/
 ---
 ## MailAddress.Host property
 
-Gets the host portion of the address.
+Gets the host part of the address: the part after `@`.
 
 ```csharp
 public string Host { get; }
@@ -16,7 +16,7 @@ public string Host { get; }
 
 ### Property Value
 
-A String that contains the name of the host.
+The host.
 
 ### See Also
 

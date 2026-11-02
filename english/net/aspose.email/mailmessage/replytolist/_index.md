@@ -1,14 +1,14 @@
 ---
 title: MailMessage.ReplyToList
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage property. Gets or sets the list of addresses to reply to for the mail message
+description: MailMessage property. Gets or sets the addresses replies should go to the ReplyTo header
 type: docs
 weight: 290
 url: /net/aspose.email/mailmessage/replytolist/
 ---
 ## MailMessage.ReplyToList property
 
-Gets or sets the list of addresses to reply to for the mail message
+Gets or sets the addresses replies should go to (the `Reply-To` header).
 
 ```csharp
 public virtual MailAddressCollection ReplyToList { get; set; }

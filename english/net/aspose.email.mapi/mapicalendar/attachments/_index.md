@@ -1,14 +1,14 @@
 ---
 title: MapiCalendar.Attachments
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendar property. Gets the attachment collection
+description: MapiCalendar property. Gets the attachments of the calendar item
 type: docs
-weight: 30
+weight: 50
 url: /net/aspose.email.mapi/mapicalendar/attachments/
 ---
 ## MapiCalendar.Attachments property
 
-Gets the attachment collection.
+Gets the attachments of the calendar item.
 
 ```csharp
 public MapiAttachmentCollection Attachments { get; }

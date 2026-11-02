@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.CurrentVersionName
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies the name of the client application that sent the message. Area General Message Properties Canonical name PidLidCurrentVersionName Alternate names dispidCurrentVersionName
+description: KnownPropertyList field. Specifies the name of the client application that sent the message. Area General Message Properties. Canonical name PidLidCurrentVersionName. Alternate names dispidCurrentVersionName
 type: docs
 weight: 3680
 url: /net/aspose.email.mapi/knownpropertylist/currentversionname/
 ---
 ## KnownPropertyList.CurrentVersionName field
 
-Specifies the name of the client application that sent the message. Area: General Message Properties Canonical name: PidLidCurrentVersionName Alternate names: dispidCurrentVersionName
+Specifies the name of the client application that sent the message. Area: General Message Properties. Canonical name: PidLidCurrentVersionName. Alternate names: dispidCurrentVersionName.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor CurrentVersionName;

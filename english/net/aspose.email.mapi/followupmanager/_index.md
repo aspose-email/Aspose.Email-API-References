@@ -1,14 +1,14 @@
 ---
 title: Class FollowUpManager
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.FollowUpManager class. Provides methods for managing Outlook followup flags categories and voting options on MAPI messages. This static class enables setting and removing followup flags managing categories keywords setting due dates and reminders and configuring voting buttons on MapiMessageItemBase objects
+description: Aspose.Email.Mapi.FollowUpManager class. Manages Outlook followup flags reminders categories and voting buttons of a message
 type: docs
 weight: 16590
 url: /net/aspose.email.mapi/followupmanager/
 ---
 ## FollowUpManager class
 
-Provides methods for managing Outlook follow-up flags, categories, and voting options on MAPI messages. This static class enables setting and removing follow-up flags, managing categories (keywords), setting due dates and reminders, and configuring voting buttons on [`MapiMessageItemBase`](../mapimessageitembase/) objects.
+Manages Outlook follow-up flags, reminders, categories and voting buttons of a message.
 
 ```csharp
 public static class FollowUpManager
@@ -18,27 +18,29 @@ public static class FollowUpManager
 
 | Name | Description |
 | --- | --- |
-| static [AddCategory](../../aspose.email.mapi/followupmanager/addcategory/)(MapiMessageItemBase, string) | Adds the category for a message. |
-| static [AddVotingButton](../../aspose.email.mapi/followupmanager/addvotingbutton/)(MapiMessageItemBase, string) | Adds the voting button. |
-| static [ClearCategories](../../aspose.email.mapi/followupmanager/clearcategories/)(MapiMessageItemBase) | Clears the categories. |
-| static [ClearFlag](../../aspose.email.mapi/followupmanager/clearflag/)(MapiMessageItemBase) | Clears the follow-up flag and reminder. |
-| static [ClearVotingButtons](../../aspose.email.mapi/followupmanager/clearvotingbuttons/)(MapiMessageItemBase) | Deletes the voting buttons. |
-| static [GetCategories](../../aspose.email.mapi/followupmanager/getcategories/)(MapiMessageItemBase) | Get the available message categories. |
-| static [GetOptions](../../aspose.email.mapi/followupmanager/getoptions/)(MapiMessageItemBase) | Gets the follow-up options of a message. |
-| static [GetReactions](../../aspose.email.mapi/followupmanager/getreactions/)(MapiMessageItemBase) | Get the available message reactions. |
-| static [GetVotingButtons](../../aspose.email.mapi/followupmanager/getvotingbuttons/)(MapiMessageItemBase) | Get the available message voting buttons. |
-| static [MarkAsCompleted](../../aspose.email.mapi/followupmanager/markascompleted/)(MapiMessageItemBase) | Marks the flagged message as completed. |
-| static [RemoveCategory](../../aspose.email.mapi/followupmanager/removecategory/)(MapiMessageItemBase, string) | Removes the category. |
-| static [RemoveVotingButton](../../aspose.email.mapi/followupmanager/removevotingbutton/)(MapiMessageItemBase, string) | Removes the voting button. |
-| static [SetFlag](../../aspose.email.mapi/followupmanager/setflag/#setflag)(MapiMessageItemBase, string) | Sets the follow-up flag for a message. |
-| static [SetFlag](../../aspose.email.mapi/followupmanager/setflag/#setflag_1)(MapiMessageItemBase, string, DateTime, DateTime) | Sets the follow-up flag for a message. |
-| static [SetFlagForRecipients](../../aspose.email.mapi/followupmanager/setflagforrecipients/#setflagforrecipients)(MapiMessageItemBase, string) | Sets the flag for a draft message to remind recipients to follow-up. |
-| static [SetFlagForRecipients](../../aspose.email.mapi/followupmanager/setflagforrecipients/#setflagforrecipients_1)(MapiMessageItemBase, string, DateTime) | Sets the flag for a draft message to remind recipients to follow-up. |
-| static [SetOptions](../../aspose.email.mapi/followupmanager/setoptions/)(MapiMessageItemBase, FollowUpOptions) | Sets the additional follow-up options for a message. |
+| static [AddCategory](../../aspose.email.mapi/followupmanager/addcategory/)(MapiMessageItemBase, string) | Adds a category to the message. |
+| static [AddVotingButton](../../aspose.email.mapi/followupmanager/addvotingbutton/)(MapiMessageItemBase, string) | Adds a voting button to the message. |
+| static [ClearCategories](../../aspose.email.mapi/followupmanager/clearcategories/)(MapiMessageItemBase) | Removes all categories from the message. |
+| static [ClearFlag](../../aspose.email.mapi/followupmanager/clearflag/)(MapiMessageItemBase) | Removes the follow-up flag and the reminder from the message. |
+| static [ClearVotingButtons](../../aspose.email.mapi/followupmanager/clearvotingbuttons/)(MapiMessageItemBase) | Removes all voting buttons from the message. |
+| static [GetCategories](../../aspose.email.mapi/followupmanager/getcategories/)(MapiMessageItemBase) | Gets the categories of the message. |
+| static [GetOptions](../../aspose.email.mapi/followupmanager/getoptions/)(MapiMessageItemBase) | Gets the follow-up flag, reminder, categories and voting buttons of the message. |
+| static [GetReactions](../../aspose.email.mapi/followupmanager/getreactions/)(MapiMessageItemBase) | Gets the reactions (like, heart and so on) that users have left on the message. |
+| static [GetVotingButtons](../../aspose.email.mapi/followupmanager/getvotingbuttons/)(MapiMessageItemBase) | Gets the voting buttons of the message. |
+| static [MarkAsCompleted](../../aspose.email.mapi/followupmanager/markascompleted/)(MapiMessageItemBase) | Marks the follow-up flag of the message as completed. |
+| static [RemoveCategory](../../aspose.email.mapi/followupmanager/removecategory/)(MapiMessageItemBase, string) | Removes a category from the message. |
+| static [RemoveVotingButton](../../aspose.email.mapi/followupmanager/removevotingbutton/)(MapiMessageItemBase, string) | Removes a voting button from the message. |
+| static [SetFlag](../../aspose.email.mapi/followupmanager/setflag/#setflag)(MapiMessageItemBase, string) | Sets a follow-up flag on the message. |
+| static [SetFlag](../../aspose.email.mapi/followupmanager/setflag/#setflag_1)(MapiMessageItemBase, string, DateTime, DateTime) | Sets a follow-up flag with a start date and a due date on the message. |
+| static [SetFlagForRecipients](../../aspose.email.mapi/followupmanager/setflagforrecipients/#setflagforrecipients)(MapiMessageItemBase, string) | Sets a flag on a draft message that reminds its recipients to follow up. |
+| static [SetFlagForRecipients](../../aspose.email.mapi/followupmanager/setflagforrecipients/#setflagforrecipients_1)(MapiMessageItemBase, string, DateTime) | Sets a flag with a reminder on a draft message that reminds its recipients to follow up. |
+| static [SetOptions](../../aspose.email.mapi/followupmanager/setoptions/)(MapiMessageItemBase, FollowUpOptions) | Sets the follow-up flag, reminder, categories and voting buttons of the message in one call. |
 
 ## Remarks
 
-Use [`SetFlag`](./setflag/) to add follow-up flags to messages, String) and [`RemoveCategory`](./removecategory/) to manage message categories, !:MarkAsComplete to mark flagged messages as completed, and [`SetOptions`](./setoptions/) to configure multiple follow-up properties at once. The class works with Outlook-specific MAPI properties and is designed for use with [`MapiMessage`](../mapimessage/) and related message types.
+The methods work with any [`MapiMessageItemBase`](../mapimessageitembase/) — a [`MapiMessage`](../mapimessage/), [`MapiContact`](../mapicontact/), [`MapiTask`](../mapitask/) and so on — and write the same MAPI properties that Outlook uses, so the result is shown in Outlook as if it had been set there.
+
+* follow-up flags: [`SetFlag`](./setflag/), [`SetFlagForRecipients`](./setflagforrecipients/), [`MarkAsCompleted`](./markascompleted/), [`ClearFlag`](./clearflag/); * several settings at once: [`SetOptions`](./setoptions/) and [`GetOptions`](./getoptions/) with [`FollowUpOptions`](../followupoptions/); * categories: [`AddCategory`](./addcategory/), [`RemoveCategory`](./removecategory/), [`GetCategories`](./getcategories/), [`ClearCategories`](./clearcategories/); * voting buttons: [`AddVotingButton`](./addvotingbutton/), [`RemoveVotingButton`](./removevotingbutton/), [`GetVotingButtons`](./getvotingbuttons/), [`ClearVotingButtons`](./clearvotingbuttons/); * reactions: [`GetReactions`](./getreactions/).
 
 ## Examples
 

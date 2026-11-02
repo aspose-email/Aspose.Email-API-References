@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarAttendees.NotAllowPropose
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarAttendees property. Gets or sets a value indicating whether attendees are not allowed to propose a new date and/or time for the meeting
+description: MapiCalendarAttendees property. Gets or sets a value indicating whether attendees are prevented from proposing a new time for the meeting
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicalendarattendees/notallowpropose/
 ---
 ## MapiCalendarAttendees.NotAllowPropose property
 
-Gets or sets a value indicating whether attendees are not allowed to propose a new date and/or time for the meeting.
+Gets or sets a value indicating whether attendees are prevented from proposing a new time for the meeting.
 
 ```csharp
 public bool NotAllowPropose { get; set; }

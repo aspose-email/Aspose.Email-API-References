@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.Location
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies the location of the event. Area Calendar Canonical name PidLidLocation Alternate names dispidLocation
+description: KnownPropertyList field. Specifies the location of the event. Area Calendar. Canonical name PidLidLocation. Alternate names dispidLocation
 type: docs
 weight: 12270
 url: /net/aspose.email.mapi/knownpropertylist/location/
 ---
 ## KnownPropertyList.Location field
 
-Specifies the location of the event. Area: Calendar Canonical name: PidLidLocation Alternate names: dispidLocation
+Specifies the location of the event. Area: Calendar. Canonical name: PidLidLocation. Alternate names: dispidLocation.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Location;

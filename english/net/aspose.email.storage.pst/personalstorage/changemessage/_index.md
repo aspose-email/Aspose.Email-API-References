@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.ChangeMessage
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Changes the message properties
+description: PersonalStorage method. Changes properties of a message
 type: docs
 weight: 140
 url: /net/aspose.email.storage.pst/personalstorage/changemessage/
 ---
 ## PersonalStorage.ChangeMessage method
 
-Changes the message properties.
+Changes properties of a message.
 
 ```csharp
 public void ChangeMessage(string entryId, MapiPropertyCollection updatedProperties)
@@ -16,20 +16,18 @@ public void ChangeMessage(string entryId, MapiPropertyCollection updatedProperti
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | String | The entry identifier of message. |
-| updatedProperties | MapiPropertyCollection | The updated properties. |
+| entryId | String | The entry ID of the message. |
+| updatedProperties | MapiPropertyCollection | The properties to set. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | The ANSI file version editing is not implemented. |
-| InvalidOperationException | The PST is open for reading only. or The entryId is incorrect. |
-| ArgumentNullException | entryIdCollection;The collection of entry ids cannot be null. or updatedProperties;The collection of properties cannot be null. |
-| InvalidOperationException | Thrown when attempting to modify a PST file that is open for reading only. |
-| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
-| ArgumentNullException | Thrown when entry id is null. |
-| NotImplementedException | Thrown when property collection is null. |
+| NotImplementedException | The PST is in the ANSI format, which cannot be edited. |
+| InvalidOperationException | The PST is open for reading only. |
+| ArgumentNullException | *entryId* is `null` or empty. |
+| ArgumentNullException | *updatedProperties* is `null`. |
+| InvalidOperationException | *entryId* is not valid. |
 
 ### See Also
 

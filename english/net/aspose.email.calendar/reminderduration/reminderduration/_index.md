@@ -1,14 +1,14 @@
 ---
 title: ReminderDuration.ReminderDuration
 second_title: Aspose.Email for .NET API Reference
-description: ReminderDuration constructor. Initialize a new instance of ReminderDuration class
+description: ReminderDuration constructor. Initializes a new instance of the ReminderDuration class
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/reminderduration/reminderduration/
 ---
 ## ReminderDuration constructor
 
-Initialize a new instance of [`ReminderDuration`](../) class.
+Initializes a new instance of the [`ReminderDuration`](../) class.
 
 ```csharp
 public ReminderDuration(TimeSpan duration)
@@ -16,7 +16,7 @@ public ReminderDuration(TimeSpan duration)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| duration | TimeSpan | Duration of time. |
+| duration | TimeSpan | The length of time; negative for a time before the event. Only whole days, hours, minutes and seconds are kept. |
 
 ### See Also
 

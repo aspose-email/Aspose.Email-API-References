@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.OriginalAuthorSearchKey
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_ORIGINAL_AUTHOR_SEARCH_KEY
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_ORIGINAL_AUTHOR_SEARCH_KEY. Property tag 0x00560102 data type Binary
 type: docs
 weight: 13590
 url: /net/aspose.email.mapi/knownpropertylist/originalauthorsearchkey/
 ---
 ## KnownPropertyList.OriginalAuthorSearchKey field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_ORIGINAL_AUTHOR_SEARCH_KEY
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_ORIGINAL_AUTHOR_SEARCH_KEY. Property tag: 0x00560102; data type: Binary.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalAuthorSearchKey;

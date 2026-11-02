@@ -1,14 +1,14 @@
 ---
 title: MhtSaveOptions.SaveAllHeaders
 second_title: Aspose.Email for .NET API Reference
-description: MhtSaveOptions property. Defines whether need to save all headers in output mhtml or not. Default value is false
+description: MhtSaveOptions property. Gets or sets a value indicating whether all headers of the message are written to the output. The default is false
 type: docs
 weight: 60
 url: /net/aspose.email/mhtsaveoptions/saveallheaders/
 ---
 ## MhtSaveOptions.SaveAllHeaders property
 
-Defines whether need to save all headers in output mhtml or not. Default value is false.
+Gets or sets a value indicating whether all headers of the message are written to the output. The default is `false`.
 
 ```csharp
 public bool SaveAllHeaders { get; set; }

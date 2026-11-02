@@ -1,14 +1,14 @@
 ---
 title: ReminderTrigger.Related
 second_title: Aspose.Email for .NET API Reference
-description: ReminderTrigger property. Specify the relationship of the alarm trigger with respect to the start or end of the event
+description: ReminderTrigger property. Gets or sets whether Duration is measured from the start or from the end of the event. It is not used with an absolute DateTime
 type: docs
 weight: 40
 url: /net/aspose.email.calendar/remindertrigger/related/
 ---
 ## ReminderTrigger.Related property
 
-Specify the relationship of the alarm trigger with respect to the start or end of the event.
+Gets or sets whether `Duration` is measured from the start or from the end of the event. It is not used with an absolute `DateTime`.
 
 ```csharp
 public ReminderRelated Related { get; set; }

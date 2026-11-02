@@ -16,7 +16,7 @@ public long ContentLength { get; }
 
 ## Remarks
 
-For attachments added from a stream this does not materialise the content.
+For attachments added from a stream this does not materialise the content. For embedded message attachments (ObjectData.IsOutlookMessage = true), this property returns the size of the embedded message content.
 
 ### See Also
 

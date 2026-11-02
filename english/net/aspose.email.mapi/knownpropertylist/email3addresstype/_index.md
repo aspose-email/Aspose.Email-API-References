@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.Email3AddressType
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies the address type of the electronic address. Area Contact Properties Canonical name PidLidEmail3AddressType Alternate names dispidEmail3AddrType
+description: KnownPropertyList field. Specifies the address type of the electronic address. Area Contact Properties. Canonical name PidLidEmail3AddressType. Alternate names dispidEmail3AddrType
 type: docs
 weight: 4500
 url: /net/aspose.email.mapi/knownpropertylist/email3addresstype/
 ---
 ## KnownPropertyList.Email3AddressType field
 
-Specifies the address type of the electronic address. Area: Contact Properties Canonical name: PidLidEmail3AddressType Alternate names: dispidEmail3AddrType
+Specifies the address type of the electronic address. Area: Contact Properties. Canonical name: PidLidEmail3AddressType. Alternate names: dispidEmail3AddrType.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Email3AddressType;

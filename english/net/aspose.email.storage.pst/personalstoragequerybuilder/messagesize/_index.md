@@ -1,14 +1,14 @@
 ---
 title: PersonalStorageQueryBuilder.MessageSize
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorageQueryBuilder property. Search messages with an specified size
+description: PersonalStorageQueryBuilder property. Gets the field to search messages by size in bytes
 type: docs
 weight: 80
 url: /net/aspose.email.storage.pst/personalstoragequerybuilder/messagesize/
 ---
 ## PersonalStorageQueryBuilder.MessageSize property
 
-Search messages with an specified size.
+Gets the field to search messages by size, in bytes.
 
 ```csharp
 public IntComparisonField MessageSize { get; }

@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.GetParentFolder
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Gets the parent folder of message
+description: PersonalStorage method. Gets the folder that contains a message or folder
 type: docs
 weight: 300
 url: /net/aspose.email.storage.pst/personalstorage/getparentfolder/
 ---
 ## GetParentFolder(string) {#getparentfolder_1}
 
-Gets the parent folder of message.
+Gets the folder that contains a message or folder.
 
 ```csharp
 public FolderInfo GetParentFolder(string entryIdString)
@@ -16,11 +16,17 @@ public FolderInfo GetParentFolder(string entryIdString)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryIdString | String | String representation of Entry Id of message or folder. |
+| entryIdString | String | The entry ID of the message or folder, as a string. |
 
 ### Return Value
 
-The parent folder[`FolderInfo`](../../folderinfo/) of message.
+The parent folder.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *entryIdString* is `null` or empty. |
 
 ### See Also
 
@@ -33,7 +39,7 @@ The parent folder[`FolderInfo`](../../folderinfo/) of message.
 
 ## GetParentFolder(byte[]) {#getparentfolder}
 
-Gets the parent folder of message.
+Gets the folder that contains a message or folder.
 
 ```csharp
 public FolderInfo GetParentFolder(byte[] entryId)
@@ -41,11 +47,18 @@ public FolderInfo GetParentFolder(byte[] entryId)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | Byte[] | Entry Id of message or folder. |
+| entryId | Byte[] | The entry ID of the message or folder. |
 
 ### Return Value
 
-The parent folder[`FolderInfo`](../../folderinfo/) of message.
+The parent folder.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *entryId* is `null`. |
+| InvalidOperationException | *entryId* identifies the root folder, which has no parent. |
 
 ### See Also
 

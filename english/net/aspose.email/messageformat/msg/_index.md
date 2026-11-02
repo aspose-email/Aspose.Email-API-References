@@ -1,14 +1,14 @@
 ---
 title: MessageFormat.Msg
 second_title: Aspose.Email for .NET API Reference
-description: MessageFormat property. Indicates message in Msg format used by Microsoft Outlook
+description: MessageFormat property. Gets the Outlook MSG format
 type: docs
 weight: 50
 url: /net/aspose.email/messageformat/msg/
 ---
 ## MessageFormat.Msg property
 
-Indicates message in **Msg** format, used by Microsoft Outlook.
+Gets the Outlook MSG format.
 
 ```csharp
 public static MessageFormat Msg { get; }

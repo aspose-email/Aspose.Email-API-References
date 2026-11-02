@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.XSharingProviderGuid
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains the hexadecimal string representation of the value of the PidLidSharingProviderGuid property section 2.266. Area Sharing Canonical name PidNameXSharingProviderGuid Alternate names
+description: KnownPropertyList field. Contains the hexadecimal string representation of the value of the PidLidSharingProviderGuid property section 2.266. Area Sharing. Canonical name PidNameXSharingProviderGuid
 type: docs
 weight: 19860
 url: /net/aspose.email.mapi/knownpropertylist/xsharingproviderguid/
 ---
 ## KnownPropertyList.XSharingProviderGuid field
 
-Contains the hexadecimal string representation of the value of the PidLidSharingProviderGuid property (section 2.266). Area: Sharing Canonical name: PidNameXSharingProviderGuid Alternate names:
+Contains the hexadecimal string representation of the value of the PidLidSharingProviderGuid property (section 2.266). Area: Sharing. Canonical name: PidNameXSharingProviderGuid.
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingProviderGuid;

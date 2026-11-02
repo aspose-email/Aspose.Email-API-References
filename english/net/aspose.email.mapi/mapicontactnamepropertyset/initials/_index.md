@@ -8,7 +8,7 @@ url: /net/aspose.email.mapi/mapicontactnamepropertyset/initials/
 ---
 ## MapiContactNamePropertySet.Initials property
 
-Gets or sets the initials of the contact
+Gets or sets the initials of the contact.
 
 ```csharp
 public string Initials { get; set; }

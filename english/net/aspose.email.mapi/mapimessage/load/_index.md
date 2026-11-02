@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.Load
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage method. Loads message from file
+description: MapiMessage method. Loads a message from a file
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapimessage/load/
 ---
 ## Load(string) {#load_2}
 
-Loads message from file.
+Loads a message from a file.
 
 ```csharp
 public static MapiMessage Load(string fileName)
@@ -16,15 +16,15 @@ public static MapiMessage Load(string fileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Source file pathString. |
+| fileName | String | The path of the file. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | File name should not be null or empty. |
-| NotSupportedException | Stream does not support reading. |
-| [FormatNotSupportedException](../../../aspose.email/formatnotsupportedexception/) | Passed message format is not supported. |
+| ArgumentNullException | *fileName* is `null` or empty. |
+| [FormatNotSupportedException](../../../aspose.email/formatnotsupportedexception/) | The data is not in a supported message format. |
+| NotSupportedException | The stream does not support reading. |
 
 ### See Also
 
@@ -36,7 +36,7 @@ public static MapiMessage Load(string fileName)
 
 ## Load(Stream) {#load}
 
-Loads message from stream.
+Loads a message from a stream.
 
 ```csharp
 public static MapiMessage Load(Stream stream)
@@ -44,15 +44,15 @@ public static MapiMessage Load(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Source streamStream. |
+| stream | Stream | The stream to read. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| [FormatNotSupportedException](../../../aspose.email/formatnotsupportedexception/) | Passed message format is not supported. |
-| ArgumentNullException | Stream should not be null or empty. |
-| NotSupportedException | Stream does not support reading. |
+| ArgumentNullException | *stream* is `null`. |
+| [FormatNotSupportedException](../../../aspose.email/formatnotsupportedexception/) | The data is not in a supported message format. |
+| NotSupportedException | The stream does not support reading. |
 
 ### See Also
 
@@ -64,7 +64,7 @@ public static MapiMessage Load(Stream stream)
 
 ## Load(Stream, LoadOptions) {#load_1}
 
-Loads message from stream with additional options.
+Loads a message from a stream with the specified options.
 
 ```csharp
 public static MapiMessage Load(Stream stream, LoadOptions options)
@@ -72,16 +72,16 @@ public static MapiMessage Load(Stream stream, LoadOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Source streamStream. |
-| options | LoadOptions | Additional options [`LoadOptions`](../../../aspose.email/loadoptions/). |
+| stream | Stream | The stream to read. |
+| options | LoadOptions | The options of loading. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| [FormatNotSupportedException](../../../aspose.email/formatnotsupportedexception/) | Passed message format is not supported. |
-| ArgumentNullException | Stream should not be null or empty. |
-| NotSupportedException | Stream does not support reading. |
+| ArgumentNullException | *stream* is `null`. |
+| [FormatNotSupportedException](../../../aspose.email/formatnotsupportedexception/) | The data is not in a supported message format. |
+| NotSupportedException | The stream does not support reading. |
 
 ### See Also
 
@@ -94,7 +94,7 @@ public static MapiMessage Load(Stream stream, LoadOptions options)
 
 ## Load(string, LoadOptions) {#load_3}
 
-Loads message from file with additional options.
+Loads a message from a file with the specified options.
 
 ```csharp
 public static MapiMessage Load(string fileName, LoadOptions options)
@@ -102,16 +102,16 @@ public static MapiMessage Load(string fileName, LoadOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Source file pathString. |
-| options | LoadOptions | Additional options [`LoadOptions`](../../../aspose.email/loadoptions/). |
+| fileName | String | The path of the file. |
+| options | LoadOptions | The options of loading. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | File name should not be null or empty. |
-| NotSupportedException | Stream does not support reading. |
-| [FormatNotSupportedException](../../../aspose.email/formatnotsupportedexception/) | Passed message format is not supported. |
+| ArgumentNullException | *fileName* is `null` or empty. |
+| [FormatNotSupportedException](../../../aspose.email/formatnotsupportedexception/) | The data is not in a supported message format. |
+| NotSupportedException | The stream does not support reading. |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: MhtTemplateName.Attachments
 second_title: Aspose.Email for .NET API Reference
-description: MhtTemplateName field. Attachments header
+description: MhtTemplateName field. The name of the header with the list of attachments
 type: docs
 weight: 10
 url: /net/aspose.email/mhttemplatename/attachments/
 ---
 ## MhtTemplateName.Attachments field
 
-Attachments header.
+The name of the header with the list of attachments.
 
 ```csharp
 public const string Attachments;

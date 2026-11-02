@@ -1,14 +1,14 @@
 ---
 title: MapiContactPersonalInfoPropertySet.ComputerNetworkName
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactPersonalInfoPropertySet property. Specifies the name of the network to which the contacts computer is connected
+description: MapiContactPersonalInfoPropertySet property. Gets or sets the name of the network the computer of the contact is connected to
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/computernetworkname/
 ---
 ## MapiContactPersonalInfoPropertySet.ComputerNetworkName property
 
-Specifies the name of the network to which the contact's computer is connected
+Gets or sets the name of the network the computer of the contact is connected to.
 
 ```csharp
 public string ComputerNetworkName { get; set; }

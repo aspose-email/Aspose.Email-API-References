@@ -1,14 +1,14 @@
 ---
 title: FolderInfo.GetContents
 second_title: Aspose.Email for .NET API Reference
-description: FolderInfo method. Get collection of messages
+description: FolderInfo method. Gets information about the messages in the folder optionally reading a damaged message list
 type: docs
 weight: 280
 url: /net/aspose.email.storage.pst/folderinfo/getcontents/
 ---
 ## GetContents(bool) {#getcontents_4}
 
-Get collection of messages.
+Gets information about the messages in the folder, optionally reading a damaged message list.
 
 ```csharp
 public MessageInfoCollection GetContents(bool tryToReadCorruptedContents)
@@ -16,11 +16,11 @@ public MessageInfoCollection GetContents(bool tryToReadCorruptedContents)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tryToReadCorruptedContents | Boolean | If the value of this parameter is true, the method will try to read the content even if the file is corrupted. This value can be used if the GetContents() method throws an exception about the file corruption. If the value of this parameter is false, the method works in the same way as GetContents() method without parameters. |
+| tryToReadCorruptedContents | Boolean | `true` to try to read the list of messages even if parts of it are damaged; use it when `GetContents()` fails because the file is corrupted. `false` gives the same result as `GetContents()`. |
 
 ### Return Value
 
-Collection of MessageInfo.
+Information about the messages. Use `PersonalStorage.ExtractMessage` to load a full message.
 
 ### See Also
 
@@ -33,7 +33,7 @@ Collection of MessageInfo.
 
 ## GetContents() {#getcontents}
 
-Get collection of messages.
+Gets information about all messages in the folder.
 
 ```csharp
 public MessageInfoCollection GetContents()
@@ -41,7 +41,11 @@ public MessageInfoCollection GetContents()
 
 ### Return Value
 
-Collection of MessageInfo.
+Information about the messages. Use `PersonalStorage.ExtractMessage` to load a full message.
+
+## Remarks
+
+The whole list is read into memory. For a large folder, `EnumerateMessages` reads the messages one at a time.
 
 ### See Also
 
@@ -54,7 +58,7 @@ Collection of MessageInfo.
 
 ## GetContents(MessageKind) {#getcontents_1}
 
-Get collection of messages.
+Gets information about the messages of the specified kind.
 
 ```csharp
 public MessageInfoCollection GetContents(MessageKind kind)
@@ -62,11 +66,11 @@ public MessageInfoCollection GetContents(MessageKind kind)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| kind | MessageKind | The message kind. |
+| kind | MessageKind | Normal messages, folder associated information (FAI) items, or both. |
 
 ### Return Value
 
-Collection of MessageInfo.
+Information about the messages. Use `PersonalStorage.ExtractMessage` to load a full message.
 
 ### See Also
 
@@ -80,7 +84,7 @@ Collection of MessageInfo.
 
 ## GetContents(MailQuery) {#getcontents_2}
 
-Get collection of messages.
+Gets information about the messages that match a query.
 
 ```csharp
 public MessageInfoCollection GetContents(MailQuery query)
@@ -88,11 +92,11 @@ public MessageInfoCollection GetContents(MailQuery query)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents search query. |
+| query | MailQuery | The search query, built with [`PersonalStorageQueryBuilder`](../../personalstoragequerybuilder/). |
 
 ### Return Value
 
-Collection of MessageInfo.
+Information about the messages. Use `PersonalStorage.ExtractMessage` to load a full message.
 
 ### See Also
 
@@ -106,7 +110,7 @@ Collection of MessageInfo.
 
 ## GetContents(MailQuery, int, int) {#getcontents_3}
 
-Gets the collection of messages.
+Gets information about a range of the messages that match a query.
 
 ```csharp
 public MessageInfoCollection GetContents(MailQuery query, int startIndex, int count)
@@ -114,24 +118,24 @@ public MessageInfoCollection GetContents(MailQuery query, int startIndex, int co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents search query. |
-| startIndex | Int32 | The start message index. |
-| count | Int32 | The number of messages that will be retrieved. |
+| query | MailQuery | The search query, built with [`PersonalStorageQueryBuilder`](../../personalstoragequerybuilder/). |
+| startIndex | Int32 | The zero-based index of the first message to return. |
+| count | Int32 | The maximum number of messages to return. |
 
 ### Return Value
 
-Collection of MessageInfo.
+Information about the messages. Use `PersonalStorage.ExtractMessage` to load a full message.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | throws, if startIndex less than 0. |
-| ArgumentOutOfRangeException | throws, if startIndex more or equal to total message count that folder contains. |
+| ArgumentOutOfRangeException | *startIndex* is less than 0. |
+| ArgumentOutOfRangeException | *startIndex* is greater than or equal to the number of messages in the folder, which includes any start index in an empty folder. |
 
 ## Remarks
 
-If "count" param is less than 0 or more than remained message count then remained message count will be returned.
+If *count* is negative or greater than the number of remaining messages, all remaining messages are returned.
 
 ### See Also
 
@@ -145,7 +149,7 @@ If "count" param is less than 0 or more than remained message count then remaine
 
 ## GetContents(int, int) {#getcontents_5}
 
-Gets the collection of messages.
+Gets information about a range of the messages in the folder.
 
 ```csharp
 public MessageInfoCollection GetContents(int startIndex, int count)
@@ -153,23 +157,23 @@ public MessageInfoCollection GetContents(int startIndex, int count)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| startIndex | Int32 | The start message index. |
-| count | Int32 | The number of messages that will be retrieved. |
+| startIndex | Int32 | The zero-based index of the first message to return. |
+| count | Int32 | The maximum number of messages to return. |
 
 ### Return Value
 
-Collection of MessageInfo.
+Information about the messages. Use `PersonalStorage.ExtractMessage` to load a full message.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | throws, if startIndex less than 0. |
-| ArgumentOutOfRangeException | throws, if startIndex more or equal to total message count that folder contains. |
+| ArgumentOutOfRangeException | *startIndex* is less than 0. |
+| ArgumentOutOfRangeException | *startIndex* is greater than or equal to the number of messages in the folder, which includes any start index in an empty folder. |
 
 ## Remarks
 
-If "count" param is less than 0 or more than remained message count then remained message count will be returned.
+If *count* is negative or greater than the number of remaining messages, all remaining messages are returned.
 
 ### See Also
 

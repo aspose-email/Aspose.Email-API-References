@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.EmsAbMonitoringRpcUpdateUnits
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_MONITORING_RPC_UPDATE_UNITS
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_EMS_AB_MONITORING_RPC_UPDATE_UNITS. Property tag 0x80EC0003 data type Integer32
 type: docs
 weight: 7610
 url: /net/aspose.email.mapi/knownpropertylist/emsabmonitoringrpcupdateunits/
 ---
 ## KnownPropertyList.EmsAbMonitoringRpcUpdateUnits field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_EMS_AB_MONITORING_RPC_UPDATE_UNITS
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_EMS_AB_MONITORING_RPC_UPDATE_UNITS. Property tag: 0x80EC0003; data type: Integer32.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbMonitoringRpcUpdateUnits;

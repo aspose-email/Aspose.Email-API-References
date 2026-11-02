@@ -24,7 +24,7 @@ public MapiNote()
 
 ## MapiNote(string, string) {#constructor_1}
 
-Initializes a new instance of the [`MapiNote`](../) class.
+Initializes a new instance of the [`MapiNote`](../) class with a subject and a body.
 
 ```csharp
 public MapiNote(string subject, string body)
@@ -32,8 +32,8 @@ public MapiNote(string subject, string body)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subject | String | The message subject. |
-| body | String | The message body. |
+| subject | String | The subject (the first line of the note). |
+| body | String | The text of the note. |
 
 ### See Also
 

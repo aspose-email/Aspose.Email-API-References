@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AppointmentUnsendableRecipients
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains a list of unsendable attendees. Area Meetings Canonical name PidLidAppointmentUnsendableRecipients Alternate names dispidApptUnsendableRecips
+description: KnownPropertyList field. Contains a list of unsendable attendees. Area Meetings. Canonical name PidLidAppointmentUnsendableRecipients. Alternate names dispidApptUnsendableRecips
 type: docs
 weight: 1380
 url: /net/aspose.email.mapi/knownpropertylist/appointmentunsendablerecipients/
 ---
 ## KnownPropertyList.AppointmentUnsendableRecipients field
 
-Contains a list of unsendable attendees. Area: Meetings Canonical name: PidLidAppointmentUnsendableRecipients Alternate names: dispidApptUnsendableRecips
+Contains a list of unsendable attendees. Area: Meetings. Canonical name: PidLidAppointmentUnsendableRecipients. Alternate names: dispidApptUnsendableRecips.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentUnsendableRecipients;

@@ -1,14 +1,14 @@
 ---
 title: MailMessage.ItemId
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage property. Represents identification information about message in a mailbox
+description: MailMessage property. Gets the identifiers of the message in the mailbox it was retrieved from
 type: docs
 weight: 210
 url: /net/aspose.email/mailmessage/itemid/
 ---
 ## MailMessage.ItemId property
 
-Represents identification information about message in a mailbox.
+Gets the identifiers of the message in the mailbox it was retrieved from.
 
 ```csharp
 public virtual MailboxInfo ItemId { get; }

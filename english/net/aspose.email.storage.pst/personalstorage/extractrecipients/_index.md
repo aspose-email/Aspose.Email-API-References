@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.ExtractRecipients
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Extracts the recipients
+description: PersonalStorage method. Reads the recipients of a message without loading the whole message
 type: docs
 weight: 230
 url: /net/aspose.email.storage.pst/personalstorage/extractrecipients/
 ---
 ## ExtractRecipients(MessageInfo) {#extractrecipients}
 
-Extracts the recipients.
+Reads the recipients of a message without loading the whole message.
 
 ```csharp
 public MapiRecipientCollection ExtractRecipients(MessageInfo messageInfo)
@@ -16,11 +16,18 @@ public MapiRecipientCollection ExtractRecipients(MessageInfo messageInfo)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| messageInfo | MessageInfo | The message information. |
+| messageInfo | MessageInfo | The message. |
 
 ### Return Value
 
 The [`MapiRecipientCollection`](../../../aspose.email.mapi/mapirecipientcollection/) that represents the collection of recipients.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *messageInfo* is `null`. |
+| InvalidOperationException | The entry ID of *messageInfo* is empty. |
 
 ### See Also
 
@@ -34,7 +41,7 @@ The [`MapiRecipientCollection`](../../../aspose.email.mapi/mapirecipientcollecti
 
 ## ExtractRecipients(string) {#extractrecipients_1}
 
-Extracts the recipients.
+Reads the recipients of a message without loading the whole message.
 
 ```csharp
 public MapiRecipientCollection ExtractRecipients(string entryId)
@@ -42,11 +49,18 @@ public MapiRecipientCollection ExtractRecipients(string entryId)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | String | The message entryId. |
+| entryId | String | The entry ID of the message. |
 
 ### Return Value
 
 The [`MapiRecipientCollection`](../../../aspose.email.mapi/mapirecipientcollection/) that represents the collection of recipients.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *entryId* is `null` or empty. |
+| InvalidOperationException | *entryId* is not valid. |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.EnumerateMessages
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Exposes the enumerator which supports an iteration of messages in folder
+description: PersonalStorage method. Enumerates the messages of the folder with the specified entry ID
 type: docs
 weight: 190
 url: /net/aspose.email.storage.pst/personalstorage/enumeratemessages/
 ---
 ## EnumerateMessages(string) {#enumeratemessages}
 
-Exposes the enumerator, which supports an iteration of messages in folder.
+Enumerates the messages of the folder with the specified entry ID.
 
 ```csharp
 public IEnumerable<MessageInfo> EnumerateMessages(string entryId)
@@ -16,11 +16,11 @@ public IEnumerable<MessageInfo> EnumerateMessages(string entryId)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | String | The string that represents a parent folder entry ID. |
+| entryId | String | The entry ID of the folder. |
 
 ### Return Value
 
-IEnumerable, that represents an enumerator that iterates through a messages in folder.
+Information about the messages. They are read from the file as the sequence is enumerated.
 
 ### See Also
 
@@ -33,7 +33,7 @@ IEnumerable, that represents an enumerator that iterates through a messages in f
 
 ## EnumerateMessages(string, int, int) {#enumeratemessages_1}
 
-Exposes the enumerator, which supports an iteration of messages in folder.
+Enumerates a range of the messages of the folder with the specified entry ID.
 
 ```csharp
 public IEnumerable<MessageInfo> EnumerateMessages(string entryId, int startIndex, int count)
@@ -41,13 +41,13 @@ public IEnumerable<MessageInfo> EnumerateMessages(string entryId, int startIndex
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | String | The string that represents a parent folder entry ID. |
-| startIndex | Int32 | The start message index. |
-| count | Int32 | The number of messages that will be retrieved. |
+| entryId | String | The entry ID of the folder. |
+| startIndex | Int32 | The zero-based index of the first message to return. |
+| count | Int32 | The maximum number of messages to return. |
 
 ### Return Value
 
-IEnumerable, that represents an enumerator that iterates through a messages in folder.
+Information about the messages. They are read from the file as the sequence is enumerated.
 
 ### See Also
 

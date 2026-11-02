@@ -1,14 +1,14 @@
 ---
 title: Attachment.NameEncoding
 second_title: Aspose.Email for .NET API Reference
-description: Attachment property. Gets or sets an encoding of attachment name
+description: Attachment property. Gets or sets the encoding used for the file name of the attachment in the headers
 type: docs
 weight: 80
 url: /net/aspose.email/attachment/nameencoding/
 ---
 ## Attachment.NameEncoding property
 
-Gets or sets an encoding of attachment name
+Gets or sets the encoding used for the file name of the attachment in the headers.
 
 ```csharp
 public Encoding NameEncoding { get; set; }

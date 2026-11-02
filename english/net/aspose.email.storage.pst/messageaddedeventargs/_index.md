@@ -8,7 +8,7 @@ url: /net/aspose.email.storage.pst/messageaddedeventargs/
 ---
 ## MessageAddedEventArgs class
 
-Provides data for the [`MessageAdded`](../folderinfo/messageadded/) event
+Provides data for the [`MessageAdded`](../folderinfo/messageadded/) event.
 
 ```csharp
 public class MessageAddedEventArgs : EventArgs
@@ -24,7 +24,7 @@ public class MessageAddedEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [EntryId](../../aspose.email.storage.pst/messageaddedeventargs/entryid/) { get; } | Gets the string that represents the EntryId of the added message. |
+| [EntryId](../../aspose.email.storage.pst/messageaddedeventargs/entryid/) { get; } | Gets the entry ID of the added message. |
 | [Message](../../aspose.email.storage.pst/messageaddedeventargs/message/) { get; } | Gets the message that has been added. |
 
 ### See Also

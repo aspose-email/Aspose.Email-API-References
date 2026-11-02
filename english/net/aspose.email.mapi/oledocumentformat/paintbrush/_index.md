@@ -1,14 +1,14 @@
 ---
 title: OleDocumentFormat.Paintbrush
 second_title: Aspose.Email for .NET API Reference
-description: OleDocumentFormat property. Paintbrush type
+description: OleDocumentFormat property. Gets the format of a Paintbrush image
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/oledocumentformat/paintbrush/
 ---
 ## OleDocumentFormat.Paintbrush property
 
-Paintbrush type.
+Gets the format of a Paintbrush image.
 
 ```csharp
 public static OleDocumentFormat Paintbrush { get; }

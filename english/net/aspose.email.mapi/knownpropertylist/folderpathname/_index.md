@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.FolderPathname
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_FOLDER_PATHNAME
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_FOLDER_PATHNAME. Property tag 0x66B5001E data type String8
 type: docs
 weight: 10520
 url: /net/aspose.email.mapi/knownpropertylist/folderpathname/
 ---
 ## KnownPropertyList.FolderPathname field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_FOLDER_PATHNAME
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_FOLDER_PATHNAME. Property tag: 0x66B5001E; data type: String8.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FolderPathname;

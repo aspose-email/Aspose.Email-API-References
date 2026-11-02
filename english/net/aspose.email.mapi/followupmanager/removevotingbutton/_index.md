@@ -1,14 +1,14 @@
 ---
 title: FollowUpManager.RemoveVotingButton
 second_title: Aspose.Email for .NET API Reference
-description: FollowUpManager method. Removes the voting button
+description: FollowUpManager method. Removes a voting button from the message
 type: docs
 weight: 120
 url: /net/aspose.email.mapi/followupmanager/removevotingbutton/
 ---
 ## FollowUpManager.RemoveVotingButton method
 
-Removes the voting button.
+Removes a voting button from the message.
 
 ```csharp
 public static void RemoveVotingButton(MapiMessageItemBase message, string displayName)
@@ -16,8 +16,8 @@ public static void RemoveVotingButton(MapiMessageItemBase message, string displa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which the voting button is removed. |
-| displayName | String | The display name of button. |
+| message | MapiMessageItemBase | The message to change. |
+| displayName | String | The text of the button to remove. |
 
 ### Exceptions
 

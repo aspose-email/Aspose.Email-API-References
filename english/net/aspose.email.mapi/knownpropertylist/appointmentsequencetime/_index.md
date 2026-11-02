@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AppointmentSequenceTime
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Indicates the date and time at which the PidLidAppointmentSequence property section 2.25 was last modified. Area Meetings Canonical name PidLidAppointmentSequenceTime Alternate names dispidApptSeqTime
+description: KnownPropertyList field. Indicates the date and time at which the PidLidAppointmentSequence property section 2.25 was last modified. Area Meetings. Canonical name PidLidAppointmentSequenceTime. Alternate names dispidApptSeqTime
 type: docs
 weight: 1290
 url: /net/aspose.email.mapi/knownpropertylist/appointmentsequencetime/
 ---
 ## KnownPropertyList.AppointmentSequenceTime field
 
-Indicates the date and time at which the PidLidAppointmentSequence property (section 2.25) was last modified. Area: Meetings Canonical name: PidLidAppointmentSequenceTime Alternate names: dispidApptSeqTime
+Indicates the date and time at which the PidLidAppointmentSequence property (section 2.25) was last modified. Area: Meetings. Canonical name: PidLidAppointmentSequenceTime. Alternate names: dispidApptSeqTime.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentSequenceTime;

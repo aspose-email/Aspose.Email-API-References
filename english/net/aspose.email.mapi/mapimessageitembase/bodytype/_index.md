@@ -1,14 +1,14 @@
 ---
 title: MapiMessageItemBase.BodyType
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessageItemBase property. Gets the type of the body
+description: MapiMessageItemBase property. Gets the format of the body plain text HTML or RTF
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapimessageitembase/bodytype/
 ---
 ## MapiMessageItemBase.BodyType property
 
-Gets the type of the body.
+Gets the format of the body: plain text, HTML or RTF.
 
 ```csharp
 public BodyContentType BodyType { get; }
@@ -16,7 +16,7 @@ public BodyContentType BodyType { get; }
 
 ### Property Value
 
-The type of the body.
+The format of the body.
 
 ### See Also
 

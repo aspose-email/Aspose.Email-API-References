@@ -28,10 +28,10 @@ public sealed class VCardSaveOptions : ContactSaveOptions
 | --- | --- |
 | static [Default](../../aspose.email.personalinfo.vcard/vcardsaveoptions/default/) { get; } | Gets default `VCardSaveOptions` |
 | [PreferredTextEncoding](../../aspose.email.personalinfo.vcard/vcardsaveoptions/preferredtextencoding/) { get; set; } | Gets or sets Encoding that will be used to save Contact. |
-| [ProductId](../../aspose.email.mapi/contactsaveoptions/productid/) { get; set; } | Gets or sets the product identifier that created VCard object. |
-| [SaveFormat](../../aspose.email.mapi/contactsaveoptions/saveformat/) { get; } | Gets a save format |
+| [ProductId](../../aspose.email.mapi/contactsaveoptions/productid/) { get; set; } | Gets or sets the identifier of the product that created the vCard, written to its `PRODID` property. |
+| [SaveFormat](../../aspose.email.mapi/contactsaveoptions/saveformat/) { get; } | Gets the format this options object saves to. |
 | [UseExtensions](../../aspose.email.personalinfo.vcard/vcardsaveoptions/useextensions/) { get; set; } | Gets or sets a value indicating whether the extended types can be used |
-| [Version](../../aspose.email.mapi/contactsaveoptions/version/) { get; set; } | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
+| [Version](../../aspose.email.mapi/contactsaveoptions/version/) { get; set; } | Gets or sets the vCard version to write. Used only when the contact is saved to vCard. |
 
 ### See Also
 

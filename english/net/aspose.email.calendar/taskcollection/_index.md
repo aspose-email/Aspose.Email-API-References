@@ -1,14 +1,14 @@
 ---
 title: Class TaskCollection
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.TaskCollection class. Represents a collection of Task objects
+description: Aspose.Email.Calendar.TaskCollection class. A collection of Task objects
 type: docs
 weight: 890
 url: /net/aspose.email.calendar/taskcollection/
 ---
 ## TaskCollection class
 
-Represents a collection of Task objects.
+A collection of [`Task`](../task/) objects.
 
 ```csharp
 public class TaskCollection : Collection<Task>

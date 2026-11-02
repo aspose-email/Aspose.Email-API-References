@@ -24,7 +24,7 @@ public MailException()
 
 ## MailException(string) {#constructor_1}
 
-Initializes a new instance of the [`MailException`](../) class.
+Initializes a new instance of the [`MailException`](../) class with the specified error message.
 
 ```csharp
 public MailException(string message)
@@ -32,7 +32,7 @@ public MailException(string message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | The message. |
+| message | String | The message that describes the error. |
 
 ### See Also
 
@@ -44,9 +44,16 @@ public MailException(string message)
 
 ## MailException(string, Exception) {#constructor_2}
 
+Initializes a new instance of the [`MailException`](../) class with the specified error message and a reference to the exception that caused it.
+
 ```csharp
 public MailException(string message, Exception inner)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| message | String | The message that describes the error. |
+| inner | Exception | The exception that caused this exception, or `null`. |
 
 ### See Also
 

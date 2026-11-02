@@ -1,14 +1,14 @@
 ---
 title: MapiCalendar.IsAllDay
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendar property. Gets or sets a value indicating whether the event is an allday event
+description: MapiCalendar property. Gets or sets a value indicating whether the event lasts all day
 type: docs
-weight: 90
+weight: 110
 url: /net/aspose.email.mapi/mapicalendar/isallday/
 ---
 ## MapiCalendar.IsAllDay property
 
-Gets or sets a value indicating whether the event is an all-day event
+Gets or sets a value indicating whether the event lasts all day.
 
 ```csharp
 public bool IsAllDay { get; set; }

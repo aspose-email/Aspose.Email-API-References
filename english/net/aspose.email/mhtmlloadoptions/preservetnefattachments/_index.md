@@ -1,14 +1,14 @@
 ---
 title: MhtmlLoadOptions.PreserveTnefAttachments
 second_title: Aspose.Email for .NET API Reference
-description: MhtmlLoadOptions property. Controls loading TNEF attachment behaviour. By default the value is false
+description: MhtmlLoadOptions property. Gets or sets a value indicating whether a TNEF attachment winmail.dat is kept as it is instead of being decoded into its files. The default is false
 type: docs
 weight: 20
 url: /net/aspose.email/mhtmlloadoptions/preservetnefattachments/
 ---
 ## MhtmlLoadOptions.PreserveTnefAttachments property
 
-Controls loading TNEF attachment behaviour. By default the value is false.
+Gets or sets a value indicating whether a TNEF attachment (winmail.dat) is kept as it is instead of being decoded into its files. The default is `false`.
 
 ```csharp
 public bool PreserveTnefAttachments { get; set; }
@@ -16,7 +16,7 @@ public bool PreserveTnefAttachments { get; set; }
 
 ## Remarks
 
-If a message contains a TNEF attachment (winmail.dat) and has the MIME type application/ms-tnef, then this property defines whether files from TNEF will be decoded and extracted. The winmail.dat attachment remains as it is if the property value is true.
+Applies to an attachment with the MIME type `application/ms-tnef`. When `false`, the files and the body the TNEF attachment carries are extracted into the message.
 
 ### See Also
 

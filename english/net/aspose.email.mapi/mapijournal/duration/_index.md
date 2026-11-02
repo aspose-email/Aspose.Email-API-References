@@ -1,14 +1,14 @@
 ---
 title: MapiJournal.Duration
 second_title: Aspose.Email for .NET API Reference
-description: MapiJournal property. Gets the duration of the activity
+description: MapiJournal property. Gets the duration of the activity the time from the start to the end
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.email.mapi/mapijournal/duration/
 ---
 ## MapiJournal.Duration property
 
-Gets the duration of the activity.
+Gets the duration of the activity: the time from the start to the end.
 
 ```csharp
 public TimeSpan Duration { get; }
@@ -16,7 +16,7 @@ public TimeSpan Duration { get; }
 
 ### Property Value
 
-The value that represents duration of the activity.
+The duration.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.TaskStatus
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies the status of a task. Area Tasks Canonical name PidLidTaskStatus Alternate names dispidTaskStatus
+description: KnownPropertyList field. Specifies the status of a task. Area Tasks. Canonical name PidLidTaskStatus. Alternate names dispidTaskStatus
 type: docs
 weight: 18910
 url: /net/aspose.email.mapi/knownpropertylist/taskstatus/
 ---
 ## KnownPropertyList.TaskStatus field
 
-Specifies the status of a task. Area: Tasks Canonical name: PidLidTaskStatus Alternate names: dispidTaskStatus
+Specifies the status of a task. Area: Tasks. Canonical name: PidLidTaskStatus. Alternate names: dispidTaskStatus.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskStatus;

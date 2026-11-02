@@ -1,14 +1,14 @@
 ---
 title: MapiDistributionList.DisplayName
 second_title: Aspose.Email for .NET API Reference
-description: MapiDistributionList property. Gets or sets the uservisible name of the personal distribution list
+description: MapiDistributionList property. Gets or sets the name of the distribution list
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.email.mapi/mapidistributionlist/displayname/
 ---
 ## MapiDistributionList.DisplayName property
 
-Gets or sets the user-visible name of the personal distribution list.
+Gets or sets the name of the distribution list.
 
 ```csharp
 public string DisplayName { get; set; }
@@ -16,7 +16,7 @@ public string DisplayName { get; set; }
 
 ### Property Value
 
-The display name.
+The name of the list.
 
 ### See Also
 

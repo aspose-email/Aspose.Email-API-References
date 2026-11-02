@@ -1,14 +1,14 @@
 ---
 title: PropertyDescriptor.Equals
 second_title: Aspose.Email for .NET API Reference
-description: PropertyDescriptor method. Indicates whether the current object is equal to another object of the same type
+description: PropertyDescriptor method. Determines whether the specified descriptor describes the same property
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/propertydescriptor/equals/
 ---
 ## PropertyDescriptor.Equals method
 
-Indicates whether the current object is equal to another object of the same type.
+Determines whether the specified descriptor describes the same property.
 
 ```csharp
 public abstract bool Equals(PropertyDescriptor other)
@@ -16,11 +16,11 @@ public abstract bool Equals(PropertyDescriptor other)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | PropertyDescriptor | An object to compare with this object. |
+| other | PropertyDescriptor | The descriptor to compare with. |
 
 ### Return Value
 
-true if the current object is equal to the other parameter; otherwise, false.
+`true` if *other* describes the same property; otherwise, `false`.
 
 ### See Also
 

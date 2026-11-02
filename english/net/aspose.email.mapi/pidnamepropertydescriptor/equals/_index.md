@@ -1,26 +1,27 @@
 ---
 title: PidNamePropertyDescriptor.Equals
 second_title: Aspose.Email for .NET API Reference
-description: PidNamePropertyDescriptor method. Determines whether the specified System.Object is equal to the current System.Object
+description: PidNamePropertyDescriptor method. Determines whether the specified object is equal to this descriptor
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/pidnamepropertydescriptor/equals/
 ---
 ## Equals(object) {#equals_1}
 
-Determines whether the specified System.Object is equal to the current System.Object.
+Determines whether the specified object is equal to this descriptor.
 
 ```csharp
 public override bool Equals(object other)
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | Object | The object to compare with the current object. |
+| Parameter | Description |
+| --- | --- |
+| obj | The object to compare with the current object. |
+| other | The object to compare with. |
 
 ### Return Value
 
-true if the specified System.Object is equal to the current System.Object; otherwise, false.
+`true` if *other* describes the same property; otherwise, `false`.
 
 ### See Also
 
@@ -32,7 +33,7 @@ true if the specified System.Object is equal to the current System.Object; other
 
 ## Equals(PropertyDescriptor) {#equals}
 
-Indicates whether the current object is equal to another object of the same type.
+Determines whether the specified descriptor describes the same property.
 
 ```csharp
 public override bool Equals(PropertyDescriptor other)
@@ -40,11 +41,11 @@ public override bool Equals(PropertyDescriptor other)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | PropertyDescriptor | An object to compare with this object. |
+| other | PropertyDescriptor | The descriptor to compare with. |
 
 ### Return Value
 
-true if the current object is equal to the other parameter; otherwise, false.
+`true` if *other* describes the same property; otherwise, `false`.
 
 ### See Also
 

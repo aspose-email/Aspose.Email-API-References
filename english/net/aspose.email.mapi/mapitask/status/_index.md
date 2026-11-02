@@ -1,14 +1,14 @@
 ---
 title: MapiTask.Status
 second_title: Aspose.Email for .NET API Reference
-description: MapiTask property. Gets or sets the status of the users progress on the task
+description: MapiTask property. Gets or sets the progress status of the task not started in progress complete and so on
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.email.mapi/mapitask/status/
 ---
 ## MapiTask.Status property
 
-Gets or sets the status of the user's progress on the task.
+Gets or sets the progress status of the task: not started, in progress, complete and so on.
 
 ```csharp
 public MapiTaskStatus Status { get; set; }

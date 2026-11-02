@@ -1,14 +1,14 @@
 ---
 title: Class GlobalFormattingOptions
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.GlobalFormattingOptions class. Class that allow to set some formatting options for all newly created instances of this options
+description: Aspose.Email.GlobalFormattingOptions class. The default header formats for every new HtmlSaveOptions and MhtSaveOptions object
 type: docs
 weight: 16240
 url: /net/aspose.email/globalformattingoptions/
 ---
 ## GlobalFormattingOptions class
 
-Class that allow to set some formatting options for all newly created instances of this options.
+The default header formats for every new [`HtmlSaveOptions`](../htmlsaveoptions/) and [`MhtSaveOptions`](../mhtsaveoptions/) object.
 
 ```csharp
 public static class GlobalFormattingOptions
@@ -18,10 +18,14 @@ public static class GlobalFormattingOptions
 
 | Name | Description |
 | --- | --- |
-| static [AfterHeadersFormat](../../aspose.email/globalformattingoptions/afterheadersformat/) { get; set; } | AfterHeadersFormat for instances of HeadersFormattingOptions if AfterHeadersFormat is not set. |
-| static [BeforeHeadersFormat](../../aspose.email/globalformattingoptions/beforeheadersformat/) { get; set; } | BeforeHeadersFormat for instances of HeadersFormattingOptions if BeforeHeadersFormat is not set. |
-| static [HeaderFormat](../../aspose.email/globalformattingoptions/headerformat/) { get; set; } | HeaderFormat for instances of HeadersFormattingOptions if DefaultHeaderFormat is not set. |
-| static [PageHeaderFormat](../../aspose.email/globalformattingoptions/pageheaderformat/) { get; set; } | PageHeaderFormat for instances of HeadersFormattingOptions if DefaultPageHeaderFormat is not set. |
+| static [AfterHeadersFormat](../../aspose.email/globalformattingoptions/afterheadersformat/) { get; set; } | Gets or sets the default for [`AfterHeadersFormat`](../headersformattingoptions/afterheadersformat/). |
+| static [BeforeHeadersFormat](../../aspose.email/globalformattingoptions/beforeheadersformat/) { get; set; } | Gets or sets the default for [`BeforeHeadersFormat`](../headersformattingoptions/beforeheadersformat/). |
+| static [HeaderFormat](../../aspose.email/globalformattingoptions/headerformat/) { get; set; } | Gets or sets the default for [`DefaultHeaderFormat`](../headersformattingoptions/defaultheaderformat/). |
+| static [PageHeaderFormat](../../aspose.email/globalformattingoptions/pageheaderformat/) { get; set; } | Gets or sets the default for [`DefaultPageHeaderFormat`](../headersformattingoptions/defaultpageheaderformat/). |
+
+## Remarks
+
+A value set here is used by every save options object created afterwards whose own format is not set.
 
 ### See Also
 

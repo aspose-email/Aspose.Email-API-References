@@ -24,7 +24,7 @@ public MapiContactProfessionalPropertySet()
 
 ## MapiContactProfessionalPropertySet(string, string) {#constructor_2}
 
-Initializes a new instance of the [`MapiContactProfessionalPropertySet`](../) class.
+Initializes a new instance of the [`MapiContactProfessionalPropertySet`](../) class with the company and the job title.
 
 ```csharp
 public MapiContactProfessionalPropertySet(string companyName, string title)
@@ -32,8 +32,8 @@ public MapiContactProfessionalPropertySet(string companyName, string title)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| companyName | String | Name of the company. |
-| title | String | The title. |
+| companyName | String | The name of the company. |
+| title | String | The job title. |
 
 ### See Also
 
@@ -45,7 +45,7 @@ public MapiContactProfessionalPropertySet(string companyName, string title)
 
 ## MapiContactProfessionalPropertySet(MapiPropertyCollection) {#constructor_1}
 
-Initializes a new instance of the [`MapiContactProfessionalPropertySet`](../) class
+Initializes a new instance of the [`MapiContactProfessionalPropertySet`](../) class from contact properties.
 
 ```csharp
 public MapiContactProfessionalPropertySet(MapiPropertyCollection properties)
@@ -53,7 +53,7 @@ public MapiContactProfessionalPropertySet(MapiPropertyCollection properties)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| properties | MapiPropertyCollection | A [`MapiPropertyCollection`](../../mapipropertycollection/) containing contact professional properties |
+| properties | MapiPropertyCollection | The properties that contain the professional details. |
 
 ### See Also
 

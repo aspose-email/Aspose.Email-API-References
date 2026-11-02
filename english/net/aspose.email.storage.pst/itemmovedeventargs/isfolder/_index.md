@@ -1,14 +1,14 @@
 ---
 title: ItemMovedEventArgs.IsFolder
 second_title: Aspose.Email for .NET API Reference
-description: ItemMovedEventArgs property. Return true if entry refers to a Folder
+description: ItemMovedEventArgs property. Gets a value indicating whether the moved item is a folder
 type: docs
 weight: 40
 url: /net/aspose.email.storage.pst/itemmovedeventargs/isfolder/
 ---
 ## ItemMovedEventArgs.IsFolder property
 
-Return true, if entry refers to a Folder
+Gets a value indicating whether the moved item is a folder.
 
 ```csharp
 public bool IsFolder { get; }

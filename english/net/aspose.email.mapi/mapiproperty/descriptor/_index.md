@@ -1,14 +1,14 @@
 ---
 title: MapiProperty.Descriptor
 second_title: Aspose.Email for .NET API Reference
-description: MapiProperty property. Gets descriptor of MAPI property
+description: MapiProperty property. Gets the descriptor of the property
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapiproperty/descriptor/
 ---
 ## MapiProperty.Descriptor property
 
-Gets descriptor of MAPI property
+Gets the descriptor of the property.
 
 ```csharp
 public PropertyDescriptor Descriptor { get; }

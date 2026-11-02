@@ -1,14 +1,14 @@
 ---
 title: MapiNamedPropertyMappingStorage.AddNamedPropertyMapping
 second_title: Aspose.Email for .NET API Reference
-description: MapiNamedPropertyMappingStorage method. Adds the named property mapping for numeric named property
+description: MapiNamedPropertyMappingStorage method. Registers a property as a named property with a numeric ID
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapinamedpropertymappingstorage/addnamedpropertymapping/
 ---
 ## AddNamedPropertyMapping(MapiProperty, long, Guid) {#addnamedpropertymapping}
 
-Adds the named property mapping for numeric named property.
+Registers a property as a named property with a numeric ID.
 
 ```csharp
 public void AddNamedPropertyMapping(MapiProperty property, long nameId, Guid guid)
@@ -16,9 +16,9 @@ public void AddNamedPropertyMapping(MapiProperty property, long nameId, Guid gui
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| property | MapiProperty | The property to add mapping for. |
-| nameId | Int64 | The name id. |
-| guid | Guid | The GUID identifying property set. |
+| property | MapiProperty | The property; its tag must be in the named property range. |
+| nameId | Int64 | The numeric ID (LID) of the named property. |
+| guid | Guid | The GUID of the property set. |
 
 ## Remarks
 
@@ -35,7 +35,7 @@ public void AddNamedPropertyMapping(MapiProperty property, long nameId, Guid gui
 
 ## AddNamedPropertyMapping(MapiProperty, string, Guid) {#addnamedpropertymapping_1}
 
-Adds the named property mapping for string named property.
+Registers a property as a named property with a string name.
 
 ```csharp
 public void AddNamedPropertyMapping(MapiProperty property, string nameId, Guid guid)
@@ -43,9 +43,9 @@ public void AddNamedPropertyMapping(MapiProperty property, string nameId, Guid g
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| property | MapiProperty | The property to add mapping for. |
-| nameId | String | The name id. |
-| guid | Guid | The GUID identifying property set. |
+| property | MapiProperty | The property; its tag must be in the named property range. |
+| nameId | String | The name of the named property. |
+| guid | Guid | The GUID of the property set. |
 
 ## Remarks
 

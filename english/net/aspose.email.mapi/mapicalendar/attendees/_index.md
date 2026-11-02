@@ -1,14 +1,14 @@
 ---
 title: MapiCalendar.Attendees
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendar property. Gets or sets the attendees
+description: MapiCalendar property. Gets or sets the attendees of the meeting
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.email.mapi/mapicalendar/attendees/
 ---
 ## MapiCalendar.Attendees property
 
-Gets or sets the attendees
+Gets or sets the attendees of the meeting.
 
 ```csharp
 public MapiCalendarAttendees Attendees { get; set; }

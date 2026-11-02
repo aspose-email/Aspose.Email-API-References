@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.ConvertTo
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Converts the current object to the specified format
+description: PersonalStorage method. Converts the open file to the specified format
 type: docs
 weight: 150
 url: /net/aspose.email.storage.pst/personalstorage/convertto/
 ---
 ## PersonalStorage.ConvertTo method
 
-Converts the current object to the specified format.
+Converts the open file to the specified format.
 
 ```csharp
 public void ConvertTo(FileFormat format)
@@ -16,11 +16,11 @@ public void ConvertTo(FileFormat format)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | FileFormat | The FileFormat to convert the current object to. |
+| format | FileFormat | The format to convert to. |
 
 ## Remarks
 
-It is used for the fast OST to PST conversion. The method doesn't support conversion of OST created by MS Office 2013 and later versions. To convert an OST of later version, create a new PST and use the [`MergeWith`](../mergewith/) method.
+Use it for a fast OST to PST conversion. It does not support OST files of Outlook 2013 and later; to convert such a file, create a new PST and call its [`MergeWith`](../mergewith/) method.
 
 ### See Also
 

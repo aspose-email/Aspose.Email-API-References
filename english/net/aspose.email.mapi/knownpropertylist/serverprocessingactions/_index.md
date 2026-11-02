@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ServerProcessingActions
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Indicates what processing actions have been taken on this Meeting Request object or Meeting Update object. Area Calendar Canonical name PidLidServerProcessingActions Alternate names dispidExchangeProcessingAction
+description: KnownPropertyList field. Indicates what processing actions have been taken on this Meeting Request object or Meeting Update object. Area Calendar. Canonical name PidLidServerProcessingActions. Alternate names dispidExchangeProcessingAction
 type: docs
 weight: 17380
 url: /net/aspose.email.mapi/knownpropertylist/serverprocessingactions/
 ---
 ## KnownPropertyList.ServerProcessingActions field
 
-Indicates what processing actions have been taken on this Meeting Request object or Meeting Update object. Area: Calendar Canonical name: PidLidServerProcessingActions Alternate names: dispidExchangeProcessingAction
+Indicates what processing actions have been taken on this Meeting Request object or Meeting Update object. Area: Calendar. Canonical name: PidLidServerProcessingActions. Alternate names: dispidExchangeProcessingAction.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ServerProcessingActions;

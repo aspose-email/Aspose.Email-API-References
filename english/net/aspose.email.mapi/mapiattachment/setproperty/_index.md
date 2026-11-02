@@ -1,14 +1,14 @@
 ---
 title: MapiAttachment.SetProperty
 second_title: Aspose.Email for .NET API Reference
-description: MapiAttachment method. Sets the property
+description: MapiAttachment method. Adds the property to the attachment or replaces the property with the same tag
 type: docs
-weight: 220
+weight: 240
 url: /net/aspose.email.mapi/mapiattachment/setproperty/
 ---
 ## SetProperty(MapiProperty) {#setproperty}
 
-Sets the property.
+Adds the property to the attachment, or replaces the property with the same tag.
 
 ```csharp
 public override void SetProperty(MapiProperty value)
@@ -16,15 +16,15 @@ public override void SetProperty(MapiProperty value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | MapiProperty | The property. |
+| value | MapiProperty | The property to set. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | If *value* is null. |
-| ArgumentException | If property data is null. |
-| InvalidOperationException | If data type is not supported. |
+| ArgumentNullException | *value* is `null`. |
+| ArgumentException | The data of the property is `null`. |
+| InvalidOperationException | The data type of the property is not supported. |
 
 ### See Also
 
@@ -37,7 +37,7 @@ public override void SetProperty(MapiProperty value)
 
 ## SetProperty(PropertyDescriptor, object) {#setproperty_1}
 
-Sets MAPI property.
+Sets the value of a MAPI property of the attachment.
 
 ```csharp
 public override void SetProperty(PropertyDescriptor pd, object value)
@@ -45,8 +45,8 @@ public override void SetProperty(PropertyDescriptor pd, object value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pd | PropertyDescriptor | The property descriptor. |
-| value | Object | The property data. |
+| pd | PropertyDescriptor | The descriptor of the property, for example one from [`KnownPropertyList`](../../knownpropertylist/). |
+| value | Object | The value, of a .NET type that matches the data type of the property. |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: MapiTaskUsers.Delegator
 second_title: Aspose.Email for .NET API Reference
-description: MapiTaskUsers property. Gets or sets task delegator
+description: MapiTaskUsers property. Gets or sets the name of the user who delegated the task
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapitaskusers/delegator/
 ---
 ## MapiTaskUsers.Delegator property
 
-Gets or sets task delegator.
+Gets or sets the name of the user who delegated the task.
 
 ```csharp
 public string Delegator { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.SenderSmtpAddress
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage property. Gets or sets the message senders email address
+description: MapiMessage property. Gets or sets the SMTP address of the sender
 type: docs
 weight: 270
 url: /net/aspose.email.mapi/mapimessage/sendersmtpaddress/
 ---
 ## MapiMessage.SenderSmtpAddress property
 
-Gets or sets the message sender's e-mail address.
+Gets or sets the SMTP address of the sender.
 
 ```csharp
 public string SenderSmtpAddress { get; set; }
@@ -16,17 +16,17 @@ public string SenderSmtpAddress { get; set; }
 
 ### Property Value
 
-The string that represents sender email address.
+The SMTP address of the sender.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | throws if sender address is not in a recognized format. |
+| ArgumentException | The address is not valid. |
 
 ## Remarks
 
-When setting a value, the values of PR_SENDER_SEARCH_KEY and PR_SENDER_ENTRYID properties are updated as well. When setting a null value or empty string, the values of properties are set null.
+Use this property when the sender address is of another type, such as an Exchange (`EX`) address. Setting the address also updates the search key and the EntryID of the sender; setting `null` or an empty string clears them.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: Class MapiCalendar
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendar class. Represents a MAPI calendar item
+description: Aspose.Email.Mapi.MapiCalendar class. Represents an Outlook calendar item an appointment or a meeting
 type: docs
 weight: 16700
 url: /net/aspose.email.mapi/mapicalendar/
 ---
 ## MapiCalendar class
 
-Represents a MAPI calendar item.
+Represents an Outlook calendar item: an appointment or a meeting.
 
 ```csharp
 public sealed class MapiCalendar : MapiMessageItemBase
@@ -18,95 +18,113 @@ public sealed class MapiCalendar : MapiMessageItemBase
 
 | Name | Description |
 | --- | --- |
-| [MapiCalendar](mapicalendar/#constructor)() | Initializes a new instance of the `MapiCalendar` class |
-| [MapiCalendar](mapicalendar/#constructor_1)(string, string, string, DateTime, DateTime) | Initializes a new instance of the `MapiCalendar` class. |
-| [MapiCalendar](mapicalendar/#constructor_2)(string, string, string, DateTime, DateTime, MapiElectronicAddress, MapiRecipientCollection) | Initializes a new instance of the `MapiCalendar` class. |
-| [MapiCalendar](mapicalendar/#constructor_3)(string, string, string, DateTime, DateTime, string, MapiRecipientCollection) | Initializes a new instance of the `MapiCalendar` class. |
+| [MapiCalendar](mapicalendar/#constructor)() | Initializes a new instance of the `MapiCalendar` class. |
+| [MapiCalendar](mapicalendar/#constructor_1)(string, string, string, DateTime, DateTime) | Initializes a new instance of the `MapiCalendar` class that represents an appointment. |
+| [MapiCalendar](mapicalendar/#constructor_2)(string, string, string, DateTime, DateTime, MapiElectronicAddress, MapiRecipientCollection) | Initializes a new instance of the `MapiCalendar` class that represents a meeting. |
+| [MapiCalendar](mapicalendar/#constructor_3)(string, string, string, DateTime, DateTime, string, MapiRecipientCollection) | Initializes a new instance of the `MapiCalendar` class that represents a meeting. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [AppointmentCounterProposal](../../aspose.email.mapi/mapicalendar/appointmentcounterproposal/) { get; set; } | Gets or sets a value indicating whether a Meeting Response object is a counter proposal. |
-| [Attachments](../../aspose.email.mapi/mapicalendar/attachments/) { get; } | Gets the attachment collection. |
-| [Attendees](../../aspose.email.mapi/mapicalendar/attendees/) { get; set; } | Gets or sets the attendees |
-| [Billing](../../aspose.email.mapi/mapimessageitembase/billing/) { get; set; } | Contains the billing information associated with an item. |
-| [Body](../../aspose.email.mapi/mapimessageitembase/body/) { get; set; } | Gets the message text. |
-| [BodyHtml](../../aspose.email.mapi/mapimessageitembase/bodyhtml/) { get; } | Gets the [`BodyRtf`](../mapimessageitembase/bodyrtf/) of the message converted to HTML, if present, otherwise an empty string. |
-| [BodyRtf](../../aspose.email.mapi/mapimessageitembase/bodyrtf/) { get; set; } | Gets or sets the RTF formatted message text. |
-| [BodyType](../../aspose.email.mapi/mapimessageitembase/bodytype/) { get; } | Gets the type of the body. |
-| [BusyStatus](../../aspose.email.mapi/mapicalendar/busystatus/) { get; set; } | Gets or sets the busy status |
-| [Categories](../../aspose.email.mapi/mapimessageitembase/categories/) { get; set; } | Contains keywords or categories for the message object. |
-| [ClientIntent](../../aspose.email.mapi/mapicalendar/clientintent/) { get; set; } | Gets or sets the actions the user has taken on this Meeting object. |
-| virtual [CodePage](../../aspose.email.mapi/mapipropertycontainer/codepage/) { get; } | Gets the code page. |
-| [Companies](../../aspose.email.mapi/mapimessageitembase/companies/) { get; set; } | Contains the names of the companies that are associated with an item. |
-| [EndDate](../../aspose.email.mapi/mapicalendar/enddate/) { get; set; } | Gets or sets the end date and time of the event. If the date is not set, default value for DateTime is returned. |
-| [EndDateTimeZone](../../aspose.email.mapi/mapicalendar/enddatetimezone/) { get; set; } | Gets or sets time zone information that indicates the time zone of the EndDate property |
-| [IsAllDay](../../aspose.email.mapi/mapicalendar/isallday/) { get; set; } | Gets or sets a value indicating whether the event is an all-day event |
-| virtual [ItemId](../../aspose.email.mapi/mapimessageitembase/itemid/) { get; } | The item id, uses with a server |
-| [KeyWords](../../aspose.email.mapi/mapicalendar/keywords/) { get; set; } | Gets or sets the categories of the calendar object |
-| [Location](../../aspose.email.mapi/mapicalendar/location/) { get; set; } | Gets or sets the location of the event |
-| [MessageClass](../../aspose.email.mapi/mapimessageitembase/messageclass/) { get; set; } | Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. The message class specifies the type, purpose, or content of the message. |
-| [Mileage](../../aspose.email.mapi/mapimessageitembase/mileage/) { get; set; } | Contains the mileage information that is associated with an item. |
-| [NamedProperties](../../aspose.email.mapi/mapimessageitembase/namedproperties/) { get; } | Gets the named properties of message. |
-| [NamedPropertyMapping](../../aspose.email.mapi/mapimessageitembase/namedpropertymapping/) { get; } | Gets the named property mapping. |
-| [Organizer](../../aspose.email.mapi/mapicalendar/organizer/) { get; set; } | Gets or sets the organizer. |
-| [ProductId](../../aspose.email.mapi/mapicalendar/productid/) { get; set; } | Gets or sets the id of product that created this appointment. |
-| virtual [Properties](../../aspose.email.mapi/mapipropertycontainer/properties/) { get; } | Gets the collection of properties. |
-| [PropertyStream](../../aspose.email.mapi/mapimessageitembase/propertystream/) { get; } | Gets the property stream. |
-| [Recipients](../../aspose.email.mapi/mapimessageitembase/recipients/) { get; set; } | Gets the recipients of the message. |
-| [Recurrence](../../aspose.email.mapi/mapicalendar/recurrence/) { get; set; } | Gets or sets the recurrence properties |
-| [ReminderDelta](../../aspose.email.mapi/mapicalendar/reminderdelta/) { get; set; } | Gets or sets the interval, in minutes, between the time at which the reminder first becomes overdue and the start time of the Calendar object |
-| [ReminderFileParameter](../../aspose.email.mapi/mapicalendar/reminderfileparameter/) { get; set; } | Specifies the full path of the sound that a client SHOULD play when the reminder becomes overdue. |
-| [ReminderSet](../../aspose.email.mapi/mapicalendar/reminderset/) { get; set; } | Gets or sets a value indicating whether a reminder is set on the object |
-| [Sensitivity](../../aspose.email.mapi/mapimessageitembase/sensitivity/) { get; set; } | Gets the Sensitivity. |
-| [Sequence](../../aspose.email.mapi/mapicalendar/sequence/) { get; set; } | Gets or sets the sequence number |
-| [StartDate](../../aspose.email.mapi/mapicalendar/startdate/) { get; set; } | Gets or sets the start date and time of the event. If the date is not set, default value for DateTime is returned. |
-| [StartDateTimeZone](../../aspose.email.mapi/mapicalendar/startdatetimezone/) { get; set; } | Gets or sets time zone information that indicates the time zone of the StartDate property |
+| [AppointmentCounterProposal](../../aspose.email.mapi/mapicalendar/appointmentcounterproposal/) { get; set; } | Gets or sets a value indicating whether a meeting response proposes a new time for the meeting. |
+| [Attachments](../../aspose.email.mapi/mapicalendar/attachments/) { get; } | Gets the attachments of the calendar item. |
+| [Attendees](../../aspose.email.mapi/mapicalendar/attendees/) { get; set; } | Gets or sets the attendees of the meeting. |
+| [Billing](../../aspose.email.mapi/mapimessageitembase/billing/) { get; set; } | Gets or sets the billing information of the item. |
+| [Body](../../aspose.email.mapi/mapimessageitembase/body/) { get; set; } | Gets or sets the plain-text body of the item. |
+| [BodyHtml](../../aspose.email.mapi/mapimessageitembase/bodyhtml/) { get; } | Gets the body of the item as HTML, converted from [`BodyRtf`](../mapimessageitembase/bodyrtf/); an empty string when there is no RTF body. |
+| [BodyRtf](../../aspose.email.mapi/mapimessageitembase/bodyrtf/) { get; set; } | Gets or sets the body of the item in RTF format. |
+| [BodyType](../../aspose.email.mapi/mapimessageitembase/bodytype/) { get; } | Gets the format of the body: plain text, HTML or RTF. |
+| [BusyStatus](../../aspose.email.mapi/mapicalendar/busystatus/) { get; set; } | Gets or sets how the time of the event is shown in the calendar: free, tentative, busy or out of office. |
+| [Categories](../../aspose.email.mapi/mapimessageitembase/categories/) { get; set; } | Gets or sets the categories of the item. |
+| [ClientIntent](../../aspose.email.mapi/mapicalendar/clientintent/) { get; set; } | Gets or sets the actions the user has taken on the meeting. |
+| virtual [CodePage](../../aspose.email.mapi/mapipropertycontainer/codepage/) { get; } | Gets the code page of the ANSI strings of the object. |
+| [Companies](../../aspose.email.mapi/mapimessageitembase/companies/) { get; set; } | Gets or sets the names of the companies associated with the item. |
+| [EndDate](../../aspose.email.mapi/mapicalendar/enddate/) { get; set; } | Gets or sets the end date and time of the event. Returns `DateTime.MinValue` when the date is not set. |
+| [EndDateTimeZone](../../aspose.email.mapi/mapicalendar/enddatetimezone/) { get; set; } | Gets or sets the time zone of [`EndDate`](./enddate/). |
+| [IsAllDay](../../aspose.email.mapi/mapicalendar/isallday/) { get; set; } | Gets or sets a value indicating whether the event lasts all day. |
+| virtual [ItemId](../../aspose.email.mapi/mapimessageitembase/itemid/) { get; } | Gets the identifier of the item on the mail server, for items obtained from a server; `null` otherwise. |
+| [KeyWords](../../aspose.email.mapi/mapicalendar/keywords/) { get; set; } | Gets or sets the categories of the calendar item. |
+| [Location](../../aspose.email.mapi/mapicalendar/location/) { get; set; } | Gets or sets the location of the event. |
+| [MessageClass](../../aspose.email.mapi/mapimessageitembase/messageclass/) { get; set; } | Gets or sets the message class of the item, such as `IPM.Note` for an e-mail message. The class determines the type of the item. |
+| [Mileage](../../aspose.email.mapi/mapimessageitembase/mileage/) { get; set; } | Gets or sets the mileage information of the item. |
+| [NamedProperties](../../aspose.email.mapi/mapimessageitembase/namedproperties/) { get; } | Gets the named properties of the item. |
+| [NamedPropertyMapping](../../aspose.email.mapi/mapimessageitembase/namedpropertymapping/) { get; } | Gets the mapping between the named properties and the tags they are stored under. |
+| [Organizer](../../aspose.email.mapi/mapicalendar/organizer/) { get; set; } | Gets or sets the organizer of the meeting. |
+| [ProductId](../../aspose.email.mapi/mapicalendar/productid/) { get; set; } | Gets or sets the identifier of the product that created the calendar item. |
+| virtual [Properties](../../aspose.email.mapi/mapipropertycontainer/properties/) { get; } | Gets all properties of the object. |
+| [PropertyStream](../../aspose.email.mapi/mapimessageitembase/propertystream/) { get; } | Gets the property stream of the item. |
+| [Recipients](../../aspose.email.mapi/mapimessageitembase/recipients/) { get; set; } | Gets or sets the recipients of the item. |
+| [Recurrence](../../aspose.email.mapi/mapicalendar/recurrence/) { get; set; } | Gets or sets the recurrence of the event; `null` for a single event. |
+| [ReminderDelta](../../aspose.email.mapi/mapicalendar/reminderdelta/) { get; set; } | Gets or sets how many minutes before the start of the event the reminder is due. |
+| [ReminderFileParameter](../../aspose.email.mapi/mapicalendar/reminderfileparameter/) { get; set; } | Gets or sets the full path of the sound file that is played when the reminder is due. |
+| [ReminderSet](../../aspose.email.mapi/mapicalendar/reminderset/) { get; set; } | Gets or sets a value indicating whether a reminder is set. |
+| [Sensitivity](../../aspose.email.mapi/mapimessageitembase/sensitivity/) { get; set; } | Gets or sets the sensitivity of the item: normal, personal, private or confidential. |
+| [Sequence](../../aspose.email.mapi/mapicalendar/sequence/) { get; set; } | Gets or sets the sequence number of the meeting, which is increased each time the organizer sends an update. |
+| [StartDate](../../aspose.email.mapi/mapicalendar/startdate/) { get; set; } | Gets or sets the start date and time of the event. Returns `DateTime.MinValue` when the date is not set. |
+| [StartDateTimeZone](../../aspose.email.mapi/mapicalendar/startdatetimezone/) { get; set; } | Gets or sets the time zone of [`StartDate`](./startdate/). |
 | [Subject](../../aspose.email.mapi/mapimessageitembase/subject/) { get; set; } | Gets or sets the subject of the message. |
-| [SubjectPrefix](../../aspose.email.mapi/mapimessageitembase/subjectprefix/) { get; } | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
-| [SubStorages](../../aspose.email.mapi/mapimessageitembase/substorages/) { get; } | Gets the sub storages. |
-| [SupportedType](../../aspose.email.mapi/mapimessageitembase/supportedtype/) { get; } | Gets the supported item type. |
-| [Uid](../../aspose.email.mapi/mapicalendar/uid/) { get; set; } | Gets the unique identifier |
+| [SubjectPrefix](../../aspose.email.mapi/mapimessageitembase/subjectprefix/) { get; } | Gets the prefix of the subject, such as `RE: ` or `FW: `. |
+| [SubStorages](../../aspose.email.mapi/mapimessageitembase/substorages/) { get; } | Gets the sub-storages of the item. |
+| [SupportedType](../../aspose.email.mapi/mapimessageitembase/supportedtype/) { get; } | Gets the type of the item, as determined by its message class. |
+| [Uid](../../aspose.email.mapi/mapicalendar/uid/) { get; set; } | Gets or sets the unique identifier of the event, which links a meeting request, its updates and responses. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Dispose](../../aspose.email.mapi/mapicalendar/dispose/)() | Releases all resources. |
-| override [GetProperty](../../aspose.email.mapi/mapimessageitembase/getproperty/)(PropertyDescriptor) | Gets MAPI property by property descriptor. |
-| [GetPropertyBoolean](../../aspose.email.mapi/mapipropertycontainer/getpropertyboolean/)(long) | Gets the value of the property specified by tag as Boolean type. |
-| [GetPropertyBytes](../../aspose.email.mapi/mapipropertycontainer/getpropertybytes/)(long) | Gets the string value of the property specified by tag. |
-| [GetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/getpropertydatetime/)(long) | Gets the value of the property specified by tag as DateTime type. |
-| [GetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/getpropertyint32/)(long) | Gets the int32 value of the property specified by tag. |
-| [GetPropertyLong](../../aspose.email.mapi/mapipropertycontainer/getpropertylong/)(long) | Gets the value of the property specified by tag as Long (int64) type. |
-| [GetPropertyShort](../../aspose.email.mapi/mapipropertycontainer/getpropertyshort/)(long) | Gets the value of the property specified by tag as Short type. |
-| [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring/)(long) | Gets the string value of the property specified by tag. |
-| [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring/)(long, int) | Gets the string value of the property specified by tag. |
+| static [FromIcs](../../aspose.email.mapi/mapicalendar/fromics/#fromics)(Stream) | Creates an instance of `MapiCalendar` from the specified stream. |
+| static [FromIcs](../../aspose.email.mapi/mapicalendar/fromics/#fromics_2)(string) | Creates an instance of `MapiCalendar` from the specified .ics file. |
+| static [FromIcs](../../aspose.email.mapi/mapicalendar/fromics/#fromics_1)(Stream, bool) | Creates an instance of `MapiCalendar` from the specified stream. |
+| static [FromIcs](../../aspose.email.mapi/mapicalendar/fromics/#fromics_3)(string, bool) | Creates an instance of `MapiCalendar` from the specified .ics file. |
+| static [Load](../../aspose.email.mapi/mapicalendar/load/#load)(Stream) | Loads a `MapiCalendar` from the specified stream. |
+| static [Load](../../aspose.email.mapi/mapicalendar/load/#load_1)(string) | Loads a `MapiCalendar` from the specified file. |
+| override [Dispose](../../aspose.email.mapi/mapicalendar/dispose/)() | Releases all resources used by the calendar item. |
+| override [GetProperty](../../aspose.email.mapi/mapimessageitembase/getproperty/)(PropertyDescriptor) | Gets a MAPI property of the item by its descriptor. |
+| [GetPropertyBoolean](../../aspose.email.mapi/mapipropertycontainer/getpropertyboolean/)(long) | Gets the value of a property as a Boolean. |
+| [GetPropertyBytes](../../aspose.email.mapi/mapipropertycontainer/getpropertybytes/)(long) | Gets the value of a property as bytes. |
+| [GetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/getpropertydatetime/)(long) | Gets the value of a property as a date and time. |
+| [GetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/getpropertyint32/)(long) | Gets the value of a property as a 32-bit integer. |
+| [GetPropertyLong](../../aspose.email.mapi/mapipropertycontainer/getpropertylong/)(long) | Gets the value of a property as a 64-bit integer. |
+| [GetPropertyShort](../../aspose.email.mapi/mapipropertycontainer/getpropertyshort/)(long) | Gets the value of a property as a 16-bit integer. |
+| [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring/)(long) | Gets the value of a property as a string. |
+| [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring/)(long, int) | Gets the value of a property as a string, decoding an ANSI string with the specified code page. |
 | [GetUnderlyingMessage](../../aspose.email.mapi/mapicalendar/getunderlyingmessage/)() | Retrieves the underlying MapiMessage object. |
-| [IsStoreUnicodeOk](../../aspose.email.mapi/mapipropertycontainer/isstoreunicodeok/)() | Determines if string properties are Unicode encoded or not. |
-| [RemoveProperty](../../aspose.email.mapi/mapimessageitembase/removeproperty/)(long) | Provides correctly removing property from all collections. |
-| [Save](../../aspose.email.mapi/mapicalendar/save/#save)(Stream) | Saves calendar object to the file with iCalendar format using te default save options |
-| [Save](../../aspose.email.mapi/mapicalendar/save/#save_3)(string) | Saves calendar object to the file with iCalendar format using te default save options |
-| [Save](../../aspose.email.mapi/mapicalendar/save/#save_1)(Stream, AppointmentSaveFormat) | Saves calendar object to the stream with specified format using te default save options |
-| [Save](../../aspose.email.mapi/mapicalendar/save/#save_2)(Stream, MapiCalendarSaveOptions) | Saves calendar to the stream with specified save options |
-| [Save](../../aspose.email.mapi/mapicalendar/save/#save_4)(string, AppointmentSaveFormat) | Saves calendar object to the file with specified format using te default save options |
-| [Save](../../aspose.email.mapi/mapicalendar/save/#save_5)(string, MapiCalendarSaveOptions) | Saves calendar object to the file with specified format using te default save options |
-| virtual [SetBodyContent](../../aspose.email.mapi/mapimessageitembase/setbodycontent/)(string, BodyContentType) | Sets the content of the body. |
-| virtual [SetBodyContent](../../aspose.email.mapi/mapimessageitembase/setbodycontent/)(string, BodyContentType, bool) | Sets the content of the body. |
-| [SetBodyRtf](../../aspose.email.mapi/mapimessageitembase/setbodyrtf/)(string, bool) | Gets or sets the RTF formatted message text. |
-| [SetMessageFlags](../../aspose.email.mapi/mapimessageitembase/setmessageflags/)(MapiMessageFlags) | Sets the message flags. |
-| virtual [SetProperty](../../aspose.email.mapi/mapipropertycontainer/setproperty/)(MapiProperty) | Sets the property. |
-| override [SetProperty](../../aspose.email.mapi/mapimessageitembase/setproperty/)(PropertyDescriptor, object) | Sets MAPI property. |
+| [IsStoreUnicodeOk](../../aspose.email.mapi/mapipropertycontainer/isstoreunicodeok/)() | Determines whether the string properties of the object are stored in Unicode. |
+| [RemoveProperty](../../aspose.email.mapi/mapimessageitembase/removeproperty/)(long) | Removes a property from the item, including its named-property mapping. |
+| [Save](../../aspose.email.mapi/mapicalendar/save/#save)(Stream) | Saves the calendar item to a stream in iCalendar format with the default options. |
+| [Save](../../aspose.email.mapi/mapicalendar/save/#save_3)(string) | Saves the calendar item to an iCalendar (.ics) file with the default options. |
+| [Save](../../aspose.email.mapi/mapicalendar/save/#save_1)(Stream, AppointmentSaveFormat) | Saves the calendar item to a stream in the specified format with the default options. |
+| [Save](../../aspose.email.mapi/mapicalendar/save/#save_2)(Stream, MapiCalendarSaveOptions) | Saves the calendar item to a stream with the specified options. |
+| [Save](../../aspose.email.mapi/mapicalendar/save/#save_4)(string, AppointmentSaveFormat) | Saves the calendar item to a file in the specified format with the default options. |
+| [Save](../../aspose.email.mapi/mapicalendar/save/#save_5)(string, MapiCalendarSaveOptions) | Saves the calendar item to a file with the specified options. |
+| [SaveAsync](../../aspose.email.mapi/mapicalendar/saveasync/#saveasync_2)(Stream, CancellationToken) | Saves calendar object to the file with iCalendar format using the default save options asynchronously. |
+| [SaveAsync](../../aspose.email.mapi/mapicalendar/saveasync/#saveasync_5)(string, CancellationToken) | Saves calendar object to the file with iCalendar format using the default save options asynchronously. |
+| [SaveAsync](../../aspose.email.mapi/mapicalendar/saveasync/#saveasync)(Stream, AppointmentSaveFormat, CancellationToken) | Saves calendar object to the stream with specified format using the default save options asynchronously. |
+| [SaveAsync](../../aspose.email.mapi/mapicalendar/saveasync/#saveasync_1)(Stream, MapiCalendarSaveOptions, CancellationToken) | Saves calendar to the stream with specified save options asynchronously. |
+| [SaveAsync](../../aspose.email.mapi/mapicalendar/saveasync/#saveasync_3)(string, AppointmentSaveFormat, CancellationToken) | Saves calendar object to the file with specified format using the default save options asynchronously. |
+| [SaveAsync](../../aspose.email.mapi/mapicalendar/saveasync/#saveasync_4)(string, MapiCalendarSaveOptions, CancellationToken) | Saves calendar to the file with specified save options asynchronously. |
+| virtual [SetBodyContent](../../aspose.email.mapi/mapimessageitembase/setbodycontent/)(string, BodyContentType) | Sets the body of the item in the specified format. |
+| virtual [SetBodyContent](../../aspose.email.mapi/mapimessageitembase/setbodycontent/)(string, BodyContentType, bool) | Sets the body of the item in the specified format, optionally compressing it. |
+| [SetBodyRtf](../../aspose.email.mapi/mapimessageitembase/setbodyrtf/)(string, bool) | Sets the body of the item in RTF format, optionally compressing it. |
+| [SetMessageFlags](../../aspose.email.mapi/mapimessageitembase/setmessageflags/)(MapiMessageFlags) | Sets the flags of the message, such as read or unsent. |
+| virtual [SetProperty](../../aspose.email.mapi/mapipropertycontainer/setproperty/)(MapiProperty) | Adds the property, or replaces the property with the same tag. |
+| override [SetProperty](../../aspose.email.mapi/mapimessageitembase/setproperty/)(PropertyDescriptor, object) | Sets the value of a MAPI property of the item. |
 | [SetStateForced](../../aspose.email.mapi/mapicalendar/setstateforced/)(MapiCalendarState) | Sets the state of the calendar object, overriding any default behavior. |
-| [TryGetPropertyData](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydata/)(long) | Try to get the property data with specified tag key. |
-| [TryGetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydatetime/)(long, ref DateTime) | Gets the value of the specified property as DateTime type. A return value indicates whether the operation succeeded. |
-| [TryGetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/trygetpropertyint32/)(long, ref int) | Gets the value of the specified property as Int32 type. A return value indicates whether the operation succeeded. |
-| [TryGetPropertyLong](../../aspose.email.mapi/mapipropertycontainer/trygetpropertylong/)(long, ref long) | Gets the value of the specified property as Long type. A return value indicates whether the operation succeeded. |
-| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long) | Try to get a property data as string with specified tag. |
-| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, int) | Try to get a property data as string with specified tag and code page. |
-| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string) | Gets the value of the specified property as String type. A return value indicates whether the operation succeeded. |
-| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string, int) | Gets the value of the specified property as String type. A return value indicates whether the operation succeeded. |
+| [TryGetPropertyData](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydata/)(long) | Gets the value of a property as bytes. |
+| [TryGetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydatetime/)(long, ref DateTime) | Gets the value of a property as a date and time, if the property exists. |
+| [TryGetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/trygetpropertyint32/)(long, ref int) | Gets the value of a property as a 32-bit integer, if the property exists. |
+| [TryGetPropertyLong](../../aspose.email.mapi/mapipropertycontainer/trygetpropertylong/)(long, ref long) | Gets the value of a property as a 64-bit integer, if the property exists. |
+| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long) | Gets the value of a property as a string. |
+| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, int) | Gets the value of a property as a string, decoding an ANSI string with the specified code page. |
+| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string) | Gets the value of a property as a string, if the property exists. |
+| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string, int) | Gets the value of a property as a string, if the property exists, decoding an ANSI string with the specified code page. |
+| static [FromIcsAsync](../../aspose.email.mapi/mapicalendar/fromicsasync/#fromicsasync_1)(Stream, CancellationToken) | Creates an instance of `MapiCalendar` from the specified stream asynchronously. |
+| static [FromIcsAsync](../../aspose.email.mapi/mapicalendar/fromicsasync/#fromicsasync_3)(string, CancellationToken) | Creates an instance of `MapiCalendar` from the specified .ics file asynchronously. |
+| static [FromIcsAsync](../../aspose.email.mapi/mapicalendar/fromicsasync/#fromicsasync)(Stream, bool, CancellationToken) | Creates an instance of `MapiCalendar` from the specified stream asynchronously. |
+| static [FromIcsAsync](../../aspose.email.mapi/mapicalendar/fromicsasync/#fromicsasync_2)(string, bool, CancellationToken) | Creates an instance of `MapiCalendar` from the specified .ics file asynchronously. |
+| static [LoadAsync](../../aspose.email.mapi/mapicalendar/loadasync/#loadasync)(Stream, CancellationToken) | Loads a `MapiCalendar` from the specified stream asynchronously. |
+| static [LoadAsync](../../aspose.email.mapi/mapicalendar/loadasync/#loadasync_1)(string, CancellationToken) | Loads a `MapiCalendar` from the specified file asynchronously. |
 
 ## Remarks
 

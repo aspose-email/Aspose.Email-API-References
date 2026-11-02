@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.LoadFromTnef
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage method. Loads message from Transport Neutral Encapsulation Format TNEF data structure
+description: MapiMessage method. Loads a message from a stream in TNEF format the content of a winmail.dat attachment
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapimessage/loadfromtnef/
 ---
 ## LoadFromTnef(Stream) {#loadfromtnef}
 
-Loads message from Transport Neutral Encapsulation Format (TNEF) data structure
+Loads a message from a stream in TNEF format (the content of a winmail.dat attachment).
 
 ```csharp
 public static MapiMessage LoadFromTnef(Stream stream)
@@ -16,11 +16,11 @@ public static MapiMessage LoadFromTnef(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | A stream representing message data in TNEF format |
+| stream | Stream | The stream to read. |
 
 ### Return Value
 
-A read [`MapiMessage`](../)
+The loaded message.
 
 ### Exceptions
 
@@ -39,7 +39,7 @@ A read [`MapiMessage`](../)
 
 ## LoadFromTnef(string) {#loadfromtnef_1}
 
-Loads message from Transport Neutral Encapsulation Format (TNEF) data structure
+Loads a message from a file in TNEF format, such as winmail.dat.
 
 ```csharp
 public static MapiMessage LoadFromTnef(string fileName)
@@ -47,17 +47,17 @@ public static MapiMessage LoadFromTnef(string fileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Name of file containing message data in TNEF format |
+| fileName | String | The path of the file. |
 
 ### Return Value
 
-A read [`MapiMessage`](../)
+The loaded message.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | *fileName* is `null` or `empty` |
+| ArgumentException | *fileName* is `null` or empty. |
 
 ### See Also
 

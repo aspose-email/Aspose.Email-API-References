@@ -1,14 +1,14 @@
 ---
 title: Appointment.Save
 second_title: Aspose.Email for .NET API Reference
-description: Appointment method. Saves appointment to the file with iCalendar format using te default save options
+description: Appointment method. Saves the appointment to an iCalendar ICS file
 type: docs
 weight: 380
 url: /net/aspose.email.calendar/appointment/save/
 ---
 ## Save(string) {#save_3}
 
-Saves appointment to the file with iCalendar format using te default save options
+Saves the appointment to an iCalendar (ICS) file.
 
 ```csharp
 public void Save(string filePath)
@@ -16,13 +16,13 @@ public void Save(string filePath)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | A file path |
+| filePath | String | The path of the file to create. An existing file is overwritten. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | *filePath* is `null` or `empty` |
+| ArgumentException | *filePath* is `null` or empty. |
 
 ### See Also
 
@@ -34,7 +34,7 @@ public void Save(string filePath)
 
 ## Save(string, AppointmentSaveFormat) {#save_4}
 
-Saves appointment to the file with specified format using te default save options
+Saves the appointment to a file in the specified format, with default options.
 
 ```csharp
 public void Save(string filePath, AppointmentSaveFormat saveFormat)
@@ -42,15 +42,15 @@ public void Save(string filePath, AppointmentSaveFormat saveFormat)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | A file path |
-| saveFormat | AppointmentSaveFormat | A save format |
+| filePath | String | The path of the file to create. An existing file is overwritten. |
+| saveFormat | AppointmentSaveFormat | The format to save in. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | *filePath* is `null` or `empty` |
-| NotSupportedException | The specified save options are not supported |
+| ArgumentException | *filePath* is `null` or empty. |
+| NotSupportedException | *saveFormat* is not a supported format. |
 
 ### See Also
 
@@ -63,7 +63,7 @@ public void Save(string filePath, AppointmentSaveFormat saveFormat)
 
 ## Save(string, AppointmentSaveOptions) {#save_5}
 
-Saves appointment to the file with specified save options
+Saves the appointment to a file with the specified options.
 
 ```csharp
 public void Save(string filePath, AppointmentSaveOptions saveOptions)
@@ -71,16 +71,16 @@ public void Save(string filePath, AppointmentSaveOptions saveOptions)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | A file path |
-| saveOptions | AppointmentSaveOptions | A save options |
+| filePath | String | The path of the file to create. An existing file is overwritten. |
+| saveOptions | AppointmentSaveOptions | The save options. Their type, [`AppointmentIcsSaveOptions`](../../appointmenticssaveoptions/) or [`AppointmentMsgSaveOptions`](../../appointmentmsgsaveoptions/), selects the format. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | *filePath* is `null` or `empty` |
-| ArgumentNullException | *saveOptions* is `null` |
-| NotSupportedException | The specified save options are not supported |
+| ArgumentException | *filePath* is `null` or empty. |
+| ArgumentNullException | *saveOptions* is `null`. |
+| NotSupportedException | The type of *saveOptions* is not supported. |
 
 ### See Also
 
@@ -93,7 +93,7 @@ public void Save(string filePath, AppointmentSaveOptions saveOptions)
 
 ## Save(Stream) {#save}
 
-Saves appointment to the file with iCalendar format using te default save options
+Saves the appointment to a stream in iCalendar (ICS) format.
 
 ```csharp
 public void Save(Stream stream)
@@ -101,14 +101,14 @@ public void Save(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | A stream to save to |
+| stream | Stream | The stream to write to. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | *stream* is `null` |
-| NotSupportedException | stream does not support writing |
+| ArgumentNullException | *stream* is `null`. |
+| NotSupportedException | *stream* does not support writing. |
 
 ### See Also
 
@@ -120,7 +120,7 @@ public void Save(Stream stream)
 
 ## Save(Stream, AppointmentSaveFormat) {#save_1}
 
-Saves appointment to the stream with specified format using te default save options
+Saves the appointment to a stream in the specified format, with default options.
 
 ```csharp
 public void Save(Stream stream, AppointmentSaveFormat saveFormat)
@@ -128,16 +128,16 @@ public void Save(Stream stream, AppointmentSaveFormat saveFormat)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | A stream to save to |
-| saveFormat | AppointmentSaveFormat | A save format |
+| stream | Stream | The stream to write to. |
+| saveFormat | AppointmentSaveFormat | The format to save in. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | *stream* is `null` |
-| NotSupportedException | The specified save options are not supported |
-| NotSupportedException | stream does not support writing |
+| ArgumentNullException | *stream* is `null`. |
+| NotSupportedException | *saveFormat* is not a supported format. |
+| NotSupportedException | *stream* does not support writing. |
 
 ### See Also
 
@@ -150,7 +150,7 @@ public void Save(Stream stream, AppointmentSaveFormat saveFormat)
 
 ## Save(Stream, AppointmentSaveOptions) {#save_2}
 
-Saves appointment to the stream with specified save options
+Saves the appointment to a stream with the specified options.
 
 ```csharp
 public void Save(Stream stream, AppointmentSaveOptions saveOptions)
@@ -158,16 +158,16 @@ public void Save(Stream stream, AppointmentSaveOptions saveOptions)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | A stream to save to |
-| saveOptions | AppointmentSaveOptions | A save options |
+| stream | Stream | The stream to write to. |
+| saveOptions | AppointmentSaveOptions | The save options. Their type, [`AppointmentIcsSaveOptions`](../../appointmenticssaveoptions/) or [`AppointmentMsgSaveOptions`](../../appointmentmsgsaveoptions/), selects the format. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | *saveOptions* or *stream* is `null` |
-| NotSupportedException | the specified save options are not supported |
-| NotSupportedException | stream does not support writing |
+| ArgumentNullException | *stream* or *saveOptions* is `null`. |
+| NotSupportedException | The type of *saveOptions* is not supported. |
+| NotSupportedException | *stream* does not support writing. |
 
 ### See Also
 

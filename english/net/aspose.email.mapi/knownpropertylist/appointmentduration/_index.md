@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AppointmentDuration
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies the length of the event in minutes. Area Calendar Canonical name PidLidAppointmentDuration Alternate names dispidApptDuration
+description: KnownPropertyList field. Specifies the length of the event in minutes. Area Calendar. Canonical name PidLidAppointmentDuration. Alternate names dispidApptDuration
 type: docs
 weight: 1140
 url: /net/aspose.email.mapi/knownpropertylist/appointmentduration/
 ---
 ## KnownPropertyList.AppointmentDuration field
 
-Specifies the length of the event, in minutes. Area: Calendar Canonical name: PidLidAppointmentDuration Alternate names: dispidApptDuration
+Specifies the length of the event, in minutes. Area: Calendar. Canonical name: PidLidAppointmentDuration. Alternate names: dispidApptDuration.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentDuration;

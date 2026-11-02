@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_EMS_AB_GROUP_BY_ATTR_4_W
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. The Unicode form of PR_EMS_AB_GROUP_BY_ATTR_4. Property tag 0x81BA001F PT_UNICODE
 type: docs
 weight: 6360
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_4_w/
 ---
 ## MapiPropertyTag.PR_EMS_AB_GROUP_BY_ATTR_4_W field
+
+The Unicode form of [`PR_EMS_AB_GROUP_BY_ATTR_4`](../pr_ems_ab_group_by_attr_4/). Property tag: 0x81BA001F (PT_UNICODE).
 
 ```csharp
 public static readonly long PR_EMS_AB_GROUP_BY_ATTR_4_W;

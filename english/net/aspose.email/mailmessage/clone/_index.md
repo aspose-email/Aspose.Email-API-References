@@ -1,14 +1,14 @@
 ---
 title: MailMessage.Clone
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage method. Clones this instance
+description: MailMessage method. Creates a copy of the message
 type: docs
 weight: 420
 url: /net/aspose.email/mailmessage/clone/
 ---
 ## MailMessage.Clone method
 
-Clones this instance
+Creates a copy of the message.
 
 ```csharp
 public virtual MailMessage Clone()
@@ -16,7 +16,7 @@ public virtual MailMessage Clone()
 
 ### Return Value
 
-MailMessage that is a copy of the current instance
+The copy.
 
 ### See Also
 

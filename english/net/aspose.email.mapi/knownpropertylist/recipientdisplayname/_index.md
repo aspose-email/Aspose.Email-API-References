@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.RecipientDisplayName
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies the display name of the recipient. Area TransportRecipient Canonical name PidTagRecipientDisplayName Alternate names PR_RECIPIENT_DISPLAY_NAME PR_RECIPIENT_DISPLAY_NAME_W
+description: KnownPropertyList field. Specifies the display name of the recipient. Area TransportRecipient. Canonical name PidTagRecipientDisplayName. Alternate names PR_RECIPIENT_DISPLAY_NAME PR_RECIPIENT_DISPLAY_NAME_W
 type: docs
 weight: 15490
 url: /net/aspose.email.mapi/knownpropertylist/recipientdisplayname/
 ---
 ## KnownPropertyList.RecipientDisplayName field
 
-Specifies the display name of the recipient. Area: TransportRecipient Canonical name: PidTagRecipientDisplayName Alternate names: PR_RECIPIENT_DISPLAY_NAME, PR_RECIPIENT_DISPLAY_NAME_W
+Specifies the display name of the recipient. Area: TransportRecipient. Canonical name: PidTagRecipientDisplayName. Alternate names: PR_RECIPIENT_DISPLAY_NAME, PR_RECIPIENT_DISPLAY_NAME_W.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientDisplayName;

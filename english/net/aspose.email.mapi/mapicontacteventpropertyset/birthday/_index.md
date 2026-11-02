@@ -1,14 +1,14 @@
 ---
 title: MapiContactEventPropertySet.Birthday
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactEventPropertySet property. Specifies the birthday of the contact
+description: MapiContactEventPropertySet property. Gets or sets the birthday of the contact
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicontacteventpropertyset/birthday/
 ---
 ## MapiContactEventPropertySet.Birthday property
 
-Specifies the birthday of the contact
+Gets or sets the birthday of the contact.
 
 ```csharp
 public DateTime Birthday { get; set; }

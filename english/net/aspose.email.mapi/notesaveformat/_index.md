@@ -1,14 +1,14 @@
 ---
 title: Enum NoteSaveFormat
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.NoteSaveFormat enum. Enumerates NoteSaveFormat
+description: Aspose.Email.Mapi.NoteSaveFormat enum. Defines the formats a note can be saved to
 type: docs
 weight: 17790
 url: /net/aspose.email.mapi/notesaveformat/
 ---
 ## NoteSaveFormat enumeration
 
-Enumerates NoteSaveFormat
+Defines the formats a note can be saved to.
 
 ```csharp
 public enum NoteSaveFormat
@@ -18,7 +18,7 @@ public enum NoteSaveFormat
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Msg | `0` | MSG format. |
+| Msg | `0` | Outlook message (.msg). |
 
 ### See Also
 

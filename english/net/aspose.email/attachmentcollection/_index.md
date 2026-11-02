@@ -1,14 +1,14 @@
 ---
 title: Class AttachmentCollection
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.AttachmentCollection class. Represents a collection of email message attachments
+description: Aspose.Email.AttachmentCollection class. The attachments of a message
 type: docs
 weight: 350
 url: /net/aspose.email/attachmentcollection/
 ---
 ## AttachmentCollection class
 
-Represents a collection of e-mail message attachments.
+The attachments of a message.
 
 ```csharp
 public sealed class AttachmentCollection : Collection<Attachment>, IDisposable
@@ -18,7 +18,7 @@ public sealed class AttachmentCollection : Collection<Attachment>, IDisposable
 
 | Name | Description |
 | --- | --- |
-| [Dispose](../../aspose.email/attachmentcollection/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [Dispose](../../aspose.email/attachmentcollection/dispose/)() | Releases the resources used by the attachments in the collection. |
 
 ### See Also
 

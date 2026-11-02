@@ -1,14 +1,14 @@
 ---
 title: MapiMessageItemBase.GetProperty
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessageItemBase method. Gets MAPI property by property descriptor
+description: MapiMessageItemBase method. Gets a MAPI property of the item by its descriptor
 type: docs
 weight: 220
 url: /net/aspose.email.mapi/mapimessageitembase/getproperty/
 ---
 ## MapiMessageItemBase.GetProperty method
 
-Gets MAPI property by property descriptor.
+Gets a MAPI property of the item by its descriptor.
 
 ```csharp
 public override MapiProperty GetProperty(PropertyDescriptor pd)
@@ -16,11 +16,11 @@ public override MapiProperty GetProperty(PropertyDescriptor pd)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pd | PropertyDescriptor | Property descriptor for looked property |
+| pd | PropertyDescriptor | The descriptor of the property, for example one from [`KnownPropertyList`](../../knownpropertylist/). |
 
 ### Return Value
 
-Mapi property if it is found, otherwise null.
+The property, or `null` if the item does not have it.
 
 ### See Also
 

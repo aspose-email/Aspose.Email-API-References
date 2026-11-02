@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.DisplayBcc
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage property. Gets a list of the display names of any blind carbon copy BCC message recipients separated by semicolons 
+description: MapiMessage property. Gets the display names of the BCC recipients separated by semicolons 
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/mapimessage/displaybcc/
 ---
 ## MapiMessage.DisplayBcc property
 
-Gets a list of the display names of any blind carbon copy (BCC) message recipients, separated by semicolons (;).
+Gets the display names of the BCC recipients, separated by semicolons (`;`).
 
 ```csharp
 public string DisplayBcc { get; }
@@ -16,7 +16,7 @@ public string DisplayBcc { get; }
 
 ### Property Value
 
-The string that represents display bcc.
+The display names.
 
 ### See Also
 

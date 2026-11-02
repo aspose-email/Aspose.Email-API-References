@@ -1,24 +1,18 @@
 ---
 title: MapiTask.DateCompleted
 second_title: Aspose.Email for .NET API Reference
-description: MapiTask property. Gets or sets the date when the user completed work on the task
+description: MapiTask property. Gets or sets the date the work on the task was completed
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.email.mapi/mapitask/datecompleted/
 ---
 ## MapiTask.DateCompleted property
 
-Gets or sets the date when the user completed work on the task.
+Gets or sets the date the work on the task was completed.
 
 ```csharp
 public DateTime DateCompleted { get; set; }
 ```
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentException | trows when start date is less than date completed. |
 
 ### See Also
 

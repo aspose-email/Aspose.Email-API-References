@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.IsMsgFormat
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage method. Determines whether the specified file has a MSG format
+description: MapiMessage method. Determines whether a file is in MSG format
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.email.mapi/mapimessage/ismsgformat/
 ---
 ## IsMsgFormat(string) {#ismsgformat_1}
 
-Determines whether the specified file has a MSG format.
+Determines whether a file is in MSG format.
 
 ```csharp
 public static bool IsMsgFormat(string fileName)
@@ -16,11 +16,11 @@ public static bool IsMsgFormat(string fileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Name of the file. |
+| fileName | String | The path of the file. |
 
 ### Return Value
 
-`true` if the file is represented in MSG format; otherwise, `false`.
+`true` if the file is in MSG format; otherwise, `false`.
 
 ### See Also
 
@@ -32,7 +32,7 @@ public static bool IsMsgFormat(string fileName)
 
 ## IsMsgFormat(Stream) {#ismsgformat}
 
-Determines whether the specified stream has a MSG format.
+Determines whether a stream contains a message in MSG format.
 
 ```csharp
 public static bool IsMsgFormat(Stream stream)
@@ -40,11 +40,11 @@ public static bool IsMsgFormat(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The message stream. |
+| stream | Stream | The stream to check. |
 
 ### Return Value
 
-`true` if the stream is represented in MSG format]; otherwise, `false`.
+`true` if the stream is in MSG format; otherwise, `false`.
 
 ### See Also
 

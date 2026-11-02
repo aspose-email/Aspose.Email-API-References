@@ -1,14 +1,14 @@
 ---
 title: MapiContactElectronicAddressPropertySet.PrimaryFax
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactElectronicAddressPropertySet property. Refers to the group of properties that define the primary fax address for a contact
+description: MapiContactElectronicAddressPropertySet property. Gets or sets the primary fax number
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/mapicontactelectronicaddresspropertyset/primaryfax/
 ---
 ## MapiContactElectronicAddressPropertySet.PrimaryFax property
 
-Refers to the group of properties that define the primary fax address for a contact.
+Gets or sets the primary fax number.
 
 ```csharp
 public MapiContactElectronicAddress PrimaryFax { get; set; }

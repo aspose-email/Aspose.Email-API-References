@@ -1,14 +1,14 @@
 ---
 title: IMessage.BodyType
 second_title: Aspose.Email for .NET API Reference
-description: IMessage property. Gets the type of the body
+description: IMessage property. Gets the format of the body plain text HTML or RTF
 type: docs
 weight: 40
 url: /net/aspose.email/imessage/bodytype/
 ---
 ## IMessage.BodyType property
 
-Gets the type of the body.
+Gets the format of the body: plain text, HTML or RTF.
 
 ```csharp
 public BodyContentType BodyType { get; }

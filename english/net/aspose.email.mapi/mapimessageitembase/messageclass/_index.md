@@ -1,14 +1,14 @@
 ---
 title: MapiMessageItemBase.MessageClass
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessageItemBase property. Gets a casesensitive string that identifies the senderdefined message class such as IPM.Note. The message class specifies the type purpose or content of the message
+description: MapiMessageItemBase property. Gets or sets the message class of the item such as IPM.Note for an email message. The class determines the type of the item
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapimessageitembase/messageclass/
 ---
 ## MapiMessageItemBase.MessageClass property
 
-Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. The message class specifies the type, purpose, or content of the message.
+Gets or sets the message class of the item, such as `IPM.Note` for an e-mail message. The class determines the type of the item.
 
 ```csharp
 public string MessageClass { get; set; }
@@ -16,7 +16,7 @@ public string MessageClass { get; set; }
 
 ### Property Value
 
-The string that represents message class.
+The message class. It is case-sensitive.
 
 ### See Also
 

@@ -16,7 +16,7 @@ public MapiMessage Message { get; }
 
 ### Property Value
 
-The message.
+The added message.
 
 ### See Also
 

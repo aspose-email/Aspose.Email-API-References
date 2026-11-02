@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AttachmentMacContentType
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains the ContentType of the Mac attachment. Area Message Attachment Properties Canonical name PidNameAttachmentMacContentType Alternate names
+description: KnownPropertyList field. Contains the ContentType of the Mac attachment. Area Message Attachment Properties. Canonical name PidNameAttachmentMacContentType
 type: docs
 weight: 1680
 url: /net/aspose.email.mapi/knownpropertylist/attachmentmaccontenttype/
 ---
 ## KnownPropertyList.AttachmentMacContentType field
 
-Contains the Content-Type of the Mac attachment. Area: Message Attachment Properties Canonical name: PidNameAttachmentMacContentType Alternate names:
+Contains the Content-Type of the Mac attachment. Area: Message Attachment Properties. Canonical name: PidNameAttachmentMacContentType.
 
 ```csharp
 public static readonly PidNamePropertyDescriptor AttachmentMacContentType;

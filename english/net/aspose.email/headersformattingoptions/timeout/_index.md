@@ -1,14 +1,14 @@
 ---
 title: HeadersFormattingOptions.Timeout
 second_title: Aspose.Email for .NET API Reference
-description: HeadersFormattingOptions property. Limits the time in milliseconds of formatting message while saving in Mht. Default value 3 sec
+description: HeadersFormattingOptions property. Gets or sets the time limit in milliseconds for formatting the message. The default is 3000 3 seconds
 type: docs
 weight: 110
 url: /net/aspose.email/headersformattingoptions/timeout/
 ---
 ## HeadersFormattingOptions.Timeout property
 
-Limits the time in milliseconds of formatting message while saving in Mht. Default value 3 sec.
+Gets or sets the time limit, in milliseconds, for formatting the message. The default is 3000 (3 seconds).
 
 ```csharp
 public int Timeout { get; set; }

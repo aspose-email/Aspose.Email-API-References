@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.EmsAbSearchGuide
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_SEARCH_GUIDE
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_EMS_AB_SEARCH_GUIDE. Property tag 0x812E1102 data type MultipleBinary
 type: docs
 weight: 8770
 url: /net/aspose.email.mapi/knownpropertylist/emsabsearchguide/
 ---
 ## KnownPropertyList.EmsAbSearchGuide field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_EMS_AB_SEARCH_GUIDE
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_EMS_AB_SEARCH_GUIDE. Property tag: 0x812E1102; data type: MultipleBinary.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbSearchGuide;

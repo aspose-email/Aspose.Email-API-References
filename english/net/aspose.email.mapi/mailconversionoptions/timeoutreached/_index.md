@@ -1,14 +1,14 @@
 ---
 title: MailConversionOptions.TimeoutReached
 second_title: Aspose.Email for .NET API Reference
-description: MailConversionOptions event. Raised if timed out while converting to MailMessage
+description: MailConversionOptions event. Occurs when formatting the message body takes longer than Timeout
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mailconversionoptions/timeoutreached/
 ---
 ## MailConversionOptions.TimeoutReached event
 
-Raised if timed out while converting to MailMessage.
+Occurs when formatting the message body takes longer than [`Timeout`](../timeout/).
 
 ```csharp
 public event EventHandler TimeoutReached;

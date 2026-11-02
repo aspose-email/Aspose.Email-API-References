@@ -1,14 +1,14 @@
 ---
 title: MessageFormat.ToString
 second_title: Aspose.Email for .NET API Reference
-description: MessageFormat method. Returns a String that represents the current Object
+description: MessageFormat method. Returns the name of the format
 type: docs
 weight: 90
 url: /net/aspose.email/messageformat/tostring/
 ---
 ## MessageFormat.ToString method
 
-Returns a String that represents the current Object.
+Returns the name of the format.
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Return Value
 
-A String that represents the current Object.
+The name of the format.
 
 ### See Also
 

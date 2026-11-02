@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AddressBookHierarchicalDepartmentMembers
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains all of the mail users that belong to this department. Area Address Book Canonical name PidTagAddressBookHierarchicalDepartmentMembers Alternate names PR_EMS_AB_HAB_DEPARTMENT_MEMBERS
+description: KnownPropertyList field. Contains all of the mail users that belong to this department. Area Address Book. Canonical name PidTagAddressBookHierarchicalDepartmentMembers. Alternate names PR_EMS_AB_HAB_DEPARTMENT_MEMBERS
 type: docs
 weight: 620
 url: /net/aspose.email.mapi/knownpropertylist/addressbookhierarchicaldepartmentmembers/
 ---
 ## KnownPropertyList.AddressBookHierarchicalDepartmentMembers field
 
-Contains all of the mail users that belong to this department. Area: Address Book Canonical name: PidTagAddressBookHierarchicalDepartmentMembers Alternate names: PR_EMS_AB_HAB_DEPARTMENT_MEMBERS
+Contains all of the mail users that belong to this department. Area: Address Book. Canonical name: PidTagAddressBookHierarchicalDepartmentMembers. Alternate names: PR_EMS_AB_HAB_DEPARTMENT_MEMBERS.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookHierarchicalDepartmentMembers;

@@ -1,14 +1,14 @@
 ---
 title: FollowUpManager.GetReactions
 second_title: Aspose.Email for .NET API Reference
-description: FollowUpManager method. Get the available message reactions
+description: FollowUpManager method. Gets the reactions like heart and so on that users have left on the message
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/followupmanager/getreactions/
 ---
 ## FollowUpManager.GetReactions method
 
-Get the available message reactions.
+Gets the reactions (like, heart and so on) that users have left on the message.
 
 ```csharp
 public static IList<UserReaction> GetReactions(MapiMessageItemBase message)
@@ -16,11 +16,11 @@ public static IList<UserReaction> GetReactions(MapiMessageItemBase message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which the categories are added. |
+| message | MapiMessageItemBase | The message to read. |
 
 ### Return Value
 
-The list of added reactions
+The reactions of the message; an empty list if there are none.
 
 ### Exceptions
 

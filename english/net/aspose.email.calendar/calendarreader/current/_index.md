@@ -1,14 +1,14 @@
 ---
 title: CalendarReader.Current
 second_title: Aspose.Email for .NET API Reference
-description: CalendarReader property. Current read event
+description: CalendarReader property. Gets the event read by the last call to NextEvent or null before the first call
 type: docs
 weight: 30
 url: /net/aspose.email.calendar/calendarreader/current/
 ---
 ## CalendarReader.Current property
 
-Current read event.
+Gets the event read by the last call to `NextEvent`, or `null` before the first call.
 
 ```csharp
 public Appointment Current { get; }

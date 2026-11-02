@@ -1,14 +1,14 @@
 ---
 title: AttachmentBase.ContentType
 second_title: Aspose.Email for .NET API Reference
-description: AttachmentBase property. Gets or sets the type of the content
+description: AttachmentBase property. Gets or sets the content type of the part its media type name and character set
 type: docs
 weight: 30
 url: /net/aspose.email/attachmentbase/contenttype/
 ---
 ## AttachmentBase.ContentType property
 
-Gets or sets the type of the content.
+Gets or sets the content type of the part: its media type, name and character set.
 
 ```csharp
 public ContentType ContentType { get; set; }
@@ -16,7 +16,7 @@ public ContentType ContentType { get; set; }
 
 ### Property Value
 
-The type of the content.
+The content type.
 
 ### See Also
 

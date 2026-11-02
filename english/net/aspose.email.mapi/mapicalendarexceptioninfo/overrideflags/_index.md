@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarExceptionInfo.OverrideFlags
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarExceptionInfo property. Gets the override flags
+description: MapiCalendarExceptionInfo property. Gets which details of the exception differ from the series
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/overrideflags/
 ---
 ## MapiCalendarExceptionInfo.OverrideFlags property
 
-Gets the override flags.
+Gets which details of the exception differ from the series.
 
 ```csharp
 public MapiCalendarOverrideFlags OverrideFlags { get; }
@@ -16,7 +16,7 @@ public MapiCalendarOverrideFlags OverrideFlags { get; }
 
 ### Property Value
 
-The override flags.
+The flags of the changed details.
 
 ### See Also
 

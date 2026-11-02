@@ -1,14 +1,14 @@
 ---
 title: Class MhtTemplateName.Task
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.MhtTemplateNameTask class. Defines well known names of headers of Task for Mhtml formatting
+description: Aspose.Email.MhtTemplateNameTask class. The names of the task fields that can be rendered when a task is saved to MHTML
 type: docs
 weight: 17990
 url: /net/aspose.email/mhttemplatename.task/
 ---
 ## MhtTemplateName.Task class
 
-Defines well known names of headers of Task for Mhtml formatting.
+The names of the task fields that can be rendered when a task is saved to MHTML.
 
 ```csharp
 public static class Task
@@ -22,7 +22,7 @@ public static class Task
 | const [BillingInformation](../../aspose.email/task/billinginformation/) | Billing Information header. |
 | const [Categories](../../aspose.email/task/categories/) | Categories header. |
 | const [Company](../../aspose.email/task/company/) | Company header. |
-| const [Complete](../../aspose.email/task/complete/) | % Complete header. |
+| const [Complete](../../aspose.email/task/complete/) | The name of the percent complete field. |
 | const [DueDate](../../aspose.email/task/duedate/) | Due Date header. |
 | const [Mileage](../../aspose.email/task/mileage/) | Mileage header. |
 | const [Owner](../../aspose.email/task/owner/) | Owner header. |

@@ -1,14 +1,14 @@
 ---
 title: MapiTask.AcceptanceState
 second_title: Aspose.Email for .NET API Reference
-description: MapiTask property. Gets or sets the acceptance state of the task
+description: MapiTask property. Gets or sets whether the assignee has accepted or rejected the task
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.email.mapi/mapitask/acceptancestate/
 ---
 ## MapiTask.AcceptanceState property
 
-Gets or sets the acceptance state of the task.
+Gets or sets whether the assignee has accepted or rejected the task.
 
 ```csharp
 public MapiTaskAcceptanceState AcceptanceState { get; set; }

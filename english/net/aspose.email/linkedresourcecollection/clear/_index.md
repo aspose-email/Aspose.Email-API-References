@@ -1,14 +1,14 @@
 ---
 title: LinkedResourceCollection.Clear
 second_title: Aspose.Email for .NET API Reference
-description: LinkedResourceCollection method. Removes all elements from this collection
+description: LinkedResourceCollection method. Removes all resources from the collection optionally also removing the references to them from the HTML body
 type: docs
 weight: 10
 url: /net/aspose.email/linkedresourcecollection/clear/
 ---
 ## LinkedResourceCollection.Clear method
 
-Removes all elements from this collection.
+Removes all resources from the collection, optionally also removing the references to them from the HTML body.
 
 ```csharp
 public void Clear(bool removeHtmlLinks)
@@ -16,7 +16,7 @@ public void Clear(bool removeHtmlLinks)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| removeHtmlLinks | Boolean | Defines need remove links from html body or not. |
+| removeHtmlLinks | Boolean | `true` to also remove the `cid:` references to the resources from the HTML body. |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: MapiRecipient.NamedProperties
 second_title: Aspose.Email for .NET API Reference
-description: MapiRecipient property. Gets the named properties of message
+description: MapiRecipient property. Gets the named properties of the recipient
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapirecipient/namedproperties/
 ---
 ## MapiRecipient.NamedProperties property
 
-Gets the named properties of message.
+Gets the named properties of the recipient.
 
 ```csharp
 public MapiPropertyCollection NamedProperties { get; }
@@ -16,7 +16,7 @@ public MapiPropertyCollection NamedProperties { get; }
 
 ### Property Value
 
-The collection of named properties.
+The named properties.
 
 ### See Also
 

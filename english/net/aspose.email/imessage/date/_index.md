@@ -1,14 +1,14 @@
 ---
 title: IMessage.Date
 second_title: Aspose.Email for .NET API Reference
-description: IMessage property. Gets the date and time when message was delivered
+description: IMessage property. Gets the date and time of the message
 type: docs
 weight: 60
 url: /net/aspose.email/imessage/date/
 ---
 ## IMessage.Date property
 
-Gets the date and time when message was delivered
+Gets the date and time of the message.
 
 ```csharp
 public DateTime Date { get; }

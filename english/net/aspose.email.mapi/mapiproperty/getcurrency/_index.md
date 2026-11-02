@@ -1,14 +1,14 @@
 ---
 title: MapiProperty.GetCurrency
 second_title: Aspose.Email for .NET API Reference
-description: MapiProperty method. Gets the Currency as string using the specified code page
+description: MapiProperty method. Gets the value of a currency property
 type: docs
 weight: 160
 url: /net/aspose.email.mapi/mapiproperty/getcurrency/
 ---
 ## MapiProperty.GetCurrency method
 
-Gets the Currency as string using the specified code page.
+Gets the value of a currency property.
 
 ```csharp
 public virtual decimal GetCurrency()
@@ -16,7 +16,7 @@ public virtual decimal GetCurrency()
 
 ### Return Value
 
-A string contains the binary data.
+The value as a decimal number with four decimal places.
 
 ### See Also
 

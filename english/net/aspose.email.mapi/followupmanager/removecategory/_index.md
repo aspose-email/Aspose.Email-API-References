@@ -1,14 +1,14 @@
 ---
 title: FollowUpManager.RemoveCategory
 second_title: Aspose.Email for .NET API Reference
-description: FollowUpManager method. Removes the category
+description: FollowUpManager method. Removes a category from the message
 type: docs
 weight: 110
 url: /net/aspose.email.mapi/followupmanager/removecategory/
 ---
 ## FollowUpManager.RemoveCategory method
 
-Removes the category.
+Removes a category from the message.
 
 ```csharp
 public static void RemoveCategory(MapiMessageItemBase message, string categoryName)
@@ -16,8 +16,8 @@ public static void RemoveCategory(MapiMessageItemBase message, string categoryNa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessageItemBase | The message. |
-| categoryName | String | Name of the category. |
+| message | MapiMessageItemBase | The message to change. |
+| categoryName | String | The name of the category to remove. |
 
 ### Exceptions
 

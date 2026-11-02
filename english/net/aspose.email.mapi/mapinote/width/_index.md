@@ -1,14 +1,14 @@
 ---
 title: MapiNote.Width
 second_title: Aspose.Email for .NET API Reference
-description: MapiNote property. Gets or sets width of the visible message window in pixels
+description: MapiNote property. Gets or sets the width of the note window in pixels
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.email.mapi/mapinote/width/
 ---
 ## MapiNote.Width property
 
-Gets or sets width of the visible message window in pixels
+Gets or sets the width of the note window, in pixels.
 
 ```csharp
 public int Width { get; set; }

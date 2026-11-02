@@ -1,14 +1,14 @@
 ---
 title: MapiPropertyCollection.Remove
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyCollection method. Removes the property with the specified tag from the collection
+description: MapiPropertyCollection method. Removes the property with the specified tag
 type: docs
 weight: 140
 url: /net/aspose.email.mapi/mapipropertycollection/remove/
 ---
 ## Remove(long) {#remove_1}
 
-Removes the property with the specified tag from the collection.
+Removes the property with the specified tag.
 
 ```csharp
 public bool Remove(long key)
@@ -20,7 +20,7 @@ public bool Remove(long key)
 
 ### Return Value
 
-true if the property is successfully removed; otherwise, false.
+`true` if the property was removed; `false` if the collection does not contain it.
 
 ### See Also
 
@@ -32,7 +32,7 @@ true if the property is successfully removed; otherwise, false.
 
 ## Remove(PropertyDescriptor) {#remove}
 
-Removes the property with the specified property descriptor from the collection.
+Removes the property with the specified descriptor.
 
 ```csharp
 public bool Remove(PropertyDescriptor pd)
@@ -40,11 +40,11 @@ public bool Remove(PropertyDescriptor pd)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pd | PropertyDescriptor | Property descriptor of the property to remove. |
+| pd | PropertyDescriptor | The descriptor of the property to remove. |
 
 ### Return Value
 
-true if the property is successfully removed; otherwise, false.
+`true` if the property was removed; `false` if the collection does not contain it.
 
 ### See Also
 
@@ -57,9 +57,19 @@ true if the property is successfully removed; otherwise, false.
 
 ## Remove(KeyValuePair&lt;long, MapiProperty&gt;) {#remove_2}
 
+Removes the tag and property pair.
+
 ```csharp
 public bool Remove(KeyValuePair<long, MapiProperty> item)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | KeyValuePair`2 | The pair to remove. |
+
+### Return Value
+
+`true` if the pair was removed; otherwise, `false`.
 
 ### See Also
 

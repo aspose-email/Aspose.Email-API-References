@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AddressBookHierarchicalParentDepartment
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains all of the departments to which this department is a child. Area Address Book Canonical name PidTagAddressBookHierarchicalParentDepartment Alternate names PR_EMS_AB_HAB_PARENT_DEPARTMENT
+description: KnownPropertyList field. Contains all of the departments to which this department is a child. Area Address Book. Canonical name PidTagAddressBookHierarchicalParentDepartment. Alternate names PR_EMS_AB_HAB_PARENT_DEPARTMENT
 type: docs
 weight: 640
 url: /net/aspose.email.mapi/knownpropertylist/addressbookhierarchicalparentdepartment/
 ---
 ## KnownPropertyList.AddressBookHierarchicalParentDepartment field
 
-Contains all of the departments to which this department is a child. Area: Address Book Canonical name: PidTagAddressBookHierarchicalParentDepartment Alternate names: PR_EMS_AB_HAB_PARENT_DEPARTMENT
+Contains all of the departments to which this department is a child. Area: Address Book. Canonical name: PidTagAddressBookHierarchicalParentDepartment. Alternate names: PR_EMS_AB_HAB_PARENT_DEPARTMENT.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookHierarchicalParentDepartment;

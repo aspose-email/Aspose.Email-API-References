@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.Collector
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_COLLECTOR
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_COLLECTOR. Property tag 0x662E000D data type Object
 type: docs
 weight: 2830
 url: /net/aspose.email.mapi/knownpropertylist/collector/
 ---
 ## KnownPropertyList.Collector field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_COLLECTOR
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_COLLECTOR. Property tag: 0x662E000D; data type: Object.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Collector;

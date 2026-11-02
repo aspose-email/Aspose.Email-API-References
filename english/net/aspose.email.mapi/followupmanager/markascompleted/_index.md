@@ -1,14 +1,14 @@
 ---
 title: FollowUpManager.MarkAsCompleted
 second_title: Aspose.Email for .NET API Reference
-description: FollowUpManager method. Marks the flagged message as completed
+description: FollowUpManager method. Marks the followup flag of the message as completed
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/followupmanager/markascompleted/
 ---
 ## FollowUpManager.MarkAsCompleted method
 
-Marks the flagged message as completed.
+Marks the follow-up flag of the message as completed.
 
 ```csharp
 public static void MarkAsCompleted(MapiMessageItemBase message)
@@ -16,7 +16,7 @@ public static void MarkAsCompleted(MapiMessageItemBase message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which a flag is set. |
+| message | MapiMessageItemBase | The flagged message. |
 
 ### Exceptions
 

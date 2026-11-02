@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.DayOfMonth
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Identifies the day of the month for the appointment or meeting. Area Calendar Canonical name PidLidDayOfMonth Alternate names
+description: KnownPropertyList field. Identifies the day of the month for the appointment or meeting. Area Calendar. Canonical name PidLidDayOfMonth
 type: docs
 weight: 3780
 url: /net/aspose.email.mapi/knownpropertylist/dayofmonth/
 ---
 ## KnownPropertyList.DayOfMonth field
 
-Identifies the day of the month for the appointment or meeting. Area: Calendar Canonical name: PidLidDayOfMonth Alternate names:
+Identifies the day of the month for the appointment or meeting. Area: Calendar. Canonical name: PidLidDayOfMonth.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor DayOfMonth;

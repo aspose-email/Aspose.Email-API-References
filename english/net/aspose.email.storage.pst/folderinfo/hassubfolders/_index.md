@@ -16,7 +16,7 @@ public bool HasSubFolders { get; }
 
 ### Property Value
 
-The has sub folders.
+`true` if the folder has subfolders; otherwise, `false`.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: Class PstItemCategory
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Storage.Pst.PstItemCategory class. Represents a category for PST items with a name and associated color
+description: Aspose.Email.Storage.Pst.PstItemCategory class. A category used in a PST with its name and color
 type: docs
 weight: 19290
 url: /net/aspose.email.storage.pst/pstitemcategory/
 ---
 ## PstItemCategory class
 
-Represents a category for PST items with a name and associated color.
+A category used in a PST, with its name and color.
 
 ```csharp
 public class PstItemCategory
@@ -31,7 +31,7 @@ public class PstItemCategory
 
 | Name | Description |
 | --- | --- |
-| override [ToString](../../aspose.email.storage.pst/pstitemcategory/tostring/)() |  |
+| override [ToString](../../aspose.email.storage.pst/pstitemcategory/tostring/)() | Returns the name and color of the category. |
 
 ### See Also
 

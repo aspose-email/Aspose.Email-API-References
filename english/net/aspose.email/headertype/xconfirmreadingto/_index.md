@@ -1,14 +1,14 @@
 ---
 title: HeaderType.XConfirmReadingTo
 second_title: Aspose.Email for .NET API Reference
-description: HeaderType property. This header requests an automated confirmation notice when the message is received or read. It is typically ignored presumably some software acts on it
+description: HeaderType property. Gets the XConfirmReadingTo header requests a read confirmation. Nonstandard and usually ignored
 type: docs
 weight: 260
 url: /net/aspose.email/headertype/xconfirmreadingto/
 ---
 ## HeaderType.XConfirmReadingTo property
 
-This header requests an automated confirmation notice when the message is received or read. It is typically ignored; presumably some software acts on it.
+Gets the `X-Confirm-Reading-To` header: requests a read confirmation. Non-standard and usually ignored.
 
 ```csharp
 public static HeaderType XConfirmReadingTo { get; }

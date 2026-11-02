@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_EMS_AB_AVAILABLE_DISTRIBUTIONS_W
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. The Unicode form of PR_EMS_AB_AVAILABLE_DISTRIBUTIONS. Property tag 0x818B001F PT_UNICODE
 type: docs
 weight: 3590
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_available_distributions_w/
 ---
 ## MapiPropertyTag.PR_EMS_AB_AVAILABLE_DISTRIBUTIONS_W field
+
+The Unicode form of [`PR_EMS_AB_AVAILABLE_DISTRIBUTIONS`](../pr_ems_ab_available_distributions/). Property tag: 0x818B001F (PT_UNICODE).
 
 ```csharp
 public static readonly long PR_EMS_AB_AVAILABLE_DISTRIBUTIONS_W;

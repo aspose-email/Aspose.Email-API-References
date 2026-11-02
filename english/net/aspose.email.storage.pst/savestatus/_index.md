@@ -1,14 +1,14 @@
 ---
 title: Enum SaveStatus
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Storage.Pst.SaveStatus enum. Represents the status of saving the retrieved message
+description: Aspose.Email.Storage.Pst.SaveStatus enum. Defines how completely a damaged message could be saved
 type: docs
 weight: 19330
 url: /net/aspose.email.storage.pst/savestatus/
 ---
 ## SaveStatus enumeration
 
-Represents the status of saving the retrieved message.
+Defines how completely a damaged message could be saved.
 
 ```csharp
 public enum SaveStatus

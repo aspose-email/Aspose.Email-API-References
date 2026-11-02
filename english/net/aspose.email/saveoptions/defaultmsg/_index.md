@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.DefaultMsg
 second_title: Aspose.Email for .NET API Reference
-description: SaveOptions property. Gets options with default values for saving message to MsgASCII format
+description: SaveOptions property. Gets new options with the default settings for saving to MSG with ANSI strings
 type: docs
 weight: 80
 url: /net/aspose.email/saveoptions/defaultmsg/
 ---
 ## SaveOptions.DefaultMsg property
 
-Gets options with default values for saving message to Msg(ASCII) format.
+Gets new options with the default settings for saving to MSG with ANSI strings.
 
 ```csharp
 public static MsgSaveOptions DefaultMsg { get; }

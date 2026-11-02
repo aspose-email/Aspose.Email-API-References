@@ -1,14 +1,14 @@
 ---
 title: IMailAddress.Address
 second_title: Aspose.Email for .NET API Reference
-description: IMailAddress property. Gets or sets a mail address
+description: IMailAddress property. Gets or sets the email address
 type: docs
 weight: 10
 url: /net/aspose.email/imailaddress/address/
 ---
 ## IMailAddress.Address property
 
-Gets or sets a mail address
+Gets or sets the e-mail address.
 
 ```csharp
 public string Address { get; set; }

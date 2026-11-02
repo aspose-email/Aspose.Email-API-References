@@ -1,14 +1,14 @@
 ---
 title: Class ReminderTrigger
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.ReminderTrigger class. Specifies when an alarm will trigger
+description: Aspose.Email.Calendar.ReminderTrigger class. Defines when a reminder triggers at an absolute date and time or at a time relative to the start or end of the event
 type: docs
 weight: 860
 url: /net/aspose.email.calendar/remindertrigger/
 ---
 ## ReminderTrigger class
 
-Specifies when an alarm will trigger.
+Defines when a reminder triggers: at an absolute date and time, or at a time relative to the start or end of the event.
 
 ```csharp
 public class ReminderTrigger
@@ -18,16 +18,16 @@ public class ReminderTrigger
 
 | Name | Description |
 | --- | --- |
-| [ReminderTrigger](remindertrigger/#constructor_1)(DateTime) | Initialize a new instance of `ReminderTrigger` class. |
-| [ReminderTrigger](remindertrigger/#constructor)(ReminderDuration, ReminderRelated) | Initialize a new instance of `ReminderTrigger` class. |
+| [ReminderTrigger](remindertrigger/#constructor_1)(DateTime) | Initializes a new instance of the `ReminderTrigger` class that triggers at an absolute date and time. |
+| [ReminderTrigger](remindertrigger/#constructor)(ReminderDuration, ReminderRelated) | Initializes a new instance of the `ReminderTrigger` class that triggers at a time relative to the event. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [DateTime](../../aspose.email.calendar/remindertrigger/datetime/) { get; set; } | A trigger set to an absolute date/time. |
-| [Duration](../../aspose.email.calendar/remindertrigger/duration/) { get; set; } | Specifies a relative time for the trigger of the alarm. |
-| [Related](../../aspose.email.calendar/remindertrigger/related/) { get; set; } | Specify the relationship of the alarm trigger with respect to the start or end of the event. |
+| [DateTime](../../aspose.email.calendar/remindertrigger/datetime/) { get; set; } | Gets or sets the absolute date and time of the trigger. Setting it clears `Duration`; `DateTime.MinValue` means it is not set. |
+| [Duration](../../aspose.email.calendar/remindertrigger/duration/) { get; set; } | Gets or sets the time of the trigger relative to the start or end of the event. Setting it clears `DateTime`. |
+| [Related](../../aspose.email.calendar/remindertrigger/related/) { get; set; } | Gets or sets whether `Duration` is measured from the start or from the end of the event. It is not used with an absolute `DateTime`. |
 
 ### See Also
 

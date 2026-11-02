@@ -1,14 +1,14 @@
 ---
 title: AttachmentBase.Headers
 second_title: Aspose.Email for .NET API Reference
-description: AttachmentBase property. Gets headers collection of attachment
+description: AttachmentBase property. Gets the MIME headers of the part
 type: docs
 weight: 40
 url: /net/aspose.email/attachmentbase/headers/
 ---
 ## AttachmentBase.Headers property
 
-Gets headers collection of attachment.
+Gets the MIME headers of the part.
 
 ```csharp
 public virtual HeaderCollection Headers { get; }

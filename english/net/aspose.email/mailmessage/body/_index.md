@@ -1,14 +1,14 @@
 ---
 title: MailMessage.Body
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage property. Gets or sets the plain text representation of messages body. If the text/plain part is present in a message the propery returns its text data. Otherwise property returns the text content of the HtmlBody property without html markup
+description: MailMessage property. Gets or sets the plaintext body. When the message has no plaintext part the text of HtmlBody without the HTML markup is returned
 type: docs
 weight: 60
 url: /net/aspose.email/mailmessage/body/
 ---
 ## MailMessage.Body property
 
-Gets or sets the plain text representation of message's body. If the text/plain part is present in a message, the propery returns its text data. Otherwise, property returns the text content of the HtmlBody property without html markup.
+Gets or sets the plain-text body. When the message has no plain-text part, the text of [`HtmlBody`](../htmlbody/) without the HTML markup is returned.
 
 ```csharp
 public virtual string Body { get; set; }

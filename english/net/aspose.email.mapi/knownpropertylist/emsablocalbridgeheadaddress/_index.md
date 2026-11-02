@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.EmsAbLocalBridgeHeadAddress
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_LOCAL_BRIDGE_HEAD_ADDRESS
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_EMS_AB_LOCAL_BRIDGE_HEAD_ADDRESS. Property tag 0x80C7001E data type String8
 type: docs
 weight: 7140
 url: /net/aspose.email.mapi/knownpropertylist/emsablocalbridgeheadaddress/
 ---
 ## KnownPropertyList.EmsAbLocalBridgeHeadAddress field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_EMS_AB_LOCAL_BRIDGE_HEAD_ADDRESS
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_EMS_AB_LOCAL_BRIDGE_HEAD_ADDRESS. Property tag: 0x80C7001E; data type: String8.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbLocalBridgeHeadAddress;

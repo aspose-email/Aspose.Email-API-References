@@ -1,14 +1,14 @@
 ---
 title: MapiNote.Color
 second_title: Aspose.Email for .NET API Reference
-description: MapiNote property. Gets or sets the suggested background color of the Note object
+description: MapiNote property. Gets or sets the background color of the note
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.email.mapi/mapinote/color/
 ---
 ## MapiNote.Color property
 
-Gets or sets the suggested background color of the Note object
+Gets or sets the background color of the note.
 
 ```csharp
 public NoteColor Color { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarTimeZoneRule.Date
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarTimeZoneRule property. Gets the date and time that indicate when to begin using the Standard/Daylight time
+description: MapiCalendarTimeZoneRule property. Gets the date and time at which the time change takes effect
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicalendartimezonerule/date/
 ---
 ## MapiCalendarTimeZoneRule.Date property
 
-Gets the date and time that indicate when to begin using the Standard/Daylight time.
+Gets the date and time at which the time change takes effect.
 
 ```csharp
 public DateTime Date { get; }

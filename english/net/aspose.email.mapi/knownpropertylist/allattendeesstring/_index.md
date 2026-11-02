@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AllAttendeesString
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies a list of all the attendees except for the organizer including resources and unsendable attendees. Area Meetings Canonical name PidLidAllAttendeesString Alternate names dispidAllAttendeesString
+description: KnownPropertyList field. Specifies a list of all the attendees except for the organizer including resources and unsendable attendees. Area Meetings. Canonical name PidLidAllAttendeesString. Alternate names dispidAllAttendeesString
 type: docs
 weight: 1040
 url: /net/aspose.email.mapi/knownpropertylist/allattendeesstring/
 ---
 ## KnownPropertyList.AllAttendeesString field
 
-Specifies a list of all the attendees except for the organizer, including resources and unsendable attendees. Area: Meetings Canonical name: PidLidAllAttendeesString Alternate names: dispidAllAttendeesString
+Specifies a list of all the attendees except for the organizer, including resources and unsendable attendees. Area: Meetings. Canonical name: PidLidAllAttendeesString. Alternate names: dispidAllAttendeesString.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AllAttendeesString;

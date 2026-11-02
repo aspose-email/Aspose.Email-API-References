@@ -1,14 +1,14 @@
 ---
 title: OleDocumentFormat.AdobeAcrobatDocument
 second_title: Aspose.Email for .NET API Reference
-description: OleDocumentFormat property. Adobe PDF format
+description: OleDocumentFormat property. Gets the format of an Adobe Acrobat PDF document
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/oledocumentformat/adobeacrobatdocument/
 ---
 ## OleDocumentFormat.AdobeAcrobatDocument property
 
-Adobe PDF format.
+Gets the format of an Adobe Acrobat (PDF) document.
 
 ```csharp
 public static OleDocumentFormat AdobeAcrobatDocument { get; }

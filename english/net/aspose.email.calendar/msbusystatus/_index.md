@@ -1,14 +1,14 @@
 ---
 title: Enum MSBusyStatus
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.MSBusyStatus enum. Specifies the BUSY status of an appointment
+description: Aspose.Email.Calendar.MSBusyStatus enum. Defines how the time of an event is shown in a calendar as used by Microsoft Outlook and Exchange the XMICROSOFTCDOBUSYSTATUS property
 type: docs
 weight: 590
 url: /net/aspose.email.calendar/msbusystatus/
 ---
 ## MSBusyStatus enumeration
 
-Specifies the BUSY status of an appointment.
+Defines how the time of an event is shown in a calendar, as used by Microsoft Outlook and Exchange (the X-MICROSOFT-CDO-BUSYSTATUS property).
 
 ```csharp
 public enum MSBusyStatus
@@ -18,12 +18,12 @@ public enum MSBusyStatus
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | `-1` | Value is not defined |
-| Free | `0` | Free |
-| Tentative | `1` | Tentative |
-| Busy | `2` | Busy |
-| Oof | `3` | Out of office |
-| WorkingElsewhere | `4` | Working in a location away from the office |
+| NotDefined | `-1` | The status is not set. |
+| Free | `0` | The time is shown as free. |
+| Tentative | `1` | The time is shown as tentative. |
+| Busy | `2` | The time is shown as busy. |
+| Oof | `3` | The time is shown as out of office. |
+| WorkingElsewhere | `4` | The time is shown as working elsewhere. |
 
 ### See Also
 

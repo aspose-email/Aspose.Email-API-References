@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.CheckSignature
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage method. Checking signature exsisting MapiMessage
+description: MapiMessage method. Verifies the digital signature of the message
 type: docs
 weight: 350
 url: /net/aspose.email.mapi/mapimessage/checksignature/
 ---
 ## MapiMessage.CheckSignature method
 
-Checking signature exsisting MapiMessage.
+Verifies the digital signature of the message.
 
 ```csharp
 public X509Certificate2[] CheckSignature()
@@ -16,13 +16,13 @@ public X509Certificate2[] CheckSignature()
 
 ### Return Value
 
-X.509 signers certificates
+The certificates of the signers.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Throws if MapiMessage is not signed or signature is not verified. |
+| InvalidOperationException | The message is not signed, or the signature is not valid. |
 
 ### See Also
 

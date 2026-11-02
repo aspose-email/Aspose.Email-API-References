@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.MessageSizeExtended
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies the 64bit version of the PidTagMessageSize property section 2.787. Area General Message Properties Canonical name PidTagMessageSizeExtended Alternate names PR_MESSAGE_SIZE_EXTENDED ptagMessageSizeExtended
+description: KnownPropertyList field. Specifies the 64bit version of the PidTagMessageSize property section 2.787. Area General Message Properties. Canonical name PidTagMessageSizeExtended. Alternate names PR_MESSAGE_SIZE_EXTENDED ptagMessageSizeExtended
 type: docs
 weight: 12700
 url: /net/aspose.email.mapi/knownpropertylist/messagesizeextended/
 ---
 ## KnownPropertyList.MessageSizeExtended field
 
-Specifies the 64-bit version of the PidTagMessageSize property (section 2.787). Area: General Message Properties Canonical name: PidTagMessageSizeExtended Alternate names: PR_MESSAGE_SIZE_EXTENDED, ptagMessageSizeExtended
+Specifies the 64-bit version of the PidTagMessageSize property (section 2.787). Area: General Message Properties. Canonical name: PidTagMessageSizeExtended. Alternate names: PR_MESSAGE_SIZE_EXTENDED, ptagMessageSizeExtended.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageSizeExtended;

@@ -1,14 +1,14 @@
 ---
 title: MessageInfo.DisplayCC
 second_title: Aspose.Email for .NET API Reference
-description: MessageInfo property. Gets the CC line
+description: MessageInfo property. Gets the display names of the Cc recipients as shown in the Cc line
 type: docs
 weight: 20
 url: /net/aspose.email.storage.pst/messageinfo/displaycc/
 ---
 ## MessageInfo.DisplayCC property
 
-Gets the CC: line.
+Gets the display names of the Cc recipients, as shown in the Cc line.
 
 ```csharp
 public string DisplayCC { get; }
@@ -16,7 +16,7 @@ public string DisplayCC { get; }
 
 ### Property Value
 
-The display cc.
+The Cc line.
 
 ### See Also
 

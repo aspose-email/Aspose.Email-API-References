@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_EMS_AB_STREET_ADDRESS_A
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. The ANSI form of PR_EMS_AB_STREET_ADDRESS. Property tag 0x813A001E PT_STRING8
 type: docs
 weight: 10230
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_street_address_a/
 ---
 ## MapiPropertyTag.PR_EMS_AB_STREET_ADDRESS_A field
+
+The ANSI form of [`PR_EMS_AB_STREET_ADDRESS`](../pr_ems_ab_street_address/). Property tag: 0x813A001E (PT_STRING8).
 
 ```csharp
 public static readonly long PR_EMS_AB_STREET_ADDRESS_A;

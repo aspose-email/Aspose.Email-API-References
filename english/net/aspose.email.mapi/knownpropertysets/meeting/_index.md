@@ -1,14 +1,14 @@
 ---
 title: KnownPropertySets.Meeting
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertySets field. Area name Calendar Property set name PSETID_Meeting
+description: KnownPropertySets field. The PSETID_Meeting property set meeting request and response properties
 type: docs
 weight: 110
 url: /net/aspose.email.mapi/knownpropertysets/meeting/
 ---
 ## KnownPropertySets.Meeting field
 
-Area name: Calendar Property set name: PSETID_Meeting
+The `PSETID_Meeting` property set: meeting request and response properties.
 
 ```csharp
 public static readonly Guid Meeting;

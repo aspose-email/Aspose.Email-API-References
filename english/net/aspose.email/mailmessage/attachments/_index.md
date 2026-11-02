@@ -1,14 +1,14 @@
 ---
 title: MailMessage.Attachments
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage property. Gets the collection of attachments of message
+description: MailMessage property. Gets the attachments of the message
 type: docs
 weight: 40
 url: /net/aspose.email/mailmessage/attachments/
 ---
 ## MailMessage.Attachments property
 
-Gets the collection of attachments of message
+Gets the attachments of the message.
 
 ```csharp
 public virtual AttachmentCollection Attachments { get; }

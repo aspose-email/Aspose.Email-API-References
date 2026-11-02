@@ -1,14 +1,14 @@
 ---
 title: FolderInfo.EnumerateFolders
 second_title: Aspose.Email for .NET API Reference
-description: FolderInfo method. Exposes the enumerator which supports an iteration of subfolders in folder
+description: FolderInfo method. Enumerates the subfolders of the folder
 type: docs
 weight: 230
 url: /net/aspose.email.storage.pst/folderinfo/enumeratefolders/
 ---
 ## EnumerateFolders() {#enumeratefolders}
 
-Exposes the enumerator, which supports an iteration of subfolders in folder.
+Enumerates the subfolders of the folder.
 
 ```csharp
 public IEnumerable<FolderInfo> EnumerateFolders()
@@ -16,7 +16,7 @@ public IEnumerable<FolderInfo> EnumerateFolders()
 
 ### Return Value
 
-IEnumerable, that represents an enumerator that iterates through a subfolders in folder.
+The subfolders. They are read from the file as the sequence is enumerated.
 
 ### See Also
 
@@ -28,7 +28,7 @@ IEnumerable, that represents an enumerator that iterates through a subfolders in
 
 ## EnumerateFolders(FolderKind) {#enumeratefolders_1}
 
-Exposes the enumerator, which supports an iteration of subfolders in folder.
+Enumerates the subfolders of the specified kind.
 
 ```csharp
 public IEnumerable<FolderInfo> EnumerateFolders(FolderKind kind)
@@ -36,11 +36,11 @@ public IEnumerable<FolderInfo> EnumerateFolders(FolderKind kind)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| kind | FolderKind | The [`FolderKind`](../../folderkind/) that represents kind of folder. |
+| kind | FolderKind | Which kinds of folders to return: normal folders, search folders or both. |
 
 ### Return Value
 
-IEnumerable, that represents an enumerator that iterates through a subfolders in folder.
+The subfolders. They are read from the file as the sequence is enumerated.
 
 ### See Also
 

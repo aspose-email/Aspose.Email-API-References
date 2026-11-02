@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.SplitIntoAsync
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Splits the pst storage into less sized parts
+description: PersonalStorage method. Asynchronously splits the PST into files of about the specified size
 type: docs
 weight: 390
 url: /net/aspose.email.storage.pst/personalstorage/splitintoasync/
 ---
 ## SplitIntoAsync(long, string, CancellationToken) {#splitintoasync_1}
 
-Splits the pst storage into less sized parts.
+Asynchronously splits the PST into files of about the specified size.
 
 ```csharp
 public Task SplitIntoAsync(long chunkSize, string path, CancellationToken token = default)
@@ -16,16 +16,17 @@ public Task SplitIntoAsync(long chunkSize, string path, CancellationToken token 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chunkSize | Int64 | The approximate size of a chunk in bytes. |
-| path | String | The folder path where chunks will be created. |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
+| chunkSize | Int64 | The approximate size of each PST file, in bytes. It must be greater than 271,360 bytes. |
+| path | String | The folder to create the PST files in. |
+| token | CancellationToken | A token to cancel the operation. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Throws when the path parameter is null or empty. |
-| ArgumentException | Throws when the chunk size is less then the minimum size of pst file. |
+| ArgumentException | *path* is `null` or empty. |
+| ArgumentException | *chunkSize* is not greater than 271,360 bytes, the minimum size of a PST file. |
+| InvalidOperationException | The library runs in evaluation mode and *chunkSize* is greater than 100,000,000 bytes. |
 
 ### See Also
 
@@ -37,28 +38,31 @@ public Task SplitIntoAsync(long chunkSize, string path, CancellationToken token 
 
 ## SplitIntoAsync(long, string, string, CancellationToken) {#splitintoasync}
 
-Splits the pst storage into less sized parts.
+Asynchronously splits the PST into files of about the specified size, named with a prefix.
 
 ```csharp
 public Task SplitIntoAsync(long chunkSize, string partFileNamePrefix, string path, 
     CancellationToken token = default)
 ```
 
-| Parameter | Description |
-| --- | --- |
-| chunkSize | The approximate size of a chunk in bytes. |
-| partFileNamePrefix | The prefix to be added to the filename of each part of pst. The folder path where chunks will be created.Propagates notification that operations should be canceled. If provided, the prefix will be added to the beginning of each file name. If not provided (null or empty), the pst parts will be created without a prefix. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| chunkSize | Int64 | The approximate size of each PST file, in bytes. It must be greater than 271,360 bytes. |
+| partFileNamePrefix | String | The prefix of the file names. If it is `null` or empty, the files are named without a prefix. |
+| path | String | The folder to create the PST files in. |
+| token | CancellationToken | A token to cancel the operation. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Throws when the path parameter is null or empty. |
-| ArgumentException | Throws when the chunk size is less then the minimum size of pst file. |
+| ArgumentException | *path* is `null` or empty. |
+| ArgumentException | *chunkSize* is not greater than 271,360 bytes, the minimum size of a PST file. |
+| InvalidOperationException | The library runs in evaluation mode and *chunkSize* is greater than 100,000,000 bytes. |
 
 ## Remarks
 
-The pst file names are produced using the following template: {prefix}_part{number}.pst - {prefix}: The filename prefix provided by the partFileNamePrefix parameter. If not provided, this part will be omitted. - {number}: The number of the chunk file.
+The files are named after the template `{prefix}_part{number}.pst`; without a prefix, the `{prefix}` part is left out. `StorageProcessed` is raised after each file is created.
 
 ### See Also
 
@@ -70,7 +74,7 @@ The pst file names are produced using the following template: {prefix}_part{numb
 
 ## SplitIntoAsync(IList&lt;MailQuery&gt;, string, CancellationToken) {#splitintoasync_3}
 
-Splits the pst storage based on criteria.
+Asynchronously splits the PST into several files by search criteria.
 
 ```csharp
 public Task SplitIntoAsync(IList<MailQuery> criteria, string path, 
@@ -79,15 +83,15 @@ public Task SplitIntoAsync(IList<MailQuery> criteria, string path,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| criteria | IList`1 | The collection of [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents criteria of pst splitting. |
-| path | String | The folder path where chunks will be created. |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
+| criteria | IList`1 | The search criteria. A separate PST is created for the messages that match each [`MailQuery`](../../../aspose.email.tools.search/mailquery/). |
+| path | String | The folder to create the PST files in. |
+| token | CancellationToken | A token to cancel the operation. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Throws when the path parameter is null or empty. |
+| ArgumentException | *path* is `null` or empty. |
 
 ### See Also
 
@@ -100,27 +104,29 @@ public Task SplitIntoAsync(IList<MailQuery> criteria, string path,
 
 ## SplitIntoAsync(IList&lt;MailQuery&gt;, string, string, CancellationToken) {#splitintoasync_2}
 
-Splits the pst storage based on criteria.
+Asynchronously splits the PST into several files by search criteria, named with a prefix.
 
 ```csharp
 public Task SplitIntoAsync(IList<MailQuery> criteria, string partFileNamePrefix, string path, 
     CancellationToken token = default)
 ```
 
-| Parameter | Description |
-| --- | --- |
-| criteria | The collection of [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents criteria of pst splitting. |
-| partFileNamePrefix | The prefix to be added to the filename of each part of pst. The folder path where chunks will be created.Propagates notification that operations should be canceled. If provided, the prefix will be added to the beginning of each file name. If not provided (null or empty), the pst parts will be created without a prefix. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| criteria | IList`1 | The search criteria. A separate PST is created for the messages that match each [`MailQuery`](../../../aspose.email.tools.search/mailquery/). |
+| partFileNamePrefix | String | The prefix of the file names. If it is `null` or empty, the files are named without a prefix. |
+| path | String | The folder to create the PST files in. |
+| token | CancellationToken | A token to cancel the operation. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Throws when the path parameter is null or empty. |
+| ArgumentException | *path* is `null` or empty. |
 
 ## Remarks
 
-The pst file names are produced using the following template: {prefix}_part{number}.pst - {prefix}: The filename prefix provided by the partFileNamePrefix parameter. If not provided, this part will be omitted. - {number}: The number of the chunk file.
+The files are named after the template `{prefix}_part{number}.pst`; without a prefix, the `{prefix}` part is left out. `StorageProcessed` is raised after each file is created.
 
 ### See Also
 

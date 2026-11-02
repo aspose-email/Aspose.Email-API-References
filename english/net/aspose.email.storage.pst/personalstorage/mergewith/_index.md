@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.MergeWith
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Merges the pst storage with one or more other pst files. Thus the combined files are sources
+description: PersonalStorage method. Merges one or more other PST files into this PST
 type: docs
 weight: 330
 url: /net/aspose.email.storage.pst/personalstorage/mergewith/
 ---
 ## MergeWith(string[]) {#mergewith_1}
 
-Merges the pst storage with one or more other pst files. Thus, the combined files are sources.
+Merges one or more other PST files into this PST.
 
 ```csharp
 public void MergeWith(string[] sourceFileNames)
@@ -16,14 +16,45 @@ public void MergeWith(string[] sourceFileNames)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceFileNames | String[] | The source file names. |
+| sourceFileNames | String[] | The paths of the PST files to merge. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | "Throws when the filename collection is null." |
-| ArgumentException | "Throws when the filename in collection is null or empty." |
+| ArgumentNullException | *sourceFileNames* is `null`. |
+| ArgumentException | An element of *sourceFileNames* is `null` or empty. |
+
+## Remarks
+
+`StorageProcessing` is raised before each source is merged, and `StorageProcessed` after it.
+
+## Examples
+
+This example merges two PST files into a third one and reports each file as it is merged.
+
+[C#]
+
+```csharp
+using (var pst = PersonalStorage.FromFile("merged.pst"))
+{
+    pst.StorageProcessing += (sender, e) => Console.WriteLine($"Merging {e.FileName}");
+
+    // Add the contents of the other files to merged.pst
+    pst.MergeWith(new[] { "2024.pst", "2025.pst" });
+}
+```
+
+[Visual Basic]
+
+```csharp
+Using pst As PersonalStorage = PersonalStorage.FromFile("merged.pst")
+    AddHandler pst.StorageProcessing, Sub(sender, e) Console.WriteLine($"Merging {e.FileName}")
+
+    ' Add the contents of the other files to merged.pst
+    pst.MergeWith(New String() {"2024.pst", "2025.pst"})
+End Using
+```
 
 ### See Also
 
@@ -35,7 +66,7 @@ public void MergeWith(string[] sourceFileNames)
 
 ## MergeWith(Stream[]) {#mergewith}
 
-Merges the pst storage with one or more other pst streams. Thus, the combined stream are sources.
+Merges one or more other PST streams into this PST.
 
 ```csharp
 public void MergeWith(Stream[] sourceStreams)
@@ -43,14 +74,18 @@ public void MergeWith(Stream[] sourceStreams)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceStreams | Stream[] | The source streams. |
+| sourceStreams | Stream[] | The streams with the PST data to merge. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | "Throws when the stream collection is null." |
-| ArgumentException | "Throws when the stream in collection is null." |
+| ArgumentNullException | *sourceStreams* is `null`. |
+| ArgumentException | An element of *sourceStreams* is `null`. |
+
+## Remarks
+
+`StorageProcessing` is raised before each source is merged, and `StorageProcessed` after it.
 
 ### See Also
 

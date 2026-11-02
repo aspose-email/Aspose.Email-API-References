@@ -1,14 +1,14 @@
 ---
 title: MapiConversionOptions.ASCIIFormat
 second_title: Aspose.Email for .NET API Reference
-description: MapiConversionOptions property. Returns MapiConversionOptions with OutlookMessageFormat is ASCIIPreserveSignature is False UseBodyCompression is False
+description: MapiConversionOptions property. Gets new options that produce a message in ANSI 8bit format
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapiconversionoptions/asciiformat/
 ---
 ## MapiConversionOptions.ASCIIFormat property
 
-Returns MapiConversionOptions with OutlookMessageFormat is ASCII(PreserveSignature is False, UseBodyCompression is False).
+Gets new options that produce a message in ANSI (8-bit) format.
 
 ```csharp
 public static MapiConversionOptions ASCIIFormat { get; }

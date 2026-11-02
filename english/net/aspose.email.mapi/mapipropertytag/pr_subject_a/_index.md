@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_SUBJECT_A
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. The ANSI form of PR_SUBJECT. Property tag 0x0037001E PT_STRING8
 type: docs
 weight: 19770
 url: /net/aspose.email.mapi/mapipropertytag/pr_subject_a/
 ---
 ## MapiPropertyTag.PR_SUBJECT_A field
+
+The ANSI form of [`PR_SUBJECT`](../pr_subject/). Property tag: 0x0037001E (PT_STRING8).
 
 ```csharp
 public static readonly long PR_SUBJECT_A;

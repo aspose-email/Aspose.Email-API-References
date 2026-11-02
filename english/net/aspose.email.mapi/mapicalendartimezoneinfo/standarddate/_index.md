@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarTimeZoneInfo.StandardDate
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarTimeZoneInfo property. Gets or sets the date and local time that indicate when to begin using the StandardBias
+description: MapiCalendarTimeZoneInfo property. Gets or sets when standard time begins
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapicalendartimezoneinfo/standarddate/
 ---
 ## MapiCalendarTimeZoneInfo.StandardDate property
 
-Gets or sets the date and local time that indicate when to begin using the StandardBias.
+Gets or sets when standard time begins.
 
 ```csharp
 public MapiCalendarTimeZoneRule StandardDate { get; set; }

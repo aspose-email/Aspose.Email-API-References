@@ -1,14 +1,14 @@
 ---
 title: MapiContactPersonalInfoPropertySet.Account
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactPersonalInfoPropertySet property. Specifies the account name of the contact
+description: MapiContactPersonalInfoPropertySet property. Gets or sets the account name of the contact
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/account/
 ---
 ## MapiContactPersonalInfoPropertySet.Account property
 
-Specifies the account name of the contact
+Gets or sets the account name of the contact.
 
 ```csharp
 public string Account { get; set; }

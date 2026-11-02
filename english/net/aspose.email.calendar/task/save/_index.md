@@ -1,14 +1,14 @@
 ---
 title: Task.Save
 second_title: Aspose.Email for .NET API Reference
-description: Task method. Saves current object to the given stream using MSG format
+description: Task method. Saves the task to a stream in iCalendar ICS format
 type: docs
 weight: 210
 url: /net/aspose.email.calendar/task/save/
 ---
 ## Save(Stream) {#save}
 
-Saves current object to the given stream using MSG format.
+Saves the task to a stream in iCalendar (ICS) format.
 
 ```csharp
 public virtual void Save(Stream stream)
@@ -16,7 +16,7 @@ public virtual void Save(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | A stream to save to. |
+| stream | Stream | The stream to write to. |
 
 ### See Also
 
@@ -28,7 +28,7 @@ public virtual void Save(Stream stream)
 
 ## Save(string) {#save_3}
 
-Saves current object into file using MSG format.
+Saves the task to an iCalendar (ICS) file.
 
 ```csharp
 public virtual void Save(string filePath)
@@ -36,7 +36,7 @@ public virtual void Save(string filePath)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | A file name. |
+| filePath | String | The path of the file to create. An existing file is overwritten. |
 
 ### See Also
 
@@ -48,7 +48,7 @@ public virtual void Save(string filePath)
 
 ## Save(string, TaskSaveOptions) {#save_4}
 
-Saves current object into file using specified options.
+Saves the task to a file with the specified options.
 
 ```csharp
 public virtual void Save(string filePath, TaskSaveOptions saveOptions)
@@ -56,8 +56,14 @@ public virtual void Save(string filePath, TaskSaveOptions saveOptions)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | A file name. |
-| saveOptions | TaskSaveOptions | Specified options. |
+| filePath | String | The path of the file to create. An existing file is overwritten. |
+| saveOptions | TaskSaveOptions | The save options. Their type, [`TaskIcsSaveOptions`](../../taskicssaveoptions/) or [`TaskMsgSaveOptions`](../../taskmsgsaveoptions/), selects the format; `null` saves in iCalendar format. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | *filePath* is `null` or empty. |
 
 ### See Also
 
@@ -70,7 +76,7 @@ public virtual void Save(string filePath, TaskSaveOptions saveOptions)
 
 ## Save(Stream, TaskSaveOptions) {#save_1}
 
-Saves current object to the given stream using specified options.
+Saves the task to a stream with the specified options.
 
 ```csharp
 public virtual void Save(Stream stream, TaskSaveOptions saveOptions)
@@ -78,8 +84,14 @@ public virtual void Save(Stream stream, TaskSaveOptions saveOptions)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | A stream to save to. |
-| saveOptions | TaskSaveOptions | Specified options.&gt; |
+| stream | Stream | The stream to write to. |
+| saveOptions | TaskSaveOptions | The save options. Their type, [`TaskIcsSaveOptions`](../../taskicssaveoptions/) or [`TaskMsgSaveOptions`](../../taskmsgsaveoptions/), selects the format; `null` saves in iCalendar format. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *stream* is `null`. |
 
 ### See Also
 

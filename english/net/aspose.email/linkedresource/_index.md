@@ -18,36 +18,36 @@ public class LinkedResource : AttachmentBase
 
 | Name | Description |
 | --- | --- |
-| [LinkedResource](linkedresource/#constructor)(Stream) | Initializes a new instance of the `LinkedResource` class. |
-| [LinkedResource](linkedresource/#constructor_3)(string) | Initializes a new instance of the `LinkedResource` class. |
-| [LinkedResource](linkedresource/#constructor_1)(Stream, ContentType) | Initializes a new instance of the `LinkedResource` class. |
-| [LinkedResource](linkedresource/#constructor_2)(Stream, string) | Initializes a new instance of the `LinkedResource` class. |
-| [LinkedResource](linkedresource/#constructor_4)(string, ContentType) | Initializes a new instance of the `LinkedResource` class. |
-| [LinkedResource](linkedresource/#constructor_5)(string, string) | Initializes a new instance of the `LinkedResource` class. |
+| [LinkedResource](linkedresource/#constructor)(Stream) | Initializes a new instance of the `LinkedResource` class with the content of a stream. |
+| [LinkedResource](linkedresource/#constructor_3)(string) | Initializes a new instance of the `LinkedResource` class with the content of a file. |
+| [LinkedResource](linkedresource/#constructor_1)(Stream, ContentType) | Initializes a new instance of the `LinkedResource` class with the content of a stream. |
+| [LinkedResource](linkedresource/#constructor_2)(Stream, string) | Initializes a new instance of the `LinkedResource` class with the content of a stream. |
+| [LinkedResource](linkedresource/#constructor_4)(string, ContentType) | Initializes a new instance of the `LinkedResource` class with the content of a file. |
+| [LinkedResource](linkedresource/#constructor_5)(string, string) | Initializes a new instance of the `LinkedResource` class with the content of a file. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [ContentDisposition](../../aspose.email/linkedresource/contentdisposition/) { get; } | Gets Content-Disposition header |
-| [ContentId](../../aspose.email/attachmentbase/contentid/) { get; set; } | Gets or sets the content id. |
-| [ContentLink](../../aspose.email/linkedresource/contentlink/) { get; set; } | Gets or sets a URI that the resource must match. |
-| [ContentStream](../../aspose.email/attachmentbase/contentstream/) { get; set; } | Gets or sets the content stream. |
-| [ContentType](../../aspose.email/attachmentbase/contenttype/) { get; set; } | Gets or sets the type of the content. |
-| virtual [Headers](../../aspose.email/attachmentbase/headers/) { get; } | Gets headers collection of attachment. |
-| [TransferEncoding](../../aspose.email/attachmentbase/transferencoding/) { get; set; } | Gets or sets the transfer encoding. |
-| [UniqueId](../../aspose.email/attachmentbase/uniqueid/) { get; } | Gets or sets a unique identifier for the attachment that will be constant for each application run. |
+| [ContentDisposition](../../aspose.email/linkedresource/contentdisposition/) { get; } | Gets the `Content-Disposition` header of the resource. |
+| [ContentId](../../aspose.email/attachmentbase/contentid/) { get; set; } | Gets or sets the content ID of the part, by which HTML refers to it with a `cid:` URL. |
+| [ContentLink](../../aspose.email/linkedresource/contentlink/) { get; set; } | Gets or sets the URI by which the HTML refers to the resource, as an alternative to its content ID. |
+| [ContentStream](../../aspose.email/attachmentbase/contentstream/) { get; set; } | Gets or sets the stream that holds the content. |
+| [ContentType](../../aspose.email/attachmentbase/contenttype/) { get; set; } | Gets or sets the content type of the part: its media type, name and character set. |
+| virtual [Headers](../../aspose.email/attachmentbase/headers/) { get; } | Gets the MIME headers of the part. |
+| [TransferEncoding](../../aspose.email/attachmentbase/transferencoding/) { get; set; } | Gets or sets how the content is encoded for transfer, such as Base64 or quoted-printable. |
+| [UniqueId](../../aspose.email/attachmentbase/uniqueid/) { get; } | Gets an identifier of the part that stays the same while the application runs. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring/#createlinkedresourcefromstring)(string) | Creates the linked resource from string. |
-| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring/#createlinkedresourcefromstring_1)(string, ContentType) | Creates the linked resource from string. |
-| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring/#createlinkedresourcefromstring_2)(string, Encoding, string) | Creates the linked resource from string. |
-| [Dispose](../../aspose.email/attachmentbase/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| virtual [Save](../../aspose.email/attachmentbase/save/)(Stream) | Saves the specified stream. |
-| virtual [Save](../../aspose.email/attachmentbase/save/)(string) | Saves the specified file name. |
+| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring/#createlinkedresourcefromstring)(string) | Creates a linked resource from a string. |
+| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring/#createlinkedresourcefromstring_1)(string, ContentType) | Creates a linked resource from a string. |
+| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring/#createlinkedresourcefromstring_2)(string, Encoding, string) | Creates a linked resource from a string. |
+| [Dispose](../../aspose.email/attachmentbase/dispose/)() | Releases the resources used by the part, including its content stream. |
+| virtual [Save](../../aspose.email/attachmentbase/save/)(Stream) | Saves the decoded content of the part to a stream. |
+| virtual [Save](../../aspose.email/attachmentbase/save/)(string) | Saves the decoded content of the part to a file. |
 
 ## Remarks
 

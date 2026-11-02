@@ -1,14 +1,14 @@
 ---
 title: MapiContactNamePropertySet.FileUnder
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactNamePropertySet property. Gets or sets the name under which to file this contact when displaying a list of contacts
+description: MapiContactNamePropertySet property. Gets or sets the name the contact is filed under in lists of contacts such as Smith John
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicontactnamepropertyset/fileunder/
 ---
 ## MapiContactNamePropertySet.FileUnder property
 
-Gets or sets the name under which to file this contact when displaying a list of contacts
+Gets or sets the name the contact is filed under in lists of contacts, such as `Smith, John`.
 
 ```csharp
 public string FileUnder { get; set; }

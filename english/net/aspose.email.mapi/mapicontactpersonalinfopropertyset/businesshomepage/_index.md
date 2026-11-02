@@ -1,14 +1,14 @@
 ---
 title: MapiContactPersonalInfoPropertySet.BusinessHomePage
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactPersonalInfoPropertySet property. Specifies the contacts business web page URL
+description: MapiContactPersonalInfoPropertySet property. Gets or sets the URL of the business web page
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/businesshomepage/
 ---
 ## MapiContactPersonalInfoPropertySet.BusinessHomePage property
 
-Specifies the contact's business web page URL
+Gets or sets the URL of the business web page.
 
 ```csharp
 public string BusinessHomePage { get; set; }

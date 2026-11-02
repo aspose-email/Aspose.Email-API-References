@@ -1,14 +1,14 @@
 ---
 title: FolderInfo.AddMapiMessageItem
 second_title: Aspose.Email for .NET API Reference
-description: FolderInfo method. Adds the IMapiMessageItem object into folder
+description: FolderInfo method. Adds a message contact appointment meeting task note or journal item to the folder
 type: docs
 weight: 140
 url: /net/aspose.email.storage.pst/folderinfo/addmapimessageitem/
 ---
 ## FolderInfo.AddMapiMessageItem method
 
-Adds the IMapiMessageItem object into folder.
+Adds a message, contact, appointment, meeting, task, note or journal item to the folder.
 
 ```csharp
 public string AddMapiMessageItem(IMapiMessageItem item)
@@ -16,21 +16,21 @@ public string AddMapiMessageItem(IMapiMessageItem item)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | IMapiMessageItem | The item necessary to add. |
+| item | IMapiMessageItem | The item to add. |
 
 ### Return Value
 
-The string that represents the EntryId of the added item.
+The entry ID of the added item.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | throws, if a PST file version is ANSI. |
-| ArgumentNullException | throws, if an item to add is null. |
-| InvalidOperationException | throws, if a PST is open for reading only. |
-| NotSupportedException | Thrown when MessageClass doesn't belong to IPM.Note, IPM.StickyNote, IPM.Contact, IPM.Activity, IPM.Appointment, IPM.Schedule.meeting, IPM.Task. |
-| InvalidOperationException | Thrown when MessageClass doesn't correspond to the folder's ContainerClass. |
+| NotImplementedException | The PST is in the ANSI format, which cannot be edited. |
+| ArgumentNullException | *item* is `null`. |
+| InvalidOperationException | The PST is open for reading only. |
+| NotSupportedException | The message class of *item* is not IPM.Note, IPM.StickyNote, IPM.Contact, IPM.Activity, IPM.Appointment, IPM.Schedule.Meeting or IPM.Task. |
+| InvalidOperationException | The message class of *item* does not match the container class of the folder. |
 
 ### See Also
 

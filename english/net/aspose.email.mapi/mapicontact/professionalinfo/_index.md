@@ -1,14 +1,14 @@
 ---
 title: MapiContact.ProfessionalInfo
 second_title: Aspose.Email for .NET API Reference
-description: MapiContact property. Properties are used to store professional details for the person represented by the contact
+description: MapiContact property. Gets or sets the professional details of the contact company job title department manager and so on
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.email.mapi/mapicontact/professionalinfo/
 ---
 ## MapiContact.ProfessionalInfo property
 
-Properties are used to store professional details for the person represented by the contact
+Gets or sets the professional details of the contact: company, job title, department, manager and so on.
 
 ```csharp
 public MapiContactProfessionalPropertySet ProfessionalInfo { get; set; }

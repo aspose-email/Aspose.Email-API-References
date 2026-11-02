@@ -1,14 +1,14 @@
 ---
 title: MapiAttachmentCollection.Add
 second_title: Aspose.Email for .NET API Reference
-description: MapiAttachmentCollection method. Adds the new attachment as embedded message
+description: MapiAttachmentCollection method. Attaches a message as an embedded message
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapiattachmentcollection/add/
 ---
 ## Add(string, MapiMessage) {#add}
 
-Adds the new attachment as embedded message.
+Attaches a message as an embedded message.
 
 ```csharp
 public MapiAttachment Add(string name, MapiMessage msg)
@@ -16,18 +16,18 @@ public MapiAttachment Add(string name, MapiMessage msg)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | The name of attachment. |
-| msg | MapiMessage | The [`MapiMessage`](../../mapimessage/) that represents the attached message. |
+| name | String | The name of the attachment. |
+| msg | MapiMessage | The message to attach. |
 
 ### Return Value
 
-Newly created attachment[`MapiAttachment`](../../mapiattachment/)
+The new [`MapiAttachment`](../../mapiattachment/).
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | throws if message is null. |
+| ArgumentNullException | *msg* is `null`. |
 
 ### See Also
 
@@ -41,7 +41,7 @@ Newly created attachment[`MapiAttachment`](../../mapiattachment/)
 
 ## Add(string, byte[]) {#add_2}
 
-Adds the new attachment.
+Adds a file attachment with the content in memory.
 
 ```csharp
 public MapiAttachment Add(string name, byte[] data)
@@ -49,19 +49,19 @@ public MapiAttachment Add(string name, byte[] data)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | The name of attachment. |
-| data | Byte[] | The attachment data. |
+| name | String | The file name of the attachment. |
+| data | Byte[] | The content of the file. |
 
 ### Return Value
 
-Newly created attachment[`MapiAttachment`](../../mapiattachment/)
+The new [`MapiAttachment`](../../mapiattachment/).
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | throws if attachment name is null or empty. |
-| ArgumentNullException | throws if attachment data is null. |
+| ArgumentNullException | *name* is `null` or empty. |
+| ArgumentNullException | *data* is `null`. |
 
 ### See Also
 
@@ -82,12 +82,12 @@ public MapiAttachment Add(string name, Stream content)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | The name of attachment. |
+| name | String | The file name of the attachment. |
 | content | Stream | The attachment content. The stream must be seekable and readable. Content is taken from the stream's current position to its end, and the range is fixed at the moment of this call. The stream must stay open until the message is saved or the attachment content is accessed, and the caller keeps ownership of it. |
 
 ### Return Value
 
-Newly created attachment[`MapiAttachment`](../../mapiattachment/)
+The new [`MapiAttachment`](../../mapiattachment/).
 
 ### Exceptions
 
@@ -121,13 +121,13 @@ public MapiAttachment Add(string name, Stream content, bool leaveStreamOpen)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | The name of attachment. |
+| name | String | The file name of the attachment. |
 | content | Stream | The attachment content. The stream must be seekable and readable. Content is taken from the stream's current position to its end, and the range is fixed at the moment of this call. The stream must stay open until the message is saved or the attachment content is accessed. |
 | leaveStreamOpen | Boolean | When `false`, the stream is disposed together with the owning message, so the message must be disposed. When `true`, the caller keeps ownership of the stream. |
 
 ### Return Value
 
-Newly created attachment[`MapiAttachment`](../../mapiattachment/)
+The new [`MapiAttachment`](../../mapiattachment/).
 
 ### Exceptions
 
@@ -160,7 +160,7 @@ public MapiAttachment Add(string name, ReferenceAttachmentOptions options)
 
 ### Return Value
 
-Newly created attachment[`MapiAttachment`](../../mapiattachment/)
+The new [`MapiAttachment`](../../mapiattachment/).
 
 ### Exceptions
 
@@ -222,7 +222,7 @@ msg.Attachments.Add("Document.pdf", options)
 
 ## Add(MapiAttachment) {#add_5}
 
-Adds an object to the end of the Collection.
+Adds an existing attachment to the end of the collection.
 
 ```csharp
 public void Add(MapiAttachment item)
@@ -230,7 +230,7 @@ public void Add(MapiAttachment item)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | MapiAttachment | The object to be added to the end of the Collection. The value can be null for reference types. |
+| item | MapiAttachment | The attachment to add. |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: Metered.GetBillingStatus
 second_title: Aspose.Email for .NET API Reference
-description: Metered method. Check the status of the Billing API
+description: Metered method. Checks whether the billing service is available
 type: docs
 weight: 20
 url: /net/aspose.email/metered/getbillingstatus/
 ---
 ## Metered.GetBillingStatus method
 
-Check the status of the Billing API.
+Checks whether the billing service is available.
 
 ```csharp
 public BillingHealthCheckResult GetBillingStatus()
@@ -16,7 +16,7 @@ public BillingHealthCheckResult GetBillingStatus()
 
 ### Return Value
 
-A suggestive message, along with true if the service is healthy, false otherwise.
+The result of the check: whether the service is healthy, with a message.
 
 ### See Also
 

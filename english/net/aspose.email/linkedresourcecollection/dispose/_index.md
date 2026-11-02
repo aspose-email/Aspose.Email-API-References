@@ -1,14 +1,14 @@
 ---
 title: LinkedResourceCollection.Dispose
 second_title: Aspose.Email for .NET API Reference
-description: LinkedResourceCollection method. Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources
+description: LinkedResourceCollection method. Releases the resources used by the items of the collection
 type: docs
 weight: 20
 url: /net/aspose.email/linkedresourcecollection/dispose/
 ---
 ## LinkedResourceCollection.Dispose method
 
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+Releases the resources used by the items of the collection.
 
 ```csharp
 public void Dispose()

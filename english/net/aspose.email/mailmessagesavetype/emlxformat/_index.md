@@ -1,14 +1,14 @@
 ---
 title: MailMessageSaveType.EmlxFormat
 second_title: Aspose.Email for .NET API Reference
-description: MailMessageSaveType property. Gets the emlx
+description: MailMessageSaveType property. Gets the EMLX format of Apple Mail
 type: docs
 weight: 20
 url: /net/aspose.email/mailmessagesavetype/emlxformat/
 ---
 ## MailMessageSaveType.EmlxFormat property
 
-Gets the emlx.
+Gets the EMLX format of Apple Mail.
 
 ```csharp
 public static MailMessageSaveType EmlxFormat { get; }
@@ -16,7 +16,7 @@ public static MailMessageSaveType EmlxFormat { get; }
 
 ### Property Value
 
-The emlx.
+The EMLX format.
 
 ### See Also
 

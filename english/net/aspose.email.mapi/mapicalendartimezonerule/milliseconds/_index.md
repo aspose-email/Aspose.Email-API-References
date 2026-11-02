@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarTimeZoneRule.Milliseconds
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarTimeZoneRule property. Gets or sets the milliseconds
+description: MapiCalendarTimeZoneRule property. Gets or sets the milliseconds of the time change
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapicalendartimezonerule/milliseconds/
 ---
 ## MapiCalendarTimeZoneRule.Milliseconds property
 
-Gets or sets the milliseconds
+Gets or sets the milliseconds of the time change.
 
 ```csharp
 public ushort Milliseconds { get; set; }

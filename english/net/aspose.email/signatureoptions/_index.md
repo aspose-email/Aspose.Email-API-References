@@ -1,14 +1,14 @@
 ---
 title: Class SignatureOptions
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.SignatureOptions class. This class allow the user to specify additional options when sign a message
+description: Aspose.Email.SignatureOptions class. Options for signing a message
 type: docs
 weight: 18830
 url: /net/aspose.email/signatureoptions/
 ---
 ## SignatureOptions class
 
-This class allow the user to specify additional options when sign a message.
+Options for signing a message.
 
 ```csharp
 public class SignatureOptions
@@ -24,7 +24,7 @@ public class SignatureOptions
 
 | Name | Description |
 | --- | --- |
-| [Detached](../../aspose.email/signatureoptions/detached/) { get; set; } | If detached is true, the signature is detached.If detached is false(the default), the signature is not detached. |
+| [Detached](../../aspose.email/signatureoptions/detached/) { get; set; } | Gets or sets a value indicating whether the signature is detached (`multipart/signed`), so that clients without S/MIME support can still read the message. The default is `false`. |
 
 ### See Also
 

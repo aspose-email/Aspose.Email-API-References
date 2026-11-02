@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarRecurrencePattern.Frequency
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarRecurrencePattern property. Gets or sets the frequency of the recurring series
+description: MapiCalendarRecurrencePattern property. Gets how often the series repeats
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapicalendarrecurrencepattern/frequency/
 ---
 ## MapiCalendarRecurrencePattern.Frequency property
 
-Gets or sets the frequency of the recurring series.
+Gets how often the series repeats.
 
 ```csharp
 public virtual MapiCalendarRecurrenceFrequency Frequency { get; }

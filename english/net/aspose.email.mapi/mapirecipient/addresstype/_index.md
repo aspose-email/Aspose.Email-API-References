@@ -1,14 +1,14 @@
 ---
 title: MapiRecipient.AddressType
 second_title: Aspose.Email for .NET API Reference
-description: MapiRecipient property. Gets the type of the address of the message recipient or sender
+description: MapiRecipient property. Gets the type of the address of the recipient such as SMTP or EX Exchange
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapirecipient/addresstype/
 ---
 ## MapiRecipient.AddressType property
 
-Gets the type of the address of the message recipient or sender.
+Gets the type of the address of the recipient, such as `SMTP` or `EX` (Exchange).
 
 ```csharp
 public string AddressType { get; }

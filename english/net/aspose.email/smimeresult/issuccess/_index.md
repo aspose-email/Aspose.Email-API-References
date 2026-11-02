@@ -1,14 +1,14 @@
 ---
 title: SmimeResult.IsSuccess
 second_title: Aspose.Email for .NET API Reference
-description: SmimeResult property. Gets true if check was successful otherwise false
+description: SmimeResult property. Gets a value indicating whether the signature is valid
 type: docs
 weight: 30
 url: /net/aspose.email/smimeresult/issuccess/
 ---
 ## SmimeResult.IsSuccess property
 
-Gets true if check was successful, otherwise false.
+Gets a value indicating whether the signature is valid.
 
 ```csharp
 public bool IsSuccess { get; }

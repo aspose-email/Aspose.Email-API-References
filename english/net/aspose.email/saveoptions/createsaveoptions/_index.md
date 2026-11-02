@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.CreateSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: SaveOptions method. Creates a save options object of a class suitable for the specified save type
+description: SaveOptions method. Creates save options of the class that matches the specified format
 type: docs
 weight: 10
 url: /net/aspose.email/saveoptions/createsaveoptions/
 ---
 ## SaveOptions.CreateSaveOptions method
 
-Creates a save options object of a class suitable for the specified save type.
+Creates save options of the class that matches the specified format.
 
 ```csharp
 public static SaveOptions CreateSaveOptions(MailMessageSaveType saveType)
@@ -16,11 +16,11 @@ public static SaveOptions CreateSaveOptions(MailMessageSaveType saveType)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveType | MailMessageSaveType | The [`save type`](../mailmessagesavetype/) for which to create a save options object. |
+| saveType | MailMessageSaveType | The format to save to. |
 
 ### Return Value
 
-An object of a class that derives from [`SaveOptions`](../).
+A [`EmlSaveOptions`](../../emlsaveoptions/), [`MsgSaveOptions`](../../msgsaveoptions/), [`MhtSaveOptions`](../../mhtsaveoptions/) or [`HtmlSaveOptions`](../../htmlsaveoptions/) object.
 
 ### See Also
 

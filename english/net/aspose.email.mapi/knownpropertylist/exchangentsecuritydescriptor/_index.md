@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ExchangeNTSecurityDescriptor
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains the calculated security descriptor for the item. Area Calendar Document Canonical name PidTagExchangeNTSecurityDescriptor Alternate names http//schemas.microsoft.com/exchange/ntsecuritydescriptor
+description: KnownPropertyList field. Contains the calculated security descriptor for the item. Area Calendar Document. Canonical name PidTagExchangeNTSecurityDescriptor. Alternate names http//schemas.microsoft.com/exchange/ntsecuritydescriptor
 type: docs
 weight: 9940
 url: /net/aspose.email.mapi/knownpropertylist/exchangentsecuritydescriptor/
 ---
 ## KnownPropertyList.ExchangeNTSecurityDescriptor field
 
-Contains the calculated security descriptor for the item. Area: Calendar Document Canonical name: PidTagExchangeNTSecurityDescriptor Alternate names: http://schemas.microsoft.com/exchange/ntsecuritydescriptor,
+Contains the calculated security descriptor for the item. Area: Calendar Document. Canonical name: PidTagExchangeNTSecurityDescriptor. Alternate names: http://schemas.microsoft.com/exchange/ntsecuritydescriptor.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExchangeNTSecurityDescriptor;

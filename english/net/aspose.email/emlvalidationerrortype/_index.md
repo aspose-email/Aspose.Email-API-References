@@ -1,14 +1,14 @@
 ---
 title: Enum EmlValidationErrorType
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.EmlValidationErrorType enum. Enumerates the types of the eml validation errors
+description: Aspose.Email.EmlValidationErrorType enum. Defines the types of errors in the MIME structure of a message
 type: docs
 weight: 16060
 url: /net/aspose.email/emlvalidationerrortype/
 ---
 ## EmlValidationErrorType enumeration
 
-Enumerates the types of the eml validation errors.
+Defines the types of errors in the MIME structure of a message.
 
 ```csharp
 public enum EmlValidationErrorType
@@ -18,9 +18,9 @@ public enum EmlValidationErrorType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| MessageStructureError | `0` | Indicates that the message structure is incorrect. |
-| EmailAddressError | `1` | Indicates that email address is invalid. |
-| TransferEncodingError | `2` | Indicates that message contains unexpected unencoded non-ASCII data. |
+| MessageStructureError | `0` | The structure of the message is not valid. |
+| EmailAddressError | `1` | An e-mail address is not valid. |
+| TransferEncodingError | `2` | The message contains non-ASCII data that is not encoded. |
 
 ### See Also
 

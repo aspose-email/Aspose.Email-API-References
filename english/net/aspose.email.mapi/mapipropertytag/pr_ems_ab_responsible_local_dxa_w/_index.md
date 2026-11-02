@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_EMS_AB_RESPONSIBLE_LOCAL_DXA_W
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. The Unicode form of PR_EMS_AB_RESPONSIBLE_LOCAL_DXA. Property tag 0x8123001F PT_UNICODE
 type: docs
 weight: 9690
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_responsible_local_dxa_w/
 ---
 ## MapiPropertyTag.PR_EMS_AB_RESPONSIBLE_LOCAL_DXA_W field
+
+The Unicode form of [`PR_EMS_AB_RESPONSIBLE_LOCAL_DXA`](../pr_ems_ab_responsible_local_dxa/). Property tag: 0x8123001F (PT_UNICODE).
 
 ```csharp
 public static readonly long PR_EMS_AB_RESPONSIBLE_LOCAL_DXA_W;

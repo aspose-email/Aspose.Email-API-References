@@ -1,14 +1,14 @@
 ---
 title: Class MapiCalendarSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendarSaveOptions class. Serves as the abstract base class for formatspecific options when saving MapiCalendar objects to various formats ICS MSG. This class provides common configuration properties such as save format and factory methods for creating formatspecific save options
+description: Aspose.Email.Mapi.MapiCalendarSaveOptions class. The base class for the options of saving a MapiCalendar. The derived class selects the format
 type: docs
 weight: 16900
 url: /net/aspose.email.mapi/mapicalendarsaveoptions/
 ---
 ## MapiCalendarSaveOptions class
 
-Serves as the abstract base class for format-specific options when saving [`MapiCalendar`](../mapicalendar/) objects to various formats (ICS, MSG). This class provides common configuration properties such as save format and factory methods for creating format-specific save options.
+The base class for the options of saving a [`MapiCalendar`](../mapicalendar/). The derived class selects the format.
 
 ```csharp
 public abstract class MapiCalendarSaveOptions
@@ -18,20 +18,20 @@ public abstract class MapiCalendarSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [ProductIdentifier](../../aspose.email.mapi/mapicalendarsaveoptions/productidentifier/) { get; set; } | Gets or sets the product identifier. |
-| [SaveFormat](../../aspose.email.mapi/mapicalendarsaveoptions/saveformat/) { get; } | Gets a save format. |
-| static [DefaultIcs](../../aspose.email.mapi/mapicalendarsaveoptions/defaultics/) { get; } | Gets the default Ics save options. |
-| static [DefaultMsg](../../aspose.email.mapi/mapicalendarsaveoptions/defaultmsg/) { get; } | Gets the default Msg save options. |
+| [ProductIdentifier](../../aspose.email.mapi/mapicalendarsaveoptions/productidentifier/) { get; set; } | Gets or sets the identifier of the product that created the iCalendar file, written to its `PRODID` property. |
+| [SaveFormat](../../aspose.email.mapi/mapicalendarsaveoptions/saveformat/) { get; } | Gets the format these options save to. |
+| static [DefaultIcs](../../aspose.email.mapi/mapicalendarsaveoptions/defaultics/) { get; } | Gets new iCalendar save options with the default settings. |
+| static [DefaultMsg](../../aspose.email.mapi/mapicalendarsaveoptions/defaultmsg/) { get; } | Gets new MSG save options with the default settings. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [FromSaveFormat](../../aspose.email.mapi/mapicalendarsaveoptions/fromsaveformat/)(AppointmentSaveFormat) | Gets the MapiCalendarSaveOptions from SaveFormat. |
+| static [FromSaveFormat](../../aspose.email.mapi/mapicalendarsaveoptions/fromsaveformat/)(AppointmentSaveFormat) | Gets the default save options for the specified format. |
 
 ## Remarks
 
-This class is designed to be inherited by concrete format-specific classes like [`MapiCalendarIcsSaveOptions`](../mapicalendaricssaveoptions/) and [`MapiCalendarMsgSaveOptions`](../mapicalendarmsgsaveoptions/). Do not instantiate this class directly. Use the format-specific subclasses or the static factory methods like [`DefaultIcs`](./defaultics/), [`DefaultMsg`](./defaultmsg/), and [`FromSaveFormat`](./fromsaveformat/) to create appropriate save options for your target format.
+Use [`MapiCalendarIcsSaveOptions`](../mapicalendaricssaveoptions/) for iCalendar and [`MapiCalendarMsgSaveOptions`](../mapicalendarmsgsaveoptions/) for MSG, or get the default options with [`DefaultIcs`](./defaultics/), [`DefaultMsg`](./defaultmsg/) or [`FromSaveFormat`](./fromsaveformat/).
 
 ### See Also
 

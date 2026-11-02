@@ -1,14 +1,14 @@
 ---
 title: FollowUpManager.GetOptions
 second_title: Aspose.Email for .NET API Reference
-description: FollowUpManager method. Gets the followup options of a message
+description: FollowUpManager method. Gets the followup flag reminder categories and voting buttons of the message
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/followupmanager/getoptions/
 ---
 ## FollowUpManager.GetOptions method
 
-Gets the follow-up options of a message.
+Gets the follow-up flag, reminder, categories and voting buttons of the message.
 
 ```csharp
 public static FollowUpOptions GetOptions(MapiMessageItemBase message)
@@ -16,11 +16,11 @@ public static FollowUpOptions GetOptions(MapiMessageItemBase message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which options is set. |
+| message | MapiMessageItemBase | The message to read. |
 
 ### Return Value
 
-The [`FollowUpOptions`](../../followupoptions/) that represents options for using follow-up flags, reminders, category and voting buttons.
+A [`FollowUpOptions`](../../followupoptions/) with the follow-up settings of the message.
 
 ### Exceptions
 

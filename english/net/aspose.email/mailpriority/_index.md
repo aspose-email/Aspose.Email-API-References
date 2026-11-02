@@ -1,14 +1,14 @@
 ---
 title: Enum MailPriority
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.MailPriority enum. Represents the mail priopity
+description: Aspose.Email.MailPriority enum. Defines the priorities of a message
 type: docs
 weight: 16520
 url: /net/aspose.email/mailpriority/
 ---
 ## MailPriority enumeration
 
-Represents the mail priopity
+Defines the priorities of a message.
 
 ```csharp
 public enum MailPriority
@@ -18,9 +18,9 @@ public enum MailPriority
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Normal | `0` | Normal priority |
-| Low | `1` | Low priority |
-| High | `2` | High priority |
+| Normal | `0` | Normal priority. |
+| Low | `1` | Low priority. |
+| High | `2` | High priority. |
 
 ### See Also
 

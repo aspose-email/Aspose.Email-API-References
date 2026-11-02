@@ -1,14 +1,14 @@
 ---
 title: MapiAttachment.Save
 second_title: Aspose.Email for .NET API Reference
-description: MapiAttachment method. Save attachment content
+description: MapiAttachment method. Saves the content of the attachment to a file. An embedded message is saved in MSG format
 type: docs
 weight: 200
 url: /net/aspose.email.mapi/mapiattachment/save/
 ---
 ## Save(string) {#save_1}
 
-Save attachment content.
+Saves the content of the attachment to a file. An embedded message is saved in MSG format.
 
 ```csharp
 public void Save(string filename)
@@ -16,7 +16,13 @@ public void Save(string filename)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | String | The file name to save. |
+| filename | String | The path of the file to write. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *filename* is `null`. |
 
 ### See Also
 
@@ -28,7 +34,7 @@ public void Save(string filename)
 
 ## Save(Stream) {#save}
 
-Save attachment content.
+Saves the content of the attachment to a stream. An embedded message is saved in MSG format.
 
 ```csharp
 public void Save(Stream stream)
@@ -36,7 +42,7 @@ public void Save(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The stream to save. |
+| stream | Stream | The stream to write to. |
 
 ### See Also
 

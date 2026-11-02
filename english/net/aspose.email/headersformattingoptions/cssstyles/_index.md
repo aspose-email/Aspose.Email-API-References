@@ -1,14 +1,14 @@
 ---
 title: HeadersFormattingOptions.CssStyles
 second_title: Aspose.Email for .NET API Reference
-description: HeadersFormattingOptions property. Gets or sets the additional css styles for the formatter
+description: HeadersFormattingOptions property. Gets or sets additional CSS styles added to the output
 type: docs
 weight: 40
 url: /net/aspose.email/headersformattingoptions/cssstyles/
 ---
 ## HeadersFormattingOptions.CssStyles property
 
-Gets or sets the additional css styles for the formatter.
+Gets or sets additional CSS styles added to the output.
 
 ```csharp
 public string CssStyles { get; set; }
@@ -16,7 +16,7 @@ public string CssStyles { get; set; }
 
 ### Property Value
 
-The styles to be injected into resulting html body.
+The CSS styles.
 
 ### See Also
 

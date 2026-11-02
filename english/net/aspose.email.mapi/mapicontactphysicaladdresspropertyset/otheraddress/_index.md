@@ -1,14 +1,14 @@
 ---
 title: MapiContactPhysicalAddressPropertySet.OtherAddress
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactPhysicalAddressPropertySet property. Specifies the other contacts address
+description: MapiContactPhysicalAddressPropertySet property. Gets or sets the other address
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapicontactphysicaladdresspropertyset/otheraddress/
 ---
 ## MapiContactPhysicalAddressPropertySet.OtherAddress property
 
-Specifies the other contact's address
+Gets or sets the other address.
 
 ```csharp
 public MapiContactPhysicalAddress OtherAddress { get; set; }

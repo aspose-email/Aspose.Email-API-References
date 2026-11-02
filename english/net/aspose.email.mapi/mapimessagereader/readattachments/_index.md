@@ -1,14 +1,14 @@
 ---
 title: MapiMessageReader.ReadAttachments
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessageReader method. Extracts the attachment from the Outlook Message files
+description: MapiMessageReader method. Reads the attachments of the message
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapimessagereader/readattachments/
 ---
 ## MapiMessageReader.ReadAttachments method
 
-Extracts the attachment from the Outlook Message files.
+Reads the attachments of the message.
 
 ```csharp
 public MapiAttachmentCollection ReadAttachments()
@@ -16,7 +16,7 @@ public MapiAttachmentCollection ReadAttachments()
 
 ### Return Value
 
-The Attachment collection.
+The attachments.
 
 ### See Also
 

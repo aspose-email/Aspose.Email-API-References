@@ -1,14 +1,14 @@
 ---
 title: MapiNote.XPosition
 second_title: Aspose.Email for .NET API Reference
-description: MapiNote property. Gets or sets the distance in pixels from the left edge of the screen that a user interface displays a Note object
+description: MapiNote property. Gets or sets the distance of the note window from the left edge of the screen in pixels
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.email.mapi/mapinote/xposition/
 ---
 ## MapiNote.XPosition property
 
-Gets or sets the distance, in pixels, from the left edge of the screen that a user interface displays a Note object
+Gets or sets the distance of the note window from the left edge of the screen, in pixels.
 
 ```csharp
 public int XPosition { get; set; }

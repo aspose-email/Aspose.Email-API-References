@@ -1,14 +1,14 @@
 ---
 title: MessageInfo.Sensitivity
 second_title: Aspose.Email for .NET API Reference
-description: MessageInfo property. Gets the Sensitivity
+description: MessageInfo property. Gets the sensitivity of the message
 type: docs
 weight: 100
 url: /net/aspose.email.storage.pst/messageinfo/sensitivity/
 ---
 ## MessageInfo.Sensitivity property
 
-Gets the Sensitivity.
+Gets the sensitivity of the message.
 
 ```csharp
 public MapiSensitivity Sensitivity { get; }

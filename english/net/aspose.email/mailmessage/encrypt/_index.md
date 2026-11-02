@@ -1,14 +1,14 @@
 ---
 title: MailMessage.Encrypt
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage method. Encrypts this message
+description: MailMessage method. Creates a copy of the message encrypted for one recipient S/MIME
 type: docs
 weight: 460
 url: /net/aspose.email/mailmessage/encrypt/
 ---
 ## Encrypt(X509Certificate2) {#encrypt}
 
-Encrypts this message
+Creates a copy of the message encrypted for one recipient (S/MIME).
 
 ```csharp
 public virtual MailMessage Encrypt(X509Certificate2 certificate)
@@ -16,11 +16,11 @@ public virtual MailMessage Encrypt(X509Certificate2 certificate)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| certificate | X509Certificate2 | X509 certificate to encrypt message |
+| certificate | X509Certificate2 | The certificate of the recipient. |
 
 ### Return Value
 
-Encrypted email message
+The encrypted message.
 
 ## Examples
 
@@ -75,7 +75,7 @@ Dim publicCertFile = "MartinCertificate.cer"
 
 ## Encrypt(X509Certificate2[]) {#encrypt_1}
 
-Encrypts this message
+Creates a copy of the message encrypted for several recipients (S/MIME).
 
 ```csharp
 public virtual MailMessage Encrypt(X509Certificate2[] certificates)
@@ -83,11 +83,11 @@ public virtual MailMessage Encrypt(X509Certificate2[] certificates)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| certificates | X509Certificate2[] | Array with X509 certificates to encrypt message |
+| certificates | X509Certificate2[] | The certificates of the recipients. |
 
 ### Return Value
 
-Encrypted email message
+The encrypted message.
 
 ### See Also
 

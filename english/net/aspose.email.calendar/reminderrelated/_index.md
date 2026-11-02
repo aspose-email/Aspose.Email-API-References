@@ -1,14 +1,14 @@
 ---
 title: Enum ReminderRelated
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.ReminderRelated enum. Specify the relationship of the alarm trigger with respect to the start or end of the event
+description: Aspose.Email.Calendar.ReminderRelated enum. Defines whether a relative reminder trigger is measured from the start or from the end of the event
 type: docs
 weight: 850
 url: /net/aspose.email.calendar/reminderrelated/
 ---
 ## ReminderRelated enumeration
 
-Specify the relationship of the alarm trigger with respect to the start or end of the event.
+Defines whether a relative reminder trigger is measured from the start or from the end of the event.
 
 ```csharp
 public enum ReminderRelated
@@ -18,8 +18,8 @@ public enum ReminderRelated
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Start | `0` | Sets the alarm to trigger off the start of the associated event. |
-| End | `1` | Sets the alarm to trigger off the end of the associated event. |
+| Start | `0` | The trigger is relative to the start of the event. |
+| End | `1` | The trigger is relative to the end of the event. |
 
 ### See Also
 

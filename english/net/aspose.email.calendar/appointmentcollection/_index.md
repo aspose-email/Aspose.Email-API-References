@@ -1,14 +1,14 @@
 ---
 title: Class AppointmentCollection
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.AppointmentCollection class. Represents a collection of Appointment objects
+description: Aspose.Email.Calendar.AppointmentCollection class. A list of Appointment objects
 type: docs
 weight: 440
 url: /net/aspose.email.calendar/appointmentcollection/
 ---
 ## AppointmentCollection class
 
-Represents a collection of Appointment objects.
+A list of [`Appointment`](../appointment/) objects.
 
 ```csharp
 public class AppointmentCollection : List<Appointment>
@@ -18,8 +18,8 @@ public class AppointmentCollection : List<Appointment>
 
 | Name | Description |
 | --- | --- |
-| [AppointmentCollection](appointmentcollection/#constructor)() | Initializes a new instance of the AppointmentCollection class that is empty. |
-| [AppointmentCollection](appointmentcollection/#constructor_1)(IEnumerable&lt;Appointment&gt;) | Initializes a new instance of the AppointmentCollection class |
+| [AppointmentCollection](appointmentcollection/#constructor)() | Initializes a new, empty instance of the `AppointmentCollection` class. |
+| [AppointmentCollection](appointmentcollection/#constructor_1)(IEnumerable&lt;Appointment&gt;) | Initializes a new instance of the `AppointmentCollection` class that contains the specified appointments. |
 
 ## Methods
 

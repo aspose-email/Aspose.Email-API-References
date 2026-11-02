@@ -1,14 +1,14 @@
 ---
 title: Class ContactSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.ContactSaveOptions class. Serves as the abstract base class for contact save options when saving contact objects to various formats. This class provides common configuration properties such as save format and vCard version for contact serialization
+description: Aspose.Email.Mapi.ContactSaveOptions class. The base class for the options that control how a contact is saved. The derived classes select the format VCardSaveOptions for vCard WebDavContactSaveOptions for WebDAV and MapiContactSaveOptions for MSG
 type: docs
 weight: 16570
 url: /net/aspose.email.mapi/contactsaveoptions/
 ---
 ## ContactSaveOptions class
 
-Serves as the abstract base class for contact save options when saving contact objects to various formats. This class provides common configuration properties such as save format and vCard version for contact serialization.
+The base class for the options that control how a contact is saved. The derived classes select the format: [`VCardSaveOptions`](../../aspose.email.personalinfo.vcard/vcardsaveoptions/) for vCard, [`WebDavContactSaveOptions`](../webdavcontactsaveoptions/) for WebDAV and [`MapiContactSaveOptions`](../mapicontactsaveoptions/) for MSG.
 
 ```csharp
 public abstract class ContactSaveOptions
@@ -18,13 +18,13 @@ public abstract class ContactSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [ProductId](../../aspose.email.mapi/contactsaveoptions/productid/) { get; set; } | Gets or sets the product identifier that created VCard object. |
-| [SaveFormat](../../aspose.email.mapi/contactsaveoptions/saveformat/) { get; } | Gets a save format |
-| [Version](../../aspose.email.mapi/contactsaveoptions/version/) { get; set; } | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
+| [ProductId](../../aspose.email.mapi/contactsaveoptions/productid/) { get; set; } | Gets or sets the identifier of the product that created the vCard, written to its `PRODID` property. |
+| [SaveFormat](../../aspose.email.mapi/contactsaveoptions/saveformat/) { get; } | Gets the format this options object saves to. |
+| [Version](../../aspose.email.mapi/contactsaveoptions/version/) { get; set; } | Gets or sets the vCard version to write. Used only when the contact is saved to vCard. |
 
 ## Remarks
 
-This class is designed to be inherited by concrete format-specific classes like [`VCardSaveOptions`](../../aspose.email.personalinfo.vcard/vcardsaveoptions/). Do not instantiate this class directly. Use the format-specific subclasses to access format-specific saving options. The [`Version`](./version/) property controls the vCard format version when saving to vCard format.
+Pass an instance to [`Save`](../mapicontact/save/). [`Version`](./version/) applies only to vCard output; the other formats ignore it.
 
 ### See Also
 

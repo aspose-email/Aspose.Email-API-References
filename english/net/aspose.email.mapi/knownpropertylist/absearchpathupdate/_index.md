@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AbSearchPathUpdate
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_AB_SEARCH_PATH_UPDATE
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_AB_SEARCH_PATH_UPDATE. Property tag 0x3D110102 data type Binary
 type: docs
 weight: 220
 url: /net/aspose.email.mapi/knownpropertylist/absearchpathupdate/
 ---
 ## KnownPropertyList.AbSearchPathUpdate field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_AB_SEARCH_PATH_UPDATE
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_AB_SEARCH_PATH_UPDATE. Property tag: 0x3D110102; data type: Binary.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AbSearchPathUpdate;

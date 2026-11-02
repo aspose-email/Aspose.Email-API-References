@@ -1,14 +1,14 @@
 ---
 title: Enum AppointmentAction
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.AppointmentAction enum. Enumerates appointments methods
+description: Aspose.Email.Calendar.AppointmentAction enum. Specifies whether a calendar message creates updates or cancels an event
 type: docs
 weight: 420
 url: /net/aspose.email.calendar/appointmentaction/
 ---
 ## AppointmentAction enumeration
 
-Enumerates appointments methods
+Specifies whether a calendar message creates, updates or cancels an event.
 
 ```csharp
 public enum AppointmentAction
@@ -18,9 +18,9 @@ public enum AppointmentAction
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Create | `0` | Create method |
-| Update | `1` | Update method |
-| Cancel | `2` | Cancel method |
+| Create | `0` | Creates the event: a meeting request. |
+| Update | `1` | Updates an existing event. |
+| Cancel | `2` | Cancels an existing event. |
 
 ### See Also
 

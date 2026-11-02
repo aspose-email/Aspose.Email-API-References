@@ -1,14 +1,14 @@
 ---
 title: MessageFormat.Emlx
 second_title: Aspose.Email for .NET API Reference
-description: MessageFormat property. Indicates message in Emlx format used by Apple Mail
+description: MessageFormat property. Gets the EMLX format of Apple Mail
 type: docs
 weight: 20
 url: /net/aspose.email/messageformat/emlx/
 ---
 ## MessageFormat.Emlx property
 
-Indicates message in **Emlx** format, used by Apple Mail.
+Gets the EMLX format of Apple Mail.
 
 ```csharp
 public static MessageFormat Emlx { get; }

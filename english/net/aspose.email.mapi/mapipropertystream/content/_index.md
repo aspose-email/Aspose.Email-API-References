@@ -1,14 +1,14 @@
 ---
 title: MapiPropertyStream.Content
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyStream property. Gets the content
+description: MapiPropertyStream property. Gets the content of the stream
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapipropertystream/content/
 ---
 ## MapiPropertyStream.Content property
 
-Gets the content.
+Gets the content of the stream.
 
 ```csharp
 public object Content { get; }

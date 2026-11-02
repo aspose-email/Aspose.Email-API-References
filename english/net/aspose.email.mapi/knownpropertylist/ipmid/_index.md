@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.IpmId
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_IPM_ID
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_IPM_ID. Property tag 0x00180102 data type Binary
 type: docs
 weight: 11740
 url: /net/aspose.email.mapi/knownpropertylist/ipmid/
 ---
 ## KnownPropertyList.IpmId field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_IPM_ID
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_IPM_ID. Property tag: 0x00180102; data type: Binary.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IpmId;

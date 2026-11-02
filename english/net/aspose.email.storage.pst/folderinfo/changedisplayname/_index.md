@@ -1,14 +1,14 @@
 ---
 title: FolderInfo.ChangeDisplayName
 second_title: Aspose.Email for .NET API Reference
-description: FolderInfo method. Changes the display name
+description: FolderInfo method. Renames the folder
 type: docs
 weight: 190
 url: /net/aspose.email.storage.pst/folderinfo/changedisplayname/
 ---
 ## FolderInfo.ChangeDisplayName method
 
-Changes the display name.
+Renames the folder.
 
 ```csharp
 public void ChangeDisplayName(string newName)
@@ -16,14 +16,14 @@ public void ChangeDisplayName(string newName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newName | String | A new name. |
+| newName | String | The new name of the folder. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | throws, if a PST is open for reading only. |
-| NotImplementedException | throws, if a PST file version is ANSI. |
+| InvalidOperationException | The PST is open for reading only. |
+| NotImplementedException | The PST is in the ANSI format, which cannot be edited. |
 
 ### See Also
 

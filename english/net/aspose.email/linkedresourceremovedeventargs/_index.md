@@ -18,13 +18,13 @@ public class LinkedResourceRemovedEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [LinkedResourceRemovedEventArgs](linkedresourceremovedeventargs/)(List&lt;string&gt;) |  |
+| [LinkedResourceRemovedEventArgs](linkedresourceremovedeventargs/)(List&lt;string&gt;) | Initializes a new instance of the `LinkedResourceRemovedEventArgs` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [ListContentId](../../aspose.email/linkedresourceremovedeventargs/listcontentid/) { get; } |  |
+| [ListContentId](../../aspose.email/linkedresourceremovedeventargs/listcontentid/) { get; } | Gets the content IDs of the removed resources. |
 
 ## Remarks
 

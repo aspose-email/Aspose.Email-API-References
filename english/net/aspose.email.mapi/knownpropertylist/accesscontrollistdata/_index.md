@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AccessControlListData
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains a permissions list for a folder. Area Access Control Properties Canonical name PidTagAccessControlListData Alternate names PR_ACL_DATA ptagACLData
+description: KnownPropertyList field. Contains a permissions list for a folder. Area Access Control Properties. Canonical name PidTagAccessControlListData. Alternate names PR_ACL_DATA ptagACLData
 type: docs
 weight: 260
 url: /net/aspose.email.mapi/knownpropertylist/accesscontrollistdata/
 ---
 ## KnownPropertyList.AccessControlListData field
 
-Contains a permissions list for a folder. Area: Access Control Properties Canonical name: PidTagAccessControlListData Alternate names: PR_ACL_DATA, ptagACLData
+Contains a permissions list for a folder. Area: Access Control Properties. Canonical name: PidTagAccessControlListData. Alternate names: PR_ACL_DATA, ptagACLData.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AccessControlListData;

@@ -1,14 +1,14 @@
 ---
 title: StorageProcessedEventArgs.FileName
 second_title: Aspose.Email for .NET API Reference
-description: StorageProcessedEventArgs property. Gets the name of the pst file that represents the chunk
+description: StorageProcessedEventArgs property. Gets the name of the PST file that has been processed
 type: docs
 weight: 20
 url: /net/aspose.email.storage.pst/storageprocessedeventargs/filename/
 ---
 ## StorageProcessedEventArgs.FileName property
 
-Gets the name of the pst file, that represents the chunk.
+Gets the name of the PST file that has been processed.
 
 ```csharp
 public string FileName { get; }

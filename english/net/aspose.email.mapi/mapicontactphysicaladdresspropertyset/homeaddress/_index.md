@@ -1,14 +1,14 @@
 ---
 title: MapiContactPhysicalAddressPropertySet.HomeAddress
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactPhysicalAddressPropertySet property. Specifies the address of the contacts home
+description: MapiContactPhysicalAddressPropertySet property. Gets or sets the home address
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicontactphysicaladdresspropertyset/homeaddress/
 ---
 ## MapiContactPhysicalAddressPropertySet.HomeAddress property
 
-Specifies the address of the contact's home
+Gets or sets the home address.
 
 ```csharp
 public MapiContactPhysicalAddress HomeAddress { get; set; }

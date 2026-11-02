@@ -1,14 +1,14 @@
 ---
 title: MailMessageSaveType.ToString
 second_title: Aspose.Email for .NET API Reference
-description: MailMessageSaveType method. Returns a String that represents the current Object
+description: MailMessageSaveType method. Returns the name of the format
 type: docs
 weight: 100
 url: /net/aspose.email/mailmessagesavetype/tostring/
 ---
 ## MailMessageSaveType.ToString method
 
-Returns a String that represents the current Object.
+Returns the name of the format.
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Return Value
 
-A String that represents the current Object.
+The name of the format.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.EmsAbOriginalDisplayTableMsdos
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_ORIGINAL_DISPLAY_TABLE_MSDOS
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_EMS_AB_ORIGINAL_DISPLAY_TABLE_MSDOS. Property tag 0x81040102 data type Binary
 type: docs
 weight: 8020
 url: /net/aspose.email.mapi/knownpropertylist/emsaboriginaldisplaytablemsdos/
 ---
 ## KnownPropertyList.EmsAbOriginalDisplayTableMsdos field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_EMS_AB_ORIGINAL_DISPLAY_TABLE_MSDOS
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_EMS_AB_ORIGINAL_DISPLAY_TABLE_MSDOS. Property tag: 0x81040102; data type: Binary.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbOriginalDisplayTableMsdos;

@@ -1,14 +1,14 @@
 ---
 title: PidNamePropertyDescriptor.PidNamePropertyDescriptor
 second_title: Aspose.Email for .NET API Reference
-description: PidNamePropertyDescriptor constructor. Initializes a new instance of the PidNamePropertyDescriptor class Properties identified by a string name along with a property set
+description: PidNamePropertyDescriptor constructor. Initializes a new instance of the PidNamePropertyDescriptor class
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/pidnamepropertydescriptor/pidnamepropertydescriptor/
 ---
 ## PidNamePropertyDescriptor(string, PropertyDataType, Guid) {#constructor}
 
-Initializes a new instance of the [`PidNamePropertyDescriptor`](../) class Properties identified by a string name along with a property set.
+Initializes a new instance of the [`PidNamePropertyDescriptor`](../) class.
 
 ```csharp
 public PidNamePropertyDescriptor(string name, PropertyDataType type, Guid propertySet)
@@ -16,9 +16,9 @@ public PidNamePropertyDescriptor(string name, PropertyDataType type, Guid proper
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | A string that, along with the property set, identifies a named property. |
-| type | PropertyDataType | Specifies the type of values allowed for the property. |
-| propertySet | Guid | A GUID that identifies a group of properties with a similar purpose. |
+| name | String | The name of the property within its property set, such as `Keywords`. |
+| type | PropertyDataType | The data type of the property. |
+| propertySet | Guid | The GUID of the property set, for example one from [`KnownPropertySets`](../../knownpropertysets/). |
 
 ### See Also
 
@@ -31,7 +31,7 @@ public PidNamePropertyDescriptor(string name, PropertyDataType type, Guid proper
 
 ## PidNamePropertyDescriptor(string, string, PropertyDataType, Guid) {#constructor_1}
 
-Initializes a new instance of the [`PidNamePropertyDescriptor`](../) class Properties identified by a string name along with a property set.
+Initializes a new instance of the [`PidNamePropertyDescriptor`](../) class.
 
 ```csharp
 public PidNamePropertyDescriptor(string canonicalName, string name, PropertyDataType type, 
@@ -40,10 +40,10 @@ public PidNamePropertyDescriptor(string canonicalName, string name, PropertyData
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| canonicalName | String | The name used to refer to the property in the documentation. |
-| name | String | A string that, along with the property set, identifies a named property. |
-| type | PropertyDataType | Specifies the type of values allowed for the property. |
-| propertySet | Guid | A GUID that identifies a group of properties with a similar purpose. |
+| canonicalName | String | The canonical name of the property, such as `PidNameKeywords`. |
+| name | String | The name of the property within its property set, such as `Keywords`. |
+| type | PropertyDataType | The data type of the property. |
+| propertySet | Guid | The GUID of the property set, for example one from [`KnownPropertySets`](../../knownpropertysets/). |
 
 ### See Also
 

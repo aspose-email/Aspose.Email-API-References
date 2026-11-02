@@ -1,14 +1,14 @@
 ---
 title: Class MapiContactEventPropertySet
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiContactEventPropertySet class. Specify events associated with a contact
+description: Aspose.Email.Mapi.MapiContactEventPropertySet class. The dates associated with a contact
 type: docs
 weight: 17040
 url: /net/aspose.email.mapi/mapicontacteventpropertyset/
 ---
 ## MapiContactEventPropertySet class
 
-Specify events associated with a contact
+The dates associated with a contact.
 
 ```csharp
 public sealed class MapiContactEventPropertySet : MapiContactPropertySet
@@ -18,15 +18,15 @@ public sealed class MapiContactEventPropertySet : MapiContactPropertySet
 
 | Name | Description |
 | --- | --- |
-| [MapiContactEventPropertySet](mapicontacteventpropertyset/#constructor)() | Initializes a new instance of the `MapiContactEventPropertySet` class |
-| [MapiContactEventPropertySet](mapicontacteventpropertyset/#constructor_1)(MapiPropertyCollection) | Initializes a new instance of the `MapiContactEventPropertySet` class |
+| [MapiContactEventPropertySet](mapicontacteventpropertyset/#constructor)() | Initializes a new instance of the `MapiContactEventPropertySet` class. |
+| [MapiContactEventPropertySet](mapicontacteventpropertyset/#constructor_1)(MapiPropertyCollection) | Initializes a new instance of the `MapiContactEventPropertySet` class from contact properties. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Birthday](../../aspose.email.mapi/mapicontacteventpropertyset/birthday/) { get; set; } | Specifies the birthday of the contact |
-| [WeddingAnniversary](../../aspose.email.mapi/mapicontacteventpropertyset/weddinganniversary/) { get; set; } | Specifies the wedding anniversary of the contact |
+| [Birthday](../../aspose.email.mapi/mapicontacteventpropertyset/birthday/) { get; set; } | Gets or sets the birthday of the contact. |
+| [WeddingAnniversary](../../aspose.email.mapi/mapicontacteventpropertyset/weddinganniversary/) { get; set; } | Gets or sets the wedding anniversary of the contact. |
 
 ### See Also
 

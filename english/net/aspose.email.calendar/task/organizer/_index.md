@@ -1,14 +1,14 @@
 ---
 title: Task.Organizer
 second_title: Aspose.Email for .NET API Reference
-description: Task property. Gets or sets the organizer
+description: Task property. Gets or sets the organizer of the task
 type: docs
 weight: 100
 url: /net/aspose.email.calendar/task/organizer/
 ---
 ## Task.Organizer property
 
-Gets or sets the organizer.
+Gets or sets the organizer of the task.
 
 ```csharp
 public MailAddress Organizer { get; set; }

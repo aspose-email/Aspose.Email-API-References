@@ -24,7 +24,7 @@ public ImapException()
 
 ## ImapException(string) {#constructor_1}
 
-Initializes a new instance of the [`ImapException`](../) class.
+Initializes a new instance of the [`ImapException`](../) class with the specified error message.
 
 ```csharp
 public ImapException(string message)
@@ -32,7 +32,7 @@ public ImapException(string message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | A String that describes the error that occurred. |
+| message | String | The message that describes the error. |
 
 ### See Also
 
@@ -44,7 +44,7 @@ public ImapException(string message)
 
 ## ImapException(string, params object[]) {#constructor_3}
 
-Initializes a new instance of the [`ImapException`](../) class with a specified error message.
+Initializes a new instance of the [`ImapException`](../) class with an error message built from a composite format string.
 
 ```csharp
 public ImapException(string format, params object[] parameters)
@@ -52,8 +52,8 @@ public ImapException(string format, params object[] parameters)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | String | Message format |
-| parameters | Object[] | Format parameters |
+| format | String | A composite format string, as for `String.Format`. |
+| parameters | Object[] | The objects to insert into *format*. |
 
 ### See Also
 
@@ -65,7 +65,7 @@ public ImapException(string format, params object[] parameters)
 
 ## ImapException(string, Exception) {#constructor_2}
 
-Initializes a new instance of the [`ImapException`](../) class.
+Initializes a new instance of the [`ImapException`](../) class with the specified error message and a reference to the exception that caused it.
 
 ```csharp
 public ImapException(string message, Exception innerException)
@@ -73,8 +73,8 @@ public ImapException(string message, Exception innerException)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | A String that describes the error that occurred. |
-| innerException | Exception | The exception that is the cause of the current exception. |
+| message | String | The message that describes the error. |
+| innerException | Exception | The exception that caused this exception, or `null`. |
 
 ### See Also
 

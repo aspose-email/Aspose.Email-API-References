@@ -1,51 +1,51 @@
 ---
 title: Aspose.Email.Storage.Pst
 second_title: Aspose.Email for .NET API Reference
-description: Create read search and modify folders messages and attachments in Outlook PSTOST files
+description: Create read search and modify Outlook PST and OST files including their folders messages and attachments and split merge or convert them
 type: docs
 weight: 390
 url: /net/aspose.email.storage.pst/
 ---
-Create, read, search and modify folders, messages and attachments in Outlook PST/OST files.
+Create, read, search and modify Outlook PST and OST files, including their folders, messages and attachments, and split, merge or convert them.
 
 ## Classes
 
 | Class | Description |
 | --- | --- |
-| [FolderCreationOptions](./foldercreationoptions/) | Represents the options for creating a subfolder in the Outlook PST message store. This class serves as a container for configuring specific settings related to the creation of subfolders. |
-| [FolderInfo](./folderinfo/) | Represents information about personal folder in PST. |
-| [FolderInfoCollection](./folderinfocollection/) | Represents collection of FolderInfo. |
-| [ItemMovedEventArgs](./itemmovedeventargs/) | Provides data for the [`ItemMoved`](../aspose.email.storage.pst/folderinfo/itemmoved/) event |
+| [FolderCreationOptions](./foldercreationoptions/) | Options for creating a subfolder with `FolderInfo.AddSubFolder`: whether the name is a path, how names are compared, and the container class of the new folder. |
+| [FolderInfo](./folderinfo/) | Represents a folder of a PST or OST file and gives access to its messages and subfolders. |
+| [FolderInfoCollection](./folderinfocollection/) | A list of [`FolderInfo`](../aspose.email.storage.pst/folderinfo/) objects. |
+| [ItemMovedEventArgs](./itemmovedeventargs/) | Provides data for the [`ItemMoved`](../aspose.email.storage.pst/folderinfo/itemmoved/) event. |
 | [ItemMovedEventHandler](./itemmovedeventhandler/) | Represents the method that will handle an [`ItemMoved`](../aspose.email.storage.pst/folderinfo/itemmoved/) event. |
-| [MessageAddedEventArgs](./messageaddedeventargs/) | Provides data for the [`MessageAdded`](../aspose.email.storage.pst/folderinfo/messageadded/) event |
-| [MessageAddedEventHandler](./messageaddedeventhandler/) | Represents the method that will handle an [`MessageAdded`](../aspose.email.storage.pst/folderinfo/messageadded/) event. |
-| [MessageInfo](./messageinfo/) | Represents information about message in PST. |
-| [MessageInfoCollection](./messageinfocollection/) | Represents the collection of MessageInfo. |
-| [MessageStore](./messagestore/) | Message store is the root of the PST, which is the rough equivalent of the top of a Mailbox. |
+| [MessageAddedEventArgs](./messageaddedeventargs/) | Provides data for the [`MessageAdded`](../aspose.email.storage.pst/folderinfo/messageadded/) event. |
+| [MessageAddedEventHandler](./messageaddedeventhandler/) | Represents the method that will handle a [`MessageAdded`](../aspose.email.storage.pst/folderinfo/messageadded/) event. |
+| [MessageInfo](./messageinfo/) | Summary information about a message in a PST, such as its subject, recipients and message class, available without loading the whole message. |
+| [MessageInfoCollection](./messageinfocollection/) | A list of [`MessageInfo`](../aspose.email.storage.pst/messageinfo/) objects. |
+| [MessageStore](./messagestore/) | The message store of a PST: its top-level object, which holds the display name, password and other settings of the file. |
 | [PersonalStorage](./personalstorage/) | Provides functionality to access and manipulate the PST (Personal Storage Table) files used by Microsoft Outlook. |
-| [PersonalStorageLoadOptions](./personalstorageloadoptions/) | Specifies additional options when loading a PST storage. |
-| [PersonalStorageQueryBuilder](./personalstoragequerybuilder/) | Represents the builder of search expression that used by pst. |
-| [PstItemCategory](./pstitemcategory/) | Represents a category for PST items with a name and associated color. |
-| [RestoredItemEntry](./restoreditementry/) | Represents an entry for a soft-deleted item in the PST file, containing the message and the folder Id it was in. |
-| [SaveResult](./saveresult/) | Represents the result of saving the retrieved item. |
-| [StorageProcessedEventArgs](./storageprocessedeventargs/) | Provides data for the [`StorageProcessed`](../aspose.email.storage.pst/personalstorage/storageprocessed/) event |
-| [StorageProcessedEventHandler](./storageprocessedeventhandler/) | Represents the method that will handle an [`StorageProcessed`](../aspose.email.storage.pst/personalstorage/storageprocessed/) event. |
-| [StorageProcessingEventArgs](./storageprocessingeventargs/) | Provides data for the [`StorageProcessing`](../aspose.email.storage.pst/personalstorage/storageprocessing/) event |
-| [StorageProcessingEventHandler](./storageprocessingeventhandler/) | Event handler for the StoragePreProcessing. Occurs before the srorage is processed. |
+| [PersonalStorageLoadOptions](./personalstorageloadoptions/) | Options for opening a PST or OST file or stream. |
+| [PersonalStorageQueryBuilder](./personalstoragequerybuilder/) | Builds search queries for the messages and folders of a PST. |
+| [PstItemCategory](./pstitemcategory/) | A category used in a PST, with its name and color. |
+| [RestoredItemEntry](./restoreditementry/) | A soft-deleted message found in a PST, with the folder it was in. |
+| [SaveResult](./saveresult/) | The result of saving a message with [`TryToSaveMessage`](../aspose.email.storage.pst/personalstorage/trytosavemessage/). |
+| [StorageProcessedEventArgs](./storageprocessedeventargs/) | Provides data for the [`StorageProcessed`](../aspose.email.storage.pst/personalstorage/storageprocessed/) event. |
+| [StorageProcessedEventHandler](./storageprocessedeventhandler/) | Represents the method that will handle a [`StorageProcessed`](../aspose.email.storage.pst/personalstorage/storageprocessed/) event. |
+| [StorageProcessingEventArgs](./storageprocessingeventargs/) | Provides data for the [`StorageProcessing`](../aspose.email.storage.pst/personalstorage/storageprocessing/) event. |
+| [StorageProcessingEventHandler](./storageprocessingeventhandler/) | Represents the method that will handle a [`StorageProcessing`](../aspose.email.storage.pst/personalstorage/storageprocessing/) event. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
-| [BackupOptions](./backupoptions/) | Enumerates backup options |
-| [FileFormat](./fileformat/) | Specifies the file format used to store messages, calendar events, and other items. |
-| [FileFormatVersion](./fileformatversion/) | Represents version of file. |
-| [FolderKind](./folderkind/) | Represents the different kinds of pst folders. |
-| [MapiImportance](./mapiimportance/) | Contains a values that indicates the message importance. |
-| [MapiSensitivity](./mapisensitivity/) | Contains a values that indicates the message sensitivity. |
-| [MessageKind](./messagekind/) | Represents the different kinds of messages in pst. |
+| [BackupOptions](./backupoptions/) | Options for backing up mail folders to a PST file. |
+| [FileFormat](./fileformat/) | Defines the format of an Outlook data file. |
+| [FileFormatVersion](./fileformatversion/) | Defines the version of a PST file: Unicode, used by Outlook 2003 and later, or ANSI, used by earlier versions. |
+| [FolderKind](./folderkind/) | Defines kinds of PST folders. The values can be combined. |
+| [MapiImportance](./mapiimportance/) | Defines the importance of a message. |
+| [MapiSensitivity](./mapisensitivity/) | Defines the sensitivity of a message. |
+| [MessageKind](./messagekind/) | Defines kinds of PST messages. The values can be combined. |
 | [OutlookCategoryColor](./outlookcategorycolor/) | Represents the category colors used in Outlook. |
-| [RestoreOptions](./restoreoptions/) | Enumerates restore options |
-| [SaveStatus](./savestatus/) | Represents the status of saving the retrieved message. |
-| [StandardIpmFolder](./standardipmfolder/) | Represents a standard interpersonal message (IPM) folders. |
+| [RestoreOptions](./restoreoptions/) | Options for restoring mail folders from a PST file. |
+| [SaveStatus](./savestatus/) | Defines how completely a damaged message could be saved. |
+| [StandardIpmFolder](./standardipmfolder/) | Defines the standard Outlook folders of a mailbox, also known as interpersonal message (IPM) folders. |
 
 

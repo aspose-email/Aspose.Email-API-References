@@ -1,14 +1,14 @@
 ---
 title: AppointmentFormattingOptions.CreateAsHtml
 second_title: Aspose.Email for .NET API Reference
-description: AppointmentFormattingOptions method. Specifies formatting in the html
+description: AppointmentFormattingOptions method. Creates formatting options with the HTML templates
 type: docs
 weight: 20
 url: /net/aspose.email.calendar/appointmentformattingoptions/createashtml/
 ---
 ## AppointmentFormattingOptions.CreateAsHtml method
 
-Specifies formatting in the html.
+Creates formatting options with the HTML templates.
 
 ```csharp
 public static AppointmentFormattingOptions CreateAsHtml()
@@ -16,7 +16,7 @@ public static AppointmentFormattingOptions CreateAsHtml()
 
 ### Return Value
 
-[`AppointmentFormattingOptions`](../) that represents appointment formatting options.
+Formatting options that render the appointment as HTML.
 
 ### See Also
 

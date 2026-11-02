@@ -1,14 +1,14 @@
 ---
 title: FollowUpManager.SetOptions
 second_title: Aspose.Email for .NET API Reference
-description: FollowUpManager method. Sets the additional followup options for a message
+description: FollowUpManager method. Sets the followup flag reminder categories and voting buttons of the message in one call
 type: docs
 weight: 150
 url: /net/aspose.email.mapi/followupmanager/setoptions/
 ---
 ## FollowUpManager.SetOptions method
 
-Sets the additional follow-up options for a message.
+Sets the follow-up flag, reminder, categories and voting buttons of the message in one call.
 
 ```csharp
 public static void SetOptions(MapiMessageItemBase message, FollowUpOptions options)
@@ -16,15 +16,15 @@ public static void SetOptions(MapiMessageItemBase message, FollowUpOptions optio
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which a flag will be set. |
-| options | FollowUpOptions | The [`FollowUpOptions`](../../followupoptions/) that represents options for using follow-up flags and reminders. |
+| message | MapiMessageItemBase | The message to change. |
+| options | FollowUpOptions | The settings to apply. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | If *message* is null. |
-| ArgumentNullException | If *options* is null. |
+| ArgumentNullException | *message* is `null`. |
+| ArgumentNullException | *options* is `null`. |
 
 ### See Also
 

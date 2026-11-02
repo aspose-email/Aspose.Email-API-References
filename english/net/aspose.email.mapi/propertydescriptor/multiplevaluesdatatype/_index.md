@@ -1,14 +1,14 @@
 ---
 title: PropertyDescriptor.MultipleValuesDataType
 second_title: Aspose.Email for .NET API Reference
-description: PropertyDescriptor property. Indicates if data type contains of multiple values
+description: PropertyDescriptor property. Gets a value indicating whether the property is multivalued
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/propertydescriptor/multiplevaluesdatatype/
 ---
 ## PropertyDescriptor.MultipleValuesDataType property
 
-Indicates if data type contains of multiple values
+Gets a value indicating whether the property is multi-valued.
 
 ```csharp
 public bool MultipleValuesDataType { get; }

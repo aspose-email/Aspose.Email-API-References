@@ -1,14 +1,14 @@
 ---
 title: MapiNote.YPosition
 second_title: Aspose.Email for .NET API Reference
-description: MapiNote property. Gets or sets the distance in pixels from the top edge of the screen that a user interface displays a Note object
+description: MapiNote property. Gets or sets the distance of the note window from the top edge of the screen in pixels
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.email.mapi/mapinote/yposition/
 ---
 ## MapiNote.YPosition property
 
-Gets or sets the distance, in pixels, from the top edge of the screen that a user interface displays a Note object
+Gets or sets the distance of the note window from the top edge of the screen, in pixels.
 
 ```csharp
 public int YPosition { get; set; }

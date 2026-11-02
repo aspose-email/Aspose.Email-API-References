@@ -1,14 +1,14 @@
 ---
 title: MapiProperty.CreateMapiPropertyFromLong
 second_title: Aspose.Email for .NET API Reference
-description: MapiProperty method. Creates the mapi property from long
+description: MapiProperty method. Creates a property with an integer value
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapiproperty/createmapipropertyfromlong/
 ---
 ## CreateMapiPropertyFromLong(long, long) {#createmapipropertyfromlong}
 
-Creates the mapi property from long.
+Creates a property with an integer value.
 
 ```csharp
 public static MapiProperty CreateMapiPropertyFromLong(long tag, long data)
@@ -16,8 +16,12 @@ public static MapiProperty CreateMapiPropertyFromLong(long tag, long data)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | Int64 | The tag. |
-| data | Int64 | The data. |
+| tag | Int64 | The tag of the property. |
+| data | Int64 | The value. |
+
+### Return Value
+
+The new property.
 
 ### See Also
 
@@ -29,7 +33,7 @@ public static MapiProperty CreateMapiPropertyFromLong(long tag, long data)
 
 ## CreateMapiPropertyFromLong(long, long, long) {#createmapipropertyfromlong_1}
 
-Creates the mapi property from long.
+Creates a property with an integer value and a signed flag.
 
 ```csharp
 public static MapiProperty CreateMapiPropertyFromLong(long tag, long data, long delimiter)
@@ -37,9 +41,13 @@ public static MapiProperty CreateMapiPropertyFromLong(long tag, long data, long 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | Int64 | The tag. |
-| data | Int64 | The data. |
-| delimiter | Int64 | The delimiter. |
+| tag | Int64 | The tag of the property. |
+| data | Int64 | The value. |
+| delimiter | Int64 | The signed flag of the property. |
+
+### Return Value
+
+The new property.
 
 ### See Also
 

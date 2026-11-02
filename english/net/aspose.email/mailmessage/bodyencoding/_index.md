@@ -1,14 +1,14 @@
 ---
 title: MailMessage.BodyEncoding
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage property. Gets or sets encoding of body
+description: MailMessage property. Gets or sets the character encoding of the body
 type: docs
 weight: 70
 url: /net/aspose.email/mailmessage/bodyencoding/
 ---
 ## MailMessage.BodyEncoding property
 
-Gets or sets encoding of body
+Gets or sets the character encoding of the body.
 
 ```csharp
 public virtual Encoding BodyEncoding { get; set; }

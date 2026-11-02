@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ToDoTitle
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains userspecifiable text to identify this Message object in a consolidated todo list. Area Tasks Canonical name PidLidToDoTitle Alternate names dispidToDoTitle
+description: KnownPropertyList field. Contains userspecifiable text to identify this Message object in a consolidated todo list. Area Tasks. Canonical name PidLidToDoTitle. Alternate names dispidToDoTitle
 type: docs
 weight: 19140
 url: /net/aspose.email.mapi/knownpropertylist/todotitle/
 ---
 ## KnownPropertyList.ToDoTitle field
 
-Contains user-specifiable text to identify this Message object in a consolidated to-do list. Area: Tasks Canonical name: PidLidToDoTitle Alternate names: dispidToDoTitle
+Contains user-specifiable text to identify this Message object in a consolidated to-do list. Area: Tasks. Canonical name: PidLidToDoTitle. Alternate names: dispidToDoTitle.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ToDoTitle;

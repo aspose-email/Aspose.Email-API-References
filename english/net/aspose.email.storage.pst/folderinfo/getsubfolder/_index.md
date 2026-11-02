@@ -1,14 +1,14 @@
 ---
 title: FolderInfo.GetSubFolder
 second_title: Aspose.Email for .NET API Reference
-description: FolderInfo method. Get subfolder
+description: FolderInfo method. Gets the subfolder with the specified name
 type: docs
 weight: 300
 url: /net/aspose.email.storage.pst/folderinfo/getsubfolder/
 ---
 ## GetSubFolder(string) {#getsubfolder}
 
-Get subfolder.
+Gets the subfolder with the specified name.
 
 ```csharp
 public FolderInfo GetSubFolder(string name)
@@ -16,11 +16,11 @@ public FolderInfo GetSubFolder(string name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | Name of subfolder. |
+| name | String | The name of the subfolder. The comparison is case-sensitive. |
 
 ### Return Value
 
-A FolderInfo object.
+The subfolder, or `null` if there is no subfolder with this name.
 
 ### See Also
 
@@ -32,7 +32,7 @@ A FolderInfo object.
 
 ## GetSubFolder(string, bool) {#getsubfolder_1}
 
-Gets the subfolder.
+Gets the subfolder with the specified name, optionally ignoring case.
 
 ```csharp
 public FolderInfo GetSubFolder(string name, bool ignoreCase)
@@ -40,12 +40,12 @@ public FolderInfo GetSubFolder(string name, bool ignoreCase)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | Name of subfolder. |
-| ignoreCase | Boolean | Indicates that a search should ignore case sensitivity when matching the folder name. |
+| name | String | The name of the subfolder. |
+| ignoreCase | Boolean | `true` to compare names case-insensitively. |
 
 ### Return Value
 
-A FolderInfo object.
+The subfolder, or `null` if there is no subfolder with this name.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: SmtpException.SmtpException
 second_title: Aspose.Email for .NET API Reference
-description: SmtpException constructor. Initializes a new instance of the SmtpException class
+description: SmtpException constructor. Initializes a new instance of the SmtpException class with the status code returned by the server
 type: docs
 weight: 10
 url: /net/aspose.email/smtpexception/smtpexception/
 ---
 ## SmtpException(SmtpStatusCode) {#constructor_1}
 
-Initializes a new instance of the [`SmtpException`](../) class
+Initializes a new instance of the [`SmtpException`](../) class with the status code returned by the server.
 
 ```csharp
 public SmtpException(SmtpStatusCode statusCode)
@@ -16,7 +16,7 @@ public SmtpException(SmtpStatusCode statusCode)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| statusCode | SmtpStatusCode | Smtp status code |
+| statusCode | SmtpStatusCode | The SMTP status code. |
 
 ### See Also
 
@@ -29,7 +29,7 @@ public SmtpException(SmtpStatusCode statusCode)
 
 ## SmtpException(SmtpStatusCode, string) {#constructor_2}
 
-Initializes a new instance of the [`SmtpException`](../) class
+Initializes a new instance of the [`SmtpException`](../) class with the status code returned by the server and an error message.
 
 ```csharp
 public SmtpException(SmtpStatusCode statusCode, string message)
@@ -37,8 +37,8 @@ public SmtpException(SmtpStatusCode statusCode, string message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| statusCode | SmtpStatusCode | Smtp status code |
-| message | String | Error message |
+| statusCode | SmtpStatusCode | The SMTP status code. |
+| message | String | The message that describes the error. |
 
 ### See Also
 
@@ -51,7 +51,7 @@ public SmtpException(SmtpStatusCode statusCode, string message)
 
 ## SmtpException() {#constructor}
 
-Initializes a new instance of the [`SmtpException`](../) class
+Initializes a new instance of the [`SmtpException`](../) class.
 
 ```csharp
 public SmtpException()
@@ -67,7 +67,7 @@ public SmtpException()
 
 ## SmtpException(string) {#constructor_3}
 
-Initializes a new instance of the [`SmtpException`](../) class
+Initializes a new instance of the [`SmtpException`](../) class with the specified error message.
 
 ```csharp
 public SmtpException(string message)
@@ -75,7 +75,7 @@ public SmtpException(string message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | Error message |
+| message | String | The message that describes the error. |
 
 ### See Also
 
@@ -87,7 +87,7 @@ public SmtpException(string message)
 
 ## SmtpException(string, SendMessagesResult) {#constructor_4}
 
-Initializes a new instance of the [`SmtpException`](../) class
+Initializes a new instance of the [`SmtpException`](../) class with an error message and the result of sending several messages.
 
 ```csharp
 public SmtpException(string message, SendMessagesResult result)
@@ -95,8 +95,8 @@ public SmtpException(string message, SendMessagesResult result)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | Error message |
-| result | SendMessagesResult | Operation result |
+| message | String | The message that describes the error. |
+| result | SendMessagesResult | The sent and failed messages. |
 
 ### See Also
 
@@ -109,7 +109,7 @@ public SmtpException(string message, SendMessagesResult result)
 
 ## SmtpException(string, Exception) {#constructor_6}
 
-Initializes a new instance of the [`SmtpException`](../) class
+Initializes a new instance of the [`SmtpException`](../) class with the specified error message and a reference to the exception that caused it.
 
 ```csharp
 public SmtpException(string message, Exception innerException)
@@ -117,8 +117,8 @@ public SmtpException(string message, Exception innerException)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | Error message |
-| innerException | Exception | The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. |
+| message | String | The message that describes the error. |
+| innerException | Exception | The exception that caused this exception, or `null`. |
 
 ### See Also
 
@@ -130,7 +130,7 @@ public SmtpException(string message, Exception innerException)
 
 ## SmtpException(string, Exception, MailMessage) {#constructor_7}
 
-Initializes a new instance of the [`SmtpException`](../) class
+Initializes a new instance of the [`SmtpException`](../) class for a message that could not be sent.
 
 ```csharp
 public SmtpException(string message, Exception innerException, MailMessage mailMessage)
@@ -138,9 +138,9 @@ public SmtpException(string message, Exception innerException, MailMessage mailM
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | Error message |
-| innerException | Exception | The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. |
-| mailMessage | MailMessage |  |
+| message | String | The message that describes the error. |
+| innerException | Exception | The exception that caused this exception, or `null`. |
+| mailMessage | MailMessage | The message that could not be sent. |
 
 ### See Also
 
@@ -153,9 +153,16 @@ public SmtpException(string message, Exception innerException, MailMessage mailM
 
 ## SmtpException(string, MailMessage) {#constructor_5}
 
+Initializes a new instance of the [`SmtpException`](../) class for a message that could not be sent.
+
 ```csharp
 public SmtpException(string message, MailMessage mailMessage)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| message | String | The message that describes the error. |
+| mailMessage | MailMessage | The message that could not be sent. |
 
 ### See Also
 

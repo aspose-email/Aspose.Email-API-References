@@ -1,14 +1,14 @@
 ---
 title: MapiPropertyStream.Name
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyStream property. Gets the name
+description: MapiPropertyStream property. Gets the name of the stream
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapipropertystream/name/
 ---
 ## MapiPropertyStream.Name property
 
-Gets the name.
+Gets the name of the stream.
 
 ```csharp
 public string Name { get; }

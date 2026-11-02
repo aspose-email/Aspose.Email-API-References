@@ -1,14 +1,14 @@
 ---
 title: CalendarReader.IsMultiEvents
 second_title: Aspose.Email for .NET API Reference
-description: CalendarReader property. Gets whether calendar contains multi events
+description: CalendarReader property. Gets a value indicating whether the calendar contains more than one event
 type: docs
 weight: 40
 url: /net/aspose.email.calendar/calendarreader/ismultievents/
 ---
 ## CalendarReader.IsMultiEvents property
 
-Gets whether calendar contains multi events.
+Gets a value indicating whether the calendar contains more than one event.
 
 ```csharp
 public bool IsMultiEvents { get; }

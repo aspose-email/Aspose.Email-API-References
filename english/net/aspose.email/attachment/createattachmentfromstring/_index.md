@@ -1,14 +1,14 @@
 ---
 title: Attachment.CreateAttachmentFromString
 second_title: Aspose.Email for .NET API Reference
-description: Attachment method. Creates the attachment from string
+description: Attachment method. Creates a text attachment from a string
 type: docs
 weight: 20
 url: /net/aspose.email/attachment/createattachmentfromstring/
 ---
 ## CreateAttachmentFromString(string, string) {#createattachmentfromstring_1}
 
-Creates the attachment from string.
+Creates a text attachment from a string.
 
 ```csharp
 public static Attachment CreateAttachmentFromString(string content, string name)
@@ -16,12 +16,12 @@ public static Attachment CreateAttachmentFromString(string content, string name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | String | A string that represents the content of attachment. |
-| name | String | The attachment name. |
+| content | String | The content of the attachment. |
+| name | String | The file name of the attachment. |
 
 ### Return Value
 
-Returns created attachment
+The new attachment.
 
 ### See Also
 
@@ -33,7 +33,7 @@ Returns created attachment
 
 ## CreateAttachmentFromString(string, string, Encoding, string) {#createattachmentfromstring_2}
 
-Creates the attachment from string.
+Creates an attachment from a string with the specified encoding and media type.
 
 ```csharp
 public static Attachment CreateAttachmentFromString(string content, string name, 
@@ -42,14 +42,14 @@ public static Attachment CreateAttachmentFromString(string content, string name,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | String | A string that represents the content of attachment. |
-| name | String | The attachment name. |
-| contentEncoding | Encoding | The content encoding. |
-| mediaType | String | The media type name |
+| content | String | The content of the attachment. |
+| name | String | The file name of the attachment. |
+| contentEncoding | Encoding | The character encoding of the content. |
+| mediaType | String | The MIME media type of the content, such as `text/html`. |
 
 ### Return Value
 
-Returns created attachment
+The new attachment.
 
 ### See Also
 
@@ -61,7 +61,7 @@ Returns created attachment
 
 ## CreateAttachmentFromString(string, ContentType) {#createattachmentfromstring}
 
-Creates the attachment from string.
+Creates an attachment from a string with the specified content type.
 
 ```csharp
 public static Attachment CreateAttachmentFromString(string content, ContentType contentType)
@@ -69,12 +69,12 @@ public static Attachment CreateAttachmentFromString(string content, ContentType 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | String | A string that represents the content of attachment. |
-| contentType | ContentType | The [`ContentType`](../../../aspose.email.mime/contenttype/). |
+| content | String | The content of the attachment. |
+| contentType | ContentType | The content type of the attachment, including its name. |
 
 ### Return Value
 
-Returns created attachment
+The new attachment.
 
 ### See Also
 

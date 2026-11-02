@@ -1,14 +1,14 @@
 ---
 title: PropertyDescriptor.CanonicalName
 second_title: Aspose.Email for .NET API Reference
-description: PropertyDescriptor property. The name used to refer to the property in the documentation. The prefix of the canonical name identifies the basic characteristics of a property to the implementer. The canonical naming structure uses three categories that are denoted by the following prefixes to the canonical property name  PidLid prefix Properties identified by an unsigned 32bit quantity along with a property set.  PidName prefix Properties identified by a string name along with a property set.  PidTag prefix Properties identified by an unsigned 16bit quantity
+description: PropertyDescriptor property. Gets the canonical name of the property as in MSOXPROPS. The prefix tells how the property is identified PidLid by a numeric ID within a property set PidName by a string name within a property set PidTag by a fixed 16bit ID
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/propertydescriptor/canonicalname/
 ---
 ## PropertyDescriptor.CanonicalName property
 
-The name used to refer to the property in the documentation. The prefix of the canonical name identifies the basic characteristics of a property to the implementer. The canonical naming structure uses three categories that are denoted by the following prefixes to the canonical property name: * PidLid prefix: Properties identified by an unsigned 32-bit quantity along with a property set. * PidName prefix: Properties identified by a string name along with a property set. * PidTag prefix: Properties identified by an unsigned 16-bit quantity.
+Gets the canonical name of the property, as in [MS-OXPROPS]. The prefix tells how the property is identified: `PidLid` by a numeric ID within a property set, `PidName` by a string name within a property set, `PidTag` by a fixed 16-bit ID.
 
 ```csharp
 public string CanonicalName { get; }

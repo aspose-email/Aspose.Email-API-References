@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.EmsAbHomeMta
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_HOME_MTA
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_EMS_AB_HOME_MTA. Property tag 0x8007001E data type String8
 type: docs
 weight: 6700
 url: /net/aspose.email.mapi/knownpropertylist/emsabhomemta/
 ---
 ## KnownPropertyList.EmsAbHomeMta field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_EMS_AB_HOME_MTA
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_EMS_AB_HOME_MTA. Property tag: 0x8007001E; data type: String8.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbHomeMta;

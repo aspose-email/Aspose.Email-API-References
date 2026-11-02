@@ -1,14 +1,14 @@
 ---
 title: MapiTask.ActualEffort
 second_title: Aspose.Email for .NET API Reference
-description: MapiTask property. Gets or sets the number of minutes that the user actually spent working on a task
+description: MapiTask property. Gets or sets the time actually spent on the task in minutes
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.email.mapi/mapitask/actualeffort/
 ---
 ## MapiTask.ActualEffort property
 
-Gets or sets the number of minutes that the user actually spent working on a task.
+Gets or sets the time actually spent on the task, in minutes.
 
 ```csharp
 public int ActualEffort { get; set; }

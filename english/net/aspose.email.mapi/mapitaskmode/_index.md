@@ -1,14 +1,14 @@
 ---
 title: Enum MapiTaskMode
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiTaskMode enum. Represents the assignment statuses of the task object
+description: Aspose.Email.Mapi.MapiTaskMode enum. Defines the assignment status of a task
 type: docs
 weight: 17560
 url: /net/aspose.email.mapi/mapitaskmode/
 ---
 ## MapiTaskMode enumeration
 
-Represents the assignment statuses of the task object.
+Defines the assignment status of a task.
 
 ```csharp
 public enum MapiTaskMode
@@ -18,12 +18,12 @@ public enum MapiTaskMode
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotAssigned | `0` | The Task object is not assigned. |
-| RequestEmbedded | `1` | The Task object is embedded in a task request. |
-| Accepted | `2` | The Task object has been accepted by the task assignee. |
-| Rejected | `3` | The Task object was rejected by the task assignee. |
-| UpdateEmbedded | `4` | The Task object is embedded in a task update. |
-| Assigned | `5` | The Task object was assigned to the task assigner (self-delegation). |
+| NotAssigned | `0` | The task is not assigned. |
+| RequestEmbedded | `1` | The task is embedded in a task request. |
+| Accepted | `2` | The assignee has accepted the task. |
+| Rejected | `3` | The assignee has rejected the task. |
+| UpdateEmbedded | `4` | The task is embedded in a task update. |
+| Assigned | `5` | The task was assigned to the assigner (self-delegation). |
 
 ### See Also
 

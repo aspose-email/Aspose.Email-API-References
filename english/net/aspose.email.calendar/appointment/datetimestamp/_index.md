@@ -1,14 +1,14 @@
 ---
 title: Appointment.DateTimeStamp
 second_title: Aspose.Email for .NET API Reference
-description: Appointment property. Gets or sets date/time that the instance of the iCalendar object was created
+description: Appointment property. Gets or sets the date and time the iCalendar object was created the iCalendar DTSTAMP property
 type: docs
 weight: 70
 url: /net/aspose.email.calendar/appointment/datetimestamp/
 ---
 ## Appointment.DateTimeStamp property
 
-Gets or sets date/time that the instance of the iCalendar object was created..
+Gets or sets the date and time the iCalendar object was created (the iCalendar DTSTAMP property).
 
 ```csharp
 public DateTime DateTimeStamp { get; set; }

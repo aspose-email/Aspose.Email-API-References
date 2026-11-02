@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.InstanceNum
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains an identifier for a single instance of a row in the table. Area ProviderDefinedNonTransmittable Canonical name PidTagInstanceNum Alternate names ptagInstanceNum
+description: KnownPropertyList field. Contains an identifier for a single instance of a row in the table. Area ProviderDefinedNonTransmittable. Canonical name PidTagInstanceNum. Alternate names ptagInstanceNum
 type: docs
 weight: 11450
 url: /net/aspose.email.mapi/knownpropertylist/instancenum/
 ---
 ## KnownPropertyList.InstanceNum field
 
-Contains an identifier for a single instance of a row in the table. Area: ProviderDefinedNonTransmittable Canonical name: PidTagInstanceNum Alternate names: ptagInstanceNum
+Contains an identifier for a single instance of a row in the table. Area: ProviderDefinedNonTransmittable. Canonical name: PidTagInstanceNum. Alternate names: ptagInstanceNum.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InstanceNum;

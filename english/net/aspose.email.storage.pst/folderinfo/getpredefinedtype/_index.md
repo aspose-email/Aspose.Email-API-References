@@ -1,14 +1,14 @@
 ---
 title: FolderInfo.GetPredefinedType
 second_title: Aspose.Email for .NET API Reference
-description: FolderInfo method. Gets the type of predefined folder
+description: FolderInfo method. Gets which standard Outlook folder such as Inbox or Sent Items this folder is
 type: docs
 weight: 290
 url: /net/aspose.email.storage.pst/folderinfo/getpredefinedtype/
 ---
 ## FolderInfo.GetPredefinedType method
 
-Gets the type of predefined folder.
+Gets which standard Outlook folder, such as Inbox or Sent Items, this folder is.
 
 ```csharp
 public StandardIpmFolder GetPredefinedType(bool getForTopLevelParent)
@@ -16,15 +16,15 @@ public StandardIpmFolder GetPredefinedType(bool getForTopLevelParent)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| getForTopLevelParent | Boolean | If true, returns the predefined type for the top-level parent folder. This determines whether the current folder is a subfolder of a predefined folder. If false, it returns the predefined type for the current folder. |
+| getForTopLevelParent | Boolean | `true` to check the top-level folder this folder belongs to, which tells whether it is inside a standard folder; `false` to check this folder itself. |
 
 ### Return Value
 
-The [`StandardIpmFolder`](../../standardipmfolder/) enum value. If the folder is not predefined, it returns Unspecified
+The [`StandardIpmFolder`](../../standardipmfolder/) value, or `StandardIpmFolder.Unspecified` if the folder is not a standard one.
 
 ## Remarks
 
-Checks if the folder is predefined by returning the corresponding type.
+Use it to find out whether a folder is, or lies inside, one of the standard Outlook folders.
 
 ### See Also
 

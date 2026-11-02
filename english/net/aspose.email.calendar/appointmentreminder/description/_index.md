@@ -1,14 +1,14 @@
 ---
 title: AppointmentReminder.Description
 second_title: Aspose.Email for .NET API Reference
-description: AppointmentReminder property. Provides a more complete description of the alarm
+description: AppointmentReminder property. Gets or sets the text of the reminder the message to show or the body of an email reminder
 type: docs
 weight: 60
 url: /net/aspose.email.calendar/appointmentreminder/description/
 ---
 ## AppointmentReminder.Description property
 
-Provides a more complete description of the alarm.
+Gets or sets the text of the reminder: the message to show, or the body of an email reminder.
 
 ```csharp
 public string Description { get; set; }

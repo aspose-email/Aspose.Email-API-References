@@ -1,14 +1,14 @@
 ---
 title: FileAccessViolationException.FileAccessViolationException
 second_title: Aspose.Email for .NET API Reference
-description: FileAccessViolationException constructor. Initializes a new instance of the class with default error message
+description: FileAccessViolationException constructor. Initializes a new instance of the FileAccessViolationException class with a default error message
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/fileaccessviolationexception/fileaccessviolationexception/
 ---
 ## FileAccessViolationException() {#constructor}
 
-Initializes a new instance of the class with default error message.
+Initializes a new instance of the [`FileAccessViolationException`](../) class with a default error message.
 
 ```csharp
 public FileAccessViolationException()
@@ -24,7 +24,7 @@ public FileAccessViolationException()
 
 ## FileAccessViolationException(string) {#constructor_1}
 
-Initializes a new instance of the class with a specified error message.
+Initializes a new instance of the [`FileAccessViolationException`](../) class with the specified error message.
 
 ```csharp
 public FileAccessViolationException(string message)
@@ -32,7 +32,7 @@ public FileAccessViolationException(string message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | Error message. |
+| message | String | The message that describes the error. |
 
 ### See Also
 
@@ -44,7 +44,7 @@ public FileAccessViolationException(string message)
 
 ## FileAccessViolationException(string, Exception) {#constructor_2}
 
-Initializes a new instance of the Exception class with a specified error message and a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [`FileAccessViolationException`](../) class with the specified error message and a reference to the exception that caused this one.
 
 ```csharp
 public FileAccessViolationException(string message, Exception innerException)
@@ -52,8 +52,8 @@ public FileAccessViolationException(string message, Exception innerException)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | The error message that explains the reason for the exception. |
-| innerException | Exception | The exception that is the cause of the current exception. If the innerException parameter is not a NULL reference (Nothing in Visual Basic), the current exception is raised in a catch block that handles the inner exception. |
+| message | String | The message that describes the error. |
+| innerException | Exception | The exception that caused this exception, or `null`. |
 
 ### See Also
 

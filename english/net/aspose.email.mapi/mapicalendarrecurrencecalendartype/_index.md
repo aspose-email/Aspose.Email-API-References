@@ -1,14 +1,14 @@
 ---
 title: Enum MapiCalendarRecurrenceCalendarType
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendarRecurrenceCalendarType enum. Specifies the calendar type used for MAPI calendar recurrence patterns. This enumeration supports multiple calendar systems including Gregorian Hijri Hebrew lunar and various regional calendars used around the world
+description: Aspose.Email.Mapi.MapiCalendarRecurrenceCalendarType enum. Defines the calendar system a recurrence is calculated in
 type: docs
 weight: 16840
 url: /net/aspose.email.mapi/mapicalendarrecurrencecalendartype/
 ---
 ## MapiCalendarRecurrenceCalendarType enumeration
 
-Specifies the calendar type used for MAPI calendar recurrence patterns. This enumeration supports multiple calendar systems including Gregorian, Hijri, Hebrew, lunar, and various regional calendars used around the world.
+Defines the calendar system a recurrence is calculated in.
 
 ```csharp
 public enum MapiCalendarRecurrenceCalendarType
@@ -18,31 +18,31 @@ public enum MapiCalendarRecurrenceCalendarType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Default | `0` | The default value for the calendar type is Gregorian. (If the PatternType is HjMonth, HjMonthNth, or HjMonthEnd, and the CalendarType is Default, this recurrence uses the Hijri calendar.) |
-| CAL_GREGORIAN | `1` | Gregorian (localized) calendar |
-| CAL_GREGORIAN_US | `2` | Gregorian (U.S.) calendar |
-| CAL_JAPAN | `3` | Japanese Emperor Era calendar |
-| CAL_TAIWAN | `4` | Taiwan calendar |
-| CAL_KOREA | `5` | Korean Tangun Era calendar |
-| CAL_HIJRI | `6` | Hijri (Arabic Lunar) calendar |
-| CAL_THAI | `7` | Thai calendar |
-| CAL_HEBREW | `8` | Hebrew lunar calendar |
-| CAL_GREGORIAN_ME_FRENCH | `9` | Gregorian Middle East French calendar |
-| CAL_GREGORIAN_ARABIC | `10` | Gregorian Arabic calendar |
-| CAL_GREGORIAN_XLIT_ENGLISH | `11` | Gregorian transliterated English calendar |
-| CAL_GREGORIAN_XLIT_FRENCH | `12` | Gregorian transliterated French calendar |
-| CAL_LUNAR_JAPANESE | `14` | Japanese lunar calendar |
-| CAL_CHINESE_LUNAR | `15` | Chinese lunar calendar |
-| CAL_SAKA | `16` | Saka Era calendar |
-| CAL_LUNAR_ETO_CHN | `17` | Lunar ETO Chinese calendar |
-| CAL_LUNAR_ETO_KOR | `18` | Lunar ETO Korean calendar |
-| CAL_LUNAR_ROKUYOU | `19` | Lunar Rokuyou calendar |
-| CAL_LUNAR_KOREAN | `20` | Korean lunar calendar |
-| CAL_UMALQURA | `23` | Um Al Qura calendar |
+| Default | `0` | The Gregorian calendar; the Hijri calendar if the pattern type is `HjMonth`, `HjMonthNth` or `HjMonthEnd`. |
+| CAL_GREGORIAN | `1` | The localized Gregorian calendar. |
+| CAL_GREGORIAN_US | `2` | The U.S. Gregorian calendar. |
+| CAL_JAPAN | `3` | The Japanese Emperor Era calendar. |
+| CAL_TAIWAN | `4` | The Taiwan calendar. |
+| CAL_KOREA | `5` | The Korean Tangun Era calendar. |
+| CAL_HIJRI | `6` | The Hijri (Arabic lunar) calendar. |
+| CAL_THAI | `7` | The Thai calendar. |
+| CAL_HEBREW | `8` | The Hebrew lunar calendar. |
+| CAL_GREGORIAN_ME_FRENCH | `9` | The Gregorian Middle East French calendar. |
+| CAL_GREGORIAN_ARABIC | `10` | The Gregorian Arabic calendar. |
+| CAL_GREGORIAN_XLIT_ENGLISH | `11` | The Gregorian transliterated English calendar. |
+| CAL_GREGORIAN_XLIT_FRENCH | `12` | The Gregorian transliterated French calendar. |
+| CAL_LUNAR_JAPANESE | `14` | The Japanese lunar calendar. |
+| CAL_CHINESE_LUNAR | `15` | The Chinese lunar calendar. |
+| CAL_SAKA | `16` | The Saka Era calendar. |
+| CAL_LUNAR_ETO_CHN | `17` | The Chinese lunar ETO calendar. |
+| CAL_LUNAR_ETO_KOR | `18` | The Korean lunar ETO calendar. |
+| CAL_LUNAR_ROKUYOU | `19` | The Rokuyou lunar calendar. |
+| CAL_LUNAR_KOREAN | `20` | The Korean lunar calendar. |
+| CAL_UMALQURA | `23` | The Um Al Qura calendar. |
 
 ## Remarks
 
-This enumeration defines the calendar system that should be used when calculating recurring calendar events. The Default value uses the Gregorian calendar, but can be overridden to use other calendar systems such as Hijri (Islamic), Hebrew, Chinese lunar, Japanese Emperor Era, or various other regional calendars. The calendar type is used in conjunction with [`MapiCalendarRecurrencePatternType`](../mapicalendarrecurrencepatterntype/) to determine the recurrence behavior for [`MapiCalendar`](../mapicalendar/) items.
+`Default` means the Gregorian calendar, except for the Hijri pattern types of [`MapiCalendarRecurrencePatternType`](../mapicalendarrecurrencepatterntype/), which use the Hijri calendar.
 
 ### See Also
 

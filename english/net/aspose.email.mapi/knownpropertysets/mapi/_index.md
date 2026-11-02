@@ -1,14 +1,14 @@
 ---
 title: KnownPropertySets.Mapi
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertySets field. Area name Common Property set name PS_MAPI
+description: KnownPropertySets field. The PS_MAPI property set tagged properties addressed as named properties
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/knownpropertysets/mapi/
 ---
 ## KnownPropertySets.Mapi field
 
-Area name: Common Property set name: PS_MAPI
+The `PS_MAPI` property set: tagged properties addressed as named properties.
 
 ```csharp
 public static readonly Guid Mapi;

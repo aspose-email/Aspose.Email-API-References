@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarSaveOptions.SaveFormat
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarSaveOptions property. Gets a save format
+description: MapiCalendarSaveOptions property. Gets the format these options save to
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapicalendarsaveoptions/saveformat/
 ---
 ## MapiCalendarSaveOptions.SaveFormat property
 
-Gets a save format.
+Gets the format these options save to.
 
 ```csharp
 public AppointmentSaveFormat SaveFormat { get; }

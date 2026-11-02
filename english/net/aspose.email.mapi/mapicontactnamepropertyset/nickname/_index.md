@@ -8,7 +8,7 @@ url: /net/aspose.email.mapi/mapicontactnamepropertyset/nickname/
 ---
 ## MapiContactNamePropertySet.Nickname property
 
-Gets or sets the nickname of the contact
+Gets or sets the nickname of the contact.
 
 ```csharp
 public string Nickname { get; set; }

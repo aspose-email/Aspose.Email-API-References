@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarYearlyAndMonthlyRecurrencePattern.Day
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarYearlyAndMonthlyRecurrencePattern property. Gets or sets day of the month on which the recurrence falls
+description: MapiCalendarYearlyAndMonthlyRecurrencePattern property. Gets or sets the day of the month the event occurs on
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/day/
 ---
 ## MapiCalendarYearlyAndMonthlyRecurrencePattern.Day property
 
-Gets or sets day of the month on which the recurrence falls.
+Gets or sets the day of the month the event occurs on.
 
 ```csharp
 public uint Day { get; set; }

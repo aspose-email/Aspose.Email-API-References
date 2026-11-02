@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.IsContactLinked
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies whether the contact is linked to other contacts. Area Contact Properties Canonical name PidLidIsContactLinked Alternate names dispidIsContactLinked
+description: KnownPropertyList field. Specifies whether the contact is linked to other contacts. Area Contact Properties. Canonical name PidLidIsContactLinked. Alternate names dispidIsContactLinked
 type: docs
 weight: 11880
 url: /net/aspose.email.mapi/knownpropertylist/iscontactlinked/
 ---
 ## KnownPropertyList.IsContactLinked field
 
-Specifies whether the contact is linked to other contacts. Area: Contact Properties Canonical name: PidLidIsContactLinked Alternate names: dispidIsContactLinked
+Specifies whether the contact is linked to other contacts. Area: Contact Properties. Canonical name: PidLidIsContactLinked. Alternate names: dispidIsContactLinked.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor IsContactLinked;

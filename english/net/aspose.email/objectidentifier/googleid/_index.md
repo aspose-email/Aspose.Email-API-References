@@ -1,14 +1,14 @@
 ---
 title: ObjectIdentifier.GoogleId
 second_title: Aspose.Email for .NET API Reference
-description: ObjectIdentifier property. Google services id
+description: ObjectIdentifier property. Gets the identifier of the object in Google services
 type: docs
 weight: 30
 url: /net/aspose.email/objectidentifier/googleid/
 ---
 ## ObjectIdentifier.GoogleId property
 
-Google services id
+Gets the identifier of the object in Google services.
 
 ```csharp
 public string GoogleId { get; }

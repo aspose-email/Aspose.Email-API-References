@@ -8,7 +8,7 @@ url: /net/aspose.email.storage.pst/storageprocessingeventargs/
 ---
 ## StorageProcessingEventArgs class
 
-Provides data for the [`StorageProcessing`](../personalstorage/storageprocessing/) event
+Provides data for the [`StorageProcessing`](../personalstorage/storageprocessing/) event.
 
 ```csharp
 public class StorageProcessingEventArgs : EventArgs
@@ -18,7 +18,7 @@ public class StorageProcessingEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [FileName](../../aspose.email.storage.pst/storageprocessingeventargs/filename/) { get; } | Gets the name of the pst file, that represents the chunk. |
+| [FileName](../../aspose.email.storage.pst/storageprocessingeventargs/filename/) { get; } | Gets the name of the PST file that is about to be processed. |
 
 ### See Also
 

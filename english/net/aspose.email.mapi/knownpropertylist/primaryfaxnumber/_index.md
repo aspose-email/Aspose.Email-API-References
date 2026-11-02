@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.PrimaryFaxNumber
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains the telephone number of the mail users primary fax machine. Area MapiMailUser Canonical name PidTagPrimaryFaxNumber Alternate names PR_PRIMARY_FAX_NUMBER PR_PRIMARY_FAX_NUMBER_A
+description: KnownPropertyList field. Contains the telephone number of the mail users primary fax machine. Area MapiMailUser. Canonical name PidTagPrimaryFaxNumber. Alternate names PR_PRIMARY_FAX_NUMBER PR_PRIMARY_FAX_NUMBER_A
 type: docs
 weight: 14660
 url: /net/aspose.email.mapi/knownpropertylist/primaryfaxnumber/
 ---
 ## KnownPropertyList.PrimaryFaxNumber field
 
-Contains the telephone number of the mail user's primary fax machine. Area: MapiMailUser Canonical name: PidTagPrimaryFaxNumber Alternate names: PR_PRIMARY_FAX_NUMBER, PR_PRIMARY_FAX_NUMBER_A,
+Contains the telephone number of the mail user's primary fax machine. Area: MapiMailUser. Canonical name: PidTagPrimaryFaxNumber. Alternate names: PR_PRIMARY_FAX_NUMBER, PR_PRIMARY_FAX_NUMBER_A.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PrimaryFaxNumber;

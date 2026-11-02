@@ -18,28 +18,28 @@ public class MsgLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [MsgLoadOptions](msgloadoptions/)() | Initializes a new instance of this class that can be used to loading MailMessage from Msg format. |
+| [MsgLoadOptions](msgloadoptions/)() | Initializes a new instance of the `MsgLoadOptions` class with the default options. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
 | [DeferAttachmentContent](../../aspose.email/msgloadoptions/deferattachmentcontent/) { get; set; } | Gets or sets a value indicating whether attachment content is read on demand instead of being loaded into memory while the message is being loaded. The default value is false. |
-| [DeferralThreshold](../../aspose.email/msgloadoptions/deferralthreshold/) { get; set; } | Gets or sets the minimum content size, in bytes, for which [`DeferAttachmentContent`](./deferattachmentcontent/) applies. Smaller attachments are always loaded eagerly. The default value is 4096. |
-| [KeepOriginalEmailAddresses](../../aspose.email/msgloadoptions/keeporiginalemailaddresses/) { get; set; } | Gets or sets a value indicating whether need keep original email address. |
-| [MessageFormat](../../aspose.email/loadoptions/messageformat/) { get; } | Represents the mail message format.It can be in eml,msg or mhtml format. The default value is Eml. |
-| [PreferredTextEncoding](../../aspose.email/loadoptions/preferredtextencoding/) { get; set; } | Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null. |
-| [PreserveEmbeddedMessageFormat](../../aspose.email/loadoptions/preserveembeddedmessageformat/) { get; set; } | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. By default the value is false. |
-| [PreserveRtfContent](../../aspose.email/msgloadoptions/preservertfcontent/) { get; set; } | Gets or sets a value indicating whether need keep rtf body in MailMessage. |
-| [PreserveTnefAttachments](../../aspose.email/msgloadoptions/preservetnefattachments/) { get; set; } | Controls loading TNEF attachment behaviour. By default the value is false. |
-| [RemoveSignature](../../aspose.email/loadoptions/removesignature/) { get; set; } | Gets or sets a value indicating whether signature will be removed while loading. |
-| [Timeout](../../aspose.email/msgloadoptions/timeout/) { get; set; } | Limits the time in milliseconds of formatting message while converting. Default value 3 sec. |
+| [DeferralThreshold](../../aspose.email/msgloadoptions/deferralthreshold/) { get; set; } | Gets or sets the size, in bytes, from which [`DeferAttachmentContent`](./deferattachmentcontent/) applies; smaller attachments are always loaded at once. The default is 4096. |
+| [KeepOriginalEmailAddresses](../../aspose.email/msgloadoptions/keeporiginalemailaddresses/) { get; set; } | Gets or sets a value indicating whether the sender and recipient addresses are taken from the transport headers of the message as they are. When `false` (the default), they are rebuilt from the MAPI properties of the message. |
+| [MessageFormat](../../aspose.email/loadoptions/messageformat/) { get; } | Gets the format this options object loads, as determined by its class: EML, MSG, MHTML, HTML and so on. |
+| [PreferredTextEncoding](../../aspose.email/loadoptions/preferredtextencoding/) { get; set; } | Gets or sets the encoding used for the subject and the body regardless of what the message declares. The default is `null`: the declared encoding is used. |
+| [PreserveEmbeddedMessageFormat](../../aspose.email/loadoptions/preserveembeddedmessageformat/) { get; set; } | Gets or sets a value indicating whether embedded messages keep their original format (EML or MSG) when loaded. The default is `false`. |
+| [PreserveRtfContent](../../aspose.email/msgloadoptions/preservertfcontent/) { get; set; } | Gets or sets a value indicating whether the RTF body of the MSG file is kept in the loaded message. The default is `false`. |
+| [PreserveTnefAttachments](../../aspose.email/msgloadoptions/preservetnefattachments/) { get; set; } | Gets or sets a value indicating whether a TNEF attachment (winmail.dat) is kept as it is instead of being decoded into its files. The default is `false`. |
+| [RemoveSignature](../../aspose.email/loadoptions/removesignature/) { get; set; } | Gets or sets a value indicating whether the digital signature is removed from a signed message while it is loaded. |
+| [Timeout](../../aspose.email/msgloadoptions/timeout/) { get; set; } | Gets or sets the time limit, in milliseconds, for formatting the body during the conversion. The default is 3000 (3 seconds). |
 
 ## Events
 
 | Name | Description |
 | --- | --- |
-| event [TimeoutReached](../../aspose.email/msgloadoptions/timeoutreached/) | Raised if timed out while converting to MailMessage. |
+| event [TimeoutReached](../../aspose.email/msgloadoptions/timeoutreached/) | Occurs when formatting the body takes longer than [`Timeout`](./timeout/). |
 
 ## Remarks
 

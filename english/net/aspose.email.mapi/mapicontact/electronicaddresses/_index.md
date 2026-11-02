@@ -1,14 +1,14 @@
 ---
 title: MapiContact.ElectronicAddresses
 second_title: Aspose.Email for .NET API Reference
-description: MapiContact property. Specify properties for up to three different email addresses and three different fax addresses
+description: MapiContact property. Gets or sets the email addresses up to three and fax numbers up to three of the contact
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.email.mapi/mapicontact/electronicaddresses/
 ---
 ## MapiContact.ElectronicAddresses property
 
-Specify properties for up to three different e-mail addresses and three different fax addresses
+Gets or sets the e-mail addresses (up to three) and fax numbers (up to three) of the contact.
 
 ```csharp
 public MapiContactElectronicAddressPropertySet ElectronicAddresses { get; set; }

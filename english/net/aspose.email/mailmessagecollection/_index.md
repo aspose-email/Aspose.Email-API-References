@@ -1,14 +1,14 @@
 ---
 title: Class MailMessageCollection
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.MailMessageCollection class. Represents a collection of MailMessage objects
+description: Aspose.Email.MailMessageCollection class. A collection of MailMessage objects
 type: docs
 weight: 16500
 url: /net/aspose.email/mailmessagecollection/
 ---
 ## MailMessageCollection class
 
-Represents a collection of [`MailMessage`](../mailmessage/) objects.
+A collection of [`MailMessage`](../mailmessage/) objects.
 
 ```csharp
 public class MailMessageCollection : Collection<MailMessage>
@@ -18,11 +18,11 @@ public class MailMessageCollection : Collection<MailMessage>
 
 | Name | Description |
 | --- | --- |
-| [MailMessageCollection](mailmessagecollection/)() | Initialize a new instance of the class `MailMessageCollection`. |
+| [MailMessageCollection](mailmessagecollection/)() | Initializes a new instance of the `MailMessageCollection` class. |
 
 ## Remarks
 
-Provides a simple collection object that can represent a set of [`MailMessage`](../mailmessage/) objects. The `MailMessageCollection` class provides a simple collection object that can be used to store a set of [`MailMessage`](../mailmessage/) objects.
+A `Collection<MailMessage>` with the usual collection operations.
 
 ### See Also
 

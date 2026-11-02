@@ -1,14 +1,14 @@
 ---
 title: MapiContactPersonalInfoPropertySet.Language
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactPersonalInfoPropertySet property. Specifies the language that the contact uses
+description: MapiContactPersonalInfoPropertySet property. Gets or sets the language the contact uses
 type: docs
 weight: 140
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/language/
 ---
 ## MapiContactPersonalInfoPropertySet.Language property
 
-Specifies the language that the contact uses
+Gets or sets the language the contact uses.
 
 ```csharp
 public string Language { get; set; }

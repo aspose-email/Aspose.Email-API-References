@@ -1,14 +1,14 @@
 ---
 title: MapiPropertyContainer.TryGetPropertyData
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyContainer method. Try to get the property data with specified tag key
+description: MapiPropertyContainer method. Gets the value of a property as bytes
 type: docs
 weight: 130
 url: /net/aspose.email.mapi/mapipropertycontainer/trygetpropertydata/
 ---
 ## MapiPropertyContainer.TryGetPropertyData method
 
-Try to get the property data with specified tag key.
+Gets the value of a property as bytes.
 
 ```csharp
 public byte[] TryGetPropertyData(long tag)
@@ -16,11 +16,11 @@ public byte[] TryGetPropertyData(long tag)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | Int64 | The tag key. |
+| tag | Int64 | The tag of the property. |
 
 ### Return Value
 
-The property data.
+The value, or `null` if the property does not exist.
 
 ### See Also
 

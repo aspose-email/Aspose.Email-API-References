@@ -1,14 +1,14 @@
 ---
 title: Enum MapiCalendarTimeZoneFlags
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendarTimeZoneFlags enum. Enumerates the individual bit flags that specify information about TimeZoneRule
+description: Aspose.Email.Mapi.MapiCalendarTimeZoneFlags enum. Defines flags of a time zone rule. The values can be combined
 type: docs
 weight: 16930
 url: /net/aspose.email.mapi/mapicalendartimezoneflags/
 ---
 ## MapiCalendarTimeZoneFlags enumeration
 
-Enumerates the individual bit flags that specify information about TimeZoneRule
+Defines flags of a time zone rule. The values can be combined.
 
 ```csharp
 [Flags]
@@ -19,8 +19,8 @@ public enum MapiCalendarTimeZoneFlags
 
 | Name | Value | Description |
 | --- | --- | --- |
-| TZRULE_FLAG_RECUR_CURRENT_TZREG | `1` | Indicates that this rule is associated with a recurring series. |
-| TZRULE_FLAG_EFFECTIVE_TZREG | `2` | This flag indicates that this rule is the effective rule. |
+| TZRULE_FLAG_RECUR_CURRENT_TZREG | `1` | The rule is used by a recurring series. |
+| TZRULE_FLAG_EFFECTIVE_TZREG | `2` | The rule is the one in effect. |
 
 ### See Also
 

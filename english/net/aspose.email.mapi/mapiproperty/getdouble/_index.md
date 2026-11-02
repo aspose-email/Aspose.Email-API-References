@@ -1,14 +1,14 @@
 ---
 title: MapiProperty.GetDouble
 second_title: Aspose.Email for .NET API Reference
-description: MapiProperty method. Gets the bytes of the binary data as double
+description: MapiProperty method. Gets the value as a 64bit floatingpoint number
 type: docs
 weight: 180
 url: /net/aspose.email.mapi/mapiproperty/getdouble/
 ---
 ## MapiProperty.GetDouble method
 
-Gets the bytes of the binary data as double.
+Gets the value as a 64-bit floating-point number.
 
 ```csharp
 public virtual double GetDouble()
@@ -16,7 +16,7 @@ public virtual double GetDouble()
 
 ### Return Value
 
-The double value.
+The value.
 
 ### See Also
 

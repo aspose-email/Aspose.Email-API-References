@@ -8,7 +8,7 @@ url: /net/aspose.email.mapi/mapicalendarmsgsaveoptions/mapicalendarmsgsaveoption
 ---
 ## MapiCalendarMsgSaveOptions constructor
 
-Initializes a new instance of the [`MapiCalendarMsgSaveOptions`](../) class
+Initializes a new instance of the [`MapiCalendarMsgSaveOptions`](../) class.
 
 ```csharp
 public MapiCalendarMsgSaveOptions()

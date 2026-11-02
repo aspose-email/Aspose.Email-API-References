@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AttachmentMacInfo
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains the headers and resource fork data associated with the Mac attachment. Area Message Attachment Properties Canonical name PidNameAttachmentMacInfo Alternate names
+description: KnownPropertyList field. Contains the headers and resource fork data associated with the Mac attachment. Area Message Attachment Properties. Canonical name PidNameAttachmentMacInfo
 type: docs
 weight: 1690
 url: /net/aspose.email.mapi/knownpropertylist/attachmentmacinfo/
 ---
 ## KnownPropertyList.AttachmentMacInfo field
 
-Contains the headers and resource fork data associated with the Mac attachment. Area: Message Attachment Properties Canonical name: PidNameAttachmentMacInfo Alternate names:
+Contains the headers and resource fork data associated with the Mac attachment. Area: Message Attachment Properties. Canonical name: PidNameAttachmentMacInfo.
 
 ```csharp
 public static readonly PidNamePropertyDescriptor AttachmentMacInfo;

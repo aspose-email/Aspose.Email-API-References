@@ -1,14 +1,14 @@
 ---
 title: SignatureOptions.Detached
 second_title: Aspose.Email for .NET API Reference
-description: SignatureOptions property. If detached is true the signature is detached.If detached is falsethe default the signature is not detached
+description: SignatureOptions property. Gets or sets a value indicating whether the signature is detached multipart/signed so that clients without S/MIME support can still read the message. The default is false
 type: docs
 weight: 20
 url: /net/aspose.email/signatureoptions/detached/
 ---
 ## SignatureOptions.Detached property
 
-If detached is true, the signature is detached.If detached is false(the default), the signature is not detached.
+Gets or sets a value indicating whether the signature is detached (`multipart/signed`), so that clients without S/MIME support can still read the message. The default is `false`.
 
 ```csharp
 public bool Detached { get; set; }

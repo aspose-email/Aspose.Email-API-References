@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_EMS_AB_AUTOREPLY_SUBJECT_W
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. The Unicode form of PR_EMS_AB_AUTOREPLY_SUBJECT. Property tag 0x803E001F PT_UNICODE
 type: docs
 weight: 3550
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_autoreply_subject_w/
 ---
 ## MapiPropertyTag.PR_EMS_AB_AUTOREPLY_SUBJECT_W field
+
+The Unicode form of [`PR_EMS_AB_AUTOREPLY_SUBJECT`](../pr_ems_ab_autoreply_subject/). Property tag: 0x803E001F (PT_UNICODE).
 
 ```csharp
 public static readonly long PR_EMS_AB_AUTOREPLY_SUBJECT_W;

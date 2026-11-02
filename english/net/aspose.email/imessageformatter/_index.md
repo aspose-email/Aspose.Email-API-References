@@ -1,14 +1,14 @@
 ---
 title: Interface IMessageFormatter
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.IMessageFormatter interface. Provides a mechanism for retrieving an object to Message formatting
+description: Aspose.Email.IMessageFormatter interface. Formats a message for example by writing its headers into the body before it is saved
 type: docs
 weight: 16350
 url: /net/aspose.email/imessageformatter/
 ---
 ## IMessageFormatter interface
 
-Provides a mechanism for retrieving an object to Message formatting.
+Formats a message, for example by writing its headers into the body before it is saved.
 
 ```csharp
 public interface IMessageFormatter
@@ -18,13 +18,13 @@ public interface IMessageFormatter
 
 | Name | Description |
 | --- | --- |
-| [FormatTemplates](../../aspose.email/imessageformatter/formattemplates/) { get; } | Gets the format templates. |
+| [FormatTemplates](../../aspose.email/imessageformatter/formattemplates/) { get; } | Gets the formats of the individual headers. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Format](../../aspose.email/imessageformatter/format/)(MailMessage) | Formats the specified message. |
+| [Format](../../aspose.email/imessageformatter/format/)(MailMessage) | Formats the message. |
 
 ### See Also
 

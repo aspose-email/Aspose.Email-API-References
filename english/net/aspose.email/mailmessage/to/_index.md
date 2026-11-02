@@ -1,14 +1,14 @@
 ---
 title: MailMessage.To
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage property. Gets or sets the address collection that contains the recipients of message
+description: MailMessage property. Gets or sets the To recipients
 type: docs
 weight: 360
 url: /net/aspose.email/mailmessage/to/
 ---
 ## MailMessage.To property
 
-Gets or sets the address collection that contains the recipients of message
+Gets or sets the To recipients.
 
 ```csharp
 public virtual MailAddressCollection To { get; set; }

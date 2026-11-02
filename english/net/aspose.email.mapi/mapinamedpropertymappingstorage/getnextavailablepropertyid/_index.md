@@ -1,14 +1,14 @@
 ---
 title: MapiNamedPropertyMappingStorage.GetNextAvailablePropertyId
 second_title: Aspose.Email for .NET API Reference
-description: MapiNamedPropertyMappingStorage method. Gets the next available property id in entries stream based on property datatype
+description: MapiNamedPropertyMappingStorage method. Gets a free tag in the named property range for a new property of the specified type
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapinamedpropertymappingstorage/getnextavailablepropertyid/
 ---
 ## MapiNamedPropertyMappingStorage.GetNextAvailablePropertyId method
 
-Gets the next available property id in entries stream based on property datatype.
+Gets a free tag in the named property range for a new property of the specified type.
 
 ```csharp
 public long GetNextAvailablePropertyId(MapiPropertyType dataType)
@@ -16,11 +16,11 @@ public long GetNextAvailablePropertyId(MapiPropertyType dataType)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataType | MapiPropertyType | Type of the data for the property. |
+| dataType | MapiPropertyType | The data type of the new property. |
 
 ### Return Value
 
-An id that can be lately used to add property mapping.
+The tag to give the new property before it is registered with [`AddNamedPropertyMapping`](../addnamedpropertymapping/).
 
 ### See Also
 

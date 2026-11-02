@@ -1,14 +1,14 @@
 ---
 title: AsposeException.ToString
 second_title: Aspose.Email for .NET API Reference
-description: AsposeException method. Returns a string that represents the current object
+description: AsposeException method. Returns the type the message and the stack trace of the exception
 type: docs
 weight: 40
 url: /net/aspose.email/asposeexception/tostring/
 ---
 ## AsposeException.ToString method
 
-Returns a string that represents the current object.
+Returns the type, the message and the stack trace of the exception.
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Return Value
 
-A string that represents the current object.
+A string that represents the exception.
 
 ### See Also
 

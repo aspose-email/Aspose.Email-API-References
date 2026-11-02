@@ -1,14 +1,14 @@
 ---
 title: MapiTaskUsers.Assigner
 second_title: Aspose.Email for .NET API Reference
-description: MapiTaskUsers property. Specifies the group of properties that defines the display name and email address of user who created task
+description: MapiTaskUsers property. Gets or sets the name and email address of the user who created the task
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapitaskusers/assigner/
 ---
 ## MapiTaskUsers.Assigner property
 
-Specifies the group of properties that defines the display name and e-mail address of user who created task.
+Gets or sets the name and e-mail address of the user who created the task.
 
 ```csharp
 public MapiElectronicAddress Assigner { get; set; }

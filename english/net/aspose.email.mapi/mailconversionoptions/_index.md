@@ -1,14 +1,14 @@
 ---
 title: Class MailConversionOptions
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MailConversionOptions class. Provides options for controlling how MapiMessage instances are converted to MailMessage objects. This class allows you to customize the conversion behavior for TNEF handling embedded message format preservation RTF content and email address management
+description: Aspose.Email.Mapi.MailConversionOptions class. Options that control how a MapiMessage is converted to a MailMessage
 type: docs
 weight: 16660
 url: /net/aspose.email.mapi/mailconversionoptions/
 ---
 ## MailConversionOptions class
 
-Provides options for controlling how [`MapiMessage`](../mapimessage/) instances are converted to [`MailMessage`](../../aspose.email/mailmessage/) objects. This class allows you to customize the conversion behavior for TNEF handling, embedded message format preservation, RTF content, and email address management.
+Options that control how a [`MapiMessage`](../mapimessage/) is converted to a [`MailMessage`](../../aspose.email/mailmessage/).
 
 ```csharp
 public class MailConversionOptions
@@ -24,21 +24,21 @@ public class MailConversionOptions
 
 | Name | Description |
 | --- | --- |
-| [ConvertAsTnef](../../aspose.email.mapi/mailconversionoptions/convertastnef/) { get; set; } | Set to true to import the MapiMessage information into a MailMessage object with MapiMessage as TNEF attachment. |
-| [KeepOriginalEmailAddresses](../../aspose.email.mapi/mailconversionoptions/keeporiginalemailaddresses/) { get; set; } | Gets or sets a value indicating whether need keep original email address. |
-| [PreserveEmbeddedMessageFormat](../../aspose.email.mapi/mailconversionoptions/preserveembeddedmessageformat/) { get; set; } | Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. By default the value is false. |
-| [PreserveRtfContent](../../aspose.email.mapi/mailconversionoptions/preservertfcontent/) { get; set; } | Gets or sets a value indicating whether need keep rtf body in MailMessage. |
-| [Timeout](../../aspose.email.mapi/mailconversionoptions/timeout/) { get; set; } | Limits the time in milliseconds of formatting message while converting. Default value 3 sec. |
+| [ConvertAsTnef](../../aspose.email.mapi/mailconversionoptions/convertastnef/) { get; set; } | Gets or sets a value indicating whether the MAPI message is carried as a TNEF (winmail.dat) attachment of the resulting MailMessage, so that Outlook-specific data is kept. The default is `false`. |
+| [KeepOriginalEmailAddresses](../../aspose.email.mapi/mailconversionoptions/keeporiginalemailaddresses/) { get; set; } | Gets or sets a value indicating whether the sender and recipient addresses are taken from the transport headers of the message as they are. When `false` (the default), they are rebuilt from the MAPI properties of the message. |
+| [PreserveEmbeddedMessageFormat](../../aspose.email.mapi/mailconversionoptions/preserveembeddedmessageformat/) { get; set; } | Gets or sets a value indicating whether embedded messages stay in MSG format instead of being converted to EML. The default is `false`. |
+| [PreserveRtfContent](../../aspose.email.mapi/mailconversionoptions/preservertfcontent/) { get; set; } | Gets or sets a value indicating whether the RTF body of the message is kept in the MailMessage. The default is `false`. |
+| [Timeout](../../aspose.email.mapi/mailconversionoptions/timeout/) { get; set; } | Gets or sets the time limit, in milliseconds, for formatting the message body during the conversion. The default is 3000 (3 seconds). |
 
 ## Events
 
 | Name | Description |
 | --- | --- |
-| event [TimeoutReached](../../aspose.email.mapi/mailconversionoptions/timeoutreached/) | Raised if timed out while converting to MailMessage. |
+| event [TimeoutReached](../../aspose.email.mapi/mailconversionoptions/timeoutreached/) | Occurs when formatting the message body takes longer than [`Timeout`](./timeout/). |
 
 ## Remarks
 
-Use this class with [`ToMailMessage`](../mapimessage/tomailmessage/) to specify custom conversion options. The [`ConvertAsTnef`](./convertastnef/) property enables TNEF attachment preservation, [`PreserveEmbeddedMessageFormat`](./preserveembeddedmessageformat/) maintains original embedded message formats, [`PreserveRtfContent`](./preservertfcontent/) retains RTF body formatting, and [`Timeout`](./timeout/) controls the conversion time limit.
+Pass an instance to [`ToMailMessage`](../mapimessage/tomailmessage/).
 
 ## Examples
 

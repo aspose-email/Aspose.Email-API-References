@@ -1,14 +1,14 @@
 ---
 title: IMessage.Bcc
 second_title: Aspose.Email for .NET API Reference
-description: IMessage property. Gets BCC recipients
+description: IMessage property. Gets the BCC recipients
 type: docs
 weight: 20
 url: /net/aspose.email/imessage/bcc/
 ---
 ## IMessage.Bcc property
 
-Gets BCC recipients
+Gets the BCC recipients.
 
 ```csharp
 public ICollection<MailAddress> Bcc { get; }

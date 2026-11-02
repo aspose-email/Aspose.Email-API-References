@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.EmsAbSerialNumber
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_SERIAL_NUMBER
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_EMS_AB_SERIAL_NUMBER. Property tag 0x8130101E data type MultipleString8
 type: docs
 weight: 8840
 url: /net/aspose.email.mapi/knownpropertylist/emsabserialnumber/
 ---
 ## KnownPropertyList.EmsAbSerialNumber field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_EMS_AB_SERIAL_NUMBER
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_EMS_AB_SERIAL_NUMBER. Property tag: 0x8130101E; data type: MultipleString8.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbSerialNumber;

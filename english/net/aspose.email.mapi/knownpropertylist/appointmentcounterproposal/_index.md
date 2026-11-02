@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AppointmentCounterProposal
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Indicates whether a Meeting Response object is a counter proposal. Area Meetings Canonical name PidLidAppointmentCounterProposal Alternate names dispidApptCounterProposal
+description: KnownPropertyList field. Indicates whether a Meeting Response object is a counter proposal. Area Meetings. Canonical name PidLidAppointmentCounterProposal. Alternate names dispidApptCounterProposal
 type: docs
 weight: 1130
 url: /net/aspose.email.mapi/knownpropertylist/appointmentcounterproposal/
 ---
 ## KnownPropertyList.AppointmentCounterProposal field
 
-Indicates whether a Meeting Response object is a counter proposal. Area: Meetings Canonical name: PidLidAppointmentCounterProposal Alternate names: dispidApptCounterProposal
+Indicates whether a Meeting Response object is a counter proposal. Area: Meetings. Canonical name: PidLidAppointmentCounterProposal. Alternate names: dispidApptCounterProposal.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentCounterProposal;

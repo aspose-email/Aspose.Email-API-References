@@ -1,14 +1,14 @@
 ---
 title: MapiPropertyContainer.GetPropertyBoolean
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyContainer method. Gets the value of the property specified by tag as Boolean type
+description: MapiPropertyContainer method. Gets the value of a property as a Boolean
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapipropertycontainer/getpropertyboolean/
 ---
 ## MapiPropertyContainer.GetPropertyBoolean method
 
-Gets the value of the property specified by tag as Boolean type.
+Gets the value of a property as a Boolean.
 
 ```csharp
 public bool? GetPropertyBoolean(long tag)
@@ -16,11 +16,11 @@ public bool? GetPropertyBoolean(long tag)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | Int64 | The MAPI property tag. |
+| tag | Int64 | The tag of the property. |
 
 ### Return Value
 
-The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+The value, or `null` if the property does not exist.
 
 ### See Also
 

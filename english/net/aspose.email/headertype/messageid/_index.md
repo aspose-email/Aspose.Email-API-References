@@ -1,14 +1,14 @@
 ---
 title: HeaderType.MessageID
 second_title: Aspose.Email for .NET API Reference
-description: HeaderType property. Unique ID of this message. Defined In RFC 822 4.6.1 RFC 1036 2.1.5
+description: HeaderType property. Gets the MessageID header the unique identifier of the message RFC 822 RFC 1036
 type: docs
 weight: 140
 url: /net/aspose.email/headertype/messageid/
 ---
 ## HeaderType.MessageID property
 
-Unique ID of this message. Defined In RFC 822: 4.6.1 ,RFC 1036: 2.1.5.
+Gets the `Message-ID` header: the unique identifier of the message (RFC 822, RFC 1036).
 
 ```csharp
 public static HeaderType MessageID { get; }

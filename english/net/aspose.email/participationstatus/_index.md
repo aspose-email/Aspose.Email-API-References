@@ -1,14 +1,14 @@
 ---
 title: Enum ParticipationStatus
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.ParticipationStatus enum. Identifies the participation status for the calendar user
+description: Aspose.Email.ParticipationStatus enum. Defines the responses of an attendee to a meeting request
 type: docs
 weight: 18160
 url: /net/aspose.email/participationstatus/
 ---
 ## ParticipationStatus enumeration
 
-Identifies the participation status for the calendar user.
+Defines the responses of an attendee to a meeting request.
 
 ```csharp
 public enum ParticipationStatus
@@ -18,11 +18,11 @@ public enum ParticipationStatus
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NeedsAction | `0` | Event needs action |
-| Accepted | `1` | Event accepted |
-| Declined | `2` | Event declined |
-| Tentative | `3` | Event tentatively accepted |
-| Delegated | `4` | Event delegated |
+| NeedsAction | `0` | The attendee has not responded yet. |
+| Accepted | `1` | The attendee has accepted. |
+| Declined | `2` | The attendee has declined. |
+| Tentative | `3` | The attendee has tentatively accepted. |
+| Delegated | `4` | The attendee has delegated the meeting to someone else. |
 
 ### See Also
 

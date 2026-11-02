@@ -1,14 +1,14 @@
 ---
 title: MapiJournal.StartTime
 second_title: Aspose.Email for .NET API Reference
-description: MapiJournal property. Gets or sets the time at which the activity began
+description: MapiJournal property. Gets or sets the time the activity began
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.email.mapi/mapijournal/starttime/
 ---
 ## MapiJournal.StartTime property
 
-Gets or sets the time at which the activity began.
+Gets or sets the time the activity began.
 
 ```csharp
 public DateTime StartTime { get; set; }
@@ -16,13 +16,7 @@ public DateTime StartTime { get; set; }
 
 ### Property Value
 
-The value that represents time at which the activity began.
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentException | trows when start time is less than end time. |
+The start time.
 
 ### See Also
 

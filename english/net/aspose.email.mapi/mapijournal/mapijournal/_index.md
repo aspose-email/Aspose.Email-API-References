@@ -24,7 +24,7 @@ public MapiJournal()
 
 ## MapiJournal(string, string, string, string) {#constructor_1}
 
-Initializes a new instance of the [`MapiJournal`](../) class.
+Initializes a new instance of the [`MapiJournal`](../) class with the specified details.
 
 ```csharp
 public MapiJournal(string subject, string body, string description, string briefDescription)
@@ -33,9 +33,9 @@ public MapiJournal(string subject, string body, string description, string brief
 | Parameter | Type | Description |
 | --- | --- | --- |
 | subject | String | The subject. |
-| body | String | The message body. |
-| description | String | The description. |
-| briefDescription | String | The brief description. |
+| body | String | The body. |
+| description | String | An expanded description of the activity. |
+| briefDescription | String | A brief description of the activity, such as `Phone call`. |
 
 ### See Also
 

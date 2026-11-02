@@ -1,14 +1,14 @@
 ---
 title: Enum MessageKind
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Storage.Pst.MessageKind enum. Represents the different kinds of messages in pst
+description: Aspose.Email.Storage.Pst.MessageKind enum. Defines kinds of PST messages. The values can be combined
 type: docs
 weight: 19230
 url: /net/aspose.email.storage.pst/messagekind/
 ---
 ## MessageKind enumeration
 
-Represents the different kinds of messages in pst.
+Defines kinds of PST messages. The values can be combined.
 
 ```csharp
 [Flags]
@@ -19,8 +19,8 @@ public enum MessageKind
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Normal | `1` | Represents the normal message. |
-| FolderAssociatedInformation | `2` | Represents the folder associated information (FAI) message object. It is stored in a folder object and typically hidden from view by e-mail applications. An FAI message object is used to store a variety of settings and auxiliary data, including views, forms, favorites, calendar options, and category lists. |
+| Normal | `1` | A normal message. |
+| FolderAssociatedInformation | `2` | A folder associated information (FAI) item: a message stored in a folder but hidden from the user. Outlook uses FAI items for views, forms, rules, category lists and other settings. |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: AlternateViewCollection.Dispose
 second_title: Aspose.Email for .NET API Reference
-description: AlternateViewCollection method. Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources
+description: AlternateViewCollection method. Releases the resources used by the views in the collection
 type: docs
 weight: 10
 url: /net/aspose.email/alternateviewcollection/dispose/
 ---
 ## AlternateViewCollection.Dispose method
 
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+Releases the resources used by the views in the collection.
 
 ```csharp
 public void Dispose()

@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.ExtractProperty
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Gets the specified property of item without extract the item fully
+description: PersonalStorage method. Reads one property of an item without loading the whole item
 type: docs
 weight: 220
 url: /net/aspose.email.storage.pst/personalstorage/extractproperty/
 ---
 ## PersonalStorage.ExtractProperty method
 
-Gets the specified property of item, without extract the item fully.
+Reads one property of an item without loading the whole item.
 
 ```csharp
 public MapiProperty ExtractProperty(byte[] entryId, long tag)
@@ -16,12 +16,18 @@ public MapiProperty ExtractProperty(byte[] entryId, long tag)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | Byte[] | The entry id of item. |
-| tag | Int64 | The property tag. |
+| entryId | Byte[] | The entry ID of the item. |
+| tag | Int64 | The tag of the property. |
 
 ### Return Value
 
-The MapiProperty.
+The property, or `null` if the item does not have it.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *entryId* is `null`. |
 
 ## Remarks
 

@@ -1,14 +1,14 @@
 ---
 title: FolderInfo.ChangeContainerClass
 second_title: Aspose.Email for .NET API Reference
-description: FolderInfo method. Changes the container class
+description: FolderInfo method. Changes the container class of the folder
 type: docs
 weight: 180
 url: /net/aspose.email.storage.pst/folderinfo/changecontainerclass/
 ---
 ## FolderInfo.ChangeContainerClass method
 
-Changes the container class.
+Changes the container class of the folder.
 
 ```csharp
 public void ChangeContainerClass(string containerClass)
@@ -16,14 +16,14 @@ public void ChangeContainerClass(string containerClass)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| containerClass | String | Container class of the of the folder object. |
+| containerClass | String | The new container class, for example `IPF.Note` for mail. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | throws, if a PST is open for reading only. |
-| NotImplementedException | throws, if a PST file version is ANSI. |
+| InvalidOperationException | The PST is open for reading only. |
+| NotImplementedException | The PST is in the ANSI format, which cannot be edited. |
 
 ### See Also
 

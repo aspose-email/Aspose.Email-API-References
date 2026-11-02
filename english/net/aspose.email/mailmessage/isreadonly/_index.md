@@ -1,14 +1,14 @@
 ---
 title: MailMessage.IsReadOnly
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage property. Gets a value indicating whether the message is read only
+description: MailMessage property. Gets a value indicating whether the message is readonly as a signed copy is
 type: docs
 weight: 190
 url: /net/aspose.email/mailmessage/isreadonly/
 ---
 ## MailMessage.IsReadOnly property
 
-Gets a value indicating whether the message is read only
+Gets a value indicating whether the message is read-only, as a signed copy is.
 
 ```csharp
 public virtual bool IsReadOnly { get; }

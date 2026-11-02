@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ReminderTime
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies the initial signal time for objects that are not Calendar objects. Area Reminders Canonical name PidLidReminderTime Alternate names dispidReminderTime
+description: KnownPropertyList field. Specifies the initial signal time for objects that are not Calendar objects. Area Reminders. Canonical name PidLidReminderTime. Alternate names dispidReminderTime
 type: docs
 weight: 15820
 url: /net/aspose.email.mapi/knownpropertylist/remindertime/
 ---
 ## KnownPropertyList.ReminderTime field
 
-Specifies the initial signal time for objects that are not Calendar objects. Area: Reminders Canonical name: PidLidReminderTime Alternate names: dispidReminderTime
+Specifies the initial signal time for objects that are not Calendar objects. Area: Reminders. Canonical name: PidLidReminderTime. Alternate names: dispidReminderTime.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ReminderTime;

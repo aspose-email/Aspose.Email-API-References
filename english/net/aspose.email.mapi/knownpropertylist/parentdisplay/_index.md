@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ParentDisplay
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_PARENT_DISPLAY
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_PARENT_DISPLAY. Property tag 0x0E05001E data type String8
 type: docs
 weight: 14260
 url: /net/aspose.email.mapi/knownpropertylist/parentdisplay/
 ---
 ## KnownPropertyList.ParentDisplay field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_PARENT_DISPLAY
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_PARENT_DISPLAY. Property tag: 0x0E05001E; data type: String8.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ParentDisplay;

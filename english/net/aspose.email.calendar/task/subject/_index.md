@@ -1,14 +1,14 @@
 ---
 title: Task.Subject
 second_title: Aspose.Email for .NET API Reference
-description: Task property. Gets or sets a task subject
+description: Task property. Gets or sets the subject of the task
 type: docs
 weight: 170
 url: /net/aspose.email.calendar/task/subject/
 ---
 ## Task.Subject property
 
-Gets or sets a task subject.
+Gets or sets the subject of the task.
 
 ```csharp
 public string Subject { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: HeaderType.DispositionNotificationTo
 second_title: Aspose.Email for .NET API Reference
-description: HeaderType property. When the DispositionNotificationTo field is set a request for a MDN Message Delivery Notification is made. The recipients email software Outlook Eudora etc. may silently ignore the request or it may prompt the user for permission to send the MDN. There is no guarantee of the returnreceipt. The DispositionNotificationTo field is the de facto standard for requesting returnreceipts i.e. MDN or message delivery notifications
+description: HeaderType property. Gets the DispositionNotificationTo header the address to send a read receipt message disposition notification to. The recipients client may ignore the request
 type: docs
 weight: 90
 url: /net/aspose.email/headertype/dispositionnotificationto/
 ---
 ## HeaderType.DispositionNotificationTo property
 
-When the DispositionNotificationTo field is set, a request for a MDN (Message Delivery Notification) is made. The recipient's email software (Outlook, Eudora, etc.) may silently ignore the request, or it may prompt the user for permission to send the MDN. There is no guarantee of the "return-receipt". The DispositionNotificationTo field is the de facto standard for requesting return-receipts (i.e. MDN, or message delivery notifications).
+Gets the `Disposition-Notification-To` header: the address to send a read receipt (message disposition notification) to. The recipient's client may ignore the request.
 
 ```csharp
 public static HeaderType DispositionNotificationTo { get; }

@@ -1,14 +1,14 @@
 ---
 title: MapiContactPhysicalAddress.City
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactPhysicalAddress property. Specifies the city or locality portion of the contacts address
+description: MapiContactPhysicalAddress property. Gets or sets the city or locality
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapicontactphysicaladdress/city/
 ---
 ## MapiContactPhysicalAddress.City property
 
-Specifies the city or locality portion of the contact's address
+Gets or sets the city or locality.
 
 ```csharp
 public string City { get; set; }

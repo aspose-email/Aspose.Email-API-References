@@ -1,14 +1,14 @@
 ---
 title: FollowUpManager.AddCategory
 second_title: Aspose.Email for .NET API Reference
-description: FollowUpManager method. Adds the category for a message
+description: FollowUpManager method. Adds a category to the message
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/followupmanager/addcategory/
 ---
 ## FollowUpManager.AddCategory method
 
-Adds the category for a message.
+Adds a category to the message.
 
 ```csharp
 public static void AddCategory(MapiMessageItemBase message, string categoryName)
@@ -16,15 +16,15 @@ public static void AddCategory(MapiMessageItemBase message, string categoryName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which a category will be added. |
-| categoryName | String | Category name. |
+| message | MapiMessageItemBase | The message to categorize. |
+| categoryName | String | The name of the category. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | If *message* is null. |
-| ArgumentException | If *categoryName* is null or empty. |
+| ArgumentNullException | *message* is `null`. |
+| ArgumentException | *categoryName* is `null` or empty. |
 
 ### See Also
 

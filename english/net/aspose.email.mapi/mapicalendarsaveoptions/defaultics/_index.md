@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarSaveOptions.DefaultIcs
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarSaveOptions property. Gets the default Ics save options
+description: MapiCalendarSaveOptions property. Gets new iCalendar save options with the default settings
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicalendarsaveoptions/defaultics/
 ---
 ## MapiCalendarSaveOptions.DefaultIcs property
 
-Gets the default Ics save options.
+Gets new iCalendar save options with the default settings.
 
 ```csharp
 public static MapiCalendarIcsSaveOptions DefaultIcs { get; }

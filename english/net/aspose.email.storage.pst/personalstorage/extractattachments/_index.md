@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.ExtractAttachments
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Extracts the attachments
+description: PersonalStorage method. Reads the attachments of a message without loading the whole message
 type: docs
 weight: 200
 url: /net/aspose.email.storage.pst/personalstorage/extractattachments/
 ---
 ## ExtractAttachments(MessageInfo) {#extractattachments}
 
-Extracts the attachments.
+Reads the attachments of a message without loading the whole message.
 
 ```csharp
 public MapiAttachmentCollection ExtractAttachments(MessageInfo messageInfo)
@@ -16,11 +16,18 @@ public MapiAttachmentCollection ExtractAttachments(MessageInfo messageInfo)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| messageInfo | MessageInfo | The message information. |
+| messageInfo | MessageInfo | The message. |
 
 ### Return Value
 
 The [`MapiAttachmentCollection`](../../../aspose.email.mapi/mapiattachmentcollection/) that represents the collection of attachments.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *messageInfo* is `null`. |
+| InvalidOperationException | The entry ID of *messageInfo* is empty. |
 
 ### See Also
 
@@ -34,7 +41,7 @@ The [`MapiAttachmentCollection`](../../../aspose.email.mapi/mapiattachmentcollec
 
 ## ExtractAttachments(string) {#extractattachments_1}
 
-Extracts the attachments.
+Reads the attachments of a message without loading the whole message.
 
 ```csharp
 public MapiAttachmentCollection ExtractAttachments(string entryId)
@@ -42,11 +49,18 @@ public MapiAttachmentCollection ExtractAttachments(string entryId)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | String | The message entryId. |
+| entryId | String | The entry ID of the message. |
 
 ### Return Value
 
 The [`MapiAttachmentCollection`](../../../aspose.email.mapi/mapiattachmentcollection/) that represents the collection of attachments.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *entryId* is `null` or empty. |
+| InvalidOperationException | *entryId* is not valid. |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.NonReceiptReason
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_NON_RECEIPT_REASON
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_NON_RECEIPT_REASON. Property tag 0x003E0003 data type Integer32
 type: docs
 weight: 13080
 url: /net/aspose.email.mapi/knownpropertylist/nonreceiptreason/
 ---
 ## KnownPropertyList.NonReceiptReason field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_NON_RECEIPT_REASON
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_NON_RECEIPT_REASON. Property tag: 0x003E0003; data type: Integer32.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NonReceiptReason;

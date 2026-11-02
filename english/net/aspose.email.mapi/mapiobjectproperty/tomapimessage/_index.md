@@ -1,14 +1,14 @@
 ---
 title: MapiObjectProperty.ToMapiMessage
 second_title: Aspose.Email for .NET API Reference
-description: MapiObjectProperty method. Creates the MapiMessage from object data
+description: MapiObjectProperty method. Gets the embedded Outlook message
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapiobjectproperty/tomapimessage/
 ---
 ## MapiObjectProperty.ToMapiMessage method
 
-Creates the MapiMessage from object data.
+Gets the embedded Outlook message.
 
 ```csharp
 public MapiMessage ToMapiMessage()
@@ -16,13 +16,13 @@ public MapiMessage ToMapiMessage()
 
 ### Return Value
 
-The resultant [`MapiMessage`](../../mapimessage/).
+The embedded message.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | If current ObjectData is not a Outlook message. |
+| InvalidOperationException | The object is not an Outlook message. |
 
 ### See Also
 

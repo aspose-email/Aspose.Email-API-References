@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ChangeKey
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains a structure that identifies the last change to the object. Area History Properties Canonical name PidTagChangeKey Alternate names PR_CHANGE_KEY
+description: KnownPropertyList field. Contains a structure that identifies the last change to the object. Area History Properties. Canonical name PidTagChangeKey. Alternate names PR_CHANGE_KEY
 type: docs
 weight: 2650
 url: /net/aspose.email.mapi/knownpropertylist/changekey/
 ---
 ## KnownPropertyList.ChangeKey field
 
-Contains a structure that identifies the last change to the object. Area: History Properties Canonical name: PidTagChangeKey Alternate names: PR_CHANGE_KEY
+Contains a structure that identifies the last change to the object. Area: History Properties. Canonical name: PidTagChangeKey. Alternate names: PR_CHANGE_KEY.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ChangeKey;

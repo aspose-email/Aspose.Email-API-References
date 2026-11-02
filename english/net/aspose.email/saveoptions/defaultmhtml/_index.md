@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.DefaultMhtml
 second_title: Aspose.Email for .NET API Reference
-description: SaveOptions property. Gets options with default values for saving message to Mhtml format
+description: SaveOptions property. Gets new options with the default settings for saving to MHTML
 type: docs
 weight: 70
 url: /net/aspose.email/saveoptions/defaultmhtml/
 ---
 ## SaveOptions.DefaultMhtml property
 
-Gets options with default values for saving message to Mhtml format.
+Gets new options with the default settings for saving to MHTML.
 
 ```csharp
 public static MhtSaveOptions DefaultMhtml { get; }

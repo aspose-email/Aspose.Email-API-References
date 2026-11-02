@@ -1,14 +1,14 @@
 ---
 title: MapiContactPhysicalAddress.Street
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactPhysicalAddress property. Specifies the street portion of the contacts address
+description: MapiContactPhysicalAddress property. Gets or sets the street address
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapicontactphysicaladdress/street/
 ---
 ## MapiContactPhysicalAddress.Street property
 
-Specifies the street portion of the contact's address
+Gets or sets the street address.
 
 ```csharp
 public string Street { get; set; }

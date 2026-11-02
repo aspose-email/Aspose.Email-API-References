@@ -1,14 +1,14 @@
 ---
 title: MapiContactElectronicAddress.EmailAddress
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactElectronicAddress property. Gets or sets the email address of the contact
+description: MapiContactElectronicAddress property. Gets or sets the email address
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicontactelectronicaddress/emailaddress/
 ---
 ## MapiContactElectronicAddress.EmailAddress property
 
-Gets or sets the e-mail address of the contact
+Gets or sets the e-mail address.
 
 ```csharp
 public string EmailAddress { get; set; }

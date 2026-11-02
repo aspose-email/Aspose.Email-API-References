@@ -18,16 +18,16 @@ public class AppointmentLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [AppointmentLoadOptions](appointmentloadoptions/)() | Initializes a new instance of the `AppointmentLoadOptions` class |
+| [AppointmentLoadOptions](appointmentloadoptions/)() | Initializes a new instance of the `AppointmentLoadOptions` class with the default settings. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [ApplyLocalTZ](../../aspose.email.calendar/appointmentloadoptions/applylocaltz/) { get; set; } | Convert time to local timezone |
-| [DetectEncoding](../../aspose.email.calendar/appointmentloadoptions/detectencoding/) { get; set; } | Determines a data encoding by analyzing its byte order mark (BOM) |
-| [EventIndex](../../aspose.email.calendar/appointmentloadoptions/eventindex/) { get; set; } | Determines VEVENT index in case multiple events in a single ics file. The starting VEVENT in case reading multiple events by CalendarReader[`CalendarReader`](../calendarreader/). |
-| [IgnoreSmtpAddressCheck](../../aspose.email.calendar/appointmentloadoptions/ignoresmtpaddresscheck/) { get; set; } | Defines whether the SMTP address validation is skipped. |
+| [ApplyLocalTZ](../../aspose.email.calendar/appointmentloadoptions/applylocaltz/) { get; set; } | Gets or sets whether to convert the start and end times of the event to the local time zone of the computer. The default is `false`. |
+| [DetectEncoding](../../aspose.email.calendar/appointmentloadoptions/detectencoding/) { get; set; } | Gets or sets whether to detect the text encoding of the data from its byte order mark (BOM). The default is `false`. |
+| [EventIndex](../../aspose.email.calendar/appointmentloadoptions/eventindex/) { get; set; } | Gets or sets the zero-based index of the event (VEVENT) to load when the calendar contains several. For [`CalendarReader`](../calendarreader/) it is the index of the first event to read. The default is 0. |
+| [IgnoreSmtpAddressCheck](../../aspose.email.calendar/appointmentloadoptions/ignoresmtpaddresscheck/) { get; set; } | Gets or sets whether to skip the validation of attendee email addresses. When `false`, an attendee address that is not a valid SMTP address causes an exception. The default is `true`. |
 
 ## Remarks
 

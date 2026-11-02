@@ -1,14 +1,14 @@
 ---
 title: FolderCreationOptions.EnforceContainerClassMatching
 second_title: Aspose.Email for .NET API Reference
-description: FolderCreationOptions property. Gets or sets a value indicating whether to enforce container class checking
+description: FolderCreationOptions property. Gets or sets a value indicating whether the container class of the new folder must match the container class of its parent folder
 type: docs
 weight: 50
 url: /net/aspose.email.storage.pst/foldercreationoptions/enforcecontainerclassmatching/
 ---
 ## FolderCreationOptions.EnforceContainerClassMatching property
 
-Gets or sets a value indicating whether to enforce container class checking.
+Gets or sets a value indicating whether the container class of the new folder must match the container class of its parent folder.
 
 ```csharp
 public bool EnforceContainerClassMatching { get; set; }
@@ -16,11 +16,11 @@ public bool EnforceContainerClassMatching { get; set; }
 
 ### Property Value
 
-True if container class checking should be enforced; otherwise, false. Default is false.
+`true` to require matching container classes; otherwise, `false`. The default is `false`.
 
 ## Remarks
 
-Specifies whether to enforce checking the container class of the folder being added against the container class of the parent folder. If set to true, an exception will be thrown if the container classes do not match.
+When `true`, adding a folder whose container class differs from that of the parent folder throws `InvalidOperationException`.
 
 ### See Also
 

@@ -18,18 +18,18 @@ public class HtmlLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [HtmlLoadOptions](htmlloadoptions/)() | Initializes a new instance of this class that can be used to loading MailMessage from Html format. |
+| [HtmlLoadOptions](htmlloadoptions/)() | Initializes a new instance of the `HtmlLoadOptions` class with the default options. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [MessageFormat](../../aspose.email/loadoptions/messageformat/) { get; } | Represents the mail message format.It can be in eml,msg or mhtml format. The default value is Eml. |
-| [PathToResources](../../aspose.email/htmlloadoptions/pathtoresources/) { get; set; } | Path to directory with resources files. |
-| [PreferredTextEncoding](../../aspose.email/loadoptions/preferredtextencoding/) { get; set; } | Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null. |
-| [PreserveEmbeddedMessageFormat](../../aspose.email/loadoptions/preserveembeddedmessageformat/) { get; set; } | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. By default the value is false. |
-| [RemoveSignature](../../aspose.email/loadoptions/removesignature/) { get; set; } | Gets or sets a value indicating whether signature will be removed while loading. |
-| [ShouldAddPlainTextView](../../aspose.email/htmlloadoptions/shouldaddplaintextview/) { get; set; } | Specifies whether to add a text representation of the body or not. Default value is false. |
+| [MessageFormat](../../aspose.email/loadoptions/messageformat/) { get; } | Gets the format this options object loads, as determined by its class: EML, MSG, MHTML, HTML and so on. |
+| [PathToResources](../../aspose.email/htmlloadoptions/pathtoresources/) { get; set; } | Gets or sets the folder that relative paths of images and other resources in the HTML are resolved against. |
+| [PreferredTextEncoding](../../aspose.email/loadoptions/preferredtextencoding/) { get; set; } | Gets or sets the encoding used for the subject and the body regardless of what the message declares. The default is `null`: the declared encoding is used. |
+| [PreserveEmbeddedMessageFormat](../../aspose.email/loadoptions/preserveembeddedmessageformat/) { get; set; } | Gets or sets a value indicating whether embedded messages keep their original format (EML or MSG) when loaded. The default is `false`. |
+| [RemoveSignature](../../aspose.email/loadoptions/removesignature/) { get; set; } | Gets or sets a value indicating whether the digital signature is removed from a signed message while it is loaded. |
+| [ShouldAddPlainTextView](../../aspose.email/htmlloadoptions/shouldaddplaintextview/) { get; set; } | Gets or sets a value indicating whether a plain-text version of the body is added to the message. The default is `false`. |
 
 ## Remarks
 

@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.Company
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies the company for which the file was created. Area Common Canonical name PidNameCompany Alternate names urnschemasmicrosoftcomofficeofficeCompany
+description: KnownPropertyList field. Specifies the company for which the file was created. Area Common. Canonical name PidNameCompany. Alternate names urnschemasmicrosoftcomofficeofficeCompany
 type: docs
 weight: 2900
 url: /net/aspose.email.mapi/knownpropertylist/company/
 ---
 ## KnownPropertyList.Company field
 
-Specifies the company for which the file was created. Area: Common Canonical name: PidNameCompany Alternate names: urn:schemas-microsoft-com:office:office#Company
+Specifies the company for which the file was created. Area: Common. Canonical name: PidNameCompany. Alternate names: urn:schemas-microsoft-com:office:office#Company.
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Company;

@@ -24,7 +24,7 @@ public ExchangeException()
 
 ## ExchangeException(string) {#constructor_1}
 
-Initializes a new instance of the [`ExchangeException`](../) class.
+Initializes a new instance of the [`ExchangeException`](../) class with the specified error message.
 
 ```csharp
 public ExchangeException(string message)
@@ -32,7 +32,7 @@ public ExchangeException(string message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | The error message. |
+| message | String | The message that describes the error. |
 
 ### See Also
 
@@ -44,7 +44,7 @@ public ExchangeException(string message)
 
 ## ExchangeException(string, params object[]) {#constructor_3}
 
-Initializes a new instance of the [`ExchangeException`](../) class with a specified error message.
+Initializes a new instance of the [`ExchangeException`](../) class with an error message built from a composite format string.
 
 ```csharp
 public ExchangeException(string format, params object[] parameters)
@@ -52,8 +52,8 @@ public ExchangeException(string format, params object[] parameters)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | String | Message format |
-| parameters | Object[] | Format parameters |
+| format | String | A composite format string, as for `String.Format`. |
+| parameters | Object[] | The objects to insert into *format*. |
 
 ### See Also
 
@@ -65,7 +65,7 @@ public ExchangeException(string format, params object[] parameters)
 
 ## ExchangeException(string, Exception) {#constructor_2}
 
-Initializes a new instance of the [`ExchangeException`](../) class.
+Initializes a new instance of the [`ExchangeException`](../) class with the specified error message and a reference to the exception that caused it.
 
 ```csharp
 public ExchangeException(string message, Exception innerException)
@@ -73,8 +73,8 @@ public ExchangeException(string message, Exception innerException)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | The error message. |
-| innerException | Exception | The inner exception. |
+| message | String | The message that describes the error. |
+| innerException | Exception | The exception that caused this exception, or `null`. |
 
 ### See Also
 

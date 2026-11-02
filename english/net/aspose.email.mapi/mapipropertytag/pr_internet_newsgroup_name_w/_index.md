@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_INTERNET_NEWSGROUP_NAME_W
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. The Unicode form of PR_INTERNET_NEWSGROUP_NAME. Property tag 0x66A7001F PT_UNICODE
 type: docs
 weight: 12930
 url: /net/aspose.email.mapi/mapipropertytag/pr_internet_newsgroup_name_w/
 ---
 ## MapiPropertyTag.PR_INTERNET_NEWSGROUP_NAME_W field
+
+The Unicode form of [`PR_INTERNET_NEWSGROUP_NAME`](../pr_internet_newsgroup_name/). Property tag: 0x66A7001F (PT_UNICODE).
 
 ```csharp
 public static readonly long PR_INTERNET_NEWSGROUP_NAME_W;

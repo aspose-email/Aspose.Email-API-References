@@ -1,14 +1,14 @@
 ---
 title: MapiProperty.ToString
 second_title: Aspose.Email for .NET API Reference
-description: MapiProperty method. Returns a String that represents the current Object
+description: MapiProperty method. Returns a string that represents the property
 type: docs
 weight: 270
 url: /net/aspose.email.mapi/mapiproperty/tostring/
 ---
 ## MapiProperty.ToString method
 
-Returns a String that represents the current Object.
+Returns a string that represents the property.
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Return Value
 
-A String that represents the current Object.
+A string that represents the property.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: Class ReminderDuration
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.ReminderDuration class. Used to identify properties that contain a duration of time
+description: Aspose.Email.Calendar.ReminderDuration class. A length of time used by a reminder trigger or as a repetition interval
 type: docs
 weight: 840
 url: /net/aspose.email.calendar/reminderduration/
 ---
 ## ReminderDuration class
 
-Used to identify properties that contain a duration of time.
+A length of time used by a reminder trigger or as a repetition interval.
 
 ```csharp
 public class ReminderDuration
@@ -18,13 +18,13 @@ public class ReminderDuration
 
 | Name | Description |
 | --- | --- |
-| [ReminderDuration](reminderduration/)(TimeSpan) | Initialize a new instance of `ReminderDuration` class. |
+| [ReminderDuration](reminderduration/)(TimeSpan) | Initializes a new instance of the `ReminderDuration` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Duration](../../aspose.email.calendar/reminderduration/duration/) { get; } | Duration of time. |
+| [Duration](../../aspose.email.calendar/reminderduration/duration/) { get; } | Gets the length of time. A negative value means a time before the start or end of the event. |
 
 ### See Also
 

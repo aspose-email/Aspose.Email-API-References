@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.NoteCount
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies the number of notes in the file attached to the Document object. Area Common Canonical name PidNameNoteCount Alternate names urnschemasmicrosoftcomofficeofficeNotes
+description: KnownPropertyList field. Specifies the number of notes in the file attached to the Document object. Area Common. Canonical name PidNameNoteCount. Alternate names urnschemasmicrosoftcomofficeofficeNotes
 type: docs
 weight: 13200
 url: /net/aspose.email.mapi/knownpropertylist/notecount/
 ---
 ## KnownPropertyList.NoteCount field
 
-Specifies the number of notes in the file attached to the Document object. Area: Common Canonical name: PidNameNoteCount Alternate names: urn:schemas-microsoft-com:office:office#Notes
+Specifies the number of notes in the file attached to the Document object. Area: Common. Canonical name: PidNameNoteCount. Alternate names: urn:schemas-microsoft-com:office:office#Notes.
 
 ```csharp
 public static readonly PidNamePropertyDescriptor NoteCount;

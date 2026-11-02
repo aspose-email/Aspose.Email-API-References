@@ -1,14 +1,14 @@
 ---
 title: Enum MapiCalendarState
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendarState enum. Enumerates the appointment state
+description: Aspose.Email.Mapi.MapiCalendarState enum. Defines the state of a calendar item. The values can be combined
 type: docs
 weight: 16910
 url: /net/aspose.email.mapi/mapicalendarstate/
 ---
 ## MapiCalendarState enumeration
 
-Enumerates the appointment state
+Defines the state of a calendar item. The values can be combined.
 
 ```csharp
 [Flags]
@@ -19,9 +19,9 @@ public enum MapiCalendarState
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Meeting | `1` | Indicates that the represented calendar object is a Meeting object |
-| Received | `2` | Indicates that the represented calendar object was received from someone else |
-| Canceled | `4` | Indicates that the Meeting object has been canceled. |
+| Meeting | `1` | The item is a meeting rather than an appointment. |
+| Received | `2` | The item was received from someone else. |
+| Canceled | `4` | The meeting has been canceled. |
 
 ### See Also
 

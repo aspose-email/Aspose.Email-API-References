@@ -1,14 +1,14 @@
 ---
 title: MapiContactElectronicAddress.OriginalDisplayName
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactElectronicAddress property. Gets or sets the SMTP email address that corresponds to the email address for the Contact object
+description: MapiContactElectronicAddress property. Gets or sets the SMTP form of the address used when the address itself is of another type
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapicontactelectronicaddress/originaldisplayname/
 ---
 ## MapiContactElectronicAddress.OriginalDisplayName property
 
-Gets or sets the SMTP e-mail address that corresponds to the e-mail address for the Contact object.
+Gets or sets the SMTP form of the address, used when the address itself is of another type.
 
 ```csharp
 public string OriginalDisplayName { get; set; }
@@ -16,7 +16,7 @@ public string OriginalDisplayName { get; set; }
 
 ### Property Value
 
-The the SMTP e-mail address.
+The SMTP address.
 
 ### See Also
 

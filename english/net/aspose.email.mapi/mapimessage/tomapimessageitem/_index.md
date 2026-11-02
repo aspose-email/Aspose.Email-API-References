@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.ToMapiMessageItem
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage method. Convert MapiMessage to IMapiMessageItem object in dependence with MessageClass
+description: MapiMessage method. Converts the message to the item class that matches its message class such as MapiContact for IPM.Contact
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.email.mapi/mapimessage/tomapimessageitem/
 ---
 ## MapiMessage.ToMapiMessageItem method
 
-Convert MapiMessage to IMapiMessageItem object in dependence with MessageClass.
+Converts the message to the item class that matches its message class, such as [`MapiContact`](../../mapicontact/) for `IPM.Contact`.
 
 ```csharp
 public IMapiMessageItem ToMapiMessageItem()
@@ -16,17 +16,17 @@ public IMapiMessageItem ToMapiMessageItem()
 
 ### Return Value
 
-The IMapiMessageItem interface.
+The item: a [`MapiContact`](../../mapicontact/), [`MapiCalendar`](../../mapicalendar/), [`MapiTask`](../../mapitask/), [`MapiNote`](../../mapinote/), [`MapiJournal`](../../mapijournal/) or [`MapiDistributionList`](../../mapidistributionlist/); a copy of the message for `IPM.Note`.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| NotSupportedException | Thrown when MessageClass doesn't belong to IPM.Note, IPM.StickyNote, IPM.Contact, IPM.Activity, IPM.Appointment, IPM.Schedule.meeting, IPM.Task. |
+| NotSupportedException | The message class is not one of the supported classes. |
 
 ## Remarks
 
-Note, that the following message classes are supported by now: IPM.Note, IPM.StickyNote, IPM.Contact, IPM.Activity, IPM.Appointment, IPM.Schedule.meeting, IPM.Task. If MapiMessage has another class, different from these ones, then NotSupportedException is thrown. If MessageClass is IPM.Note, then MapiMessage copy is returned.
+The supported message classes are `IPM.Note`, `IPM.Contact`, `IPM.DistList`, `IPM.Appointment`, `IPM.Schedule.Meeting`, `IPM.Task`, `IPM.StickyNote` and `IPM.Activity`. Check [`SupportedType`](../../mapimessageitembase/supportedtype/) before the call to avoid the exception.
 
 ### See Also
 

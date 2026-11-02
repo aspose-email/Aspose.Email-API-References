@@ -1,14 +1,14 @@
 ---
 title: Enum MapiContactGender
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiContactGender enum. Gender of the contact
+description: Aspose.Email.Mapi.MapiContactGender enum. Defines the gender of a contact
 type: docs
 weight: 17050
 url: /net/aspose.email.mapi/mapicontactgender/
 ---
 ## MapiContactGender enumeration
 
-Gender of the contact
+Defines the gender of a contact.
 
 ```csharp
 public enum MapiContactGender
@@ -18,9 +18,9 @@ public enum MapiContactGender
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Unspecified | `0` | The gender is not specified. |
-| Female | `1` | The value that indicates that the gender is female. |
-| Male | `2` | The value that indicates that the gender is male. |
+| Unspecified | `0` | Not specified. |
+| Female | `1` | Female. |
+| Male | `2` | Male. |
 
 ### See Also
 

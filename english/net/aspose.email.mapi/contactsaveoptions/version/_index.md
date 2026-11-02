@@ -1,14 +1,14 @@
 ---
 title: ContactSaveOptions.Version
 second_title: Aspose.Email for .NET API Reference
-description: ContactSaveOptions property. Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard
+description: ContactSaveOptions property. Gets or sets the vCard version to write. Used only when the contact is saved to vCard
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/contactsaveoptions/version/
 ---
 ## ContactSaveOptions.Version property
 
-Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard.
+Gets or sets the vCard version to write. Used only when the contact is saved to vCard.
 
 ```csharp
 public VCardVersion Version { get; set; }
@@ -18,7 +18,7 @@ public VCardVersion Version { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | A value is not defined in [`VCardVersion`](../../../aspose.email.personalinfo.vcard/vcardversion/) |
+| ArgumentException | The value is not defined in [`VCardVersion`](../../../aspose.email.personalinfo.vcard/vcardversion/). |
 
 ### See Also
 

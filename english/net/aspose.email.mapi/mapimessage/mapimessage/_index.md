@@ -1,14 +1,14 @@
 ---
 title: MapiMessage.MapiMessage
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage constructor. Initializes a new instance of the MapiMessage class
+description: MapiMessage constructor. Initializes a new instance of the MapiMessage class an empty message
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapimessage/mapimessage/
 ---
 ## MapiMessage() {#constructor}
 
-Initializes a new instance of the [`MapiMessage`](../) class.
+Initializes a new instance of the [`MapiMessage`](../) class: an empty message.
 
 ```csharp
 public MapiMessage()
@@ -24,7 +24,7 @@ public MapiMessage()
 
 ## MapiMessage(OutlookMessageFormat) {#constructor_1}
 
-Initializes a new instance of the [`MapiMessage`](../) class.
+Initializes a new instance of the [`MapiMessage`](../) class: an empty message in the specified format.
 
 ```csharp
 public MapiMessage(OutlookMessageFormat format)
@@ -32,7 +32,7 @@ public MapiMessage(OutlookMessageFormat format)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | OutlookMessageFormat | Defines whether to use Unicode or ASCII encoding for this message. |
+| format | OutlookMessageFormat | The format of the message: Unicode or ANSI. |
 
 ### See Also
 
@@ -45,7 +45,7 @@ public MapiMessage(OutlookMessageFormat format)
 
 ## MapiMessage(string, string, string, string, OutlookMessageFormat) {#constructor_3}
 
-Initializes a new instance of the [`MapiMessage`](../) class.
+Initializes a new instance of the [`MapiMessage`](../) class with a sender, recipients, a subject and a body, in the specified format.
 
 ```csharp
 public MapiMessage(string from, string to, string subject, string body, OutlookMessageFormat format)
@@ -53,19 +53,19 @@ public MapiMessage(string from, string to, string subject, string body, OutlookM
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| from | String | The From address. |
-| to | String | The addresses of recipients. Note, that addresses are separated by semicolon. |
-| subject | String | The message subject. |
-| body | String | The message body. |
-| format | OutlookMessageFormat | Defines whether to use Unicode or ASCII encoding for this message. |
+| from | String | The address of the sender. |
+| to | String | The addresses of the To recipients, separated by semicolons (`;`). |
+| subject | String | The subject. |
+| body | String | The plain-text body. |
+| format | OutlookMessageFormat | The format of the message: Unicode or ANSI. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | Is being thrown if address of recipient is null or empty. |
-| ArgumentException | Is being thrown if sender or recipient address is not in a recognized format. |
-| InvalidEnumArgumentException | Is being thrown if *format* parameter is not a valid enumeration member. |
+| ArgumentNullException | *to* is `null` or empty. |
+| ArgumentException | An address in *from* or *to* is not valid. |
+| InvalidEnumArgumentException | *format* is not a valid value. |
 
 ### See Also
 
@@ -78,7 +78,7 @@ public MapiMessage(string from, string to, string subject, string body, OutlookM
 
 ## MapiMessage(string, string, string, string) {#constructor_2}
 
-Initializes a new instance of the [`MapiMessage`](../) class.
+Initializes a new instance of the [`MapiMessage`](../) class with a sender, recipients, a subject and a body, in Unicode format.
 
 ```csharp
 public MapiMessage(string from, string to, string subject, string body)
@@ -86,17 +86,17 @@ public MapiMessage(string from, string to, string subject, string body)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| from | String | The From address. |
-| to | String | The addresses of recipients. Note, that addresses are separated by semicolon. |
-| subject | String | The message subject. |
-| body | String | The message body. |
+| from | String | The address of the sender. |
+| to | String | The addresses of the To recipients, separated by semicolons (`;`). |
+| subject | String | The subject. |
+| body | String | The plain-text body. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | throws if address of recipient is null or empty. |
-| ArgumentException | throws if sender or recipient address is not in a recognized format. |
+| ArgumentNullException | *to* is `null` or empty. |
+| ArgumentException | An address in *from* or *to* is not valid. |
 
 ### See Also
 

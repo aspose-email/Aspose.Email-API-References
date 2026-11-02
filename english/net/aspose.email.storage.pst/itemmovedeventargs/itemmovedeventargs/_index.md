@@ -1,14 +1,14 @@
 ---
 title: ItemMovedEventArgs.ItemMovedEventArgs
 second_title: Aspose.Email for .NET API Reference
-description: ItemMovedEventArgs constructor. Initializes a new instance of the ItemMovedEventArgs class
+description: ItemMovedEventArgs constructor. Initializes a new instance of the ItemMovedEventArgs class for a moved message
 type: docs
 weight: 10
 url: /net/aspose.email.storage.pst/itemmovedeventargs/itemmovedeventargs/
 ---
 ## ItemMovedEventArgs(MessageInfo) {#constructor_1}
 
-Initializes a new instance of the [`ItemMovedEventArgs`](../) class.
+Initializes a new instance of the [`ItemMovedEventArgs`](../) class for a moved message.
 
 ```csharp
 public ItemMovedEventArgs(MessageInfo message)
@@ -16,7 +16,7 @@ public ItemMovedEventArgs(MessageInfo message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MessageInfo | The message. |
+| message | MessageInfo | The moved message. |
 
 ### See Also
 
@@ -29,7 +29,7 @@ public ItemMovedEventArgs(MessageInfo message)
 
 ## ItemMovedEventArgs(FolderInfo) {#constructor}
 
-Initializes a new instance of the [`ItemMovedEventArgs`](../) class.
+Initializes a new instance of the [`ItemMovedEventArgs`](../) class for a moved folder.
 
 ```csharp
 public ItemMovedEventArgs(FolderInfo folder)
@@ -37,7 +37,7 @@ public ItemMovedEventArgs(FolderInfo folder)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| folder | FolderInfo | The folder. |
+| folder | FolderInfo | The moved folder. |
 
 ### See Also
 
@@ -50,7 +50,7 @@ public ItemMovedEventArgs(FolderInfo folder)
 
 ## ItemMovedEventArgs(string, MapiPropertyCollection) {#constructor_2}
 
-Initializes a new instance of the [`ItemMovedEventArgs`](../) class.
+Initializes a new instance of the [`ItemMovedEventArgs`](../) class for an item given by its entry ID and properties.
 
 ```csharp
 public ItemMovedEventArgs(string entryId, MapiPropertyCollection properties)
@@ -58,8 +58,8 @@ public ItemMovedEventArgs(string entryId, MapiPropertyCollection properties)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | String | The entry identifier. |
-| properties | MapiPropertyCollection | The properties. |
+| entryId | String | The entry ID of the moved item. |
+| properties | MapiPropertyCollection | The properties of the moved item. |
 
 ### See Also
 

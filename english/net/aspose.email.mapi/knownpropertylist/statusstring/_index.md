@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.StatusString
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_STATUS_STRING
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_STATUS_STRING. Property tag 0x3E08001E data type String8
 type: docs
 weight: 18300
 url: /net/aspose.email.mapi/knownpropertylist/statusstring/
 ---
 ## KnownPropertyList.StatusString field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_STATUS_STRING
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_STATUS_STRING. Property tag: 0x3E08001E; data type: String8.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor StatusString;

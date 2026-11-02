@@ -1,14 +1,14 @@
 ---
 title: Enum AttachmentProviderType
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.AttachmentProviderType enum. The type of web service manipulating the attachment
+description: Aspose.Email.AttachmentProviderType enum. Defines the cloud storage service that holds the file of a reference attachment
 type: docs
 weight: 370
 url: /net/aspose.email/attachmentprovidertype/
 ---
 ## AttachmentProviderType enumeration
 
-The type of web service manipulating the attachment.
+Defines the cloud storage service that holds the file of a reference attachment.
 
 ```csharp
 public enum AttachmentProviderType
@@ -18,8 +18,8 @@ public enum AttachmentProviderType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| OneDrivePro | `0` | The web reference attachment belongs to a OneDrive for Business service. |
-| OneDriveConsumer | `1` | The web reference attachment belongs to a OneDrive Consumer service. |
+| OneDrivePro | `0` | OneDrive for Business. |
+| OneDriveConsumer | `1` | OneDrive (personal). |
 
 ### See Also
 

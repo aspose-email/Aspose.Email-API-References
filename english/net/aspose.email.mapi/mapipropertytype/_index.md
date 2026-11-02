@@ -1,14 +1,14 @@
 ---
 title: Enum MapiPropertyType
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiPropertyType enum. Represents the data type of MapiProperty data
+description: Aspose.Email.Mapi.MapiPropertyType enum. Defines the data types of MAPI properties the loworder 16 bits of a property tag
 type: docs
 weight: 17450
 url: /net/aspose.email.mapi/mapipropertytype/
 ---
 ## MapiPropertyType enumeration
 
-Represents the data type of MapiProperty data.
+Defines the data types of MAPI properties: the low-order 16 bits of a property tag.
 
 ```csharp
 public enum MapiPropertyType
@@ -18,21 +18,21 @@ public enum MapiPropertyType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0` | No values are set. |
-| PT_SHORT | `2` | Signed 16-bit integer. This property type is the same as PT_SHORT and the OLE type VT_I2. |
+| None | `0` | Not set. |
+| PT_SHORT | `2` | A signed 16-bit integer. The same as `PT_I2` and the OLE type `VT_I2`. |
 | PT_LONG | `3` | Signed or unsigned 32-bit integer. This property type is the same as PT_I4 and the OLE type VT_I4. |
 | PT_ERROR | `10` | SCODE value; 32-bit unsigned integer. This property type is the same as the OLE type VT_ERROR. |
 | PT_BOOLEAN | `11` | 16-bit Boolean value where zero equals FALSE and non-zero equals TRUE. This property type is the same as the OLE type VT_BOOL. |
 | PT_OBJECT | `13` | Pointer to an object that implements the IUnknown interface. This property type is similar to several OLE types such as VT_UNKNOWN. |
 | PT_LONGLONG | `20` | Signed or unsigned 64-bit integer. This property type is the same as PT_I8 and the OLE type VT_I8. |
 | PT_STRING8 | `30` | Null-terminated 8-bit character string. This property type is the same as the OLE type VT_LPSTR. |
-| PT_UNICODE | `31` | PT_UNICODE |
+| PT_UNICODE | `31` | A null-terminated Unicode (UTF-16LE) string. |
 | PT_SYSTIME | `64` | 64-bit integer data and time value in the form of a FILETIME structure. This property type is the same as the OLE type VT_FILETIME. |
 | PT_CLSID | `72` | CLSID structure value. This property type is the same as the OLE type VT_CLSID. |
-| PT_SRESTRICTION | `253` | PT_SRESTRICTION |
-| PT_ACTIONS | `254` | PT_ACTIONS |
+| PT_SRESTRICTION | `253` | A restriction: the criteria of a search. |
+| PT_ACTIONS | `254` | The actions of a rule. |
 | PT_BINARY | `258` | SBinary structure value, a counted byte array. |
-| PT_MV_xxx | `4096` | PT_MV_xxx |
+| PT_MV_xxx | `4096` | The flag that makes any type multi-valued, combined with that type. |
 | PT_MV_STRING8 | `4126` | A count field followed by that many PT_STRING8 values. |
 | PT_MV_UNICODE | `4127` | A count field followed by that many PT_UNICODE values. |
 | PT_MV_BINARY | `4354` | A count field followed by that many PT_BINARY values. |

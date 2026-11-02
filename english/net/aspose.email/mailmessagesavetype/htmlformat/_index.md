@@ -1,14 +1,14 @@
 ---
 title: MailMessageSaveType.HtmlFormat
 second_title: Aspose.Email for .NET API Reference
-description: MailMessageSaveType property. Gets the Html
+description: MailMessageSaveType property. Gets the HTML format
 type: docs
 weight: 30
 url: /net/aspose.email/mailmessagesavetype/htmlformat/
 ---
 ## MailMessageSaveType.HtmlFormat property
 
-Gets the Html.
+Gets the HTML format.
 
 ```csharp
 public static MailMessageSaveType HtmlFormat { get; }
@@ -16,7 +16,7 @@ public static MailMessageSaveType HtmlFormat { get; }
 
 ### Property Value
 
-The Html.
+The HTML format.
 
 ### See Also
 

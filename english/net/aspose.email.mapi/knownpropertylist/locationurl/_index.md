@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.LocationUrl
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Area Calendar Canonical name PidNameLocationUrl Alternate names urnschemascalendarlocationurl LocationUrl
+description: KnownPropertyList field. Area Calendar. Canonical name PidNameLocationUrl. Alternate names urnschemascalendarlocationurl LocationUrl
 type: docs
 weight: 12280
 url: /net/aspose.email.mapi/knownpropertylist/locationurl/
 ---
 ## KnownPropertyList.LocationUrl field
 
-Area: Calendar Canonical name: PidNameLocationUrl Alternate names: urn:schemas:calendar:locationurl, LocationUrl
+Area: Calendar. Canonical name: PidNameLocationUrl. Alternate names: urn:schemas:calendar:locationurl, LocationUrl.
 
 ```csharp
 public static readonly PidNamePropertyDescriptor LocationUrl;

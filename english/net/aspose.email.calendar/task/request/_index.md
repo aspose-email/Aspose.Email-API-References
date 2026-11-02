@@ -1,14 +1,14 @@
 ---
 title: Task.Request
 second_title: Aspose.Email for .NET API Reference
-description: Task method. Requests the object
+description: Task method. Creates a task request to send by email
 type: docs
 weight: 200
 url: /net/aspose.email.calendar/task/request/
 ---
 ## Task.Request method
 
-Requests the object.
+Creates a task request to send by email.
 
 ```csharp
 public AlternateView Request()
@@ -16,7 +16,11 @@ public AlternateView Request()
 
 ### Return Value
 
-AlternateView[`AlternateView`](../../../aspose.email/alternateview/) that represents the format to view an email message.
+An [`AlternateView`](../../../aspose.email/alternateview/) with the iCalendar data (text/calendar) to add to a [`MailMessage`](../../../aspose.email/mailmessage/).
+
+## Remarks
+
+The METHOD is PUBLISH when `Method` is `TIPMethod.Publish`, and REQUEST otherwise.
 
 ### See Also
 

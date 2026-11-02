@@ -1,24 +1,18 @@
 ---
 title: MapiTask.StartDate
 second_title: Aspose.Email for .NET API Reference
-description: MapiTask property. Gets or sets the date on which the user expects work on the task to begin
+description: MapiTask property. Gets or sets the date the work on the task starts
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.email.mapi/mapitask/startdate/
 ---
 ## MapiTask.StartDate property
 
-Gets or sets the date on which the user expects work on the task to begin.
+Gets or sets the date the work on the task starts.
 
 ```csharp
 public DateTime StartDate { get; set; }
 ```
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentException | trows when start date is greater than date completed. |
 
 ### See Also
 

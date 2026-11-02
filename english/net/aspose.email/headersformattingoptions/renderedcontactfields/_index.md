@@ -1,14 +1,14 @@
 ---
 title: HeadersFormattingOptions.RenderedContactFields
 second_title: Aspose.Email for .NET API Reference
-description: HeadersFormattingOptions property. Defines groups of Contact fields which will be included in output mhtml. Default value is ContactFieldsSet.AllExisting
+description: HeadersFormattingOptions property. Gets or sets the groups of contact fields written for a contact. The default is ContactFieldsSet.AllExisting
 type: docs
 weight: 90
 url: /net/aspose.email/headersformattingoptions/renderedcontactfields/
 ---
 ## HeadersFormattingOptions.RenderedContactFields property
 
-Defines groups of Contact fields which will be included in output mhtml. Default value is ContactFieldsSet.AllExisting.
+Gets or sets the groups of contact fields written for a contact. The default is `ContactFieldsSet.AllExisting`.
 
 ```csharp
 public ContactFieldsSet RenderedContactFields { get; set; }

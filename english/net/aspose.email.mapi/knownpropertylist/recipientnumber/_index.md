@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.RecipientNumber
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_RECIPIENT_NUMBER
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_RECIPIENT_NUMBER. Property tag 0x66620003 data type Integer32
 type: docs
 weight: 15520
 url: /net/aspose.email.mapi/knownpropertylist/recipientnumber/
 ---
 ## KnownPropertyList.RecipientNumber field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_RECIPIENT_NUMBER
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_RECIPIENT_NUMBER. Property tag: 0x66620003; data type: Integer32.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientNumber;

@@ -1,14 +1,14 @@
 ---
 title: MapiElectronicAddress.IsEmpty
 second_title: Aspose.Email for .NET API Reference
-description: MapiElectronicAddress property. Shows if MapiElectronicAddress is empty
+description: MapiElectronicAddress property. Gets a value indicating whether no field of the address is set
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapielectronicaddress/isempty/
 ---
 ## MapiElectronicAddress.IsEmpty property
 
-Shows if MapiElectronicAddress is empty
+Gets a value indicating whether no field of the address is set.
 
 ```csharp
 public bool IsEmpty { get; }

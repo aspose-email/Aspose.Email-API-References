@@ -1,14 +1,14 @@
 ---
 title: MapiContact.Save
 second_title: Aspose.Email for .NET API Reference
-description: MapiContact method. Saves this MapiContact to the vCard file with a default options. The supported vCard version is 2.1
+description: MapiContact method. Saves the contact to a vCard 2.1 file
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.email.mapi/mapicontact/save/
 ---
 ## Save(string) {#save_3}
 
-Saves this [`MapiContact`](../) to the vCard file with a default options. The supported vCard version is 2.1
+Saves the contact to a vCard 2.1 file.
 
 ```csharp
 public void Save(string filePath)
@@ -16,13 +16,13 @@ public void Save(string filePath)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | A vCard file name |
+| filePath | String | The path of the file to write. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | *filePath* is `null` or `empty` |
+| ArgumentException | *filePath* is `null` or empty. |
 
 ### See Also
 
@@ -34,7 +34,7 @@ public void Save(string filePath)
 
 ## Save(string, ContactSaveFormat) {#save_4}
 
-Saves this [`MapiContact`](../) to the specified file with a format using the default options. The supported save format is vCard.
+Saves the contact to a file in the specified format with the default options.
 
 ```csharp
 public void Save(string filePath, ContactSaveFormat saveFormat)
@@ -42,15 +42,15 @@ public void Save(string filePath, ContactSaveFormat saveFormat)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | A vCard file name |
-| saveFormat | ContactSaveFormat | A save format |
+| filePath | String | The path of the file to write. |
+| saveFormat | ContactSaveFormat | The format: vCard (the default), WebDAV or MSG. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | *filePath* is `null` or `empty` |
-| NotSupportedException | the specified format is not supported |
+| ArgumentException | *filePath* is `null` or empty. |
+| NotSupportedException | *saveFormat* is not supported. |
 
 ### See Also
 
@@ -63,7 +63,7 @@ public void Save(string filePath, ContactSaveFormat saveFormat)
 
 ## Save(string, ContactSaveOptions) {#save_5}
 
-Saves this [`MapiContact`](../) into file using specified save options. The supported save options is [`VCardSaveOptions`](../../../aspose.email.personalinfo.vcard/vcardsaveoptions/)
+Saves the contact to a file with the specified options.
 
 ```csharp
 public void Save(string filePath, ContactSaveOptions saveOptions)
@@ -71,16 +71,16 @@ public void Save(string filePath, ContactSaveOptions saveOptions)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | A vCard file name |
-| saveOptions | ContactSaveOptions | A save options |
+| filePath | String | The path of the file to write. |
+| saveOptions | ContactSaveOptions | The options; their class selects the format: [`VCardSaveOptions`](../../../aspose.email.personalinfo.vcard/vcardsaveoptions/), [`WebDavContactSaveOptions`](../../webdavcontactsaveoptions/) or [`MapiContactSaveOptions`](../../mapicontactsaveoptions/). |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | *filePath* is `null` or `empty` |
-| ArgumentNullException | *saveOptions* is `null` |
-| NotSupportedException | some save option is not supported |
+| ArgumentException | *filePath* is `null` or empty. |
+| ArgumentNullException | *saveOptions* is `null`. |
+| NotSupportedException | The vCard version in *saveOptions* is not supported. |
 
 ### See Also
 
@@ -93,7 +93,7 @@ public void Save(string filePath, ContactSaveOptions saveOptions)
 
 ## Save(Stream) {#save}
 
-Saves this [`MapiContact`](../) into the given stream with vCard format. The supported vCard version is 2.1
+Saves the contact to a stream in vCard 2.1 format.
 
 ```csharp
 public void Save(Stream stream)
@@ -101,14 +101,14 @@ public void Save(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | A stream to save to |
+| stream | Stream | The stream to write to. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | *stream* is `null` |
-| NotSupportedException | *stream* does not support writing |
+| ArgumentNullException | *stream* is `null`. |
+| NotSupportedException | *stream* does not support writing. |
 
 ### See Also
 
@@ -120,7 +120,7 @@ public void Save(Stream stream)
 
 ## Save(Stream, ContactSaveFormat) {#save_1}
 
-Saves this [`MapiContact`](../) to the given stream with a format using the default options. The supported save format is vCard
+Saves the contact to a stream in the specified format with the default options.
 
 ```csharp
 public void Save(Stream stream, ContactSaveFormat saveFormat)
@@ -128,16 +128,16 @@ public void Save(Stream stream, ContactSaveFormat saveFormat)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | A stream to save to |
-| saveFormat | ContactSaveFormat | A save format |
+| stream | Stream | The stream to write to. |
+| saveFormat | ContactSaveFormat | The format: vCard (the default), WebDAV or MSG. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | *stream* is `null` |
-| NotSupportedException | *stream* does not support writing |
-| NotSupportedException | The specified format is not supported |
+| ArgumentNullException | *stream* is `null`. |
+| NotSupportedException | *stream* does not support writing. |
+| NotSupportedException | *saveFormat* is not supported. |
 
 ### See Also
 
@@ -150,7 +150,7 @@ public void Save(Stream stream, ContactSaveFormat saveFormat)
 
 ## Save(Stream, ContactSaveOptions) {#save_2}
 
-Saves this [`MapiContact`](../) to the given stream using specified save options. The supported save options is [`VCardSaveOptions`](../../../aspose.email.personalinfo.vcard/vcardsaveoptions/)
+Saves the contact to a stream with the specified options.
 
 ```csharp
 public void Save(Stream stream, ContactSaveOptions saveOptions)
@@ -158,17 +158,17 @@ public void Save(Stream stream, ContactSaveOptions saveOptions)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | A stream to save to |
-| saveOptions | ContactSaveOptions | A save options |
+| stream | Stream | The stream to write to. |
+| saveOptions | ContactSaveOptions | The options; their class selects the format: [`VCardSaveOptions`](../../../aspose.email.personalinfo.vcard/vcardsaveoptions/), [`WebDavContactSaveOptions`](../../webdavcontactsaveoptions/) or [`MapiContactSaveOptions`](../../mapicontactsaveoptions/). |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | *stream* or *saveOptions* is `null` |
-| NotSupportedException | *stream* does not support writing |
-| ArgumentException | incorrect *saveOptions* |
-| NotSupportedException | some save option is not supported |
+| ArgumentNullException | *stream* or *saveOptions* is `null`. |
+| NotSupportedException | *stream* does not support writing. |
+| ArgumentException | The format of *saveOptions* does not match its class. |
+| NotSupportedException | The vCard version in *saveOptions* is not supported. |
 
 ### See Also
 

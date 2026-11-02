@@ -1,14 +1,14 @@
 ---
 title: Task.Body
 second_title: Aspose.Email for .NET API Reference
-description: Task property. Gets or sets a task body
+description: Task property. Gets or sets the plaintext body of the task
 type: docs
 weight: 50
 url: /net/aspose.email.calendar/task/body/
 ---
 ## Task.Body property
 
-Gets or sets a task body.
+Gets or sets the plain-text body of the task.
 
 ```csharp
 public string Body { get; set; }

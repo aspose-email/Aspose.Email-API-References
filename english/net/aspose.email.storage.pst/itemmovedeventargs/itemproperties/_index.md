@@ -1,14 +1,14 @@
 ---
 title: ItemMovedEventArgs.ItemProperties
 second_title: Aspose.Email for .NET API Reference
-description: ItemMovedEventArgs property. Gets the item properties that has been moved
+description: ItemMovedEventArgs property. Gets the properties of the moved item
 type: docs
 weight: 60
 url: /net/aspose.email.storage.pst/itemmovedeventargs/itemproperties/
 ---
 ## ItemMovedEventArgs.ItemProperties property
 
-Gets the item properties that has been moved.
+Gets the properties of the moved item.
 
 ```csharp
 public MapiPropertyCollection ItemProperties { get; }
@@ -16,7 +16,7 @@ public MapiPropertyCollection ItemProperties { get; }
 
 ### Property Value
 
-The message.
+The MAPI properties of the item.
 
 ### See Also
 

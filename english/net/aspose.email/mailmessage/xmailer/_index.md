@@ -1,14 +1,14 @@
 ---
 title: MailMessage.XMailer
 second_title: Aspose.Email for .NET API Reference
-description: MailMessage property. Gets or sets the XMailer the software that created the email message
+description: MailMessage property. Gets or sets the software that created the message the XMailer header
 type: docs
 weight: 370
 url: /net/aspose.email/mailmessage/xmailer/
 ---
 ## MailMessage.XMailer property
 
-Gets or sets the X-Mailer the software that created the e-mail message
+Gets or sets the software that created the message (the `X-Mailer` header).
 
 ```csharp
 public virtual string XMailer { get; set; }

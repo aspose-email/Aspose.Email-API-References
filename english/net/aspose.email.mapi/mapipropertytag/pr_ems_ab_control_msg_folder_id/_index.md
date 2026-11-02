@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_EMS_AB_CONTROL_MSG_FOLDER_ID
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Property tag 0x81880102 PT_BINARY
 type: docs
 weight: 4070
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_control_msg_folder_id/
 ---
 ## MapiPropertyTag.PR_EMS_AB_CONTROL_MSG_FOLDER_ID field
+
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Property tag: 0x81880102 (PT_BINARY).
 
 ```csharp
 public static readonly long PR_EMS_AB_CONTROL_MSG_FOLDER_ID;

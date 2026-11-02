@@ -1,14 +1,14 @@
 ---
 title: MapiContactPhysicalAddress.Address
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactPhysicalAddress property. Specifies the complete address of the contacts address
+description: MapiContactPhysicalAddress property. Gets or sets the full address as one string
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicontactphysicaladdress/address/
 ---
 ## MapiContactPhysicalAddress.Address property
 
-Specifies the complete address of the contact's address
+Gets or sets the full address as one string.
 
 ```csharp
 public string Address { get; set; }

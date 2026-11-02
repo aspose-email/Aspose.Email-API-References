@@ -1,14 +1,14 @@
 ---
 title: PidTagPropertyDescriptor.PidTagPropertyDescriptor
 second_title: Aspose.Email for .NET API Reference
-description: PidTagPropertyDescriptor constructor. Initializes a new instance of the PidTagPropertyDescriptor class A property that is defined by a 16bit property ID and a 16bit property type. The property ID for a tagged property is in the range 0x001  0x7FFF. Property IDs in the range 0x8000  0x8FFF are reserved for assignment to named properties
+description: PidTagPropertyDescriptor constructor. Initializes a new instance of the PidTagPropertyDescriptor class
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/pidtagpropertydescriptor/pidtagpropertydescriptor/
 ---
 ## PidTagPropertyDescriptor(int, PropertyDataType) {#constructor}
 
-Initializes a new instance of the [`PidTagPropertyDescriptor`](../) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
+Initializes a new instance of the [`PidTagPropertyDescriptor`](../) class.
 
 ```csharp
 public PidTagPropertyDescriptor(int id, PropertyDataType type)
@@ -16,8 +16,8 @@ public PidTagPropertyDescriptor(int id, PropertyDataType type)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| id | Int32 | Unsigned 16-bit quantity that identifies a tagged property. |
-| type | PropertyDataType | Specifies the type of values allowed for the property. |
+| id | Int32 | The 16-bit ID of the property. |
+| type | PropertyDataType | The data type of the property. |
 
 ### See Also
 
@@ -30,7 +30,7 @@ public PidTagPropertyDescriptor(int id, PropertyDataType type)
 
 ## PidTagPropertyDescriptor(string, int, PropertyDataType) {#constructor_2}
 
-Initializes a new instance of the [`PidTagPropertyDescriptor`](../) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
+Initializes a new instance of the [`PidTagPropertyDescriptor`](../) class.
 
 ```csharp
 public PidTagPropertyDescriptor(string canonicalName, int id, PropertyDataType type)
@@ -38,9 +38,9 @@ public PidTagPropertyDescriptor(string canonicalName, int id, PropertyDataType t
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| canonicalName | String | The name used to refer to the property in the documentation. |
-| id | Int32 | Unsigned 16-bit quantity that identifies a tagged property. |
-| type | PropertyDataType | Specifies the type of values allowed for the property. |
+| canonicalName | String | The canonical name of the property, such as `PidTagSubject`. |
+| id | Int32 | The 16-bit ID of the property. |
+| type | PropertyDataType | The data type of the property. |
 
 ### See Also
 
@@ -53,7 +53,7 @@ public PidTagPropertyDescriptor(string canonicalName, int id, PropertyDataType t
 
 ## PidTagPropertyDescriptor(string, string, int, PropertyDataType) {#constructor_3}
 
-Initializes a new instance of the [`PidTagPropertyDescriptor`](../) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
+Initializes a new instance of the [`PidTagPropertyDescriptor`](../) class.
 
 ```csharp
 public PidTagPropertyDescriptor(string canonicalName, string name, int id, PropertyDataType type)
@@ -61,10 +61,10 @@ public PidTagPropertyDescriptor(string canonicalName, string name, int id, Prope
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| canonicalName | String | The name used to refer to the property in the documentation. |
-| name | String | The MAPI name used to refer to the property in the documentation. |
-| id | Int32 | Unsigned 16-bit quantity that identifies a tagged property. |
-| type | PropertyDataType | Specifies the type of values allowed for the property. |
+| canonicalName | String | The canonical name of the property, such as `PidTagSubject`. |
+| name | String | The alternate (MAPI) name of the property, such as `PR_SUBJECT`. |
+| id | Int32 | The 16-bit ID of the property. |
+| type | PropertyDataType | The data type of the property. |
 
 ### See Also
 
@@ -77,7 +77,7 @@ public PidTagPropertyDescriptor(string canonicalName, string name, int id, Prope
 
 ## PidTagPropertyDescriptor(long) {#constructor_1}
 
-Initializes a new instance of the [`PidTagPropertyDescriptor`](../) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
+Initializes a new instance of the [`PidTagPropertyDescriptor`](../) class.
 
 ```csharp
 public PidTagPropertyDescriptor(long tag)
@@ -85,7 +85,7 @@ public PidTagPropertyDescriptor(long tag)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | Int64 | A tag is a 32-bit number that contains a unique property identifier in bits 16 through 31 and a property type in bits 0 through 15 |
+| tag | Int64 | The tag of the property: the ID in the high-order 16 bits and the data type in the low-order 16 bits. |
 
 ### See Also
 
@@ -97,7 +97,7 @@ public PidTagPropertyDescriptor(long tag)
 
 ## PidTagPropertyDescriptor(string, string, long) {#constructor_4}
 
-Initializes a new instance of the [`PidTagPropertyDescriptor`](../) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
+Initializes a new instance of the [`PidTagPropertyDescriptor`](../) class.
 
 ```csharp
 public PidTagPropertyDescriptor(string canonicalName, string name, long tag)
@@ -105,9 +105,9 @@ public PidTagPropertyDescriptor(string canonicalName, string name, long tag)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| canonicalName | String | The name used to refer to the property in the documentation. |
-| name | String | The MAPI name used to refer to the property in the documentation. |
-| tag | Int64 | A tag is a 32-bit number that contains a unique property identifier in bits 16 through 31 and a property type in bits 0 through 15 |
+| canonicalName | String | The canonical name of the property, such as `PidTagSubject`. |
+| name | String | The alternate (MAPI) name of the property, such as `PR_SUBJECT`. |
+| tag | Int64 | The tag of the property: the ID in the high-order 16 bits and the data type in the low-order 16 bits. |
 
 ### See Also
 

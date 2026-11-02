@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.Access
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Indicates the operations available to the client for the object. Area Access Control Properties Canonical name PidTagAccess Alternate names PR_ACCESS ptagAccess
+description: KnownPropertyList field. Indicates the operations available to the client for the object. Area Access Control Properties. Canonical name PidTagAccess. Alternate names PR_ACCESS ptagAccess
 type: docs
 weight: 250
 url: /net/aspose.email.mapi/knownpropertylist/access/
 ---
 ## KnownPropertyList.Access field
 
-Indicates the operations available to the client for the object. Area: Access Control Properties Canonical name: PidTagAccess Alternate names: PR_ACCESS, ptagAccess
+Indicates the operations available to the client for the object. Area: Access Control Properties. Canonical name: PidTagAccess. Alternate names: PR_ACCESS, ptagAccess.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Access;

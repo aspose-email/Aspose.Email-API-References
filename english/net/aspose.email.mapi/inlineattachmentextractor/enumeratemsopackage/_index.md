@@ -1,14 +1,14 @@
 ---
 title: InlineAttachmentExtractor.EnumerateMsoPackage
 second_title: Aspose.Email for .NET API Reference
-description: InlineAttachmentExtractor method. Enumerates the MSO package and returns a dictionary containing files data. The key is file identifier and value contains actual data.Files are usually referenced in message body using the identifiers provided
+description: InlineAttachmentExtractor method. Reads an MSO package and returns the files it contains
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/inlineattachmentextractor/enumeratemsopackage/
 ---
 ## InlineAttachmentExtractor.EnumerateMsoPackage method
 
-Enumerates the MSO package and returns a dictionary containing files data. The key is file identifier and value contains actual data.Files are usually referenced in message body using the identifiers provided.
+Reads an MSO package and returns the files it contains.
 
 ```csharp
 public static IDictionary<string, byte[]> EnumerateMsoPackage(Stream stream)
@@ -16,22 +16,22 @@ public static IDictionary<string, byte[]> EnumerateMsoPackage(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The stream to parse. |
+| stream | Stream | The content of the package, for example the `oledata.mso` attachment. |
 
 ### Return Value
 
-Dictionary with files data.
+The files of the package: the key is the identifier of the file, which the message body uses to refer to it, and the value is its content.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | If *stream* is null. |
-| InvalidDataException | If given *stream* has data in incorrect format. |
+| ArgumentNullException | *stream* is `null`. |
+| InvalidDataException | *stream* does not contain a valid MSO package. |
 
 ## Remarks
 
-While in evaluation mode only one file is extracted from given MSO stream.
+In evaluation mode only the first file of the package is extracted.
 
 ### See Also
 

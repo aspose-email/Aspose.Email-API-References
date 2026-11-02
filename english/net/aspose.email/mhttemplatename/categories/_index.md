@@ -1,14 +1,14 @@
 ---
 title: MhtTemplateName.Categories
 second_title: Aspose.Email for .NET API Reference
-description: MhtTemplateName field. Categories header
+description: MhtTemplateName field. The name of the header with the categories
 type: docs
 weight: 30
 url: /net/aspose.email/mhttemplatename/categories/
 ---
 ## MhtTemplateName.Categories field
 
-Categories header.
+The name of the header with the categories.
 
 ```csharp
 public const string Categories;

@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.SearchFolderId
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains a GUID that identifies the search folder. Area Search Canonical name PidTagSearchFolderId Alternate names PR_WB_SF_ID
+description: KnownPropertyList field. Contains a GUID that identifies the search folder. Area Search. Canonical name PidTagSearchFolderId. Alternate names PR_WB_SF_ID
 type: docs
 weight: 17050
 url: /net/aspose.email.mapi/knownpropertylist/searchfolderid/
 ---
 ## KnownPropertyList.SearchFolderId field
 
-Contains a GUID that identifies the search folder. Area: Search Canonical name: PidTagSearchFolderId Alternate names: PR_WB_SF_ID
+Contains a GUID that identifies the search folder. Area: Search. Canonical name: PidTagSearchFolderId. Alternate names: PR_WB_SF_ID.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SearchFolderId;

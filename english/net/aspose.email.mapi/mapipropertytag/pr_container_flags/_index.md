@@ -1,12 +1,14 @@
 ---
 title: MapiPropertyTag.PR_CONTAINER_FLAGS
 second_title: Aspose.Email for .NET API Reference
-description: MapiPropertyTag field. 
+description: MapiPropertyTag field. Contains a bitmask of flags that describe capabilities of an address book container. Canonical name PidTagContainerFlags. Property tag 0x36000003 PT_LONG
 type: docs
 weight: 1810
 url: /net/aspose.email.mapi/mapipropertytag/pr_container_flags/
 ---
 ## MapiPropertyTag.PR_CONTAINER_FLAGS field
+
+Contains a bitmask of flags that describe capabilities of an address book container. Canonical name: PidTagContainerFlags. Property tag: 0x36000003 (PT_LONG).
 
 ```csharp
 public static readonly long PR_CONTAINER_FLAGS;

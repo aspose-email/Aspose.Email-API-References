@@ -1,14 +1,14 @@
 ---
 title: MailMessageSaveType.OutlookMessageFormatUnicode
 second_title: Aspose.Email for .NET API Reference
-description: MailMessageSaveType property. Gets the MSG
+description: MailMessageSaveType property. Gets the Outlook MSG format with Unicode strings
 type: docs
 weight: 60
 url: /net/aspose.email/mailmessagesavetype/outlookmessageformatunicode/
 ---
 ## MailMessageSaveType.OutlookMessageFormatUnicode property
 
-Gets the MSG.
+Gets the Outlook MSG format with Unicode strings.
 
 ```csharp
 public static MailMessageSaveType OutlookMessageFormatUnicode { get; }
@@ -16,7 +16,7 @@ public static MailMessageSaveType OutlookMessageFormatUnicode { get; }
 
 ### Property Value
 
-The MSG.
+The Unicode MSG format.
 
 ### See Also
 

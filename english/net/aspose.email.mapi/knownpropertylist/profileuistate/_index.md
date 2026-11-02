@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.ProfileUiState
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_PROFILE_UI_STATE
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_PROFILE_UI_STATE. Property tag 0x66060003 data type Integer32
 type: docs
 weight: 15000
 url: /net/aspose.email.mapi/knownpropertylist/profileuistate/
 ---
 ## KnownPropertyList.ProfileUiState field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_PROFILE_UI_STATE
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_PROFILE_UI_STATE. Property tag: 0x66060003; data type: Integer32.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileUiState;

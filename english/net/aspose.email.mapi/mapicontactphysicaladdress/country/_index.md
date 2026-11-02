@@ -1,14 +1,14 @@
 ---
 title: MapiContactPhysicalAddress.Country
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactPhysicalAddress property. Specifies the country or region portion of the contacts address
+description: MapiContactPhysicalAddress property. Gets or sets the country or region
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicontactphysicaladdress/country/
 ---
 ## MapiContactPhysicalAddress.Country property
 
-Specifies the country or region portion of the contact's address
+Gets or sets the country or region.
 
 ```csharp
 public string Country { get; set; }

@@ -16,8 +16,8 @@ public MessageAddedEventArgs(string entryId, MapiMessage message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | String | The entry id. |
-| message | MapiMessage | The message. |
+| entryId | String | The entry ID of the added message. |
+| message | MapiMessage | The added message. |
 
 ### See Also
 

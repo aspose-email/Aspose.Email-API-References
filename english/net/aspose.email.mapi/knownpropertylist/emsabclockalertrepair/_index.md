@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.EmsAbClockAlertRepair
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_CLOCK_ALERT_REPAIR
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_EMS_AB_CLOCK_ALERT_REPAIR. Property tag 0x8062000B data type Boolean
 type: docs
 weight: 5270
 url: /net/aspose.email.mapi/knownpropertylist/emsabclockalertrepair/
 ---
 ## KnownPropertyList.EmsAbClockAlertRepair field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_EMS_AB_CLOCK_ALERT_REPAIR
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_EMS_AB_CLOCK_ALERT_REPAIR. Property tag: 0x8062000B; data type: Boolean.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbClockAlertRepair;

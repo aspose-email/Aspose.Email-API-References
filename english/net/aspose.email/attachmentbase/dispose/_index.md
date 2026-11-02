@@ -1,14 +1,14 @@
 ---
 title: AttachmentBase.Dispose
 second_title: Aspose.Email for .NET API Reference
-description: AttachmentBase method. Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources
+description: AttachmentBase method. Releases the resources used by the part including its content stream
 type: docs
 weight: 70
 url: /net/aspose.email/attachmentbase/dispose/
 ---
 ## AttachmentBase.Dispose method
 
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+Releases the resources used by the part, including its content stream.
 
 ```csharp
 public void Dispose()

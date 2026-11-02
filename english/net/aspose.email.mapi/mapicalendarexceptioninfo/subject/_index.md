@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarExceptionInfo.Subject
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendarExceptionInfo property. Gets or sets the subject
+description: MapiCalendarExceptionInfo property. Gets or sets the subject of the exception
 type: docs
 weight: 140
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/subject/
 ---
 ## MapiCalendarExceptionInfo.Subject property
 
-Gets or sets the subject.
+Gets or sets the subject of the exception.
 
 ```csharp
 public string Subject { get; set; }

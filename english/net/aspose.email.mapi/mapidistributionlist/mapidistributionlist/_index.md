@@ -24,7 +24,7 @@ public MapiDistributionList()
 
 ## MapiDistributionList(string, MapiDistributionListMemberCollection) {#constructor_1}
 
-Initializes a new instance of the [`MapiDistributionList`](../) class.
+Initializes a new instance of the [`MapiDistributionList`](../) class with a name and members.
 
 ```csharp
 public MapiDistributionList(string displayName, MapiDistributionListMemberCollection members)
@@ -32,8 +32,8 @@ public MapiDistributionList(string displayName, MapiDistributionListMemberCollec
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| displayName | String | The display namme. |
-| members | MapiDistributionListMemberCollection | The recipiens. |
+| displayName | String | The name of the list. |
+| members | MapiDistributionListMemberCollection | The members of the list. |
 
 ### See Also
 

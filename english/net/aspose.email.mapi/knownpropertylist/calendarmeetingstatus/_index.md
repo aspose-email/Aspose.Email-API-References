@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.CalendarMeetingStatus
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Specifies the status of an appointment or meeting. Area Common Canonical name PidNameCalendarMeetingStatus Alternate names urnschemascalendarmeetingstatus
+description: KnownPropertyList field. Specifies the status of an appointment or meeting. Area Common. Canonical name PidNameCalendarMeetingStatus. Alternate names urnschemascalendarmeetingstatus
 type: docs
 weight: 2410
 url: /net/aspose.email.mapi/knownpropertylist/calendarmeetingstatus/
 ---
 ## KnownPropertyList.CalendarMeetingStatus field
 
-Specifies the status of an appointment or meeting. Area: Common Canonical name: PidNameCalendarMeetingStatus Alternate names: urn:schemas:calendar:meetingstatus
+Specifies the status of an appointment or meeting. Area: Common. Canonical name: PidNameCalendarMeetingStatus. Alternate names: urn:schemas:calendar:meetingstatus.
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarMeetingStatus;

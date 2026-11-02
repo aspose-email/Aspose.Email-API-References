@@ -1,14 +1,14 @@
 ---
 title: KnownPropertySets.Log
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertySets field. Area name Journal Property set name PSETID_Log
+description: KnownPropertySets field. The PSETID_Log property set journal properties
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/knownpropertysets/log/
 ---
 ## KnownPropertySets.Log field
 
-Area name: Journal Property set name: PSETID_Log
+The `PSETID_Log` property set: journal properties.
 
 ```csharp
 public static readonly Guid Log;

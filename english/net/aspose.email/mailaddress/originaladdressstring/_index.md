@@ -1,14 +1,14 @@
 ---
 title: MailAddress.OriginalAddressString
 second_title: Aspose.Email for .NET API Reference
-description: MailAddress property. Gets or sets the original email address string
+description: MailAddress property. Gets the address exactly as it appeared in the message before it was parsed
 type: docs
 weight: 80
 url: /net/aspose.email/mailaddress/originaladdressstring/
 ---
 ## MailAddress.OriginalAddressString property
 
-Gets or sets the original e-mail address string.
+Gets the address exactly as it appeared in the message, before it was parsed.
 
 ```csharp
 public string OriginalAddressString { get; }
@@ -16,7 +16,7 @@ public string OriginalAddressString { get; }
 
 ### Property Value
 
-A String that contains the original e-mail address.
+The original address string.
 
 ### See Also
 

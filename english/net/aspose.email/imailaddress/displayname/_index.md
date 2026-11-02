@@ -1,14 +1,14 @@
 ---
 title: IMailAddress.DisplayName
 second_title: Aspose.Email for .NET API Reference
-description: IMailAddress property. Gets or sets a display name
+description: IMailAddress property. Gets or sets the display name
 type: docs
 weight: 20
 url: /net/aspose.email/imailaddress/displayname/
 ---
 ## IMailAddress.DisplayName property
 
-Gets or sets a display name
+Gets or sets the display name.
 
 ```csharp
 public string DisplayName { get; set; }

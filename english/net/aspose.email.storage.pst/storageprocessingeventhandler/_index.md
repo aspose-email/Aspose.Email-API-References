@@ -1,14 +1,14 @@
 ---
 title: Delegate StorageProcessingEventHandler
 second_title: Aspose.Email for .NET API Reference
-description: Event handler for the StoragePreProcessing. Occurs before the srorage is processed
+description: Represents the method that will handle a StorageProcessing event
 type: docs
 weight: 19380
 url: /net/aspose.email.storage.pst/storageprocessingeventhandler/
 ---
 ## StorageProcessingEventHandler delegate
 
-Event handler for the StoragePreProcessing. Occurs before the srorage is processed.
+Represents the method that will handle a [`StorageProcessing`](../personalstorage/storageprocessing/) event.
 
 ```csharp
 public delegate void StorageProcessingEventHandler(object sender, StorageProcessingEventArgs e);
@@ -16,12 +16,12 @@ public delegate void StorageProcessingEventHandler(object sender, StorageProcess
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sender | Object | The object that triggered the event. |
-| e | StorageProcessingEventArgs | Additional information provided by the event. |
+| sender | Object | The object that raised the event. |
+| e | StorageProcessingEventArgs | The event data. |
 
 ## Remarks
 
-This event is raised before processing the next storage in merging or splitting methods.
+The event is raised before the next PST file is processed while merging or splitting.
 
 ### See Also
 

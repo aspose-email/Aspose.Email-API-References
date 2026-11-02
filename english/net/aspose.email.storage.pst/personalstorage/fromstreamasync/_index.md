@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage.FromStreamAsync
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Load PST from file
+description: PersonalStorage method. Asynchronously opens a PST or OST from a stream for reading and writing
 type: docs
 weight: 440
 url: /net/aspose.email.storage.pst/personalstorage/fromstreamasync/
 ---
 ## FromStreamAsync(Stream, CancellationToken) {#fromstreamasync_2}
 
-Load PST from file.
+Asynchronously opens a PST or OST from a stream for reading and writing.
 
 ```csharp
 public static Task<PersonalStorage> FromStreamAsync(Stream stream, 
@@ -17,16 +17,16 @@ public static Task<PersonalStorage> FromStreamAsync(Stream stream,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The System.IO.Stream. |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
+| stream | Stream | The stream with the PST or OST data. |
+| token | CancellationToken | A token to cancel the operation. |
 
 ### Return Value
 
-A PersonalStorage object that represents the current PST.
+A task whose result is the opened storage.
 
 ## Remarks
 
-By default, the pst will support writing.
+The stream is closed when the storage is disposed. To keep it open, use the overload with [`PersonalStorageLoadOptions`](../../personalstorageloadoptions/) and set its `LeaveStreamOpen` property.
 
 ### See Also
 
@@ -38,10 +38,26 @@ By default, the pst will support writing.
 
 ## FromStreamAsync(Stream, bool, CancellationToken) {#fromstreamasync_1}
 
+Asynchronously opens a PST or OST from a stream.
+
 ```csharp
 public static Task<PersonalStorage> FromStreamAsync(Stream stream, bool writable, 
     CancellationToken token = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | The stream with the PST or OST data. |
+| writable | Boolean | `true` to open the PST for reading and writing; `false` for reading only. |
+| token | CancellationToken | A token to cancel the operation. |
+
+### Return Value
+
+A task whose result is the opened storage.
+
+## Remarks
+
+The stream is closed when the storage is disposed. To keep it open, use the overload with [`PersonalStorageLoadOptions`](../../personalstorageloadoptions/) and set its `LeaveStreamOpen` property.
 
 ### See Also
 
@@ -53,7 +69,7 @@ public static Task<PersonalStorage> FromStreamAsync(Stream stream, bool writable
 
 ## FromStreamAsync(Stream, PersonalStorageLoadOptions, CancellationToken) {#fromstreamasync}
 
-Load PST from file.
+Asynchronously opens a PST or OST from a stream with the specified options.
 
 ```csharp
 public static Task<PersonalStorage> FromStreamAsync(Stream stream, 
@@ -62,17 +78,17 @@ public static Task<PersonalStorage> FromStreamAsync(Stream stream,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The System.IO.Stream. |
-| loadOptions | PersonalStorageLoadOptions | The load options. |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
+| stream | Stream | The stream with the PST or OST data. |
+| loadOptions | PersonalStorageLoadOptions | The options for opening the stream. |
+| token | CancellationToken | A token to cancel the operation. |
 
 ### Return Value
 
-A PersonalStorage object that represents the current PST.
+A task whose result is the opened storage.
 
 ## Remarks
 
-By default, the pst will support writing.
+The PST is opened for writing only if `PersonalStorageLoadOptions.Writable` is `true`, which is not the default.
 
 ### See Also
 

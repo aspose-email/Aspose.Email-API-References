@@ -24,7 +24,7 @@ public MapiCalendarTimeZone()
 
 ## MapiCalendarTimeZone(TimeZoneInfo) {#constructor_1}
 
-Creates a new instance of the [`MapiCalendarTimeZone`](../) class from a Standard Timezone.
+Initializes a new instance of the [`MapiCalendarTimeZone`](../) class from a .NET time zone.
 
 ```csharp
 public MapiCalendarTimeZone(TimeZoneInfo timeZone)
@@ -32,7 +32,7 @@ public MapiCalendarTimeZone(TimeZoneInfo timeZone)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| timeZone | TimeZoneInfo | Standart TimezoneTimeZoneInfo. |
+| timeZone | TimeZoneInfo | The time zone to take the rules from. |
 
 ### See Also
 

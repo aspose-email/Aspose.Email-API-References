@@ -1,14 +1,14 @@
 ---
 title: MailConversionOptions.ConvertAsTnef
 second_title: Aspose.Email for .NET API Reference
-description: MailConversionOptions property. Set to true to import the MapiMessage information into a MailMessage object with MapiMessage as TNEF attachment
+description: MailConversionOptions property. Gets or sets a value indicating whether the MAPI message is carried as a TNEF winmail.dat attachment of the resulting MailMessage so that Outlookspecific data is kept. The default is false
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mailconversionoptions/convertastnef/
 ---
 ## MailConversionOptions.ConvertAsTnef property
 
-Set to true to import the MapiMessage information into a MailMessage object with MapiMessage as TNEF attachment.
+Gets or sets a value indicating whether the MAPI message is carried as a TNEF (winmail.dat) attachment of the resulting MailMessage, so that Outlook-specific data is kept. The default is `false`.
 
 ```csharp
 public bool ConvertAsTnef { get; set; }

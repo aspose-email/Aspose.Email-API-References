@@ -1,14 +1,14 @@
 ---
 title: MapiMessageItemBase.Recipients
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessageItemBase property. Gets the recipients of the message
+description: MapiMessageItemBase property. Gets or sets the recipients of the item
 type: docs
 weight: 150
 url: /net/aspose.email.mapi/mapimessageitembase/recipients/
 ---
 ## MapiMessageItemBase.Recipients property
 
-Gets the recipients of the message.
+Gets or sets the recipients of the item.
 
 ```csharp
 public MapiRecipientCollection Recipients { get; set; }
@@ -16,7 +16,7 @@ public MapiRecipientCollection Recipients { get; set; }
 
 ### Property Value
 
-The collection of recipients.
+The recipients.
 
 ### See Also
 

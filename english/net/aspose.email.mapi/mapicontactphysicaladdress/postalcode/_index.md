@@ -1,14 +1,14 @@
 ---
 title: MapiContactPhysicalAddress.PostalCode
 second_title: Aspose.Email for .NET API Reference
-description: MapiContactPhysicalAddress property. Specifies the postal code ZIP code portion of the contacts address
+description: MapiContactPhysicalAddress property. Gets or sets the postal code ZIP code
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapicontactphysicaladdress/postalcode/
 ---
 ## MapiContactPhysicalAddress.PostalCode property
 
-Specifies the postal code (ZIP code) portion of the contact's address
+Gets or sets the postal code (ZIP code).
 
 ```csharp
 public string PostalCode { get; set; }

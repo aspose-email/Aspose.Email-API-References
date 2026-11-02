@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.AddressBookEntryId
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Contains the nameservice EntryID of a directory object that refers to a public folder. Area Address Book Canonical name PidTagAddressBookEntryId Alternate names PR_ADDRESS_BOOK_ENTRYID ptagAddressBookEntryId
+description: KnownPropertyList field. Contains the nameservice EntryID of a directory object that refers to a public folder. Area Address Book. Canonical name PidTagAddressBookEntryId. Alternate names PR_ADDRESS_BOOK_ENTRYID ptagAddressBookEntryId
 type: docs
 weight: 440
 url: /net/aspose.email.mapi/knownpropertylist/addressbookentryid/
 ---
 ## KnownPropertyList.AddressBookEntryId field
 
-Contains the name-service EntryID of a directory object that refers to a public folder. Area: Address Book Canonical name: PidTagAddressBookEntryId Alternate names: PR_ADDRESS_BOOK_ENTRYID, ptagAddressBookEntryId
+Contains the name-service EntryID of a directory object that refers to a public folder. Area: Address Book. Canonical name: PidTagAddressBookEntryId. Alternate names: PR_ADDRESS_BOOK_ENTRYID, ptagAddressBookEntryId.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookEntryId;

@@ -1,14 +1,14 @@
 ---
 title: MapiCalendar.Save
 second_title: Aspose.Email for .NET API Reference
-description: MapiCalendar method. Saves calendar object to the file with specified format using te default save options
+description: MapiCalendar method. Saves the calendar item to a file with the specified options
 type: docs
-weight: 240
+weight: 260
 url: /net/aspose.email.mapi/mapicalendar/save/
 ---
 ## Save(string, MapiCalendarSaveOptions) {#save_5}
 
-Saves calendar object to the file with specified format using te default save options
+Saves the calendar item to a file with the specified options.
 
 ```csharp
 public void Save(string filePath, MapiCalendarSaveOptions saveOptions)
@@ -16,15 +16,15 @@ public void Save(string filePath, MapiCalendarSaveOptions saveOptions)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | A file path |
-| saveOptions | MapiCalendarSaveOptions | A save options |
+| filePath | String | The path of the file to write. |
+| saveOptions | MapiCalendarSaveOptions | The options; they also select the format: [`MapiCalendarIcsSaveOptions`](../../mapicalendaricssaveoptions/) for iCalendar, [`MapiCalendarMsgSaveOptions`](../../mapicalendarmsgsaveoptions/) for MSG. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | *filePath* is `null` or `empty` |
-| NotSupportedException | the specified save options are not supported |
+| ArgumentException | *filePath* is `null` or empty. |
+| NotSupportedException | The format of *saveOptions* is not supported. |
 
 ### See Also
 
@@ -37,7 +37,7 @@ public void Save(string filePath, MapiCalendarSaveOptions saveOptions)
 
 ## Save(Stream, MapiCalendarSaveOptions) {#save_2}
 
-Saves calendar to the stream with specified save options
+Saves the calendar item to a stream with the specified options.
 
 ```csharp
 public void Save(Stream stream, MapiCalendarSaveOptions saveOptions)
@@ -45,16 +45,16 @@ public void Save(Stream stream, MapiCalendarSaveOptions saveOptions)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | A stream to save to |
-| saveOptions | MapiCalendarSaveOptions | A save options |
+| stream | Stream | The stream to write to. |
+| saveOptions | MapiCalendarSaveOptions | The options; they also select the format: [`MapiCalendarIcsSaveOptions`](../../mapicalendaricssaveoptions/) for iCalendar, [`MapiCalendarMsgSaveOptions`](../../mapicalendarmsgsaveoptions/) for MSG. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | *saveOptions* or *stream* is `null` |
-| NotSupportedException | the specified save options are not supported |
-| NotSupportedException | stream does not support writing |
+| ArgumentNullException | *stream* or *saveOptions* is `null`. |
+| NotSupportedException | The format of *saveOptions* is not supported. |
+| NotSupportedException | *stream* does not support writing. |
 
 ### See Also
 
@@ -67,7 +67,7 @@ public void Save(Stream stream, MapiCalendarSaveOptions saveOptions)
 
 ## Save(string) {#save_3}
 
-Saves calendar object to the file with iCalendar format using te default save options
+Saves the calendar item to an iCalendar (.ics) file with the default options.
 
 ```csharp
 public void Save(string filePath)
@@ -75,13 +75,13 @@ public void Save(string filePath)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | A file path |
+| filePath | String | The path of the file to write. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | *filePath* is `null` or `empty` |
+| ArgumentException | *filePath* is `null` or empty. |
 
 ### See Also
 
@@ -93,7 +93,7 @@ public void Save(string filePath)
 
 ## Save(string, AppointmentSaveFormat) {#save_4}
 
-Saves calendar object to the file with specified format using te default save options
+Saves the calendar item to a file in the specified format with the default options.
 
 ```csharp
 public void Save(string filePath, AppointmentSaveFormat saveFormat)
@@ -101,15 +101,15 @@ public void Save(string filePath, AppointmentSaveFormat saveFormat)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | A file path |
-| saveFormat | AppointmentSaveFormat | A save format |
+| filePath | String | The path of the file to write. |
+| saveFormat | AppointmentSaveFormat | The format: ICS or MSG. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | *filePath* is `null` or `empty` |
-| NotSupportedException | The specified *saveFormat* is not supported |
+| ArgumentException | *filePath* is `null` or empty. |
+| NotSupportedException | *saveFormat* is not supported. |
 
 ### See Also
 
@@ -122,7 +122,7 @@ public void Save(string filePath, AppointmentSaveFormat saveFormat)
 
 ## Save(Stream) {#save}
 
-Saves calendar object to the file with iCalendar format using te default save options
+Saves the calendar item to a stream in iCalendar format with the default options.
 
 ```csharp
 public void Save(Stream stream)
@@ -130,14 +130,14 @@ public void Save(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | A stream to save to |
+| stream | Stream | The stream to write to. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | *stream* is `null` |
-| NotSupportedException | stream does not support writing |
+| ArgumentNullException | *stream* is `null`. |
+| NotSupportedException | *stream* does not support writing. |
 
 ### See Also
 
@@ -149,7 +149,7 @@ public void Save(Stream stream)
 
 ## Save(Stream, AppointmentSaveFormat) {#save_1}
 
-Saves calendar object to the stream with specified format using te default save options
+Saves the calendar item to a stream in the specified format with the default options.
 
 ```csharp
 public void Save(Stream stream, AppointmentSaveFormat saveFormat)
@@ -157,16 +157,16 @@ public void Save(Stream stream, AppointmentSaveFormat saveFormat)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | A stream to save to |
-| saveFormat | AppointmentSaveFormat | A save format |
+| stream | Stream | The stream to write to. |
+| saveFormat | AppointmentSaveFormat | The format: ICS or MSG. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | *stream* is `null` |
-| NotSupportedException | The specified *saveFormat* is not supported |
-| NotSupportedException | stream does not support writing |
+| ArgumentNullException | *stream* is `null`. |
+| NotSupportedException | *saveFormat* is not supported. |
+| NotSupportedException | *stream* does not support writing. |
 
 ### See Also
 

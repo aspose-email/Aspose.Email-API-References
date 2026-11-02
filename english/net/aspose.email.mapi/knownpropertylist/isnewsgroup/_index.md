@@ -1,14 +1,14 @@
 ---
 title: KnownPropertyList.IsNewsgroup
 second_title: Aspose.Email for .NET API Reference
-description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_IS_NEWSGROUP
+description: KnownPropertyList field. A Microsoft Exchange property used by Exchange Server and the Exchange Client that has no canonical name in MSOXPROPS. Alternate name PR_IS_NEWSGROUP. Property tag 0x6697000B data type Boolean
 type: docs
 weight: 11910
 url: /net/aspose.email.mapi/knownpropertylist/isnewsgroup/
 ---
 ## KnownPropertyList.IsNewsgroup field
 
-Microsoft� Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name: Alternate names: PR_IS_NEWSGROUP
+A Microsoft Exchange property, used by Exchange Server and the Exchange Client, that has no canonical name in [MS-OXPROPS]. Alternate name: PR_IS_NEWSGROUP. Property tag: 0x6697000B; data type: Boolean.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IsNewsgroup;

@@ -1,14 +1,14 @@
 ---
 title: Appointment.MicrosoftIntendedStatus
 second_title: Aspose.Email for .NET API Reference
-description: Appointment property. Specifies the INTENDED status of an appointment
+description: Appointment property. Gets or sets how the organizer wants attendees to show the time of the meeting such as busy or free the XMICROSOFTCDOINTENDEDSTATUS property
 type: docs
 weight: 180
 url: /net/aspose.email.calendar/appointment/microsoftintendedstatus/
 ---
 ## Appointment.MicrosoftIntendedStatus property
 
-Specifies the INTENDED status of an appointment.
+Gets or sets how the organizer wants attendees to show the time of the meeting, such as busy or free (the X-MICROSOFT-CDO-INTENDEDSTATUS property).
 
 ```csharp
 public MSIntendedStatus MicrosoftIntendedStatus { get; set; }

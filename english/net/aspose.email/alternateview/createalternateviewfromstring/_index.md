@@ -1,14 +1,14 @@
 ---
 title: AlternateView.CreateAlternateViewFromString
 second_title: Aspose.Email for .NET API Reference
-description: AlternateView method. Creates a AlternateView of using the content specified in a string
+description: AlternateView method. Creates a plaintext view from a string
 type: docs
 weight: 20
 url: /net/aspose.email/alternateview/createalternateviewfromstring/
 ---
 ## CreateAlternateViewFromString(string) {#createalternateviewfromstring}
 
-Creates a AlternateView of using the content specified in a string.
+Creates a plain-text view from a string.
 
 ```csharp
 public static AlternateView CreateAlternateViewFromString(string content)
@@ -16,11 +16,11 @@ public static AlternateView CreateAlternateViewFromString(string content)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | String | The string that contains the content. |
+| content | String | The content of the view. |
 
 ### Return Value
 
-An AlternateView object that represents an alternate view.
+The new alternate view.
 
 ### See Also
 
@@ -32,7 +32,7 @@ An AlternateView object that represents an alternate view.
 
 ## CreateAlternateViewFromString(string, Encoding, string) {#createalternateviewfromstring_3}
 
-Creates a AlternateView of using the content specified in a string.
+Creates a view from a string with the specified encoding and media type.
 
 ```csharp
 public static AlternateView CreateAlternateViewFromString(string content, Encoding contentEncoding, 
@@ -41,13 +41,13 @@ public static AlternateView CreateAlternateViewFromString(string content, Encodi
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | String | The string that contains the content. |
-| contentEncoding | Encoding | The content encoding. |
-| mediaType | String | Internet media type. |
+| content | String | The content of the view. |
+| contentEncoding | Encoding | The character encoding of the content. |
+| mediaType | String | The MIME media type of the content, such as `text/html`. |
 
 ### Return Value
 
-An AlternateView object that represents an alternate view.
+The new alternate view.
 
 ### See Also
 
@@ -59,7 +59,7 @@ An AlternateView object that represents an alternate view.
 
 ## CreateAlternateViewFromString(string, ContentType) {#createalternateviewfromstring_1}
 
-Creates a AlternateView of using the content specified in a string.
+Creates a view from a string with the specified content type.
 
 ```csharp
 public static AlternateView CreateAlternateViewFromString(string content, ContentType contentType)
@@ -67,12 +67,12 @@ public static AlternateView CreateAlternateViewFromString(string content, Conten
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | String | The string that contains the content. |
-| contentType | ContentType | Content type. |
+| content | String | The content of the view. |
+| contentType | ContentType | The content type of the view, with its media type and character set. |
 
 ### Return Value
 
-An AlternateView object that represents an alternate view.
+The new alternate view.
 
 ### See Also
 
@@ -85,7 +85,7 @@ An AlternateView object that represents an alternate view.
 
 ## CreateAlternateViewFromString(string, ContentType, TransferEncoding) {#createalternateviewfromstring_2}
 
-Creates a AlternateView of using the content specified in a string.
+Creates a view from a string with the specified content type and transfer encoding.
 
 ```csharp
 public static AlternateView CreateAlternateViewFromString(string content, ContentType contentType, 
@@ -94,13 +94,13 @@ public static AlternateView CreateAlternateViewFromString(string content, Conten
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | String | The string that contains the content. |
-| contentType | ContentType | Content type. |
-| transferencoding | TransferEncoding | The transfer encoding. |
+| content | String | The content of the view. |
+| contentType | ContentType | The content type of the view, with its media type and character set. |
+| transferencoding | TransferEncoding | The transfer encoding of the content, such as Base64 or quoted-printable. |
 
 ### Return Value
 
-An AlternateView object that represents an alternate view.
+The new alternate view.
 
 ### See Also
 
