@@ -1,9 +1,9 @@
 ---
 title: ContactFieldsSet
 second_title: Aspose.Email for Java API Reference
-description: Enumerates the groups of Contact fields that will be included in resultant mhtml file.
+description: Defines the groups of contact fields written when a contact is saved to MHTML.
 type: docs
-weight: 120
+weight: 121
 url: /java/com.aspose.email/contactfieldsset/
 ---
 
@@ -13,22 +13,22 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ContactFieldsSet extends System.Enum
 ```
 
-Enumerates the groups of Contact fields that will be included in resultant mhtml file.
+Defines the groups of contact fields written when a contact is saved to MHTML. The values can be combined.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AllExisting](#AllExisting) | Indicates that all existing fields will be included in resultant mhtml file. |
-| [ElectronicAddresses](#ElectronicAddresses) | Indicates that ElectronicAddresses fields will be included in resultant mhtml file. |
+| [AllExisting](#AllExisting) | All fields that have a value. |
+| [ElectronicAddresses](#ElectronicAddresses) | The e-mail addresses and fax numbers. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Events](#Events) | Indicates that Events fields will be included in resultant mhtml file. |
-| [NameInfo](#NameInfo) | Indicates that NameInfo fields will be included in resultant mhtml file. |
-| [None](#None) | Indicates that none fields will be included in resultant mhtml file. |
-| [OtherFields](#OtherFields) | Indicates that OtherFields fields will be included in resultant mhtml file. |
-| [PersonalInfo](#PersonalInfo) | Indicates that PersonalInfo fields will be included in resultant mhtml file. |
-| [PhysicalAddresses](#PhysicalAddresses) | Indicates that PhysicalAddresses fields will be included in resultant mhtml file. |
-| [ProfessionalInfo](#ProfessionalInfo) | Indicates that ProfessionalInfo fields will be included in resultant mhtml file. |
-| [Telephones](#Telephones) | Indicates that Telephones fields will be included in resultant mhtml file. |
+| [Events](#Events) | The dates, such as the birthday. |
+| [NameInfo](#NameInfo) | The name fields. |
+| [None](#None) | No fields; only the notes of the contact are written. |
+| [OtherFields](#OtherFields) | The other fields. |
+| [PersonalInfo](#PersonalInfo) | The personal information fields. |
+| [PhysicalAddresses](#PhysicalAddresses) | The postal addresses. |
+| [ProfessionalInfo](#ProfessionalInfo) | The professional information fields. |
+| [Telephones](#Telephones) | The telephone numbers. |
 ## Methods
 
 | Method | Description |
@@ -74,7 +74,7 @@ public static final int AllExisting
 ```
 
 
-Indicates that all existing fields will be included in resultant mhtml file.
+All fields that have a value.
 
 ### ElectronicAddresses {#ElectronicAddresses}
 ```
@@ -82,7 +82,7 @@ public static final int ElectronicAddresses
 ```
 
 
-Indicates that ElectronicAddresses fields will be included in resultant mhtml file.
+The e-mail addresses and fax numbers.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -96,7 +96,7 @@ public static final int Events
 ```
 
 
-Indicates that Events fields will be included in resultant mhtml file.
+The dates, such as the birthday.
 
 ### NameInfo {#NameInfo}
 ```
@@ -104,7 +104,7 @@ public static final int NameInfo
 ```
 
 
-Indicates that NameInfo fields will be included in resultant mhtml file.
+The name fields.
 
 ### None {#None}
 ```
@@ -112,7 +112,7 @@ public static final int None
 ```
 
 
-Indicates that none fields will be included in resultant mhtml file. Only NOTE of contact will be displayed in html body.
+No fields; only the notes of the contact are written.
 
 ### OtherFields {#OtherFields}
 ```
@@ -120,7 +120,7 @@ public static final int OtherFields
 ```
 
 
-Indicates that OtherFields fields will be included in resultant mhtml file.
+The other fields.
 
 ### PersonalInfo {#PersonalInfo}
 ```
@@ -128,7 +128,7 @@ public static final int PersonalInfo
 ```
 
 
-Indicates that PersonalInfo fields will be included in resultant mhtml file.
+The personal information fields.
 
 ### PhysicalAddresses {#PhysicalAddresses}
 ```
@@ -136,7 +136,7 @@ public static final int PhysicalAddresses
 ```
 
 
-Indicates that PhysicalAddresses fields will be included in resultant mhtml file.
+The postal addresses.
 
 ### ProfessionalInfo {#ProfessionalInfo}
 ```
@@ -144,7 +144,7 @@ public static final int ProfessionalInfo
 ```
 
 
-Indicates that ProfessionalInfo fields will be included in resultant mhtml file.
+The professional information fields.
 
 ### Telephones {#Telephones}
 ```
@@ -152,7 +152,7 @@ public static final int Telephones
 ```
 
 
-Indicates that Telephones fields will be included in resultant mhtml file.
+The telephone numbers.
 
 ### Clone() {#Clone--}
 ```

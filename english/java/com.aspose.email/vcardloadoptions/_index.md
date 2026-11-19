@@ -3,7 +3,7 @@ title: VCardLoadOptions
 second_title: Aspose.Email for Java API Reference
 description: This is class that allow the user to specify additional options when loading a VCardContact.
 type: docs
-weight: 745
+weight: 756
 url: /java/com.aspose.email/vcardloadoptions/
 ---
 
@@ -25,11 +25,11 @@ This is class that allow the user to specify additional options when loading a V
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getPreferredEncoding()](#getPreferredEncoding--) | File encoding. |
+| [getPreferredEncoding()](#getPreferredEncoding--) | Gets file encoding. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setPreferredEncoding(Charset value)](#setPreferredEncoding-java.nio.charset.Charset-) | File encoding. |
+| [setPreferredEncoding(Charset value)](#setPreferredEncoding-java.nio.charset.Charset-) | Sets file encoding. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -71,7 +71,7 @@ public final Charset getPreferredEncoding()
 ```
 
 
-File encoding.
+Gets file encoding.
 
 **Returns:**
 java.nio.charset.Charset
@@ -107,7 +107,7 @@ public final void setPreferredEncoding(Charset value)
 ```
 
 
-File encoding.
+Sets file encoding.
 
 **Parameters:**
 | Parameter | Type | Description |

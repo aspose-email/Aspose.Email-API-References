@@ -1,9 +1,9 @@
 ---
 title: ReferenceAttachmentOptions
 second_title: Aspose.Email for Java API Reference
-description: Represents configuration options for adding a reference attachment to a MAPI message.
+description: Options of a reference attachment a link to a file in a cloud storage such as OneDrive instead of the file itself.
 type: docs
-weight: 623
+weight: 628
 url: /java/com.aspose.email/referenceattachmentoptions/
 ---
 
@@ -13,39 +13,41 @@ java.lang.Object
 public class ReferenceAttachmentOptions
 ```
 
-Represents configuration options for adding a reference attachment to a MAPI message.
+Options of a reference attachment: a link to a file in a cloud storage, such as OneDrive, instead of the file itself.
+
+Pass an instance to [MapiAttachmentCollection.add(String, MapiMessage)](../../com.aspose.email/mapiattachmentcollection\#add-String--MapiMessage-).
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ReferenceAttachmentOptions(String sharedLink, String url, String providerName)](#ReferenceAttachmentOptions-java.lang.String-java.lang.String-java.lang.String-) | Initializes a new instance of the [ReferenceAttachmentOptions](../../com.aspose.email/referenceattachmentoptions) class with the specified shared link, URL, and provider name. |
+| [ReferenceAttachmentOptions(String sharedLink, String url, String providerName)](#ReferenceAttachmentOptions-java.lang.String-java.lang.String-java.lang.String-) | Initializes a new instance of the [ReferenceAttachmentOptions](../../com.aspose.email/referenceattachmentoptions) class with a link, a URL and a provider. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getOriginalPermissionType()](#getOriginalPermissionType--) | Gets or sets the original permission type for the reference attachment. |
-| [getPermissionType()](#getPermissionType--) | Gets or sets the permission type for the reference attachment. |
-| [getPreviewUrl()](#getPreviewUrl--) | Gets or sets the preview URL of the reference attachment. |
-| [getProviderEndpointUrl()](#getProviderEndpointUrl--) | Gets or sets the provider endpoint URL. |
-| [getProviderName()](#getProviderName--) | Gets or sets the name of the provider for the reference attachment. |
-| [getSharedLink()](#getSharedLink--) | Gets or sets the shared link of the reference attachment. |
-| [getThumbnailUrl()](#getThumbnailUrl--) | Gets or sets the thumbnail URL of the reference attachment. |
-| [getUrl()](#getUrl--) | Gets or sets the direct URL for accessing the reference attachment. |
+| [getOriginalPermissionType()](#getOriginalPermissionType--) | Gets the original permission type for the reference attachment. |
+| [getPermissionType()](#getPermissionType--) | Gets the permission type for the reference attachment. |
+| [getPreviewUrl()](#getPreviewUrl--) | Gets the preview URL of the reference attachment. |
+| [getProviderEndpointUrl()](#getProviderEndpointUrl--) | Gets the provider endpoint URL. |
+| [getProviderName()](#getProviderName--) | Gets the name of the storage provider, such as  OneDrive . |
+| [getSharedLink()](#getSharedLink--) | Gets the shared link of the file in the cloud storage. |
+| [getThumbnailUrl()](#getThumbnailUrl--) | Gets the thumbnail URL of the reference attachment. |
+| [getUrl()](#getUrl--) | Gets the direct URL of the file. |
 | [hashCode()](#hashCode--) |  |
-| [isFolder()](#isFolder--) | Gets or sets a value indicating whether the reference attachment is a folder. |
+| [isFolder()](#isFolder--) | Gets a value indicating whether the reference attachment is a folder. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFolder(boolean value)](#setFolder-boolean-) | Gets or sets a value indicating whether the reference attachment is a folder. |
-| [setOriginalPermissionType(int value)](#setOriginalPermissionType-int-) | Gets or sets the original permission type for the reference attachment. |
-| [setPermissionType(int value)](#setPermissionType-int-) | Gets or sets the permission type for the reference attachment. |
-| [setPreviewUrl(String value)](#setPreviewUrl-java.lang.String-) | Gets or sets the preview URL of the reference attachment. |
-| [setProviderEndpointUrl(String value)](#setProviderEndpointUrl-java.lang.String-) | Gets or sets the provider endpoint URL. |
-| [setProviderName(String value)](#setProviderName-java.lang.String-) | Gets or sets the name of the provider for the reference attachment. |
-| [setSharedLink(String value)](#setSharedLink-java.lang.String-) | Gets or sets the shared link of the reference attachment. |
-| [setThumbnailUrl(String value)](#setThumbnailUrl-java.lang.String-) | Gets or sets the thumbnail URL of the reference attachment. |
-| [setUrl(String value)](#setUrl-java.lang.String-) | Gets or sets the direct URL for accessing the reference attachment. |
+| [setFolder(boolean value)](#setFolder-boolean-) | Sets a value indicating whether the reference attachment is a folder. |
+| [setOriginalPermissionType(int value)](#setOriginalPermissionType-int-) | Sets the original permission type for the reference attachment. |
+| [setPermissionType(int value)](#setPermissionType-int-) | Sets the permission type for the reference attachment. |
+| [setPreviewUrl(String value)](#setPreviewUrl-java.lang.String-) | Sets the preview URL of the reference attachment. |
+| [setProviderEndpointUrl(String value)](#setProviderEndpointUrl-java.lang.String-) | Sets the provider endpoint URL. |
+| [setProviderName(String value)](#setProviderName-java.lang.String-) | Sets the name of the storage provider, such as  OneDrive . |
+| [setSharedLink(String value)](#setSharedLink-java.lang.String-) | Sets the shared link of the file in the cloud storage. |
+| [setThumbnailUrl(String value)](#setThumbnailUrl-java.lang.String-) | Sets the thumbnail URL of the reference attachment. |
+| [setUrl(String value)](#setUrl-java.lang.String-) | Sets the direct URL of the file. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -56,14 +58,14 @@ public ReferenceAttachmentOptions(String sharedLink, String url, String provider
 ```
 
 
-Initializes a new instance of the [ReferenceAttachmentOptions](../../com.aspose.email/referenceattachmentoptions) class with the specified shared link, URL, and provider name.
+Initializes a new instance of the [ReferenceAttachmentOptions](../../com.aspose.email/referenceattachmentoptions) class with a link, a URL and a provider.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sharedLink | java.lang.String | The shared link of the reference attachment. |
-| url | java.lang.String | The direct URL for accessing the reference attachment. |
-| providerName | java.lang.String | The name of the provider for the reference attachment. |
+| sharedLink | java.lang.String | The shared link of the file. |
+| url | java.lang.String | The direct URL of the file. |
+| providerName | java.lang.String | The name of the storage provider, such as  OneDrive . |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -96,7 +98,7 @@ public final int getOriginalPermissionType()
 ```
 
 
-Gets or sets the original permission type for the reference attachment. Used to specify the original permission level before any modifications. The default value is  **None** .
+Gets the original permission type for the reference attachment. Used to specify the original permission level before any modifications. The default value is None.
 
 **Returns:**
 int
@@ -106,7 +108,7 @@ public final int getPermissionType()
 ```
 
 
-Gets or sets the permission type for the reference attachment. Indicates the level of access granted. The default value is  **AnyoneCanEdit** .
+Gets the permission type for the reference attachment. Indicates the level of access granted. The default value is AnyoneCanEdit.
 
 **Returns:**
 int
@@ -116,7 +118,7 @@ public final String getPreviewUrl()
 ```
 
 
-Gets or sets the preview URL of the reference attachment. This URL can be used to generate a preview of the resource, if supported by the provider. The default value is  **Empty** .
+Gets the preview URL of the reference attachment. This URL can be used to generate a preview of the resource, if supported by the provider. The default value is Empty.
 
 **Returns:**
 java.lang.String
@@ -126,7 +128,7 @@ public final String getProviderEndpointUrl()
 ```
 
 
-Gets or sets the provider endpoint URL. Typically used for specifying the base URL of the cloud provider API. The default value is  **Empty** .
+Gets the provider endpoint URL. Typically used for specifying the base URL of the cloud provider API. The default value is Empty.
 
 **Returns:**
 java.lang.String
@@ -136,7 +138,7 @@ public final String getProviderName()
 ```
 
 
-Gets or sets the name of the provider for the reference attachment. Examples include "GoogleDrive", "OneDrive", etc.
+Gets the name of the storage provider, such as  OneDrive .
 
 **Returns:**
 java.lang.String
@@ -146,7 +148,7 @@ public final String getSharedLink()
 ```
 
 
-Gets or sets the shared link of the reference attachment. This is the URL to the shared resource, such as a file on a cloud storage provider.
+Gets the shared link of the file in the cloud storage.
 
 **Returns:**
 java.lang.String
@@ -156,7 +158,7 @@ public final String getThumbnailUrl()
 ```
 
 
-Gets or sets the thumbnail URL of the reference attachment. The URL points to a thumbnail image of the resource for visual representation. The default value is  **Empty** .
+Gets the thumbnail URL of the reference attachment. The URL points to a thumbnail image of the resource for visual representation. The default value is Empty.
 
 **Returns:**
 java.lang.String
@@ -166,7 +168,7 @@ public final String getUrl()
 ```
 
 
-Gets or sets the direct URL for accessing the reference attachment. This may point to the specific resource within the provider's interface.
+Gets the direct URL of the file.
 
 **Returns:**
 java.lang.String
@@ -186,7 +188,7 @@ public final boolean isFolder()
 ```
 
 
-Gets or sets a value indicating whether the reference attachment is a folder. The default value is  **false** .
+Gets a value indicating whether the reference attachment is a folder. The default value is  false .
 
 **Returns:**
 boolean
@@ -212,7 +214,7 @@ public final void setFolder(boolean value)
 ```
 
 
-Gets or sets a value indicating whether the reference attachment is a folder. The default value is  **false** .
+Sets a value indicating whether the reference attachment is a folder. The default value is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -225,7 +227,7 @@ public final void setOriginalPermissionType(int value)
 ```
 
 
-Gets or sets the original permission type for the reference attachment. Used to specify the original permission level before any modifications. The default value is  **None** .
+Sets the original permission type for the reference attachment. Used to specify the original permission level before any modifications. The default value is None.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -238,7 +240,7 @@ public final void setPermissionType(int value)
 ```
 
 
-Gets or sets the permission type for the reference attachment. Indicates the level of access granted. The default value is  **AnyoneCanEdit** .
+Sets the permission type for the reference attachment. Indicates the level of access granted. The default value is AnyoneCanEdit.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -251,7 +253,7 @@ public final void setPreviewUrl(String value)
 ```
 
 
-Gets or sets the preview URL of the reference attachment. This URL can be used to generate a preview of the resource, if supported by the provider. The default value is  **Empty** .
+Sets the preview URL of the reference attachment. This URL can be used to generate a preview of the resource, if supported by the provider. The default value is Empty.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -264,7 +266,7 @@ public final void setProviderEndpointUrl(String value)
 ```
 
 
-Gets or sets the provider endpoint URL. Typically used for specifying the base URL of the cloud provider API. The default value is  **Empty** .
+Sets the provider endpoint URL. Typically used for specifying the base URL of the cloud provider API. The default value is Empty.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -277,7 +279,7 @@ public final void setProviderName(String value)
 ```
 
 
-Gets or sets the name of the provider for the reference attachment. Examples include "GoogleDrive", "OneDrive", etc.
+Sets the name of the storage provider, such as  OneDrive .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -290,7 +292,7 @@ public final void setSharedLink(String value)
 ```
 
 
-Gets or sets the shared link of the reference attachment. This is the URL to the shared resource, such as a file on a cloud storage provider.
+Sets the shared link of the file in the cloud storage.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -303,7 +305,7 @@ public final void setThumbnailUrl(String value)
 ```
 
 
-Gets or sets the thumbnail URL of the reference attachment. The URL points to a thumbnail image of the resource for visual representation. The default value is  **Empty** .
+Sets the thumbnail URL of the reference attachment. The URL points to a thumbnail image of the resource for visual representation. The default value is Empty.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -316,7 +318,7 @@ public final void setUrl(String value)
 ```
 
 
-Gets or sets the direct URL for accessing the reference attachment. This may point to the specific resource within the provider's interface.
+Sets the direct URL of the file.
 
 **Parameters:**
 | Parameter | Type | Description |

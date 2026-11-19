@@ -3,7 +3,7 @@ title: PersonalStorage
 second_title: Aspose.Email for Java API Reference
 description: Provides functionality to access and manipulate the PST Personal Storage Table files used by Microsoft Outlook.
 type: docs
-weight: 585
+weight: 589
 url: /java/com.aspose.email/personalstorage/
 ---
 
@@ -20,7 +20,7 @@ Provides functionality to access and manipulate the PST (Personal Storage Table)
 
 The PersonalStorage class encapsulates methods for creating, opening, and working with the contents of PST files including emails, appointments, contacts, tasks, and other personal information.
 
-Example:
+This code serves as a way to browse and extract messages from a PST file, printing metadata about each folder and message, extract and saving the actual messages as .msg files.
 
 ```
 
@@ -53,8 +53,6 @@ Example:
              msg.save(msg.getSubject() + ".msg");
          }
      }
- } catch (Exception e) {
-     e.printStackTrace();
  }
  
 ```
@@ -62,7 +60,7 @@ Example:
 
 | Constructor | Description |
 | --- | --- |
-| [PersonalStorage(TraversalExceptionsCallback callback)](#PersonalStorage-com.aspose.email.TraversalExceptionsCallback-) | Initializes a new instance of the [PersonalStorage](../../com.aspose.email/personalstorage) class. |
+| [PersonalStorage(TraversalExceptionsCallback callback)](#PersonalStorage-com.aspose.email.TraversalExceptionsCallback-) | Initializes a new instance of the [PersonalStorage](../../com.aspose.email/personalstorage) class that reports problems found while reading a damaged PST to a callback instead of throwing. |
 ## Fields
 
 | Field | Description |
@@ -74,76 +72,81 @@ Example:
 
 | Method | Description |
 | --- | --- |
-| [canWrite()](#canWrite--) | Gets a value indicating whether the current pst supports writing. |
-| [changeMessage(String entryId, MapiPropertyCollection updatedProperties)](#changeMessage-java.lang.String-com.aspose.email.MapiPropertyCollection-) | Changes the message properties. |
-| [close()](#close--) |  |
-| [convertTo(int format)](#convertTo-int-) | Converts the current object to the specified format. |
-| [create(System.IO.Stream stream, int version)](#create-com.aspose.ms.System.IO.Stream-int-) | Creates the PST in a stream. |
-| [create(System.IO.Stream stream, int version, boolean leaveStreamOpen)](#create-com.aspose.ms.System.IO.Stream-int-boolean-) | Creates the PST in a stream. |
+| [addAttachmentToMessage(MessageInfo messageInfo, String filePath)](#addAttachmentToMessage-com.aspose.email.MessageInfo-java.lang.String-) | Adds an attachment to the specified message using the file located at the provided path. |
+| [addAttachmentToMessage(MessageInfo messageInfo, String name, InputStream stream)](#addAttachmentToMessage-com.aspose.email.MessageInfo-java.lang.String-java.io.InputStream-) | Adds an attachment to the specified message using the provided stream as attachment content. |
+| [addAttachmentToMessage(String entryId, String filePath)](#addAttachmentToMessage-java.lang.String-java.lang.String-) | Adds an attachment to the message identified by the specified entry ID using the file located at the provided path. |
+| [addAttachmentToMessage(String entryId, String name, InputStream stream)](#addAttachmentToMessage-java.lang.String-java.lang.String-java.io.InputStream-) | Adds an attachment to the message identified by the specified entry ID using the provided stream. |
+| [canWrite()](#canWrite--) | Gets a value indicating whether the PST is open for writing. |
+| [changeMessage(String entryId, MapiPropertyCollection updatedProperties)](#changeMessage-java.lang.String-com.aspose.email.MapiPropertyCollection-) | Changes properties of a message. |
+| [close()](#close--) | Closes the PST and releases the resources it uses. |
+| [convertTo(int format)](#convertTo-int-) | Converts the open file to the specified format. |
+| [create(System.IO.Stream stream, int version)](#create-com.aspose.ms.System.IO.Stream-int-) | Creates a new PST in a stream. |
+| [create(System.IO.Stream stream, int version, boolean leaveStreamOpen)](#create-com.aspose.ms.System.IO.Stream-int-boolean-) | Creates a new PST in a stream. |
 | [create(OutputStream stream, int version)](#create-java.io.OutputStream-int-) | Creates the PST in a stream. |
 | [create(OutputStream stream, int version, boolean leaveStreamOpen)](#create-java.io.OutputStream-int-boolean-) | Creates the PST in a stream. |
 | [create(OutputStream stream, int blockSize, int version)](#create-java.io.OutputStream-int-int-) | Creates the PST in a stream. |
-| [create(String fileName, int version)](#create-java.lang.String-int-) | Creates the new PST file with the specified file name. |
+| [create(String fileName, int version)](#create-java.lang.String-int-) | Creates a new PST file. |
 | [create(SeekableByteChannel channel, int version)](#create-java.nio.channels.SeekableByteChannel-int-) | Creates the PST in a java.nio.channels. |
-| [createPredefinedFolder(String name, int defaultFolder)](#createPredefinedFolder-java.lang.String-int-) | Creates the standard interpersonal message (IPM) folder. |
-| [createPredefinedFolder(String name, int defaultFolder, boolean createHierarchy)](#createPredefinedFolder-java.lang.String-int-boolean-) | Creates the standard interpersonal message (IPM) folder. |
-| [deleteItem(String entryId)](#deleteItem-java.lang.String-) | Deletes the item (folder or message) by it's entryId |
+| [createPredefinedFolder(String name, int defaultFolder)](#createPredefinedFolder-java.lang.String-int-) | Creates a standard Outlook folder, such as Inbox or Calendar, with the specified name. |
+| [createPredefinedFolder(String name, int defaultFolder, boolean createHierarchy)](#createPredefinedFolder-java.lang.String-int-boolean-) | Creates a standard Outlook folder, such as Inbox or Calendar, with the specified name. |
+| [deleteItem(String entryId)](#deleteItem-java.lang.String-) | Deletes a message or folder by its entry ID. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [enumerateMessages(String entryId)](#enumerateMessages-java.lang.String-) | Exposes the enumerator, which supports an iteration of messages in folder. |
-| [enumerateMessages(String entryId, int startIndex, int count)](#enumerateMessages-java.lang.String-int-int-) | Exposes the enumerator, which supports an iteration of messages in folder. |
+| [enumerateMessages(String entryId)](#enumerateMessages-java.lang.String-) | Enumerates the messages of the folder with the specified entry ID. |
+| [enumerateMessages(String entryId, int startIndex, int count)](#enumerateMessages-java.lang.String-int-int-) | Enumerates a range of the messages of the folder with the specified entry ID. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [extractAttachments(MessageInfo messageInfo)](#extractAttachments-com.aspose.email.MessageInfo-) | Extracts the attachments. |
-| [extractAttachments(String entryId)](#extractAttachments-java.lang.String-) | Extracts the attachments. |
-| [extractMessage(byte[] entryId)](#extractMessage-byte---) | Get the message from PST. |
-| [extractMessage(MessageInfo messageInfo)](#extractMessage-com.aspose.email.MessageInfo-) | Get the message from PST. |
-| [extractMessage(String entryId)](#extractMessage-java.lang.String-) | Get the message from PST. |
-| [extractProperty(byte[] entryId, long tag)](#extractProperty-byte---long-) | Gets the specified property of item, without extract the item fully. |
-| [extractRecipients(MessageInfo messageInfo)](#extractRecipients-com.aspose.email.MessageInfo-) | Extracts the recipients. |
-| [extractRecipients(String entryId)](#extractRecipients-java.lang.String-) | Extracts the recipients. |
-| [findAndExtractSoftDeletedItems()](#findAndExtractSoftDeletedItems--) | Finds and extracts soft-deleted messages from the PST. |
-| [findMessages(String parentEntryId)](#findMessages-java.lang.String-) | Finds the identifiers of messages for for the current folder. |
-| [findSubfolders(String parentEntryId)](#findSubfolders-java.lang.String-) | Finds the identifiers of subfolders for for the current folder. |
-| [fromFile(String fileName)](#fromFile-java.lang.String-) | Load PST from file. |
-| [fromFile(String fileName, boolean writable)](#fromFile-java.lang.String-boolean-) | Load PST from file. |
-| [fromFile(String fileName, PersonalStorageLoadOptions loadOptions)](#fromFile-java.lang.String-com.aspose.email.PersonalStorageLoadOptions-) | Load PST from file. |
+| [extractAttachments(MessageInfo messageInfo)](#extractAttachments-com.aspose.email.MessageInfo-) | Reads the attachments of a message without loading the whole message. |
+| [extractAttachments(String entryId)](#extractAttachments-java.lang.String-) | Reads the attachments of a message without loading the whole message. |
+| [extractMessage(byte[] entryId)](#extractMessage-byte---) | Loads the full message with the specified entry ID. |
+| [extractMessage(MessageInfo messageInfo)](#extractMessage-com.aspose.email.MessageInfo-) | Loads the full message that a [MessageInfo](../../com.aspose.email/messageinfo) describes. |
+| [extractMessage(String entryId)](#extractMessage-java.lang.String-) | Loads the full message with the specified entry ID. |
+| [extractProperty(byte[] entryId, long tag)](#extractProperty-byte---long-) | Reads one property of an item without loading the whole item. |
+| [extractRecipients(MessageInfo messageInfo)](#extractRecipients-com.aspose.email.MessageInfo-) | Reads the recipients of a message without loading the whole message. |
+| [extractRecipients(String entryId)](#extractRecipients-java.lang.String-) | Reads the recipients of a message without loading the whole message. |
+| [findAndEnumerateSoftDeletedItems()](#findAndEnumerateSoftDeletedItems--) | Finds soft-deleted messages and returns them one at a time. |
+| [findAndExtractSoftDeletedItems()](#findAndExtractSoftDeletedItems--) | Finds and extracts all soft-deleted messages of the PST. |
+| [findMessages(String parentEntryId)](#findMessages-java.lang.String-) | Finds the entry IDs of the messages of a folder. |
+| [findSubfolders(String parentEntryId)](#findSubfolders-java.lang.String-) | Finds the entry IDs of the subfolders of a folder. |
+| [fromFile(String fileName)](#fromFile-java.lang.String-) | Opens a PST or OST file for reading and writing. |
+| [fromFile(String fileName, boolean writable)](#fromFile-java.lang.String-boolean-) | Opens a PST or OST file. |
+| [fromFile(String fileName, PersonalStorageLoadOptions loadOptions)](#fromFile-java.lang.String-com.aspose.email.PersonalStorageLoadOptions-) | Opens a PST or OST file with the specified options. |
 | [fromStream(System.IO.Stream stream)](#fromStream-com.aspose.ms.System.IO.Stream-) | Load PST from stream. |
 | [fromStream(System.IO.Stream stream, boolean writable)](#fromStream-com.aspose.ms.System.IO.Stream-boolean-) | Load PST from stream. |
 | [fromStream(System.IO.Stream stream, PersonalStorageLoadOptions loadOptions)](#fromStream-com.aspose.ms.System.IO.Stream-com.aspose.email.PersonalStorageLoadOptions-) | Load PST from stream. |
-| [fromStream(InputStream stream)](#fromStream-java.io.InputStream-) | Load PST from stream. |
-| [fromStream(InputStream stream, boolean writable)](#fromStream-java.io.InputStream-boolean-) | Load PST from stream. |
-| [fromStream(InputStream stream, PersonalStorageLoadOptions loadOptions)](#fromStream-java.io.InputStream-com.aspose.email.PersonalStorageLoadOptions-) | Load PST from stream. |
-| [getCategories()](#getCategories--) | Retrieves a list of PST item categories, each containing a name and associated color. |
+| [fromStream(InputStream stream)](#fromStream-java.io.InputStream-) | Opens a PST or OST from a stream for reading and writing. |
+| [fromStream(InputStream stream, boolean writable)](#fromStream-java.io.InputStream-boolean-) | Opens a PST or OST from a stream. |
+| [fromStream(InputStream stream, PersonalStorageLoadOptions loadOptions)](#fromStream-java.io.InputStream-com.aspose.email.PersonalStorageLoadOptions-) | Opens a PST or OST from a stream with the specified options. |
+| [getCategories()](#getCategories--) | Gets the categories used in the PST, each with its name and color. |
 | [getClass()](#getClass--) |  |
-| [getFolderById(byte[] entryId)](#getFolderById-byte---) | Gets the personal folder from PST. |
-| [getFolderById(String entryIdString)](#getFolderById-java.lang.String-) | Gets the personal folder from PST. |
+| [getFolderById(byte[] entryId)](#getFolderById-byte---) | Gets the folder with the specified entry ID. |
+| [getFolderById(String entryIdString)](#getFolderById-java.lang.String-) | Gets the folder with the specified entry ID. |
 | [getFormat()](#getFormat--) | Gets the file format. |
-| [getParentFolder(byte[] entryId)](#getParentFolder-byte---) | Gets the parent folder of message. |
-| [getParentFolder(String entryIdString)](#getParentFolder-java.lang.String-) | Gets the parent folder of message. |
-| [getPredefinedFolder(int defaultFolder)](#getPredefinedFolder-int-) | Gets the standard interpersonal message (IPM) folder from PST. |
-| [getRootFolder()](#getRootFolder--) | Gets the root folder of PST. |
+| [getParentFolder(byte[] entryId)](#getParentFolder-byte---) | Gets the folder that contains a message or folder. |
+| [getParentFolder(String entryIdString)](#getParentFolder-java.lang.String-) | Gets the folder that contains a message or folder. |
+| [getPredefinedFolder(int defaultFolder)](#getPredefinedFolder-int-) | Gets a standard Outlook folder of the PST, such as Inbox, Sent Items or Deleted Items. |
+| [getRootFolder()](#getRootFolder--) | Gets the root folder of the PST, which contains all other folders. |
 | [getStore()](#getStore--) | Gets the PST message store. |
 | [hashCode()](#hashCode--) |  |
-| [isUnicode()](#isUnicode--) | Gets a value indicating whether the PST file format is Unicode. |
+| [isUnicode()](#isUnicode--) | Gets a value indicating whether the PST is in the Unicode format. |
 | [load(System.IO.Stream stream)](#load-com.aspose.ms.System.IO.Stream-) | Load PST from stream. |
-| [load(InputStream stream)](#load-java.io.InputStream-) | Load PST from stream. |
-| [load(String fileName)](#load-java.lang.String-) | Load PST from file. |
-| [mergeWith(InputStream[] sourceStreams)](#mergeWith-java.io.InputStream---) | Merges the pst storage with one or more other pst streams. |
-| [mergeWith(String[] sourceFileNames)](#mergeWith-java.lang.String---) | Merges the pst storage with one or more other pst files. |
-| [moveItem(FolderInfo folder, FolderInfo newFolder)](#moveItem-com.aspose.email.FolderInfo-com.aspose.email.FolderInfo-) | Moves a specified folder to a new parent folder within the current pst. |
-| [moveItem(MessageInfo message, FolderInfo newFolder)](#moveItem-com.aspose.email.MessageInfo-com.aspose.email.FolderInfo-) | Moves a specified message to a new folder within the current pst. |
+| [load(InputStream stream)](#load-java.io.InputStream-) | Opens a PST from a stream for reading, for a storage created with the constructor that takes a  TraversalExceptionsCallback . |
+| [load(String fileName)](#load-java.lang.String-) | Opens a PST file for reading, for a storage created with the constructor that takes a  TraversalExceptionsCallback . |
+| [mergeWith(InputStream[] sourceStreams)](#mergeWith-java.io.InputStream---) | Merges one or more other PST streams into this PST. |
+| [mergeWith(String[] sourceFileNames)](#mergeWith-java.lang.String---) | Merges one or more other PST files into this PST. |
+| [moveItem(FolderInfo folder, FolderInfo newFolder)](#moveItem-com.aspose.email.FolderInfo-com.aspose.email.FolderInfo-) | Moves a folder to another parent folder of the same PST. |
+| [moveItem(MessageInfo message, FolderInfo newFolder)](#moveItem-com.aspose.email.MessageInfo-com.aspose.email.FolderInfo-) | Moves a message to another folder of the same PST. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [saveAs(OutputStream stream, int format)](#saveAs-java.io.OutputStream-int-) | Saves the current object to a specified file format in a stream. |
-| [saveAs(String fileName, int format)](#saveAs-java.lang.String-int-) | Saves the current object to a specified file format in a different file. |
+| [saveAs(OutputStream stream, int format)](#saveAs-java.io.OutputStream-int-) | Saves the storage to a stream in the specified format. |
+| [saveAs(String fileName, int format)](#saveAs-java.lang.String-int-) | Saves the storage to another file in the specified format. |
 | [saveMessageToFile(String entryId, String fileName)](#saveMessageToFile-java.lang.String-java.lang.String-) | saveMessageToFile. |
-| [saveMessageToStream(String entryId, OutputStream stream)](#saveMessageToStream-java.lang.String-java.io.OutputStream-) | Saves the message, with specified entryID, to a stream. |
-| [splitInto(System.Collections.Generic.IGenericList<MailQuery> criteria, String path)](#splitInto-com.aspose.ms.System.Collections.Generic.IGenericList-com.aspose.email.MailQuery--java.lang.String-) | Splits the pst storage based on criteria. |
-| [splitInto(System.Collections.Generic.IGenericList<MailQuery> criteria, String partFileNamePrefix, String path)](#splitInto-com.aspose.ms.System.Collections.Generic.IGenericList-com.aspose.email.MailQuery--java.lang.String-java.lang.String-) | Splits the pst storage based on criteria. |
-| [splitInto(long chunkSize, String path)](#splitInto-long-java.lang.String-) | Splits the pst storage into less sized parts. |
-| [splitInto(long chunkSize, String partFileNamePrefix, String path)](#splitInto-long-java.lang.String-java.lang.String-) | Splits the pst storage into less sized parts. |
+| [saveMessageToStream(String entryId, OutputStream stream)](#saveMessageToStream-java.lang.String-java.io.OutputStream-) | Saves a message to a stream in Outlook MSG format, without loading it into a  MapiMessage . |
+| [splitInto(System.Collections.Generic.IGenericList<MailQuery> criteria, String path)](#splitInto-com.aspose.ms.System.Collections.Generic.IGenericList-com.aspose.email.MailQuery--java.lang.String-) | Splits the PST into several files by search criteria. |
+| [splitInto(System.Collections.Generic.IGenericList<MailQuery> criteria, String partFileNamePrefix, String path)](#splitInto-com.aspose.ms.System.Collections.Generic.IGenericList-com.aspose.email.MailQuery--java.lang.String-java.lang.String-) | Splits the PST into several files by search criteria, named with a prefix. |
+| [splitInto(long chunkSize, String path)](#splitInto-long-java.lang.String-) | Splits the PST into files of about the specified size. |
+| [splitInto(long chunkSize, String partFileNamePrefix, String path)](#splitInto-long-java.lang.String-java.lang.String-) | Splits the PST into files of about the specified size, named with a prefix. |
 | [toString()](#toString--) |  |
-| [tryToGetFolderById(String entryIdString, FolderInfo[] folder)](#tryToGetFolderById-java.lang.String-com.aspose.email.FolderInfo---) | Gets the folder associated with the specified entry ID. |
-| [tryToSaveMessage(String entryId, OutputStream stream)](#tryToSaveMessage-java.lang.String-java.io.OutputStream-) | Saves the message, with specified entryID, to a stream. |
+| [tryToGetFolderById(String entryIdString, FolderInfo[] folder)](#tryToGetFolderById-java.lang.String-com.aspose.email.FolderInfo---) | Tries to get the folder with the specified entry ID. |
+| [tryToSaveMessage(String entryId, OutputStream stream)](#tryToSaveMessage-java.lang.String-java.io.OutputStream-) | Saves a message to a stream in Outlook MSG format, keeping as much of a damaged message as can be read instead of failing. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -153,12 +156,12 @@ public PersonalStorage(TraversalExceptionsCallback callback)
 ```
 
 
-Initializes a new instance of the [PersonalStorage](../../com.aspose.email/personalstorage) class. Allows setting a callback method for handling exceptions that occur during PST traversal.
+Initializes a new instance of the [PersonalStorage](../../com.aspose.email/personalstorage) class that reports problems found while reading a damaged PST to a callback instead of throwing. Call  load  to open the file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| callback | [TraversalExceptionsCallback](../../com.aspose.email/traversalexceptionscallback) | The exception callback. |
+| callback | [TraversalExceptionsCallback](../../com.aspose.email/traversalexceptionscallback) | The method to call for each problem found while reading. |
 
 ### ItemMoved {#ItemMoved}
 ```
@@ -184,13 +187,75 @@ public final Event<StorageProcessingEventHandler> StorageProcessing
 
 Occurs before the srorage is processed. The event is raised before processing the next storage in merging or splitting operations.
 
+### addAttachmentToMessage(MessageInfo messageInfo, String filePath) {#addAttachmentToMessage-com.aspose.email.MessageInfo-java.lang.String-}
+```
+public final void addAttachmentToMessage(MessageInfo messageInfo, String filePath)
+```
+
+
+Adds an attachment to the specified message using the file located at the provided path.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfo | [MessageInfo](../../com.aspose.email/messageinfo) | The [MessageInfo](../../com.aspose.email/messageinfo) object representing the target message. |
+| filePath | java.lang.String | The full path to the file to be added as an attachment. |
+
+### addAttachmentToMessage(MessageInfo messageInfo, String name, InputStream stream) {#addAttachmentToMessage-com.aspose.email.MessageInfo-java.lang.String-java.io.InputStream-}
+```
+public final void addAttachmentToMessage(MessageInfo messageInfo, String name, InputStream stream)
+```
+
+
+Adds an attachment to the specified message using the provided stream as attachment content.
+
+The provided  stream  is not closed or disposed by this method.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfo | [MessageInfo](../../com.aspose.email/messageinfo) | The [MessageInfo](../../com.aspose.email/messageinfo) object representing the target message. |
+| name | java.lang.String | The name of the attachment to add. |
+| stream | java.io.InputStream | The stream containing the attachment data. |
+
+### addAttachmentToMessage(String entryId, String filePath) {#addAttachmentToMessage-java.lang.String-java.lang.String-}
+```
+public final void addAttachmentToMessage(String entryId, String filePath)
+```
+
+
+Adds an attachment to the message identified by the specified entry ID using the file located at the provided path.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| entryId | java.lang.String | The entry ID of the target message. |
+| filePath | java.lang.String | The full path to the file to be added as an attachment. |
+
+### addAttachmentToMessage(String entryId, String name, InputStream stream) {#addAttachmentToMessage-java.lang.String-java.lang.String-java.io.InputStream-}
+```
+public final void addAttachmentToMessage(String entryId, String name, InputStream stream)
+```
+
+
+Adds an attachment to the message identified by the specified entry ID using the provided stream.
+
+The provided  stream  is not closed or disposed by this method.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| entryId | java.lang.String | The entry ID of the target message. |
+| name | java.lang.String | The name of the attachment to add. |
+| stream | java.io.InputStream | The stream containing the attachment data. |
+
 ### canWrite() {#canWrite--}
 ```
 public final boolean canWrite()
 ```
 
 
-Gets a value indicating whether the current pst supports writing.
+Gets a value indicating whether the PST is open for writing.
 
 **Returns:**
 boolean
@@ -200,13 +265,13 @@ public final void changeMessage(String entryId, MapiPropertyCollection updatedPr
 ```
 
 
-Changes the message properties.
+Changes properties of a message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | java.lang.String | The entry identifier of message. |
-| updatedProperties | [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) | The updated properties. |
+| entryId | java.lang.String | The entry ID of the message. |
+| updatedProperties | [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) | The properties to set. |
 
 ### close() {#close--}
 ```
@@ -214,7 +279,7 @@ public void close()
 ```
 
 
-
+Closes the PST and releases the resources it uses. The underlying stream is closed too, unless the storage was opened or created with the option to leave it open.
 
 ### convertTo(int format) {#convertTo-int-}
 ```
@@ -222,16 +287,14 @@ public final void convertTo(int format)
 ```
 
 
-Converts the current object to the specified format.
+Converts the open file to the specified format.
+
+Use it for a fast OST to PST conversion. It does not support OST files of Outlook 2013 and later; to convert such a file, create a new PST and call its \#mergeWith(InputStream[]).mergeWith(InputStream[]) method.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | int | The FileFormat to convert the current object to.
-
---------------------
-
-It is used for the fast OST to PST conversion. The method doesn't support conversion of OST created by MS Office 2013 and later versions. To convert an OST of later version, create a new PST and use the \#mergeWith(Stream[]).mergeWith(Stream[]) method. |
+| format | int | The format to convert to. |
 
 ### create(System.IO.Stream stream, int version) {#create-com.aspose.ms.System.IO.Stream-int-}
 ```
@@ -239,41 +302,37 @@ public static PersonalStorage create(System.IO.Stream stream, int version)
 ```
 
 
-Creates the PST in a stream.
+Creates a new PST in a stream.
+
+Only Unicode PST files can be created. The stream is closed when the storage is disposed. Use the overload with leaveStreamOpen to keep it open.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | com.aspose.ms.System.IO.Stream | The stream in which PST is created. |
-| version | int | The PST file version.
-
---------------------
-
-Note, only Unicode file version creation is supported now. |
+| stream | com.aspose.ms.System.IO.Stream | The stream to write the PST to. |
+| version | int | The version of the PST. Only  FileFormatVersion.Unicode  is supported. |
 
 **Returns:**
-[PersonalStorage](../../com.aspose.email/personalstorage) - A PersonalStorage object that represents the new PST.
+[PersonalStorage](../../com.aspose.email/personalstorage) - The new PST, open for writing.
 ### create(System.IO.Stream stream, int version, boolean leaveStreamOpen) {#create-com.aspose.ms.System.IO.Stream-int-boolean-}
 ```
 public static PersonalStorage create(System.IO.Stream stream, int version, boolean leaveStreamOpen)
 ```
 
 
-Creates the PST in a stream.
+Creates a new PST in a stream.
+
+Only Unicode PST files can be created.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | com.aspose.ms.System.IO.Stream | The stream in which PST is created. |
-| version | int | The PST file version. |
-| leaveStreamOpen | boolean | Leave stream open when PersonalStorage is disposed.
-
---------------------
-
-Note, only Unicode file version creation is supported now. |
+| stream | com.aspose.ms.System.IO.Stream | The stream to write the PST to. |
+| version | int | The version of the PST. Only  FileFormatVersion.Unicode  is supported. |
+| leaveStreamOpen | boolean |  true  to leave  stream  open when the storage is disposed. |
 
 **Returns:**
-[PersonalStorage](../../com.aspose.email/personalstorage) - A PersonalStorage object that represents the new PST.
+[PersonalStorage](../../com.aspose.email/personalstorage) - The new PST, open for writing.
 ### create(OutputStream stream, int version) {#create-java.io.OutputStream-int-}
 ```
 public static PersonalStorage create(OutputStream stream, int version)
@@ -342,20 +401,36 @@ public static PersonalStorage create(String fileName, int version)
 ```
 
 
-Creates the new PST file with the specified file name.
+Creates a new PST file.
+
+Only Unicode PST files can be created.
+
+This example creates a PST, adds the standard Inbox folder and puts a message into it.
+
+```
+
+ // Create a new PST; the file must not exist yet
+ try (PersonalStorage pst = PersonalStorage.create("archive.pst", FileFormatVersion.Unicode)) {
+     // Create the standard Inbox folder
+     FolderInfo inbox = pst.createPredefinedFolder("Inbox", StandardIpmFolder.Inbox);
+
+     // Add a message loaded from an .msg file
+     MapiMessage message = MapiMessage.load("message.msg");
+     String entryId = inbox.addMessage(message);
+
+     System.out.println("Added message " + entryId);
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | The full name of the file. |
-| version | int | The PST file version.
-
---------------------
-
-Note, only Unicode file version creation is supported now. |
+| fileName | java.lang.String | The path of the file to create. The file must not exist. |
+| version | int | The version of the PST. Only  FileFormatVersion.Unicode  is supported. |
 
 **Returns:**
-[PersonalStorage](../../com.aspose.email/personalstorage) - A PersonalStorage object that represents the new PST.
+[PersonalStorage](../../com.aspose.email/personalstorage) - The new PST, open for writing.
 ### create(SeekableByteChannel channel, int version) {#create-java.nio.channels.SeekableByteChannel-int-}
 ```
 public static PersonalStorage create(SeekableByteChannel channel, int version)
@@ -382,45 +457,45 @@ public final FolderInfo createPredefinedFolder(String name, int defaultFolder)
 ```
 
 
-Creates the standard interpersonal message (IPM) folder.
+Creates a standard Outlook folder, such as Inbox or Calendar, with the specified name.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | The name of folder. |
-| defaultFolder | int | The value of [StandardIpmFolder](../../com.aspose.email/standardipmfolder) enumeration. |
+| name | java.lang.String | The name of the folder. |
+| defaultFolder | int | Which standard folder to create. |
 
 **Returns:**
-[FolderInfo](../../com.aspose.email/folderinfo) - A [FolderInfo](../../com.aspose.email/folderinfo) object that represents a standard IPM folder.
+[FolderInfo](../../com.aspose.email/folderinfo) - The new folder.
 ### createPredefinedFolder(String name, int defaultFolder, boolean createHierarchy) {#createPredefinedFolder-java.lang.String-int-boolean-}
 ```
 public final FolderInfo createPredefinedFolder(String name, int defaultFolder, boolean createHierarchy)
 ```
 
 
-Creates the standard interpersonal message (IPM) folder.
+Creates a standard Outlook folder, such as Inbox or Calendar, with the specified name.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | The name of folder. |
-| defaultFolder | int | The value of [StandardIpmFolder](../../com.aspose.email/standardipmfolder) enumeration. |
-| createHierarchy | boolean | if set to  true , it is possible to create a folder hierarchy using string notation. Backslash ('\\') is used as path separator. |
+| name | java.lang.String | The name of the folder. |
+| defaultFolder | int | Which standard folder to create. |
+| createHierarchy | boolean |  true  to treat  name  as a path separated by backslashes and create the folders that do not exist yet. |
 
 **Returns:**
-[FolderInfo](../../com.aspose.email/folderinfo) - A [FolderInfo](../../com.aspose.email/folderinfo) object that represents a standard IPM folder.
+[FolderInfo](../../com.aspose.email/folderinfo) - The new folder.
 ### deleteItem(String entryId) {#deleteItem-java.lang.String-}
 ```
 public final void deleteItem(String entryId)
 ```
 
 
-Deletes the item (folder or message) by it's entryId
+Deletes a message or folder by its entry ID.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | java.lang.String |  |
+| entryId | java.lang.String | The entry ID of the item to delete. |
 
 ### dispose() {#dispose--}
 ```
@@ -436,32 +511,32 @@ public final System.Collections.Generic.IGenericEnumerable<MessageInfo> enumerat
 ```
 
 
-Exposes the enumerator, which supports an iteration of messages in folder.
+Enumerates the messages of the folder with the specified entry ID.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | java.lang.String | The string that represents a parent folder entry ID. |
+| entryId | java.lang.String | The entry ID of the folder. |
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageInfo> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageInfo> - Information about the messages. They are read from the file as the sequence is enumerated.
 ### enumerateMessages(String entryId, int startIndex, int count) {#enumerateMessages-java.lang.String-int-int-}
 ```
 public final System.Collections.Generic.IGenericEnumerable<MessageInfo> enumerateMessages(String entryId, int startIndex, int count)
 ```
 
 
-Exposes the enumerator, which supports an iteration of messages in folder.
+Enumerates a range of the messages of the folder with the specified entry ID.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | java.lang.String | The string that represents a parent folder entry ID. |
-| startIndex | int | The start message index. |
-| count | int | The number of messages that will be retrieved. |
+| entryId | java.lang.String | The entry ID of the folder. |
+| startIndex | int | The zero-based index of the first message to return. |
+| count | int | The maximum number of messages to return. |
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageInfo> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageInfo> - Information about the messages. They are read from the file as the sequence is enumerated.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -483,12 +558,12 @@ public final MapiAttachmentCollection extractAttachments(MessageInfo messageInfo
 ```
 
 
-Extracts the attachments.
+Reads the attachments of a message without loading the whole message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| messageInfo | [MessageInfo](../../com.aspose.email/messageinfo) | The message information. |
+| messageInfo | [MessageInfo](../../com.aspose.email/messageinfo) | The message. |
 
 **Returns:**
 [MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) - The [MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) that represents the collection of attachments.
@@ -498,12 +573,12 @@ public final MapiAttachmentCollection extractAttachments(String entryId)
 ```
 
 
-Extracts the attachments.
+Reads the attachments of a message without loading the whole message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | java.lang.String | The message entryId. |
+| entryId | java.lang.String | The entry ID of the message. |
 
 **Returns:**
 [MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) - The [MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) that represents the collection of attachments.
@@ -513,77 +588,75 @@ public final MapiMessage extractMessage(byte[] entryId)
 ```
 
 
-Get the message from PST.
+Loads the full message with the specified entry ID.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | byte[] | EntryId of message. |
+| entryId | byte[] | The entry ID of the message. |
 
 **Returns:**
-[MapiMessage](../../com.aspose.email/mapimessage) - A MapiMessage object.
+[MapiMessage](../../com.aspose.email/mapimessage) - The message with its body, recipients and attachments.
 ### extractMessage(MessageInfo messageInfo) {#extractMessage-com.aspose.email.MessageInfo-}
 ```
 public final MapiMessage extractMessage(MessageInfo messageInfo)
 ```
 
 
-Get the message from PST.
+Loads the full message that a [MessageInfo](../../com.aspose.email/messageinfo) describes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| messageInfo | [MessageInfo](../../com.aspose.email/messageinfo) | A MessageInfo object that represents information about message. |
+| messageInfo | [MessageInfo](../../com.aspose.email/messageinfo) | Information about the message, from  FolderInfo.getContents  or  FolderInfo.enumerateMessages . |
 
 **Returns:**
-[MapiMessage](../../com.aspose.email/mapimessage) - A MapiMessage object.
+[MapiMessage](../../com.aspose.email/mapimessage) - The message with its body, recipients and attachments.
 ### extractMessage(String entryId) {#extractMessage-java.lang.String-}
 ```
 public final MapiMessage extractMessage(String entryId)
 ```
 
 
-Get the message from PST.
+Loads the full message with the specified entry ID.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | java.lang.String | String representation of EntryId. |
+| entryId | java.lang.String | The entry ID of the message, as a string. |
 
 **Returns:**
-[MapiMessage](../../com.aspose.email/mapimessage) - A MapiMessage object.
+[MapiMessage](../../com.aspose.email/mapimessage) - The message with its body, recipients and attachments.
 ### extractProperty(byte[] entryId, long tag) {#extractProperty-byte---long-}
 ```
 public final MapiProperty extractProperty(byte[] entryId, long tag)
 ```
 
 
-Gets the specified property of item, without extract the item fully.
+Reads one property of an item without loading the whole item.
+
+If a property is not found,  null  is returned.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | byte[] | The entry id of item. |
-| tag | long | The property tag.
-
---------------------
-
-If a property is not found, null is returned. |
+| entryId | byte[] | The entry ID of the item. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-[MapiProperty](../../com.aspose.email/mapiproperty) - The MapiProperty.
+[MapiProperty](../../com.aspose.email/mapiproperty) - The property, or  null  if the item does not have it.
 ### extractRecipients(MessageInfo messageInfo) {#extractRecipients-com.aspose.email.MessageInfo-}
 ```
 public final MapiRecipientCollection extractRecipients(MessageInfo messageInfo)
 ```
 
 
-Extracts the recipients.
+Reads the recipients of a message without loading the whole message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| messageInfo | [MessageInfo](../../com.aspose.email/messageinfo) | The message information. |
+| messageInfo | [MessageInfo](../../com.aspose.email/messageinfo) | The message. |
 
 **Returns:**
 [MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection) - The [MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection) that represents the collection of recipients.
@@ -593,106 +666,142 @@ public final MapiRecipientCollection extractRecipients(String entryId)
 ```
 
 
-Extracts the recipients.
+Reads the recipients of a message without loading the whole message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | java.lang.String | The message entryId. |
+| entryId | java.lang.String | The entry ID of the message. |
 
 **Returns:**
 [MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection) - The [MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection) that represents the collection of recipients.
+### findAndEnumerateSoftDeletedItems() {#findAndEnumerateSoftDeletedItems--}
+```
+public final System.Collections.Generic.IGenericEnumerable<RestoredItemEntry> findAndEnumerateSoftDeletedItems()
+```
+
+
+Finds soft-deleted messages and returns them one at a time.
+
+Soft-deleted messages are messages that have been deleted but whose data is still present in the PST.
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.RestoredItemEntry> - The soft-deleted messages, each with the entry ID of the folder it was in. They are read from the file as the sequence is enumerated.
 ### findAndExtractSoftDeletedItems() {#findAndExtractSoftDeletedItems--}
 ```
 public final System.Collections.Generic.IGenericList<RestoredItemEntry> findAndExtractSoftDeletedItems()
 ```
 
 
-Finds and extracts soft-deleted messages from the PST.
+Finds and extracts all soft-deleted messages of the PST.
+
+Soft-deleted messages are messages that have been deleted but whose data is still present in the PST. For a large PST,  findAndEnumerateSoftDeletedItems  reads them one at a time.
+
+This example recovers soft-deleted messages and saves them as .msg files.
+
+```
+
+ try (PersonalStorage pst = PersonalStorage.fromFile("archive.pst")) {
+     int count = 0;
+     for (RestoredItemEntry entry : pst.findAndExtractSoftDeletedItems()) {
+         // The folder the message was deleted from, if it still exists
+         FolderInfo[] folder = { null };
+         String folderName = pst.tryToGetFolderById(entry.getFolderId(), folder)
+                 ? folder[0].getDisplayName()
+                 : "(unknown folder)";
+
+         System.out.println(entry.getItem().getSubject() + " from " + folderName);
+         entry.getItem().save("recovered_" + (++count) + ".msg");
+     }
+ }
+ 
+```
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericList<com.aspose.email.RestoredItemEntry> - A list of [RestoredItemEntry](../../com.aspose.email/restoreditementry) objects, each containing a soft-deleted message and the folder Id it was originally located in.
+com.aspose.ms.System.Collections.Generic.IGenericList<com.aspose.email.RestoredItemEntry> - The soft-deleted messages, each with the entry ID of the folder it was in.
 ### findMessages(String parentEntryId) {#findMessages-java.lang.String-}
 ```
 public final System.Collections.Generic.IGenericList<String> findMessages(String parentEntryId)
 ```
 
 
-Finds the identifiers of messages for for the current folder. It might be useful in case of reading corrupted pst when the GetContents and EnumerateMessages methods could throw an exception.
+Finds the entry IDs of the messages of a folder. Use it to read a damaged PST when  FolderInfo.getContents  and  FolderInfo.enumerateMessages  throw.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parentEntryId | java.lang.String | Entry id of the parent folder. |
+| parentEntryId | java.lang.String | The entry ID of the folder. |
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericList<java.lang.String> - Collection of entry Ids.
+com.aspose.ms.System.Collections.Generic.IGenericList<java.lang.String> - The entry IDs of the messages.
 ### findSubfolders(String parentEntryId) {#findSubfolders-java.lang.String-}
 ```
 public final System.Collections.Generic.IGenericList<String> findSubfolders(String parentEntryId)
 ```
 
 
-Finds the identifiers of subfolders for for the current folder. It might be useful in case of reading corrupted pst when the GetSubfolders and EnumerateFolders methods could throw an exception.
+Finds the entry IDs of the subfolders of a folder. Use it to read a damaged PST when  FolderInfo.getSubFolders  and  FolderInfo.enumerateFolders  throw.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parentEntryId | java.lang.String | Entry id of the parent folder. |
+| parentEntryId | java.lang.String | The entry ID of the folder. |
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericList<java.lang.String> - Collection of entry Ids.
+com.aspose.ms.System.Collections.Generic.IGenericList<java.lang.String> - The entry IDs of the subfolders.
 ### fromFile(String fileName) {#fromFile-java.lang.String-}
 ```
 public static PersonalStorage fromFile(String fileName)
 ```
 
 
-Load PST from file.
+Opens a PST or OST file for reading and writing.
+
+Opening for writing needs write access to the file. To read a file that is read-only or in use, use the overload with writable and pass  false .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | Name of .pst file.
-
---------------------
-
-By default, the pst will support writing. |
+| fileName | java.lang.String | The path of the file. |
 
 **Returns:**
-[PersonalStorage](../../com.aspose.email/personalstorage) - A PersonalStorage object that represents the current PST.
+[PersonalStorage](../../com.aspose.email/personalstorage) - The opened storage.
 ### fromFile(String fileName, boolean writable) {#fromFile-java.lang.String-boolean-}
 ```
 public static PersonalStorage fromFile(String fileName, boolean writable)
 ```
 
 
-Load PST from file.
+Opens a PST or OST file.
+
+Opening for writing needs write access to the file. To read a file that is read-only or in use, open it with  writable  set to  false .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | Name of .pst file. |
-| writable | boolean | if set to  true  then the the pst file will support writing, otherwise it will be opened in read-only mode. |
+| fileName | java.lang.String | The path of the file. |
+| writable | boolean |  true  to open the file for reading and writing;  false  to open it for reading only. |
 
 **Returns:**
-[PersonalStorage](../../com.aspose.email/personalstorage) - A PersonalStorage object that represents the current PST.
+[PersonalStorage](../../com.aspose.email/personalstorage) - The opened storage.
 ### fromFile(String fileName, PersonalStorageLoadOptions loadOptions) {#fromFile-java.lang.String-com.aspose.email.PersonalStorageLoadOptions-}
 ```
 public static PersonalStorage fromFile(String fileName, PersonalStorageLoadOptions loadOptions)
 ```
 
 
-Load PST from file.
+Opens a PST or OST file with the specified options.
+
+The file is opened for writing only if [PersonalStorageLoadOptions.getWritable()](../../com.aspose.email/personalstorageloadoptions\#getWritable--) is  true , which is not the default.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | Name of .pst file. |
-| loadOptions | [PersonalStorageLoadOptions](../../com.aspose.email/personalstorageloadoptions) | The load options. |
+| fileName | java.lang.String | The path of the file. |
+| loadOptions | [PersonalStorageLoadOptions](../../com.aspose.email/personalstorageloadoptions) | The options for opening the file. |
 
 **Returns:**
-[PersonalStorage](../../com.aspose.email/personalstorage) - A PersonalStorage object that represents the current PST.
+[PersonalStorage](../../com.aspose.email/personalstorage) - The opened storage.
 ### fromStream(System.IO.Stream stream) {#fromStream-com.aspose.ms.System.IO.Stream-}
 ```
 public static PersonalStorage fromStream(System.IO.Stream stream)
@@ -750,61 +859,75 @@ public static PersonalStorage fromStream(InputStream stream)
 ```
 
 
-Load PST from stream.
+Opens a PST or OST from a stream for reading and writing.
+
+The stream is closed when the storage is disposed. To keep it open, use the overload with [PersonalStorageLoadOptions](../../com.aspose.email/personalstorageloadoptions) and set its [PersonalStorageLoadOptions.getLeaveStreamOpen()](../../com.aspose.email/personalstorageloadoptions\#getLeaveStreamOpen--) property.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | The System.IO.Stream.
-
---------------------
-
-By default, the pst will support writing. |
+| stream | java.io.InputStream | The stream with the PST or OST data. |
 
 **Returns:**
-[PersonalStorage](../../com.aspose.email/personalstorage) - A PersonalStorage object that represents the current PST.
+[PersonalStorage](../../com.aspose.email/personalstorage) - The opened storage.
 ### fromStream(InputStream stream, boolean writable) {#fromStream-java.io.InputStream-boolean-}
 ```
 public static PersonalStorage fromStream(InputStream stream, boolean writable)
 ```
 
 
-Load PST from stream.
+Opens a PST or OST from a stream.
+
+The stream is closed when the storage is disposed. To keep it open, use the overload with [PersonalStorageLoadOptions](../../com.aspose.email/personalstorageloadoptions) and set its [PersonalStorageLoadOptions.getLeaveStreamOpen()](../../com.aspose.email/personalstorageloadoptions\#getLeaveStreamOpen--) property.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | The System.IO.Stream. |
-| writable | boolean | if set to  true  then the the pst will support writing, otherwise it will be opened in read-only mode. |
+| stream | java.io.InputStream | The stream with the PST or OST data. |
+| writable | boolean |  true  to open the PST for reading and writing;  false  for reading only. |
 
 **Returns:**
-[PersonalStorage](../../com.aspose.email/personalstorage) - A PersonalStorage object that represents the current PST.
+[PersonalStorage](../../com.aspose.email/personalstorage) - The opened storage.
 ### fromStream(InputStream stream, PersonalStorageLoadOptions loadOptions) {#fromStream-java.io.InputStream-com.aspose.email.PersonalStorageLoadOptions-}
 ```
 public static PersonalStorage fromStream(InputStream stream, PersonalStorageLoadOptions loadOptions)
 ```
 
 
-Load PST from stream.
+Opens a PST or OST from a stream with the specified options.
+
+The PST is opened for writing only if [PersonalStorageLoadOptions.getWritable()](../../com.aspose.email/personalstorageloadoptions\#getWritable--) is  true , which is not the default.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | The System.IO.Stream. |
-| loadOptions | [PersonalStorageLoadOptions](../../com.aspose.email/personalstorageloadoptions) | The load options. |
+| stream | java.io.InputStream | The stream with the PST or OST data. |
+| loadOptions | [PersonalStorageLoadOptions](../../com.aspose.email/personalstorageloadoptions) | The options for opening the stream. |
 
 **Returns:**
-[PersonalStorage](../../com.aspose.email/personalstorage) - A PersonalStorage object that represents the current PST.
+[PersonalStorage](../../com.aspose.email/personalstorage) - The opened storage.
 ### getCategories() {#getCategories--}
 ```
 public final List<PstItemCategory> getCategories()
 ```
 
 
-Retrieves a list of PST item categories, each containing a name and associated color.
+Gets the categories used in the PST, each with its name and color.
+
+This example lists the categories of a PST with their colors.
+
+```
+
+ try (PersonalStorage pst = PersonalStorage.fromFile("archive.pst")) {
+     for (PstItemCategory category : pst.getCategories()) {
+         System.out.println(category.getName() + ": " + category.getColor());
+     }
+ }
+ 
+```
 
 **Returns:**
-java.util.List<com.aspose.email.PstItemCategory> - A  List\{PstItemCategory\}  containing all the available categories. The list will be non-empty if there is at least one item in the store that has the category assigned to it. If no categories are found or an error occurs, the list may be empty.
+java.util.List<com.aspose.email.PstItemCategory> - The categories. The list is empty if no categories are found.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -821,30 +944,30 @@ public final FolderInfo getFolderById(byte[] entryId)
 ```
 
 
-Gets the personal folder from PST.
+Gets the folder with the specified entry ID.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | byte[] | The Entry id. |
+| entryId | byte[] | The entry ID of the folder. |
 
 **Returns:**
-[FolderInfo](../../com.aspose.email/folderinfo) - A FolderInfo object.
+[FolderInfo](../../com.aspose.email/folderinfo) - The folder.
 ### getFolderById(String entryIdString) {#getFolderById-java.lang.String-}
 ```
 public final FolderInfo getFolderById(String entryIdString)
 ```
 
 
-Gets the personal folder from PST.
+Gets the folder with the specified entry ID.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryIdString | java.lang.String | String representation of entry ID. |
+| entryIdString | java.lang.String | The entry ID of the folder, as a string. |
 
 **Returns:**
-[FolderInfo](../../com.aspose.email/folderinfo) - A FolderInfo object.
+[FolderInfo](../../com.aspose.email/folderinfo) - The folder.
 ### getFormat() {#getFormat--}
 ```
 public final int getFormat()
@@ -853,71 +976,65 @@ public final int getFormat()
 
 Gets the file format.
 
-Value: [FileFormat](../../com.aspose.email/fileformat) that specifies file format.
-
---------------------
-
 The .pst and .ost file formats are supported now.
 
 **Returns:**
-int
+int - [FileFormat](../../com.aspose.email/fileformat) that specifies file format.
 ### getParentFolder(byte[] entryId) {#getParentFolder-byte---}
 ```
 public final FolderInfo getParentFolder(byte[] entryId)
 ```
 
 
-Gets the parent folder of message.
+Gets the folder that contains a message or folder.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | byte[] | Entry Id of message or folder. |
+| entryId | byte[] | The entry ID of the message or folder. |
 
 **Returns:**
-[FolderInfo](../../com.aspose.email/folderinfo) - The parent folder[FolderInfo](../../com.aspose.email/folderinfo) of message.
+[FolderInfo](../../com.aspose.email/folderinfo) - The parent folder.
 ### getParentFolder(String entryIdString) {#getParentFolder-java.lang.String-}
 ```
 public final FolderInfo getParentFolder(String entryIdString)
 ```
 
 
-Gets the parent folder of message.
+Gets the folder that contains a message or folder.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryIdString | java.lang.String | String representation of Entry Id of message or folder. |
+| entryIdString | java.lang.String | The entry ID of the message or folder, as a string. |
 
 **Returns:**
-[FolderInfo](../../com.aspose.email/folderinfo) - The parent folder[FolderInfo](../../com.aspose.email/folderinfo) of message.
+[FolderInfo](../../com.aspose.email/folderinfo) - The parent folder.
 ### getPredefinedFolder(int defaultFolder) {#getPredefinedFolder-int-}
 ```
 public final FolderInfo getPredefinedFolder(int defaultFolder)
 ```
 
 
-Gets the standard interpersonal message (IPM) folder from PST. Outlook can create a number of default folders, such as Outbox, Deleted Items, Sent Items etc.
+Gets a standard Outlook folder of the PST, such as Inbox, Sent Items or Deleted Items.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| defaultFolder | int | The value of [StandardIpmFolder](../../com.aspose.email/standardipmfolder) enumeration. |
+| defaultFolder | int | Which standard folder to get. |
 
 **Returns:**
-[FolderInfo](../../com.aspose.email/folderinfo) - A [FolderInfo](../../com.aspose.email/folderinfo) object that represents a standard IPM folder.
+[FolderInfo](../../com.aspose.email/folderinfo) - The folder.
 ### getRootFolder() {#getRootFolder--}
 ```
 public final FolderInfo getRootFolder()
 ```
 
 
-Gets the root folder of PST.
-
-Value: [FolderInfo](../../com.aspose.email/folderinfo) that represents a root folder.
+Gets the root folder of the PST, which contains all other folders.
 
 **Returns:**
-[FolderInfo](../../com.aspose.email/folderinfo)
+[FolderInfo](../../com.aspose.email/folderinfo) - [FolderInfo](../../com.aspose.email/folderinfo) that represents a root folder.
 ### getStore() {#getStore--}
 ```
 public final MessageStore getStore()
@@ -926,10 +1043,8 @@ public final MessageStore getStore()
 
 Gets the PST message store.
 
-Value: The [MessageStore](../../com.aspose.email/messagestore) which is the rough equivalent of the top of a Mailbox.
-
 **Returns:**
-[MessageStore](../../com.aspose.email/messagestore)
+[MessageStore](../../com.aspose.email/messagestore) - The [MessageStore](../../com.aspose.email/messagestore), the top-level object of the PST.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -946,7 +1061,7 @@ public final boolean isUnicode()
 ```
 
 
-Gets a value indicating whether the PST file format is Unicode. There are two versions of the PST file format: Unicode and ANSI.
+Gets a value indicating whether the PST is in the Unicode format. Only Unicode PST files can be edited; the older ANSI format is read-only.
 
 **Returns:**
 boolean
@@ -971,42 +1086,48 @@ public final boolean load(InputStream stream)
 ```
 
 
-Load PST from stream. This method is used when a PersonalStorage object is created using the constructor.
+Opens a PST from a stream for reading, for a storage created with the constructor that takes a  TraversalExceptionsCallback .
+
+Problems found while reading are reported to the callback passed to the constructor instead of being thrown.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | The System.IO.Stream. |
+| stream | java.io.InputStream | The stream with the PST data. |
 
 **Returns:**
-boolean - 'true' if the file has been loaded successfully and further traversal is possible; otherwise, false.
+boolean -  true  if the stream has been loaded and can be traversed; otherwise,  false .
 ### load(String fileName) {#load-java.lang.String-}
 ```
 public final boolean load(String fileName)
 ```
 
 
-Load PST from file. This method is used when a PersonalStorage object is created using the constructor.
+Opens a PST file for reading, for a storage created with the constructor that takes a  TraversalExceptionsCallback .
+
+The file is opened for reading only. Problems found while reading are reported to the callback passed to the constructor instead of being thrown.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | The name of .pst file. |
+| fileName | java.lang.String | The path of the file. |
 
 **Returns:**
-boolean - 'true' if the file has been loaded successfully and further traversal is possible; otherwise, false.
+boolean -  true  if the file has been loaded and can be traversed; otherwise,  false .
 ### mergeWith(InputStream[] sourceStreams) {#mergeWith-java.io.InputStream---}
 ```
 public final void mergeWith(InputStream[] sourceStreams)
 ```
 
 
-Merges the pst storage with one or more other pst streams. Thus, the combined stream are sources.
+Merges one or more other PST streams into this PST.
+
+ StorageProcessing  is raised before each source is merged, and  StorageProcessed  after it.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceStreams | java.io.InputStream[] | The source streams. |
+| sourceStreams | java.io.InputStream[] | The streams with the PST data to merge. |
 
 ### mergeWith(String[] sourceFileNames) {#mergeWith-java.lang.String---}
 ```
@@ -1014,12 +1135,31 @@ public final void mergeWith(String[] sourceFileNames)
 ```
 
 
-Merges the pst storage with one or more other pst files. Thus, the combined files are sources.
+Merges one or more other PST files into this PST.
+
+ StorageProcessing  is raised before each source is merged, and  StorageProcessed  after it.
+
+This example merges two PST files into a third one and reports each file as it is merged.
+
+```
+
+ try (PersonalStorage pst = PersonalStorage.fromFile("merged.pst")) {
+     pst.StorageProcessing.add(new StorageProcessingEventHandler() {
+         public void invoke(Object sender, StorageProcessingEventArgs e) {
+             System.out.println("Merging " + e.getFileName());
+         }
+     });
+
+     // Add the contents of the other files to merged.pst
+     pst.mergeWith(new String[] { "2024.pst", "2025.pst" });
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceFileNames | java.lang.String[] | The source file names. |
+| sourceFileNames | java.lang.String[] | The paths of the PST files to merge. |
 
 ### moveItem(FolderInfo folder, FolderInfo newFolder) {#moveItem-com.aspose.email.FolderInfo-com.aspose.email.FolderInfo-}
 ```
@@ -1027,7 +1167,7 @@ public final void moveItem(FolderInfo folder, FolderInfo newFolder)
 ```
 
 
-Moves a specified folder to a new parent folder within the current pst.
+Moves a folder to another parent folder of the same PST.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1041,13 +1181,13 @@ public final void moveItem(MessageInfo message, FolderInfo newFolder)
 ```
 
 
-Moves a specified message to a new folder within the current pst.
+Moves a message to another folder of the same PST.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | message | [MessageInfo](../../com.aspose.email/messageinfo) | The message to move. |
-| newFolder | [FolderInfo](../../com.aspose.email/folderinfo) | The new folder for the message. |
+| newFolder | [FolderInfo](../../com.aspose.email/folderinfo) | The folder to move the message to. |
 
 ### notify() {#notify--}
 ```
@@ -1071,17 +1211,15 @@ public final void saveAs(OutputStream stream, int format)
 ```
 
 
-Saves the current object to a specified file format in a stream.
+Saves the storage to a stream in the specified format.
+
+Use it for a fast OST to PST conversion. It does not support OST files of Outlook 2013 and later; to convert such a file, create a new PST and call its \#mergeWith(InputStream[]).mergeWith(InputStream[]) method.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream | The stream to be saved. |
-| format | int | The [FileFormat](../../com.aspose.email/fileformat) is to be used.
-
---------------------
-
-It is used for the fast OST to PST conversion. The method doesn't support conversion of OST created by MS Office 2013 and later versions. To convert an OST of later version, create a new PST and use the \#mergeWith(Stream[]).mergeWith(Stream[]) method. |
+| stream | java.io.OutputStream | The stream to write to. |
+| format | int | The format to save in. |
 
 ### saveAs(String fileName, int format) {#saveAs-java.lang.String-int-}
 ```
@@ -1089,17 +1227,25 @@ public final void saveAs(String fileName, int format)
 ```
 
 
-Saves the current object to a specified file format in a different file.
+Saves the storage to another file in the specified format.
+
+Use it for a fast OST to PST conversion. It does not support OST files of Outlook 2013 and later; to convert such a file, create a new PST and call its \#mergeWith(String[]).mergeWith(String[]) method.
+
+This example converts an OST file to PST.
+
+```
+
+ try (PersonalStorage ost = PersonalStorage.fromFile("mailbox.ost")) {
+     ost.saveAs("mailbox.pst", FileFormat.Pst);
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | The name of the file to be saved. |
-| format | int | The [FileFormat](../../com.aspose.email/fileformat) is to be used when saving a file.
-
---------------------
-
-It is used for the fast OST to PST conversion. The method doesn't support conversion of OST created by MS Office 2013 and later versions. To convert an OST of later version, create a new PST and use the \#mergeWith(String[]).mergeWith(String[]) method. |
+| fileName | java.lang.String | The path of the file to create. |
+| format | int | The format to save in. |
 
 ### saveMessageToFile(String entryId, String fileName) {#saveMessageToFile-java.lang.String-java.lang.String-}
 ```
@@ -1121,13 +1267,13 @@ public final void saveMessageToStream(String entryId, OutputStream stream)
 ```
 
 
-Saves the message, with specified entryID, to a stream.
+Saves a message to a stream in Outlook MSG format, without loading it into a  MapiMessage .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | java.lang.String | The entry id. |
-| stream | java.io.OutputStream | The stream for writing. |
+| entryId | java.lang.String | The entry ID of the message. |
+| stream | java.io.OutputStream | The stream to write to. |
 
 ### splitInto(System.Collections.Generic.IGenericList<MailQuery> criteria, String path) {#splitInto-com.aspose.ms.System.Collections.Generic.IGenericList-com.aspose.email.MailQuery--java.lang.String-}
 ```
@@ -1135,13 +1281,13 @@ public final void splitInto(System.Collections.Generic.IGenericList<MailQuery> c
 ```
 
 
-Splits the pst storage based on criteria.
+Splits the PST into several files by search criteria.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| criteria | com.aspose.ms.System.Collections.Generic.IGenericList<com.aspose.email.MailQuery> | The collection of [MailQuery](../../com.aspose.email/mailquery) that represents criteria of pst splitting. |
-| path | java.lang.String | The folder path where chunks will be created. |
+| criteria | com.aspose.ms.System.Collections.Generic.IGenericList<com.aspose.email.MailQuery> | The search criteria. A separate PST is created for the messages that match each [MailQuery](../../com.aspose.email/mailquery). |
+| path | java.lang.String | The folder to create the PST files in. |
 
 ### splitInto(System.Collections.Generic.IGenericList<MailQuery> criteria, String partFileNamePrefix, String path) {#splitInto-com.aspose.ms.System.Collections.Generic.IGenericList-com.aspose.email.MailQuery--java.lang.String-java.lang.String-}
 ```
@@ -1149,14 +1295,16 @@ public final void splitInto(System.Collections.Generic.IGenericList<MailQuery> c
 ```
 
 
-Splits the pst storage based on criteria.
+Splits the PST into several files by search criteria, named with a prefix.
+
+The files are named after the template  \{prefix\}\_part\{number\}.pst ; without a prefix, the  \{prefix\}  part is left out.  StorageProcessed  is raised after each file is created.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| criteria | com.aspose.ms.System.Collections.Generic.IGenericList<com.aspose.email.MailQuery> | The collection of [MailQuery](../../com.aspose.email/mailquery) that represents criteria of pst splitting. |
-| partFileNamePrefix | java.lang.String | The prefix to be added to the filename of each part of pst. If provided, the prefix will be added to the beginning of each file name. If not provided (null or empty), the pst parts will be created without a prefix. The pst file names are produced using the following template: \{prefix\}\_part\{number\}.pst - \{prefix\}: The filename prefix provided by the partFileNamePrefix parameter. If not provided, this part will be omitted. - \{number\}: The number of the chunk file. |
-| path | java.lang.String | The folder path where chunks will be created. |
+| criteria | com.aspose.ms.System.Collections.Generic.IGenericList<com.aspose.email.MailQuery> | The search criteria. A separate PST is created for the messages that match each [MailQuery](../../com.aspose.email/mailquery). |
+| partFileNamePrefix | java.lang.String | The prefix of the file names. If it is  null  or empty, the files are named without a prefix. |
+| path | java.lang.String | The folder to create the PST files in. |
 
 ### splitInto(long chunkSize, String path) {#splitInto-long-java.lang.String-}
 ```
@@ -1164,13 +1312,13 @@ public final void splitInto(long chunkSize, String path)
 ```
 
 
-Splits the pst storage into less sized parts.
+Splits the PST into files of about the specified size.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chunkSize | long | The approximate size of a chunk in bytes. |
-| path | java.lang.String | The folder path where chunks will be created. |
+| chunkSize | long | The approximate size of each PST file, in bytes. It must be greater than 271,360 bytes. |
+| path | java.lang.String | The folder to create the PST files in. |
 
 ### splitInto(long chunkSize, String partFileNamePrefix, String path) {#splitInto-long-java.lang.String-java.lang.String-}
 ```
@@ -1178,18 +1326,33 @@ public final void splitInto(long chunkSize, String partFileNamePrefix, String pa
 ```
 
 
-Splits the pst storage into less sized parts.
+Splits the PST into files of about the specified size, named with a prefix.
+
+The files are named after the template  \{prefix\}\_part\{number\}.pst ; without a prefix, the  \{prefix\}  part is left out.  StorageProcessed  is raised after each file is created.
+
+This example splits a PST into files of about 50 MB and reports each new file.
+
+```
+
+ try (PersonalStorage pst = PersonalStorage.fromFile("archive.pst")) {
+     pst.StorageProcessed.add(new StorageProcessedEventHandler() {
+         public void invoke(Object sender, StorageProcessedEventArgs e) {
+             System.out.println("Created " + e.getFileName());
+         }
+     });
+
+     // Files of about 50 MB, named archive_part{number}.pst
+     pst.splitInto(50 * 1024 * 1024, "archive", "C:\\Split");
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chunkSize | long | The approximate size of a chunk in bytes. |
-| partFileNamePrefix | java.lang.String | The prefix to be added to the filename of each part of pst. If provided, the prefix will be added to the beginning of each file name. If not provided (null or empty), the pst parts will be created without a prefix.
-
---------------------
-
-The pst file names are produced using the following template: \{prefix\}\_part\{number\}.pst - \{prefix\}: The filename prefix provided by the partFileNamePrefix parameter. If not provided, this part will be omitted. - \{number\}: The number of the chunk file. |
-| path | java.lang.String | The folder path where chunks will be created. |
+| chunkSize | long | The approximate size of each PST file, in bytes. It must be greater than 271,360 bytes. |
+| partFileNamePrefix | java.lang.String | The prefix of the file names. If it is  null  or empty, the files are named without a prefix. |
+| path | java.lang.String | The folder to create the PST files in. |
 
 ### toString() {#toString--}
 ```
@@ -1207,32 +1370,56 @@ public final boolean tryToGetFolderById(String entryIdString, FolderInfo[] folde
 ```
 
 
-Gets the folder associated with the specified entry ID.
+Tries to get the folder with the specified entry ID.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryIdString | java.lang.String | The string that represented the entry ID. |
-| folder | [FolderInfo\[\]](../../com.aspose.email/folderinfo) | When this method returns true, contains the [FolderInfo](../../com.aspose.email/folderinfo) object associated with the specified ID. |
+| entryIdString | java.lang.String | The entry ID of the folder, as a string. |
+| folder | [FolderInfo\[\]](../../com.aspose.email/folderinfo) | When the method returns  true , the folder; otherwise,  null . |
 
 **Returns:**
-boolean - true if the folder is successfully found; otherwise, false.
+boolean -  true  if the folder is found; otherwise,  false .
 ### tryToSaveMessage(String entryId, OutputStream stream) {#tryToSaveMessage-java.lang.String-java.io.OutputStream-}
 ```
 public final SaveResult tryToSaveMessage(String entryId, OutputStream stream)
 ```
 
 
-Saves the message, with specified entryID, to a stream.
+Saves a message to a stream in Outlook MSG format, keeping as much of a damaged message as can be read instead of failing.
+
+This example salvages the messages of a damaged Inbox and reports the ones that were saved only in part.
+
+```
+
+ try (PersonalStorage pst = PersonalStorage.fromFile("damaged.pst", false)) {
+     FolderInfo inbox = pst.getPredefinedFolder(StandardIpmFolder.Inbox);
+     int count = 0;
+
+     // findMessages works even when the message list of the folder is damaged
+     for (String entryId : pst.findMessages(inbox.getEntryIdString())) {
+         try (FileOutputStream stream = new FileOutputStream("message_" + (++count) + ".msg")) {
+             SaveResult result = pst.tryToSaveMessage(entryId, stream);
+             if (result.getStatus() != SaveStatus.Success) {
+                 System.out.println("message_" + count + ".msg: " + result.getStatus() + ", "
+                         + result.getMissedProperties().size() + " properties lost");
+             }
+         } catch (IOException e) {
+             e.printStackTrace();
+         }
+     }
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | java.lang.String | The entry id. |
-| stream | java.io.OutputStream | The stream for writing. |
+| entryId | java.lang.String | The entry ID of the message. |
+| stream | java.io.OutputStream | The stream to write to. |
 
 **Returns:**
-[SaveResult](../../com.aspose.email/saveresult) - The [SaveResult](../../com.aspose.email/saveresult) that represents the result of item saving.
+[SaveResult](../../com.aspose.email/saveresult) - A [SaveResult](../../com.aspose.email/saveresult) that tells whether the message was saved completely or partially, and which properties could not be read.
 ### wait() {#wait--}
 ```
 public final void wait()

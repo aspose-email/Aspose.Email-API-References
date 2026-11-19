@@ -1,7 +1,7 @@
 ---
 title: AppointmentSaveFormat
 second_title: Aspose.Email for Java API Reference
-description: Enumerates AppointmentSaveFormat
+description: Formats an appointment can be saved in.
 type: docs
 weight: 47
 url: /java/com.aspose.email/appointmentsaveformat/
@@ -13,14 +13,14 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class AppointmentSaveFormat extends System.Enum
 ```
 
-Enumerates AppointmentSaveFormat
+Formats an appointment can be saved in.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Ics](#Ics) | ICalendar format |
-| [Msg](#Msg) | MSG format. |
+| [Ics](#Ics) | iCalendar (ICS). |
+| [Msg](#Msg) | Outlook message (MSG). |
 ## Methods
 
 | Method | Description |
@@ -72,7 +72,7 @@ public static final int Ics
 ```
 
 
-ICalendar format
+iCalendar (ICS).
 
 ### Msg {#Msg}
 ```
@@ -80,7 +80,7 @@ public static final int Msg
 ```
 
 
-MSG format.
+Outlook message (MSG).
 
 ### Clone() {#Clone--}
 ```

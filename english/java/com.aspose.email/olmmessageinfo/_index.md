@@ -3,7 +3,7 @@ title: OlmMessageInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents an information about message in the OLM storage.
 type: docs
-weight: 572
+weight: 576
 url: /java/com.aspose.email/olmmessageinfo/
 ---
 
@@ -27,7 +27,7 @@ Represents an information about message in the OLM storage.
 | [getModifiedDate()](#getModifiedDate--) | Gets the date of message. |
 | [getSubject()](#getSubject--) | Gets the message subject. |
 | [getTo()](#getTo--) | Gets the address collection that contains the recipients of message. |
-| [hasAttachments()](#hasAttachments--) | Gets or sets a value indicating whether the message has attachments. |
+| [hasAttachments()](#hasAttachments--) | Gets a value indicating whether the message has attachments. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -78,10 +78,8 @@ public final String getEntryId()
 
 Gets the message entry identifier.
 
-Value: The entry identifier.
-
 **Returns:**
-java.lang.String
+java.lang.String - The entry identifier.
 ### getFrom() {#getFrom--}
 ```
 public final MapiElectronicAddress getFrom()
@@ -138,12 +136,10 @@ public final boolean hasAttachments()
 ```
 
 
-Gets or sets a value indicating whether the message has attachments.
-
-Value:  true  if this instance has attachments; otherwise,  false .
+Gets a value indicating whether the message has attachments.
 
 **Returns:**
-boolean
+boolean -  true  if this instance has attachments; otherwise,  false .
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

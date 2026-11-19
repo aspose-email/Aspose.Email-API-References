@@ -1,9 +1,9 @@
 ---
 title: VCardDeliveryAddressType
 second_title: Aspose.Email for Java API Reference
-description: Enumerates a vCard delivery address types
+description: Enumerates a vCard delivery address types.
 type: docs
-weight: 735
+weight: 745
 url: /java/com.aspose.email/vcarddeliveryaddresstype/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class VCardDeliveryAddressType extends System.Enum
 ```
 
-Enumerates a vCard delivery address types
+Enumerates a vCard delivery address types.
 ## Constructors
 
 | Constructor | Description |
@@ -23,15 +23,15 @@ Enumerates a vCard delivery address types
 
 | Field | Description |
 | --- | --- |
-| [DOM](#DOM) | A domestic address |
+| [DOM](#DOM) | A domestic address. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [HOME](#HOME) | A home delivery address |
-| [INTL](#INTL) | An international address |
+| [HOME](#HOME) | A home delivery address. |
+| [INTL](#INTL) | An international address. |
 | [None](#None) | No values are set. |
-| [PARCEL](#PARCEL) | A parcel delivery address |
-| [POSTAL](#POSTAL) | A postal delivery address |
-| [PREF](#PREF) | A preferred delivery address |
-| [WORK](#WORK) | A work delivery address |
+| [PARCEL](#PARCEL) | A parcel delivery address. |
+| [POSTAL](#POSTAL) | A postal delivery address. |
+| [PREF](#PREF) | A preferred delivery address. |
+| [WORK](#WORK) | A work delivery address. |
 ## Methods
 
 | Method | Description |
@@ -85,7 +85,7 @@ public static final int DOM
 ```
 
 
-A domestic address
+A domestic address.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -99,7 +99,7 @@ public static final int HOME
 ```
 
 
-A home delivery address
+A home delivery address.
 
 ### INTL {#INTL}
 ```
@@ -107,7 +107,7 @@ public static final int INTL
 ```
 
 
-An international address
+An international address.
 
 ### None {#None}
 ```
@@ -123,7 +123,7 @@ public static final int PARCEL
 ```
 
 
-A parcel delivery address
+A parcel delivery address.
 
 ### POSTAL {#POSTAL}
 ```
@@ -131,7 +131,7 @@ public static final int POSTAL
 ```
 
 
-A postal delivery address
+A postal delivery address.
 
 ### PREF {#PREF}
 ```
@@ -139,7 +139,7 @@ public static final int PREF
 ```
 
 
-A preferred delivery address
+A preferred delivery address.
 
 ### WORK {#WORK}
 ```
@@ -147,7 +147,7 @@ public static final int WORK
 ```
 
 
-A work delivery address
+A work delivery address.
 
 ### Clone() {#Clone--}
 ```

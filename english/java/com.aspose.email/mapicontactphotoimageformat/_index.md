@@ -1,9 +1,9 @@
 ---
 title: MapiContactPhotoImageFormat
 second_title: Aspose.Email for Java API Reference
-description: Enumerates MapiContact photo image format.
+description: Defines the image formats of a contact photo.
 type: docs
-weight: 445
+weight: 448
 url: /java/com.aspose.email/mapicontactphotoimageformat/
 ---
 
@@ -13,18 +13,19 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiContactPhotoImageFormat extends System.Enum
 ```
 
-Enumerates MapiContact photo image format.
+Defines the image formats of a contact photo.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Bmp](#Bmp) | MS windows bitmap. |
+| [Bmp](#Bmp) | Windows bitmap (BMP). |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Gif](#Gif) | Graphics interchange format. |
-| [Jpeg](#Jpeg) | Jpeg format |
-| [Tiff](#Tiff) | Tagged image file format. |
-| [Undefined](#Undefined) | Undefined format. |
-| [Wmf](#Wmf) | MS windows metafile. |
+| [Gif](#Gif) | GIF. |
+| [Jpeg](#Jpeg) | JPEG. |
+| [Png](#Png) | PNG. |
+| [Tiff](#Tiff) | TIFF. |
+| [Undefined](#Undefined) | The format is not defined. |
+| [Wmf](#Wmf) | Windows metafile (WMF). |
 ## Methods
 
 | Method | Description |
@@ -70,7 +71,7 @@ public static final int Bmp
 ```
 
 
-MS windows bitmap.
+Windows bitmap (BMP).
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -84,7 +85,7 @@ public static final int Gif
 ```
 
 
-Graphics interchange format.
+GIF.
 
 ### Jpeg {#Jpeg}
 ```
@@ -92,7 +93,15 @@ public static final int Jpeg
 ```
 
 
-Jpeg format
+JPEG.
+
+### Png {#Png}
+```
+public static final int Png
+```
+
+
+PNG.
 
 ### Tiff {#Tiff}
 ```
@@ -100,7 +109,7 @@ public static final int Tiff
 ```
 
 
-Tagged image file format.
+TIFF.
 
 ### Undefined {#Undefined}
 ```
@@ -108,7 +117,7 @@ public static final int Undefined
 ```
 
 
-Undefined format.
+The format is not defined.
 
 ### Wmf {#Wmf}
 ```
@@ -116,7 +125,7 @@ public static final int Wmf
 ```
 
 
-MS windows metafile.
+Windows metafile (WMF).
 
 ### Clone() {#Clone--}
 ```

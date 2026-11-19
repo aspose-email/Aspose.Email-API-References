@@ -3,7 +3,7 @@ title: SmimeKey
 second_title: Aspose.Email for Java API Reference
 description: A wrapper around a PrivateKey and a chain of X509Certificate used to sign or decrypt a MIME message.
 type: docs
-weight: 672
+weight: 677
 url: /java/com.aspose.email/smimekey/
 ---
 

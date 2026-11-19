@@ -3,7 +3,7 @@ title: ComparisonField
 second_title: Aspose.Email for Java API Reference
 description: Base class that represents one search field.
 type: docs
-weight: 111
+weight: 112
 url: /java/com.aspose.email/comparisonfield/
 ---
 
@@ -90,7 +90,7 @@ Sets value which indicates if client uses ascending or descending sorting on the
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ascending | boolean | Set true if you want to use ascending sorting, otherwise set false. |
+| ascending | boolean | Set  true  if you want to use ascending sorting, otherwise set  false . |
 
 ### toString() {#toString--}
 ```

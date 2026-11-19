@@ -3,7 +3,7 @@ title: SpamAnalyzer
 second_title: Aspose.Email for Java API Reference
 description: Class which allows applications to detect spam e-mails with self-learning Bayesian filter.
 type: docs
-weight: 686
+weight: 691
 url: /java/com.aspose.email/spamanalyzer/
 ---
 
@@ -225,7 +225,7 @@ Learns from the specified message as from spam or non-spam source.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | message | [MailMessage](../../com.aspose.email/mailmessage) | A reference to the MailMessage object representing the message to train the Bayesian filter. |
-| isSpam | boolean | True if the message is a spam; false if it's a legitimate message. |
+| isSpam | boolean | True if the message is a spam;  false  if it's a legitimate message. |
 
 ### trainFilter(MailMessage[] ham, MailMessage[] spam) {#trainFilter-com.aspose.email.MailMessage---com.aspose.email.MailMessage---}
 ```
@@ -253,7 +253,7 @@ Learns from the specified string as from spam or non-spam source.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | text | java.lang.String | A string value to train the Bayesian filter. |
-| isSpam | boolean | True if specified text is a spam; false if it's a legitimate text. |
+| isSpam | boolean | True if specified text is a spam;  false  if it's a legitimate text. |
 
 ### wait() {#wait--}
 ```

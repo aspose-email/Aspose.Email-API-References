@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarMonthlyRecurrencePattern
 second_title: Aspose.Email for Java API Reference
-description: Represents the monthly recurrence pattern of the mapi calendar
+description: A recurrence on a given day of every N months such as the 15th of every month.
 type: docs
-weight: 416
+weight: 419
 url: /java/com.aspose.email/mapicalendarmonthlyrecurrencepattern/
 ---
 
@@ -13,7 +13,9 @@ java.lang.Object, [com.aspose.email.MapiCalendarRecurrencePattern](../../com.asp
 public class MapiCalendarMonthlyRecurrencePattern extends MapiCalendarYearlyAndMonthlyRecurrencePattern
 ```
 
-Represents the monthly recurrence pattern of the mapi calendar
+A recurrence on a given day of every N months, such as "the 15th of every month".
+
+Set the day with [MapiCalendarYearlyAndMonthlyRecurrencePattern.getDay()](../../com.aspose.email/mapicalendaryearlyandmonthlyrecurrencepattern\#getDay--) and the interval in months with [MapiCalendarYearlyAndMonthlyRecurrencePattern.getPeriod()](../../com.aspose.email/mapicalendaryearlyandmonthlyrecurrencepattern\#getPeriod--).
 ## Constructors
 
 | Constructor | Description |
@@ -24,38 +26,38 @@ Represents the monthly recurrence pattern of the mapi calendar
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCalendarType()](#getCalendarType--) | Gets or sets the type of calendar that is used |
+| [getCalendarType()](#getCalendarType--) | Gets the calendar system of the recurrence. |
 | [getClass()](#getClass--) |  |
-| [getDay()](#getDay--) | Gets or sets day of the month on which the recurrence falls. |
-| [getDayOfWeek()](#getDayOfWeek--) | Gets or sets the days of week at which the event occurs |
-| [getDeletedInstanceDates()](#getDeletedInstanceDates--) | An array of dates, each of which is the original instance date of either a deleted instance or a modified instance for this recurrence. |
-| [getEndDate()](#getEndDate--) | Gets or sets Defines the end date of an item recurrence pattern. |
-| [getEndType()](#getEndType--) | Gets or sets the ending type for the recurrence. |
-| [getExceptions()](#getExceptions--) | An exception specifies changes to an instance of a recurring series. |
-| [getFrequency()](#getFrequency--) | Gets or sets the frequency of the recurring series. |
-| [getModifiedInstanceDates()](#getModifiedInstanceDates--) | An array of dates, each of which is the date of a modified instance. |
-| [getOccurrenceCount()](#getOccurrenceCount--) | Gets or sets the number of occurrences in a recurrence. |
-| [getPatternType()](#getPatternType--) | Gets or sets the type of recurrence pattern |
-| [getPeriod()](#getPeriod--) | Gets or sets interval (in months) at which the meeting pattern repeats |
-| [getPosition()](#getPosition--) | Gets or sets the occurrence of the recurrence's days in each month in which the recurrence falls. |
-| [getSlidingFlag()](#getSlidingFlag--) | Defines whether pattern is sliding or not. |
-| [getStartDate()](#getStartDate--) | Gets or sets the start date of an item recurrence pattern. |
-| [getWeekStartDay()](#getWeekStartDay--) | Gets or sets the first day of the calendar week. |
+| [getDay()](#getDay--) | Gets the day of the month the event occurs on. |
+| [getDayOfWeek()](#getDayOfWeek--) | Gets the days of the week the event occurs on, for a recurrence on the Nth weekday of the month. |
+| [getDeletedInstanceDates()](#getDeletedInstanceDates--) | Gets the original dates of the occurrences that were deleted or changed. |
+| [getEndDate()](#getEndDate--) | Gets the date of the last occurrence, used when \#getEndType().getEndType() is  EndAfterDate . |
+| [getEndType()](#getEndType--) | Gets how the series ends. |
+| [getExceptions()](#getExceptions--) | Gets the exceptions of the series: the occurrences whose details were changed. |
+| [getFrequency()](#getFrequency--) | Gets how often the series repeats:  Yearly  when [MapiCalendarWeeklyRecurrencePattern.getPeriod()](../../com.aspose.email/mapicalendarweeklyrecurrencepattern\#getPeriod--) is a multiple of 12, otherwise  Monthly . |
+| [getModifiedInstanceDates()](#getModifiedInstanceDates--) | Gets the dates of the occurrences that were changed. |
+| [getOccurrenceCount()](#getOccurrenceCount--) | Gets the number of occurrences, used when \#getEndType().getEndType() is  EndAfterNOccurrences . |
+| [getPatternType()](#getPatternType--) | Gets the type of the recurrence pattern. |
+| [getPeriod()](#getPeriod--) | Gets the interval of the recurrence, in months: 12 for a yearly recurrence. |
+| [getPosition()](#getPosition--) | Gets which occurrence of [MapiCalendarWeeklyRecurrencePattern.getDayOfWeek()](../../com.aspose.email/mapicalendarweeklyrecurrencepattern\#getDayOfWeek--) in the month the event falls on, such as the second or the last. |
+| [getSlidingFlag()](#getSlidingFlag--) | Gets a value indicating whether the next occurrence is calculated from the completion of the previous one rather than from a fixed schedule. |
+| [getStartDate()](#getStartDate--) | Gets the date of the first occurrence. |
+| [getWeekStartDay()](#getWeekStartDay--) | Gets the first day of the week. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCalendarType(int value)](#setCalendarType-int-) | Gets or sets the type of calendar that is used |
-| [setDay(long value)](#setDay-long-) | Gets or sets day of the month on which the recurrence falls. |
-| [setDayOfWeek(int value)](#setDayOfWeek-int-) | Gets or sets the days of week at which the event occurs |
-| [setEndDate(Date value)](#setEndDate-java.util.Date-) | Gets or sets Defines the end date of an item recurrence pattern. |
-| [setEndType(int value)](#setEndType-int-) | Gets or sets the ending type for the recurrence. |
-| [setOccurrenceCount(long value)](#setOccurrenceCount-long-) | Gets or sets the number of occurrences in a recurrence. |
-| [setPatternType(int value)](#setPatternType-int-) | Gets or sets the type of recurrence pattern |
-| [setPeriod(long value)](#setPeriod-long-) | Gets or sets interval (in months) at which the meeting pattern repeats |
-| [setPosition(int value)](#setPosition-int-) | Gets or sets the occurrence of the recurrence's days in each month in which the recurrence falls. |
-| [setSlidingFlag(boolean value)](#setSlidingFlag-boolean-) | Defines whether pattern is sliding or not. |
-| [setStartDate(Date value)](#setStartDate-java.util.Date-) | Gets or sets the start date of an item recurrence pattern. |
-| [setWeekStartDay(int value)](#setWeekStartDay-int-) | Gets or sets the first day of the calendar week. |
+| [setCalendarType(int value)](#setCalendarType-int-) | Sets the calendar system of the recurrence. |
+| [setDay(long value)](#setDay-long-) | Sets the day of the month the event occurs on. |
+| [setDayOfWeek(int value)](#setDayOfWeek-int-) | Sets the days of the week the event occurs on, for a recurrence on the Nth weekday of the month. |
+| [setEndDate(Date value)](#setEndDate-java.util.Date-) | Sets the date of the last occurrence, used when \#getEndType().getEndType() is  EndAfterDate . |
+| [setEndType(int value)](#setEndType-int-) | Sets how the series ends. |
+| [setOccurrenceCount(long value)](#setOccurrenceCount-long-) | Sets the number of occurrences, used when \#getEndType().getEndType() is  EndAfterNOccurrences . |
+| [setPatternType(int value)](#setPatternType-int-) | Sets the type of the recurrence pattern. |
+| [setPeriod(long value)](#setPeriod-long-) | Sets the interval of the recurrence, in months: 12 for a yearly recurrence. |
+| [setPosition(int value)](#setPosition-int-) | Sets which occurrence of [MapiCalendarWeeklyRecurrencePattern.getDayOfWeek()](../../com.aspose.email/mapicalendarweeklyrecurrencepattern\#getDayOfWeek--) in the month the event falls on, such as the second or the last. |
+| [setSlidingFlag(boolean value)](#setSlidingFlag-boolean-) | Sets a value indicating whether the next occurrence is calculated from the completion of the previous one rather than from a fixed schedule. |
+| [setStartDate(Date value)](#setStartDate-java.util.Date-) | Sets the date of the first occurrence. |
+| [setWeekStartDay(int value)](#setWeekStartDay-int-) | Sets the first day of the week. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -87,7 +89,7 @@ public final int getCalendarType()
 ```
 
 
-Gets or sets the type of calendar that is used
+Gets the calendar system of the recurrence.
 
 **Returns:**
 int
@@ -107,7 +109,7 @@ public final long getDay()
 ```
 
 
-Gets or sets day of the month on which the recurrence falls.
+Gets the day of the month the event occurs on.
 
 **Returns:**
 long
@@ -117,7 +119,7 @@ public final int getDayOfWeek()
 ```
 
 
-Gets or sets the days of week at which the event occurs
+Gets the days of the week the event occurs on, for a recurrence on the Nth weekday of the month.
 
 **Returns:**
 int
@@ -127,7 +129,7 @@ public System.Collections.Generic.IGenericList<Date> getDeletedInstanceDates()
 ```
 
 
-An array of dates, each of which is the original instance date of either a deleted instance or a modified instance for this recurrence.
+Gets the original dates of the occurrences that were deleted or changed.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericList<java.util.Date>
@@ -137,7 +139,7 @@ public final Date getEndDate()
 ```
 
 
-Gets or sets Defines the end date of an item recurrence pattern.
+Gets the date of the last occurrence, used when \#getEndType().getEndType() is  EndAfterDate .
 
 **Returns:**
 java.util.Date
@@ -147,7 +149,7 @@ public final int getEndType()
 ```
 
 
-Gets or sets the ending type for the recurrence.
+Gets how the series ends.
 
 **Returns:**
 int
@@ -157,7 +159,7 @@ public final System.Collections.Generic.IGenericList<MapiCalendarExceptionInfo> 
 ```
 
 
-An exception specifies changes to an instance of a recurring series.
+Gets the exceptions of the series: the occurrences whose details were changed.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericList<com.aspose.email.MapiCalendarExceptionInfo>
@@ -167,7 +169,7 @@ public int getFrequency()
 ```
 
 
-Gets or sets the frequency of the recurring series.
+Gets how often the series repeats:  Yearly  when [MapiCalendarWeeklyRecurrencePattern.getPeriod()](../../com.aspose.email/mapicalendarweeklyrecurrencepattern\#getPeriod--) is a multiple of 12, otherwise  Monthly .
 
 **Returns:**
 int
@@ -177,7 +179,7 @@ public System.Collections.Generic.IGenericList<Date> getModifiedInstanceDates()
 ```
 
 
-An array of dates, each of which is the date of a modified instance.
+Gets the dates of the occurrences that were changed.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericList<java.util.Date>
@@ -187,7 +189,7 @@ public final long getOccurrenceCount()
 ```
 
 
-Gets or sets the number of occurrences in a recurrence.
+Gets the number of occurrences, used when \#getEndType().getEndType() is  EndAfterNOccurrences .
 
 **Returns:**
 long
@@ -197,7 +199,7 @@ public final int getPatternType()
 ```
 
 
-Gets or sets the type of recurrence pattern
+Gets the type of the recurrence pattern.
 
 **Returns:**
 int
@@ -207,7 +209,7 @@ public long getPeriod()
 ```
 
 
-Gets or sets interval (in months) at which the meeting pattern repeats
+Gets the interval of the recurrence, in months: 12 for a yearly recurrence.
 
 **Returns:**
 long
@@ -217,7 +219,7 @@ public final int getPosition()
 ```
 
 
-Gets or sets the occurrence of the recurrence's days in each month in which the recurrence falls.
+Gets which occurrence of [MapiCalendarWeeklyRecurrencePattern.getDayOfWeek()](../../com.aspose.email/mapicalendarweeklyrecurrencepattern\#getDayOfWeek--) in the month the event falls on, such as the second or the last.
 
 **Returns:**
 int
@@ -227,7 +229,7 @@ public final boolean getSlidingFlag()
 ```
 
 
-Defines whether pattern is sliding or not.
+Gets a value indicating whether the next occurrence is calculated from the completion of the previous one rather than from a fixed schedule. Used by recurring tasks.
 
 **Returns:**
 boolean
@@ -237,7 +239,7 @@ public final Date getStartDate()
 ```
 
 
-Gets or sets the start date of an item recurrence pattern.
+Gets the date of the first occurrence.
 
 **Returns:**
 java.util.Date
@@ -247,7 +249,7 @@ public final int getWeekStartDay()
 ```
 
 
-Gets or sets the first day of the calendar week.
+Gets the first day of the week.
 
 **Returns:**
 int
@@ -283,7 +285,7 @@ public final void setCalendarType(int value)
 ```
 
 
-Gets or sets the type of calendar that is used
+Sets the calendar system of the recurrence.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -296,7 +298,7 @@ public final void setDay(long value)
 ```
 
 
-Gets or sets day of the month on which the recurrence falls.
+Sets the day of the month the event occurs on.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -309,15 +311,12 @@ public final void setDayOfWeek(int value)
 ```
 
 
-Gets or sets the days of week at which the event occurs
+Sets the days of the week the event occurs on, for a recurrence on the Nth weekday of the month.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | Flags attribute [MapiCalendarDayOfWeek](../../com.aspose.email/mapicalendardayofweek).
-
-*For example:*
- MapiCalendarDayOfWeek.Wednesday | MapiCalendarDayOfWeek.Thursday  |
+| value | int |  |
 
 ### setEndDate(Date value) {#setEndDate-java.util.Date-}
 ```
@@ -325,7 +324,7 @@ public final void setEndDate(Date value)
 ```
 
 
-Gets or sets Defines the end date of an item recurrence pattern.
+Sets the date of the last occurrence, used when \#getEndType().getEndType() is  EndAfterDate .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -338,7 +337,7 @@ public final void setEndType(int value)
 ```
 
 
-Gets or sets the ending type for the recurrence.
+Sets how the series ends.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -351,7 +350,7 @@ public final void setOccurrenceCount(long value)
 ```
 
 
-Gets or sets the number of occurrences in a recurrence.
+Sets the number of occurrences, used when \#getEndType().getEndType() is  EndAfterNOccurrences .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -364,7 +363,7 @@ public final void setPatternType(int value)
 ```
 
 
-Gets or sets the type of recurrence pattern
+Sets the type of the recurrence pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -377,7 +376,7 @@ public void setPeriod(long value)
 ```
 
 
-Gets or sets interval (in months) at which the meeting pattern repeats
+Sets the interval of the recurrence, in months: 12 for a yearly recurrence.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -390,7 +389,7 @@ public final void setPosition(int value)
 ```
 
 
-Gets or sets the occurrence of the recurrence's days in each month in which the recurrence falls.
+Sets which occurrence of [MapiCalendarWeeklyRecurrencePattern.getDayOfWeek()](../../com.aspose.email/mapicalendarweeklyrecurrencepattern\#getDayOfWeek--) in the month the event falls on, such as the second or the last.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -403,7 +402,7 @@ public final void setSlidingFlag(boolean value)
 ```
 
 
-Defines whether pattern is sliding or not.
+Sets a value indicating whether the next occurrence is calculated from the completion of the previous one rather than from a fixed schedule. Used by recurring tasks.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -416,7 +415,7 @@ public final void setStartDate(Date value)
 ```
 
 
-Gets or sets the start date of an item recurrence pattern.
+Sets the date of the first occurrence.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -429,7 +428,7 @@ public final void setWeekStartDay(int value)
 ```
 
 
-Gets or sets the first day of the calendar week.
+Sets the first day of the week.
 
 **Parameters:**
 | Parameter | Type | Description |

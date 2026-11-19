@@ -3,7 +3,7 @@ title: MboxLoadOptions
 second_title: Aspose.Email for Java API Reference
 description: Specifies additional options when loading a Mbox storage.
 type: docs
-weight: 502
+weight: 505
 url: /java/com.aspose.email/mboxloadoptions/
 ---
 
@@ -25,13 +25,13 @@ Specifies additional options when loading a Mbox storage.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getLeaveOpen()](#getLeaveOpen--) | Gets or sets a value indicating whether to keep the underlying stream open after disposing. |
-| [getPreferredTextEncoding()](#getPreferredTextEncoding--) | Gets or sets preferred encoding for messages. |
+| [getLeaveOpen()](#getLeaveOpen--) | Gets a value indicating whether to keep the underlying stream open after disposing. |
+| [getPreferredTextEncoding()](#getPreferredTextEncoding--) | Gets preferred encoding for messages. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setLeaveOpen(boolean value)](#setLeaveOpen-boolean-) | Gets or sets a value indicating whether to keep the underlying stream open after disposing. |
-| [setPreferredTextEncoding(Charset value)](#setPreferredTextEncoding-java.nio.charset.Charset-) | Gets or sets preferred encoding for messages. |
+| [setLeaveOpen(boolean value)](#setLeaveOpen-boolean-) | Sets a value indicating whether to keep the underlying stream open after disposing. |
+| [setPreferredTextEncoding(Charset value)](#setPreferredTextEncoding-java.nio.charset.Charset-) | Sets preferred encoding for messages. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -73,7 +73,7 @@ public final boolean getLeaveOpen()
 ```
 
 
-Gets or sets a value indicating whether to keep the underlying stream open after disposing. Default value is false.
+Gets a value indicating whether to keep the underlying stream open after disposing. Default value is  false .
 
 **Returns:**
 boolean
@@ -83,7 +83,7 @@ public final Charset getPreferredTextEncoding()
 ```
 
 
-Gets or sets preferred encoding for messages. The default value is null.
+Gets preferred encoding for messages. The default value is  null .
 
 **Returns:**
 java.nio.charset.Charset
@@ -119,7 +119,7 @@ public final void setLeaveOpen(boolean value)
 ```
 
 
-Gets or sets a value indicating whether to keep the underlying stream open after disposing. Default value is false.
+Sets a value indicating whether to keep the underlying stream open after disposing. Default value is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,7 +132,7 @@ public final void setPreferredTextEncoding(Charset value)
 ```
 
 
-Gets or sets preferred encoding for messages. The default value is null.
+Sets preferred encoding for messages. The default value is  null .
 
 **Parameters:**
 | Parameter | Type | Description |

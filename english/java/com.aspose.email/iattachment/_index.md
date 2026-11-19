@@ -1,31 +1,31 @@
 ---
 title: IAttachment
 second_title: Aspose.Email for Java API Reference
-description: Represents a common attachment interface
+description: The common interface of attachments.
 type: docs
-weight: 773
+weight: 785
 url: /java/com.aspose.email/iattachment/
 ---
 ```
 public interface IAttachment
 ```
 
-Represents a common attachment interface
+The common interface of attachments.
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName()](#getName--) | Gets or sets an attachment name |
-| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves an attachment to stream |
-| [save(String fileName)](#save-java.lang.String-) | Saves attachment to file |
-| [setName(String value)](#setName-java.lang.String-) | Gets or sets an attachment name |
+| [getName()](#getName--) | Gets the name of the attachment. |
+| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves the attachment to a stream. |
+| [save(String fileName)](#save-java.lang.String-) | Saves the attachment to a file. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the attachment. |
 ### getName() {#getName--}
 ```
 public abstract String getName()
 ```
 
 
-Gets or sets an attachment name
+Gets the name of the attachment.
 
 **Returns:**
 java.lang.String
@@ -35,12 +35,12 @@ public abstract void save(OutputStream stream)
 ```
 
 
-Saves an attachment to stream
+Saves the attachment to a stream.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream | A stream to save to |
+| stream | java.io.OutputStream | The stream to write to. |
 
 ### save(String fileName) {#save-java.lang.String-}
 ```
@@ -48,12 +48,12 @@ public abstract void save(String fileName)
 ```
 
 
-Saves attachment to file
+Saves the attachment to a file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | A file name |
+| fileName | java.lang.String | The path of the file to write. |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -61,7 +61,7 @@ public abstract void setName(String value)
 ```
 
 
-Gets or sets an attachment name
+Sets the name of the attachment.
 
 **Parameters:**
 | Parameter | Type | Description |

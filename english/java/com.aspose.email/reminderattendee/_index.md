@@ -1,9 +1,9 @@
 ---
 title: ReminderAttendee
 second_title: Aspose.Email for Java API Reference
-description: Defines an Attendee within a alarm.
+description: A recipient of an email reminder.
 type: docs
-weight: 627
+weight: 632
 url: /java/com.aspose.email/reminderattendee/
 ---
 
@@ -13,23 +13,23 @@ java.lang.Object
 public class ReminderAttendee
 ```
 
-Defines an "Attendee" within a alarm.
+A recipient of an email reminder.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ReminderAttendee(String address)](#ReminderAttendee-java.lang.String-) | Initialize a new instance of [ReminderAttendee](../../com.aspose.email/reminderattendee) class. |
+| [ReminderAttendee(String address)](#ReminderAttendee-java.lang.String-) | Initializes a new instance of the [ReminderAttendee](../../com.aspose.email/reminderattendee) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAddress()](#getAddress--) | Contains the email address. |
+| [getAddress()](#getAddress--) | Gets the email address of the recipient. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAddress(String value)](#setAddress-java.lang.String-) | Contains the email address. |
+| [setAddress(String value)](#setAddress-java.lang.String-) | Sets the email address of the recipient. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -40,12 +40,12 @@ public ReminderAttendee(String address)
 ```
 
 
-Initialize a new instance of [ReminderAttendee](../../com.aspose.email/reminderattendee) class.
+Initializes a new instance of the [ReminderAttendee](../../com.aspose.email/reminderattendee) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| address | java.lang.String | Email address. |
+| address | java.lang.String | The email address of the recipient. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -68,7 +68,7 @@ public final String getAddress()
 ```
 
 
-Contains the email address.
+Gets the email address of the recipient.
 
 **Returns:**
 java.lang.String
@@ -114,7 +114,7 @@ public final void setAddress(String value)
 ```
 
 
-Contains the email address.
+Sets the email address of the recipient.
 
 **Parameters:**
 | Parameter | Type | Description |

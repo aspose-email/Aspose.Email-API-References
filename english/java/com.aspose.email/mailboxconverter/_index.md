@@ -3,7 +3,7 @@ title: MailboxConverter
 second_title: Aspose.Email for Java API Reference
 description: Provides mailbox conversion routines.
 type: docs
-weight: 397
+weight: 400
 url: /java/com.aspose.email/mailboxconverter/
 ---
 
@@ -48,16 +48,14 @@ public static void convertPersonalStorageToMbox(PersonalStorage personalStorage,
 
 Converts the [PersonalStorage](../../com.aspose.email/personalstorage) to mbox format using given [MboxStorageWriter](../../com.aspose.email/mboxstoragewriter).
 
+Resulting mbox storage will contain only one plain inbox folder with all messages, if you have to preserve the original structure of the storage, use \#convertPersonalStorageToMbox(PersonalStorage, String, MessageAcceptanceCallback).convertPersonalStorageToMbox(PersonalStorage, String, MessageAcceptanceCallback) instead.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | personalStorage | [PersonalStorage](../../com.aspose.email/personalstorage) | The personal storage. |
 | mboxStorageWriter | [MboxStorageWriter](../../com.aspose.email/mboxstoragewriter) | The mbox storage writer. |
-| acceptanceCallback | [MessageAcceptanceCallback](../../com.aspose.email/messageacceptancecallback) | The acceptance callback, can be null.
-
---------------------
-
-Resulting mbox storage will contain only one plain inbox folder with all messages, if you have to preserve the original structure of the storage, use XXX\_method instead. |
+| acceptanceCallback | [MessageAcceptanceCallback](../../com.aspose.email/messageacceptancecallback) | The acceptance callback, can be  null . |
 
 ### convertPersonalStorageToMbox(PersonalStorage personalStorage, String storagePath, MessageAcceptanceCallback acceptanceCallback) {#convertPersonalStorageToMbox-com.aspose.email.PersonalStorage-java.lang.String-com.aspose.email.MessageAcceptanceCallback-}
 ```
@@ -67,16 +65,14 @@ public static void convertPersonalStorageToMbox(PersonalStorage personalStorage,
 
 Converts the [PersonalStorage](../../com.aspose.email/personalstorage) to mbox format using given path.
 
+Resulting folder will contain an exact copy of the  personalStorage  e.g. directory tree will be recreated on disk.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | personalStorage | [PersonalStorage](../../com.aspose.email/personalstorage) | The personal storage. |
 | storagePath | java.lang.String | The path to save  personalStorage  structure to. |
-| acceptanceCallback | [MessageAcceptanceCallback](../../com.aspose.email/messageacceptancecallback) | The acceptance callback, can be null.
-
---------------------
-
-Resulting folder will contain an exact copy of the  personalStorage  e.g. directory tree will be recreated on disk. |
+| acceptanceCallback | [MessageAcceptanceCallback](../../com.aspose.email/messageacceptancecallback) | The acceptance callback, can be  null . |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

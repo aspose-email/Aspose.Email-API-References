@@ -3,7 +3,7 @@ title: ConnectionFailureCause
 second_title: Aspose.Email for Java API Reference
 description: Connection failure cause
 type: docs
-weight: 116
+weight: 117
 url: /java/com.aspose.email/connectionfailurecause/
 ---
 

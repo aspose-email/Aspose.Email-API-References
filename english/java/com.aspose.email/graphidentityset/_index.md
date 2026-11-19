@@ -3,7 +3,7 @@ title: GraphIdentitySet
 second_title: Aspose.Email for Java API Reference
 description: ... The IdentitySet resource is a keyed collection of identity resources.
 type: docs
-weight: 290
+weight: 293
 url: /java/com.aspose.email/graphidentityset/
 ---
 

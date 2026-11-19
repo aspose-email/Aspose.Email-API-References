@@ -1,9 +1,9 @@
 ---
 title: MapiTaskUsers
 second_title: Aspose.Email for Java API Reference
-description: Represents information about task users.
+description: The people involved in a task owner assigner delegator and the other users.
 type: docs
-weight: 500
+weight: 503
 url: /java/com.aspose.email/mapitaskusers/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public final class MapiTaskUsers
 ```
 
-Represents information about task users.
+The people involved in a task: owner, assigner, delegator and the other users.
 ## Constructors
 
 | Constructor | Description |
@@ -24,25 +24,25 @@ Represents information about task users.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAssigner()](#getAssigner--) | Specifies the group of properties that defines the display name and e-mail address of user who created task. |
-| [getAttendees()](#getAttendees--) | Gets the attendees. |
+| [getAssigner()](#getAssigner--) | Gets the name and e-mail address of the user who created the task. |
+| [getAttendees()](#getAttendees--) | Gets the users the task is assigned to. |
 | [getClass()](#getClass--) |  |
-| [getDelegator()](#getDelegator--) | Gets or sets task delegator. |
-| [getLastAssigner()](#getLastAssigner--) | Gets or sets the name of the user that last assigned the task. |
-| [getLastDelegate()](#getLastDelegate--) | Gets or sets the name of the mailbox's delegate who most recently assigned the task, or an empty string if there is no delegate. |
-| [getLastUser()](#getLastUser--) | Gets or sets the name of the most recent user to have been the task owner. |
-| [getOwner()](#getOwner--) | Gets or sets the name of the task owner. |
-| [getOwnership()](#getOwnership--) | Gets or sets the role of the current user relative to the Task object. |
+| [getDelegator()](#getDelegator--) | Gets the name of the user who delegated the task. |
+| [getLastAssigner()](#getLastAssigner--) | Gets the name of the user who last assigned the task. |
+| [getLastDelegate()](#getLastDelegate--) | Gets the name of the delegate who last assigned the task; an empty string if there is none. |
+| [getLastUser()](#getLastUser--) | Gets the name of the most recent owner of the task. |
+| [getOwner()](#getOwner--) | Gets the name of the owner of the task. |
+| [getOwnership()](#getOwnership--) | Gets the role of the current user in the task. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAssigner(MapiElectronicAddress value)](#setAssigner-com.aspose.email.MapiElectronicAddress-) | Specifies the group of properties that defines the display name and e-mail address of user who created task. |
-| [setDelegator(String value)](#setDelegator-java.lang.String-) | Gets or sets task delegator. |
-| [setLastAssigner(String value)](#setLastAssigner-java.lang.String-) | Gets or sets the name of the user that last assigned the task. |
-| [setLastDelegate(String value)](#setLastDelegate-java.lang.String-) | Gets or sets the name of the mailbox's delegate who most recently assigned the task, or an empty string if there is no delegate. |
-| [setLastUser(String value)](#setLastUser-java.lang.String-) | Gets or sets the name of the most recent user to have been the task owner. |
-| [setOwner(String value)](#setOwner-java.lang.String-) | Gets or sets the name of the task owner. |
-| [setOwnership(int value)](#setOwnership-int-) | Gets or sets the role of the current user relative to the Task object. |
+| [setAssigner(MapiElectronicAddress value)](#setAssigner-com.aspose.email.MapiElectronicAddress-) | Sets the name and e-mail address of the user who created the task. |
+| [setDelegator(String value)](#setDelegator-java.lang.String-) | Sets the name of the user who delegated the task. |
+| [setLastAssigner(String value)](#setLastAssigner-java.lang.String-) | Sets the name of the user who last assigned the task. |
+| [setLastDelegate(String value)](#setLastDelegate-java.lang.String-) | Sets the name of the delegate who last assigned the task; an empty string if there is none. |
+| [setLastUser(String value)](#setLastUser-java.lang.String-) | Sets the name of the most recent owner of the task. |
+| [setOwner(String value)](#setOwner-java.lang.String-) | Sets the name of the owner of the task. |
+| [setOwnership(int value)](#setOwnership-int-) | Sets the role of the current user in the task. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -76,7 +76,7 @@ public final MapiElectronicAddress getAssigner()
 ```
 
 
-Specifies the group of properties that defines the display name and e-mail address of user who created task.
+Gets the name and e-mail address of the user who created the task.
 
 **Returns:**
 [MapiElectronicAddress](../../com.aspose.email/mapielectronicaddress)
@@ -86,7 +86,7 @@ public final MapiRecipientCollection getAttendees()
 ```
 
 
-Gets the attendees.
+Gets the users the task is assigned to.
 
 **Returns:**
 [MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection)
@@ -106,7 +106,7 @@ public final String getDelegator()
 ```
 
 
-Gets or sets task delegator.
+Gets the name of the user who delegated the task.
 
 **Returns:**
 java.lang.String
@@ -116,7 +116,7 @@ public final String getLastAssigner()
 ```
 
 
-Gets or sets the name of the user that last assigned the task.
+Gets the name of the user who last assigned the task.
 
 **Returns:**
 java.lang.String
@@ -126,7 +126,7 @@ public final String getLastDelegate()
 ```
 
 
-Gets or sets the name of the mailbox's delegate who most recently assigned the task, or an empty string if there is no delegate.
+Gets the name of the delegate who last assigned the task; an empty string if there is none.
 
 **Returns:**
 java.lang.String
@@ -136,7 +136,7 @@ public final String getLastUser()
 ```
 
 
-Gets or sets the name of the most recent user to have been the task owner.
+Gets the name of the most recent owner of the task.
 
 **Returns:**
 java.lang.String
@@ -146,7 +146,7 @@ public final String getOwner()
 ```
 
 
-Gets or sets the name of the task owner.
+Gets the name of the owner of the task.
 
 **Returns:**
 java.lang.String
@@ -156,7 +156,7 @@ public final int getOwnership()
 ```
 
 
-Gets or sets the role of the current user relative to the Task object.
+Gets the role of the current user in the task.
 
 **Returns:**
 int
@@ -192,7 +192,7 @@ public final void setAssigner(MapiElectronicAddress value)
 ```
 
 
-Specifies the group of properties that defines the display name and e-mail address of user who created task.
+Sets the name and e-mail address of the user who created the task.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -205,7 +205,7 @@ public final void setDelegator(String value)
 ```
 
 
-Gets or sets task delegator.
+Sets the name of the user who delegated the task.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -218,7 +218,7 @@ public final void setLastAssigner(String value)
 ```
 
 
-Gets or sets the name of the user that last assigned the task.
+Sets the name of the user who last assigned the task.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -231,7 +231,7 @@ public final void setLastDelegate(String value)
 ```
 
 
-Gets or sets the name of the mailbox's delegate who most recently assigned the task, or an empty string if there is no delegate.
+Sets the name of the delegate who last assigned the task; an empty string if there is none.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -244,7 +244,7 @@ public final void setLastUser(String value)
 ```
 
 
-Gets or sets the name of the most recent user to have been the task owner.
+Sets the name of the most recent owner of the task.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -257,7 +257,7 @@ public final void setOwner(String value)
 ```
 
 
-Gets or sets the name of the task owner.
+Sets the name of the owner of the task.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -270,7 +270,7 @@ public final void setOwnership(int value)
 ```
 
 
-Gets or sets the role of the current user relative to the Task object.
+Sets the role of the current user in the task.
 
 **Parameters:**
 | Parameter | Type | Description |

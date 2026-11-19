@@ -1,9 +1,9 @@
 ---
 title: MapiContactAddress
 second_title: Aspose.Email for Java API Reference
-description: Base abstract class for   and .
+description: The base class of the addresses of a contact e-mail and fax addresses  and postal addresses .
 type: docs
-weight: 435
+weight: 438
 url: /java/com.aspose.email/mapicontactaddress/
 ---
 
@@ -13,7 +13,9 @@ java.lang.Object
 public abstract class MapiContactAddress
 ```
 
-Base abstract class for [MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress) and [MapiContactPhysicalAddress](../../com.aspose.email/mapicontactphysicaladdress).
+The base class of the addresses of a contact: e-mail and fax addresses ([MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress)) and postal addresses ([MapiContactPhysicalAddress](../../com.aspose.email/mapicontactphysicaladdress)).
+
+The addresses read and write the contact properties of the  PSETID\_Address  property set. Do not derive from this class; use the derived classes.
 ## Constructors
 
 | Constructor | Description |

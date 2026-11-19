@@ -1,9 +1,9 @@
 ---
 title: MapiContactPropertySet
 second_title: Aspose.Email for Java API Reference
-description: Base class for all sets of MapiContact properties.
+description: The base class of the groups of contact properties such as names addresses and telephone numbers.
 type: docs
-weight: 449
+weight: 452
 url: /java/com.aspose.email/mapicontactpropertyset/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public abstract class MapiContactPropertySet
 ```
 
-Base class for all sets of MapiContact properties.
+The base class of the groups of contact properties, such as names, addresses and telephone numbers.
 ## Constructors
 
 | Constructor | Description |

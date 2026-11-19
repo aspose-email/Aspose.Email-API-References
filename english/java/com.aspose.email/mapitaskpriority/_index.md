@@ -1,9 +1,9 @@
 ---
 title: MapiTaskPriority
 second_title: Aspose.Email for Java API Reference
-description: Represents the priority on the task.
+description: Defines the priorities of a task.
 type: docs
-weight: 497
+weight: 500
 url: /java/com.aspose.email/mapitaskpriority/
 ---
 
@@ -13,13 +13,13 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiTaskPriority extends System.Enum
 ```
 
-Represents the priority on the task.
+Defines the priorities of a task.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [High](#High) | High priority . |
+| [High](#High) | High priority. |
 | [Low](#Low) | Low priority. |
 | [Normal](#Normal) | Normal priority. |
 ## Methods
@@ -73,7 +73,7 @@ public static final int High
 ```
 
 
-High priority .
+High priority.
 
 ### Low {#Low}
 ```

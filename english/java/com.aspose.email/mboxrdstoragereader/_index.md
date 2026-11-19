@@ -3,7 +3,7 @@ title: MboxrdStorageReader
 second_title: Aspose.Email for Java API Reference
 description: Represents mboxrd format storage reader this format is being used by Thunderbird and other mail clients.
 type: docs
-weight: 509
+weight: 512
 url: /java/com.aspose.email/mboxrdstoragereader/
 ---
 
@@ -25,8 +25,8 @@ Represents mboxrd format storage reader, this format is being used by Thunderbir
 
 | Method | Description |
 | --- | --- |
-| [cancel()](#cancel--) | This method is used to interrupt a split operation if splitInto is running asynchronously. |
-| [close()](#close--) |  |
+| [cancel()](#cancel--) | This method used to interrupt a split operation. |
+| [close()](#close--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [createReader(System.IO.Stream stream, MboxLoadOptions options)](#createReader-com.aspose.ms.System.IO.Stream-com.aspose.email.MboxLoadOptions-) | Creates the instance of reader. |
 | [createReader(InputStream stream, MboxLoadOptions options)](#createReader-java.io.InputStream-com.aspose.email.MboxLoadOptions-) | Creates the instance of reader. |
 | [createReader(String fileName, MboxLoadOptions options)](#createReader-java.lang.String-com.aspose.email.MboxLoadOptions-) | Creates the instance of reader. |
@@ -44,10 +44,10 @@ Represents mboxrd format storage reader, this format is being used by Thunderbir
 | [extractMessage(String id, EmlLoadOptions options)](#extractMessage-java.lang.String-com.aspose.email.EmlLoadOptions-) | Get the message from MBOX. |
 | [getClass()](#getClass--) |  |
 | [getCurrentDataSize()](#getCurrentDataSize--) | Gets the number of bytes that is read by ReadNextMessage method. |
-| [getEmlCopiedEventHandler()](#getEmlCopiedEventHandler--) | Event that occurs after successful copy of a [MailMessage](../../com.aspose.email/mailmessage) object within the \#splitInto(long,String).splitInto(long,String) method. |
-| [getEmlCopyingEventHandler()](#getEmlCopyingEventHandler--) | Event that occurs before the [MailMessage](../../com.aspose.email/mailmessage) object copy process, within the \#splitInto(long,String).splitInto(long,String) method. |
-| [getMboxFileCreatedEventHandler()](#getMboxFileCreatedEventHandler--) | Event that occurs when a new MBOX file is created during the \#splitInto(long,String).splitInto(long,String) method. |
-| [getMboxFileFilledEventHandler()](#getMboxFileFilledEventHandler--) | Event that occurs after filling an MBOX file with data within the \#splitInto(long,String).splitInto(long,String) method. |
+| [getEmlCopiedEventHandler()](#getEmlCopiedEventHandler--) | Event that occurs after successful copy of a [MailMessage](../../com.aspose.email/mailmessage) object within the \#splitInto(long, String).splitInto(long, String) method. |
+| [getEmlCopyingEventHandler()](#getEmlCopyingEventHandler--) | Event that occurs before the [MailMessage](../../com.aspose.email/mailmessage) object copy process, within the \#splitInto(long, String).splitInto(long, String) method. |
+| [getMboxFileCreatedEventHandler()](#getMboxFileCreatedEventHandler--) | Event that occurs when a new MBOX file is created during the \#splitInto(long, String).splitInto(long, String) method. |
+| [getMboxFileFilledEventHandler()](#getMboxFileFilledEventHandler--) | Event that occurs after filling an MBOX file with data within the \#splitInto(long, String).splitInto(long, String) method. |
 | [getTotalItemsCount()](#getTotalItemsCount--) | Returns the number of messages in a storage. |
 | [hashCode()](#hashCode--) |  |
 | [nextMessage()](#nextMessage--) | Gets the next message info. |
@@ -79,7 +79,7 @@ Initializes a new instance of the [MboxrdStorageReader](../../com.aspose.email/m
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream | The stream. |
-| options | [MboxLoadOptions](../../com.aspose.email/mboxloadoptions) | additional options when loading a Mbox storage[MboxLoadOptions](../../com.aspose.email/mboxloadoptions). |
+| options | [MboxLoadOptions](../../com.aspose.email/mboxloadoptions) | additional options when loading a Mbox storage [MboxLoadOptions](../../com.aspose.email/mboxloadoptions). |
 
 ### MboxrdStorageReader(System.IO.Stream stream, MboxLoadOptions options) {#MboxrdStorageReader-com.aspose.ms.System.IO.Stream-com.aspose.email.MboxLoadOptions-}
 ```
@@ -107,7 +107,7 @@ Initializes a new instance of the [MboxrdStorageReader](../../com.aspose.email/m
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | Name of the file. |
-| options | [MboxLoadOptions](../../com.aspose.email/mboxloadoptions) | additional options when loading a Mbox storage[MboxLoadOptions](../../com.aspose.email/mboxloadoptions). |
+| options | [MboxLoadOptions](../../com.aspose.email/mboxloadoptions) | additional options when loading a Mbox storage [MboxLoadOptions](../../com.aspose.email/mboxloadoptions). |
 
 ### cancel() {#cancel--}
 ```
@@ -115,7 +115,7 @@ public final void cancel()
 ```
 
 
-This method is used to interrupt a split operation if splitInto is running asynchronously.
+This method used to interrupt a split operation.
 
 ### close() {#close--}
 ```
@@ -123,7 +123,7 @@ public void close()
 ```
 
 
-
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ### createReader(System.IO.Stream stream, MboxLoadOptions options) {#createReader-com.aspose.ms.System.IO.Stream-com.aspose.email.MboxLoadOptions-}
 ```
@@ -153,10 +153,10 @@ Creates the instance of reader.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream | The stream. |
-| options | [MboxLoadOptions](../../com.aspose.email/mboxloadoptions) | additional options when loading a Mbox storage[MboxLoadOptions](../../com.aspose.email/mboxloadoptions). |
+| options | [MboxLoadOptions](../../com.aspose.email/mboxloadoptions) | additional options when loading a Mbox storage [MboxLoadOptions](../../com.aspose.email/mboxloadoptions). |
 
 **Returns:**
-[MboxStorageReader](../../com.aspose.email/mboxstoragereader) - 
+[MboxStorageReader](../../com.aspose.email/mboxstoragereader) - The new reader.
 ### createReader(String fileName, MboxLoadOptions options) {#createReader-java.lang.String-com.aspose.email.MboxLoadOptions-}
 ```
 public static MboxStorageReader createReader(String fileName, MboxLoadOptions options)
@@ -168,11 +168,11 @@ Creates the instance of reader.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String |  |
-| options | [MboxLoadOptions](../../com.aspose.email/mboxloadoptions) | additional options when loading a Mbox storage[MboxLoadOptions](../../com.aspose.email/mboxloadoptions). |
+| fileName | java.lang.String | The name of the file. |
+| options | [MboxLoadOptions](../../com.aspose.email/mboxloadoptions) | additional options when loading a Mbox storage [MboxLoadOptions](../../com.aspose.email/mboxloadoptions). |
 
 **Returns:**
-[MboxStorageReader](../../com.aspose.email/mboxstoragereader) - 
+[MboxStorageReader](../../com.aspose.email/mboxstoragereader) - The new reader.
 ### dispose() {#dispose--}
 ```
 public final void dispose()
@@ -190,7 +190,7 @@ public final System.Collections.Generic.IGenericEnumerable<MboxMessageInfo> enum
 Exposes the enumerator, which supports an iteration of messages in storage.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MboxMessageInfo> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in storage.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MboxMessageInfo> -  Iterable , that represents an enumerator that iterates through a messages in storage.
 ### enumerateMessageInfo(MailQuery query) {#enumerateMessageInfo-com.aspose.email.MailQuery-}
 ```
 public final System.Collections.Generic.IGenericEnumerable<MboxMessageInfo> enumerateMessageInfo(MailQuery query)
@@ -217,7 +217,7 @@ Enumerates a specified number of message information entries, starting from the 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| startIndex | int | The zero-based index of the first message to retrieve. If  startIndex  is greater than or equal to the total number of items, an ArgumentOutOfRangeException is thrown. |
+| startIndex | int | The zero-based index of the first message to retrieve. If  startIndex  is greater than or equal to the total number of items, an IllegalArgumentException is thrown. |
 | count | int | The maximum number of message information entries to retrieve. If set to -1, all messages from the start index will be read. |
 
 **Returns:**
@@ -231,7 +231,7 @@ public final System.Collections.Generic.IGenericEnumerable<MailMessage> enumerat
 Exposes the enumerator, which supports an iteration of messages in storage.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MailMessage> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in storage.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MailMessage> -  Iterable , that represents an enumerator that iterates through a messages in storage.
 ### enumerateMessages(EmlLoadOptions options) {#enumerateMessages-com.aspose.email.EmlLoadOptions-}
 ```
 public final System.Collections.Generic.IGenericEnumerable<MailMessage> enumerateMessages(EmlLoadOptions options)
@@ -246,7 +246,7 @@ Exposes the enumerator, which supports an iteration of messages in storage.
 | options | [EmlLoadOptions](../../com.aspose.email/emlloadoptions) | Specifies [EmlLoadOptions](../../com.aspose.email/emlloadoptions) when reading message from Mbox storage. |
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MailMessage> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in storage.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MailMessage> -  Iterable , that represents an enumerator that iterates through a messages in storage.
 ### enumerateMessages(EmlLoadOptions options, MailQuery query) {#enumerateMessages-com.aspose.email.EmlLoadOptions-com.aspose.email.MailQuery-}
 ```
 public final System.Collections.Generic.IGenericEnumerable<MailMessage> enumerateMessages(EmlLoadOptions options, MailQuery query)
@@ -275,7 +275,7 @@ Enumerates a specified number of mail messages, starting from the given index, u
 | Parameter | Type | Description |
 | --- | --- | --- |
 | options | [EmlLoadOptions](../../com.aspose.email/emlloadoptions) | The [EmlLoadOptions](../../com.aspose.email/emlloadoptions) specifying how EML files should be loaded. |
-| startIndex | int | The zero-based index of the first message to retrieve. If  startIndex  is greater than or equal to the total number of items, an ArgumentOutOfRangeException is thrown. |
+| startIndex | int | The zero-based index of the first message to retrieve. If  startIndex  is greater than or equal to the total number of items, an IllegalArgumentException is thrown. |
 | count | int | The maximum number of messages to retrieve. If set to -1, all messages from the start index will be read. |
 
 **Returns:**
@@ -306,7 +306,7 @@ Enumerates a specified number of mail messages, starting from the given index.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| startIndex | int | The zero-based index of the first message to retrieve. If  startIndex  is greater than or equal to the total number of items, an ArgumentOutOfRangeException is thrown. |
+| startIndex | int | The zero-based index of the first message to retrieve. If  startIndex  is greater than or equal to the total number of items, an IllegalArgumentException is thrown. |
 | count | int | The maximum number of messages to retrieve. If set to -1, all messages from the start index will be read. |
 
 **Returns:**
@@ -368,7 +368,7 @@ public final MimeItemCopyEventHandler getEmlCopiedEventHandler()
 ```
 
 
-Event that occurs after successful copy of a [MailMessage](../../com.aspose.email/mailmessage) object within the \#splitInto(long,String).splitInto(long,String) method.
+Event that occurs after successful copy of a [MailMessage](../../com.aspose.email/mailmessage) object within the \#splitInto(long, String).splitInto(long, String) method.
 
 **Returns:**
 [MimeItemCopyEventHandler](../../com.aspose.email/mimeitemcopyeventhandler)
@@ -378,7 +378,7 @@ public final MimeItemCopyEventHandler getEmlCopyingEventHandler()
 ```
 
 
-Event that occurs before the [MailMessage](../../com.aspose.email/mailmessage) object copy process, within the \#splitInto(long,String).splitInto(long,String) method.
+Event that occurs before the [MailMessage](../../com.aspose.email/mailmessage) object copy process, within the \#splitInto(long, String).splitInto(long, String) method.
 
 **Returns:**
 [MimeItemCopyEventHandler](../../com.aspose.email/mimeitemcopyeventhandler)
@@ -388,7 +388,7 @@ public final NewStorageEventHandler getMboxFileCreatedEventHandler()
 ```
 
 
-Event that occurs when a new MBOX file is created during the \#splitInto(long,String).splitInto(long,String) method.
+Event that occurs when a new MBOX file is created during the \#splitInto(long, String).splitInto(long, String) method.
 
 **Returns:**
 [NewStorageEventHandler](../../com.aspose.email/newstorageeventhandler)
@@ -398,7 +398,7 @@ public final NewStorageEventHandler getMboxFileFilledEventHandler()
 ```
 
 
-Event that occurs after filling an MBOX file with data within the \#splitInto(long,String).splitInto(long,String) method.
+Event that occurs after filling an MBOX file with data within the \#splitInto(long, String).splitInto(long, String) method.
 
 **Returns:**
 [NewStorageEventHandler](../../com.aspose.email/newstorageeventhandler)
@@ -431,7 +431,7 @@ public MboxMessageInfo nextMessage()
 Gets the next message info.
 
 **Returns:**
-[MboxMessageInfo](../../com.aspose.email/mboxmessageinfo) - A [MboxMessageInfo](../../com.aspose.email/mboxmessageinfo) object if it can be read or  **null**  if no more messages are available.
+[MboxMessageInfo](../../com.aspose.email/mboxmessageinfo) - A [MboxMessageInfo](../../com.aspose.email/mboxmessageinfo) object if it can be read or  null  if no more messages are available.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -457,7 +457,7 @@ public MailMessage readNextMessage()
 Reads the next message from underlying storage stream.
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  **null**  if no more messages are available.
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  null  if no more messages are available.
 ### readNextMessage(EmlLoadOptions options) {#readNextMessage-com.aspose.email.EmlLoadOptions-}
 ```
 public MailMessage readNextMessage(EmlLoadOptions options)
@@ -472,7 +472,7 @@ Reads the next message from underlying storage stream.
 | options | [EmlLoadOptions](../../com.aspose.email/emlloadoptions) | Specifies [EmlLoadOptions](../../com.aspose.email/emlloadoptions) when reading message from Mbox storage. |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  **null**  if no more messages are available.
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  null  if no more messages are available.
 ### readNextMessage(String[] fromMarker) {#readNextMessage-java.lang.String---}
 ```
 public MailMessage readNextMessage(String[] fromMarker)
@@ -487,7 +487,7 @@ Reads the next message from underlying storage stream.
 | fromMarker | java.lang.String[] | Gets the From Marker while parsing the MBox Storage file. |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  **null**  if no more messages are available.
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  null  if no more messages are available.
 ### readNextMessage(String[] fromMarker, EmlLoadOptions options) {#readNextMessage-java.lang.String---com.aspose.email.EmlLoadOptions-}
 ```
 public MailMessage readNextMessage(String[] fromMarker, EmlLoadOptions options)
@@ -503,7 +503,7 @@ Reads the next message from underlying storage stream.
 | options | [EmlLoadOptions](../../com.aspose.email/emlloadoptions) | Specifies [EmlLoadOptions](../../com.aspose.email/emlloadoptions) when reading message from Mbox storage. |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  **null**  if no more messages are available.
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  null  if no more messages are available.
 ### setEmlCopiedEventHandler(MimeItemCopyEventHandler value) {#setEmlCopiedEventHandler-com.aspose.email.MimeItemCopyEventHandler-}
 ```
 public final void setEmlCopiedEventHandler(MimeItemCopyEventHandler value)
@@ -583,7 +583,7 @@ Splits the mbox storage into less sized parts.
 | --- | --- | --- |
 | chunkSize | long | The approximate size of a chunk in bytes. |
 | outputPath | java.lang.String | The folder path where chunks will be created. |
-| partFileNamePrefix | java.lang.String |  |
+| partFileNamePrefix | java.lang.String | The prefix to be added to the filename of each part of pst. |
 
 ### toString() {#toString--}
 ```

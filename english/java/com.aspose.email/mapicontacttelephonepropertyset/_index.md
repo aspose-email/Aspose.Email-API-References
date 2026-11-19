@@ -1,9 +1,9 @@
 ---
 title: MapiContactTelephonePropertySet
 second_title: Aspose.Email for Java API Reference
-description: Specify optional telephone numbers  for the contact
+description: The telephone numbers of a contact.
 type: docs
-weight: 451
+weight: 454
 url: /java/com.aspose.email/mapicontacttelephonepropertyset/
 ---
 
@@ -13,60 +13,60 @@ java.lang.Object, [com.aspose.email.MapiContactPropertySet](../../com.aspose.ema
 public final class MapiContactTelephonePropertySet extends MapiContactPropertySet
 ```
 
-Specify optional telephone numbers for the contact
+The telephone numbers of a contact.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MapiContactTelephonePropertySet()](#MapiContactTelephonePropertySet--) | Initializes a new instance of the [MapiContactTelephonePropertySet](../../com.aspose.email/mapicontacttelephonepropertyset) class |
-| [MapiContactTelephonePropertySet(String primaryTelephoneNumber)](#MapiContactTelephonePropertySet-java.lang.String-) | Initializes a new instance of the [MapiContactTelephonePropertySet](../../com.aspose.email/mapicontacttelephonepropertyset) class. |
-| [MapiContactTelephonePropertySet(MapiPropertyCollection properties)](#MapiContactTelephonePropertySet-com.aspose.email.MapiPropertyCollection-) | Initializes a new instance of the [MapiContactTelephonePropertySet](../../com.aspose.email/mapicontacttelephonepropertyset) class |
+| [MapiContactTelephonePropertySet()](#MapiContactTelephonePropertySet--) | Initializes a new instance of the [MapiContactTelephonePropertySet](../../com.aspose.email/mapicontacttelephonepropertyset) class. |
+| [MapiContactTelephonePropertySet(String primaryTelephoneNumber)](#MapiContactTelephonePropertySet-java.lang.String-) | Initializes a new instance of the [MapiContactTelephonePropertySet](../../com.aspose.email/mapicontacttelephonepropertyset) class with the primary telephone number. |
+| [MapiContactTelephonePropertySet(MapiPropertyCollection properties)](#MapiContactTelephonePropertySet-com.aspose.email.MapiPropertyCollection-) | Initializes a new instance of the [MapiContactTelephonePropertySet](../../com.aspose.email/mapicontacttelephonepropertyset) class from contact properties. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAssistantTelephoneNumber()](#getAssistantTelephoneNumber--) | Gets or sets the telephone number of the contact's assistant |
-| [getBusiness2TelephoneNumber()](#getBusiness2TelephoneNumber--) | Gets or sets the second business telephone number |
-| [getBusinessTelephoneNumber()](#getBusinessTelephoneNumber--) | Gets or sets the business telephone number |
-| [getCallbackTelephoneNumber()](#getCallbackTelephoneNumber--) | Gets or sets the callback telephone number |
-| [getCarTelephoneNumber()](#getCarTelephoneNumber--) | Gets or sets the car telephone number |
+| [getAssistantTelephoneNumber()](#getAssistantTelephoneNumber--) | Gets the telephone number of the contact's assistant. |
+| [getBusiness2TelephoneNumber()](#getBusiness2TelephoneNumber--) | Gets the second business telephone number. |
+| [getBusinessTelephoneNumber()](#getBusinessTelephoneNumber--) | Gets the business telephone number. |
+| [getCallbackTelephoneNumber()](#getCallbackTelephoneNumber--) | Gets the callback telephone number. |
+| [getCarTelephoneNumber()](#getCarTelephoneNumber--) | Gets the car telephone number. |
 | [getClass()](#getClass--) |  |
-| [getCompanyMainTelephoneNumber()](#getCompanyMainTelephoneNumber--) | Gets or sets the company phone number |
-| [getDefaultTelephoneNumber()](#getDefaultTelephoneNumber--) | Default value of electronic address Uses when user does not set any electronic address if UseAutocomplete property is set 'true' |
-| [getHome2TelephoneNumber()](#getHome2TelephoneNumber--) | Gets or sets a second home telephone number |
-| [getHomeTelephoneNumber()](#getHomeTelephoneNumber--) | Gets or sets the home telephone number |
-| [getIsdnNumber()](#getIsdnNumber--) | Gets or sets the integrated services digital network (ISDN) number |
-| [getMobileTelephoneNumber()](#getMobileTelephoneNumber--) | Gets or sets the mobile telephone number |
-| [getOtherTelephoneNumber()](#getOtherTelephoneNumber--) | Gets or sets an alternate telephone number |
-| [getPagerTelephoneNumber()](#getPagerTelephoneNumber--) | Gets or sets a pager telephone number |
-| [getPrimaryTelephoneNumber()](#getPrimaryTelephoneNumber--) | Gets or sets the primary telephone number |
-| [getRadioTelephoneNumber()](#getRadioTelephoneNumber--) | Gets or sets the radio telephone number |
-| [getTelexNumber()](#getTelexNumber--) | Gets or sets the telex number |
-| [getTtyTddPhoneNumber()](#getTtyTddPhoneNumber--) | Gets or sets the telephone number for the contact's text telephone (TTY) or telecommunication device for the deaf (TDD) |
-| [getUseAutocomplete()](#getUseAutocomplete--) | Indicates that one electronic address is completed automatically in case if user does not set any electronic address |
+| [getCompanyMainTelephoneNumber()](#getCompanyMainTelephoneNumber--) | Gets the company phone number. |
+| [getDefaultTelephoneNumber()](#getDefaultTelephoneNumber--) | Gets the number used as \#getHomeTelephoneNumber().getHomeTelephoneNumber() when the contact has no telephone number and \#getUseAutocomplete().getUseAutocomplete() is  true . |
+| [getHome2TelephoneNumber()](#getHome2TelephoneNumber--) | Gets the second home telephone number. |
+| [getHomeTelephoneNumber()](#getHomeTelephoneNumber--) | Gets the home telephone number. |
+| [getIsdnNumber()](#getIsdnNumber--) | Gets the ISDN number. |
+| [getMobileTelephoneNumber()](#getMobileTelephoneNumber--) | Gets the mobile telephone number. |
+| [getOtherTelephoneNumber()](#getOtherTelephoneNumber--) | Gets another telephone number. |
+| [getPagerTelephoneNumber()](#getPagerTelephoneNumber--) | Gets the pager number. |
+| [getPrimaryTelephoneNumber()](#getPrimaryTelephoneNumber--) | Gets the primary telephone number. |
+| [getRadioTelephoneNumber()](#getRadioTelephoneNumber--) | Gets the radio telephone number. |
+| [getTelexNumber()](#getTelexNumber--) | Gets the telex number. |
+| [getTtyTddPhoneNumber()](#getTtyTddPhoneNumber--) | Gets the telephone number for the contact's text telephone (TTY) or telecommunication device for the deaf (TDD). |
+| [getUseAutocomplete()](#getUseAutocomplete--) | Gets a value indicating whether \#getDefaultTelephoneNumber().getDefaultTelephoneNumber() is used when the contact has no telephone number. |
 | [hashCode()](#hashCode--) |  |
-| [isEmpty()](#isEmpty--) | Shows if MapiContactTelephonePropertySet is empty |
+| [isEmpty()](#isEmpty--) | Gets a value indicating whether no telephone number is set. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAssistantTelephoneNumber(String value)](#setAssistantTelephoneNumber-java.lang.String-) | Gets or sets the telephone number of the contact's assistant |
-| [setBusiness2TelephoneNumber(String value)](#setBusiness2TelephoneNumber-java.lang.String-) | Gets or sets the second business telephone number |
-| [setBusinessTelephoneNumber(String value)](#setBusinessTelephoneNumber-java.lang.String-) | Gets or sets the business telephone number |
-| [setCallbackTelephoneNumber(String value)](#setCallbackTelephoneNumber-java.lang.String-) | Gets or sets the callback telephone number |
-| [setCarTelephoneNumber(String value)](#setCarTelephoneNumber-java.lang.String-) | Gets or sets the car telephone number |
-| [setCompanyMainTelephoneNumber(String value)](#setCompanyMainTelephoneNumber-java.lang.String-) | Gets or sets the company phone number |
-| [setDefaultTelephoneNumber(String value)](#setDefaultTelephoneNumber-java.lang.String-) | Default value of electronic address Uses when user does not set any electronic address if UseAutocomplete property is set 'true' |
-| [setHome2TelephoneNumber(String value)](#setHome2TelephoneNumber-java.lang.String-) | Gets or sets a second home telephone number |
-| [setHomeTelephoneNumber(String value)](#setHomeTelephoneNumber-java.lang.String-) | Gets or sets the home telephone number |
-| [setIsdnNumber(String value)](#setIsdnNumber-java.lang.String-) | Gets or sets the integrated services digital network (ISDN) number |
-| [setMobileTelephoneNumber(String value)](#setMobileTelephoneNumber-java.lang.String-) | Gets or sets the mobile telephone number |
-| [setOtherTelephoneNumber(String value)](#setOtherTelephoneNumber-java.lang.String-) | Gets or sets an alternate telephone number |
-| [setPagerTelephoneNumber(String value)](#setPagerTelephoneNumber-java.lang.String-) | Gets or sets a pager telephone number |
-| [setPrimaryTelephoneNumber(String value)](#setPrimaryTelephoneNumber-java.lang.String-) | Gets or sets the primary telephone number |
-| [setRadioTelephoneNumber(String value)](#setRadioTelephoneNumber-java.lang.String-) | Gets or sets the radio telephone number |
-| [setTelexNumber(String value)](#setTelexNumber-java.lang.String-) | Gets or sets the telex number |
-| [setTtyTddPhoneNumber(String value)](#setTtyTddPhoneNumber-java.lang.String-) | Gets or sets the telephone number for the contact's text telephone (TTY) or telecommunication device for the deaf (TDD) |
-| [setUseAutocomplete(boolean value)](#setUseAutocomplete-boolean-) | Indicates that one electronic address is completed automatically in case if user does not set any electronic address |
+| [setAssistantTelephoneNumber(String value)](#setAssistantTelephoneNumber-java.lang.String-) | Sets the telephone number of the contact's assistant. |
+| [setBusiness2TelephoneNumber(String value)](#setBusiness2TelephoneNumber-java.lang.String-) | Sets the second business telephone number. |
+| [setBusinessTelephoneNumber(String value)](#setBusinessTelephoneNumber-java.lang.String-) | Sets the business telephone number. |
+| [setCallbackTelephoneNumber(String value)](#setCallbackTelephoneNumber-java.lang.String-) | Sets the callback telephone number. |
+| [setCarTelephoneNumber(String value)](#setCarTelephoneNumber-java.lang.String-) | Sets the car telephone number. |
+| [setCompanyMainTelephoneNumber(String value)](#setCompanyMainTelephoneNumber-java.lang.String-) | Sets the company phone number. |
+| [setDefaultTelephoneNumber(String value)](#setDefaultTelephoneNumber-java.lang.String-) | Sets the number used as \#getHomeTelephoneNumber().getHomeTelephoneNumber() when the contact has no telephone number and \#getUseAutocomplete().getUseAutocomplete() is  true . |
+| [setHome2TelephoneNumber(String value)](#setHome2TelephoneNumber-java.lang.String-) | Sets the second home telephone number. |
+| [setHomeTelephoneNumber(String value)](#setHomeTelephoneNumber-java.lang.String-) | Sets the home telephone number. |
+| [setIsdnNumber(String value)](#setIsdnNumber-java.lang.String-) | Sets the ISDN number. |
+| [setMobileTelephoneNumber(String value)](#setMobileTelephoneNumber-java.lang.String-) | Sets the mobile telephone number. |
+| [setOtherTelephoneNumber(String value)](#setOtherTelephoneNumber-java.lang.String-) | Sets another telephone number. |
+| [setPagerTelephoneNumber(String value)](#setPagerTelephoneNumber-java.lang.String-) | Sets the pager number. |
+| [setPrimaryTelephoneNumber(String value)](#setPrimaryTelephoneNumber-java.lang.String-) | Sets the primary telephone number. |
+| [setRadioTelephoneNumber(String value)](#setRadioTelephoneNumber-java.lang.String-) | Sets the radio telephone number. |
+| [setTelexNumber(String value)](#setTelexNumber-java.lang.String-) | Sets the telex number. |
+| [setTtyTddPhoneNumber(String value)](#setTtyTddPhoneNumber-java.lang.String-) | Sets the telephone number for the contact's text telephone (TTY) or telecommunication device for the deaf (TDD). |
+| [setUseAutocomplete(boolean value)](#setUseAutocomplete-boolean-) | Sets a value indicating whether \#getDefaultTelephoneNumber().getDefaultTelephoneNumber() is used when the contact has no telephone number. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -77,7 +77,7 @@ public MapiContactTelephonePropertySet()
 ```
 
 
-Initializes a new instance of the [MapiContactTelephonePropertySet](../../com.aspose.email/mapicontacttelephonepropertyset) class
+Initializes a new instance of the [MapiContactTelephonePropertySet](../../com.aspose.email/mapicontacttelephonepropertyset) class.
 
 ### MapiContactTelephonePropertySet(String primaryTelephoneNumber) {#MapiContactTelephonePropertySet-java.lang.String-}
 ```
@@ -85,7 +85,7 @@ public MapiContactTelephonePropertySet(String primaryTelephoneNumber)
 ```
 
 
-Initializes a new instance of the [MapiContactTelephonePropertySet](../../com.aspose.email/mapicontacttelephonepropertyset) class.
+Initializes a new instance of the [MapiContactTelephonePropertySet](../../com.aspose.email/mapicontacttelephonepropertyset) class with the primary telephone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -98,12 +98,12 @@ public MapiContactTelephonePropertySet(MapiPropertyCollection properties)
 ```
 
 
-Initializes a new instance of the [MapiContactTelephonePropertySet](../../com.aspose.email/mapicontacttelephonepropertyset) class
+Initializes a new instance of the [MapiContactTelephonePropertySet](../../com.aspose.email/mapicontacttelephonepropertyset) class from contact properties.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| properties | [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) | A [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) containing contact telephone properties |
+| properties | [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) | The properties that contain the telephone numbers. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -126,7 +126,7 @@ public final String getAssistantTelephoneNumber()
 ```
 
 
-Gets or sets the telephone number of the contact's assistant
+Gets the telephone number of the contact's assistant.
 
 **Returns:**
 java.lang.String
@@ -136,7 +136,7 @@ public final String getBusiness2TelephoneNumber()
 ```
 
 
-Gets or sets the second business telephone number
+Gets the second business telephone number.
 
 **Returns:**
 java.lang.String
@@ -146,7 +146,7 @@ public final String getBusinessTelephoneNumber()
 ```
 
 
-Gets or sets the business telephone number
+Gets the business telephone number.
 
 **Returns:**
 java.lang.String
@@ -156,7 +156,7 @@ public final String getCallbackTelephoneNumber()
 ```
 
 
-Gets or sets the callback telephone number
+Gets the callback telephone number.
 
 **Returns:**
 java.lang.String
@@ -166,7 +166,7 @@ public final String getCarTelephoneNumber()
 ```
 
 
-Gets or sets the car telephone number
+Gets the car telephone number.
 
 **Returns:**
 java.lang.String
@@ -186,7 +186,7 @@ public final String getCompanyMainTelephoneNumber()
 ```
 
 
-Gets or sets the company phone number
+Gets the company phone number.
 
 **Returns:**
 java.lang.String
@@ -196,7 +196,9 @@ public final String getDefaultTelephoneNumber()
 ```
 
 
-Default value of electronic address Uses when user does not set any electronic address if UseAutocomplete property is set 'true'
+Gets the number used as \#getHomeTelephoneNumber().getHomeTelephoneNumber() when the contact has no telephone number and \#getUseAutocomplete().getUseAutocomplete() is  true .
+
+Used when a contact without telephone numbers is created on Exchange Server through EWS.
 
 **Returns:**
 java.lang.String
@@ -206,7 +208,7 @@ public final String getHome2TelephoneNumber()
 ```
 
 
-Gets or sets a second home telephone number
+Gets the second home telephone number.
 
 **Returns:**
 java.lang.String
@@ -216,7 +218,7 @@ public final String getHomeTelephoneNumber()
 ```
 
 
-Gets or sets the home telephone number
+Gets the home telephone number.
 
 **Returns:**
 java.lang.String
@@ -226,7 +228,7 @@ public final String getIsdnNumber()
 ```
 
 
-Gets or sets the integrated services digital network (ISDN) number
+Gets the ISDN number.
 
 **Returns:**
 java.lang.String
@@ -236,7 +238,7 @@ public final String getMobileTelephoneNumber()
 ```
 
 
-Gets or sets the mobile telephone number
+Gets the mobile telephone number.
 
 **Returns:**
 java.lang.String
@@ -246,7 +248,7 @@ public final String getOtherTelephoneNumber()
 ```
 
 
-Gets or sets an alternate telephone number
+Gets another telephone number.
 
 **Returns:**
 java.lang.String
@@ -256,7 +258,7 @@ public final String getPagerTelephoneNumber()
 ```
 
 
-Gets or sets a pager telephone number
+Gets the pager number.
 
 **Returns:**
 java.lang.String
@@ -266,7 +268,7 @@ public final String getPrimaryTelephoneNumber()
 ```
 
 
-Gets or sets the primary telephone number
+Gets the primary telephone number.
 
 **Returns:**
 java.lang.String
@@ -276,7 +278,7 @@ public final String getRadioTelephoneNumber()
 ```
 
 
-Gets or sets the radio telephone number
+Gets the radio telephone number.
 
 **Returns:**
 java.lang.String
@@ -286,7 +288,7 @@ public final String getTelexNumber()
 ```
 
 
-Gets or sets the telex number
+Gets the telex number.
 
 **Returns:**
 java.lang.String
@@ -296,7 +298,7 @@ public final String getTtyTddPhoneNumber()
 ```
 
 
-Gets or sets the telephone number for the contact's text telephone (TTY) or telecommunication device for the deaf (TDD)
+Gets the telephone number for the contact's text telephone (TTY) or telecommunication device for the deaf (TDD).
 
 **Returns:**
 java.lang.String
@@ -306,7 +308,7 @@ public final boolean getUseAutocomplete()
 ```
 
 
-Indicates that one electronic address is completed automatically in case if user does not set any electronic address
+Gets a value indicating whether \#getDefaultTelephoneNumber().getDefaultTelephoneNumber() is used when the contact has no telephone number. The default is  true .
 
 **Returns:**
 boolean
@@ -326,7 +328,7 @@ public final boolean isEmpty()
 ```
 
 
-Shows if MapiContactTelephonePropertySet is empty
+Gets a value indicating whether no telephone number is set.
 
 **Returns:**
 boolean
@@ -352,7 +354,7 @@ public final void setAssistantTelephoneNumber(String value)
 ```
 
 
-Gets or sets the telephone number of the contact's assistant
+Sets the telephone number of the contact's assistant.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -365,7 +367,7 @@ public final void setBusiness2TelephoneNumber(String value)
 ```
 
 
-Gets or sets the second business telephone number
+Sets the second business telephone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -378,7 +380,7 @@ public final void setBusinessTelephoneNumber(String value)
 ```
 
 
-Gets or sets the business telephone number
+Sets the business telephone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -391,7 +393,7 @@ public final void setCallbackTelephoneNumber(String value)
 ```
 
 
-Gets or sets the callback telephone number
+Sets the callback telephone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -404,7 +406,7 @@ public final void setCarTelephoneNumber(String value)
 ```
 
 
-Gets or sets the car telephone number
+Sets the car telephone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -417,7 +419,7 @@ public final void setCompanyMainTelephoneNumber(String value)
 ```
 
 
-Gets or sets the company phone number
+Sets the company phone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -430,7 +432,9 @@ public final void setDefaultTelephoneNumber(String value)
 ```
 
 
-Default value of electronic address Uses when user does not set any electronic address if UseAutocomplete property is set 'true'
+Sets the number used as \#getHomeTelephoneNumber().getHomeTelephoneNumber() when the contact has no telephone number and \#getUseAutocomplete().getUseAutocomplete() is  true .
+
+Used when a contact without telephone numbers is created on Exchange Server through EWS.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -443,7 +447,7 @@ public final void setHome2TelephoneNumber(String value)
 ```
 
 
-Gets or sets a second home telephone number
+Sets the second home telephone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -456,7 +460,7 @@ public final void setHomeTelephoneNumber(String value)
 ```
 
 
-Gets or sets the home telephone number
+Sets the home telephone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -469,7 +473,7 @@ public final void setIsdnNumber(String value)
 ```
 
 
-Gets or sets the integrated services digital network (ISDN) number
+Sets the ISDN number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -482,7 +486,7 @@ public final void setMobileTelephoneNumber(String value)
 ```
 
 
-Gets or sets the mobile telephone number
+Sets the mobile telephone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -495,7 +499,7 @@ public final void setOtherTelephoneNumber(String value)
 ```
 
 
-Gets or sets an alternate telephone number
+Sets another telephone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -508,7 +512,7 @@ public final void setPagerTelephoneNumber(String value)
 ```
 
 
-Gets or sets a pager telephone number
+Sets the pager number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -521,7 +525,7 @@ public final void setPrimaryTelephoneNumber(String value)
 ```
 
 
-Gets or sets the primary telephone number
+Sets the primary telephone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -534,7 +538,7 @@ public final void setRadioTelephoneNumber(String value)
 ```
 
 
-Gets or sets the radio telephone number
+Sets the radio telephone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -547,7 +551,7 @@ public final void setTelexNumber(String value)
 ```
 
 
-Gets or sets the telex number
+Sets the telex number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -560,7 +564,7 @@ public final void setTtyTddPhoneNumber(String value)
 ```
 
 
-Gets or sets the telephone number for the contact's text telephone (TTY) or telecommunication device for the deaf (TDD)
+Sets the telephone number for the contact's text telephone (TTY) or telecommunication device for the deaf (TDD).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -573,7 +577,7 @@ public final void setUseAutocomplete(boolean value)
 ```
 
 
-Indicates that one electronic address is completed automatically in case if user does not set any electronic address
+Sets a value indicating whether \#getDefaultTelephoneNumber().getDefaultTelephoneNumber() is used when the contact has no telephone number. The default is  true .
 
 **Parameters:**
 | Parameter | Type | Description |

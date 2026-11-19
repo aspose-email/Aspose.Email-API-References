@@ -1,7 +1,7 @@
 ---
 title: AppointmentAction
 second_title: Aspose.Email for Java API Reference
-description: Enumerates appointments methods
+description: Specifies whether a calendar message creates updates or cancels an event.
 type: docs
 weight: 34
 url: /java/com.aspose.email/appointmentaction/
@@ -13,15 +13,15 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class AppointmentAction extends System.Enum
 ```
 
-Enumerates appointments methods
+Specifies whether a calendar message creates, updates or cancels an event.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Cancel](#Cancel) | Cancel method |
-| [Create](#Create) | Create method |
+| [Cancel](#Cancel) | Cancels an existing event. |
+| [Create](#Create) | Creates the event: a meeting request. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Update](#Update) | Update method |
+| [Update](#Update) | Updates an existing event. |
 ## Methods
 
 | Method | Description |
@@ -67,7 +67,7 @@ public static final int Cancel
 ```
 
 
-Cancel method
+Cancels an existing event.
 
 ### Create {#Create}
 ```
@@ -75,7 +75,7 @@ public static final int Create
 ```
 
 
-Create method
+Creates the event: a meeting request.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -89,7 +89,7 @@ public static final int Update
 ```
 
 
-Update method
+Updates an existing event.
 
 ### Clone() {#Clone--}
 ```

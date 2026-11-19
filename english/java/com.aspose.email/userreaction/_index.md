@@ -1,9 +1,9 @@
 ---
 title: UserReaction
 second_title: Aspose.Email for Java API Reference
-description: Represents a users reaction.
+description: A reaction of a user to a message who reacted how and when.
 type: docs
-weight: 728
+weight: 738
 url: /java/com.aspose.email/userreaction/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public class UserReaction
 ```
 
-Represents a user's reaction.
+A reaction of a user to a message: who reacted, how and when.
 ## Constructors
 
 | Constructor | Description |
@@ -25,17 +25,17 @@ Represents a user's reaction.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getEmail()](#getEmail--) | Gets or sets the email of the user. |
-| [getName()](#getName--) | Gets or sets the name of the user. |
-| [getReactionDateTime()](#getReactionDateTime--) | Gets or sets the date and time of the reaction. |
-| [getType()](#getType--) | Gets or sets the reaction type. |
+| [getEmail()](#getEmail--) | Gets the e-mail address of the user. |
+| [getName()](#getName--) | Gets the name of the user. |
+| [getReactionDateTime()](#getReactionDateTime--) | Gets the date and time of the reaction. |
+| [getType()](#getType--) | Gets the type of the reaction. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEmail(String value)](#setEmail-java.lang.String-) | Gets or sets the email of the user. |
-| [setName(String value)](#setName-java.lang.String-) | Gets or sets the name of the user. |
-| [setReactionDateTime(Date value)](#setReactionDateTime-java.util.Date-) | Gets or sets the date and time of the reaction. |
-| [setType(int value)](#setType-int-) | Gets or sets the reaction type. |
+| [setEmail(String value)](#setEmail-java.lang.String-) | Sets the e-mail address of the user. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the user. |
+| [setReactionDateTime(Date value)](#setReactionDateTime-java.util.Date-) | Sets the date and time of the reaction. |
+| [setType(int value)](#setType-int-) | Sets the type of the reaction. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -77,7 +77,7 @@ public final String getEmail()
 ```
 
 
-Gets or sets the email of the user.
+Gets the e-mail address of the user.
 
 **Returns:**
 java.lang.String
@@ -87,7 +87,7 @@ public final String getName()
 ```
 
 
-Gets or sets the name of the user.
+Gets the name of the user.
 
 **Returns:**
 java.lang.String
@@ -97,7 +97,7 @@ public final Date getReactionDateTime()
 ```
 
 
-Gets or sets the date and time of the reaction.
+Gets the date and time of the reaction.
 
 **Returns:**
 java.util.Date
@@ -107,7 +107,7 @@ public final int getType()
 ```
 
 
-Gets or sets the reaction type.
+Gets the type of the reaction.
 
 **Returns:**
 int
@@ -143,7 +143,7 @@ public final void setEmail(String value)
 ```
 
 
-Gets or sets the email of the user.
+Sets the e-mail address of the user.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -156,7 +156,7 @@ public final void setName(String value)
 ```
 
 
-Gets or sets the name of the user.
+Sets the name of the user.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -169,7 +169,7 @@ public final void setReactionDateTime(Date value)
 ```
 
 
-Gets or sets the date and time of the reaction.
+Sets the date and time of the reaction.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +182,7 @@ public final void setType(int value)
 ```
 
 
-Gets or sets the reaction type.
+Sets the type of the reaction.
 
 **Parameters:**
 | Parameter | Type | Description |

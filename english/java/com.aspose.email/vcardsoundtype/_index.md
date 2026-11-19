@@ -1,9 +1,9 @@
 ---
 title: VCardSoundType
 second_title: Aspose.Email for Java API Reference
-description: Enumerates a cVard sound types
+description: Enumerates a cVard sound types.
 type: docs
-weight: 752
+weight: 763
 url: /java/com.aspose.email/vcardsoundtype/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class VCardSoundType extends System.Enum
 ```
 
-Enumerates a cVard sound types
+Enumerates a cVard sound types.
 ## Constructors
 
 | Constructor | Description |
@@ -23,15 +23,15 @@ Enumerates a cVard sound types
 
 | Field | Description |
 | --- | --- |
-| [AIFF](#AIFF) | A AIFF format |
-| [BASIC](#BASIC) | A basic format |
+| [AIFF](#AIFF) | A AIFF format. |
+| [BASIC](#BASIC) | A basic format. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [MP4](#MP4) | A mp4 audio |
-| [MPEG](#MPEG) | A mpeg audio |
-| [OGG](#OGG) | An ogg audio |
-| [PCM](#PCM) | A MIME basic audio type |
-| [WAVE](#WAVE) | A wave format |
-| [WMA](#WMA) | A windows media audio |
+| [MP4](#MP4) | A mp4 audio. |
+| [MPEG](#MPEG) | A mpeg audio. |
+| [OGG](#OGG) | An ogg audio. |
+| [PCM](#PCM) | A MIME basic audio type. |
+| [WAVE](#WAVE) | A wave format. |
+| [WMA](#WMA) | A windows media audio. |
 ## Methods
 
 | Method | Description |
@@ -85,7 +85,7 @@ public static final int AIFF
 ```
 
 
-A AIFF format
+A AIFF format.
 
 ### BASIC {#BASIC}
 ```
@@ -93,7 +93,7 @@ public static final int BASIC
 ```
 
 
-A basic format
+A basic format.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -107,7 +107,7 @@ public static final int MP4
 ```
 
 
-A mp4 audio
+A mp4 audio.
 
 ### MPEG {#MPEG}
 ```
@@ -115,7 +115,7 @@ public static final int MPEG
 ```
 
 
-A mpeg audio
+A mpeg audio.
 
 ### OGG {#OGG}
 ```
@@ -123,7 +123,7 @@ public static final int OGG
 ```
 
 
-An ogg audio
+An ogg audio.
 
 ### PCM {#PCM}
 ```
@@ -131,7 +131,7 @@ public static final int PCM
 ```
 
 
-A MIME basic audio type
+A MIME basic audio type.
 
 ### WAVE {#WAVE}
 ```
@@ -139,7 +139,7 @@ public static final int WAVE
 ```
 
 
-A wave format
+A wave format.
 
 ### WMA {#WMA}
 ```
@@ -147,7 +147,7 @@ public static final int WMA
 ```
 
 
-A windows media audio
+A windows media audio.
 
 ### Clone() {#Clone--}
 ```

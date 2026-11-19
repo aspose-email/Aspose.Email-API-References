@@ -114,7 +114,7 @@ public final int getLayout()
 AMP provides a set of layouts that specify how an AMP component behaves in the document layout.
 
 **Returns:**
-int
+int - The layout, one of the  LayoutType  values.
 ### getMedia() {#getMedia--}
 ```
 public final String getMedia()
@@ -174,7 +174,7 @@ public final boolean isFallback()
 Define that current element is fallback.
 
 **Returns:**
-boolean
+boolean -  true  if the current element is a fallback.
 ### isNoloading() {#isNoloading--}
 ```
 public final boolean isNoloading()
@@ -184,7 +184,7 @@ public final boolean isNoloading()
 The noloading attribute indicates whether the "loading indicator" should be turned off for this element.
 
 **Returns:**
-boolean
+boolean -  true  if the loading indicator is turned off.
 ### isPlaceHolder() {#isPlaceHolder--}
 ```
 public final boolean isPlaceHolder()
@@ -194,7 +194,7 @@ public final boolean isPlaceHolder()
 The placeholder attribute indicates that the element marked with this attribute acts as a placeholder for the parent AMP element.
 
 **Returns:**
-boolean
+boolean -  true  if the element acts as a placeholder for the parent AMP element.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -222,7 +222,7 @@ Define that current element is fallback.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  to mark the current element as a fallback. |
 
 ### setHeight(int value) {#setHeight-int-}
 ```
@@ -261,7 +261,7 @@ AMP provides a set of layouts that specify how an AMP component behaves in the d
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The layout, one of the  LayoutType  values. |
 
 ### setMedia(String value) {#setMedia-java.lang.String-}
 ```
@@ -287,7 +287,7 @@ The noloading attribute indicates whether the "loading indicator" should be turn
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  to turn the loading indicator off. |
 
 ### setOn(String value) {#setOn-java.lang.String-}
 ```
@@ -313,7 +313,7 @@ The placeholder attribute indicates that the element marked with this attribute 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  to make the element act as a placeholder for the parent AMP element. |
 
 ### setSizes(String value) {#setSizes-java.lang.String-}
 ```
@@ -350,7 +350,7 @@ public String toAmpHtml()
 Represents amp html version of attributes.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toHtml() {#toHtml--}
 ```
 public String toHtml()
@@ -360,7 +360,7 @@ public String toHtml()
 Represents html version of attributes.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toString() {#toString--}
 ```
 public String toString()

@@ -1,9 +1,9 @@
 ---
 title: ProgressEventType
 second_title: Aspose.Email for Java API Reference
-description: Type of progress event that occured.
+description: Defines the stages of a conversion reported to a progress handler.
 type: docs
-weight: 608
+weight: 613
 url: /java/com.aspose.email/progresseventtype/
 ---
 
@@ -13,15 +13,15 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ProgressEventType extends System.Enum
 ```
 
-Type of progress event that occured.
+Defines the stages of a conversion reported to a progress handler.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [MimePartSaved](#MimePartSaved) | Mean that occurred event informs about finished saving of one mime part. |
-| [MimeStructureCreated](#MimeStructureCreated) | Mean that occurred event informs about mime structure is created. |
-| [SavedToStream](#SavedToStream) | Mean that occurred event informs that all mime parts are saved to stream. |
+| [MimePartSaved](#MimePartSaved) | A MIME part has been saved. |
+| [MimeStructureCreated](#MimeStructureCreated) | The MIME structure of the message has been created. |
+| [SavedToStream](#SavedToStream) | All MIME parts have been saved to the stream. |
 ## Methods
 
 | Method | Description |
@@ -73,7 +73,7 @@ public static final int MimePartSaved
 ```
 
 
-Mean that occurred event informs about finished saving of one mime part.
+A MIME part has been saved.
 
 ### MimeStructureCreated {#MimeStructureCreated}
 ```
@@ -81,7 +81,7 @@ public static final int MimeStructureCreated
 ```
 
 
-Mean that occurred event informs about mime structure is created.
+The MIME structure of the message has been created.
 
 ### SavedToStream {#SavedToStream}
 ```
@@ -89,7 +89,7 @@ public static final int SavedToStream
 ```
 
 
-Mean that occurred event informs that all mime parts are saved to stream.
+All MIME parts have been saved to the stream.
 
 ### Clone() {#Clone--}
 ```

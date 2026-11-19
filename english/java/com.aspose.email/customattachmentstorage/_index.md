@@ -3,7 +3,7 @@ title: CustomAttachmentStorage
 second_title: Aspose.Email for Java API Reference
 description: Represents custom attachment storage.
 type: docs
-weight: 131
+weight: 132
 url: /java/com.aspose.email/customattachmentstorage/
 ---
 
@@ -74,10 +74,8 @@ public final System.Collections.Generic.Dictionary<String,byte[]> getDataSet()
 
 Gets the data set representing custom attachment storage, names of the data streams are keys for this dictionary.
 
-Value: The data set.
-
 **Returns:**
-com.aspose.ms.System.Collections.Generic.Dictionary<java.lang.String,byte[]>
+com.aspose.ms.System.Collections.Generic.Dictionary<java.lang.String,byte[]> - The data set.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

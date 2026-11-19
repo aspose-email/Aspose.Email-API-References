@@ -30,7 +30,7 @@ A runtime-managed animated image, typically a GIF.
 | [getClass()](#getClass--) |  |
 | [getFallback()](#getFallback--) | A fallback is a convention that allows the element to communicate to the reader that the browser does not support the element. |
 | [getPlaceholder()](#getPlaceholder--) | The element marked with the placeholder attribute acts as a placeholder for the parent AMP element. |
-| [getRequiredScript()](#getRequiredScript--) | Required script that muct be added to head section. |
+| [getRequiredScript()](#getRequiredScript--) | Required script that must be added to head section. |
 | [getSrc()](#getSrc--) | Similar to the src attribute on the img tag. |
 | [hashCode()](#hashCode--) |  |
 | [isValid()](#isValid--) | Indicates whether this image is valid of AmpImage. |
@@ -95,7 +95,7 @@ public final AmpAttributes getAttributes()
 AMP provides a set of common attributes that are extended to many AMP components.
 
 **Returns:**
-[AmpAttributes](../../com.aspose.email/ampattributes)
+[AmpAttributes](../../com.aspose.email/ampattributes) - The common AMP attributes of the component.
 ### getAttribution() {#getAttribution--}
 ```
 public final String getAttribution()
@@ -105,7 +105,7 @@ public final String getAttribution()
 A string that indicates the attribution of the image.
 
 **Returns:**
-java.lang.String
+java.lang.String - The attribution of the image.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -142,7 +142,7 @@ public String getRequiredScript()
 ```
 
 
-Required script that muct be added to head section.
+Required script that must be added to head section.
 
 **Returns:**
 java.lang.String
@@ -152,7 +152,7 @@ public final String getSrc()
 ```
 
 
-Similar to the src attribute on the img tag. The value must be a URL that points to a publicly-cacheable image file
+Similar to the src attribute on the img tag. The value must be a URL that points to a publicly-cacheable image file.
 
 **Returns:**
 java.lang.String
@@ -175,7 +175,7 @@ public final boolean isValid()
 Indicates whether this image is valid of AmpImage.
 
 **Returns:**
-boolean
+boolean -  true  if the image is valid.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -216,7 +216,7 @@ A string that indicates the attribution of the image.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The attribution of the image. |
 
 ### setFallback(String value) {#setFallback-java.lang.String-}
 ```
@@ -250,7 +250,7 @@ public final void setSrc(String value)
 ```
 
 
-Similar to the src attribute on the img tag. The value must be a URL that points to a publicly-cacheable image file
+Similar to the src attribute on the img tag. The value must be a URL that points to a publicly-cacheable image file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -266,7 +266,7 @@ public String toAmpHtml()
 Represents amp html version of component.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toHtml() {#toHtml--}
 ```
 public String toHtml()
@@ -276,7 +276,7 @@ public String toHtml()
 Represents html version of component.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toString() {#toString--}
 ```
 public String toString()

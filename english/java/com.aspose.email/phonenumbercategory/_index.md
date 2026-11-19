@@ -1,9 +1,9 @@
 ---
 title: PhoneNumberCategory
 second_title: Aspose.Email for Java API Reference
-description: Represents category for a phone number
+description: Represents category for a phone number.
 type: docs
-weight: 590
+weight: 594
 url: /java/com.aspose.email/phonenumbercategory/
 ---
 
@@ -16,7 +16,7 @@ com.aspose.ms.System.IEquatable
 public class PhoneNumberCategory implements System.IEquatable<PhoneNumberCategory>
 ```
 
-Represents category for a phone number
+Represents category for a phone number.
 ## Constructors
 
 | Constructor | Description |
@@ -26,51 +26,51 @@ Represents category for a phone number
 
 | Field | Description |
 | --- | --- |
-| [ASSISTANT_VALUE](#ASSISTANT-VALUE) | String value for 'Assistant' category |
-| [CALLBACK_VALUE](#CALLBACK-VALUE) | String value for 'Callback' category |
-| [CAR_VALUE](#CAR-VALUE) | String value for 'Car' category |
-| [COMPANY_VALUE](#COMPANY-VALUE) | String value for 'Company' category |
-| [CUSTOM_VALUE](#CUSTOM-VALUE) | String value for 'Custom' category |
-| [FAX_VALUE](#FAX-VALUE) | String value for 'Fax' category |
-| [HOME_FAX_VALUE](#HOME-FAX-VALUE) | String value for 'Fax' category |
-| [HOME_VALUE](#HOME-VALUE) | String value for 'Home' category |
-| [ISDN_VALUE](#ISDN-VALUE) | String value for 'Isdn' category |
-| [MOBILE_VALUE](#MOBILE-VALUE) | String value for 'Mobile' category |
-| [OFFICE_VALUE](#OFFICE-VALUE) | String value for 'Office' category |
-| [PAGER_VALUE](#PAGER-VALUE) | String value for 'Pager' category |
-| [PRIMARY_VALUE](#PRIMARY-VALUE) | String value for 'Primary' category |
-| [RADIO_VALUE](#RADIO-VALUE) | String value for 'Radio' category |
-| [TELEX_VALUE](#TELEX-VALUE) | String value for 'Telex' category |
-| [TTY_TDD_VALUE](#TTY-TDD-VALUE) | String value for 'TtyTdd' category |
-| [WORK_FAX_VALUE](#WORK-FAX-VALUE) | String value for 'Fax' category |
-| [WORK_VALUE](#WORK-VALUE) | String value for 'Work' category |
+| [ASSISTANT_VALUE](#ASSISTANT-VALUE) | String value for 'Assistant' category. |
+| [CALLBACK_VALUE](#CALLBACK-VALUE) | String value for 'Callback' category. |
+| [CAR_VALUE](#CAR-VALUE) | String value for 'Car' category. |
+| [COMPANY_VALUE](#COMPANY-VALUE) | String value for 'Company' category. |
+| [CUSTOM_VALUE](#CUSTOM-VALUE) | String value for 'Custom' category. |
+| [FAX_VALUE](#FAX-VALUE) | String value for 'Fax' category. |
+| [HOME_FAX_VALUE](#HOME-FAX-VALUE) | String value for 'Fax' category. |
+| [HOME_VALUE](#HOME-VALUE) | String value for 'Home' category. |
+| [ISDN_VALUE](#ISDN-VALUE) | String value for 'Isdn' category. |
+| [MOBILE_VALUE](#MOBILE-VALUE) | String value for 'Mobile' category. |
+| [OFFICE_VALUE](#OFFICE-VALUE) | String value for 'Office' category. |
+| [PAGER_VALUE](#PAGER-VALUE) | String value for 'Pager' category. |
+| [PRIMARY_VALUE](#PRIMARY-VALUE) | String value for 'Primary' category. |
+| [RADIO_VALUE](#RADIO-VALUE) | String value for 'Radio' category. |
+| [TELEX_VALUE](#TELEX-VALUE) | String value for 'Telex' category. |
+| [TTY_TDD_VALUE](#TTY-TDD-VALUE) | String value for 'TtyTdd' category. |
+| [WORK_FAX_VALUE](#WORK-FAX-VALUE) | String value for 'Fax' category. |
+| [WORK_VALUE](#WORK-VALUE) | String value for 'Work' category. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(PhoneNumberCategory other)](#equals-com.aspose.email.PhoneNumberCategory-) | Determines whether the specified object is equal to the current object. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
-| [getAssistant()](#getAssistant--) | Assistant phone number |
-| [getCallback()](#getCallback--) | Callback phone number |
-| [getCar()](#getCar--) | Car phone number |
+| [getAssistant()](#getAssistant--) | Assistant phone number. |
+| [getCallback()](#getCallback--) | Callback phone number. |
+| [getCar()](#getCar--) | Car phone number. |
 | [getClass()](#getClass--) |  |
-| [getCompany()](#getCompany--) | Company phone number |
-| [getCustom()](#getCustom--) | Custom phone category |
-| [getDescription()](#getDescription--) | Gets description for the 'Custom' category of a phone number |
-| [getFax()](#getFax--) | Fax number |
-| [getHome()](#getHome--) | Home phone number |
-| [getHomeFax()](#getHomeFax--) | Home fax number |
-| [getIsdn()](#getIsdn--) | Isdn phone number |
-| [getMobile()](#getMobile--) | Mobile phone number |
-| [getOffice()](#getOffice--) | Office phone number |
-| [getPager()](#getPager--) | Pager number |
-| [getPrimary()](#getPrimary--) | Primary phone number |
-| [getRadio()](#getRadio--) | Radio phone number |
-| [getTelex()](#getTelex--) | Telex |
-| [getTtyTdd()](#getTtyTdd--) | Tty/Tdd |
-| [getValue()](#getValue--) | Gets category of a phone number |
-| [getWork()](#getWork--) | Work phone number |
-| [getWorkFax()](#getWorkFax--) | Work fax number |
+| [getCompany()](#getCompany--) | Company phone number. |
+| [getCustom()](#getCustom--) | Custom phone category. |
+| [getDescription()](#getDescription--) | Gets description for the 'Custom' category of a phone number. |
+| [getFax()](#getFax--) | Fax number. |
+| [getHome()](#getHome--) | Home phone number. |
+| [getHomeFax()](#getHomeFax--) | Home fax number. |
+| [getIsdn()](#getIsdn--) | Isdn phone number. |
+| [getMobile()](#getMobile--) | Mobile phone number. |
+| [getOffice()](#getOffice--) | Office phone number. |
+| [getPager()](#getPager--) | Pager number. |
+| [getPrimary()](#getPrimary--) | Primary phone number. |
+| [getRadio()](#getRadio--) | Radio phone number. |
+| [getTelex()](#getTelex--) | Telex. |
+| [getTtyTdd()](#getTtyTdd--) | Tty/Tdd. |
+| [getValue()](#getValue--) | Gets category of a phone number. |
+| [getWork()](#getWork--) | Work phone number. |
+| [getWorkFax()](#getWorkFax--) | Work fax number. |
 | [hashCode()](#hashCode--) | GetHashCode returns a hash function for this object. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -91,7 +91,7 @@ Initializes a new instance of the [PhoneNumberCategory](../../com.aspose.email/p
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| description | java.lang.String | Description for the 'Custom' category of a phone number |
+| description | java.lang.String | Description for the 'Custom' category of a phone number. |
 
 ### ASSISTANT_VALUE {#ASSISTANT-VALUE}
 ```
@@ -99,7 +99,7 @@ public static final String ASSISTANT_VALUE
 ```
 
 
-String value for 'Assistant' category
+String value for 'Assistant' category.
 
 ### CALLBACK_VALUE {#CALLBACK-VALUE}
 ```
@@ -107,7 +107,7 @@ public static final String CALLBACK_VALUE
 ```
 
 
-String value for 'Callback' category
+String value for 'Callback' category.
 
 ### CAR_VALUE {#CAR-VALUE}
 ```
@@ -115,7 +115,7 @@ public static final String CAR_VALUE
 ```
 
 
-String value for 'Car' category
+String value for 'Car' category.
 
 ### COMPANY_VALUE {#COMPANY-VALUE}
 ```
@@ -123,7 +123,7 @@ public static final String COMPANY_VALUE
 ```
 
 
-String value for 'Company' category
+String value for 'Company' category.
 
 ### CUSTOM_VALUE {#CUSTOM-VALUE}
 ```
@@ -131,7 +131,7 @@ public static final String CUSTOM_VALUE
 ```
 
 
-String value for 'Custom' category
+String value for 'Custom' category.
 
 ### FAX_VALUE {#FAX-VALUE}
 ```
@@ -139,7 +139,7 @@ public static final String FAX_VALUE
 ```
 
 
-String value for 'Fax' category
+String value for 'Fax' category.
 
 ### HOME_FAX_VALUE {#HOME-FAX-VALUE}
 ```
@@ -147,7 +147,7 @@ public static final String HOME_FAX_VALUE
 ```
 
 
-String value for 'Fax' category
+String value for 'Fax' category.
 
 ### HOME_VALUE {#HOME-VALUE}
 ```
@@ -155,7 +155,7 @@ public static final String HOME_VALUE
 ```
 
 
-String value for 'Home' category
+String value for 'Home' category.
 
 ### ISDN_VALUE {#ISDN-VALUE}
 ```
@@ -163,7 +163,7 @@ public static final String ISDN_VALUE
 ```
 
 
-String value for 'Isdn' category
+String value for 'Isdn' category.
 
 ### MOBILE_VALUE {#MOBILE-VALUE}
 ```
@@ -171,7 +171,7 @@ public static final String MOBILE_VALUE
 ```
 
 
-String value for 'Mobile' category
+String value for 'Mobile' category.
 
 ### OFFICE_VALUE {#OFFICE-VALUE}
 ```
@@ -179,7 +179,7 @@ public static final String OFFICE_VALUE
 ```
 
 
-String value for 'Office' category
+String value for 'Office' category.
 
 ### PAGER_VALUE {#PAGER-VALUE}
 ```
@@ -187,7 +187,7 @@ public static final String PAGER_VALUE
 ```
 
 
-String value for 'Pager' category
+String value for 'Pager' category.
 
 ### PRIMARY_VALUE {#PRIMARY-VALUE}
 ```
@@ -195,7 +195,7 @@ public static final String PRIMARY_VALUE
 ```
 
 
-String value for 'Primary' category
+String value for 'Primary' category.
 
 ### RADIO_VALUE {#RADIO-VALUE}
 ```
@@ -203,7 +203,7 @@ public static final String RADIO_VALUE
 ```
 
 
-String value for 'Radio' category
+String value for 'Radio' category.
 
 ### TELEX_VALUE {#TELEX-VALUE}
 ```
@@ -211,7 +211,7 @@ public static final String TELEX_VALUE
 ```
 
 
-String value for 'Telex' category
+String value for 'Telex' category.
 
 ### TTY_TDD_VALUE {#TTY-TDD-VALUE}
 ```
@@ -219,7 +219,7 @@ public static final String TTY_TDD_VALUE
 ```
 
 
-String value for 'TtyTdd' category
+String value for 'TtyTdd' category.
 
 ### WORK_FAX_VALUE {#WORK-FAX-VALUE}
 ```
@@ -227,7 +227,7 @@ public static final String WORK_FAX_VALUE
 ```
 
 
-String value for 'Fax' category
+String value for 'Fax' category.
 
 ### WORK_VALUE {#WORK-VALUE}
 ```
@@ -235,7 +235,7 @@ public static final String WORK_VALUE
 ```
 
 
-String value for 'Work' category
+String value for 'Work' category.
 
 ### equals(PhoneNumberCategory other) {#equals-com.aspose.email.PhoneNumberCategory-}
 ```
@@ -251,7 +251,7 @@ Determines whether the specified object is equal to the current object.
 | other | [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory) | The object to compare with the current object. |
 
 **Returns:**
-boolean - true if the specified object is equal to the current object; otherwise, false.
+boolean -  true  if the specified object is equal to the current object; otherwise,  false .
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -273,7 +273,7 @@ public static PhoneNumberCategory getAssistant()
 ```
 
 
-Assistant phone number
+Assistant phone number.
 
 **Returns:**
 [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory)
@@ -283,7 +283,7 @@ public static PhoneNumberCategory getCallback()
 ```
 
 
-Callback phone number
+Callback phone number.
 
 **Returns:**
 [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory)
@@ -293,7 +293,7 @@ public static PhoneNumberCategory getCar()
 ```
 
 
-Car phone number
+Car phone number.
 
 **Returns:**
 [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory)
@@ -313,7 +313,7 @@ public static PhoneNumberCategory getCompany()
 ```
 
 
-Company phone number
+Company phone number.
 
 **Returns:**
 [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory)
@@ -323,7 +323,7 @@ public static PhoneNumberCategory getCustom()
 ```
 
 
-Custom phone category
+Custom phone category.
 
 **Returns:**
 [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory)
@@ -333,7 +333,7 @@ public final String getDescription()
 ```
 
 
-Gets description for the 'Custom' category of a phone number
+Gets description for the 'Custom' category of a phone number.
 
 **Returns:**
 java.lang.String
@@ -343,7 +343,7 @@ public static PhoneNumberCategory getFax()
 ```
 
 
-Fax number
+Fax number.
 
 **Returns:**
 [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory)
@@ -353,7 +353,7 @@ public static PhoneNumberCategory getHome()
 ```
 
 
-Home phone number
+Home phone number.
 
 **Returns:**
 [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory)
@@ -363,7 +363,7 @@ public static PhoneNumberCategory getHomeFax()
 ```
 
 
-Home fax number
+Home fax number.
 
 **Returns:**
 [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory)
@@ -373,7 +373,7 @@ public static PhoneNumberCategory getIsdn()
 ```
 
 
-Isdn phone number
+Isdn phone number.
 
 **Returns:**
 [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory)
@@ -383,7 +383,7 @@ public static PhoneNumberCategory getMobile()
 ```
 
 
-Mobile phone number
+Mobile phone number.
 
 **Returns:**
 [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory)
@@ -393,7 +393,7 @@ public static PhoneNumberCategory getOffice()
 ```
 
 
-Office phone number
+Office phone number.
 
 **Returns:**
 [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory)
@@ -403,7 +403,7 @@ public static PhoneNumberCategory getPager()
 ```
 
 
-Pager number
+Pager number.
 
 **Returns:**
 [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory)
@@ -413,7 +413,7 @@ public static PhoneNumberCategory getPrimary()
 ```
 
 
-Primary phone number
+Primary phone number.
 
 **Returns:**
 [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory)
@@ -423,7 +423,7 @@ public static PhoneNumberCategory getRadio()
 ```
 
 
-Radio phone number
+Radio phone number.
 
 **Returns:**
 [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory)
@@ -433,7 +433,7 @@ public static PhoneNumberCategory getTelex()
 ```
 
 
-Telex
+Telex.
 
 **Returns:**
 [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory)
@@ -443,7 +443,7 @@ public static PhoneNumberCategory getTtyTdd()
 ```
 
 
-Tty/Tdd
+Tty/Tdd.
 
 **Returns:**
 [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory)
@@ -453,7 +453,7 @@ public final String getValue()
 ```
 
 
-Gets category of a phone number
+Gets category of a phone number.
 
 **Returns:**
 java.lang.String
@@ -463,7 +463,7 @@ public static PhoneNumberCategory getWork()
 ```
 
 
-Work phone number
+Work phone number.
 
 **Returns:**
 [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory)
@@ -473,7 +473,7 @@ public static PhoneNumberCategory getWorkFax()
 ```
 
 
-Work fax number
+Work fax number.
 
 **Returns:**
 [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory)
@@ -514,11 +514,11 @@ Determines whether the specified objects are equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory) | First object to compare |
-| b | [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory) | Second object to compare |
+| a | [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory) | First object to compare. |
+| b | [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are equal, otherwise false.
+boolean - Returns  true  if objects are equal, otherwise  false .
 ### op_Inequality(PhoneNumberCategory a, PhoneNumberCategory b) {#op-Inequality-com.aspose.email.PhoneNumberCategory-com.aspose.email.PhoneNumberCategory-}
 ```
 public static boolean op_Inequality(PhoneNumberCategory a, PhoneNumberCategory b)
@@ -530,11 +530,11 @@ Determines whether the specified objects are not equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory) | First object to compare |
-| b | [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory) | Second object to compare |
+| a | [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory) | First object to compare. |
+| b | [PhoneNumberCategory](../../com.aspose.email/phonenumbercategory) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are not equal, otherwise false.
+boolean - Returns  true  if objects are not equal, otherwise  false .
 ### toString() {#toString--}
 ```
 public String toString()

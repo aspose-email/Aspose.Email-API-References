@@ -24,15 +24,15 @@ Represents the base class for Appender.
 | [append(LogEntry entry)](#append-com.aspose.email.LogEntry-) | Appends the specified log entry to the appender. |
 | [appendHeader()](#appendHeader--) | Starts log file with specific header. |
 | [close()](#close--) | Closes the appender. |
-| [dispose()](#dispose--) | Releases the unmanaged resources used by the Appender. |
+| [dispose()](#dispose--) | Releases the unmanaged resources used by the [Appender](../../com.aspose.email/appender). |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getFormatter()](#getFormatter--) | Gets or sets the formatter. |
+| [getFormatter()](#getFormatter--) | Gets the formatter. |
 | [hashCode()](#hashCode--) |  |
 | [initialize()](#initialize--) | Initializes the appender instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFormatter(IFormatter value)](#setFormatter-com.aspose.email.IFormatter-) | Gets or sets the formatter. |
+| [setFormatter(IFormatter value)](#setFormatter-com.aspose.email.IFormatter-) | Sets the formatter. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -72,7 +72,7 @@ public final void dispose()
 ```
 
 
-Releases the unmanaged resources used by the Appender.
+Releases the unmanaged resources used by the [Appender](../../com.aspose.email/appender).
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -105,7 +105,7 @@ public final IFormatter getFormatter()
 ```
 
 
-Gets or sets the formatter.
+Gets the formatter.
 
 **Returns:**
 [IFormatter](../../com.aspose.email/iformatter)
@@ -149,7 +149,7 @@ public final void setFormatter(IFormatter value)
 ```
 
 
-Gets or sets the formatter.
+Sets the formatter.
 
 **Parameters:**
 | Parameter | Type | Description |

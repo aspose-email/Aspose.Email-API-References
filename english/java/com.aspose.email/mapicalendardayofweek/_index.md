@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarDayOfWeek
 second_title: Aspose.Email for Java API Reference
-description: Enumerates the days of week of the mapi calendar recurrence pattern
+description: Defines the days of the week of a recurrence.
 type: docs
-weight: 411
+weight: 414
 url: /java/com.aspose.email/mapicalendardayofweek/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiCalendarDayOfWeek extends System.Enum
 ```
 
-Enumerates the days of week of the mapi calendar recurrence pattern
+Defines the days of the week of a recurrence. The values can be combined.
 ## Fields
 
 | Field | Description |

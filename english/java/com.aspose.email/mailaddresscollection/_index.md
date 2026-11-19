@@ -1,9 +1,9 @@
 ---
 title: MailAddressCollection
 second_title: Aspose.Email for Java API Reference
-description: Represents a collection of  objects.
+description: A list of e-mail addresses such as the recipients of a message.
 type: docs
-weight: 383
+weight: 386
 url: /java/com.aspose.email/mailaddresscollection/
 ---
 
@@ -13,7 +13,31 @@ java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 public class MailAddressCollection extends System.Collections.ObjectModel.Collection<MailAddress>
 ```
 
-Represents a collection of [MailAddress](../../com.aspose.email/mailaddress) objects.
+A list of e-mail addresses, such as the recipients of a message.
+
+A string converts to this class with \#to\_MailAddressCollection(String).to\_MailAddressCollection(String), so  msg.setTo(MailAddressCollection.to\_MailAddressCollection("a@example.com, b@example.com"))  works.
+
+This example adds recipients to a message in several ways.
+
+```
+
+ MailMessage msg = new MailMessage();
+ msg.setFrom(new MailAddress("sender@example.com", "Sender"));
+
+ // a comma-separated list
+ msg.getTo().add("alice@example.com, bob@example.com");
+
+ // one address with a display name
+ msg.getCC().addMailAddress(new MailAddress("carol@example.com", "Carol"));
+
+ // conversion from a string
+ msg.setBcc(MailAddressCollection.to_MailAddressCollection("audit@example.com"));
+
+ for (MailAddress address : msg.getTo()) {
+     System.out.println(address.getAddress());
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -23,14 +47,14 @@ Represents a collection of [MailAddress](../../com.aspose.email/mailaddress) obj
 
 | Method | Description |
 | --- | --- |
-| [add(String addresses)](#add-java.lang.String-) | Add a list of e-mail addresses to the collection. |
+| [add(String addresses)](#add-java.lang.String-) | Adds one or more addresses to the collection. |
 | [addItem(T arg0)](#addItem-T-) |  |
-| [addMailAddress(MailAddress address)](#addMailAddress-com.aspose.email.MailAddress-) | Add a [MailAddress](../../com.aspose.email/mailaddress) to the collection. |
-| [addRange(MailAddressCollection addresses)](#addRange-com.aspose.email.MailAddressCollection-) | Adds addresses to collection |
-| [addRange(Iterable<MailAddress> addresses)](#addRange-java.lang.Iterable-com.aspose.email.MailAddress--) | Adds addresses to collection |
+| [addMailAddress(MailAddress address)](#addMailAddress-com.aspose.email.MailAddress-) | Adds an address to the collection. |
+| [addRange(MailAddressCollection addresses)](#addRange-com.aspose.email.MailAddressCollection-) | Adds the addresses of another collection. |
+| [addRange(Iterable<MailAddress> addresses)](#addRange-java.lang.Iterable-com.aspose.email.MailAddress--) | Adds a sequence of addresses. |
 | [clear()](#clear--) | Removes all elements from the Collection. |
 | [containsItem(T arg0)](#containsItem-T-) |  |
-| [copy()](#copy--) | Copies this instance. |
+| [copy()](#copy--) | Creates a copy of the collection. |
 | [copyToTArray(T[] arg0, int arg1)](#copyToTArray-T---int-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
@@ -41,7 +65,7 @@ Represents a collection of [MailAddress](../../com.aspose.email/mailaddress) obj
 | [hashCode()](#hashCode--) |  |
 | [indexOfItem(T arg0)](#indexOfItem-T-) |  |
 | [insertItem(int arg0, T arg1)](#insertItem-int-T-) |  |
-| [insertItem(int index, MailAddress item)](#insertItem-int-com.aspose.email.MailAddress-) | Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index. |
+| [insertItem(int index, MailAddress item)](#insertItem-int-com.aspose.email.MailAddress-) | Inserts an element into the  Collection  at the specified index. |
 | [isReadOnly()](#isReadOnly--) |  |
 | [iterator()](#iterator--) |  |
 | [notify()](#notify--) |  |
@@ -50,7 +74,7 @@ Represents a collection of [MailAddress](../../com.aspose.email/mailaddress) obj
 | [removeItem(T arg0)](#removeItem-T-) |  |
 | [set_Item(int arg0, T arg1)](#set-Item-int-T-) |  |
 | [size()](#size--) |  |
-| [toString()](#toString--) | Returns a String that represents this instance. |
+| [toString()](#toString--) | Returns the addresses as a comma-separated list, as written in a header. |
 | [to_MailAddressCollection(MailAddress address)](#to-MailAddressCollection-com.aspose.email.MailAddress-) | Performs an implicit conversion from [MailAddress](../../com.aspose.email/mailaddress) to [MailAddressCollection](../../com.aspose.email/mailaddresscollection). |
 | [to_MailAddressCollection(String addresses)](#to-MailAddressCollection-java.lang.String-) | Performs an implicit conversion from String to [MailAddressCollection](../../com.aspose.email/mailaddresscollection). |
 | [wait()](#wait--) |  |
@@ -68,12 +92,12 @@ public final void add(String addresses)
 ```
 
 
-Add a list of e-mail addresses to the collection.
+Adds one or more addresses to the collection.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| addresses | java.lang.String | An address list. Addresses must be separated with a comma character. |
+| addresses | java.lang.String | The addresses, separated by commas. |
 
 ### addItem(T arg0) {#addItem-T-}
 ```
@@ -94,12 +118,12 @@ public final void addMailAddress(MailAddress address)
 ```
 
 
-Add a [MailAddress](../../com.aspose.email/mailaddress) to the collection.
+Adds an address to the collection.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| address | [MailAddress](../../com.aspose.email/mailaddress) | The [MailAddress](../../com.aspose.email/mailaddress) |
+| address | [MailAddress](../../com.aspose.email/mailaddress) | The address to add. |
 
 ### addRange(MailAddressCollection addresses) {#addRange-com.aspose.email.MailAddressCollection-}
 ```
@@ -107,12 +131,12 @@ public final void addRange(MailAddressCollection addresses)
 ```
 
 
-Adds addresses to collection
+Adds the addresses of another collection.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| addresses | [MailAddressCollection](../../com.aspose.email/mailaddresscollection) | Collection of mail addresses |
+| addresses | [MailAddressCollection](../../com.aspose.email/mailaddresscollection) | The addresses to add. |
 
 ### addRange(Iterable<MailAddress> addresses) {#addRange-java.lang.Iterable-com.aspose.email.MailAddress--}
 ```
@@ -120,12 +144,12 @@ public final void addRange(Iterable<MailAddress> addresses)
 ```
 
 
-Adds addresses to collection
+Adds a sequence of addresses.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| addresses | java.lang.Iterable<com.aspose.email.MailAddress> | Enumeration of mail addresses |
+| addresses | java.lang.Iterable<com.aspose.email.MailAddress> | The addresses to add. |
 
 ### clear() {#clear--}
 ```
@@ -156,10 +180,10 @@ public final MailAddressCollection copy()
 ```
 
 
-Copies this instance.
+Creates a copy of the collection.
 
 **Returns:**
-[MailAddressCollection](../../com.aspose.email/mailaddresscollection) - 
+[MailAddressCollection](../../com.aspose.email/mailaddresscollection) - The copy.
 ### copyToTArray(T[] arg0, int arg1) {#copyToTArray-T---int-}
 ```
 public void copyToTArray(T[] arg0, int arg1)
@@ -289,13 +313,13 @@ public void insertItem(int index, MailAddress item)
 ```
 
 
-Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index.
+Inserts an element into the  Collection  at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which  item  should be inserted. |
-| item | [MailAddress](../../com.aspose.email/mailaddress) | The object to insert. The value can be null for reference types. |
+| item | [MailAddress](../../com.aspose.email/mailaddress) | The object to insert. The value can be  null  for reference types. |
 
 ### isReadOnly() {#isReadOnly--}
 ```
@@ -391,10 +415,10 @@ public String toString()
 ```
 
 
-Returns a String that represents this instance.
+Returns the addresses as a comma-separated list, as written in a header.
 
 **Returns:**
-java.lang.String - A String that represents this instance.
+java.lang.String - The list of addresses.
 ### to_MailAddressCollection(MailAddress address) {#to-MailAddressCollection-com.aspose.email.MailAddress-}
 ```
 public static MailAddressCollection to_MailAddressCollection(MailAddress address)

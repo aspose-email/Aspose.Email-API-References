@@ -1,9 +1,9 @@
 ---
 title: DebugAppender
 second_title: Aspose.Email for Java API Reference
-description: Represents an appender is only enabled when debugging.
+description: Represents an appender that is only enabled when debugging.
 type: docs
-weight: 151
+weight: 152
 url: /java/com.aspose.email/debugappender/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.email.Appender](../../com.aspose.email/appender)
 public class DebugAppender extends Appender
 ```
 
-Represents an appender is only enabled when debugging.
+Represents an appender that is only enabled when debugging.
 ## Constructors
 
 | Constructor | Description |
@@ -26,15 +26,15 @@ Represents an appender is only enabled when debugging.
 | [append(LogEntry entry)](#append-com.aspose.email.LogEntry-) | Appends the specified log entry to the appender. |
 | [appendHeader()](#appendHeader--) | Starts log file with specific header. |
 | [close()](#close--) | Closes the appender. |
-| [dispose()](#dispose--) | Releases the unmanaged resources used by the Appender. |
+| [dispose()](#dispose--) | Releases the unmanaged resources used by the [Appender](../../com.aspose.email/appender). |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getFormatter()](#getFormatter--) | Gets or sets the formatter. |
+| [getFormatter()](#getFormatter--) | Gets the formatter. |
 | [hashCode()](#hashCode--) |  |
 | [initialize()](#initialize--) | Initializes the appender instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFormatter(IFormatter value)](#setFormatter-com.aspose.email.IFormatter-) | Gets or sets the formatter. |
+| [setFormatter(IFormatter value)](#setFormatter-com.aspose.email.IFormatter-) | Sets the formatter. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -82,7 +82,7 @@ public final void dispose()
 ```
 
 
-Releases the unmanaged resources used by the Appender.
+Releases the unmanaged resources used by the [Appender](../../com.aspose.email/appender).
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -115,7 +115,7 @@ public final IFormatter getFormatter()
 ```
 
 
-Gets or sets the formatter.
+Gets the formatter.
 
 **Returns:**
 [IFormatter](../../com.aspose.email/iformatter)
@@ -159,7 +159,7 @@ public final void setFormatter(IFormatter value)
 ```
 
 
-Gets or sets the formatter.
+Sets the formatter.
 
 **Parameters:**
 | Parameter | Type | Description |

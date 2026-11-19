@@ -1,9 +1,9 @@
 ---
 title: NoteColor
 second_title: Aspose.Email for Java API Reference
-description: Specifies the suggested background color  of the Note object
+description: Defines the background colors of a note.
 type: docs
-weight: 558
+weight: 561
 url: /java/com.aspose.email/notecolor/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class NoteColor extends System.Enum
 ```
 
-Specifies the suggested background color of the Note object
+Defines the background colors of a note.
 ## Fields
 
 | Field | Description |

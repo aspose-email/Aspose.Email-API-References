@@ -3,7 +3,7 @@ title: MboxSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Specifies additional options when save a Mbox storage.
 type: docs
-weight: 504
+weight: 507
 url: /java/com.aspose.email/mboxsaveoptions/
 ---
 
@@ -25,13 +25,13 @@ Specifies additional options when save a Mbox storage.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getFromShouldBeEscaped()](#getFromShouldBeEscaped--) | Gets or sets a value indicating whether to escape the "From" string at the beginning of a line in the body of an email message. |
-| [getLeaveOpen()](#getLeaveOpen--) | Gets or sets a value indicating whether to keep the underlying stream open after disposing. |
+| [getFromShouldBeEscaped()](#getFromShouldBeEscaped--) | Gets a value indicating whether to escape the "From" string at the beginning of a line in the body of an email message. |
+| [getLeaveOpen()](#getLeaveOpen--) | Gets a value indicating whether to keep the underlying stream open after disposing. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFromShouldBeEscaped(boolean value)](#setFromShouldBeEscaped-boolean-) | Gets or sets a value indicating whether to escape the "From" string at the beginning of a line in the body of an email message. |
-| [setLeaveOpen(boolean value)](#setLeaveOpen-boolean-) | Gets or sets a value indicating whether to keep the underlying stream open after disposing. |
+| [setFromShouldBeEscaped(boolean value)](#setFromShouldBeEscaped-boolean-) | Sets a value indicating whether to escape the "From" string at the beginning of a line in the body of an email message. |
+| [setLeaveOpen(boolean value)](#setLeaveOpen-boolean-) | Sets a value indicating whether to keep the underlying stream open after disposing. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -73,7 +73,7 @@ public final boolean getFromShouldBeEscaped()
 ```
 
 
-Gets or sets a value indicating whether to escape the "From" string at the beginning of a line in the body of an email message. The default value is false.
+Gets a value indicating whether to escape the "From" string at the beginning of a line in the body of an email message. The default value is  false .
 
 **Returns:**
 boolean
@@ -83,7 +83,7 @@ public final boolean getLeaveOpen()
 ```
 
 
-Gets or sets a value indicating whether to keep the underlying stream open after disposing. Default value is false.
+Gets a value indicating whether to keep the underlying stream open after disposing. Default value is  false .
 
 **Returns:**
 boolean
@@ -119,7 +119,7 @@ public final void setFromShouldBeEscaped(boolean value)
 ```
 
 
-Gets or sets a value indicating whether to escape the "From" string at the beginning of a line in the body of an email message. The default value is false.
+Sets a value indicating whether to escape the "From" string at the beginning of a line in the body of an email message. The default value is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,7 +132,7 @@ public final void setLeaveOpen(boolean value)
 ```
 
 
-Gets or sets a value indicating whether to keep the underlying stream open after disposing. Default value is false.
+Sets a value indicating whether to keep the underlying stream open after disposing. Default value is  false .
 
 **Parameters:**
 | Parameter | Type | Description |

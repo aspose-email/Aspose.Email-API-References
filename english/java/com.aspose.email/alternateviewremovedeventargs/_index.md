@@ -1,7 +1,7 @@
 ---
 title: AlternateViewRemovedEventArgs
 second_title: Aspose.Email for Java API Reference
-description: Provides data for the  event.
+description: Provides data for the event raised when an alternate view is removed from a message.
 type: docs
 weight: 17
 url: /java/com.aspose.email/alternateviewremovedeventargs/
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.EventArgs
 public class AlternateViewRemovedEventArgs extends System.EventArgs
 ```
 
-Provides data for the [AlternateViewCollection.AlternateViewRemovedDelegate](../../com.aspose.email/alternateviewcollection\#AlternateViewRemovedDelegate) event.
+Provides data for the event raised when an alternate view is removed from a message.
 ## Constructors
 
 | Constructor | Description |
@@ -29,7 +29,7 @@ Provides data for the [AlternateViewCollection.AlternateViewRemovedDelegate](../
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAlternateView()](#getAlternateView--) | Get the AlternateView that has been removed. |
+| [getAlternateView()](#getAlternateView--) | Gets the view that was removed. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -49,7 +49,7 @@ Initializes a new instance of the [AlternateViewRemovedEventArgs](../../com.aspo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| av | [AlternateView](../../com.aspose.email/alternateview) |  |
+| av | [AlternateView](../../com.aspose.email/alternateview) | The view that was removed. |
 
 ### Empty {#Empty}
 ```
@@ -78,10 +78,10 @@ public final AlternateView getAlternateView()
 ```
 
 
-Get the AlternateView that has been removed.
+Gets the view that was removed.
 
 **Returns:**
-[AlternateView](../../com.aspose.email/alternateview)
+[AlternateView](../../com.aspose.email/alternateview) - The view that was removed.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

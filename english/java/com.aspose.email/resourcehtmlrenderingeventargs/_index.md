@@ -1,9 +1,9 @@
 ---
 title: ResourceHtmlRenderingEventArgs
 second_title: Aspose.Email for Java API Reference
-description: Represents additional parameters for ResourceHtmlRendering event.
+description: Provides data for the  event what to render for an attachment in the HTML.
 type: docs
-weight: 636
+weight: 641
 url: /java/com.aspose.email/resourcehtmlrenderingeventargs/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.EventArgs
 public class ResourceHtmlRenderingEventArgs extends System.EventArgs
 ```
 
-Represents additional parameters for ResourceHtmlRendering event.
+Provides data for the [HeadersFormattingOptions.getResourceHtmlRenderingHandler](../../com.aspose.email/headersformattingoptions\#getResourceHtmlRenderingHandler) event: what to render for an attachment in the HTML.
 ## Constructors
 
 | Constructor | Description |
@@ -29,18 +29,18 @@ Represents additional parameters for ResourceHtmlRendering event.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCaption()](#getCaption--) | Caprion for resource. |
+| [getCaption()](#getCaption--) | Gets the caption shown for the resource. |
 | [getClass()](#getClass--) |  |
-| [getException()](#getException--) | Rendering exception. |
-| [getPathToResourceFile()](#getPathToResourceFile--) | Path to resource file. |
-| [getResourceStream()](#getResourceStream--) | Stream with resource. |
+| [getException()](#getException--) | Gets the exception that occurred while rendering the resource. |
+| [getPathToResourceFile()](#getPathToResourceFile--) | Gets the path of the file to use for the resource, with  ResourceRenderingMode.SaveToFile  or  ResourceRenderingMode.SubstituteFromFile . |
+| [getResourceStream()](#getResourceStream--) | Gets the content to embed for the resource, with  ResourceRenderingMode.EmbedIntoHtml ; it has no effect in the other modes. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCaption(String value)](#setCaption-java.lang.String-) | Caprion for resource. |
-| [setException(Exception value)](#setException-java.lang.Exception-) | Rendering exception. |
-| [setPathToResourceFile(String value)](#setPathToResourceFile-java.lang.String-) | Path to resource file. |
-| [setResourceStream(InputStream value)](#setResourceStream-java.io.InputStream-) | Stream with resource. |
+| [setCaption(String value)](#setCaption-java.lang.String-) | Sets the caption shown for the resource. |
+| [setException(Exception value)](#setException-java.lang.Exception-) | Sets the exception that occurred while rendering the resource. |
+| [setPathToResourceFile(String value)](#setPathToResourceFile-java.lang.String-) | Sets the path of the file to use for the resource, with  ResourceRenderingMode.SaveToFile  or  ResourceRenderingMode.SubstituteFromFile . |
+| [setResourceStream(InputStream value)](#setResourceStream-java.io.InputStream-) | Sets the content to embed for the resource, with  ResourceRenderingMode.EmbedIntoHtml ; it has no effect in the other modes. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -78,7 +78,7 @@ public final String getCaption()
 ```
 
 
-Caprion for resource.
+Gets the caption shown for the resource.
 
 **Returns:**
 java.lang.String
@@ -98,7 +98,7 @@ public final Exception getException()
 ```
 
 
-Rendering exception.
+Gets the exception that occurred while rendering the resource.
 
 **Returns:**
 java.lang.Exception
@@ -108,7 +108,7 @@ public final String getPathToResourceFile()
 ```
 
 
-Path to resource file.
+Gets the path of the file to use for the resource, with  ResourceRenderingMode.SaveToFile  or  ResourceRenderingMode.SubstituteFromFile .
 
 **Returns:**
 java.lang.String
@@ -118,7 +118,7 @@ public final InputStream getResourceStream()
 ```
 
 
-Stream with resource. If ResourceRenderingMode is EmbedIntoHtml then this stream will be embedded into the output html, for other types of ResourceRenderingMode this property has no effect.
+Gets the content to embed for the resource, with  ResourceRenderingMode.EmbedIntoHtml ; it has no effect in the other modes.
 
 **Returns:**
 java.io.InputStream
@@ -154,7 +154,7 @@ public final void setCaption(String value)
 ```
 
 
-Caprion for resource.
+Sets the caption shown for the resource.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -167,7 +167,7 @@ public final void setException(Exception value)
 ```
 
 
-Rendering exception.
+Sets the exception that occurred while rendering the resource.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,7 +180,7 @@ public final void setPathToResourceFile(String value)
 ```
 
 
-Path to resource file.
+Sets the path of the file to use for the resource, with  ResourceRenderingMode.SaveToFile  or  ResourceRenderingMode.SubstituteFromFile .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +193,7 @@ public final void setResourceStream(InputStream value)
 ```
 
 
-Stream with resource. If ResourceRenderingMode is EmbedIntoHtml then this stream will be embedded into the output html, for other types of ResourceRenderingMode this property has no effect.
+Sets the content to embed for the resource, with  ResourceRenderingMode.EmbedIntoHtml ; it has no effect in the other modes.
 
 **Parameters:**
 | Parameter | Type | Description |

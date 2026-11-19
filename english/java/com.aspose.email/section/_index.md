@@ -3,7 +3,7 @@ title: Section
 second_title: Aspose.Email for Java API Reference
 description: Element of AmpAccordion.
 type: docs
-weight: 653
+weight: 658
 url: /java/com.aspose.email/section/
 ---
 
@@ -25,15 +25,15 @@ Element of AmpAccordion.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getExpanded()](#getExpanded--) | Displays the section as expanded on page load. |
-| [getHeader()](#getHeader--) | Represents the heading for the section. |
-| [getValue()](#getValue--) | Represents the content of the section. |
+| [getExpanded()](#getExpanded--) | Gets displays the section as expanded on page load. |
+| [getHeader()](#getHeader--) | Gets represents the heading for the section. |
+| [getValue()](#getValue--) | Gets represents the content of the section. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setExpanded(boolean value)](#setExpanded-boolean-) | Displays the section as expanded on page load. |
-| [setHeader(SectionHeader value)](#setHeader-com.aspose.email.SectionHeader-) | Represents the heading for the section. |
-| [setValue(SectionValue value)](#setValue-com.aspose.email.SectionValue-) | Represents the content of the section. |
+| [setExpanded(boolean value)](#setExpanded-boolean-) | Sets displays the section as expanded on page load. |
+| [setHeader(SectionHeader value)](#setHeader-com.aspose.email.SectionHeader-) | Sets represents the heading for the section. |
+| [setValue(SectionValue value)](#setValue-com.aspose.email.SectionValue-) | Sets represents the content of the section. |
 | [toAmpHtml()](#toAmpHtml--) | AmpHtml representation of section value. |
 | [toHtml()](#toHtml--) | Html representation of section. |
 | [toString()](#toString--) |  |
@@ -77,7 +77,7 @@ public final boolean getExpanded()
 ```
 
 
-Displays the section as expanded on page load.
+Gets displays the section as expanded on page load.
 
 **Returns:**
 boolean
@@ -87,7 +87,7 @@ public final SectionHeader getHeader()
 ```
 
 
-Represents the heading for the section.
+Gets represents the heading for the section.
 
 **Returns:**
 [SectionHeader](../../com.aspose.email/sectionheader)
@@ -97,7 +97,7 @@ public final SectionValue getValue()
 ```
 
 
-Represents the content of the section.
+Gets represents the content of the section.
 
 **Returns:**
 [SectionValue](../../com.aspose.email/sectionvalue)
@@ -133,7 +133,7 @@ public final void setExpanded(boolean value)
 ```
 
 
-Displays the section as expanded on page load.
+Sets displays the section as expanded on page load.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public final void setHeader(SectionHeader value)
 ```
 
 
-Represents the heading for the section.
+Sets represents the heading for the section.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -159,7 +159,7 @@ public final void setValue(SectionValue value)
 ```
 
 
-Represents the content of the section.
+Sets represents the content of the section.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -175,7 +175,7 @@ public final String toAmpHtml()
 AmpHtml representation of section value.
 
 **Returns:**
-java.lang.String - 
+java.lang.String
 ### toHtml() {#toHtml--}
 ```
 public final String toHtml()
@@ -185,7 +185,7 @@ public final String toHtml()
 Html representation of section.
 
 **Returns:**
-java.lang.String - 
+java.lang.String
 ### toString() {#toString--}
 ```
 public String toString()

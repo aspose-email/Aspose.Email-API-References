@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastD
 public abstract class BeforeItemCallback extends System.MulticastDelegate
 ```
 
-BeforeItemCallback is called before the next item is processed, the type of which depends on the task being performed.
+BeforeItemCallback is called before the next item is processed, the type of which depends on the task being performed. The callback receives the item to be processed.
 ## Constructors
 
 | Constructor | Description |
@@ -71,7 +71,7 @@ public final System.IAsyncResult beginInvoke(ItemCallbackArgs item, System.Async
 | state | java.lang.Object |  |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult)
 ### combine(System.Delegate arg0, System.Delegate arg1) {#combine-com.aspose.ms.System.Delegate-com.aspose.ms.System.Delegate-}
 ```
 public static System.Delegate combine(System.Delegate arg0, System.Delegate arg1)

@@ -1,9 +1,9 @@
 ---
 title: MapiObjectType
 second_title: Aspose.Email for Java API Reference
-description: Represents the mapi object type.
+description: Defines the types of MAPI objects.
 type: docs
-weight: 476
+weight: 479
 url: /java/com.aspose.email/mapiobjecttype/
 ---
 
@@ -13,25 +13,25 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiObjectType extends System.Enum
 ```
 
-Represents the mapi object type.
+Defines the types of MAPI objects.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [MAPI_ABCONT](#MAPI-ABCONT) | MAPI\_ABCONT |
-| [MAPI_ADDRBOOK](#MAPI-ADDRBOOK) | MAPI\_ADDRBOOK |
-| [MAPI_ATTACH](#MAPI-ATTACH) | MAPI\_ATTACH |
-| [MAPI_DISTLIST](#MAPI-DISTLIST) | MAPI\_DISTLIST |
-| [MAPI_FOLDER](#MAPI-FOLDER) | MAPI\_FOLDER |
-| [MAPI_FORMINFO](#MAPI-FORMINFO) | MAPI\_FORMINFO |
-| [MAPI_MAILUSER](#MAPI-MAILUSER) | MAPI\_MAILUSER |
-| [MAPI_MESSAGE](#MAPI-MESSAGE) | MAPI\_MESSAGE |
-| [MAPI_PROFSECT](#MAPI-PROFSECT) | MAPI\_PROFSECT |
-| [MAPI_SESSION](#MAPI-SESSION) | MAPI\_SESSION |
-| [MAPI_STATUS](#MAPI-STATUS) | MAPI\_STATUS |
-| [MAPI_STORE](#MAPI-STORE) | MAPI\_STORE |
-| [None](#None) | No values are set. |
+| [MAPI_ABCONT](#MAPI-ABCONT) | An address book container. |
+| [MAPI_ADDRBOOK](#MAPI-ADDRBOOK) | An address book. |
+| [MAPI_ATTACH](#MAPI-ATTACH) | An attachment. |
+| [MAPI_DISTLIST](#MAPI-DISTLIST) | A distribution list. |
+| [MAPI_FOLDER](#MAPI-FOLDER) | A folder. |
+| [MAPI_FORMINFO](#MAPI-FORMINFO) | A form. |
+| [MAPI_MAILUSER](#MAPI-MAILUSER) | A mail user. |
+| [MAPI_MESSAGE](#MAPI-MESSAGE) | A message. |
+| [MAPI_PROFSECT](#MAPI-PROFSECT) | A profile section. |
+| [MAPI_SESSION](#MAPI-SESSION) | A session. |
+| [MAPI_STATUS](#MAPI-STATUS) | A status object. |
+| [MAPI_STORE](#MAPI-STORE) | A message store. |
+| [None](#None) | Not set. |
 ## Methods
 
 | Method | Description |
@@ -83,7 +83,7 @@ public static final int MAPI_ABCONT
 ```
 
 
-MAPI\_ABCONT
+An address book container.
 
 ### MAPI_ADDRBOOK {#MAPI-ADDRBOOK}
 ```
@@ -91,7 +91,7 @@ public static final int MAPI_ADDRBOOK
 ```
 
 
-MAPI\_ADDRBOOK
+An address book.
 
 ### MAPI_ATTACH {#MAPI-ATTACH}
 ```
@@ -99,7 +99,7 @@ public static final int MAPI_ATTACH
 ```
 
 
-MAPI\_ATTACH
+An attachment.
 
 ### MAPI_DISTLIST {#MAPI-DISTLIST}
 ```
@@ -107,7 +107,7 @@ public static final int MAPI_DISTLIST
 ```
 
 
-MAPI\_DISTLIST
+A distribution list.
 
 ### MAPI_FOLDER {#MAPI-FOLDER}
 ```
@@ -115,7 +115,7 @@ public static final int MAPI_FOLDER
 ```
 
 
-MAPI\_FOLDER
+A folder.
 
 ### MAPI_FORMINFO {#MAPI-FORMINFO}
 ```
@@ -123,7 +123,7 @@ public static final int MAPI_FORMINFO
 ```
 
 
-MAPI\_FORMINFO
+A form.
 
 ### MAPI_MAILUSER {#MAPI-MAILUSER}
 ```
@@ -131,7 +131,7 @@ public static final int MAPI_MAILUSER
 ```
 
 
-MAPI\_MAILUSER
+A mail user.
 
 ### MAPI_MESSAGE {#MAPI-MESSAGE}
 ```
@@ -139,7 +139,7 @@ public static final int MAPI_MESSAGE
 ```
 
 
-MAPI\_MESSAGE
+A message.
 
 ### MAPI_PROFSECT {#MAPI-PROFSECT}
 ```
@@ -147,7 +147,7 @@ public static final int MAPI_PROFSECT
 ```
 
 
-MAPI\_PROFSECT
+A profile section.
 
 ### MAPI_SESSION {#MAPI-SESSION}
 ```
@@ -155,7 +155,7 @@ public static final int MAPI_SESSION
 ```
 
 
-MAPI\_SESSION
+A session.
 
 ### MAPI_STATUS {#MAPI-STATUS}
 ```
@@ -163,7 +163,7 @@ public static final int MAPI_STATUS
 ```
 
 
-MAPI\_STATUS
+A status object.
 
 ### MAPI_STORE {#MAPI-STORE}
 ```
@@ -171,7 +171,7 @@ public static final int MAPI_STORE
 ```
 
 
-MAPI\_STORE
+A message store.
 
 ### None {#None}
 ```
@@ -179,7 +179,7 @@ public static final int None
 ```
 
 
-No values are set.
+Not set.
 
 ### Clone() {#Clone--}
 ```

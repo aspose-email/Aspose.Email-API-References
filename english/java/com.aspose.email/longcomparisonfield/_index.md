@@ -3,7 +3,7 @@ title: LongComparisonField
 second_title: Aspose.Email for Java API Reference
 description: Represents the Int64 search field.
 type: docs
-weight: 378
+weight: 381
 url: /java/com.aspose.email/longcomparisonfield/
 ---
 
@@ -186,7 +186,7 @@ Sets value which indicates if client uses ascending or descending sorting on the
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ascending | boolean | Set true if you want to use ascending sorting, otherwise set false. |
+| ascending | boolean | Set  true  if you want to use ascending sorting, otherwise set  false . |
 
 ### toString() {#toString--}
 ```

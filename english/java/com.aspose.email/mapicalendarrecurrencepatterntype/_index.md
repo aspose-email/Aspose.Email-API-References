@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarRecurrencePatternType
 second_title: Aspose.Email for Java API Reference
-description: Enumerates the mapi calendar recurrence pattern types
+description: Defines the type of a recurrence pattern.
 type: docs
-weight: 424
+weight: 427
 url: /java/com.aspose.email/mapicalendarrecurrencepatterntype/
 ---
 
@@ -13,19 +13,21 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiCalendarRecurrencePatternType extends System.Enum
 ```
 
-Enumerates the mapi calendar recurrence pattern types
+Defines the type of a recurrence pattern.
+
+This enumeration defines the various recurrence pattern types supported by MAPI calendar items, including daily, weekly, monthly, and yearly patterns. Some patterns support both Gregorian and Hijri calendar systems (e.g., \#HjMonth.HjMonth for Hijri monthly recurrence). The pattern type determines which properties are meaningful in the corresponding [MapiCalendarRecurrencePattern](../../com.aspose.email/mapicalendarrecurrencepattern) implementation.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [Day](#Day) | The event has a daily recurrence. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [HjMonth](#HjMonth) | The event has a monthly recurrence in the Hijri calendar |
-| [HjMonthEnd](#HjMonthEnd) | The event has a month end recurrence in the Hijri calendar. |
-| [HjMonthNth](#HjMonthNth) | The event has an every nth month pattern in the Hijri calendar. |
+| [HjMonth](#HjMonth) | The event has a monthly recurrence in the Hijri calendar. |
+| [HjMonthEnd](#HjMonthEnd) | The event occurs on the last day of the month in the Hijri calendar. |
+| [HjMonthNth](#HjMonthNth) | The event occurs on the Nth weekday of the month in the Hijri calendar. |
 | [Month](#Month) | The event has a monthly recurrence. |
-| [MonthEnd](#MonthEnd) | The event has a month-end recurrence. |
-| [MonthNth](#MonthNth) | The event has an every nth month pattern. |
+| [MonthEnd](#MonthEnd) | The event occurs on the last day of the month. |
+| [MonthNth](#MonthNth) | The event occurs on the Nth weekday of the month. |
 | [Week](#Week) | The event has a weekly recurrence. |
 ## Methods
 
@@ -86,7 +88,7 @@ public static final int HjMonth
 ```
 
 
-The event has a monthly recurrence in the Hijri calendar
+The event has a monthly recurrence in the Hijri calendar.
 
 ### HjMonthEnd {#HjMonthEnd}
 ```
@@ -94,7 +96,7 @@ public static final int HjMonthEnd
 ```
 
 
-The event has a month end recurrence in the Hijri calendar.
+The event occurs on the last day of the month in the Hijri calendar.
 
 ### HjMonthNth {#HjMonthNth}
 ```
@@ -102,7 +104,7 @@ public static final int HjMonthNth
 ```
 
 
-The event has an every nth month pattern in the Hijri calendar.
+The event occurs on the Nth weekday of the month in the Hijri calendar.
 
 ### Month {#Month}
 ```
@@ -118,7 +120,7 @@ public static final int MonthEnd
 ```
 
 
-The event has a month-end recurrence.
+The event occurs on the last day of the month.
 
 ### MonthNth {#MonthNth}
 ```
@@ -126,7 +128,7 @@ public static final int MonthNth
 ```
 
 
-The event has an every nth month pattern.
+The event occurs on the Nth weekday of the month.
 
 ### Week {#Week}
 ```

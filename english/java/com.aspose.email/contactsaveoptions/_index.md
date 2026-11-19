@@ -1,9 +1,9 @@
 ---
 title: ContactSaveOptions
 second_title: Aspose.Email for Java API Reference
-description: Represents the base contact save options
+description: The base class for the options that control how a contact is saved.
 type: docs
-weight: 126
+weight: 127
 url: /java/com.aspose.email/contactsaveoptions/
 ---
 
@@ -13,19 +13,23 @@ java.lang.Object
 public abstract class ContactSaveOptions
 ```
 
-Represents the base contact save options
+The base class for the options that control how a contact is saved. The derived classes select the format: [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions) for vCard, [WebDavContactSaveOptions](../../com.aspose.email/webdavcontactsaveoptions) for WebDAV and [MapiContactSaveOptions](../../com.aspose.email/mapicontactsaveoptions) for MSG.
+
+Pass an instance to [MapiContact.save(String)](../../com.aspose.email/mapicontact\#save-String-). \#getVersion().getVersion() applies only to vCard output; the other formats ignore it.
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getSaveFormat()](#getSaveFormat--) | Gets a save format |
-| [getVersion()](#getVersion--) | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
+| [getProductId()](#getProductId--) | Gets the identifier of the product that created the vCard, written to its  PRODID  property. |
+| [getSaveFormat()](#getSaveFormat--) | Gets the format this options object saves to. |
+| [getVersion()](#getVersion--) | Gets the vCard version to write. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setVersion(int value)](#setVersion-int-) | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
+| [setProductId(String value)](#setProductId-java.lang.String-) | Sets the identifier of the product that created the vCard, written to its  PRODID  property. |
+| [setVersion(int value)](#setVersion-int-) | Sets the vCard version to write. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -55,13 +59,23 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getProductId() {#getProductId--}
+```
+public final String getProductId()
+```
+
+
+Gets the identifier of the product that created the vCard, written to its  PRODID  property.
+
+**Returns:**
+java.lang.String - The product identifier.
 ### getSaveFormat() {#getSaveFormat--}
 ```
 public final int getSaveFormat()
 ```
 
 
-Gets a save format
+Gets the format this options object saves to.
 
 **Returns:**
 int
@@ -71,7 +85,7 @@ public final int getVersion()
 ```
 
 
-Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard.
+Gets the vCard version to write. Used only when the contact is saved to vCard.
 
 **Returns:**
 int
@@ -101,13 +115,26 @@ public final native void notifyAll()
 
 
 
+### setProductId(String value) {#setProductId-java.lang.String-}
+```
+public final void setProductId(String value)
+```
+
+
+Sets the identifier of the product that created the vCard, written to its  PRODID  property.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The product identifier. |
+
 ### setVersion(int value) {#setVersion-int-}
 ```
 public final void setVersion(int value)
 ```
 
 
-Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard.
+Sets the vCard version to write. Used only when the contact is saved to vCard.
 
 **Parameters:**
 | Parameter | Type | Description |

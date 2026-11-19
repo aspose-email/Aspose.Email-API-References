@@ -3,7 +3,7 @@ title: CustomerEvent
 second_title: Aspose.Email for Java API Reference
 description: Represents an event.
 type: docs
-weight: 132
+weight: 133
 url: /java/com.aspose.email/customerevent/
 ---
 
@@ -30,17 +30,17 @@ Represents an event.
 | [equals(CustomerEvent obj)](#equals-com.aspose.email.CustomerEvent-) | Determines whether the specified Object is equal to the current Object. |
 | [equals(CustomerEvent x, CustomerEvent y)](#equals-com.aspose.email.CustomerEvent-com.aspose.email.CustomerEvent-) | Determines whether the specified object instances are considered equal. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
-| [getCategory()](#getCategory--) | Gets or sets an object category |
+| [getCategory()](#getCategory--) | Gets an object category. |
 | [getClass()](#getClass--) |  |
-| [getDate()](#getDate--) | Gets or sets a date and time for an event. |
-| [hashCode()](#hashCode--) | GetHashCode returns a hash function for this object. |
-| [hashCode(CustomerEvent obj)](#hashCode-com.aspose.email.CustomerEvent-) | GetHashCode returns a hash function for specified object. |
+| [getDate()](#getDate--) | Gets a date and time for an event. |
+| [hashCode()](#hashCode--) | Returns a hash function for this object. |
+| [hashCode(CustomerEvent obj)](#hashCode-com.aspose.email.CustomerEvent-) | Returns a hash function for specified object. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [op_Equality(CustomerEvent a, CustomerEvent b)](#op-Equality-com.aspose.email.CustomerEvent-com.aspose.email.CustomerEvent-) | Determines whether the specified objects are equal. |
 | [op_Inequality(CustomerEvent a, CustomerEvent b)](#op-Inequality-com.aspose.email.CustomerEvent-com.aspose.email.CustomerEvent-) | Determines whether the specified objects are not equal. |
-| [setCategory(EventCategory value)](#setCategory-com.aspose.email.EventCategory-) | Gets or sets an object category |
-| [setDate(Date value)](#setDate-java.util.Date-) | Gets or sets a date and time for an event. |
+| [setCategory(EventCategory value)](#setCategory-com.aspose.email.EventCategory-) | Sets an object category. |
+| [setDate(Date value)](#setDate-java.util.Date-) | Sets a date and time for an event. |
 | [toString()](#toString--) | Returns a string that represents the current object. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -62,10 +62,10 @@ Compares the current instance with another object of the same type and returns a
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | [CustomerEvent](../../com.aspose.email/customerevent) | An object to compare with this instance, or null. |
+| obj | [CustomerEvent](../../com.aspose.email/customerevent) | An object to compare with this instance, or  null . |
 
 **Returns:**
-int - This method returns: a value less than 0 if this is less than value 0 if this is equal to value a value greater than 0 if this is greater than value
+int - This method returns: a value less than 0 if this is less than value; 0 if this is equal to value; a value greater than 0 if this is greater than value.
 ### equals(CustomerEvent obj) {#equals-com.aspose.email.CustomerEvent-}
 ```
 public final boolean equals(CustomerEvent obj)
@@ -96,7 +96,7 @@ Determines whether the specified object instances are considered equal.
 | y | [CustomerEvent](../../com.aspose.email/customerevent) | The second object to compare. |
 
 **Returns:**
-boolean - true if the objects are considered equal; otherwise, false. If both objA and objB are null, the method returns true.
+boolean -  true  if the objects are considered equal; otherwise,  false . If both  x  and  y  are  null , the method returns  true .
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -118,7 +118,7 @@ public final EventCategory getCategory()
 ```
 
 
-Gets or sets an object category
+Gets an object category.
 
 **Returns:**
 [EventCategory](../../com.aspose.email/eventcategory)
@@ -138,7 +138,7 @@ public final Date getDate()
 ```
 
 
-Gets or sets a date and time for an event.
+Gets a date and time for an event.
 
 **Returns:**
 java.util.Date
@@ -148,7 +148,7 @@ public int hashCode()
 ```
 
 
-GetHashCode returns a hash function for this object.
+Returns a hash function for this object.
 
 **Returns:**
 int - Returns a hash function for this object.
@@ -158,12 +158,12 @@ public final int hashCode(CustomerEvent obj)
 ```
 
 
-GetHashCode returns a hash function for specified object.
+Returns a hash function for specified object.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | [CustomerEvent](../../com.aspose.email/customerevent) | The Object for which a hash code is to be returned. |
+| obj | [CustomerEvent](../../com.aspose.email/customerevent) | The object for which a hash code is to be returned. |
 
 **Returns:**
 int - Returns a hash function for specified object.
@@ -194,11 +194,11 @@ Determines whether the specified objects are equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [CustomerEvent](../../com.aspose.email/customerevent) | First object to compare |
-| b | [CustomerEvent](../../com.aspose.email/customerevent) | Second object to compare |
+| a | [CustomerEvent](../../com.aspose.email/customerevent) | First object to compare. |
+| b | [CustomerEvent](../../com.aspose.email/customerevent) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are equal, otherwise false.
+boolean - Returns  true  if objects are equal, otherwise  false .
 ### op_Inequality(CustomerEvent a, CustomerEvent b) {#op-Inequality-com.aspose.email.CustomerEvent-com.aspose.email.CustomerEvent-}
 ```
 public static boolean op_Inequality(CustomerEvent a, CustomerEvent b)
@@ -210,18 +210,18 @@ Determines whether the specified objects are not equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [CustomerEvent](../../com.aspose.email/customerevent) | First object to compare |
-| b | [CustomerEvent](../../com.aspose.email/customerevent) | Second object to compare |
+| a | [CustomerEvent](../../com.aspose.email/customerevent) | First object to compare. |
+| b | [CustomerEvent](../../com.aspose.email/customerevent) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are not equal, otherwise false.
+boolean - Returns  true  if objects are not equal, otherwise  false .
 ### setCategory(EventCategory value) {#setCategory-com.aspose.email.EventCategory-}
 ```
 public final void setCategory(EventCategory value)
 ```
 
 
-Gets or sets an object category
+Sets an object category.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -234,7 +234,7 @@ public final void setDate(Date value)
 ```
 
 
-Gets or sets a date and time for an event.
+Sets a date and time for an event.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -1,7 +1,7 @@
 ---
 title: AppointmentTransparency
 second_title: Aspose.Email for Java API Reference
-description: Specifies whether or not this appointment is intended to be visible in availability searches.
+description: Defines whether an event blocks time in free/busy searches the iCalendar TRANSP property.
 type: docs
 weight: 50
 url: /java/com.aspose.email/appointmenttransparency/
@@ -13,15 +13,15 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class AppointmentTransparency extends System.Enum
 ```
 
-Specifies whether or not this appointment is intended to be visible in availability searches.
+Defines whether an event blocks time in free/busy searches (the iCalendar TRANSP property).
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [NotDefined](#NotDefined) | Value is not defined |
-| [Opaque](#Opaque) | Appointment is opaque |
-| [Transparent](#Transparent) | Appointment is transparent |
+| [NotDefined](#NotDefined) | Transparency is not set. |
+| [Opaque](#Opaque) | The event blocks time and is shown as busy. |
+| [Transparent](#Transparent) | The event does not block time and is shown as free. |
 ## Methods
 
 | Method | Description |
@@ -73,7 +73,7 @@ public static final int NotDefined
 ```
 
 
-Value is not defined
+Transparency is not set.
 
 ### Opaque {#Opaque}
 ```
@@ -81,7 +81,7 @@ public static final int Opaque
 ```
 
 
-Appointment is opaque
+The event blocks time and is shown as busy.
 
 ### Transparent {#Transparent}
 ```
@@ -89,7 +89,7 @@ public static final int Transparent
 ```
 
 
-Appointment is transparent
+The event does not block time and is shown as free.
 
 ### Clone() {#Clone--}
 ```

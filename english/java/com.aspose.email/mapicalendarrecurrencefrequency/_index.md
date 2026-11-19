@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarRecurrenceFrequency
 second_title: Aspose.Email for Java API Reference
-description: Enumerates mapi calendar recurrence frequency
+description: Defines how often a recurring series repeats.
 type: docs
-weight: 421
+weight: 424
 url: /java/com.aspose.email/mapicalendarrecurrencefrequency/
 ---
 
@@ -13,17 +13,17 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiCalendarRecurrenceFrequency extends System.Enum
 ```
 
-Enumerates mapi calendar recurrence frequency
+Defines how often a recurring series repeats.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Daily](#Daily) | Specifies daily frequency |
+| [Daily](#Daily) | Every N days. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Monthly](#Monthly) | Specifies monthly frequency |
-| [None](#None) | No values are set. |
-| [Weekly](#Weekly) | Specifies weekly frequency |
-| [Yearly](#Yearly) | Specifies yearly frequency |
+| [Monthly](#Monthly) | Every N months. |
+| [None](#None) | Not set. |
+| [Weekly](#Weekly) | Every N weeks. |
+| [Yearly](#Yearly) | Every N years. |
 ## Methods
 
 | Method | Description |
@@ -69,7 +69,7 @@ public static final int Daily
 ```
 
 
-Specifies daily frequency
+Every N days.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -83,7 +83,7 @@ public static final int Monthly
 ```
 
 
-Specifies monthly frequency
+Every N months.
 
 ### None {#None}
 ```
@@ -91,7 +91,7 @@ public static final int None
 ```
 
 
-No values are set.
+Not set.
 
 ### Weekly {#Weekly}
 ```
@@ -99,7 +99,7 @@ public static final int Weekly
 ```
 
 
-Specifies weekly frequency
+Every N weeks.
 
 ### Yearly {#Yearly}
 ```
@@ -107,7 +107,7 @@ public static final int Yearly
 ```
 
 
-Specifies yearly frequency
+Every N years.
 
 ### Clone() {#Clone--}
 ```

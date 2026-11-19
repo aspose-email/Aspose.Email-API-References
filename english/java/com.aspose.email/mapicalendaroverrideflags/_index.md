@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarOverrideFlags
 second_title: Aspose.Email for Java API Reference
-description: Specifies what data in the MapiCalendarOverrideFlags structure has a value different from the recurring series.
+description: Defines which details of an exception differ from the recurring series.
 type: docs
-weight: 418
+weight: 421
 url: /java/com.aspose.email/mapicalendaroverrideflags/
 ---
 
@@ -13,22 +13,22 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiCalendarOverrideFlags extends System.Enum
 ```
 
-Specifies what data in the MapiCalendarOverrideFlags structure has a value different from the recurring series.
+Defines which details of an exception differ from the recurring series. The values can be combined.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AppointmentColor](#AppointmentColor) | Reserved for future use and MUST NOT be set. |
-| [Attachment](#Attachment) | Indicates that the attachment field is present. |
-| [BusyStatus](#BusyStatus) | Indicates that the BusyStatus field is present. |
+| [AppointmentColor](#AppointmentColor) | Reserved; must not be set. |
+| [Attachment](#Attachment) | The attachments differ. |
+| [BusyStatus](#BusyStatus) | The busy status differs. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [ExceptionalBody](#ExceptionalBody) | Indicates that the Exception Embedded Message object has the PidTagRtfCompressed property set on it. |
-| [Location](#Location) | Indicates that the Location, LocationLength, and LocationLength2 fields are present. |
-| [MeetingType](#MeetingType) | Indicates that the MeetingType field is present. |
-| [Reminder](#Reminder) | Indicates that the ReminderSet field is present. |
-| [ReminderDelta](#ReminderDelta) | Indicates that the ReminderDelta field is present. |
-| [Subject](#Subject) | Indicates that the Subject, SubjectLength, and SubjectLength2 fields are present. |
-| [Subtype](#Subtype) | Indicates that the SubType field is present. |
+| [ExceptionalBody](#ExceptionalBody) | The body differs. |
+| [Location](#Location) | The location differs. |
+| [MeetingType](#MeetingType) | The meeting type differs. |
+| [Reminder](#Reminder) | Whether a reminder is set differs. |
+| [ReminderDelta](#ReminderDelta) | The reminder time differs. |
+| [Subject](#Subject) | The subject differs. |
+| [Subtype](#Subtype) | Whether the event is all-day differs. |
 ## Methods
 
 | Method | Description |
@@ -74,7 +74,7 @@ public static final int AppointmentColor
 ```
 
 
-Reserved for future use and MUST NOT be set.
+Reserved; must not be set.
 
 ### Attachment {#Attachment}
 ```
@@ -82,7 +82,7 @@ public static final int Attachment
 ```
 
 
-Indicates that the attachment field is present.
+The attachments differ.
 
 ### BusyStatus {#BusyStatus}
 ```
@@ -90,7 +90,7 @@ public static final int BusyStatus
 ```
 
 
-Indicates that the BusyStatus field is present.
+The busy status differs.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -104,7 +104,7 @@ public static final int ExceptionalBody
 ```
 
 
-Indicates that the Exception Embedded Message object has the PidTagRtfCompressed property set on it.
+The body differs.
 
 ### Location {#Location}
 ```
@@ -112,7 +112,7 @@ public static final int Location
 ```
 
 
-Indicates that the Location, LocationLength, and LocationLength2 fields are present.
+The location differs.
 
 ### MeetingType {#MeetingType}
 ```
@@ -120,7 +120,7 @@ public static final int MeetingType
 ```
 
 
-Indicates that the MeetingType field is present.
+The meeting type differs.
 
 ### Reminder {#Reminder}
 ```
@@ -128,7 +128,7 @@ public static final int Reminder
 ```
 
 
-Indicates that the ReminderSet field is present.
+Whether a reminder is set differs.
 
 ### ReminderDelta {#ReminderDelta}
 ```
@@ -136,7 +136,7 @@ public static final int ReminderDelta
 ```
 
 
-Indicates that the ReminderDelta field is present.
+The reminder time differs.
 
 ### Subject {#Subject}
 ```
@@ -144,7 +144,7 @@ public static final int Subject
 ```
 
 
-Indicates that the Subject, SubjectLength, and SubjectLength2 fields are present.
+The subject differs.
 
 ### Subtype {#Subtype}
 ```
@@ -152,7 +152,7 @@ public static final int Subtype
 ```
 
 
-Indicates that the SubType field is present.
+Whether the event is all-day differs.
 
 ### Clone() {#Clone--}
 ```

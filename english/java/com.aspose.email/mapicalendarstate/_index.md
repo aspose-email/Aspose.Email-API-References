@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarState
 second_title: Aspose.Email for Java API Reference
-description: Enumerates the appointment state
+description: Defines the state of a calendar item.
 type: docs
-weight: 426
+weight: 429
 url: /java/com.aspose.email/mapicalendarstate/
 ---
 
@@ -13,15 +13,15 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiCalendarState extends System.Enum
 ```
 
-Enumerates the appointment state
+Defines the state of a calendar item. The values can be combined.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Canceled](#Canceled) | Indicates that the Meeting object has been canceled. |
+| [Canceled](#Canceled) | The meeting has been canceled. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Meeting](#Meeting) | Indicates that the represented calendar object is a Meeting object |
-| [Received](#Received) | Indicates that the represented calendar object was received from someone else |
+| [Meeting](#Meeting) | The item is a meeting rather than an appointment. |
+| [Received](#Received) | The item was received from someone else. |
 ## Methods
 
 | Method | Description |
@@ -67,7 +67,7 @@ public static final int Canceled
 ```
 
 
-Indicates that the Meeting object has been canceled.
+The meeting has been canceled.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -81,7 +81,7 @@ public static final int Meeting
 ```
 
 
-Indicates that the represented calendar object is a Meeting object
+The item is a meeting rather than an appointment.
 
 ### Received {#Received}
 ```
@@ -89,7 +89,7 @@ public static final int Received
 ```
 
 
-Indicates that the represented calendar object was received from someone else
+The item was received from someone else.
 
 ### Clone() {#Clone--}
 ```

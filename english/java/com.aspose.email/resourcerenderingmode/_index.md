@@ -1,9 +1,9 @@
 ---
 title: ResourceRenderingMode
 second_title: Aspose.Email for Java API Reference
-description: Provides set various modes of rendering resources in html.
+description: Defines how attachments and other resources are rendered into HTML.
 type: docs
-weight: 638
+weight: 643
 url: /java/com.aspose.email/resourcerenderingmode/
 ---
 
@@ -13,16 +13,16 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ResourceRenderingMode extends System.Enum
 ```
 
-Provides set various modes of rendering resources in html.
+Defines how attachments and other resources are rendered into HTML.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [EmbedIntoHtml](#EmbedIntoHtml) | Embeding resources in html as base64 string. |
+| [EmbedIntoHtml](#EmbedIntoHtml) | Resources are embedded into the HTML as Base64 data. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [None](#None) | Not rendering resources in html. |
-| [SaveToFile](#SaveToFile) | Saving resources to file and inserting in html src tag with path to this file. |
-| [SubstituteFromFile](#SubstituteFromFile) | Using custom file as icon and inserting in html src tag with path to this file. |
+| [None](#None) | Resources are not rendered. |
+| [SaveToFile](#SaveToFile) | Resources are saved to files that the HTML refers to. |
+| [SubstituteFromFile](#SubstituteFromFile) | A file you supply, such as an icon, is used instead of each resource. |
 ## Methods
 
 | Method | Description |
@@ -68,7 +68,7 @@ public static final int EmbedIntoHtml
 ```
 
 
-Embeding resources in html as base64 string.
+Resources are embedded into the HTML as Base64 data.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -82,7 +82,7 @@ public static final int None
 ```
 
 
-Not rendering resources in html.
+Resources are not rendered.
 
 ### SaveToFile {#SaveToFile}
 ```
@@ -90,7 +90,7 @@ public static final int SaveToFile
 ```
 
 
-Saving resources to file and inserting in html src tag with path to this file.
+Resources are saved to files that the HTML refers to.
 
 ### SubstituteFromFile {#SubstituteFromFile}
 ```
@@ -98,7 +98,7 @@ public static final int SubstituteFromFile
 ```
 
 
-Using custom file as icon and inserting in html src tag with path to this file.
+A file you supply, such as an icon, is used instead of each resource.
 
 ### Clone() {#Clone--}
 ```

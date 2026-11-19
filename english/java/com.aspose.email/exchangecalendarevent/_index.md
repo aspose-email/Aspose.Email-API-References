@@ -3,7 +3,7 @@ title: ExchangeCalendarEvent
 second_title: Aspose.Email for Java API Reference
 description: Represents the event in the users calendar
 type: docs
-weight: 192
+weight: 195
 url: /java/com.aspose.email/exchangecalendarevent/
 ---
 

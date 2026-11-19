@@ -1,7 +1,7 @@
 ---
 title: AttachmentCollection
 second_title: Aspose.Email for Java API Reference
-description: Represents a collection of e-mail message attachments.
+description: The attachments of a message.
 type: docs
 weight: 68
 url: /java/com.aspose.email/attachmentcollection/
@@ -16,14 +16,14 @@ com.aspose.ms.System.IDisposable, java.io.Closeable
 public final class AttachmentCollection extends System.Collections.ObjectModel.Collection<Attachment> implements System.IDisposable, Closeable
 ```
 
-Represents a collection of e-mail message attachments.
+The attachments of a message.
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [addItem(T arg0)](#addItem-T-) |  |
 | [clear()](#clear--) | Removes all elements from the Collection. |
-| [close()](#close--) |  |
+| [close()](#close--) | Releases the resources used by the attachments in the collection. |
 | [containsItem(T arg0)](#containsItem-T-) |  |
 | [copyToTArray(T[] arg0, int arg1)](#copyToTArray-T---int-) |  |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
@@ -36,7 +36,7 @@ Represents a collection of e-mail message attachments.
 | [hashCode()](#hashCode--) |  |
 | [indexOfItem(T arg0)](#indexOfItem-T-) |  |
 | [insertItem(int arg0, T arg1)](#insertItem-int-T-) |  |
-| [insertItem(int index, Attachment item)](#insertItem-int-com.aspose.email.Attachment-) | Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index. |
+| [insertItem(int index, Attachment item)](#insertItem-int-com.aspose.email.Attachment-) | Inserts an element into the collection at the specified index. |
 | [isReadOnly()](#isReadOnly--) |  |
 | [iterator()](#iterator--) |  |
 | [notify()](#notify--) |  |
@@ -76,7 +76,7 @@ public void close()
 ```
 
 
-
+Releases the resources used by the attachments in the collection.
 
 ### containsItem(T arg0) {#containsItem-T-}
 ```
@@ -230,13 +230,13 @@ public void insertItem(int index, Attachment item)
 ```
 
 
-Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index.
+Inserts an element into the collection at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which  item  should be inserted. |
-| item | [Attachment](../../com.aspose.email/attachment) | The object to insert. The value can be null for reference types. |
+| item | [Attachment](../../com.aspose.email/attachment) | The object to insert. The value can be  null . |
 
 ### isReadOnly() {#isReadOnly--}
 ```

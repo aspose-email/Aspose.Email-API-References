@@ -3,7 +3,7 @@ title: RecurrencePattern
 second_title: Aspose.Email for Java API Reference
 description: Represents a recurrence pattern.
 type: docs
-weight: 619
+weight: 624
 url: /java/com.aspose.email/recurrencepattern/
 ---
 
@@ -20,19 +20,19 @@ Represents a recurrence pattern.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getEndDate()](#getEndDate--) | Gets or sets the end date. |
-| [getInterval()](#getInterval--) | Gets or sets the number of recurrence units. |
-| [getOccurs()](#getOccurs--) | Gets or sets the number of occurrences of the recurrence pattern. |
-| [getWeekStart()](#getWeekStart--) | Gets or sets the week start. |
+| [getEndDate()](#getEndDate--) | Gets the end date. |
+| [getInterval()](#getInterval--) | Gets the number of recurrence units. |
+| [getOccurs()](#getOccurs--) | Gets the number of occurrences of the recurrence pattern. |
+| [getWeekStart()](#getWeekStart--) | Gets the week start. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEndDate(Date value)](#setEndDate-java.util.Date-) | Gets or sets the end date. |
-| [setInterval(int value)](#setInterval-int-) | Gets or sets the number of recurrence units. |
-| [setOccurs(int value)](#setOccurs-int-) | Gets or sets the number of occurrences of the recurrence pattern. |
-| [setWeekStart(int value)](#setWeekStart-int-) | Gets or sets the week start. |
+| [setEndDate(Date value)](#setEndDate-java.util.Date-) | Sets the end date. |
+| [setInterval(int value)](#setInterval-int-) | Sets the number of recurrence units. |
+| [setOccurs(int value)](#setOccurs-int-) | Sets the number of occurrences of the recurrence pattern. |
+| [setWeekStart(int value)](#setWeekStart-int-) | Sets the week start. |
 | [toString()](#toString--) | Returns a string that represents the current object. |
-| [to_RecurrencePattern(String value)](#to-RecurrencePattern-java.lang.String-) | Converts string representation of recurrence pattern in ICalendar format to object |
+| [to_RecurrencePattern(String value)](#to-RecurrencePattern-java.lang.String-) | Converts string representation of recurrence pattern in ICalendar format to object. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -67,48 +67,40 @@ public final Date getEndDate()
 ```
 
 
-Gets or sets the end date.
-
-Value: The end date.
+Gets the end date.
 
 **Returns:**
-java.util.Date
+java.util.Date - The end date.
 ### getInterval() {#getInterval--}
 ```
 public final int getInterval()
 ```
 
 
-Gets or sets the number of recurrence units.
-
-Value: The number of recurrence units.
+Gets the number of recurrence units.
 
 **Returns:**
-int
+int - The number of recurrence units.
 ### getOccurs() {#getOccurs--}
 ```
 public final int getOccurs()
 ```
 
 
-Gets or sets the number of occurrences of the recurrence pattern.
-
-Value: The number of occurrences.
+Gets the number of occurrences of the recurrence pattern.
 
 **Returns:**
-int
+int - The number of occurrences.
 ### getWeekStart() {#getWeekStart--}
 ```
 public final int getWeekStart()
 ```
 
 
-Gets or sets the week start.
-
-Value: The week start.
+Gets the week start.
 
 **Returns:**
-int
+int - The week start.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -141,14 +133,12 @@ public final void setEndDate(Date value)
 ```
 
 
-Gets or sets the end date.
-
-Value: The end date.
+Sets the end date.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.Date |  |
+| value | java.util.Date | The end date. |
 
 ### setInterval(int value) {#setInterval-int-}
 ```
@@ -156,14 +146,12 @@ public final void setInterval(int value)
 ```
 
 
-Gets or sets the number of recurrence units.
-
-Value: The number of recurrence units.
+Sets the number of recurrence units.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The number of recurrence units. |
 
 ### setOccurs(int value) {#setOccurs-int-}
 ```
@@ -171,14 +159,12 @@ public final void setOccurs(int value)
 ```
 
 
-Gets or sets the number of occurrences of the recurrence pattern.
-
-Value: The number of occurrences.
+Sets the number of occurrences of the recurrence pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The number of occurrences. |
 
 ### setWeekStart(int value) {#setWeekStart-int-}
 ```
@@ -186,14 +172,12 @@ public final void setWeekStart(int value)
 ```
 
 
-Gets or sets the week start.
-
-Value: The week start.
+Sets the week start.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The week start. |
 
 ### toString() {#toString--}
 ```
@@ -211,12 +195,12 @@ public static RecurrencePattern to_RecurrencePattern(String value)
 ```
 
 
-Converts string representation of recurrence pattern in ICalendar format to object
+Converts string representation of recurrence pattern in ICalendar format to object.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | Returns RecurrencePattern object |
+| value | java.lang.String | Returns RecurrencePattern object. |
 
 **Returns:**
 [RecurrencePattern](../../com.aspose.email/recurrencepattern)

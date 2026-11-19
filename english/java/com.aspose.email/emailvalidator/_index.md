@@ -1,9 +1,9 @@
 ---
 title: EmailValidator
 second_title: Aspose.Email for Java API Reference
-description: EmailValidator class provides the capability to validate e-mail addresses.
+description: class provides the capability to validate e-mail addresses.
 type: docs
-weight: 171
+weight: 174
 url: /java/com.aspose.email/emailvalidator/
 ---
 
@@ -13,28 +13,28 @@ java.lang.Object
 public final class EmailValidator
 ```
 
-EmailValidator class provides the capability to validate e-mail addresses.
+[EmailValidator](../../com.aspose.email/emailvalidator) class provides the capability to validate e-mail addresses.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [EmailValidator()](#EmailValidator--) | Create an instance of EmailValidator. |
+| [EmailValidator()](#EmailValidator--) | Create an instance of [EmailValidator](../../com.aspose.email/emailvalidator). |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDnsServers()](#getDnsServers--) | Gets or sets the Dns server list to use in the email validation. |
-| [getTimeout()](#getTimeout--) | Gets or sets the length of time (in milliseconds) until the request times out. |
+| [getDnsServers()](#getDnsServers--) | Gets the DNS server list to use in the email validation. |
+| [getTimeout()](#getTimeout--) | Gets the length of time (in milliseconds) until the request times out. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDnsServers(String[] value)](#setDnsServers-java.lang.String---) | Gets or sets the Dns server list to use in the email validation. |
-| [setTimeout(int value)](#setTimeout-int-) | Gets or sets the length of time (in milliseconds) until the request times out. |
+| [setDnsServers(String[] value)](#setDnsServers-java.lang.String---) | Sets the DNS server list to use in the email validation. |
+| [setTimeout(int value)](#setTimeout-int-) | Sets the length of time (in milliseconds) until the request times out. |
 | [toString()](#toString--) |  |
 | [validate(String mailAddress, ValidationResult[] result)](#validate-java.lang.String-com.aspose.email.ValidationResult---) | Validate email address, with the MailServer validation policy. |
-| [validate(String mailAddress, int policy, ValidationResult[] result)](#validate-java.lang.String-int-com.aspose.email.ValidationResult---) | Validating the email address |
+| [validate(String mailAddress, int policy, ValidationResult[] result)](#validate-java.lang.String-int-com.aspose.email.ValidationResult---) | Validating the email address. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -44,7 +44,7 @@ public EmailValidator()
 ```
 
 
-Create an instance of EmailValidator.
+Create an instance of [EmailValidator](../../com.aspose.email/emailvalidator).
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -77,7 +77,7 @@ public final String[] getDnsServers()
 ```
 
 
-Gets or sets the Dns server list to use in the email validation.
+Gets the DNS server list to use in the email validation.
 
 **Returns:**
 java.lang.String[]
@@ -87,7 +87,7 @@ public final int getTimeout()
 ```
 
 
-Gets or sets the length of time (in milliseconds) until the request times out.
+Gets the length of time (in milliseconds) until the request times out.
 
 **Returns:**
 int
@@ -123,7 +123,7 @@ public final void setDnsServers(String[] value)
 ```
 
 
-Gets or sets the Dns server list to use in the email validation.
+Sets the DNS server list to use in the email validation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -136,7 +136,7 @@ public final void setTimeout(int value)
 ```
 
 
-Gets or sets the length of time (in milliseconds) until the request times out.
+Sets the length of time (in milliseconds) until the request times out.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -165,7 +165,7 @@ Validate email address, with the MailServer validation policy.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | mailAddress | java.lang.String | The Email address to be validated. |
-| result | [ValidationResult\[\]](../../com.aspose.email/validationresult) | The result of the validation. |
+| result | [ValidationResult\[\]](../../com.aspose.email/validationresult) | The result of the validation. A one-element array; the result is returned in  result[0] . |
 
 ### validate(String mailAddress, int policy, ValidationResult[] result) {#validate-java.lang.String-int-com.aspose.email.ValidationResult---}
 ```
@@ -173,14 +173,14 @@ public final void validate(String mailAddress, int policy, ValidationResult[] re
 ```
 
 
-Validating the email address
+Validating the email address.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | mailAddress | java.lang.String | The mail address to be validated. |
 | policy | int | The policy of the validating process. |
-| result | [ValidationResult\[\]](../../com.aspose.email/validationresult) | The result of the validating process. |
+| result | [ValidationResult\[\]](../../com.aspose.email/validationresult) | The result of the validating process. A one-element array; the result is returned in  result[0] . |
 
 ### wait() {#wait--}
 ```

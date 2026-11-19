@@ -1,9 +1,9 @@
 ---
 title: MapiRecipientCollection
 second_title: Aspose.Email for Java API Reference
-description: Represents a collection of MapiRecipient objects.
+description: The recipients of an Outlook item.
 type: docs
-weight: 485
+weight: 488
 url: /java/com.aspose.email/mapirecipientcollection/
 ---
 
@@ -13,7 +13,25 @@ java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 public class MapiRecipientCollection extends System.Collections.ObjectModel.Collection<MapiRecipient>
 ```
 
-Represents a collection of MapiRecipient objects.
+The recipients of an Outlook item.
+
+This example adds To, CC and BCC recipients to a message.
+
+```
+
+ try (MapiMessage msg = new MapiMessage("from@domain.com", "to@domain.com", "Report", "The report is attached.")) {
+     msg.getRecipients().add("cc@domain.com", "Copy Recipient", MapiRecipientType.MAPI_CC);
+     msg.getRecipients().add("bcc@domain.com", "Hidden Recipient", MapiRecipientType.MAPI_BCC);
+
+     for (MapiRecipient recipient : msg.getRecipients()) {
+         System.out.println(recipient.getRecipientType() + ": " + recipient.getDisplayName()
+                 + " <" + recipient.getEmailAddress() + ">");
+     }
+
+     msg.save("report.msg");
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -23,10 +41,10 @@ Represents a collection of MapiRecipient objects.
 
 | Method | Description |
 | --- | --- |
-| [add(String address, String displayName, int recipientType)](#add-java.lang.String-java.lang.String-int-) | Adds the new recipient. |
-| [add(String address, String addressType, String displayName, int recipientType)](#add-java.lang.String-java.lang.String-java.lang.String-int-) | Adds the new recipient. |
+| [add(String address, String displayName, int recipientType)](#add-java.lang.String-java.lang.String-int-) | Adds a recipient. |
+| [add(String address, String addressType, String displayName, int recipientType)](#add-java.lang.String-java.lang.String-java.lang.String-int-) | Adds a recipient with an address of the specified type. |
 | [addItem(T arg0)](#addItem-T-) |  |
-| [addMapiRecipient(MapiRecipient item)](#addMapiRecipient-com.aspose.email.MapiRecipient-) | Adds an object to the end of the  System.Collections.ObjectModel.Collection1 . |
+| [addMapiRecipient(MapiRecipient item)](#addMapiRecipient-com.aspose.email.MapiRecipient-) | Adds an existing recipient to the end of the collection. |
 | [clear()](#clear--) |  |
 | [containsItem(T arg0)](#containsItem-T-) |  |
 | [copyToTArray(T[] arg0, int arg1)](#copyToTArray-T---int-) |  |
@@ -39,7 +57,7 @@ Represents a collection of MapiRecipient objects.
 | [hashCode()](#hashCode--) |  |
 | [indexOfItem(T arg0)](#indexOfItem-T-) |  |
 | [insertItem(int arg0, T arg1)](#insertItem-int-T-) |  |
-| [insertMapiRecipient(int index, MapiRecipient item)](#insertMapiRecipient-int-com.aspose.email.MapiRecipient-) | Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index. |
+| [insertMapiRecipient(int index, MapiRecipient item)](#insertMapiRecipient-int-com.aspose.email.MapiRecipient-) | Inserts a recipient at the specified position. |
 | [isReadOnly()](#isReadOnly--) |  |
 | [iterator()](#iterator--) |  |
 | [notify()](#notify--) |  |
@@ -62,43 +80,43 @@ Initializes a new instance of the [MapiRecipientCollection](../../com.aspose.ema
 
 ### add(String address, String displayName, int recipientType) {#add-java.lang.String-java.lang.String-int-}
 ```
-public final void add(String address, String displayName, int recipientType)
+public final MapiRecipient add(String address, String displayName, int recipientType)
 ```
 
 
-Adds the new recipient.
+Adds a recipient.
+
+Adding a recipient also updates [MapiMessage.getDisplayTo()](../../com.aspose.email/mapimessage\#getDisplayTo--), [MapiMessage.getDisplayCc()](../../com.aspose.email/mapimessage\#getDisplayCc--) or [MapiMessage.getDisplayBcc()](../../com.aspose.email/mapimessage\#getDisplayBcc--) of the message, depending on the type of the recipient.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| address | java.lang.String | The mail address of recipient. |
-| displayName | java.lang.String | The display name of recipient. |
-| recipientType | int | Type of the recipient.
+| address | java.lang.String | The e-mail address. |
+| displayName | java.lang.String | The display name. |
+| recipientType | int | The type: To, CC or BCC. |
 
---------------------
-
-When adding a new recepient, the value of either MapiMessage.DisplayTo or MapiMessage.DisplayBcc or MapiMessage.DisplayCC is also updated depending on the type of recepient. |
-
+**Returns:**
+[MapiRecipient](../../com.aspose.email/mapirecipient) - The new [MapiRecipient](../../com.aspose.email/mapirecipient).
 ### add(String address, String addressType, String displayName, int recipientType) {#add-java.lang.String-java.lang.String-java.lang.String-int-}
 ```
-public final void add(String address, String addressType, String displayName, int recipientType)
+public final MapiRecipient add(String address, String addressType, String displayName, int recipientType)
 ```
 
 
-Adds the new recipient.
+Adds a recipient with an address of the specified type.
+
+Adding a recipient also updates [MapiMessage.getDisplayTo()](../../com.aspose.email/mapimessage\#getDisplayTo--), [MapiMessage.getDisplayCc()](../../com.aspose.email/mapimessage\#getDisplayCc--) or [MapiMessage.getDisplayBcc()](../../com.aspose.email/mapimessage\#getDisplayBcc--) of the message, depending on the type of the recipient.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| address | java.lang.String | The mail address of recipient. |
-| addressType | java.lang.String | The type of address. |
-| displayName | java.lang.String | The display name of recipient. |
-| recipientType | int | Type of the recipient.
+| address | java.lang.String | The address. |
+| addressType | java.lang.String | The type of the address, such as  SMTP  or  EX . |
+| displayName | java.lang.String | The display name. |
+| recipientType | int | The type: To, CC or BCC. |
 
---------------------
-
-When adding a new recepient, the value of either MapiMessage.DisplayTo or MapiMessage.DisplayBcc or MapiMessage.DisplayCC is also updated depending on the type of recepient. |
-
+**Returns:**
+[MapiRecipient](../../com.aspose.email/mapirecipient) - The new [MapiRecipient](../../com.aspose.email/mapirecipient).
 ### addItem(T arg0) {#addItem-T-}
 ```
 public void addItem(T arg0)
@@ -118,12 +136,12 @@ public final void addMapiRecipient(MapiRecipient item)
 ```
 
 
-Adds an object to the end of the  System.Collections.ObjectModel.Collection1 .
+Adds an existing recipient to the end of the collection.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [MapiRecipient](../../com.aspose.email/mapirecipient) | The object to be added to the end of the  System.Collections.ObjectModel.Collection1 . The value can be null for reference types. |
+| item | [MapiRecipient](../../com.aspose.email/mapirecipient) | The recipient to add. |
 
 ### clear() {#clear--}
 ```
@@ -277,13 +295,13 @@ public final void insertMapiRecipient(int index, MapiRecipient item)
 ```
 
 
-Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index.
+Inserts a recipient at the specified position.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which  item  should be inserted. |
-| item | [MapiRecipient](../../com.aspose.email/mapirecipient) | The object to insert. The value can be null for reference types. |
+| index | int | The zero-based position to insert at. |
+| item | [MapiRecipient](../../com.aspose.email/mapirecipient) | The recipient to insert. |
 
 ### isReadOnly() {#isReadOnly--}
 ```

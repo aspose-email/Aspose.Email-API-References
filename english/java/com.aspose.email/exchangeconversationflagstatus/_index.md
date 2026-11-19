@@ -3,7 +3,7 @@ title: ExchangeConversationFlagStatus
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the flag status for conversation.
 type: docs
-weight: 200
+weight: 203
 url: /java/com.aspose.email/exchangeconversationflagstatus/
 ---
 

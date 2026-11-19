@@ -3,7 +3,7 @@ title: DateComparisonField
 second_title: Aspose.Email for Java API Reference
 description: Represents the date search field.
 type: docs
-weight: 145
+weight: 146
 url: /java/com.aspose.email/datecomparisonfield/
 ---
 
@@ -20,8 +20,8 @@ Represents the date search field.
 | --- | --- |
 | [before(Date value)](#before-java.util.Date-) | Indicates that the date in message must be earlier than the specified date. |
 | [before(Date value, int comparisonType)](#before-java.util.Date-int-) | Indicates that the date in message must be earlier than the specified date. |
-| [beforeOrEqual(Date value)](#beforeOrEqual-java.util.Date-) | Indicates that the date in message must be earlier or equel to the specified date. |
-| [beforeOrEqual(Date value, int comparisonType)](#beforeOrEqual-java.util.Date-int-) | Indicates that the date in message must be earlier or equel to the specified date. |
+| [beforeOrEqual(Date value)](#beforeOrEqual-java.util.Date-) | Indicates that the date in message must be earlier or equal to the specified date. |
+| [beforeOrEqual(Date value, int comparisonType)](#beforeOrEqual-java.util.Date-int-) | Indicates that the date in message must be earlier or equal to the specified date. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [greater(Date value)](#greater-java.util.Date-) | Indicates that date in message must be later than the specified date. |
@@ -67,7 +67,7 @@ Indicates that the date in message must be earlier than the specified date.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date | The value. |
-| comparisonType | int | Specifies a type of comparison |
+| comparisonType | int | Specifies a type of comparison. |
 
 **Returns:**
 [MailQuery](../../com.aspose.email/mailquery) - [MailQuery](../../com.aspose.email/mailquery) that represents search query (one searching criterion).
@@ -77,7 +77,7 @@ public final MailQuery beforeOrEqual(Date value)
 ```
 
 
-Indicates that the date in message must be earlier or equel to the specified date.
+Indicates that the date in message must be earlier or equal to the specified date.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -92,13 +92,13 @@ public final MailQuery beforeOrEqual(Date value, int comparisonType)
 ```
 
 
-Indicates that the date in message must be earlier or equel to the specified date.
+Indicates that the date in message must be earlier or equal to the specified date.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date | The value. |
-| comparisonType | int | Specifies a type of comparison |
+| comparisonType | int | Specifies a type of comparison. |
 
 **Returns:**
 [MailQuery](../../com.aspose.email/mailquery) - [MailQuery](../../com.aspose.email/mailquery) that represents search query (one searching criterion).
@@ -154,7 +154,7 @@ Indicates that date in message must be later than the specified date.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date | The value. |
-| comparisonType | int | Specifies a type of comparison |
+| comparisonType | int | Specifies a type of comparison. |
 
 **Returns:**
 [MailQuery](../../com.aspose.email/mailquery) - [MailQuery](../../com.aspose.email/mailquery) that represents search query (one searching criterion).
@@ -195,7 +195,7 @@ Indicates that the date in message must not be in the specified date.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date | The value. |
-| comparisonType | int | Specifies a type of comparison |
+| comparisonType | int | Specifies a type of comparison. |
 
 **Returns:**
 [MailQuery](../../com.aspose.email/mailquery) - [MailQuery](../../com.aspose.email/mailquery) that represents search query (one searching criterion).
@@ -242,7 +242,7 @@ Indicates that the date in message must be within the specified date.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date | The value. |
-| comparisonType | int | Specifies a type of comparison |
+| comparisonType | int | Specifies a type of comparison. |
 
 **Returns:**
 [MailQuery](../../com.aspose.email/mailquery) - [MailQuery](../../com.aspose.email/mailquery) that represents search query (one searching criterion).
@@ -257,7 +257,7 @@ Sets value which indicates if client uses ascending or descending sorting on the
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ascending | boolean | Set true if you want to use ascending sorting, otherwise set false. |
+| ascending | boolean | Set  true  if you want to use ascending sorting, otherwise set  false . |
 
 ### since(Date value) {#since-java.util.Date-}
 ```
@@ -286,7 +286,7 @@ Indicates that date in message must be within or later than the specified date.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date | The value. |
-| comparisonType | int | Specifies a type of comparison |
+| comparisonType | int | Specifies a type of comparison. |
 
 **Returns:**
 [MailQuery](../../com.aspose.email/mailquery) - [MailQuery](../../com.aspose.email/mailquery) that represents search query (one searching criterion).

@@ -1,9 +1,9 @@
 ---
 title: MapiAttachmentCollection
 second_title: Aspose.Email for Java API Reference
-description: Represents a collection of MapiAttachment objects.
+description: The attachments of an Outlook item.
 type: docs
-weight: 403
+weight: 406
 url: /java/com.aspose.email/mapiattachmentcollection/
 ---
 
@@ -13,13 +13,33 @@ java.lang.Object, com.aspose.ms.System.Collections.Generic.List
 public class MapiAttachmentCollection extends System.Collections.Generic.List<MapiAttachment>
 ```
 
-Represents a collection of MapiAttachment objects.
+The attachments of an Outlook item.
+
+Returned by [MapiMessageItemBase.getAttachments()](../../com.aspose.email/mapimessageitembase\#getAttachments--). Besides the list operations, it adds files from memory, from a stream or from disk, embedded messages and reference (cloud) attachments.
+
+This example attaches a file from disk, a file from memory and another message.
+
+```
+
+ try (MapiMessage msg = new MapiMessage("from@domain.com", "to@domain.com", "Report", "See the attachments.")) {
+     // the file is read when the message is saved
+     msg.getAttachments().addFile("report.pdf");
+
+     msg.getAttachments().add("notes.txt", "Notes for the report".getBytes(StandardCharsets.UTF_8));
+
+     MapiMessage original = MapiMessage.load("original.msg");
+     msg.getAttachments().add("Original message", original);
+
+     msg.save("report.msg");
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
 | [MapiAttachmentCollection()](#MapiAttachmentCollection--) | Initializes a new instance of the [MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) class. |
-| [MapiAttachmentCollection(MapiMessageItemBase owner)](#MapiAttachmentCollection-com.aspose.email.MapiMessageItemBase-) | Initializes a new instance of the MapiAttachmentCollection class. |
+| [MapiAttachmentCollection(MapiMessageItemBase owner)](#MapiAttachmentCollection-com.aspose.email.MapiMessageItemBase-) | Initializes a new instance of the [MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) class that belongs to the specified item. |
 ## Methods
 
 | Method | Description |
@@ -30,17 +50,19 @@ Represents a collection of MapiAttachment objects.
 | [<TOutput>convertAll(System.Converter<T,TOutput> arg0)](#-TOutput-convertAll-com.aspose.ms.System.Converter-T-TOutput--) |  |
 | [add(T arg0)](#add-T-) |  |
 | [add(int arg0, T arg1)](#add-int-T-) |  |
-| [add(String name, byte[] data)](#add-java.lang.String-byte---) | Adds the new attachment. |
-| [add(String name, MapiMessage msg)](#add-java.lang.String-com.aspose.email.MapiMessage-) | Adds the new attachment as embedded message. |
+| [add(String name, byte[] data)](#add-java.lang.String-byte---) | Adds a file attachment with the content in memory. |
+| [add(String name, MapiMessage msg)](#add-java.lang.String-com.aspose.email.MapiMessage-) | Attaches a message as an embedded message. |
 | [add(String name, ReferenceAttachmentOptions options)](#add-java.lang.String-com.aspose.email.ReferenceAttachmentOptions-) | Adds a reference attachment to the collection using the specified name and configuration options. |
-| [add(String name, InputStream data)](#add-java.lang.String-java.io.InputStream-) | Adds the new attachment. |
-| [add(String name, String sharedLink, String url, String providerName)](#add-java.lang.String-java.lang.String-java.lang.String-java.lang.String-) | Adds the reference attachment. |
+| [add(String name, InputStream content)](#add-java.lang.String-java.io.InputStream-) | Adds a new attachment whose content is read from a stream. |
+| [add(String name, InputStream content, boolean leaveStreamOpen)](#add-java.lang.String-java.io.InputStream-boolean-) | Adds a new attachment whose content is read from a stream. |
 | [addAll(int arg0, Collection<? extends T> arg1)](#addAll-int-java.util.Collection---extends-T--) |  |
 | [addAll(Collection<? extends T> arg0)](#addAll-java.util.Collection---extends-T--) |  |
+| [addFile(String filePath)](#addFile-java.lang.String-) | Adds a new attachment reading its content from a file. |
+| [addFile(String filePath, String displayName)](#addFile-java.lang.String-java.lang.String-) | Adds a new attachment reading its content from a file. |
 | [addItem(T arg0)](#addItem-T-) |  |
-| [addMapiAttachment(MapiAttachment item)](#addMapiAttachment-com.aspose.email.MapiAttachment-) | Adds an object to the end of the  System.Collections.ObjectModel.Collection1 . |
+| [addMapiAttachment(MapiAttachment item)](#addMapiAttachment-com.aspose.email.MapiAttachment-) | Adds an existing attachment to the end of the collection. |
 | [addRange(T[] arg0)](#addRange-T---) |  |
-| [addRange(System.Collections.Generic.IGenericEnumerable<T> arg0)](#addRange-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-T--) |  |
+| [addRange(Iterable<T> arg0)](#addRange-java.lang.Iterable-T--) |  |
 | [asReadOnly()](#asReadOnly--) |  |
 | [binarySearch(T arg0)](#binarySearch-T-) |  |
 | [binarySearch(T arg0, Comparator<T> arg1)](#binarySearch-T-java.util.Comparator-T--) |  |
@@ -65,6 +87,14 @@ Represents a collection of MapiAttachment objects.
 | [findLastIndex(int arg0, System.Predicate<T> arg1)](#findLastIndex-int-com.aspose.ms.System.Predicate-T--) |  |
 | [findLastIndex(int arg0, int arg1, System.Predicate<T> arg2)](#findLastIndex-int-int-com.aspose.ms.System.Predicate-T--) |  |
 | [forEach(System.Action<T> arg0)](#forEach-com.aspose.ms.System.Action-T--) |  |
+| [fromPrimitiveArray(boolean[] arg0)](#fromPrimitiveArray-boolean---) |  |
+| [fromPrimitiveArray(byte[] arg0)](#fromPrimitiveArray-byte---) |  |
+| [fromPrimitiveArray(char[] arg0)](#fromPrimitiveArray-char---) |  |
+| [fromPrimitiveArray(double[] arg0)](#fromPrimitiveArray-double---) |  |
+| [fromPrimitiveArray(float[] arg0)](#fromPrimitiveArray-float---) |  |
+| [fromPrimitiveArray(int[] arg0)](#fromPrimitiveArray-int---) |  |
+| [fromPrimitiveArray(long[] arg0)](#fromPrimitiveArray-long---) |  |
+| [fromPrimitiveArray(short[] arg0)](#fromPrimitiveArray-short---) |  |
 | [get(int arg0)](#get-int-) |  |
 | [getCapacity()](#getCapacity--) |  |
 | [getClass()](#getClass--) |  |
@@ -76,15 +106,16 @@ Represents a collection of MapiAttachment objects.
 | [indexOf(T arg0, int arg1, int arg2)](#indexOf-T-int-int-) |  |
 | [indexOf(Object arg0)](#indexOf-java.lang.Object-) |  |
 | [indexOfItem(T arg0)](#indexOfItem-T-) |  |
-| [insert(int index, String name, MapiMessage msg)](#insert-int-java.lang.String-com.aspose.email.MapiMessage-) | Inserts a message as attachment into the [MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) at the specified index. |
+| [insert(int index, String name, MapiMessage msg)](#insert-int-java.lang.String-com.aspose.email.MapiMessage-) | Inserts a message as an embedded attachment at the specified position. |
 | [insertItem(int arg0, T arg1)](#insertItem-int-T-) |  |
-| [insertMapiAttachment(int index, MapiAttachment item)](#insertMapiAttachment-int-com.aspose.email.MapiAttachment-) | Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index. |
-| [insertRange(int arg0, System.Collections.Generic.IGenericEnumerable<T> arg1)](#insertRange-int-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-T--) |  |
+| [insertMapiAttachment(int index, MapiAttachment item)](#insertMapiAttachment-int-com.aspose.email.MapiAttachment-) | Inserts an attachment at the specified position. |
+| [insertRange(int arg0, Iterable<T> arg1)](#insertRange-int-java.lang.Iterable-T--) |  |
 | [isEmpty()](#isEmpty--) |  |
 | [isFixedSize()](#isFixedSize--) |  |
 | [isReadOnly()](#isReadOnly--) |  |
 | [isSynchronized()](#isSynchronized--) |  |
 | [iterator()](#iterator--) |  |
+| [iteratorJava()](#iteratorJava--) |  |
 | [lastIndexOf(T arg0, int arg1)](#lastIndexOf-T-int-) |  |
 | [lastIndexOf(T arg0, int arg1, int arg2)](#lastIndexOf-T-int-int-) |  |
 | [lastIndexOf(Object arg0)](#lastIndexOf-java.lang.Object-) |  |
@@ -96,11 +127,11 @@ Represents a collection of MapiAttachment objects.
 | [remove(Object arg0)](#remove-java.lang.Object-) |  |
 | [removeAll(System.Predicate<T> arg0)](#removeAll-com.aspose.ms.System.Predicate-T--) |  |
 | [removeAll(Collection<?> arg0)](#removeAll-java.util.Collection----) |  |
-| [removeAt(int index)](#removeAt-int-) | Removes the element at the specified index of the MapiAttachmentCollection. |
+| [removeAt(int index)](#removeAt-int-) | Removes the attachment at the specified position. |
 | [removeItem(T arg0)](#removeItem-T-) |  |
-| [removeMapiAttachment(MapiAttachment item)](#removeMapiAttachment-com.aspose.email.MapiAttachment-) | Removes the first occurrence of a specific object from the MapiAttachmentCollection. |
+| [removeMapiAttachment(MapiAttachment item)](#removeMapiAttachment-com.aspose.email.MapiAttachment-) | Removes the first occurrence of the attachment from the collection. |
 | [removeRange(int arg0, int arg1)](#removeRange-int-int-) |  |
-| [replace(int index, String name, MapiMessage msg)](#replace-int-java.lang.String-com.aspose.email.MapiMessage-) | Replaces an element at the specified index. |
+| [replace(int index, String name, MapiMessage msg)](#replace-int-java.lang.String-com.aspose.email.MapiMessage-) | Replaces the attachment at the specified position with an embedded message. |
 | [retainAll(Collection<?> arg0)](#retainAll-java.util.Collection----) |  |
 | [reverse()](#reverse--) |  |
 | [reverse(int arg0, int arg1)](#reverse-int-int-) |  |
@@ -134,12 +165,12 @@ public MapiAttachmentCollection(MapiMessageItemBase owner)
 ```
 
 
-Initializes a new instance of the MapiAttachmentCollection class.
+Initializes a new instance of the [MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) class that belongs to the specified item.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| owner | [MapiMessageItemBase](../../com.aspose.email/mapimessageitembase) | The owner message. |
+| owner | [MapiMessageItemBase](../../com.aspose.email/mapimessageitembase) | The item the attachments belong to. |
 
 ### <T>fromJava(List<T> arg0) {#-T-fromJava-java.util.List-T--}
 ```
@@ -232,169 +263,107 @@ public void add(int arg0, T arg1)
 
 ### add(String name, byte[] data) {#add-java.lang.String-byte---}
 ```
-public final void add(String name, byte[] data)
+public final MapiAttachment add(String name, byte[] data)
 ```
 
 
-Adds the new attachment.
+Adds a file attachment with the content in memory.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | The name of attachment. |
-| data | byte[] | The attachment data. |
+| name | java.lang.String | The file name of the attachment. |
+| data | byte[] | The content of the file. |
 
+**Returns:**
+[MapiAttachment](../../com.aspose.email/mapiattachment) - The new [MapiAttachment](../../com.aspose.email/mapiattachment).
 ### add(String name, MapiMessage msg) {#add-java.lang.String-com.aspose.email.MapiMessage-}
 ```
-public final void add(String name, MapiMessage msg)
+public final MapiAttachment add(String name, MapiMessage msg)
 ```
 
 
-Adds the new attachment as embedded message.
+Attaches a message as an embedded message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | The name of attachment. |
-| msg | [MapiMessage](../../com.aspose.email/mapimessage) | The [MapiMessage](../../com.aspose.email/mapimessage) that represents the attached message. |
+| name | java.lang.String | The name of the attachment. |
+| msg | [MapiMessage](../../com.aspose.email/mapimessage) | The message to attach. |
 
+**Returns:**
+[MapiAttachment](../../com.aspose.email/mapiattachment) - The new [MapiAttachment](../../com.aspose.email/mapiattachment).
 ### add(String name, ReferenceAttachmentOptions options) {#add-java.lang.String-com.aspose.email.ReferenceAttachmentOptions-}
 ```
-public final void add(String name, ReferenceAttachmentOptions options)
+public final MapiAttachment add(String name, ReferenceAttachmentOptions options)
 ```
 
 
 Adds a reference attachment to the collection using the specified name and configuration options.
 
---------------------
+This method adds a reference attachment to the message and applies additional properties based on the provided [ReferenceAttachmentOptions](../../com.aspose.email/referenceattachmentoptions) object. The additional properties include permission type, original permission type, folder indicator, provider endpoint URL, preview URL, and thumbnail URL.
 
-> ```
-> The following example demonstrates how to use this method in C#:
->   [C#]
->   
->   var options = new ReferenceAttachmentOptions(
->       "https://drive.google.com/file/d/1HJ-M3F2qq1oRrTZ2GZhUdErJNy2CT3DF/",
->       "https://drive.google.com/drive/my-drive",
->       "GoogleDrive"
->   )
->   {
->       PermissionType = AttachmentPermissionType.AnyoneCanEdit,
->       OriginalPermissionType = 0,
->       IsFolder = false
->   };
->   msg.Attachments.Add("Document.pdf", options);
->   
->   The following example demonstrates how to use this method in Visual Basic:
->   [Visual Basic]
->   
->   Dim options As New ReferenceAttachmentOptions(
->       "https://drive.google.com/file/d/1HJ-M3F2qq1oRrTZ2GZhUdErJNy2CT3DF/",
->       "https://drive.google.com/drive/my-drive",
->       "GoogleDrive"
->   )
->   options.PermissionType = AttachmentPermissionType.AnyoneCanEdit
->   options.OriginalPermissionType = 0
->   options.IsFolder = False
->   msg.Attachments.Add("Document.pdf", options)
-> ```
+The following example demonstrates how to use this method:
+
+```
+
+ ReferenceAttachmentOptions options = new ReferenceAttachmentOptions(
+         "https://drive.google.com/file/d/1HJ-M3F2qq1oRrTZ2GZhUdErJNy2CT3DF/",
+         "https://drive.google.com/drive/my-drive",
+         "GoogleDrive");
+ options.setPermissionType(AttachmentPermissionType.AnyoneCanEdit);
+ options.setOriginalPermissionType(0);
+ options.setFolder(false);
+
+ msg.getAttachments().add("Document.pdf", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | java.lang.String | The name of the attachment to display in the message. |
-| options | [ReferenceAttachmentOptions](../../com.aspose.email/referenceattachmentoptions) | An instance of [ReferenceAttachmentOptions](../../com.aspose.email/referenceattachmentoptions) containing the configuration details for the reference attachment, such as the shared link, URL, and provider name.
+| options | [ReferenceAttachmentOptions](../../com.aspose.email/referenceattachmentoptions) | An instance of [ReferenceAttachmentOptions](../../com.aspose.email/referenceattachmentoptions) containing the configuration details for the reference attachment, such as the shared link, URL, and provider name. |
 
---------------------
-
-This method adds a reference attachment to the message and applies additional properties based on the provided [ReferenceAttachmentOptions](../../com.aspose.email/referenceattachmentoptions) object. The additional properties include permission type, original permission type, folder indicator, provider endpoint URL, preview URL, and thumbnail URL. |
-
-### add(String name, InputStream data) {#add-java.lang.String-java.io.InputStream-}
+**Returns:**
+[MapiAttachment](../../com.aspose.email/mapiattachment) - The new [MapiAttachment](../../com.aspose.email/mapiattachment).
+### add(String name, InputStream content) {#add-java.lang.String-java.io.InputStream-}
 ```
-public final void add(String name, InputStream data)
+public final MapiAttachment add(String name, InputStream content)
 ```
 
 
-Adds the new attachment.
+Adds a new attachment whose content is read from a stream.
+
+The content is not copied into memory: it is read from the stream on demand when the message is saved or when the attachment content is accessed. Modifying the contents of the stream between this call and reading the attachment gives undefined results.
+
+Unlike [Attachment](../../com.aspose.email/attachment), which reads MIME content once into its own storage and therefore tolerates forward-only streams, this method requires a seekable stream: the content is read again on every save and its length must be known in advance.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | The name of attachment. |
-| data | java.io.InputStream | The attachment data. |
+| name | java.lang.String | The file name of the attachment. |
+| content | java.io.InputStream | The attachment content. The stream must be seekable and readable. Content is taken from the stream's current position to its end, and the range is fixed at the moment of this call. The stream must stay open until the message is saved or the attachment content is accessed, and the caller keeps ownership of it. |
 
-### add(String name, String sharedLink, String url, String providerName) {#add-java.lang.String-java.lang.String-java.lang.String-java.lang.String-}
+**Returns:**
+[MapiAttachment](../../com.aspose.email/mapiattachment) - The new [MapiAttachment](../../com.aspose.email/mapiattachment).
+### add(String name, InputStream content, boolean leaveStreamOpen) {#add-java.lang.String-java.io.InputStream-boolean-}
 ```
-public final void add(String name, String sharedLink, String url, String providerName)
+public final MapiAttachment add(String name, InputStream content, boolean leaveStreamOpen)
 ```
 
 
-Adds the reference attachment.
-
---------------------
-
-> ```
-> ```
->  This example demonstrates how to add a reference attachment to a message.
-> ```
->  [C#]
->  
->  // Let's say you want to send an email message that includes a link to a Document.pdf file stored on a Google Drive.
->  // Instead of attaching the document directly to the email message,
->  // you can create a reference attachment that links to the file on the Google Drive.
->  // Create a message
->  var msg = new MapiMessage("from@domain.com", "to@domain.com", "Outlook message file",
->      "This message is created by Aspose.Email", OutlookMessageFormat.Unicode);
->  // Add reference attachment
->  msg.Attachments.Add("Document.pdf",
->      "https://drive.google.com/file/d/1HJ-M3F2qq1oRrTZ2GZhUdErJNy2CT3DF/",
->      "https://drive.google.com/drive/my-drive",
->      "GoogleDrive");
->  //Also, you can set additional attachment properties
->  msg.Attachments[0].SetProperty(KnownPropertyList.AttachmentPermissionType, AttachmentPermissionType.AnyoneCanEdit);
->  msg.Attachments[0].SetProperty(KnownPropertyList.AttachmentOriginalPermissionType, 0);
->  msg.Attachments[0].SetProperty(KnownPropertyList.AttachmentIsFolder, false);
->  msg.Attachments[0].SetProperty(KnownPropertyList.AttachmentProviderEndpointUrl, "");
->  msg.Attachments[0].SetProperty(KnownPropertyList.AttachmentPreviewUrl, "");
->  msg.Attachments[0].SetProperty(KnownPropertyList.AttachmentThumbnailUrl, "");
->  // Finally save the message
->  msg.Save(@"my.msg");
->  
->  [Visual Basic]
->  
->  ' Let's say you want to send an email message that includes a link to a Document.pdf file stored on a Google Drive.
->  ' Instead of attaching the document directly to the email message,
->  ' you can create a reference attachment that links to the file on the Google Drive.
->  ' Create a message
->  Dim msg As New MapiMessage("from@domain.com", "to@domain.com", "Outlook message file", "This message is created by Aspose.Email", OutlookMessageFormat.Unicode)
->  ' Add reference attachment
->  msg.Attachments.Add("Document.pdf", "https://drive.google.com/file/d/1HJ-M3F2qq1oRrTZ2GZhUdErJNy2CT3DF/", "https://drive.google.com/drive/my-drive", "GoogleDrive")
->  ' Also, you can set additional attachment properties
->  msg.Attachments(0).SetProperty(KnownPropertyList.AttachmentPermissionType, AttachmentPermissionType.AnyoneCanEdit)
->  msg.Attachments(0).SetProperty(KnownPropertyList.AttachmentOriginalPermissionType, AttachmentPermissionType.None)
->  msg.Attachments(0).SetProperty(KnownPropertyList.AttachmentIsFolder, False)
->  msg.Attachments(0).SetProperty(KnownPropertyList.AttachmentProviderEndpointUrl, "")
->  msg.Attachments(0).SetProperty(KnownPropertyList.AttachmentPreviewUrl, "")
->  msg.Attachments(0).SetProperty(KnownPropertyList.AttachmentThumbnailUrl, "")
->  ' Finally save the message
->  msg.Save("my.msg")
-> ```
+Adds a new attachment whose content is read from a stream.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | The name of attachment. |
-| sharedLink | java.lang.String | A fully qualified shared link to the attachment provided by web service manipulating the attachment. |
-| url | java.lang.String | A file location. |
-| providerName | java.lang.String | A name of reference attachment provider.
+| name | java.lang.String | The file name of the attachment. |
+| content | java.io.InputStream | The attachment content. The stream must be seekable and readable. Content is taken from the stream's current position to its end, and the range is fixed at the moment of this call. The stream must stay open until the message is saved or the attachment content is accessed. |
+| leaveStreamOpen | boolean | When  false , the stream is disposed together with the owning message, so the message must be disposed. When  true , the caller keeps ownership of the stream. |
 
---------------------
-
-A reference attachment is a type of attachment that includes a link or a reference to a file or item, rather than including the file or item itself in the email message. When the recipients of the email click on the reference attachment, they will be able to access the linked file if they have the appropriate permissions to do so. By using a reference attachment, you can send a smaller email message and ensure that everyone has access to the most up-to-date version of the file or item.
-
---------------------
-
-This method is  **obsolete** . Use \#add(String,ReferenceAttachmentOptions).add(String,ReferenceAttachmentOptions) instead for better configurability and ease of use. |
-
+**Returns:**
+[MapiAttachment](../../com.aspose.email/mapiattachment) - The new [MapiAttachment](../../com.aspose.email/mapiattachment).
 ### addAll(int arg0, Collection<? extends T> arg1) {#addAll-int-java.util.Collection---extends-T--}
 ```
 public boolean addAll(int arg0, Collection<? extends T> arg1)
@@ -426,6 +395,41 @@ public boolean addAll(Collection<? extends T> arg0)
 
 **Returns:**
 boolean
+### addFile(String filePath) {#addFile-java.lang.String-}
+```
+public final MapiAttachment addFile(String filePath)
+```
+
+
+Adds a new attachment reading its content from a file. The file name is used as the display name of the attachment.
+
+The file is opened for reading and stays open until the owning message is disposed, so the message must be disposed. The content is never copied into memory in full, which makes this the appropriate way to attach large files.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | The path of the file to attach. |
+
+**Returns:**
+[MapiAttachment](../../com.aspose.email/mapiattachment) - The new [MapiAttachment](../../com.aspose.email/mapiattachment).
+### addFile(String filePath, String displayName) {#addFile-java.lang.String-java.lang.String-}
+```
+public final MapiAttachment addFile(String filePath, String displayName)
+```
+
+
+Adds a new attachment reading its content from a file.
+
+The file is opened for reading and stays open until the owning message is disposed, so the message must be disposed.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | The path of the file to attach. |
+| displayName | java.lang.String | The name of attachment to display in the message. |
+
+**Returns:**
+[MapiAttachment](../../com.aspose.email/mapiattachment) - The new [MapiAttachment](../../com.aspose.email/mapiattachment).
 ### addItem(T arg0) {#addItem-T-}
 ```
 public void addItem(T arg0)
@@ -445,12 +449,12 @@ public final void addMapiAttachment(MapiAttachment item)
 ```
 
 
-Adds an object to the end of the  System.Collections.ObjectModel.Collection1 .
+Adds an existing attachment to the end of the collection.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [MapiAttachment](../../com.aspose.email/mapiattachment) | The object to be added to the end of the  System.Collections.ObjectModel.Collection1 . The value can be null for reference types. |
+| item | [MapiAttachment](../../com.aspose.email/mapiattachment) | The attachment to add. |
 
 ### addRange(T[] arg0) {#addRange-T---}
 ```
@@ -465,9 +469,9 @@ public void addRange(T[] arg0)
 | --- | --- | --- |
 | arg0 | T[] |  |
 
-### addRange(System.Collections.Generic.IGenericEnumerable<T> arg0) {#addRange-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-T--}
+### addRange(Iterable<T> arg0) {#addRange-java.lang.Iterable-T--}
 ```
-public void addRange(System.Collections.Generic.IGenericEnumerable<T> arg0)
+public void addRange(Iterable<T> arg0)
 ```
 
 
@@ -476,7 +480,7 @@ public void addRange(System.Collections.Generic.IGenericEnumerable<T> arg0)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arg0 | com.aspose.ms.System.Collections.Generic.IGenericEnumerable<T> |  |
+| arg0 | java.lang.Iterable<T> |  |
 
 ### asReadOnly() {#asReadOnly--}
 ```
@@ -831,6 +835,126 @@ public void forEach(System.Action<T> arg0)
 | --- | --- | --- |
 | arg0 | com.aspose.ms.System.Action<T> |  |
 
+### fromPrimitiveArray(boolean[] arg0) {#fromPrimitiveArray-boolean---}
+```
+public static System.Collections.Generic.List<Boolean> fromPrimitiveArray(boolean[] arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | boolean[] |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List<java.lang.Boolean>
+### fromPrimitiveArray(byte[] arg0) {#fromPrimitiveArray-byte---}
+```
+public static System.Collections.Generic.List<Byte> fromPrimitiveArray(byte[] arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | byte[] |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List<java.lang.Byte>
+### fromPrimitiveArray(char[] arg0) {#fromPrimitiveArray-char---}
+```
+public static System.Collections.Generic.List<Character> fromPrimitiveArray(char[] arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | char[] |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List<java.lang.Character>
+### fromPrimitiveArray(double[] arg0) {#fromPrimitiveArray-double---}
+```
+public static System.Collections.Generic.List<Double> fromPrimitiveArray(double[] arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | double[] |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List<java.lang.Double>
+### fromPrimitiveArray(float[] arg0) {#fromPrimitiveArray-float---}
+```
+public static System.Collections.Generic.List<Float> fromPrimitiveArray(float[] arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | float[] |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List<java.lang.Float>
+### fromPrimitiveArray(int[] arg0) {#fromPrimitiveArray-int---}
+```
+public static System.Collections.Generic.List<Integer> fromPrimitiveArray(int[] arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | int[] |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List<java.lang.Integer>
+### fromPrimitiveArray(long[] arg0) {#fromPrimitiveArray-long---}
+```
+public static System.Collections.Generic.List<Long> fromPrimitiveArray(long[] arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long[] |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List<java.lang.Long>
+### fromPrimitiveArray(short[] arg0) {#fromPrimitiveArray-short---}
+```
+public static System.Collections.Generic.List<Short> fromPrimitiveArray(short[] arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | short[] |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List<java.lang.Short>
 ### get(int arg0) {#get-int-}
 ```
 public T get(int arg0)
@@ -986,14 +1110,14 @@ public final void insert(int index, String name, MapiMessage msg)
 ```
 
 
-Inserts a message as attachment into the [MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) at the specified index.
+Inserts a message as an embedded attachment at the specified position.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which should be inserted. |
-| name | java.lang.String | The name of attachment. |
-| msg | [MapiMessage](../../com.aspose.email/mapimessage) | The [MapiMessage](../../com.aspose.email/mapimessage) that represents the attached message. |
+| index | int | The zero-based position to insert at. |
+| name | java.lang.String | The name of the attachment. |
+| msg | [MapiMessage](../../com.aspose.email/mapimessage) | The message to attach. |
 
 ### insertItem(int arg0, T arg1) {#insertItem-int-T-}
 ```
@@ -1015,17 +1139,17 @@ public final void insertMapiAttachment(int index, MapiAttachment item)
 ```
 
 
-Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index.
+Inserts an attachment at the specified position.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which  item  should be inserted. |
-| item | [MapiAttachment](../../com.aspose.email/mapiattachment) | The object to insert. The value can be null for reference types. |
+| index | int | The zero-based position to insert at. |
+| item | [MapiAttachment](../../com.aspose.email/mapiattachment) | The attachment to insert. |
 
-### insertRange(int arg0, System.Collections.Generic.IGenericEnumerable<T> arg1) {#insertRange-int-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-T--}
+### insertRange(int arg0, Iterable<T> arg1) {#insertRange-int-java.lang.Iterable-T--}
 ```
-public void insertRange(int arg0, System.Collections.Generic.IGenericEnumerable<T> arg1)
+public void insertRange(int arg0, Iterable<T> arg1)
 ```
 
 
@@ -1035,7 +1159,7 @@ public void insertRange(int arg0, System.Collections.Generic.IGenericEnumerable<
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | int |  |
-| arg1 | com.aspose.ms.System.Collections.Generic.IGenericEnumerable<T> |  |
+| arg1 | java.lang.Iterable<T> |  |
 
 ### isEmpty() {#isEmpty--}
 ```
@@ -1087,6 +1211,16 @@ public System.Collections.Generic.List.Enumerator<T> iterator()
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.List.Enumerator<T>
+### iteratorJava() {#iteratorJava--}
+```
+public System.Collections.Generic.List.EnumeratorJava<T> iteratorJava()
+```
+
+
+
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.List.EnumeratorJava<T>
 ### lastIndexOf(T arg0, int arg1) {#lastIndexOf-T-int-}
 ```
 public int lastIndexOf(T arg0, int arg1)
@@ -1242,12 +1376,12 @@ public final void removeAt(int index)
 ```
 
 
-Removes the element at the specified index of the MapiAttachmentCollection.
+Removes the attachment at the specified position.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | he zero-based index of the element to remove. |
+| index | int | The zero-based position of the attachment to remove. |
 
 ### removeItem(T arg0) {#removeItem-T-}
 ```
@@ -1270,15 +1404,15 @@ public final boolean removeMapiAttachment(MapiAttachment item)
 ```
 
 
-Removes the first occurrence of a specific object from the MapiAttachmentCollection.
+Removes the first occurrence of the attachment from the collection.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [MapiAttachment](../../com.aspose.email/mapiattachment) | The object to remove from the MapiAttachmentCollection. |
+| item | [MapiAttachment](../../com.aspose.email/mapiattachment) | The attachment to remove. |
 
 **Returns:**
-boolean - true if item is successfully removed; otherwise, false.
+boolean -  true  if the attachment was removed;  false  if it was not in the collection.
 ### removeRange(int arg0, int arg1) {#removeRange-int-int-}
 ```
 public void removeRange(int arg0, int arg1)
@@ -1299,14 +1433,14 @@ public final void replace(int index, String name, MapiMessage msg)
 ```
 
 
-Replaces an element at the specified index.
+Replaces the attachment at the specified position with an embedded message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which should be replaced. |
-| name | java.lang.String | The name of attachment. |
-| msg | [MapiMessage](../../com.aspose.email/mapimessage) | The [MapiMessage](../../com.aspose.email/mapimessage) that represents the attached message. |
+| index | int | The zero-based position of the attachment to replace. |
+| name | java.lang.String | The name of the new attachment. |
+| msg | [MapiMessage](../../com.aspose.email/mapimessage) | The message to attach. |
 
 ### retainAll(Collection<?> arg0) {#retainAll-java.util.Collection----}
 ```

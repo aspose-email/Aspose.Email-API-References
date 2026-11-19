@@ -3,7 +3,7 @@ title: PostalAddress
 second_title: Aspose.Email for Java API Reference
 description: Represents a postal address.
 type: docs
-weight: 604
+weight: 608
 url: /java/com.aspose.email/postaladdress/
 ---
 
@@ -30,35 +30,35 @@ Represents a postal address.
 | [equals(PostalAddress obj)](#equals-com.aspose.email.PostalAddress-) |  |
 | [equals(PostalAddress x, PostalAddress y)](#equals-com.aspose.email.PostalAddress-com.aspose.email.PostalAddress-) | Determines whether the specified object instances are considered equal. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
-| [getAddress()](#getAddress--) | Gets or sets an address |
-| [getCategory()](#getCategory--) | Gets or sets an object category |
-| [getCity()](#getCity--) | Gets or sets a city |
+| [getAddress()](#getAddress--) | Gets an address. |
+| [getCategory()](#getCategory--) | Gets an object category. |
+| [getCity()](#getCity--) | Gets a city. |
 | [getClass()](#getClass--) |  |
-| [getCountry()](#getCountry--) | Gets or sets a country |
-| [getCountryCode()](#getCountryCode--) | Gets or sets a country code |
-| [getPostOfficeBox()](#getPostOfficeBox--) | Gets or sets a post Office box |
-| [getPostalCode()](#getPostalCode--) | Gets or sets a post code |
-| [getPrefered()](#getPrefered--) | Gets or sets a value which defines whether postal address is preferred. |
-| [getStateOrProvince()](#getStateOrProvince--) | Gets or sets a region |
-| [getStreet()](#getStreet--) | Gets or sets a street |
+| [getCountry()](#getCountry--) | Gets a country. |
+| [getCountryCode()](#getCountryCode--) | Gets a country code. |
+| [getPostOfficeBox()](#getPostOfficeBox--) | Gets a post Office box. |
+| [getPostalCode()](#getPostalCode--) | Gets a post code. |
+| [getPrefered()](#getPrefered--) | Gets a value which defines whether postal address is preferred. |
+| [getStateOrProvince()](#getStateOrProvince--) | Gets a region. |
+| [getStreet()](#getStreet--) | Gets a street. |
 | [hashCode()](#hashCode--) | GetHashCode returns a hash function for this object. |
 | [hashCode(PostalAddress obj)](#hashCode-com.aspose.email.PostalAddress-) | GetHashCode returns a hash function for specified object. |
-| [isMailingAddress()](#isMailingAddress--) | Gets or sets a value which defines whether address may be used for mailing. |
+| [isMailingAddress()](#isMailingAddress--) | Gets a value which defines whether address may be used for mailing. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [op_Equality(PostalAddress a, PostalAddress b)](#op-Equality-com.aspose.email.PostalAddress-com.aspose.email.PostalAddress-) | Determines whether the specified objects are equal. |
 | [op_Inequality(PostalAddress a, PostalAddress b)](#op-Inequality-com.aspose.email.PostalAddress-com.aspose.email.PostalAddress-) | Determines whether the specified objects are not equal. |
-| [setAddress(String value)](#setAddress-java.lang.String-) | Gets or sets an address |
-| [setCategory(PostalAddressCategory value)](#setCategory-com.aspose.email.PostalAddressCategory-) | Gets or sets an object category |
-| [setCity(String value)](#setCity-java.lang.String-) | Gets or sets a city |
-| [setCountry(String value)](#setCountry-java.lang.String-) | Gets or sets a country |
-| [setCountryCode(String value)](#setCountryCode-java.lang.String-) | Gets or sets a country code |
-| [setMailingAddress(boolean value)](#setMailingAddress-boolean-) | Gets or sets a value which defines whether address may be used for mailing. |
-| [setPostOfficeBox(String value)](#setPostOfficeBox-java.lang.String-) | Gets or sets a post Office box |
-| [setPostalCode(String value)](#setPostalCode-java.lang.String-) | Gets or sets a post code |
-| [setPrefered(boolean value)](#setPrefered-boolean-) | Gets or sets a value which defines whether postal address is preferred. |
-| [setStateOrProvince(String value)](#setStateOrProvince-java.lang.String-) | Gets or sets a region |
-| [setStreet(String value)](#setStreet-java.lang.String-) | Gets or sets a street |
+| [setAddress(String value)](#setAddress-java.lang.String-) | Sets an address. |
+| [setCategory(PostalAddressCategory value)](#setCategory-com.aspose.email.PostalAddressCategory-) | Sets an object category. |
+| [setCity(String value)](#setCity-java.lang.String-) | Sets a city. |
+| [setCountry(String value)](#setCountry-java.lang.String-) | Sets a country. |
+| [setCountryCode(String value)](#setCountryCode-java.lang.String-) | Sets a country code. |
+| [setMailingAddress(boolean value)](#setMailingAddress-boolean-) | Sets a value which defines whether address may be used for mailing. |
+| [setPostOfficeBox(String value)](#setPostOfficeBox-java.lang.String-) | Sets a post Office box. |
+| [setPostalCode(String value)](#setPostalCode-java.lang.String-) | Sets a post code. |
+| [setPrefered(boolean value)](#setPrefered-boolean-) | Sets a value which defines whether postal address is preferred. |
+| [setStateOrProvince(String value)](#setStateOrProvince-java.lang.String-) | Sets a region. |
+| [setStreet(String value)](#setStreet-java.lang.String-) | Sets a street. |
 | [toString()](#toString--) | Returns a string that represents the current object. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -80,10 +80,10 @@ Compares the current instance with another object of the same type and returns a
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | [PostalAddress](../../com.aspose.email/postaladdress) | An object to compare with this instance, or null. |
+| obj | [PostalAddress](../../com.aspose.email/postaladdress) | An object to compare with this instance, or  null . |
 
 **Returns:**
-int - This method returns: a value less than 0 if this is less than value 0 if this is equal to value a value greater than 0 if this is greater than value
+int - This method returns: a value less than 0 if this is less than value 0 if this is equal to value a value greater than 0 if this is greater than value.
 ### equals(PostalAddress obj) {#equals-com.aspose.email.PostalAddress-}
 ```
 public final boolean equals(PostalAddress obj)
@@ -114,7 +114,7 @@ Determines whether the specified object instances are considered equal.
 | y | [PostalAddress](../../com.aspose.email/postaladdress) | The second object to compare. |
 
 **Returns:**
-boolean - true if the objects are considered equal; otherwise, false. If both objA and objB are null, the method returns true.
+boolean -  true  if the objects are considered equal; otherwise,  false . If both objA and objB are  null , the method returns  true .
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -136,7 +136,7 @@ public final String getAddress()
 ```
 
 
-Gets or sets an address
+Gets an address.
 
 **Returns:**
 java.lang.String
@@ -146,7 +146,7 @@ public final PostalAddressCategory getCategory()
 ```
 
 
-Gets or sets an object category
+Gets an object category.
 
 **Returns:**
 [PostalAddressCategory](../../com.aspose.email/postaladdresscategory)
@@ -156,7 +156,7 @@ public final String getCity()
 ```
 
 
-Gets or sets a city
+Gets a city.
 
 **Returns:**
 java.lang.String
@@ -176,7 +176,7 @@ public final String getCountry()
 ```
 
 
-Gets or sets a country
+Gets a country.
 
 **Returns:**
 java.lang.String
@@ -186,7 +186,7 @@ public final String getCountryCode()
 ```
 
 
-Gets or sets a country code
+Gets a country code.
 
 **Returns:**
 java.lang.String
@@ -196,7 +196,7 @@ public final String getPostOfficeBox()
 ```
 
 
-Gets or sets a post Office box
+Gets a post Office box.
 
 **Returns:**
 java.lang.String
@@ -206,7 +206,7 @@ public final String getPostalCode()
 ```
 
 
-Gets or sets a post code
+Gets a post code.
 
 **Returns:**
 java.lang.String
@@ -216,7 +216,7 @@ public final boolean getPrefered()
 ```
 
 
-Gets or sets a value which defines whether postal address is preferred.
+Gets a value which defines whether postal address is preferred.
 
 **Returns:**
 boolean
@@ -226,7 +226,7 @@ public final String getStateOrProvince()
 ```
 
 
-Gets or sets a region
+Gets a region.
 
 **Returns:**
 java.lang.String
@@ -236,7 +236,7 @@ public final String getStreet()
 ```
 
 
-Gets or sets a street
+Gets a street.
 
 **Returns:**
 java.lang.String
@@ -271,7 +271,7 @@ public final boolean isMailingAddress()
 ```
 
 
-Gets or sets a value which defines whether address may be used for mailing.
+Gets a value which defines whether address may be used for mailing.
 
 **Returns:**
 boolean
@@ -302,11 +302,11 @@ Determines whether the specified objects are equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [PostalAddress](../../com.aspose.email/postaladdress) | First object to compare |
-| b | [PostalAddress](../../com.aspose.email/postaladdress) | Second object to compare |
+| a | [PostalAddress](../../com.aspose.email/postaladdress) | First object to compare. |
+| b | [PostalAddress](../../com.aspose.email/postaladdress) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are equal, otherwise false.
+boolean - Returns  true  if objects are equal, otherwise  false .
 ### op_Inequality(PostalAddress a, PostalAddress b) {#op-Inequality-com.aspose.email.PostalAddress-com.aspose.email.PostalAddress-}
 ```
 public static boolean op_Inequality(PostalAddress a, PostalAddress b)
@@ -318,18 +318,18 @@ Determines whether the specified objects are not equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [PostalAddress](../../com.aspose.email/postaladdress) | First object to compare |
-| b | [PostalAddress](../../com.aspose.email/postaladdress) | Second object to compare |
+| a | [PostalAddress](../../com.aspose.email/postaladdress) | First object to compare. |
+| b | [PostalAddress](../../com.aspose.email/postaladdress) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are not equal, otherwise false.
+boolean - Returns  true  if objects are not equal, otherwise  false .
 ### setAddress(String value) {#setAddress-java.lang.String-}
 ```
 public final void setAddress(String value)
 ```
 
 
-Gets or sets an address
+Sets an address.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -342,7 +342,7 @@ public final void setCategory(PostalAddressCategory value)
 ```
 
 
-Gets or sets an object category
+Sets an object category.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -355,7 +355,7 @@ public final void setCity(String value)
 ```
 
 
-Gets or sets a city
+Sets a city.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -368,7 +368,7 @@ public final void setCountry(String value)
 ```
 
 
-Gets or sets a country
+Sets a country.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -381,7 +381,7 @@ public final void setCountryCode(String value)
 ```
 
 
-Gets or sets a country code
+Sets a country code.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -394,7 +394,7 @@ public final void setMailingAddress(boolean value)
 ```
 
 
-Gets or sets a value which defines whether address may be used for mailing.
+Sets a value which defines whether address may be used for mailing.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -407,7 +407,7 @@ public final void setPostOfficeBox(String value)
 ```
 
 
-Gets or sets a post Office box
+Sets a post Office box.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -420,7 +420,7 @@ public final void setPostalCode(String value)
 ```
 
 
-Gets or sets a post code
+Sets a post code.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -433,7 +433,7 @@ public final void setPrefered(boolean value)
 ```
 
 
-Gets or sets a value which defines whether postal address is preferred.
+Sets a value which defines whether postal address is preferred.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -446,7 +446,7 @@ public final void setStateOrProvince(String value)
 ```
 
 
-Gets or sets a region
+Sets a region.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -459,7 +459,7 @@ public final void setStreet(String value)
 ```
 
 
-Gets or sets a street
+Sets a street.
 
 **Parameters:**
 | Parameter | Type | Description |

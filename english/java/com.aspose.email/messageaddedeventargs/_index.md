@@ -1,9 +1,9 @@
 ---
 title: MessageAddedEventArgs
 second_title: Aspose.Email for Java API Reference
-description: Provides data for the  event
+description: Provides data for the  event.
 type: docs
-weight: 513
+weight: 516
 url: /java/com.aspose.email/messageaddedeventargs/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.EventArgs
 public class MessageAddedEventArgs extends System.EventArgs
 ```
 
-Provides data for the [FolderInfo.MessageAddedDelegate](../../com.aspose.email/folderinfo\#MessageAddedDelegate) event
+Provides data for the [FolderInfo.MessageAdded](../../com.aspose.email/folderinfo\#MessageAdded) event.
 ## Constructors
 
 | Constructor | Description |
@@ -30,7 +30,7 @@ Provides data for the [FolderInfo.MessageAddedDelegate](../../com.aspose.email/f
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getEntryId()](#getEntryId--) | Gets the string that represents the EntryId of the added message. |
+| [getEntryId()](#getEntryId--) | Gets the entry ID of the added message. |
 | [getMessage()](#getMessage--) | Gets the message that has been added. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -50,8 +50,8 @@ Initializes a new instance of the [MessageAddedEventArgs](../../com.aspose.email
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | java.lang.String | The entry id. |
-| message | [MapiMessage](../../com.aspose.email/mapimessage) | The message. |
+| entryId | java.lang.String | The entry ID of the added message. |
+| message | [MapiMessage](../../com.aspose.email/mapimessage) | The added message. |
 
 ### Empty {#Empty}
 ```
@@ -90,12 +90,10 @@ public final String getEntryId()
 ```
 
 
-Gets the string that represents the EntryId of the added message.
-
-Value: The entry id.
+Gets the entry ID of the added message.
 
 **Returns:**
-java.lang.String
+java.lang.String - The entry ID.
 ### getMessage() {#getMessage--}
 ```
 public final MapiMessage getMessage()
@@ -104,10 +102,8 @@ public final MapiMessage getMessage()
 
 Gets the message that has been added.
 
-Value: The message.
-
 **Returns:**
-[MapiMessage](../../com.aspose.email/mapimessage)
+[MapiMessage](../../com.aspose.email/mapimessage) - The added message.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

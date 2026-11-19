@@ -1,9 +1,9 @@
 ---
 title: UrlList
 second_title: Aspose.Email for Java API Reference
-description: List of urls for contact
+description: List of urls for contact.
 type: docs
-weight: 725
+weight: 735
 url: /java/com.aspose.email/urllist/
 ---
 
@@ -16,7 +16,7 @@ com.aspose.ms.System.Collections.Generic.IGenericList
 public class UrlList implements System.Collections.Generic.IGenericList<Url>
 ```
 
-List of urls for contact
+List of urls for contact.
 ## Constructors
 
 | Constructor | Description |
@@ -34,13 +34,13 @@ List of urls for contact
 | [copyTo(Url[] array, int index)](#copyTo-com.aspose.email.Url---int-) | Copies the elements to an array, starting at a particular array index. |
 | [copyToTArray(Url[] array, int index)](#copyToTArray-com.aspose.email.Url---int-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBlog()](#getBlog--) | Default blog page |
-| [getBusinessHomePage()](#getBusinessHomePage--) | Default work page |
+| [getBlog()](#getBlog--) | Gets default blog page. |
+| [getBusinessHomePage()](#getBusinessHomePage--) | Gets default work page. |
 | [getClass()](#getClass--) |  |
-| [getFtp()](#getFtp--) | Default ftp page |
-| [getHomePage()](#getHomePage--) | Default home page |
-| [getProfile()](#getProfile--) | Default profile page |
-| [get_Item(int index)](#get-Item-int-) | Gets or sets the element at the specified index. |
+| [getFtp()](#getFtp--) | Gets default ftp page. |
+| [getHomePage()](#getHomePage--) | Gets default home page. |
+| [getProfile()](#getProfile--) | Gets default profile page. |
+| [get_Item(int index)](#get-Item-int-) | Gets the element at the specified index. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(Url value)](#indexOf-com.aspose.email.Url-) | Determines the index of a specific item in the list. |
 | [indexOfItem(Url value)](#indexOfItem-com.aspose.email.Url-) |  |
@@ -53,13 +53,13 @@ List of urls for contact
 | [remove(Url value)](#remove-com.aspose.email.Url-) | Removes the first occurrence of a specific object from the list. |
 | [removeAt(int index)](#removeAt-int-) | Removes the list item at the specified index. |
 | [removeItem(Url value)](#removeItem-com.aspose.email.Url-) |  |
-| [setBlog(String value)](#setBlog-java.lang.String-) | Default blog page |
-| [setBusinessHomePage(String value)](#setBusinessHomePage-java.lang.String-) | Default work page |
-| [setFtp(String value)](#setFtp-java.lang.String-) | Default ftp page |
-| [setHomePage(String value)](#setHomePage-java.lang.String-) | Default home page |
-| [setProfile(String value)](#setProfile-java.lang.String-) | Default profile page |
-| [set_Item(int index, Url value)](#set-Item-int-com.aspose.email.Url-) | Gets or sets the element at the specified index. |
-| [size()](#size--) | Gets the number of elements contained in the ICollection. |
+| [setBlog(String value)](#setBlog-java.lang.String-) | Sets default blog page. |
+| [setBusinessHomePage(String value)](#setBusinessHomePage-java.lang.String-) | Sets default work page. |
+| [setFtp(String value)](#setFtp-java.lang.String-) | Sets default ftp page. |
+| [setHomePage(String value)](#setHomePage-java.lang.String-) | Sets default home page. |
+| [setProfile(String value)](#setProfile-java.lang.String-) | Sets default profile page. |
+| [set_Item(int index, Url value)](#set-Item-int-com.aspose.email.Url-) | Sets the element at the specified index. |
+| [size()](#size--) | Gets the number of elements contained in the collection. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -118,7 +118,7 @@ Determines whether the list contains a specific value.
 | value | [Url](../../com.aspose.email/url) | The object to locate in the list. |
 
 **Returns:**
-boolean - true if the object is found in the list; otherwise, false.
+boolean -  true  if the object is found in the list; otherwise,  false .
 ### containsItem(Url value) {#containsItem-com.aspose.email.Url-}
 ```
 public boolean containsItem(Url value)
@@ -146,7 +146,7 @@ Copies the elements to an array, starting at a particular array index.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | array | [Url\[\]](../../com.aspose.email/url) | The one-dimensional array that is the destination of the elements copied from collections. The array must have zero-based indexing. |
-| index | int | The zero-based index in array at which copying begins. |
+| index | int | The zero-based index in  array  at which copying begins. |
 
 ### copyToTArray(Url[] array, int index) {#copyToTArray-com.aspose.email.Url---int-}
 ```
@@ -183,7 +183,7 @@ public final String getBlog()
 ```
 
 
-Default blog page
+Gets default blog page.
 
 **Returns:**
 java.lang.String
@@ -193,7 +193,7 @@ public final String getBusinessHomePage()
 ```
 
 
-Default work page
+Gets default work page.
 
 **Returns:**
 java.lang.String
@@ -213,7 +213,7 @@ public final String getFtp()
 ```
 
 
-Default ftp page
+Gets default ftp page.
 
 **Returns:**
 java.lang.String
@@ -223,7 +223,7 @@ public final String getHomePage()
 ```
 
 
-Default home page
+Gets default home page.
 
 **Returns:**
 java.lang.String
@@ -233,7 +233,7 @@ public final String getProfile()
 ```
 
 
-Default profile page
+Gets default profile page.
 
 **Returns:**
 java.lang.String
@@ -243,7 +243,7 @@ public final Url get_Item(int index)
 ```
 
 
-Gets or sets the element at the specified index.
+Gets the element at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -339,7 +339,7 @@ public final System.Collections.Generic.IGenericEnumerator<Url> iterator()
 Returns an enumerator that iterates through a collection.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.email.Url> - An Enumerator object that can be used to iterate through the collection.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.email.Url> - An iterator that can be used to iterate through the collection.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -405,7 +405,7 @@ public final void setBlog(String value)
 ```
 
 
-Default blog page
+Sets default blog page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -418,7 +418,7 @@ public final void setBusinessHomePage(String value)
 ```
 
 
-Default work page
+Sets default work page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -431,7 +431,7 @@ public final void setFtp(String value)
 ```
 
 
-Default ftp page
+Sets default ftp page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -444,7 +444,7 @@ public final void setHomePage(String value)
 ```
 
 
-Default home page
+Sets default home page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -457,7 +457,7 @@ public final void setProfile(String value)
 ```
 
 
-Default profile page
+Sets default profile page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -470,13 +470,13 @@ public final void set_Item(int index, Url value)
 ```
 
 
-Gets or sets the element at the specified index.
+Sets the element at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index of the element to get or set. |
-| value | [Url](../../com.aspose.email/url) |  |
+| value | [Url](../../com.aspose.email/url) | The value to set. |
 
 ### size() {#size--}
 ```
@@ -484,10 +484,10 @@ public final int size()
 ```
 
 
-Gets the number of elements contained in the ICollection.
+Gets the number of elements contained in the collection.
 
 **Returns:**
-int - The number of elements contained in the ICollection.
+int - The number of elements contained in the collection.
 ### toString() {#toString--}
 ```
 public String toString()

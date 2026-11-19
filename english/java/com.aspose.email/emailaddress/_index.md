@@ -1,9 +1,9 @@
 ---
 title: EmailAddress
 second_title: Aspose.Email for Java API Reference
-description: Represents an email address
+description: Represents an email address.
 type: docs
-weight: 167
+weight: 170
 url: /java/com.aspose.email/emailaddress/
 ---
 
@@ -16,7 +16,7 @@ java.lang.Comparable, com.aspose.ms.System.IEquatable
 public class EmailAddress extends MailAddress implements Comparable<EmailAddress>, System.IEquatable<EmailAddress>
 ```
 
-Represents an email address
+Represents an email address.
 ## Constructors
 
 | Constructor | Description |
@@ -32,32 +32,36 @@ Represents an email address
 | [equals(EmailAddress obj)](#equals-com.aspose.email.EmailAddress-) | Determines whether the specified Object is equal to the current Object. |
 | [equals(EmailAddress x, EmailAddress y)](#equals-com.aspose.email.EmailAddress-com.aspose.email.EmailAddress-) | Determines whether the specified object instances are considered equal. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
-| [getAddress()](#getAddress--) | Gets or sets the e-mail address. |
-| [getCategory()](#getCategory--) | Gets or sets an object category |
+| [getAddress()](#getAddress--) | Gets the e-mail address, such as  john@example.com . |
+| [getCategory()](#getCategory--) | Gets an object category. |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Contains count of mail addresses. |
-| [getDisplayName()](#getDisplayName--) | Gets or sets a display name. |
-| [getHost()](#getHost--) | Gets the host portion of the address. |
-| [getId()](#getId--) | Gets object identification information |
-| [getOriginalAddressString()](#getOriginalAddressString--) | Gets or sets the original e-mail address string. |
-| [getParticipationStatus()](#getParticipationStatus--) | Gets or sets the participation status for the calendar user. |
-| [getPrefered()](#getPrefered--) | Gets or sets a value which defines whether email address is preferred. |
-| [getRoutingType()](#getRoutingType--) | Gets or sets a routing type for an email |
-| [getUser()](#getUser--) | Gets the username. |
-| [get_Item(int i)](#get-Item-int-) | Gets the element at the specified index. |
-| [hashCode()](#hashCode--) | GetHashCode returns a hash function for this object. |
-| [hashCode(EmailAddress obj)](#hashCode-com.aspose.email.EmailAddress-) | GetHashCode returns a hash function for specified object. |
+| [getCount()](#getCount--) | Gets the number of addresses, which is always 1. |
+| [getDisplayName()](#getDisplayName--) | Gets the display name, such as  John Smith . |
+| [getHost()](#getHost--) | Gets the host part of the address: the part after  @ . |
+| [getId()](#getId--) | Gets the identifiers of the address on the server it came from, such as Exchange. |
+| [getOriginalAddressString()](#getOriginalAddressString--) | Gets the address exactly as it appeared in the message, before it was parsed. |
+| [getParticipationStatus()](#getParticipationStatus--) | Gets the response of the attendee to a meeting request, when the address is a meeting attendee. |
+| [getPrefered()](#getPrefered--) | Gets a value which defines whether email address is preferred. |
+| [getRoutingType()](#getRoutingType--) | Gets a routing type for an email. |
+| [getUser()](#getUser--) | Gets the user part of the address: the part before  @ . |
+| [getX500Address()](#getX500Address--) | Gets the Exchange (X.500) form of the address, if the message has one. |
+| [get_Item(int i)](#get-Item-int-) | Gets the address itself; the index is ignored. |
+| [hashCode()](#hashCode--) | Returns a hash function for this object. |
+| [hashCode(EmailAddress obj)](#hashCode-com.aspose.email.EmailAddress-) | Returns a hash function for specified object. |
+| [isX500OriginalAddressType()](#isX500OriginalAddressType--) | Indicates whether the original address is of X500 type. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [op_Equality(EmailAddress a, EmailAddress b)](#op-Equality-com.aspose.email.EmailAddress-com.aspose.email.EmailAddress-) | Determines whether the specified objects are equal. |
 | [op_Inequality(EmailAddress a, EmailAddress b)](#op-Inequality-com.aspose.email.EmailAddress-com.aspose.email.EmailAddress-) | Determines whether the specified objects are not equal. |
-| [setAddress(String value)](#setAddress-java.lang.String-) | Gets or sets the e-mail address. |
-| [setCategory(EmailAddressCategory value)](#setCategory-com.aspose.email.EmailAddressCategory-) | Gets or sets an object category |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Gets or sets a display name. |
-| [setParticipationStatus(int value)](#setParticipationStatus-int-) | Gets or sets the participation status for the calendar user. |
-| [setPrefered(boolean value)](#setPrefered-boolean-) | Gets or sets a value which defines whether email address is preferred. |
-| [setRoutingType(String value)](#setRoutingType-java.lang.String-) | Gets or sets a routing type for an email |
+| [setAddress(String value)](#setAddress-java.lang.String-) | Sets the e-mail address, such as  john@example.com . |
+| [setCategory(EmailAddressCategory value)](#setCategory-com.aspose.email.EmailAddressCategory-) | Sets an object category. |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Sets the display name, such as  John Smith . |
+| [setOriginalAddressString(String value)](#setOriginalAddressString-java.lang.String-) | Sets the address exactly as it appeared in the message, before it was parsed. |
+| [setParticipationStatus(int value)](#setParticipationStatus-int-) | Sets the response of the attendee to a meeting request, when the address is a meeting attendee. |
+| [setPrefered(boolean value)](#setPrefered-boolean-) | Sets a value which defines whether email address is preferred. |
+| [setRoutingType(String value)](#setRoutingType-java.lang.String-) | Sets a routing type for an email. |
 | [toString()](#toString--) | Returns a string that represents the current object. |
+| [toX500String()](#toX500String--) | Returns a String that represents this instance in Exchange format. |
 | [to_MailAddress(MailAddressCollection addresses)](#to-MailAddress-com.aspose.email.MailAddressCollection-) | Performs an implicit conversion from [MailAddressCollection](../../com.aspose.email/mailaddresscollection) to [MailAddress](../../com.aspose.email/mailaddress). |
 | [to_MailAddress(String address)](#to-MailAddress-java.lang.String-) | Performs an implicit conversion from String to [MailAddress](../../com.aspose.email/mailaddress). |
 | [wait()](#wait--) |  |
@@ -109,10 +113,10 @@ Compares the current instance with another object of the same type and returns a
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | [EmailAddress](../../com.aspose.email/emailaddress) | An object to compare with this instance, or null. |
+| obj | [EmailAddress](../../com.aspose.email/emailaddress) | An object to compare with this instance, or  null . |
 
 **Returns:**
-int - This method returns: a value less than 0 if this is less than value 0 if this is equal to value a value greater than 0 if this is greater than value
+int - This method returns: a value less than 0 if this is less than value; 0 if this is equal to value; a value greater than 0 if this is greater than value.
 ### equals(EmailAddress obj) {#equals-com.aspose.email.EmailAddress-}
 ```
 public final boolean equals(EmailAddress obj)
@@ -143,7 +147,7 @@ Determines whether the specified object instances are considered equal.
 | y | [EmailAddress](../../com.aspose.email/emailaddress) | The second object to compare. |
 
 **Returns:**
-boolean - true if the objects are considered equal; otherwise, false. If both objA and objB are null, the method returns true.
+boolean -  true  if the objects are considered equal; otherwise,  false . If both  x  and  y  are  null , the method returns  true .
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -165,19 +169,17 @@ public final String getAddress()
 ```
 
 
-Gets or sets the e-mail address.
-
-Value: A String that contains the e-mail address.
+Gets the e-mail address, such as  john@example.com .
 
 **Returns:**
-java.lang.String
+java.lang.String - The e-mail address.
 ### getCategory() {#getCategory--}
 ```
 public final EmailAddressCategory getCategory()
 ```
 
 
-Gets or sets an object category
+Gets an object category.
 
 **Returns:**
 [EmailAddressCategory](../../com.aspose.email/emailaddresscategory)
@@ -197,7 +199,7 @@ public final int getCount()
 ```
 
 
-Contains count of mail addresses.
+Gets the number of addresses, which is always 1. Together with the indexer it lets an address be used where a list is expected.
 
 **Returns:**
 int
@@ -207,31 +209,27 @@ public final String getDisplayName()
 ```
 
 
-Gets or sets a display name.
-
-Value: A String that contains the display name.
+Gets the display name, such as  John Smith .
 
 **Returns:**
-java.lang.String
+java.lang.String - The display name.
 ### getHost() {#getHost--}
 ```
 public final String getHost()
 ```
 
 
-Gets the host portion of the address.
-
-Value: A String that contains the name of the host.
+Gets the host part of the address: the part after  @ .
 
 **Returns:**
-java.lang.String
+java.lang.String - The host.
 ### getId() {#getId--}
 ```
 public final ObjectIdentifier getId()
 ```
 
 
-Gets object identification information
+Gets the identifiers of the address on the server it came from, such as Exchange.
 
 **Returns:**
 [ObjectIdentifier](../../com.aspose.email/objectidentifier)
@@ -241,19 +239,17 @@ public final String getOriginalAddressString()
 ```
 
 
-Gets or sets the original e-mail address string.
-
-Value: A String that contains the original e-mail address.
+Gets the address exactly as it appeared in the message, before it was parsed.
 
 **Returns:**
-java.lang.String
+java.lang.String - The original address string.
 ### getParticipationStatus() {#getParticipationStatus--}
 ```
 public final int getParticipationStatus()
 ```
 
 
-Gets or sets the participation status for the calendar user.
+Gets the response of the attendee to a meeting request, when the address is a meeting attendee.
 
 **Returns:**
 int
@@ -263,7 +259,7 @@ public final boolean getPrefered()
 ```
 
 
-Gets or sets a value which defines whether email address is preferred.
+Gets a value which defines whether email address is preferred.
 
 **Returns:**
 boolean
@@ -273,7 +269,7 @@ public final String getRoutingType()
 ```
 
 
-Gets or sets a routing type for an email
+Gets a routing type for an email.
 
 **Returns:**
 java.lang.String
@@ -283,9 +279,17 @@ public final String getUser()
 ```
 
 
-Gets the username.
+Gets the user part of the address: the part before  @ .
 
-Value: A String that contains the user name.
+**Returns:**
+java.lang.String - The user name.
+### getX500Address() {#getX500Address--}
+```
+public final String getX500Address()
+```
+
+
+Gets the Exchange (X.500) form of the address, if the message has one.
 
 **Returns:**
 java.lang.String
@@ -295,22 +299,22 @@ public final MailAddress get_Item(int i)
 ```
 
 
-Gets the element at the specified index.
+Gets the address itself; the index is ignored.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| i | int | The zero-based index of the element to get or set. |
+| i | int | Ignored. |
 
 **Returns:**
-[MailAddress](../../com.aspose.email/mailaddress) - Returns the element at the specified index.
+[MailAddress](../../com.aspose.email/mailaddress) - This address.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
 ```
 
 
-GetHashCode returns a hash function for this object.
+Returns a hash function for this object.
 
 **Returns:**
 int - Returns a hash function for this object.
@@ -320,15 +324,25 @@ public final int hashCode(EmailAddress obj)
 ```
 
 
-GetHashCode returns a hash function for specified object.
+Returns a hash function for specified object.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | [EmailAddress](../../com.aspose.email/emailaddress) | The Object for which a hash code is to be returned. |
+| obj | [EmailAddress](../../com.aspose.email/emailaddress) | The object for which a hash code is to be returned. |
 
 **Returns:**
 int - Returns a hash function for specified object.
+### isX500OriginalAddressType() {#isX500OriginalAddressType--}
+```
+public final boolean isX500OriginalAddressType()
+```
+
+
+Indicates whether the original address is of X500 type.
+
+**Returns:**
+boolean
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -356,11 +370,11 @@ Determines whether the specified objects are equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [EmailAddress](../../com.aspose.email/emailaddress) | First object to compare |
-| b | [EmailAddress](../../com.aspose.email/emailaddress) | Second object to compare |
+| a | [EmailAddress](../../com.aspose.email/emailaddress) | First object to compare. |
+| b | [EmailAddress](../../com.aspose.email/emailaddress) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are equal, otherwise false.
+boolean - Returns  true  if objects are equal, otherwise  false .
 ### op_Inequality(EmailAddress a, EmailAddress b) {#op-Inequality-com.aspose.email.EmailAddress-com.aspose.email.EmailAddress-}
 ```
 public static boolean op_Inequality(EmailAddress a, EmailAddress b)
@@ -372,25 +386,23 @@ Determines whether the specified objects are not equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [EmailAddress](../../com.aspose.email/emailaddress) | First object to compare |
-| b | [EmailAddress](../../com.aspose.email/emailaddress) | Second object to compare |
+| a | [EmailAddress](../../com.aspose.email/emailaddress) | First object to compare. |
+| b | [EmailAddress](../../com.aspose.email/emailaddress) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are not equal, otherwise false.
+boolean - Returns  true  if objects are not equal, otherwise  false .
 ### setAddress(String value) {#setAddress-java.lang.String-}
 ```
 public final void setAddress(String value)
 ```
 
 
-Gets or sets the e-mail address.
-
-Value: A String that contains the e-mail address.
+Sets the e-mail address, such as  john@example.com .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The e-mail address. |
 
 ### setCategory(EmailAddressCategory value) {#setCategory-com.aspose.email.EmailAddressCategory-}
 ```
@@ -398,7 +410,7 @@ public final void setCategory(EmailAddressCategory value)
 ```
 
 
-Gets or sets an object category
+Sets an object category.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -411,14 +423,25 @@ public final void setDisplayName(String value)
 ```
 
 
-Gets or sets a display name.
-
-Value: A String that contains the display name.
+Sets the display name, such as  John Smith .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The display name. |
+
+### setOriginalAddressString(String value) {#setOriginalAddressString-java.lang.String-}
+```
+public final void setOriginalAddressString(String value)
+```
+
+
+Sets the address exactly as it appeared in the message, before it was parsed.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The original address string. |
 
 ### setParticipationStatus(int value) {#setParticipationStatus-int-}
 ```
@@ -426,7 +449,7 @@ public final void setParticipationStatus(int value)
 ```
 
 
-Gets or sets the participation status for the calendar user.
+Sets the response of the attendee to a meeting request, when the address is a meeting attendee.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -439,7 +462,7 @@ public final void setPrefered(boolean value)
 ```
 
 
-Gets or sets a value which defines whether email address is preferred.
+Sets a value which defines whether email address is preferred.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -452,7 +475,7 @@ public final void setRoutingType(String value)
 ```
 
 
-Gets or sets a routing type for an email
+Sets a routing type for an email.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -469,6 +492,16 @@ Returns a string that represents the current object.
 
 **Returns:**
 java.lang.String - Returns a string that represents the current object.
+### toX500String() {#toX500String--}
+```
+public String toX500String()
+```
+
+
+Returns a String that represents this instance in Exchange format.
+
+**Returns:**
+java.lang.String - A String that represents this instance in Exchange format.
 ### to_MailAddress(MailAddressCollection addresses) {#to-MailAddress-com.aspose.email.MailAddressCollection-}
 ```
 public static MailAddress to_MailAddress(MailAddressCollection addresses)

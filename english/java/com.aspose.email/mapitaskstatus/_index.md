@@ -1,9 +1,9 @@
 ---
 title: MapiTaskStatus
 second_title: Aspose.Email for Java API Reference
-description: Represents the statuses of the users progress on the task.
+description: Defines the progress status of a task.
 type: docs
-weight: 499
+weight: 502
 url: /java/com.aspose.email/mapitaskstatus/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiTaskStatus extends System.Enum
 ```
 
-Represents the statuses of the user's progress on the task.
+Defines the progress status of a task.
 ## Constructors
 
 | Constructor | Description |
@@ -23,11 +23,11 @@ Represents the statuses of the user's progress on the task.
 
 | Field | Description |
 | --- | --- |
-| [Complete](#Complete) | The user's work on this Task object is complete. |
-| [Deferred](#Deferred) | The user has deferred work on the Task object. |
+| [Complete](#Complete) | The work is complete. |
+| [Deferred](#Deferred) | The work has been deferred. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [InProgress](#InProgress) | The user's work on this Task object is in progress. |
-| [NotStarted](#NotStarted) | The user has not started work on the Task object. |
+| [InProgress](#InProgress) | The work is in progress. |
+| [NotStarted](#NotStarted) | The work has not started. |
 | [Waiting](#Waiting) | The user is waiting on somebody else. |
 ## Methods
 
@@ -82,7 +82,7 @@ public static final int Complete
 ```
 
 
-The user's work on this Task object is complete.
+The work is complete.
 
 ### Deferred {#Deferred}
 ```
@@ -90,7 +90,7 @@ public static final int Deferred
 ```
 
 
-The user has deferred work on the Task object.
+The work has been deferred.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -104,7 +104,7 @@ public static final int InProgress
 ```
 
 
-The user's work on this Task object is in progress.
+The work is in progress.
 
 ### NotStarted {#NotStarted}
 ```
@@ -112,7 +112,7 @@ public static final int NotStarted
 ```
 
 
-The user has not started work on the Task object.
+The work has not started.
 
 ### Waiting {#Waiting}
 ```

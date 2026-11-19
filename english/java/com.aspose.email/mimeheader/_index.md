@@ -3,7 +3,7 @@ title: MimeHeader
 second_title: Aspose.Email for Java API Reference
 description: Represents the mime header defined in RFC 2822.
 type: docs
-weight: 545
+weight: 548
 url: /java/com.aspose.email/mimeheader/
 ---
 
@@ -92,10 +92,8 @@ public final String getName()
 
 Gets the name.
 
-Value: The name.
-
 **Returns:**
-java.lang.String
+java.lang.String - The name.
 ### getRawContent() {#getRawContent--}
 ```
 public final String getRawContent()
@@ -104,10 +102,8 @@ public final String getRawContent()
 
 Gets the content of the raw.
 
-Value: The content of the raw.
-
 **Returns:**
-java.lang.String
+java.lang.String - The content of the raw.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

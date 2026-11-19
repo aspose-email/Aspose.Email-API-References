@@ -3,7 +3,7 @@ title: FetchTimeoutException
 second_title: Aspose.Email for Java API Reference
 description: Represents the exception that is thrown when a message can not be read within the specified time.
 type: docs
-weight: 243
+weight: 246
 url: /java/com.aspose.email/fetchtimeoutexception/
 ---
 
@@ -30,10 +30,10 @@ Represents the exception that is thrown when a message can not be read within th
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
 | [getClass()](#getClass--) |  |
-| [getErrorDetails()](#getErrorDetails--) | Gets extra information aboout error |
+| [getErrorDetails()](#getErrorDetails--) | Gets additional information about the error, if the operation provides any. |
 | [getInnerException()](#getInnerException--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
-| [getMessage()](#getMessage--) | Gets a message that describes the current exception. |
+| [getMessage()](#getMessage--) | Gets the message that describes the error. |
 | [getStackTrace()](#getStackTrace--) |  |
 | [getSuppressed()](#getSuppressed--) |  |
 | [getType()](#getType--) |  |
@@ -45,7 +45,7 @@ Represents the exception that is thrown when a message can not be read within th
 | [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
 | [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
 | [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [toString()](#toString--) | Returns a string that represents the current object. |
+| [toString()](#toString--) | Returns the type, the message and the stack trace of the exception. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -148,7 +148,7 @@ public final Object getErrorDetails()
 ```
 
 
-Gets extra information aboout error
+Gets additional information about the error, if the operation provides any.
 
 **Returns:**
 java.lang.Object
@@ -178,7 +178,7 @@ public String getMessage()
 ```
 
 
-Gets a message that describes the current exception.
+Gets the message that describes the error.
 
 **Returns:**
 java.lang.String
@@ -306,10 +306,10 @@ public String toString()
 ```
 
 
-Returns a string that represents the current object.
+Returns the type, the message and the stack trace of the exception.
 
 **Returns:**
-java.lang.String - A string that represents the current object.
+java.lang.String - A string that represents the exception.
 ### wait() {#wait--}
 ```
 public final void wait()

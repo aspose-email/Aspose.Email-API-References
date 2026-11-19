@@ -3,7 +3,7 @@ title: MessageObjectAttachmentEntity
 second_title: Aspose.Email for Java API Reference
 description: Represents an attachment entity.
 type: docs
-weight: 522
+weight: 525
 url: /java/com.aspose.email/messageobjectattachmententity/
 ---
 
@@ -28,14 +28,14 @@ Represents an attachment entity.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCustomAttachmentStorageData()](#getCustomAttachmentStorageData--) | Gets or sets the custom attachment storage data.Can be null. |
-| [getEmbeddedMessage()](#getEmbeddedMessage--) | Gets or sets the Embedded Message Object storage if present.Can be null. |
+| [getCustomAttachmentStorageData()](#getCustomAttachmentStorageData--) | Gets the custom attachment storage data. |
+| [getEmbeddedMessage()](#getEmbeddedMessage--) | Gets the Embedded Message Object storage if present. |
 | [getProperties()](#getProperties--) | Gets the attachment properties. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCustomAttachmentStorageData(CustomAttachmentStorage value)](#setCustomAttachmentStorageData-com.aspose.email.CustomAttachmentStorage-) | Gets or sets the custom attachment storage data.Can be null. |
-| [setEmbeddedMessage(MessageObject value)](#setEmbeddedMessage-com.aspose.email.MessageObject-) | Gets or sets the Embedded Message Object storage if present.Can be null. |
+| [setCustomAttachmentStorageData(CustomAttachmentStorage value)](#setCustomAttachmentStorageData-com.aspose.email.CustomAttachmentStorage-) | Sets the custom attachment storage data. |
+| [setEmbeddedMessage(MessageObject value)](#setEmbeddedMessage-com.aspose.email.MessageObject-) | Sets the Embedded Message Object storage if present. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -79,32 +79,24 @@ public final CustomAttachmentStorage getCustomAttachmentStorageData()
 ```
 
 
-Gets or sets the custom attachment storage data.Can be null.
+Gets the custom attachment storage data. Can be  null .
 
-Value: The custom attachment storage data.
-
---------------------
-
-Mutually exclusive with  MessageObjectAttachmentEntity.EmbeddedMessage (\#getEmbeddedMessage.getEmbeddedMessage/\#setEmbeddedMessage(MessageObject).setEmbeddedMessage(MessageObject)) or both can be null.
+Mutually exclusive with \#getEmbeddedMessage().getEmbeddedMessage() or both can be  null .
 
 **Returns:**
-[CustomAttachmentStorage](../../com.aspose.email/customattachmentstorage)
+[CustomAttachmentStorage](../../com.aspose.email/customattachmentstorage) - The custom attachment storage data.
 ### getEmbeddedMessage() {#getEmbeddedMessage--}
 ```
 public final MessageObject getEmbeddedMessage()
 ```
 
 
-Gets or sets the Embedded Message Object storage if present.Can be null.
+Gets the Embedded Message Object storage if present. Can be  null .
 
-Value: The embedded message.
-
---------------------
-
-Mutually exclusive with  MessageObjectAttachmentEntity.CustomAttachmentStorageData (\#getCustomAttachmentStorageData.getCustomAttachmentStorageData/\#setCustomAttachmentStorageData(CustomAttachmentStorage).setCustomAttachmentStorageData(CustomAttachmentStorage)) or both can be null.
+Mutually exclusive with \#getCustomAttachmentStorageData().getCustomAttachmentStorageData() or both can be  null .
 
 **Returns:**
-[MessageObject](../../com.aspose.email/messageobject)
+[MessageObject](../../com.aspose.email/messageobject) - The embedded message.
 ### getProperties() {#getProperties--}
 ```
 public final MessageObjectPropertiesCollection getProperties()
@@ -113,10 +105,8 @@ public final MessageObjectPropertiesCollection getProperties()
 
 Gets the attachment properties.
 
-Value: The properties collection.
-
 **Returns:**
-[MessageObjectPropertiesCollection](../../com.aspose.email/messageobjectpropertiescollection)
+[MessageObjectPropertiesCollection](../../com.aspose.email/messageobjectpropertiescollection) - The properties collection.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -149,18 +139,14 @@ public final void setCustomAttachmentStorageData(CustomAttachmentStorage value)
 ```
 
 
-Gets or sets the custom attachment storage data.Can be null.
+Sets the custom attachment storage data. Can be  null .
 
-Value: The custom attachment storage data.
-
---------------------
-
-Mutually exclusive with  MessageObjectAttachmentEntity.EmbeddedMessage (\#getEmbeddedMessage.getEmbeddedMessage/\#setEmbeddedMessage(MessageObject).setEmbeddedMessage(MessageObject)) or both can be null.
+Mutually exclusive with \#getEmbeddedMessage().getEmbeddedMessage() or both can be  null .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CustomAttachmentStorage](../../com.aspose.email/customattachmentstorage) |  |
+| value | [CustomAttachmentStorage](../../com.aspose.email/customattachmentstorage) | The custom attachment storage data. |
 
 ### setEmbeddedMessage(MessageObject value) {#setEmbeddedMessage-com.aspose.email.MessageObject-}
 ```
@@ -168,18 +154,14 @@ public final void setEmbeddedMessage(MessageObject value)
 ```
 
 
-Gets or sets the Embedded Message Object storage if present.Can be null.
+Sets the Embedded Message Object storage if present. Can be  null .
 
-Value: The embedded message.
-
---------------------
-
-Mutually exclusive with  MessageObjectAttachmentEntity.CustomAttachmentStorageData (\#getCustomAttachmentStorageData.getCustomAttachmentStorageData/\#setCustomAttachmentStorageData(CustomAttachmentStorage).setCustomAttachmentStorageData(CustomAttachmentStorage)) or both can be null.
+Mutually exclusive with \#getCustomAttachmentStorageData().getCustomAttachmentStorageData() or both can be  null .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MessageObject](../../com.aspose.email/messageobject) |  |
+| value | [MessageObject](../../com.aspose.email/messageobject) | The embedded message. |
 
 ### toString() {#toString--}
 ```

@@ -3,7 +3,7 @@ title: OlmFolder
 second_title: Aspose.Email for Java API Reference
 description: Represents folder information in OLM storage.
 type: docs
-weight: 570
+weight: 574
 url: /java/com.aspose.email/olmfolder/
 ---
 
@@ -46,7 +46,7 @@ public final System.Collections.Generic.IGenericEnumerable<MapiMessage> enumerat
 Exposes the enumerator, which supports an iteration of messages in folder.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MapiMessage> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MapiMessage> -  Iterable , that represents an enumerator that iterates through a messages in folder.
 ### enumerateMessages() {#enumerateMessages--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<OlmMessageInfo> enumerateMessages()
@@ -56,7 +56,7 @@ public final System.Collections.Generic.IGenericEnumerable<OlmMessageInfo> enume
 Exposes the enumerator, which supports an iteration of messages in folder.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.OlmMessageInfo> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.OlmMessageInfo> -  Iterable , that represents an enumerator that iterates through a messages in folder.
 ### enumerateMessages(MailQuery query) {#enumerateMessages-com.aspose.email.MailQuery-}
 ```
 public final System.Collections.Generic.IGenericEnumerable<OlmMessageInfo> enumerateMessages(MailQuery query)
@@ -71,7 +71,7 @@ Exposes the enumerator, which supports an iteration of messages in folder.
 | query | [MailQuery](../../com.aspose.email/mailquery) | [MailQuery](../../com.aspose.email/mailquery) that represents search query. |
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.OlmMessageInfo> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.OlmMessageInfo> -  Iterable , that represents an enumerator that iterates through a messages in folder.
 ### enumerateMessages(int startIndex, int count) {#enumerateMessages-int-int-}
 ```
 public final System.Collections.Generic.IGenericEnumerable<OlmMessageInfo> enumerateMessages(int startIndex, int count)
@@ -80,18 +80,16 @@ public final System.Collections.Generic.IGenericEnumerable<OlmMessageInfo> enume
 
 Exposes the enumerator, which supports an iteration of messages in folder.
 
+If "count" param is less than 0 or more than remained message count then remained message count will be returned.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | startIndex | int | The start message index. |
-| count | int | The number of messages that will be retrieved.
-
---------------------
-
-If "count" param is less than 0 or more than remained message count then remained message count will be returned. |
+| count | int | The number of messages that will be retrieved. |
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.OlmMessageInfo> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.OlmMessageInfo> -  Iterable , that represents an enumerator that iterates through a messages in folder.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -125,10 +123,8 @@ public final int getMessageCount()
 
 Gets the message count.
 
-Value: The message count.
-
 **Returns:**
-int
+int - The message count.
 ### getName() {#getName--}
 ```
 public final String getName()
@@ -137,10 +133,8 @@ public final String getName()
 
 Gets the folder name.
 
-Value: The name.
-
 **Returns:**
-java.lang.String
+java.lang.String - The name.
 ### getPath() {#getPath--}
 ```
 public final String getPath()
@@ -149,10 +143,8 @@ public final String getPath()
 
 Gets the path.
 
-Value: The folder path.
-
 **Returns:**
-java.lang.String
+java.lang.String - The folder path.
 ### getSubFolder(String subfolderName, boolean ignoreCase) {#getSubFolder-java.lang.String-boolean-}
 ```
 public final OlmFolder getSubFolder(String subfolderName, boolean ignoreCase)
@@ -177,10 +169,8 @@ public final List<OlmFolder> getSubFolders()
 
 Gets the list of sub-folders.
 
-Value: The list of sub-folders.
-
 **Returns:**
-java.util.List<com.aspose.email.OlmFolder>
+java.util.List<com.aspose.email.OlmFolder> - The list of sub-folders.
 ### hasMessages() {#hasMessages--}
 ```
 public final boolean hasMessages()
@@ -190,7 +180,7 @@ public final boolean hasMessages()
 Gets a value indicating whether the current folder has messages.
 
 **Returns:**
-boolean - true if the current folder has messages; otherwise, false.
+boolean -  true  if the current folder has messages; otherwise,  false .
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

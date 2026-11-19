@@ -3,7 +3,7 @@ title: StringComparisonField
 second_title: Aspose.Email for Java API Reference
 description: Represents the string search field.
 type: docs
-weight: 693
+weight: 698
 url: /java/com.aspose.email/stringcomparisonfield/
 ---
 
@@ -66,7 +66,7 @@ Indicates that field in message must contain the specified value.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The value. |
-| ignoreCase | boolean | true to ignore case during the comparison; otherwise, false. |
+| ignoreCase | boolean |  true  to ignore case during the comparison; otherwise,  false . |
 
 **Returns:**
 [MailQuery](../../com.aspose.email/mailquery) - [MailQuery](../../com.aspose.email/mailquery) that represents search query (one searching criterion).
@@ -122,7 +122,7 @@ Indicates that field in message must be equal to the specified value.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The value. |
-| ignoreCase | boolean | true to ignore case during the comparison; otherwise, false. |
+| ignoreCase | boolean |  true  to ignore case during the comparison; otherwise,  false . |
 
 **Returns:**
 [MailQuery](../../com.aspose.email/mailquery) - [MailQuery](../../com.aspose.email/mailquery) that represents search query (one searching criterion).
@@ -173,7 +173,7 @@ Indicates that field in message must not contain the specified value.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The value. |
-| ignoreCase | boolean | true to ignore case during the comparison; otherwise, false. |
+| ignoreCase | boolean |  true  to ignore case during the comparison; otherwise,  false . |
 
 **Returns:**
 [MailQuery](../../com.aspose.email/mailquery) - [MailQuery](../../com.aspose.email/mailquery) that represents search query (one searching criterion).
@@ -214,7 +214,7 @@ Indicates that field in message must not be equal to the specified value.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The value. |
-| ignoreCase | boolean | true to ignore case during the comparison; otherwise, false. |
+| ignoreCase | boolean |  true  to ignore case during the comparison; otherwise,  false . |
 
 **Returns:**
 [MailQuery](../../com.aspose.email/mailquery) - [MailQuery](../../com.aspose.email/mailquery) that represents search query (one searching criterion).
@@ -245,7 +245,7 @@ Sets value which indicates if client uses ascending or descending sorting on the
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ascending | boolean | Set true if you want to use ascending sorting, otherwise set false. |
+| ascending | boolean | Set  true  if you want to use ascending sorting, otherwise set  false . |
 
 ### setKQL(boolean isKQL) {#setKQL-boolean-}
 ```

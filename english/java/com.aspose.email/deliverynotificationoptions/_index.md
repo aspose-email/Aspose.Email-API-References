@@ -1,9 +1,9 @@
 ---
 title: DeliveryNotificationOptions
 second_title: Aspose.Email for Java API Reference
-description: Specifies delivery notifications.
+description: Defines when the SMTP server sends a delivery status notification to the sender.
 type: docs
-weight: 156
+weight: 157
 url: /java/com.aspose.email/deliverynotificationoptions/
 ---
 
@@ -13,17 +13,17 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class DeliveryNotificationOptions extends System.Enum
 ```
 
-Specifies delivery notifications.
+Defines when the SMTP server sends a delivery status notification to the sender. The values can be combined.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Delay](#Delay) | Notify if the delivery is delayed. |
+| [Delay](#Delay) | Notify when delivery is delayed. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Never](#Never) | A notification should not be generated under any circumstances. |
-| [None](#None) | No notification information will be sent. |
-| [OnFailure](#OnFailure) | Notify if the delivery is unsuccessful. |
-| [OnSuccess](#OnSuccess) | Notify if the delivery is successful. |
+| [Never](#Never) | Never send a notification. |
+| [None](#None) | No preference; the server decides whether to send a notification. |
+| [OnFailure](#OnFailure) | Notify when delivery fails. |
+| [OnSuccess](#OnSuccess) | Notify when the message is delivered. |
 ## Methods
 
 | Method | Description |
@@ -69,7 +69,7 @@ public static final int Delay
 ```
 
 
-Notify if the delivery is delayed.
+Notify when delivery is delayed.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -83,7 +83,7 @@ public static final int Never
 ```
 
 
-A notification should not be generated under any circumstances.
+Never send a notification.
 
 ### None {#None}
 ```
@@ -91,7 +91,7 @@ public static final int None
 ```
 
 
-No notification information will be sent. The mail server will utilize its configured behavior to determine whether it should generate a delivery notification.
+No preference; the server decides whether to send a notification.
 
 ### OnFailure {#OnFailure}
 ```
@@ -99,7 +99,7 @@ public static final int OnFailure
 ```
 
 
-Notify if the delivery is unsuccessful.
+Notify when delivery fails.
 
 ### OnSuccess {#OnSuccess}
 ```
@@ -107,7 +107,7 @@ public static final int OnSuccess
 ```
 
 
-Notify if the delivery is successful.
+Notify when the message is delivered.
 
 ### Clone() {#Clone--}
 ```

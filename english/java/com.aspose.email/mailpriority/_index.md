@@ -1,9 +1,9 @@
 ---
 title: MailPriority
 second_title: Aspose.Email for Java API Reference
-description: Represents the mail priopity
+description: Defines the priorities of a message.
 type: docs
-weight: 795
+weight: 807
 url: /java/com.aspose.email/mailpriority/
 ---
 
@@ -13,14 +13,14 @@ java.lang.Object, java.lang.Enum
 public enum MailPriority extends Enum<MailPriority>
 ```
 
-Represents the mail priopity
+Defines the priorities of a message.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [High](#High) | High priority |
-| [Low](#Low) | Low priority |
-| [Normal](#Normal) | Normal priority |
+| [High](#High) | High priority. |
+| [Low](#Low) | Low priority. |
+| [Normal](#Normal) | Normal priority. |
 ## Methods
 
 | Method | Description |
@@ -48,7 +48,7 @@ public static final MailPriority High
 ```
 
 
-High priority
+High priority.
 
 ### Low {#Low}
 ```
@@ -56,7 +56,7 @@ public static final MailPriority Low
 ```
 
 
-Low priority
+Low priority.
 
 ### Normal {#Normal}
 ```
@@ -64,7 +64,7 @@ public static final MailPriority Normal
 ```
 
 
-Normal priority
+Normal priority.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

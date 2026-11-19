@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarExceptionInfo
 second_title: Aspose.Email for Java API Reference
-description: An exception specifies changes to an instance of a recurring series.
+description: An exception of a recurring series an occurrence whose time subject or other details differ from the series.
 type: docs
-weight: 413
+weight: 416
 url: /java/com.aspose.email/mapicalendarexceptioninfo/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public final class MapiCalendarExceptionInfo
 ```
 
-An exception specifies changes to an instance of a recurring series.
+An exception of a recurring series: an occurrence whose time, subject or other details differ from the series.
 ## Constructors
 
 | Constructor | Description |
@@ -24,36 +24,36 @@ An exception specifies changes to an instance of a recurring series.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAttachments()](#getAttachments--) | Gets or sets attachments in the recurrence exception. |
-| [getBody()](#getBody--) | Gets or sets the body. |
-| [getBusyStatus()](#getBusyStatus--) | Gets or sets the busy status. |
+| [getAttachments()](#getAttachments--) | Gets the attachments of the exception. |
+| [getBody()](#getBody--) | Gets the body of the exception. |
+| [getBusyStatus()](#getBusyStatus--) | Gets the busy status of the exception. |
 | [getClass()](#getClass--) |  |
-| [getEndDateTime()](#getEndDateTime--) | Gets or sets the end date. |
-| [getLocation()](#getLocation--) | Gets or sets the location. |
-| [getMeetingType()](#getMeetingType--) | Gets or sets the type of the meeting. |
-| [getOriginalStartDate()](#getOriginalStartDate--) | Gets or sets the original start date. |
-| [getOverrideFlags()](#getOverrideFlags--) | Gets the override flags. |
-| [getReminderDelta()](#getReminderDelta--) | Gets or sets the reminder delta. |
-| [getReminderSet()](#getReminderSet--) | Gets or sets a value for the PidLidReminderSet property. |
-| [getStartDateTime()](#getStartDateTime--) | Gets or sets the start date. |
-| [getSubType()](#getSubType--) | Gets or sets the subtype. |
-| [getSubject()](#getSubject--) | Gets or sets the subject. |
-| [hasAttachment()](#hasAttachment--) | Gets a value of this field specifies whether the Exception Embedded Message object contains attachments |
+| [getEndDateTime()](#getEndDateTime--) | Gets the end date and time of the exception. |
+| [getLocation()](#getLocation--) | Gets the location of the exception. |
+| [getMeetingType()](#getMeetingType--) | Gets the meeting state of the exception. |
+| [getOriginalStartDate()](#getOriginalStartDate--) | Gets the date and time the occurrence was originally scheduled for. |
+| [getOverrideFlags()](#getOverrideFlags--) | Gets which details of the exception differ from the series. |
+| [getReminderDelta()](#getReminderDelta--) | Gets how many minutes before the start of the exception the reminder is due. |
+| [getReminderSet()](#getReminderSet--) | Gets a value indicating whether a reminder is set for the exception. |
+| [getStartDateTime()](#getStartDateTime--) | Gets the start date and time of the exception. |
+| [getSubType()](#getSubType--) | Gets a value indicating whether the exception is an all-day event: nonzero for an all-day event. |
+| [getSubject()](#getSubject--) | Gets the subject of the exception. |
+| [hasAttachment()](#hasAttachment--) | Gets a value indicating whether the exception has attachments. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAttachments(MapiAttachmentCollection value)](#setAttachments-com.aspose.email.MapiAttachmentCollection-) | Gets or sets attachments in the recurrence exception. |
-| [setBody(String value)](#setBody-java.lang.String-) | Gets or sets the body. |
-| [setBusyStatus(int value)](#setBusyStatus-int-) | Gets or sets the busy status. |
-| [setEndDateTime(Date value)](#setEndDateTime-java.util.Date-) | Gets or sets the end date. |
-| [setLocation(String value)](#setLocation-java.lang.String-) | Gets or sets the location. |
-| [setMeetingType(int value)](#setMeetingType-int-) | Gets or sets the type of the meeting. |
-| [setOriginalStartDate(Date value)](#setOriginalStartDate-java.util.Date-) | Gets or sets the original start date. |
-| [setReminderDelta(int value)](#setReminderDelta-int-) | Gets or sets the reminder delta. |
-| [setReminderSet(boolean value)](#setReminderSet-boolean-) | Gets or sets a value for the PidLidReminderSet property. |
-| [setStartDateTime(Date value)](#setStartDateTime-java.util.Date-) | Gets or sets the start date. |
-| [setSubType(int value)](#setSubType-int-) | Gets or sets the subtype. |
-| [setSubject(String value)](#setSubject-java.lang.String-) | Gets or sets the subject. |
+| [setAttachments(MapiAttachmentCollection value)](#setAttachments-com.aspose.email.MapiAttachmentCollection-) | Sets the attachments of the exception. |
+| [setBody(String value)](#setBody-java.lang.String-) | Sets the body of the exception. |
+| [setBusyStatus(int value)](#setBusyStatus-int-) | Sets the busy status of the exception. |
+| [setEndDateTime(Date value)](#setEndDateTime-java.util.Date-) | Sets the end date and time of the exception. |
+| [setLocation(String value)](#setLocation-java.lang.String-) | Sets the location of the exception. |
+| [setMeetingType(int value)](#setMeetingType-int-) | Sets the meeting state of the exception. |
+| [setOriginalStartDate(Date value)](#setOriginalStartDate-java.util.Date-) | Sets the date and time the occurrence was originally scheduled for. |
+| [setReminderDelta(int value)](#setReminderDelta-int-) | Sets how many minutes before the start of the exception the reminder is due. |
+| [setReminderSet(boolean value)](#setReminderSet-boolean-) | Sets a value indicating whether a reminder is set for the exception. |
+| [setStartDateTime(Date value)](#setStartDateTime-java.util.Date-) | Sets the start date and time of the exception. |
+| [setSubType(int value)](#setSubType-int-) | Sets a value indicating whether the exception is an all-day event: nonzero for an all-day event. |
+| [setSubject(String value)](#setSubject-java.lang.String-) | Sets the subject of the exception. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -87,36 +87,30 @@ public final MapiAttachmentCollection getAttachments()
 ```
 
 
-Gets or sets attachments in the recurrence exception.
-
-Value: The attachment.
+Gets the attachments of the exception.
 
 **Returns:**
-[MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection)
+[MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) - The attachments.
 ### getBody() {#getBody--}
 ```
 public final String getBody()
 ```
 
 
-Gets or sets the body.
-
-Value: The body.
+Gets the body of the exception.
 
 **Returns:**
-java.lang.String
+java.lang.String - The body.
 ### getBusyStatus() {#getBusyStatus--}
 ```
 public final int getBusyStatus()
 ```
 
 
-Gets or sets the busy status.
-
-Value: The busy status.
+Gets the busy status of the exception.
 
 **Returns:**
-int
+int - The busy status.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -133,132 +127,110 @@ public final Date getEndDateTime()
 ```
 
 
-Gets or sets the end date.
-
-Value: The end date time.
+Gets the end date and time of the exception.
 
 **Returns:**
-java.util.Date
+java.util.Date - The end date and time.
 ### getLocation() {#getLocation--}
 ```
 public final String getLocation()
 ```
 
 
-Gets or sets the location.
-
-Value: The location.
+Gets the location of the exception.
 
 **Returns:**
-java.lang.String
+java.lang.String - The location.
 ### getMeetingType() {#getMeetingType--}
 ```
 public final int getMeetingType()
 ```
 
 
-Gets or sets the type of the meeting.
-
-Value: The type of the meeting.
+Gets the meeting state of the exception.
 
 **Returns:**
-int
+int - The meeting state.
 ### getOriginalStartDate() {#getOriginalStartDate--}
 ```
 public final Date getOriginalStartDate()
 ```
 
 
-Gets or sets the original start date.
-
-Value: The original start date.
+Gets the date and time the occurrence was originally scheduled for.
 
 **Returns:**
-java.util.Date
+java.util.Date - The original start date and time.
 ### getOverrideFlags() {#getOverrideFlags--}
 ```
 public final int getOverrideFlags()
 ```
 
 
-Gets the override flags.
-
-Value: The override flags.
+Gets which details of the exception differ from the series.
 
 **Returns:**
-int
+int - The flags of the changed details.
 ### getReminderDelta() {#getReminderDelta--}
 ```
 public final int getReminderDelta()
 ```
 
 
-Gets or sets the reminder delta.
-
-Value: The reminder delta.
+Gets how many minutes before the start of the exception the reminder is due.
 
 **Returns:**
-int
+int - The number of minutes.
 ### getReminderSet() {#getReminderSet--}
 ```
 public final boolean getReminderSet()
 ```
 
 
-Gets or sets a value for the PidLidReminderSet property.
-
-Value:  true  if [reminder set]; otherwise,  false .
+Gets a value indicating whether a reminder is set for the exception.
 
 **Returns:**
-boolean
+boolean -  true  if a reminder is set; otherwise,  false .
 ### getStartDateTime() {#getStartDateTime--}
 ```
 public final Date getStartDateTime()
 ```
 
 
-Gets or sets the start date.
-
-Value: The start date time.
+Gets the start date and time of the exception.
 
 **Returns:**
-java.util.Date
+java.util.Date - The start date and time.
 ### getSubType() {#getSubType--}
 ```
 public final int getSubType()
 ```
 
 
-Gets or sets the subtype.
-
-Value: The subtype.
+Gets a value indicating whether the exception is an all-day event: nonzero for an all-day event.
 
 **Returns:**
-int
+int - The subtype.
 ### getSubject() {#getSubject--}
 ```
 public final String getSubject()
 ```
 
 
-Gets or sets the subject.
-
-Value: The subject.
+Gets the subject of the exception.
 
 **Returns:**
-java.lang.String
+java.lang.String - The subject.
 ### hasAttachment() {#hasAttachment--}
 ```
 public final boolean hasAttachment()
 ```
 
 
-Gets a value of this field specifies whether the Exception Embedded Message object contains attachments
-
-Value:  true  if the Exception Embedded Message object has attachment; otherwise,  false .
+Gets a value indicating whether the exception has attachments.
 
 **Returns:**
-boolean
+boolean -  true  if the exception has attachments; otherwise,  false .
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -291,14 +263,12 @@ public final void setAttachments(MapiAttachmentCollection value)
 ```
 
 
-Gets or sets attachments in the recurrence exception.
-
-Value: The attachment.
+Sets the attachments of the exception.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) |  |
+| value | [MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) | The attachments. |
 
 ### setBody(String value) {#setBody-java.lang.String-}
 ```
@@ -306,14 +276,12 @@ public final void setBody(String value)
 ```
 
 
-Gets or sets the body.
-
-Value: The body.
+Sets the body of the exception.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The body. |
 
 ### setBusyStatus(int value) {#setBusyStatus-int-}
 ```
@@ -321,14 +289,12 @@ public final void setBusyStatus(int value)
 ```
 
 
-Gets or sets the busy status.
-
-Value: The busy status.
+Sets the busy status of the exception.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The busy status. |
 
 ### setEndDateTime(Date value) {#setEndDateTime-java.util.Date-}
 ```
@@ -336,14 +302,12 @@ public final void setEndDateTime(Date value)
 ```
 
 
-Gets or sets the end date.
-
-Value: The end date time.
+Sets the end date and time of the exception.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.Date |  |
+| value | java.util.Date | The end date and time. |
 
 ### setLocation(String value) {#setLocation-java.lang.String-}
 ```
@@ -351,14 +315,12 @@ public final void setLocation(String value)
 ```
 
 
-Gets or sets the location.
-
-Value: The location.
+Sets the location of the exception.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The location. |
 
 ### setMeetingType(int value) {#setMeetingType-int-}
 ```
@@ -366,14 +328,12 @@ public final void setMeetingType(int value)
 ```
 
 
-Gets or sets the type of the meeting.
-
-Value: The type of the meeting.
+Sets the meeting state of the exception.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The meeting state. |
 
 ### setOriginalStartDate(Date value) {#setOriginalStartDate-java.util.Date-}
 ```
@@ -381,14 +341,12 @@ public final void setOriginalStartDate(Date value)
 ```
 
 
-Gets or sets the original start date.
-
-Value: The original start date.
+Sets the date and time the occurrence was originally scheduled for.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.Date |  |
+| value | java.util.Date | The original start date and time. |
 
 ### setReminderDelta(int value) {#setReminderDelta-int-}
 ```
@@ -396,14 +354,12 @@ public final void setReminderDelta(int value)
 ```
 
 
-Gets or sets the reminder delta.
-
-Value: The reminder delta.
+Sets how many minutes before the start of the exception the reminder is due.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The number of minutes. |
 
 ### setReminderSet(boolean value) {#setReminderSet-boolean-}
 ```
@@ -411,14 +367,12 @@ public final void setReminderSet(boolean value)
 ```
 
 
-Gets or sets a value for the PidLidReminderSet property.
-
-Value:  true  if [reminder set]; otherwise,  false .
+Sets a value indicating whether a reminder is set for the exception.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  if a reminder is set; otherwise,  false . |
 
 ### setStartDateTime(Date value) {#setStartDateTime-java.util.Date-}
 ```
@@ -426,14 +380,12 @@ public final void setStartDateTime(Date value)
 ```
 
 
-Gets or sets the start date.
-
-Value: The start date time.
+Sets the start date and time of the exception.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.Date |  |
+| value | java.util.Date | The start date and time. |
 
 ### setSubType(int value) {#setSubType-int-}
 ```
@@ -441,14 +393,12 @@ public final void setSubType(int value)
 ```
 
 
-Gets or sets the subtype.
-
-Value: The subtype.
+Sets a value indicating whether the exception is an all-day event: nonzero for an all-day event.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The subtype. |
 
 ### setSubject(String value) {#setSubject-java.lang.String-}
 ```
@@ -456,14 +406,12 @@ public final void setSubject(String value)
 ```
 
 
-Gets or sets the subject.
-
-Value: The subject.
+Sets the subject of the exception.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The subject. |
 
 ### toString() {#toString--}
 ```

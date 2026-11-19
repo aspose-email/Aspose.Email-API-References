@@ -3,7 +3,7 @@ title: ContactPhoto
 second_title: Aspose.Email for Java API Reference
 description: Represents contact photo.
 type: docs
-weight: 123
+weight: 124
 url: /java/com.aspose.email/contactphoto/
 ---
 
@@ -18,7 +18,7 @@ Represents contact photo.
 
 | Constructor | Description |
 | --- | --- |
-| [ContactPhoto(byte[] data, int photoImageFormat)](#ContactPhoto-byte---int-) | Initializes a new instance of the [ContactPhoto](../../com.aspose.email/contactphoto) class |
+| [ContactPhoto(byte[] data, int photoImageFormat)](#ContactPhoto-byte---int-) | Initializes a new instance of the [ContactPhoto](../../com.aspose.email/contactphoto) class. |
 ## Methods
 
 | Method | Description |
@@ -26,7 +26,7 @@ Represents contact photo.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getData()](#getData--) | Gets an image data. |
-| [getId()](#getId--) | Gets object identification information |
+| [getId()](#getId--) | Gets object identification information. |
 | [getPhotoImageFormat()](#getPhotoImageFormat--) | Gets a photo type. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -41,13 +41,13 @@ public ContactPhoto(byte[] data, int photoImageFormat)
 ```
 
 
-Initializes a new instance of the [ContactPhoto](../../com.aspose.email/contactphoto) class
+Initializes a new instance of the [ContactPhoto](../../com.aspose.email/contactphoto) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | data | byte[] | Image data of photo. |
-| photoImageFormat | int | Image format of photo [MapiContactPhotoImageFormat](../../com.aspose.email/mapicontactphotoimageformat). |
+| photoImageFormat | int | Image format of photo ([MapiContactPhotoImageFormat](../../com.aspose.email/mapicontactphotoimageformat)). |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -90,7 +90,7 @@ public final ObjectIdentifier getId()
 ```
 
 
-Gets object identification information
+Gets object identification information.
 
 **Returns:**
 [ObjectIdentifier](../../com.aspose.email/objectidentifier)

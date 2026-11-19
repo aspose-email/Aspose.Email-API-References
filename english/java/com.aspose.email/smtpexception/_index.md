@@ -1,9 +1,9 @@
 ---
 title: SmtpException
 second_title: Aspose.Email for Java API Reference
-description: Represents the exception that is thrown when the SmtpClient is not able to complete an operation.
+description: The exception that is thrown when an SMTP client cannot complete an operation.
 type: docs
-weight: 676
+weight: 681
 url: /java/com.aspose.email/smtpexception/
 ---
 
@@ -13,19 +13,21 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class SmtpException extends AsposeException
 ```
 
-Represents the exception that is thrown when the SmtpClient is not able to complete an operation.
+The exception that is thrown when an SMTP client cannot complete an operation.
+
+When several messages are sent at once, \#getOperationDetails().getOperationDetails() tells which messages were sent and which failed.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [SmtpException(int statusCode)](#SmtpException-int-) | Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class |
-| [SmtpException(int statusCode, String message)](#SmtpException-int-java.lang.String-) | Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class |
-| [SmtpException()](#SmtpException--) | Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class |
-| [SmtpException(String message)](#SmtpException-java.lang.String-) | Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class |
-| [SmtpException(String message, SendMessagesResult result)](#SmtpException-java.lang.String-com.aspose.email.SendMessagesResult-) | Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class |
-| [SmtpException(String message, Throwable innerException)](#SmtpException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class |
-| [SmtpException(String message, Throwable innerException, MailMessage mailMessage)](#SmtpException-java.lang.String-java.lang.Throwable-com.aspose.email.MailMessage-) | Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class |
-| [SmtpException(String message, MailMessage mailMessage)](#SmtpException-java.lang.String-com.aspose.email.MailMessage-) | Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class |
+| [SmtpException(int statusCode)](#SmtpException-int-) | Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class with the status code returned by the server. |
+| [SmtpException(int statusCode, String message)](#SmtpException-int-java.lang.String-) | Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class with the status code returned by the server and an error message. |
+| [SmtpException()](#SmtpException--) | Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class. |
+| [SmtpException(String message)](#SmtpException-java.lang.String-) | Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class with the specified error message. |
+| [SmtpException(String message, SendMessagesResult result)](#SmtpException-java.lang.String-com.aspose.email.SendMessagesResult-) | Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class with an error message and the result of sending several messages. |
+| [SmtpException(String message, Throwable innerException)](#SmtpException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class with the specified error message and a reference to the exception that caused it. |
+| [SmtpException(String message, Throwable innerException, MailMessage mailMessage)](#SmtpException-java.lang.String-java.lang.Throwable-com.aspose.email.MailMessage-) | Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class for a message that could not be sent. |
+| [SmtpException(String message, MailMessage mailMessage)](#SmtpException-java.lang.String-com.aspose.email.MailMessage-) | Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class for a message that could not be sent. |
 ## Methods
 
 | Method | Description |
@@ -35,13 +37,13 @@ Represents the exception that is thrown when the SmtpClient is not able to compl
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
 | [getClass()](#getClass--) |  |
-| [getErrorDetails()](#getErrorDetails--) | Gets extra information aboout error |
+| [getErrorDetails()](#getErrorDetails--) | Gets additional information about the error, if the operation provides any. |
 | [getInnerException()](#getInnerException--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
-| [getMessage()](#getMessage--) | Gets a message that describes the current exception. |
-| [getOperationDetails()](#getOperationDetails--) | Gets extra information aboout error |
+| [getMessage()](#getMessage--) | Gets the message that describes the error. |
+| [getOperationDetails()](#getOperationDetails--) | Gets the result of the operation: the messages that were sent and the messages that failed, with their errors. |
 | [getStackTrace()](#getStackTrace--) |  |
-| [getStatusCode()](#getStatusCode--) | Smtp status code |
+| [getStatusCode()](#getStatusCode--) | Gets the SMTP status code returned by the server. |
 | [getSuppressed()](#getSuppressed--) |  |
 | [getType()](#getType--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -52,8 +54,8 @@ Represents the exception that is thrown when the SmtpClient is not able to compl
 | [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
 | [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
 | [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [setStatusCode(int value)](#setStatusCode-int-) | Smtp status code |
-| [toString()](#toString--) | Returns a string that represents the current object. |
+| [setStatusCode(int value)](#setStatusCode-int-) | Sets the SMTP status code returned by the server. |
+| [toString()](#toString--) | Returns the type, the message and the stack trace of the exception. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -63,12 +65,12 @@ public SmtpException(int statusCode)
 ```
 
 
-Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class
+Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class with the status code returned by the server.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| statusCode | int | Smtp status code |
+| statusCode | int | The SMTP status code. |
 
 ### SmtpException(int statusCode, String message) {#SmtpException-int-java.lang.String-}
 ```
@@ -76,13 +78,13 @@ public SmtpException(int statusCode, String message)
 ```
 
 
-Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class
+Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class with the status code returned by the server and an error message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| statusCode | int | Smtp status code |
-| message | java.lang.String | Error message |
+| statusCode | int | The SMTP status code. |
+| message | java.lang.String | The message that describes the error. |
 
 ### SmtpException() {#SmtpException--}
 ```
@@ -90,7 +92,7 @@ public SmtpException()
 ```
 
 
-Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class
+Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class.
 
 ### SmtpException(String message) {#SmtpException-java.lang.String-}
 ```
@@ -98,12 +100,12 @@ public SmtpException(String message)
 ```
 
 
-Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class
+Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class with the specified error message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | Error message |
+| message | java.lang.String | The message that describes the error. |
 
 ### SmtpException(String message, SendMessagesResult result) {#SmtpException-java.lang.String-com.aspose.email.SendMessagesResult-}
 ```
@@ -111,13 +113,13 @@ public SmtpException(String message, SendMessagesResult result)
 ```
 
 
-Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class
+Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class with an error message and the result of sending several messages.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | Error message |
-| result | [SendMessagesResult](../../com.aspose.email/sendmessagesresult) | Operation result |
+| message | java.lang.String | The message that describes the error. |
+| result | [SendMessagesResult](../../com.aspose.email/sendmessagesresult) | The sent and failed messages. |
 
 ### SmtpException(String message, Throwable innerException) {#SmtpException-java.lang.String-java.lang.Throwable-}
 ```
@@ -125,13 +127,13 @@ public SmtpException(String message, Throwable innerException)
 ```
 
 
-Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class
+Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class with the specified error message and a reference to the exception that caused it.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | Error message |
-| innerException | java.lang.Throwable | The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. |
+| message | java.lang.String | The message that describes the error. |
+| innerException | java.lang.Throwable | The exception that caused this exception, or  null . |
 
 ### SmtpException(String message, Throwable innerException, MailMessage mailMessage) {#SmtpException-java.lang.String-java.lang.Throwable-com.aspose.email.MailMessage-}
 ```
@@ -139,14 +141,14 @@ public SmtpException(String message, Throwable innerException, MailMessage mailM
 ```
 
 
-Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class
+Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class for a message that could not be sent.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | Error message |
-| innerException | java.lang.Throwable | The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. |
-| mailMessage | [MailMessage](../../com.aspose.email/mailmessage) |  |
+| message | java.lang.String | The message that describes the error. |
+| innerException | java.lang.Throwable | The exception that caused this exception, or  null . |
+| mailMessage | [MailMessage](../../com.aspose.email/mailmessage) | The message that could not be sent. |
 
 ### SmtpException(String message, MailMessage mailMessage) {#SmtpException-java.lang.String-com.aspose.email.MailMessage-}
 ```
@@ -154,13 +156,13 @@ public SmtpException(String message, MailMessage mailMessage)
 ```
 
 
-Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class
+Initializes a new instance of the [SmtpException](../../com.aspose.email/smtpexception) class for a message that could not be sent.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | Error message |
-| mailMessage | [MailMessage](../../com.aspose.email/mailmessage) |  |
+| message | java.lang.String | The message that describes the error. |
+| mailMessage | [MailMessage](../../com.aspose.email/mailmessage) | The message that could not be sent. |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```
@@ -226,7 +228,7 @@ public final Object getErrorDetails()
 ```
 
 
-Gets extra information aboout error
+Gets additional information about the error, if the operation provides any.
 
 **Returns:**
 java.lang.Object
@@ -256,7 +258,7 @@ public String getMessage()
 ```
 
 
-Gets a message that describes the current exception.
+Gets the message that describes the error.
 
 **Returns:**
 java.lang.String
@@ -266,7 +268,7 @@ public final SendMessagesResult getOperationDetails()
 ```
 
 
-Gets extra information aboout error
+Gets the result of the operation: the messages that were sent and the messages that failed, with their errors.
 
 **Returns:**
 [SendMessagesResult](../../com.aspose.email/sendmessagesresult)
@@ -286,7 +288,7 @@ public final int getStatusCode()
 ```
 
 
-Smtp status code
+Gets the SMTP status code returned by the server.
 
 **Returns:**
 int
@@ -404,7 +406,7 @@ public final void setStatusCode(int value)
 ```
 
 
-Smtp status code
+Sets the SMTP status code returned by the server.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -417,10 +419,10 @@ public String toString()
 ```
 
 
-Returns a string that represents the current object.
+Returns the type, the message and the stack trace of the exception.
 
 **Returns:**
-java.lang.String - A string that represents the current object.
+java.lang.String - A string that represents the exception.
 ### wait() {#wait--}
 ```
 public final void wait()

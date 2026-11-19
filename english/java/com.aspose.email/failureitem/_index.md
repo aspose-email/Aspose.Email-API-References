@@ -3,7 +3,7 @@ title: FailureItem
 second_title: Aspose.Email for Java API Reference
 description: Indicates the item type that retrieval failed during the traversal.
 type: docs
-weight: 241
+weight: 244
 url: /java/com.aspose.email/failureitem/
 ---
 

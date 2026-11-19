@@ -3,7 +3,7 @@ title: FormField
 second_title: Aspose.Email for Java API Reference
 description: Describe one field of form.
 type: docs
-weight: 262
+weight: 265
 url: /java/com.aspose.email/formfield/
 ---
 
@@ -27,23 +27,23 @@ Describe one field of form.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getId()](#getId--) | Get or set Id of field. |
-| [getInputType()](#getInputType--) | Get or set input type of field. |
-| [getLabel()](#getLabel--) | Get or set label of field. |
-| [getName()](#getName--) | Get or set name of field. |
-| [getPlaceholder()](#getPlaceholder--) | Get or set placeholder of field. |
-| [getValue()](#getValue--) | Get or set value of field. |
+| [getId()](#getId--) | Gets Id of field. |
+| [getInputType()](#getInputType--) | Gets input type of field. |
+| [getLabel()](#getLabel--) | Gets label of field. |
+| [getName()](#getName--) | Gets name of field. |
+| [getPlaceholder()](#getPlaceholder--) | Gets placeholder of field. |
+| [getValue()](#getValue--) | Gets value of field. |
 | [hashCode()](#hashCode--) |  |
-| [isRequired()](#isRequired--) | Get or set value that define field as required. |
+| [isRequired()](#isRequired--) | Gets value that define field as required. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setId(String value)](#setId-java.lang.String-) | Get or set Id of field. |
-| [setInputType(String value)](#setInputType-java.lang.String-) | Get or set input type of field. |
-| [setLabel(String value)](#setLabel-java.lang.String-) | Get or set label of field. |
-| [setName(String value)](#setName-java.lang.String-) | Get or set name of field. |
-| [setPlaceholder(String value)](#setPlaceholder-java.lang.String-) | Get or set placeholder of field. |
-| [setRequired(boolean value)](#setRequired-boolean-) | Get or set value that define field as required. |
-| [setValue(String value)](#setValue-java.lang.String-) | Get or set value of field. |
+| [setId(String value)](#setId-java.lang.String-) | Sets Id of field. |
+| [setInputType(String value)](#setInputType-java.lang.String-) | Sets input type of field. |
+| [setLabel(String value)](#setLabel-java.lang.String-) | Sets label of field. |
+| [setName(String value)](#setName-java.lang.String-) | Sets name of field. |
+| [setPlaceholder(String value)](#setPlaceholder-java.lang.String-) | Sets placeholder of field. |
+| [setRequired(boolean value)](#setRequired-boolean-) | Sets value that define field as required. |
+| [setValue(String value)](#setValue-java.lang.String-) | Sets value of field. |
 | [toAmpHtml()](#toAmpHtml--) | Represents amp html version of field. |
 | [toHtml()](#toHtml--) | Represents html version of field. |
 | [toString()](#toString--) |  |
@@ -69,7 +69,7 @@ Create instance of form field.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| label | java.lang.String | label of field |
+| label | java.lang.String | label of field. |
 
 ### FormField(String label, String inputType) {#FormField-java.lang.String-java.lang.String-}
 ```
@@ -82,8 +82,8 @@ Create instance of form field.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| label | java.lang.String | label of field |
-| inputType | java.lang.String | input type of field |
+| label | java.lang.String | label of field. |
+| inputType | java.lang.String | input type of field. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -116,7 +116,7 @@ public final String getId()
 ```
 
 
-Get or set Id of field.
+Gets Id of field.
 
 **Returns:**
 java.lang.String
@@ -126,7 +126,7 @@ public final String getInputType()
 ```
 
 
-Get or set input type of field.
+Gets input type of field.
 
 **Returns:**
 java.lang.String
@@ -136,7 +136,7 @@ public final String getLabel()
 ```
 
 
-Get or set label of field.
+Gets label of field.
 
 **Returns:**
 java.lang.String
@@ -146,7 +146,7 @@ public final String getName()
 ```
 
 
-Get or set name of field.
+Gets name of field.
 
 **Returns:**
 java.lang.String
@@ -156,7 +156,7 @@ public final String getPlaceholder()
 ```
 
 
-Get or set placeholder of field.
+Gets placeholder of field.
 
 **Returns:**
 java.lang.String
@@ -166,7 +166,7 @@ public final String getValue()
 ```
 
 
-Get or set value of field.
+Gets value of field.
 
 **Returns:**
 java.lang.String
@@ -186,7 +186,7 @@ public final boolean isRequired()
 ```
 
 
-Get or set value that define field as required.
+Gets value that define field as required.
 
 **Returns:**
 boolean
@@ -212,7 +212,7 @@ public final void setId(String value)
 ```
 
 
-Get or set Id of field.
+Sets Id of field.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -225,7 +225,7 @@ public final void setInputType(String value)
 ```
 
 
-Get or set input type of field.
+Sets input type of field.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -238,7 +238,7 @@ public final void setLabel(String value)
 ```
 
 
-Get or set label of field.
+Sets label of field.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -251,7 +251,7 @@ public final void setName(String value)
 ```
 
 
-Get or set name of field.
+Sets name of field.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -264,7 +264,7 @@ public final void setPlaceholder(String value)
 ```
 
 
-Get or set placeholder of field.
+Sets placeholder of field.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -277,7 +277,7 @@ public final void setRequired(boolean value)
 ```
 
 
-Get or set value that define field as required.
+Sets value that define field as required.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -290,7 +290,7 @@ public final void setValue(String value)
 ```
 
 
-Get or set value of field.
+Sets value of field.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -306,7 +306,7 @@ public String toAmpHtml()
 Represents amp html version of field.
 
 **Returns:**
-java.lang.String - 
+java.lang.String
 ### toHtml() {#toHtml--}
 ```
 public String toHtml()
@@ -316,7 +316,7 @@ public String toHtml()
 Represents html version of field.
 
 **Returns:**
-java.lang.String - 
+java.lang.String
 ### toString() {#toString--}
 ```
 public String toString()

@@ -1,9 +1,9 @@
 ---
 title: EmlSaveOptions
 second_title: Aspose.Email for Java API Reference
-description: Allows to specify additional options when saving MailMessage to Eml and Emlx format.
+description: Provides options for controlling how  instances are saved to EML and EMLX format.
 type: docs
-weight: 173
+weight: 176
 url: /java/com.aspose.email/emlsaveoptions/
 ---
 
@@ -13,61 +13,57 @@ java.lang.Object, [com.aspose.email.SaveOptions](../../com.aspose.email/saveopti
 public class EmlSaveOptions extends SaveOptions
 ```
 
-Allows to specify additional options when saving MailMessage to Eml and Emlx format.
+Provides options for controlling how [MailMessage](../../com.aspose.email/mailmessage) instances are saved to EML and EMLX format. This class allows you to customize the saving behavior for features such as embedded message format preservation, TNEF handling, signed message integrity, and boundary template configuration.
 
---------------------
+Use this class with [MailMessage.save(String, SaveOptions)](../../com.aspose.email/mailmessage\#save-String--SaveOptions-) to specify custom save options. Inherits from [SaveOptions](../../com.aspose.email/saveoptions) and adds EML/EMLX-specific configuration through properties like \#getPreserveEmbeddedMessageFormat().getPreserveEmbeddedMessageFormat(), \#getPreserveSignedContent().getPreserveSignedContent(), and \#getBoundariesTemplate().getBoundariesTemplate().
 
-> The following example shows how to load and Save an EML message Preserving the embedded message format.
-> 
-> [Java]
-> 
-> ```
-> MailMessage mailMessage = MailMessage.load("source.eml");
->  // Save as eml with preserved embedded message format
->  EmlSaveOptions emlSaveOptions = new EmlSaveOptions(MailMessageSaveType.getEmlFormat())
->  emlSaveOptions.setPreserveEmbeddedMessageFormat(true);
->  mailMessage.save("target.eml", emlSaveOptions);
-> ```
+The following example shows how to load and save an EML message preserving the embedded message format.
 
---------------------
+```
+
+ MailMessage mailMessage = MailMessage.load("source.eml");
+ // Save as eml with preserved embedded message format
+ EmlSaveOptions emlSaveOptions = new EmlSaveOptions(MailMessageSaveType.getEmlFormat());
+ emlSaveOptions.setPreserveEmbeddedMessageFormat(true);
+ mailMessage.save("target.eml", emlSaveOptions);
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [EmlSaveOptions(MailMessageSaveType saveType)](#EmlSaveOptions-com.aspose.email.MailMessageSaveType-) | Initializes a new instance of this class that can be used to save a MailMessage in the Eml and Emlx format. |
+| [EmlSaveOptions(MailMessageSaveType saveType)](#EmlSaveOptions-com.aspose.email.MailMessageSaveType-) | Initializes a new instance of the [EmlSaveOptions](../../com.aspose.email/emlsaveoptions) class for the specified format. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [createSaveOptions(MailMessageSaveType saveType)](#createSaveOptions-com.aspose.email.MailMessageSaveType-) | Creates a save options object of a class suitable for the specified save type. |
+| [createSaveOptions(MailMessageSaveType saveType)](#createSaveOptions-com.aspose.email.MailMessageSaveType-) | Creates save options of the class that matches the specified format. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBoundariesTemplate()](#getBoundariesTemplate--) | Gets or sets the boundary template for the message.
-Default value is null. |
-| [getCheckBodyContentEncoding()](#getCheckBodyContentEncoding--) | Defines whether need check message body content encoding when saving. |
+| [getBoundariesTemplate()](#getBoundariesTemplate--) | Gets the template for the MIME boundaries of the message;  null  (the default) uses generated boundaries. |
+| [getCheckBodyContentEncoding()](#getCheckBodyContentEncoding--) | Gets a value indicating whether the encoding of the HTML body is checked before saving. |
 | [getClass()](#getClass--) |  |
-| [getCustomProgressHandler()](#getCustomProgressHandler--) | Represents method that usually supplied by calling side and handles progress events. |
-| [getDefaultEml()](#getDefaultEml--) | Gets options with default values for saving message to Eml format. |
-| [getDefaultEmlx()](#getDefaultEmlx--) | Gets options with default values for saving message to Emlx format. |
-| [getDefaultHtml()](#getDefaultHtml--) | Gets options with default values for saving message to Html format. |
-| [getDefaultMhtml()](#getDefaultMhtml--) | Gets options with default values for saving message to Mhtml format. |
-| [getDefaultMsg()](#getDefaultMsg--) | Gets options with default values for saving message to Msg(ASCII) format. |
-| [getDefaultMsgUnicode()](#getDefaultMsgUnicode--) | Gets options with default values for saving message to Msg(Unicode) format. |
-| [getDefaultOft()](#getDefaultOft--) | Gets options with default values for saving message to Outlook template (Oft) format. |
-| [getFileCompatibilityMode()](#getFileCompatibilityMode--) | Defines inner conversions,that are necessarily to be done when saving a message. |
-| [getMailMessageSaveType()](#getMailMessageSaveType--) | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. |
-| [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. |
-| [getPreserveSignedContent()](#getPreserveSignedContent--) | Gets or sets a value indicating whether it is necessary to save signed message without changes of content to provide correctly structure of digital sign. |
+| [getCustomProgressHandler()](#getCustomProgressHandler--) | Gets a handler that is called as the saving progresses. |
+| [getDefaultEml()](#getDefaultEml--) | Gets new options with the default settings for saving to EML. |
+| [getDefaultEmlx()](#getDefaultEmlx--) | Gets new options with the default settings for saving to EMLX. |
+| [getDefaultHtml()](#getDefaultHtml--) | Gets new options with the default settings for saving to HTML. |
+| [getDefaultMhtml()](#getDefaultMhtml--) | Gets new options with the default settings for saving to MHTML. |
+| [getDefaultMsg()](#getDefaultMsg--) | Gets new options with the default settings for saving to MSG with ANSI strings. |
+| [getDefaultMsgUnicode()](#getDefaultMsgUnicode--) | Gets new options with the default settings for saving to MSG with Unicode strings. |
+| [getDefaultOft()](#getDefaultOft--) | Gets new options with the default settings for saving to Outlook template (OFT). |
+| [getFileCompatibilityMode()](#getFileCompatibilityMode--) | Gets conversions applied while saving, such as encoding the TNEF attachment again. |
+| [getMailMessageSaveType()](#getMailMessageSaveType--) | Gets the format the options save to. |
+| [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets a value indicating whether embedded messages keep their original format (MSG) instead of being converted to EML. |
+| [getPreserveSignedContent()](#getPreserveSignedContent--) | Gets a value indicating whether a signed message is saved exactly as it was loaded, so that its signature stays valid. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBoundariesTemplate(String value)](#setBoundariesTemplate-java.lang.String-) | Gets or sets the boundary template for the message.
-Default value is null. |
-| [setCheckBodyContentEncoding(boolean value)](#setCheckBodyContentEncoding-boolean-) | Defines whether need check message body content encoding when saving. |
-| [setCustomProgressHandler(ConversionProgressEventHandler value)](#setCustomProgressHandler-com.aspose.email.ConversionProgressEventHandler-) | Represents method that usually supplied by calling side and handles progress events. |
-| [setFileCompatibilityMode(int value)](#setFileCompatibilityMode-int-) | Defines inner conversions,that are necessarily to be done when saving a message. |
-| [setMailMessageSaveType(MailMessageSaveType value)](#setMailMessageSaveType-com.aspose.email.MailMessageSaveType-) | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. |
-| [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. |
-| [setPreserveSignedContent(boolean value)](#setPreserveSignedContent-boolean-) | Gets or sets a value indicating whether it is necessary to save signed message without changes of content to provide correctly structure of digital sign. |
+| [setBoundariesTemplate(String value)](#setBoundariesTemplate-java.lang.String-) | Sets the template for the MIME boundaries of the message;  null  (the default) uses generated boundaries. |
+| [setCheckBodyContentEncoding(boolean value)](#setCheckBodyContentEncoding-boolean-) | Sets a value indicating whether the encoding of the HTML body is checked before saving. |
+| [setCustomProgressHandler(ConversionProgressEventHandler value)](#setCustomProgressHandler-com.aspose.email.ConversionProgressEventHandler-) | Sets a handler that is called as the saving progresses. |
+| [setFileCompatibilityMode(int value)](#setFileCompatibilityMode-int-) | Sets conversions applied while saving, such as encoding the TNEF attachment again. |
+| [setMailMessageSaveType(MailMessageSaveType value)](#setMailMessageSaveType-com.aspose.email.MailMessageSaveType-) | Sets the format the options save to. |
+| [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Sets a value indicating whether embedded messages keep their original format (MSG) instead of being converted to EML. |
+| [setPreserveSignedContent(boolean value)](#setPreserveSignedContent-boolean-) | Sets a value indicating whether a signed message is saved exactly as it was loaded, so that its signature stays valid. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -78,12 +74,12 @@ public EmlSaveOptions(MailMessageSaveType saveType)
 ```
 
 
-Initializes a new instance of this class that can be used to save a MailMessage in the Eml and Emlx format.
+Initializes a new instance of the [EmlSaveOptions](../../com.aspose.email/emlsaveoptions) class for the specified format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveType | [MailMessageSaveType](../../com.aspose.email/mailmessagesavetype) |  |
+| saveType | [MailMessageSaveType](../../com.aspose.email/mailmessagesavetype) | The format: [MailMessageSaveType.getEmlFormat()](../../com.aspose.email/mailmessagesavetype\#getEmlFormat--) or [MailMessageSaveType.getEmlxFormat()](../../com.aspose.email/mailmessagesavetype\#getEmlxFormat--). |
 
 ### createSaveOptions(MailMessageSaveType saveType) {#createSaveOptions-com.aspose.email.MailMessageSaveType-}
 ```
@@ -91,15 +87,15 @@ public static SaveOptions createSaveOptions(MailMessageSaveType saveType)
 ```
 
 
-Creates a save options object of a class suitable for the specified save type.
+Creates save options of the class that matches the specified format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveType | [MailMessageSaveType](../../com.aspose.email/mailmessagesavetype) | The  MailMessageSaveTypesave type (\#getMailMessageSaveType.getMailMessageSaveType/\#setMailMessageSaveType(MailMessageSaveType).setMailMessageSaveType(MailMessageSaveType)) for which to create a save options object. |
+| saveType | [MailMessageSaveType](../../com.aspose.email/mailmessagesavetype) | The format to save to. |
 
 **Returns:**
-[SaveOptions](../../com.aspose.email/saveoptions) - An object of a class that derives from [SaveOptions](../../com.aspose.email/saveoptions).
+[SaveOptions](../../com.aspose.email/saveoptions) - A [EmlSaveOptions](../../com.aspose.email/emlsaveoptions), [MsgSaveOptions](../../com.aspose.email/msgsaveoptions), [MhtSaveOptions](../../com.aspose.email/mhtsaveoptions) or [HtmlSaveOptions](../../com.aspose.email/htmlsaveoptions) object.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -121,13 +117,11 @@ public final String getBoundariesTemplate()
 ```
 
 
-Gets or sets the boundary template for the message.
-Default value is null.
+Gets the template for the MIME boundaries of the message;  null  (the default) uses generated boundaries.
 
-The '\{\#\}' wildcard is used for the boundary number placeholder.
-The '\{guid\}' wildcard is used for the boundary GUID placeholder.
+In the template,  \{\#\}  is replaced by the number of the boundary and  \{guid\}  by a GUID.
 
-example: boundary--\{\#\}-\{guid\}
+Example:  boundary--\{\#\}-\{guid\} 
 
 **Returns:**
 java.lang.String
@@ -137,11 +131,9 @@ public final boolean getCheckBodyContentEncoding()
 ```
 
 
-Defines whether need check message body content encoding when saving. By default the value is false.
+Gets a value indicating whether the encoding of the HTML body is checked before saving. The default is  false .
 
---------------------
-
-If true, it will be check whether the  MailMessage.HtmlBody ([MailMessage.getHtmlBody](../../com.aspose.email/mailmessage\#getHtmlBody)/[MailMessage.setHtmlBody(String)](../../com.aspose.email/mailmessage\#setHtmlBody-String-)) content encoding matches to the encoding specified by the  MailMessage.BodyEncoding ([MailMessage.getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage.setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) property. If the HtmlBody content encoding doesn't match BodyEncoding property, the  MailMessage.BodyEncoding ([MailMessage.getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage.setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) and  MailMessage.PreferredTextEncoding ([MailMessage.getPreferredTextEncoding](../../com.aspose.email/mailmessage\#getPreferredTextEncoding)/[MailMessage.setPreferredTextEncoding(Encoding)](../../com.aspose.email/mailmessage\#setPreferredTextEncoding-Encoding-)) will be changed to default  System.Text.Encoding.UTF8 (java.nio.charset.Charset\#getUTF8.getUTF8).
+When  true  and the HTML body declares an encoding that differs from [MailMessage.getBodyEncoding()](../../com.aspose.email/mailmessage\#getBodyEncoding--), both [MailMessage.getBodyEncoding()](../../com.aspose.email/mailmessage\#getBodyEncoding--) and [MailMessage.getPreferredTextEncoding()](../../com.aspose.email/mailmessage\#getPreferredTextEncoding--) are set to UTF-8.
 
 **Returns:**
 boolean
@@ -161,7 +153,7 @@ public final ConversionProgressEventHandler getCustomProgressHandler()
 ```
 
 
-Represents method that usually supplied by calling side and handles progress events.
+Gets a handler that is called as the saving progresses.
 
 **Returns:**
 [ConversionProgressEventHandler](../../com.aspose.email/conversionprogresseventhandler)
@@ -171,7 +163,7 @@ public static EmlSaveOptions getDefaultEml()
 ```
 
 
-Gets options with default values for saving message to Eml format.
+Gets new options with the default settings for saving to EML.
 
 **Returns:**
 [EmlSaveOptions](../../com.aspose.email/emlsaveoptions)
@@ -181,7 +173,7 @@ public static EmlSaveOptions getDefaultEmlx()
 ```
 
 
-Gets options with default values for saving message to Emlx format.
+Gets new options with the default settings for saving to EMLX.
 
 **Returns:**
 [EmlSaveOptions](../../com.aspose.email/emlsaveoptions)
@@ -191,7 +183,7 @@ public static HtmlSaveOptions getDefaultHtml()
 ```
 
 
-Gets options with default values for saving message to Html format.
+Gets new options with the default settings for saving to HTML.
 
 **Returns:**
 [HtmlSaveOptions](../../com.aspose.email/htmlsaveoptions)
@@ -201,7 +193,7 @@ public static MhtSaveOptions getDefaultMhtml()
 ```
 
 
-Gets options with default values for saving message to Mhtml format.
+Gets new options with the default settings for saving to MHTML.
 
 **Returns:**
 [MhtSaveOptions](../../com.aspose.email/mhtsaveoptions)
@@ -211,7 +203,7 @@ public static MsgSaveOptions getDefaultMsg()
 ```
 
 
-Gets options with default values for saving message to Msg(ASCII) format.
+Gets new options with the default settings for saving to MSG with ANSI strings.
 
 **Returns:**
 [MsgSaveOptions](../../com.aspose.email/msgsaveoptions)
@@ -221,7 +213,7 @@ public static MsgSaveOptions getDefaultMsgUnicode()
 ```
 
 
-Gets options with default values for saving message to Msg(Unicode) format.
+Gets new options with the default settings for saving to MSG with Unicode strings.
 
 **Returns:**
 [MsgSaveOptions](../../com.aspose.email/msgsaveoptions)
@@ -231,7 +223,7 @@ public static MsgSaveOptions getDefaultOft()
 ```
 
 
-Gets options with default values for saving message to Outlook template (Oft) format.
+Gets new options with the default settings for saving to Outlook template (OFT).
 
 **Returns:**
 [MsgSaveOptions](../../com.aspose.email/msgsaveoptions)
@@ -241,7 +233,7 @@ public final int getFileCompatibilityMode()
 ```
 
 
-Defines inner conversions,that are necessarily to be done when saving a message. The default value is FileCompatibilityMode.None.
+Gets conversions applied while saving, such as encoding the TNEF attachment again. The default is  FileCompatibilityMode.None .
 
 **Returns:**
 int
@@ -251,7 +243,7 @@ public final MailMessageSaveType getMailMessageSaveType()
 ```
 
 
-Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. The default value is Eml.
+Gets the format the options save to.
 
 **Returns:**
 [MailMessageSaveType](../../com.aspose.email/mailmessagesavetype)
@@ -261,11 +253,9 @@ public final boolean getPreserveEmbeddedMessageFormat()
 ```
 
 
-Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. By default the value is false.
+Gets a value indicating whether embedded messages keep their original format (MSG) instead of being converted to EML. The default is  false .
 
---------------------
-
-Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from MSG to EML and vice versa, embedded messages are also converted to the target format. Setting the property to true preserves the original format of embedded messages.
+Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from MSG to EML and vice versa, embedded messages are also converted to the target format. Setting the property to  true  preserves the original format of embedded messages.
 
 **Returns:**
 boolean
@@ -275,11 +265,9 @@ public final boolean getPreserveSignedContent()
 ```
 
 
-Gets or sets a value indicating whether it is necessary to save signed message without changes of content to provide correctly structure of digital sign. By default the value is false.
+Gets a value indicating whether a signed message is saved exactly as it was loaded, so that its signature stays valid. The default is  false .
 
---------------------
-
-The property is only meaningful for signed messages; it has no effect on unsigned messages. This property is intended for some complex signed messages with detached signature generated by other clients, whose implementation differences prevent Aspose.Email from exactly replicating their MIME content generation. Saving such messages without using PreserveSignedContent will cause the signature in the saved messages to fail. Some simple messages and messages with an attached signature can be saved correctly without using this property.
+The property is only meaningful for signed messages; it has no effect on unsigned messages. This property is intended for some complex signed messages with detached signature generated by other clients, whose implementation differences prevent Aspose.Email from exactly replicating their MIME content generation. Saving such messages without using this property will cause the signature in the saved messages to fail. Some simple messages and messages with an attached signature can be saved correctly without using this property.
 
 **Returns:**
 boolean
@@ -315,13 +303,11 @@ public final void setBoundariesTemplate(String value)
 ```
 
 
-Gets or sets the boundary template for the message.
-Default value is null.
+Sets the template for the MIME boundaries of the message;  null  (the default) uses generated boundaries.
 
-The '\{\#\}' wildcard is used for the boundary number placeholder.
-The '\{guid\}' wildcard is used for the boundary GUID placeholder.
+In the template,  \{\#\}  is replaced by the number of the boundary and  \{guid\}  by a GUID.
 
-example: boundary--\{\#\}-\{guid\}
+Example:  boundary--\{\#\}-\{guid\} 
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -334,11 +320,9 @@ public final void setCheckBodyContentEncoding(boolean value)
 ```
 
 
-Defines whether need check message body content encoding when saving. By default the value is false.
+Sets a value indicating whether the encoding of the HTML body is checked before saving. The default is  false .
 
---------------------
-
-If true, it will be check whether the  MailMessage.HtmlBody ([MailMessage.getHtmlBody](../../com.aspose.email/mailmessage\#getHtmlBody)/[MailMessage.setHtmlBody(String)](../../com.aspose.email/mailmessage\#setHtmlBody-String-)) content encoding matches to the encoding specified by the  MailMessage.BodyEncoding ([MailMessage.getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage.setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) property. If the HtmlBody content encoding doesn't match BodyEncoding property, the  MailMessage.BodyEncoding ([MailMessage.getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage.setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) and  MailMessage.PreferredTextEncoding ([MailMessage.getPreferredTextEncoding](../../com.aspose.email/mailmessage\#getPreferredTextEncoding)/[MailMessage.setPreferredTextEncoding(Encoding)](../../com.aspose.email/mailmessage\#setPreferredTextEncoding-Encoding-)) will be changed to default  System.Text.Encoding.UTF8 (java.nio.charset.Charset\#getUTF8.getUTF8).
+When  true  and the HTML body declares an encoding that differs from [MailMessage.getBodyEncoding()](../../com.aspose.email/mailmessage\#getBodyEncoding--), both [MailMessage.getBodyEncoding()](../../com.aspose.email/mailmessage\#getBodyEncoding--) and [MailMessage.getPreferredTextEncoding()](../../com.aspose.email/mailmessage\#getPreferredTextEncoding--) are set to UTF-8.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -351,7 +335,7 @@ public final void setCustomProgressHandler(ConversionProgressEventHandler value)
 ```
 
 
-Represents method that usually supplied by calling side and handles progress events.
+Sets a handler that is called as the saving progresses.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -364,7 +348,7 @@ public final void setFileCompatibilityMode(int value)
 ```
 
 
-Defines inner conversions,that are necessarily to be done when saving a message. The default value is FileCompatibilityMode.None.
+Sets conversions applied while saving, such as encoding the TNEF attachment again. The default is  FileCompatibilityMode.None .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -377,7 +361,7 @@ public final void setMailMessageSaveType(MailMessageSaveType value)
 ```
 
 
-Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. The default value is Eml.
+Sets the format the options save to.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -390,11 +374,9 @@ public final void setPreserveEmbeddedMessageFormat(boolean value)
 ```
 
 
-Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. By default the value is false.
+Sets a value indicating whether embedded messages keep their original format (MSG) instead of being converted to EML. The default is  false .
 
---------------------
-
-Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from MSG to EML and vice versa, embedded messages are also converted to the target format. Setting the property to true preserves the original format of embedded messages.
+Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from MSG to EML and vice versa, embedded messages are also converted to the target format. Setting the property to  true  preserves the original format of embedded messages.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -407,11 +389,9 @@ public final void setPreserveSignedContent(boolean value)
 ```
 
 
-Gets or sets a value indicating whether it is necessary to save signed message without changes of content to provide correctly structure of digital sign. By default the value is false.
+Sets a value indicating whether a signed message is saved exactly as it was loaded, so that its signature stays valid. The default is  false .
 
---------------------
-
-The property is only meaningful for signed messages; it has no effect on unsigned messages. This property is intended for some complex signed messages with detached signature generated by other clients, whose implementation differences prevent Aspose.Email from exactly replicating their MIME content generation. Saving such messages without using PreserveSignedContent will cause the signature in the saved messages to fail. Some simple messages and messages with an attached signature can be saved correctly without using this property.
+The property is only meaningful for signed messages; it has no effect on unsigned messages. This property is intended for some complex signed messages with detached signature generated by other clients, whose implementation differences prevent Aspose.Email from exactly replicating their MIME content generation. Saving such messages without using this property will cause the signature in the saved messages to fail. Some simple messages and messages with an attached signature can be saved correctly without using this property.
 
 **Parameters:**
 | Parameter | Type | Description |

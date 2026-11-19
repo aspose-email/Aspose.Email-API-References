@@ -1,9 +1,9 @@
 ---
 title: LinkedResourceRemovedEventArgs
 second_title: Aspose.Email for Java API Reference
-description: 
+description: Provides data for the event that is raised when a linked resource is removed from a message.
 type: docs
-weight: 368
+weight: 371
 url: /java/com.aspose.email/linkedresourceremovedeventargs/
 ---
 
@@ -12,11 +12,15 @@ java.lang.Object, com.aspose.ms.System.EventArgs
 ```
 public class LinkedResourceRemovedEventArgs extends System.EventArgs
 ```
+
+Provides data for the event that is raised when a linked resource is removed from a message.
+
+This event argument class contains a list of content IDs for the linked resources that were removed.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [LinkedResourceRemovedEventArgs(Iterable<String> list)](#LinkedResourceRemovedEventArgs-java.lang.Iterable-java.lang.String--) |  |
+| [LinkedResourceRemovedEventArgs(Iterable<String> list)](#LinkedResourceRemovedEventArgs-java.lang.Iterable-java.lang.String--) | Initializes a new instance of the [LinkedResourceRemovedEventArgs](../../com.aspose.email/linkedresourceremovedeventargs) class. |
 ## Fields
 
 | Field | Description |
@@ -28,7 +32,7 @@ public class LinkedResourceRemovedEventArgs extends System.EventArgs
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getListContentId()](#getListContentId--) |  |
+| [getListContentId()](#getListContentId--) | Gets the content IDs of the removed resources. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -42,10 +46,12 @@ public LinkedResourceRemovedEventArgs(Iterable<String> list)
 ```
 
 
+Initializes a new instance of the [LinkedResourceRemovedEventArgs](../../com.aspose.email/linkedresourceremovedeventargs) class.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| list | java.lang.Iterable<java.lang.String> |  |
+| list | java.lang.Iterable<java.lang.String> | The content IDs of the removed resources. |
 
 ### Empty {#Empty}
 ```
@@ -84,7 +90,7 @@ public final Iterable<String> getListContentId()
 ```
 
 
-
+Gets the content IDs of the removed resources.
 
 **Returns:**
 java.lang.Iterable<java.lang.String>

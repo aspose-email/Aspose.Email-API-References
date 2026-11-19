@@ -1,9 +1,9 @@
 ---
 title: MapiTaskHistory
 second_title: Aspose.Email for Java API Reference
-description: Indicates the type of change that was last made to the Task object.
+description: Defines the last change made to a task.
 type: docs
-weight: 494
+weight: 497
 url: /java/com.aspose.email/mapitaskhistory/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiTaskHistory extends System.Enum
 ```
 
-Indicates the type of change that was last made to the Task object.
+Defines the last change made to a task.
 ## Constructors
 
 | Constructor | Description |
@@ -23,13 +23,13 @@ Indicates the type of change that was last made to the Task object.
 
 | Field | Description |
 | --- | --- |
-| [Accepted](#Accepted) | The task assignee accepted this Task object. |
-| [AnotherPropertyChanged](#AnotherPropertyChanged) | Another property was changed. |
-| [Assigned](#Assigned) | The Task object has been assigned to a task assignee. |
-| [DueDateChanged](#DueDateChanged) | The PidLidTaskDueDate property changed. |
+| [Accepted](#Accepted) | The assignee accepted the task. |
+| [AnotherPropertyChanged](#AnotherPropertyChanged) | Another property changed. |
+| [Assigned](#Assigned) | The task was assigned. |
+| [DueDateChanged](#DueDateChanged) | The due date changed. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
 | [NoChanges](#NoChanges) | No changes were made. |
-| [Rejected](#Rejected) | The task assignee rejected this Task object. |
+| [Rejected](#Rejected) | The assignee rejected the task. |
 ## Methods
 
 | Method | Description |
@@ -83,7 +83,7 @@ public static final int Accepted
 ```
 
 
-The task assignee accepted this Task object.
+The assignee accepted the task.
 
 ### AnotherPropertyChanged {#AnotherPropertyChanged}
 ```
@@ -91,7 +91,7 @@ public static final int AnotherPropertyChanged
 ```
 
 
-Another property was changed.
+Another property changed.
 
 ### Assigned {#Assigned}
 ```
@@ -99,7 +99,7 @@ public static final int Assigned
 ```
 
 
-The Task object has been assigned to a task assignee.
+The task was assigned.
 
 ### DueDateChanged {#DueDateChanged}
 ```
@@ -107,7 +107,7 @@ public static final int DueDateChanged
 ```
 
 
-The PidLidTaskDueDate property changed.
+The due date changed.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -129,7 +129,7 @@ public static final int Rejected
 ```
 
 
-The task assignee rejected this Task object.
+The assignee rejected the task.
 
 ### Clone() {#Clone--}
 ```

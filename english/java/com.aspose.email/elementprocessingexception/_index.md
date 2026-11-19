@@ -1,9 +1,9 @@
 ---
 title: ElementProcessingException
 second_title: Aspose.Email for Java API Reference
-description: The exception that is thrown when one of many elements failed with exception.
+description: The exception recorded when one element of a batch operation fails such as one message of a set being fetched the other elements are still processed.
 type: docs
-weight: 166
+weight: 169
 url: /java/com.aspose.email/elementprocessingexception/
 ---
 
@@ -13,12 +13,12 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class ElementProcessingException extends AsposeException
 ```
 
-The exception that is thrown when one of many elements failed with exception.
+The exception recorded when one element of a batch operation fails, such as one message of a set being fetched; the other elements are still processed.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ElementProcessingException(int elementIndex, Throwable innerException)](#ElementProcessingException-int-java.lang.Throwable-) | Initializes a new instance of the [ElementProcessingException](../../com.aspose.email/elementprocessingexception) class with a specified element index. |
+| [ElementProcessingException(int elementIndex, Throwable innerException)](#ElementProcessingException-int-java.lang.Throwable-) | Initializes a new instance of the [ElementProcessingException](../../com.aspose.email/elementprocessingexception) class for the element at the specified index. |
 ## Methods
 
 | Method | Description |
@@ -28,11 +28,11 @@ The exception that is thrown when one of many elements failed with exception.
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
 | [getClass()](#getClass--) |  |
-| [getElementIndex()](#getElementIndex--) | The index of the processed element. |
-| [getErrorDetails()](#getErrorDetails--) | Gets extra information aboout error |
+| [getElementIndex()](#getElementIndex--) | Gets the zero-based index of the element that failed. |
+| [getErrorDetails()](#getErrorDetails--) | Gets additional information about the error, if the operation provides any. |
 | [getInnerException()](#getInnerException--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
-| [getMessage()](#getMessage--) | Gets a message that describes the current exception. |
+| [getMessage()](#getMessage--) | Gets the message that describes the error. |
 | [getStackTrace()](#getStackTrace--) |  |
 | [getSuppressed()](#getSuppressed--) |  |
 | [getType()](#getType--) |  |
@@ -44,7 +44,7 @@ The exception that is thrown when one of many elements failed with exception.
 | [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
 | [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
 | [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [toString()](#toString--) | Returns a string that represents the current object. |
+| [toString()](#toString--) | Returns the type, the message and the stack trace of the exception. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -54,13 +54,13 @@ public ElementProcessingException(int elementIndex, Throwable innerException)
 ```
 
 
-Initializes a new instance of the [ElementProcessingException](../../com.aspose.email/elementprocessingexception) class with a specified element index.
+Initializes a new instance of the [ElementProcessingException](../../com.aspose.email/elementprocessingexception) class for the element at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| elementIndex | int | The index of the processed element. |
-| innerException | java.lang.Throwable | The exception that is the cause of the current exception. |
+| elementIndex | int | The zero-based index of the element that failed. |
+| innerException | java.lang.Throwable | The exception the element failed with. |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```
@@ -126,7 +126,7 @@ public final int getElementIndex()
 ```
 
 
-The index of the processed element.
+Gets the zero-based index of the element that failed.
 
 **Returns:**
 int
@@ -136,7 +136,7 @@ public final Object getErrorDetails()
 ```
 
 
-Gets extra information aboout error
+Gets additional information about the error, if the operation provides any.
 
 **Returns:**
 java.lang.Object
@@ -166,7 +166,7 @@ public String getMessage()
 ```
 
 
-Gets a message that describes the current exception.
+Gets the message that describes the error.
 
 **Returns:**
 java.lang.String
@@ -294,10 +294,10 @@ public String toString()
 ```
 
 
-Returns a string that represents the current object.
+Returns the type, the message and the stack trace of the exception.
 
 **Returns:**
-java.lang.String - A string that represents the current object.
+java.lang.String - A string that represents the exception.
 ### wait() {#wait--}
 ```
 public final void wait()

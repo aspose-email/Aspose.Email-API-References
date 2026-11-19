@@ -1,9 +1,9 @@
 ---
 title: MhtSaveOptions
 second_title: Aspose.Email for Java API Reference
-description: Allows to specify additional options when saving MailMessage to Mhtml format.
+description: Provides options for controlling how  instances are saved to MHTML format.
 type: docs
-weight: 541
+weight: 544
 url: /java/com.aspose.email/mhtsaveoptions/
 ---
 
@@ -13,82 +13,80 @@ java.lang.Object, [com.aspose.email.SaveOptions](../../com.aspose.email/saveopti
 public class MhtSaveOptions extends HeadersFormattingOptions
 ```
 
-Allows to specify additional options when saving MailMessage to Mhtml format.
+Provides options for controlling how [MailMessage](../../com.aspose.email/mailmessage) instances are saved to MHTML format. This class allows you to customize MHTML output formatting, attachment handling, header preservation, and resource rendering behavior when converting email messages to MHTML (MIME HTML) files.
 
---------------------
+Use this class with [MailMessage.save(String, SaveOptions)](../../com.aspose.email/mailmessage\#save-String--SaveOptions-) to save messages in MHTML format. MHTML is a web page archive format that combines HTML content and embedded resources into a single file. The [MhtFormatOptions](../../com.aspose.email/mhtformatoptions) property controls formatting options, \#getSaveAttachments().getSaveAttachments() determines whether attachments are included, and \#getSavedHeaders().getSavedHeaders() allows you to specify custom headers to include in the output.
 
-> The following example shows how to save MailMessage as MHTML.
-> 
-> [Java]
-> 
-> ```
-> MailMessage eml = MailMessage.load("Message.eml");
->  eml.save("target.mthml", SaveOptions.getDefaultMhtml());
-> ```
+The following example shows how to save MailMessage as MHTML.
 
---------------------
+```
+
+ MailMessage eml = MailMessage.load("Message.eml");
+ eml.save("target.mthml", SaveOptions.getDefaultMhtml());
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MhtSaveOptions()](#MhtSaveOptions--) | Initializes a new instance of this class that can be used to save a MailMessage in the Mhtml format. |
+| [MhtSaveOptions()](#MhtSaveOptions--) | Initializes a new instance of the [MhtSaveOptions](../../com.aspose.email/mhtsaveoptions) class with the default options. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [createSaveOptions(MailMessageSaveType saveType)](#createSaveOptions-com.aspose.email.MailMessageSaveType-) | Creates a save options object of a class suitable for the specified save type. |
+| [createSaveOptions(MailMessageSaveType saveType)](#createSaveOptions-com.aspose.email.MailMessageSaveType-) | Creates save options of the class that matches the specified format. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAfterHeadersFormat()](#getAfterHeadersFormat--) | After headers format. |
-| [getBeforeHeadersFormat()](#getBeforeHeadersFormat--) | Before headers format. |
-| [getCheckBodyContentEncoding()](#getCheckBodyContentEncoding--) | Defines whether need check message body content encoding when saving. |
+| [getAfterHeadersFormat()](#getAfterHeadersFormat--) | Gets the HTML written after the block of headers. |
+| [getBeforeHeadersFormat()](#getBeforeHeadersFormat--) | Gets the HTML written before the block of headers. |
+| [getCheckBodyContentEncoding()](#getCheckBodyContentEncoding--) | Gets a value indicating whether the encoding of the HTML body is checked before saving. |
 | [getClass()](#getClass--) |  |
-| [getCssStyles()](#getCssStyles--) | Gets or sets the additional css styles for the formatter. |
-| [getCustomProgressHandler()](#getCustomProgressHandler--) | Represents method that usually supplied by calling side and handles progress events. |
-| [getDefaultEml()](#getDefaultEml--) | Gets options with default values for saving message to Eml format. |
-| [getDefaultEmlx()](#getDefaultEmlx--) | Gets options with default values for saving message to Emlx format. |
-| [getDefaultHeaderFormat()](#getDefaultHeaderFormat--) | Default header line format. |
-| [getDefaultHtml()](#getDefaultHtml--) | Gets options with default values for saving message to Html format. |
-| [getDefaultMhtml()](#getDefaultMhtml--) | Gets options with default values for saving message to Mhtml format. |
-| [getDefaultMsg()](#getDefaultMsg--) | Gets options with default values for saving message to Msg(ASCII) format. |
-| [getDefaultMsgUnicode()](#getDefaultMsgUnicode--) | Gets options with default values for saving message to Msg(Unicode) format. |
-| [getDefaultOft()](#getDefaultOft--) | Gets options with default values for saving message to Outlook template (Oft) format. |
-| [getDefaultPageHeaderFormat()](#getDefaultPageHeaderFormat--) | Default page header format. |
-| [getExtractHTMLBodyResourcesAsAttachments()](#getExtractHTMLBodyResourcesAsAttachments--) | Defines whether extract HTML body resources as attachments or not. |
-| [getFormatTemplates()](#getFormatTemplates--) | Gets the format templates. |
-| [getMailMessageSaveType()](#getMailMessageSaveType--) | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. |
-| [getMhtFormatOptions()](#getMhtFormatOptions--) | Defines additional options when saving in MHTML format. |
-| [getPreserveOriginalBoundaries()](#getPreserveOriginalBoundaries--) | Defines whether need keep original boundaries in mail message when saving or not. |
-| [getPreserveOriginalDate()](#getPreserveOriginalDate--) | Defines whether need keep original date in mail message when saving or not. |
-| [getRenderedContactFields()](#getRenderedContactFields--) | Defines groups of Contact fields which will be included in output mhtml. |
-| [getRenderingHeaders()](#getRenderingHeaders--) | Gets list of headers for rendering. |
-| [getResourceHtmlRenderingHandler()](#getResourceHtmlRenderingHandler--) | Provides customization of rendering resources in html. |
-| [getSaveAllHeaders()](#getSaveAllHeaders--) | Defines whether need to save all headers in output mhtml or not. |
-| [getSaveAttachments()](#getSaveAttachments--) | Gets or sets a value indicating whether to save attachments. |
-| [getSavedHeaders()](#getSavedHeaders--) | Gets list of headers which will be present in saved mhtml content. |
-| [getSkipInlineImages()](#getSkipInlineImages--) | Defines whether skip references on images at saving in mhtml or not. |
-| [getTimeout()](#getTimeout--) | Limits the time in milliseconds of formatting message while saving in Mht. |
-| [getTimeoutReachedHandler()](#getTimeoutReachedHandler--) | Raised if timed out while saving to Mhtml. |
+| [getCssStyles()](#getCssStyles--) | Gets additional CSS styles added to the output. |
+| [getCustomProgressHandler()](#getCustomProgressHandler--) | Gets a handler that is called as the saving progresses. |
+| [getDefaultEml()](#getDefaultEml--) | Gets new options with the default settings for saving to EML. |
+| [getDefaultEmlx()](#getDefaultEmlx--) | Gets new options with the default settings for saving to EMLX. |
+| [getDefaultHeaderFormat()](#getDefaultHeaderFormat--) | Gets the HTML format of a header line, from which the template of each header in \#getFormatTemplates().getFormatTemplates() is built;  \{0\}  stands for the name of the header. |
+| [getDefaultHtml()](#getDefaultHtml--) | Gets new options with the default settings for saving to HTML. |
+| [getDefaultMhtml()](#getDefaultMhtml--) | Gets new options with the default settings for saving to MHTML. |
+| [getDefaultMsg()](#getDefaultMsg--) | Gets new options with the default settings for saving to MSG with ANSI strings. |
+| [getDefaultMsgUnicode()](#getDefaultMsgUnicode--) | Gets new options with the default settings for saving to MSG with Unicode strings. |
+| [getDefaultOft()](#getDefaultOft--) | Gets new options with the default settings for saving to Outlook template (OFT). |
+| [getDefaultPageHeaderFormat()](#getDefaultPageHeaderFormat--) | Gets the HTML format of the page header. |
+| [getExtractHTMLBodyResourcesAsAttachments()](#getExtractHTMLBodyResourcesAsAttachments--) | Gets a value indicating whether the resources of the HTML body, such as images, are also written as attachments. |
+| [getFormatTemplates()](#getFormatTemplates--) | Gets the formats of individual headers, keyed by the names in [MhtTemplateName](../../com.aspose.email/mhttemplatename). |
+| [getMailMessageSaveType()](#getMailMessageSaveType--) | Gets the format the options save to. |
+| [getMhtFormatOptions()](#getMhtFormatOptions--) | Gets options for the MHTML output. |
+| [getPreserveOriginalBoundaries()](#getPreserveOriginalBoundaries--) | Gets a value indicating whether the MIME boundaries of the original message are kept. |
+| [getPreserveOriginalDate()](#getPreserveOriginalDate--) | Gets a value indicating whether the original date of the message is kept. |
+| [getRenderedContactFields()](#getRenderedContactFields--) | Gets the groups of contact fields written for a contact. |
+| [getRenderingHeaders()](#getRenderingHeaders--) | Gets the headers written to the output, in order, as names from [MhtTemplateName](../../com.aspose.email/mhttemplatename). |
+| [getResourceHtmlRenderingHandler()](#getResourceHtmlRenderingHandler--) | Gets the handler of the event that occurs for each attachment rendered into the HTML; set the properties of the event arguments to supply the content, file or caption to use for it. |
+| [getSaveAllHeaders()](#getSaveAllHeaders--) | Gets a value indicating whether all headers of the message are written to the output. |
+| [getSaveAttachments()](#getSaveAttachments--) | Gets a value indicating whether the attachments are saved into the MHTML file. |
+| [getSavedHeaders()](#getSavedHeaders--) | Gets the headers of the message that are kept in the MIME headers of the MHTML file; the others are dropped. |
+| [getSkipInlineImages()](#getSkipInlineImages--) | Gets a value indicating whether inline images are left out of the output. |
+| [getTimeout()](#getTimeout--) | Gets the time limit, in milliseconds, for formatting the message. |
+| [getTimeoutReachedHandler()](#getTimeoutReachedHandler--) | Gets the handler of the event that occurs when formatting the message takes longer than \#getTimeout().getTimeout(). |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAfterHeadersFormat(String value)](#setAfterHeadersFormat-java.lang.String-) | After headers format. |
-| [setBeforeHeadersFormat(String value)](#setBeforeHeadersFormat-java.lang.String-) | Before headers format. |
-| [setCheckBodyContentEncoding(boolean value)](#setCheckBodyContentEncoding-boolean-) | Defines whether need check message body content encoding when saving. |
-| [setCssStyles(String value)](#setCssStyles-java.lang.String-) | Gets or sets the additional css styles for the formatter. |
-| [setCustomProgressHandler(ConversionProgressEventHandler value)](#setCustomProgressHandler-com.aspose.email.ConversionProgressEventHandler-) | Represents method that usually supplied by calling side and handles progress events. |
-| [setDefaultHeaderFormat(String value)](#setDefaultHeaderFormat-java.lang.String-) | Default header line format. |
-| [setDefaultPageHeaderFormat(String value)](#setDefaultPageHeaderFormat-java.lang.String-) | Default page header format. |
-| [setExtractHTMLBodyResourcesAsAttachments(boolean value)](#setExtractHTMLBodyResourcesAsAttachments-boolean-) | Defines whether extract HTML body resources as attachments or not. |
-| [setMailMessageSaveType(MailMessageSaveType value)](#setMailMessageSaveType-com.aspose.email.MailMessageSaveType-) | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. |
-| [setMhtFormatOptions(int value)](#setMhtFormatOptions-int-) | Defines additional options when saving in MHTML format. |
-| [setPreserveOriginalBoundaries(boolean value)](#setPreserveOriginalBoundaries-boolean-) | Defines whether need keep original boundaries in mail message when saving or not. |
-| [setPreserveOriginalDate(boolean value)](#setPreserveOriginalDate-boolean-) | Defines whether need keep original date in mail message when saving or not. |
-| [setRenderedContactFields(int value)](#setRenderedContactFields-int-) | Defines groups of Contact fields which will be included in output mhtml. |
+| [setAfterHeadersFormat(String value)](#setAfterHeadersFormat-java.lang.String-) | Sets the HTML written after the block of headers. |
+| [setBeforeHeadersFormat(String value)](#setBeforeHeadersFormat-java.lang.String-) | Sets the HTML written before the block of headers. |
+| [setCheckBodyContentEncoding(boolean value)](#setCheckBodyContentEncoding-boolean-) | Sets a value indicating whether the encoding of the HTML body is checked before saving. |
+| [setCssStyles(String value)](#setCssStyles-java.lang.String-) | Sets additional CSS styles added to the output. |
+| [setCustomProgressHandler(ConversionProgressEventHandler value)](#setCustomProgressHandler-com.aspose.email.ConversionProgressEventHandler-) | Sets a handler that is called as the saving progresses. |
+| [setDefaultHeaderFormat(String value)](#setDefaultHeaderFormat-java.lang.String-) | Sets the HTML format of a header line, from which the template of each header in \#getFormatTemplates().getFormatTemplates() is built;  \{0\}  stands for the name of the header. |
+| [setDefaultPageHeaderFormat(String value)](#setDefaultPageHeaderFormat-java.lang.String-) | Sets the HTML format of the page header. |
+| [setExtractHTMLBodyResourcesAsAttachments(boolean value)](#setExtractHTMLBodyResourcesAsAttachments-boolean-) | Sets a value indicating whether the resources of the HTML body, such as images, are also written as attachments. |
+| [setMailMessageSaveType(MailMessageSaveType value)](#setMailMessageSaveType-com.aspose.email.MailMessageSaveType-) | Sets the format the options save to. |
+| [setMhtFormatOptions(int value)](#setMhtFormatOptions-int-) | Sets options for the MHTML output. |
+| [setPreserveOriginalBoundaries(boolean value)](#setPreserveOriginalBoundaries-boolean-) | Sets a value indicating whether the MIME boundaries of the original message are kept. |
+| [setPreserveOriginalDate(boolean value)](#setPreserveOriginalDate-boolean-) | Sets a value indicating whether the original date of the message is kept. |
+| [setRenderedContactFields(int value)](#setRenderedContactFields-int-) | Sets the groups of contact fields written for a contact. |
 | [setResourceHtmlRenderingHandler(ResourceHtmlRenderingHandler value)](#setResourceHtmlRenderingHandler-com.aspose.email.ResourceHtmlRenderingHandler-) | Provides customization of rendering resources in html. |
-| [setSaveAllHeaders(boolean value)](#setSaveAllHeaders-boolean-) | Defines whether need to save all headers in output mhtml or not. |
-| [setSaveAttachments(boolean value)](#setSaveAttachments-boolean-) | Gets or sets a value indicating whether to save attachments. |
-| [setSkipInlineImages(boolean value)](#setSkipInlineImages-boolean-) | Defines whether skip references on images at saving in mhtml or not. |
-| [setTimeout(int value)](#setTimeout-int-) | Limits the time in milliseconds of formatting message while saving in Mht. |
+| [setSaveAllHeaders(boolean value)](#setSaveAllHeaders-boolean-) | Sets a value indicating whether all headers of the message are written to the output. |
+| [setSaveAttachments(boolean value)](#setSaveAttachments-boolean-) | Sets a value indicating whether the attachments are saved into the MHTML file. |
+| [setSkipInlineImages(boolean value)](#setSkipInlineImages-boolean-) | Sets a value indicating whether inline images are left out of the output. |
+| [setTimeout(int value)](#setTimeout-int-) | Sets the time limit, in milliseconds, for formatting the message. |
 | [setTimeoutReachedHandler(TimeoutReachedHandler value)](#setTimeoutReachedHandler-com.aspose.email.TimeoutReachedHandler-) | Raised if timed out while saving to Mhtml. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -100,7 +98,7 @@ public MhtSaveOptions()
 ```
 
 
-Initializes a new instance of this class that can be used to save a MailMessage in the Mhtml format.
+Initializes a new instance of the [MhtSaveOptions](../../com.aspose.email/mhtsaveoptions) class with the default options.
 
 ### createSaveOptions(MailMessageSaveType saveType) {#createSaveOptions-com.aspose.email.MailMessageSaveType-}
 ```
@@ -108,15 +106,15 @@ public static SaveOptions createSaveOptions(MailMessageSaveType saveType)
 ```
 
 
-Creates a save options object of a class suitable for the specified save type.
+Creates save options of the class that matches the specified format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveType | [MailMessageSaveType](../../com.aspose.email/mailmessagesavetype) | The  MailMessageSaveTypesave type (\#getMailMessageSaveType.getMailMessageSaveType/\#setMailMessageSaveType(MailMessageSaveType).setMailMessageSaveType(MailMessageSaveType)) for which to create a save options object. |
+| saveType | [MailMessageSaveType](../../com.aspose.email/mailmessagesavetype) | The format to save to. |
 
 **Returns:**
-[SaveOptions](../../com.aspose.email/saveoptions) - An object of a class that derives from [SaveOptions](../../com.aspose.email/saveoptions).
+[SaveOptions](../../com.aspose.email/saveoptions) - A [EmlSaveOptions](../../com.aspose.email/emlsaveoptions), [MsgSaveOptions](../../com.aspose.email/msgsaveoptions), [MhtSaveOptions](../../com.aspose.email/mhtsaveoptions) or [HtmlSaveOptions](../../com.aspose.email/htmlsaveoptions) object.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -138,35 +136,29 @@ public final String getAfterHeadersFormat()
 ```
 
 
-After headers format.
-
-Value: The styles to be injected into resulting html body.
+Gets the HTML written after the block of headers.
 
 **Returns:**
-java.lang.String
+java.lang.String - The HTML fragment.
 ### getBeforeHeadersFormat() {#getBeforeHeadersFormat--}
 ```
 public final String getBeforeHeadersFormat()
 ```
 
 
-Before headers format.
-
-Value: The styles to be injected into resulting html body.
+Gets the HTML written before the block of headers.
 
 **Returns:**
-java.lang.String
+java.lang.String - The HTML fragment.
 ### getCheckBodyContentEncoding() {#getCheckBodyContentEncoding--}
 ```
 public final boolean getCheckBodyContentEncoding()
 ```
 
 
-Defines whether need check message body content encoding when saving. By default the value is false.
+Gets a value indicating whether the encoding of the HTML body is checked before saving. The default is  false .
 
---------------------
-
-If true, it will be check whether the  MailMessage.HtmlBody ([MailMessage.getHtmlBody](../../com.aspose.email/mailmessage\#getHtmlBody)/[MailMessage.setHtmlBody(String)](../../com.aspose.email/mailmessage\#setHtmlBody-String-)) content encoding matches to the encoding specified by the  MailMessage.BodyEncoding ([MailMessage.getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage.setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) property. If the HtmlBody content encoding doesn't match BodyEncoding property, the  MailMessage.BodyEncoding ([MailMessage.getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage.setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) and  MailMessage.PreferredTextEncoding ([MailMessage.getPreferredTextEncoding](../../com.aspose.email/mailmessage\#getPreferredTextEncoding)/[MailMessage.setPreferredTextEncoding(Encoding)](../../com.aspose.email/mailmessage\#setPreferredTextEncoding-Encoding-)) properties will be changed to default  System.Text.Encoding.UTF8 (java.nio.charset.Charset\#getUTF8.getUTF8).
+When  true  and the HTML body declares an encoding that differs from [MailMessage.getBodyEncoding()](../../com.aspose.email/mailmessage\#getBodyEncoding--), both [MailMessage.getBodyEncoding()](../../com.aspose.email/mailmessage\#getBodyEncoding--) and [MailMessage.getPreferredTextEncoding()](../../com.aspose.email/mailmessage\#getPreferredTextEncoding--) are set to UTF-8.
 
 **Returns:**
 boolean
@@ -186,19 +178,17 @@ public final String getCssStyles()
 ```
 
 
-Gets or sets the additional css styles for the formatter.
-
-Value: The styles to be injected into resulting html body.
+Gets additional CSS styles added to the output.
 
 **Returns:**
-java.lang.String
+java.lang.String - The CSS styles.
 ### getCustomProgressHandler() {#getCustomProgressHandler--}
 ```
 public final ConversionProgressEventHandler getCustomProgressHandler()
 ```
 
 
-Represents method that usually supplied by calling side and handles progress events.
+Gets a handler that is called as the saving progresses.
 
 **Returns:**
 [ConversionProgressEventHandler](../../com.aspose.email/conversionprogresseventhandler)
@@ -208,7 +198,7 @@ public static EmlSaveOptions getDefaultEml()
 ```
 
 
-Gets options with default values for saving message to Eml format.
+Gets new options with the default settings for saving to EML.
 
 **Returns:**
 [EmlSaveOptions](../../com.aspose.email/emlsaveoptions)
@@ -218,7 +208,7 @@ public static EmlSaveOptions getDefaultEmlx()
 ```
 
 
-Gets options with default values for saving message to Emlx format.
+Gets new options with the default settings for saving to EMLX.
 
 **Returns:**
 [EmlSaveOptions](../../com.aspose.email/emlsaveoptions)
@@ -228,19 +218,17 @@ public final String getDefaultHeaderFormat()
 ```
 
 
-Default header line format.
-
-Value: The styles to be injected into resulting html body.
+Gets the HTML format of a header line, from which the template of each header in \#getFormatTemplates().getFormatTemplates() is built;  \{0\}  stands for the name of the header.
 
 **Returns:**
-java.lang.String
+java.lang.String - The format of a header line.
 ### getDefaultHtml() {#getDefaultHtml--}
 ```
 public static HtmlSaveOptions getDefaultHtml()
 ```
 
 
-Gets options with default values for saving message to Html format.
+Gets new options with the default settings for saving to HTML.
 
 **Returns:**
 [HtmlSaveOptions](../../com.aspose.email/htmlsaveoptions)
@@ -250,7 +238,7 @@ public static MhtSaveOptions getDefaultMhtml()
 ```
 
 
-Gets options with default values for saving message to Mhtml format.
+Gets new options with the default settings for saving to MHTML.
 
 **Returns:**
 [MhtSaveOptions](../../com.aspose.email/mhtsaveoptions)
@@ -260,7 +248,7 @@ public static MsgSaveOptions getDefaultMsg()
 ```
 
 
-Gets options with default values for saving message to Msg(ASCII) format.
+Gets new options with the default settings for saving to MSG with ANSI strings.
 
 **Returns:**
 [MsgSaveOptions](../../com.aspose.email/msgsaveoptions)
@@ -270,7 +258,7 @@ public static MsgSaveOptions getDefaultMsgUnicode()
 ```
 
 
-Gets options with default values for saving message to Msg(Unicode) format.
+Gets new options with the default settings for saving to MSG with Unicode strings.
 
 **Returns:**
 [MsgSaveOptions](../../com.aspose.email/msgsaveoptions)
@@ -280,7 +268,7 @@ public static MsgSaveOptions getDefaultOft()
 ```
 
 
-Gets options with default values for saving message to Outlook template (Oft) format.
+Gets new options with the default settings for saving to Outlook template (OFT).
 
 **Returns:**
 [MsgSaveOptions](../../com.aspose.email/msgsaveoptions)
@@ -290,19 +278,17 @@ public final String getDefaultPageHeaderFormat()
 ```
 
 
-Default page header format.
-
-Value: The styles to be injected into resulting html body.
+Gets the HTML format of the page header.
 
 **Returns:**
-java.lang.String
+java.lang.String - The format of the page header.
 ### getExtractHTMLBodyResourcesAsAttachments() {#getExtractHTMLBodyResourcesAsAttachments--}
 ```
 public final boolean getExtractHTMLBodyResourcesAsAttachments()
 ```
 
 
-Defines whether extract HTML body resources as attachments or not. Default value is false.
+Gets a value indicating whether the resources of the HTML body, such as images, are also written as attachments. The default is  false .
 
 **Returns:**
 boolean
@@ -312,19 +298,17 @@ public final System.Collections.Specialized.StringDictionary getFormatTemplates(
 ```
 
 
-Gets the format templates.
-
-Value: The format templates.
+Gets the formats of individual headers, keyed by the names in [MhtTemplateName](../../com.aspose.email/mhttemplatename).
 
 **Returns:**
-com.aspose.ms.System.Collections.Specialized.StringDictionary
+com.aspose.ms.System.Collections.Specialized.StringDictionary - The format templates.
 ### getMailMessageSaveType() {#getMailMessageSaveType--}
 ```
 public final MailMessageSaveType getMailMessageSaveType()
 ```
 
 
-Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. The default value is Eml.
+Gets the format the options save to.
 
 **Returns:**
 [MailMessageSaveType](../../com.aspose.email/mailmessagesavetype)
@@ -334,7 +318,7 @@ public final int getMhtFormatOptions()
 ```
 
 
-Defines additional options when saving in MHTML format. Default value is MhtFormatOptions.WriteHeader | MhtFormatOptions.WriteOutlineAttachments.
+Gets options for the MHTML output. The default is  MhtFormatOptions.WriteHeader | MhtFormatOptions.WriteOutlineAttachments .
 
 **Returns:**
 int
@@ -344,7 +328,7 @@ public final boolean getPreserveOriginalBoundaries()
 ```
 
 
-Defines whether need keep original boundaries in mail message when saving or not.
+Gets a value indicating whether the MIME boundaries of the original message are kept. The default is  false .
 
 **Returns:**
 boolean
@@ -354,7 +338,7 @@ public final boolean getPreserveOriginalDate()
 ```
 
 
-Defines whether need keep original date in mail message when saving or not. Default value is true.
+Gets a value indicating whether the original date of the message is kept. The default is  true .
 
 **Returns:**
 boolean
@@ -364,7 +348,7 @@ public final int getRenderedContactFields()
 ```
 
 
-Defines groups of Contact fields which will be included in output mhtml. Default value is ContactFieldsSet.AllExisting.
+Gets the groups of contact fields written for a contact. The default is  ContactFieldsSet.AllExisting .
 
 **Returns:**
 int
@@ -374,7 +358,7 @@ public final List<String> getRenderingHeaders()
 ```
 
 
-Gets list of headers for rendering.
+Gets the headers written to the output, in order, as names from [MhtTemplateName](../../com.aspose.email/mhttemplatename). By default: From, Sent, To, Cc, Bcc, Subject, Attachments, Importance and Categories.
 
 **Returns:**
 java.util.List<java.lang.String>
@@ -384,7 +368,7 @@ public final ResourceHtmlRenderingHandler getResourceHtmlRenderingHandler()
 ```
 
 
-Provides customization of rendering resources in html.
+Gets the handler of the event that occurs for each attachment rendered into the HTML; set the properties of the event arguments to supply the content, file or caption to use for it.
 
 **Returns:**
 [ResourceHtmlRenderingHandler](../../com.aspose.email/resourcehtmlrenderinghandler)
@@ -394,7 +378,7 @@ public final boolean getSaveAllHeaders()
 ```
 
 
-Defines whether need to save all headers in output mhtml or not. Default value is false.
+Gets a value indicating whether all headers of the message are written to the output. The default is  false .
 
 **Returns:**
 boolean
@@ -404,19 +388,17 @@ public final boolean getSaveAttachments()
 ```
 
 
-Gets or sets a value indicating whether to save attachments.
-
-Value:  true  if attachments should be saved; otherwise,  false .
+Gets a value indicating whether the attachments are saved into the MHTML file.
 
 **Returns:**
-boolean
+boolean -  true  to save the attachments; otherwise,  false . The default is  true .
 ### getSavedHeaders() {#getSavedHeaders--}
 ```
 public final List<String> getSavedHeaders()
 ```
 
 
-Gets list of headers which will be present in saved mhtml content. Default value is empty list.
+Gets the headers of the message that are kept in the MIME headers of the MHTML file; the others are dropped. The list is empty by default.
 
 **Returns:**
 java.util.List<java.lang.String>
@@ -426,7 +408,7 @@ public final boolean getSkipInlineImages()
 ```
 
 
-Defines whether skip references on images at saving in mhtml or not. Default value is false.
+Gets a value indicating whether inline images are left out of the output. The default is  false .
 
 **Returns:**
 boolean
@@ -436,7 +418,7 @@ public final int getTimeout()
 ```
 
 
-Limits the time in milliseconds of formatting message while saving in Mht. Default value 3 sec.
+Gets the time limit, in milliseconds, for formatting the message. The default is 3000 (3 seconds).
 
 **Returns:**
 int
@@ -446,7 +428,7 @@ public final TimeoutReachedHandler getTimeoutReachedHandler()
 ```
 
 
-Raised if timed out while saving to Mhtml.
+Gets the handler of the event that occurs when formatting the message takes longer than \#getTimeout().getTimeout().
 
 **Returns:**
 [TimeoutReachedHandler](../../com.aspose.email/timeoutreachedhandler)
@@ -482,14 +464,12 @@ public final void setAfterHeadersFormat(String value)
 ```
 
 
-After headers format.
-
-Value: The styles to be injected into resulting html body.
+Sets the HTML written after the block of headers.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The HTML fragment. |
 
 ### setBeforeHeadersFormat(String value) {#setBeforeHeadersFormat-java.lang.String-}
 ```
@@ -497,14 +477,12 @@ public final void setBeforeHeadersFormat(String value)
 ```
 
 
-Before headers format.
-
-Value: The styles to be injected into resulting html body.
+Sets the HTML written before the block of headers.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The HTML fragment. |
 
 ### setCheckBodyContentEncoding(boolean value) {#setCheckBodyContentEncoding-boolean-}
 ```
@@ -512,11 +490,9 @@ public final void setCheckBodyContentEncoding(boolean value)
 ```
 
 
-Defines whether need check message body content encoding when saving. By default the value is false.
+Sets a value indicating whether the encoding of the HTML body is checked before saving. The default is  false .
 
---------------------
-
-If true, it will be check whether the  MailMessage.HtmlBody ([MailMessage.getHtmlBody](../../com.aspose.email/mailmessage\#getHtmlBody)/[MailMessage.setHtmlBody(String)](../../com.aspose.email/mailmessage\#setHtmlBody-String-)) content encoding matches to the encoding specified by the  MailMessage.BodyEncoding ([MailMessage.getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage.setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) property. If the HtmlBody content encoding doesn't match BodyEncoding property, the  MailMessage.BodyEncoding ([MailMessage.getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage.setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) and  MailMessage.PreferredTextEncoding ([MailMessage.getPreferredTextEncoding](../../com.aspose.email/mailmessage\#getPreferredTextEncoding)/[MailMessage.setPreferredTextEncoding(Encoding)](../../com.aspose.email/mailmessage\#setPreferredTextEncoding-Encoding-)) properties will be changed to default  System.Text.Encoding.UTF8 (java.nio.charset.Charset\#getUTF8.getUTF8).
+When  true  and the HTML body declares an encoding that differs from [MailMessage.getBodyEncoding()](../../com.aspose.email/mailmessage\#getBodyEncoding--), both [MailMessage.getBodyEncoding()](../../com.aspose.email/mailmessage\#getBodyEncoding--) and [MailMessage.getPreferredTextEncoding()](../../com.aspose.email/mailmessage\#getPreferredTextEncoding--) are set to UTF-8.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -529,14 +505,12 @@ public final void setCssStyles(String value)
 ```
 
 
-Gets or sets the additional css styles for the formatter.
-
-Value: The styles to be injected into resulting html body.
+Sets additional CSS styles added to the output.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The CSS styles. |
 
 ### setCustomProgressHandler(ConversionProgressEventHandler value) {#setCustomProgressHandler-com.aspose.email.ConversionProgressEventHandler-}
 ```
@@ -544,7 +518,7 @@ public final void setCustomProgressHandler(ConversionProgressEventHandler value)
 ```
 
 
-Represents method that usually supplied by calling side and handles progress events.
+Sets a handler that is called as the saving progresses.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -557,14 +531,12 @@ public final void setDefaultHeaderFormat(String value)
 ```
 
 
-Default header line format.
-
-Value: The styles to be injected into resulting html body.
+Sets the HTML format of a header line, from which the template of each header in \#getFormatTemplates().getFormatTemplates() is built;  \{0\}  stands for the name of the header.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The format of a header line. |
 
 ### setDefaultPageHeaderFormat(String value) {#setDefaultPageHeaderFormat-java.lang.String-}
 ```
@@ -572,14 +544,12 @@ public final void setDefaultPageHeaderFormat(String value)
 ```
 
 
-Default page header format.
-
-Value: The styles to be injected into resulting html body.
+Sets the HTML format of the page header.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The format of the page header. |
 
 ### setExtractHTMLBodyResourcesAsAttachments(boolean value) {#setExtractHTMLBodyResourcesAsAttachments-boolean-}
 ```
@@ -587,7 +557,7 @@ public final void setExtractHTMLBodyResourcesAsAttachments(boolean value)
 ```
 
 
-Defines whether extract HTML body resources as attachments or not. Default value is false.
+Sets a value indicating whether the resources of the HTML body, such as images, are also written as attachments. The default is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -600,7 +570,7 @@ public final void setMailMessageSaveType(MailMessageSaveType value)
 ```
 
 
-Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. The default value is Eml.
+Sets the format the options save to.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -613,7 +583,7 @@ public final void setMhtFormatOptions(int value)
 ```
 
 
-Defines additional options when saving in MHTML format. Default value is MhtFormatOptions.WriteHeader | MhtFormatOptions.WriteOutlineAttachments.
+Sets options for the MHTML output. The default is  MhtFormatOptions.WriteHeader | MhtFormatOptions.WriteOutlineAttachments .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -626,7 +596,7 @@ public final void setPreserveOriginalBoundaries(boolean value)
 ```
 
 
-Defines whether need keep original boundaries in mail message when saving or not.
+Sets a value indicating whether the MIME boundaries of the original message are kept. The default is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -639,7 +609,7 @@ public final void setPreserveOriginalDate(boolean value)
 ```
 
 
-Defines whether need keep original date in mail message when saving or not. Default value is true.
+Sets a value indicating whether the original date of the message is kept. The default is  true .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -652,7 +622,7 @@ public final void setRenderedContactFields(int value)
 ```
 
 
-Defines groups of Contact fields which will be included in output mhtml. Default value is ContactFieldsSet.AllExisting.
+Sets the groups of contact fields written for a contact. The default is  ContactFieldsSet.AllExisting .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -678,7 +648,7 @@ public final void setSaveAllHeaders(boolean value)
 ```
 
 
-Defines whether need to save all headers in output mhtml or not. Default value is false.
+Sets a value indicating whether all headers of the message are written to the output. The default is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -691,14 +661,12 @@ public final void setSaveAttachments(boolean value)
 ```
 
 
-Gets or sets a value indicating whether to save attachments.
-
-Value:  true  if attachments should be saved; otherwise,  false .
+Sets a value indicating whether the attachments are saved into the MHTML file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  to save the attachments; otherwise,  false . The default is  true . |
 
 ### setSkipInlineImages(boolean value) {#setSkipInlineImages-boolean-}
 ```
@@ -706,7 +674,7 @@ public final void setSkipInlineImages(boolean value)
 ```
 
 
-Defines whether skip references on images at saving in mhtml or not. Default value is false.
+Sets a value indicating whether inline images are left out of the output. The default is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -719,7 +687,7 @@ public final void setTimeout(int value)
 ```
 
 
-Limits the time in milliseconds of formatting message while saving in Mht. Default value 3 sec.
+Sets the time limit, in milliseconds, for formatting the message. The default is 3000 (3 seconds).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -1,9 +1,9 @@
 ---
 title: UrlCategory
 second_title: Aspose.Email for Java API Reference
-description: Represents category for a URL
+description: Represents category for a URL.
 type: docs
-weight: 724
+weight: 734
 url: /java/com.aspose.email/urlcategory/
 ---
 
@@ -16,7 +16,7 @@ com.aspose.ms.System.IEquatable
 public class UrlCategory implements System.IEquatable<UrlCategory>
 ```
 
-Represents category for a URL
+Represents category for a URL.
 ## Constructors
 
 | Constructor | Description |
@@ -26,28 +26,28 @@ Represents category for a URL
 
 | Field | Description |
 | --- | --- |
-| [BLOG_VALUE](#BLOG-VALUE) | String value for 'Blog' category |
-| [CUSTOM_VALUE](#CUSTOM-VALUE) | String value for 'Custom' category |
-| [FTP_VALUE](#FTP-VALUE) | String value for 'Ftp' category |
-| [HOME_PAGE_VALUE](#HOME-PAGE-VALUE) | String value for 'HomePage' category |
-| [HOME_VALUE](#HOME-VALUE) | String value for 'Home' category |
-| [PROFILE_VALUE](#PROFILE-VALUE) | String value for 'Profile' category |
-| [WORK_VALUE](#WORK-VALUE) | String value for 'Work' category |
+| [BLOG_VALUE](#BLOG-VALUE) | String value for 'Blog' category. |
+| [CUSTOM_VALUE](#CUSTOM-VALUE) | String value for 'Custom' category. |
+| [FTP_VALUE](#FTP-VALUE) | String value for 'Ftp' category. |
+| [HOME_PAGE_VALUE](#HOME-PAGE-VALUE) | String value for 'HomePage' category. |
+| [HOME_VALUE](#HOME-VALUE) | String value for 'Home' category. |
+| [PROFILE_VALUE](#PROFILE-VALUE) | String value for 'Profile' category. |
+| [WORK_VALUE](#WORK-VALUE) | String value for 'Work' category. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(UrlCategory other)](#equals-com.aspose.email.UrlCategory-) | Determines whether the specified object is equal to the current object. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
-| [getBlog()](#getBlog--) | Blog URL |
+| [getBlog()](#getBlog--) | Blog URL. |
 | [getClass()](#getClass--) |  |
-| [getCustom()](#getCustom--) | Custom page URL |
-| [getDescription()](#getDescription--) | Gets description for the 'Custom' category of a URL |
-| [getFtp()](#getFtp--) | Ftp URL |
+| [getCustom()](#getCustom--) | Custom page URL. |
+| [getDescription()](#getDescription--) | Gets description for the 'Custom' category of a URL. |
+| [getFtp()](#getFtp--) | Ftp URL. |
 | [getHome()](#getHome--) | Contact's home-related site. |
-| [getHomePage()](#getHomePage--) | Home page URL |
-| [getProfile()](#getProfile--) | Profile URL |
-| [getValue()](#getValue--) | Gets category of a URL |
+| [getHomePage()](#getHomePage--) | Home page URL. |
+| [getProfile()](#getProfile--) | Profile URL. |
+| [getValue()](#getValue--) | Gets category of a URL. |
 | [getWork()](#getWork--) | Contact's work-related site. |
 | [hashCode()](#hashCode--) | GetHashCode returns a hash function for this object. |
 | [notify()](#notify--) |  |
@@ -69,7 +69,7 @@ Initializes a new instance of the [UrlCategory](../../com.aspose.email/urlcatego
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| description | java.lang.String | Description for the 'Custom' category of a URL |
+| description | java.lang.String | Description for the 'Custom' category of a URL. |
 
 ### BLOG_VALUE {#BLOG-VALUE}
 ```
@@ -77,7 +77,7 @@ public static final String BLOG_VALUE
 ```
 
 
-String value for 'Blog' category
+String value for 'Blog' category.
 
 ### CUSTOM_VALUE {#CUSTOM-VALUE}
 ```
@@ -85,7 +85,7 @@ public static final String CUSTOM_VALUE
 ```
 
 
-String value for 'Custom' category
+String value for 'Custom' category.
 
 ### FTP_VALUE {#FTP-VALUE}
 ```
@@ -93,7 +93,7 @@ public static final String FTP_VALUE
 ```
 
 
-String value for 'Ftp' category
+String value for 'Ftp' category.
 
 ### HOME_PAGE_VALUE {#HOME-PAGE-VALUE}
 ```
@@ -101,7 +101,7 @@ public static final String HOME_PAGE_VALUE
 ```
 
 
-String value for 'HomePage' category
+String value for 'HomePage' category.
 
 ### HOME_VALUE {#HOME-VALUE}
 ```
@@ -109,7 +109,7 @@ public static final String HOME_VALUE
 ```
 
 
-String value for 'Home' category
+String value for 'Home' category.
 
 ### PROFILE_VALUE {#PROFILE-VALUE}
 ```
@@ -117,7 +117,7 @@ public static final String PROFILE_VALUE
 ```
 
 
-String value for 'Profile' category
+String value for 'Profile' category.
 
 ### WORK_VALUE {#WORK-VALUE}
 ```
@@ -125,7 +125,7 @@ public static final String WORK_VALUE
 ```
 
 
-String value for 'Work' category
+String value for 'Work' category.
 
 ### equals(UrlCategory other) {#equals-com.aspose.email.UrlCategory-}
 ```
@@ -141,7 +141,7 @@ Determines whether the specified object is equal to the current object.
 | other | [UrlCategory](../../com.aspose.email/urlcategory) | The object to compare with the current object. |
 
 **Returns:**
-boolean - true if the specified object is equal to the current object; otherwise, false.
+boolean -  true  if the specified object is equal to the current object; otherwise,  false .
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -163,7 +163,7 @@ public static UrlCategory getBlog()
 ```
 
 
-Blog URL
+Blog URL.
 
 **Returns:**
 [UrlCategory](../../com.aspose.email/urlcategory)
@@ -183,7 +183,7 @@ public static UrlCategory getCustom()
 ```
 
 
-Custom page URL
+Custom page URL.
 
 **Returns:**
 [UrlCategory](../../com.aspose.email/urlcategory)
@@ -193,7 +193,7 @@ public final String getDescription()
 ```
 
 
-Gets description for the 'Custom' category of a URL
+Gets description for the 'Custom' category of a URL.
 
 **Returns:**
 java.lang.String
@@ -203,7 +203,7 @@ public static UrlCategory getFtp()
 ```
 
 
-Ftp URL
+Ftp URL.
 
 **Returns:**
 [UrlCategory](../../com.aspose.email/urlcategory)
@@ -223,7 +223,7 @@ public static UrlCategory getHomePage()
 ```
 
 
-Home page URL
+Home page URL.
 
 **Returns:**
 [UrlCategory](../../com.aspose.email/urlcategory)
@@ -233,7 +233,7 @@ public static UrlCategory getProfile()
 ```
 
 
-Profile URL
+Profile URL.
 
 **Returns:**
 [UrlCategory](../../com.aspose.email/urlcategory)
@@ -243,7 +243,7 @@ public final String getValue()
 ```
 
 
-Gets category of a URL
+Gets category of a URL.
 
 **Returns:**
 java.lang.String
@@ -294,11 +294,11 @@ Determines whether the specified objects are equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [UrlCategory](../../com.aspose.email/urlcategory) | First object to compare |
-| b | [UrlCategory](../../com.aspose.email/urlcategory) | Second object to compare |
+| a | [UrlCategory](../../com.aspose.email/urlcategory) | First object to compare. |
+| b | [UrlCategory](../../com.aspose.email/urlcategory) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are equal, otherwise false.
+boolean - Returns  true  if objects are equal, otherwise  false .
 ### op_Inequality(UrlCategory a, UrlCategory b) {#op-Inequality-com.aspose.email.UrlCategory-com.aspose.email.UrlCategory-}
 ```
 public static boolean op_Inequality(UrlCategory a, UrlCategory b)
@@ -310,11 +310,11 @@ Determines whether the specified objects are not equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [UrlCategory](../../com.aspose.email/urlcategory) | First object to compare |
-| b | [UrlCategory](../../com.aspose.email/urlcategory) | Second object to compare |
+| a | [UrlCategory](../../com.aspose.email/urlcategory) | First object to compare. |
+| b | [UrlCategory](../../com.aspose.email/urlcategory) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are not equal, otherwise false.
+boolean - Returns  true  if objects are not equal, otherwise  false .
 ### toString() {#toString--}
 ```
 public String toString()

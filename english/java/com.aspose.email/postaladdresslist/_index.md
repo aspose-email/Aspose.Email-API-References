@@ -3,7 +3,7 @@ title: PostalAddressList
 second_title: Aspose.Email for Java API Reference
 description: List of postal addresses for a contact.
 type: docs
-weight: 606
+weight: 610
 url: /java/com.aspose.email/postaladdresslist/
 ---
 
@@ -35,10 +35,10 @@ List of postal addresses for a contact.
 | [copyToTArray(PostalAddress[] array, int index)](#copyToTArray-com.aspose.email.PostalAddress---int-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getHomeAddress()](#getHomeAddress--) | Default home address |
-| [getOtherAddress()](#getOtherAddress--) | Default other address |
-| [getWorkAddress()](#getWorkAddress--) | Default work address |
-| [get_Item(int index)](#get-Item-int-) | Gets or sets the element at the specified index. |
+| [getHomeAddress()](#getHomeAddress--) | Gets default home address. |
+| [getOtherAddress()](#getOtherAddress--) | Gets default other address. |
+| [getWorkAddress()](#getWorkAddress--) | Gets default work address. |
+| [get_Item(int index)](#get-Item-int-) | Gets the element at the specified index. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(PostalAddress value)](#indexOf-com.aspose.email.PostalAddress-) | Determines the index of a specific item in the list. |
 | [indexOfItem(PostalAddress value)](#indexOfItem-com.aspose.email.PostalAddress-) |  |
@@ -51,11 +51,11 @@ List of postal addresses for a contact.
 | [remove(PostalAddress value)](#remove-com.aspose.email.PostalAddress-) | Removes the first occurrence of a specific object from the list. |
 | [removeAt(int index)](#removeAt-int-) | Removes the list item at the specified index. |
 | [removeItem(PostalAddress value)](#removeItem-com.aspose.email.PostalAddress-) |  |
-| [setHomeAddress(PostalAddress value)](#setHomeAddress-com.aspose.email.PostalAddress-) | Default home address |
-| [setOtherAddress(PostalAddress value)](#setOtherAddress-com.aspose.email.PostalAddress-) | Default other address |
-| [setWorkAddress(PostalAddress value)](#setWorkAddress-com.aspose.email.PostalAddress-) | Default work address |
-| [set_Item(int index, PostalAddress value)](#set-Item-int-com.aspose.email.PostalAddress-) | Gets or sets the element at the specified index. |
-| [size()](#size--) | Gets the number of elements contained in the ICollection. |
+| [setHomeAddress(PostalAddress value)](#setHomeAddress-com.aspose.email.PostalAddress-) | Sets default home address. |
+| [setOtherAddress(PostalAddress value)](#setOtherAddress-com.aspose.email.PostalAddress-) | Sets default other address. |
+| [setWorkAddress(PostalAddress value)](#setWorkAddress-com.aspose.email.PostalAddress-) | Sets default work address. |
+| [set_Item(int index, PostalAddress value)](#set-Item-int-com.aspose.email.PostalAddress-) | Sets the element at the specified index. |
+| [size()](#size--) | Gets the number of elements contained in the collection. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -114,7 +114,7 @@ Determines whether the list contains a specific value.
 | value | [PostalAddress](../../com.aspose.email/postaladdress) | The object to locate in the list. |
 
 **Returns:**
-boolean - true if the object is found in the list; otherwise, false.
+boolean -  true  if the object is found in the list; otherwise,  false .
 ### containsItem(PostalAddress value) {#containsItem-com.aspose.email.PostalAddress-}
 ```
 public boolean containsItem(PostalAddress value)
@@ -142,7 +142,7 @@ Copies the elements to an array, starting at a particular array index.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | array | [PostalAddress\[\]](../../com.aspose.email/postaladdress) | The one-dimensional array that is the destination of the elements copied from collections. The array must have zero-based indexing. |
-| index | int | The zero-based index in array at which copying begins. |
+| index | int | The zero-based index in  array  at which copying begins. |
 
 ### copyToTArray(PostalAddress[] array, int index) {#copyToTArray-com.aspose.email.PostalAddress---int-}
 ```
@@ -189,7 +189,7 @@ public final PostalAddress getHomeAddress()
 ```
 
 
-Default home address
+Gets default home address.
 
 **Returns:**
 [PostalAddress](../../com.aspose.email/postaladdress)
@@ -199,7 +199,7 @@ public final PostalAddress getOtherAddress()
 ```
 
 
-Default other address
+Gets default other address.
 
 **Returns:**
 [PostalAddress](../../com.aspose.email/postaladdress)
@@ -209,7 +209,7 @@ public final PostalAddress getWorkAddress()
 ```
 
 
-Default work address
+Gets default work address.
 
 **Returns:**
 [PostalAddress](../../com.aspose.email/postaladdress)
@@ -219,7 +219,7 @@ public final PostalAddress get_Item(int index)
 ```
 
 
-Gets or sets the element at the specified index.
+Gets the element at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -305,7 +305,7 @@ public final boolean isReadOnly()
 Gets a value indicating whether the list is read-only.
 
 **Returns:**
-boolean - true if the list is read-only; otherwise, false.
+boolean -  true  if the list is read-only; otherwise,  false .
 ### iterator() {#iterator--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<PostalAddress> iterator()
@@ -315,7 +315,7 @@ public final System.Collections.Generic.IGenericEnumerator<PostalAddress> iterat
 Returns an enumerator that iterates through a collection.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.email.PostalAddress> - An IEnumerator object that can be used to iterate through the collection.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.email.PostalAddress> - An iterator that can be used to iterate through the collection.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -381,7 +381,7 @@ public final void setHomeAddress(PostalAddress value)
 ```
 
 
-Default home address
+Sets default home address.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -394,7 +394,7 @@ public final void setOtherAddress(PostalAddress value)
 ```
 
 
-Default other address
+Sets default other address.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -407,7 +407,7 @@ public final void setWorkAddress(PostalAddress value)
 ```
 
 
-Default work address
+Sets default work address.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -420,13 +420,13 @@ public final void set_Item(int index, PostalAddress value)
 ```
 
 
-Gets or sets the element at the specified index.
+Sets the element at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index of the element to get or set. |
-| value | [PostalAddress](../../com.aspose.email/postaladdress) |  |
+| value | [PostalAddress](../../com.aspose.email/postaladdress) | The value to set. |
 
 ### size() {#size--}
 ```
@@ -434,10 +434,10 @@ public final int size()
 ```
 
 
-Gets the number of elements contained in the ICollection.
+Gets the number of elements contained in the collection.
 
 **Returns:**
-int - The number of elements contained in the ICollection.
+int - The number of elements contained in the collection.
 ### toString() {#toString--}
 ```
 public String toString()

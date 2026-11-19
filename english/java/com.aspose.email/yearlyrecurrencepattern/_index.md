@@ -3,7 +3,7 @@ title: YearlyRecurrencePattern
 second_title: Aspose.Email for Java API Reference
 description: Represents a recurrence pattern of yearly recurrence type.
 type: docs
-weight: 767
+weight: 778
 url: /java/com.aspose.email/yearlyrecurrencepattern/
 ---
 
@@ -27,27 +27,27 @@ Represents a recurrence pattern of yearly recurrence type.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getEndDate()](#getEndDate--) | Gets or sets the end date. |
-| [getInterval()](#getInterval--) | Gets or sets the number of recurrence units. |
-| [getOccurs()](#getOccurs--) | Gets or sets the number of occurrences of the recurrence pattern. |
-| [getStartDay()](#getStartDay--) | Gets or sets the start day. |
-| [getStartMonth()](#getStartMonth--) | Gets or sets the start month. |
-| [getStartOffset()](#getStartOffset--) | Gets or sets the start offset. |
-| [getStartPosition()](#getStartPosition--) | Gets or sets the start position. |
-| [getWeekStart()](#getWeekStart--) | Gets or sets the week start. |
+| [getEndDate()](#getEndDate--) | Gets the end date. |
+| [getInterval()](#getInterval--) | Gets the number of recurrence units. |
+| [getOccurs()](#getOccurs--) | Gets the number of occurrences of the recurrence pattern. |
+| [getStartDay()](#getStartDay--) | Gets the start day. |
+| [getStartMonth()](#getStartMonth--) | Gets the start month. |
+| [getStartOffset()](#getStartOffset--) | Gets the start offset. |
+| [getStartPosition()](#getStartPosition--) | Gets the start position. |
+| [getWeekStart()](#getWeekStart--) | Gets the week start. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEndDate(Date value)](#setEndDate-java.util.Date-) | Gets or sets the end date. |
-| [setInterval(int value)](#setInterval-int-) | Gets or sets the number of recurrence units. |
-| [setOccurs(int value)](#setOccurs-int-) | Gets or sets the number of occurrences of the recurrence pattern. |
-| [setStartDay(int value)](#setStartDay-int-) | Gets or sets the start day. |
-| [setStartMonth(int value)](#setStartMonth-int-) | Gets or sets the start month. |
-| [setStartOffset(int value)](#setStartOffset-int-) | Gets or sets the start offset. |
-| [setStartPosition(int value)](#setStartPosition-int-) | Gets or sets the start position. |
-| [setWeekStart(int value)](#setWeekStart-int-) | Gets or sets the week start. |
+| [setEndDate(Date value)](#setEndDate-java.util.Date-) | Sets the end date. |
+| [setInterval(int value)](#setInterval-int-) | Sets the number of recurrence units. |
+| [setOccurs(int value)](#setOccurs-int-) | Sets the number of occurrences of the recurrence pattern. |
+| [setStartDay(int value)](#setStartDay-int-) | Sets the start day. |
+| [setStartMonth(int value)](#setStartMonth-int-) | Sets the start month. |
+| [setStartOffset(int value)](#setStartOffset-int-) | Sets the start offset. |
+| [setStartPosition(int value)](#setStartPosition-int-) | Sets the start position. |
+| [setWeekStart(int value)](#setWeekStart-int-) | Sets the week start. |
 | [toString()](#toString--) | Returns a string that represents the current object. |
-| [to_RecurrencePattern(String value)](#to-RecurrencePattern-java.lang.String-) | Converts string representation of recurrence pattern in ICalendar format to object |
+| [to_RecurrencePattern(String value)](#to-RecurrencePattern-java.lang.String-) | Converts string representation of recurrence pattern in ICalendar format to object. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -119,96 +119,80 @@ public final Date getEndDate()
 ```
 
 
-Gets or sets the end date.
-
-Value: The end date.
+Gets the end date.
 
 **Returns:**
-java.util.Date
+java.util.Date - The end date.
 ### getInterval() {#getInterval--}
 ```
 public final int getInterval()
 ```
 
 
-Gets or sets the number of recurrence units.
-
-Value: The number of recurrence units.
+Gets the number of recurrence units.
 
 **Returns:**
-int
+int - The number of recurrence units.
 ### getOccurs() {#getOccurs--}
 ```
 public final int getOccurs()
 ```
 
 
-Gets or sets the number of occurrences of the recurrence pattern.
-
-Value: The number of occurrences.
+Gets the number of occurrences of the recurrence pattern.
 
 **Returns:**
-int
+int - The number of occurrences.
 ### getStartDay() {#getStartDay--}
 ```
 public final int getStartDay()
 ```
 
 
-Gets or sets the start day.
-
-Value: The start day.
+Gets the start day.
 
 **Returns:**
-int
+int - The start day.
 ### getStartMonth() {#getStartMonth--}
 ```
 public final int getStartMonth()
 ```
 
 
-Gets or sets the start month.
-
-Value: The start month.
+Gets the start month.
 
 **Returns:**
-int
+int - The start month.
 ### getStartOffset() {#getStartOffset--}
 ```
 public final int getStartOffset()
 ```
 
 
-Gets or sets the start offset.
-
-Value: The start offset.
+Gets the start offset.
 
 **Returns:**
-int
+int - The start offset.
 ### getStartPosition() {#getStartPosition--}
 ```
 public final int getStartPosition()
 ```
 
 
-Gets or sets the start position.
-
-Value: The start position.
+Gets the start position.
 
 **Returns:**
-int
+int - The start position.
 ### getWeekStart() {#getWeekStart--}
 ```
 public final int getWeekStart()
 ```
 
 
-Gets or sets the week start.
-
-Value: The week start.
+Gets the week start.
 
 **Returns:**
-int
+int - The week start.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -241,14 +225,12 @@ public final void setEndDate(Date value)
 ```
 
 
-Gets or sets the end date.
-
-Value: The end date.
+Sets the end date.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.Date |  |
+| value | java.util.Date | The end date. |
 
 ### setInterval(int value) {#setInterval-int-}
 ```
@@ -256,14 +238,12 @@ public final void setInterval(int value)
 ```
 
 
-Gets or sets the number of recurrence units.
-
-Value: The number of recurrence units.
+Sets the number of recurrence units.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The number of recurrence units. |
 
 ### setOccurs(int value) {#setOccurs-int-}
 ```
@@ -271,14 +251,12 @@ public final void setOccurs(int value)
 ```
 
 
-Gets or sets the number of occurrences of the recurrence pattern.
-
-Value: The number of occurrences.
+Sets the number of occurrences of the recurrence pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The number of occurrences. |
 
 ### setStartDay(int value) {#setStartDay-int-}
 ```
@@ -286,14 +264,12 @@ public final void setStartDay(int value)
 ```
 
 
-Gets or sets the start day.
-
-Value: The start day.
+Sets the start day.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The start day. |
 
 ### setStartMonth(int value) {#setStartMonth-int-}
 ```
@@ -301,14 +277,12 @@ public final void setStartMonth(int value)
 ```
 
 
-Gets or sets the start month.
-
-Value: The start month.
+Sets the start month.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The start month. |
 
 ### setStartOffset(int value) {#setStartOffset-int-}
 ```
@@ -316,14 +290,12 @@ public final void setStartOffset(int value)
 ```
 
 
-Gets or sets the start offset.
-
-Value: The start offset.
+Sets the start offset.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The start offset. |
 
 ### setStartPosition(int value) {#setStartPosition-int-}
 ```
@@ -331,14 +303,12 @@ public final void setStartPosition(int value)
 ```
 
 
-Gets or sets the start position.
-
-Value: The start position.
+Sets the start position.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The start position. |
 
 ### setWeekStart(int value) {#setWeekStart-int-}
 ```
@@ -346,14 +316,12 @@ public final void setWeekStart(int value)
 ```
 
 
-Gets or sets the week start.
-
-Value: The week start.
+Sets the week start.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The week start. |
 
 ### toString() {#toString--}
 ```
@@ -371,12 +339,12 @@ public static RecurrencePattern to_RecurrencePattern(String value)
 ```
 
 
-Converts string representation of recurrence pattern in ICalendar format to object
+Converts string representation of recurrence pattern in ICalendar format to object.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | Returns RecurrencePattern object |
+| value | java.lang.String | Returns RecurrencePattern object. |
 
 **Returns:**
 [RecurrencePattern](../../com.aspose.email/recurrencepattern)

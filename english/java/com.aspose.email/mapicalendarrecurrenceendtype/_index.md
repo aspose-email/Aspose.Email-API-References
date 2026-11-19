@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarRecurrenceEndType
 second_title: Aspose.Email for Java API Reference
-description: Enumerates the ending type for the recurrence.
+description: Defines how a recurring series ends.
 type: docs
-weight: 420
+weight: 423
 url: /java/com.aspose.email/mapicalendarrecurrenceendtype/
 ---
 
@@ -13,16 +13,16 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiCalendarRecurrenceEndType extends System.Enum
 ```
 
-Enumerates the ending type for the recurrence.
+Defines how a recurring series ends.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [EndAfterDate](#EndAfterDate) | Ends after date. |
-| [EndAfterNOccurrences](#EndAfterNOccurrences) | Ends after N occurrences. |
+| [EndAfterDate](#EndAfterDate) | The series ends on a date. |
+| [EndAfterNOccurrences](#EndAfterNOccurrences) | The series ends after a number of occurrences. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [NeverEnd](#NeverEnd) | Never ends. |
-| [None](#None) | No values are set |
+| [NeverEnd](#NeverEnd) | The series has no end. |
+| [None](#None) | Not set. |
 ## Methods
 
 | Method | Description |
@@ -68,7 +68,7 @@ public static final int EndAfterDate
 ```
 
 
-Ends after date.
+The series ends on a date.
 
 ### EndAfterNOccurrences {#EndAfterNOccurrences}
 ```
@@ -76,7 +76,7 @@ public static final int EndAfterNOccurrences
 ```
 
 
-Ends after N occurrences.
+The series ends after a number of occurrences.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -90,7 +90,7 @@ public static final int NeverEnd
 ```
 
 
-Never ends.
+The series has no end.
 
 ### None {#None}
 ```
@@ -98,7 +98,7 @@ public static final int None
 ```
 
 
-No values are set
+Not set.
 
 ### Clone() {#Clone--}
 ```

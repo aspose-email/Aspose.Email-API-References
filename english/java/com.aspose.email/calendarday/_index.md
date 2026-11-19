@@ -3,7 +3,7 @@ title: CalendarDay
 second_title: Aspose.Email for Java API Reference
 description: Represents the day of the week.
 type: docs
-weight: 93
+weight: 94
 url: /java/com.aspose.email/calendarday/
 ---
 

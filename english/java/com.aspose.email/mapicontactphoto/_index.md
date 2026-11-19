@@ -1,9 +1,9 @@
 ---
 title: MapiContactPhoto
 second_title: Aspose.Email for Java API Reference
-description: Contains data and type of contacts photo.
+description: The photo of a contact the image data and its format.
 type: docs
-weight: 444
+weight: 447
 url: /java/com.aspose.email/mapicontactphoto/
 ---
 
@@ -13,12 +13,12 @@ java.lang.Object, [com.aspose.email.ContactPhoto](../../com.aspose.email/contact
 public final class MapiContactPhoto extends ContactPhoto
 ```
 
-Contains data and type of contact's photo.
+The photo of a contact: the image data and its format.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MapiContactPhoto(byte[] data, int photoImageFormat)](#MapiContactPhoto-byte---int-) | Initializes a new instance of the [MapiContactPhoto](../../com.aspose.email/mapicontactphoto) class |
+| [MapiContactPhoto(byte[] data, int photoImageFormat)](#MapiContactPhoto-byte---int-) | Initializes a new instance of the [MapiContactPhoto](../../com.aspose.email/mapicontactphoto) class. |
 ## Methods
 
 | Method | Description |
@@ -26,7 +26,7 @@ Contains data and type of contact's photo.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getData()](#getData--) | Gets an image data. |
-| [getId()](#getId--) | Gets object identification information |
+| [getId()](#getId--) | Gets object identification information. |
 | [getPhotoImageFormat()](#getPhotoImageFormat--) | Gets a photo type. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -41,13 +41,13 @@ public MapiContactPhoto(byte[] data, int photoImageFormat)
 ```
 
 
-Initializes a new instance of the [MapiContactPhoto](../../com.aspose.email/mapicontactphoto) class
+Initializes a new instance of the [MapiContactPhoto](../../com.aspose.email/mapicontactphoto) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | byte[] | Image data of photo. |
-| photoImageFormat | int | Image format of photo [MapiContactPhotoImageFormat](../../com.aspose.email/mapicontactphotoimageformat). |
+| data | byte[] | The image data. |
+| photoImageFormat | int | The format of the image. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -90,7 +90,7 @@ public final ObjectIdentifier getId()
 ```
 
 
-Gets object identification information
+Gets object identification information.
 
 **Returns:**
 [ObjectIdentifier](../../com.aspose.email/objectidentifier)

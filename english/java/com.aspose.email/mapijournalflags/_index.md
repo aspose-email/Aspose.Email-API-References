@@ -1,9 +1,9 @@
 ---
 title: MapiJournalFlags
 second_title: Aspose.Email for Java API Reference
-description: Contains metadata about the Journal object.
+description: Defines the flags of a journal entry.
 type: docs
-weight: 465
+weight: 468
 url: /java/com.aspose.email/mapijournalflags/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiJournalFlags extends System.Enum
 ```
 
-Contains metadata about the Journal object. Must be either zero or the following values.
+Defines the flags of a journal entry.
 ## Fields
 
 | Field | Description |

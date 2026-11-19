@@ -1,9 +1,9 @@
 ---
 title: LinkedResource
 second_title: Aspose.Email for Java API Reference
-description: Represents an embedded resource in a message.
+description: Represents an embedded resource such as an image or file that can be referenced by an  in an email message.
 type: docs
-weight: 366
+weight: 369
 url: /java/com.aspose.email/linkedresource/
 ---
 
@@ -13,80 +13,80 @@ java.lang.Object, [com.aspose.email.AttachmentBase](../../com.aspose.email/attac
 public class LinkedResource extends AttachmentBase
 ```
 
-Represents an embedded resource in a message.
+Represents an embedded resource (such as an image or file) that can be referenced by an [AlternateView](../../com.aspose.email/alternateview) in an email message. Linked resources are typically used to embed images, fonts, or other assets directly into HTML email content using Content-ID references.
 
---------------------
+Linked resources are added to [MailMessage.getLinkedResources()](../../com.aspose.email/mailmessage\#getLinkedResources--) and referenced in HTML content using the 'cid:' prefix (e.g., <img src='cid:resourceId'>). They differ from regular [Attachment](../../com.aspose.email/attachment) objects in that they are embedded within the message body rather than appearing as downloadable attachments.
 
-> The following example shows how to embed objects using LinkedResource into an Email.
-> 
-> [Java]
-> 
-> ```
-> MailMessage eml = new MailMessage();
->  eml.setFrom(MailAddress.to_MailAddress("AndrewIrwin@from.com"));
->  eml.setTo(MailAddressCollection.to_MailAddressCollection("SusanMarc@to.com"));
->  eml.setSubject("This is an email");
-> 
->  // Create the plain text part It is viewable by those clients that don't support HTML
->  AlternateView plainView = AlternateView.createAlternateViewFromString("This is my plain text content", null,
->  "text/plain");
-> 
->  // Create the HTML part.To embed images, we need to use the prefix 'cid' in the img src value.
->  // The cid value will map to the Content-Id of a Linked resource. Thus <img src='cid:barcode'>
->  // will map to a LinkedResource with a ContentId of 'barcode'.
->  AlternateView htmlView = AlternateView.createAlternateViewFromString(
->  "Here is an embedded image. <img src=cid:barcode>", null, "text/html");
-> 
->  // Create the LinkedResource (embedded image) and Add the LinkedResource to the appropriate view
->  LinkedResource barcode = new LinkedResource("1.jpg", Image.JPEG);
->  barcode.setContentId("barcode");
-> 
->  eml.getLinkedResources().addItem(barcode);
->  eml.getAlternateViews().addItem(plainView);
->  eml.getAlternateViews().addItem(htmlView);
-> 
->  eml.save("EmbeddedImage_out.msg", SaveOptions.getDefaultMsgUnicode());
-> ```
+The following example shows how to embed objects using LinkedResource into an Email.
 
---------------------
+```
+
+ MailMessage eml = new MailMessage();
+ eml.setFrom(MailAddress.to_MailAddress("AndrewIrwin@from.com"));
+ eml.setTo(MailAddressCollection.to_MailAddressCollection("SusanMarc@to.com"));
+ eml.setSubject("This is an email");
+
+ // Create the plain text part It is viewable by those clients that don't support HTML
+ AlternateView plainView =
+         AlternateView.createAlternateViewFromString("This is my plain text content", null, "text/plain");
+
+ // Create the HTML part.To embed images, we need to use the prefix 'cid' in the img src value.
+ // The cid value will map to the Content-Id of a Linked resource. Thus 
+ // will map to a LinkedResource with a ContentId of 'barcode'.
+ AlternateView htmlView =
+         AlternateView.createAlternateViewFromString("Here is an embedded image.", null,
+                 "text/html");
+
+ // Create the LinkedResource (embedded image) and Add the LinkedResource to the appropriate view
+ LinkedResource barcode = new LinkedResource("1.jpg", "image/jpeg");
+ barcode.setContentId("barcode");
+
+ eml.getLinkedResources().addItem(barcode);
+ eml.getAlternateViews().addItem(plainView);
+ eml.getAlternateViews().addItem(htmlView);
+
+ eml.save("EmbeddedImage_out.msg", SaveOptions.getDefaultMsgUnicode());
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [LinkedResource(String fileName)](#LinkedResource-java.lang.String-) | Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class. |
-| [LinkedResource(String fileName, String mediaType)](#LinkedResource-java.lang.String-java.lang.String-) | Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class. |
-| [LinkedResource(String fileName, ContentType contentType)](#LinkedResource-java.lang.String-com.aspose.email.ContentType-) | Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class. |
-| [LinkedResource(InputStream contentStream)](#LinkedResource-java.io.InputStream-) | Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class. |
-| [LinkedResource(InputStream contentStream, String mediaType)](#LinkedResource-java.io.InputStream-java.lang.String-) | Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class. |
-| [LinkedResource(InputStream contentStream, ContentType contentType)](#LinkedResource-java.io.InputStream-com.aspose.email.ContentType-) | Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class. |
+| [LinkedResource(String fileName)](#LinkedResource-java.lang.String-) | Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class with the content of a file. |
+| [LinkedResource(String fileName, String mediaType)](#LinkedResource-java.lang.String-java.lang.String-) | Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class with the content of a file. |
+| [LinkedResource(String fileName, ContentType contentType)](#LinkedResource-java.lang.String-com.aspose.email.ContentType-) | Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class with the content of a file. |
+| [LinkedResource(InputStream contentStream)](#LinkedResource-java.io.InputStream-) | Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class with the content of a stream. |
+| [LinkedResource(InputStream contentStream, String mediaType)](#LinkedResource-java.io.InputStream-java.lang.String-) | Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class with the content of a stream. |
+| [LinkedResource(InputStream contentStream, ContentType contentType)](#LinkedResource-java.io.InputStream-com.aspose.email.ContentType-) | Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class with the content of a stream. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [close()](#close--) |  |
-| [createLinkedResourceFromString(String content)](#createLinkedResourceFromString-java.lang.String-) | Creates the linked resource from string. |
-| [createLinkedResourceFromString(String content, ContentType contentType)](#createLinkedResourceFromString-java.lang.String-com.aspose.email.ContentType-) | Creates the linked resource from string. |
-| [createLinkedResourceFromString(String content, Charset contentEncoding, String mediaType)](#createLinkedResourceFromString-java.lang.String-java.nio.charset.Charset-java.lang.String-) | Creates the linked resource from string. |
+| [close()](#close--) | Releases the resources used by the part, including its content stream. |
+| [createLinkedResourceFromString(String content)](#createLinkedResourceFromString-java.lang.String-) | Creates a linked resource from a string. |
+| [createLinkedResourceFromString(String content, ContentType contentType)](#createLinkedResourceFromString-java.lang.String-com.aspose.email.ContentType-) | Creates a linked resource from a string. |
+| [createLinkedResourceFromString(String content, Charset contentEncoding, String mediaType)](#createLinkedResourceFromString-java.lang.String-java.nio.charset.Charset-java.lang.String-) | Creates a linked resource from a string. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getContentDisposition()](#getContentDisposition--) | Gets Content-Disposition header |
-| [getContentId()](#getContentId--) | Gets or sets the content id. |
-| [getContentLink()](#getContentLink--) | Gets or sets a URI that the resource must match. |
-| [getContentStream()](#getContentStream--) | Gets or sets the content stream. |
-| [getContentType()](#getContentType--) | Gets or sets the type of the content. |
-| [getHeaders()](#getHeaders--) | Gets headers collection of attachment. |
-| [getTransferEncoding()](#getTransferEncoding--) | Gets or sets the transfer encoding. |
+| [getContentDisposition()](#getContentDisposition--) | Gets the  Content-Disposition  header of the resource. |
+| [getContentId()](#getContentId--) | Gets the content ID of the part, by which HTML refers to it with a  cid:  URL. |
+| [getContentLink()](#getContentLink--) | Gets the URI by which the HTML refers to the resource, as an alternative to its content ID. |
+| [getContentStream()](#getContentStream--) | Gets the stream that holds the content. |
+| [getContentType()](#getContentType--) | Gets the content type of the part: its media type, name and character set. |
+| [getHeaders()](#getHeaders--) | Gets the MIME headers of the part. |
+| [getTransferEncoding()](#getTransferEncoding--) | Gets how the content is encoded for transfer, such as Base64 or quoted-printable. |
+| [getUniqueId()](#getUniqueId--) | Gets an identifier of the part that stays the same while the application runs. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves the specified stream. |
-| [save(String fileName)](#save-java.lang.String-) | Saves the specified file name. |
-| [setContentId(String value)](#setContentId-java.lang.String-) | Gets or sets the content id. |
-| [setContentLink(URI value)](#setContentLink-java.net.URI-) | Gets or sets a URI that the resource must match. |
-| [setContentStream(InputStream value)](#setContentStream-java.io.InputStream-) | Gets or sets the content stream. |
-| [setContentType(ContentType value)](#setContentType-com.aspose.email.ContentType-) | Gets or sets the type of the content. |
-| [setTransferEncoding(int value)](#setTransferEncoding-int-) | Gets or sets the transfer encoding. |
+| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves the decoded content of the part to a stream. |
+| [save(String fileName)](#save-java.lang.String-) | Saves the decoded content of the part to a file. |
+| [setContentId(String value)](#setContentId-java.lang.String-) | Sets the content ID of the part, by which HTML refers to it with a  cid:  URL. |
+| [setContentLink(URI value)](#setContentLink-java.net.URI-) | Sets the URI by which the HTML refers to the resource, as an alternative to its content ID. |
+| [setContentStream(InputStream value)](#setContentStream-java.io.InputStream-) | Sets the stream that holds the content. |
+| [setContentType(ContentType value)](#setContentType-com.aspose.email.ContentType-) | Sets the content type of the part: its media type, name and character set. |
+| [setTransferEncoding(int value)](#setTransferEncoding-int-) | Sets how the content is encoded for transfer, such as Base64 or quoted-printable. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -97,12 +97,12 @@ public LinkedResource(String fileName)
 ```
 
 
-Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class.
+Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class with the content of a file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | The file name that holds the content for this resource. |
+| fileName | java.lang.String | The path of the file that contains the resource. |
 
 ### LinkedResource(String fileName, String mediaType) {#LinkedResource-java.lang.String-java.lang.String-}
 ```
@@ -110,13 +110,13 @@ public LinkedResource(String fileName, String mediaType)
 ```
 
 
-Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class.
+Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class with the content of a file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | The file name that holds the content for this resource. |
-| mediaType | java.lang.String | Internet media type. |
+| fileName | java.lang.String | The path of the file that contains the resource. |
+| mediaType | java.lang.String | The MIME media type, such as  image/png . |
 
 ### LinkedResource(String fileName, ContentType contentType) {#LinkedResource-java.lang.String-com.aspose.email.ContentType-}
 ```
@@ -124,13 +124,13 @@ public LinkedResource(String fileName, ContentType contentType)
 ```
 
 
-Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class.
+Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class with the content of a file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | The file name that holds the content for this resource. |
-| contentType | [ContentType](../../com.aspose.email/contenttype) | The type of content. |
+| fileName | java.lang.String | The path of the file that contains the resource. |
+| contentType | [ContentType](../../com.aspose.email/contenttype) | The content type of the resource. |
 
 ### LinkedResource(InputStream contentStream) {#LinkedResource-java.io.InputStream-}
 ```
@@ -138,12 +138,12 @@ public LinkedResource(InputStream contentStream)
 ```
 
 
-Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class.
+Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class with the content of a stream.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| contentStream | java.io.InputStream | A stream that contains the content for this resource. |
+| contentStream | java.io.InputStream | The stream that contains the resource. |
 
 ### LinkedResource(InputStream contentStream, String mediaType) {#LinkedResource-java.io.InputStream-java.lang.String-}
 ```
@@ -151,13 +151,13 @@ public LinkedResource(InputStream contentStream, String mediaType)
 ```
 
 
-Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class.
+Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class with the content of a stream.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| contentStream | java.io.InputStream | A stream that contains the content for this resource. |
-| mediaType | java.lang.String | Internet media type. |
+| contentStream | java.io.InputStream | The stream that contains the resource. |
+| mediaType | java.lang.String | The MIME media type, such as  image/png . |
 
 ### LinkedResource(InputStream contentStream, ContentType contentType) {#LinkedResource-java.io.InputStream-com.aspose.email.ContentType-}
 ```
@@ -165,13 +165,13 @@ public LinkedResource(InputStream contentStream, ContentType contentType)
 ```
 
 
-Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class.
+Initializes a new instance of the [LinkedResource](../../com.aspose.email/linkedresource) class with the content of a stream.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| contentStream | java.io.InputStream | A stream that contains the content for this resource. |
-| contentType | [ContentType](../../com.aspose.email/contenttype) | The type of content. |
+| contentStream | java.io.InputStream | The stream that contains the resource. |
+| contentType | [ContentType](../../com.aspose.email/contenttype) | The content type of the resource. |
 
 ### close() {#close--}
 ```
@@ -179,7 +179,7 @@ public void close()
 ```
 
 
-
+Releases the resources used by the part, including its content stream.
 
 ### createLinkedResourceFromString(String content) {#createLinkedResourceFromString-java.lang.String-}
 ```
@@ -187,48 +187,48 @@ public static LinkedResource createLinkedResourceFromString(String content)
 ```
 
 
-Creates the linked resource from string.
+Creates a linked resource from a string.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | java.lang.String | A string that contains the resource to be included in the email attachment. |
+| content | java.lang.String | The content of the resource. |
 
 **Returns:**
-[LinkedResource](../../com.aspose.email/linkedresource) - A LinkedResource object that contains the embedded resource.
+[LinkedResource](../../com.aspose.email/linkedresource) - The new linked resource.
 ### createLinkedResourceFromString(String content, ContentType contentType) {#createLinkedResourceFromString-java.lang.String-com.aspose.email.ContentType-}
 ```
 public static LinkedResource createLinkedResourceFromString(String content, ContentType contentType)
 ```
 
 
-Creates the linked resource from string.
+Creates a linked resource from a string.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | java.lang.String | A string that contains the resource to be included in the email attachment. |
-| contentType | [ContentType](../../com.aspose.email/contenttype) | The type of the content. |
+| content | java.lang.String | The content of the resource. |
+| contentType | [ContentType](../../com.aspose.email/contenttype) | The content type of the resource. |
 
 **Returns:**
-[LinkedResource](../../com.aspose.email/linkedresource) - A LinkedResource object that contains the embedded resource.
+[LinkedResource](../../com.aspose.email/linkedresource) - The new linked resource.
 ### createLinkedResourceFromString(String content, Charset contentEncoding, String mediaType) {#createLinkedResourceFromString-java.lang.String-java.nio.charset.Charset-java.lang.String-}
 ```
 public static LinkedResource createLinkedResourceFromString(String content, Charset contentEncoding, String mediaType)
 ```
 
 
-Creates the linked resource from string.
+Creates a linked resource from a string.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | java.lang.String | A string that contains the resource to be included in the email attachment. |
-| contentEncoding | java.nio.charset.Charset | The content encoding. |
+| content | java.lang.String | The content of the resource. |
+| contentEncoding | java.nio.charset.Charset | The character encoding of the content. |
 | mediaType | java.lang.String | The MIME media type of the content. |
 
 **Returns:**
-[LinkedResource](../../com.aspose.email/linkedresource) - A LinkedResource object that contains the embedded resource.
+[LinkedResource](../../com.aspose.email/linkedresource) - The new linked resource.
 ### dispose() {#dispose--}
 ```
 public final void dispose()
@@ -268,7 +268,7 @@ public final ContentDisposition getContentDisposition()
 ```
 
 
-Gets Content-Disposition header
+Gets the  Content-Disposition  header of the resource.
 
 **Returns:**
 [ContentDisposition](../../com.aspose.email/contentdisposition)
@@ -278,19 +278,17 @@ public final String getContentId()
 ```
 
 
-Gets or sets the content id.
-
-Value: The content id.
+Gets the content ID of the part, by which HTML refers to it with a  cid:  URL.
 
 **Returns:**
-java.lang.String
+java.lang.String - The content ID.
 ### getContentLink() {#getContentLink--}
 ```
 public final URI getContentLink()
 ```
 
 
-Gets or sets a URI that the resource must match.
+Gets the URI by which the HTML refers to the resource, as an alternative to its content ID.
 
 **Returns:**
 java.net.URI
@@ -300,31 +298,27 @@ public final InputStream getContentStream()
 ```
 
 
-Gets or sets the content stream.
-
-Value: The content stream.
+Gets the stream that holds the content.
 
 **Returns:**
-java.io.InputStream
+java.io.InputStream - The content stream.
 ### getContentType() {#getContentType--}
 ```
 public final ContentType getContentType()
 ```
 
 
-Gets or sets the type of the content.
-
-Value: The type of the content.
+Gets the content type of the part: its media type, name and character set.
 
 **Returns:**
-[ContentType](../../com.aspose.email/contenttype)
+[ContentType](../../com.aspose.email/contenttype) - The content type.
 ### getHeaders() {#getHeaders--}
 ```
 public HeaderCollection getHeaders()
 ```
 
 
-Gets headers collection of attachment.
+Gets the MIME headers of the part.
 
 **Returns:**
 [HeaderCollection](../../com.aspose.email/headercollection)
@@ -334,12 +328,20 @@ public final int getTransferEncoding()
 ```
 
 
-Gets or sets the transfer encoding.
-
-Value: The transfer encoding.
+Gets how the content is encoded for transfer, such as Base64 or quoted-printable.
 
 **Returns:**
-int
+int - The transfer encoding.
+### getUniqueId() {#getUniqueId--}
+```
+public final String getUniqueId()
+```
+
+
+Gets an identifier of the part that stays the same while the application runs.
+
+**Returns:**
+java.lang.String
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -372,12 +374,12 @@ public void save(OutputStream stream)
 ```
 
 
-Saves the specified stream.
+Saves the decoded content of the part to a stream.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream | The stream. |
+| stream | java.io.OutputStream | The stream to write to. |
 
 ### save(String fileName) {#save-java.lang.String-}
 ```
@@ -385,12 +387,12 @@ public void save(String fileName)
 ```
 
 
-Saves the specified file name.
+Saves the decoded content of the part to a file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | Name of the file. |
+| fileName | java.lang.String | The path of the file to write. |
 
 ### setContentId(String value) {#setContentId-java.lang.String-}
 ```
@@ -398,14 +400,12 @@ public final void setContentId(String value)
 ```
 
 
-Gets or sets the content id.
-
-Value: The content id.
+Sets the content ID of the part, by which HTML refers to it with a  cid:  URL.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The content ID. |
 
 ### setContentLink(URI value) {#setContentLink-java.net.URI-}
 ```
@@ -413,7 +413,7 @@ public final void setContentLink(URI value)
 ```
 
 
-Gets or sets a URI that the resource must match.
+Sets the URI by which the HTML refers to the resource, as an alternative to its content ID.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -426,14 +426,12 @@ public final void setContentStream(InputStream value)
 ```
 
 
-Gets or sets the content stream.
-
-Value: The content stream.
+Sets the stream that holds the content.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.io.InputStream |  |
+| value | java.io.InputStream | The content stream. |
 
 ### setContentType(ContentType value) {#setContentType-com.aspose.email.ContentType-}
 ```
@@ -441,14 +439,12 @@ public final void setContentType(ContentType value)
 ```
 
 
-Gets or sets the type of the content.
-
-Value: The type of the content.
+Sets the content type of the part: its media type, name and character set.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ContentType](../../com.aspose.email/contenttype) |  |
+| value | [ContentType](../../com.aspose.email/contenttype) | The content type. |
 
 ### setTransferEncoding(int value) {#setTransferEncoding-int-}
 ```
@@ -456,14 +452,12 @@ public final void setTransferEncoding(int value)
 ```
 
 
-Gets or sets the transfer encoding.
-
-Value: The transfer encoding.
+Sets how the content is encoded for transfer, such as Base64 or quoted-printable.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The transfer encoding. |
 
 ### toString() {#toString--}
 ```

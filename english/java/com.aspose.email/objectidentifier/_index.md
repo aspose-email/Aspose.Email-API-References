@@ -1,9 +1,9 @@
 ---
 title: ObjectIdentifier
 second_title: Aspose.Email for Java API Reference
-description: Contains object identification information
+description: The identifiers of an object on the servers it came from.
 type: docs
-weight: 568
+weight: 572
 url: /java/com.aspose.email/objectidentifier/
 ---
 
@@ -13,21 +13,21 @@ java.lang.Object
 public class ObjectIdentifier
 ```
 
-Contains object identification information
+The identifiers of an object on the servers it came from.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ObjectIdentifier()](#ObjectIdentifier--) | Initialize a new instance of the [ObjectIdentifier](../../com.aspose.email/objectidentifier) class. |
+| [ObjectIdentifier()](#ObjectIdentifier--) | Initializes a new instance of the [ObjectIdentifier](../../com.aspose.email/objectidentifier) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getEWSId()](#getEWSId--) | Exchange web service id |
-| [getGoogleId()](#getGoogleId--) | Google services id |
-| [getWebDavId()](#getWebDavId--) | WebDav services id |
+| [getEWSId()](#getEWSId--) | Gets the identifier of the object in Exchange Web Services (EWS). |
+| [getGoogleId()](#getGoogleId--) | Gets the identifier of the object in Google services. |
+| [getWebDavId()](#getWebDavId--) | Gets the identifier of the object in WebDAV. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -41,7 +41,7 @@ public ObjectIdentifier()
 ```
 
 
-Initialize a new instance of the [ObjectIdentifier](../../com.aspose.email/objectidentifier) class.
+Initializes a new instance of the [ObjectIdentifier](../../com.aspose.email/objectidentifier) class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -74,7 +74,7 @@ public final String getEWSId()
 ```
 
 
-Exchange web service id
+Gets the identifier of the object in Exchange Web Services (EWS).
 
 **Returns:**
 java.lang.String
@@ -84,7 +84,7 @@ public final String getGoogleId()
 ```
 
 
-Google services id
+Gets the identifier of the object in Google services.
 
 **Returns:**
 java.lang.String
@@ -94,7 +94,7 @@ public final String getWebDavId()
 ```
 
 
-WebDav services id
+Gets the identifier of the object in WebDAV.
 
 **Returns:**
 java.lang.String

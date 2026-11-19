@@ -1,9 +1,9 @@
 ---
 title: MessageStore
 second_title: Aspose.Email for Java API Reference
-description: Message store is the root of the PST  which is the rough equivalent of the top of a Mailbox.
+description: The message store of a PST its top-level object which holds the display name password and other settings of the file.
 type: docs
-weight: 530
+weight: 533
 url: /java/com.aspose.email/messagestore/
 ---
 
@@ -13,24 +13,24 @@ java.lang.Object
 public class MessageStore
 ```
 
-Message store is the root of the PST, which is the rough equivalent of the top of a Mailbox.
+The message store of a PST: its top-level object, which holds the display name, password and other settings of the file.
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [changeDisplayName(String newName)](#changeDisplayName-java.lang.String-) | Changes the pst display name. |
-| [changePassword(String password)](#changePassword-java.lang.String-) | Sets the password. |
+| [changeDisplayName(String newName)](#changeDisplayName-java.lang.String-) | Changes the display name of the PST. |
+| [changePassword(String password)](#changePassword-java.lang.String-) | Sets or changes the password of the PST. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDisplayName()](#getDisplayName--) | Gets the display Name of PST. |
+| [getDisplayName()](#getDisplayName--) | Gets the display name of the PST, which Outlook shows as the name of the data file. |
 | [getProperties()](#getProperties--) | Gets the MAPI properties of message store object. |
-| [getTotalItemsCount()](#getTotalItemsCount--) | Gets the total items count. |
+| [getTotalItemsCount()](#getTotalItemsCount--) | Gets the total number of message items in the PST. |
 | [hashCode()](#hashCode--) |  |
 | [isPasswordProtected()](#isPasswordProtected--) | Gets a value indicating whether the storage is password protected. |
-| [isPasswordValid(String password)](#isPasswordValid-java.lang.String-) | Determines whether the specified string is a valid password for the storage. |
+| [isPasswordValid(String password)](#isPasswordValid-java.lang.String-) | Checks whether the specified password is the password of the PST. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setProperty(MapiProperty property)](#setProperty-com.aspose.email.MapiProperty-) | Sets the property. |
+| [setProperty(MapiProperty property)](#setProperty-com.aspose.email.MapiProperty-) | Sets a property of the message store. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -41,12 +41,12 @@ public final void changeDisplayName(String newName)
 ```
 
 
-Changes the pst display name.
+Changes the display name of the PST.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newName | java.lang.String | The new display name of message store. |
+| newName | java.lang.String | The new display name. |
 
 ### changePassword(String password) {#changePassword-java.lang.String-}
 ```
@@ -54,12 +54,12 @@ public final void changePassword(String password)
 ```
 
 
-Sets the password.
+Sets or changes the password of the PST.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | java.lang.String | The string that represents the password. |
+| password | java.lang.String | The new password. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -92,12 +92,10 @@ public final String getDisplayName()
 ```
 
 
-Gets the display Name of PST.
-
-Value: The string that represents display name.
+Gets the display name of the PST, which Outlook shows as the name of the data file.
 
 **Returns:**
-java.lang.String
+java.lang.String - The display name.
 ### getProperties() {#getProperties--}
 ```
 public final MapiPropertyCollection getProperties()
@@ -106,20 +104,18 @@ public final MapiPropertyCollection getProperties()
 
 Gets the MAPI properties of message store object. The message store contains the top-level PST settings and metadata that are required to access and manage the PST contents.
 
-Value: The [MapiProperty](../../com.aspose.email/mapiproperty) collection.
-
 **Returns:**
-[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection)
+[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) - The [MapiProperty](../../com.aspose.email/mapiproperty) collection.
 ### getTotalItemsCount() {#getTotalItemsCount--}
 ```
 public final int getTotalItemsCount()
 ```
 
 
-Gets the total items count. Returns the total number of message items contained in the PST.
+Gets the total number of message items in the PST.
 
 **Returns:**
-int - Total message items count.
+int - The number of message items in all folders.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -138,25 +134,23 @@ public final boolean isPasswordProtected()
 
 Gets a value indicating whether the storage is password protected.
 
-Value:  true  if the storage is password protected; otherwise,  false .
-
 **Returns:**
-boolean
+boolean -  true  if the storage is password protected; otherwise,  false .
 ### isPasswordValid(String password) {#isPasswordValid-java.lang.String-}
 ```
 public final boolean isPasswordValid(String password)
 ```
 
 
-Determines whether the specified string is a valid password for the storage.
+Checks whether the specified password is the password of the PST.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | java.lang.String | The password string. |
+| password | java.lang.String | The password to check. |
 
 **Returns:**
-boolean
+boolean -  true  if the PST is password protected and  password  matches; otherwise,  false .
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -179,12 +173,12 @@ public final void setProperty(MapiProperty property)
 ```
 
 
-Sets the property.
+Sets a property of the message store.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| property | [MapiProperty](../../com.aspose.email/mapiproperty) | The property. |
+| property | [MapiProperty](../../com.aspose.email/mapiproperty) | The property to set. |
 
 ### toString() {#toString--}
 ```

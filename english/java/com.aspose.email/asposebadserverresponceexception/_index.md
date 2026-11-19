@@ -1,7 +1,7 @@
 ---
 title: AsposeBadServerResponceException
 second_title: Aspose.Email for Java API Reference
-description: Represents errors that occur during server operation execution.
+description: The exception that is thrown when a server returns a response the client cannot process.
 type: docs
 weight: 55
 url: /java/com.aspose.email/asposebadserverresponceexception/
@@ -13,17 +13,15 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class AsposeBadServerResponceException extends AsposeException
 ```
 
-Represents errors that occur during server operation execution.
-
- 1 
+The exception that is thrown when a server returns a response the client cannot process.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [AsposeBadServerResponceException(String message)](#AsposeBadServerResponceException-java.lang.String-) | Initializes a new instance of the [AsposeBadServerResponceException](../../com.aspose.email/asposebadserverresponceexception) class with a specified error message. |
+| [AsposeBadServerResponceException(String message)](#AsposeBadServerResponceException-java.lang.String-) | Initializes a new instance of the [AsposeBadServerResponceException](../../com.aspose.email/asposebadserverresponceexception) class with the specified error message. |
 | [AsposeBadServerResponceException()](#AsposeBadServerResponceException--) | Initializes a new instance of the [AsposeBadServerResponceException](../../com.aspose.email/asposebadserverresponceexception) class. |
-| [AsposeBadServerResponceException(String message, RuntimeException innerException)](#AsposeBadServerResponceException-java.lang.String-java.lang.RuntimeException-) | Initializes a new instance of the [AsposeBadServerResponceException](../../com.aspose.email/asposebadserverresponceexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
-| [AsposeBadServerResponceException(RuntimeException innerException)](#AsposeBadServerResponceException-java.lang.RuntimeException-) | Initializes a new instance of the [AsposeBadServerResponceException](../../com.aspose.email/asposebadserverresponceexception) class with a reference to the inner exception that is the cause of this exception. |
+| [AsposeBadServerResponceException(String message, RuntimeException innerException)](#AsposeBadServerResponceException-java.lang.String-java.lang.RuntimeException-) | Initializes a new instance of the [AsposeBadServerResponceException](../../com.aspose.email/asposebadserverresponceexception) class with the specified error message and a reference to the exception that caused it. |
+| [AsposeBadServerResponceException(RuntimeException innerException)](#AsposeBadServerResponceException-java.lang.RuntimeException-) | Initializes a new instance of the [AsposeBadServerResponceException](../../com.aspose.email/asposebadserverresponceexception) class with a reference to the exception that caused it. |
 ## Methods
 
 | Method | Description |
@@ -33,11 +31,11 @@ Represents errors that occur during server operation execution.
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
 | [getClass()](#getClass--) |  |
-| [getErrorCode()](#getErrorCode--) | Returns a code of error. |
-| [getErrorDetails()](#getErrorDetails--) | Gets extra information aboout error |
+| [getErrorCode()](#getErrorCode--) | Gets the error code reported by the server. |
+| [getErrorDetails()](#getErrorDetails--) | Gets additional information about the error, if the operation provides any. |
 | [getInnerException()](#getInnerException--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
-| [getMessage()](#getMessage--) | Gets a message that describes the current exception. |
+| [getMessage()](#getMessage--) | Gets the message that describes the error. |
 | [getStackTrace()](#getStackTrace--) |  |
 | [getSuppressed()](#getSuppressed--) |  |
 | [getType()](#getType--) |  |
@@ -49,7 +47,7 @@ Represents errors that occur during server operation execution.
 | [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
 | [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
 | [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [toString()](#toString--) | Returns a string that represents the current object. |
+| [toString()](#toString--) | Returns the type, the message and the stack trace of the exception. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -59,12 +57,12 @@ public AsposeBadServerResponceException(String message)
 ```
 
 
-Initializes a new instance of the [AsposeBadServerResponceException](../../com.aspose.email/asposebadserverresponceexception) class with a specified error message.
+Initializes a new instance of the [AsposeBadServerResponceException](../../com.aspose.email/asposebadserverresponceexception) class with the specified error message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | A message that describes the error. |
+| message | java.lang.String | The message that describes the error. |
 
 ### AsposeBadServerResponceException() {#AsposeBadServerResponceException--}
 ```
@@ -80,13 +78,13 @@ public AsposeBadServerResponceException(String message, RuntimeException innerEx
 ```
 
 
-Initializes a new instance of the [AsposeBadServerResponceException](../../com.aspose.email/asposebadserverresponceexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [AsposeBadServerResponceException](../../com.aspose.email/asposebadserverresponceexception) class with the specified error message and a reference to the exception that caused it.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The error message that explains the reason for the exception. |
-| innerException | java.lang.RuntimeException | The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. |
+| message | java.lang.String | The message that describes the error. |
+| innerException | java.lang.RuntimeException | The exception that caused this exception, or  null . |
 
 ### AsposeBadServerResponceException(RuntimeException innerException) {#AsposeBadServerResponceException-java.lang.RuntimeException-}
 ```
@@ -94,12 +92,12 @@ public AsposeBadServerResponceException(RuntimeException innerException)
 ```
 
 
-Initializes a new instance of the [AsposeBadServerResponceException](../../com.aspose.email/asposebadserverresponceexception) class with a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [AsposeBadServerResponceException](../../com.aspose.email/asposebadserverresponceexception) class with a reference to the exception that caused it.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| innerException | java.lang.RuntimeException | The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. |
+| innerException | java.lang.RuntimeException | The exception that caused this exception, or  null . |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```
@@ -165,7 +163,7 @@ public final int getErrorCode()
 ```
 
 
-Returns a code of error.
+Gets the error code reported by the server.
 
 **Returns:**
 int
@@ -175,7 +173,7 @@ public final Object getErrorDetails()
 ```
 
 
-Gets extra information aboout error
+Gets additional information about the error, if the operation provides any.
 
 **Returns:**
 java.lang.Object
@@ -205,7 +203,7 @@ public String getMessage()
 ```
 
 
-Gets a message that describes the current exception.
+Gets the message that describes the error.
 
 **Returns:**
 java.lang.String
@@ -333,10 +331,10 @@ public String toString()
 ```
 
 
-Returns a string that represents the current object.
+Returns the type, the message and the stack trace of the exception.
 
 **Returns:**
-java.lang.String - A string that represents the current object.
+java.lang.String - A string that represents the exception.
 ### wait() {#wait--}
 ```
 public final void wait()

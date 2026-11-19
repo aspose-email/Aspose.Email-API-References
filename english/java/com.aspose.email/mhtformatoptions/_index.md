@@ -1,9 +1,9 @@
 ---
 title: MhtFormatOptions
 second_title: Aspose.Email for Java API Reference
-description: Enumerates the Mht format  options
+description: Defines options for saving a message to MHTML.
 type: docs
-weight: 540
+weight: 543
 url: /java/com.aspose.email/mhtformatoptions/
 ---
 
@@ -13,27 +13,27 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MhtFormatOptions extends System.Enum
 ```
 
-Enumerates the Mht format options
+Defines options for saving a message to MHTML. The values can be combined.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [DisplayAsOutlook](#DisplayAsOutlook) | Indicates that From header will be displayed as in Outlook. |
+| [DisplayAsOutlook](#DisplayAsOutlook) | Write the  From  header the way Outlook shows it. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [HideExtraPrintHeader](#HideExtraPrintHeader) | Indicates that PageHeader will be unvisible. |
-| [NoEncodeCharacters](#NoEncodeCharacters) | Indicates that no transfer encoding of characters should be used. |
-| [None](#None) | No specific settings are specified. |
-| [RenderCalendarEvent](#RenderCalendarEvent) | Indicates that text from calendar event should be written in output mhtml. |
-| [RenderTaskFields](#RenderTaskFields) | Indicates that the specific Task fields should be written in output mhtml. |
-| [RenderVCardInfo](#RenderVCardInfo) | Indicates that text from VCard AlternativeView should be written in output mhtml. |
-| [SkipByteOrderMarkInBody](#SkipByteOrderMarkInBody) | Indicates that Byte Order Mark(BOM) bytes should be written to body. |
-| [WriteCompleteBccEmailAddress](#WriteCompleteBccEmailAddress) | Indicates that complete e-mail address should be written in 'Bcc' header. |
-| [WriteCompleteCcEmailAddress](#WriteCompleteCcEmailAddress) | Indicates that complete e-mail address should be written in 'Cc' header. |
-| [WriteCompleteEmailAddress](#WriteCompleteEmailAddress) | Indicates that complete e-mail address should be written in all email headers. |
-| [WriteCompleteFromEmailAddress](#WriteCompleteFromEmailAddress) | Indicates that complete e-mail address should be written in 'From' header. |
-| [WriteCompleteToEmailAddress](#WriteCompleteToEmailAddress) | Indicates that complete e-mail address should be written in 'To' header. |
-| [WriteHeader](#WriteHeader) | Indicates that header information should be written. |
-| [WriteOutlineAttachments](#WriteOutlineAttachments) | Indicates that outline attachments should be written. |
+| [HideExtraPrintHeader](#HideExtraPrintHeader) | Hide the page header. |
+| [NoEncodeCharacters](#NoEncodeCharacters) | Do not apply a transfer encoding to the characters of the body. |
+| [None](#None) | No options. |
+| [RenderCalendarEvent](#RenderCalendarEvent) | Write the details of a calendar event the message carries. |
+| [RenderTaskFields](#RenderTaskFields) | Write the fields of a task. |
+| [RenderVCardInfo](#RenderVCardInfo) | Write the details of a vCard the message carries. |
+| [SkipByteOrderMarkInBody](#SkipByteOrderMarkInBody) | Do not write a byte order mark (BOM) at the start of the body. |
+| [WriteCompleteBccEmailAddress](#WriteCompleteBccEmailAddress) | Write the full e-mail address, not only the display name, in the  Bcc  header. |
+| [WriteCompleteCcEmailAddress](#WriteCompleteCcEmailAddress) | Write the full e-mail address, not only the display name, in the  Cc  header. |
+| [WriteCompleteEmailAddress](#WriteCompleteEmailAddress) | Write the full e-mail addresses, not only the display names, in all headers. |
+| [WriteCompleteFromEmailAddress](#WriteCompleteFromEmailAddress) | Write the full e-mail address, not only the display name, in the  From  header. |
+| [WriteCompleteToEmailAddress](#WriteCompleteToEmailAddress) | Write the full e-mail address, not only the display name, in the  To  header. |
+| [WriteHeader](#WriteHeader) | Write the headers of the message above the body. |
+| [WriteOutlineAttachments](#WriteOutlineAttachments) | Write the list of attachments in the headers. |
 ## Methods
 
 | Method | Description |
@@ -79,7 +79,7 @@ public static final int DisplayAsOutlook
 ```
 
 
-Indicates that From header will be displayed as in Outlook.
+Write the  From  header the way Outlook shows it.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -93,7 +93,7 @@ public static final int HideExtraPrintHeader
 ```
 
 
-Indicates that PageHeader will be unvisible.
+Hide the page header.
 
 ### NoEncodeCharacters {#NoEncodeCharacters}
 ```
@@ -101,7 +101,7 @@ public static final int NoEncodeCharacters
 ```
 
 
-Indicates that no transfer encoding of characters should be used.
+Do not apply a transfer encoding to the characters of the body.
 
 ### None {#None}
 ```
@@ -109,7 +109,7 @@ public static final int None
 ```
 
 
-No specific settings are specified.
+No options.
 
 ### RenderCalendarEvent {#RenderCalendarEvent}
 ```
@@ -117,7 +117,7 @@ public static final int RenderCalendarEvent
 ```
 
 
-Indicates that text from calendar event should be written in output mhtml.
+Write the details of a calendar event the message carries.
 
 ### RenderTaskFields {#RenderTaskFields}
 ```
@@ -125,7 +125,7 @@ public static final int RenderTaskFields
 ```
 
 
-Indicates that the specific Task fields should be written in output mhtml.
+Write the fields of a task.
 
 ### RenderVCardInfo {#RenderVCardInfo}
 ```
@@ -133,7 +133,7 @@ public static final int RenderVCardInfo
 ```
 
 
-Indicates that text from VCard AlternativeView should be written in output mhtml.
+Write the details of a vCard the message carries.
 
 ### SkipByteOrderMarkInBody {#SkipByteOrderMarkInBody}
 ```
@@ -141,7 +141,7 @@ public static final int SkipByteOrderMarkInBody
 ```
 
 
-Indicates that Byte Order Mark(BOM) bytes should be written to body.
+Do not write a byte order mark (BOM) at the start of the body.
 
 ### WriteCompleteBccEmailAddress {#WriteCompleteBccEmailAddress}
 ```
@@ -149,7 +149,7 @@ public static final int WriteCompleteBccEmailAddress
 ```
 
 
-Indicates that complete e-mail address should be written in 'Bcc' header.
+Write the full e-mail address, not only the display name, in the  Bcc  header.
 
 ### WriteCompleteCcEmailAddress {#WriteCompleteCcEmailAddress}
 ```
@@ -157,7 +157,7 @@ public static final int WriteCompleteCcEmailAddress
 ```
 
 
-Indicates that complete e-mail address should be written in 'Cc' header.
+Write the full e-mail address, not only the display name, in the  Cc  header.
 
 ### WriteCompleteEmailAddress {#WriteCompleteEmailAddress}
 ```
@@ -165,7 +165,7 @@ public static final int WriteCompleteEmailAddress
 ```
 
 
-Indicates that complete e-mail address should be written in all email headers.
+Write the full e-mail addresses, not only the display names, in all headers.
 
 ### WriteCompleteFromEmailAddress {#WriteCompleteFromEmailAddress}
 ```
@@ -173,7 +173,7 @@ public static final int WriteCompleteFromEmailAddress
 ```
 
 
-Indicates that complete e-mail address should be written in 'From' header.
+Write the full e-mail address, not only the display name, in the  From  header.
 
 ### WriteCompleteToEmailAddress {#WriteCompleteToEmailAddress}
 ```
@@ -181,7 +181,7 @@ public static final int WriteCompleteToEmailAddress
 ```
 
 
-Indicates that complete e-mail address should be written in 'To' header.
+Write the full e-mail address, not only the display name, in the  To  header.
 
 ### WriteHeader {#WriteHeader}
 ```
@@ -189,7 +189,7 @@ public static final int WriteHeader
 ```
 
 
-Indicates that header information should be written.
+Write the headers of the message above the body.
 
 ### WriteOutlineAttachments {#WriteOutlineAttachments}
 ```
@@ -197,7 +197,7 @@ public static final int WriteOutlineAttachments
 ```
 
 
-Indicates that outline attachments should be written.
+Write the list of attachments in the headers.
 
 ### Clone() {#Clone--}
 ```

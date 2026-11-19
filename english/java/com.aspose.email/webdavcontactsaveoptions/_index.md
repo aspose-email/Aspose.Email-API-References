@@ -1,9 +1,9 @@
 ---
 title: WebDavContactSaveOptions
 second_title: Aspose.Email for Java API Reference
-description: Specifies the contact save options.
+description: Options for saving a contact to the WebDAV XML format of Exchange Server.
 type: docs
-weight: 764
+weight: 775
 url: /java/com.aspose.email/webdavcontactsaveoptions/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.email.ContactSaveOptions](../../com.aspose.email/c
 public class WebDavContactSaveOptions extends ContactSaveOptions
 ```
 
-Specifies the contact save options.
+Options for saving a contact to the WebDAV XML format of Exchange Server.
 ## Constructors
 
 | Constructor | Description |
@@ -25,13 +25,15 @@ Specifies the contact save options.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDefault()](#getDefault--) | Gets the default options. |
-| [getSaveFormat()](#getSaveFormat--) | Gets a save format |
-| [getVersion()](#getVersion--) | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
+| [getDefault()](#getDefault--) | Gets new WebDAV save options with the default settings. |
+| [getProductId()](#getProductId--) | Gets the identifier of the product that created the vCard, written to its  PRODID  property. |
+| [getSaveFormat()](#getSaveFormat--) | Gets the format this options object saves to. |
+| [getVersion()](#getVersion--) | Gets the vCard version to write. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setVersion(int value)](#setVersion-int-) | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
+| [setProductId(String value)](#setProductId-java.lang.String-) | Sets the identifier of the product that created the vCard, written to its  PRODID  property. |
+| [setVersion(int value)](#setVersion-int-) | Sets the vCard version to write. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -75,19 +77,27 @@ public static WebDavContactSaveOptions getDefault()
 ```
 
 
-Gets the default options.
-
-Value: The [WebDavContactSaveOptions](../../com.aspose.email/webdavcontactsaveoptions) by default.
+Gets new WebDAV save options with the default settings.
 
 **Returns:**
-[WebDavContactSaveOptions](../../com.aspose.email/webdavcontactsaveoptions)
+[WebDavContactSaveOptions](../../com.aspose.email/webdavcontactsaveoptions) - The default options.
+### getProductId() {#getProductId--}
+```
+public final String getProductId()
+```
+
+
+Gets the identifier of the product that created the vCard, written to its  PRODID  property.
+
+**Returns:**
+java.lang.String - The product identifier.
 ### getSaveFormat() {#getSaveFormat--}
 ```
 public final int getSaveFormat()
 ```
 
 
-Gets a save format
+Gets the format this options object saves to.
 
 **Returns:**
 int
@@ -97,7 +107,7 @@ public final int getVersion()
 ```
 
 
-Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard.
+Gets the vCard version to write. Used only when the contact is saved to vCard.
 
 **Returns:**
 int
@@ -127,13 +137,26 @@ public final native void notifyAll()
 
 
 
+### setProductId(String value) {#setProductId-java.lang.String-}
+```
+public final void setProductId(String value)
+```
+
+
+Sets the identifier of the product that created the vCard, written to its  PRODID  property.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The product identifier. |
+
 ### setVersion(int value) {#setVersion-int-}
 ```
 public final void setVersion(int value)
 ```
 
 
-Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard.
+Sets the vCard version to write. Used only when the contact is saved to vCard.
 
 **Parameters:**
 | Parameter | Type | Description |

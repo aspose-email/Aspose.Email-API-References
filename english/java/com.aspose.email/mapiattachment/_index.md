@@ -1,9 +1,9 @@
 ---
 title: MapiAttachment
 second_title: Aspose.Email for Java API Reference
-description: Represents a message attachment.
+description: Represents an attachment of an Outlook item.
 type: docs
-weight: 402
+weight: 405
 url: /java/com.aspose.email/mapiattachment/
 ---
 
@@ -13,51 +13,31 @@ java.lang.Object, [com.aspose.email.MapiPropertyContainer](../../com.aspose.emai
 public class MapiAttachment extends MapiPropertyContainer
 ```
 
-Represents a message attachment.
+Represents an attachment of an Outlook item.
 
-This class encapsulates an attachment, providing methods to access and manipulate its properties.
+An attachment is either a file, whose content is in \#getBinaryData().getBinaryData(), or an embedded object, such as an attached Outlook message, which is in \#getObjectData().getObjectData(). Like the message itself, the attachment is a set of MAPI properties: use the inherited property methods for data that has no dedicated member.
 
-Example:
+Add attachments through the [MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) returned by [MapiMessageItemBase.getAttachments()](../../com.aspose.email/mapimessageitembase\#getAttachments--).
+
+This example saves the attachments of a message: an embedded message is loaded as a [MapiMessage](../../com.aspose.email/mapimessage), any other attachment is saved to a file.
 
 ```
-// This code example loads a message from a file and iterates over each attachment.
- // If an attachment is inline, it prints its display name.
- // If not, it checks if the attachment is an embedded message.
- // If so, it saves the attachment to a memory stream.
- // If not, it saves to a specified path.
 
- // Load the MAPI message from the specified file
  MapiMessage msg = MapiMessage.load("source.msg");
 
- // Iterate over each attachment in the MAPI message
- for (MapiAttachment mapiAttachment : msg.getAttachments()) {
-     // Check if the attachment is inline
-     if (mapiAttachment.isInline()) {
-         // If inline, print its display name
-         System.out.println("Inline: " + mapiAttachment.getDisplayName());
+ for (MapiAttachment attachment : msg.getAttachments()) {
+     if (attachment.isInline()) {
+         // an image or object shown in the message body
+         System.out.println("Inline: " + attachment.getDisplayName());
+     } else if (attachment.getObjectData() != null && attachment.getObjectData().isOutlookMessage()) {
+         // an attached Outlook message
+         MapiMessage embedded = attachment.getObjectData().toMapiMessage();
+         System.out.println("Embedded message: " + embedded.getSubject());
      } else {
-         // If not inline
-         // Check if the attachment contains an embedded message
-         if (mapiAttachment.getObjectData() != null && mapiAttachment.getObjectData().isOutlookMessage()) {
-             // If it's an embedded message
-             // Save the attachment to a memory stream
-             try (ByteArrayOutputStream ms = new ByteArrayOutputStream()) {
-                 mapiAttachment.save(ms);
-                 byte[] bytes = ms.toByteArray();
-                 try (ByteArrayInputStream msInput = new ByteArrayInputStream(bytes)) {
-                     // Load the embedded message from the memory stream
-                     MapiMessage embeddedMessage = MapiMessage.load(msInput);
-                 }
-             } catch (IOException e) {
-                 e.printStackTrace();
-             }
-         } else {
-             // If it's not an embedded message
-             // Save the attachment to the specified path
-             mapiAttachment.save(Paths.get(path, mapiAttachment.getLongFileName()).toString());
-         }
+         attachment.save(Paths.get("output", attachment.getLongFileName()).toString());
      }
  }
+ 
 ```
 ## Methods
 
@@ -65,56 +45,58 @@ Example:
 | --- | --- |
 | [createMapiNode(String key)](#createMapiNode-java.lang.String-) | Creates the mapi node. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBinaryData()](#getBinaryData--) | Gets or sets binary attachment data. |
+| [getBinaryData()](#getBinaryData--) | Gets the content of a file attachment. |
 | [getClass()](#getClass--) |  |
-| [getCodePage()](#getCodePage--) | Gets the code page. |
-| [getContent()](#getContent--) | Gets the content. |
-| [getDisplayName()](#getDisplayName--) | Gets the display name of the ole object in an attachment. |
-| [getExtension()](#getExtension--) | Gets a filename extension that indicates the document type of an attachment. |
-| [getFileName()](#getFileName--) | Gets an attachment's base filename and extension, excluding path. |
-| [getItemId()](#getItemId--) | The item id, uses with a server |
-| [getLongFileName()](#getLongFileName--) | Gets an attachment's long filename and extension, excluding path. |
-| [getMimeTag()](#getMimeTag--) | Gets formatting information about a Multipurpose Internet Mail Extensions (MIME) attachment. |
-| [getNamedProperties()](#getNamedProperties--) | Gets the named properties of message. |
-| [getObjectData()](#getObjectData--) | Gets an attachment object typically accessed through the OLE IStorage interface. |
-| [getProperties()](#getProperties--) | Gets the collection of properties. |
-| [getProperty(PropertyDescriptor pd)](#getProperty-com.aspose.email.PropertyDescriptor-) | Gets MAPI property by property descriptor. |
-| [getPropertyBoolean(long tag)](#getPropertyBoolean-long-) | Gets the value of the property specified by tag as Boolean type. |
-| [getPropertyBytes(long tag)](#getPropertyBytes-long-) | Gets the string value of the property specified by tag. |
-| [getPropertyDateTime(long key)](#getPropertyDateTime-long-) | Gets the value of the property specified by tag as DateTime type. |
-| [getPropertyInt32(long tag)](#getPropertyInt32-long-) | Gets the int32 value of the property specified by tag. |
-| [getPropertyLong(long tag)](#getPropertyLong-long-) | Gets the value of the property specified by tag as Long (int64) type. |
-| [getPropertyShort(long tag)](#getPropertyShort-long-) | Gets the value of the property specified by tag as Short type. |
-| [getPropertyStream()](#getPropertyStream--) | Gets the property stream. |
-| [getPropertyString(long tag)](#getPropertyString-long-) | Gets the string value of the property specified by tag. |
-| [getPropertyString(long tag, int codepage)](#getPropertyString-long-int-) | Gets the string value of the property specified by tag. |
-| [getSubStorages()](#getSubStorages--) | Gets the sub storages. |
+| [getCodePage()](#getCodePage--) | Gets the code page of the ANSI strings of the object. |
+| [getContent()](#getContent--) | Gets the content of the attachment. |
+| [getContentLength()](#getContentLength--) | Gets the length of the attachment content in bytes. |
+| [getDisplayName()](#getDisplayName--) | Gets the name of the attachment shown to the user. |
+| [getExtension()](#getExtension--) | Gets the file name extension of the attachment, such as  .docx . |
+| [getFileName()](#getFileName--) | Gets the short (8.3) file name of the attachment, without a path. |
+| [getItemId()](#getItemId--) | Gets the identifier of the attachment on the mail server, for attachments obtained from a server;  null  otherwise. |
+| [getLongFileName()](#getLongFileName--) | Gets the full file name of the attachment, without a path. |
+| [getMimeTag()](#getMimeTag--) | Gets the MIME content type of the attachment, such as  image/png . |
+| [getNamedProperties()](#getNamedProperties--) | Gets the named properties of the attachment. |
+| [getObjectData()](#getObjectData--) | Gets the embedded object of the attachment, such as an attached Outlook message or an OLE document. |
+| [getProperties()](#getProperties--) | Gets all properties of the object. |
+| [getProperty(PropertyDescriptor pd)](#getProperty-com.aspose.email.PropertyDescriptor-) | Gets a MAPI property of the attachment by its descriptor. |
+| [getPropertyBoolean(long tag)](#getPropertyBoolean-long-) | Gets the value of a property as a Boolean. |
+| [getPropertyBytes(long tag)](#getPropertyBytes-long-) | Gets the value of a property as bytes. |
+| [getPropertyDateTime(long key)](#getPropertyDateTime-long-) | Gets the value of a property as a date and time. |
+| [getPropertyInt32(long tag)](#getPropertyInt32-long-) | Gets the value of a property as a 32-bit integer. |
+| [getPropertyLong(long tag)](#getPropertyLong-long-) | Gets the value of a property as a 64-bit integer. |
+| [getPropertyShort(long tag)](#getPropertyShort-long-) | Gets the value of a property as a 16-bit integer. |
+| [getPropertyStream()](#getPropertyStream--) | Gets the property stream of the attachment. |
+| [getPropertyString(long tag)](#getPropertyString-long-) | Gets the value of a property as a string. |
+| [getPropertyString(long tag, int codepage)](#getPropertyString-long-int-) | Gets the value of a property as a string, decoding an ANSI string with the specified code page. |
+| [getSubStorages()](#getSubStorages--) | Gets the sub-storages of the attachment. |
 | [hashCode()](#hashCode--) |  |
-| [isInline()](#isInline--) | Gets a value indicating whether the attachment is inline or regular. |
+| [isInline()](#isInline--) | Gets a value indicating whether the attachment is shown inside the message body (an inline image, for example) rather than as a regular attachment. |
 | [isReference()](#isReference--) | Gets a value indicating whether the attachment is stored as a reference rather than being embedded in the email. |
-| [isStoreUnicodeOk()](#isStoreUnicodeOk--) | Determines if string properties are Unicode encoded or not. |
-| [loadFromTnef(InputStream stream)](#loadFromTnef-java.io.InputStream-) | Load MapiAttachment from stream with tnef content. |
-| [loadFromTnef(String fileName)](#loadFromTnef-java.lang.String-) | Load MapiAttachment from file with tnef content. |
+| [isStoreUnicodeOk()](#isStoreUnicodeOk--) | Determines whether the string properties of the object are stored in Unicode. |
+| [loadFromTnef(InputStream stream)](#loadFromTnef-java.io.InputStream-) | Loads an attachment from a stream in TNEF format. |
+| [loadFromTnef(String fileName)](#loadFromTnef-java.lang.String-) | Loads an attachment from a file in TNEF format. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeProperty(long tag)](#removeProperty-long-) | Provides correctly removing property from all collections. |
-| [save(OutputStream stream)](#save-java.io.OutputStream-) | Save attachment content. |
-| [save(String filename)](#save-java.lang.String-) | Save attachment content. |
-| [saveToTnef(OutputStream stream)](#saveToTnef-java.io.OutputStream-) | Save attachment to tnef content. |
-| [saveToTnef(String filename)](#saveToTnef-java.lang.String-) | Save attachment to tnef content. |
-| [setBinaryData(byte[] value)](#setBinaryData-byte---) | Gets or sets binary attachment data. |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Gets the display name of the ole object in an attachment. |
-| [setProperty(MapiProperty value)](#setProperty-com.aspose.email.MapiProperty-) | Sets the property. |
-| [setProperty(PropertyDescriptor pd, Object value)](#setProperty-com.aspose.email.PropertyDescriptor-java.lang.Object-) | Sets MAPI property. |
+| [openRead()](#openRead--) | Opens the attachment content for reading. |
+| [removeProperty(long tag)](#removeProperty-long-) | Removes a property from the attachment, including its named-property mapping. |
+| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves the content of the attachment to a stream. |
+| [save(String filename)](#save-java.lang.String-) | Saves the content of the attachment to a file. |
+| [saveToTnef(OutputStream stream)](#saveToTnef-java.io.OutputStream-) | Saves the attachment to a stream in TNEF format. |
+| [saveToTnef(String filename)](#saveToTnef-java.lang.String-) | Saves the attachment to a file in TNEF format. |
+| [setBinaryData(byte[] value)](#setBinaryData-byte---) | Sets the content of a file attachment. |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Sets the name of the attachment shown to the user. |
+| [setProperty(MapiProperty value)](#setProperty-com.aspose.email.MapiProperty-) | Adds the property to the attachment, or replaces the property with the same tag. |
+| [setProperty(PropertyDescriptor pd, Object value)](#setProperty-com.aspose.email.PropertyDescriptor-java.lang.Object-) | Sets the value of a MAPI property of the attachment. |
 | [toString()](#toString--) |  |
-| [tryGetPropertyData(long tag)](#tryGetPropertyData-long-) | Try to get the property data with specified tag key. |
-| [tryGetPropertyDateTime(long tag, Date[] value)](#tryGetPropertyDateTime-long-java.util.Date---) | Gets the value of the specified property as DateTime type. |
-| [tryGetPropertyInt32(long tag, int[] value)](#tryGetPropertyInt32-long-int---) | Gets the value of the specified property as Int32 type. |
-| [tryGetPropertyLong(long tag, long[] value)](#tryGetPropertyLong-long-long---) | Gets the value of the specified property as Long type. |
-| [tryGetPropertyString(long tag)](#tryGetPropertyString-long-) | Try to get a property data as string with specified tag. |
-| [tryGetPropertyString(long tag, int codepage)](#tryGetPropertyString-long-int-) | Try to get a property data as string with specified tag and code page. |
-| [tryGetPropertyString(long tag, String[] value)](#tryGetPropertyString-long-java.lang.String---) | Gets the value of the specified property as String type. |
-| [tryGetPropertyString(long tag, String[] value, int codepage)](#tryGetPropertyString-long-java.lang.String---int-) | Gets the value of the specified property as String type. |
+| [tryGetPropertyData(long tag)](#tryGetPropertyData-long-) | Gets the value of a property as bytes. |
+| [tryGetPropertyDateTime(long tag, Date[] value)](#tryGetPropertyDateTime-long-java.util.Date---) | Gets the value of a property as a date and time, if the property exists. |
+| [tryGetPropertyInt32(long tag, int[] value)](#tryGetPropertyInt32-long-int---) | Gets the value of a property as a 32-bit integer, if the property exists. |
+| [tryGetPropertyLong(long tag, long[] value)](#tryGetPropertyLong-long-long---) | Gets the value of a property as a 64-bit integer, if the property exists. |
+| [tryGetPropertyString(long tag)](#tryGetPropertyString-long-) | Gets the value of a property as a string. |
+| [tryGetPropertyString(long tag, int codepage)](#tryGetPropertyString-long-int-) | Gets the value of a property as a string, decoding an ANSI string with the specified code page. |
+| [tryGetPropertyString(long tag, String[] value)](#tryGetPropertyString-long-java.lang.String---) | Gets the value of a property as a string, if the property exists. |
+| [tryGetPropertyString(long tag, String[] value, int codepage)](#tryGetPropertyString-long-java.lang.String---int-) | Gets the value of a property as a string, if the property exists, decoding an ANSI string with the specified code page. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -154,12 +136,10 @@ public final byte[] getBinaryData()
 ```
 
 
-Gets or sets binary attachment data.
-
-Value: The binary data.
+Gets the content of a file attachment.
 
 **Returns:**
-byte[]
+byte[] - The content of the file, or  null  if the attachment is an embedded object.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -176,67 +156,69 @@ public int getCodePage()
 ```
 
 
-Gets the code page.
-
-Value: The code page.
+Gets the code page of the ANSI strings of the object.
 
 **Returns:**
-int
+int - The code page.
 ### getContent() {#getContent--}
 ```
 public final Object getContent()
 ```
 
 
-Gets the content.
-
-Value: The content.
+Gets the content of the attachment.
 
 **Returns:**
-java.lang.Object
+java.lang.Object - The content: the file data for a file attachment, or the object for an embedded attachment.
+### getContentLength() {#getContentLength--}
+```
+public final long getContentLength()
+```
+
+
+Gets the length of the attachment content in bytes.
+
+For attachments added from a stream this does not materialise the content. For embedded message attachments ( getObjectData().isOutlookMessage()  is  true ), this property returns the size of the embedded message content.
+
+**Returns:**
+long
 ### getDisplayName() {#getDisplayName--}
 ```
 public final String getDisplayName()
 ```
 
 
-Gets the display name of the ole object in an attachment.
-
-Value: The display name.
+Gets the name of the attachment shown to the user.
 
 **Returns:**
-java.lang.String
+java.lang.String - The display name.
 ### getExtension() {#getExtension--}
 ```
 public final String getExtension()
 ```
 
 
-Gets a filename extension that indicates the document type of an attachment.
-
-Value: The extension.
+Gets the file name extension of the attachment, such as  .docx .
 
 **Returns:**
-java.lang.String
+java.lang.String - The extension, including the leading period.
 ### getFileName() {#getFileName--}
 ```
 public final String getFileName()
 ```
 
 
-Gets an attachment's base filename and extension, excluding path.
-
-Value: The file name.
+Gets the short (8.3) file name of the attachment, without a path. Use \#getLongFileName().getLongFileName() for the full name.
 
 **Returns:**
-java.lang.String
+java.lang.String - The short file name.
 ### getItemId() {#getItemId--}
 ```
 public String getItemId()
 ```
 
 
-The item id, uses with a server
+Gets the identifier of the attachment on the mail server, for attachments obtained from a server;  null  otherwise.
 
 **Returns:**
 java.lang.String
@@ -246,220 +228,206 @@ public final String getLongFileName()
 ```
 
 
-Gets an attachment's long filename and extension, excluding path.
-
-Value: The long file name.
+Gets the full file name of the attachment, without a path.
 
 **Returns:**
-java.lang.String
+java.lang.String - The long file name.
 ### getMimeTag() {#getMimeTag--}
 ```
 public final String getMimeTag()
 ```
 
 
-Gets formatting information about a Multipurpose Internet Mail Extensions (MIME) attachment.
-
-Value: The mime tag.
+Gets the MIME content type of the attachment, such as  image/png .
 
 **Returns:**
-java.lang.String
+java.lang.String - The MIME type.
 ### getNamedProperties() {#getNamedProperties--}
 ```
 public final MapiPropertyCollection getNamedProperties()
 ```
 
 
-Gets the named properties of message.
-
-Value: The collection of named properties.
+Gets the named properties of the attachment.
 
 **Returns:**
-[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection)
+[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) - The collection of named properties.
 ### getObjectData() {#getObjectData--}
 ```
 public final MapiObjectProperty getObjectData()
 ```
 
 
-Gets an attachment object typically accessed through the OLE IStorage interface.
-
-Value: The object data.
+Gets the embedded object of the attachment, such as an attached Outlook message or an OLE document.
 
 **Returns:**
-[MapiObjectProperty](../../com.aspose.email/mapiobjectproperty)
+[MapiObjectProperty](../../com.aspose.email/mapiobjectproperty) - The embedded object, or  null  for a file attachment.
 ### getProperties() {#getProperties--}
 ```
 public MapiPropertyCollection getProperties()
 ```
 
 
-Gets the collection of properties.
-
-Value: The properties.
+Gets all properties of the object.
 
 **Returns:**
-[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection)
+[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) - The properties.
 ### getProperty(PropertyDescriptor pd) {#getProperty-com.aspose.email.PropertyDescriptor-}
 ```
 public MapiProperty getProperty(PropertyDescriptor pd)
 ```
 
 
-Gets MAPI property by property descriptor.
+Gets a MAPI property of the attachment by its descriptor.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | Property descriptor for looked property |
+| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | The descriptor of the property, for example one from [KnownPropertyList](../../com.aspose.email/knownpropertylist). |
 
 **Returns:**
-[MapiProperty](../../com.aspose.email/mapiproperty) - Mapi property if it is found, otherwise null.
+[MapiProperty](../../com.aspose.email/mapiproperty) - The property, or  null  if the attachment does not have it.
 ### getPropertyBoolean(long tag) {#getPropertyBoolean-long-}
 ```
 public final Boolean getPropertyBoolean(long tag)
 ```
 
 
-Gets the value of the property specified by tag as Boolean type.
+Gets the value of a property as a Boolean.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-java.lang.Boolean - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.Boolean - The value, or  null  if the property does not exist.
 ### getPropertyBytes(long tag) {#getPropertyBytes-long-}
 ```
 public final byte[] getPropertyBytes(long tag)
 ```
 
 
-Gets the string value of the property specified by tag.
+Gets the value of a property as bytes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-byte[] - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+byte[] - The value, or  null  if the property does not exist.
 ### getPropertyDateTime(long key) {#getPropertyDateTime-long-}
 ```
 public final Date getPropertyDateTime(long key)
 ```
 
 
-Gets the value of the property specified by tag as DateTime type.
+Gets the value of a property as a date and time.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | long | The MAPI property tag. |
+| key | long | The tag of the property. |
 
 **Returns:**
-java.util.Date - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.util.Date - The value, or  null  if the property does not exist.
 ### getPropertyInt32(long tag) {#getPropertyInt32-long-}
 ```
 public final Integer getPropertyInt32(long tag)
 ```
 
 
-Gets the int32 value of the property specified by tag.
+Gets the value of a property as a 32-bit integer.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-java.lang.Integer - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.Integer - The value, or  null  if the property does not exist.
 ### getPropertyLong(long tag) {#getPropertyLong-long-}
 ```
 public final Long getPropertyLong(long tag)
 ```
 
 
-Gets the value of the property specified by tag as Long (int64) type.
+Gets the value of a property as a 64-bit integer.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-java.lang.Long - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.Long - The value, or  null  if the property does not exist.
 ### getPropertyShort(long tag) {#getPropertyShort-long-}
 ```
 public final Short getPropertyShort(long tag)
 ```
 
 
-Gets the value of the property specified by tag as Short type.
+Gets the value of a property as a 16-bit integer.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-java.lang.Short - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.Short - The value, or  null  if the property does not exist.
 ### getPropertyStream() {#getPropertyStream--}
 ```
 public final MapiPropertyStream getPropertyStream()
 ```
 
 
-Gets the property stream.
-
-Value: The property stream.
+Gets the property stream of the attachment.
 
 **Returns:**
-[MapiPropertyStream](../../com.aspose.email/mapipropertystream)
+[MapiPropertyStream](../../com.aspose.email/mapipropertystream) - The property stream.
 ### getPropertyString(long tag) {#getPropertyString-long-}
 ```
 public final String getPropertyString(long tag)
 ```
 
 
-Gets the string value of the property specified by tag.
+Gets the value of a property as a string.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-java.lang.String - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.String - The value, or  null  if the property does not exist.
 ### getPropertyString(long tag, int codepage) {#getPropertyString-long-int-}
 ```
 public final String getPropertyString(long tag, int codepage)
 ```
 
 
-Gets the string value of the property specified by tag.
+Gets the value of a property as a string, decoding an ANSI string with the specified code page.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| codepage | int | The specified codepage used to get string value. |
+| tag | long | The tag of the property. |
+| codepage | int | The code page of an ANSI (8-bit) string. |
 
 **Returns:**
-java.lang.String - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.String - The value, or  null  if the property does not exist.
 ### getSubStorages() {#getSubStorages--}
 ```
 public final MapiPropertyCollection getSubStorages()
 ```
 
 
-Gets the sub storages.
-
-Value: The sub storages.
+Gets the sub-storages of the attachment.
 
 **Returns:**
-[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection)
+[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) - The sub-storages.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -476,7 +444,7 @@ public boolean isInline()
 ```
 
 
-Gets a value indicating whether the attachment is inline or regular. If inline returns true, otherwise false.
+Gets a value indicating whether the attachment is shown inside the message body (an inline image, for example) rather than as a regular attachment.
 
 **Returns:**
 boolean
@@ -488,10 +456,6 @@ public final boolean isReference()
 
 Gets a value indicating whether the attachment is stored as a reference rather than being embedded in the email.
 
-Value:  true  if the attachment is stored as a reference; otherwise,  false .
-
---------------------
-
 This property determines if the attachment is referenced by its file path or a web link based on the  PidTagAttachMethod  MAPI property. The following values indicate a reference-based attachment:
 
  *   0x00000002  -  afByReference : The attachment is identified by a fully qualified file path, accessible to recipients with shared access to the file server.
@@ -501,47 +465,47 @@ This property determines if the attachment is referenced by its file path or a w
 If the attachment does not match these criteria, this property returns  false .
 
 **Returns:**
-boolean
+boolean -  true  if the attachment is stored as a reference; otherwise,  false .
 ### isStoreUnicodeOk() {#isStoreUnicodeOk--}
 ```
 public final boolean isStoreUnicodeOk()
 ```
 
 
-Determines if string properties are Unicode encoded or not.
+Determines whether the string properties of the object are stored in Unicode.
 
 **Returns:**
-boolean - True, if string properties are Unicode encoded.
+boolean -  true  if the strings are Unicode;  false  if they are ANSI.
 ### loadFromTnef(InputStream stream) {#loadFromTnef-java.io.InputStream-}
 ```
 public static MapiAttachment loadFromTnef(InputStream stream)
 ```
 
 
-Load MapiAttachment from stream with tnef content.
+Loads an attachment from a stream in TNEF format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | Source stream |
+| stream | java.io.InputStream | The stream to read. |
 
 **Returns:**
-[MapiAttachment](../../com.aspose.email/mapiattachment) - MapiAttachment
+[MapiAttachment](../../com.aspose.email/mapiattachment) - The loaded attachment.
 ### loadFromTnef(String fileName) {#loadFromTnef-java.lang.String-}
 ```
 public static MapiAttachment loadFromTnef(String fileName)
 ```
 
 
-Load MapiAttachment from file with tnef content.
+Loads an attachment from a file in TNEF format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | Source file path. |
+| fileName | java.lang.String | The path of the file. |
 
 **Returns:**
-[MapiAttachment](../../com.aspose.email/mapiattachment) - MapiAttachment
+[MapiAttachment](../../com.aspose.email/mapiattachment) - The loaded attachment.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -558,18 +522,30 @@ public final native void notifyAll()
 
 
 
+### openRead() {#openRead--}
+```
+public final InputStream openRead()
+```
+
+
+Opens the attachment content for reading.
+
+For attachments added from a stream the content is read from the source on demand and is not copied into memory. Each call returns an independent reader, so several readers may be used at the same time.
+
+**Returns:**
+java.io.InputStream - An independent, read-only, seekable stream over the attachment content.
 ### removeProperty(long tag) {#removeProperty-long-}
 ```
 public final void removeProperty(long tag)
 ```
 
 
-Provides correctly removing property from all collections.
+Removes a property from the attachment, including its named-property mapping.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The tag of MapiProperty. |
+| tag | long | The tag of the property to remove. |
 
 ### save(OutputStream stream) {#save-java.io.OutputStream-}
 ```
@@ -577,12 +553,12 @@ public final void save(OutputStream stream)
 ```
 
 
-Save attachment content.
+Saves the content of the attachment to a stream. An embedded message is saved in MSG format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream | The stream to save. |
+| stream | java.io.OutputStream | The stream to write to. |
 
 ### save(String filename) {#save-java.lang.String-}
 ```
@@ -590,12 +566,12 @@ public final void save(String filename)
 ```
 
 
-Save attachment content.
+Saves the content of the attachment to a file. An embedded message is saved in MSG format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | java.lang.String | The file name to save. |
+| filename | java.lang.String | The path of the file to write. |
 
 ### saveToTnef(OutputStream stream) {#saveToTnef-java.io.OutputStream-}
 ```
@@ -603,12 +579,12 @@ public final void saveToTnef(OutputStream stream)
 ```
 
 
-Save attachment to tnef content.
+Saves the attachment to a stream in TNEF format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream | The stream to save. |
+| stream | java.io.OutputStream | The stream to write to. |
 
 ### saveToTnef(String filename) {#saveToTnef-java.lang.String-}
 ```
@@ -616,12 +592,12 @@ public final void saveToTnef(String filename)
 ```
 
 
-Save attachment to tnef content.
+Saves the attachment to a file in TNEF format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | java.lang.String | The file name to save. |
+| filename | java.lang.String | The path of the file to write. |
 
 ### setBinaryData(byte[] value) {#setBinaryData-byte---}
 ```
@@ -629,14 +605,12 @@ public final void setBinaryData(byte[] value)
 ```
 
 
-Gets or sets binary attachment data.
-
-Value: The binary data.
+Sets the content of a file attachment.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | byte[] |  |
+| value | byte[] | The content of the file, or  null  if the attachment is an embedded object. |
 
 ### setDisplayName(String value) {#setDisplayName-java.lang.String-}
 ```
@@ -644,14 +618,12 @@ public final void setDisplayName(String value)
 ```
 
 
-Gets the display name of the ole object in an attachment.
-
-Value: The display name.
+Sets the name of the attachment shown to the user.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The display name. |
 
 ### setProperty(MapiProperty value) {#setProperty-com.aspose.email.MapiProperty-}
 ```
@@ -659,12 +631,12 @@ public void setProperty(MapiProperty value)
 ```
 
 
-Sets the property.
+Adds the property to the attachment, or replaces the property with the same tag.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MapiProperty](../../com.aspose.email/mapiproperty) | The property. |
+| value | [MapiProperty](../../com.aspose.email/mapiproperty) | The property to set. |
 
 ### setProperty(PropertyDescriptor pd, Object value) {#setProperty-com.aspose.email.PropertyDescriptor-java.lang.Object-}
 ```
@@ -672,13 +644,13 @@ public void setProperty(PropertyDescriptor pd, Object value)
 ```
 
 
-Sets MAPI property.
+Sets the value of a MAPI property of the attachment.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | The property descriptor. |
-| value | java.lang.Object | The property data. |
+| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | The descriptor of the property, for example one from [KnownPropertyList](../../com.aspose.email/knownpropertylist). |
+| value | java.lang.Object | The value, of a Java type that matches the data type of the property. |
 
 ### toString() {#toString--}
 ```
@@ -696,127 +668,127 @@ public final byte[] tryGetPropertyData(long tag)
 ```
 
 
-Try to get the property data with specified tag key.
+Gets the value of a property as bytes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The tag key. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-byte[] - The property data.
+byte[] - The value, or  null  if the property does not exist.
 ### tryGetPropertyDateTime(long tag, Date[] value) {#tryGetPropertyDateTime-long-java.util.Date---}
 ```
 public final boolean tryGetPropertyDateTime(long tag, Date[] value)
 ```
 
 
-Gets the value of the specified property as DateTime type. A return value indicates whether the operation succeeded.
+Gets the value of a property as a date and time, if the property exists.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| value | java.util.Date[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+| tag | long | The tag of the property. |
+| value | java.util.Date[] | When this method returns, the value of the property, if it exists; otherwise, the value is unchanged. |
 
 **Returns:**
-boolean - true if s was converted successfully; otherwise, false.
+boolean -  true  if the property exists; otherwise,  false .
 ### tryGetPropertyInt32(long tag, int[] value) {#tryGetPropertyInt32-long-int---}
 ```
 public final boolean tryGetPropertyInt32(long tag, int[] value)
 ```
 
 
-Gets the value of the specified property as Int32 type. A return value indicates whether the operation succeeded.
+Gets the value of a property as a 32-bit integer, if the property exists.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| value | int[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+| tag | long | The tag of the property. |
+| value | int[] | When this method returns, the value of the property, if it exists; otherwise, the value is unchanged. |
 
 **Returns:**
-boolean - true if s was converted successfully; otherwise, false.
+boolean -  true  if the property exists; otherwise,  false .
 ### tryGetPropertyLong(long tag, long[] value) {#tryGetPropertyLong-long-long---}
 ```
 public final boolean tryGetPropertyLong(long tag, long[] value)
 ```
 
 
-Gets the value of the specified property as Long type. A return value indicates whether the operation succeeded.
+Gets the value of a property as a 64-bit integer, if the property exists.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| value | long[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+| tag | long | The tag of the property. |
+| value | long[] | When this method returns, the value of the property, if it exists; otherwise, the value is unchanged. |
 
 **Returns:**
-boolean - true if s was converted successfully; otherwise, false.
+boolean -  true  if the property exists; otherwise,  false .
 ### tryGetPropertyString(long tag) {#tryGetPropertyString-long-}
 ```
 public final String tryGetPropertyString(long tag)
 ```
 
 
-Try to get a property data as string with specified tag.
+Gets the value of a property as a string.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The property tag key. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-java.lang.String - String that contains the contents of property data.
+java.lang.String - The value, or  null  if the property does not exist.
 ### tryGetPropertyString(long tag, int codepage) {#tryGetPropertyString-long-int-}
 ```
 public final String tryGetPropertyString(long tag, int codepage)
 ```
 
 
-Try to get a property data as string with specified tag and code page.
+Gets the value of a property as a string, decoding an ANSI string with the specified code page.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The property tag key. |
-| codepage | int | The code page. |
+| tag | long | The tag of the property. |
+| codepage | int | The code page of an ANSI (8-bit) string. |
 
 **Returns:**
-java.lang.String - String that contains the contents of property data.
+java.lang.String - The value, or  null  if the property does not exist.
 ### tryGetPropertyString(long tag, String[] value) {#tryGetPropertyString-long-java.lang.String---}
 ```
 public final boolean tryGetPropertyString(long tag, String[] value)
 ```
 
 
-Gets the value of the specified property as String type. A return value indicates whether the operation succeeded.
+Gets the value of a property as a string, if the property exists.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| value | java.lang.String[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+| tag | long | The tag of the property. |
+| value | java.lang.String[] | When this method returns, the value of the property, if it exists; otherwise, the value is unchanged. |
 
 **Returns:**
-boolean - true if s was converted successfully; otherwise, false.
+boolean -  true  if the property exists; otherwise,  false .
 ### tryGetPropertyString(long tag, String[] value, int codepage) {#tryGetPropertyString-long-java.lang.String---int-}
 ```
 public final boolean tryGetPropertyString(long tag, String[] value, int codepage)
 ```
 
 
-Gets the value of the specified property as String type. A return value indicates whether the operation succeeded.
+Gets the value of a property as a string, if the property exists, decoding an ANSI string with the specified code page.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| value | java.lang.String[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
-| codepage | int | The specified codepage used to get string value. |
+| tag | long | The tag of the property. |
+| value | java.lang.String[] | When this method returns, the value of the property, if it exists; otherwise, the value is unchanged. |
+| codepage | int | The code page of an ANSI (8-bit) string. |
 
 **Returns:**
-boolean - true if s was converted successfully; otherwise, false.
+boolean -  true  if the property exists; otherwise,  false .
 ### wait() {#wait--}
 ```
 public final void wait()

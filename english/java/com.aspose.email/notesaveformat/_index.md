@@ -1,9 +1,9 @@
 ---
 title: NoteSaveFormat
 second_title: Aspose.Email for Java API Reference
-description: Enumerates NoteSaveFormat
+description: Defines the formats a note can be saved to.
 type: docs
-weight: 559
+weight: 562
 url: /java/com.aspose.email/notesaveformat/
 ---
 
@@ -13,13 +13,13 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class NoteSaveFormat extends System.Enum
 ```
 
-Enumerates NoteSaveFormat
+Defines the formats a note can be saved to.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Msg](#Msg) | MSG format. |
+| [Msg](#Msg) | Outlook message (.msg). |
 ## Methods
 
 | Method | Description |
@@ -71,7 +71,7 @@ public static final int Msg
 ```
 
 
-MSG format.
+Outlook message (.msg).
 
 ### Clone() {#Clone--}
 ```

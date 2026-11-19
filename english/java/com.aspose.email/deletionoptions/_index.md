@@ -3,7 +3,7 @@ title: DeletionOptions
 second_title: Aspose.Email for Java API Reference
 description: Defines parameters for item deletion
 type: docs
-weight: 154
+weight: 155
 url: /java/com.aspose.email/deletionoptions/
 ---
 

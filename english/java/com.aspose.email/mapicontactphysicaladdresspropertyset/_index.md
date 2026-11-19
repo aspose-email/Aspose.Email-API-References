@@ -1,9 +1,9 @@
 ---
 title: MapiContactPhysicalAddressPropertySet
 second_title: Aspose.Email for Java API Reference
-description: Specify three physical addresses  Home Address Work Address and Other Address.
+description: The postal addresses of a contact home work and other.
 type: docs
-weight: 447
+weight: 450
 url: /java/com.aspose.email/mapicontactphysicaladdresspropertyset/
 ---
 
@@ -13,28 +13,28 @@ java.lang.Object, [com.aspose.email.MapiContactPropertySet](../../com.aspose.ema
 public final class MapiContactPhysicalAddressPropertySet extends MapiContactPropertySet
 ```
 
-Specify three physical addresses: Home Address, Work Address, and Other Address. One of the addresses can be marked as the Mailing Address
+The postal addresses of a contact: home, work and other. One of them can be marked as the mailing address.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MapiContactPhysicalAddressPropertySet()](#MapiContactPhysicalAddressPropertySet--) | Initializes a new instance of the [MapiContactPhysicalAddressPropertySet](../../com.aspose.email/mapicontactphysicaladdresspropertyset) class |
-| [MapiContactPhysicalAddressPropertySet(MapiPropertyCollection properties)](#MapiContactPhysicalAddressPropertySet-com.aspose.email.MapiPropertyCollection-) | Initializes a new instance of the [MapiContactPhysicalAddressPropertySet](../../com.aspose.email/mapicontactphysicaladdresspropertyset) class |
+| [MapiContactPhysicalAddressPropertySet()](#MapiContactPhysicalAddressPropertySet--) | Initializes a new instance of the [MapiContactPhysicalAddressPropertySet](../../com.aspose.email/mapicontactphysicaladdresspropertyset) class. |
+| [MapiContactPhysicalAddressPropertySet(MapiPropertyCollection properties)](#MapiContactPhysicalAddressPropertySet-com.aspose.email.MapiPropertyCollection-) | Initializes a new instance of the [MapiContactPhysicalAddressPropertySet](../../com.aspose.email/mapicontactphysicaladdresspropertyset) class from contact properties. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getHomeAddress()](#getHomeAddress--) | Specifies the address of the contact's home |
-| [getOtherAddress()](#getOtherAddress--) | Specifies the other contact's address |
-| [getWorkAddress()](#getWorkAddress--) | Specifies the address of the contact's work |
+| [getHomeAddress()](#getHomeAddress--) | Gets the home address. |
+| [getOtherAddress()](#getOtherAddress--) | Gets the other address. |
+| [getWorkAddress()](#getWorkAddress--) | Gets the work address. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setHomeAddress(MapiContactPhysicalAddress value)](#setHomeAddress-com.aspose.email.MapiContactPhysicalAddress-) | Specifies the address of the contact's home |
-| [setOtherAddress(MapiContactPhysicalAddress value)](#setOtherAddress-com.aspose.email.MapiContactPhysicalAddress-) | Specifies the other contact's address |
-| [setWorkAddress(MapiContactPhysicalAddress value)](#setWorkAddress-com.aspose.email.MapiContactPhysicalAddress-) | Specifies the address of the contact's work |
+| [setHomeAddress(MapiContactPhysicalAddress value)](#setHomeAddress-com.aspose.email.MapiContactPhysicalAddress-) | Sets the home address. |
+| [setOtherAddress(MapiContactPhysicalAddress value)](#setOtherAddress-com.aspose.email.MapiContactPhysicalAddress-) | Sets the other address. |
+| [setWorkAddress(MapiContactPhysicalAddress value)](#setWorkAddress-com.aspose.email.MapiContactPhysicalAddress-) | Sets the work address. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -45,7 +45,7 @@ public MapiContactPhysicalAddressPropertySet()
 ```
 
 
-Initializes a new instance of the [MapiContactPhysicalAddressPropertySet](../../com.aspose.email/mapicontactphysicaladdresspropertyset) class
+Initializes a new instance of the [MapiContactPhysicalAddressPropertySet](../../com.aspose.email/mapicontactphysicaladdresspropertyset) class.
 
 ### MapiContactPhysicalAddressPropertySet(MapiPropertyCollection properties) {#MapiContactPhysicalAddressPropertySet-com.aspose.email.MapiPropertyCollection-}
 ```
@@ -53,12 +53,12 @@ public MapiContactPhysicalAddressPropertySet(MapiPropertyCollection properties)
 ```
 
 
-Initializes a new instance of the [MapiContactPhysicalAddressPropertySet](../../com.aspose.email/mapicontactphysicaladdresspropertyset) class
+Initializes a new instance of the [MapiContactPhysicalAddressPropertySet](../../com.aspose.email/mapicontactphysicaladdresspropertyset) class from contact properties.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| properties | [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) | A [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) containing contact physical addresses properties |
+| properties | [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) | The properties that contain the addresses. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -91,7 +91,7 @@ public final MapiContactPhysicalAddress getHomeAddress()
 ```
 
 
-Specifies the address of the contact's home
+Gets the home address.
 
 **Returns:**
 [MapiContactPhysicalAddress](../../com.aspose.email/mapicontactphysicaladdress)
@@ -101,7 +101,7 @@ public final MapiContactPhysicalAddress getOtherAddress()
 ```
 
 
-Specifies the other contact's address
+Gets the other address.
 
 **Returns:**
 [MapiContactPhysicalAddress](../../com.aspose.email/mapicontactphysicaladdress)
@@ -111,7 +111,7 @@ public final MapiContactPhysicalAddress getWorkAddress()
 ```
 
 
-Specifies the address of the contact's work
+Gets the work address.
 
 **Returns:**
 [MapiContactPhysicalAddress](../../com.aspose.email/mapicontactphysicaladdress)
@@ -147,7 +147,7 @@ public final void setHomeAddress(MapiContactPhysicalAddress value)
 ```
 
 
-Specifies the address of the contact's home
+Sets the home address.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -160,7 +160,7 @@ public final void setOtherAddress(MapiContactPhysicalAddress value)
 ```
 
 
-Specifies the other contact's address
+Sets the other address.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -173,7 +173,7 @@ public final void setWorkAddress(MapiContactPhysicalAddress value)
 ```
 
 
-Specifies the address of the contact's work
+Sets the work address.
 
 **Parameters:**
 | Parameter | Type | Description |

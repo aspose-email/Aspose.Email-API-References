@@ -1,9 +1,9 @@
 ---
 title: OleDocumentFormat
 second_title: Aspose.Email for Java API Reference
-description: Represents the format for OLE document.
+description: The format of an OLE document embedded in an attachment identified by its class GUID.
 type: docs
-weight: 569
+weight: 573
 url: /java/com.aspose.email/oledocumentformat/
 ---
 
@@ -13,31 +13,31 @@ java.lang.Object
 public final class OleDocumentFormat
 ```
 
-Represents the format for OLE document.
+The format of an OLE document embedded in an attachment, identified by its class GUID.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [OleDocumentFormat(UUID guid)](#OleDocumentFormat-java.util.UUID-) | Initializes a new instance of the OleDocumentFormat class. |
+| [OleDocumentFormat(UUID guid)](#OleDocumentFormat-java.util.UUID-) | Initializes a new instance of the [OleDocumentFormat](../../com.aspose.email/oledocumentformat) class with the class GUID of the format. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified object. |
-| [getAdobeAcrobatDocument()](#getAdobeAcrobatDocument--) | Adobe PDF format. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is the same format. |
+| [getAdobeAcrobatDocument()](#getAdobeAcrobatDocument--) | Gets the format of an Adobe Acrobat (PDF) document. |
 | [getClass()](#getClass--) |  |
-| [getMicrosoftOfficeExcelWorksheet()](#getMicrosoftOfficeExcelWorksheet--) | Microsoft office exccel format. |
-| [getMicrosoftOfficeWordDocument()](#getMicrosoftOfficeWordDocument--) | Microsoft office word format. |
-| [getMicrosoftOutlookMessage()](#getMicrosoftOutlookMessage--) | Microsoft outlook message format. |
-| [getMicrosoftPhotoEditor()](#getMicrosoftPhotoEditor--) | Microsoft Photo Editor type. |
-| [getMicrosoftPowerPointPresentation()](#getMicrosoftPowerPointPresentation--) | Microsoft power point format. |
-| [getPaintbrush()](#getPaintbrush--) | Paintbrush type. |
-| [getPictureMetafile()](#getPictureMetafile--) | Picture(Metafile) type. |
-| [getUnknown()](#getUnknown--) | Unknown type. |
-| [hashCode()](#hashCode--) | Returns the hash code of this instance. |
+| [getMicrosoftOfficeExcelWorksheet()](#getMicrosoftOfficeExcelWorksheet--) | Gets the format of a Microsoft Excel worksheet. |
+| [getMicrosoftOfficeWordDocument()](#getMicrosoftOfficeWordDocument--) | Gets the format of a Microsoft Word document. |
+| [getMicrosoftOutlookMessage()](#getMicrosoftOutlookMessage--) | Gets the format of a Microsoft Outlook message. |
+| [getMicrosoftPhotoEditor()](#getMicrosoftPhotoEditor--) | Gets the format of a Microsoft Photo Editor image. |
+| [getMicrosoftPowerPointPresentation()](#getMicrosoftPowerPointPresentation--) | Gets the format of a Microsoft PowerPoint presentation. |
+| [getPaintbrush()](#getPaintbrush--) | Gets the format of a Paintbrush image. |
+| [getPictureMetafile()](#getPictureMetafile--) | Gets the format of a picture (metafile). |
+| [getUnknown()](#getUnknown--) | Gets the format used when the document type is not known. |
+| [hashCode()](#hashCode--) | Returns the hash code of the format. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Overridden. |
+| [toString()](#toString--) | Returns the name of the format. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -47,12 +47,12 @@ public OleDocumentFormat(UUID guid)
 ```
 
 
-Initializes a new instance of the OleDocumentFormat class.
+Initializes a new instance of the [OleDocumentFormat](../../com.aspose.email/oledocumentformat) class with the class GUID of the format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| guid | java.util.UUID | The guid of the ole document. |
+| guid | java.util.UUID | The class GUID of the OLE document. |
 
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
@@ -60,22 +60,22 @@ public boolean equals(Object obj)
 ```
 
 
-Returns a value indicating whether this instance is equal to a specified object.
+Determines whether the specified object is the same format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The object to compare with this instance. |
+| obj | java.lang.Object | The object to compare with. |
 
 **Returns:**
-boolean - true if o is a System.Guid that has the same value as this instance; otherwise, false.
+boolean -  true  if  obj  is an [OleDocumentFormat](../../com.aspose.email/oledocumentformat) with the same GUID; otherwise,  false .
 ### getAdobeAcrobatDocument() {#getAdobeAcrobatDocument--}
 ```
 public static OleDocumentFormat getAdobeAcrobatDocument()
 ```
 
 
-Adobe PDF format.
+Gets the format of an Adobe Acrobat (PDF) document.
 
 **Returns:**
 [OleDocumentFormat](../../com.aspose.email/oledocumentformat)
@@ -95,7 +95,7 @@ public static OleDocumentFormat getMicrosoftOfficeExcelWorksheet()
 ```
 
 
-Microsoft office exccel format.
+Gets the format of a Microsoft Excel worksheet.
 
 **Returns:**
 [OleDocumentFormat](../../com.aspose.email/oledocumentformat)
@@ -105,7 +105,7 @@ public static OleDocumentFormat getMicrosoftOfficeWordDocument()
 ```
 
 
-Microsoft office word format.
+Gets the format of a Microsoft Word document.
 
 **Returns:**
 [OleDocumentFormat](../../com.aspose.email/oledocumentformat)
@@ -115,7 +115,7 @@ public static OleDocumentFormat getMicrosoftOutlookMessage()
 ```
 
 
-Microsoft outlook message format.
+Gets the format of a Microsoft Outlook message.
 
 **Returns:**
 [OleDocumentFormat](../../com.aspose.email/oledocumentformat)
@@ -125,7 +125,7 @@ public static OleDocumentFormat getMicrosoftPhotoEditor()
 ```
 
 
-Microsoft Photo Editor type.
+Gets the format of a Microsoft Photo Editor image.
 
 **Returns:**
 [OleDocumentFormat](../../com.aspose.email/oledocumentformat)
@@ -135,7 +135,7 @@ public static OleDocumentFormat getMicrosoftPowerPointPresentation()
 ```
 
 
-Microsoft power point format.
+Gets the format of a Microsoft PowerPoint presentation.
 
 **Returns:**
 [OleDocumentFormat](../../com.aspose.email/oledocumentformat)
@@ -145,7 +145,7 @@ public static OleDocumentFormat getPaintbrush()
 ```
 
 
-Paintbrush type.
+Gets the format of a Paintbrush image.
 
 **Returns:**
 [OleDocumentFormat](../../com.aspose.email/oledocumentformat)
@@ -155,7 +155,7 @@ public static OleDocumentFormat getPictureMetafile()
 ```
 
 
-Picture(Metafile) type.
+Gets the format of a picture (metafile).
 
 **Returns:**
 [OleDocumentFormat](../../com.aspose.email/oledocumentformat)
@@ -165,7 +165,7 @@ public static OleDocumentFormat getUnknown()
 ```
 
 
-Unknown type.
+Gets the format used when the document type is not known.
 
 **Returns:**
 [OleDocumentFormat](../../com.aspose.email/oledocumentformat)
@@ -175,10 +175,10 @@ public int hashCode()
 ```
 
 
-Returns the hash code of this instance.
+Returns the hash code of the format.
 
 **Returns:**
-int - The hash code for this instance.
+int - The hash code.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -201,10 +201,10 @@ public String toString()
 ```
 
 
-Overridden. Returns a string representation of this instance.
+Returns the name of the format.
 
 **Returns:**
-java.lang.String - A string contains the mail addresse.
+java.lang.String - The name of the format.
 ### wait() {#wait--}
 ```
 public final void wait()

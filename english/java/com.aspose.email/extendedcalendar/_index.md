@@ -3,7 +3,7 @@ title: ExtendedCalendar
 second_title: Aspose.Email for Java API Reference
 description: A set of extended metadata such as a colors for a single calendar.
 type: docs
-weight: 238
+weight: 241
 url: /java/com.aspose.email/extendedcalendar/
 ---
 
@@ -42,6 +42,7 @@ A set of extended metadata, such as a colors, for a single calendar.
 | [getClass()](#getClass--) |  |
 | [getColorId()](#getColorId--) | The color of the calendar. |
 | [getConferenceProperties()](#getConferenceProperties--) | Gets conferencing properties for this calendar. |
+| [getDataOwner()](#getDataOwner--) | The email of the owner of the calendar. |
 | [getDefaultReminders()](#getDefaultReminders--) | The default reminders that the authenticated user has for this calendar. |
 | [getDescription()](#getDescription--) | Description of the calendar. |
 | [getETag()](#getETag--) | An ETag or entity tag is one of several mechanisms that HTTP provides for web cache validation, and which allows a client to make conditional requests. |
@@ -61,6 +62,7 @@ A set of extended metadata, such as a colors, for a single calendar.
 | [notifyAll()](#notifyAll--) |  |
 | [setBackgroundColor(String value)](#setBackgroundColor-java.lang.String-) | The main color of the calendar in the format '\#0088aa'. |
 | [setColorId(String value)](#setColorId-java.lang.String-) | The color of the calendar. |
+| [setDataOwner(String value)](#setDataOwner-java.lang.String-) | The email of the owner of the calendar. |
 | [setDefaultReminders(System.Collections.Generic.KeyValuePair<Integer,Integer>[] value)](#setDefaultReminders-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Integer-java.lang.Integer----) | The default reminders that the authenticated user has for this calendar. |
 | [setDescription(String value)](#setDescription-java.lang.String-) | Description of the calendar. |
 | [setETag(String value)](#setETag-java.lang.String-) | An ETag or entity tag is one of several mechanisms that HTTP provides for web cache validation, and which allows a client to make conditional requests. |
@@ -288,6 +290,16 @@ Gets conferencing properties for this calendar.
 
 **Returns:**
 [ConferenceProperties](../../com.aspose.email/conferenceproperties)
+### getDataOwner() {#getDataOwner--}
+```
+public String getDataOwner()
+```
+
+
+The email of the owner of the calendar.
+
+**Returns:**
+java.lang.String
 ### getDefaultReminders() {#getDefaultReminders--}
 ```
 public System.Collections.Generic.KeyValuePair<Integer,Integer>[] getDefaultReminders()
@@ -474,6 +486,19 @@ public void setColorId(String value)
 
 
 The color of the calendar. This is an ID referring to an entry in the 'calendar' section of the colors definition (see the 'colors' endpoint).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setDataOwner(String value) {#setDataOwner-java.lang.String-}
+```
+public void setDataOwner(String value)
+```
+
+
+The email of the owner of the calendar.
 
 **Parameters:**
 | Parameter | Type | Description |

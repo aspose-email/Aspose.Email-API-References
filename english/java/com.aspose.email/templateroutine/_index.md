@@ -3,7 +3,7 @@ title: TemplateRoutine
 second_title: Aspose.Email for Java API Reference
 description: Represents the routine used in the template file.
 type: docs
-weight: 706
+weight: 715
 url: /java/com.aspose.email/templateroutine/
 ---
 
@@ -14,6 +14,8 @@ public abstract class TemplateRoutine extends System.MulticastDelegate
 ```
 
 Represents the routine used in the template file.
+
+The method receives  args : arguments, which have to be processed by user-defined function. It returns operation result.
 ## Constructors
 
 | Constructor | Description |
@@ -71,7 +73,7 @@ public final System.IAsyncResult beginInvoke(Object[] args, System.AsyncCallback
 | state | java.lang.Object |  |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult)
 ### combine(System.Delegate arg0, System.Delegate arg1) {#combine-com.aspose.ms.System.Delegate-com.aspose.ms.System.Delegate-}
 ```
 public static System.Delegate combine(System.Delegate arg0, System.Delegate arg1)

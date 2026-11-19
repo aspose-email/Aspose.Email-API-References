@@ -3,7 +3,7 @@ title: MediaTypeNames
 second_title: Aspose.Email for Java API Reference
 description: Specifies the media type names for an e-mail message.
 type: docs
-weight: 511
+weight: 514
 url: /java/com.aspose.email/mediatypenames/
 ---
 
@@ -28,7 +28,7 @@ Specifies the media type names for an e-mail message.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [parseName(String name)](#parseName-java.lang.String-) | Converts file name extension to media type name |
+| [parseName(String name)](#parseName-java.lang.String-) | Converts file name extension to media type name. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -96,15 +96,15 @@ public static String parseName(String name)
 ```
 
 
-Converts file name extension to media type name
+Converts file name extension to media type name.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | File name extension |
+| name | java.lang.String | File name extension. |
 
 **Returns:**
-java.lang.String - Returns media type name
+java.lang.String - Returns media type name.
 ### toString() {#toString--}
 ```
 public String toString()

@@ -1,9 +1,9 @@
 ---
 title: TaskSaveFormat
 second_title: Aspose.Email for Java API Reference
-description: Enumerates TaskSaveFormat
+description: Defines the formats of a task.
 type: docs
-weight: 704
+weight: 711
 url: /java/com.aspose.email/tasksaveformat/
 ---
 
@@ -13,13 +13,14 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class TaskSaveFormat extends System.Enum
 ```
 
-Enumerates TaskSaveFormat
+Defines the formats of a task.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Msg](#Msg) | MSG format. |
+| [Ics](#Ics) | ICalendar (.ics) with a VTODO. |
+| [Msg](#Msg) | Outlook message (.msg). |
 ## Methods
 
 | Method | Description |
@@ -65,13 +66,21 @@ public static final char[] EnumSeparatorCharArray
 ```
 
 
+### Ics {#Ics}
+```
+public static final int Ics
+```
+
+
+ICalendar (.ics) with a VTODO.
+
 ### Msg {#Msg}
 ```
 public static final int Msg
 ```
 
 
-MSG format.
+Outlook message (.msg).
 
 ### Clone() {#Clone--}
 ```

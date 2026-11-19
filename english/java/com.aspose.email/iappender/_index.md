@@ -3,7 +3,7 @@ title: IAppender
 second_title: Aspose.Email for Java API Reference
 description: Implement this interface for your own strategies for printing log entries.
 type: docs
-weight: 771
+weight: 783
 url: /java/com.aspose.email/iappender/
 ---
 ```
@@ -17,8 +17,8 @@ Implement this interface for your own strategies for printing log entries.
 | --- | --- |
 | [append(LogEntry entry)](#append-com.aspose.email.LogEntry-) | Log the specified log entry in Appender specific way. |
 | [appendHeader()](#appendHeader--) | Starts log file with specific header. |
-| [getFormatter()](#getFormatter--) | Gets or sets the IFormatter. |
-| [setFormatter(IFormatter value)](#setFormatter-com.aspose.email.IFormatter-) | Gets or sets the IFormatter. |
+| [getFormatter()](#getFormatter--) | Gets the IFormatter. |
+| [setFormatter(IFormatter value)](#setFormatter-com.aspose.email.IFormatter-) | Sets the IFormatter. |
 ### append(LogEntry entry) {#append-com.aspose.email.LogEntry-}
 ```
 public abstract void append(LogEntry entry)
@@ -46,7 +46,7 @@ public abstract IFormatter getFormatter()
 ```
 
 
-Gets or sets the IFormatter.
+Gets the IFormatter.
 
 **Returns:**
 [IFormatter](../../com.aspose.email/iformatter)
@@ -56,7 +56,7 @@ public abstract void setFormatter(IFormatter value)
 ```
 
 
-Gets or sets the IFormatter.
+Sets the IFormatter.
 
 **Parameters:**
 | Parameter | Type | Description |

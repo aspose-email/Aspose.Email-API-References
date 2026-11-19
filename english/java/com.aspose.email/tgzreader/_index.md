@@ -3,7 +3,7 @@ title: TgzReader
 second_title: Aspose.Email for Java API Reference
 description: The mailbox items reader of Zimbra tgz storage.
 type: docs
-weight: 708
+weight: 718
 url: /java/com.aspose.email/tgzreader/
 ---
 
@@ -27,18 +27,20 @@ The mailbox items reader of Zimbra tgz storage.
 
 | Method | Description |
 | --- | --- |
-| [close()](#close--) |  |
+| [close()](#close--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [exportTo(String path)](#exportTo-java.lang.String-) | Save messages and directory structure using given path. |
 | [getClass()](#getClass--) |  |
 | [getCurrentDirectory()](#getCurrentDirectory--) | Gets the current directory name. |
 | [getCurrentMessage()](#getCurrentMessage--) | Gets the current message. |
+| [getItemsCount(int type)](#getItemsCount-int-) | Returns the number of items by type. |
 | [getTotalItemsCount()](#getTotalItemsCount--) | Gets the total count of items. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [readNextMessage()](#readNextMessage--) | Reads the next message. |
+| [release()](#release--) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -75,7 +77,7 @@ public void close()
 ```
 
 
-
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ### dispose() {#dispose--}
 ```
@@ -131,10 +133,8 @@ public final String getCurrentDirectory()
 
 Gets the current directory name.
 
-Value: The name of directory.
-
 **Returns:**
-java.lang.String
+java.lang.String - The name of directory.
 ### getCurrentMessage() {#getCurrentMessage--}
 ```
 public final MailMessage getCurrentMessage()
@@ -143,10 +143,23 @@ public final MailMessage getCurrentMessage()
 
 Gets the current message.
 
-Value: The [MailMessage](../../com.aspose.email/mailmessage).
+**Returns:**
+[MailMessage](../../com.aspose.email/mailmessage) - The [MailMessage](../../com.aspose.email/mailmessage).
+### getItemsCount(int type) {#getItemsCount-int-}
+```
+public final int getItemsCount(int type)
+```
+
+
+Returns the number of items by type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | int | Type of items being returned. |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage)
+int - Number of items by type.
 ### getTotalItemsCount() {#getTotalItemsCount--}
 ```
 public final int getTotalItemsCount()
@@ -192,7 +205,15 @@ public final boolean readNextMessage()
 Reads the next message.
 
 **Returns:**
-boolean - 
+boolean
+### release() {#release--}
+```
+public void release()
+```
+
+
+
+
 ### toString() {#toString--}
 ```
 public String toString()

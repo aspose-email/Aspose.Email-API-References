@@ -3,7 +3,7 @@ title: CalendarMonth
 second_title: Aspose.Email for Java API Reference
 description: Represents a calendar month.
 type: docs
-weight: 96
+weight: 97
 url: /java/com.aspose.email/calendarmonth/
 ---
 
@@ -29,7 +29,7 @@ Represents a calendar month.
 | [March](#March) | March. |
 | [May](#May) | May. |
 | [None](#None) | No values are set. |
-| [Novemeber](#Novemeber) | Novemeber. |
+| [Novemeber](#Novemeber) | November. |
 | [October](#October) | October. |
 | [September](#September) | September. |
 ## Methods
@@ -163,7 +163,7 @@ public static final int Novemeber
 ```
 
 
-Novemeber.
+November.
 
 ### October {#October}
 ```

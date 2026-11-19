@@ -1,9 +1,9 @@
 ---
 title: MailboxInfo
 second_title: Aspose.Email for Java API Reference
-description: Represents identification information about message in a mailbox.
+description: Identifies a message in a mailbox on a server.
 type: docs
-weight: 398
+weight: 401
 url: /java/com.aspose.email/mailboxinfo/
 ---
 
@@ -13,20 +13,20 @@ java.lang.Object
 public class MailboxInfo
 ```
 
-Represents identification information about message in a mailbox.
+Identifies a message in a mailbox on a server.
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getSequenceNumber()](#getSequenceNumber--) | The sequence number of message. |
-| [getUniqueId()](#getUniqueId--) | The unique id of message. |
+| [getSequenceNumber()](#getSequenceNumber--) | Gets the sequence number of the message in the mailbox. |
+| [getUniqueId()](#getUniqueId--) | Gets the unique identifier of the message in the mailbox. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setSequenceNumber(int value)](#setSequenceNumber-int-) | The sequence number of message. |
-| [setUniqueId(String value)](#setUniqueId-java.lang.String-) | The unique id of message. |
+| [setSequenceNumber(int value)](#setSequenceNumber-int-) | Sets the sequence number of the message in the mailbox. |
+| [setUniqueId(String value)](#setUniqueId-java.lang.String-) | Sets the unique identifier of the message in the mailbox. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -62,7 +62,7 @@ public final int getSequenceNumber()
 ```
 
 
-The sequence number of message.
+Gets the sequence number of the message in the mailbox.
 
 **Returns:**
 int
@@ -72,7 +72,7 @@ public final String getUniqueId()
 ```
 
 
-The unique id of message.
+Gets the unique identifier of the message in the mailbox.
 
 **Returns:**
 java.lang.String
@@ -108,7 +108,7 @@ public final void setSequenceNumber(int value)
 ```
 
 
-The sequence number of message.
+Sets the sequence number of the message in the mailbox.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,7 +121,7 @@ public final void setUniqueId(String value)
 ```
 
 
-The unique id of message.
+Sets the unique identifier of the message in the mailbox.
 
 **Parameters:**
 | Parameter | Type | Description |

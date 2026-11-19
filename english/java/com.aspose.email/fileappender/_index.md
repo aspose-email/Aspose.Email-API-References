@@ -1,9 +1,9 @@
 ---
 title: FileAppender
 second_title: Aspose.Email for Java API Reference
-description: Reprensents a file appender.
+description: Represents a file appender.
 type: docs
-weight: 245
+weight: 248
 url: /java/com.aspose.email/fileappender/
 ---
 
@@ -13,16 +13,16 @@ java.lang.Object, [com.aspose.email.Appender](../../com.aspose.email/appender)
 public final class FileAppender extends Appender
 ```
 
-Reprensents a file appender.
+Represents a file appender.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [FileAppender()](#FileAppender--) | Initializes a new instance of the FileAppender class. |
-| [FileAppender(String fileName)](#FileAppender-java.lang.String-) | Initializes a new instance of the FileAppender class. |
-| [FileAppender(String fileName, boolean useDate)](#FileAppender-java.lang.String-boolean-) | Initializes a new instance of the FileAppender class. |
-| [FileAppender(String fileName, IFormatter formatter)](#FileAppender-java.lang.String-com.aspose.email.IFormatter-) | Initializes a new instance of the FileAppender class. |
-| [FileAppender(String fileName, boolean useDate, IFormatter formatter)](#FileAppender-java.lang.String-boolean-com.aspose.email.IFormatter-) | Initializes a new instance of the FileAppender class. |
+| [FileAppender()](#FileAppender--) | Initializes a new instance of the [FileAppender](../../com.aspose.email/fileappender) class. |
+| [FileAppender(String fileName)](#FileAppender-java.lang.String-) | Initializes a new instance of the [FileAppender](../../com.aspose.email/fileappender) class. |
+| [FileAppender(String fileName, boolean useDate)](#FileAppender-java.lang.String-boolean-) | Initializes a new instance of the [FileAppender](../../com.aspose.email/fileappender) class. |
+| [FileAppender(String fileName, IFormatter formatter)](#FileAppender-java.lang.String-com.aspose.email.IFormatter-) | Initializes a new instance of the [FileAppender](../../com.aspose.email/fileappender) class. |
+| [FileAppender(String fileName, boolean useDate, IFormatter formatter)](#FileAppender-java.lang.String-boolean-com.aspose.email.IFormatter-) | Initializes a new instance of the [FileAppender](../../com.aspose.email/fileappender) class. |
 ## Methods
 
 | Method | Description |
@@ -31,21 +31,21 @@ Reprensents a file appender.
 | [append(LogEntry[] logEntries)](#append-com.aspose.email.LogEntry---) | Appends a set of log entries to the appender. |
 | [appendHeader()](#appendHeader--) | Starts log file with specific header. |
 | [close()](#close--) | Closes the appender. |
-| [dispose()](#dispose--) | Releases the unmanaged resources used by the Appender. |
+| [dispose()](#dispose--) | Releases the unmanaged resources used by the [Appender](../../com.aspose.email/appender). |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getEncoding()](#getEncoding--) | Gets or sets the encoding. |
-| [getFileName()](#getFileName--) | Gets or sets file name. |
-| [getFormatter()](#getFormatter--) | Gets or sets the formatter. |
-| [getUseDate()](#getUseDate--) | Gets or sets value which indicates whether date is used for logging. |
+| [getEncoding()](#getEncoding--) | Gets the encoding. |
+| [getFileName()](#getFileName--) | Gets the file name. |
+| [getFormatter()](#getFormatter--) | Gets the formatter. |
+| [getUseDate()](#getUseDate--) | Gets a value which indicates whether date is used for logging. |
 | [hashCode()](#hashCode--) |  |
 | [initialize()](#initialize--) | Initializes the appender instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEncoding(String value)](#setEncoding-java.lang.String-) | Gets or sets the encoding. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | Gets or sets file name. |
-| [setFormatter(IFormatter value)](#setFormatter-com.aspose.email.IFormatter-) | Gets or sets the formatter. |
-| [setUseDate(boolean value)](#setUseDate-boolean-) | Gets or sets value which indicates whether date is used for logging. |
+| [setEncoding(String value)](#setEncoding-java.lang.String-) | Sets the encoding. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Sets the file name. |
+| [setFormatter(IFormatter value)](#setFormatter-com.aspose.email.IFormatter-) | Sets the formatter. |
+| [setUseDate(boolean value)](#setUseDate-boolean-) | Sets a value which indicates whether date is used for logging. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -56,7 +56,7 @@ public FileAppender()
 ```
 
 
-Initializes a new instance of the FileAppender class.
+Initializes a new instance of the [FileAppender](../../com.aspose.email/fileappender) class.
 
 ### FileAppender(String fileName) {#FileAppender-java.lang.String-}
 ```
@@ -64,7 +64,7 @@ public FileAppender(String fileName)
 ```
 
 
-Initializes a new instance of the FileAppender class.
+Initializes a new instance of the [FileAppender](../../com.aspose.email/fileappender) class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -77,13 +77,13 @@ public FileAppender(String fileName, boolean useDate)
 ```
 
 
-Initializes a new instance of the FileAppender class.
+Initializes a new instance of the [FileAppender](../../com.aspose.email/fileappender) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | The file name. |
-| useDate | boolean | Indicates if date is used in file name |
+| useDate | boolean | Indicates if date is used in file name. |
 
 ### FileAppender(String fileName, IFormatter formatter) {#FileAppender-java.lang.String-com.aspose.email.IFormatter-}
 ```
@@ -91,13 +91,13 @@ public FileAppender(String fileName, IFormatter formatter)
 ```
 
 
-Initializes a new instance of the FileAppender class.
+Initializes a new instance of the [FileAppender](../../com.aspose.email/fileappender) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | The file name. |
-| formatter | [IFormatter](../../com.aspose.email/iformatter) | Log formatter |
+| formatter | [IFormatter](../../com.aspose.email/iformatter) | Log formatter. |
 
 ### FileAppender(String fileName, boolean useDate, IFormatter formatter) {#FileAppender-java.lang.String-boolean-com.aspose.email.IFormatter-}
 ```
@@ -105,14 +105,14 @@ public FileAppender(String fileName, boolean useDate, IFormatter formatter)
 ```
 
 
-Initializes a new instance of the FileAppender class.
+Initializes a new instance of the [FileAppender](../../com.aspose.email/fileappender) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | The file name. |
-| useDate | boolean | Indicates if date is used in file name |
-| formatter | [IFormatter](../../com.aspose.email/iformatter) | Log formatter |
+| useDate | boolean | Indicates if date is used in file name. |
+| formatter | [IFormatter](../../com.aspose.email/iformatter) | Log formatter. |
 
 ### append(LogEntry logEntry) {#append-com.aspose.email.LogEntry-}
 ```
@@ -162,7 +162,7 @@ public final void dispose()
 ```
 
 
-Releases the unmanaged resources used by the Appender.
+Releases the unmanaged resources used by the [Appender](../../com.aspose.email/appender).
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -195,7 +195,7 @@ public final String getEncoding()
 ```
 
 
-Gets or sets the encoding.
+Gets the encoding.
 
 **Returns:**
 java.lang.String
@@ -205,7 +205,7 @@ public final String getFileName()
 ```
 
 
-Gets or sets file name.
+Gets the file name.
 
 **Returns:**
 java.lang.String
@@ -215,7 +215,7 @@ public final IFormatter getFormatter()
 ```
 
 
-Gets or sets the formatter.
+Gets the formatter.
 
 **Returns:**
 [IFormatter](../../com.aspose.email/iformatter)
@@ -225,7 +225,7 @@ public final boolean getUseDate()
 ```
 
 
-Gets or sets value which indicates whether date is used for logging.
+Gets a value which indicates whether date is used for logging.
 
 **Returns:**
 boolean
@@ -269,7 +269,7 @@ public final void setEncoding(String value)
 ```
 
 
-Gets or sets the encoding.
+Sets the encoding.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -282,7 +282,7 @@ public final void setFileName(String value)
 ```
 
 
-Gets or sets file name.
+Sets the file name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -295,7 +295,7 @@ public final void setFormatter(IFormatter value)
 ```
 
 
-Gets or sets the formatter.
+Sets the formatter.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -308,7 +308,7 @@ public final void setUseDate(boolean value)
 ```
 
 
-Gets or sets value which indicates whether date is used for logging.
+Sets a value which indicates whether date is used for logging.
 
 **Parameters:**
 | Parameter | Type | Description |

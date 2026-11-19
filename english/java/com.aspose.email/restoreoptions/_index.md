@@ -1,9 +1,9 @@
 ---
 title: RestoreOptions
 second_title: Aspose.Email for Java API Reference
-description: Enumerates restore options
+description: Options for restoring mail folders from a PST file.
 type: docs
-weight: 641
+weight: 646
 url: /java/com.aspose.email/restoreoptions/
 ---
 
@@ -13,16 +13,16 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class RestoreOptions extends System.Enum
 ```
 
-Enumerates restore options
+Options for restoring mail folders from a PST file.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [None](#None) | Indicates that no specific options are specified |
-| [Recursive](#Recursive) | Indicates that nested folders should be also restored |
-| [RemoveNonexistentFolders](#RemoveNonexistentFolders) | Indicates that mail folders, which do not have the equal folders in the personal storage, should be removed |
-| [RemoveNonexistentItems](#RemoveNonexistentItems) | Indicates that mail items, which do not have the equal items in the personal storage, should be removed |
+| [None](#None) | No options. |
+| [Recursive](#Recursive) | Restore the nested folders too. |
+| [RemoveNonexistentFolders](#RemoveNonexistentFolders) | Remove the mail folders that have no matching folder in the PST. |
+| [RemoveNonexistentItems](#RemoveNonexistentItems) | Remove the mail items that have no matching item in the PST. |
 ## Methods
 
 | Method | Description |
@@ -74,7 +74,7 @@ public static final int None
 ```
 
 
-Indicates that no specific options are specified
+No options.
 
 ### Recursive {#Recursive}
 ```
@@ -82,7 +82,7 @@ public static final int Recursive
 ```
 
 
-Indicates that nested folders should be also restored
+Restore the nested folders too.
 
 ### RemoveNonexistentFolders {#RemoveNonexistentFolders}
 ```
@@ -90,7 +90,7 @@ public static final int RemoveNonexistentFolders
 ```
 
 
-Indicates that mail folders, which do not have the equal folders in the personal storage, should be removed
+Remove the mail folders that have no matching folder in the PST.
 
 ### RemoveNonexistentItems {#RemoveNonexistentItems}
 ```
@@ -98,7 +98,7 @@ public static final int RemoveNonexistentItems
 ```
 
 
-Indicates that mail items, which do not have the equal items in the personal storage, should be removed
+Remove the mail items that have no matching item in the PST.
 
 ### Clone() {#Clone--}
 ```

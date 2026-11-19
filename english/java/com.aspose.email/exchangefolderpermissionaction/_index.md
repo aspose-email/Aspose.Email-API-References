@@ -3,7 +3,7 @@ title: ExchangeFolderPermissionAction
 second_title: Aspose.Email for Java API Reference
 description: Defines which items in a folder a user has permission to edit or delete.
 type: docs
-weight: 212
+weight: 215
 url: /java/com.aspose.email/exchangefolderpermissionaction/
 ---
 

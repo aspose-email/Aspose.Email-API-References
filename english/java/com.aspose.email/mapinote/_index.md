@@ -3,7 +3,7 @@ title: MapiNote
 second_title: Aspose.Email for Java API Reference
 description: Represents a MAPI note sticky note item.
 type: docs
-weight: 474
+weight: 477
 url: /java/com.aspose.email/mapinote/
 ---
 
@@ -17,11 +17,10 @@ Represents a MAPI note ("sticky note") item.
 
 This class serves as a wrapper for [MapiMessage](../../com.aspose.email/mapimessage) to simplify the process of handling note information from MAPI properties. It provides a more intuitive interface for accessing and manipulating note data within the MAPI message.
 
-Example:
+The following example demonstrates how to get a [MapiNote](../../com.aspose.email/mapinote) object from a [MapiMessage](../../com.aspose.email/mapimessage).
 
 ```
 
- // Load the MAPI message from a file
  MapiMessage msg = MapiMessage.load("note.msg");
 
  // Check if the loaded message is a supported note type
@@ -40,93 +39,98 @@ Example:
 | Constructor | Description |
 | --- | --- |
 | [MapiNote()](#MapiNote--) | Initializes a new instance of the [MapiNote](../../com.aspose.email/mapinote) class. |
-| [MapiNote(String subject, String body)](#MapiNote-java.lang.String-java.lang.String-) | Initializes a new instance of the [MapiNote](../../com.aspose.email/mapinote) class. |
+| [MapiNote(String subject, String body)](#MapiNote-java.lang.String-java.lang.String-) | Initializes a new instance of the [MapiNote](../../com.aspose.email/mapinote) class with a subject and a body. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [close()](#close--) |  |
+| [close()](#close--) | Releases the resources used by the item. |
 | [createMapiNode(String key)](#createMapiNode-java.lang.String-) | Creates the mapi node. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAttachments()](#getAttachments--) | Gets the attachments in the message. |
-| [getBilling()](#getBilling--) | Contains the billing information associated with an item. |
-| [getBody()](#getBody--) | Gets the message text. |
-| [getBodyHtml()](#getBodyHtml--) | Gets the  BodyRtf (\#getBodyRtf.getBodyRtf/\#setBodyRtf(String).setBodyRtf(String)) of the message converted to HTML, if present, otherwise an empty string. |
-| [getBodyRtf()](#getBodyRtf--) | Gets or sets the RTF formatted message text. |
-| [getBodyType()](#getBodyType--) | Gets the type of the body. |
-| [getCategories()](#getCategories--) | Contains keywords or categories for the message object. |
+| [getAttachments()](#getAttachments--) | Gets the attachments of the item. |
+| [getBilling()](#getBilling--) | Gets the billing information of the item. |
+| [getBody()](#getBody--) | Gets the plain-text body of the item. |
+| [getBodyHtml()](#getBodyHtml--) | Gets the body of the item as HTML, converted from \#getBodyRtf().getBodyRtf(); an empty string when there is no RTF body. |
+| [getBodyRtf()](#getBodyRtf--) | Gets the body of the item in RTF format. |
+| [getBodyType()](#getBodyType--) | Gets the format of the body: plain text, HTML or RTF. |
+| [getCategories()](#getCategories--) | Gets the categories of the item. |
 | [getClass()](#getClass--) |  |
-| [getCodePage()](#getCodePage--) | Gets the code page. |
-| [getColor()](#getColor--) | Gets or sets the suggested background color of the Note object |
-| [getCompanies()](#getCompanies--) | Contains the names of the companies that are associated with an item. |
-| [getCreationDate()](#getCreationDate--) | Gets or sets the creation date of note |
-| [getHeight()](#getHeight--) | Gets or sets height of the visible message window in pixels |
-| [getItemId()](#getItemId--) | The item id, uses with a server |
-| [getMessageClass()](#getMessageClass--) | Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. |
-| [getMileage()](#getMileage--) | Contains the mileage information that is associated with an item. |
-| [getNamedProperties()](#getNamedProperties--) | Gets the named properties of message. |
-| [getNamedPropertyMapping()](#getNamedPropertyMapping--) | Gets the named property mapping. |
-| [getProperties()](#getProperties--) | Gets the collection of properties. |
-| [getProperty(PropertyDescriptor pd)](#getProperty-com.aspose.email.PropertyDescriptor-) | Gets MAPI property by property descriptor. |
-| [getPropertyBoolean(long tag)](#getPropertyBoolean-long-) | Gets the value of the property specified by tag as Boolean type. |
-| [getPropertyBytes(long tag)](#getPropertyBytes-long-) | Gets the string value of the property specified by tag. |
-| [getPropertyDateTime(long key)](#getPropertyDateTime-long-) | Gets the value of the property specified by tag as DateTime type. |
-| [getPropertyInt32(long tag)](#getPropertyInt32-long-) | Gets the int32 value of the property specified by tag. |
-| [getPropertyLong(long tag)](#getPropertyLong-long-) | Gets the value of the property specified by tag as Long (int64) type. |
-| [getPropertyShort(long tag)](#getPropertyShort-long-) | Gets the value of the property specified by tag as Short type. |
-| [getPropertyStream()](#getPropertyStream--) | Gets the property stream. |
-| [getPropertyString(long tag)](#getPropertyString-long-) | Gets the string value of the property specified by tag. |
-| [getPropertyString(long tag, int codepage)](#getPropertyString-long-int-) | Gets the string value of the property specified by tag. |
-| [getRecipients()](#getRecipients--) | Gets the recipients of the message. |
-| [getSensitivity()](#getSensitivity--) | Gets the Sensitivity. |
-| [getSubStorages()](#getSubStorages--) | Gets the sub storages. |
-| [getSubject()](#getSubject--) | Gets or sets the subject of the message. |
-| [getSubjectPrefix()](#getSubjectPrefix--) | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
-| [getSupportedType()](#getSupportedType--) | Gets the supported item type. |
+| [getCodePage()](#getCodePage--) | Gets the code page of the ANSI strings of the object. |
+| [getColor()](#getColor--) | Gets the background color of the note. |
+| [getCompanies()](#getCompanies--) | Gets the names of the companies associated with the item. |
+| [getCreationDate()](#getCreationDate--) | Gets the date and time the note was created. |
+| [getHeight()](#getHeight--) | Gets the height of the note window, in pixels. |
+| [getItemId()](#getItemId--) | Gets the identifier of the item on the mail server, for items obtained from a server;  null  otherwise. |
+| [getMessageClass()](#getMessageClass--) | Gets the message class of the item, such as  IPM.Note  for an e-mail message. |
+| [getMileage()](#getMileage--) | Gets the mileage information of the item. |
+| [getNamedProperties()](#getNamedProperties--) | Gets the named properties of the item. |
+| [getNamedPropertyMapping()](#getNamedPropertyMapping--) | Gets the mapping between the named properties and the tags they are stored under. |
+| [getProperties()](#getProperties--) | Gets all properties of the object. |
+| [getProperty(PropertyDescriptor pd)](#getProperty-com.aspose.email.PropertyDescriptor-) | Gets a MAPI property of the item by its descriptor. |
+| [getPropertyBoolean(long tag)](#getPropertyBoolean-long-) | Gets the value of a property as a Boolean. |
+| [getPropertyBytes(long tag)](#getPropertyBytes-long-) | Gets the value of a property as bytes. |
+| [getPropertyDateTime(long key)](#getPropertyDateTime-long-) | Gets the value of a property as a date and time. |
+| [getPropertyInt32(long tag)](#getPropertyInt32-long-) | Gets the value of a property as a 32-bit integer. |
+| [getPropertyLong(long tag)](#getPropertyLong-long-) | Gets the value of a property as a 64-bit integer. |
+| [getPropertyShort(long tag)](#getPropertyShort-long-) | Gets the value of a property as a 16-bit integer. |
+| [getPropertyStream()](#getPropertyStream--) | Gets the property stream of the item. |
+| [getPropertyString(long tag)](#getPropertyString-long-) | Gets the value of a property as a string. |
+| [getPropertyString(long tag, int codepage)](#getPropertyString-long-int-) | Gets the value of a property as a string, decoding an ANSI string with the specified code page. |
+| [getRecipients()](#getRecipients--) | Gets the recipients of the item. |
+| [getSensitivity()](#getSensitivity--) | Gets the sensitivity of the item: normal, personal, private or confidential. |
+| [getSubStorages()](#getSubStorages--) | Gets the sub-storages of the item. |
+| [getSubject()](#getSubject--) | Gets the subject of the message. |
+| [getSubjectPrefix()](#getSubjectPrefix--) | Gets the prefix of the subject, such as  RE:  or  FW: . |
+| [getSupportedType()](#getSupportedType--) | Gets the type of the item, as determined by its message class. |
 | [getUnderlyingMessage()](#getUnderlyingMessage--) | Retrieves the underlying MapiMessage object. |
-| [getWidth()](#getWidth--) | Gets or sets width of the visible message window in pixels |
-| [getXPosition()](#getXPosition--) | Gets or sets the distance, in pixels, from the left edge of the screen that a user interface displays a Note object |
-| [getYPosition()](#getYPosition--) | Gets or sets the distance, in pixels, from the top edge of the screen that a user interface displays a Note object |
+| [getWidth()](#getWidth--) | Gets the width of the note window, in pixels. |
+| [getXPosition()](#getXPosition--) | Gets the distance of the note window from the left edge of the screen, in pixels. |
+| [getYPosition()](#getYPosition--) | Gets the distance of the note window from the top edge of the screen, in pixels. |
 | [hashCode()](#hashCode--) |  |
-| [isStoreUnicodeOk()](#isStoreUnicodeOk--) | Determines if string properties are Unicode encoded or not. |
+| [isStoreUnicodeOk()](#isStoreUnicodeOk--) | Determines whether the string properties of the object are stored in Unicode. |
+| [load(InputStream stream)](#load-java.io.InputStream-) | Loads a [MapiNote](../../com.aspose.email/mapinote) from the specified stream. |
+| [load(String filePath)](#load-java.lang.String-) | Loads a [MapiNote](../../com.aspose.email/mapinote) from the specified file. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeProperty(long tag)](#removeProperty-long-) | Provides correctly removing property from all collections. |
-| [save(OutputStream stream, int saveFormat)](#save-java.io.OutputStream-int-) | Saves this [MapiNote](../../com.aspose.email/mapinote) to the given stream using specified format. |
-| [save(String filePath, int saveFormat)](#save-java.lang.String-int-) | Saves this [MapiNote](../../com.aspose.email/mapinote) into file using specified format. |
-| [setBilling(String value)](#setBilling-java.lang.String-) | Contains the billing information associated with an item. |
-| [setBody(String value)](#setBody-java.lang.String-) | Gets the message text. |
-| [setBodyContent(String content, int contentType)](#setBodyContent-java.lang.String-int-) | Sets the content of the body. |
-| [setBodyContent(String content, int contentType, boolean compression)](#setBodyContent-java.lang.String-int-boolean-) | Sets the content of the body. |
-| [setBodyRtf(String value)](#setBodyRtf-java.lang.String-) | Gets or sets the RTF formatted message text. |
-| [setBodyRtf(String value, boolean compression)](#setBodyRtf-java.lang.String-boolean-) | Gets or sets the RTF formatted message text. |
-| [setCategories(String[] value)](#setCategories-java.lang.String---) | Contains keywords or categories for the message object. |
-| [setColor(int value)](#setColor-int-) | Gets or sets the suggested background color of the Note object |
-| [setCompanies(String[] value)](#setCompanies-java.lang.String---) | Contains the names of the companies that are associated with an item. |
-| [setCreationDate(Date value)](#setCreationDate-java.util.Date-) | Gets or sets the creation date of note |
-| [setHeight(int value)](#setHeight-int-) | Gets or sets height of the visible message window in pixels |
-| [setMessageClass(String value)](#setMessageClass-java.lang.String-) | Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. |
-| [setMessageFlags(long flags)](#setMessageFlags-long-) | Sets the message flags. |
-| [setMileage(String value)](#setMileage-java.lang.String-) | Contains the mileage information that is associated with an item. |
+| [removeProperty(long tag)](#removeProperty-long-) | Removes a property from the item, including its named-property mapping. |
+| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves this [MapiNote](../../com.aspose.email/mapinote) to the given stream. |
+| [save(OutputStream stream, int saveFormat)](#save-java.io.OutputStream-int-) | Saves the note to a stream in the specified format. |
+| [save(String filePath)](#save-java.lang.String-) | Saves this [MapiNote](../../com.aspose.email/mapinote) to the given file. |
+| [save(String filePath, int saveFormat)](#save-java.lang.String-int-) | Saves the note to a file in the specified format. |
+| [setBilling(String value)](#setBilling-java.lang.String-) | Sets the billing information of the item. |
+| [setBody(String value)](#setBody-java.lang.String-) | Sets the plain-text body of the item. |
+| [setBodyContent(String content, int contentType)](#setBodyContent-java.lang.String-int-) | Sets the body of the item in the specified format. |
+| [setBodyContent(String content, int contentType, boolean compression)](#setBodyContent-java.lang.String-int-boolean-) | Sets the body of the item in the specified format, optionally compressing it. |
+| [setBodyRtf(String value)](#setBodyRtf-java.lang.String-) | Sets the body of the item in RTF format. |
+| [setBodyRtf(String value, boolean compression)](#setBodyRtf-java.lang.String-boolean-) | Sets the body of the item in RTF format, optionally compressing it. |
+| [setCategories(String[] value)](#setCategories-java.lang.String---) | Sets the categories of the item. |
+| [setColor(int value)](#setColor-int-) | Sets the background color of the note. |
+| [setCompanies(String[] value)](#setCompanies-java.lang.String---) | Sets the names of the companies associated with the item. |
+| [setCreationDate(Date value)](#setCreationDate-java.util.Date-) | Sets the date and time the note was created. |
+| [setHeight(int value)](#setHeight-int-) | Sets the height of the note window, in pixels. |
+| [setMessageClass(String value)](#setMessageClass-java.lang.String-) | Sets the message class of the item, such as  IPM.Note  for an e-mail message. |
+| [setMessageFlags(long flags)](#setMessageFlags-long-) | Sets the flags of the message, such as read or unsent. |
+| [setMileage(String value)](#setMileage-java.lang.String-) | Sets the mileage information of the item. |
 | [setNamedPropertyMapping(MapiNamedPropertyMappingStorage value)](#setNamedPropertyMapping-com.aspose.email.MapiNamedPropertyMappingStorage-) | Sets the named property mapping. |
-| [setProperty(MapiProperty value)](#setProperty-com.aspose.email.MapiProperty-) | Sets the property. |
-| [setProperty(PropertyDescriptor pd, Object value)](#setProperty-com.aspose.email.PropertyDescriptor-java.lang.Object-) | Sets MAPI property. |
-| [setRecipients(MapiRecipientCollection value)](#setRecipients-com.aspose.email.MapiRecipientCollection-) | Gets the recipients of the message. |
-| [setSensitivity(int value)](#setSensitivity-int-) | Gets the Sensitivity. |
-| [setSubject(String value)](#setSubject-java.lang.String-) | Gets or sets the subject of the message. |
-| [setWidth(int value)](#setWidth-int-) | Gets or sets width of the visible message window in pixels |
-| [setXPosition(int value)](#setXPosition-int-) | Gets or sets the distance, in pixels, from the left edge of the screen that a user interface displays a Note object |
-| [setYPosition(int value)](#setYPosition-int-) | Gets or sets the distance, in pixels, from the top edge of the screen that a user interface displays a Note object |
+| [setProperty(MapiProperty value)](#setProperty-com.aspose.email.MapiProperty-) | Adds the property, or replaces the property with the same tag. |
+| [setProperty(PropertyDescriptor pd, Object value)](#setProperty-com.aspose.email.PropertyDescriptor-java.lang.Object-) | Sets the value of a MAPI property of the item. |
+| [setRecipients(MapiRecipientCollection value)](#setRecipients-com.aspose.email.MapiRecipientCollection-) | Sets the recipients of the item. |
+| [setSensitivity(int value)](#setSensitivity-int-) | Sets the sensitivity of the item: normal, personal, private or confidential. |
+| [setSubject(String value)](#setSubject-java.lang.String-) | Sets the subject of the message. |
+| [setWidth(int value)](#setWidth-int-) | Sets the width of the note window, in pixels. |
+| [setXPosition(int value)](#setXPosition-int-) | Sets the distance of the note window from the left edge of the screen, in pixels. |
+| [setYPosition(int value)](#setYPosition-int-) | Sets the distance of the note window from the top edge of the screen, in pixels. |
+| [toMvPropertyList(Object obj)](#toMvPropertyList-java.lang.Object-) |  |
 | [toString()](#toString--) |  |
-| [tryGetPropertyData(long tag)](#tryGetPropertyData-long-) | Try to get the property data with specified tag key. |
-| [tryGetPropertyDateTime(long tag, Date[] value)](#tryGetPropertyDateTime-long-java.util.Date---) | Gets the value of the specified property as DateTime type. |
-| [tryGetPropertyInt32(long tag, int[] value)](#tryGetPropertyInt32-long-int---) | Gets the value of the specified property as Int32 type. |
-| [tryGetPropertyLong(long tag, long[] value)](#tryGetPropertyLong-long-long---) | Gets the value of the specified property as Long type. |
-| [tryGetPropertyString(long tag)](#tryGetPropertyString-long-) | Try to get a property data as string with specified tag. |
-| [tryGetPropertyString(long tag, int codepage)](#tryGetPropertyString-long-int-) | Try to get a property data as string with specified tag and code page. |
-| [tryGetPropertyString(long tag, String[] value)](#tryGetPropertyString-long-java.lang.String---) | Gets the value of the specified property as String type. |
-| [tryGetPropertyString(long tag, String[] value, int codepage)](#tryGetPropertyString-long-java.lang.String---int-) | Gets the value of the specified property as String type. |
+| [tryGetPropertyData(long tag)](#tryGetPropertyData-long-) | Gets the value of a property as bytes. |
+| [tryGetPropertyDateTime(long tag, Date[] value)](#tryGetPropertyDateTime-long-java.util.Date---) | Gets the value of a property as a date and time, if the property exists. |
+| [tryGetPropertyInt32(long tag, int[] value)](#tryGetPropertyInt32-long-int---) | Gets the value of a property as a 32-bit integer, if the property exists. |
+| [tryGetPropertyLong(long tag, long[] value)](#tryGetPropertyLong-long-long---) | Gets the value of a property as a 64-bit integer, if the property exists. |
+| [tryGetPropertyString(long tag)](#tryGetPropertyString-long-) | Gets the value of a property as a string. |
+| [tryGetPropertyString(long tag, int codepage)](#tryGetPropertyString-long-int-) | Gets the value of a property as a string, decoding an ANSI string with the specified code page. |
+| [tryGetPropertyString(long tag, String[] value)](#tryGetPropertyString-long-java.lang.String---) | Gets the value of a property as a string, if the property exists. |
+| [tryGetPropertyString(long tag, String[] value, int codepage)](#tryGetPropertyString-long-java.lang.String---int-) | Gets the value of a property as a string, if the property exists, decoding an ANSI string with the specified code page. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -144,13 +148,13 @@ public MapiNote(String subject, String body)
 ```
 
 
-Initializes a new instance of the [MapiNote](../../com.aspose.email/mapinote) class.
+Initializes a new instance of the [MapiNote](../../com.aspose.email/mapinote) class with a subject and a body.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subject | java.lang.String | The message subject. |
-| body | java.lang.String | The message body. |
+| subject | java.lang.String | The subject (the first line of the note). |
+| body | java.lang.String | The text of the note. |
 
 ### close() {#close--}
 ```
@@ -158,7 +162,7 @@ public void close()
 ```
 
 
-
+Releases the resources used by the item.
 
 ### createMapiNode(String key) {#createMapiNode-java.lang.String-}
 ```
@@ -204,19 +208,17 @@ public final MapiAttachmentCollection getAttachments()
 ```
 
 
-Gets the attachments in the message.
-
-Value: The attachment collection.
+Gets the attachments of the item.
 
 **Returns:**
-[MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection)
+[MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) - The attachments.
 ### getBilling() {#getBilling--}
 ```
 public final String getBilling()
 ```
 
 
-Contains the billing information associated with an item.
+Gets the billing information of the item.
 
 **Returns:**
 java.lang.String
@@ -226,19 +228,17 @@ public String getBody()
 ```
 
 
-Gets the message text.
-
-Value: The string that represents message body.
+Gets the plain-text body of the item.
 
 **Returns:**
-java.lang.String
+java.lang.String - The body.
 ### getBodyHtml() {#getBodyHtml--}
 ```
 public final String getBodyHtml()
 ```
 
 
-Gets the  BodyRtf (\#getBodyRtf.getBodyRtf/\#setBodyRtf(String).setBodyRtf(String)) of the message converted to HTML, if present, otherwise an empty string.
+Gets the body of the item as HTML, converted from \#getBodyRtf().getBodyRtf(); an empty string when there is no RTF body.
 
 **Returns:**
 java.lang.String
@@ -248,35 +248,29 @@ public final String getBodyRtf()
 ```
 
 
-Gets or sets the RTF formatted message text.
+Gets the body of the item in RTF format.
 
-Value: The string that represents message body rtf.
-
---------------------
-
-When setting a value, the values of PR\_RTF\_COMPRESSED, PR\_RTF\_DECOMPRESSES, PR\_BODY properties are updated. A string value being set must have RTF format. Thus, if it is necessary to set a value in HTML format, the value must be first to encoded within RTF, according to RTF Extensions Specification. To set the content of the body message in HTML or Plain Text formats quickly, please, use SetBodyContent method. When setting a null value or empty string, the values of BodyRtf and Body properties are set null.
+Setting a value updates the plain-text body and the compressed RTF property as well. The value must be RTF; to set an HTML or plain-text body, use \#setBodyContent(String, int).setBodyContent(String, int), which encapsulates HTML in RTF as Outlook does. Setting  null  or an empty string clears both bodies.
 
 **Returns:**
-java.lang.String
+java.lang.String - The RTF body.
 ### getBodyType() {#getBodyType--}
 ```
 public final int getBodyType()
 ```
 
 
-Gets the type of the body.
-
-Value: The type of the body.
+Gets the format of the body: plain text, HTML or RTF.
 
 **Returns:**
-int
+int - The format of the body.
 ### getCategories() {#getCategories--}
 ```
 public final String[] getCategories()
 ```
 
 
-Contains keywords or categories for the message object.
+Gets the categories of the item.
 
 **Returns:**
 java.lang.String[]
@@ -296,19 +290,17 @@ public int getCodePage()
 ```
 
 
-Gets the code page.
-
-Value: The code page.
+Gets the code page of the ANSI strings of the object.
 
 **Returns:**
-int
+int - The code page.
 ### getColor() {#getColor--}
 ```
 public final int getColor()
 ```
 
 
-Gets or sets the suggested background color of the Note object
+Gets the background color of the note.
 
 **Returns:**
 int
@@ -318,7 +310,7 @@ public final String[] getCompanies()
 ```
 
 
-Contains the names of the companies that are associated with an item.
+Gets the names of the companies associated with the item.
 
 **Returns:**
 java.lang.String[]
@@ -328,7 +320,7 @@ public final Date getCreationDate()
 ```
 
 
-Gets or sets the creation date of note
+Gets the date and time the note was created.
 
 **Returns:**
 java.util.Date
@@ -338,7 +330,7 @@ public final int getHeight()
 ```
 
 
-Gets or sets height of the visible message window in pixels
+Gets the height of the note window, in pixels.
 
 **Returns:**
 int
@@ -348,7 +340,7 @@ public String getItemId()
 ```
 
 
-The item id, uses with a server
+Gets the identifier of the item on the mail server, for items obtained from a server;  null  otherwise.
 
 **Returns:**
 java.lang.String
@@ -358,19 +350,17 @@ public final String getMessageClass()
 ```
 
 
-Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. The message class specifies the type, purpose, or content of the message.
-
-Value: The string that represents message class.
+Gets the message class of the item, such as  IPM.Note  for an e-mail message. The class determines the type of the item.
 
 **Returns:**
-java.lang.String
+java.lang.String - The message class. It is case-sensitive.
 ### getMileage() {#getMileage--}
 ```
 public final String getMileage()
 ```
 
 
-Contains the mileage information that is associated with an item.
+Gets the mileage information of the item.
 
 **Returns:**
 java.lang.String
@@ -380,260 +370,238 @@ public final MapiPropertyCollection getNamedProperties()
 ```
 
 
-Gets the named properties of message.
-
-Value: The collection of named properties.
+Gets the named properties of the item.
 
 **Returns:**
-[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection)
+[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) - The named properties.
 ### getNamedPropertyMapping() {#getNamedPropertyMapping--}
 ```
 public final MapiNamedPropertyMappingStorage getNamedPropertyMapping()
 ```
 
 
-Gets the named property mapping.
-
-Value: The named property mapping.
+Gets the mapping between the named properties and the tags they are stored under.
 
 **Returns:**
-[MapiNamedPropertyMappingStorage](../../com.aspose.email/mapinamedpropertymappingstorage)
+[MapiNamedPropertyMappingStorage](../../com.aspose.email/mapinamedpropertymappingstorage) - The named property mapping.
 ### getProperties() {#getProperties--}
 ```
 public MapiPropertyCollection getProperties()
 ```
 
 
-Gets the collection of properties.
-
-Value: The properties.
+Gets all properties of the object.
 
 **Returns:**
-[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection)
+[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) - The properties.
 ### getProperty(PropertyDescriptor pd) {#getProperty-com.aspose.email.PropertyDescriptor-}
 ```
 public MapiProperty getProperty(PropertyDescriptor pd)
 ```
 
 
-Gets MAPI property by property descriptor.
+Gets a MAPI property of the item by its descriptor.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | Property descriptor for looked property |
+| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | The descriptor of the property, for example one from [KnownPropertyList](../../com.aspose.email/knownpropertylist). |
 
 **Returns:**
-[MapiProperty](../../com.aspose.email/mapiproperty) - Mapi property if it is found, otherwise null.
+[MapiProperty](../../com.aspose.email/mapiproperty) - The property, or  null  if the item does not have it.
 ### getPropertyBoolean(long tag) {#getPropertyBoolean-long-}
 ```
 public final Boolean getPropertyBoolean(long tag)
 ```
 
 
-Gets the value of the property specified by tag as Boolean type.
+Gets the value of a property as a Boolean.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-java.lang.Boolean - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.Boolean - The value, or  null  if the property does not exist.
 ### getPropertyBytes(long tag) {#getPropertyBytes-long-}
 ```
 public final byte[] getPropertyBytes(long tag)
 ```
 
 
-Gets the string value of the property specified by tag.
+Gets the value of a property as bytes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-byte[] - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+byte[] - The value, or  null  if the property does not exist.
 ### getPropertyDateTime(long key) {#getPropertyDateTime-long-}
 ```
 public final Date getPropertyDateTime(long key)
 ```
 
 
-Gets the value of the property specified by tag as DateTime type.
+Gets the value of a property as a date and time.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | long | The MAPI property tag. |
+| key | long | The tag of the property. |
 
 **Returns:**
-java.util.Date - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.util.Date - The value, or  null  if the property does not exist.
 ### getPropertyInt32(long tag) {#getPropertyInt32-long-}
 ```
 public final Integer getPropertyInt32(long tag)
 ```
 
 
-Gets the int32 value of the property specified by tag.
+Gets the value of a property as a 32-bit integer.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-java.lang.Integer - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.Integer - The value, or  null  if the property does not exist.
 ### getPropertyLong(long tag) {#getPropertyLong-long-}
 ```
 public final Long getPropertyLong(long tag)
 ```
 
 
-Gets the value of the property specified by tag as Long (int64) type.
+Gets the value of a property as a 64-bit integer.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-java.lang.Long - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.Long - The value, or  null  if the property does not exist.
 ### getPropertyShort(long tag) {#getPropertyShort-long-}
 ```
 public final Short getPropertyShort(long tag)
 ```
 
 
-Gets the value of the property specified by tag as Short type.
+Gets the value of a property as a 16-bit integer.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-java.lang.Short - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.Short - The value, or  null  if the property does not exist.
 ### getPropertyStream() {#getPropertyStream--}
 ```
 public final MapiPropertyStream getPropertyStream()
 ```
 
 
-Gets the property stream.
-
-Value: The property stream.
+Gets the property stream of the item.
 
 **Returns:**
-[MapiPropertyStream](../../com.aspose.email/mapipropertystream)
+[MapiPropertyStream](../../com.aspose.email/mapipropertystream) - The property stream.
 ### getPropertyString(long tag) {#getPropertyString-long-}
 ```
 public final String getPropertyString(long tag)
 ```
 
 
-Gets the string value of the property specified by tag.
+Gets the value of a property as a string.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-java.lang.String - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.String - The value, or  null  if the property does not exist.
 ### getPropertyString(long tag, int codepage) {#getPropertyString-long-int-}
 ```
 public final String getPropertyString(long tag, int codepage)
 ```
 
 
-Gets the string value of the property specified by tag.
+Gets the value of a property as a string, decoding an ANSI string with the specified code page.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| codepage | int | The specified codepage used to get string value. |
+| tag | long | The tag of the property. |
+| codepage | int | The code page of an ANSI (8-bit) string. |
 
 **Returns:**
-java.lang.String - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.String - The value, or  null  if the property does not exist.
 ### getRecipients() {#getRecipients--}
 ```
 public final MapiRecipientCollection getRecipients()
 ```
 
 
-Gets the recipients of the message.
-
-Value: The collection of recipients.
+Gets the recipients of the item.
 
 **Returns:**
-[MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection)
+[MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection) - The recipients.
 ### getSensitivity() {#getSensitivity--}
 ```
 public final int getSensitivity()
 ```
 
 
-Gets the Sensitivity.
-
-Value: The sensitivity.
+Gets the sensitivity of the item: normal, personal, private or confidential.
 
 **Returns:**
-int
+int - The sensitivity.
 ### getSubStorages() {#getSubStorages--}
 ```
 public final MapiPropertyCollection getSubStorages()
 ```
 
 
-Gets the sub storages.
-
-Value: The sub storages.
+Gets the sub-storages of the item.
 
 **Returns:**
-[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection)
+[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) - The sub-storages.
 ### getSubject() {#getSubject--}
 ```
 public final String getSubject()
 ```
 
 
-Gets or sets the subject of the message.
+Gets the subject of the message.
 
-Value: The string that represents message subject.
-
---------------------
-
-When setting a value, the values of SubjectPrefix(PR\_SUBJECT\_PREFIX) and NormalizedSubject(PR\_NORMALIZED\_SUBJECT) properties are updated as well. If Subject has no prefix, the value of SubjectPrefix property is set null. When setting a null value or empty string, the values of Subject, SubjectPrefix, NormalizedSubject properties are set null.
+Setting the subject also sets the subject prefix (such as  RE: ) and the normalized subject (the subject without the prefix). Setting  null  or an empty string clears all three.
 
 **Returns:**
-java.lang.String
+java.lang.String - The subject.
 ### getSubjectPrefix() {#getSubjectPrefix--}
 ```
 public final String getSubjectPrefix()
 ```
 
 
-Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding.
-
-Value: The string that represents subject prefix.
+Gets the prefix of the subject, such as  RE:  or  FW: .
 
 **Returns:**
-java.lang.String
+java.lang.String - The subject prefix.
 ### getSupportedType() {#getSupportedType--}
 ```
 public final int getSupportedType()
 ```
 
 
-Gets the supported item type.
-
-Value: The [MapiItemType](../../com.aspose.email/mapiitemtype).
+Gets the type of the item, as determined by its message class.
 
 **Returns:**
-int
+int - The item type.
 ### getUnderlyingMessage() {#getUnderlyingMessage--}
 ```
 public final MapiMessage getUnderlyingMessage()
@@ -641,9 +609,6 @@ public final MapiMessage getUnderlyingMessage()
 
 
 Retrieves the underlying MapiMessage object.
-
-**Returns:**
-[MapiMessage](../../com.aspose.email/mapimessage) - The [MapiMessage](../../com.aspose.email/mapimessage) object.
 
 Retrieves the underlying MAPI message from a MapiNote object and prints out its message class.
 
@@ -657,13 +622,16 @@ Retrieves the underlying MAPI message from a MapiNote object and prints out its 
  System.out.println(msg.getMessageClass());
  
 ```
+
+**Returns:**
+[MapiMessage](../../com.aspose.email/mapimessage) - The [MapiMessage](../../com.aspose.email/mapimessage) object.
 ### getWidth() {#getWidth--}
 ```
 public final int getWidth()
 ```
 
 
-Gets or sets width of the visible message window in pixels
+Gets the width of the note window, in pixels.
 
 **Returns:**
 int
@@ -673,7 +641,7 @@ public final int getXPosition()
 ```
 
 
-Gets or sets the distance, in pixels, from the left edge of the screen that a user interface displays a Note object
+Gets the distance of the note window from the left edge of the screen, in pixels.
 
 **Returns:**
 int
@@ -683,7 +651,7 @@ public final int getYPosition()
 ```
 
 
-Gets or sets the distance, in pixels, from the top edge of the screen that a user interface displays a Note object
+Gets the distance of the note window from the top edge of the screen, in pixels.
 
 **Returns:**
 int
@@ -703,10 +671,40 @@ public final boolean isStoreUnicodeOk()
 ```
 
 
-Determines if string properties are Unicode encoded or not.
+Determines whether the string properties of the object are stored in Unicode.
 
 **Returns:**
-boolean - True, if string properties are Unicode encoded.
+boolean -  true  if the strings are Unicode;  false  if they are ANSI.
+### load(InputStream stream) {#load-java.io.InputStream-}
+```
+public static MapiNote load(InputStream stream)
+```
+
+
+Loads a [MapiNote](../../com.aspose.email/mapinote) from the specified stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | The stream to be loaded. |
+
+**Returns:**
+[MapiNote](../../com.aspose.email/mapinote) - Returns a [MapiNote](../../com.aspose.email/mapinote) instance loaded from the specified stream.
+### load(String filePath) {#load-java.lang.String-}
+```
+public static MapiNote load(String filePath)
+```
+
+
+Loads a [MapiNote](../../com.aspose.email/mapinote) from the specified file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | The path to the file to be loaded. |
+
+**Returns:**
+[MapiNote](../../com.aspose.email/mapinote) - Returns a [MapiNote](../../com.aspose.email/mapinote) instance loaded from the specified file.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -729,12 +727,25 @@ public final void removeProperty(long tag)
 ```
 
 
-Provides correctly removing property from all collections.
+Removes a property from the item, including its named-property mapping.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The tag of MapiProperty. |
+| tag | long | The tag of the property to remove. |
+
+### save(OutputStream stream) {#save-java.io.OutputStream-}
+```
+public final void save(OutputStream stream)
+```
+
+
+Saves this [MapiNote](../../com.aspose.email/mapinote) to the given stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream | A stream to save to. |
 
 ### save(OutputStream stream, int saveFormat) {#save-java.io.OutputStream-int-}
 ```
@@ -742,13 +753,26 @@ public final void save(OutputStream stream, int saveFormat)
 ```
 
 
-Saves this [MapiNote](../../com.aspose.email/mapinote) to the given stream using specified format.
+Saves the note to a stream in the specified format. Only MSG is supported.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream |  |
-| saveFormat | int |  |
+| stream | java.io.OutputStream | The stream to write to. |
+| saveFormat | int | The format. |
+
+### save(String filePath) {#save-java.lang.String-}
+```
+public final void save(String filePath)
+```
+
+
+Saves this [MapiNote](../../com.aspose.email/mapinote) to the given file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | A file name. |
 
 ### save(String filePath, int saveFormat) {#save-java.lang.String-int-}
 ```
@@ -756,13 +780,13 @@ public final void save(String filePath, int saveFormat)
 ```
 
 
-Saves this [MapiNote](../../com.aspose.email/mapinote) into file using specified format.
+Saves the note to a file in the specified format. Only MSG is supported.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String |  |
-| saveFormat | int |  |
+| filePath | java.lang.String | The path of the file to write. |
+| saveFormat | int | The format. |
 
 ### setBilling(String value) {#setBilling-java.lang.String-}
 ```
@@ -770,7 +794,7 @@ public final void setBilling(String value)
 ```
 
 
-Contains the billing information associated with an item.
+Sets the billing information of the item.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -783,14 +807,12 @@ public void setBody(String value)
 ```
 
 
-Gets the message text.
-
-Value: The string that represents message body.
+Sets the plain-text body of the item.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The body. |
 
 ### setBodyContent(String content, int contentType) {#setBodyContent-java.lang.String-int-}
 ```
@@ -798,17 +820,15 @@ public void setBodyContent(String content, int contentType)
 ```
 
 
-Sets the content of the body.
+Sets the body of the item in the specified format.
+
+The plain-text body, the RTF body and the compressed RTF property are all updated. After HTML content is set, \#getBodyRtf().getBodyRtf() returns that HTML encapsulated in RTF.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | java.lang.String | The content. |
-| contentType | int | Type of the content.
-
---------------------
-
-It is provided for setting of the content of the body message in RTF, HTML or Plain Text formats. When setting a value, the values of PR\_RTF\_COMPRESSED, PR\_RTF\_DECOMPRESSES, PR\_BODY properties are updated as well. Note, after the value in HTML format is set, BodyRtf property returns the value which is encoded within RTF. |
+| content | java.lang.String | The text of the body. |
+| contentType | int | The format of  content . |
 
 ### setBodyContent(String content, int contentType, boolean compression) {#setBodyContent-java.lang.String-int-boolean-}
 ```
@@ -816,18 +836,16 @@ public void setBodyContent(String content, int contentType, boolean compression)
 ```
 
 
-Sets the content of the body.
+Sets the body of the item in the specified format, optionally compressing it.
+
+The plain-text body, the RTF body and the compressed RTF property are all updated. After HTML content is set, \#getBodyRtf().getBodyRtf() returns that HTML encapsulated in RTF.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | java.lang.String | The content. |
-| contentType | int | Type of the content. |
-| compression | boolean | Specify that the content should be compressed.
-
---------------------
-
-It is provided for setting of the content of the body message in RTF, HTML or Plain Text formats. When setting a value, the values of PR\_RTF\_COMPRESSED, PR\_RTF\_DECOMPRESSES, PR\_BODY properties are updated as well. Note, after the value in HTML format is set, BodyRtf property returns the value which is encoded within RTF. |
+| content | java.lang.String | The text of the body. |
+| contentType | int | The format of  content . |
+| compression | boolean |  true  to store the RTF body compressed. |
 
 ### setBodyRtf(String value) {#setBodyRtf-java.lang.String-}
 ```
@@ -835,18 +853,14 @@ public final void setBodyRtf(String value)
 ```
 
 
-Gets or sets the RTF formatted message text.
+Sets the body of the item in RTF format.
 
-Value: The string that represents message body rtf.
-
---------------------
-
-When setting a value, the values of PR\_RTF\_COMPRESSED, PR\_RTF\_DECOMPRESSES, PR\_BODY properties are updated. A string value being set must have RTF format. Thus, if it is necessary to set a value in HTML format, the value must be first to encoded within RTF, according to RTF Extensions Specification. To set the content of the body message in HTML or Plain Text formats quickly, please, use SetBodyContent method. When setting a null value or empty string, the values of BodyRtf and Body properties are set null.
+Setting a value updates the plain-text body and the compressed RTF property as well. The value must be RTF; to set an HTML or plain-text body, use \#setBodyContent(String, int).setBodyContent(String, int), which encapsulates HTML in RTF as Outlook does. Setting  null  or an empty string clears both bodies.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The RTF body. |
 
 ### setBodyRtf(String value, boolean compression) {#setBodyRtf-java.lang.String-boolean-}
 ```
@@ -854,19 +868,15 @@ public final void setBodyRtf(String value, boolean compression)
 ```
 
 
-Gets or sets the RTF formatted message text.
+Sets the body of the item in RTF format, optionally compressing it.
 
-Value: The string that represents message body rtf.
-
---------------------
-
-When setting a value, the values of PR\_RTF\_COMPRESSED, PR\_RTF\_DECOMPRESSES, PR\_BODY properties are updated. A string value being set must have RTF format. Thus, if it is necessary to set a value in HTML format, the value must be first to encoded within RTF, according to RTF Extensions Specification. To set the content of the body message in HTML or Plain Text formats quickly, please, use SetBodyContent method. When setting a null value or empty string, the values of BodyRtf and Body properties are set null.
+Setting a value updates the plain-text body and the compressed RTF property as well. The value must be RTF; to set an HTML or plain-text body, use \#setBodyContent(String, int).setBodyContent(String, int). Setting  null  or an empty string clears both bodies.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
-| compression | boolean | Specify that the content should be compressed. |
+| value | java.lang.String | The body in RTF. |
+| compression | boolean |  true  to store the RTF body compressed. |
 
 ### setCategories(String[] value) {#setCategories-java.lang.String---}
 ```
@@ -874,7 +884,7 @@ public final void setCategories(String[] value)
 ```
 
 
-Contains keywords or categories for the message object.
+Sets the categories of the item.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -887,7 +897,7 @@ public final void setColor(int value)
 ```
 
 
-Gets or sets the suggested background color of the Note object
+Sets the background color of the note.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -900,7 +910,7 @@ public final void setCompanies(String[] value)
 ```
 
 
-Contains the names of the companies that are associated with an item.
+Sets the names of the companies associated with the item.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -913,7 +923,7 @@ public final void setCreationDate(Date value)
 ```
 
 
-Gets or sets the creation date of note
+Sets the date and time the note was created.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -926,7 +936,7 @@ public final void setHeight(int value)
 ```
 
 
-Gets or sets height of the visible message window in pixels
+Sets the height of the note window, in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -939,14 +949,12 @@ public final void setMessageClass(String value)
 ```
 
 
-Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. The message class specifies the type, purpose, or content of the message.
-
-Value: The string that represents message class.
+Sets the message class of the item, such as  IPM.Note  for an e-mail message. The class determines the type of the item.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The message class. It is case-sensitive. |
 
 ### setMessageFlags(long flags) {#setMessageFlags-long-}
 ```
@@ -954,12 +962,12 @@ public final void setMessageFlags(long flags)
 ```
 
 
-Sets the message flags.
+Sets the flags of the message, such as read or unsent.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| flags | long | The message flags. |
+| flags | long | The flags to set. |
 
 ### setMileage(String value) {#setMileage-java.lang.String-}
 ```
@@ -967,7 +975,7 @@ public final void setMileage(String value)
 ```
 
 
-Contains the mileage information that is associated with an item.
+Sets the mileage information of the item.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -993,12 +1001,12 @@ public void setProperty(MapiProperty value)
 ```
 
 
-Sets the property.
+Adds the property, or replaces the property with the same tag.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MapiProperty](../../com.aspose.email/mapiproperty) | The property. |
+| value | [MapiProperty](../../com.aspose.email/mapiproperty) | The property to set. |
 
 ### setProperty(PropertyDescriptor pd, Object value) {#setProperty-com.aspose.email.PropertyDescriptor-java.lang.Object-}
 ```
@@ -1006,13 +1014,13 @@ public void setProperty(PropertyDescriptor pd, Object value)
 ```
 
 
-Sets MAPI property.
+Sets the value of a MAPI property of the item.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | The property descriptor. |
-| value | java.lang.Object | The property data. |
+| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | The descriptor of the property, for example one from [KnownPropertyList](../../com.aspose.email/knownpropertylist). |
+| value | java.lang.Object | The value, of a Java type that matches the data type of the property. |
 
 ### setRecipients(MapiRecipientCollection value) {#setRecipients-com.aspose.email.MapiRecipientCollection-}
 ```
@@ -1020,14 +1028,12 @@ public final void setRecipients(MapiRecipientCollection value)
 ```
 
 
-Gets the recipients of the message.
-
-Value: The collection of recipients.
+Sets the recipients of the item.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection) |  |
+| value | [MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection) | The recipients. |
 
 ### setSensitivity(int value) {#setSensitivity-int-}
 ```
@@ -1035,14 +1041,12 @@ public final void setSensitivity(int value)
 ```
 
 
-Gets the Sensitivity.
-
-Value: The sensitivity.
+Sets the sensitivity of the item: normal, personal, private or confidential.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The sensitivity. |
 
 ### setSubject(String value) {#setSubject-java.lang.String-}
 ```
@@ -1050,18 +1054,14 @@ public final void setSubject(String value)
 ```
 
 
-Gets or sets the subject of the message.
+Sets the subject of the message.
 
-Value: The string that represents message subject.
-
---------------------
-
-When setting a value, the values of SubjectPrefix(PR\_SUBJECT\_PREFIX) and NormalizedSubject(PR\_NORMALIZED\_SUBJECT) properties are updated as well. If Subject has no prefix, the value of SubjectPrefix property is set null. When setting a null value or empty string, the values of Subject, SubjectPrefix, NormalizedSubject properties are set null.
+Setting the subject also sets the subject prefix (such as  RE: ) and the normalized subject (the subject without the prefix). Setting  null  or an empty string clears all three.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The subject. |
 
 ### setWidth(int value) {#setWidth-int-}
 ```
@@ -1069,7 +1069,7 @@ public final void setWidth(int value)
 ```
 
 
-Gets or sets width of the visible message window in pixels
+Sets the width of the note window, in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1082,7 +1082,7 @@ public final void setXPosition(int value)
 ```
 
 
-Gets or sets the distance, in pixels, from the left edge of the screen that a user interface displays a Note object
+Sets the distance of the note window from the left edge of the screen, in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1095,13 +1095,28 @@ public final void setYPosition(int value)
 ```
 
 
-Gets or sets the distance, in pixels, from the top edge of the screen that a user interface displays a Note object
+Sets the distance of the note window from the top edge of the screen, in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
+### toMvPropertyList(Object obj) {#toMvPropertyList-java.lang.Object-}
+```
+public static System.Collections.Generic.IGenericList<Object> toMvPropertyList(Object obj)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericList<java.lang.Object>
 ### toString() {#toString--}
 ```
 public String toString()
@@ -1118,127 +1133,127 @@ public final byte[] tryGetPropertyData(long tag)
 ```
 
 
-Try to get the property data with specified tag key.
+Gets the value of a property as bytes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The tag key. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-byte[] - The property data.
+byte[] - The value, or  null  if the property does not exist.
 ### tryGetPropertyDateTime(long tag, Date[] value) {#tryGetPropertyDateTime-long-java.util.Date---}
 ```
 public final boolean tryGetPropertyDateTime(long tag, Date[] value)
 ```
 
 
-Gets the value of the specified property as DateTime type. A return value indicates whether the operation succeeded.
+Gets the value of a property as a date and time, if the property exists.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| value | java.util.Date[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+| tag | long | The tag of the property. |
+| value | java.util.Date[] | When this method returns, the value of the property, if it exists; otherwise, the value is unchanged. |
 
 **Returns:**
-boolean - true if s was converted successfully; otherwise, false.
+boolean -  true  if the property exists; otherwise,  false .
 ### tryGetPropertyInt32(long tag, int[] value) {#tryGetPropertyInt32-long-int---}
 ```
 public final boolean tryGetPropertyInt32(long tag, int[] value)
 ```
 
 
-Gets the value of the specified property as Int32 type. A return value indicates whether the operation succeeded.
+Gets the value of a property as a 32-bit integer, if the property exists.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| value | int[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+| tag | long | The tag of the property. |
+| value | int[] | When this method returns, the value of the property, if it exists; otherwise, the value is unchanged. |
 
 **Returns:**
-boolean - true if s was converted successfully; otherwise, false.
+boolean -  true  if the property exists; otherwise,  false .
 ### tryGetPropertyLong(long tag, long[] value) {#tryGetPropertyLong-long-long---}
 ```
 public final boolean tryGetPropertyLong(long tag, long[] value)
 ```
 
 
-Gets the value of the specified property as Long type. A return value indicates whether the operation succeeded.
+Gets the value of a property as a 64-bit integer, if the property exists.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| value | long[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+| tag | long | The tag of the property. |
+| value | long[] | When this method returns, the value of the property, if it exists; otherwise, the value is unchanged. |
 
 **Returns:**
-boolean - true if s was converted successfully; otherwise, false.
+boolean -  true  if the property exists; otherwise,  false .
 ### tryGetPropertyString(long tag) {#tryGetPropertyString-long-}
 ```
 public final String tryGetPropertyString(long tag)
 ```
 
 
-Try to get a property data as string with specified tag.
+Gets the value of a property as a string.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The property tag key. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-java.lang.String - String that contains the contents of property data.
+java.lang.String - The value, or  null  if the property does not exist.
 ### tryGetPropertyString(long tag, int codepage) {#tryGetPropertyString-long-int-}
 ```
 public final String tryGetPropertyString(long tag, int codepage)
 ```
 
 
-Try to get a property data as string with specified tag and code page.
+Gets the value of a property as a string, decoding an ANSI string with the specified code page.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The property tag key. |
-| codepage | int | The code page. |
+| tag | long | The tag of the property. |
+| codepage | int | The code page of an ANSI (8-bit) string. |
 
 **Returns:**
-java.lang.String - String that contains the contents of property data.
+java.lang.String - The value, or  null  if the property does not exist.
 ### tryGetPropertyString(long tag, String[] value) {#tryGetPropertyString-long-java.lang.String---}
 ```
 public final boolean tryGetPropertyString(long tag, String[] value)
 ```
 
 
-Gets the value of the specified property as String type. A return value indicates whether the operation succeeded.
+Gets the value of a property as a string, if the property exists.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| value | java.lang.String[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+| tag | long | The tag of the property. |
+| value | java.lang.String[] | When this method returns, the value of the property, if it exists; otherwise, the value is unchanged. |
 
 **Returns:**
-boolean - true if s was converted successfully; otherwise, false.
+boolean -  true  if the property exists; otherwise,  false .
 ### tryGetPropertyString(long tag, String[] value, int codepage) {#tryGetPropertyString-long-java.lang.String---int-}
 ```
 public final boolean tryGetPropertyString(long tag, String[] value, int codepage)
 ```
 
 
-Gets the value of the specified property as String type. A return value indicates whether the operation succeeded.
+Gets the value of a property as a string, if the property exists, decoding an ANSI string with the specified code page.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| value | java.lang.String[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
-| codepage | int | The specified codepage used to get string value. |
+| tag | long | The tag of the property. |
+| value | java.lang.String[] | When this method returns, the value of the property, if it exists; otherwise, the value is unchanged. |
+| codepage | int | The code page of an ANSI (8-bit) string. |
 
 **Returns:**
-boolean - true if s was converted successfully; otherwise, false.
+boolean -  true  if the property exists; otherwise,  false .
 ### wait() {#wait--}
 ```
 public final void wait()

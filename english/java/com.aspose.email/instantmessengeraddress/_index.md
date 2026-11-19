@@ -3,7 +3,7 @@ title: InstantMessengerAddress
 second_title: Aspose.Email for Java API Reference
 description: Represents an instant messanger address.
 type: docs
-weight: 353
+weight: 356
 url: /java/com.aspose.email/instantmessengeraddress/
 ---
 
@@ -30,19 +30,19 @@ Represents an instant messanger address.
 | [equals(InstantMessengerAddress obj)](#equals-com.aspose.email.InstantMessengerAddress-) | Determines whether the specified Object is equal to the current Object. |
 | [equals(InstantMessengerAddress x, InstantMessengerAddress y)](#equals-com.aspose.email.InstantMessengerAddress-com.aspose.email.InstantMessengerAddress-) | Determines whether the specified object instances are considered equal. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
-| [getAddress()](#getAddress--) | Gets or sets an instant messanger address |
-| [getCategory()](#getCategory--) | Gets or sets an object category |
+| [getAddress()](#getAddress--) | Gets an instant messanger address. |
+| [getCategory()](#getCategory--) | Gets an object category. |
 | [getClass()](#getClass--) |  |
-| [getPrefered()](#getPrefered--) | Gets or sets a value which defines whether object is preferred. |
+| [getPrefered()](#getPrefered--) | Gets a value which defines whether object is preferred. |
 | [hashCode()](#hashCode--) | GetHashCode returns a hash function for this object. |
 | [hashCode(InstantMessengerAddress obj)](#hashCode-com.aspose.email.InstantMessengerAddress-) | GetHashCode returns a hash function for specified object. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [op_Equality(InstantMessengerAddress a, InstantMessengerAddress b)](#op-Equality-com.aspose.email.InstantMessengerAddress-com.aspose.email.InstantMessengerAddress-) | Determines whether the specified objects are equal. |
 | [op_Inequality(InstantMessengerAddress a, InstantMessengerAddress b)](#op-Inequality-com.aspose.email.InstantMessengerAddress-com.aspose.email.InstantMessengerAddress-) | Determines whether the specified objects are not equal. |
-| [setAddress(String value)](#setAddress-java.lang.String-) | Gets or sets an instant messanger address |
-| [setCategory(InstantMessengerCategory value)](#setCategory-com.aspose.email.InstantMessengerCategory-) | Gets or sets an object category |
-| [setPrefered(boolean value)](#setPrefered-boolean-) | Gets or sets a value which defines whether object is preferred. |
+| [setAddress(String value)](#setAddress-java.lang.String-) | Sets an instant messanger address. |
+| [setCategory(InstantMessengerCategory value)](#setCategory-com.aspose.email.InstantMessengerCategory-) | Sets an object category. |
+| [setPrefered(boolean value)](#setPrefered-boolean-) | Sets a value which defines whether object is preferred. |
 | [toString()](#toString--) | Returns a string that represents the current object. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -67,7 +67,7 @@ Compares the current instance with another object of the same type and returns a
 | obj | [InstantMessengerAddress](../../com.aspose.email/instantmessengeraddress) | An object to compare with this instance, or null. |
 
 **Returns:**
-int - This method returns: a value less than 0 if this is less than value 0 if this is equal to value a value greater than 0 if this is greater than value
+int - This method returns: a value less than 0 if this is less than value 0 if this is equal to value a value greater than 0 if this is greater than value.
 ### equals(InstantMessengerAddress obj) {#equals-com.aspose.email.InstantMessengerAddress-}
 ```
 public final boolean equals(InstantMessengerAddress obj)
@@ -120,7 +120,7 @@ public final String getAddress()
 ```
 
 
-Gets or sets an instant messanger address
+Gets an instant messanger address.
 
 **Returns:**
 java.lang.String
@@ -130,7 +130,7 @@ public final InstantMessengerCategory getCategory()
 ```
 
 
-Gets or sets an object category
+Gets an object category.
 
 **Returns:**
 [InstantMessengerCategory](../../com.aspose.email/instantmessengercategory)
@@ -150,7 +150,7 @@ public final boolean getPrefered()
 ```
 
 
-Gets or sets a value which defines whether object is preferred.
+Gets a value which defines whether object is preferred.
 
 **Returns:**
 boolean
@@ -206,8 +206,8 @@ Determines whether the specified objects are equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [InstantMessengerAddress](../../com.aspose.email/instantmessengeraddress) | First object to compare |
-| b | [InstantMessengerAddress](../../com.aspose.email/instantmessengeraddress) | Second object to compare |
+| a | [InstantMessengerAddress](../../com.aspose.email/instantmessengeraddress) | First object to compare. |
+| b | [InstantMessengerAddress](../../com.aspose.email/instantmessengeraddress) | Second object to compare. |
 
 **Returns:**
 boolean - Returns true if objects are equal, otherwise false.
@@ -222,8 +222,8 @@ Determines whether the specified objects are not equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [InstantMessengerAddress](../../com.aspose.email/instantmessengeraddress) | First object to compare |
-| b | [InstantMessengerAddress](../../com.aspose.email/instantmessengeraddress) | Second object to compare |
+| a | [InstantMessengerAddress](../../com.aspose.email/instantmessengeraddress) | First object to compare. |
+| b | [InstantMessengerAddress](../../com.aspose.email/instantmessengeraddress) | Second object to compare. |
 
 **Returns:**
 boolean - Returns true if objects are not equal, otherwise false.
@@ -233,7 +233,7 @@ public final void setAddress(String value)
 ```
 
 
-Gets or sets an instant messanger address
+Sets an instant messanger address.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public final void setCategory(InstantMessengerCategory value)
 ```
 
 
-Gets or sets an object category
+Sets an object category.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -259,7 +259,7 @@ public final void setPrefered(boolean value)
 ```
 
 
-Gets or sets a value which defines whether object is preferred.
+Sets a value which defines whether object is preferred.
 
 **Parameters:**
 | Parameter | Type | Description |

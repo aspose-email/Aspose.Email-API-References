@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarClientIntent
 second_title: Aspose.Email for Java API Reference
-description: Enumerates the actions the user can taken on the Meeting object
+description: Defines the actions the user has taken on a meeting.
 type: docs
-weight: 408
+weight: 411
 url: /java/com.aspose.email/mapicalendarclientintent/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiCalendarClientIntent extends System.Enum
 ```
 
-Enumerates the actions the user can taken on the Meeting object
+Defines the actions the user has taken on a meeting. The values can be combined.
 ## Fields
 
 | Field | Description |

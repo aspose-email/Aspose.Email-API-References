@@ -3,7 +3,7 @@ title: GraphCalendarInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents information about calendar.
 type: docs
-weight: 284
+weight: 287
 url: /java/com.aspose.email/graphcalendarinfo/
 ---
 

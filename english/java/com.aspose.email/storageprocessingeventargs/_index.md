@@ -1,9 +1,9 @@
 ---
 title: StorageProcessingEventArgs
 second_title: Aspose.Email for Java API Reference
-description: Provides data for the  event
+description: Provides data for the  event.
 type: docs
-weight: 691
+weight: 696
 url: /java/com.aspose.email/storageprocessingeventargs/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.EventArgs
 public class StorageProcessingEventArgs extends System.EventArgs
 ```
 
-Provides data for the [PersonalStorage.StorageProcessingDelegate](../../com.aspose.email/personalstorage\#StorageProcessingDelegate) event
+Provides data for the [PersonalStorage.StorageProcessing](../../com.aspose.email/personalstorage\#StorageProcessing) event.
 ## Fields
 
 | Field | Description |
@@ -25,7 +25,7 @@ Provides data for the [PersonalStorage.StorageProcessingDelegate](../../com.aspo
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getFileName()](#getFileName--) | Gets the name of the pst file, that represents the chunk. |
+| [getFileName()](#getFileName--) | Gets the name of the PST file that is about to be processed. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -70,12 +70,10 @@ public final String getFileName()
 ```
 
 
-Gets the name of the pst file, that represents the chunk.
-
-Value: The name of the file.
+Gets the name of the PST file that is about to be processed.
 
 **Returns:**
-java.lang.String
+java.lang.String - The name of the file.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

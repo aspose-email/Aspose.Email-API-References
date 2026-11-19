@@ -1,9 +1,9 @@
 ---
 title: MapiMessageReader
 second_title: Aspose.Email for Java API Reference
-description: Represents a reader that can read a Microsoft Outlook Message format document.
+description: Reads Outlook messages MSG files from a file or a stream.
 type: docs
-weight: 471
+weight: 474
 url: /java/com.aspose.email/mapimessagereader/
 ---
 
@@ -16,26 +16,28 @@ com.aspose.ms.System.IDisposable, java.io.Closeable
 public final class MapiMessageReader implements System.IDisposable, Closeable
 ```
 
-Represents a reader that can read a Microsoft Outlook Message format document.
+Reads Outlook messages (MSG files) from a file or a stream.
+
+In most cases [MapiMessage.load(String)](../../com.aspose.email/mapimessage\#load-String-) is simpler.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MapiMessageReader(String path)](#MapiMessageReader-java.lang.String-) | Initializes a new instance of the MapiMessageReader class for the specified file name. |
-| [MapiMessageReader(InputStream stream)](#MapiMessageReader-java.io.InputStream-) | Initializes a new instance of the MapiMessageReader class for the specified stream. |
+| [MapiMessageReader(String path)](#MapiMessageReader-java.lang.String-) | Initializes a new instance of the [MapiMessageReader](../../com.aspose.email/mapimessagereader) class that reads a file. |
+| [MapiMessageReader(InputStream stream)](#MapiMessageReader-java.io.InputStream-) | Initializes a new instance of the [MapiMessageReader](../../com.aspose.email/mapimessagereader) class that reads a stream. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [close()](#close--) |  |
+| [close()](#close--) | Releases the resources used by the reader. |
 | [dispose()](#dispose--) | Releases the unmanaged resources used by the MapiMessageReader. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [readAttachments()](#readAttachments--) | Extracts the attachment from the Outlook Message files. |
-| [readMessage()](#readMessage--) | Parse the current stream and returns the data as a MapiMessage. |
+| [readAttachments()](#readAttachments--) | Reads the attachments of the message. |
+| [readMessage()](#readMessage--) | Reads the message. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -46,12 +48,12 @@ public MapiMessageReader(String path)
 ```
 
 
-Initializes a new instance of the MapiMessageReader class for the specified file name.
+Initializes a new instance of the [MapiMessageReader](../../com.aspose.email/mapimessagereader) class that reads a file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | The complete file path to be read. |
+| path | java.lang.String | The path of the file. |
 
 ### MapiMessageReader(InputStream stream) {#MapiMessageReader-java.io.InputStream-}
 ```
@@ -59,12 +61,12 @@ public MapiMessageReader(InputStream stream)
 ```
 
 
-Initializes a new instance of the MapiMessageReader class for the specified stream.
+Initializes a new instance of the [MapiMessageReader](../../com.aspose.email/mapimessagereader) class that reads a stream.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | The stream to be read. |
+| stream | java.io.InputStream | The stream to read. |
 
 ### close() {#close--}
 ```
@@ -72,7 +74,7 @@ public void close()
 ```
 
 
-
+Releases the resources used by the reader.
 
 ### dispose() {#dispose--}
 ```
@@ -139,20 +141,20 @@ public final MapiAttachmentCollection readAttachments()
 ```
 
 
-Extracts the attachment from the Outlook Message files.
+Reads the attachments of the message.
 
 **Returns:**
-[MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) - The Attachment collection.
+[MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) - The attachments.
 ### readMessage() {#readMessage--}
 ```
 public final MapiMessage readMessage()
 ```
 
 
-Parse the current stream and returns the data as a MapiMessage.
+Reads the message.
 
 **Returns:**
-[MapiMessage](../../com.aspose.email/mapimessage) - The MapiMessage from the input stream.
+[MapiMessage](../../com.aspose.email/mapimessage) - The message.
 ### toString() {#toString--}
 ```
 public String toString()

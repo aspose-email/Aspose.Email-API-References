@@ -3,7 +3,7 @@ title: ExchangeFolderType
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the distinguished folder types.
 type: docs
-weight: 216
+weight: 219
 url: /java/com.aspose.email/exchangefoldertype/
 ---
 

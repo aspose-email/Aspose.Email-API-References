@@ -3,7 +3,7 @@ title: LayoutType
 second_title: Aspose.Email for Java API Reference
 description: The layout attribute gives you easy per-element control over how your element should render on screen.
 type: docs
-weight: 364
+weight: 367
 url: /java/com.aspose.email/layouttype/
 ---
 
@@ -18,15 +18,15 @@ The layout attribute gives you easy, per-element control over how your element s
 
 | Field | Description |
 | --- | --- |
-| [Container](#Container) | lets its children define its size, like a normal div |
+| [Container](#Container) | Lets its children define its size, like a normal div. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Fill](#Fill) |  |
-| [Fixed](#Fixed) |  |
-| [FixedHeight](#FixedHeight) | keeps the specified height unchanged |
-| [Flex](#Flex) | works like display:flex style |
-| [Intrinsic](#Intrinsic) | responsive until it reaches its height and width |
-| [Nodisplay](#Nodisplay) | works like display: none style. |
-| [Responsive](#Responsive) | fills container automatically to aspect ratio |
+| [Fill](#Fill) | Fills available height & width. |
+| [Fixed](#Fixed) | Fixed width & height. |
+| [FixedHeight](#FixedHeight) | Keeps the specified height unchanged. |
+| [Flex](#Flex) | Works like display:flex style. |
+| [Intrinsic](#Intrinsic) | Responsive until it reaches its height and width. |
+| [Nodisplay](#Nodisplay) | Works like display: none style. |
+| [Responsive](#Responsive) | Fills container automatically to aspect ratio. |
 ## Methods
 
 | Method | Description |
@@ -72,7 +72,7 @@ public static final int Container
 ```
 
 
-lets its children define its size, like a normal div
+Lets its children define its size, like a normal div.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -86,11 +86,15 @@ public static final int Fill
 ```
 
 
+Fills available height & width.
+
 ### Fixed {#Fixed}
 ```
 public static final int Fixed
 ```
 
+
+Fixed width & height.
 
 ### FixedHeight {#FixedHeight}
 ```
@@ -98,7 +102,7 @@ public static final int FixedHeight
 ```
 
 
-keeps the specified height unchanged
+Keeps the specified height unchanged.
 
 ### Flex {#Flex}
 ```
@@ -106,7 +110,7 @@ public static final int Flex
 ```
 
 
-works like display:flex style
+Works like display:flex style.
 
 ### Intrinsic {#Intrinsic}
 ```
@@ -114,7 +118,7 @@ public static final int Intrinsic
 ```
 
 
-responsive until it reaches its height and width
+Responsive until it reaches its height and width.
 
 ### Nodisplay {#Nodisplay}
 ```
@@ -122,7 +126,7 @@ public static final int Nodisplay
 ```
 
 
-works like display: none style.
+Works like display: none style.
 
 ### Responsive {#Responsive}
 ```
@@ -130,7 +134,7 @@ public static final int Responsive
 ```
 
 
-fills container automatically to aspect ratio
+Fills container automatically to aspect ratio.
 
 ### Clone() {#Clone--}
 ```

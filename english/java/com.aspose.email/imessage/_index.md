@@ -1,43 +1,43 @@
 ---
 title: IMessage
 second_title: Aspose.Email for Java API Reference
-description: Represents a common message interface
+description: The common interface of messages.
 type: docs
-weight: 786
+weight: 798
 url: /java/com.aspose.email/imessage/
 ---
 ```
 public interface IMessage
 ```
 
-Represents a common message interface
+The common interface of messages.
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getAttachments()](#getAttachments--) | Gets message attachments |
-| [getBcc()](#getBcc--) | Gets BCC recipients |
-| [getBody()](#getBody--) | Gets or sets a message body |
-| [getBodyType()](#getBodyType--) | Gets the type of the body. |
-| [getCC()](#getCC--) | Gets CC recipients |
-| [getDate()](#getDate--) | Gets the date and time when message was delivered |
-| [getFrom()](#getFrom--) | Gets or sets a from address |
-| [getHtmlBody()](#getHtmlBody--) | Gets or sets a html formatted message body |
-| [getSubject()](#getSubject--) | Gets or sets a message subject |
-| [getTo()](#getTo--) | Gets recipients |
-| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves message to the specified stream |
-| [save(String fileName)](#save-java.lang.String-) | Saves message to the specified file |
-| [setBody(String value)](#setBody-java.lang.String-) | Gets or sets a message body |
-| [setFrom(IMailAddress value)](#setFrom-com.aspose.email.IMailAddress-) | Gets or sets a from address |
-| [setHtmlBody(String value)](#setHtmlBody-java.lang.String-) | Gets or sets a html formatted message body |
-| [setSubject(String value)](#setSubject-java.lang.String-) | Gets or sets a message subject |
+| [getAttachments()](#getAttachments--) | Gets the attachments of the message. |
+| [getBcc()](#getBcc--) | Gets the BCC recipients. |
+| [getBody()](#getBody--) | Gets the plain-text body. |
+| [getBodyType()](#getBodyType--) | Gets the format of the body: plain text, HTML or RTF. |
+| [getCC()](#getCC--) | Gets the CC recipients. |
+| [getDate()](#getDate--) | Gets the date and time of the message. |
+| [getFrom()](#getFrom--) | Gets the author of the message. |
+| [getHtmlBody()](#getHtmlBody--) | Gets the HTML body. |
+| [getSubject()](#getSubject--) | Gets the subject. |
+| [getTo()](#getTo--) | Gets the To recipients. |
+| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves the message to a stream. |
+| [save(String fileName)](#save-java.lang.String-) | Saves the message to a file. |
+| [setBody(String value)](#setBody-java.lang.String-) | Sets the plain-text body. |
+| [setFrom(IMailAddress value)](#setFrom-com.aspose.email.IMailAddress-) | Sets the author of the message. |
+| [setHtmlBody(String value)](#setHtmlBody-java.lang.String-) | Sets the HTML body. |
+| [setSubject(String value)](#setSubject-java.lang.String-) | Sets the subject. |
 ### getAttachments() {#getAttachments--}
 ```
 public abstract System.Collections.Generic.IGenericCollection<Attachment> getAttachments()
 ```
 
 
-Gets message attachments
+Gets the attachments of the message.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericCollection<com.aspose.email.Attachment>
@@ -47,7 +47,7 @@ public abstract System.Collections.Generic.IGenericCollection<MailAddress> getBc
 ```
 
 
-Gets BCC recipients
+Gets the BCC recipients.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericCollection<com.aspose.email.MailAddress>
@@ -57,7 +57,7 @@ public abstract String getBody()
 ```
 
 
-Gets or sets a message body
+Gets the plain-text body.
 
 **Returns:**
 java.lang.String
@@ -67,7 +67,7 @@ public abstract int getBodyType()
 ```
 
 
-Gets the type of the body.
+Gets the format of the body: plain text, HTML or RTF.
 
 **Returns:**
 int
@@ -77,7 +77,7 @@ public abstract System.Collections.Generic.IGenericCollection<MailAddress> getCC
 ```
 
 
-Gets CC recipients
+Gets the CC recipients.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericCollection<com.aspose.email.MailAddress>
@@ -87,7 +87,7 @@ public abstract Date getDate()
 ```
 
 
-Gets the date and time when message was delivered
+Gets the date and time of the message.
 
 **Returns:**
 java.util.Date
@@ -97,7 +97,7 @@ public abstract IMailAddress getFrom()
 ```
 
 
-Gets or sets a from address
+Gets the author of the message.
 
 **Returns:**
 [IMailAddress](../../com.aspose.email/imailaddress)
@@ -107,7 +107,7 @@ public abstract String getHtmlBody()
 ```
 
 
-Gets or sets a html formatted message body
+Gets the HTML body.
 
 **Returns:**
 java.lang.String
@@ -117,7 +117,7 @@ public abstract String getSubject()
 ```
 
 
-Gets or sets a message subject
+Gets the subject.
 
 **Returns:**
 java.lang.String
@@ -127,7 +127,7 @@ public abstract System.Collections.Generic.IGenericCollection<MailAddress> getTo
 ```
 
 
-Gets recipients
+Gets the To recipients.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericCollection<com.aspose.email.MailAddress>
@@ -137,12 +137,12 @@ public abstract void save(OutputStream stream)
 ```
 
 
-Saves message to the specified stream
+Saves the message to a stream.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream | A stream to save to |
+| stream | java.io.OutputStream | The stream to write to. |
 
 ### save(String fileName) {#save-java.lang.String-}
 ```
@@ -150,12 +150,12 @@ public abstract void save(String fileName)
 ```
 
 
-Saves message to the specified file
+Saves the message to a file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | A file name |
+| fileName | java.lang.String | The path of the file to write. |
 
 ### setBody(String value) {#setBody-java.lang.String-}
 ```
@@ -163,7 +163,7 @@ public abstract void setBody(String value)
 ```
 
 
-Gets or sets a message body
+Sets the plain-text body.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -176,7 +176,7 @@ public abstract void setFrom(IMailAddress value)
 ```
 
 
-Gets or sets a from address
+Sets the author of the message.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -189,7 +189,7 @@ public abstract void setHtmlBody(String value)
 ```
 
 
-Gets or sets a html formatted message body
+Sets the HTML body.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -202,7 +202,7 @@ public abstract void setSubject(String value)
 ```
 
 
-Gets or sets a message subject
+Sets the subject.
 
 **Parameters:**
 | Parameter | Type | Description |

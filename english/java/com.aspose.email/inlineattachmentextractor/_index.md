@@ -1,9 +1,9 @@
 ---
 title: InlineAttachmentExtractor
 second_title: Aspose.Email for Java API Reference
-description: Provides ability to extract files from MSO packages.
+description: Extracts the files packed into an MSO package such as the oledata.mso attachment that Outlook adds to messages with embedded images or objects.
 type: docs
-weight: 352
+weight: 355
 url: /java/com.aspose.email/inlineattachmentextractor/
 ---
 
@@ -13,7 +13,28 @@ java.lang.Object
 public class InlineAttachmentExtractor
 ```
 
-Provides ability to extract files from MSO packages. Can be used to process "oledata.mso" and similar files typically attached to messages created using Outlook.
+Extracts the files packed into an MSO package, such as the  oledata.mso  attachment that Outlook adds to messages with embedded images or objects.
+
+This example finds the  oledata.mso  attachment of a message and saves every file it contains.
+
+```
+
+ MapiMessage msg = MapiMessage.load("message.msg");
+
+ for (MapiAttachment attachment : msg.getAttachments()) {
+     if (!"oledata.mso".equals(attachment.getLongFileName()))
+         continue;
+
+     try (InputStream package = attachment.openRead()) {
+         IGenericDictionary files = InlineAttachmentExtractor.enumerateMsoPackage(package);
+         for (KeyValuePair file : files) {
+             // the key is the identifier the message body uses to refer to the file
+             Files.write(Paths.get("output", file.getKey()), file.getValue());
+         }
+     }
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -23,7 +44,7 @@ Provides ability to extract files from MSO packages. Can be used to process "ole
 
 | Method | Description |
 | --- | --- |
-| [enumerateMsoPackage(InputStream stream)](#enumerateMsoPackage-java.io.InputStream-) | Enumerates the MSO package and returns a dictionary containing files data. |
+| [enumerateMsoPackage(InputStream stream)](#enumerateMsoPackage-java.io.InputStream-) | Reads an MSO package and returns the files it contains. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,19 +66,17 @@ public static System.Collections.Generic.IGenericDictionary<String,byte[]> enume
 ```
 
 
-Enumerates the MSO package and returns a dictionary containing files data. The key is file identifier and value contains actual data.Files are usually referenced in message body using the identifiers provided.
+Reads an MSO package and returns the files it contains.
+
+In evaluation mode only the first file of the package is extracted.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | The stream to parse.
-
---------------------
-
-While in evaluation mode only one file is extracted from given MSO stream. |
+| stream | java.io.InputStream | The content of the package, for example the  oledata.mso  attachment. |
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericDictionary<java.lang.String,byte[]> - Dictionary with files data.
+com.aspose.ms.System.Collections.Generic.IGenericDictionary<java.lang.String,byte[]> - The files of the package: the key is the identifier of the file, which the message body uses to refer to it, and the value is its content.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

@@ -3,7 +3,7 @@ title: ByDayCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 89
+weight: 90
 url: /java/com.aspose.email/bydaycollection/
 ---
 
@@ -15,21 +15,11 @@ public class ByDayCollection extends System.Collections.ObjectModel.Collection<B
 
 Represents a collection of [ByDay](../../com.aspose.email/byday) objects.
 
---------------------
-
-
-
 Corresponds to the BYDAY part of the recurrence rule.
-
- 
 
 The BYDAY rule specifies a list of days of the week for a monthly or yearly recurrence rule.
 
- 
-
 For each day of the week, a specific Nth occurrence or all occurrences can be specified.
-
-
 ## Methods
 
 | Method | Description |
@@ -144,10 +134,10 @@ Returns a value indicating whether a specified day of week is present in the col
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dayOfWeek | int | Day of week[DayOfWeek](../../com.aspose.email/dayofweek). |
+| dayOfWeek | int | Day of week ( DayOfWeek ). |
 
 **Returns:**
-boolean - True if the value parameter exists within this collection, otherwise false.
+boolean -  true  if the value parameter exists within this collection, otherwise  false .
 ### containsItem(T arg0) {#containsItem-T-}
 ```
 public boolean containsItem(T arg0)

@@ -1,9 +1,9 @@
 ---
 title: HeaderList
 second_title: Aspose.Email for Java API Reference
-description: Colection with name of headers that are included in the DKIM signature.
+description: Names of the message headers that are included in a DKIM signature.
 type: docs
-weight: 308
+weight: 311
 url: /java/com.aspose.email/headerlist/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 public class HeaderList extends System.Collections.ObjectModel.Collection<String>
 ```
 
-Colection with name of headers that are included in the DKIM signature.
+Names of the message headers that are included in a DKIM signature.
 ## Constructors
 
 | Constructor | Description |

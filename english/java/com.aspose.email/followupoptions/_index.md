@@ -1,9 +1,9 @@
 ---
 title: FollowUpOptions
 second_title: Aspose.Email for Java API Reference
-description: Represents options for using follow-up flags and reminders in a message.
+description: The follow-up settings of a message flag dates reminder categories and voting buttons.
 type: docs
-weight: 261
+weight: 264
 url: /java/com.aspose.email/followupoptions/
 ---
 
@@ -13,43 +13,69 @@ java.lang.Object
 public final class FollowUpOptions
 ```
 
-Represents options for using follow-up flags and reminders in a message.
+The follow-up settings of a message: flag, dates, reminder, categories and voting buttons.
+
+Fill an instance and pass it to [FollowUpManager.setOptions(MapiMessageItemBase, FollowUpOptions)](../../com.aspose.email/followupmanager\#setOptions-MapiMessageItemBase--FollowUpOptions-), or read the settings of a message with [FollowUpManager.getOptions(MapiMessageItemBase)](../../com.aspose.email/followupmanager\#getOptions-MapiMessageItemBase-).
+
+The following example shows how to use FollowUpOptions to configure follow-up settings for a message.
+
+```
+
+ // Create follow-up options with flag request
+ FollowUpOptions options = new FollowUpOptions("Follow up on this message");
+ options.setStartDate(new Date());
+ options.setDueDate(DateUtils.addDays(new Date(), 7));
+ options.setReminderTime(DateUtils.addHours(new Date(), 1));
+ options.setCategories("Important;Work");
+ options.setVotingButtons("Approve;Reject;More Information");
+
+ // Mark as completed
+ options.markAsCompleted(true);
+
+ // Apply options to a MapiMessage
+ MapiMessage message = MapiMessage.load("message.msg");
+ FollowUpManager.setOptions(message, options);
+
+ // Save the message with follow-up settings
+ message.save("message_with_options.msg", SaveOptions.getDefaultMsgUnicode());
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
 | [FollowUpOptions()](#FollowUpOptions--) | Initializes a new instance of the [FollowUpOptions](../../com.aspose.email/followupoptions) class. |
-| [FollowUpOptions(String flagRequest)](#FollowUpOptions-java.lang.String-) | Initializes a new instance of the [FollowUpOptions](../../com.aspose.email/followupoptions) class. |
-| [FollowUpOptions(String flagRequest, Date startDate, Date dueDate)](#FollowUpOptions-java.lang.String-java.util.Date-java.util.Date-) | Initializes a new instance of the [FollowUpOptions](../../com.aspose.email/followupoptions) class. |
-| [FollowUpOptions(String flagRequest, Date startDate, Date dueDate, Date reminderTime)](#FollowUpOptions-java.lang.String-java.util.Date-java.util.Date-java.util.Date-) | Initializes a new instance of the [FollowUpOptions](../../com.aspose.email/followupoptions) class. |
+| [FollowUpOptions(String flagRequest)](#FollowUpOptions-java.lang.String-) | Initializes a new instance of the [FollowUpOptions](../../com.aspose.email/followupoptions) class with the requested action. |
+| [FollowUpOptions(String flagRequest, Date startDate, Date dueDate)](#FollowUpOptions-java.lang.String-java.util.Date-java.util.Date-) | Initializes a new instance of the [FollowUpOptions](../../com.aspose.email/followupoptions) class with the requested action and its dates. |
+| [FollowUpOptions(String flagRequest, Date startDate, Date dueDate, Date reminderTime)](#FollowUpOptions-java.lang.String-java.util.Date-java.util.Date-java.util.Date-) | Initializes a new instance of the [FollowUpOptions](../../com.aspose.email/followupoptions) class with the requested action, its dates and a reminder. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCategories()](#getCategories--) | Gets or sets string that represents list of the categories, separated by semicolons (;). |
+| [getCategories()](#getCategories--) | Gets the categories, separated by semicolons ( ; ). |
 | [getClass()](#getClass--) |  |
-| [getCodePage()](#getCodePage--) | Gets or sets the code page. |
-| [getDueDate()](#getDueDate--) | Gets or sets a date indicating the due date for the flagged message. |
-| [getFlagRequest()](#getFlagRequest--) | Gets or sets a string indicating the requested action for an e-mail message. |
-| [getRecipientsFlagRequest()](#getRecipientsFlagRequest--) | Gets or sets a string indicating the requested action for recipients of an e-mail message. |
-| [getRecipientsReminderTime()](#getRecipientsReminderTime--) | Gets or sets a date for recipients indicating the date and time at which the reminder should occur. |
-| [getReminderTime()](#getReminderTime--) | Gets or sets a date indicating the date and time at which the reminder should occur. |
-| [getStartDate()](#getStartDate--) | Gets or sets a date specifying the starting date and time for the flagged message. |
-| [getVotingButtons()](#getVotingButtons--) | Gets or sets string that represents list of the voting buttons names, separated by semicolons (;). |
+| [getCodePage()](#getCodePage--) | Gets the code page used to encode the strings of the options in an ANSI message. |
+| [getDueDate()](#getDueDate--) | Gets the date the follow-up is due. |
+| [getFlagRequest()](#getFlagRequest--) | Gets the requested action that Outlook shows with the flag, for example  Follow up . |
+| [getRecipientsFlagRequest()](#getRecipientsFlagRequest--) | Gets the requested action that the recipients of the message see with the flag. |
+| [getRecipientsReminderTime()](#getRecipientsReminderTime--) | Gets the date and time the recipients of the message are reminded. |
+| [getReminderTime()](#getReminderTime--) | Gets the date and time of the reminder. |
+| [getStartDate()](#getStartDate--) | Gets the date the follow-up starts. |
+| [getVotingButtons()](#getVotingButtons--) | Gets the texts of the voting buttons, separated by semicolons ( ; ). |
 | [hashCode()](#hashCode--) |  |
-| [isCompleted()](#isCompleted--) | Gets a value indicating whether the Message object was flagged as completed. |
+| [isCompleted()](#isCompleted--) | Gets a value indicating whether the flag is marked as completed. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCategories(String value)](#setCategories-java.lang.String-) | Gets or sets string that represents list of the categories, separated by semicolons (;). |
-| [setCodePage(int value)](#setCodePage-int-) | Gets or sets the code page. |
-| [setDueDate(Date value)](#setDueDate-java.util.Date-) | Gets or sets a date indicating the due date for the flagged message. |
-| [setFlagRequest(String value)](#setFlagRequest-java.lang.String-) | Gets or sets a string indicating the requested action for an e-mail message. |
-| [setRecipientsFlagRequest(String value)](#setRecipientsFlagRequest-java.lang.String-) | Gets or sets a string indicating the requested action for recipients of an e-mail message. |
-| [setRecipientsReminderTime(Date value)](#setRecipientsReminderTime-java.util.Date-) | Gets or sets a date for recipients indicating the date and time at which the reminder should occur. |
-| [setReminderTime(Date value)](#setReminderTime-java.util.Date-) | Gets or sets a date indicating the date and time at which the reminder should occur. |
-| [setStartDate(Date value)](#setStartDate-java.util.Date-) | Gets or sets a date specifying the starting date and time for the flagged message. |
-| [setVotingButtons(String value)](#setVotingButtons-java.lang.String-) | Gets or sets string that represents list of the voting buttons names, separated by semicolons (;). |
+| [setCategories(String value)](#setCategories-java.lang.String-) | Sets the categories, separated by semicolons ( ; ). |
+| [setCodePage(int value)](#setCodePage-int-) | Sets the code page used to encode the strings of the options in an ANSI message. |
+| [setDueDate(Date value)](#setDueDate-java.util.Date-) | Sets the date the follow-up is due. |
+| [setFlagRequest(String value)](#setFlagRequest-java.lang.String-) | Sets the requested action that Outlook shows with the flag, for example  Follow up . |
+| [setRecipientsFlagRequest(String value)](#setRecipientsFlagRequest-java.lang.String-) | Sets the requested action that the recipients of the message see with the flag. |
+| [setRecipientsReminderTime(Date value)](#setRecipientsReminderTime-java.util.Date-) | Sets the date and time the recipients of the message are reminded. |
+| [setReminderTime(Date value)](#setReminderTime-java.util.Date-) | Sets the date and time of the reminder. |
+| [setStartDate(Date value)](#setStartDate-java.util.Date-) | Sets the date the follow-up starts. |
+| [setVotingButtons(String value)](#setVotingButtons-java.lang.String-) | Sets the texts of the voting buttons, separated by semicolons ( ; ). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -68,12 +94,12 @@ public FollowUpOptions(String flagRequest)
 ```
 
 
-Initializes a new instance of the [FollowUpOptions](../../com.aspose.email/followupoptions) class.
+Initializes a new instance of the [FollowUpOptions](../../com.aspose.email/followupoptions) class with the requested action.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| flagRequest | java.lang.String | The flag request. |
+| flagRequest | java.lang.String | The requested action, for example  Follow up . |
 
 ### FollowUpOptions(String flagRequest, Date startDate, Date dueDate) {#FollowUpOptions-java.lang.String-java.util.Date-java.util.Date-}
 ```
@@ -81,14 +107,14 @@ public FollowUpOptions(String flagRequest, Date startDate, Date dueDate)
 ```
 
 
-Initializes a new instance of the [FollowUpOptions](../../com.aspose.email/followupoptions) class.
+Initializes a new instance of the [FollowUpOptions](../../com.aspose.email/followupoptions) class with the requested action and its dates.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| flagRequest | java.lang.String | The flag request. |
-| startDate | java.util.Date | The start Date. |
-| dueDate | java.util.Date | The due Date. |
+| flagRequest | java.lang.String | The requested action, for example  Follow up . |
+| startDate | java.util.Date | The date the follow-up starts. |
+| dueDate | java.util.Date | The date the follow-up is due. |
 
 ### FollowUpOptions(String flagRequest, Date startDate, Date dueDate, Date reminderTime) {#FollowUpOptions-java.lang.String-java.util.Date-java.util.Date-java.util.Date-}
 ```
@@ -96,15 +122,15 @@ public FollowUpOptions(String flagRequest, Date startDate, Date dueDate, Date re
 ```
 
 
-Initializes a new instance of the [FollowUpOptions](../../com.aspose.email/followupoptions) class.
+Initializes a new instance of the [FollowUpOptions](../../com.aspose.email/followupoptions) class with the requested action, its dates and a reminder.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| flagRequest | java.lang.String | The flag request. |
-| startDate | java.util.Date | The start date. |
-| dueDate | java.util.Date | The due date. |
-| reminderTime | java.util.Date | The reminder time. |
+| flagRequest | java.lang.String | The requested action, for example  Follow up . |
+| startDate | java.util.Date | The date the follow-up starts. |
+| dueDate | java.util.Date | The date the follow-up is due. |
+| reminderTime | java.util.Date | The date and time of the reminder. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -127,7 +153,7 @@ public final String getCategories()
 ```
 
 
-Gets or sets string that represents list of the categories, separated by semicolons (;).
+Gets the categories, separated by semicolons ( ; ).
 
 **Returns:**
 java.lang.String
@@ -147,7 +173,7 @@ public final int getCodePage()
 ```
 
 
-Gets or sets the code page.
+Gets the code page used to encode the strings of the options in an ANSI message.
 
 **Returns:**
 int
@@ -157,7 +183,7 @@ public final Date getDueDate()
 ```
 
 
-Gets or sets a date indicating the due date for the flagged message.
+Gets the date the follow-up is due.
 
 **Returns:**
 java.util.Date
@@ -167,7 +193,7 @@ public final String getFlagRequest()
 ```
 
 
-Gets or sets a string indicating the requested action for an e-mail message.
+Gets the requested action that Outlook shows with the flag, for example  Follow up .
 
 **Returns:**
 java.lang.String
@@ -177,7 +203,7 @@ public final String getRecipientsFlagRequest()
 ```
 
 
-Gets or sets a string indicating the requested action for recipients of an e-mail message.
+Gets the requested action that the recipients of the message see with the flag.
 
 **Returns:**
 java.lang.String
@@ -187,7 +213,7 @@ public final Date getRecipientsReminderTime()
 ```
 
 
-Gets or sets a date for recipients indicating the date and time at which the reminder should occur.
+Gets the date and time the recipients of the message are reminded.
 
 **Returns:**
 java.util.Date
@@ -197,7 +223,7 @@ public final Date getReminderTime()
 ```
 
 
-Gets or sets a date indicating the date and time at which the reminder should occur.
+Gets the date and time of the reminder.
 
 **Returns:**
 java.util.Date
@@ -207,7 +233,7 @@ public final Date getStartDate()
 ```
 
 
-Gets or sets a date specifying the starting date and time for the flagged message.
+Gets the date the follow-up starts.
 
 **Returns:**
 java.util.Date
@@ -217,7 +243,7 @@ public final String getVotingButtons()
 ```
 
 
-Gets or sets string that represents list of the voting buttons names, separated by semicolons (;).
+Gets the texts of the voting buttons, separated by semicolons ( ; ).
 
 **Returns:**
 java.lang.String
@@ -237,7 +263,7 @@ public final boolean isCompleted()
 ```
 
 
-Gets a value indicating whether the Message object was flagged as completed.
+Gets a value indicating whether the flag is marked as completed.
 
 **Returns:**
 boolean
@@ -263,7 +289,7 @@ public final void setCategories(String value)
 ```
 
 
-Gets or sets string that represents list of the categories, separated by semicolons (;).
+Sets the categories, separated by semicolons ( ; ).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -276,7 +302,7 @@ public final void setCodePage(int value)
 ```
 
 
-Gets or sets the code page.
+Sets the code page used to encode the strings of the options in an ANSI message.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -289,7 +315,7 @@ public final void setDueDate(Date value)
 ```
 
 
-Gets or sets a date indicating the due date for the flagged message.
+Sets the date the follow-up is due.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -302,7 +328,7 @@ public final void setFlagRequest(String value)
 ```
 
 
-Gets or sets a string indicating the requested action for an e-mail message.
+Sets the requested action that Outlook shows with the flag, for example  Follow up .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -315,7 +341,7 @@ public final void setRecipientsFlagRequest(String value)
 ```
 
 
-Gets or sets a string indicating the requested action for recipients of an e-mail message.
+Sets the requested action that the recipients of the message see with the flag.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -328,7 +354,7 @@ public final void setRecipientsReminderTime(Date value)
 ```
 
 
-Gets or sets a date for recipients indicating the date and time at which the reminder should occur.
+Sets the date and time the recipients of the message are reminded.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -341,7 +367,7 @@ public final void setReminderTime(Date value)
 ```
 
 
-Gets or sets a date indicating the date and time at which the reminder should occur.
+Sets the date and time of the reminder.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -354,7 +380,7 @@ public final void setStartDate(Date value)
 ```
 
 
-Gets or sets a date specifying the starting date and time for the flagged message.
+Sets the date the follow-up starts.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -367,7 +393,7 @@ public final void setVotingButtons(String value)
 ```
 
 
-Gets or sets string that represents list of the voting buttons names, separated by semicolons (;).
+Sets the texts of the voting buttons, separated by semicolons ( ; ).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -1,9 +1,9 @@
 ---
 title: ReminderAction
 second_title: Aspose.Email for Java API Reference
-description: Defines the action to be invoked when an alarm is triggered.
+description: Defines what happens when a reminder triggers the iCalendar ACTION property.
 type: docs
-weight: 624
+weight: 629
 url: /java/com.aspose.email/reminderaction/
 ---
 
@@ -13,17 +13,17 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ReminderAction extends System.Enum
 ```
 
-Defines the action to be invoked when an alarm is triggered.
+Defines what happens when a reminder triggers (the iCalendar ACTION property).
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Audio](#Audio) | Audio action. |
-| [Display](#Display) | Display action. |
-| [Email](#Email) | Email action. |
+| [Audio](#Audio) | Plays a sound. |
+| [Display](#Display) | Shows a message. |
+| [Email](#Email) | Sends an email. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [None](#None) | None action. |
-| [Procedure](#Procedure) | Procedure action. |
+| [None](#None) | Does nothing. |
+| [Procedure](#Procedure) | Runs a procedure. |
 ## Methods
 
 | Method | Description |
@@ -69,7 +69,7 @@ public static final int Audio
 ```
 
 
-Audio action.
+Plays a sound.
 
 ### Display {#Display}
 ```
@@ -77,7 +77,7 @@ public static final int Display
 ```
 
 
-Display action.
+Shows a message.
 
 ### Email {#Email}
 ```
@@ -85,7 +85,7 @@ public static final int Email
 ```
 
 
-Email action.
+Sends an email.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -99,7 +99,7 @@ public static final int None
 ```
 
 
-None action.
+Does nothing.
 
 ### Procedure {#Procedure}
 ```
@@ -107,7 +107,7 @@ public static final int Procedure
 ```
 
 
-Procedure action.
+Runs a procedure.
 
 ### Clone() {#Clone--}
 ```

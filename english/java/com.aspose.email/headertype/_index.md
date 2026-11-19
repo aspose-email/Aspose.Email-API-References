@@ -1,9 +1,9 @@
 ---
 title: HeaderType
 second_title: Aspose.Email for Java API Reference
-description: Represents the Internet standards and RFCs define header fields which may occur on Internet Mail Messages .
+description: Identifies a standard header of an Internet message such as From Subject or Content-Type.
 type: docs
-weight: 309
+weight: 312
 url: /java/com.aspose.email/headertype/
 ---
 
@@ -13,44 +13,46 @@ java.lang.Object
 public final class HeaderType
 ```
 
-Represents the Internet standards and RFCs define header fields which may occur on Internet Mail Messages .
+Identifies a standard header of an Internet message, such as  From ,  Subject  or  Content-Type .
+
+\#toString().toString() returns the name of the header as it appears in a message, such as  Return-Path .
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object obj)](#equals-java.lang.Object-) | Returns a boolean indicating if the passed in object obj is Equal to this. |
-| [getApparentlyTo()](#getApparentlyTo--) | Inserted by sending e-mail when there is no 'To:' recipient in the original message. |
-| [getApprovedBy()](#getApprovedBy--) | Name of the moderator of the mailing list to which this message is sent; necessary on a posting sent to a moderated mailing list to allow its distribution to the list members. |
-| [getBcc()](#getBcc--) | A copy of the e-mail message that is sent to one or more recipients without the knowledge of the primary recipients. |
-| [getCC()](#getCC--) | This header can be considered an extension of the 'To:' field as it is used to specifiy additional recipients. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is the same header type. |
+| [getApparentlyTo()](#getApparentlyTo--) | Gets the  Apparently-To  header: the recipients, added by some servers when a message has no  To  header. |
+| [getApprovedBy()](#getApprovedBy--) | Gets the  Approved-By  header: the moderator who approved a message posted to a moderated mailing list (RFC 1036). |
+| [getBcc()](#getBcc--) | Gets the  Bcc  header: the blind carbon copy recipients, which the other recipients do not see. |
+| [getCC()](#getCC--) | Gets the  Cc  header: the carbon copy recipients, which all recipients see. |
 | [getClass()](#getClass--) |  |
-| [getComments()](#getComments--) | This is a free-form header field defined in RFC2822. |
-| [getContentTransferEncoding()](#getContentTransferEncoding--) | The third of the MIME-related headers. |
-| [getContentType()](#getContentType--) | The 'Content-Type' defines the format of content (character set etc.) Note that the values for this header are defined in different ways in RFC1049 and in MIME (RFC2045). |
-| [getDate()](#getDate--) | This header specifies a date (and time), normally the date the message was composed and sent. |
-| [getDispositionNotificationTo()](#getDispositionNotificationTo--) | When the DispositionNotificationTo field is set, a request for a MDN (Message Delivery Notification) is made. |
-| [getFollowupTo()](#getFollowupTo--) | Used in Usenet News to indicate that future discussions (=follow-up) on an article should go to a different set of newsgroups than the replied-to article. |
-| [getFrom()](#getFrom--) | This field contains the identity of the person(s) who wished this message to be sent. |
-| [getImportance()](#getImportance--) | Gets the importance. |
-| [getInReplyTo()](#getInReplyTo--) | Reference to message which this message is a reply to. |
-| [getMIMEVersion()](#getMIMEVersion--) | An indicator that this message is formatted according to the MIME standard, and an indication of which version of MIME is utilized. |
-| [getMessageID()](#getMessageID--) | Unique ID of this message. |
-| [getNewsgroups()](#getNewsgroups--) | In Usenet News: group(s) to which this article was posted. |
-| [getReceived()](#getReceived--) | Trace of MTAs which a message has passed. |
-| [getReferences()](#getReferences--) | Reference to other related messages. |
-| [getReplyTo()](#getReplyTo--) | This header field is meant to indicate where the sender wants replies to go. |
-| [getReturnPath()](#getReturnPath--) | Used to convey the information from the MAIL FROM envelope attribute in final delivery, when the message leaves the SMTP environment in which 'MAIL FROM' is used. |
-| [getReturnReceiptTo()](#getReturnReceiptTo--) | A sender can request a return-receipt by including this header field. |
-| [getSender()](#getSender--) | The person or agent submitting the message to the network, if other than shown by the From: header field. |
-| [getSensitivity()](#getSensitivity--) | Gets the sensitivity. |
-| [getSubject()](#getSubject--) | Title, heading, subject. |
-| [getTo()](#getTo--) | Primary recipients. |
-| [getXConfirmReadingTo()](#getXConfirmReadingTo--) | This header requests an automated confirmation notice when the message is received or read. |
-| [getXMailer()](#getXMailer--) | Information about the client software of the originator. |
-| [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
+| [getComments()](#getComments--) | Gets the  Comments  header: free-form text about the message (RFC 2822). |
+| [getContentTransferEncoding()](#getContentTransferEncoding--) | Gets the  Content-Transfer-Encoding  header: how the body is encoded for transfer, such as  7bit ,  8bit ,  base64  or  quoted-printable  (RFC 2045). |
+| [getContentType()](#getContentType--) | Gets the  Content-Type  header: the media type of the content and its parameters, such as  text/plain; charset="utf-8"  (RFC 2045). |
+| [getDate()](#getDate--) | Gets the  Date  header: the date and time the message was composed, in the form  Tue, 9 Jan 2001 23:40:00 -0800 . |
+| [getDispositionNotificationTo()](#getDispositionNotificationTo--) | Gets the  Disposition-Notification-To  header: the address to send a read receipt (message disposition notification) to. |
+| [getFollowupTo()](#getFollowupTo--) | Gets the  Followup-To  header: the newsgroups that follow-up discussion should go to (RFC 1036). |
+| [getFrom()](#getFrom--) | Gets the  From  header: the author of the message. |
+| [getImportance()](#getImportance--) | Gets the  Importance  header: the importance of the message: low, normal or high. |
+| [getInReplyTo()](#getInReplyTo--) | Gets the  In-Reply-To  header: the  Message-ID  of the message this one replies to. |
+| [getMIMEVersion()](#getMIMEVersion--) | Gets the  MIME-Version  header: the version of MIME the message is formatted in (RFC 2045). |
+| [getMessageID()](#getMessageID--) | Gets the  Message-ID  header: the unique identifier of the message (RFC 822, RFC 1036). |
+| [getNewsgroups()](#getNewsgroups--) | Gets the  Newsgroups  header: the newsgroups a Usenet article was posted to (RFC 1036). |
+| [getReceived()](#getReceived--) | Gets the  Received  header: a record added by each mail server the message passes through (RFC 822). |
+| [getReferences()](#getReferences--) | Gets the  References  header: the  Message-ID  values of the earlier messages in the conversation. |
+| [getReplyTo()](#getReplyTo--) | Gets the  Reply-To  header: the addresses that replies should go to, when they differ from the author. |
+| [getReturnPath()](#getReturnPath--) | Gets the  Return-Path  header: the address that bounces are returned to: the envelope sender ( MAIL FROM ), added on final delivery. |
+| [getReturnReceiptTo()](#getReturnReceiptTo--) | Gets the  Return-Receipt-To  header: requests a delivery receipt. |
+| [getSender()](#getSender--) | Gets the  Sender  header: the person or agent that submitted the message, when it differs from the author in  From . |
+| [getSensitivity()](#getSensitivity--) | Gets the  Sensitivity  header: the sensitivity of the message: personal, private or company confidential. |
+| [getSubject()](#getSubject--) | Gets the  Subject  header: the subject of the message. |
+| [getTo()](#getTo--) | Gets the  To  header: the primary recipients. |
+| [getXConfirmReadingTo()](#getXConfirmReadingTo--) | Gets the  X-Confirm-Reading-To  header: requests a read confirmation. |
+| [getXMailer()](#getXMailer--) | Gets the  X-Mailer  header: the software that created the message. |
+| [hashCode()](#hashCode--) | Returns the hash code of the header type. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Returns a String that represents the current Object. |
+| [toString()](#toString--) | Returns the name of the header, such as  Return-Path . |
 | [toString(HeaderType type)](#toString-com.aspose.email.HeaderType-) | Performs an implicit conversion from [HeaderType](../../com.aspose.email/headertype) to String. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -61,22 +63,22 @@ public boolean equals(Object obj)
 ```
 
 
-Returns a boolean indicating if the passed in object obj is Equal to this.
+Determines whether the specified object is the same header type.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The HeaderType object to compare. |
+| obj | java.lang.Object | The object to compare with. |
 
 **Returns:**
-boolean - Returns true if objects are equal, otherwise returns false
+boolean -  true  if  obj  is a [HeaderType](../../com.aspose.email/headertype) for the same header; otherwise,  false .
 ### getApparentlyTo() {#getApparentlyTo--}
 ```
 public static HeaderType getApparentlyTo()
 ```
 
 
-Inserted by sending e-mail when there is no 'To:' recipient in the original message. This causes the recipients derived from the envelope to be listed in the message heading. This behavior is not quite proper, MTAs should not modify headers (except inserting Received lines), and it can in some cases cause Bcc recipients to be wrongly divulged to non-Bcc recipients. Example: Apparently-To: someone@somedomain.com Non-standard header that is discouraged in use, mentioned in RFC1211.
+Gets the  Apparently-To  header: the recipients, added by some servers when a message has no  To  header. Non-standard; it can reveal BCC recipients.
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -86,7 +88,7 @@ public static HeaderType getApprovedBy()
 ```
 
 
-Name of the moderator of the mailing list to which this message is sent; necessary on a posting sent to a moderated mailing list to allow its distribution to the list members. Example: Approved-By: someone@somedomain.com Non-standard for use in e-mail. Defined in RFC1036.
+Gets the  Approved-By  header: the moderator who approved a message posted to a moderated mailing list (RFC 1036). Non-standard in e-mail.
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -96,7 +98,7 @@ public static HeaderType getBcc()
 ```
 
 
-A copy of the e-mail message that is sent to one or more recipients without the knowledge of the primary recipients. Primary recipients are listed in the To: and Cc: lines. This is useful if you want to copy a message to many people without each of them seeing who the other recipients are. If you see this header on incoming mail, something is wrong because it does not appear in the headers.
+Gets the  Bcc  header: the blind carbon copy recipients, which the other recipients do not see. It is removed before the message is delivered.
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -106,7 +108,7 @@ public static HeaderType getCC()
 ```
 
 
-This header can be considered an extension of the 'To:' field as it is used to specifiy additional recipients. In this case, the copy of an e-mail message sent to a recipient has the recipient's address appearing in the message. This is useful if you want to copy a message to many people with each of them seeing who the other recipients are; contrast with Bcc above. This header does appear in incoming e-mail. Exmple: Cc: gboyd@netcom.com
+Gets the  Cc  header: the carbon copy recipients, which all recipients see.
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -126,7 +128,7 @@ public static HeaderType getComments()
 ```
 
 
-This is a free-form header field defined in RFC2822. The header is used to place explanatory text into the header portion of an e-mail message. The field may contain arbitrary text. Exmple: Comments: Authenticated sender is someone@somedonmain.com.
+Gets the  Comments  header: free-form text about the message (RFC 2822).
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -136,7 +138,7 @@ public static HeaderType getContentTransferEncoding()
 ```
 
 
-The third of the MIME-related headers. Indicates the coding method used in a MIME message body. It has no direct relevance to the delivery of e-mail, but it affects how MIME compliant mail programs interpret the content of the message. Defined in RFC2045. Content-Transfer-Encoding: 8bit Content-transfer-encoding: 7BIT Content-Transfer-Encoding: 7bit Content-Transfer-Encoding: base64 Content-Transfer-Encoding: quoted-printable
+Gets the  Content-Transfer-Encoding  header: how the body is encoded for transfer, such as  7bit ,  8bit ,  base64  or  quoted-printable  (RFC 2045).
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -146,7 +148,7 @@ public static HeaderType getContentType()
 ```
 
 
-The 'Content-Type' defines the format of content (character set etc.) Note that the values for this header are defined in different ways in RFC1049 and in MIME (RFC2045). Look for the MIME-version: header to understand if Content-Type is to be interpreted according to RFC1049 or according to MIME (RFC2045). The MIME definition should be used in generating mail. Historically, Content-Type field was proposed in RFC1049. In it, Content-Type did not distinguish type and subtype like RFC2045 does. Example: Content-Type: text/plain; charset='us-ascii' Content-type: text/plain; charset=US-ASCII Content-Type: text/plain; charset='iso-8859-1' Content-Type: text/plain; charset=koi8-r Content-Type: text/plain; charset=unknown-8bit
+Gets the  Content-Type  header: the media type of the content and its parameters, such as  text/plain; charset="utf-8"  (RFC 2045).
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -156,7 +158,7 @@ public static HeaderType getDate()
 ```
 
 
-This header specifies a date (and time), normally the date the message was composed and sent. In X.400 mail systems, the time a message was submitted. Some Internet mail systems also use the date when the message was submitted. If this header is omitted by the sender's computer, it might conceivably be added by a mail server or even by some other machine along the route. What you may not know is that the information in the 'Date:' line is supplied by the time on the sender's computer, which may or may not be set correctly. Also, the 'Date:' header does not normally indicate when the message was sent, but only when it was composed. The date is in the form 3 character day-of-week (Sun - Sat), day number (1-31) dd, 3-character month name, 4-digit year yyyy, followed by time (24-hour) hh:mm:ss and zone zzz format. Time Zone (zzz) is either the 3-character time zone or the local differential in hours and minutes offset from UTC (Universal Time Coordinated - old Greenwich Mean Time). '-' indicates west and '+' indicates east of UTC. No standard Time Zone definitions seem to exist. Many UNIX versions understand a great range of abbreviations, but the most exhaustive list I found was the GNU tar manual Timezone item and documentation for the Perl date manipulation module TIMEZONES. Example: Date: Tue, 9 Jan 2001 23:40:00 -0800 Date: Sun, 1 Apr 2001 22:52:04 EDT Date: Mon, 2 Apr 2001 16:02:19 +0200 Date: Fri, 30 Mar 2001 10:47:15 -0800
+Gets the  Date  header: the date and time the message was composed, in the form  Tue, 9 Jan 2001 23:40:00 -0800 . It comes from the clock of the sender's computer.
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -166,7 +168,7 @@ public static HeaderType getDispositionNotificationTo()
 ```
 
 
-When the DispositionNotificationTo field is set, a request for a MDN (Message Delivery Notification) is made. The recipient's email software (Outlook, Eudora, etc.) may silently ignore the request, or it may prompt the user for permission to send the MDN. There is no guarantee of the 'return-receipt'. The DispositionNotificationTo field is the de facto standard for requesting return-receipts (i.e. MDN, or message delivery notifications).
+Gets the  Disposition-Notification-To  header: the address to send a read receipt (message disposition notification) to. The recipient's client may ignore the request.
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -176,7 +178,7 @@ public static HeaderType getFollowupTo()
 ```
 
 
-Used in Usenet News to indicate that future discussions (=follow-up) on an article should go to a different set of newsgroups than the replied-to article. The most common usage is when an article is posted to several newsgroups, and further discussions is to take place in only one of them. Defined in RFC 1036: 2.2.3, not standardized for use in e-mail.
+Gets the  Followup-To  header: the newsgroups that follow-up discussion should go to (RFC 1036). Not standard in e-mail.
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -186,7 +188,7 @@ public static HeaderType getFrom()
 ```
 
 
-This field contains the identity of the person(s) who wished this message to be sent. The message-creation process should default this field to be a single, authenticated machine address, indicating the AGENT (person, system or process) composing the message. If this is not done, the 'Sender:' field MUST be present. If the 'From:' field IS defaulted this way, the 'Sender:' field is optional and is redundant with the 'From:' field. Example: From: 'Mr. Some One' someone@somedomain.com
+Gets the  From  header: the author of the message.
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -196,19 +198,17 @@ public static HeaderType getImportance()
 ```
 
 
-Gets the importance.
-
-Value: The importance.
+Gets the  Importance  header: the importance of the message: low, normal or high.
 
 **Returns:**
-[HeaderType](../../com.aspose.email/headertype)
+[HeaderType](../../com.aspose.email/headertype) - The importance.
 ### getInReplyTo() {#getInReplyTo--}
 ```
 public static HeaderType getInReplyTo()
 ```
 
 
-Reference to message which this message is a reply to.
+Gets the  In-Reply-To  header: the  Message-ID  of the message this one replies to.
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -218,7 +218,7 @@ public static HeaderType getMIMEVersion()
 ```
 
 
-An indicator that this message is formatted according to the MIME standard, and an indication of which version of MIME is utilized. Defined in RFC 2045
+Gets the  MIME-Version  header: the version of MIME the message is formatted in (RFC 2045).
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -228,7 +228,7 @@ public static HeaderType getMessageID()
 ```
 
 
-Unique ID of this message. Defined In RFC 822: 4.6.1 ,RFC 1036: 2.1.5.
+Gets the  Message-ID  header: the unique identifier of the message (RFC 822, RFC 1036).
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -238,7 +238,7 @@ public static HeaderType getNewsgroups()
 ```
 
 
-In Usenet News: group(s) to which this article was posted. Some systems provide this header field also in e-mail although it is not standardized there. Unfortunately, the header field can appear in e-mail with three different and contradictory meanings: (a) Indicating the newsgroup recipient of an article/message sent to both e-mail and Usenet News recipients. (b) In a message adressed to some mail to news gateways, indicates the newsgroup(s) that the message is to be posted to. (c) In a personally addressed reply to an article in a news-group, indicating the newsgroup in which this discussion originated. Defined in RFC 1036: 2.1.3, not standardized and controversial for use in e-mail.
+Gets the  Newsgroups  header: the newsgroups a Usenet article was posted to (RFC 1036). Not standard in e-mail, where it is used with different meanings.
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -248,7 +248,7 @@ public static HeaderType getReceived()
 ```
 
 
-Trace of MTAs which a message has passed. Defined in RFC 822
+Gets the  Received  header: a record added by each mail server the message passes through (RFC 822).
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -258,7 +258,7 @@ public static HeaderType getReferences()
 ```
 
 
-Reference to other related messages.
+Gets the  References  header: the  Message-ID  values of the earlier messages in the conversation.
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -268,7 +268,7 @@ public static HeaderType getReplyTo()
 ```
 
 
-This header field is meant to indicate where the sender wants replies to go. Unfortunately, this is ambiguous, since there are different kinds of replies, which the sender may wish to go to different addresses. In particular, there are personal replies intended for only one person, and group replies, intended for the whole group of people who read the replied-to message (often a mailing list, anewsgroup name cannot appear here because of different syntax, see 'FollowupTo' .).
+Gets the  Reply-To  header: the addresses that replies should go to, when they differ from the author.
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -278,7 +278,7 @@ public static HeaderType getReturnPath()
 ```
 
 
-Used to convey the information from the MAIL FROM envelope attribute in final delivery, when the message leaves the SMTP environment in which 'MAIL FROM' is used. ///
+Gets the  Return-Path  header: the address that bounces are returned to: the envelope sender ( MAIL FROM ), added on final delivery.
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -288,7 +288,7 @@ public static HeaderType getReturnReceiptTo()
 ```
 
 
-A sender can request a return-receipt by including this header field. The return-receipt is sent to the Return-Path address of the email and not to the address specified in the Return-Receipt-To header field. This header is non-standard and mostly not supported. Use Disposition-Notification-To instead. Even if supported, there is no guarantee of a receipt being sent.
+Gets the  Return-Receipt-To  header: requests a delivery receipt. Non-standard and rarely supported; use  Disposition-Notification-To  instead.
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -298,7 +298,7 @@ public static HeaderType getSender()
 ```
 
 
-The person or agent submitting the message to the network, if other than shown by the From: header field. Should be authenticated, according to RFC 822, but what kind of authentication is not clear.
+Gets the  Sender  header: the person or agent that submitted the message, when it differs from the author in  From .
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -308,19 +308,17 @@ public static HeaderType getSensitivity()
 ```
 
 
-Gets the sensitivity.
-
-Value: The sensitivity.
+Gets the  Sensitivity  header: the sensitivity of the message: personal, private or company confidential.
 
 **Returns:**
-[HeaderType](../../com.aspose.email/headertype)
+[HeaderType](../../com.aspose.email/headertype) - The sensitivity.
 ### getSubject() {#getSubject--}
 ```
 public static HeaderType getSubject()
 ```
 
 
-Title, heading, subject. Often used as thread indicator for messages replying to or commenting on other messages.
+Gets the  Subject  header: the subject of the message.
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -330,7 +328,7 @@ public static HeaderType getTo()
 ```
 
 
-Primary recipients. Example: To: someone@somedomain.com
+Gets the  To  header: the primary recipients.
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -340,7 +338,7 @@ public static HeaderType getXConfirmReadingTo()
 ```
 
 
-This header requests an automated confirmation notice when the message is received or read. It is typically ignored; presumably some software acts on it.
+Gets the  X-Confirm-Reading-To  header: requests a read confirmation. Non-standard and usually ignored.
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -350,7 +348,7 @@ public static HeaderType getXMailer()
 ```
 
 
-Information about the client software of the originator. Example: X-Mailer: Aspose.Email
+Gets the  X-Mailer  header: the software that created the message.
 
 **Returns:**
 [HeaderType](../../com.aspose.email/headertype)
@@ -360,10 +358,10 @@ public int hashCode()
 ```
 
 
-Serves as a hash function for a particular type.
+Returns the hash code of the header type.
 
 **Returns:**
-int - A hash code for the current Object.
+int - The hash code.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -386,10 +384,10 @@ public String toString()
 ```
 
 
-Returns a String that represents the current Object.
+Returns the name of the header, such as  Return-Path .
 
 **Returns:**
-java.lang.String - A String that represents the current Object.
+java.lang.String - The name of the header.
 ### toString(HeaderType type) {#toString-com.aspose.email.HeaderType-}
 ```
 public static String toString(HeaderType type)

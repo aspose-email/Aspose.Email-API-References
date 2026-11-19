@@ -3,7 +3,7 @@ title: SectionValue
 second_title: Aspose.Email for Java API Reference
 description: Represents the content of the section.
 type: docs
-weight: 656
+weight: 661
 url: /java/com.aspose.email/sectionvalue/
 ---
 
@@ -25,11 +25,11 @@ Represents the content of the section.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | Section data. |
+| [getData()](#getData--) | Gets section data. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setData(Object value)](#setData-java.lang.Object-) | Section data. |
+| [setData(Object value)](#setData-java.lang.Object-) | Sets section data. |
 | [toAmpHtml()](#toAmpHtml--) | AmpHtml representation of section value. |
 | [toHtml()](#toHtml--) | Html representation of section value. |
 | [toString()](#toString--) |  |
@@ -47,7 +47,7 @@ Creates instance of SectionValue.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | java.lang.Object |  |
+| data | java.lang.Object | The data. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -80,7 +80,7 @@ public final Object getData()
 ```
 
 
-Section data.
+Gets section data.
 
 **Returns:**
 java.lang.Object
@@ -116,7 +116,7 @@ public final void setData(Object value)
 ```
 
 
-Section data.
+Sets section data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,7 +132,7 @@ public final String toAmpHtml()
 AmpHtml representation of section value.
 
 **Returns:**
-java.lang.String - 
+java.lang.String
 ### toHtml() {#toHtml--}
 ```
 public final String toHtml()
@@ -142,7 +142,7 @@ public final String toHtml()
 Html representation of section value.
 
 **Returns:**
-java.lang.String - 
+java.lang.String
 ### toString() {#toString--}
 ```
 public String toString()

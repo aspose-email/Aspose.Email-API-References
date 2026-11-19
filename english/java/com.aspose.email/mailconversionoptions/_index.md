@@ -1,9 +1,9 @@
 ---
 title: MailConversionOptions
 second_title: Aspose.Email for Java API Reference
-description: Specify additional options when converting from MapiMessage to MailMessage.
+description: Options that control how a  is converted to a .
 type: docs
-weight: 384
+weight: 387
 url: /java/com.aspose.email/mailconversionoptions/
 ---
 
@@ -13,7 +13,39 @@ java.lang.Object
 public class MailConversionOptions
 ```
 
-Specify additional options when converting from MapiMessage to MailMessage.
+Options that control how a [MapiMessage](../../com.aspose.email/mapimessage) is converted to a [MailMessage](../../com.aspose.email/mailmessage).
+
+Pass an instance to [MapiMessage.toMailMessage(MailConversionOptions)](../../com.aspose.email/mapimessage\#toMailMessage-MailConversionOptions-).
+
+The following example shows how to use MailConversionOptions to convert a MapiMessage to MailMessage with custom settings.
+
+```
+
+ // Load a MapiMessage from file
+ MapiMessage mapiMessage = MapiMessage.load("message.msg");
+
+ // Create conversion options with custom settings
+ MailConversionOptions conversionOptions = new MailConversionOptions();
+ conversionOptions.setConvertAsTnef(true);
+ conversionOptions.setPreserveEmbeddedMessageFormat(true);
+ conversionOptions.setPreserveRtfContent(true);
+ conversionOptions.setKeepOriginalEmailAddresses(true);
+ conversionOptions.setTimeout(5000);
+
+ // Handle timeout event
+ conversionOptions.setTimeoutReachedHandler(new TimeoutReachedHandler() {
+     public void invoke(Object sender, EventArgs e) {
+         System.out.println("Conversion timed out");
+     }
+ });
+
+ // Convert MapiMessage to MailMessage with custom options
+ MailMessage mailMessage = mapiMessage.toMailMessage(conversionOptions);
+
+ // Save as EML
+ mailMessage.save("output.eml", SaveOptions.getDefaultEml());
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -24,21 +56,23 @@ Specify additional options when converting from MapiMessage to MailMessage.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAttachmentCidTemplate()](#getAttachmentCidTemplate--) | Defines the template for generating MIME Content-ID (CID) values for attachments embedded into the message body. |
 | [getClass()](#getClass--) |  |
-| [getConvertAsTnef()](#getConvertAsTnef--) | Set to true to import the MapiMessage information into a MailMessage object with MapiMessage as TNEF attachment. |
-| [getKeepOriginalEmailAddresses()](#getKeepOriginalEmailAddresses--) | Gets or sets a value indicating whether need keep original email address. |
-| [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. |
-| [getPreserveRtfContent()](#getPreserveRtfContent--) | Gets or sets a value indicating whether need keep rtf body in MailMessage. |
-| [getTimeout()](#getTimeout--) | Limits the time in milliseconds of formatting message while converting. |
-| [getTimeoutReachedHandler()](#getTimeoutReachedHandler--) | Raised if timed out while saving to MailMessage. |
+| [getConvertAsTnef()](#getConvertAsTnef--) | Gets a value indicating whether the MAPI message is carried as a TNEF (winmail.dat) attachment of the resulting MailMessage, so that Outlook-specific data is kept. |
+| [getKeepOriginalEmailAddresses()](#getKeepOriginalEmailAddresses--) | Gets a value indicating whether the sender and recipient addresses are taken from the transport headers of the message as they are. |
+| [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets a value indicating whether embedded messages stay in MSG format instead of being converted to EML. |
+| [getPreserveRtfContent()](#getPreserveRtfContent--) | Gets a value indicating whether the RTF body of the message is kept in the MailMessage. |
+| [getTimeout()](#getTimeout--) | Gets the time limit, in milliseconds, for formatting the message body during the conversion. |
+| [getTimeoutReachedHandler()](#getTimeoutReachedHandler--) | Gets the handler of the event that occurs when formatting the message body takes longer than \#getTimeout().getTimeout(). |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setConvertAsTnef(boolean value)](#setConvertAsTnef-boolean-) | Set to true to import the MapiMessage information into a MailMessage object with MapiMessage as TNEF attachment. |
-| [setKeepOriginalEmailAddresses(boolean value)](#setKeepOriginalEmailAddresses-boolean-) | Gets or sets a value indicating whether need keep original email address. |
-| [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. |
-| [setPreserveRtfContent(boolean value)](#setPreserveRtfContent-boolean-) | Gets or sets a value indicating whether need keep rtf body in MailMessage. |
-| [setTimeout(int value)](#setTimeout-int-) | Limits the time in milliseconds of formatting message while converting. |
+| [setAttachmentCidTemplate(String value)](#setAttachmentCidTemplate-java.lang.String-) | Defines the template for generating MIME Content-ID (CID) values for attachments embedded into the message body. |
+| [setConvertAsTnef(boolean value)](#setConvertAsTnef-boolean-) | Sets a value indicating whether the MAPI message is carried as a TNEF (winmail.dat) attachment of the resulting MailMessage, so that Outlook-specific data is kept. |
+| [setKeepOriginalEmailAddresses(boolean value)](#setKeepOriginalEmailAddresses-boolean-) | Sets a value indicating whether the sender and recipient addresses are taken from the transport headers of the message as they are. |
+| [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Sets a value indicating whether embedded messages stay in MSG format instead of being converted to EML. |
+| [setPreserveRtfContent(boolean value)](#setPreserveRtfContent-boolean-) | Sets a value indicating whether the RTF body of the message is kept in the MailMessage. |
+| [setTimeout(int value)](#setTimeout-int-) | Sets the time limit, in milliseconds, for formatting the message body during the conversion. |
 | [setTimeoutReachedHandler(TimeoutReachedHandler value)](#setTimeoutReachedHandler-com.aspose.email.TimeoutReachedHandler-) | Raised if timed out while saving to MailMessage. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -65,6 +99,20 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getAttachmentCidTemplate() {#getAttachmentCidTemplate--}
+```
+public final String getAttachmentCidTemplate()
+```
+
+
+Defines the template for generating MIME Content-ID (CID) values for attachments embedded into the message body.
+
+The template may contain the "\{\#\}" placeholder, which will be substituted with the sequential attachment number.
+
+Example:  "cid-\{\#\}"  ->  cid-1 ,  cid-2 , ... If  null  or empty, a default CID generation strategy is applied.
+
+**Returns:**
+java.lang.String
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -81,7 +129,7 @@ public final boolean getConvertAsTnef()
 ```
 
 
-Set to true to import the MapiMessage information into a MailMessage object with MapiMessage as TNEF attachment.
+Gets a value indicating whether the MAPI message is carried as a TNEF (winmail.dat) attachment of the resulting MailMessage, so that Outlook-specific data is kept. The default is  false .
 
 **Returns:**
 boolean
@@ -91,7 +139,7 @@ public final boolean getKeepOriginalEmailAddresses()
 ```
 
 
-Gets or sets a value indicating whether need keep original email address.
+Gets a value indicating whether the sender and recipient addresses are taken from the transport headers of the message as they are. When  false  (the default), they are rebuilt from the MAPI properties of the message.
 
 **Returns:**
 boolean
@@ -101,11 +149,9 @@ public final boolean getPreserveEmbeddedMessageFormat()
 ```
 
 
-Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. By default the value is false.
+Gets a value indicating whether embedded messages stay in MSG format instead of being converted to EML. The default is  false .
 
---------------------
-
-Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from MSG to EML and vice versa, embedded messages are also converted to the target format. Setting the property to true preserves the original format of the embedded messages.
+Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from MSG to EML and vice versa, embedded messages are also converted to the target format. Setting the property to  true  preserves the original format of the embedded messages.
 
 **Returns:**
 boolean
@@ -115,7 +161,7 @@ public final boolean getPreserveRtfContent()
 ```
 
 
-Gets or sets a value indicating whether need keep rtf body in MailMessage.
+Gets a value indicating whether the RTF body of the message is kept in the MailMessage. The default is  false .
 
 **Returns:**
 boolean
@@ -125,7 +171,9 @@ public final int getTimeout()
 ```
 
 
-Limits the time in milliseconds of formatting message while converting. Default value 3 sec.
+Gets the time limit, in milliseconds, for formatting the message body during the conversion. The default is 3000 (3 seconds).
+
+When the limit is reached, \#getTimeoutReachedHandler.getTimeoutReachedHandler is raised.
 
 **Returns:**
 int
@@ -135,7 +183,7 @@ public final TimeoutReachedHandler getTimeoutReachedHandler()
 ```
 
 
-Raised if timed out while saving to MailMessage.
+Gets the handler of the event that occurs when formatting the message body takes longer than \#getTimeout().getTimeout().
 
 **Returns:**
 [TimeoutReachedHandler](../../com.aspose.email/timeoutreachedhandler)
@@ -165,13 +213,30 @@ public final native void notifyAll()
 
 
 
+### setAttachmentCidTemplate(String value) {#setAttachmentCidTemplate-java.lang.String-}
+```
+public final void setAttachmentCidTemplate(String value)
+```
+
+
+Defines the template for generating MIME Content-ID (CID) values for attachments embedded into the message body.
+
+The template may contain the "\{\#\}" placeholder, which will be substituted with the sequential attachment number.
+
+Example:  "cid-\{\#\}"  ->  cid-1 ,  cid-2 , ... If  null  or empty, a default CID generation strategy is applied.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
 ### setConvertAsTnef(boolean value) {#setConvertAsTnef-boolean-}
 ```
 public final void setConvertAsTnef(boolean value)
 ```
 
 
-Set to true to import the MapiMessage information into a MailMessage object with MapiMessage as TNEF attachment.
+Sets a value indicating whether the MAPI message is carried as a TNEF (winmail.dat) attachment of the resulting MailMessage, so that Outlook-specific data is kept. The default is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -184,7 +249,7 @@ public final void setKeepOriginalEmailAddresses(boolean value)
 ```
 
 
-Gets or sets a value indicating whether need keep original email address.
+Sets a value indicating whether the sender and recipient addresses are taken from the transport headers of the message as they are. When  false  (the default), they are rebuilt from the MAPI properties of the message.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -197,11 +262,9 @@ public final void setPreserveEmbeddedMessageFormat(boolean value)
 ```
 
 
-Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. By default the value is false.
+Sets a value indicating whether embedded messages stay in MSG format instead of being converted to EML. The default is  false .
 
---------------------
-
-Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from MSG to EML and vice versa, embedded messages are also converted to the target format. Setting the property to true preserves the original format of the embedded messages.
+Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from MSG to EML and vice versa, embedded messages are also converted to the target format. Setting the property to  true  preserves the original format of the embedded messages.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -214,7 +277,7 @@ public final void setPreserveRtfContent(boolean value)
 ```
 
 
-Gets or sets a value indicating whether need keep rtf body in MailMessage.
+Sets a value indicating whether the RTF body of the message is kept in the MailMessage. The default is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -227,7 +290,9 @@ public final void setTimeout(int value)
 ```
 
 
-Limits the time in milliseconds of formatting message while converting. Default value 3 sec.
+Sets the time limit, in milliseconds, for formatting the message body during the conversion. The default is 3000 (3 seconds).
+
+When the limit is reached, \#getTimeoutReachedHandler.getTimeoutReachedHandler is raised.
 
 **Parameters:**
 | Parameter | Type | Description |

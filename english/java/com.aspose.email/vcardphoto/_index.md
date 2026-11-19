@@ -1,9 +1,9 @@
 ---
 title: VCardPhoto
 second_title: Aspose.Email for Java API Reference
-description: Represents vCard photo property
+description: Represents vCard photo property.
 type: docs
-weight: 747
+weight: 758
 url: /java/com.aspose.email/vcardphoto/
 ---
 
@@ -13,29 +13,29 @@ java.lang.Object
 public final class VCardPhoto
 ```
 
-Represents vCard photo property
+Represents vCard photo property.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [VCardPhoto()](#VCardPhoto--) | Initializes a new instance of the [VCardPhoto](../../com.aspose.email/vcardphoto) class |
+| [VCardPhoto()](#VCardPhoto--) | Initializes a new instance of the [VCardPhoto](../../com.aspose.email/vcardphoto) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | Gets or sets an image data ( null  if \#valueLocation.valueLocation is not  inline ) |
-| [getPhotoType()](#getPhotoType--) | Gets or sets a photo type |
-| [getUri()](#getUri--) | Gets or sets a uri of photo ( null  if \#valueLocation.valueLocation is  inline ) |
-| [getValueLocation()](#getValueLocation--) | Gets or sets a value location |
+| [getData()](#getData--) | Gets an image data ( null  if  valueLocation  is not  inline ). |
+| [getPhotoType()](#getPhotoType--) | Gets a photo type. |
+| [getUri()](#getUri--) | Gets a uri of photo ( null  if  valueLocation  is  inline ). |
+| [getValueLocation()](#getValueLocation--) | Gets a value location. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setData(byte[] value)](#setData-byte---) | Gets or sets an image data ( null  if \#valueLocation.valueLocation is not  inline ) |
-| [setPhotoType(int value)](#setPhotoType-int-) | Gets or sets a photo type |
-| [setUri(String value)](#setUri-java.lang.String-) | Gets or sets a uri of photo ( null  if \#valueLocation.valueLocation is  inline ) |
-| [setValueLocation(int value)](#setValueLocation-int-) | Gets or sets a value location |
+| [setData(byte[] value)](#setData-byte---) | Sets an image data ( null  if  valueLocation  is not  inline ). |
+| [setPhotoType(int value)](#setPhotoType-int-) | Sets a photo type. |
+| [setUri(String value)](#setUri-java.lang.String-) | Sets a uri of photo ( null  if  valueLocation  is  inline ). |
+| [setValueLocation(int value)](#setValueLocation-int-) | Sets a value location. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -46,7 +46,7 @@ public VCardPhoto()
 ```
 
 
-Initializes a new instance of the [VCardPhoto](../../com.aspose.email/vcardphoto) class
+Initializes a new instance of the [VCardPhoto](../../com.aspose.email/vcardphoto) class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -79,7 +79,7 @@ public final byte[] getData()
 ```
 
 
-Gets or sets an image data ( null  if \#valueLocation.valueLocation is not  inline )
+Gets an image data ( null  if  valueLocation  is not  inline ).
 
 **Returns:**
 byte[]
@@ -89,7 +89,7 @@ public final int getPhotoType()
 ```
 
 
-Gets or sets a photo type
+Gets a photo type.
 
 **Returns:**
 int
@@ -99,7 +99,7 @@ public final String getUri()
 ```
 
 
-Gets or sets a uri of photo ( null  if \#valueLocation.valueLocation is  inline )
+Gets a uri of photo ( null  if  valueLocation  is  inline ).
 
 **Returns:**
 java.lang.String
@@ -109,7 +109,7 @@ public final int getValueLocation()
 ```
 
 
-Gets or sets a value location
+Gets a value location.
 
 **Returns:**
 int
@@ -145,7 +145,7 @@ public final void setData(byte[] value)
 ```
 
 
-Gets or sets an image data ( null  if \#valueLocation.valueLocation is not  inline )
+Sets an image data ( null  if  valueLocation  is not  inline ).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public final void setPhotoType(int value)
 ```
 
 
-Gets or sets a photo type
+Sets a photo type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public final void setUri(String value)
 ```
 
 
-Gets or sets a uri of photo ( null  if \#valueLocation.valueLocation is  inline )
+Sets a uri of photo ( null  if  valueLocation  is  inline ).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -184,7 +184,7 @@ public final void setValueLocation(int value)
 ```
 
 
-Gets or sets a value location
+Sets a value location.
 
 **Parameters:**
 | Parameter | Type | Description |

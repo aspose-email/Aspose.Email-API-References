@@ -1,9 +1,9 @@
 ---
 title: MapiImportance
 second_title: Aspose.Email for Java API Reference
-description: Contains a values that  indicates the message importance.
+description: Defines the importance of a message.
 type: docs
-weight: 461
+weight: 464
 url: /java/com.aspose.email/mapiimportance/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiImportance extends System.Enum
 ```
 
-Contains a values that indicates the message importance.
+Defines the importance of a message.
 ## Fields
 
 | Field | Description |

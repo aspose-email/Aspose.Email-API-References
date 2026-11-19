@@ -1,9 +1,9 @@
 ---
 title: NotesStorageFacility
 second_title: Aspose.Email for Java API Reference
-description: The Notes Storage Facility NSF database file  is used by IBM Lotus Notes and Domino  to store different kind of objects like e-mail  appointments and documents  but also application forms and views.
+description: The Notes Storage Facility NSF database file is used by IBM Lotus Notes and Domino to store different kind of objects like e-mail appointments and documents but also application forms and views.
 type: docs
-weight: 560
+weight: 563
 url: /java/com.aspose.email/notesstoragefacility/
 ---
 
@@ -29,7 +29,7 @@ The Notes Storage Facility (NSF) database file is used by (IBM) Lotus Notes and 
 
 | Method | Description |
 | --- | --- |
-| [close()](#close--) |  |
+| [close()](#close--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [enumerateMessages()](#enumerateMessages--) | Exposes the enumerator, which supports an iteration of messages in storage. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -101,7 +101,7 @@ public void close()
 ```
 
 
-
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ### dispose() {#dispose--}
 ```
@@ -120,7 +120,7 @@ public final System.Collections.Generic.IGenericEnumerable<MailMessage> enumerat
 Exposes the enumerator, which supports an iteration of messages in storage.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MailMessage> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in storage.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MailMessage> -  Iterable , that represents an enumerator that iterates through a messages in storage.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

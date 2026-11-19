@@ -1,9 +1,9 @@
 ---
 title: SmimeResult
 second_title: Aspose.Email for Java API Reference
-description: This class containing results of checking secure emails.
+description: The result of verifying the signature of a message.
 type: docs
-weight: 673
+weight: 678
 url: /java/com.aspose.email/smimeresult/
 ---
 
@@ -13,18 +13,18 @@ java.lang.Object
 public class SmimeResult
 ```
 
-This class containing results of checking secure emails.
+The result of verifying the signature of a message.
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getEncryptionCertificates()](#getEncryptionCertificates--) | Gets the collection of certificates with which the email was encrypted. |
-| [getError()](#getError--) | Gets error which was thrown while checking. |
-| [getSigningCertificates()](#getSigningCertificates--) | Gets the collection of certificates with which the email was signed. |
+| [getEncryptionCertificates()](#getEncryptionCertificates--) | Gets the certificates the message was encrypted with. |
+| [getError()](#getError--) | Gets the error that occurred during the check, if any. |
+| [getSigningCertificates()](#getSigningCertificates--) | Gets the certificates the message was signed with. |
 | [hashCode()](#hashCode--) |  |
-| [isSuccess()](#isSuccess--) | Gets true if check was successful, otherwise false. |
+| [isSuccess()](#isSuccess--) | Gets a value indicating whether the signature is valid. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -62,7 +62,7 @@ public final List<X509Certificate> getEncryptionCertificates()
 ```
 
 
-Gets the collection of certificates with which the email was encrypted.
+Gets the certificates the message was encrypted with.
 
 **Returns:**
 java.util.List<java.security.cert.X509Certificate>
@@ -72,7 +72,7 @@ public final RuntimeException getError()
 ```
 
 
-Gets error which was thrown while checking.
+Gets the error that occurred during the check, if any.
 
 **Returns:**
 java.lang.RuntimeException
@@ -82,7 +82,7 @@ public final List<X509Certificate> getSigningCertificates()
 ```
 
 
-Gets the collection of certificates with which the email was signed.
+Gets the certificates the message was signed with.
 
 **Returns:**
 java.util.List<java.security.cert.X509Certificate>
@@ -102,7 +102,7 @@ public final boolean isSuccess()
 ```
 
 
-Gets true if check was successful, otherwise false.
+Gets a value indicating whether the signature is valid.
 
 **Returns:**
 boolean

@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarEventRecurrence
 second_title: Aspose.Email for Java API Reference
-description: Represents the recurrence properties of calendar object
+description: The recurrence of a calendar event the pattern the time zone and the range of the series.
 type: docs
-weight: 412
+weight: 415
 url: /java/com.aspose.email/mapicalendareventrecurrence/
 ---
 
@@ -13,33 +13,35 @@ java.lang.Object
 public final class MapiCalendarEventRecurrence
 ```
 
-Represents the recurrence properties of calendar object
+The recurrence of a calendar event: the pattern, the time zone and the range of the series.
+
+Assign an instance to [MapiCalendar.getRecurrence()](../../com.aspose.email/mapicalendar\#getRecurrence--). \#getRecurrencePattern().getRecurrencePattern() defines how the event repeats; create it with one of the pattern classes or with [MapiCalendarRecurrencePatternFactory](../../com.aspose.email/mapicalendarrecurrencepatternfactory).
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MapiCalendarEventRecurrence()](#MapiCalendarEventRecurrence--) | Initializes a new instance of the [MapiCalendarEventRecurrence](../../com.aspose.email/mapicalendareventrecurrence) class |
+| [MapiCalendarEventRecurrence()](#MapiCalendarEventRecurrence--) | Initializes a new instance of the [MapiCalendarEventRecurrence](../../com.aspose.email/mapicalendareventrecurrence) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAppointmentTimeZoneDefinitionRecur()](#getAppointmentTimeZoneDefinitionRecur--) | Gets or sets time zone information that describes how to convert the meeting date and time on a recurring series to and from UTC. |
+| [getAppointmentTimeZoneDefinitionRecur()](#getAppointmentTimeZoneDefinitionRecur--) | Gets the time zone used to convert the times of the recurring series to and from UTC. |
 | [getClass()](#getClass--) |  |
-| [getClipEnd()](#getClipEnd--) | Gets or sets the date of the last instance |
-| [getClipStart()](#getClipStart--) | Gets or sets the date of the first instance |
-| [getRecurrencePattern()](#getRecurrencePattern--) | Gets or sets the recurrence pattern |
-| [getTimeZoneStruct()](#getTimeZoneStruct--) | Gets or sets the time zone information for a recurring meeting. |
+| [getClipEnd()](#getClipEnd--) | Gets the date of the last occurrence. |
+| [getClipStart()](#getClipStart--) | Gets the date of the first occurrence. |
+| [getRecurrencePattern()](#getRecurrencePattern--) | Gets the recurrence pattern. |
+| [getTimeZoneStruct()](#getTimeZoneStruct--) | Gets the time zone of the recurring meeting. |
 | [hashCode()](#hashCode--) |  |
-| [isException()](#isException--) | Gets or sets a value indicating whether the object represents an exception |
+| [isException()](#isException--) | Gets a value indicating whether the object is an exception: a changed occurrence of a series. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAppointmentTimeZoneDefinitionRecur(MapiCalendarTimeZone value)](#setAppointmentTimeZoneDefinitionRecur-com.aspose.email.MapiCalendarTimeZone-) | Gets or sets time zone information that describes how to convert the meeting date and time on a recurring series to and from UTC. |
-| [setClipEnd(Date value)](#setClipEnd-java.util.Date-) | Gets or sets the date of the last instance |
-| [setClipStart(Date value)](#setClipStart-java.util.Date-) | Gets or sets the date of the first instance |
-| [setException(boolean value)](#setException-boolean-) | Gets or sets a value indicating whether the object represents an exception |
-| [setRecurrencePattern(MapiCalendarRecurrencePattern value)](#setRecurrencePattern-com.aspose.email.MapiCalendarRecurrencePattern-) | Gets or sets the recurrence pattern |
-| [setTimeZoneStruct(MapiCalendarTimeZone value)](#setTimeZoneStruct-com.aspose.email.MapiCalendarTimeZone-) | Gets or sets the time zone information for a recurring meeting. |
+| [setAppointmentTimeZoneDefinitionRecur(MapiCalendarTimeZone value)](#setAppointmentTimeZoneDefinitionRecur-com.aspose.email.MapiCalendarTimeZone-) | Sets the time zone used to convert the times of the recurring series to and from UTC. |
+| [setClipEnd(Date value)](#setClipEnd-java.util.Date-) | Sets the date of the last occurrence. |
+| [setClipStart(Date value)](#setClipStart-java.util.Date-) | Sets the date of the first occurrence. |
+| [setException(boolean value)](#setException-boolean-) | Sets a value indicating whether the object is an exception: a changed occurrence of a series. |
+| [setRecurrencePattern(MapiCalendarRecurrencePattern value)](#setRecurrencePattern-com.aspose.email.MapiCalendarRecurrencePattern-) | Sets the recurrence pattern. |
+| [setTimeZoneStruct(MapiCalendarTimeZone value)](#setTimeZoneStruct-com.aspose.email.MapiCalendarTimeZone-) | Sets the time zone of the recurring meeting. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -50,7 +52,7 @@ public MapiCalendarEventRecurrence()
 ```
 
 
-Initializes a new instance of the [MapiCalendarEventRecurrence](../../com.aspose.email/mapicalendareventrecurrence) class
+Initializes a new instance of the [MapiCalendarEventRecurrence](../../com.aspose.email/mapicalendareventrecurrence) class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -73,7 +75,7 @@ public final MapiCalendarTimeZone getAppointmentTimeZoneDefinitionRecur()
 ```
 
 
-Gets or sets time zone information that describes how to convert the meeting date and time on a recurring series to and from UTC.
+Gets the time zone used to convert the times of the recurring series to and from UTC.
 
 **Returns:**
 [MapiCalendarTimeZone](../../com.aspose.email/mapicalendartimezone)
@@ -93,7 +95,7 @@ public final Date getClipEnd()
 ```
 
 
-Gets or sets the date of the last instance
+Gets the date of the last occurrence.
 
 **Returns:**
 java.util.Date
@@ -103,7 +105,7 @@ public final Date getClipStart()
 ```
 
 
-Gets or sets the date of the first instance
+Gets the date of the first occurrence.
 
 **Returns:**
 java.util.Date
@@ -113,7 +115,7 @@ public final MapiCalendarRecurrencePattern getRecurrencePattern()
 ```
 
 
-Gets or sets the recurrence pattern
+Gets the recurrence pattern.
 
 **Returns:**
 [MapiCalendarRecurrencePattern](../../com.aspose.email/mapicalendarrecurrencepattern)
@@ -123,7 +125,7 @@ public final MapiCalendarTimeZone getTimeZoneStruct()
 ```
 
 
-Gets or sets the time zone information for a recurring meeting.
+Gets the time zone of the recurring meeting.
 
 **Returns:**
 [MapiCalendarTimeZone](../../com.aspose.email/mapicalendartimezone)
@@ -143,7 +145,7 @@ public final boolean isException()
 ```
 
 
-Gets or sets a value indicating whether the object represents an exception
+Gets a value indicating whether the object is an exception: a changed occurrence of a series.
 
 **Returns:**
 boolean
@@ -169,7 +171,7 @@ public final void setAppointmentTimeZoneDefinitionRecur(MapiCalendarTimeZone val
 ```
 
 
-Gets or sets time zone information that describes how to convert the meeting date and time on a recurring series to and from UTC.
+Sets the time zone used to convert the times of the recurring series to and from UTC.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +184,7 @@ public final void setClipEnd(Date value)
 ```
 
 
-Gets or sets the date of the last instance
+Sets the date of the last occurrence.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -195,7 +197,7 @@ public final void setClipStart(Date value)
 ```
 
 
-Gets or sets the date of the first instance
+Sets the date of the first occurrence.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -208,7 +210,7 @@ public final void setException(boolean value)
 ```
 
 
-Gets or sets a value indicating whether the object represents an exception
+Sets a value indicating whether the object is an exception: a changed occurrence of a series.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -221,7 +223,7 @@ public final void setRecurrencePattern(MapiCalendarRecurrencePattern value)
 ```
 
 
-Gets or sets the recurrence pattern
+Sets the recurrence pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -234,7 +236,7 @@ public final void setTimeZoneStruct(MapiCalendarTimeZone value)
 ```
 
 
-Gets or sets the time zone information for a recurring meeting.
+Sets the time zone of the recurring meeting.
 
 **Parameters:**
 | Parameter | Type | Description |

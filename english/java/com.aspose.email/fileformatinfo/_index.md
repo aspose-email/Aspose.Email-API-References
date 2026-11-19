@@ -1,9 +1,9 @@
 ---
 title: FileFormatInfo
 second_title: Aspose.Email for Java API Reference
-description: Contains data returned by FileFormatUtil file format detection methods.
+description: Information about the format of a file as detected by FileFormatUtil.detectFileFormat.
 type: docs
-weight: 250
+weight: 253
 url: /java/com.aspose.email/fileformatinfo/
 ---
 
@@ -13,27 +13,24 @@ java.lang.Object
 public class FileFormatInfo
 ```
 
-Contains data returned by FileFormatUtil file format detection methods.
+Information about the format of a file, as detected by  FileFormatUtil.detectFileFormat .
 
---------------------
+The following example shows how to detect File Formats of Email Message.
 
-> The following example shows how to detect File Formats of Email Message.
-> 
-> [Java]
-> 
-> ```
-> FileFormatInfo info = FileFormatUtil.detectFileFormat("message.msg");
->  System.out.println("The message format is: " + info.getFileFormatType());
-> ```
+```
 
---------------------
+ // Detect file format and Gets the detected load format
+ FileFormatInfo info = FileFormatUtil.detectFileFormat("message.msg");
+ System.out.println("The message format is: " + info.getFileFormatType());
+ 
+```
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getFileFormatType()](#getFileFormatType--) | Gets file format type. |
+| [getFileFormatType()](#getFileFormatType--) | Gets the detected file format. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -72,7 +69,7 @@ public final int getFileFormatType()
 ```
 
 
-Gets file format type.
+Gets the detected file format.
 
 **Returns:**
 int

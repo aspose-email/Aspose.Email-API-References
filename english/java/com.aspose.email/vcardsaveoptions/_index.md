@@ -1,9 +1,9 @@
 ---
 title: VCardSaveOptions
 second_title: Aspose.Email for Java API Reference
-description: Represents vCard save options
+description: Represents vCard save options.
 type: docs
-weight: 749
+weight: 760
 url: /java/com.aspose.email/vcardsaveoptions/
 ---
 
@@ -13,14 +13,14 @@ java.lang.Object, [com.aspose.email.ContactSaveOptions](../../com.aspose.email/c
 public final class VCardSaveOptions extends ContactSaveOptions
 ```
 
-Represents vCard save options
+Represents vCard save options.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [VCardSaveOptions()](#VCardSaveOptions--) | Initializes a new instance of the [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions) class |
-| [VCardSaveOptions(int version, boolean useExtensions)](#VCardSaveOptions-int-boolean-) | Initializes a new instance of the [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions) class |
-| [VCardSaveOptions(int version)](#VCardSaveOptions-int-) | Initializes a new instance of the [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions) class |
+| [VCardSaveOptions()](#VCardSaveOptions--) | Initializes a new instance of the [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions) class. |
+| [VCardSaveOptions(int version, boolean useExtensions)](#VCardSaveOptions-int-boolean-) | Initializes a new instance of the [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions) class. |
+| [VCardSaveOptions(int version)](#VCardSaveOptions-int-) | Initializes a new instance of the [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions) class. |
 ## Methods
 
 | Method | Description |
@@ -28,16 +28,18 @@ Represents vCard save options
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDefault()](#getDefault--) | Gets default [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions) |
-| [getPreferredTextEncoding()](#getPreferredTextEncoding--) | Gets or sets Encoding that will be used to save Contact. |
-| [getSaveFormat()](#getSaveFormat--) | Gets a save format |
-| [getUseExtensions()](#getUseExtensions--) | Gets or sets a value indicating whether the extended types can be used |
-| [getVersion()](#getVersion--) | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
+| [getPreferredTextEncoding()](#getPreferredTextEncoding--) | Gets Encoding that will be used to save Contact. |
+| [getProductId()](#getProductId--) | Gets the identifier of the product that created the vCard, written to its  PRODID  property. |
+| [getSaveFormat()](#getSaveFormat--) | Gets the format this options object saves to. |
+| [getUseExtensions()](#getUseExtensions--) | Gets a value indicating whether the extended types can be used. |
+| [getVersion()](#getVersion--) | Gets the vCard version to write. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setPreferredTextEncoding(Charset value)](#setPreferredTextEncoding-java.nio.charset.Charset-) | Gets or sets Encoding that will be used to save Contact. |
-| [setUseExtensions(boolean value)](#setUseExtensions-boolean-) | Gets or sets a value indicating whether the extended types can be used |
-| [setVersion(int value)](#setVersion-int-) | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
+| [setPreferredTextEncoding(Charset value)](#setPreferredTextEncoding-java.nio.charset.Charset-) | Sets Encoding that will be used to save Contact. |
+| [setProductId(String value)](#setProductId-java.lang.String-) | Sets the identifier of the product that created the vCard, written to its  PRODID  property. |
+| [setUseExtensions(boolean value)](#setUseExtensions-boolean-) | Sets a value indicating whether the extended types can be used. |
+| [setVersion(int value)](#setVersion-int-) | Sets the vCard version to write. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,7 +50,7 @@ public VCardSaveOptions()
 ```
 
 
-Initializes a new instance of the [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions) class
+Initializes a new instance of the [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions) class.
 
 ### VCardSaveOptions(int version, boolean useExtensions) {#VCardSaveOptions-int-boolean-}
 ```
@@ -56,12 +58,12 @@ public VCardSaveOptions(int version, boolean useExtensions)
 ```
 
 
-Initializes a new instance of the [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions) class
+Initializes a new instance of the [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| version | int | a vCard version |
+| version | int | a vCard version. |
 | useExtensions | boolean | indicates whether extended types can be used. |
 
 ### VCardSaveOptions(int version) {#VCardSaveOptions-int-}
@@ -70,12 +72,12 @@ public VCardSaveOptions(int version)
 ```
 
 
-Initializes a new instance of the [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions) class
+Initializes a new instance of the [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| version | int | a vCard version |
+| version | int | a vCard version. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -118,17 +120,27 @@ public final Charset getPreferredTextEncoding()
 ```
 
 
-Gets or sets Encoding that will be used to save Contact.
+Gets Encoding that will be used to save Contact.
 
 **Returns:**
 java.nio.charset.Charset
+### getProductId() {#getProductId--}
+```
+public final String getProductId()
+```
+
+
+Gets the identifier of the product that created the vCard, written to its  PRODID  property.
+
+**Returns:**
+java.lang.String - The product identifier.
 ### getSaveFormat() {#getSaveFormat--}
 ```
 public final int getSaveFormat()
 ```
 
 
-Gets a save format
+Gets the format this options object saves to.
 
 **Returns:**
 int
@@ -138,7 +150,7 @@ public final boolean getUseExtensions()
 ```
 
 
-Gets or sets a value indicating whether the extended types can be used
+Gets a value indicating whether the extended types can be used.
 
 **Returns:**
 boolean
@@ -148,7 +160,7 @@ public final int getVersion()
 ```
 
 
-Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard.
+Gets the vCard version to write. Used only when the contact is saved to vCard.
 
 **Returns:**
 int
@@ -184,12 +196,25 @@ public final void setPreferredTextEncoding(Charset value)
 ```
 
 
-Gets or sets Encoding that will be used to save Contact.
+Sets Encoding that will be used to save Contact.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.nio.charset.Charset |  |
+
+### setProductId(String value) {#setProductId-java.lang.String-}
+```
+public final void setProductId(String value)
+```
+
+
+Sets the identifier of the product that created the vCard, written to its  PRODID  property.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The product identifier. |
 
 ### setUseExtensions(boolean value) {#setUseExtensions-boolean-}
 ```
@@ -197,7 +222,7 @@ public final void setUseExtensions(boolean value)
 ```
 
 
-Gets or sets a value indicating whether the extended types can be used
+Sets a value indicating whether the extended types can be used.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -210,7 +235,7 @@ public final void setVersion(int value)
 ```
 
 
-Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard.
+Sets the vCard version to write. Used only when the contact is saved to vCard.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -1,9 +1,9 @@
 ---
 title: EventList
 second_title: Aspose.Email for Java API Reference
-description: List of events for a contact
+description: List of events for a contact.
 type: docs
-weight: 184
+weight: 187
 url: /java/com.aspose.email/eventlist/
 ---
 
@@ -16,7 +16,7 @@ com.aspose.ms.System.Collections.Generic.IGenericList
 public class EventList implements System.Collections.Generic.IGenericList<CustomerEvent>
 ```
 
-List of events for a contact
+List of events for a contact.
 ## Constructors
 
 | Constructor | Description |
@@ -34,26 +34,26 @@ List of events for a contact
 | [copyTo(CustomerEvent[] array, int index)](#copyTo-com.aspose.email.CustomerEvent---int-) | Copies the elements to an array, starting at a particular array index. |
 | [copyToTArray(CustomerEvent[] array, int index)](#copyToTArray-com.aspose.email.CustomerEvent---int-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAnniversary()](#getAnniversary--) | Wedding anniversary |
-| [getBirthday()](#getBirthday--) | Birthday |
+| [getAnniversary()](#getAnniversary--) | Gets the wedding anniversary. |
+| [getBirthday()](#getBirthday--) | Gets the birthday. |
 | [getClass()](#getClass--) |  |
-| [get_Item(int index)](#get-Item-int-) | Gets or sets the element at the specified index. |
+| [get_Item(int index)](#get-Item-int-) | Gets the element at the specified index. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(CustomerEvent value)](#indexOf-com.aspose.email.CustomerEvent-) | Determines the index of a specific item in the list. |
 | [indexOfItem(CustomerEvent value)](#indexOfItem-com.aspose.email.CustomerEvent-) |  |
 | [insert(int index, CustomerEvent value)](#insert-int-com.aspose.email.CustomerEvent-) | Inserts an item to the list at the specified index. |
 | [insertItem(int index, CustomerEvent value)](#insertItem-int-com.aspose.email.CustomerEvent-) |  |
 | [isReadOnly()](#isReadOnly--) | Gets a value indicating whether the list is read-only. |
-| [iterator()](#iterator--) | Returns an enumerator that iterates through a collection. |
+| [iterator()](#iterator--) | Returns an iterator that iterates through a collection. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [remove(CustomerEvent value)](#remove-com.aspose.email.CustomerEvent-) | Removes the first occurrence of a specific object from the list. |
 | [removeAt(int index)](#removeAt-int-) | Removes the list item at the specified index. |
 | [removeItem(CustomerEvent value)](#removeItem-com.aspose.email.CustomerEvent-) |  |
-| [setAnniversary(Date value)](#setAnniversary-java.util.Date-) | Wedding anniversary |
-| [setBirthday(Date value)](#setBirthday-java.util.Date-) | Birthday |
-| [set_Item(int index, CustomerEvent value)](#set-Item-int-com.aspose.email.CustomerEvent-) | Gets or sets the element at the specified index. |
-| [size()](#size--) | Gets the number of elements contained in the ICollection. |
+| [setAnniversary(Date value)](#setAnniversary-java.util.Date-) | Sets the wedding anniversary. |
+| [setBirthday(Date value)](#setBirthday-java.util.Date-) | Sets the birthday. |
+| [set_Item(int index, CustomerEvent value)](#set-Item-int-com.aspose.email.CustomerEvent-) | Sets the element at the specified index. |
+| [size()](#size--) | Gets the number of elements contained in the collection. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -112,7 +112,7 @@ Determines whether the list contains a specific value.
 | value | [CustomerEvent](../../com.aspose.email/customerevent) | The object to locate in the list. |
 
 **Returns:**
-boolean - true if the object is found in the list; otherwise, false.
+boolean -  true  if the object is found in the list; otherwise,  false .
 ### containsItem(CustomerEvent value) {#containsItem-com.aspose.email.CustomerEvent-}
 ```
 public boolean containsItem(CustomerEvent value)
@@ -177,7 +177,7 @@ public final Date getAnniversary()
 ```
 
 
-Wedding anniversary
+Gets the wedding anniversary.
 
 **Returns:**
 java.util.Date
@@ -187,7 +187,7 @@ public final Date getBirthday()
 ```
 
 
-Birthday
+Gets the birthday.
 
 **Returns:**
 java.util.Date
@@ -207,12 +207,12 @@ public final CustomerEvent get_Item(int index)
 ```
 
 
-Gets or sets the element at the specified index.
+Gets the element at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the element to get or set. |
+| index | int | The zero-based index of the element to get. |
 
 **Returns:**
 [CustomerEvent](../../com.aspose.email/customerevent) - The element at the specified index.
@@ -237,7 +237,7 @@ Determines the index of a specific item in the list.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CustomerEvent](../../com.aspose.email/customerevent) | The Object to locate in the list. |
+| value | [CustomerEvent](../../com.aspose.email/customerevent) | The object to locate in the list. |
 
 **Returns:**
 int - The index of  value  if found in the list; otherwise, -1.
@@ -268,7 +268,7 @@ Inserts an item to the list at the specified index.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which  value  should be inserted. |
-| value | [CustomerEvent](../../com.aspose.email/customerevent) | The Object to insert into the list. |
+| value | [CustomerEvent](../../com.aspose.email/customerevent) | The object to insert into the list. |
 
 ### insertItem(int index, CustomerEvent value) {#insertItem-int-com.aspose.email.CustomerEvent-}
 ```
@@ -293,17 +293,17 @@ public final boolean isReadOnly()
 Gets a value indicating whether the list is read-only.
 
 **Returns:**
-boolean - true if the list is read-only; otherwise, false.
+boolean -  true  if the list is read-only; otherwise,  false .
 ### iterator() {#iterator--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<CustomerEvent> iterator()
 ```
 
 
-Returns an enumerator that iterates through a collection.
+Returns an iterator that iterates through a collection.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.email.CustomerEvent> - An IEnumerator object that can be used to iterate through the collection.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.email.CustomerEvent> - An iterator that can be used to iterate through the collection.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -331,7 +331,7 @@ Removes the first occurrence of a specific object from the list.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CustomerEvent](../../com.aspose.email/customerevent) | The Object to remove from the list. |
+| value | [CustomerEvent](../../com.aspose.email/customerevent) | The object to remove from the list. |
 
 **Returns:**
 boolean
@@ -369,7 +369,7 @@ public final void setAnniversary(Date value)
 ```
 
 
-Wedding anniversary
+Sets the wedding anniversary.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -382,7 +382,7 @@ public final void setBirthday(Date value)
 ```
 
 
-Birthday
+Sets the birthday.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -395,13 +395,13 @@ public final void set_Item(int index, CustomerEvent value)
 ```
 
 
-Gets or sets the element at the specified index.
+Sets the element at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the element to get or set. |
-| value | [CustomerEvent](../../com.aspose.email/customerevent) |  |
+| index | int | The zero-based index of the element to set. |
+| value | [CustomerEvent](../../com.aspose.email/customerevent) | The element at the specified index. |
 
 ### size() {#size--}
 ```
@@ -409,10 +409,10 @@ public final int size()
 ```
 
 
-Gets the number of elements contained in the ICollection.
+Gets the number of elements contained in the collection.
 
 **Returns:**
-int - The number of elements contained in the ICollection.
+int - The number of elements contained in the collection.
 ### toString() {#toString--}
 ```
 public String toString()

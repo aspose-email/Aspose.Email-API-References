@@ -1,7 +1,7 @@
 ---
 title: AssociatedPersonCategory
 second_title: Aspose.Email for Java API Reference
-description: Represents category for a persons
+description: Represents category for persons.
 type: docs
 weight: 62
 url: /java/com.aspose.email/associatedpersoncategory/
@@ -16,7 +16,7 @@ com.aspose.ms.System.IEquatable
 public class AssociatedPersonCategory implements System.IEquatable<AssociatedPersonCategory>
 ```
 
-Represents category for a persons
+Represents category for persons.
 ## Constructors
 
 | Constructor | Description |
@@ -26,46 +26,46 @@ Represents category for a persons
 
 | Field | Description |
 | --- | --- |
-| [ASSISTANT_VALUE](#ASSISTANT-VALUE) | String value for 'Assistant' category |
-| [BROTHER_VALUE](#BROTHER-VALUE) | String value for 'Brother' category |
-| [CHILD_VALUE](#CHILD-VALUE) | String value for 'Child' category |
-| [CUSTOM_VALUE](#CUSTOM-VALUE) | String value for 'Custom' category |
-| [DOMESTIC_PARTNER_VALUE](#DOMESTIC-PARTNER-VALUE) | String value for 'DomesticPartner' category |
-| [FATHER_VALUE](#FATHER-VALUE) | String value for 'Father' category |
-| [FRIEND_VALUE](#FRIEND-VALUE) | String value for 'Friend' category |
-| [MANAGER_VALUE](#MANAGER-VALUE) | String value for 'Manager' category |
-| [MOTHER_VALUE](#MOTHER-VALUE) | String value for 'Mother' category |
-| [PARENT_VALUE](#PARENT-VALUE) | String value for 'Parent' category |
-| [PARTNER_VALUE](#PARTNER-VALUE) | String value for 'Partner' category |
-| [REFERRED_BY_VALUE](#REFERRED-BY-VALUE) | String value for 'ReferredBy' category |
-| [RELATIVE_VALUE](#RELATIVE-VALUE) | String value for 'Relative' category |
-| [SISTER_VALUE](#SISTER-VALUE) | String value for 'Sister' category |
-| [SPOUSE_VALUE](#SPOUSE-VALUE) | String value for 'Spouse' category |
+| [ASSISTANT_VALUE](#ASSISTANT-VALUE) | String value for 'Assistant' category. |
+| [BROTHER_VALUE](#BROTHER-VALUE) | String value for 'Brother' category. |
+| [CHILD_VALUE](#CHILD-VALUE) | String value for 'Child' category. |
+| [CUSTOM_VALUE](#CUSTOM-VALUE) | String value for 'Custom' category. |
+| [DOMESTIC_PARTNER_VALUE](#DOMESTIC-PARTNER-VALUE) | String value for 'DomesticPartner' category. |
+| [FATHER_VALUE](#FATHER-VALUE) | String value for 'Father' category. |
+| [FRIEND_VALUE](#FRIEND-VALUE) | String value for 'Friend' category. |
+| [MANAGER_VALUE](#MANAGER-VALUE) | String value for 'Manager' category. |
+| [MOTHER_VALUE](#MOTHER-VALUE) | String value for 'Mother' category. |
+| [PARENT_VALUE](#PARENT-VALUE) | String value for 'Parent' category. |
+| [PARTNER_VALUE](#PARTNER-VALUE) | String value for 'Partner' category. |
+| [REFERRED_BY_VALUE](#REFERRED-BY-VALUE) | String value for 'ReferredBy' category. |
+| [RELATIVE_VALUE](#RELATIVE-VALUE) | String value for 'Relative' category. |
+| [SISTER_VALUE](#SISTER-VALUE) | String value for 'Sister' category. |
+| [SPOUSE_VALUE](#SPOUSE-VALUE) | String value for 'Spouse' category. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(AssociatedPersonCategory other)](#equals-com.aspose.email.AssociatedPersonCategory-) | Determines whether the specified object is equal to the current object. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
-| [getAssistant()](#getAssistant--) | Assistant |
-| [getBrother()](#getBrother--) | Brother |
-| [getChild()](#getChild--) | Child |
+| [getAssistant()](#getAssistant--) | Assistant. |
+| [getBrother()](#getBrother--) | Brother. |
+| [getChild()](#getChild--) | Child. |
 | [getClass()](#getClass--) |  |
-| [getCustom()](#getCustom--) | Custom category with empty description |
-| [getDescription()](#getDescription--) | Gets description for the 'Custom' category of a person |
-| [getDomesticPartner()](#getDomesticPartner--) | Domestic partner |
-| [getFather()](#getFather--) | Father |
-| [getFriend()](#getFriend--) | Friend |
-| [getManager()](#getManager--) | Manager |
-| [getMother()](#getMother--) | Mother |
-| [getParent()](#getParent--) | Parent |
-| [getPartner()](#getPartner--) | Partner |
-| [getReferredBy()](#getReferredBy--) | Referred by |
-| [getRelative()](#getRelative--) | Relative |
-| [getSister()](#getSister--) | Sister |
-| [getSpouse()](#getSpouse--) | Spouse |
-| [getValue()](#getValue--) | Gets category of a person |
-| [hashCode()](#hashCode--) | GetHashCode returns a hash function for this object. |
+| [getCustom()](#getCustom--) | Custom category with empty description. |
+| [getDescription()](#getDescription--) | Gets description for the 'Custom' category of a person. |
+| [getDomesticPartner()](#getDomesticPartner--) | Domestic partner. |
+| [getFather()](#getFather--) | Father. |
+| [getFriend()](#getFriend--) | Friend. |
+| [getManager()](#getManager--) | Manager. |
+| [getMother()](#getMother--) | Mother. |
+| [getParent()](#getParent--) | Parent. |
+| [getPartner()](#getPartner--) | Partner. |
+| [getReferredBy()](#getReferredBy--) | Referred by. |
+| [getRelative()](#getRelative--) | Relative. |
+| [getSister()](#getSister--) | Sister. |
+| [getSpouse()](#getSpouse--) | Spouse. |
+| [getValue()](#getValue--) | Gets category of a person. |
+| [hashCode()](#hashCode--) |  hashCode  returns a hash function for this object. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [op_Equality(AssociatedPersonCategory a, AssociatedPersonCategory b)](#op-Equality-com.aspose.email.AssociatedPersonCategory-com.aspose.email.AssociatedPersonCategory-) | Determines whether the specified objects are equal. |
@@ -85,7 +85,7 @@ Initializes a new instance of the [AssociatedPersonCategory](../../com.aspose.em
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| description | java.lang.String | Description for the 'Custom' category of a person |
+| description | java.lang.String | Description for the 'Custom' category of a person. |
 
 ### ASSISTANT_VALUE {#ASSISTANT-VALUE}
 ```
@@ -93,7 +93,7 @@ public static final String ASSISTANT_VALUE
 ```
 
 
-String value for 'Assistant' category
+String value for 'Assistant' category.
 
 ### BROTHER_VALUE {#BROTHER-VALUE}
 ```
@@ -101,7 +101,7 @@ public static final String BROTHER_VALUE
 ```
 
 
-String value for 'Brother' category
+String value for 'Brother' category.
 
 ### CHILD_VALUE {#CHILD-VALUE}
 ```
@@ -109,7 +109,7 @@ public static final String CHILD_VALUE
 ```
 
 
-String value for 'Child' category
+String value for 'Child' category.
 
 ### CUSTOM_VALUE {#CUSTOM-VALUE}
 ```
@@ -117,7 +117,7 @@ public static final String CUSTOM_VALUE
 ```
 
 
-String value for 'Custom' category
+String value for 'Custom' category.
 
 ### DOMESTIC_PARTNER_VALUE {#DOMESTIC-PARTNER-VALUE}
 ```
@@ -125,7 +125,7 @@ public static final String DOMESTIC_PARTNER_VALUE
 ```
 
 
-String value for 'DomesticPartner' category
+String value for 'DomesticPartner' category.
 
 ### FATHER_VALUE {#FATHER-VALUE}
 ```
@@ -133,7 +133,7 @@ public static final String FATHER_VALUE
 ```
 
 
-String value for 'Father' category
+String value for 'Father' category.
 
 ### FRIEND_VALUE {#FRIEND-VALUE}
 ```
@@ -141,7 +141,7 @@ public static final String FRIEND_VALUE
 ```
 
 
-String value for 'Friend' category
+String value for 'Friend' category.
 
 ### MANAGER_VALUE {#MANAGER-VALUE}
 ```
@@ -149,7 +149,7 @@ public static final String MANAGER_VALUE
 ```
 
 
-String value for 'Manager' category
+String value for 'Manager' category.
 
 ### MOTHER_VALUE {#MOTHER-VALUE}
 ```
@@ -157,7 +157,7 @@ public static final String MOTHER_VALUE
 ```
 
 
-String value for 'Mother' category
+String value for 'Mother' category.
 
 ### PARENT_VALUE {#PARENT-VALUE}
 ```
@@ -165,7 +165,7 @@ public static final String PARENT_VALUE
 ```
 
 
-String value for 'Parent' category
+String value for 'Parent' category.
 
 ### PARTNER_VALUE {#PARTNER-VALUE}
 ```
@@ -173,7 +173,7 @@ public static final String PARTNER_VALUE
 ```
 
 
-String value for 'Partner' category
+String value for 'Partner' category.
 
 ### REFERRED_BY_VALUE {#REFERRED-BY-VALUE}
 ```
@@ -181,7 +181,7 @@ public static final String REFERRED_BY_VALUE
 ```
 
 
-String value for 'ReferredBy' category
+String value for 'ReferredBy' category.
 
 ### RELATIVE_VALUE {#RELATIVE-VALUE}
 ```
@@ -189,7 +189,7 @@ public static final String RELATIVE_VALUE
 ```
 
 
-String value for 'Relative' category
+String value for 'Relative' category.
 
 ### SISTER_VALUE {#SISTER-VALUE}
 ```
@@ -197,7 +197,7 @@ public static final String SISTER_VALUE
 ```
 
 
-String value for 'Sister' category
+String value for 'Sister' category.
 
 ### SPOUSE_VALUE {#SPOUSE-VALUE}
 ```
@@ -205,7 +205,7 @@ public static final String SPOUSE_VALUE
 ```
 
 
-String value for 'Spouse' category
+String value for 'Spouse' category.
 
 ### equals(AssociatedPersonCategory other) {#equals-com.aspose.email.AssociatedPersonCategory-}
 ```
@@ -221,7 +221,7 @@ Determines whether the specified object is equal to the current object.
 | other | [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory) | The object to compare with the current object. |
 
 **Returns:**
-boolean - true if the specified object is equal to the current object; otherwise, false.
+boolean -  true  if the specified object is equal to the current object; otherwise,  false .
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -243,7 +243,7 @@ public static AssociatedPersonCategory getAssistant()
 ```
 
 
-Assistant
+Assistant.
 
 **Returns:**
 [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory)
@@ -253,7 +253,7 @@ public static AssociatedPersonCategory getBrother()
 ```
 
 
-Brother
+Brother.
 
 **Returns:**
 [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory)
@@ -263,7 +263,7 @@ public static AssociatedPersonCategory getChild()
 ```
 
 
-Child
+Child.
 
 **Returns:**
 [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory)
@@ -283,7 +283,7 @@ public static AssociatedPersonCategory getCustom()
 ```
 
 
-Custom category with empty description
+Custom category with empty description.
 
 **Returns:**
 [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory)
@@ -293,7 +293,7 @@ public final String getDescription()
 ```
 
 
-Gets description for the 'Custom' category of a person
+Gets description for the 'Custom' category of a person.
 
 **Returns:**
 java.lang.String
@@ -303,7 +303,7 @@ public static AssociatedPersonCategory getDomesticPartner()
 ```
 
 
-Domestic partner
+Domestic partner.
 
 **Returns:**
 [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory)
@@ -313,7 +313,7 @@ public static AssociatedPersonCategory getFather()
 ```
 
 
-Father
+Father.
 
 **Returns:**
 [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory)
@@ -323,7 +323,7 @@ public static AssociatedPersonCategory getFriend()
 ```
 
 
-Friend
+Friend.
 
 **Returns:**
 [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory)
@@ -333,7 +333,7 @@ public static AssociatedPersonCategory getManager()
 ```
 
 
-Manager
+Manager.
 
 **Returns:**
 [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory)
@@ -343,7 +343,7 @@ public static AssociatedPersonCategory getMother()
 ```
 
 
-Mother
+Mother.
 
 **Returns:**
 [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory)
@@ -353,7 +353,7 @@ public static AssociatedPersonCategory getParent()
 ```
 
 
-Parent
+Parent.
 
 **Returns:**
 [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory)
@@ -363,7 +363,7 @@ public static AssociatedPersonCategory getPartner()
 ```
 
 
-Partner
+Partner.
 
 **Returns:**
 [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory)
@@ -373,7 +373,7 @@ public static AssociatedPersonCategory getReferredBy()
 ```
 
 
-Referred by
+Referred by.
 
 **Returns:**
 [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory)
@@ -383,7 +383,7 @@ public static AssociatedPersonCategory getRelative()
 ```
 
 
-Relative
+Relative.
 
 **Returns:**
 [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory)
@@ -393,7 +393,7 @@ public static AssociatedPersonCategory getSister()
 ```
 
 
-Sister
+Sister.
 
 **Returns:**
 [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory)
@@ -403,7 +403,7 @@ public static AssociatedPersonCategory getSpouse()
 ```
 
 
-Spouse
+Spouse.
 
 **Returns:**
 [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory)
@@ -413,7 +413,7 @@ public final String getValue()
 ```
 
 
-Gets category of a person
+Gets category of a person.
 
 **Returns:**
 java.lang.String
@@ -423,7 +423,7 @@ public int hashCode()
 ```
 
 
-GetHashCode returns a hash function for this object.
+ hashCode  returns a hash function for this object.
 
 **Returns:**
 int - Returns a hash function for this object.
@@ -454,11 +454,11 @@ Determines whether the specified objects are equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory) | First object to compare |
-| b | [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory) | Second object to compare |
+| a | [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory) | First object to compare. |
+| b | [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are equal, otherwise false.
+boolean - Returns  true  if objects are equal, otherwise  false .
 ### op_Inequality(AssociatedPersonCategory a, AssociatedPersonCategory b) {#op-Inequality-com.aspose.email.AssociatedPersonCategory-com.aspose.email.AssociatedPersonCategory-}
 ```
 public static boolean op_Inequality(AssociatedPersonCategory a, AssociatedPersonCategory b)
@@ -470,11 +470,11 @@ Determines whether the specified objects are not equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory) | First object to compare |
-| b | [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory) | Second object to compare |
+| a | [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory) | First object to compare. |
+| b | [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are not equal, otherwise false.
+boolean - Returns  true  if objects are not equal, otherwise  false .
 ### toString() {#toString--}
 ```
 public String toString()

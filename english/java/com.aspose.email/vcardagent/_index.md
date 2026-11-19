@@ -1,9 +1,9 @@
 ---
 title: VCardAgent
 second_title: Aspose.Email for Java API Reference
-description: Represents a vCard Agent property
+description: Represents a vCard Agent property.
 type: docs
-weight: 731
+weight: 741
 url: /java/com.aspose.email/vcardagent/
 ---
 
@@ -13,27 +13,27 @@ java.lang.Object
 public final class VCardAgent
 ```
 
-Represents a vCard Agent property
+Represents a vCard Agent property.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [VCardAgent()](#VCardAgent--) | Initializes a new instance of the [VCardAgent](../../com.aspose.email/vcardagent) class |
+| [VCardAgent()](#VCardAgent--) | Initializes a new instance of the [VCardAgent](../../com.aspose.email/vcardagent) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAgentCard()](#getAgentCard--) | Gets or sets an agent's card ( null  if  ValueLocation (\#getValueLocation.getValueLocation/\#setValueLocation(int).setValueLocation(int)) is not  INLINE ) |
+| [getAgentCard()](#getAgentCard--) | Gets an agent's card ( null  if \#getValueLocation().getValueLocation() is not  INLINE ). |
 | [getClass()](#getClass--) |  |
-| [getUri()](#getUri--) | Gets or sets a uri of agent card ( null  if  ValueLocation (\#getValueLocation.getValueLocation/\#setValueLocation(int).setValueLocation(int)) is  INLINE ) |
-| [getValueLocation()](#getValueLocation--) | Gets or sets a value location |
+| [getUri()](#getUri--) | Gets a uri of agent card ( null  if \#getValueLocation().getValueLocation() is  INLINE ). |
+| [getValueLocation()](#getValueLocation--) | Gets a value location. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAgentCard(VCardContact value)](#setAgentCard-com.aspose.email.VCardContact-) | Gets or sets an agent's card ( null  if  ValueLocation (\#getValueLocation.getValueLocation/\#setValueLocation(int).setValueLocation(int)) is not  INLINE ) |
-| [setUri(String value)](#setUri-java.lang.String-) | Gets or sets a uri of agent card ( null  if  ValueLocation (\#getValueLocation.getValueLocation/\#setValueLocation(int).setValueLocation(int)) is  INLINE ) |
-| [setValueLocation(int value)](#setValueLocation-int-) | Gets or sets a value location |
+| [setAgentCard(VCardContact value)](#setAgentCard-com.aspose.email.VCardContact-) | Sets an agent's card ( null  if \#getValueLocation().getValueLocation() is not  INLINE ). |
+| [setUri(String value)](#setUri-java.lang.String-) | Sets a uri of agent card ( null  if \#getValueLocation().getValueLocation() is  INLINE ). |
+| [setValueLocation(int value)](#setValueLocation-int-) | Sets a value location. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -44,7 +44,7 @@ public VCardAgent()
 ```
 
 
-Initializes a new instance of the [VCardAgent](../../com.aspose.email/vcardagent) class
+Initializes a new instance of the [VCardAgent](../../com.aspose.email/vcardagent) class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -67,7 +67,7 @@ public final VCardContact getAgentCard()
 ```
 
 
-Gets or sets an agent's card ( null  if  ValueLocation (\#getValueLocation.getValueLocation/\#setValueLocation(int).setValueLocation(int)) is not  INLINE )
+Gets an agent's card ( null  if \#getValueLocation().getValueLocation() is not  INLINE ).
 
 **Returns:**
 [VCardContact](../../com.aspose.email/vcardcontact)
@@ -87,7 +87,7 @@ public final String getUri()
 ```
 
 
-Gets or sets a uri of agent card ( null  if  ValueLocation (\#getValueLocation.getValueLocation/\#setValueLocation(int).setValueLocation(int)) is  INLINE )
+Gets a uri of agent card ( null  if \#getValueLocation().getValueLocation() is  INLINE ).
 
 **Returns:**
 java.lang.String
@@ -97,7 +97,7 @@ public final int getValueLocation()
 ```
 
 
-Gets or sets a value location
+Gets a value location.
 
 **Returns:**
 int
@@ -133,7 +133,7 @@ public final void setAgentCard(VCardContact value)
 ```
 
 
-Gets or sets an agent's card ( null  if  ValueLocation (\#getValueLocation.getValueLocation/\#setValueLocation(int).setValueLocation(int)) is not  INLINE )
+Sets an agent's card ( null  if \#getValueLocation().getValueLocation() is not  INLINE ).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ public final void setUri(String value)
 ```
 
 
-Gets or sets a uri of agent card ( null  if  ValueLocation (\#getValueLocation.getValueLocation/\#setValueLocation(int).setValueLocation(int)) is  INLINE )
+Sets a uri of agent card ( null  if \#getValueLocation().getValueLocation() is  INLINE ).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -159,7 +159,7 @@ public final void setValueLocation(int value)
 ```
 
 
-Gets or sets a value location
+Sets a value location.
 
 **Parameters:**
 | Parameter | Type | Description |

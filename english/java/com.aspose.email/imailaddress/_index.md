@@ -1,31 +1,31 @@
 ---
 title: IMailAddress
 second_title: Aspose.Email for Java API Reference
-description: Represents a common mail address interface
+description: The common interface of e-mail addresses.
 type: docs
-weight: 783
+weight: 795
 url: /java/com.aspose.email/imailaddress/
 ---
 ```
 public interface IMailAddress
 ```
 
-Represents a common mail address interface
+The common interface of e-mail addresses.
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getAddress()](#getAddress--) | Gets or sets a mail address |
-| [getDisplayName()](#getDisplayName--) | Gets or sets a display name |
-| [setAddress(String value)](#setAddress-java.lang.String-) | Gets or sets a mail address |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Gets or sets a display name |
+| [getAddress()](#getAddress--) | Gets the e-mail address. |
+| [getDisplayName()](#getDisplayName--) | Gets the display name. |
+| [setAddress(String value)](#setAddress-java.lang.String-) | Sets the e-mail address. |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Sets the display name. |
 ### getAddress() {#getAddress--}
 ```
 public abstract String getAddress()
 ```
 
 
-Gets or sets a mail address
+Gets the e-mail address.
 
 **Returns:**
 java.lang.String
@@ -35,7 +35,7 @@ public abstract String getDisplayName()
 ```
 
 
-Gets or sets a display name
+Gets the display name.
 
 **Returns:**
 java.lang.String
@@ -45,7 +45,7 @@ public abstract void setAddress(String value)
 ```
 
 
-Gets or sets a mail address
+Sets the e-mail address.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -58,7 +58,7 @@ public abstract void setDisplayName(String value)
 ```
 
 
-Gets or sets a display name
+Sets the display name.
 
 **Parameters:**
 | Parameter | Type | Description |

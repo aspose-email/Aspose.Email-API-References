@@ -1,7 +1,7 @@
 ---
 title: AppointmentReminder
 second_title: Aspose.Email for Java API Reference
-description: Provides a grouping of component properties that define an alarm.
+description: Represents a reminder of an event the iCalendar VALARM component.
 type: docs
 weight: 45
 url: /java/com.aspose.email/appointmentreminder/
@@ -13,36 +13,36 @@ java.lang.Object
 public class AppointmentReminder
 ```
 
-Provides a grouping of component properties that define an alarm.
+Represents a reminder of an event (the iCalendar VALARM component).
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [AppointmentReminder()](#AppointmentReminder--) | Initialize a new instance of [AppointmentReminder](../../com.aspose.email/appointmentreminder) class. |
+| [AppointmentReminder()](#AppointmentReminder--) | Initializes a new instance of the [AppointmentReminder](../../com.aspose.email/appointmentreminder) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAction()](#getAction--) | Defines the action to be invoked when an alarm is triggered. |
-| [getAttachments()](#getAttachments--) | Contains collection of ReminderAttachment [ReminderAttachment](../../com.aspose.email/reminderattachment)objects. |
-| [getAttendees()](#getAttendees--) | Contains collection of ReminderAttendee [ReminderAttendee](../../com.aspose.email/reminderattendee)objects. |
+| [getAction()](#getAction--) | Gets what happens when the reminder triggers, such as showing a message or sending an email. |
+| [getAttachments()](#getAttachments--) | Gets the files attached to the reminder, such as the sound of an audio reminder. |
+| [getAttendees()](#getAttendees--) | Gets the recipients of an email reminder. |
 | [getClass()](#getClass--) |  |
-| [getDefault15MinReminder()](#getDefault15MinReminder--) | Gets the default 15 min reminder. |
-| [getDescription()](#getDescription--) | Provides a more complete description of the alarm. |
-| [getDuration()](#getDuration--) | Specifies the delay period, after which the alarm will repeat. |
-| [getRepeat()](#getRepeat--) | Defines the number of time the alarm should be repeated, after the initial trigger. |
-| [getSummary()](#getSummary--) | Defines a short summary or subject for the alarm. |
-| [getTrigger()](#getTrigger--) | Specifies when an alarm will trigger. |
+| [getDefault15MinReminder()](#getDefault15MinReminder--) | Gets a new reminder that shows a message 15 minutes before the event starts. |
+| [getDescription()](#getDescription--) | Gets the text of the reminder: the message to show, or the body of an email reminder. |
+| [getDuration()](#getDuration--) | Gets the interval between repetitions of the reminder. |
+| [getRepeat()](#getRepeat--) | Gets how many more times the reminder repeats after it first triggers. |
+| [getSummary()](#getSummary--) | Gets a short summary of the reminder, used as the subject of an email reminder. |
+| [getTrigger()](#getTrigger--) | Gets when the reminder triggers. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAction(int value)](#setAction-int-) | Defines the action to be invoked when an alarm is triggered. |
-| [setDescription(String value)](#setDescription-java.lang.String-) | Provides a more complete description of the alarm. |
-| [setDuration(ReminderDuration value)](#setDuration-com.aspose.email.ReminderDuration-) | Specifies the delay period, after which the alarm will repeat. |
-| [setRepeat(int value)](#setRepeat-int-) | Defines the number of time the alarm should be repeated, after the initial trigger. |
-| [setSummary(String value)](#setSummary-java.lang.String-) | Defines a short summary or subject for the alarm. |
-| [setTrigger(ReminderTrigger value)](#setTrigger-com.aspose.email.ReminderTrigger-) | Specifies when an alarm will trigger. |
+| [setAction(int value)](#setAction-int-) | Sets what happens when the reminder triggers, such as showing a message or sending an email. |
+| [setDescription(String value)](#setDescription-java.lang.String-) | Sets the text of the reminder: the message to show, or the body of an email reminder. |
+| [setDuration(ReminderDuration value)](#setDuration-com.aspose.email.ReminderDuration-) | Sets the interval between repetitions of the reminder. |
+| [setRepeat(int value)](#setRepeat-int-) | Sets how many more times the reminder repeats after it first triggers. |
+| [setSummary(String value)](#setSummary-java.lang.String-) | Sets a short summary of the reminder, used as the subject of an email reminder. |
+| [setTrigger(ReminderTrigger value)](#setTrigger-com.aspose.email.ReminderTrigger-) | Sets when the reminder triggers. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -53,7 +53,7 @@ public AppointmentReminder()
 ```
 
 
-Initialize a new instance of [AppointmentReminder](../../com.aspose.email/appointmentreminder) class.
+Initializes a new instance of the [AppointmentReminder](../../com.aspose.email/appointmentreminder) class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -76,7 +76,7 @@ public final int getAction()
 ```
 
 
-Defines the action to be invoked when an alarm is triggered.
+Gets what happens when the reminder triggers, such as showing a message or sending an email.
 
 **Returns:**
 int
@@ -86,7 +86,7 @@ public final ReminderAttachmentCollection getAttachments()
 ```
 
 
-Contains collection of ReminderAttachment [ReminderAttachment](../../com.aspose.email/reminderattachment)objects.
+Gets the files attached to the reminder, such as the sound of an audio reminder.
 
 **Returns:**
 [ReminderAttachmentCollection](../../com.aspose.email/reminderattachmentcollection)
@@ -96,7 +96,7 @@ public final ReminderAttendeeCollection getAttendees()
 ```
 
 
-Contains collection of ReminderAttendee [ReminderAttendee](../../com.aspose.email/reminderattendee)objects.
+Gets the recipients of an email reminder.
 
 **Returns:**
 [ReminderAttendeeCollection](../../com.aspose.email/reminderattendeecollection)
@@ -116,7 +116,7 @@ public static AppointmentReminder getDefault15MinReminder()
 ```
 
 
-Gets the default 15 min reminder.
+Gets a new reminder that shows a message 15 minutes before the event starts.
 
 **Returns:**
 [AppointmentReminder](../../com.aspose.email/appointmentreminder)
@@ -126,7 +126,7 @@ public final String getDescription()
 ```
 
 
-Provides a more complete description of the alarm.
+Gets the text of the reminder: the message to show, or the body of an email reminder.
 
 **Returns:**
 java.lang.String
@@ -136,7 +136,7 @@ public final ReminderDuration getDuration()
 ```
 
 
-Specifies the delay period, after which the alarm will repeat.
+Gets the interval between repetitions of the reminder. Use it together with \#getRepeat().getRepeat().
 
 **Returns:**
 [ReminderDuration](../../com.aspose.email/reminderduration)
@@ -146,7 +146,7 @@ public final int getRepeat()
 ```
 
 
-Defines the number of time the alarm should be repeated, after the initial trigger.
+Gets how many more times the reminder repeats after it first triggers. Use it together with \#getDuration().getDuration().
 
 **Returns:**
 int
@@ -156,7 +156,7 @@ public final String getSummary()
 ```
 
 
-Defines a short summary or subject for the alarm.
+Gets a short summary of the reminder, used as the subject of an email reminder.
 
 **Returns:**
 java.lang.String
@@ -166,7 +166,7 @@ public final ReminderTrigger getTrigger()
 ```
 
 
-Specifies when an alarm will trigger.
+Gets when the reminder triggers.
 
 **Returns:**
 [ReminderTrigger](../../com.aspose.email/remindertrigger)
@@ -202,7 +202,7 @@ public final void setAction(int value)
 ```
 
 
-Defines the action to be invoked when an alarm is triggered.
+Sets what happens when the reminder triggers, such as showing a message or sending an email.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -215,7 +215,7 @@ public final void setDescription(String value)
 ```
 
 
-Provides a more complete description of the alarm.
+Sets the text of the reminder: the message to show, or the body of an email reminder.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -228,7 +228,7 @@ public final void setDuration(ReminderDuration value)
 ```
 
 
-Specifies the delay period, after which the alarm will repeat.
+Sets the interval between repetitions of the reminder. Use it together with \#setRepeat(int).setRepeat(int).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -241,7 +241,7 @@ public final void setRepeat(int value)
 ```
 
 
-Defines the number of time the alarm should be repeated, after the initial trigger.
+Sets how many more times the reminder repeats after it first triggers. Use it together with \#setDuration(ReminderDuration).setDuration(ReminderDuration).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -254,7 +254,7 @@ public final void setSummary(String value)
 ```
 
 
-Defines a short summary or subject for the alarm.
+Sets a short summary of the reminder, used as the subject of an email reminder.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -267,7 +267,7 @@ public final void setTrigger(ReminderTrigger value)
 ```
 
 
-Specifies when an alarm will trigger.
+Sets when the reminder triggers.
 
 **Parameters:**
 | Parameter | Type | Description |

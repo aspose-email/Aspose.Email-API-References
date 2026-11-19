@@ -1,9 +1,9 @@
 ---
 title: MailException
 second_title: Aspose.Email for Java API Reference
-description: Represents the exception that is thrown when the mail message processing.
+description: The exception that is thrown when a mail message cannot be processed.
 type: docs
-weight: 385
+weight: 388
 url: /java/com.aspose.email/mailexception/
 ---
 
@@ -13,14 +13,14 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class MailException extends System.Exception
 ```
 
-Represents the exception that is thrown when the mail message processing.
+The exception that is thrown when a mail message cannot be processed.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
 | [MailException()](#MailException--) | Initializes a new instance of the [MailException](../../com.aspose.email/mailexception) class. |
-| [MailException(String message)](#MailException-java.lang.String-) | Initializes a new instance of the [MailException](../../com.aspose.email/mailexception) class. |
-| [MailException(String message, Throwable inner)](#MailException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the  MailException  class. |
+| [MailException(String message)](#MailException-java.lang.String-) | Initializes a new instance of the [MailException](../../com.aspose.email/mailexception) class with the specified error message. |
+| [MailException(String message, Throwable inner)](#MailException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the [MailException](../../com.aspose.email/mailexception) class with the specified error message and a reference to the exception that caused it. |
 ## Methods
 
 | Method | Description |
@@ -62,12 +62,12 @@ public MailException(String message)
 ```
 
 
-Initializes a new instance of the [MailException](../../com.aspose.email/mailexception) class.
+Initializes a new instance of the [MailException](../../com.aspose.email/mailexception) class with the specified error message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The message. |
+| message | java.lang.String | The message that describes the error. |
 
 ### MailException(String message, Throwable inner) {#MailException-java.lang.String-java.lang.Throwable-}
 ```
@@ -75,13 +75,13 @@ public MailException(String message, Throwable inner)
 ```
 
 
-Initializes a new instance of the  MailException  class.
+Initializes a new instance of the [MailException](../../com.aspose.email/mailexception) class with the specified error message and a reference to the exception that caused it.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The message. |
-| inner | java.lang.Throwable | The inner. |
+| message | java.lang.String | The message that describes the error. |
+| inner | java.lang.Throwable | The exception that caused this exception, or  null . |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```

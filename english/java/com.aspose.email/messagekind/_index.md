@@ -1,9 +1,9 @@
 ---
 title: MessageKind
 second_title: Aspose.Email for Java API Reference
-description: Represents the different kinds of messages in pst.
+description: Defines kinds of PST messages.
 type: docs
-weight: 520
+weight: 523
 url: /java/com.aspose.email/messagekind/
 ---
 
@@ -13,14 +13,14 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MessageKind extends System.Enum
 ```
 
-Represents the different kinds of messages in pst.
+Defines kinds of PST messages. The values can be combined.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [FolderAssociatedInformation](#FolderAssociatedInformation) | Represents the folder associated information (FAI) message object. |
-| [Normal](#Normal) | Represents the normal message. |
+| [FolderAssociatedInformation](#FolderAssociatedInformation) | A folder associated information (FAI) item: a message stored in a folder but hidden from the user. |
+| [Normal](#Normal) | A normal message. |
 ## Methods
 
 | Method | Description |
@@ -72,7 +72,7 @@ public static final int FolderAssociatedInformation
 ```
 
 
-Represents the folder associated information (FAI) message object. It is stored in a folder object and typically hidden from view by e-mail applications. An FAI message object is used to store a variety of settings and auxiliary data, including views, forms, favorites, calendar options, and category lists.
+A folder associated information (FAI) item: a message stored in a folder but hidden from the user. Outlook uses FAI items for views, forms, rules, category lists and other settings.
 
 ### Normal {#Normal}
 ```
@@ -80,7 +80,7 @@ public static final int Normal
 ```
 
 
-Represents the normal message.
+A normal message.
 
 ### Clone() {#Clone--}
 ```

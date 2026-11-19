@@ -1,9 +1,9 @@
 ---
 title: SignatureOptions
 second_title: Aspose.Email for Java API Reference
-description: This class allow the user to specify additional options when sign a message.
+description: Options for signing a message.
 type: docs
-weight: 668
+weight: 673
 url: /java/com.aspose.email/signatureoptions/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public class SignatureOptions
 ```
 
-This class allow the user to specify additional options when sign a message.
+Options for signing a message.
 ## Constructors
 
 | Constructor | Description |
@@ -25,11 +25,11 @@ This class allow the user to specify additional options when sign a message.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDetached()](#getDetached--) | If detached is true, the signature is detached.If detached is false(the default), the signature is not detached. |
+| [getDetached()](#getDetached--) | Gets a value indicating whether the signature is detached ( multipart/signed ), so that clients without S/MIME support can still read the message. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDetached(boolean value)](#setDetached-boolean-) | If detached is true, the signature is detached.If detached is false(the default), the signature is not detached. |
+| [setDetached(boolean value)](#setDetached-boolean-) | Sets a value indicating whether the signature is detached ( multipart/signed ), so that clients without S/MIME support can still read the message. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -71,7 +71,7 @@ public final boolean getDetached()
 ```
 
 
-If detached is true, the signature is detached.If detached is false(the default), the signature is not detached.
+Gets a value indicating whether the signature is detached ( multipart/signed ), so that clients without S/MIME support can still read the message. The default is  false .
 
 **Returns:**
 boolean
@@ -107,7 +107,7 @@ public final void setDetached(boolean value)
 ```
 
 
-If detached is true, the signature is detached.If detached is false(the default), the signature is not detached.
+Sets a value indicating whether the signature is detached ( multipart/signed ), so that clients without S/MIME support can still read the message. The default is  false .
 
 **Parameters:**
 | Parameter | Type | Description |

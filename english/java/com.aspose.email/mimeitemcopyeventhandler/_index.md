@@ -3,7 +3,7 @@ title: MimeItemCopyEventHandler
 second_title: Aspose.Email for Java API Reference
 description: Represents a delegate for handling events related to the copying of Mime items typically used in scenarios where a MailMessage object is copied from one storage to another.
 type: docs
-weight: 547
+weight: 550
 url: /java/com.aspose.email/mimeitemcopyeventhandler/
 ---
 
@@ -14,6 +14,8 @@ public abstract class MimeItemCopyEventHandler extends System.MulticastDelegate
 ```
 
 Represents a delegate for handling events related to the copying of Mime items, typically used in scenarios where a MailMessage object is copied from one storage to another.
+
+The method receives  sender : the source of the event, often an object raising the event,  e : event arguments containing information about the copy operation.
 ## Constructors
 
 | Constructor | Description |

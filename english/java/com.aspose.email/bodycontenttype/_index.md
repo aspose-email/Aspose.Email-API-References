@@ -1,7 +1,7 @@
 ---
 title: BodyContentType
 second_title: Aspose.Email for Java API Reference
-description: The content type of message body.
+description: Specifies the format of a message body.
 type: docs
 weight: 84
 url: /java/com.aspose.email/bodycontenttype/
@@ -13,15 +13,17 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class BodyContentType extends System.Enum
 ```
 
-The content type of message body.
+Specifies the format of a message body.
+
+Pass a value to [MapiMessageItemBase.setBodyContent(String, int)](../../com.aspose.email/mapimessageitembase\#setBodyContent-String--int-) to set the body in that format; [MapiMessageItemBase.getBodyType()](../../com.aspose.email/mapimessageitembase\#getBodyType--) returns the format of the body that a loaded item has.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Html](#Html) | The html type. |
-| [PlainText](#PlainText) | The plain text. |
-| [Rtf](#Rtf) | The rtf type. |
+| [Html](#Html) | HTML. |
+| [PlainText](#PlainText) | Plain text. |
+| [Rtf](#Rtf) | Rich Text Format (RTF). |
 ## Methods
 
 | Method | Description |
@@ -73,7 +75,7 @@ public static final int Html
 ```
 
 
-The html type.
+HTML.
 
 ### PlainText {#PlainText}
 ```
@@ -81,7 +83,7 @@ public static final int PlainText
 ```
 
 
-The plain text.
+Plain text.
 
 ### Rtf {#Rtf}
 ```
@@ -89,7 +91,7 @@ public static final int Rtf
 ```
 
 
-The rtf type.
+Rich Text Format (RTF).
 
 ### Clone() {#Clone--}
 ```

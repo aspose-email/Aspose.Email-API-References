@@ -1,9 +1,9 @@
 ---
 title: EventCategory
 second_title: Aspose.Email for Java API Reference
-description: Represents category for an event
+description: Represents category for an event.
 type: docs
-weight: 183
+weight: 186
 url: /java/com.aspose.email/eventcategory/
 ---
 
@@ -16,7 +16,7 @@ com.aspose.ms.System.IEquatable
 public class EventCategory implements System.IEquatable<EventCategory>
 ```
 
-Represents category for an event
+Represents category for an event.
 ## Constructors
 
 | Constructor | Description |
@@ -26,22 +26,22 @@ Represents category for an event
 
 | Field | Description |
 | --- | --- |
-| [ANNIVERSARY_VALUE](#ANNIVERSARY-VALUE) | String value for 'Anniversary' category |
-| [BIRTHDAY_VALUE](#BIRTHDAY-VALUE) | String value for 'Birthday' category |
-| [CUSTOM_VALUE](#CUSTOM-VALUE) | String value for 'Custom' category |
+| [ANNIVERSARY_VALUE](#ANNIVERSARY-VALUE) | String value for 'Anniversary' category. |
+| [BIRTHDAY_VALUE](#BIRTHDAY-VALUE) | String value for 'Birthday' category. |
+| [CUSTOM_VALUE](#CUSTOM-VALUE) | String value for 'Custom' category. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(EventCategory other)](#equals-com.aspose.email.EventCategory-) | Determines whether the specified object is equal to the current object. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
-| [getAnniversary()](#getAnniversary--) | Anniversary |
-| [getBirthday()](#getBirthday--) | Birthday |
+| [getAnniversary()](#getAnniversary--) | Anniversary. |
+| [getBirthday()](#getBirthday--) | Birthday. |
 | [getClass()](#getClass--) |  |
-| [getCustom()](#getCustom--) | Custom description |
-| [getDescription()](#getDescription--) | Gets description for the 'Custom' category of an event |
-| [getValue()](#getValue--) | Gets string representation of an event category |
-| [hashCode()](#hashCode--) | GetHashCode returns a hash function for this object. |
+| [getCustom()](#getCustom--) | Custom description. |
+| [getDescription()](#getDescription--) | Gets description for the 'Custom' category of an event. |
+| [getValue()](#getValue--) | Gets string representation of an event category. |
+| [hashCode()](#hashCode--) | Returns a hash function for this object. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [op_Equality(EventCategory a, EventCategory b)](#op-Equality-com.aspose.email.EventCategory-com.aspose.email.EventCategory-) | Determines whether the specified objects are equal. |
@@ -61,7 +61,7 @@ Initializes a new instance of the 'Custom' [EventCategory](../../com.aspose.emai
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| description | java.lang.String | Description for the 'Custom' category of an event |
+| description | java.lang.String | Description for the 'Custom' category of an event. |
 
 ### ANNIVERSARY_VALUE {#ANNIVERSARY-VALUE}
 ```
@@ -69,7 +69,7 @@ public static final String ANNIVERSARY_VALUE
 ```
 
 
-String value for 'Anniversary' category
+String value for 'Anniversary' category.
 
 ### BIRTHDAY_VALUE {#BIRTHDAY-VALUE}
 ```
@@ -77,7 +77,7 @@ public static final String BIRTHDAY_VALUE
 ```
 
 
-String value for 'Birthday' category
+String value for 'Birthday' category.
 
 ### CUSTOM_VALUE {#CUSTOM-VALUE}
 ```
@@ -85,7 +85,7 @@ public static final String CUSTOM_VALUE
 ```
 
 
-String value for 'Custom' category
+String value for 'Custom' category.
 
 ### equals(EventCategory other) {#equals-com.aspose.email.EventCategory-}
 ```
@@ -101,7 +101,7 @@ Determines whether the specified object is equal to the current object.
 | other | [EventCategory](../../com.aspose.email/eventcategory) | The object to compare with the current object. |
 
 **Returns:**
-boolean - true if the specified object is equal to the current object; otherwise, false.
+boolean -  true  if the specified object is equal to the current object; otherwise,  false .
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -123,7 +123,7 @@ public static EventCategory getAnniversary()
 ```
 
 
-Anniversary
+Anniversary.
 
 **Returns:**
 [EventCategory](../../com.aspose.email/eventcategory)
@@ -133,7 +133,7 @@ public static EventCategory getBirthday()
 ```
 
 
-Birthday
+Birthday.
 
 **Returns:**
 [EventCategory](../../com.aspose.email/eventcategory)
@@ -153,7 +153,7 @@ public static EventCategory getCustom()
 ```
 
 
-Custom description
+Custom description.
 
 **Returns:**
 [EventCategory](../../com.aspose.email/eventcategory)
@@ -163,7 +163,7 @@ public final String getDescription()
 ```
 
 
-Gets description for the 'Custom' category of an event
+Gets description for the 'Custom' category of an event.
 
 **Returns:**
 java.lang.String
@@ -173,7 +173,7 @@ public final String getValue()
 ```
 
 
-Gets string representation of an event category
+Gets string representation of an event category.
 
 **Returns:**
 java.lang.String
@@ -183,7 +183,7 @@ public int hashCode()
 ```
 
 
-GetHashCode returns a hash function for this object.
+Returns a hash function for this object.
 
 **Returns:**
 int - Returns a hash function for this object.
@@ -214,11 +214,11 @@ Determines whether the specified objects are equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [EventCategory](../../com.aspose.email/eventcategory) | First object to compare |
-| b | [EventCategory](../../com.aspose.email/eventcategory) | Second object to compare |
+| a | [EventCategory](../../com.aspose.email/eventcategory) | First object to compare. |
+| b | [EventCategory](../../com.aspose.email/eventcategory) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are equal, otherwise false.
+boolean - Returns  true  if objects are equal, otherwise  false .
 ### op_Inequality(EventCategory a, EventCategory b) {#op-Inequality-com.aspose.email.EventCategory-com.aspose.email.EventCategory-}
 ```
 public static boolean op_Inequality(EventCategory a, EventCategory b)
@@ -230,11 +230,11 @@ Determines whether the specified objects are not equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [EventCategory](../../com.aspose.email/eventcategory) | First object to compare |
-| b | [EventCategory](../../com.aspose.email/eventcategory) | Second object to compare |
+| a | [EventCategory](../../com.aspose.email/eventcategory) | First object to compare. |
+| b | [EventCategory](../../com.aspose.email/eventcategory) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are not equal, otherwise false.
+boolean - Returns  true  if objects are not equal, otherwise  false .
 ### toString() {#toString--}
 ```
 public String toString()

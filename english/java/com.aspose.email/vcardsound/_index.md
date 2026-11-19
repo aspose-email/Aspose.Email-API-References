@@ -1,9 +1,9 @@
 ---
 title: VCardSound
 second_title: Aspose.Email for Java API Reference
-description: Represents a vCard sound property
+description: Represents a vCard sound property.
 type: docs
-weight: 751
+weight: 762
 url: /java/com.aspose.email/vcardsound/
 ---
 
@@ -13,29 +13,29 @@ java.lang.Object
 public final class VCardSound
 ```
 
-Represents a vCard sound property
+Represents a vCard sound property.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [VCardSound()](#VCardSound--) | Initializes a new instance of the [VCardSound](../../com.aspose.email/vcardsound) class |
+| [VCardSound()](#VCardSound--) | Initializes a new instance of the [VCardSound](../../com.aspose.email/vcardsound) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | Gets or sets a sound data ( null  if \#valueLocation.valueLocation is not  inline ) |
-| [getSoundType()](#getSoundType--) | Gets or sets a sound type |
-| [getUri()](#getUri--) | Gets or sets a uri of sound ( null  if \#valueLocation.valueLocation is  inline ) |
-| [getValueLocation()](#getValueLocation--) | Gets or sets a value location |
+| [getData()](#getData--) | Gets a sound data ( null  if  valueLocation  is not  inline ). |
+| [getSoundType()](#getSoundType--) | Gets a sound type. |
+| [getUri()](#getUri--) | Gets a uri of sound ( null  if  valueLocation  is  inline ). |
+| [getValueLocation()](#getValueLocation--) | Gets a value location. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setData(byte[] value)](#setData-byte---) | Gets or sets a sound data ( null  if \#valueLocation.valueLocation is not  inline ) |
-| [setSoundType(int value)](#setSoundType-int-) | Gets or sets a sound type |
-| [setUri(String value)](#setUri-java.lang.String-) | Gets or sets a uri of sound ( null  if \#valueLocation.valueLocation is  inline ) |
-| [setValueLocation(int value)](#setValueLocation-int-) | Gets or sets a value location |
+| [setData(byte[] value)](#setData-byte---) | Sets a sound data ( null  if  valueLocation  is not  inline ). |
+| [setSoundType(int value)](#setSoundType-int-) | Sets a sound type. |
+| [setUri(String value)](#setUri-java.lang.String-) | Sets a uri of sound ( null  if  valueLocation  is  inline ). |
+| [setValueLocation(int value)](#setValueLocation-int-) | Sets a value location. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -46,7 +46,7 @@ public VCardSound()
 ```
 
 
-Initializes a new instance of the [VCardSound](../../com.aspose.email/vcardsound) class
+Initializes a new instance of the [VCardSound](../../com.aspose.email/vcardsound) class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -79,7 +79,7 @@ public final byte[] getData()
 ```
 
 
-Gets or sets a sound data ( null  if \#valueLocation.valueLocation is not  inline )
+Gets a sound data ( null  if  valueLocation  is not  inline ).
 
 **Returns:**
 byte[]
@@ -89,7 +89,7 @@ public final int getSoundType()
 ```
 
 
-Gets or sets a sound type
+Gets a sound type.
 
 **Returns:**
 int
@@ -99,7 +99,7 @@ public final String getUri()
 ```
 
 
-Gets or sets a uri of sound ( null  if \#valueLocation.valueLocation is  inline )
+Gets a uri of sound ( null  if  valueLocation  is  inline ).
 
 **Returns:**
 java.lang.String
@@ -109,7 +109,7 @@ public final int getValueLocation()
 ```
 
 
-Gets or sets a value location
+Gets a value location.
 
 **Returns:**
 int
@@ -145,7 +145,7 @@ public final void setData(byte[] value)
 ```
 
 
-Gets or sets a sound data ( null  if \#valueLocation.valueLocation is not  inline )
+Sets a sound data ( null  if  valueLocation  is not  inline ).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +158,7 @@ public final void setSoundType(int value)
 ```
 
 
-Gets or sets a sound type
+Sets a sound type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +171,7 @@ public final void setUri(String value)
 ```
 
 
-Gets or sets a uri of sound ( null  if \#valueLocation.valueLocation is  inline )
+Sets a uri of sound ( null  if  valueLocation  is  inline ).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -184,7 +184,7 @@ public final void setValueLocation(int value)
 ```
 
 
-Gets or sets a value location
+Sets a value location.
 
 **Parameters:**
 | Parameter | Type | Description |

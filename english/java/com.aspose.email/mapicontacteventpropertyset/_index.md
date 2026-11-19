@@ -1,9 +1,9 @@
 ---
 title: MapiContactEventPropertySet
 second_title: Aspose.Email for Java API Reference
-description: Specify events associated with a contact
+description: The dates associated with a contact.
 type: docs
-weight: 439
+weight: 442
 url: /java/com.aspose.email/mapicontacteventpropertyset/
 ---
 
@@ -13,26 +13,26 @@ java.lang.Object, [com.aspose.email.MapiContactPropertySet](../../com.aspose.ema
 public final class MapiContactEventPropertySet extends MapiContactPropertySet
 ```
 
-Specify events associated with a contact
+The dates associated with a contact.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MapiContactEventPropertySet()](#MapiContactEventPropertySet--) | Initializes a new instance of the [MapiContactEventPropertySet](../../com.aspose.email/mapicontacteventpropertyset) class |
-| [MapiContactEventPropertySet(MapiPropertyCollection properties)](#MapiContactEventPropertySet-com.aspose.email.MapiPropertyCollection-) | Initializes a new instance of the [MapiContactEventPropertySet](../../com.aspose.email/mapicontacteventpropertyset) class |
+| [MapiContactEventPropertySet()](#MapiContactEventPropertySet--) | Initializes a new instance of the [MapiContactEventPropertySet](../../com.aspose.email/mapicontacteventpropertyset) class. |
+| [MapiContactEventPropertySet(MapiPropertyCollection properties)](#MapiContactEventPropertySet-com.aspose.email.MapiPropertyCollection-) | Initializes a new instance of the [MapiContactEventPropertySet](../../com.aspose.email/mapicontacteventpropertyset) class from contact properties. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBirthday()](#getBirthday--) | Specifies the birthday of the contact |
+| [getBirthday()](#getBirthday--) | Gets the birthday of the contact. |
 | [getClass()](#getClass--) |  |
-| [getWeddingAnniversary()](#getWeddingAnniversary--) | Specifies the wedding anniversary of the contact |
+| [getWeddingAnniversary()](#getWeddingAnniversary--) | Gets the wedding anniversary of the contact. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBirthday(Date value)](#setBirthday-java.util.Date-) | Specifies the birthday of the contact |
-| [setWeddingAnniversary(Date value)](#setWeddingAnniversary-java.util.Date-) | Specifies the wedding anniversary of the contact |
+| [setBirthday(Date value)](#setBirthday-java.util.Date-) | Sets the birthday of the contact. |
+| [setWeddingAnniversary(Date value)](#setWeddingAnniversary-java.util.Date-) | Sets the wedding anniversary of the contact. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -43,7 +43,7 @@ public MapiContactEventPropertySet()
 ```
 
 
-Initializes a new instance of the [MapiContactEventPropertySet](../../com.aspose.email/mapicontacteventpropertyset) class
+Initializes a new instance of the [MapiContactEventPropertySet](../../com.aspose.email/mapicontacteventpropertyset) class.
 
 ### MapiContactEventPropertySet(MapiPropertyCollection properties) {#MapiContactEventPropertySet-com.aspose.email.MapiPropertyCollection-}
 ```
@@ -51,12 +51,12 @@ public MapiContactEventPropertySet(MapiPropertyCollection properties)
 ```
 
 
-Initializes a new instance of the [MapiContactEventPropertySet](../../com.aspose.email/mapicontacteventpropertyset) class
+Initializes a new instance of the [MapiContactEventPropertySet](../../com.aspose.email/mapicontacteventpropertyset) class from contact properties.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| properties | [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) | A [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) containing contact events properties |
+| properties | [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) | The properties that contain the dates. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -79,7 +79,7 @@ public final Date getBirthday()
 ```
 
 
-Specifies the birthday of the contact
+Gets the birthday of the contact.
 
 **Returns:**
 java.util.Date
@@ -99,7 +99,7 @@ public final Date getWeddingAnniversary()
 ```
 
 
-Specifies the wedding anniversary of the contact
+Gets the wedding anniversary of the contact.
 
 **Returns:**
 java.util.Date
@@ -135,7 +135,7 @@ public final void setBirthday(Date value)
 ```
 
 
-Specifies the birthday of the contact
+Sets the birthday of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -148,7 +148,7 @@ public final void setWeddingAnniversary(Date value)
 ```
 
 
-Specifies the wedding anniversary of the contact
+Sets the wedding anniversary of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |

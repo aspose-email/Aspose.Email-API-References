@@ -3,7 +3,7 @@ title: GraphWellknownTaskListName
 second_title: Aspose.Email for Java API Reference
 description: Property indicating the list name if the given list is a well-known list.
 type: docs
-weight: 306
+weight: 309
 url: /java/com.aspose.email/graphwellknowntasklistname/
 ---
 

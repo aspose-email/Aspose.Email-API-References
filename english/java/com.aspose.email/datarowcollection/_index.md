@@ -3,7 +3,7 @@ title: DataRowCollection
 second_title: Aspose.Email for Java API Reference
 description: DataRowCollection class.
 type: docs
-weight: 142
+weight: 143
 url: /java/com.aspose.email/datarowcollection/
 ---
 

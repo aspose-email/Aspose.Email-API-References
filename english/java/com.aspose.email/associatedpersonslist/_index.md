@@ -1,7 +1,7 @@
 ---
 title: AssociatedPersonsList
 second_title: Aspose.Email for Java API Reference
-description: List of associated persons for a contact
+description: List of associated persons for a contact.
 type: docs
 weight: 63
 url: /java/com.aspose.email/associatedpersonslist/
@@ -16,7 +16,7 @@ com.aspose.ms.System.Collections.Generic.IGenericList
 public class AssociatedPersonsList implements System.Collections.Generic.IGenericList<AssociatedPerson>
 ```
 
-List of associated persons for a contact
+List of associated persons for a contact.
 ## Constructors
 
 | Constructor | Description |
@@ -34,52 +34,52 @@ List of associated persons for a contact
 | [copyTo(AssociatedPerson[] array, int index)](#copyTo-com.aspose.email.AssociatedPerson---int-) | Copies the elements to an array, starting at a particular array index. |
 | [copyToTArray(AssociatedPerson[] array, int index)](#copyToTArray-com.aspose.email.AssociatedPerson---int-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAssistant()](#getAssistant--) | Default assistant |
-| [getBrother()](#getBrother--) | Brother |
-| [getChild()](#getChild--) | Child |
+| [getAssistant()](#getAssistant--) | Default assistant. |
+| [getBrother()](#getBrother--) | Brother. |
+| [getChild()](#getChild--) | Child. |
 | [getClass()](#getClass--) |  |
-| [getDomesticPartner()](#getDomesticPartner--) | Default domestic partner |
-| [getFather()](#getFather--) | Father |
-| [getFriend()](#getFriend--) | Default friend |
-| [getManager()](#getManager--) | Default manager |
-| [getMother()](#getMother--) | Mother |
-| [getParent()](#getParent--) | Parent |
-| [getPartner()](#getPartner--) | Default partner |
-| [getReferredBy()](#getReferredBy--) | Default referred by |
-| [getRelative()](#getRelative--) | Relative |
-| [getSister()](#getSister--) | Sister |
-| [getSpouse()](#getSpouse--) | Spouse |
-| [getSyncRoot()](#getSyncRoot--) | Gets an object that can be used to synchronize access to the ICollection. |
-| [get_Item(int index)](#get-Item-int-) | Gets or sets the element at the specified index. |
+| [getDomesticPartner()](#getDomesticPartner--) | Default domestic partner. |
+| [getFather()](#getFather--) | Father. |
+| [getFriend()](#getFriend--) | Default friend. |
+| [getManager()](#getManager--) | Default manager. |
+| [getMother()](#getMother--) | Mother. |
+| [getParent()](#getParent--) | Parent. |
+| [getPartner()](#getPartner--) | Default partner. |
+| [getReferredBy()](#getReferredBy--) | Default referred by. |
+| [getRelative()](#getRelative--) | Relative. |
+| [getSister()](#getSister--) | Sister. |
+| [getSpouse()](#getSpouse--) | Spouse. |
+| [getSyncRoot()](#getSyncRoot--) | Gets an object that can be used to synchronize access to the collection. |
+| [get_Item(int index)](#get-Item-int-) | Gets the element at the specified index. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(AssociatedPerson value)](#indexOf-com.aspose.email.AssociatedPerson-) | Determines the index of a specific item in the list. |
 | [indexOfItem(AssociatedPerson value)](#indexOfItem-com.aspose.email.AssociatedPerson-) |  |
 | [insert(int index, AssociatedPerson value)](#insert-int-com.aspose.email.AssociatedPerson-) | Inserts an item to the list at the specified index. |
 | [insertItem(int index, AssociatedPerson value)](#insertItem-int-com.aspose.email.AssociatedPerson-) |  |
 | [isReadOnly()](#isReadOnly--) | Gets a value indicating whether the list is read-only. |
-| [isSynchronized()](#isSynchronized--) | Gets a value indicating whether access to the ICollection is synchronized (thread safe). |
+| [isSynchronized()](#isSynchronized--) | Gets a value indicating whether access to the collection is synchronized (thread safe). |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through a collection. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [remove(AssociatedPerson value)](#remove-com.aspose.email.AssociatedPerson-) | Removes the first occurrence of a specific object from the list. |
 | [removeAt(int index)](#removeAt-int-) | Removes the list item at the specified index. |
 | [removeItem(AssociatedPerson value)](#removeItem-com.aspose.email.AssociatedPerson-) |  |
-| [setAssistant(String value)](#setAssistant-java.lang.String-) | Default assistant |
-| [setBrother(String value)](#setBrother-java.lang.String-) | Brother |
-| [setChild(String value)](#setChild-java.lang.String-) | Child |
-| [setDomesticPartner(String value)](#setDomesticPartner-java.lang.String-) | Default domestic partner |
-| [setFather(String value)](#setFather-java.lang.String-) | Father |
-| [setFriend(String value)](#setFriend-java.lang.String-) | Default friend |
-| [setManager(String value)](#setManager-java.lang.String-) | Default manager |
-| [setMother(String value)](#setMother-java.lang.String-) | Mother |
-| [setParent(String value)](#setParent-java.lang.String-) | Parent |
-| [setPartner(String value)](#setPartner-java.lang.String-) | Default partner |
-| [setReferredBy(String value)](#setReferredBy-java.lang.String-) | Default referred by |
-| [setRelative(String value)](#setRelative-java.lang.String-) | Relative |
-| [setSister(String value)](#setSister-java.lang.String-) | Sister |
-| [setSpouse(String value)](#setSpouse-java.lang.String-) | Spouse |
-| [set_Item(int index, AssociatedPerson value)](#set-Item-int-com.aspose.email.AssociatedPerson-) | Gets or sets the element at the specified index. |
-| [size()](#size--) | Gets the number of elements contained in the ICollection. |
+| [setAssistant(String value)](#setAssistant-java.lang.String-) | Default assistant. |
+| [setBrother(String value)](#setBrother-java.lang.String-) | Brother. |
+| [setChild(String value)](#setChild-java.lang.String-) | Child. |
+| [setDomesticPartner(String value)](#setDomesticPartner-java.lang.String-) | Default domestic partner. |
+| [setFather(String value)](#setFather-java.lang.String-) | Father. |
+| [setFriend(String value)](#setFriend-java.lang.String-) | Default friend. |
+| [setManager(String value)](#setManager-java.lang.String-) | Default manager. |
+| [setMother(String value)](#setMother-java.lang.String-) | Mother. |
+| [setParent(String value)](#setParent-java.lang.String-) | Parent. |
+| [setPartner(String value)](#setPartner-java.lang.String-) | Default partner. |
+| [setReferredBy(String value)](#setReferredBy-java.lang.String-) | Default referred by. |
+| [setRelative(String value)](#setRelative-java.lang.String-) | Relative. |
+| [setSister(String value)](#setSister-java.lang.String-) | Sister. |
+| [setSpouse(String value)](#setSpouse-java.lang.String-) | Spouse. |
+| [set_Item(int index, AssociatedPerson value)](#set-Item-int-com.aspose.email.AssociatedPerson-) | Sets the element at the specified index. |
+| [size()](#size--) | Gets the number of elements contained in the collection. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -101,7 +101,7 @@ Adds an item to the list.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [AssociatedPerson](../../com.aspose.email/associatedperson) | The Object to add to the list. |
+| value | [AssociatedPerson](../../com.aspose.email/associatedperson) | The object to add to the list. |
 
 ### addItem(AssociatedPerson value) {#addItem-com.aspose.email.AssociatedPerson-}
 ```
@@ -138,7 +138,7 @@ Determines whether the list contains a specific value.
 | value | [AssociatedPerson](../../com.aspose.email/associatedperson) | The object to locate in the list. |
 
 **Returns:**
-boolean - true if the object is found in the list; otherwise, false.
+boolean -  true  if the object is found in the list; otherwise,  false .
 ### containsItem(AssociatedPerson value) {#containsItem-com.aspose.email.AssociatedPerson-}
 ```
 public boolean containsItem(AssociatedPerson value)
@@ -165,8 +165,8 @@ Copies the elements to an array, starting at a particular array index.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | [AssociatedPerson\[\]](../../com.aspose.email/associatedperson) | The one-dimensional array that is the destination of the elements copied from collections. The array must have zero-based indexing. |
-| index | int | The zero-based index in array at which copying begins. |
+| array | [AssociatedPerson\[\]](../../com.aspose.email/associatedperson) | The one-dimensional array that is the destination of the elements copied from the collection. The array must have zero-based indexing. |
+| index | int | The zero-based index in  array  at which copying begins. |
 
 ### copyToTArray(AssociatedPerson[] array, int index) {#copyToTArray-com.aspose.email.AssociatedPerson---int-}
 ```
@@ -203,7 +203,7 @@ public final String getAssistant()
 ```
 
 
-Default assistant
+Default assistant.
 
 **Returns:**
 java.lang.String
@@ -213,7 +213,7 @@ public final String getBrother()
 ```
 
 
-Brother
+Brother.
 
 **Returns:**
 java.lang.String
@@ -223,7 +223,7 @@ public final String getChild()
 ```
 
 
-Child
+Child.
 
 **Returns:**
 java.lang.String
@@ -243,7 +243,7 @@ public final String getDomesticPartner()
 ```
 
 
-Default domestic partner
+Default domestic partner.
 
 **Returns:**
 java.lang.String
@@ -253,7 +253,7 @@ public final String getFather()
 ```
 
 
-Father
+Father.
 
 **Returns:**
 java.lang.String
@@ -263,7 +263,7 @@ public final String getFriend()
 ```
 
 
-Default friend
+Default friend.
 
 **Returns:**
 java.lang.String
@@ -273,7 +273,7 @@ public final String getManager()
 ```
 
 
-Default manager
+Default manager.
 
 **Returns:**
 java.lang.String
@@ -283,7 +283,7 @@ public final String getMother()
 ```
 
 
-Mother
+Mother.
 
 **Returns:**
 java.lang.String
@@ -293,7 +293,7 @@ public final String getParent()
 ```
 
 
-Parent
+Parent.
 
 **Returns:**
 java.lang.String
@@ -303,7 +303,7 @@ public final String getPartner()
 ```
 
 
-Default partner
+Default partner.
 
 **Returns:**
 java.lang.String
@@ -313,7 +313,7 @@ public final String getReferredBy()
 ```
 
 
-Default referred by
+Default referred by.
 
 **Returns:**
 java.lang.String
@@ -323,7 +323,7 @@ public final String getRelative()
 ```
 
 
-Relative
+Relative.
 
 **Returns:**
 java.lang.String
@@ -333,7 +333,7 @@ public final String getSister()
 ```
 
 
-Sister
+Sister.
 
 **Returns:**
 java.lang.String
@@ -343,7 +343,7 @@ public final String getSpouse()
 ```
 
 
-Spouse
+Spouse.
 
 **Returns:**
 java.lang.String
@@ -353,22 +353,22 @@ public final Object getSyncRoot()
 ```
 
 
-Gets an object that can be used to synchronize access to the ICollection.
+Gets an object that can be used to synchronize access to the collection.
 
 **Returns:**
-java.lang.Object - An object that can be used to synchronize access to the ICollection.
+java.lang.Object - An object that can be used to synchronize access to the collection.
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final AssociatedPerson get_Item(int index)
 ```
 
 
-Gets or sets the element at the specified index.
+Gets the element at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the element to get or set. |
+| index | int | The zero-based index of the element to get. |
 
 **Returns:**
 [AssociatedPerson](../../com.aspose.email/associatedperson) - The element at the specified index.
@@ -393,7 +393,7 @@ Determines the index of a specific item in the list.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [AssociatedPerson](../../com.aspose.email/associatedperson) | The Object to locate in the list. |
+| value | [AssociatedPerson](../../com.aspose.email/associatedperson) | The object to locate in the list. |
 
 **Returns:**
 int - The index of  value  if found in the list; otherwise, -1.
@@ -424,7 +424,7 @@ Inserts an item to the list at the specified index.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which  value  should be inserted. |
-| value | [AssociatedPerson](../../com.aspose.email/associatedperson) | The Object to insert into the list. |
+| value | [AssociatedPerson](../../com.aspose.email/associatedperson) | The object to insert into the list. |
 
 ### insertItem(int index, AssociatedPerson value) {#insertItem-int-com.aspose.email.AssociatedPerson-}
 ```
@@ -449,17 +449,17 @@ public final boolean isReadOnly()
 Gets a value indicating whether the list is read-only.
 
 **Returns:**
-boolean - true if the list is read-only; otherwise, false.
+boolean -  true  if the list is read-only; otherwise,  false .
 ### isSynchronized() {#isSynchronized--}
 ```
 public final boolean isSynchronized()
 ```
 
 
-Gets a value indicating whether access to the ICollection is synchronized (thread safe).
+Gets a value indicating whether access to the collection is synchronized (thread safe).
 
 **Returns:**
-boolean - true if access to the ICollection is synchronized (thread safe); otherwise, false.
+boolean -  true  if access to the collection is synchronized (thread safe); otherwise,  false .
 ### iterator() {#iterator--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<AssociatedPerson> iterator()
@@ -469,7 +469,7 @@ public final System.Collections.Generic.IGenericEnumerator<AssociatedPerson> ite
 Returns an enumerator that iterates through a collection.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.email.AssociatedPerson> - An IEnumerator object that can be used to iterate through the collection.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.email.AssociatedPerson> - An enumerator that can be used to iterate through the collection.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -497,7 +497,7 @@ Removes the first occurrence of a specific object from the list.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [AssociatedPerson](../../com.aspose.email/associatedperson) | The Object to remove from the list. |
+| value | [AssociatedPerson](../../com.aspose.email/associatedperson) | The object to remove from the list. |
 
 **Returns:**
 boolean
@@ -535,7 +535,7 @@ public final void setAssistant(String value)
 ```
 
 
-Default assistant
+Default assistant.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -548,7 +548,7 @@ public final void setBrother(String value)
 ```
 
 
-Brother
+Brother.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -561,7 +561,7 @@ public final void setChild(String value)
 ```
 
 
-Child
+Child.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -574,7 +574,7 @@ public final void setDomesticPartner(String value)
 ```
 
 
-Default domestic partner
+Default domestic partner.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -587,7 +587,7 @@ public final void setFather(String value)
 ```
 
 
-Father
+Father.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -600,7 +600,7 @@ public final void setFriend(String value)
 ```
 
 
-Default friend
+Default friend.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -613,7 +613,7 @@ public final void setManager(String value)
 ```
 
 
-Default manager
+Default manager.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -626,7 +626,7 @@ public final void setMother(String value)
 ```
 
 
-Mother
+Mother.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -639,7 +639,7 @@ public final void setParent(String value)
 ```
 
 
-Parent
+Parent.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -652,7 +652,7 @@ public final void setPartner(String value)
 ```
 
 
-Default partner
+Default partner.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -665,7 +665,7 @@ public final void setReferredBy(String value)
 ```
 
 
-Default referred by
+Default referred by.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -678,7 +678,7 @@ public final void setRelative(String value)
 ```
 
 
-Relative
+Relative.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -691,7 +691,7 @@ public final void setSister(String value)
 ```
 
 
-Sister
+Sister.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -704,7 +704,7 @@ public final void setSpouse(String value)
 ```
 
 
-Spouse
+Spouse.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -717,12 +717,12 @@ public final void set_Item(int index, AssociatedPerson value)
 ```
 
 
-Gets or sets the element at the specified index.
+Sets the element at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the element to get or set. |
+| index | int | The zero-based index of the element to set. |
 | value | [AssociatedPerson](../../com.aspose.email/associatedperson) | The element at the specified index. |
 
 ### size() {#size--}
@@ -731,10 +731,10 @@ public final int size()
 ```
 
 
-Gets the number of elements contained in the ICollection.
+Gets the number of elements contained in the collection.
 
 **Returns:**
-int - The number of elements contained in the ICollection.
+int - The number of elements contained in the collection.
 ### toString() {#toString--}
 ```
 public String toString()

@@ -1,9 +1,9 @@
 ---
 title: VCardExplanatoryInfo
 second_title: Aspose.Email for Java API Reference
-description: Represents vCard explanatory properties
+description: Represents vCard explanatory properties.
 type: docs
-weight: 739
+weight: 749
 url: /java/com.aspose.email/vcardexplanatoryinfo/
 ---
 
@@ -13,40 +13,40 @@ java.lang.Object
 public final class VCardExplanatoryInfo
 ```
 
-Represents vCard explanatory properties
+Represents vCard explanatory properties.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [VCardExplanatoryInfo()](#VCardExplanatoryInfo--) | Initializes a new instance of the [VCardExplanatoryInfo](../../com.aspose.email/vcardexplanatoryinfo) class |
+| [VCardExplanatoryInfo()](#VCardExplanatoryInfo--) | Initializes a new instance of the [VCardExplanatoryInfo](../../com.aspose.email/vcardexplanatoryinfo) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCategories()](#getCategories--) | Gets or sets a categories information |
+| [getCategories()](#getCategories--) | Gets a categories information. |
 | [getClass()](#getClass--) |  |
-| [getFbUrl()](#getFbUrl--) | Gets or sets URI for the busy time associated with the object that the vCard represents. |
-| [getNote()](#getNote--) | Gets or sets a comments |
-| [getProdId()](#getProdId--) | Gets or sets an id of product that created a vCard |
-| [getRevision()](#getRevision--) | Gets or sets a revision time |
-| [getSortString()](#getSortString--) | Gets or sets a sort string |
-| [getSound()](#getSound--) | Gets or sets a sound |
-| [getUid()](#getUid--) | Gets or sets a unique identifier |
-| [getUrls()](#getUrls--) | Gets or sets a urls |
-| [getVersion()](#getVersion--) | Gets a vCard version |
+| [getFbUrl()](#getFbUrl--) | Gets URI for the busy time associated with the object that the vCard represents. |
+| [getNote()](#getNote--) | Gets a comments. |
+| [getProdId()](#getProdId--) | Gets an id of product that created a vCard. |
+| [getRevision()](#getRevision--) | Gets a revision time. |
+| [getSortString()](#getSortString--) | Gets a sort string. |
+| [getSound()](#getSound--) | Gets a sound. |
+| [getUid()](#getUid--) | Gets a unique identifier. |
+| [getUrls()](#getUrls--) | Gets a urls. |
+| [getVersion()](#getVersion--) | Gets a vCard version. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCategories(System.Collections.Specialized.StringCollection value)](#setCategories-com.aspose.ms.System.Collections.Specialized.StringCollection-) | Gets or sets a categories information |
-| [setFbUrl(String value)](#setFbUrl-java.lang.String-) | Gets or sets URI for the busy time associated with the object that the vCard represents. |
-| [setNote(String value)](#setNote-java.lang.String-) | Gets or sets a comments |
-| [setProdId(String value)](#setProdId-java.lang.String-) | Gets or sets an id of product that created a vCard |
-| [setRevision(Date value)](#setRevision-java.util.Date-) | Gets or sets a revision time |
-| [setSortString(String value)](#setSortString-java.lang.String-) | Gets or sets a sort string |
-| [setSound(VCardSound value)](#setSound-com.aspose.email.VCardSound-) | Gets or sets a sound |
-| [setUid(String value)](#setUid-java.lang.String-) | Gets or sets a unique identifier |
-| [setUrls(VCardUrlCollection value)](#setUrls-com.aspose.email.VCardUrlCollection-) | Gets or sets a urls |
+| [setCategories(System.Collections.Specialized.StringCollection value)](#setCategories-com.aspose.ms.System.Collections.Specialized.StringCollection-) | Sets a categories information. |
+| [setFbUrl(String value)](#setFbUrl-java.lang.String-) | Sets URI for the busy time associated with the object that the vCard represents. |
+| [setNote(String value)](#setNote-java.lang.String-) | Sets a comments. |
+| [setProdId(String value)](#setProdId-java.lang.String-) | Sets an id of product that created a vCard. |
+| [setRevision(Date value)](#setRevision-java.util.Date-) | Sets a revision time. |
+| [setSortString(String value)](#setSortString-java.lang.String-) | Sets a sort string. |
+| [setSound(VCardSound value)](#setSound-com.aspose.email.VCardSound-) | Sets a sound. |
+| [setUid(String value)](#setUid-java.lang.String-) | Sets a unique identifier. |
+| [setUrls(VCardUrlCollection value)](#setUrls-com.aspose.email.VCardUrlCollection-) | Sets a urls. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -57,7 +57,7 @@ public VCardExplanatoryInfo()
 ```
 
 
-Initializes a new instance of the [VCardExplanatoryInfo](../../com.aspose.email/vcardexplanatoryinfo) class
+Initializes a new instance of the [VCardExplanatoryInfo](../../com.aspose.email/vcardexplanatoryinfo) class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -80,7 +80,7 @@ public final System.Collections.Specialized.StringCollection getCategories()
 ```
 
 
-Gets or sets a categories information
+Gets a categories information.
 
 **Returns:**
 com.aspose.ms.System.Collections.Specialized.StringCollection
@@ -100,7 +100,7 @@ public final String getFbUrl()
 ```
 
 
-Gets or sets URI for the busy time associated with the object that the vCard represents.
+Gets URI for the busy time associated with the object that the vCard represents.
 
 **Returns:**
 java.lang.String
@@ -110,7 +110,7 @@ public final String getNote()
 ```
 
 
-Gets or sets a comments
+Gets a comments.
 
 **Returns:**
 java.lang.String
@@ -120,7 +120,7 @@ public final String getProdId()
 ```
 
 
-Gets or sets an id of product that created a vCard
+Gets an id of product that created a vCard.
 
 **Returns:**
 java.lang.String
@@ -130,7 +130,7 @@ public final Date getRevision()
 ```
 
 
-Gets or sets a revision time
+Gets a revision time.
 
 **Returns:**
 java.util.Date
@@ -140,7 +140,7 @@ public final String getSortString()
 ```
 
 
-Gets or sets a sort string
+Gets a sort string.
 
 **Returns:**
 java.lang.String
@@ -150,7 +150,7 @@ public final VCardSound getSound()
 ```
 
 
-Gets or sets a sound
+Gets a sound.
 
 **Returns:**
 [VCardSound](../../com.aspose.email/vcardsound)
@@ -160,7 +160,7 @@ public final String getUid()
 ```
 
 
-Gets or sets a unique identifier
+Gets a unique identifier.
 
 **Returns:**
 java.lang.String
@@ -170,7 +170,7 @@ public final VCardUrlCollection getUrls()
 ```
 
 
-Gets or sets a urls
+Gets a urls.
 
 **Returns:**
 [VCardUrlCollection](../../com.aspose.email/vcardurlcollection)
@@ -180,7 +180,7 @@ public final String getVersion()
 ```
 
 
-Gets a vCard version
+Gets a vCard version.
 
 **Returns:**
 java.lang.String
@@ -216,7 +216,7 @@ public final void setCategories(System.Collections.Specialized.StringCollection 
 ```
 
 
-Gets or sets a categories information
+Sets a categories information.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -229,7 +229,7 @@ public final void setFbUrl(String value)
 ```
 
 
-Gets or sets URI for the busy time associated with the object that the vCard represents.
+Sets URI for the busy time associated with the object that the vCard represents.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -242,7 +242,7 @@ public final void setNote(String value)
 ```
 
 
-Gets or sets a comments
+Sets a comments.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -255,7 +255,7 @@ public final void setProdId(String value)
 ```
 
 
-Gets or sets an id of product that created a vCard
+Sets an id of product that created a vCard.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -268,7 +268,7 @@ public final void setRevision(Date value)
 ```
 
 
-Gets or sets a revision time
+Sets a revision time.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -281,7 +281,7 @@ public final void setSortString(String value)
 ```
 
 
-Gets or sets a sort string
+Sets a sort string.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -294,7 +294,7 @@ public final void setSound(VCardSound value)
 ```
 
 
-Gets or sets a sound
+Sets a sound.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -307,7 +307,7 @@ public final void setUid(String value)
 ```
 
 
-Gets or sets a unique identifier
+Sets a unique identifier.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -320,7 +320,7 @@ public final void setUrls(VCardUrlCollection value)
 ```
 
 
-Gets or sets a urls
+Sets a urls.
 
 **Parameters:**
 | Parameter | Type | Description |

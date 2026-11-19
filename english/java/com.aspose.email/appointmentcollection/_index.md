@@ -1,7 +1,7 @@
 ---
 title: AppointmentCollection
 second_title: Aspose.Email for Java API Reference
-description: Represents a collection of Appointment objects.
+description: A list of  objects.
 type: docs
 weight: 36
 url: /java/com.aspose.email/appointmentcollection/
@@ -13,13 +13,13 @@ java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 public class AppointmentCollection extends System.Collections.ObjectModel.Collection<Appointment>
 ```
 
-Represents a collection of Appointment objects.
+A list of [Appointment](../../com.aspose.email/appointment) objects.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [AppointmentCollection()](#AppointmentCollection--) | Initializes a new instance of the AppointmentCollection class that is empty. |
-| [AppointmentCollection(Iterable<Appointment> appointments)](#AppointmentCollection-java.lang.Iterable-com.aspose.email.Appointment--) | Initializes a new instance of the AppointmentCollection class |
+| [AppointmentCollection()](#AppointmentCollection--) | Initializes a new, empty instance of the [AppointmentCollection](../../com.aspose.email/appointmentcollection) class. |
+| [AppointmentCollection(Iterable<Appointment> appointments)](#AppointmentCollection-java.lang.Iterable-com.aspose.email.Appointment--) | Initializes a new instance of the [AppointmentCollection](../../com.aspose.email/appointmentcollection) class that contains the specified appointments. |
 ## Methods
 
 | Method | Description |
@@ -47,8 +47,8 @@ Represents a collection of Appointment objects.
 | [size()](#size--) |  |
 | [toString()](#toString--) |  |
 | [to_(AppointmentCollection appointments)](#to--com.aspose.email.AppointmentCollection-) | Converts collection of appointments to array |
-| [to_AppointmentCollection(Appointment[] appointments)](#to-AppointmentCollection-com.aspose.email.Appointment---) | Converts array of appointments to collection |
-| [to_AppointmentCollection(System.Collections.Generic.List<Appointment> appointments)](#to-AppointmentCollection-com.aspose.ms.System.Collections.Generic.List-com.aspose.email.Appointment--) | Converts list of appointments to collection |
+| [to_AppointmentCollection(Appointment[] appointments)](#to-AppointmentCollection-com.aspose.email.Appointment---) | Converts array of appointments to collection. |
+| [to_AppointmentCollection(Iterable<Appointment> appointments)](#to-AppointmentCollection-java.lang.Iterable-com.aspose.email.Appointment--) | Converts list of appointments to collection |
 | [to_List(AppointmentCollection appointments)](#to-List-com.aspose.email.AppointmentCollection-) | Converts collection of appointments to list |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -59,7 +59,7 @@ public AppointmentCollection()
 ```
 
 
-Initializes a new instance of the AppointmentCollection class that is empty.
+Initializes a new, empty instance of the [AppointmentCollection](../../com.aspose.email/appointmentcollection) class.
 
 ### AppointmentCollection(Iterable<Appointment> appointments) {#AppointmentCollection-java.lang.Iterable-com.aspose.email.Appointment--}
 ```
@@ -67,12 +67,12 @@ public AppointmentCollection(Iterable<Appointment> appointments)
 ```
 
 
-Initializes a new instance of the AppointmentCollection class
+Initializes a new instance of the [AppointmentCollection](../../com.aspose.email/appointmentcollection) class that contains the specified appointments.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| appointments | java.lang.Iterable<com.aspose.email.Appointment> | initial value |
+| appointments | java.lang.Iterable<com.aspose.email.Appointment> | The appointments to copy into the collection. |
 
 ### addItem(T arg0) {#addItem-T-}
 ```
@@ -352,18 +352,18 @@ public static AppointmentCollection to_AppointmentCollection(Appointment[] appoi
 ```
 
 
-Converts array of appointments to collection
+Converts array of appointments to collection.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| appointments | [Appointment\[\]](../../com.aspose.email/appointment) | Array of appointments to convert |
+| appointments | [Appointment\[\]](../../com.aspose.email/appointment) | Array of appointments to convert. |
 
 **Returns:**
-[AppointmentCollection](../../com.aspose.email/appointmentcollection) - Collection of appointments
-### to_AppointmentCollection(System.Collections.Generic.List<Appointment> appointments) {#to-AppointmentCollection-com.aspose.ms.System.Collections.Generic.List-com.aspose.email.Appointment--}
+[AppointmentCollection](../../com.aspose.email/appointmentcollection) - Collection of appointments.
+### to_AppointmentCollection(Iterable<Appointment> appointments) {#to-AppointmentCollection-java.lang.Iterable-com.aspose.email.Appointment--}
 ```
-public static AppointmentCollection to_AppointmentCollection(System.Collections.Generic.List<Appointment> appointments)
+public static AppointmentCollection to_AppointmentCollection(Iterable<Appointment> appointments)
 ```
 
 
@@ -372,7 +372,7 @@ Converts list of appointments to collection
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| appointments | com.aspose.ms.System.Collections.Generic.List<com.aspose.email.Appointment> | List of appointments to convert |
+| appointments | java.lang.Iterable<com.aspose.email.Appointment> | List of appointments to convert |
 
 **Returns:**
 [AppointmentCollection](../../com.aspose.email/appointmentcollection) - Collection of appointments

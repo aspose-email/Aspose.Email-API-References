@@ -3,7 +3,7 @@ title: ImapMailboxInfo
 second_title: Aspose.Email for Java API Reference
 description: Contains set of special-use mailboxes
 type: docs
-weight: 331
+weight: 334
 url: /java/com.aspose.email/imapmailboxinfo/
 ---
 

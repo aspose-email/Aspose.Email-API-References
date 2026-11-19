@@ -1,9 +1,9 @@
 ---
 title: MSIntendedStatus
 second_title: Aspose.Email for Java API Reference
-description: Specifies the INTENDED status of an appointment.
+description: Defines how the organizer wants attendees to show the time of a meeting as used by Microsoft Outlook and Exchange the X-MICROSOFT-CDO-INTENDEDSTATUS property.
 type: docs
-weight: 381
+weight: 384
 url: /java/com.aspose.email/msintendedstatus/
 ---
 
@@ -13,18 +13,18 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MSIntendedStatus extends System.Enum
 ```
 
-Specifies the INTENDED status of an appointment.
+Defines how the organizer wants attendees to show the time of a meeting, as used by Microsoft Outlook and Exchange (the X-MICROSOFT-CDO-INTENDEDSTATUS property).
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Busy](#Busy) | Busy |
+| [Busy](#Busy) | The time is shown as busy. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Free](#Free) | Free |
-| [NotDefined](#NotDefined) | Property is not set |
-| [Oof](#Oof) | Out of office |
-| [Tentative](#Tentative) | Tentative |
-| [WorkingElsewhere](#WorkingElsewhere) | Working in a location away from the office |
+| [Free](#Free) | The time is shown as free. |
+| [NotDefined](#NotDefined) | The status is not set. |
+| [Oof](#Oof) | The time is shown as out of office. |
+| [Tentative](#Tentative) | The time is shown as tentative. |
+| [WorkingElsewhere](#WorkingElsewhere) | The time is shown as working elsewhere. |
 ## Methods
 
 | Method | Description |
@@ -70,7 +70,7 @@ public static final int Busy
 ```
 
 
-Busy
+The time is shown as busy.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -84,7 +84,7 @@ public static final int Free
 ```
 
 
-Free
+The time is shown as free.
 
 ### NotDefined {#NotDefined}
 ```
@@ -92,7 +92,7 @@ public static final int NotDefined
 ```
 
 
-Property is not set
+The status is not set.
 
 ### Oof {#Oof}
 ```
@@ -100,7 +100,7 @@ public static final int Oof
 ```
 
 
-Out of office
+The time is shown as out of office.
 
 ### Tentative {#Tentative}
 ```
@@ -108,7 +108,7 @@ public static final int Tentative
 ```
 
 
-Tentative
+The time is shown as tentative.
 
 ### WorkingElsewhere {#WorkingElsewhere}
 ```
@@ -116,7 +116,7 @@ public static final int WorkingElsewhere
 ```
 
 
-Working in a location away from the office
+The time is shown as working elsewhere.
 
 ### Clone() {#Clone--}
 ```

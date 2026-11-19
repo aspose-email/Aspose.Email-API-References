@@ -3,7 +3,7 @@ title: ValidationResult
 second_title: Aspose.Email for Java API Reference
 description: Present the result of the email validating process.
 type: docs
-weight: 763
+weight: 774
 url: /java/com.aspose.email/validationresult/
 ---
 
@@ -18,23 +18,23 @@ Present the result of the email validating process.
 
 | Constructor | Description |
 | --- | --- |
-| [ValidationResult()](#ValidationResult--) | Create an instance of the ValidationResult class |
-| [ValidationResult(int responseCode)](#ValidationResult-int-) | Create an instance of the ValidationResult class, with the specified |
-| [ValidationResult(int responseCode, RuntimeException lastException)](#ValidationResult-int-java.lang.RuntimeException-) | Create an instance of the ValidationResult class, with the specified , and the last exception. |
+| [ValidationResult()](#ValidationResult--) | Create an instance of the ValidationResult class. |
+| [ValidationResult(int responseCode)](#ValidationResult-int-) | Create an instance of the ValidationResult class, with the specified ValidationResponseCode. |
+| [ValidationResult(int responseCode, RuntimeException lastException)](#ValidationResult-int-java.lang.RuntimeException-) | Create an instance of the ValidationResult class, with the specified ValidationResponseCode, and the last exception. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getLastException()](#getLastException--) | The last error met in the validating process. |
+| [getLastException()](#getLastException--) | Gets the last error met in the validating process. |
 | [getMessage()](#getMessage--) | Gets the detail message about the result. |
 | [getReturnCode()](#getReturnCode--) | Gets or ses the response code of the validating process. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setLastException(RuntimeException value)](#setLastException-java.lang.RuntimeException-) | The last error met in the validating process. |
-| [setReturnCode(int value)](#setReturnCode-int-) | Gets or ses the response code of the validating process. |
+| [setLastException(RuntimeException value)](#setLastException-java.lang.RuntimeException-) | Sets the last error met in the validating process. |
+| [setReturnCode(int value)](#setReturnCode-int-) | Sets or ses the response code of the validating process. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -45,7 +45,7 @@ public ValidationResult()
 ```
 
 
-Create an instance of the ValidationResult class
+Create an instance of the ValidationResult class.
 
 ### ValidationResult(int responseCode) {#ValidationResult-int-}
 ```
@@ -53,7 +53,7 @@ public ValidationResult(int responseCode)
 ```
 
 
-Create an instance of the ValidationResult class, with the specified
+Create an instance of the ValidationResult class, with the specified ValidationResponseCode.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -66,7 +66,7 @@ public ValidationResult(int responseCode, RuntimeException lastException)
 ```
 
 
-Create an instance of the ValidationResult class, with the specified , and the last exception.
+Create an instance of the ValidationResult class, with the specified ValidationResponseCode, and the last exception.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -105,7 +105,7 @@ public final RuntimeException getLastException()
 ```
 
 
-The last error met in the validating process.
+Gets the last error met in the validating process.
 
 **Returns:**
 java.lang.RuntimeException
@@ -161,7 +161,7 @@ public final void setLastException(RuntimeException value)
 ```
 
 
-The last error met in the validating process.
+Sets the last error met in the validating process.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -174,7 +174,7 @@ public final void setReturnCode(int value)
 ```
 
 
-Gets or ses the response code of the validating process.
+Sets or ses the response code of the validating process.
 
 **Parameters:**
 | Parameter | Type | Description |

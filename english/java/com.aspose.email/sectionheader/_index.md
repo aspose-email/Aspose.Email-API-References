@@ -1,9 +1,9 @@
 ---
 title: SectionHeader
 second_title: Aspose.Email for Java API Reference
-description: Represents the heading for the section
+description: Represents the heading for the section.
 type: docs
-weight: 654
+weight: 659
 url: /java/com.aspose.email/sectionheader/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public class SectionHeader
 ```
 
-Represents the heading for the section
+Represents the heading for the section.
 ## Constructors
 
 | Constructor | Description |
@@ -25,13 +25,13 @@ Represents the heading for the section
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getType()](#getType--) | Type of header. |
-| [getValue()](#getValue--) | Header's value. |
+| [getType()](#getType--) | Gets type of header. |
+| [getValue()](#getValue--) | Gets header's value. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setType(int value)](#setType-int-) | Type of header. |
-| [setValue(String value)](#setValue-java.lang.String-) | Header's value. |
+| [setType(int value)](#setType-int-) | Sets type of header. |
+| [setValue(String value)](#setValue-java.lang.String-) | Sets header's value. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -47,8 +47,8 @@ Initialaze new instans of SectionHeader.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int |  |
-| value | java.lang.String |  |
+| type | int | The type. |
+| value | java.lang.String | The value. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -81,7 +81,7 @@ public final int getType()
 ```
 
 
-Type of header.
+Gets type of header.
 
 **Returns:**
 int
@@ -91,7 +91,7 @@ public final String getValue()
 ```
 
 
-Header's value.
+Gets header's value.
 
 **Returns:**
 java.lang.String
@@ -127,7 +127,7 @@ public final void setType(int value)
 ```
 
 
-Type of header.
+Sets type of header.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -140,7 +140,7 @@ public final void setValue(String value)
 ```
 
 
-Header's value.
+Sets header's value.
 
 **Parameters:**
 | Parameter | Type | Description |

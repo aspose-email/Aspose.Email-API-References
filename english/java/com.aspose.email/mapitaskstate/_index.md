@@ -1,9 +1,9 @@
 ---
 title: MapiTaskState
 second_title: Aspose.Email for Java API Reference
-description: Indicates the assignment state of the Task object.
+description: Defines the assignment state of a task.
 type: docs
-weight: 498
+weight: 501
 url: /java/com.aspose.email/mapitaskstate/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiTaskState extends System.Enum
 ```
 
-Indicates the assignment state of the Task object.
+Defines the assignment state of a task.
 ## Constructors
 
 | Constructor | Description |
@@ -23,12 +23,12 @@ Indicates the assignment state of the Task object.
 
 | Field | Description |
 | --- | --- |
-| [AssigneesCopyOfAssignedTask](#AssigneesCopyOfAssignedTask) | The Task object is the task assignee's copy of an assigned Task object. |
-| [AssignersCopyOfAssignedTask](#AssignersCopyOfAssignedTask) | The Task object is the task assigner's copy of an assigned Task object. |
-| [AssignersCopyOfRejectedTask](#AssignersCopyOfRejectedTask) | The Task object is the task assigner's copy of a rejected Task object. |
-| [EmbeddedInTaskRejection](#EmbeddedInTaskRejection) | This Task object was created to correspond to a Task object that was embedded in a task rejection but could not be found locally. |
+| [AssigneesCopyOfAssignedTask](#AssigneesCopyOfAssignedTask) | The assignee's copy of an assigned task. |
+| [AssignersCopyOfAssignedTask](#AssignersCopyOfAssignedTask) | The assigner's copy of an assigned task. |
+| [AssignersCopyOfRejectedTask](#AssignersCopyOfRejectedTask) | The assigner's copy of a rejected task. |
+| [EmbeddedInTaskRejection](#EmbeddedInTaskRejection) | A task created for a task embedded in a rejection, when the original could not be found. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [NotAssigned](#NotAssigned) | The Task object is not assigned. |
+| [NotAssigned](#NotAssigned) | The task is not assigned. |
 ## Methods
 
 | Method | Description |
@@ -82,7 +82,7 @@ public static final int AssigneesCopyOfAssignedTask
 ```
 
 
-The Task object is the task assignee's copy of an assigned Task object.
+The assignee's copy of an assigned task.
 
 ### AssignersCopyOfAssignedTask {#AssignersCopyOfAssignedTask}
 ```
@@ -90,7 +90,7 @@ public static final int AssignersCopyOfAssignedTask
 ```
 
 
-The Task object is the task assigner's copy of an assigned Task object.
+The assigner's copy of an assigned task.
 
 ### AssignersCopyOfRejectedTask {#AssignersCopyOfRejectedTask}
 ```
@@ -98,7 +98,7 @@ public static final int AssignersCopyOfRejectedTask
 ```
 
 
-The Task object is the task assigner's copy of a rejected Task object.
+The assigner's copy of a rejected task.
 
 ### EmbeddedInTaskRejection {#EmbeddedInTaskRejection}
 ```
@@ -106,7 +106,7 @@ public static final int EmbeddedInTaskRejection
 ```
 
 
-This Task object was created to correspond to a Task object that was embedded in a task rejection but could not be found locally.
+A task created for a task embedded in a rejection, when the original could not be found.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -120,7 +120,7 @@ public static final int NotAssigned
 ```
 
 
-The Task object is not assigned.
+The task is not assigned.
 
 ### Clone() {#Clone--}
 ```

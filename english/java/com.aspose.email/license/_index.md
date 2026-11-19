@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Email for Java API Reference
 description: Provides methods to license the component.
 type: docs
-weight: 365
+weight: 368
 url: /java/com.aspose.email/license/
 ---
 
@@ -15,41 +15,14 @@ public class License
 
 Provides methods to license the component.
 
---------------------
+In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component jar file:
 
-> ```
-> In this example, an attempt will be made to find a license file named MyLicense.lic
->   in the folder that contains 
->   
->   ```
-> 
->   the component, in the folder that contains the calling assembly,
->   in the folder of the entry assembly and then in the embedded resources of the calling assembly.
->   
->   [C#]
->   
->  	License license = new License();
->  	license.SetLicense("MyLicense.lic");
->  	
->  	
->  	[Visual Basic]
->  	
->  	Dim license As license = New license
->  	License.SetLicense("MyLicense.lic")
->   
->   
-> ```
->   
->   ```
-> 
->   the component jar file:
->   
->  	License license = new License();
->  	license.setLicense("MyLicense.lic");
->   
->   
-> ```
-> ```
+```
+
+ License license = new License();
+ license.setLicense("MyLicense.lic");
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -79,41 +52,14 @@ public License()
 
 Initializes a new instance of this class.
 
---------------------
+In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component jar file:
 
-> ```
-> In this example, an attempt will be made to find a license file named MyLicense.lic
->   in the folder that contains 
->   
->   ```
-> 
->   the component, in the folder that contains the calling assembly,
->   in the folder of the entry assembly and then in the embedded resources of the calling assembly.
->   
->   [C#]
->   
->  	License license = new License();
->  	license.SetLicense("MyLicense.lic");
->  	
->  	
->  	[Visual Basic]
->  	
->  	Dim license As license = New license
->  	License.SetLicense("MyLicense.lic")
->   
->   
-> ```
->   
->   ```
-> 
->   the component jar file:
->   
->  	License license = new License();
->  	license.setLicense("MyLicense.lic");
->   
->   
-> ```
-> ```
+```
+
+ License license = new License();
+ license.setLicense("MyLicense.lic");
+ 
+```
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -177,7 +123,7 @@ Licenses the component.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| licenseFile | java.io.File | File of licenseFileInfo. |
+| licenseFile | java.io.File | File of license java.io.File. |
 
 ### setLicense(InputStream stream) {#setLicense-java.io.InputStream-}
 ```
@@ -187,41 +133,19 @@ public final void setLicense(InputStream stream)
 
 Licenses the component.
 
---------------------
+Use this method to load a license from a stream.
 
-> ```
-> ```
-> 
->  [C#]
->  License license = new License();
->  license.SetLicense(myStream);
->  [Visual Basic]
->  Dim license as License = new License
->  license.SetLicense(myStream)
->  
-> ```
->  ```
-> 
->  License license = new License();
->  license.setLicense(myStream);
->  
-> ```
-> ```
+```
+
+ License license = new License();
+ license.setLicense(myStream);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | A stream that contains the license.
-
---------------------
-
-
-
-Use this method to load a license from a stream.
-
-
-
- void setLicense(java.io.InputStream stream)  |
+| stream | java.io.InputStream | A stream that contains the license. |
 
 ### setLicense(String licenseName) {#setLicense-java.lang.String-}
 ```
@@ -231,78 +155,25 @@ public final void setLicense(String licenseName)
 
 Licenses the component.
 
---------------------
+Tries to find the license in the following locations:
 
-> ```
-> In this example, an attempt will be made to find a license file named MyLicense.lic
->   in the folder that contains 
->   
->   ```
-> 
->   the component, in the folder that contains the calling assembly,
->   in the folder of the entry assembly and then in the embedded resources of the calling assembly.
->   
->   [C#]
->   
->  	License license = new License();
->  	license.SetLicense("MyLicense.lic");
->  	
->  	
->  	[Visual Basic]
->  	
->  	Dim license As License = New License
->  	license.SetLicense("MyLicense.lic")
->   
->   
-> ```
->   
->   ```
-> 
->   the component jar file:
->   
->  	License license = new License();
->  	license.setLicense("MyLicense.lic");
->   
->   
-> ```
-> ```
+1. Explicit path.
+
+2. The folder of the component jar file.
+
+In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component jar file:
+
+```
+
+ License license = new License();
+ license.setLicense("MyLicense.lic");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| licenseName | java.lang.String | Can be a full or short file name  or name of an embedded resource . Use an empty string to switch to evaluation mode.
-
---------------------
-
-
-
-Tries to find the license in the following locations:
-
- 
-
-1. Explicit path.
-
- 
-
-2. The folder of the component assembly.
-
-3. The folder of the client's calling assembly.
-
-4. The folder of the entry assembly.
-
-5. An embedded resource in the client's calling assembly.
-
-**Note:**On the .NET Compact Framework, tries to find the license only in these locations:
-
-1. Explicit path.
-
-2. An embedded resource in the client's calling assembly.
-
- 
-
-2. The folder of the component jar file.
-
- |
+| licenseName | java.lang.String | Can be a full or short file name. Use an empty string to switch to evaluation mode. |
 
 ### toString() {#toString--}
 ```

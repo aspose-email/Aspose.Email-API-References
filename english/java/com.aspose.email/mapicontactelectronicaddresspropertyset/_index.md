@@ -1,9 +1,9 @@
 ---
 title: MapiContactElectronicAddressPropertySet
 second_title: Aspose.Email for Java API Reference
-description: Specify properties for up to three different  e-mail addresses Email1 Email2 and Email3  and three different fax addresses Primary Fax Business Fax and Home Fax
+description: The e-mail addresses Email1 Email2 Email3 and fax numbers primary business home of a contact.
 type: docs
-weight: 438
+weight: 441
 url: /java/com.aspose.email/mapicontactelectronicaddresspropertyset/
 ---
 
@@ -13,39 +13,39 @@ java.lang.Object, [com.aspose.email.MapiContactPropertySet](../../com.aspose.ema
 public final class MapiContactElectronicAddressPropertySet extends MapiContactPropertySet
 ```
 
-Specify properties for up to three different e-mail addresses (Email1, Email2, and Email3) and three different fax addresses (Primary Fax, Business Fax, and Home Fax)
+The e-mail addresses (Email1, Email2, Email3) and fax numbers (primary, business, home) of a contact.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MapiContactElectronicAddressPropertySet()](#MapiContactElectronicAddressPropertySet--) | Initializes a new instance of the [MapiContactElectronicAddressPropertySet](../../com.aspose.email/mapicontactelectronicaddresspropertyset) class |
-| [MapiContactElectronicAddressPropertySet(MapiPropertyCollection properties)](#MapiContactElectronicAddressPropertySet-com.aspose.email.MapiPropertyCollection-) | Initializes a new instance of the [MapiContactElectronicAddressPropertySet](../../com.aspose.email/mapicontactelectronicaddresspropertyset) class |
+| [MapiContactElectronicAddressPropertySet()](#MapiContactElectronicAddressPropertySet--) | Initializes a new instance of the [MapiContactElectronicAddressPropertySet](../../com.aspose.email/mapicontactelectronicaddresspropertyset) class. |
+| [MapiContactElectronicAddressPropertySet(MapiPropertyCollection properties)](#MapiContactElectronicAddressPropertySet-com.aspose.email.MapiPropertyCollection-) | Initializes a new instance of the [MapiContactElectronicAddressPropertySet](../../com.aspose.email/mapicontactelectronicaddresspropertyset) class from contact properties. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBusinessFax()](#getBusinessFax--) | Refers to the group of properties that define the business fax address for a contact. |
+| [getBusinessFax()](#getBusinessFax--) | Gets the business fax number. |
 | [getClass()](#getClass--) |  |
-| [getDefaultEmailAddress()](#getDefaultEmailAddress--) | Default value of electronic address Uses when user does not set any electronic address if UseAutocomplete property is set 'true' |
-| [getEmail1()](#getEmail1--) | Refers to the group of properties that define the first e-mail address for a contact. |
-| [getEmail2()](#getEmail2--) | Refers to the group of properties that define the second e-mail address for a contact. |
-| [getEmail3()](#getEmail3--) | Refers to the group of properties that define the third e-mail address for a contact. |
-| [getHomeFax()](#getHomeFax--) | Refers to the group of properties that define the home fax address for a contact. |
-| [getPrimaryFax()](#getPrimaryFax--) | Refers to the group of properties that define the primary fax address for a contact. |
-| [getUseAutocomplete()](#getUseAutocomplete--) | Indicates that one electronic address is completed automatically in case if user does not set any electronic address |
+| [getDefaultEmailAddress()](#getDefaultEmailAddress--) | Gets the address used as \#getEmail1().getEmail1() when the contact has no address and \#getUseAutocomplete().getUseAutocomplete() is  true . |
+| [getEmail1()](#getEmail1--) | Gets the first e-mail address. |
+| [getEmail2()](#getEmail2--) | Gets the second e-mail address. |
+| [getEmail3()](#getEmail3--) | Gets the third e-mail address. |
+| [getHomeFax()](#getHomeFax--) | Gets the home fax number. |
+| [getPrimaryFax()](#getPrimaryFax--) | Gets the primary fax number. |
+| [getUseAutocomplete()](#getUseAutocomplete--) | Gets a value indicating whether \#getDefaultEmailAddress().getDefaultEmailAddress() is used when the contact has no address. |
 | [hashCode()](#hashCode--) |  |
-| [isEmpty()](#isEmpty--) | Shows if MapiContactElectronicAddressPropertySet is empty |
+| [isEmpty()](#isEmpty--) | Gets a value indicating whether no address is set. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBusinessFax(MapiContactElectronicAddress value)](#setBusinessFax-com.aspose.email.MapiContactElectronicAddress-) | Refers to the group of properties that define the business fax address for a contact. |
-| [setDefaultEmailAddress(MapiContactElectronicAddress value)](#setDefaultEmailAddress-com.aspose.email.MapiContactElectronicAddress-) | Default value of electronic address Uses when user does not set any electronic address if UseAutocomplete property is set 'true' |
-| [setEmail1(MapiContactElectronicAddress value)](#setEmail1-com.aspose.email.MapiContactElectronicAddress-) | Refers to the group of properties that define the first e-mail address for a contact. |
-| [setEmail2(MapiContactElectronicAddress value)](#setEmail2-com.aspose.email.MapiContactElectronicAddress-) | Refers to the group of properties that define the second e-mail address for a contact. |
-| [setEmail3(MapiContactElectronicAddress value)](#setEmail3-com.aspose.email.MapiContactElectronicAddress-) | Refers to the group of properties that define the third e-mail address for a contact. |
-| [setHomeFax(MapiContactElectronicAddress value)](#setHomeFax-com.aspose.email.MapiContactElectronicAddress-) | Refers to the group of properties that define the home fax address for a contact. |
-| [setPrimaryFax(MapiContactElectronicAddress value)](#setPrimaryFax-com.aspose.email.MapiContactElectronicAddress-) | Refers to the group of properties that define the primary fax address for a contact. |
-| [setUseAutocomplete(boolean value)](#setUseAutocomplete-boolean-) | Indicates that one electronic address is completed automatically in case if user does not set any electronic address |
+| [setBusinessFax(MapiContactElectronicAddress value)](#setBusinessFax-com.aspose.email.MapiContactElectronicAddress-) | Sets the business fax number. |
+| [setDefaultEmailAddress(MapiContactElectronicAddress value)](#setDefaultEmailAddress-com.aspose.email.MapiContactElectronicAddress-) | Sets the address used as \#getEmail1().getEmail1() when the contact has no address and \#getUseAutocomplete().getUseAutocomplete() is  true . |
+| [setEmail1(MapiContactElectronicAddress value)](#setEmail1-com.aspose.email.MapiContactElectronicAddress-) | Sets the first e-mail address. |
+| [setEmail2(MapiContactElectronicAddress value)](#setEmail2-com.aspose.email.MapiContactElectronicAddress-) | Sets the second e-mail address. |
+| [setEmail3(MapiContactElectronicAddress value)](#setEmail3-com.aspose.email.MapiContactElectronicAddress-) | Sets the third e-mail address. |
+| [setHomeFax(MapiContactElectronicAddress value)](#setHomeFax-com.aspose.email.MapiContactElectronicAddress-) | Sets the home fax number. |
+| [setPrimaryFax(MapiContactElectronicAddress value)](#setPrimaryFax-com.aspose.email.MapiContactElectronicAddress-) | Sets the primary fax number. |
+| [setUseAutocomplete(boolean value)](#setUseAutocomplete-boolean-) | Sets a value indicating whether \#getDefaultEmailAddress().getDefaultEmailAddress() is used when the contact has no address. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -56,7 +56,7 @@ public MapiContactElectronicAddressPropertySet()
 ```
 
 
-Initializes a new instance of the [MapiContactElectronicAddressPropertySet](../../com.aspose.email/mapicontactelectronicaddresspropertyset) class
+Initializes a new instance of the [MapiContactElectronicAddressPropertySet](../../com.aspose.email/mapicontactelectronicaddresspropertyset) class.
 
 ### MapiContactElectronicAddressPropertySet(MapiPropertyCollection properties) {#MapiContactElectronicAddressPropertySet-com.aspose.email.MapiPropertyCollection-}
 ```
@@ -64,12 +64,12 @@ public MapiContactElectronicAddressPropertySet(MapiPropertyCollection properties
 ```
 
 
-Initializes a new instance of the [MapiContactElectronicAddressPropertySet](../../com.aspose.email/mapicontactelectronicaddresspropertyset) class
+Initializes a new instance of the [MapiContactElectronicAddressPropertySet](../../com.aspose.email/mapicontactelectronicaddresspropertyset) class from contact properties.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| properties | [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) | A [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) containing contact e-mail addresses properties |
+| properties | [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) | The properties that contain the addresses. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -92,7 +92,7 @@ public final MapiContactElectronicAddress getBusinessFax()
 ```
 
 
-Refers to the group of properties that define the business fax address for a contact.
+Gets the business fax number.
 
 **Returns:**
 [MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress)
@@ -112,7 +112,9 @@ public final MapiContactElectronicAddress getDefaultEmailAddress()
 ```
 
 
-Default value of electronic address Uses when user does not set any electronic address if UseAutocomplete property is set 'true'
+Gets the address used as \#getEmail1().getEmail1() when the contact has no address and \#getUseAutocomplete().getUseAutocomplete() is  true .
+
+Exchange Server needs an address to create a contact; this one is used when a contact without addresses is created through EWS.
 
 **Returns:**
 [MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress)
@@ -122,7 +124,7 @@ public final MapiContactElectronicAddress getEmail1()
 ```
 
 
-Refers to the group of properties that define the first e-mail address for a contact.
+Gets the first e-mail address.
 
 **Returns:**
 [MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress)
@@ -132,7 +134,7 @@ public final MapiContactElectronicAddress getEmail2()
 ```
 
 
-Refers to the group of properties that define the second e-mail address for a contact.
+Gets the second e-mail address.
 
 **Returns:**
 [MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress)
@@ -142,7 +144,7 @@ public final MapiContactElectronicAddress getEmail3()
 ```
 
 
-Refers to the group of properties that define the third e-mail address for a contact.
+Gets the third e-mail address.
 
 **Returns:**
 [MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress)
@@ -152,7 +154,7 @@ public final MapiContactElectronicAddress getHomeFax()
 ```
 
 
-Refers to the group of properties that define the home fax address for a contact.
+Gets the home fax number.
 
 **Returns:**
 [MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress)
@@ -162,7 +164,7 @@ public final MapiContactElectronicAddress getPrimaryFax()
 ```
 
 
-Refers to the group of properties that define the primary fax address for a contact.
+Gets the primary fax number.
 
 **Returns:**
 [MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress)
@@ -172,7 +174,7 @@ public final boolean getUseAutocomplete()
 ```
 
 
-Indicates that one electronic address is completed automatically in case if user does not set any electronic address
+Gets a value indicating whether \#getDefaultEmailAddress().getDefaultEmailAddress() is used when the contact has no address. The default is  true .
 
 **Returns:**
 boolean
@@ -192,7 +194,7 @@ public final boolean isEmpty()
 ```
 
 
-Shows if MapiContactElectronicAddressPropertySet is empty
+Gets a value indicating whether no address is set.
 
 **Returns:**
 boolean
@@ -218,7 +220,7 @@ public final void setBusinessFax(MapiContactElectronicAddress value)
 ```
 
 
-Refers to the group of properties that define the business fax address for a contact.
+Sets the business fax number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -231,7 +233,9 @@ public final void setDefaultEmailAddress(MapiContactElectronicAddress value)
 ```
 
 
-Default value of electronic address Uses when user does not set any electronic address if UseAutocomplete property is set 'true'
+Sets the address used as \#getEmail1().getEmail1() when the contact has no address and \#getUseAutocomplete().getUseAutocomplete() is  true .
+
+Exchange Server needs an address to create a contact; this one is used when a contact without addresses is created through EWS.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -244,7 +248,7 @@ public final void setEmail1(MapiContactElectronicAddress value)
 ```
 
 
-Refers to the group of properties that define the first e-mail address for a contact.
+Sets the first e-mail address.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -257,7 +261,7 @@ public final void setEmail2(MapiContactElectronicAddress value)
 ```
 
 
-Refers to the group of properties that define the second e-mail address for a contact.
+Sets the second e-mail address.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -270,7 +274,7 @@ public final void setEmail3(MapiContactElectronicAddress value)
 ```
 
 
-Refers to the group of properties that define the third e-mail address for a contact.
+Sets the third e-mail address.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -283,7 +287,7 @@ public final void setHomeFax(MapiContactElectronicAddress value)
 ```
 
 
-Refers to the group of properties that define the home fax address for a contact.
+Sets the home fax number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -296,7 +300,7 @@ public final void setPrimaryFax(MapiContactElectronicAddress value)
 ```
 
 
-Refers to the group of properties that define the primary fax address for a contact.
+Sets the primary fax number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -309,7 +313,7 @@ public final void setUseAutocomplete(boolean value)
 ```
 
 
-Indicates that one electronic address is completed automatically in case if user does not set any electronic address
+Sets a value indicating whether \#getDefaultEmailAddress().getDefaultEmailAddress() is used when the contact has no address. The default is  true .
 
 **Parameters:**
 | Parameter | Type | Description |

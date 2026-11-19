@@ -1,7 +1,7 @@
 ---
 title: AttachmentBase
 second_title: Aspose.Email for Java API Reference
-description: Base class for mail attachment.
+description: The base class of attachments alternate views and linked resources a MIME part with its content and headers.
 type: docs
 weight: 67
 url: /java/com.aspose.email/attachmentbase/
@@ -16,29 +16,30 @@ com.aspose.ms.System.IDisposable, java.io.Closeable
 public abstract class AttachmentBase implements System.IDisposable, Closeable
 ```
 
-Base class for mail attachment.
+The base class of attachments, alternate views and linked resources: a MIME part with its content and headers.
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [close()](#close--) |  |
+| [close()](#close--) | Releases the resources used by the part, including its content stream. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getContentId()](#getContentId--) | Gets or sets the content id. |
-| [getContentStream()](#getContentStream--) | Gets or sets the content stream. |
-| [getContentType()](#getContentType--) | Gets or sets the type of the content. |
-| [getHeaders()](#getHeaders--) | Gets headers collection of attachment. |
-| [getTransferEncoding()](#getTransferEncoding--) | Gets or sets the transfer encoding. |
+| [getContentId()](#getContentId--) | Gets the content ID of the part, by which HTML refers to it with a  cid:  URL. |
+| [getContentStream()](#getContentStream--) | Gets the stream that holds the content. |
+| [getContentType()](#getContentType--) | Gets the content type of the part: its media type, name and character set. |
+| [getHeaders()](#getHeaders--) | Gets the MIME headers of the part. |
+| [getTransferEncoding()](#getTransferEncoding--) | Gets how the content is encoded for transfer, such as Base64 or quoted-printable. |
+| [getUniqueId()](#getUniqueId--) | Gets an identifier of the part that stays the same while the application runs. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves the specified stream. |
-| [save(String fileName)](#save-java.lang.String-) | Saves the specified file name. |
-| [setContentId(String value)](#setContentId-java.lang.String-) | Gets or sets the content id. |
-| [setContentStream(InputStream value)](#setContentStream-java.io.InputStream-) | Gets or sets the content stream. |
-| [setContentType(ContentType value)](#setContentType-com.aspose.email.ContentType-) | Gets or sets the type of the content. |
-| [setTransferEncoding(int value)](#setTransferEncoding-int-) | Gets or sets the transfer encoding. |
+| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves the decoded content of the part to a stream. |
+| [save(String fileName)](#save-java.lang.String-) | Saves the decoded content of the part to a file. |
+| [setContentId(String value)](#setContentId-java.lang.String-) | Sets the content ID of the part, by which HTML refers to it with a  cid:  URL. |
+| [setContentStream(InputStream value)](#setContentStream-java.io.InputStream-) | Sets the stream that holds the content. |
+| [setContentType(ContentType value)](#setContentType-com.aspose.email.ContentType-) | Sets the content type of the part: its media type, name and character set. |
+| [setTransferEncoding(int value)](#setTransferEncoding-int-) | Sets how the content is encoded for transfer, such as Base64 or quoted-printable. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -49,7 +50,7 @@ public void close()
 ```
 
 
-
+Releases the resources used by the part, including its content stream.
 
 ### dispose() {#dispose--}
 ```
@@ -90,43 +91,37 @@ public final String getContentId()
 ```
 
 
-Gets or sets the content id.
-
-Value: The content id.
+Gets the content ID of the part, by which HTML refers to it with a  cid:  URL.
 
 **Returns:**
-java.lang.String
+java.lang.String - The content ID.
 ### getContentStream() {#getContentStream--}
 ```
 public final InputStream getContentStream()
 ```
 
 
-Gets or sets the content stream.
-
-Value: The content stream.
+Gets the stream that holds the content.
 
 **Returns:**
-java.io.InputStream
+java.io.InputStream - The content stream.
 ### getContentType() {#getContentType--}
 ```
 public final ContentType getContentType()
 ```
 
 
-Gets or sets the type of the content.
-
-Value: The type of the content.
+Gets the content type of the part: its media type, name and character set.
 
 **Returns:**
-[ContentType](../../com.aspose.email/contenttype)
+[ContentType](../../com.aspose.email/contenttype) - The content type.
 ### getHeaders() {#getHeaders--}
 ```
 public HeaderCollection getHeaders()
 ```
 
 
-Gets headers collection of attachment.
+Gets the MIME headers of the part.
 
 **Returns:**
 [HeaderCollection](../../com.aspose.email/headercollection)
@@ -136,12 +131,20 @@ public final int getTransferEncoding()
 ```
 
 
-Gets or sets the transfer encoding.
-
-Value: The transfer encoding.
+Gets how the content is encoded for transfer, such as Base64 or quoted-printable.
 
 **Returns:**
-int
+int - The transfer encoding.
+### getUniqueId() {#getUniqueId--}
+```
+public final String getUniqueId()
+```
+
+
+Gets an identifier of the part that stays the same while the application runs.
+
+**Returns:**
+java.lang.String
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -174,12 +177,12 @@ public void save(OutputStream stream)
 ```
 
 
-Saves the specified stream.
+Saves the decoded content of the part to a stream.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream | The stream. |
+| stream | java.io.OutputStream | The stream to write to. |
 
 ### save(String fileName) {#save-java.lang.String-}
 ```
@@ -187,12 +190,12 @@ public void save(String fileName)
 ```
 
 
-Saves the specified file name.
+Saves the decoded content of the part to a file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | Name of the file. |
+| fileName | java.lang.String | The path of the file to write. |
 
 ### setContentId(String value) {#setContentId-java.lang.String-}
 ```
@@ -200,14 +203,12 @@ public final void setContentId(String value)
 ```
 
 
-Gets or sets the content id.
-
-Value: The content id.
+Sets the content ID of the part, by which HTML refers to it with a  cid:  URL.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The content ID. |
 
 ### setContentStream(InputStream value) {#setContentStream-java.io.InputStream-}
 ```
@@ -215,14 +216,12 @@ public final void setContentStream(InputStream value)
 ```
 
 
-Gets or sets the content stream.
-
-Value: The content stream.
+Sets the stream that holds the content.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.io.InputStream |  |
+| value | java.io.InputStream | The content stream. |
 
 ### setContentType(ContentType value) {#setContentType-com.aspose.email.ContentType-}
 ```
@@ -230,14 +229,12 @@ public final void setContentType(ContentType value)
 ```
 
 
-Gets or sets the type of the content.
-
-Value: The type of the content.
+Sets the content type of the part: its media type, name and character set.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ContentType](../../com.aspose.email/contenttype) |  |
+| value | [ContentType](../../com.aspose.email/contenttype) | The content type. |
 
 ### setTransferEncoding(int value) {#setTransferEncoding-int-}
 ```
@@ -245,14 +242,12 @@ public final void setTransferEncoding(int value)
 ```
 
 
-Gets or sets the transfer encoding.
-
-Value: The transfer encoding.
+Sets how the content is encoded for transfer, such as Base64 or quoted-printable.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The transfer encoding. |
 
 ### toString() {#toString--}
 ```

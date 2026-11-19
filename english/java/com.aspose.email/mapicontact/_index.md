@@ -3,7 +3,7 @@ title: MapiContact
 second_title: Aspose.Email for Java API Reference
 description: Represents a MAPI contact item.
 type: docs
-weight: 434
+weight: 437
 url: /java/com.aspose.email/mapicontact/
 ---
 
@@ -17,11 +17,10 @@ Represents a MAPI contact item.
 
 This class serves as a wrapper for [MapiMessage](../../com.aspose.email/mapimessage) to simplify the process of handling contact information from MAPI properties. It provides a more intuitive interface for accessing and manipulating contact data within the MAPI message.
 
-Example:
+The following example demonstrates how to get MapiContact object from MapiMessage.
 
 ```
 
- // Load the MAPI message from a file
  MapiMessage msg = MapiMessage.load("contact.msg");
 
  // Check if the loaded message is a supported contact type
@@ -39,112 +38,117 @@ Example:
 
 | Constructor | Description |
 | --- | --- |
-| [MapiContact()](#MapiContact--) | Initializes a new instance of the [MapiContact](../../com.aspose.email/mapicontact) class |
-| [MapiContact(String displayName, String electonicAddress)](#MapiContact-java.lang.String-java.lang.String-) | Initializes a new instance of the [MapiContact](../../com.aspose.email/mapicontact) class. |
-| [MapiContact(String displayName, String electonicAddress, String companyName)](#MapiContact-java.lang.String-java.lang.String-java.lang.String-) | Initializes a new instance of the [MapiContact](../../com.aspose.email/mapicontact) class. |
-| [MapiContact(String displayName, String electonicAddress, String companyName, String primaryTelephoneNumber)](#MapiContact-java.lang.String-java.lang.String-java.lang.String-java.lang.String-) | Initializes a new instance of the [MapiContact](../../com.aspose.email/mapicontact) class. |
+| [MapiContact()](#MapiContact--) | Initializes a new instance of the [MapiContact](../../com.aspose.email/mapicontact) class. |
+| [MapiContact(String displayName, String electonicAddress)](#MapiContact-java.lang.String-java.lang.String-) | Initializes a new instance of the [MapiContact](../../com.aspose.email/mapicontact) class with the specified details. |
+| [MapiContact(String displayName, String electonicAddress, String companyName)](#MapiContact-java.lang.String-java.lang.String-java.lang.String-) | Initializes a new instance of the [MapiContact](../../com.aspose.email/mapicontact) class with the specified details. |
+| [MapiContact(String displayName, String electonicAddress, String companyName, String primaryTelephoneNumber)](#MapiContact-java.lang.String-java.lang.String-java.lang.String-java.lang.String-) | Initializes a new instance of the [MapiContact](../../com.aspose.email/mapicontact) class with the specified details. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [close()](#close--) |  |
+| [close()](#close--) | Releases the resources used by the item. |
 | [createMapiNode(String key)](#createMapiNode-java.lang.String-) | Creates the mapi node. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromVCard(InputStream stream)](#fromVCard-java.io.InputStream-) | Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified stream containing vCard. |
-| [fromVCard(InputStream stream, VCardLoadOptions options)](#fromVCard-java.io.InputStream-com.aspose.email.VCardLoadOptions-) | Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified stream containing vCard. |
+| [fromVCard(InputStream stream)](#fromVCard-java.io.InputStream-) | Loads a contact from a stream that contains a vCard. |
+| [fromVCard(InputStream stream, VCardLoadOptions options)](#fromVCard-java.io.InputStream-com.aspose.email.VCardLoadOptions-) | Loads a contact from a stream that contains a vCard. |
 | [fromVCard(InputStream stream, Charset encoding)](#fromVCard-java.io.InputStream-java.nio.charset.Charset-) | Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified stream containing vCard. |
-| [fromVCard(String filePath)](#fromVCard-java.lang.String-) | Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
-| [fromVCard(String filePath, VCardLoadOptions options)](#fromVCard-java.lang.String-com.aspose.email.VCardLoadOptions-) | Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
-| [fromVCard(String filePath, Charset encoding)](#fromVCard-java.lang.String-java.nio.charset.Charset-) | Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
-| [getAttachments()](#getAttachments--) | Gets the attachments in the message. |
-| [getBilling()](#getBilling--) | Contains the billing information associated with an item. |
-| [getBody()](#getBody--) | Gets the message text. |
-| [getBodyHtml()](#getBodyHtml--) | Gets the  BodyRtf (\#getBodyRtf.getBodyRtf/\#setBodyRtf(String).setBodyRtf(String)) of the message converted to HTML, if present, otherwise an empty string. |
-| [getBodyRtf()](#getBodyRtf--) | Gets or sets the RTF formatted message text. |
-| [getBodyType()](#getBodyType--) | Gets the type of the body. |
-| [getCategories()](#getCategories--) | Contains keywords or categories for the message object. |
+| [fromVCard(String filePath)](#fromVCard-java.lang.String-) | Loads a contact from a vCard file. |
+| [fromVCard(String filePath, VCardLoadOptions options)](#fromVCard-java.lang.String-com.aspose.email.VCardLoadOptions-) | Loads a contact from a vCard file. |
+| [fromVCard(String filePath, Charset encoding)](#fromVCard-java.lang.String-java.nio.charset.Charset-) | Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified vCard file. |
+| [getAttachments()](#getAttachments--) | Gets the attachments of the item. |
+| [getBilling()](#getBilling--) | Gets the billing information of the item. |
+| [getBody()](#getBody--) | Gets the plain-text body of the item. |
+| [getBodyHtml()](#getBodyHtml--) | Gets the body of the item as HTML, converted from \#getBodyRtf().getBodyRtf(); an empty string when there is no RTF body. |
+| [getBodyRtf()](#getBodyRtf--) | Gets the body of the item in RTF format. |
+| [getBodyType()](#getBodyType--) | Gets the format of the body: plain text, HTML or RTF. |
+| [getCategories()](#getCategories--) | Gets the categories of the item. |
 | [getClass()](#getClass--) |  |
-| [getCodePage()](#getCodePage--) | Gets the code page. |
-| [getCompanies()](#getCompanies--) | Contains the names of the companies that are associated with an item. |
-| [getElectronicAddresses()](#getElectronicAddresses--) | Specify properties for up to three different e-mail addresses and three different fax addresses |
-| [getEvents()](#getEvents--) | Specify events associated with a contact |
-| [getItemId()](#getItemId--) | The item id, uses with a server |
-| [getMessageClass()](#getMessageClass--) | Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. |
-| [getMileage()](#getMileage--) | Contains the mileage information that is associated with an item. |
-| [getNameInfo()](#getNameInfo--) | The properties are used to specify the name of the person represented by the contact |
-| [getNamedProperties()](#getNamedProperties--) | Gets the named properties of message. |
-| [getNamedPropertyMapping()](#getNamedPropertyMapping--) | Gets the named property mapping. |
-| [getOtherFields()](#getOtherFields--) | Specify other fields of conhtact. |
-| [getPersonalInfo()](#getPersonalInfo--) | Specify other additional contact information |
-| [getPhoto()](#getPhoto--) | Contains contact photo[MapiContactPhoto](../../com.aspose.email/mapicontactphoto). |
-| [getPhysicalAddresses()](#getPhysicalAddresses--) | Specify three physical addresses: Home Address, Work Address, and Other Address. |
-| [getProfessionalInfo()](#getProfessionalInfo--) | Properties are used to store professional details for the person represented by the contact |
-| [getProperties()](#getProperties--) | Gets the collection of properties. |
-| [getProperty(PropertyDescriptor pd)](#getProperty-com.aspose.email.PropertyDescriptor-) | Gets MAPI property by property descriptor. |
-| [getPropertyBoolean(long tag)](#getPropertyBoolean-long-) | Gets the value of the property specified by tag as Boolean type. |
-| [getPropertyBytes(long tag)](#getPropertyBytes-long-) | Gets the string value of the property specified by tag. |
-| [getPropertyDateTime(long key)](#getPropertyDateTime-long-) | Gets the value of the property specified by tag as DateTime type. |
-| [getPropertyInt32(long tag)](#getPropertyInt32-long-) | Gets the int32 value of the property specified by tag. |
-| [getPropertyLong(long tag)](#getPropertyLong-long-) | Gets the value of the property specified by tag as Long (int64) type. |
-| [getPropertyShort(long tag)](#getPropertyShort-long-) | Gets the value of the property specified by tag as Short type. |
-| [getPropertyStream()](#getPropertyStream--) | Gets the property stream. |
-| [getPropertyString(long tag)](#getPropertyString-long-) | Gets the string value of the property specified by tag. |
-| [getPropertyString(long tag, int codepage)](#getPropertyString-long-int-) | Gets the string value of the property specified by tag. |
-| [getRecipients()](#getRecipients--) | Gets the recipients of the message. |
-| [getSensitivity()](#getSensitivity--) | Gets the Sensitivity. |
-| [getSubStorages()](#getSubStorages--) | Gets the sub storages. |
-| [getSubject()](#getSubject--) | Gets or sets the subject of the message. |
-| [getSubjectPrefix()](#getSubjectPrefix--) | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
-| [getSupportedType()](#getSupportedType--) | Gets the supported item type. |
-| [getTelephones()](#getTelephones--) | Specify telephone numbers for the contact |
+| [getCodePage()](#getCodePage--) | Gets the code page of the ANSI strings of the object. |
+| [getCompanies()](#getCompanies--) | Gets the names of the companies associated with the item. |
+| [getElectronicAddresses()](#getElectronicAddresses--) | Gets the e-mail addresses (up to three) and fax numbers (up to three) of the contact. |
+| [getEvents()](#getEvents--) | Gets the dates associated with the contact: birthday and anniversary. |
+| [getItemId()](#getItemId--) | Gets the identifier of the item on the mail server, for items obtained from a server;  null  otherwise. |
+| [getMessageClass()](#getMessageClass--) | Gets the message class of the item, such as  IPM.Note  for an e-mail message. |
+| [getMileage()](#getMileage--) | Gets the mileage information of the item. |
+| [getNameInfo()](#getNameInfo--) | Gets the name of the contact: given name, surname, title and so on. |
+| [getNamedProperties()](#getNamedProperties--) | Gets the named properties of the item. |
+| [getNamedPropertyMapping()](#getNamedPropertyMapping--) | Gets the mapping between the named properties and the tags they are stored under. |
+| [getOtherFields()](#getOtherFields--) | Gets the other fields of the contact: reminder, privacy, journaling and the user-defined fields. |
+| [getPersonalInfo()](#getPersonalInfo--) | Gets the personal details of the contact, such as web pages, spouse, children, hobbies and notes. |
+| [getPhoto()](#getPhoto--) | Gets the photo of the contact. |
+| [getPhysicalAddresses()](#getPhysicalAddresses--) | Gets the postal addresses of the contact: home, work and other. |
+| [getProductId()](#getProductId--) | Gets the identifier of the product that created the contact. |
+| [getProfessionalInfo()](#getProfessionalInfo--) | Gets the professional details of the contact: company, job title, department, manager and so on. |
+| [getProperties()](#getProperties--) | Gets all properties of the object. |
+| [getProperty(PropertyDescriptor pd)](#getProperty-com.aspose.email.PropertyDescriptor-) | Gets a MAPI property of the item by its descriptor. |
+| [getPropertyBoolean(long tag)](#getPropertyBoolean-long-) | Gets the value of a property as a Boolean. |
+| [getPropertyBytes(long tag)](#getPropertyBytes-long-) | Gets the value of a property as bytes. |
+| [getPropertyDateTime(long key)](#getPropertyDateTime-long-) | Gets the value of a property as a date and time. |
+| [getPropertyInt32(long tag)](#getPropertyInt32-long-) | Gets the value of a property as a 32-bit integer. |
+| [getPropertyLong(long tag)](#getPropertyLong-long-) | Gets the value of a property as a 64-bit integer. |
+| [getPropertyShort(long tag)](#getPropertyShort-long-) | Gets the value of a property as a 16-bit integer. |
+| [getPropertyStream()](#getPropertyStream--) | Gets the property stream of the item. |
+| [getPropertyString(long tag)](#getPropertyString-long-) | Gets the value of a property as a string. |
+| [getPropertyString(long tag, int codepage)](#getPropertyString-long-int-) | Gets the value of a property as a string, decoding an ANSI string with the specified code page. |
+| [getRecipients()](#getRecipients--) | Gets the recipients of the item. |
+| [getSensitivity()](#getSensitivity--) | Gets the sensitivity of the item: normal, personal, private or confidential. |
+| [getSubStorages()](#getSubStorages--) | Gets the sub-storages of the item. |
+| [getSubject()](#getSubject--) | Gets the subject of the message. |
+| [getSubjectPrefix()](#getSubjectPrefix--) | Gets the prefix of the subject, such as  RE:  or  FW: . |
+| [getSupportedType()](#getSupportedType--) | Gets the type of the item, as determined by its message class. |
+| [getTelephones()](#getTelephones--) | Gets the telephone numbers of the contact. |
 | [getUnderlyingMessage()](#getUnderlyingMessage--) | Retrieves the underlying MapiMessage object. |
 | [hashCode()](#hashCode--) |  |
-| [isStoreUnicodeOk()](#isStoreUnicodeOk--) | Determines if string properties are Unicode encoded or not. |
+| [isStoreUnicodeOk()](#isStoreUnicodeOk--) | Determines whether the string properties of the object are stored in Unicode. |
+| [load(InputStream stream)](#load-java.io.InputStream-) | Loads a [MapiContact](../../com.aspose.email/mapicontact) from the specified stream. |
+| [load(String filePath)](#load-java.lang.String-) | Loads a [MapiContact](../../com.aspose.email/mapicontact) from the specified file. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeProperty(long tag)](#removeProperty-long-) | Provides correctly removing property from all collections. |
-| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves this [MapiContact](../../com.aspose.email/mapicontact) into the given stream with vCard format. |
-| [save(OutputStream stream, ContactSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.email.ContactSaveOptions-) | Saves this [MapiContact](../../com.aspose.email/mapicontact) to the given stream using specified save options. |
-| [save(OutputStream stream, int saveFormat)](#save-java.io.OutputStream-int-) | Saves this [MapiContact](../../com.aspose.email/mapicontact) to the given stream with a format using the default options. |
-| [save(String filePath)](#save-java.lang.String-) | Saves this [MapiContact](../../com.aspose.email/mapicontact) to the vCard file with a default options. |
-| [save(String filePath, ContactSaveOptions saveOptions)](#save-java.lang.String-com.aspose.email.ContactSaveOptions-) | Saves this [MapiContact](../../com.aspose.email/mapicontact) into file using specified save options. |
-| [save(String filePath, int saveFormat)](#save-java.lang.String-int-) | Saves this [MapiContact](../../com.aspose.email/mapicontact) to the specified file with a format using the default options. |
-| [setBilling(String value)](#setBilling-java.lang.String-) | Contains the billing information associated with an item. |
-| [setBody(String value)](#setBody-java.lang.String-) | Gets the message text. |
+| [removeProperty(long tag)](#removeProperty-long-) | Removes a property from the item, including its named-property mapping. |
+| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves the contact to a stream in vCard 2.1 format. |
+| [save(OutputStream stream, ContactSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.email.ContactSaveOptions-) | Saves the contact to a stream with the specified options. |
+| [save(OutputStream stream, int saveFormat)](#save-java.io.OutputStream-int-) | Saves the contact to a stream in the specified format with the default options. |
+| [save(String filePath)](#save-java.lang.String-) | Saves the contact to a vCard 2.1 file. |
+| [save(String filePath, ContactSaveOptions saveOptions)](#save-java.lang.String-com.aspose.email.ContactSaveOptions-) | Saves the contact to a file with the specified options. |
+| [save(String filePath, int saveFormat)](#save-java.lang.String-int-) | Saves the contact to a file in the specified format with the default options. |
+| [setBilling(String value)](#setBilling-java.lang.String-) | Sets the billing information of the item. |
+| [setBody(String value)](#setBody-java.lang.String-) | Sets the plain-text body of the item. |
 | [setBodyContent(String content, int contentType)](#setBodyContent-java.lang.String-int-) | Sets the content of the body. |
-| [setBodyContent(String content, int contentType, boolean compression)](#setBodyContent-java.lang.String-int-boolean-) | Sets the content of the body. |
-| [setBodyRtf(String value)](#setBodyRtf-java.lang.String-) | Gets or sets the RTF formatted message text. |
-| [setBodyRtf(String value, boolean compression)](#setBodyRtf-java.lang.String-boolean-) | Gets or sets the RTF formatted message text. |
-| [setCategories(String[] value)](#setCategories-java.lang.String---) | Contains keywords or categories for the message object. |
-| [setCompanies(String[] value)](#setCompanies-java.lang.String---) | Contains the names of the companies that are associated with an item. |
-| [setElectronicAddresses(MapiContactElectronicAddressPropertySet value)](#setElectronicAddresses-com.aspose.email.MapiContactElectronicAddressPropertySet-) | Specify properties for up to three different e-mail addresses and three different fax addresses |
-| [setEvents(MapiContactEventPropertySet value)](#setEvents-com.aspose.email.MapiContactEventPropertySet-) | Specify events associated with a contact |
-| [setMessageClass(String value)](#setMessageClass-java.lang.String-) | Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. |
-| [setMessageFlags(long flags)](#setMessageFlags-long-) | Sets the message flags. |
-| [setMileage(String value)](#setMileage-java.lang.String-) | Contains the mileage information that is associated with an item. |
-| [setNameInfo(MapiContactNamePropertySet value)](#setNameInfo-com.aspose.email.MapiContactNamePropertySet-) | The properties are used to specify the name of the person represented by the contact |
+| [setBodyContent(String content, int contentType, boolean compression)](#setBodyContent-java.lang.String-int-boolean-) | Sets the body of the item in the specified format, optionally compressing it. |
+| [setBodyRtf(String value)](#setBodyRtf-java.lang.String-) | Sets the body of the item in RTF format. |
+| [setBodyRtf(String value, boolean compression)](#setBodyRtf-java.lang.String-boolean-) | Sets the body of the item in RTF format, optionally compressing it. |
+| [setCategories(String[] value)](#setCategories-java.lang.String---) | Sets the categories of the item. |
+| [setCompanies(String[] value)](#setCompanies-java.lang.String---) | Sets the names of the companies associated with the item. |
+| [setElectronicAddresses(MapiContactElectronicAddressPropertySet value)](#setElectronicAddresses-com.aspose.email.MapiContactElectronicAddressPropertySet-) | Sets the e-mail addresses (up to three) and fax numbers (up to three) of the contact. |
+| [setEvents(MapiContactEventPropertySet value)](#setEvents-com.aspose.email.MapiContactEventPropertySet-) | Sets the dates associated with the contact: birthday and anniversary. |
+| [setMessageClass(String value)](#setMessageClass-java.lang.String-) | Sets the message class of the item, such as  IPM.Note  for an e-mail message. |
+| [setMessageFlags(long flags)](#setMessageFlags-long-) | Sets the flags of the message, such as read or unsent. |
+| [setMileage(String value)](#setMileage-java.lang.String-) | Sets the mileage information of the item. |
+| [setNameInfo(MapiContactNamePropertySet value)](#setNameInfo-com.aspose.email.MapiContactNamePropertySet-) | Sets the name of the contact: given name, surname, title and so on. |
 | [setNamedPropertyMapping(MapiNamedPropertyMappingStorage value)](#setNamedPropertyMapping-com.aspose.email.MapiNamedPropertyMappingStorage-) | Sets the named property mapping. |
-| [setOtherFields(MapiContactOtherPropertySet value)](#setOtherFields-com.aspose.email.MapiContactOtherPropertySet-) | Specify other fields of conhtact. |
-| [setPersonalInfo(MapiContactPersonalInfoPropertySet value)](#setPersonalInfo-com.aspose.email.MapiContactPersonalInfoPropertySet-) | Specify other additional contact information |
-| [setPhoto(MapiContactPhoto value)](#setPhoto-com.aspose.email.MapiContactPhoto-) | Contains contact photo[MapiContactPhoto](../../com.aspose.email/mapicontactphoto). |
-| [setPhysicalAddresses(MapiContactPhysicalAddressPropertySet value)](#setPhysicalAddresses-com.aspose.email.MapiContactPhysicalAddressPropertySet-) | Specify three physical addresses: Home Address, Work Address, and Other Address. |
-| [setProfessionalInfo(MapiContactProfessionalPropertySet value)](#setProfessionalInfo-com.aspose.email.MapiContactProfessionalPropertySet-) | Properties are used to store professional details for the person represented by the contact |
-| [setProperty(MapiProperty value)](#setProperty-com.aspose.email.MapiProperty-) | Sets the property. |
-| [setProperty(PropertyDescriptor pd, Object value)](#setProperty-com.aspose.email.PropertyDescriptor-java.lang.Object-) | Sets MAPI property. |
-| [setRecipients(MapiRecipientCollection value)](#setRecipients-com.aspose.email.MapiRecipientCollection-) | Gets the recipients of the message. |
-| [setSensitivity(int value)](#setSensitivity-int-) | Gets the Sensitivity. |
-| [setSubject(String value)](#setSubject-java.lang.String-) | Gets or sets the subject of the message. |
-| [setTelephones(MapiContactTelephonePropertySet value)](#setTelephones-com.aspose.email.MapiContactTelephonePropertySet-) | Specify telephone numbers for the contact |
+| [setOtherFields(MapiContactOtherPropertySet value)](#setOtherFields-com.aspose.email.MapiContactOtherPropertySet-) | Sets the other fields of the contact: reminder, privacy, journaling and the user-defined fields. |
+| [setPersonalInfo(MapiContactPersonalInfoPropertySet value)](#setPersonalInfo-com.aspose.email.MapiContactPersonalInfoPropertySet-) | Sets the personal details of the contact, such as web pages, spouse, children, hobbies and notes. |
+| [setPhoto(MapiContactPhoto value)](#setPhoto-com.aspose.email.MapiContactPhoto-) | Sets the photo of the contact. |
+| [setPhysicalAddresses(MapiContactPhysicalAddressPropertySet value)](#setPhysicalAddresses-com.aspose.email.MapiContactPhysicalAddressPropertySet-) | Sets the postal addresses of the contact: home, work and other. |
+| [setProductId(String value)](#setProductId-java.lang.String-) | Sets the identifier of the product that created the contact. |
+| [setProfessionalInfo(MapiContactProfessionalPropertySet value)](#setProfessionalInfo-com.aspose.email.MapiContactProfessionalPropertySet-) | Sets the professional details of the contact: company, job title, department, manager and so on. |
+| [setProperty(MapiProperty value)](#setProperty-com.aspose.email.MapiProperty-) | Adds the property, or replaces the property with the same tag. |
+| [setProperty(PropertyDescriptor pd, Object value)](#setProperty-com.aspose.email.PropertyDescriptor-java.lang.Object-) | Sets the value of a MAPI property of the item. |
+| [setRecipients(MapiRecipientCollection value)](#setRecipients-com.aspose.email.MapiRecipientCollection-) | Sets the recipients of the item. |
+| [setSensitivity(int value)](#setSensitivity-int-) | Sets the sensitivity of the item: normal, personal, private or confidential. |
+| [setSubject(String value)](#setSubject-java.lang.String-) | Sets the subject of the message. |
+| [setTelephones(MapiContactTelephonePropertySet value)](#setTelephones-com.aspose.email.MapiContactTelephonePropertySet-) | Sets the telephone numbers of the contact. |
+| [toMvPropertyList(Object obj)](#toMvPropertyList-java.lang.Object-) |  |
 | [toString()](#toString--) |  |
-| [tryGetPropertyData(long tag)](#tryGetPropertyData-long-) | Try to get the property data with specified tag key. |
-| [tryGetPropertyDateTime(long tag, Date[] value)](#tryGetPropertyDateTime-long-java.util.Date---) | Gets the value of the specified property as DateTime type. |
-| [tryGetPropertyInt32(long tag, int[] value)](#tryGetPropertyInt32-long-int---) | Gets the value of the specified property as Int32 type. |
-| [tryGetPropertyLong(long tag, long[] value)](#tryGetPropertyLong-long-long---) | Gets the value of the specified property as Long type. |
-| [tryGetPropertyString(long tag)](#tryGetPropertyString-long-) | Try to get a property data as string with specified tag. |
-| [tryGetPropertyString(long tag, int codepage)](#tryGetPropertyString-long-int-) | Try to get a property data as string with specified tag and code page. |
-| [tryGetPropertyString(long tag, String[] value)](#tryGetPropertyString-long-java.lang.String---) | Gets the value of the specified property as String type. |
-| [tryGetPropertyString(long tag, String[] value, int codepage)](#tryGetPropertyString-long-java.lang.String---int-) | Gets the value of the specified property as String type. |
+| [tryGetPropertyData(long tag)](#tryGetPropertyData-long-) | Gets the value of a property as bytes. |
+| [tryGetPropertyDateTime(long tag, Date[] value)](#tryGetPropertyDateTime-long-java.util.Date---) | Gets the value of a property as a date and time, if the property exists. |
+| [tryGetPropertyInt32(long tag, int[] value)](#tryGetPropertyInt32-long-int---) | Gets the value of a property as a 32-bit integer, if the property exists. |
+| [tryGetPropertyLong(long tag, long[] value)](#tryGetPropertyLong-long-long---) | Gets the value of a property as a 64-bit integer, if the property exists. |
+| [tryGetPropertyString(long tag)](#tryGetPropertyString-long-) | Gets the value of a property as a string. |
+| [tryGetPropertyString(long tag, int codepage)](#tryGetPropertyString-long-int-) | Gets the value of a property as a string, decoding an ANSI string with the specified code page. |
+| [tryGetPropertyString(long tag, String[] value)](#tryGetPropertyString-long-java.lang.String---) | Gets the value of a property as a string, if the property exists. |
+| [tryGetPropertyString(long tag, String[] value, int codepage)](#tryGetPropertyString-long-java.lang.String---int-) | Gets the value of a property as a string, if the property exists, decoding an ANSI string with the specified code page. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -154,7 +158,7 @@ public MapiContact()
 ```
 
 
-Initializes a new instance of the [MapiContact](../../com.aspose.email/mapicontact) class
+Initializes a new instance of the [MapiContact](../../com.aspose.email/mapicontact) class.
 
 ### MapiContact(String displayName, String electonicAddress) {#MapiContact-java.lang.String-java.lang.String-}
 ```
@@ -162,13 +166,13 @@ public MapiContact(String displayName, String electonicAddress)
 ```
 
 
-Initializes a new instance of the [MapiContact](../../com.aspose.email/mapicontact) class.
+Initializes a new instance of the [MapiContact](../../com.aspose.email/mapicontact) class with the specified details.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| displayName | java.lang.String | The display name. |
-| electonicAddress | java.lang.String | The electonic address. |
+| displayName | java.lang.String | The full name of the contact. |
+| electonicAddress | java.lang.String | The e-mail address. |
 
 ### MapiContact(String displayName, String electonicAddress, String companyName) {#MapiContact-java.lang.String-java.lang.String-java.lang.String-}
 ```
@@ -176,14 +180,14 @@ public MapiContact(String displayName, String electonicAddress, String companyNa
 ```
 
 
-Initializes a new instance of the [MapiContact](../../com.aspose.email/mapicontact) class.
+Initializes a new instance of the [MapiContact](../../com.aspose.email/mapicontact) class with the specified details.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| displayName | java.lang.String | The display name. |
-| electonicAddress | java.lang.String | The electonic address. |
-| companyName | java.lang.String | Name of the company. |
+| displayName | java.lang.String | The full name of the contact. |
+| electonicAddress | java.lang.String | The e-mail address. |
+| companyName | java.lang.String | The name of the company. |
 
 ### MapiContact(String displayName, String electonicAddress, String companyName, String primaryTelephoneNumber) {#MapiContact-java.lang.String-java.lang.String-java.lang.String-java.lang.String-}
 ```
@@ -191,15 +195,15 @@ public MapiContact(String displayName, String electonicAddress, String companyNa
 ```
 
 
-Initializes a new instance of the [MapiContact](../../com.aspose.email/mapicontact) class.
+Initializes a new instance of the [MapiContact](../../com.aspose.email/mapicontact) class with the specified details.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| displayName | java.lang.String | The display name. |
-| electonicAddress | java.lang.String | The electonic address. |
-| companyName | java.lang.String | Name of the company. |
-| primaryTelephoneNumber | java.lang.String | The telephone number. |
+| displayName | java.lang.String | The full name of the contact. |
+| electonicAddress | java.lang.String | The e-mail address. |
+| companyName | java.lang.String | The name of the company. |
+| primaryTelephoneNumber | java.lang.String | The primary telephone number. |
 
 ### close() {#close--}
 ```
@@ -207,7 +211,7 @@ public void close()
 ```
 
 
-
+Releases the resources used by the item.
 
 ### createMapiNode(String key) {#createMapiNode-java.lang.String-}
 ```
@@ -253,44 +257,44 @@ public static MapiContact fromVCard(InputStream stream)
 ```
 
 
-Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
+Loads a contact from a stream that contains a vCard. vCard versions 2.1 and 3.0 are supported.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | A stream to read from |
+| stream | java.io.InputStream | The stream to read. |
 
 **Returns:**
-[MapiContact](../../com.aspose.email/mapicontact) - A read [MapiContact](../../com.aspose.email/mapicontact)
+[MapiContact](../../com.aspose.email/mapicontact) - The loaded contact.
 ### fromVCard(InputStream stream, VCardLoadOptions options) {#fromVCard-java.io.InputStream-com.aspose.email.VCardLoadOptions-}
 ```
 public static MapiContact fromVCard(InputStream stream, VCardLoadOptions options)
 ```
 
 
-Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
+Loads a contact from a stream that contains a vCard. vCard versions 2.1 and 3.0 are supported.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | A stream to read from |
-| options | [VCardLoadOptions](../../com.aspose.email/vcardloadoptions) | Additional options when loading a VCardContact |
+| stream | java.io.InputStream | The stream to read. |
+| options | [VCardLoadOptions](../../com.aspose.email/vcardloadoptions) | Options for loading the vCard. |
 
 **Returns:**
-[MapiContact](../../com.aspose.email/mapicontact) - A read [MapiContact](../../com.aspose.email/mapicontact)
+[MapiContact](../../com.aspose.email/mapicontact) - The loaded contact.
 ### fromVCard(InputStream stream, Charset encoding) {#fromVCard-java.io.InputStream-java.nio.charset.Charset-}
 ```
 public static MapiContact fromVCard(InputStream stream, Charset encoding)
 ```
 
 
-Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
+Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | A stream to read from |
-| encoding | java.nio.charset.Charset | Stream data encoding |
+| stream | java.io.InputStream | A stream to read from. |
+| encoding | java.nio.charset.Charset | Stream data encoding. |
 
 **Returns:**
 [MapiContact](../../com.aspose.email/mapicontact) - A read [MapiContact](../../com.aspose.email/mapicontact)
@@ -300,44 +304,44 @@ public static MapiContact fromVCard(String filePath)
 ```
 
 
-Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
+Loads a contact from a vCard file. vCard versions 2.1 and 3.0 are supported.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | A file name to read from |
+| filePath | java.lang.String | The path of the vCard file. |
 
 **Returns:**
-[MapiContact](../../com.aspose.email/mapicontact) - A read [MapiContact](../../com.aspose.email/mapicontact)
+[MapiContact](../../com.aspose.email/mapicontact) - The loaded contact.
 ### fromVCard(String filePath, VCardLoadOptions options) {#fromVCard-java.lang.String-com.aspose.email.VCardLoadOptions-}
 ```
 public static MapiContact fromVCard(String filePath, VCardLoadOptions options)
 ```
 
 
-Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
+Loads a contact from a vCard file. vCard versions 2.1 and 3.0 are supported.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | A file name to read from |
-| options | [VCardLoadOptions](../../com.aspose.email/vcardloadoptions) | Additional options when loading a VCardContact |
+| filePath | java.lang.String | The path of the vCard file. |
+| options | [VCardLoadOptions](../../com.aspose.email/vcardloadoptions) | Options for loading the vCard. |
 
 **Returns:**
-[MapiContact](../../com.aspose.email/mapicontact) - A read [MapiContact](../../com.aspose.email/mapicontact)
+[MapiContact](../../com.aspose.email/mapicontact) - The loaded contact.
 ### fromVCard(String filePath, Charset encoding) {#fromVCard-java.lang.String-java.nio.charset.Charset-}
 ```
 public static MapiContact fromVCard(String filePath, Charset encoding)
 ```
 
 
-Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
+Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified vCard file. The supported vCard versions are 2.1 and 3.0.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | A file name to read from |
-| encoding | java.nio.charset.Charset | File data encoding |
+| filePath | java.lang.String | A file name to read from. |
+| encoding | java.nio.charset.Charset | File data encoding. |
 
 **Returns:**
 [MapiContact](../../com.aspose.email/mapicontact) - A read [MapiContact](../../com.aspose.email/mapicontact)
@@ -347,19 +351,17 @@ public final MapiAttachmentCollection getAttachments()
 ```
 
 
-Gets the attachments in the message.
-
-Value: The attachment collection.
+Gets the attachments of the item.
 
 **Returns:**
-[MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection)
+[MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) - The attachments.
 ### getBilling() {#getBilling--}
 ```
 public final String getBilling()
 ```
 
 
-Contains the billing information associated with an item.
+Gets the billing information of the item.
 
 **Returns:**
 java.lang.String
@@ -369,19 +371,17 @@ public String getBody()
 ```
 
 
-Gets the message text.
-
-Value: The string that represents message body.
+Gets the plain-text body of the item.
 
 **Returns:**
-java.lang.String
+java.lang.String - The body.
 ### getBodyHtml() {#getBodyHtml--}
 ```
 public final String getBodyHtml()
 ```
 
 
-Gets the  BodyRtf (\#getBodyRtf.getBodyRtf/\#setBodyRtf(String).setBodyRtf(String)) of the message converted to HTML, if present, otherwise an empty string.
+Gets the body of the item as HTML, converted from \#getBodyRtf().getBodyRtf(); an empty string when there is no RTF body.
 
 **Returns:**
 java.lang.String
@@ -391,35 +391,29 @@ public final String getBodyRtf()
 ```
 
 
-Gets or sets the RTF formatted message text.
+Gets the body of the item in RTF format.
 
-Value: The string that represents message body rtf.
-
---------------------
-
-When setting a value, the values of PR\_RTF\_COMPRESSED, PR\_RTF\_DECOMPRESSES, PR\_BODY properties are updated. A string value being set must have RTF format. Thus, if it is necessary to set a value in HTML format, the value must be first to encoded within RTF, according to RTF Extensions Specification. To set the content of the body message in HTML or Plain Text formats quickly, please, use SetBodyContent method. When setting a null value or empty string, the values of BodyRtf and Body properties are set null.
+Setting a value updates the plain-text body and the compressed RTF property as well. The value must be RTF; to set an HTML or plain-text body, use \#setBodyContent(String, int).setBodyContent(String, int), which encapsulates HTML in RTF as Outlook does. Setting  null  or an empty string clears both bodies.
 
 **Returns:**
-java.lang.String
+java.lang.String - The RTF body.
 ### getBodyType() {#getBodyType--}
 ```
 public final int getBodyType()
 ```
 
 
-Gets the type of the body.
-
-Value: The type of the body.
+Gets the format of the body: plain text, HTML or RTF.
 
 **Returns:**
-int
+int - The format of the body.
 ### getCategories() {#getCategories--}
 ```
 public final String[] getCategories()
 ```
 
 
-Contains keywords or categories for the message object.
+Gets the categories of the item.
 
 **Returns:**
 java.lang.String[]
@@ -439,19 +433,17 @@ public int getCodePage()
 ```
 
 
-Gets the code page.
-
-Value: The code page.
+Gets the code page of the ANSI strings of the object.
 
 **Returns:**
-int
+int - The code page.
 ### getCompanies() {#getCompanies--}
 ```
 public final String[] getCompanies()
 ```
 
 
-Contains the names of the companies that are associated with an item.
+Gets the names of the companies associated with the item.
 
 **Returns:**
 java.lang.String[]
@@ -461,7 +453,7 @@ public final MapiContactElectronicAddressPropertySet getElectronicAddresses()
 ```
 
 
-Specify properties for up to three different e-mail addresses and three different fax addresses
+Gets the e-mail addresses (up to three) and fax numbers (up to three) of the contact.
 
 **Returns:**
 [MapiContactElectronicAddressPropertySet](../../com.aspose.email/mapicontactelectronicaddresspropertyset)
@@ -471,7 +463,7 @@ public final MapiContactEventPropertySet getEvents()
 ```
 
 
-Specify events associated with a contact
+Gets the dates associated with the contact: birthday and anniversary.
 
 **Returns:**
 [MapiContactEventPropertySet](../../com.aspose.email/mapicontacteventpropertyset)
@@ -481,7 +473,7 @@ public String getItemId()
 ```
 
 
-The item id, uses with a server
+Gets the identifier of the item on the mail server, for items obtained from a server;  null  otherwise.
 
 **Returns:**
 java.lang.String
@@ -491,19 +483,17 @@ public final String getMessageClass()
 ```
 
 
-Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. The message class specifies the type, purpose, or content of the message.
-
-Value: The string that represents message class.
+Gets the message class of the item, such as  IPM.Note  for an e-mail message. The class determines the type of the item.
 
 **Returns:**
-java.lang.String
+java.lang.String - The message class. It is case-sensitive.
 ### getMileage() {#getMileage--}
 ```
 public final String getMileage()
 ```
 
 
-Contains the mileage information that is associated with an item.
+Gets the mileage information of the item.
 
 **Returns:**
 java.lang.String
@@ -513,7 +503,7 @@ public final MapiContactNamePropertySet getNameInfo()
 ```
 
 
-The properties are used to specify the name of the person represented by the contact
+Gets the name of the contact: given name, surname, title and so on.
 
 **Returns:**
 [MapiContactNamePropertySet](../../com.aspose.email/mapicontactnamepropertyset)
@@ -523,31 +513,27 @@ public final MapiPropertyCollection getNamedProperties()
 ```
 
 
-Gets the named properties of message.
-
-Value: The collection of named properties.
+Gets the named properties of the item.
 
 **Returns:**
-[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection)
+[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) - The named properties.
 ### getNamedPropertyMapping() {#getNamedPropertyMapping--}
 ```
 public final MapiNamedPropertyMappingStorage getNamedPropertyMapping()
 ```
 
 
-Gets the named property mapping.
-
-Value: The named property mapping.
+Gets the mapping between the named properties and the tags they are stored under.
 
 **Returns:**
-[MapiNamedPropertyMappingStorage](../../com.aspose.email/mapinamedpropertymappingstorage)
+[MapiNamedPropertyMappingStorage](../../com.aspose.email/mapinamedpropertymappingstorage) - The named property mapping.
 ### getOtherFields() {#getOtherFields--}
 ```
 public final MapiContactOtherPropertySet getOtherFields()
 ```
 
 
-Specify other fields of conhtact.
+Gets the other fields of the contact: reminder, privacy, journaling and the user-defined fields.
 
 **Returns:**
 [MapiContactOtherPropertySet](../../com.aspose.email/mapicontactotherpropertyset)
@@ -557,7 +543,7 @@ public final MapiContactPersonalInfoPropertySet getPersonalInfo()
 ```
 
 
-Specify other additional contact information
+Gets the personal details of the contact, such as web pages, spouse, children, hobbies and notes.
 
 **Returns:**
 [MapiContactPersonalInfoPropertySet](../../com.aspose.email/mapicontactpersonalinfopropertyset)
@@ -567,7 +553,7 @@ public final MapiContactPhoto getPhoto()
 ```
 
 
-Contains contact photo[MapiContactPhoto](../../com.aspose.email/mapicontactphoto).
+Gets the photo of the contact.
 
 **Returns:**
 [MapiContactPhoto](../../com.aspose.email/mapicontactphoto)
@@ -577,17 +563,27 @@ public final MapiContactPhysicalAddressPropertySet getPhysicalAddresses()
 ```
 
 
-Specify three physical addresses: Home Address, Work Address, and Other Address. One of the addresses can be marked as the Mailing Address
+Gets the postal addresses of the contact: home, work and other. One of them can be marked as the mailing address.
 
 **Returns:**
 [MapiContactPhysicalAddressPropertySet](../../com.aspose.email/mapicontactphysicaladdresspropertyset)
+### getProductId() {#getProductId--}
+```
+public final String getProductId()
+```
+
+
+Gets the identifier of the product that created the contact.
+
+**Returns:**
+java.lang.String
 ### getProfessionalInfo() {#getProfessionalInfo--}
 ```
 public final MapiContactProfessionalPropertySet getProfessionalInfo()
 ```
 
 
-Properties are used to store professional details for the person represented by the contact
+Gets the professional details of the contact: company, job title, department, manager and so on.
 
 **Returns:**
 [MapiContactProfessionalPropertySet](../../com.aspose.email/mapicontactprofessionalpropertyset)
@@ -597,243 +593,225 @@ public MapiPropertyCollection getProperties()
 ```
 
 
-Gets the collection of properties.
-
-Value: The properties.
+Gets all properties of the object.
 
 **Returns:**
-[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection)
+[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) - The properties.
 ### getProperty(PropertyDescriptor pd) {#getProperty-com.aspose.email.PropertyDescriptor-}
 ```
 public MapiProperty getProperty(PropertyDescriptor pd)
 ```
 
 
-Gets MAPI property by property descriptor.
+Gets a MAPI property of the item by its descriptor.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | Property descriptor for looked property |
+| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | The descriptor of the property, for example one from [KnownPropertyList](../../com.aspose.email/knownpropertylist). |
 
 **Returns:**
-[MapiProperty](../../com.aspose.email/mapiproperty) - Mapi property if it is found, otherwise null.
+[MapiProperty](../../com.aspose.email/mapiproperty) - The property, or  null  if the item does not have it.
 ### getPropertyBoolean(long tag) {#getPropertyBoolean-long-}
 ```
 public final Boolean getPropertyBoolean(long tag)
 ```
 
 
-Gets the value of the property specified by tag as Boolean type.
+Gets the value of a property as a Boolean.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-java.lang.Boolean - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.Boolean - The value, or  null  if the property does not exist.
 ### getPropertyBytes(long tag) {#getPropertyBytes-long-}
 ```
 public final byte[] getPropertyBytes(long tag)
 ```
 
 
-Gets the string value of the property specified by tag.
+Gets the value of a property as bytes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-byte[] - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+byte[] - The value, or  null  if the property does not exist.
 ### getPropertyDateTime(long key) {#getPropertyDateTime-long-}
 ```
 public final Date getPropertyDateTime(long key)
 ```
 
 
-Gets the value of the property specified by tag as DateTime type.
+Gets the value of a property as a date and time.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | long | The MAPI property tag. |
+| key | long | The tag of the property. |
 
 **Returns:**
-java.util.Date - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.util.Date - The value, or  null  if the property does not exist.
 ### getPropertyInt32(long tag) {#getPropertyInt32-long-}
 ```
 public final Integer getPropertyInt32(long tag)
 ```
 
 
-Gets the int32 value of the property specified by tag.
+Gets the value of a property as a 32-bit integer.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-java.lang.Integer - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.Integer - The value, or  null  if the property does not exist.
 ### getPropertyLong(long tag) {#getPropertyLong-long-}
 ```
 public final Long getPropertyLong(long tag)
 ```
 
 
-Gets the value of the property specified by tag as Long (int64) type.
+Gets the value of a property as a 64-bit integer.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-java.lang.Long - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.Long - The value, or  null  if the property does not exist.
 ### getPropertyShort(long tag) {#getPropertyShort-long-}
 ```
 public final Short getPropertyShort(long tag)
 ```
 
 
-Gets the value of the property specified by tag as Short type.
+Gets the value of a property as a 16-bit integer.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-java.lang.Short - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.Short - The value, or  null  if the property does not exist.
 ### getPropertyStream() {#getPropertyStream--}
 ```
 public final MapiPropertyStream getPropertyStream()
 ```
 
 
-Gets the property stream.
-
-Value: The property stream.
+Gets the property stream of the item.
 
 **Returns:**
-[MapiPropertyStream](../../com.aspose.email/mapipropertystream)
+[MapiPropertyStream](../../com.aspose.email/mapipropertystream) - The property stream.
 ### getPropertyString(long tag) {#getPropertyString-long-}
 ```
 public final String getPropertyString(long tag)
 ```
 
 
-Gets the string value of the property specified by tag.
+Gets the value of a property as a string.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-java.lang.String - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.String - The value, or  null  if the property does not exist.
 ### getPropertyString(long tag, int codepage) {#getPropertyString-long-int-}
 ```
 public final String getPropertyString(long tag, int codepage)
 ```
 
 
-Gets the string value of the property specified by tag.
+Gets the value of a property as a string, decoding an ANSI string with the specified code page.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| codepage | int | The specified codepage used to get string value. |
+| tag | long | The tag of the property. |
+| codepage | int | The code page of an ANSI (8-bit) string. |
 
 **Returns:**
-java.lang.String - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.String - The value, or  null  if the property does not exist.
 ### getRecipients() {#getRecipients--}
 ```
 public final MapiRecipientCollection getRecipients()
 ```
 
 
-Gets the recipients of the message.
-
-Value: The collection of recipients.
+Gets the recipients of the item.
 
 **Returns:**
-[MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection)
+[MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection) - The recipients.
 ### getSensitivity() {#getSensitivity--}
 ```
 public final int getSensitivity()
 ```
 
 
-Gets the Sensitivity.
-
-Value: The sensitivity.
+Gets the sensitivity of the item: normal, personal, private or confidential.
 
 **Returns:**
-int
+int - The sensitivity.
 ### getSubStorages() {#getSubStorages--}
 ```
 public final MapiPropertyCollection getSubStorages()
 ```
 
 
-Gets the sub storages.
-
-Value: The sub storages.
+Gets the sub-storages of the item.
 
 **Returns:**
-[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection)
+[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) - The sub-storages.
 ### getSubject() {#getSubject--}
 ```
 public final String getSubject()
 ```
 
 
-Gets or sets the subject of the message.
+Gets the subject of the message.
 
-Value: The string that represents message subject.
-
---------------------
-
-When setting a value, the values of SubjectPrefix(PR\_SUBJECT\_PREFIX) and NormalizedSubject(PR\_NORMALIZED\_SUBJECT) properties are updated as well. If Subject has no prefix, the value of SubjectPrefix property is set null. When setting a null value or empty string, the values of Subject, SubjectPrefix, NormalizedSubject properties are set null.
+Setting the subject also sets the subject prefix (such as  RE: ) and the normalized subject (the subject without the prefix). Setting  null  or an empty string clears all three.
 
 **Returns:**
-java.lang.String
+java.lang.String - The subject.
 ### getSubjectPrefix() {#getSubjectPrefix--}
 ```
 public final String getSubjectPrefix()
 ```
 
 
-Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding.
-
-Value: The string that represents subject prefix.
+Gets the prefix of the subject, such as  RE:  or  FW: .
 
 **Returns:**
-java.lang.String
+java.lang.String - The subject prefix.
 ### getSupportedType() {#getSupportedType--}
 ```
 public final int getSupportedType()
 ```
 
 
-Gets the supported item type.
-
-Value: The [MapiItemType](../../com.aspose.email/mapiitemtype).
+Gets the type of the item, as determined by its message class.
 
 **Returns:**
-int
+int - The item type.
 ### getTelephones() {#getTelephones--}
 ```
 public final MapiContactTelephonePropertySet getTelephones()
 ```
 
 
-Specify telephone numbers for the contact
+Gets the telephone numbers of the contact.
 
 **Returns:**
 [MapiContactTelephonePropertySet](../../com.aspose.email/mapicontacttelephonepropertyset)
@@ -844,9 +822,6 @@ public final MapiMessage getUnderlyingMessage()
 
 
 Retrieves the underlying MapiMessage object.
-
-**Returns:**
-[MapiMessage](../../com.aspose.email/mapimessage) - The [MapiMessage](../../com.aspose.email/mapimessage) object.
 
 Retrieves the underlying MAPI message from a MapiContact object and prints out its message class.
 
@@ -860,6 +835,9 @@ Retrieves the underlying MAPI message from a MapiContact object and prints out i
  System.out.println(msg.getMessageClass());
  
 ```
+
+**Returns:**
+[MapiMessage](../../com.aspose.email/mapimessage) - The [MapiMessage](../../com.aspose.email/mapimessage) object.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -876,10 +854,46 @@ public final boolean isStoreUnicodeOk()
 ```
 
 
-Determines if string properties are Unicode encoded or not.
+Determines whether the string properties of the object are stored in Unicode.
 
 **Returns:**
-boolean - True, if string properties are Unicode encoded.
+boolean -  true  if the strings are Unicode;  false  if they are ANSI.
+### load(InputStream stream) {#load-java.io.InputStream-}
+```
+public static MapiContact load(InputStream stream)
+```
+
+
+Loads a [MapiContact](../../com.aspose.email/mapicontact) from the specified stream.
+
+Accepts both formats \#save(String).save(String) can produce: an Outlook MSG file holding a contact item, and a vCard file (read as \#fromVCard(InputStream).fromVCard(InputStream) would). This makes  MapiContact.load(path)  the inverse of  contact.save(path) , which writes vCard by default.
+
+The stream is read from its beginning, whatever its current position.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | The stream to be loaded. |
+
+**Returns:**
+[MapiContact](../../com.aspose.email/mapicontact) - Returns a [MapiContact](../../com.aspose.email/mapicontact) instance loaded from the specified stream.
+### load(String filePath) {#load-java.lang.String-}
+```
+public static MapiContact load(String filePath)
+```
+
+
+Loads a [MapiContact](../../com.aspose.email/mapicontact) from the specified file.
+
+Accepts both formats \#save(String).save(String) can produce: an Outlook MSG file holding a contact item, and a vCard file (read as \#fromVCard(InputStream).fromVCard(InputStream) would). This makes  MapiContact.load(path)  the inverse of  contact.save(path) , which writes vCard by default.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | The path to the file to be loaded. |
+
+**Returns:**
+[MapiContact](../../com.aspose.email/mapicontact) - Returns a [MapiContact](../../com.aspose.email/mapicontact) instance loaded from the specified file.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -902,12 +916,12 @@ public final void removeProperty(long tag)
 ```
 
 
-Provides correctly removing property from all collections.
+Removes a property from the item, including its named-property mapping.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The tag of MapiProperty. |
+| tag | long | The tag of the property to remove. |
 
 ### save(OutputStream stream) {#save-java.io.OutputStream-}
 ```
@@ -915,12 +929,12 @@ public final void save(OutputStream stream)
 ```
 
 
-Saves this [MapiContact](../../com.aspose.email/mapicontact) into the given stream with vCard format. The supported vCard version is 2.1
+Saves the contact to a stream in vCard 2.1 format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream | A stream to save to |
+| stream | java.io.OutputStream | The stream to write to. |
 
 ### save(OutputStream stream, ContactSaveOptions saveOptions) {#save-java.io.OutputStream-com.aspose.email.ContactSaveOptions-}
 ```
@@ -928,13 +942,13 @@ public final void save(OutputStream stream, ContactSaveOptions saveOptions)
 ```
 
 
-Saves this [MapiContact](../../com.aspose.email/mapicontact) to the given stream using specified save options. The supported save options is [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions)
+Saves the contact to a stream with the specified options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream | A stream to save to |
-| saveOptions | [ContactSaveOptions](../../com.aspose.email/contactsaveoptions) | A save options |
+| stream | java.io.OutputStream | The stream to write to. |
+| saveOptions | [ContactSaveOptions](../../com.aspose.email/contactsaveoptions) | The options; their class selects the format: [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions), [WebDavContactSaveOptions](../../com.aspose.email/webdavcontactsaveoptions) or [MapiContactSaveOptions](../../com.aspose.email/mapicontactsaveoptions). |
 
 ### save(OutputStream stream, int saveFormat) {#save-java.io.OutputStream-int-}
 ```
@@ -942,13 +956,13 @@ public final void save(OutputStream stream, int saveFormat)
 ```
 
 
-Saves this [MapiContact](../../com.aspose.email/mapicontact) to the given stream with a format using the default options. The supported save format is vCard
+Saves the contact to a stream in the specified format with the default options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream | A stream to save to |
-| saveFormat | int | A save format |
+| stream | java.io.OutputStream | The stream to write to. |
+| saveFormat | int | The format: vCard (the default), WebDAV or MSG. |
 
 ### save(String filePath) {#save-java.lang.String-}
 ```
@@ -956,12 +970,12 @@ public final void save(String filePath)
 ```
 
 
-Saves this [MapiContact](../../com.aspose.email/mapicontact) to the vCard file with a default options. The supported vCard version is 2.1
+Saves the contact to a vCard 2.1 file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | A vCard file name |
+| filePath | java.lang.String | The path of the file to write. |
 
 ### save(String filePath, ContactSaveOptions saveOptions) {#save-java.lang.String-com.aspose.email.ContactSaveOptions-}
 ```
@@ -969,13 +983,13 @@ public final void save(String filePath, ContactSaveOptions saveOptions)
 ```
 
 
-Saves this [MapiContact](../../com.aspose.email/mapicontact) into file using specified save options. The supported save options is [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions)
+Saves the contact to a file with the specified options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | A vCard file name |
-| saveOptions | [ContactSaveOptions](../../com.aspose.email/contactsaveoptions) | A save options |
+| filePath | java.lang.String | The path of the file to write. |
+| saveOptions | [ContactSaveOptions](../../com.aspose.email/contactsaveoptions) | The options; their class selects the format: [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions), [WebDavContactSaveOptions](../../com.aspose.email/webdavcontactsaveoptions) or [MapiContactSaveOptions](../../com.aspose.email/mapicontactsaveoptions). |
 
 ### save(String filePath, int saveFormat) {#save-java.lang.String-int-}
 ```
@@ -983,13 +997,13 @@ public final void save(String filePath, int saveFormat)
 ```
 
 
-Saves this [MapiContact](../../com.aspose.email/mapicontact) to the specified file with a format using the default options. The supported save format is vCard.
+Saves the contact to a file in the specified format with the default options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | A vCard file name |
-| saveFormat | int | A save format |
+| filePath | java.lang.String | The path of the file to write. |
+| saveFormat | int | The format: vCard (the default), WebDAV or MSG. |
 
 ### setBilling(String value) {#setBilling-java.lang.String-}
 ```
@@ -997,7 +1011,7 @@ public final void setBilling(String value)
 ```
 
 
-Contains the billing information associated with an item.
+Sets the billing information of the item.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1010,14 +1024,12 @@ public void setBody(String value)
 ```
 
 
-Gets the message text.
-
-Value: The string that represents message body.
+Sets the plain-text body of the item.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The body. |
 
 ### setBodyContent(String content, int contentType) {#setBodyContent-java.lang.String-int-}
 ```
@@ -1027,15 +1039,13 @@ public void setBodyContent(String content, int contentType)
 
 Sets the content of the body.
 
+It is provided for setting of the content of the body message in RTF, HTML or Plain Text formats. When setting a value, the values of PR\_RTF\_COMPRESSED, PR\_RTF\_DECOMPRESSES, PR\_BODY properties are updated as well. Note, after the value in HTML format is set, \#getBodyRtf().getBodyRtf() returns the value which is encoded within RTF.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | java.lang.String | The content. |
-| contentType | int | Type of the content.
-
---------------------
-
-It is provided for setting of the content of the body message in RTF, HTML or Plain Text formats. When setting a value, the values of PR\_RTF\_COMPRESSED, PR\_RTF\_DECOMPRESSES, PR\_BODY properties are updated as well. Note, after the value in HTML format is set, BodyRtf property returns the value which is encoded within RTF. |
+| content | java.lang.String | The text of the body. |
+| contentType | int | The format of  content . |
 
 ### setBodyContent(String content, int contentType, boolean compression) {#setBodyContent-java.lang.String-int-boolean-}
 ```
@@ -1043,18 +1053,16 @@ public void setBodyContent(String content, int contentType, boolean compression)
 ```
 
 
-Sets the content of the body.
+Sets the body of the item in the specified format, optionally compressing it.
+
+The plain-text body, the RTF body and the compressed RTF property are all updated. After HTML content is set, \#getBodyRtf().getBodyRtf() returns that HTML encapsulated in RTF.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | java.lang.String | The content. |
-| contentType | int | Type of the content. |
-| compression | boolean | Specify that the content should be compressed.
-
---------------------
-
-It is provided for setting of the content of the body message in RTF, HTML or Plain Text formats. When setting a value, the values of PR\_RTF\_COMPRESSED, PR\_RTF\_DECOMPRESSES, PR\_BODY properties are updated as well. Note, after the value in HTML format is set, BodyRtf property returns the value which is encoded within RTF. |
+| content | java.lang.String | The text of the body. |
+| contentType | int | The format of  content . |
+| compression | boolean |  true  to store the RTF body compressed. |
 
 ### setBodyRtf(String value) {#setBodyRtf-java.lang.String-}
 ```
@@ -1062,18 +1070,14 @@ public final void setBodyRtf(String value)
 ```
 
 
-Gets or sets the RTF formatted message text.
+Sets the body of the item in RTF format.
 
-Value: The string that represents message body rtf.
-
---------------------
-
-When setting a value, the values of PR\_RTF\_COMPRESSED, PR\_RTF\_DECOMPRESSES, PR\_BODY properties are updated. A string value being set must have RTF format. Thus, if it is necessary to set a value in HTML format, the value must be first to encoded within RTF, according to RTF Extensions Specification. To set the content of the body message in HTML or Plain Text formats quickly, please, use SetBodyContent method. When setting a null value or empty string, the values of BodyRtf and Body properties are set null.
+Setting a value updates the plain-text body and the compressed RTF property as well. The value must be RTF; to set an HTML or plain-text body, use \#setBodyContent(String, int).setBodyContent(String, int), which encapsulates HTML in RTF as Outlook does. Setting  null  or an empty string clears both bodies.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The RTF body. |
 
 ### setBodyRtf(String value, boolean compression) {#setBodyRtf-java.lang.String-boolean-}
 ```
@@ -1081,19 +1085,15 @@ public final void setBodyRtf(String value, boolean compression)
 ```
 
 
-Gets or sets the RTF formatted message text.
+Sets the body of the item in RTF format, optionally compressing it.
 
-Value: The string that represents message body rtf.
-
---------------------
-
-When setting a value, the values of PR\_RTF\_COMPRESSED, PR\_RTF\_DECOMPRESSES, PR\_BODY properties are updated. A string value being set must have RTF format. Thus, if it is necessary to set a value in HTML format, the value must be first to encoded within RTF, according to RTF Extensions Specification. To set the content of the body message in HTML or Plain Text formats quickly, please, use SetBodyContent method. When setting a null value or empty string, the values of BodyRtf and Body properties are set null.
+Setting a value updates the plain-text body and the compressed RTF property as well. The value must be RTF; to set an HTML or plain-text body, use \#setBodyContent(String, int).setBodyContent(String, int). Setting  null  or an empty string clears both bodies.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
-| compression | boolean | Specify that the content should be compressed. |
+| value | java.lang.String | The body in RTF. |
+| compression | boolean |  true  to store the RTF body compressed. |
 
 ### setCategories(String[] value) {#setCategories-java.lang.String---}
 ```
@@ -1101,7 +1101,7 @@ public final void setCategories(String[] value)
 ```
 
 
-Contains keywords or categories for the message object.
+Sets the categories of the item.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1114,7 +1114,7 @@ public final void setCompanies(String[] value)
 ```
 
 
-Contains the names of the companies that are associated with an item.
+Sets the names of the companies associated with the item.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1127,7 +1127,7 @@ public final void setElectronicAddresses(MapiContactElectronicAddressPropertySet
 ```
 
 
-Specify properties for up to three different e-mail addresses and three different fax addresses
+Sets the e-mail addresses (up to three) and fax numbers (up to three) of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1140,7 +1140,7 @@ public final void setEvents(MapiContactEventPropertySet value)
 ```
 
 
-Specify events associated with a contact
+Sets the dates associated with the contact: birthday and anniversary.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1153,14 +1153,12 @@ public final void setMessageClass(String value)
 ```
 
 
-Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. The message class specifies the type, purpose, or content of the message.
-
-Value: The string that represents message class.
+Sets the message class of the item, such as  IPM.Note  for an e-mail message. The class determines the type of the item.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The message class. It is case-sensitive. |
 
 ### setMessageFlags(long flags) {#setMessageFlags-long-}
 ```
@@ -1168,12 +1166,12 @@ public final void setMessageFlags(long flags)
 ```
 
 
-Sets the message flags.
+Sets the flags of the message, such as read or unsent.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| flags | long | The message flags. |
+| flags | long | The flags to set. |
 
 ### setMileage(String value) {#setMileage-java.lang.String-}
 ```
@@ -1181,7 +1179,7 @@ public final void setMileage(String value)
 ```
 
 
-Contains the mileage information that is associated with an item.
+Sets the mileage information of the item.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1194,7 +1192,7 @@ public final void setNameInfo(MapiContactNamePropertySet value)
 ```
 
 
-The properties are used to specify the name of the person represented by the contact
+Sets the name of the contact: given name, surname, title and so on.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1220,7 +1218,7 @@ public final void setOtherFields(MapiContactOtherPropertySet value)
 ```
 
 
-Specify other fields of conhtact.
+Sets the other fields of the contact: reminder, privacy, journaling and the user-defined fields.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1233,7 +1231,7 @@ public final void setPersonalInfo(MapiContactPersonalInfoPropertySet value)
 ```
 
 
-Specify other additional contact information
+Sets the personal details of the contact, such as web pages, spouse, children, hobbies and notes.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1246,7 +1244,7 @@ public final void setPhoto(MapiContactPhoto value)
 ```
 
 
-Contains contact photo[MapiContactPhoto](../../com.aspose.email/mapicontactphoto).
+Sets the photo of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1259,12 +1257,25 @@ public final void setPhysicalAddresses(MapiContactPhysicalAddressPropertySet val
 ```
 
 
-Specify three physical addresses: Home Address, Work Address, and Other Address. One of the addresses can be marked as the Mailing Address
+Sets the postal addresses of the contact: home, work and other. One of them can be marked as the mailing address.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [MapiContactPhysicalAddressPropertySet](../../com.aspose.email/mapicontactphysicaladdresspropertyset) |  |
+
+### setProductId(String value) {#setProductId-java.lang.String-}
+```
+public final void setProductId(String value)
+```
+
+
+Sets the identifier of the product that created the contact.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setProfessionalInfo(MapiContactProfessionalPropertySet value) {#setProfessionalInfo-com.aspose.email.MapiContactProfessionalPropertySet-}
 ```
@@ -1272,7 +1283,7 @@ public final void setProfessionalInfo(MapiContactProfessionalPropertySet value)
 ```
 
 
-Properties are used to store professional details for the person represented by the contact
+Sets the professional details of the contact: company, job title, department, manager and so on.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1285,12 +1296,12 @@ public void setProperty(MapiProperty value)
 ```
 
 
-Sets the property.
+Adds the property, or replaces the property with the same tag.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MapiProperty](../../com.aspose.email/mapiproperty) | The property. |
+| value | [MapiProperty](../../com.aspose.email/mapiproperty) | The property to set. |
 
 ### setProperty(PropertyDescriptor pd, Object value) {#setProperty-com.aspose.email.PropertyDescriptor-java.lang.Object-}
 ```
@@ -1298,13 +1309,13 @@ public void setProperty(PropertyDescriptor pd, Object value)
 ```
 
 
-Sets MAPI property.
+Sets the value of a MAPI property of the item.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | The property descriptor. |
-| value | java.lang.Object | The property data. |
+| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | The descriptor of the property, for example one from [KnownPropertyList](../../com.aspose.email/knownpropertylist). |
+| value | java.lang.Object | The value, of a Java type that matches the data type of the property. |
 
 ### setRecipients(MapiRecipientCollection value) {#setRecipients-com.aspose.email.MapiRecipientCollection-}
 ```
@@ -1312,14 +1323,12 @@ public final void setRecipients(MapiRecipientCollection value)
 ```
 
 
-Gets the recipients of the message.
-
-Value: The collection of recipients.
+Sets the recipients of the item.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection) |  |
+| value | [MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection) | The recipients. |
 
 ### setSensitivity(int value) {#setSensitivity-int-}
 ```
@@ -1327,14 +1336,12 @@ public final void setSensitivity(int value)
 ```
 
 
-Gets the Sensitivity.
-
-Value: The sensitivity.
+Sets the sensitivity of the item: normal, personal, private or confidential.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The sensitivity. |
 
 ### setSubject(String value) {#setSubject-java.lang.String-}
 ```
@@ -1342,18 +1349,14 @@ public final void setSubject(String value)
 ```
 
 
-Gets or sets the subject of the message.
+Sets the subject of the message.
 
-Value: The string that represents message subject.
-
---------------------
-
-When setting a value, the values of SubjectPrefix(PR\_SUBJECT\_PREFIX) and NormalizedSubject(PR\_NORMALIZED\_SUBJECT) properties are updated as well. If Subject has no prefix, the value of SubjectPrefix property is set null. When setting a null value or empty string, the values of Subject, SubjectPrefix, NormalizedSubject properties are set null.
+Setting the subject also sets the subject prefix (such as  RE: ) and the normalized subject (the subject without the prefix). Setting  null  or an empty string clears all three.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The subject. |
 
 ### setTelephones(MapiContactTelephonePropertySet value) {#setTelephones-com.aspose.email.MapiContactTelephonePropertySet-}
 ```
@@ -1361,13 +1364,28 @@ public final void setTelephones(MapiContactTelephonePropertySet value)
 ```
 
 
-Specify telephone numbers for the contact
+Sets the telephone numbers of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [MapiContactTelephonePropertySet](../../com.aspose.email/mapicontacttelephonepropertyset) |  |
 
+### toMvPropertyList(Object obj) {#toMvPropertyList-java.lang.Object-}
+```
+public static System.Collections.Generic.IGenericList<Object> toMvPropertyList(Object obj)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object |  |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericList<java.lang.Object>
 ### toString() {#toString--}
 ```
 public String toString()
@@ -1384,127 +1402,127 @@ public final byte[] tryGetPropertyData(long tag)
 ```
 
 
-Try to get the property data with specified tag key.
+Gets the value of a property as bytes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The tag key. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-byte[] - The property data.
+byte[] - The value, or  null  if the property does not exist.
 ### tryGetPropertyDateTime(long tag, Date[] value) {#tryGetPropertyDateTime-long-java.util.Date---}
 ```
 public final boolean tryGetPropertyDateTime(long tag, Date[] value)
 ```
 
 
-Gets the value of the specified property as DateTime type. A return value indicates whether the operation succeeded.
+Gets the value of a property as a date and time, if the property exists.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| value | java.util.Date[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+| tag | long | The tag of the property. |
+| value | java.util.Date[] | When this method returns, the value of the property, if it exists; otherwise, the value is unchanged. |
 
 **Returns:**
-boolean - true if s was converted successfully; otherwise, false.
+boolean -  true  if the property exists; otherwise,  false .
 ### tryGetPropertyInt32(long tag, int[] value) {#tryGetPropertyInt32-long-int---}
 ```
 public final boolean tryGetPropertyInt32(long tag, int[] value)
 ```
 
 
-Gets the value of the specified property as Int32 type. A return value indicates whether the operation succeeded.
+Gets the value of a property as a 32-bit integer, if the property exists.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| value | int[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+| tag | long | The tag of the property. |
+| value | int[] | When this method returns, the value of the property, if it exists; otherwise, the value is unchanged. |
 
 **Returns:**
-boolean - true if s was converted successfully; otherwise, false.
+boolean -  true  if the property exists; otherwise,  false .
 ### tryGetPropertyLong(long tag, long[] value) {#tryGetPropertyLong-long-long---}
 ```
 public final boolean tryGetPropertyLong(long tag, long[] value)
 ```
 
 
-Gets the value of the specified property as Long type. A return value indicates whether the operation succeeded.
+Gets the value of a property as a 64-bit integer, if the property exists.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| value | long[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+| tag | long | The tag of the property. |
+| value | long[] | When this method returns, the value of the property, if it exists; otherwise, the value is unchanged. |
 
 **Returns:**
-boolean - true if s was converted successfully; otherwise, false.
+boolean -  true  if the property exists; otherwise,  false .
 ### tryGetPropertyString(long tag) {#tryGetPropertyString-long-}
 ```
 public final String tryGetPropertyString(long tag)
 ```
 
 
-Try to get a property data as string with specified tag.
+Gets the value of a property as a string.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The property tag key. |
+| tag | long | The tag of the property. |
 
 **Returns:**
-java.lang.String - String that contains the contents of property data.
+java.lang.String - The value, or  null  if the property does not exist.
 ### tryGetPropertyString(long tag, int codepage) {#tryGetPropertyString-long-int-}
 ```
 public final String tryGetPropertyString(long tag, int codepage)
 ```
 
 
-Try to get a property data as string with specified tag and code page.
+Gets the value of a property as a string, decoding an ANSI string with the specified code page.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The property tag key. |
-| codepage | int | The code page. |
+| tag | long | The tag of the property. |
+| codepage | int | The code page of an ANSI (8-bit) string. |
 
 **Returns:**
-java.lang.String - String that contains the contents of property data.
+java.lang.String - The value, or  null  if the property does not exist.
 ### tryGetPropertyString(long tag, String[] value) {#tryGetPropertyString-long-java.lang.String---}
 ```
 public final boolean tryGetPropertyString(long tag, String[] value)
 ```
 
 
-Gets the value of the specified property as String type. A return value indicates whether the operation succeeded.
+Gets the value of a property as a string, if the property exists.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| value | java.lang.String[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+| tag | long | The tag of the property. |
+| value | java.lang.String[] | When this method returns, the value of the property, if it exists; otherwise, the value is unchanged. |
 
 **Returns:**
-boolean - true if s was converted successfully; otherwise, false.
+boolean -  true  if the property exists; otherwise,  false .
 ### tryGetPropertyString(long tag, String[] value, int codepage) {#tryGetPropertyString-long-java.lang.String---int-}
 ```
 public final boolean tryGetPropertyString(long tag, String[] value, int codepage)
 ```
 
 
-Gets the value of the specified property as String type. A return value indicates whether the operation succeeded.
+Gets the value of a property as a string, if the property exists, decoding an ANSI string with the specified code page.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| value | java.lang.String[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
-| codepage | int | The specified codepage used to get string value. |
+| tag | long | The tag of the property. |
+| value | java.lang.String[] | When this method returns, the value of the property, if it exists; otherwise, the value is unchanged. |
+| codepage | int | The code page of an ANSI (8-bit) string. |
 
 **Returns:**
-boolean - true if s was converted successfully; otherwise, false.
+boolean -  true  if the property exists; otherwise,  false .
 ### wait() {#wait--}
 ```
 public final void wait()

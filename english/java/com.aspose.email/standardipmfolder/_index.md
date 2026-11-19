@@ -1,9 +1,9 @@
 ---
 title: StandardIpmFolder
 second_title: Aspose.Email for Java API Reference
-description: Represents a standard interpersonal message IPM folders.
+description: Defines the standard Outlook folders of a mailbox also known as interpersonal message IPM folders.
 type: docs
-weight: 688
+weight: 693
 url: /java/com.aspose.email/standardipmfolder/
 ---
 
@@ -13,26 +13,26 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class StandardIpmFolder extends System.Enum
 ```
 
-Represents a standard interpersonal message (IPM) folders.
+Defines the standard Outlook folders of a mailbox, also known as interpersonal message (IPM) folders.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Appointments](#Appointments) | Outlook Calendar folder. |
-| [Contacts](#Contacts) | Outlook Contacts folder. |
-| [DeletedItems](#DeletedItems) | Deleted Items folder. |
-| [Drafts](#Drafts) | Outlook Drafts folder. |
+| [Appointments](#Appointments) | The Calendar folder. |
+| [Contacts](#Contacts) | The Contacts folder. |
+| [DeletedItems](#DeletedItems) | The Deleted Items folder, where deleted items are moved. |
+| [Drafts](#Drafts) | The Drafts folder. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Inbox](#Inbox) | Inbox folder. |
-| [Journal](#Journal) | Outlook Journal folder. |
-| [JunkEmail](#JunkEmail) | Junk email folder |
-| [Notes](#Notes) | Outlook Notes folder. |
-| [Outbox](#Outbox) | Outbox folder. |
-| [RssFeeds](#RssFeeds) | The RSS feeds folder. |
-| [SentItems](#SentItems) | Sent Items folder. |
-| [SyncIssues](#SyncIssues) | Sync issues folder |
-| [Tasks](#Tasks) | Outlook Tasks folder. |
-| [Unspecified](#Unspecified) | Unspecified value. |
+| [Inbox](#Inbox) | The Inbox folder. |
+| [Journal](#Journal) | The Journal folder. |
+| [JunkEmail](#JunkEmail) | The Junk Email folder. |
+| [Notes](#Notes) | The Notes folder. |
+| [Outbox](#Outbox) | The Outbox folder, which holds messages waiting to be sent. |
+| [RssFeeds](#RssFeeds) | The RSS Feeds folder. |
+| [SentItems](#SentItems) | The Sent Items folder, where sent messages are stored. |
+| [SyncIssues](#SyncIssues) | The Sync Issues folder. |
+| [Tasks](#Tasks) | The Tasks folder. |
+| [Unspecified](#Unspecified) | Not a standard folder. |
 ## Methods
 
 | Method | Description |
@@ -78,7 +78,7 @@ public static final int Appointments
 ```
 
 
-Outlook Calendar folder.
+The Calendar folder.
 
 ### Contacts {#Contacts}
 ```
@@ -86,7 +86,7 @@ public static final int Contacts
 ```
 
 
-Outlook Contacts folder.
+The Contacts folder.
 
 ### DeletedItems {#DeletedItems}
 ```
@@ -94,7 +94,7 @@ public static final int DeletedItems
 ```
 
 
-Deleted Items folder. A client application move deleted messages to the Deleted Items folder.
+The Deleted Items folder, where deleted items are moved.
 
 ### Drafts {#Drafts}
 ```
@@ -102,7 +102,7 @@ public static final int Drafts
 ```
 
 
-Outlook Drafts folder.
+The Drafts folder.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -116,7 +116,7 @@ public static final int Inbox
 ```
 
 
-Inbox folder.
+The Inbox folder.
 
 ### Journal {#Journal}
 ```
@@ -124,7 +124,7 @@ public static final int Journal
 ```
 
 
-Outlook Journal folder.
+The Journal folder.
 
 ### JunkEmail {#JunkEmail}
 ```
@@ -132,7 +132,7 @@ public static final int JunkEmail
 ```
 
 
-Junk email folder
+The Junk Email folder.
 
 ### Notes {#Notes}
 ```
@@ -140,7 +140,7 @@ public static final int Notes
 ```
 
 
-Outlook Notes folder.
+The Notes folder.
 
 ### Outbox {#Outbox}
 ```
@@ -148,7 +148,7 @@ public static final int Outbox
 ```
 
 
-Outbox folder. Outbound messages are usually created in the Outbox folder.
+The Outbox folder, which holds messages waiting to be sent.
 
 ### RssFeeds {#RssFeeds}
 ```
@@ -156,7 +156,7 @@ public static final int RssFeeds
 ```
 
 
-The RSS feeds folder.
+The RSS Feeds folder.
 
 ### SentItems {#SentItems}
 ```
@@ -164,7 +164,7 @@ public static final int SentItems
 ```
 
 
-Sent Items folder. After being sent, messages are usually placed in the Sent Items folder.
+The Sent Items folder, where sent messages are stored.
 
 ### SyncIssues {#SyncIssues}
 ```
@@ -172,7 +172,7 @@ public static final int SyncIssues
 ```
 
 
-Sync issues folder
+The Sync Issues folder.
 
 ### Tasks {#Tasks}
 ```
@@ -180,7 +180,7 @@ public static final int Tasks
 ```
 
 
-Outlook Tasks folder.
+The Tasks folder.
 
 ### Unspecified {#Unspecified}
 ```
@@ -188,7 +188,7 @@ public static final int Unspecified
 ```
 
 
-Unspecified value.
+Not a standard folder.
 
 ### Clone() {#Clone--}
 ```

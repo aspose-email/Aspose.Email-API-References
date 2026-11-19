@@ -3,7 +3,7 @@ title: RecurrenceRuleCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 621
+weight: 626
 url: /java/com.aspose.email/recurrencerulecollection/
 ---
 
@@ -15,13 +15,7 @@ public class RecurrenceRuleCollection extends System.Collections.ObjectModel.Col
 
 Represents a collection of [RecurrenceRule](../../com.aspose.email/recurrencerule) objects.
 
---------------------
-
-
-
 Corresponds to a collection of RRULE or EXRULE parts of a recurrence pattern.
-
-
 ## Methods
 
 | Method | Description |

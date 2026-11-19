@@ -1,9 +1,9 @@
 ---
 title: MapiContactOtherPropertySet
 second_title: Aspose.Email for Java API Reference
-description: The properties are used to specify additional properies of contact.
+description: Other fields of a contact reminder privacy journaling and four user-defined fields.
 type: docs
-weight: 442
+weight: 445
 url: /java/com.aspose.email/mapicontactotherpropertyset/
 ---
 
@@ -13,37 +13,37 @@ java.lang.Object, [com.aspose.email.MapiContactPropertySet](../../com.aspose.ema
 public final class MapiContactOtherPropertySet extends MapiContactPropertySet
 ```
 
-The properties are used to specify additional properies of contact.
+Other fields of a contact: reminder, privacy, journaling and four user-defined fields.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MapiContactOtherPropertySet()](#MapiContactOtherPropertySet--) | Initializes a new instance of [MapiContactOtherPropertySet](../../com.aspose.email/mapicontactotherpropertyset) class |
+| [MapiContactOtherPropertySet()](#MapiContactOtherPropertySet--) | Initializes a new instance of the [MapiContactOtherPropertySet](../../com.aspose.email/mapicontactotherpropertyset) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getJournal()](#getJournal--) | Specifies whether to create a journal for each action associated with this contact. |
-| [getPrivate()](#getPrivate--) | Indicates whether the end-user wants this message object hidden from other users who have access to the message object. |
-| [getReminderTime()](#getReminderTime--) | Specifies the initial signal time for a reminder. |
-| [getReminderTopic()](#getReminderTopic--) | Represents the status of a meeting request. |
-| [getUserField1()](#getUserField1--) | Specifies the first field on the contact that is intended for miscellaneous use for the contact. |
-| [getUserField2()](#getUserField2--) | Specifies the second field on the contact that is intended for miscellaneous use for the contact. |
-| [getUserField3()](#getUserField3--) | Specifies the third field on the contact that is intended for miscellaneous use for the contact. |
-| [getUserField4()](#getUserField4--) | Specifies the forth field on the contact that is intended for miscellaneous use for the contact. |
+| [getJournal()](#getJournal--) | Gets a value indicating whether a journal entry is created for each action related to the contact. |
+| [getPrivate()](#getPrivate--) | Gets a value indicating whether the contact is private, that is, hidden from other users who have access to the folder. |
+| [getReminderTime()](#getReminderTime--) | Gets the date and time of the reminder. |
+| [getReminderTopic()](#getReminderTopic--) | Gets the text of the follow-up flag of the contact, such as  Call . |
+| [getUserField1()](#getUserField1--) | Gets the first user-defined field of the contact. |
+| [getUserField2()](#getUserField2--) | Gets the second user-defined field of the contact. |
+| [getUserField3()](#getUserField3--) | Gets the third user-defined field of the contact. |
+| [getUserField4()](#getUserField4--) | Gets the fourth user-defined field of the contact. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setJournal(boolean value)](#setJournal-boolean-) | Specifies whether to create a journal for each action associated with this contact. |
-| [setPrivate(boolean value)](#setPrivate-boolean-) | Indicates whether the end-user wants this message object hidden from other users who have access to the message object. |
-| [setReminderTime(Date value)](#setReminderTime-java.util.Date-) | Specifies the initial signal time for a reminder. |
-| [setReminderTopic(String value)](#setReminderTopic-java.lang.String-) | Represents the status of a meeting request. |
-| [setUserField1(String value)](#setUserField1-java.lang.String-) | Specifies the first field on the contact that is intended for miscellaneous use for the contact. |
-| [setUserField2(String value)](#setUserField2-java.lang.String-) | Specifies the second field on the contact that is intended for miscellaneous use for the contact. |
-| [setUserField3(String value)](#setUserField3-java.lang.String-) | Specifies the third field on the contact that is intended for miscellaneous use for the contact. |
-| [setUserField4(String value)](#setUserField4-java.lang.String-) | Specifies the forth field on the contact that is intended for miscellaneous use for the contact. |
+| [setJournal(boolean value)](#setJournal-boolean-) | Sets a value indicating whether a journal entry is created for each action related to the contact. |
+| [setPrivate(boolean value)](#setPrivate-boolean-) | Sets a value indicating whether the contact is private, that is, hidden from other users who have access to the folder. |
+| [setReminderTime(Date value)](#setReminderTime-java.util.Date-) | Sets the date and time of the reminder. |
+| [setReminderTopic(String value)](#setReminderTopic-java.lang.String-) | Sets the text of the follow-up flag of the contact, such as  Call . |
+| [setUserField1(String value)](#setUserField1-java.lang.String-) | Sets the first user-defined field of the contact. |
+| [setUserField2(String value)](#setUserField2-java.lang.String-) | Sets the second user-defined field of the contact. |
+| [setUserField3(String value)](#setUserField3-java.lang.String-) | Sets the third user-defined field of the contact. |
+| [setUserField4(String value)](#setUserField4-java.lang.String-) | Sets the fourth user-defined field of the contact. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -54,7 +54,7 @@ public MapiContactOtherPropertySet()
 ```
 
 
-Initializes a new instance of [MapiContactOtherPropertySet](../../com.aspose.email/mapicontactotherpropertyset) class
+Initializes a new instance of the [MapiContactOtherPropertySet](../../com.aspose.email/mapicontactotherpropertyset) class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -87,7 +87,7 @@ public final boolean getJournal()
 ```
 
 
-Specifies whether to create a journal for each action associated with this contact.
+Gets a value indicating whether a journal entry is created for each action related to the contact.
 
 **Returns:**
 boolean
@@ -97,7 +97,7 @@ public final boolean getPrivate()
 ```
 
 
-Indicates whether the end-user wants this message object hidden from other users who have access to the message object.
+Gets a value indicating whether the contact is private, that is, hidden from other users who have access to the folder.
 
 **Returns:**
 boolean
@@ -107,7 +107,7 @@ public final Date getReminderTime()
 ```
 
 
-Specifies the initial signal time for a reminder.
+Gets the date and time of the reminder.
 
 **Returns:**
 java.util.Date
@@ -117,7 +117,7 @@ public final String getReminderTopic()
 ```
 
 
-Represents the status of a meeting request.
+Gets the text of the follow-up flag of the contact, such as  Call .
 
 **Returns:**
 java.lang.String
@@ -127,7 +127,7 @@ public final String getUserField1()
 ```
 
 
-Specifies the first field on the contact that is intended for miscellaneous use for the contact.
+Gets the first user-defined field of the contact.
 
 **Returns:**
 java.lang.String
@@ -137,7 +137,7 @@ public final String getUserField2()
 ```
 
 
-Specifies the second field on the contact that is intended for miscellaneous use for the contact.
+Gets the second user-defined field of the contact.
 
 **Returns:**
 java.lang.String
@@ -147,7 +147,7 @@ public final String getUserField3()
 ```
 
 
-Specifies the third field on the contact that is intended for miscellaneous use for the contact.
+Gets the third user-defined field of the contact.
 
 **Returns:**
 java.lang.String
@@ -157,7 +157,7 @@ public final String getUserField4()
 ```
 
 
-Specifies the forth field on the contact that is intended for miscellaneous use for the contact.
+Gets the fourth user-defined field of the contact.
 
 **Returns:**
 java.lang.String
@@ -193,7 +193,7 @@ public final void setJournal(boolean value)
 ```
 
 
-Specifies whether to create a journal for each action associated with this contact.
+Sets a value indicating whether a journal entry is created for each action related to the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public final void setPrivate(boolean value)
 ```
 
 
-Indicates whether the end-user wants this message object hidden from other users who have access to the message object.
+Sets a value indicating whether the contact is private, that is, hidden from other users who have access to the folder.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public final void setReminderTime(Date value)
 ```
 
 
-Specifies the initial signal time for a reminder.
+Sets the date and time of the reminder.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public final void setReminderTopic(String value)
 ```
 
 
-Represents the status of a meeting request.
+Sets the text of the follow-up flag of the contact, such as  Call .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,7 +245,7 @@ public final void setUserField1(String value)
 ```
 
 
-Specifies the first field on the contact that is intended for miscellaneous use for the contact.
+Sets the first user-defined field of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -258,7 +258,7 @@ public final void setUserField2(String value)
 ```
 
 
-Specifies the second field on the contact that is intended for miscellaneous use for the contact.
+Sets the second user-defined field of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -271,7 +271,7 @@ public final void setUserField3(String value)
 ```
 
 
-Specifies the third field on the contact that is intended for miscellaneous use for the contact.
+Sets the third user-defined field of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -284,7 +284,7 @@ public final void setUserField4(String value)
 ```
 
 
-Specifies the forth field on the contact that is intended for miscellaneous use for the contact.
+Sets the fourth user-defined field of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |

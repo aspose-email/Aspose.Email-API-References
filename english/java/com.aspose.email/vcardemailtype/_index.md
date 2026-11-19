@@ -1,9 +1,9 @@
 ---
 title: VCardEmailType
 second_title: Aspose.Email for Java API Reference
-description: Enumerates vCard email types
+description: Enumerates vCard email types.
 type: docs
-weight: 738
+weight: 748
 url: /java/com.aspose.email/vcardemailtype/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class VCardEmailType extends System.Enum
 ```
 
-Enumerates vCard email types
+Enumerates vCard email types.
 ## Constructors
 
 | Constructor | Description |
@@ -23,22 +23,22 @@ Enumerates vCard email types
 
 | Field | Description |
 | --- | --- |
-| [AOL](#AOL) | An america On-Line |
-| [APPLELINK](#APPLELINK) | An AppleLink |
-| [ATTMAIL](#ATTMAIL) | An AT&T Mail |
-| [CIS](#CIS) | A CompuServe Information Service |
-| [EWORLD](#EWORLD) | An eWorld type |
+| [AOL](#AOL) | An america On-Line. |
+| [APPLELINK](#APPLELINK) | An AppleLink. |
+| [ATTMAIL](#ATTMAIL) | An AT&T Mail. |
+| [CIS](#CIS) | A CompuServe Information Service. |
+| [EWORLD](#EWORLD) | An eWorld type. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [IBMMAIL](#IBMMAIL) | An IBM Mail |
-| [IM](#IM) | An instant messaging address |
-| [INTERNET](#INTERNET) | An internet |
-| [MCIMAIL](#MCIMAIL) | A MCI Mail |
+| [IBMMAIL](#IBMMAIL) | An IBM Mail. |
+| [IM](#IM) | An instant messaging address. |
+| [INTERNET](#INTERNET) | An internet. |
+| [MCIMAIL](#MCIMAIL) | A MCI Mail. |
 | [None](#None) | No values are set. |
-| [POWERSHARE](#POWERSHARE) | A PowerShare |
-| [PREF](#PREF) | An prefered address |
-| [PRODIGY](#PRODIGY) | A prodigy information service |
-| [TLX](#TLX) | A telex number |
-| [X400](#X400) | A X.400 service |
+| [POWERSHARE](#POWERSHARE) | A PowerShare. |
+| [PREF](#PREF) | An prefered address. |
+| [PRODIGY](#PRODIGY) | A prodigy information service. |
+| [TLX](#TLX) | A telex number. |
+| [X400](#X400) | A X.400 service. |
 ## Methods
 
 | Method | Description |
@@ -92,7 +92,7 @@ public static final int AOL
 ```
 
 
-An america On-Line
+An america On-Line.
 
 ### APPLELINK {#APPLELINK}
 ```
@@ -100,7 +100,7 @@ public static final int APPLELINK
 ```
 
 
-An AppleLink
+An AppleLink.
 
 ### ATTMAIL {#ATTMAIL}
 ```
@@ -108,7 +108,7 @@ public static final int ATTMAIL
 ```
 
 
-An AT&T Mail
+An AT&T Mail.
 
 ### CIS {#CIS}
 ```
@@ -116,7 +116,7 @@ public static final int CIS
 ```
 
 
-A CompuServe Information Service
+A CompuServe Information Service.
 
 ### EWORLD {#EWORLD}
 ```
@@ -124,7 +124,7 @@ public static final int EWORLD
 ```
 
 
-An eWorld type
+An eWorld type.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -138,7 +138,7 @@ public static final int IBMMAIL
 ```
 
 
-An IBM Mail
+An IBM Mail.
 
 ### IM {#IM}
 ```
@@ -146,7 +146,7 @@ public static final int IM
 ```
 
 
-An instant messaging address
+An instant messaging address.
 
 ### INTERNET {#INTERNET}
 ```
@@ -154,7 +154,7 @@ public static final int INTERNET
 ```
 
 
-An internet
+An internet.
 
 ### MCIMAIL {#MCIMAIL}
 ```
@@ -162,7 +162,7 @@ public static final int MCIMAIL
 ```
 
 
-A MCI Mail
+A MCI Mail.
 
 ### None {#None}
 ```
@@ -178,7 +178,7 @@ public static final int POWERSHARE
 ```
 
 
-A PowerShare
+A PowerShare.
 
 ### PREF {#PREF}
 ```
@@ -186,7 +186,7 @@ public static final int PREF
 ```
 
 
-An prefered address
+An prefered address.
 
 ### PRODIGY {#PRODIGY}
 ```
@@ -194,7 +194,7 @@ public static final int PRODIGY
 ```
 
 
-A prodigy information service
+A prodigy information service.
 
 ### TLX {#TLX}
 ```
@@ -202,7 +202,7 @@ public static final int TLX
 ```
 
 
-A telex number
+A telex number.
 
 ### X400 {#X400}
 ```
@@ -210,7 +210,7 @@ public static final int X400
 ```
 
 
-A X.400 service
+A X.400 service.
 
 ### Clone() {#Clone--}
 ```

@@ -1,9 +1,9 @@
 ---
 title: FileCompatibilityMode
 second_title: Aspose.Email for Java API Reference
-description: Defines inner conversions  that are necessarily to be done when loading  or saving a message.
+description: Defines conversions applied while a message is loaded or saved.
 type: docs
-weight: 247
+weight: 250
 url: /java/com.aspose.email/filecompatibilitymode/
 ---
 
@@ -13,14 +13,14 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class FileCompatibilityMode extends System.Enum
 ```
 
-Defines inner conversions, that are necessarily to be done when loading or saving a message. By default CR is not replaces by CRLF, Tnef-attachment is not saved.
+Defines conversions applied while a message is loaded or saved. The values can be combined.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AllowCROnly](#AllowCROnly) | Shows the necessity of the forced replace of line separators by CRLF. |
+| [AllowCROnly](#AllowCROnly) | Line breaks that are a bare CR are replaced by CRLF. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [None](#None) | No values are set. |
+| [None](#None) | No conversions. |
 | [PreserveTnefAttachments](#PreserveTnefAttachments) | Controls TNEF attachment saving behaviour. |
 ## Methods
 
@@ -67,7 +67,7 @@ public static final int AllowCROnly
 ```
 
 
-Shows the necessity of the forced replace of line separators by CRLF.
+Line breaks that are a bare CR are replaced by CRLF.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -81,7 +81,7 @@ public static final int None
 ```
 
 
-No values are set.
+No conversions.
 
 ### PreserveTnefAttachments {#PreserveTnefAttachments}
 ```

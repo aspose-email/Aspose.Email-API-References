@@ -1,9 +1,9 @@
 ---
 title: OutlookMessageFormat
 second_title: Aspose.Email for Java API Reference
-description: Represents outlook message format.
+description: Defines the string formats of an Outlook message.
 type: docs
-weight: 579
+weight: 583
 url: /java/com.aspose.email/outlookmessageformat/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class OutlookMessageFormat extends System.Enum
 ```
 
-Represents outlook message format.
+Defines the string formats of an Outlook message.
 ## Constructors
 
 | Constructor | Description |
@@ -23,9 +23,9 @@ Represents outlook message format.
 
 | Field | Description |
 | --- | --- |
-| [ASCII](#ASCII) | ASCII. |
+| [ASCII](#ASCII) | ANSI: strings are stored in an 8-bit code page. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Unicode](#Unicode) | Unicode. |
+| [Unicode](#Unicode) | Unicode: strings are stored in UTF-16. |
 ## Methods
 
 | Method | Description |
@@ -79,7 +79,7 @@ public static final int ASCII
 ```
 
 
-ASCII.
+ANSI: strings are stored in an 8-bit code page. Used by Outlook 97\\u20132002.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -93,7 +93,7 @@ public static final int Unicode
 ```
 
 
-Unicode.
+Unicode: strings are stored in UTF-16. The format of Outlook 2003 and later.
 
 ### Clone() {#Clone--}
 ```

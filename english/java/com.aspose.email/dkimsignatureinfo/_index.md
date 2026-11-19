@@ -1,9 +1,9 @@
 ---
 title: DKIMSignatureInfo
 second_title: Aspose.Email for Java API Reference
-description: Represents DKIM signature information.
+description: Describes how a message is signed with DKIM and what goes into the DKIM-Signature header.
 type: docs
-weight: 134
+weight: 135
 url: /java/com.aspose.email/dkimsignatureinfo/
 ---
 
@@ -13,34 +13,37 @@ java.lang.Object
 public class DKIMSignatureInfo
 ```
 
-Represents DKIM signature information.
+Describes how a message is signed with DKIM and what goes into the DKIM-Signature header.
+
+Set the DNS selector and domain of the published public key, list the headers to sign in \#getHeaders().getHeaders(), then pass the instance to  MailMessage.dKIMSign  together with the private key loaded by [PemReader](../../com.aspose.email/pemreader).
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [DKIMSignatureInfo(String publicKeyDnsSelector, String publicKeyDnsDomain)](#DKIMSignatureInfo-java.lang.String-java.lang.String-) | Creates new instance of DKIMSignatureInfo. |
+| [DKIMSignatureInfo(String publicKeyDnsSelector, String publicKeyDnsDomain)](#DKIMSignatureInfo-java.lang.String-java.lang.String-) | Initializes a new instance of the [DKIMSignatureInfo](../../com.aspose.email/dkimsignatureinfo) class with the DNS selector and domain of the public key. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBodyCanonicalization()](#getBodyCanonicalization--) | Gets or sets body canonicalization (c=). |
+| [getBodyCanonicalization()](#getBodyCanonicalization--) | Gets how the message body is normalized before it is hashed (the body half of the c= tag). |
 | [getClass()](#getClass--) |  |
-| [getDomain()](#getDomain--) | Gets or sets public key DNS domain (d=). |
-| [getHashAlgorithm()](#getHashAlgorithm--) | Gets or sets hash algorithm (a=). |
-| [getHeaderCanonicalization()](#getHeaderCanonicalization--) | Gets or sets header canonicalization (c=). |
-| [getHeaders()](#getHeaders--) | Headers that are included in the signature (h=). |
-| [getSelector()](#getSelector--) | Gets or sets public key DNS selector (s=). |
-| [getTime()](#getTime--) | Gets or sets the signature timestamp - the time that this signature was created (t=). |
+| [getDomain()](#getDomain--) | Gets the domain whose DNS TXT records publish the public key (the d= tag). |
+| [getHashAlgorithm()](#getHashAlgorithm--) | Gets the algorithm used to hash the signed headers and body (the a= tag). |
+| [getHeaderCanonicalization()](#getHeaderCanonicalization--) | Gets how the signed headers are normalized before they are hashed (the header half of the c= tag). |
+| [getHeaders()](#getHeaders--) | Gets the names of the headers to include in the signature (the h= tag). |
+| [getSelector()](#getSelector--) | Gets the selector that tells verifiers which public key of the domain to use (the s= tag). |
+| [getTime()](#getTime--) | Gets the signature timestamp - the time that this signature was created (t=). |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBodyCanonicalization(int value)](#setBodyCanonicalization-int-) | Gets or sets body canonicalization (c=). |
-| [setDomain(String value)](#setDomain-java.lang.String-) | Gets or sets public key DNS domain (d=). |
-| [setHashAlgorithm(int value)](#setHashAlgorithm-int-) | Gets or sets hash algorithm (a=). |
-| [setHeaderCanonicalization(int value)](#setHeaderCanonicalization-int-) | Gets or sets header canonicalization (c=). |
-| [setSelector(String value)](#setSelector-java.lang.String-) | Gets or sets public key DNS selector (s=). |
-| [setTime(System.DateTime value)](#setTime-com.aspose.ms.System.DateTime-) | Gets or sets the signature timestamp - the time that this signature was created (t=). |
+| [setBodyCanonicalization(int value)](#setBodyCanonicalization-int-) | Sets how the message body is normalized before it is hashed (the body half of the c= tag). |
+| [setDomain(String value)](#setDomain-java.lang.String-) | Sets the domain whose DNS TXT records publish the public key (the d= tag). |
+| [setHashAlgorithm(int value)](#setHashAlgorithm-int-) | Sets the algorithm used to hash the signed headers and body (the a= tag). |
+| [setHeaderCanonicalization(int value)](#setHeaderCanonicalization-int-) | Sets how the signed headers are normalized before they are hashed (the header half of the c= tag). |
+| [setSelector(String value)](#setSelector-java.lang.String-) | Sets the selector that tells verifiers which public key of the domain to use (the s= tag). |
+| [setTime(System.DateTime value)](#setTime-com.aspose.ms.System.DateTime-) | Sets the signature timestamp - the time that this signature was created (t=). |
+| [setTimeNew(Date value)](#setTimeNew-java.util.Date-) | Gets or sets the signature timestamp - the time that this signature was created (t=). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -51,13 +54,13 @@ public DKIMSignatureInfo(String publicKeyDnsSelector, String publicKeyDnsDomain)
 ```
 
 
-Creates new instance of DKIMSignatureInfo.
+Initializes a new instance of the [DKIMSignatureInfo](../../com.aspose.email/dkimsignatureinfo) class with the DNS selector and domain of the public key.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| publicKeyDnsSelector | java.lang.String | DNS public key domain selector. |
-| publicKeyDnsDomain | java.lang.String | DNS public key domain. |
+| publicKeyDnsSelector | java.lang.String | Selector that tells verifiers which public key of the domain to use (the s= tag). |
+| publicKeyDnsDomain | java.lang.String | Domain whose DNS TXT records publish the public key (the d= tag). |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -80,7 +83,7 @@ public final int getBodyCanonicalization()
 ```
 
 
-Gets or sets body canonicalization (c=).
+Gets how the message body is normalized before it is hashed (the body half of the c= tag). Default is  Relaxed .
 
 **Returns:**
 int
@@ -100,7 +103,7 @@ public final String getDomain()
 ```
 
 
-Gets or sets public key DNS domain (d=).
+Gets the domain whose DNS TXT records publish the public key (the d= tag).
 
 **Returns:**
 java.lang.String
@@ -110,7 +113,7 @@ public int getHashAlgorithm()
 ```
 
 
-Gets or sets hash algorithm (a=).
+Gets the algorithm used to hash the signed headers and body (the a= tag). Default is  RSASha1 .
 
 **Returns:**
 int
@@ -120,7 +123,7 @@ public final int getHeaderCanonicalization()
 ```
 
 
-Gets or sets header canonicalization (c=).
+Gets how the signed headers are normalized before they are hashed (the header half of the c= tag). Default is  Relaxed .
 
 **Returns:**
 int
@@ -130,7 +133,7 @@ public final HeaderList getHeaders()
 ```
 
 
-Headers that are included in the signature (h=).
+Gets the names of the headers to include in the signature (the h= tag). Add at least From, otherwise the signature is not valid.
 
 **Returns:**
 [HeaderList](../../com.aspose.email/headerlist)
@@ -140,7 +143,7 @@ public final String getSelector()
 ```
 
 
-Gets or sets public key DNS selector (s=).
+Gets the selector that tells verifiers which public key of the domain to use (the s= tag).
 
 **Returns:**
 java.lang.String
@@ -150,7 +153,7 @@ public final System.DateTime getTime()
 ```
 
 
-Gets or sets the signature timestamp - the time that this signature was created (t=). Default (null) is an unknown creation time.
+Gets the signature timestamp - the time that this signature was created (t=). Default ( null ) is an unknown creation time.
 
 **Returns:**
 com.aspose.ms.System.DateTime
@@ -186,7 +189,7 @@ public final void setBodyCanonicalization(int value)
 ```
 
 
-Gets or sets body canonicalization (c=).
+Sets how the message body is normalized before it is hashed (the body half of the c= tag). Default is  Relaxed .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -199,7 +202,7 @@ public final void setDomain(String value)
 ```
 
 
-Gets or sets public key DNS domain (d=).
+Sets the domain whose DNS TXT records publish the public key (the d= tag).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -212,7 +215,7 @@ public final void setHashAlgorithm(int value)
 ```
 
 
-Gets or sets hash algorithm (a=).
+Sets the algorithm used to hash the signed headers and body (the a= tag). Default is  RSASha1 .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -225,7 +228,7 @@ public final void setHeaderCanonicalization(int value)
 ```
 
 
-Gets or sets header canonicalization (c=).
+Sets how the signed headers are normalized before they are hashed (the header half of the c= tag). Default is  Relaxed .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -238,7 +241,7 @@ public final void setSelector(String value)
 ```
 
 
-Gets or sets public key DNS selector (s=).
+Sets the selector that tells verifiers which public key of the domain to use (the s= tag).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -251,12 +254,25 @@ public final void setTime(System.DateTime value)
 ```
 
 
-Gets or sets the signature timestamp - the time that this signature was created (t=). Default (null) is an unknown creation time.
+Sets the signature timestamp - the time that this signature was created (t=). Default ( null ) is an unknown creation time.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | com.aspose.ms.System.DateTime |  |
+
+### setTimeNew(Date value) {#setTimeNew-java.util.Date-}
+```
+public final void setTimeNew(Date value)
+```
+
+
+Gets or sets the signature timestamp - the time that this signature was created (t=). Default (null) is an unknown creation time.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date |  |
 
 ### toString() {#toString--}
 ```

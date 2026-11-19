@@ -1,7 +1,7 @@
 ---
 title: AsposeInvalidOperationException
 second_title: Aspose.Email for Java API Reference
-description: Exception class for denoting an object was in a state that made calling a method illegal.
+description: The exception that is thrown when a method call is not valid for the current state of the object.
 type: docs
 weight: 59
 url: /java/com.aspose.email/asposeinvalidoperationexception/
@@ -13,16 +13,16 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class AsposeInvalidOperationException extends AsposeException
 ```
 
-Exception class for denoting an object was in a state that made calling a method illegal.
+The exception that is thrown when a method call is not valid for the current state of the object.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
 | [AsposeInvalidOperationException()](#AsposeInvalidOperationException--) | Initializes a new instance of the [AsposeInvalidOperationException](../../com.aspose.email/asposeinvalidoperationexception) class. |
-| [AsposeInvalidOperationException(String message)](#AsposeInvalidOperationException-java.lang.String-) | Initializes a new instance of the [AsposeInvalidOperationException](../../com.aspose.email/asposeinvalidoperationexception) class with a specified error message. |
-| [AsposeInvalidOperationException(String format, String parameter)](#AsposeInvalidOperationException-java.lang.String-java.lang.String-) |  |
-| [AsposeInvalidOperationException(String format, Object[] parameters)](#AsposeInvalidOperationException-java.lang.String-java.lang.Object...-) | Initializes a new instance of the [AsposeInvalidOperationException](../../com.aspose.email/asposeinvalidoperationexception) class with a specified error message. |
-| [AsposeInvalidOperationException(String message, Throwable inner)](#AsposeInvalidOperationException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the [AsposeInvalidOperationException](../../com.aspose.email/asposeinvalidoperationexception) class with a specified error message. |
+| [AsposeInvalidOperationException(String message)](#AsposeInvalidOperationException-java.lang.String-) | Initializes a new instance of the [AsposeInvalidOperationException](../../com.aspose.email/asposeinvalidoperationexception) class with the specified error message. |
+| [AsposeInvalidOperationException(String format, String parameter)](#AsposeInvalidOperationException-java.lang.String-java.lang.String-) | Initializes a new instance of the [AsposeInvalidOperationException](../../com.aspose.email/asposeinvalidoperationexception) class with an error message built from a format string with one argument. |
+| [AsposeInvalidOperationException(String format, Object[] parameters)](#AsposeInvalidOperationException-java.lang.String-java.lang.Object...-) | Initializes a new instance of the [AsposeInvalidOperationException](../../com.aspose.email/asposeinvalidoperationexception) class with an error message built from a composite format string. |
+| [AsposeInvalidOperationException(String message, Throwable inner)](#AsposeInvalidOperationException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the [AsposeInvalidOperationException](../../com.aspose.email/asposeinvalidoperationexception) class with the specified error message and a reference to the exception that caused it. |
 ## Methods
 
 | Method | Description |
@@ -32,10 +32,10 @@ Exception class for denoting an object was in a state that made calling a method
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
 | [getClass()](#getClass--) |  |
-| [getErrorDetails()](#getErrorDetails--) | Gets extra information aboout error |
+| [getErrorDetails()](#getErrorDetails--) | Gets additional information about the error, if the operation provides any. |
 | [getInnerException()](#getInnerException--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
-| [getMessage()](#getMessage--) | Gets a message that describes the current exception. |
+| [getMessage()](#getMessage--) | Gets the message that describes the error. |
 | [getStackTrace()](#getStackTrace--) |  |
 | [getSuppressed()](#getSuppressed--) |  |
 | [getType()](#getType--) |  |
@@ -47,7 +47,7 @@ Exception class for denoting an object was in a state that made calling a method
 | [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
 | [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
 | [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [toString()](#toString--) | Returns a string that represents the current object. |
+| [toString()](#toString--) | Returns the type, the message and the stack trace of the exception. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -65,12 +65,12 @@ public AsposeInvalidOperationException(String message)
 ```
 
 
-Initializes a new instance of the [AsposeInvalidOperationException](../../com.aspose.email/asposeinvalidoperationexception) class with a specified error message.
+Initializes a new instance of the [AsposeInvalidOperationException](../../com.aspose.email/asposeinvalidoperationexception) class with the specified error message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | A message that describes the error. |
+| message | java.lang.String | The message that describes the error. |
 
 ### AsposeInvalidOperationException(String format, String parameter) {#AsposeInvalidOperationException-java.lang.String-java.lang.String-}
 ```
@@ -78,11 +78,13 @@ public AsposeInvalidOperationException(String format, String parameter)
 ```
 
 
+Initializes a new instance of the [AsposeInvalidOperationException](../../com.aspose.email/asposeinvalidoperationexception) class with an error message built from a format string with one argument.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | java.lang.String |  |
-| parameter | java.lang.String |  |
+| format | java.lang.String | A composite format string with one placeholder,  \{0\} . |
+| parameter | java.lang.String | The value inserted into  format . |
 
 ### AsposeInvalidOperationException(String format, Object[] parameters) {#AsposeInvalidOperationException-java.lang.String-java.lang.Object...-}
 ```
@@ -90,13 +92,13 @@ public AsposeInvalidOperationException(String format, Object[] parameters)
 ```
 
 
-Initializes a new instance of the [AsposeInvalidOperationException](../../com.aspose.email/asposeinvalidoperationexception) class with a specified error message.
+Initializes a new instance of the [AsposeInvalidOperationException](../../com.aspose.email/asposeinvalidoperationexception) class with an error message built from a composite format string.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | java.lang.String | Message format |
-| parameters | java.lang.Object[] | Format parameters |
+| format | java.lang.String | A composite format string with placeholders such as  \{0\} . |
+| parameters | java.lang.Object[] | The objects to insert into  format . |
 
 ### AsposeInvalidOperationException(String message, Throwable inner) {#AsposeInvalidOperationException-java.lang.String-java.lang.Throwable-}
 ```
@@ -104,13 +106,13 @@ public AsposeInvalidOperationException(String message, Throwable inner)
 ```
 
 
-Initializes a new instance of the [AsposeInvalidOperationException](../../com.aspose.email/asposeinvalidoperationexception) class with a specified error message.
+Initializes a new instance of the [AsposeInvalidOperationException](../../com.aspose.email/asposeinvalidoperationexception) class with the specified error message and a reference to the exception that caused it.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | A message that describes the error. |
-| inner | java.lang.Throwable | The exception causing the current exception. |
+| message | java.lang.String | The message that describes the error. |
+| inner | java.lang.Throwable | The exception that caused this exception, or  null . |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```
@@ -176,7 +178,7 @@ public final Object getErrorDetails()
 ```
 
 
-Gets extra information aboout error
+Gets additional information about the error, if the operation provides any.
 
 **Returns:**
 java.lang.Object
@@ -206,7 +208,7 @@ public String getMessage()
 ```
 
 
-Gets a message that describes the current exception.
+Gets the message that describes the error.
 
 **Returns:**
 java.lang.String
@@ -334,10 +336,10 @@ public String toString()
 ```
 
 
-Returns a string that represents the current object.
+Returns the type, the message and the stack trace of the exception.
 
 **Returns:**
-java.lang.String - A string that represents the current object.
+java.lang.String - A string that represents the exception.
 ### wait() {#wait--}
 ```
 public final void wait()

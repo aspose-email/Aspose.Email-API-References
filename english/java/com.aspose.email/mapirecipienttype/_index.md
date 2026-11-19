@@ -1,9 +1,9 @@
 ---
 title: MapiRecipientType
 second_title: Aspose.Email for Java API Reference
-description: Represent the PR_RECIPIENT_TYPE property which contains the recipient type for a message recipient.
+description: Defines the types of message recipients the PR_RECIPIENT_TYPE property.
 type: docs
-weight: 488
+weight: 491
 url: /java/com.aspose.email/mapirecipienttype/
 ---
 
@@ -13,18 +13,18 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiRecipientType extends System.Enum
 ```
 
-Represent the PR\_RECIPIENT\_TYPE property which contains the recipient type for a message recipient.
+Defines the types of message recipients (the  PR\_RECIPIENT\_TYPE  property).
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [MAPI_BCC](#MAPI-BCC) | The recipient is a blind carbon copy (BCC) recipient. |
-| [MAPI_CC](#MAPI-CC) | The recipient is a carbon copy (CC) recipient, a recipient that receives a message in addition to the primary recipients. |
-| [MAPI_P1](#MAPI-P1) | The recipient did not successfully receive the message on the previous attempt. |
-| [MAPI_SUBMITTED](#MAPI-SUBMITTED) | The recipient has already received the message and does not need to receive it again. |
-| [MAPI_TO](#MAPI-TO) | The recipient is a primary (To) recipient. |
-| [Unknown](#Unknown) | Unknow. |
+| [MAPI_BCC](#MAPI-BCC) | A blind carbon copy (BCC) recipient. |
+| [MAPI_CC](#MAPI-CC) | A carbon copy (CC) recipient. |
+| [MAPI_P1](#MAPI-P1) | The recipient did not receive the message on a previous attempt; the message is resent. |
+| [MAPI_SUBMITTED](#MAPI-SUBMITTED) | The recipient has already received the message and does not need it again; the message is resent. |
+| [MAPI_TO](#MAPI-TO) | A primary (To) recipient. |
+| [Unknown](#Unknown) | The type is unknown. |
 ## Methods
 
 | Method | Description |
@@ -76,7 +76,7 @@ public static final int MAPI_BCC
 ```
 
 
-The recipient is a blind carbon copy (BCC) recipient. Primary and carbon copy recipients are unaware of the existence of BCC recipients.
+A blind carbon copy (BCC) recipient. The other recipients do not see BCC recipients.
 
 ### MAPI_CC {#MAPI-CC}
 ```
@@ -84,7 +84,7 @@ public static final int MAPI_CC
 ```
 
 
-The recipient is a carbon copy (CC) recipient, a recipient that receives a message in addition to the primary recipients.
+A carbon copy (CC) recipient.
 
 ### MAPI_P1 {#MAPI-P1}
 ```
@@ -92,7 +92,7 @@ public static final int MAPI_P1
 ```
 
 
-The recipient did not successfully receive the message on the previous attempt. This is a resend of an earlier transmission.
+The recipient did not receive the message on a previous attempt; the message is resent.
 
 ### MAPI_SUBMITTED {#MAPI-SUBMITTED}
 ```
@@ -100,7 +100,7 @@ public static final int MAPI_SUBMITTED
 ```
 
 
-The recipient has already received the message and does not need to receive it again. This is a resend of an earlier transmission. This flag is set in conjunction with the MAPI\_TO, MAPI\_CC, and MAPI\_BCC values.
+The recipient has already received the message and does not need it again; the message is resent. Combined with  MAPI\_TO ,  MAPI\_CC  or  MAPI\_BCC .
 
 ### MAPI_TO {#MAPI-TO}
 ```
@@ -108,7 +108,7 @@ public static final int MAPI_TO
 ```
 
 
-The recipient is a primary (To) recipient. Clients are required to handle primary recipients; all other types are optional.
+A primary (To) recipient.
 
 ### Unknown {#Unknown}
 ```
@@ -116,7 +116,7 @@ public static final int Unknown
 ```
 
 
-Unknow.
+The type is unknown.
 
 ### Clone() {#Clone--}
 ```

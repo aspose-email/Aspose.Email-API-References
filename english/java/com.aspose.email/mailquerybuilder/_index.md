@@ -3,7 +3,7 @@ title: MailQueryBuilder
 second_title: Aspose.Email for Java API Reference
 description: Represents the builder of search expression.
 type: docs
-weight: 391
+weight: 394
 url: /java/com.aspose.email/mailquerybuilder/
 ---
 
@@ -15,9 +15,7 @@ public class MailQueryBuilder
 
 Represents the builder of search expression.
 
---------------------
-
-Note: By default, the result is the intersection (AND function) of all the messages that match those keys. To join keys by OR function, please, use Or() method of this class
+Note: By default, the result is the intersection (AND function) of all the messages that match those keys. To join keys by OR function, please, use the \#or(MailQuery, MailQuery).or(MailQuery, MailQuery) method of this class
 ## Constructors
 
 | Constructor | Description |
@@ -33,7 +31,7 @@ Note: By default, the result is the intersection (AND function) of all the messa
 | [getBody()](#getBody--) | Gets the field that allows to find messages that contain the specified string in the body of the message. |
 | [getCc()](#getCc--) | Gets the field that allows to find messages that contain the specified string in the envelope structure's CC field. |
 | [getClass()](#getClass--) |  |
-| [getDefaultEncoding()](#getDefaultEncoding--) | Gets default encoding (charset) for query builder |
+| [getDefaultEncoding()](#getDefaultEncoding--) | Gets default encoding (charset) for query builder. |
 | [getFrom()](#getFrom--) | Gets the field that allows to find messages that contain the specified string in the envelope structure's FROM field. |
 | [getInternalDate()](#getInternalDate--) | Gets the field that allows to find messages by internal date. |
 | [getQuery()](#getQuery--) | Gets the query. |
@@ -93,10 +91,8 @@ public final StringComparisonField getBcc()
 
 Gets the field that allows to find messages that contain the specified string in the envelope structure's BCC field.
 
-Value: The [DateComparisonField](../../com.aspose.email/datecomparisonfield) that represents BCC search field.
-
 **Returns:**
-[StringComparisonField](../../com.aspose.email/stringcomparisonfield)
+[StringComparisonField](../../com.aspose.email/stringcomparisonfield) - The [StringComparisonField](../../com.aspose.email/stringcomparisonfield) that represents BCC search field.
 ### getBody() {#getBody--}
 ```
 public final StringComparisonField getBody()
@@ -105,10 +101,8 @@ public final StringComparisonField getBody()
 
 Gets the field that allows to find messages that contain the specified string in the body of the message.
 
-Value: The [DateComparisonField](../../com.aspose.email/datecomparisonfield) that represents body search field.
-
 **Returns:**
-[StringComparisonField](../../com.aspose.email/stringcomparisonfield)
+[StringComparisonField](../../com.aspose.email/stringcomparisonfield) - The [StringComparisonField](../../com.aspose.email/stringcomparisonfield) that represents body search field.
 ### getCc() {#getCc--}
 ```
 public final StringComparisonField getCc()
@@ -117,10 +111,8 @@ public final StringComparisonField getCc()
 
 Gets the field that allows to find messages that contain the specified string in the envelope structure's CC field.
 
-Value: The [DateComparisonField](../../com.aspose.email/datecomparisonfield) that represents cc search field.
-
 **Returns:**
-[StringComparisonField](../../com.aspose.email/stringcomparisonfield)
+[StringComparisonField](../../com.aspose.email/stringcomparisonfield) - The [StringComparisonField](../../com.aspose.email/stringcomparisonfield) that represents cc search field.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -137,7 +129,7 @@ public final Charset getDefaultEncoding()
 ```
 
 
-Gets default encoding (charset) for query builder
+Gets default encoding (charset) for query builder.
 
 **Returns:**
 java.nio.charset.Charset
@@ -149,10 +141,8 @@ public final StringComparisonField getFrom()
 
 Gets the field that allows to find messages that contain the specified string in the envelope structure's FROM field.
 
-Value: The [DateComparisonField](../../com.aspose.email/datecomparisonfield) that represents from search field.
-
 **Returns:**
-[StringComparisonField](../../com.aspose.email/stringcomparisonfield)
+[StringComparisonField](../../com.aspose.email/stringcomparisonfield) - The [StringComparisonField](../../com.aspose.email/stringcomparisonfield) that represents from search field.
 ### getInternalDate() {#getInternalDate--}
 ```
 public final DateComparisonField getInternalDate()
@@ -161,10 +151,8 @@ public final DateComparisonField getInternalDate()
 
 Gets the field that allows to find messages by internal date.
 
-Value: The [DateComparisonField](../../com.aspose.email/datecomparisonfield) that represents internal date search field.
-
 **Returns:**
-[DateComparisonField](../../com.aspose.email/datecomparisonfield)
+[DateComparisonField](../../com.aspose.email/datecomparisonfield) - The [DateComparisonField](../../com.aspose.email/datecomparisonfield) that represents internal date search field.
 ### getQuery() {#getQuery--}
 ```
 public MailQuery getQuery()
@@ -183,10 +171,8 @@ public final DateComparisonField getSentDate()
 
 Gets the field that allows to find messages by sent date.
 
-Value: The [DateComparisonField](../../com.aspose.email/datecomparisonfield) that represents sent date search field.
-
 **Returns:**
-[DateComparisonField](../../com.aspose.email/datecomparisonfield)
+[DateComparisonField](../../com.aspose.email/datecomparisonfield) - The [DateComparisonField](../../com.aspose.email/datecomparisonfield) that represents sent date search field.
 ### getSubject() {#getSubject--}
 ```
 public final StringComparisonField getSubject()
@@ -195,10 +181,8 @@ public final StringComparisonField getSubject()
 
 Gets the field that allows to find messages that contain the specified string in the envelope structure's SUBJECT field.
 
-Value: The [DateComparisonField](../../com.aspose.email/datecomparisonfield) that represents subject search field.
-
 **Returns:**
-[StringComparisonField](../../com.aspose.email/stringcomparisonfield)
+[StringComparisonField](../../com.aspose.email/stringcomparisonfield) - The [StringComparisonField](../../com.aspose.email/stringcomparisonfield) that represents subject search field.
 ### getText() {#getText--}
 ```
 public final StringComparisonField getText()
@@ -207,10 +191,8 @@ public final StringComparisonField getText()
 
 Gets the field that allows to find the messages that contain the specified string in the headers (subject, from, to, cc) and body of the message.
 
-Value: The [DateComparisonField](../../com.aspose.email/datecomparisonfield) that represents text header or body search fields.
-
 **Returns:**
-[StringComparisonField](../../com.aspose.email/stringcomparisonfield)
+[StringComparisonField](../../com.aspose.email/stringcomparisonfield) - The [StringComparisonField](../../com.aspose.email/stringcomparisonfield) that represents text header or body search fields.
 ### getTo() {#getTo--}
 ```
 public final StringComparisonField getTo()
@@ -219,10 +201,8 @@ public final StringComparisonField getTo()
 
 Gets the field that allows to find messages that contain the specified string in the envelope structure's TO field.
 
-Value: The [DateComparisonField](../../com.aspose.email/datecomparisonfield) that represents TO search field.
-
 **Returns:**
-[StringComparisonField](../../com.aspose.email/stringcomparisonfield)
+[StringComparisonField](../../com.aspose.email/stringcomparisonfield) - The [StringComparisonField](../../com.aspose.email/stringcomparisonfield) that represents TO search field.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
