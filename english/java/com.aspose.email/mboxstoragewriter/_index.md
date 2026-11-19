@@ -3,7 +3,7 @@ title: MboxStorageWriter
 second_title: Aspose.Email for Java API Reference
 description: A base class for any mbox-based mail storage writer.
 type: docs
-weight: 506
+weight: 509
 url: /java/com.aspose.email/mboxstoragewriter/
 ---
 
@@ -21,7 +21,7 @@ A base class for any mbox-based mail storage writer.
 
 | Method | Description |
 | --- | --- |
-| [close()](#close--) |  |
+| [close()](#close--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [flush()](#flush--) | flush. |
@@ -42,7 +42,7 @@ public void close()
 ```
 
 
-
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ### dispose() {#dispose--}
 ```
@@ -83,10 +83,8 @@ public InputStream getBaseStream()
 
 Gets the base stream.
 
-Value: The base stream.
-
 **Returns:**
-java.io.InputStream
+java.io.InputStream - The base stream.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -1,9 +1,9 @@
 ---
 title: MapiTaskMode
 second_title: Aspose.Email for Java API Reference
-description: Represents the assignment  statuses of the task object.
+description: Defines the assignment status of a task.
 type: docs
-weight: 495
+weight: 498
 url: /java/com.aspose.email/mapitaskmode/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiTaskMode extends System.Enum
 ```
 
-Represents the assignment statuses of the task object.
+Defines the assignment status of a task.
 ## Constructors
 
 | Constructor | Description |
@@ -23,13 +23,13 @@ Represents the assignment statuses of the task object.
 
 | Field | Description |
 | --- | --- |
-| [Accepted](#Accepted) | The Task object has been accepted by the task assignee. |
-| [Assigned](#Assigned) | The Task object was assigned to the task assigner (self-delegation). |
+| [Accepted](#Accepted) | The assignee has accepted the task. |
+| [Assigned](#Assigned) | The task was assigned to the assigner (self-delegation). |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [NotAssigned](#NotAssigned) | The Task object is not assigned. |
-| [Rejected](#Rejected) | The Task object was rejected by the task assignee. |
-| [RequestEmbedded](#RequestEmbedded) | The Task object is embedded in a task request. |
-| [UpdateEmbedded](#UpdateEmbedded) | The Task object is embedded in a task update. |
+| [NotAssigned](#NotAssigned) | The task is not assigned. |
+| [Rejected](#Rejected) | The assignee has rejected the task. |
+| [RequestEmbedded](#RequestEmbedded) | The task is embedded in a task request. |
+| [UpdateEmbedded](#UpdateEmbedded) | The task is embedded in a task update. |
 ## Methods
 
 | Method | Description |
@@ -83,7 +83,7 @@ public static final int Accepted
 ```
 
 
-The Task object has been accepted by the task assignee.
+The assignee has accepted the task.
 
 ### Assigned {#Assigned}
 ```
@@ -91,7 +91,7 @@ public static final int Assigned
 ```
 
 
-The Task object was assigned to the task assigner (self-delegation).
+The task was assigned to the assigner (self-delegation).
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -105,7 +105,7 @@ public static final int NotAssigned
 ```
 
 
-The Task object is not assigned.
+The task is not assigned.
 
 ### Rejected {#Rejected}
 ```
@@ -113,7 +113,7 @@ public static final int Rejected
 ```
 
 
-The Task object was rejected by the task assignee.
+The assignee has rejected the task.
 
 ### RequestEmbedded {#RequestEmbedded}
 ```
@@ -121,7 +121,7 @@ public static final int RequestEmbedded
 ```
 
 
-The Task object is embedded in a task request.
+The task is embedded in a task request.
 
 ### UpdateEmbedded {#UpdateEmbedded}
 ```
@@ -129,7 +129,7 @@ public static final int UpdateEmbedded
 ```
 
 
-The Task object is embedded in a task update.
+The task is embedded in a task update.
 
 ### Clone() {#Clone--}
 ```

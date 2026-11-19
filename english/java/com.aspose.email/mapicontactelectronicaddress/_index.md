@@ -1,9 +1,9 @@
 ---
 title: MapiContactElectronicAddress
 second_title: Aspose.Email for Java API Reference
-description: Refers to the group of properties that  define the e-mail address or fax address for a contact.
+description: An e-mail address or fax number of a contact.
 type: docs
-weight: 437
+weight: 440
 url: /java/com.aspose.email/mapicontactelectronicaddress/
 ---
 
@@ -13,35 +13,37 @@ java.lang.Object, [com.aspose.email.MapiContactAddress](../../com.aspose.email/m
 public final class MapiContactElectronicAddress extends MapiContactAddress
 ```
 
-Refers to the group of properties that define the e-mail address or fax address for a contact.
+An e-mail address or fax number of a contact.
+
+A string converts to this class with \#to\_MapiContactElectronicAddress(String).to\_MapiContactElectronicAddress(String), so an e-mail address can be assigned to  getElectronicAddresses()  as  setEmail1(MapiContactElectronicAddress.to\_MapiContactElectronicAddress("alice@example.com")) .
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
 | [MapiContactElectronicAddress()](#MapiContactElectronicAddress--) | Initializes a new instance of the [MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress) class. |
 | [MapiContactElectronicAddress(String displayName, String addressType, String emailAddress)](#MapiContactElectronicAddress-java.lang.String-java.lang.String-java.lang.String-) | Initializes a new instance of the [MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress) class. |
-| [MapiContactElectronicAddress(String emailAddress)](#MapiContactElectronicAddress-java.lang.String-) | Initializes a new instance of the [MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress) class. |
-| [MapiContactElectronicAddress(String faxNumber, String emailAddress)](#MapiContactElectronicAddress-java.lang.String-java.lang.String-) | Initializes a new instance of the [MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress) class. |
+| [MapiContactElectronicAddress(String emailAddress)](#MapiContactElectronicAddress-java.lang.String-) | Initializes a new instance of the [MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress) class with an e-mail address. |
+| [MapiContactElectronicAddress(String faxNumber, String emailAddress)](#MapiContactElectronicAddress-java.lang.String-java.lang.String-) | Initializes a new instance of the [MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress) class with a fax number and an e-mail address. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal to the current object. |
-| [getAddressType()](#getAddressType--) | Gets or sets the address type of an electronic address |
+| [getAddressType()](#getAddressType--) | Gets the type of the address, such as  SMTP  or  EX  (Exchange). |
 | [getClass()](#getClass--) |  |
-| [getDisplayName()](#getDisplayName--) | Gets or sets the user-readable display name for the e-mail address |
-| [getEmailAddress()](#getEmailAddress--) | Gets or sets the e-mail address of the contact |
-| [getFaxNumber()](#getFaxNumber--) | Gets or sets the telephone number of the mail user's primary fax machine |
-| [getOriginalDisplayName()](#getOriginalDisplayName--) | Gets or sets the SMTP e-mail address that corresponds to the e-mail address for the Contact object. |
-| [hashCode()](#hashCode--) |  |
-| [isEmpty()](#isEmpty--) | Shows if MapiContactElectronicAddress is empty |
+| [getDisplayName()](#getDisplayName--) | Gets the name shown for the address. |
+| [getEmailAddress()](#getEmailAddress--) | Gets the e-mail address. |
+| [getFaxNumber()](#getFaxNumber--) | Gets the fax number. |
+| [getOriginalDisplayName()](#getOriginalDisplayName--) | Gets the SMTP form of the address, used when the address itself is of another type. |
+| [hashCode()](#hashCode--) | Returns the hash code of the address. |
+| [isEmpty()](#isEmpty--) | Gets a value indicating whether no field of the address is set. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAddressType(String value)](#setAddressType-java.lang.String-) | Gets or sets the address type of an electronic address |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Gets or sets the user-readable display name for the e-mail address |
-| [setEmailAddress(String value)](#setEmailAddress-java.lang.String-) | Gets or sets the e-mail address of the contact |
-| [setFaxNumber(String value)](#setFaxNumber-java.lang.String-) | Gets or sets the telephone number of the mail user's primary fax machine |
-| [setOriginalDisplayName(String value)](#setOriginalDisplayName-java.lang.String-) | Gets or sets the SMTP e-mail address that corresponds to the e-mail address for the Contact object. |
+| [setAddressType(String value)](#setAddressType-java.lang.String-) | Sets the type of the address, such as  SMTP  or  EX  (Exchange). |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Sets the name shown for the address. |
+| [setEmailAddress(String value)](#setEmailAddress-java.lang.String-) | Sets the e-mail address. |
+| [setFaxNumber(String value)](#setFaxNumber-java.lang.String-) | Sets the fax number. |
+| [setOriginalDisplayName(String value)](#setOriginalDisplayName-java.lang.String-) | Sets the SMTP form of the address, used when the address itself is of another type. |
 | [toString()](#toString--) | Returns a string that represents the current object. |
 | [to_MapiContactElectronicAddress(String emailAddress)](#to-MapiContactElectronicAddress-java.lang.String-) | Performs an implicit conversion from String to [MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress). |
 | [wait()](#wait--) |  |
@@ -66,9 +68,9 @@ Initializes a new instance of the [MapiContactElectronicAddress](../../com.aspos
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| displayName | java.lang.String | The display name. |
-| addressType | java.lang.String | Type of the address. |
-| emailAddress | java.lang.String | The email address. |
+| displayName | java.lang.String | The name shown for the address. |
+| addressType | java.lang.String | The type of the address, such as  SMTP . |
+| emailAddress | java.lang.String | The e-mail address. |
 
 ### MapiContactElectronicAddress(String emailAddress) {#MapiContactElectronicAddress-java.lang.String-}
 ```
@@ -76,12 +78,12 @@ public MapiContactElectronicAddress(String emailAddress)
 ```
 
 
-Initializes a new instance of the [MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress) class.
+Initializes a new instance of the [MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress) class with an e-mail address.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| emailAddress | java.lang.String | The email address. |
+| emailAddress | java.lang.String | The e-mail address. |
 
 ### MapiContactElectronicAddress(String faxNumber, String emailAddress) {#MapiContactElectronicAddress-java.lang.String-java.lang.String-}
 ```
@@ -89,13 +91,13 @@ public MapiContactElectronicAddress(String faxNumber, String emailAddress)
 ```
 
 
-Initializes a new instance of the [MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress) class.
+Initializes a new instance of the [MapiContactElectronicAddress](../../com.aspose.email/mapicontactelectronicaddress) class with a fax number and an e-mail address.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | faxNumber | java.lang.String | The fax number. |
-| emailAddress | java.lang.String | The email address. |
+| emailAddress | java.lang.String | The e-mail address. |
 
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
@@ -111,14 +113,14 @@ Determines whether the specified object is equal to the current object.
 | obj | java.lang.Object | The object to compare with the current object. |
 
 **Returns:**
-boolean - true if the specified object is equal to the current object; otherwise, false.
+boolean -  true  if the specified object is equal to the current object; otherwise,  false .
 ### getAddressType() {#getAddressType--}
 ```
 public final String getAddressType()
 ```
 
 
-Gets or sets the address type of an electronic address
+Gets the type of the address, such as  SMTP  or  EX  (Exchange).
 
 **Returns:**
 java.lang.String
@@ -138,7 +140,7 @@ public final String getDisplayName()
 ```
 
 
-Gets or sets the user-readable display name for the e-mail address
+Gets the name shown for the address.
 
 **Returns:**
 java.lang.String
@@ -148,7 +150,7 @@ public final String getEmailAddress()
 ```
 
 
-Gets or sets the e-mail address of the contact
+Gets the e-mail address.
 
 **Returns:**
 java.lang.String
@@ -158,7 +160,7 @@ public final String getFaxNumber()
 ```
 
 
-Gets or sets the telephone number of the mail user's primary fax machine
+Gets the fax number.
 
 **Returns:**
 java.lang.String
@@ -168,29 +170,27 @@ public final String getOriginalDisplayName()
 ```
 
 
-Gets or sets the SMTP e-mail address that corresponds to the e-mail address for the Contact object.
-
-Value: The the SMTP e-mail address.
+Gets the SMTP form of the address, used when the address itself is of another type.
 
 **Returns:**
-java.lang.String
+java.lang.String - The SMTP address.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
 ```
 
 
-
+Returns the hash code of the address.
 
 **Returns:**
-int
+int - The hash code.
 ### isEmpty() {#isEmpty--}
 ```
 public final boolean isEmpty()
 ```
 
 
-Shows if MapiContactElectronicAddress is empty
+Gets a value indicating whether no field of the address is set.
 
 **Returns:**
 boolean
@@ -216,7 +216,7 @@ public final void setAddressType(String value)
 ```
 
 
-Gets or sets the address type of an electronic address
+Sets the type of the address, such as  SMTP  or  EX  (Exchange).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -229,7 +229,7 @@ public final void setDisplayName(String value)
 ```
 
 
-Gets or sets the user-readable display name for the e-mail address
+Sets the name shown for the address.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -242,7 +242,7 @@ public final void setEmailAddress(String value)
 ```
 
 
-Gets or sets the e-mail address of the contact
+Sets the e-mail address.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -255,7 +255,7 @@ public final void setFaxNumber(String value)
 ```
 
 
-Gets or sets the telephone number of the mail user's primary fax machine
+Sets the fax number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -268,14 +268,12 @@ public final void setOriginalDisplayName(String value)
 ```
 
 
-Gets or sets the SMTP e-mail address that corresponds to the e-mail address for the Contact object.
-
-Value: The the SMTP e-mail address.
+Sets the SMTP form of the address, used when the address itself is of another type.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The SMTP address. |
 
 ### toString() {#toString--}
 ```

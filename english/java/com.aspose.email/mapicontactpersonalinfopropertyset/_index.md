@@ -1,9 +1,9 @@
 ---
 title: MapiContactPersonalInfoPropertySet
 second_title: Aspose.Email for Java API Reference
-description: Specify other additional contact information
+description: The personal details of a contact such as web pages spouse children hobbies and notes.
 type: docs
-weight: 443
+weight: 446
 url: /java/com.aspose.email/mapicontactpersonalinfopropertyset/
 ---
 
@@ -13,60 +13,60 @@ java.lang.Object, [com.aspose.email.MapiContactPropertySet](../../com.aspose.ema
 public final class MapiContactPersonalInfoPropertySet extends MapiContactPropertySet
 ```
 
-Specify other additional contact information
+The personal details of a contact, such as web pages, spouse, children, hobbies and notes.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MapiContactPersonalInfoPropertySet()](#MapiContactPersonalInfoPropertySet--) | Initializes a new instance of the [MapiContactPersonalInfoPropertySet](../../com.aspose.email/mapicontactpersonalinfopropertyset) class |
-| [MapiContactPersonalInfoPropertySet(MapiPropertyCollection properties)](#MapiContactPersonalInfoPropertySet-com.aspose.email.MapiPropertyCollection-) | Initializes a new instance of the [MapiContactPersonalInfoPropertySet](../../com.aspose.email/mapicontactpersonalinfopropertyset) class |
+| [MapiContactPersonalInfoPropertySet()](#MapiContactPersonalInfoPropertySet--) | Initializes a new instance of the [MapiContactPersonalInfoPropertySet](../../com.aspose.email/mapicontactpersonalinfopropertyset) class. |
+| [MapiContactPersonalInfoPropertySet(MapiPropertyCollection properties)](#MapiContactPersonalInfoPropertySet-com.aspose.email.MapiPropertyCollection-) | Initializes a new instance of the [MapiContactPersonalInfoPropertySet](../../com.aspose.email/mapicontactpersonalinfopropertyset) class from contact properties. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAccount()](#getAccount--) | Specifies the account name of the contact |
-| [getBusinessHomePage()](#getBusinessHomePage--) | Specifies the contact's business web page URL |
-| [getChildren()](#getChildren--) | Contains a list of names of children. |
+| [getAccount()](#getAccount--) | Gets the account name of the contact. |
+| [getBusinessHomePage()](#getBusinessHomePage--) | Gets the URL of the business web page. |
+| [getChildren()](#getChildren--) | Gets the names of the children of the contact. |
 | [getClass()](#getClass--) |  |
-| [getComputerNetworkName()](#getComputerNetworkName--) | Specifies the name of the network to which the contact's computer is connected |
-| [getCustomerId()](#getCustomerId--) | Specifies the contact's customer ID number |
-| [getFreeBusyLocation()](#getFreeBusyLocation--) | Specifies a URL path from which a client can retrieve free/busy information for the contact as an iCal file |
-| [getFtpSite()](#getFtpSite--) | Specifies the contact's File Transfer Protocol (FTP) URL |
-| [getGender()](#getGender--) | Specifies the gender of the contact |
-| [getGovernmentIdNumber()](#getGovernmentIdNumber--) | Specifies the contact's government ID number |
-| [getHobbies()](#getHobbies--) | Specifies the hobbies of the contact |
-| [getHtml()](#getHtml--) | Specifies the contact's business web page URL |
-| [getInstantMessagingAddress()](#getInstantMessagingAddress--) | Specifies the contact's instant messaging address |
-| [getLanguage()](#getLanguage--) | Specifies the language that the contact uses |
-| [getLocation()](#getLocation--) | Specifies the location of the contact |
-| [getNotes()](#getNotes--) | Specifies the additional notes |
-| [getOrganizationalIdNumber()](#getOrganizationalIdNumber--) | Specifies an organizational ID number for the contact |
-| [getPersonalHomePage()](#getPersonalHomePage--) | Specifies the contact's personal web page URL |
-| [getReferredByName()](#getReferredByName--) | Specifies the name of the person who referred this contact to the user |
-| [getSpouseName()](#getSpouseName--) | Specifies the name of the contact's spouse/partner |
+| [getComputerNetworkName()](#getComputerNetworkName--) | Gets the name of the network the computer of the contact is connected to. |
+| [getCustomerId()](#getCustomerId--) | Gets the customer ID of the contact. |
+| [getFreeBusyLocation()](#getFreeBusyLocation--) | Gets the URL from which the free/busy information of the contact can be retrieved as an iCalendar file. |
+| [getFtpSite()](#getFtpSite--) | Gets the FTP URL of the contact. |
+| [getGender()](#getGender--) | Gets the gender of the contact. |
+| [getGovernmentIdNumber()](#getGovernmentIdNumber--) | Gets the government ID number of the contact. |
+| [getHobbies()](#getHobbies--) | Gets the hobbies of the contact. |
+| [getHtml()](#getHtml--) | Gets the URL of the business web page of the contact, as stored in the  PidLidHtml  property. |
+| [getInstantMessagingAddress()](#getInstantMessagingAddress--) | Gets the instant messaging address of the contact. |
+| [getLanguage()](#getLanguage--) | Gets the language the contact uses. |
+| [getLocation()](#getLocation--) | Gets the location of the contact. |
+| [getNotes()](#getNotes--) | Gets additional notes about the contact. |
+| [getOrganizationalIdNumber()](#getOrganizationalIdNumber--) | Gets the organizational ID number of the contact. |
+| [getPersonalHomePage()](#getPersonalHomePage--) | Gets the URL of the personal web page. |
+| [getReferredByName()](#getReferredByName--) | Gets the name of the person who referred the contact to the user. |
+| [getSpouseName()](#getSpouseName--) | Gets the name of the spouse or partner of the contact. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAccount(String value)](#setAccount-java.lang.String-) | Specifies the account name of the contact |
-| [setBusinessHomePage(String value)](#setBusinessHomePage-java.lang.String-) | Specifies the contact's business web page URL |
-| [setChildren(String[] value)](#setChildren-java.lang.String---) | Contains a list of names of children. |
-| [setComputerNetworkName(String value)](#setComputerNetworkName-java.lang.String-) | Specifies the name of the network to which the contact's computer is connected |
-| [setCustomerId(String value)](#setCustomerId-java.lang.String-) | Specifies the contact's customer ID number |
-| [setFreeBusyLocation(String value)](#setFreeBusyLocation-java.lang.String-) | Specifies a URL path from which a client can retrieve free/busy information for the contact as an iCal file |
-| [setFtpSite(String value)](#setFtpSite-java.lang.String-) | Specifies the contact's File Transfer Protocol (FTP) URL |
-| [setGender(int value)](#setGender-int-) | Specifies the gender of the contact |
-| [setGovernmentIdNumber(String value)](#setGovernmentIdNumber-java.lang.String-) | Specifies the contact's government ID number |
-| [setHobbies(String value)](#setHobbies-java.lang.String-) | Specifies the hobbies of the contact |
-| [setHtml(String value)](#setHtml-java.lang.String-) | Specifies the contact's business web page URL |
-| [setInstantMessagingAddress(String value)](#setInstantMessagingAddress-java.lang.String-) | Specifies the contact's instant messaging address |
-| [setLanguage(String value)](#setLanguage-java.lang.String-) | Specifies the language that the contact uses |
-| [setLocation(String value)](#setLocation-java.lang.String-) | Specifies the location of the contact |
-| [setNotes(String value)](#setNotes-java.lang.String-) | Specifies the additional notes |
-| [setOrganizationalIdNumber(String value)](#setOrganizationalIdNumber-java.lang.String-) | Specifies an organizational ID number for the contact |
-| [setPersonalHomePage(String value)](#setPersonalHomePage-java.lang.String-) | Specifies the contact's personal web page URL |
-| [setReferredByName(String value)](#setReferredByName-java.lang.String-) | Specifies the name of the person who referred this contact to the user |
-| [setSpouseName(String value)](#setSpouseName-java.lang.String-) | Specifies the name of the contact's spouse/partner |
+| [setAccount(String value)](#setAccount-java.lang.String-) | Sets the account name of the contact. |
+| [setBusinessHomePage(String value)](#setBusinessHomePage-java.lang.String-) | Sets the URL of the business web page. |
+| [setChildren(String[] value)](#setChildren-java.lang.String---) | Sets the names of the children of the contact. |
+| [setComputerNetworkName(String value)](#setComputerNetworkName-java.lang.String-) | Sets the name of the network the computer of the contact is connected to. |
+| [setCustomerId(String value)](#setCustomerId-java.lang.String-) | Sets the customer ID of the contact. |
+| [setFreeBusyLocation(String value)](#setFreeBusyLocation-java.lang.String-) | Sets the URL from which the free/busy information of the contact can be retrieved as an iCalendar file. |
+| [setFtpSite(String value)](#setFtpSite-java.lang.String-) | Sets the FTP URL of the contact. |
+| [setGender(int value)](#setGender-int-) | Sets the gender of the contact. |
+| [setGovernmentIdNumber(String value)](#setGovernmentIdNumber-java.lang.String-) | Sets the government ID number of the contact. |
+| [setHobbies(String value)](#setHobbies-java.lang.String-) | Sets the hobbies of the contact. |
+| [setHtml(String value)](#setHtml-java.lang.String-) | Sets the URL of the business web page of the contact, as stored in the  PidLidHtml  property. |
+| [setInstantMessagingAddress(String value)](#setInstantMessagingAddress-java.lang.String-) | Sets the instant messaging address of the contact. |
+| [setLanguage(String value)](#setLanguage-java.lang.String-) | Sets the language the contact uses. |
+| [setLocation(String value)](#setLocation-java.lang.String-) | Sets the location of the contact. |
+| [setNotes(String value)](#setNotes-java.lang.String-) | Sets additional notes about the contact. |
+| [setOrganizationalIdNumber(String value)](#setOrganizationalIdNumber-java.lang.String-) | Sets the organizational ID number of the contact. |
+| [setPersonalHomePage(String value)](#setPersonalHomePage-java.lang.String-) | Sets the URL of the personal web page. |
+| [setReferredByName(String value)](#setReferredByName-java.lang.String-) | Sets the name of the person who referred the contact to the user. |
+| [setSpouseName(String value)](#setSpouseName-java.lang.String-) | Sets the name of the spouse or partner of the contact. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -77,7 +77,7 @@ public MapiContactPersonalInfoPropertySet()
 ```
 
 
-Initializes a new instance of the [MapiContactPersonalInfoPropertySet](../../com.aspose.email/mapicontactpersonalinfopropertyset) class
+Initializes a new instance of the [MapiContactPersonalInfoPropertySet](../../com.aspose.email/mapicontactpersonalinfopropertyset) class.
 
 ### MapiContactPersonalInfoPropertySet(MapiPropertyCollection properties) {#MapiContactPersonalInfoPropertySet-com.aspose.email.MapiPropertyCollection-}
 ```
@@ -85,12 +85,12 @@ public MapiContactPersonalInfoPropertySet(MapiPropertyCollection properties)
 ```
 
 
-Initializes a new instance of the [MapiContactPersonalInfoPropertySet](../../com.aspose.email/mapicontactpersonalinfopropertyset) class
+Initializes a new instance of the [MapiContactPersonalInfoPropertySet](../../com.aspose.email/mapicontactpersonalinfopropertyset) class from contact properties.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| properties | [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) | A [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) containing contact personal properties |
+| properties | [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) | The properties that contain the personal details. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -113,7 +113,7 @@ public final String getAccount()
 ```
 
 
-Specifies the account name of the contact
+Gets the account name of the contact.
 
 **Returns:**
 java.lang.String
@@ -123,7 +123,7 @@ public final String getBusinessHomePage()
 ```
 
 
-Specifies the contact's business web page URL
+Gets the URL of the business web page.
 
 **Returns:**
 java.lang.String
@@ -133,7 +133,7 @@ public final String[] getChildren()
 ```
 
 
-Contains a list of names of children.
+Gets the names of the children of the contact.
 
 **Returns:**
 java.lang.String[]
@@ -153,7 +153,7 @@ public final String getComputerNetworkName()
 ```
 
 
-Specifies the name of the network to which the contact's computer is connected
+Gets the name of the network the computer of the contact is connected to.
 
 **Returns:**
 java.lang.String
@@ -163,7 +163,7 @@ public final String getCustomerId()
 ```
 
 
-Specifies the contact's customer ID number
+Gets the customer ID of the contact.
 
 **Returns:**
 java.lang.String
@@ -173,7 +173,7 @@ public final String getFreeBusyLocation()
 ```
 
 
-Specifies a URL path from which a client can retrieve free/busy information for the contact as an iCal file
+Gets the URL from which the free/busy information of the contact can be retrieved as an iCalendar file.
 
 **Returns:**
 java.lang.String
@@ -183,7 +183,7 @@ public final String getFtpSite()
 ```
 
 
-Specifies the contact's File Transfer Protocol (FTP) URL
+Gets the FTP URL of the contact.
 
 **Returns:**
 java.lang.String
@@ -193,7 +193,7 @@ public final int getGender()
 ```
 
 
-Specifies the gender of the contact
+Gets the gender of the contact.
 
 **Returns:**
 int
@@ -203,7 +203,7 @@ public final String getGovernmentIdNumber()
 ```
 
 
-Specifies the contact's government ID number
+Gets the government ID number of the contact.
 
 **Returns:**
 java.lang.String
@@ -213,7 +213,7 @@ public final String getHobbies()
 ```
 
 
-Specifies the hobbies of the contact
+Gets the hobbies of the contact.
 
 **Returns:**
 java.lang.String
@@ -223,7 +223,7 @@ public final String getHtml()
 ```
 
 
-Specifies the contact's business web page URL
+Gets the URL of the business web page of the contact, as stored in the  PidLidHtml  property.
 
 **Returns:**
 java.lang.String
@@ -233,7 +233,7 @@ public final String getInstantMessagingAddress()
 ```
 
 
-Specifies the contact's instant messaging address
+Gets the instant messaging address of the contact.
 
 **Returns:**
 java.lang.String
@@ -243,7 +243,7 @@ public final String getLanguage()
 ```
 
 
-Specifies the language that the contact uses
+Gets the language the contact uses.
 
 **Returns:**
 java.lang.String
@@ -253,7 +253,7 @@ public final String getLocation()
 ```
 
 
-Specifies the location of the contact
+Gets the location of the contact.
 
 **Returns:**
 java.lang.String
@@ -263,7 +263,7 @@ public final String getNotes()
 ```
 
 
-Specifies the additional notes
+Gets additional notes about the contact.
 
 **Returns:**
 java.lang.String
@@ -273,7 +273,7 @@ public final String getOrganizationalIdNumber()
 ```
 
 
-Specifies an organizational ID number for the contact
+Gets the organizational ID number of the contact.
 
 **Returns:**
 java.lang.String
@@ -283,7 +283,7 @@ public final String getPersonalHomePage()
 ```
 
 
-Specifies the contact's personal web page URL
+Gets the URL of the personal web page.
 
 **Returns:**
 java.lang.String
@@ -293,7 +293,7 @@ public final String getReferredByName()
 ```
 
 
-Specifies the name of the person who referred this contact to the user
+Gets the name of the person who referred the contact to the user.
 
 **Returns:**
 java.lang.String
@@ -303,7 +303,7 @@ public final String getSpouseName()
 ```
 
 
-Specifies the name of the contact's spouse/partner
+Gets the name of the spouse or partner of the contact.
 
 **Returns:**
 java.lang.String
@@ -339,7 +339,7 @@ public final void setAccount(String value)
 ```
 
 
-Specifies the account name of the contact
+Sets the account name of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -352,7 +352,7 @@ public final void setBusinessHomePage(String value)
 ```
 
 
-Specifies the contact's business web page URL
+Sets the URL of the business web page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -365,7 +365,7 @@ public final void setChildren(String[] value)
 ```
 
 
-Contains a list of names of children.
+Sets the names of the children of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -378,7 +378,7 @@ public final void setComputerNetworkName(String value)
 ```
 
 
-Specifies the name of the network to which the contact's computer is connected
+Sets the name of the network the computer of the contact is connected to.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -391,7 +391,7 @@ public final void setCustomerId(String value)
 ```
 
 
-Specifies the contact's customer ID number
+Sets the customer ID of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -404,7 +404,7 @@ public final void setFreeBusyLocation(String value)
 ```
 
 
-Specifies a URL path from which a client can retrieve free/busy information for the contact as an iCal file
+Sets the URL from which the free/busy information of the contact can be retrieved as an iCalendar file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -417,7 +417,7 @@ public final void setFtpSite(String value)
 ```
 
 
-Specifies the contact's File Transfer Protocol (FTP) URL
+Sets the FTP URL of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -430,7 +430,7 @@ public final void setGender(int value)
 ```
 
 
-Specifies the gender of the contact
+Sets the gender of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -443,7 +443,7 @@ public final void setGovernmentIdNumber(String value)
 ```
 
 
-Specifies the contact's government ID number
+Sets the government ID number of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -456,7 +456,7 @@ public final void setHobbies(String value)
 ```
 
 
-Specifies the hobbies of the contact
+Sets the hobbies of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -469,7 +469,7 @@ public final void setHtml(String value)
 ```
 
 
-Specifies the contact's business web page URL
+Sets the URL of the business web page of the contact, as stored in the  PidLidHtml  property.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -482,7 +482,7 @@ public final void setInstantMessagingAddress(String value)
 ```
 
 
-Specifies the contact's instant messaging address
+Sets the instant messaging address of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -495,7 +495,7 @@ public final void setLanguage(String value)
 ```
 
 
-Specifies the language that the contact uses
+Sets the language the contact uses.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -508,7 +508,7 @@ public final void setLocation(String value)
 ```
 
 
-Specifies the location of the contact
+Sets the location of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -521,7 +521,7 @@ public final void setNotes(String value)
 ```
 
 
-Specifies the additional notes
+Sets additional notes about the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -534,7 +534,7 @@ public final void setOrganizationalIdNumber(String value)
 ```
 
 
-Specifies an organizational ID number for the contact
+Sets the organizational ID number of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -547,7 +547,7 @@ public final void setPersonalHomePage(String value)
 ```
 
 
-Specifies the contact's personal web page URL
+Sets the URL of the personal web page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -560,7 +560,7 @@ public final void setReferredByName(String value)
 ```
 
 
-Specifies the name of the person who referred this contact to the user
+Sets the name of the person who referred the contact to the user.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -573,7 +573,7 @@ public final void setSpouseName(String value)
 ```
 
 
-Specifies the name of the contact's spouse/partner
+Sets the name of the spouse or partner of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |

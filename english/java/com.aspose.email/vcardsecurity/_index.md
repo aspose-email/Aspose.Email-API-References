@@ -1,9 +1,9 @@
 ---
 title: VCardSecurity
 second_title: Aspose.Email for Java API Reference
-description: Represents a vCard security properties
+description: Represents a vCard security properties.
 type: docs
-weight: 750
+weight: 761
 url: /java/com.aspose.email/vcardsecurity/
 ---
 
@@ -13,31 +13,31 @@ java.lang.Object
 public final class VCardSecurity
 ```
 
-Represents a vCard security properties
+Represents a vCard security properties.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [VCardSecurity()](#VCardSecurity--) | Initializes a new instance of the [VCardSecurity](../../com.aspose.email/vcardsecurity) class |
+| [VCardSecurity()](#VCardSecurity--) | Initializes a new instance of the [VCardSecurity](../../com.aspose.email/vcardsecurity) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAccessClass()](#getAccessClass--) | Gets or sets an access class |
+| [getAccessClass()](#getAccessClass--) | Gets an access class. |
 | [getClass()](#getClass--) |  |
-| [getEncoding()](#getEncoding--) | Gets or sets a ContentTransferEncoding |
-| [getKey()](#getKey--) | Gets or sets a public key(or authentication certificate) |
-| [getType()](#getType--) | Gets or sets type of public key. |
+| [getEncoding()](#getEncoding--) | Gets a ContentTransferEncoding. |
+| [getKey()](#getKey--) | Gets a public key(or authentication certificate). |
+| [getType()](#getType--) | Gets type of public key. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [saveToPEM(OutputStream stream)](#saveToPEM-java.io.OutputStream-) | Saves base64 key in PEM format to the stream. |
 | [saveToPEM(String path)](#saveToPEM-java.lang.String-) | Saves base64 key to PEM format. |
-| [setAccessClass(String value)](#setAccessClass-java.lang.String-) | Gets or sets an access class |
-| [setEncoding(int value)](#setEncoding-int-) | Gets or sets a ContentTransferEncoding |
-| [setKey(String value)](#setKey-java.lang.String-) | Gets or sets a public key(or authentication certificate) |
-| [setType(String value)](#setType-java.lang.String-) | Gets or sets type of public key. |
+| [setAccessClass(String value)](#setAccessClass-java.lang.String-) | Sets an access class. |
+| [setEncoding(int value)](#setEncoding-int-) | Sets a ContentTransferEncoding. |
+| [setKey(String value)](#setKey-java.lang.String-) | Sets a public key(or authentication certificate). |
+| [setType(String value)](#setType-java.lang.String-) | Sets type of public key. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,7 +48,7 @@ public VCardSecurity()
 ```
 
 
-Initializes a new instance of the [VCardSecurity](../../com.aspose.email/vcardsecurity) class
+Initializes a new instance of the [VCardSecurity](../../com.aspose.email/vcardsecurity) class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -71,7 +71,7 @@ public final String getAccessClass()
 ```
 
 
-Gets or sets an access class
+Gets an access class.
 
 **Returns:**
 java.lang.String
@@ -91,7 +91,7 @@ public final int getEncoding()
 ```
 
 
-Gets or sets a ContentTransferEncoding
+Gets a ContentTransferEncoding.
 
 **Returns:**
 int
@@ -101,7 +101,7 @@ public final String getKey()
 ```
 
 
-Gets or sets a public key(or authentication certificate)
+Gets a public key(or authentication certificate).
 
 **Returns:**
 java.lang.String
@@ -111,7 +111,7 @@ public final String getType()
 ```
 
 
-Gets or sets type of public key.
+Gets type of public key.
 
 **Returns:**
 java.lang.String
@@ -173,7 +173,7 @@ public final void setAccessClass(String value)
 ```
 
 
-Gets or sets an access class
+Sets an access class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -186,7 +186,7 @@ public final void setEncoding(int value)
 ```
 
 
-Gets or sets a ContentTransferEncoding
+Sets a ContentTransferEncoding.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -199,7 +199,7 @@ public final void setKey(String value)
 ```
 
 
-Gets or sets a public key(or authentication certificate)
+Sets a public key(or authentication certificate).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -212,7 +212,7 @@ public final void setType(String value)
 ```
 
 
-Gets or sets type of public key.
+Sets type of public key.
 
 **Parameters:**
 | Parameter | Type | Description |

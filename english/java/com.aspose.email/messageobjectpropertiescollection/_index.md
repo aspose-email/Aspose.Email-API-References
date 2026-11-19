@@ -3,7 +3,7 @@ title: MessageObjectPropertiesCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a keyed collection for  objects.
 type: docs
-weight: 525
+weight: 528
 url: /java/com.aspose.email/messageobjectpropertiescollection/
 ---
 
@@ -429,7 +429,7 @@ Tries to get value, by specified key.
 | propertyTag | long | The property tag. |
 
 **Returns:**
-[MessageObjectProperty](../../com.aspose.email/messageobjectproperty) - [MessageObjectProperty](../../com.aspose.email/messageobjectproperty) object if operation succeeds, otherwise null.
+[MessageObjectProperty](../../com.aspose.email/messageobjectproperty) - [MessageObjectProperty](../../com.aspose.email/messageobjectproperty) object if operation succeeds, otherwise  null .
 ### wait() {#wait--}
 ```
 public final void wait()

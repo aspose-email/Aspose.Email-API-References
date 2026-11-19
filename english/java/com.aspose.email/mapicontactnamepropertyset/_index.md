@@ -1,9 +1,9 @@
 ---
 title: MapiContactNamePropertySet
 second_title: Aspose.Email for Java API Reference
-description: The properties are used to specify the name  of the person represented by the contact
+description: The name of a contact given name surname title and so on.
 type: docs
-weight: 441
+weight: 444
 url: /java/com.aspose.email/mapicontactnamepropertyset/
 ---
 
@@ -13,42 +13,42 @@ java.lang.Object, [com.aspose.email.MapiContactPropertySet](../../com.aspose.ema
 public final class MapiContactNamePropertySet extends MapiContactPropertySet
 ```
 
-The properties are used to specify the name of the person represented by the contact
+The name of a contact: given name, surname, title and so on.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MapiContactNamePropertySet()](#MapiContactNamePropertySet--) | Initializes a new instance of [MapiContactNamePropertySet](../../com.aspose.email/mapicontactnamepropertyset) class |
-| [MapiContactNamePropertySet(String givenName, String middleName, String surname)](#MapiContactNamePropertySet-java.lang.String-java.lang.String-java.lang.String-) | Initializes a new instance of [MapiContactNamePropertySet](../../com.aspose.email/mapicontactnamepropertyset) class. |
+| [MapiContactNamePropertySet()](#MapiContactNamePropertySet--) | Initializes a new instance of the [MapiContactNamePropertySet](../../com.aspose.email/mapicontactnamepropertyset) class. |
+| [MapiContactNamePropertySet(String givenName, String middleName, String surname)](#MapiContactNamePropertySet-java.lang.String-java.lang.String-java.lang.String-) | Initializes a new instance of the [MapiContactNamePropertySet](../../com.aspose.email/mapicontactnamepropertyset) class with the specified names. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDisplayName()](#getDisplayName--) | Gets or sets the full name of the contact |
-| [getDisplayNamePrefix()](#getDisplayNamePrefix--) | Gets or sets the title of the contact |
-| [getFileUnder()](#getFileUnder--) | Gets or sets the name under which to file this contact when displaying a list of contacts |
-| [getFileUnderID()](#getFileUnderID--) | Gets or sets a value specifying how to generate and recompute the (/) property when other properties are changed |
-| [getGeneration()](#getGeneration--) | Gets or sets the generation suffix of the contact |
-| [getGivenName()](#getGivenName--) | Gets or sets the given name (first name) of the contact |
-| [getInitials()](#getInitials--) | Gets or sets the initials of the contact |
-| [getMiddleName()](#getMiddleName--) | Gets or sets the middle name of the contact |
-| [getNickname()](#getNickname--) | Gets or sets the nickname of the contact |
-| [getSurname()](#getSurname--) | Gets or sets the surname (family name) of the contact |
+| [getDisplayName()](#getDisplayName--) | Gets the full name of the contact. |
+| [getDisplayNamePrefix()](#getDisplayNamePrefix--) | Gets the title of the contact, such as  Dr. . |
+| [getFileUnder()](#getFileUnder--) | Gets the name the contact is filed under in lists of contacts, such as  Smith, John . |
+| [getFileUnderID()](#getFileUnderID--) | Gets how \#getFileUnder().getFileUnder() is built from the other name properties and rebuilt when they change. |
+| [getGeneration()](#getGeneration--) | Gets the generation suffix of the contact, such as  Jr. . |
+| [getGivenName()](#getGivenName--) | Gets the given (first) name of the contact. |
+| [getInitials()](#getInitials--) | Gets the initials of the contact. |
+| [getMiddleName()](#getMiddleName--) | Gets the middle name of the contact. |
+| [getNickname()](#getNickname--) | Gets the nickname of the contact. |
+| [getSurname()](#getSurname--) | Gets the surname (family name) of the contact. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Gets or sets the full name of the contact |
-| [setDisplayNamePrefix(String value)](#setDisplayNamePrefix-java.lang.String-) | Gets or sets the title of the contact |
-| [setFileUnder(String value)](#setFileUnder-java.lang.String-) | Gets or sets the name under which to file this contact when displaying a list of contacts |
-| [setFileUnderID(long value)](#setFileUnderID-long-) | Gets or sets a value specifying how to generate and recompute the (/) property when other properties are changed |
-| [setGeneration(String value)](#setGeneration-java.lang.String-) | Gets or sets the generation suffix of the contact |
-| [setGivenName(String value)](#setGivenName-java.lang.String-) | Gets or sets the given name (first name) of the contact |
-| [setInitials(String value)](#setInitials-java.lang.String-) | Gets or sets the initials of the contact |
-| [setMiddleName(String value)](#setMiddleName-java.lang.String-) | Gets or sets the middle name of the contact |
-| [setNickname(String value)](#setNickname-java.lang.String-) | Gets or sets the nickname of the contact |
-| [setSurname(String value)](#setSurname-java.lang.String-) | Gets or sets the surname (family name) of the contact |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Sets the full name of the contact. |
+| [setDisplayNamePrefix(String value)](#setDisplayNamePrefix-java.lang.String-) | Sets the title of the contact, such as  Dr. . |
+| [setFileUnder(String value)](#setFileUnder-java.lang.String-) | Sets the name the contact is filed under in lists of contacts, such as  Smith, John . |
+| [setFileUnderID(long value)](#setFileUnderID-long-) | Sets how \#getFileUnder().getFileUnder() is built from the other name properties and rebuilt when they change. |
+| [setGeneration(String value)](#setGeneration-java.lang.String-) | Sets the generation suffix of the contact, such as  Jr. . |
+| [setGivenName(String value)](#setGivenName-java.lang.String-) | Sets the given (first) name of the contact. |
+| [setInitials(String value)](#setInitials-java.lang.String-) | Sets the initials of the contact. |
+| [setMiddleName(String value)](#setMiddleName-java.lang.String-) | Sets the middle name of the contact. |
+| [setNickname(String value)](#setNickname-java.lang.String-) | Sets the nickname of the contact. |
+| [setSurname(String value)](#setSurname-java.lang.String-) | Sets the surname (family name) of the contact. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -59,7 +59,7 @@ public MapiContactNamePropertySet()
 ```
 
 
-Initializes a new instance of [MapiContactNamePropertySet](../../com.aspose.email/mapicontactnamepropertyset) class
+Initializes a new instance of the [MapiContactNamePropertySet](../../com.aspose.email/mapicontactnamepropertyset) class.
 
 ### MapiContactNamePropertySet(String givenName, String middleName, String surname) {#MapiContactNamePropertySet-java.lang.String-java.lang.String-java.lang.String-}
 ```
@@ -67,14 +67,14 @@ public MapiContactNamePropertySet(String givenName, String middleName, String su
 ```
 
 
-Initializes a new instance of [MapiContactNamePropertySet](../../com.aspose.email/mapicontactnamepropertyset) class.
+Initializes a new instance of the [MapiContactNamePropertySet](../../com.aspose.email/mapicontactnamepropertyset) class with the specified names.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| givenName | java.lang.String | The string that represents a given name. |
-| middleName | java.lang.String | The string that represents a middle name. |
-| surname | java.lang.String | The string that represents a surname. |
+| givenName | java.lang.String | The given (first) name. |
+| middleName | java.lang.String | The middle name. |
+| surname | java.lang.String | The surname (family name). |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -107,7 +107,7 @@ public final String getDisplayName()
 ```
 
 
-Gets or sets the full name of the contact
+Gets the full name of the contact.
 
 **Returns:**
 java.lang.String
@@ -117,7 +117,7 @@ public final String getDisplayNamePrefix()
 ```
 
 
-Gets or sets the title of the contact
+Gets the title of the contact, such as  Dr. .
 
 **Returns:**
 java.lang.String
@@ -127,7 +127,7 @@ public final String getFileUnder()
 ```
 
 
-Gets or sets the name under which to file this contact when displaying a list of contacts
+Gets the name the contact is filed under in lists of contacts, such as  Smith, John .
 
 **Returns:**
 java.lang.String
@@ -137,9 +137,7 @@ public final long getFileUnderID()
 ```
 
 
-Gets or sets a value specifying how to generate and recompute the (/) property when other properties are changed
-
-//@see FileUnder
+Gets how \#getFileUnder().getFileUnder() is built from the other name properties and rebuilt when they change.
 
 **Returns:**
 long
@@ -149,7 +147,7 @@ public final String getGeneration()
 ```
 
 
-Gets or sets the generation suffix of the contact
+Gets the generation suffix of the contact, such as  Jr. .
 
 **Returns:**
 java.lang.String
@@ -159,7 +157,7 @@ public final String getGivenName()
 ```
 
 
-Gets or sets the given name (first name) of the contact
+Gets the given (first) name of the contact.
 
 **Returns:**
 java.lang.String
@@ -169,7 +167,7 @@ public final String getInitials()
 ```
 
 
-Gets or sets the initials of the contact
+Gets the initials of the contact.
 
 **Returns:**
 java.lang.String
@@ -179,7 +177,7 @@ public final String getMiddleName()
 ```
 
 
-Gets or sets the middle name of the contact
+Gets the middle name of the contact.
 
 **Returns:**
 java.lang.String
@@ -189,7 +187,7 @@ public final String getNickname()
 ```
 
 
-Gets or sets the nickname of the contact
+Gets the nickname of the contact.
 
 **Returns:**
 java.lang.String
@@ -199,7 +197,7 @@ public final String getSurname()
 ```
 
 
-Gets or sets the surname (family name) of the contact
+Gets the surname (family name) of the contact.
 
 **Returns:**
 java.lang.String
@@ -235,7 +233,7 @@ public final void setDisplayName(String value)
 ```
 
 
-Gets or sets the full name of the contact
+Sets the full name of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -248,7 +246,7 @@ public final void setDisplayNamePrefix(String value)
 ```
 
 
-Gets or sets the title of the contact
+Sets the title of the contact, such as  Dr. .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -261,7 +259,7 @@ public final void setFileUnder(String value)
 ```
 
 
-Gets or sets the name under which to file this contact when displaying a list of contacts
+Sets the name the contact is filed under in lists of contacts, such as  Smith, John .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -274,9 +272,7 @@ public final void setFileUnderID(long value)
 ```
 
 
-Gets or sets a value specifying how to generate and recompute the (/) property when other properties are changed
-
-//@see FileUnder
+Sets how \#getFileUnder().getFileUnder() is built from the other name properties and rebuilt when they change.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -289,7 +285,7 @@ public final void setGeneration(String value)
 ```
 
 
-Gets or sets the generation suffix of the contact
+Sets the generation suffix of the contact, such as  Jr. .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -302,7 +298,7 @@ public final void setGivenName(String value)
 ```
 
 
-Gets or sets the given name (first name) of the contact
+Sets the given (first) name of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -315,7 +311,7 @@ public final void setInitials(String value)
 ```
 
 
-Gets or sets the initials of the contact
+Sets the initials of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -328,7 +324,7 @@ public final void setMiddleName(String value)
 ```
 
 
-Gets or sets the middle name of the contact
+Sets the middle name of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -341,7 +337,7 @@ public final void setNickname(String value)
 ```
 
 
-Gets or sets the nickname of the contact
+Sets the nickname of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -354,7 +350,7 @@ public final void setSurname(String value)
 ```
 
 
-Gets or sets the surname (family name) of the contact
+Sets the surname (family name) of the contact.
 
 **Parameters:**
 | Parameter | Type | Description |

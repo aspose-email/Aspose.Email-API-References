@@ -1,37 +1,40 @@
 ---
 title: VCardEmail
 second_title: Aspose.Email for Java API Reference
-description: Represents vCard email
+description: Represents vCard email.
 type: docs
-weight: 736
+weight: 746
 url: /java/com.aspose.email/vcardemail/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.email.VCardHeaderInfo](../../com.aspose.email/vcardheaderinfo)
 ```
-public final class VCardEmail
+public final class VCardEmail extends VCardHeaderInfo
 ```
 
-Represents vCard email
+Represents vCard email.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [VCardEmail()](#VCardEmail--) | Initializes a new instance of the [VCardEmail](../../com.aspose.email/vcardemail) class |
+| [VCardEmail()](#VCardEmail--) | Initializes a new instance of the [VCardEmail](../../com.aspose.email/vcardemail) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getEmailAddress()](#getEmailAddress--) | Gets or sets an email address |
-| [getEmailType()](#getEmailType--) | Gets or sets an email address type |
+| [getEmailAddress()](#getEmailAddress--) | Gets an email address. |
+| [getEmailType()](#getEmailType--) | Gets an email address type. |
+| [getParameters()](#getParameters--) | Gets a property parameters. |
+| [getValueLocation()](#getValueLocation--) | Gets a value location. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEmailAddress(String value)](#setEmailAddress-java.lang.String-) | Gets or sets an email address |
-| [setEmailType(int value)](#setEmailType-int-) | Gets or sets an email address type |
+| [setEmailAddress(String value)](#setEmailAddress-java.lang.String-) | Sets an email address. |
+| [setEmailType(int value)](#setEmailType-int-) | Sets an email address type. |
+| [setValueLocation(int value)](#setValueLocation-int-) | Sets a value location. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -42,7 +45,7 @@ public VCardEmail()
 ```
 
 
-Initializes a new instance of the [VCardEmail](../../com.aspose.email/vcardemail) class
+Initializes a new instance of the [VCardEmail](../../com.aspose.email/vcardemail) class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -75,7 +78,7 @@ public final String getEmailAddress()
 ```
 
 
-Gets or sets an email address
+Gets an email address.
 
 **Returns:**
 java.lang.String
@@ -85,7 +88,27 @@ public final int getEmailType()
 ```
 
 
-Gets or sets an email address type
+Gets an email address type.
+
+**Returns:**
+int
+### getParameters() {#getParameters--}
+```
+public final List<String> getParameters()
+```
+
+
+Gets a property parameters.
+
+**Returns:**
+java.util.List<java.lang.String>
+### getValueLocation() {#getValueLocation--}
+```
+public final int getValueLocation()
+```
+
+
+Gets a value location.
 
 **Returns:**
 int
@@ -121,7 +144,7 @@ public final void setEmailAddress(String value)
 ```
 
 
-Gets or sets an email address
+Sets an email address.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -134,7 +157,20 @@ public final void setEmailType(int value)
 ```
 
 
-Gets or sets an email address type
+Sets an email address type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setValueLocation(int value) {#setValueLocation-int-}
+```
+public final void setValueLocation(int value)
+```
+
+
+Sets a value location.
 
 **Parameters:**
 | Parameter | Type | Description |

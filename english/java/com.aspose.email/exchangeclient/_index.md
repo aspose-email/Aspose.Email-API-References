@@ -3,7 +3,7 @@ title: ExchangeClient
 second_title: Aspose.Email for Java API Reference
 description: The ExchangeClient class allows applications to manage E-Mail box in Microsoft Exchange Server by using WebDav Exchange Store Protocol.
 type: docs
-weight: 197
+weight: 200
 url: /java/com.aspose.email/exchangeclient/
 ---
 
@@ -651,7 +651,7 @@ public System.Net.WebProxy getProxy()
 Gets or sets the proxy.
 
 **Returns:**
-com.aspose.ms.System.Net.WebProxy
+[WebProxy](../../com.aspose.ms.system.net/webproxy)
 ### getSendChunked() {#getSendChunked--}
 ```
 public final boolean getSendChunked()

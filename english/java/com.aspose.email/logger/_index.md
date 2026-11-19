@@ -3,7 +3,7 @@ title: Logger
 second_title: Aspose.Email for Java API Reference
 description: Provides the logging functionality.
 type: docs
-weight: 375
+weight: 378
 url: /java/com.aspose.email/logger/
 ---
 
@@ -23,17 +23,17 @@ Provides the logging functionality.
 | --- | --- |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAppenders()](#getAppenders--) | Gets or sets the appender list. |
+| [getAppenders()](#getAppenders--) | Gets the appender list. |
 | [getClass()](#getClass--) |  |
 | [getDebug()](#getDebug--) | Gets the debug logger. |
-| [getName()](#getName--) | Gets or sets name. |
-| [getSeverity()](#getSeverity--) | Gets or sets severity. |
+| [getName()](#getName--) | Gets name. |
+| [getSeverity()](#getSeverity--) | Gets severity. |
 | [hashCode()](#hashCode--) |  |
 | [isEnabled(LogLevel level)](#isEnabled-com.aspose.email.LogLevel-) | Determines if logging is enabled for the specified level. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAppenders(AppenderCollection value)](#setAppenders-com.aspose.email.AppenderCollection-) | Gets or sets the appender list. |
-| [setSeverity(LogLevel value)](#setSeverity-com.aspose.email.LogLevel-) | Gets or sets severity. |
+| [setAppenders(AppenderCollection value)](#setAppenders-com.aspose.email.AppenderCollection-) | Sets the appender list. |
+| [setSeverity(LogLevel value)](#setSeverity-com.aspose.email.LogLevel-) | Sets severity. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -43,9 +43,9 @@ Provides the logging functionality.
 | [write(String message, Exception exception)](#write-java.lang.String-java.lang.Exception-) | Writes the specified message and exception to appenders. |
 | [write(String message, Exception ex, LogLevel level)](#write-java.lang.String-java.lang.Exception-com.aspose.email.LogLevel-) | Writes the specified message and exception to appenders. |
 | [writeFormat(String format, Object[] arguments)](#writeFormat-java.lang.String-java.lang.Object...-) | Writes the message with specified format to appenders. |
-| [writeIf(boolean condition, Object message)](#writeIf-boolean-java.lang.Object-) | Writes the specified message to appenders if condition is true. |
-| [writeIf(boolean condition, Object message, Exception exception)](#writeIf-boolean-java.lang.Object-java.lang.Exception-) | Writes the specified message and exception to appenders if condition is true. |
-| [writeIf(boolean condition, String message)](#writeIf-boolean-java.lang.String-) | Writes the specified message to appenders if condition is true. |
+| [writeIf(boolean condition, Object message)](#writeIf-boolean-java.lang.Object-) | Writes the specified message to appenders if  condition  is  true . |
+| [writeIf(boolean condition, Object message, Exception exception)](#writeIf-boolean-java.lang.Object-java.lang.Exception-) | Writes the specified message and exception to appenders if  condition  is  true . |
+| [writeIf(boolean condition, String message)](#writeIf-boolean-java.lang.String-) | Writes the specified message to appenders if  condition  is  true . |
 | [writeIf(LogLevel condition, String message)](#writeIf-com.aspose.email.LogLevel-java.lang.String-) | Writes the specified message if the log level is enabled. |
 | [writeIf(LogLevel condition, String message, Exception exception)](#writeIf-com.aspose.email.LogLevel-java.lang.String-java.lang.Exception-) | Writes the specified message and exception if the log level is enabled. |
 | [writeLine()](#writeLine--) | Writes the empty line to appenders. |
@@ -80,7 +80,7 @@ public final AppenderCollection getAppenders()
 ```
 
 
-Gets or sets the appender list.
+Gets the appender list.
 
 **Returns:**
 [AppenderCollection](../../com.aspose.email/appendercollection)
@@ -110,7 +110,7 @@ public final String getName()
 ```
 
 
-Gets or sets name.
+Gets name.
 
 **Returns:**
 java.lang.String
@@ -120,7 +120,7 @@ public final LogLevel getSeverity()
 ```
 
 
-Gets or sets severity.
+Gets severity.
 
 **Returns:**
 [LogLevel](../../com.aspose.email/loglevel)
@@ -145,10 +145,10 @@ Determines if logging is enabled for the specified level.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| level | [LogLevel](../../com.aspose.email/loglevel) | level to be checked |
+| level | [LogLevel](../../com.aspose.email/loglevel) | level to be checked. |
 
 **Returns:**
-boolean -   if logging is enabled for the specified level, otherwise it returns  .
+boolean -  true  if logging is enabled for the specified level, otherwise it returns  false .
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -171,7 +171,7 @@ public final void setAppenders(AppenderCollection value)
 ```
 
 
-Gets or sets the appender list.
+Sets the appender list.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -184,7 +184,7 @@ public final void setSeverity(LogLevel value)
 ```
 
 
-Gets or sets severity.
+Sets severity.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -302,8 +302,8 @@ Writes the message with specified format to appenders.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | java.lang.String |  |
-| arguments | java.lang.Object[] |  |
+| format | java.lang.String | The format string. |
+| arguments | java.lang.Object[] | The arguments of the format string. |
 
 ### writeIf(boolean condition, Object message) {#writeIf-boolean-java.lang.Object-}
 ```
@@ -311,7 +311,7 @@ public final void writeIf(boolean condition, Object message)
 ```
 
 
-Writes the specified message to appenders if condition is true.
+Writes the specified message to appenders if  condition  is  true .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -325,7 +325,7 @@ public final void writeIf(boolean condition, Object message, Exception exception
 ```
 
 
-Writes the specified message and exception to appenders if condition is true.
+Writes the specified message and exception to appenders if  condition  is  true .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -340,7 +340,7 @@ public final void writeIf(boolean condition, String message)
 ```
 
 
-Writes the specified message to appenders if condition is true.
+Writes the specified message to appenders if  condition  is  true .
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -18,10 +18,10 @@ Specifies the type of text data in an e-mail message attachment.
 
 | Field | Description |
 | --- | --- |
-| [HTML](#HTML) | Specifies text/html media type |
-| [PLAIN](#PLAIN) | Specifies text/plain media type |
-| [RICH_TEXT](#RICH-TEXT) | Specifies text/richtext media type |
-| [XML](#XML) | Specifies text/xml media type |
+| [HTML](#HTML) | Specifies text/html media type. |
+| [PLAIN](#PLAIN) | Specifies text/plain media type. |
+| [RICH_TEXT](#RICH-TEXT) | Specifies text/richtext media type. |
+| [XML](#XML) | Specifies text/xml media type. |
 ## Methods
 
 | Method | Description |
@@ -41,7 +41,7 @@ public static final String HTML
 ```
 
 
-Specifies text/html media type
+Specifies text/html media type.
 
 ### PLAIN {#PLAIN}
 ```
@@ -49,7 +49,7 @@ public static final String PLAIN
 ```
 
 
-Specifies text/plain media type
+Specifies text/plain media type.
 
 ### RICH_TEXT {#RICH-TEXT}
 ```
@@ -57,7 +57,7 @@ public static final String RICH_TEXT
 ```
 
 
-Specifies text/richtext media type
+Specifies text/richtext media type.
 
 ### XML {#XML}
 ```
@@ -65,7 +65,7 @@ public static final String XML
 ```
 
 
-Specifies text/xml media type
+Specifies text/xml media type.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

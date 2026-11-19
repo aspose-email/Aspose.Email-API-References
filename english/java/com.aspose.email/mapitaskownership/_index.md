@@ -1,9 +1,9 @@
 ---
 title: MapiTaskOwnership
 second_title: Aspose.Email for Java API Reference
-description: Indicates the role of the current user  relative to the Task object.
+description: Defines the role of the current user in a task.
 type: docs
-weight: 496
+weight: 499
 url: /java/com.aspose.email/mapitaskownership/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiTaskOwnership extends System.Enum
 ```
 
-Indicates the role of the current user relative to the Task object.
+Defines the role of the current user in a task.
 ## Constructors
 
 | Constructor | Description |
@@ -23,10 +23,10 @@ Indicates the role of the current user relative to the Task object.
 
 | Field | Description |
 | --- | --- |
-| [AssigneesCopy](#AssigneesCopy) | The Task object is the task assignee's copy of the Task object. |
-| [AssignersCopy](#AssignersCopy) | The Task object is the task assigner's copy of the Task object. |
+| [AssigneesCopy](#AssigneesCopy) | The task is the assignee's copy. |
+| [AssignersCopy](#AssignersCopy) | The task is the assigner's copy. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [NotAssigned](#NotAssigned) | The Task object is not assigned. |
+| [NotAssigned](#NotAssigned) | The task is not assigned. |
 ## Methods
 
 | Method | Description |
@@ -80,7 +80,7 @@ public static final int AssigneesCopy
 ```
 
 
-The Task object is the task assignee's copy of the Task object.
+The task is the assignee's copy.
 
 ### AssignersCopy {#AssignersCopy}
 ```
@@ -88,7 +88,7 @@ public static final int AssignersCopy
 ```
 
 
-The Task object is the task assigner's copy of the Task object.
+The task is the assigner's copy.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -102,7 +102,7 @@ public static final int NotAssigned
 ```
 
 
-The Task object is not assigned.
+The task is not assigned.
 
 ### Clone() {#Clone--}
 ```

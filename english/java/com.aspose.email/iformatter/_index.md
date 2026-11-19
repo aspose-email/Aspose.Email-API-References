@@ -1,25 +1,25 @@
 ---
 title: IFormatter
 second_title: Aspose.Email for Java API Reference
-description: Represents the interface for formatting log entry messsages.
+description: Represents the interface for formatting log entry messages.
 type: docs
-weight: 779
+weight: 791
 url: /java/com.aspose.email/iformatter/
 ---
 ```
 public interface IFormatter
 ```
 
-Represents the interface for formatting log entry messsages.
+Represents the interface for formatting log entry messages.
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [format(LogEntry entry)](#format-com.aspose.email.LogEntry-) | Formats a log entry and return a string to be outputted. |
 | [format(Date datatime)](#format-java.util.Date-) | Formats a datetime and return a string to be outputted. |
-| [getFooter()](#getFooter--) | Gest the footer string. |
+| [getFooter()](#getFooter--) | Gets the footer string. |
 | [getHeader()](#getHeader--) | Gets the header string. |
-| [getLogHeader()](#getLogHeader--) | Represents start log header |
+| [getLogHeader()](#getLogHeader--) | Represents start log header. |
 ### format(LogEntry entry) {#format-com.aspose.email.LogEntry-}
 ```
 public abstract String format(LogEntry entry)
@@ -46,17 +46,17 @@ Formats a datetime and return a string to be outputted.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| datatime | java.util.Date | The datetime value for formatting to string |
+| datatime | java.util.Date | The datetime value for formatting to string. |
 
 **Returns:**
-java.lang.String - String representing the log entry.
+java.lang.String
 ### getFooter() {#getFooter--}
 ```
 public abstract String getFooter()
 ```
 
 
-Gest the footer string.
+Gets the footer string.
 
 **Returns:**
 java.lang.String
@@ -76,7 +76,7 @@ public abstract String getLogHeader()
 ```
 
 
-Represents start log header
+Represents start log header.
 
 **Returns:**
 java.lang.String

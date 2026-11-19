@@ -1,9 +1,9 @@
 ---
 title: ReminderAttachment
 second_title: Aspose.Email for Java API Reference
-description: Provides the capability to associate a document object with an alarm.
+description: A file attached to a reminder such as the sound of an audio reminder given either as inline data or as a URI.
 type: docs
-weight: 625
+weight: 630
 url: /java/com.aspose.email/reminderattachment/
 ---
 
@@ -13,26 +13,26 @@ java.lang.Object
 public class ReminderAttachment
 ```
 
-Provides the capability to associate a document object with an alarm.
+A file attached to a reminder, such as the sound of an audio reminder, given either as inline data or as a URI.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ReminderAttachment(byte[] binaryData)](#ReminderAttachment-byte---) | Initialize a new instance of [ReminderAttachment](../../com.aspose.email/reminderattachment) class. |
-| [ReminderAttachment(URI uri)](#ReminderAttachment-java.net.URI-) | Initialize a new instance of [ReminderAttachment](../../com.aspose.email/reminderattachment) class. |
+| [ReminderAttachment(byte[] binaryData)](#ReminderAttachment-byte---) | Initializes a new instance of the [ReminderAttachment](../../com.aspose.email/reminderattachment) class with inline content. |
+| [ReminderAttachment(URI uri)](#ReminderAttachment-java.net.URI-) | Initializes a new instance of the [ReminderAttachment](../../com.aspose.email/reminderattachment) class that refers to its content by URI. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBinaryData()](#getBinaryData--) | Contain a character encoding of inline binary data. |
+| [getBinaryData()](#getBinaryData--) | Gets the content of the attachment, embedded in the calendar. |
 | [getClass()](#getClass--) |  |
-| [getUri()](#getUri--) | URI type of reference to the data. |
+| [getUri()](#getUri--) | Gets the location of the attachment content. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBinaryData(byte[] value)](#setBinaryData-byte---) | Contain a character encoding of inline binary data. |
-| [setUri(URI value)](#setUri-java.net.URI-) | URI type of reference to the data. |
+| [setBinaryData(byte[] value)](#setBinaryData-byte---) | Sets the content of the attachment, embedded in the calendar. |
+| [setUri(URI value)](#setUri-java.net.URI-) | Sets the location of the attachment content. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -43,12 +43,12 @@ public ReminderAttachment(byte[] binaryData)
 ```
 
 
-Initialize a new instance of [ReminderAttachment](../../com.aspose.email/reminderattachment) class.
+Initializes a new instance of the [ReminderAttachment](../../com.aspose.email/reminderattachment) class with inline content.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| binaryData | byte[] | Binary data. |
+| binaryData | byte[] | The content of the attachment. |
 
 ### ReminderAttachment(URI uri) {#ReminderAttachment-java.net.URI-}
 ```
@@ -56,12 +56,12 @@ public ReminderAttachment(URI uri)
 ```
 
 
-Initialize a new instance of [ReminderAttachment](../../com.aspose.email/reminderattachment) class.
+Initializes a new instance of the [ReminderAttachment](../../com.aspose.email/reminderattachment) class that refers to its content by URI.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uri | java.net.URI | Uri. |
+| uri | java.net.URI | The location of the content. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -84,7 +84,7 @@ public final byte[] getBinaryData()
 ```
 
 
-Contain a character encoding of inline binary data.
+Gets the content of the attachment, embedded in the calendar. Setting it clears \#getUri().getUri().
 
 **Returns:**
 byte[]
@@ -104,7 +104,7 @@ public final URI getUri()
 ```
 
 
-URI type of reference to the data.
+Gets the location of the attachment content. Setting it clears \#getBinaryData().getBinaryData().
 
 **Returns:**
 java.net.URI
@@ -140,7 +140,7 @@ public final void setBinaryData(byte[] value)
 ```
 
 
-Contain a character encoding of inline binary data.
+Sets the content of the attachment, embedded in the calendar. Setting it clears \#getUri().getUri().
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -153,7 +153,7 @@ public final void setUri(URI value)
 ```
 
 
-URI type of reference to the data.
+Sets the location of the attachment content. Setting it clears \#getBinaryData().getBinaryData().
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -1,7 +1,7 @@
 ---
 title: AsposeArgumentNullException
 second_title: Aspose.Email for Java API Reference
-description: The ArgumentException is thrown when an argument is null when it shouldnt be.
+description: The exception that is thrown when null is passed to a method that does not accept it.
 type: docs
 weight: 53
 url: /java/com.aspose.email/asposeargumentnullexception/
@@ -13,17 +13,17 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class AsposeArgumentNullException extends AsposeArgumentException
 ```
 
-The ArgumentException is thrown when an argument is null when it shouldn't be.
+The exception that is thrown when  null  is passed to a method that does not accept it.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
 | [AsposeArgumentNullException()](#AsposeArgumentNullException--) | Initializes a new instance of the [AsposeArgumentNullException](../../com.aspose.email/asposeargumentnullexception) class. |
-| [AsposeArgumentNullException(String message)](#AsposeArgumentNullException-java.lang.String-) | Initializes a new instance of the [AsposeArgumentNullException](../../com.aspose.email/asposeargumentnullexception) class with a specified error message. |
-| [AsposeArgumentNullException(String format, String parameters)](#AsposeArgumentNullException-java.lang.String-java.lang.String-) | Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with a specified error message. |
-| [AsposeArgumentNullException(String format, Object[] parameters)](#AsposeArgumentNullException-java.lang.String-java.lang.Object...-) | Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with a specified error message. |
-| [AsposeArgumentNullException(String message, Throwable innerException)](#AsposeArgumentNullException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the [AsposeException](../../com.aspose.email/asposeexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
-| [AsposeArgumentNullException(Throwable innerException)](#AsposeArgumentNullException-java.lang.Throwable-) | Initializes a new instance of the [AsposeArgumentNullException](../../com.aspose.email/asposeargumentnullexception) class with a reference to the inner exception that is the cause of this exception. |
+| [AsposeArgumentNullException(String message)](#AsposeArgumentNullException-java.lang.String-) | Initializes a new instance of the [AsposeArgumentNullException](../../com.aspose.email/asposeargumentnullexception) class with the specified error message. |
+| [AsposeArgumentNullException(String format, String parameters)](#AsposeArgumentNullException-java.lang.String-java.lang.String-) | Initializes a new instance of the [AsposeArgumentNullException](../../com.aspose.email/asposeargumentnullexception) class with an error message built from a format string with one argument. |
+| [AsposeArgumentNullException(String format, Object[] parameters)](#AsposeArgumentNullException-java.lang.String-java.lang.Object...-) | Initializes a new instance of the [AsposeArgumentNullException](../../com.aspose.email/asposeargumentnullexception) class with an error message built from a composite format string. |
+| [AsposeArgumentNullException(String message, Throwable innerException)](#AsposeArgumentNullException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the [AsposeArgumentNullException](../../com.aspose.email/asposeargumentnullexception) class with the specified error message and a reference to the exception that caused it. |
+| [AsposeArgumentNullException(Throwable innerException)](#AsposeArgumentNullException-java.lang.Throwable-) | Initializes a new instance of the [AsposeArgumentNullException](../../com.aspose.email/asposeargumentnullexception) class with a reference to the exception that caused it. |
 ## Methods
 
 | Method | Description |
@@ -33,10 +33,10 @@ The ArgumentException is thrown when an argument is null when it shouldn't be.
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
 | [getClass()](#getClass--) |  |
-| [getErrorDetails()](#getErrorDetails--) | Gets extra information aboout error |
+| [getErrorDetails()](#getErrorDetails--) | Gets additional information about the error, if the operation provides any. |
 | [getInnerException()](#getInnerException--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
-| [getMessage()](#getMessage--) | Gets a message that describes the current exception. |
+| [getMessage()](#getMessage--) | Gets the message that describes the error. |
 | [getStackTrace()](#getStackTrace--) |  |
 | [getSuppressed()](#getSuppressed--) |  |
 | [getType()](#getType--) |  |
@@ -48,7 +48,7 @@ The ArgumentException is thrown when an argument is null when it shouldn't be.
 | [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
 | [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
 | [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [toString()](#toString--) | Returns a string that represents the current object. |
+| [toString()](#toString--) | Returns the type, the message and the stack trace of the exception. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -66,7 +66,7 @@ public AsposeArgumentNullException(String message)
 ```
 
 
-Initializes a new instance of the [AsposeArgumentNullException](../../com.aspose.email/asposeargumentnullexception) class with a specified error message.
+Initializes a new instance of the [AsposeArgumentNullException](../../com.aspose.email/asposeargumentnullexception) class with the specified error message.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -79,13 +79,13 @@ public AsposeArgumentNullException(String format, String parameters)
 ```
 
 
-Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with a specified error message.
+Initializes a new instance of the [AsposeArgumentNullException](../../com.aspose.email/asposeargumentnullexception) class with an error message built from a format string with one argument.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | java.lang.String | Message format |
-| parameters | java.lang.String | Format parameter |
+| format | java.lang.String | A composite format string with one placeholder,  \{0\} . |
+| parameters | java.lang.String | The value inserted into  format . |
 
 ### AsposeArgumentNullException(String format, Object[] parameters) {#AsposeArgumentNullException-java.lang.String-java.lang.Object...-}
 ```
@@ -93,13 +93,13 @@ public AsposeArgumentNullException(String format, Object[] parameters)
 ```
 
 
-Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with a specified error message.
+Initializes a new instance of the [AsposeArgumentNullException](../../com.aspose.email/asposeargumentnullexception) class with an error message built from a composite format string.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | java.lang.String | Message format |
-| parameters | java.lang.Object[] | Format parameters |
+| format | java.lang.String | A composite format string with placeholders such as  \{0\} . |
+| parameters | java.lang.Object[] | The objects to insert into  format . |
 
 ### AsposeArgumentNullException(String message, Throwable innerException) {#AsposeArgumentNullException-java.lang.String-java.lang.Throwable-}
 ```
@@ -107,13 +107,13 @@ public AsposeArgumentNullException(String message, Throwable innerException)
 ```
 
 
-Initializes a new instance of the [AsposeException](../../com.aspose.email/asposeexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [AsposeArgumentNullException](../../com.aspose.email/asposeargumentnullexception) class with the specified error message and a reference to the exception that caused it.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The error message that explains the reason for the exception. |
-| innerException | java.lang.Throwable | The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. |
+| message | java.lang.String | The message that describes the error. |
+| innerException | java.lang.Throwable | The exception that caused this exception, or  null . |
 
 ### AsposeArgumentNullException(Throwable innerException) {#AsposeArgumentNullException-java.lang.Throwable-}
 ```
@@ -121,12 +121,12 @@ public AsposeArgumentNullException(Throwable innerException)
 ```
 
 
-Initializes a new instance of the [AsposeArgumentNullException](../../com.aspose.email/asposeargumentnullexception) class with a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [AsposeArgumentNullException](../../com.aspose.email/asposeargumentnullexception) class with a reference to the exception that caused it.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| innerException | java.lang.Throwable | The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. |
+| innerException | java.lang.Throwable | The exception that caused this exception, or  null . |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```
@@ -192,7 +192,7 @@ public final Object getErrorDetails()
 ```
 
 
-Gets extra information aboout error
+Gets additional information about the error, if the operation provides any.
 
 **Returns:**
 java.lang.Object
@@ -222,7 +222,7 @@ public String getMessage()
 ```
 
 
-Gets a message that describes the current exception.
+Gets the message that describes the error.
 
 **Returns:**
 java.lang.String
@@ -350,10 +350,10 @@ public String toString()
 ```
 
 
-Returns a string that represents the current object.
+Returns the type, the message and the stack trace of the exception.
 
 **Returns:**
-java.lang.String - A string that represents the current object.
+java.lang.String - A string that represents the exception.
 ### wait() {#wait--}
 ```
 public final void wait()

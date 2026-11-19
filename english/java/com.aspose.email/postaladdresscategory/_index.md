@@ -1,9 +1,9 @@
 ---
 title: PostalAddressCategory
 second_title: Aspose.Email for Java API Reference
-description: Represents category for a postal address
+description: Represents category for a postal address.
 type: docs
-weight: 605
+weight: 609
 url: /java/com.aspose.email/postaladdresscategory/
 ---
 
@@ -16,7 +16,7 @@ com.aspose.ms.System.IEquatable
 public class PostalAddressCategory implements System.IEquatable<PostalAddressCategory>
 ```
 
-Represents category for a postal address
+Represents category for a postal address.
 ## Constructors
 
 | Constructor | Description |
@@ -26,9 +26,9 @@ Represents category for a postal address
 
 | Field | Description |
 | --- | --- |
-| [CUSTOM_VALUE](#CUSTOM-VALUE) | String value for 'Custom' category |
-| [HOME_VALUE](#HOME-VALUE) | String value for 'Home' category |
-| [WORK_VALUE](#WORK-VALUE) | String value for 'Work' category |
+| [CUSTOM_VALUE](#CUSTOM-VALUE) | String value for 'Custom' category. |
+| [HOME_VALUE](#HOME-VALUE) | String value for 'Home' category. |
+| [WORK_VALUE](#WORK-VALUE) | String value for 'Work' category. |
 ## Methods
 
 | Method | Description |
@@ -37,9 +37,9 @@ Represents category for a postal address
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
 | [getClass()](#getClass--) |  |
 | [getCustom()](#getCustom--) | Defines a type of an address as an address of type other. |
-| [getDescription()](#getDescription--) | Gets description for the 'Custom' category of a postal address |
+| [getDescription()](#getDescription--) | Gets description for the 'Custom' category of a postal address. |
 | [getHome()](#getHome--) | Defines a type of an address as a home address. |
-| [getValue()](#getValue--) | Gets category of a postal address |
+| [getValue()](#getValue--) | Gets category of a postal address. |
 | [getWork()](#getWork--) | Defines a type of an address as a work address. |
 | [hashCode()](#hashCode--) | GetHashCode returns a hash function for this object. |
 | [notify()](#notify--) |  |
@@ -61,7 +61,7 @@ Initializes a new instance of the [PostalAddressCategory](../../com.aspose.email
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| description | java.lang.String | Description for the 'Custom' category of a postal address |
+| description | java.lang.String | Description for the 'Custom' category of a postal address. |
 
 ### CUSTOM_VALUE {#CUSTOM-VALUE}
 ```
@@ -69,7 +69,7 @@ public static final String CUSTOM_VALUE
 ```
 
 
-String value for 'Custom' category
+String value for 'Custom' category.
 
 ### HOME_VALUE {#HOME-VALUE}
 ```
@@ -77,7 +77,7 @@ public static final String HOME_VALUE
 ```
 
 
-String value for 'Home' category
+String value for 'Home' category.
 
 ### WORK_VALUE {#WORK-VALUE}
 ```
@@ -85,7 +85,7 @@ public static final String WORK_VALUE
 ```
 
 
-String value for 'Work' category
+String value for 'Work' category.
 
 ### equals(PostalAddressCategory other) {#equals-com.aspose.email.PostalAddressCategory-}
 ```
@@ -101,7 +101,7 @@ Determines whether the specified object is equal to the current object.
 | other | [PostalAddressCategory](../../com.aspose.email/postaladdresscategory) | The object to compare with the current object. |
 
 **Returns:**
-boolean - true if the specified object is equal to the current object; otherwise, false.
+boolean -  true  if the specified object is equal to the current object; otherwise,  false .
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -143,7 +143,7 @@ public final String getDescription()
 ```
 
 
-Gets description for the 'Custom' category of a postal address
+Gets description for the 'Custom' category of a postal address.
 
 **Returns:**
 java.lang.String
@@ -163,7 +163,7 @@ public final String getValue()
 ```
 
 
-Gets category of a postal address
+Gets category of a postal address.
 
 **Returns:**
 java.lang.String
@@ -214,11 +214,11 @@ Determines whether the specified objects are equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [PostalAddressCategory](../../com.aspose.email/postaladdresscategory) | First object to compare |
-| b | [PostalAddressCategory](../../com.aspose.email/postaladdresscategory) | Second object to compare |
+| a | [PostalAddressCategory](../../com.aspose.email/postaladdresscategory) | First object to compare. |
+| b | [PostalAddressCategory](../../com.aspose.email/postaladdresscategory) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are equal, otherwise false.
+boolean - Returns  true  if objects are equal, otherwise  false .
 ### op_Inequality(PostalAddressCategory a, PostalAddressCategory b) {#op-Inequality-com.aspose.email.PostalAddressCategory-com.aspose.email.PostalAddressCategory-}
 ```
 public static boolean op_Inequality(PostalAddressCategory a, PostalAddressCategory b)
@@ -230,11 +230,11 @@ Determines whether the specified objects are not equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [PostalAddressCategory](../../com.aspose.email/postaladdresscategory) | First object to compare |
-| b | [PostalAddressCategory](../../com.aspose.email/postaladdresscategory) | Second object to compare |
+| a | [PostalAddressCategory](../../com.aspose.email/postaladdresscategory) | First object to compare. |
+| b | [PostalAddressCategory](../../com.aspose.email/postaladdresscategory) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are not equal, otherwise false.
+boolean - Returns  true  if objects are not equal, otherwise  false .
 ### toString() {#toString--}
 ```
 public String toString()

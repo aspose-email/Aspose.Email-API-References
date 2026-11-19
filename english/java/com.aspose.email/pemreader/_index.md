@@ -1,9 +1,9 @@
 ---
 title: PemReader
 second_title: Aspose.Email for Java API Reference
-description: PEM format reader.
+description: Reads RSA private keys from PEM files and streams for use with DKIM signing.
 type: docs
-weight: 584
+weight: 588
 url: /java/com.aspose.email/pemreader/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public class PemReader
 ```
 
-PEM format reader.
+Reads RSA private keys from PEM files and streams, for use with DKIM signing.
 ## Constructors
 
 | Constructor | Description |
@@ -25,8 +25,8 @@ PEM format reader.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getPrivateKey(InputStream pem)](#getPrivateKey-java.io.InputStream-) | Reads private key from stream |
-| [getPrivateKey(String pemFile)](#getPrivateKey-java.lang.String-) | Reads private key from PEM file |
+| [getPrivateKey(InputStream pem)](#getPrivateKey-java.io.InputStream-) | Reads an RSA private key from a PEM-encoded stream. |
+| [getPrivateKey(String pemFile)](#getPrivateKey-java.lang.String-) | Reads an RSA private key from a PEM file. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -71,30 +71,30 @@ public static PrivateKey getPrivateKey(InputStream pem)
 ```
 
 
-Reads private key from stream
+Reads an RSA private key from a PEM-encoded stream.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pem | java.io.InputStream | Stream to read from |
+| pem | java.io.InputStream | Stream with the PEM-encoded private key, in PKCS\#1 or PKCS\#8 format. |
 
 **Returns:**
-java.security.PrivateKey - Certificate that was read
+java.security.PrivateKey - The private key.
 ### getPrivateKey(String pemFile) {#getPrivateKey-java.lang.String-}
 ```
 public static PrivateKey getPrivateKey(String pemFile)
 ```
 
 
-Reads private key from PEM file
+Reads an RSA private key from a PEM file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pemFile | java.lang.String | path to file to read from |
+| pemFile | java.lang.String | Path to the PEM file with the private key. |
 
 **Returns:**
-java.security.PrivateKey - Certificate that was read
+java.security.PrivateKey - The private key.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

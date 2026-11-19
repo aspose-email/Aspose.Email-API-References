@@ -3,7 +3,7 @@ title: ExceptionManager
 second_title: Aspose.Email for Java API Reference
 description: Provides the ability to ignore exceptions.
 type: docs
-weight: 186
+weight: 189
 url: /java/com.aspose.email/exceptionmanager/
 ---
 
@@ -25,16 +25,16 @@ Provides the ability to ignore exceptions.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getIgnoreAll()](#getIgnoreAll--) | Ignore all exceptions. |
-| [getIgnoreExceptionsHandler()](#getIgnoreExceptionsHandler--) | Provides possibility to handle Exceptions. |
-| [getIgnoreExceptionsLogHandler()](#getIgnoreExceptionsLogHandler--) | Provides possibility to handle Ignored Exceptions Log. |
-| [getIgnoreList()](#getIgnoreList--) | List of exceptions to be ignored. |
+| [getIgnoreAll()](#getIgnoreAll--) | Gets a value indicating whether all exceptions are ignored. |
+| [getIgnoreExceptionsHandler()](#getIgnoreExceptionsHandler--) | Gets the handler that provides possibility to handle exceptions. |
+| [getIgnoreExceptionsLogHandler()](#getIgnoreExceptionsLogHandler--) | Gets the handler that provides possibility to handle the ignored exceptions log. |
+| [getIgnoreList()](#getIgnoreList--) | Gets the list of exceptions to be ignored. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setIgnoreAll(boolean value)](#setIgnoreAll-boolean-) | Ignore all exceptions. |
-| [setIgnoreExceptionsHandler(IgnoreExceptionsCallback value)](#setIgnoreExceptionsHandler-com.aspose.email.IgnoreExceptionsCallback-) | Provides possibility to handle Exceptions. |
-| [setIgnoreExceptionsLogHandler(IgnoreExceptionsLogCallback value)](#setIgnoreExceptionsLogHandler-com.aspose.email.IgnoreExceptionsLogCallback-) | Provides possibility to handle Ignored Exceptions Log. |
+| [setIgnoreAll(boolean value)](#setIgnoreAll-boolean-) | Sets a value indicating whether all exceptions are ignored. |
+| [setIgnoreExceptionsHandler(IgnoreExceptionsCallback value)](#setIgnoreExceptionsHandler-com.aspose.email.IgnoreExceptionsCallback-) | Sets the handler that provides possibility to handle exceptions. |
+| [setIgnoreExceptionsLogHandler(IgnoreExceptionsLogCallback value)](#setIgnoreExceptionsLogHandler-com.aspose.email.IgnoreExceptionsLogCallback-) | Sets the handler that provides possibility to handle the ignored exceptions log. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -76,7 +76,7 @@ public static boolean getIgnoreAll()
 ```
 
 
-Ignore all exceptions.
+Gets a value indicating whether all exceptions are ignored.
 
 **Returns:**
 boolean
@@ -86,7 +86,7 @@ public static IgnoreExceptionsCallback getIgnoreExceptionsHandler()
 ```
 
 
-Provides possibility to handle Exceptions.
+Gets the handler that provides possibility to handle exceptions.
 
 **Returns:**
 [IgnoreExceptionsCallback](../../com.aspose.email/ignoreexceptionscallback)
@@ -96,7 +96,7 @@ public static IgnoreExceptionsLogCallback getIgnoreExceptionsLogHandler()
 ```
 
 
-Provides possibility to handle Ignored Exceptions Log.
+Gets the handler that provides possibility to handle the ignored exceptions log.
 
 **Returns:**
 [IgnoreExceptionsLogCallback](../../com.aspose.email/ignoreexceptionslogcallback)
@@ -106,7 +106,7 @@ public static List<String> getIgnoreList()
 ```
 
 
-List of exceptions to be ignored.
+Gets the list of exceptions to be ignored.
 
 **Returns:**
 java.util.List<java.lang.String>
@@ -142,7 +142,7 @@ public static void setIgnoreAll(boolean value)
 ```
 
 
-Ignore all exceptions.
+Sets a value indicating whether all exceptions are ignored.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -155,7 +155,7 @@ public static void setIgnoreExceptionsHandler(IgnoreExceptionsCallback value)
 ```
 
 
-Provides possibility to handle Exceptions.
+Sets the handler that provides possibility to handle exceptions.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -168,7 +168,7 @@ public static void setIgnoreExceptionsLogHandler(IgnoreExceptionsLogCallback val
 ```
 
 
-Provides possibility to handle Ignored Exceptions Log.
+Sets the handler that provides possibility to handle the ignored exceptions log.
 
 **Parameters:**
 | Parameter | Type | Description |

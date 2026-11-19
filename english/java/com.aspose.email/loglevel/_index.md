@@ -3,7 +3,7 @@ title: LogLevel
 second_title: Aspose.Email for Java API Reference
 description: Defines available log levels.
 type: docs
-weight: 374
+weight: 377
 url: /java/com.aspose.email/loglevel/
 ---
 
@@ -101,10 +101,10 @@ Compares the level to the other [LogLevel](../../com.aspose.email/loglevel) obje
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | the object object |
+| obj | java.lang.Object | the object object. |
 
 **Returns:**
-int - a value less than zero when this logger's  Ordinal (\#getOrdinal.getOrdinal) is less than the other logger's ordinal, 0 when they are equal and greater than zero when this ordinal is greater than the other ordinal.
+int - a value less than zero when this logger's  Ordinal  is less than the other logger's ordinal, 0 when they are equal and greater than zero when this ordinal is greater than the other ordinal.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

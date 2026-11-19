@@ -1,9 +1,9 @@
 ---
 title: FileFormatVersion
 second_title: Aspose.Email for Java API Reference
-description: Represents version of file.
+description: Defines the version of a PST file Unicode used by Outlook 2003 and later or ANSI used by earlier versions.
 type: docs
-weight: 253
+weight: 256
 url: /java/com.aspose.email/fileformatversion/
 ---
 
@@ -13,14 +13,14 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class FileFormatVersion extends System.Enum
 ```
 
-Represents version of file.
+Defines the version of a PST file: Unicode, used by Outlook 2003 and later, or ANSI, used by earlier versions.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [ANSI](#ANSI) | ANSI file format. |
+| [ANSI](#ANSI) | ANSI PST. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Unicode](#Unicode) | Unicode file format. |
+| [Unicode](#Unicode) | Unicode PST. |
 ## Methods
 
 | Method | Description |
@@ -66,7 +66,7 @@ public static final int ANSI
 ```
 
 
-ANSI file format.
+ANSI PST. It can be read, but not created or edited.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -80,7 +80,7 @@ public static final int Unicode
 ```
 
 
-Unicode file format.
+Unicode PST. It can be read, created and edited.
 
 ### Clone() {#Clone--}
 ```

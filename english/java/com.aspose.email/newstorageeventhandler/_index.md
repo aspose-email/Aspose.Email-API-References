@@ -3,7 +3,7 @@ title: NewStorageEventHandler
 second_title: Aspose.Email for Java API Reference
 description: Represents a delegate for handling events that occur after a new storage file is created or processed.
 type: docs
-weight: 557
+weight: 560
 url: /java/com.aspose.email/newstorageeventhandler/
 ---
 
@@ -14,6 +14,8 @@ public abstract class NewStorageEventHandler extends System.MulticastDelegate
 ```
 
 Represents a delegate for handling events that occur after a new storage file is created or processed.
+
+The method receives  sender : the source of the event, often an object raising the event,  e : event arguments containing information about the new storage file.
 ## Constructors
 
 | Constructor | Description |

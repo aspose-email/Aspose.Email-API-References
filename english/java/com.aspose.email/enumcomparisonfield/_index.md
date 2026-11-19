@@ -3,7 +3,7 @@ title: EnumComparisonField
 second_title: Aspose.Email for Java API Reference
 description: Represents the enum search field.
 type: docs
-weight: 181
+weight: 184
 url: /java/com.aspose.email/enumcomparisonfield/
 ---
 
@@ -22,9 +22,9 @@ Represents the enum search field.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [in(Iterable<Integer> values)](#in-java.lang.Iterable-java.lang.Integer--) | Indicates that field vlaue in message must be in list of specified values. |
+| [in(Iterable<Integer> values)](#in-java.lang.Iterable-java.lang.Integer--) | Indicates that field value in message must be in list of specified values. |
 | [notEquals(int value)](#notEquals-int-) | Indicates that field in message must not be equal to the specified value. |
-| [notIn(Iterable<Integer> values)](#notIn-java.lang.Iterable-java.lang.Integer--) | Indicates that field vlaue in message must not be in list of specified values. |
+| [notIn(Iterable<Integer> values)](#notIn-java.lang.Iterable-java.lang.Integer--) | Indicates that field value in message must not be in list of specified values. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [orderBy(boolean ascending)](#orderBy-boolean-) | Sets value which indicates if client uses ascending or descending sorting on the Field. |
@@ -88,12 +88,12 @@ public final MailQuery in(Iterable<Integer> values)
 ```
 
 
-Indicates that field vlaue in message must be in list of specified values.
+Indicates that field value in message must be in list of specified values.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| values | java.lang.Iterable<java.lang.Integer> | Values . |
+| values | java.lang.Iterable<java.lang.Integer> | Values. |
 
 **Returns:**
 [MailQuery](../../com.aspose.email/mailquery) - [MailQuery](../../com.aspose.email/mailquery) that represents search query (one searching criterion).
@@ -118,12 +118,12 @@ public final MailQuery notIn(Iterable<Integer> values)
 ```
 
 
-Indicates that field vlaue in message must not be in list of specified values.
+Indicates that field value in message must not be in list of specified values.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| values | java.lang.Iterable<java.lang.Integer> | Values . |
+| values | java.lang.Iterable<java.lang.Integer> | Values. |
 
 **Returns:**
 [MailQuery](../../com.aspose.email/mailquery) - [MailQuery](../../com.aspose.email/mailquery) that represents search query (one searching criterion).
@@ -154,7 +154,7 @@ Sets value which indicates if client uses ascending or descending sorting on the
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ascending | boolean | Set true if you want to use ascending sorting, otherwise set false. |
+| ascending | boolean | Set  true  if you want to use ascending sorting, otherwise set  false . |
 
 ### toString() {#toString--}
 ```

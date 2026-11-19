@@ -3,7 +3,7 @@ title: ItemMovedEventHandler
 second_title: Aspose.Email for Java API Reference
 description: Represents the method that will handle an  event.
 type: docs
-weight: 360
+weight: 363
 url: /java/com.aspose.email/itemmovedeventhandler/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastD
 public abstract class ItemMovedEventHandler extends System.MulticastDelegate
 ```
 
-Represents the method that will handle an [FolderInfo.ItemMovedDelegate](../../com.aspose.email/folderinfo\#ItemMovedDelegate) event.
+Represents the method that will handle an [FolderInfo.ItemMoved](../../com.aspose.email/folderinfo\#ItemMoved) event.
 ## Constructors
 
 | Constructor | Description |
@@ -72,7 +72,7 @@ beginInvoke.
 | state | java.lang.Object | a java.lang.Object object. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - a com.aspose.ms.System.IAsyncResult object.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - a com.aspose.ms.System.IAsyncResult object.
 ### combine(System.Delegate arg0, System.Delegate arg1) {#combine-com.aspose.ms.System.Delegate-com.aspose.ms.System.Delegate-}
 ```
 public static System.Delegate combine(System.Delegate arg0, System.Delegate arg1)

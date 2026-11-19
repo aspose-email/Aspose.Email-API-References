@@ -1,9 +1,9 @@
 ---
 title: Gender
 second_title: Aspose.Email for Java API Reference
-description: Enum defines gender of a person
+description: Enum defines gender of a person.
 type: docs
-weight: 274
+weight: 277
 url: /java/com.aspose.email/gender/
 ---
 
@@ -13,15 +13,15 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class Gender extends System.Enum
 ```
 
-Enum defines gender of a person
+Enum defines gender of a person.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Female](#Female) | Female gender |
-| [Male](#Male) | Male gender |
-| [Unspecified](#Unspecified) | Gender is not defined |
+| [Female](#Female) | Female gender. |
+| [Male](#Male) | Male gender. |
+| [Unspecified](#Unspecified) | Gender is not defined. |
 ## Methods
 
 | Method | Description |
@@ -73,7 +73,7 @@ public static final int Female
 ```
 
 
-Female gender
+Female gender.
 
 ### Male {#Male}
 ```
@@ -81,7 +81,7 @@ public static final int Male
 ```
 
 
-Male gender
+Male gender.
 
 ### Unspecified {#Unspecified}
 ```
@@ -89,7 +89,7 @@ public static final int Unspecified
 ```
 
 
-Gender is not defined
+Gender is not defined.
 
 ### Clone() {#Clone--}
 ```

@@ -3,7 +3,7 @@ title: MessageValidator
 second_title: Aspose.Email for Java API Reference
 description: The message validator.
 type: docs
-weight: 538
+weight: 541
 url: /java/com.aspose.email/messagevalidator/
 ---
 
@@ -112,10 +112,10 @@ Validate stream as message.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | Source streamjava.io.InputStream. |
+| stream | java.io.InputStream | Source stream java.io.InputStream. |
 
 **Returns:**
-[MessageValidationResult](../../com.aspose.email/messagevalidationresult) - Result of validation[MessageValidationResult](../../com.aspose.email/messagevalidationresult).
+[MessageValidationResult](../../com.aspose.email/messagevalidationresult) - Result of validation [MessageValidationResult](../../com.aspose.email/messagevalidationresult).
 ### validate(String fileName) {#validate-java.lang.String-}
 ```
 public static MessageValidationResult validate(String fileName)
@@ -127,10 +127,10 @@ Validate file as message.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | Source file pathString. |
+| fileName | java.lang.String | Source file path String. |
 
 **Returns:**
-[MessageValidationResult](../../com.aspose.email/messagevalidationresult) - Result of validation[MessageValidationResult](../../com.aspose.email/messagevalidationresult).
+[MessageValidationResult](../../com.aspose.email/messagevalidationresult) - Result of validation [MessageValidationResult](../../com.aspose.email/messagevalidationresult).
 ### wait() {#wait--}
 ```
 public final void wait()

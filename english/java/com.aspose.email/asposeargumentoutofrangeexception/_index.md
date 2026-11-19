@@ -1,7 +1,7 @@
 ---
 title: AsposeArgumentOutOfRangeException
 second_title: Aspose.Email for Java API Reference
-description: The exception that is thrown when one of the arguments provided to a method is out of range.
+description: The exception that is thrown when an argument is outside the range of allowed values.
 type: docs
 weight: 54
 url: /java/com.aspose.email/asposeargumentoutofrangeexception/
@@ -13,20 +13,18 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class AsposeArgumentOutOfRangeException extends AsposeException
 ```
 
-The exception that is thrown when one of the arguments provided to a method is out of range.
-
- 1 
+The exception that is thrown when an argument is outside the range of allowed values.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
 | [AsposeArgumentOutOfRangeException()](#AsposeArgumentOutOfRangeException--) | Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class. |
-| [AsposeArgumentOutOfRangeException(String message)](#AsposeArgumentOutOfRangeException-java.lang.String-) | Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with a specified error message. |
-| [AsposeArgumentOutOfRangeException(String format, Object[] parameters)](#AsposeArgumentOutOfRangeException-java.lang.String-java.lang.Object...-) | Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with a specified error message. |
-| [AsposeArgumentOutOfRangeException(String format, int parameter)](#AsposeArgumentOutOfRangeException-java.lang.String-int-) |  |
-| [AsposeArgumentOutOfRangeException(String message, System.Exception innerException)](#AsposeArgumentOutOfRangeException-java.lang.String-com.aspose.ms.System.Exception-) | Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
-| [AsposeArgumentOutOfRangeException(String message, String paramName)](#AsposeArgumentOutOfRangeException-java.lang.String-java.lang.String-) |  |
-| [AsposeArgumentOutOfRangeException(System.Exception innerException)](#AsposeArgumentOutOfRangeException-com.aspose.ms.System.Exception-) | Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with a reference to the inner exception that is the cause of this exception. |
+| [AsposeArgumentOutOfRangeException(String message)](#AsposeArgumentOutOfRangeException-java.lang.String-) | Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with the specified error message. |
+| [AsposeArgumentOutOfRangeException(String format, Object[] parameters)](#AsposeArgumentOutOfRangeException-java.lang.String-java.lang.Object...-) | Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with an error message built from a composite format string. |
+| [AsposeArgumentOutOfRangeException(String format, int parameter)](#AsposeArgumentOutOfRangeException-java.lang.String-int-) | Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with an error message built from a format string with one argument. |
+| [AsposeArgumentOutOfRangeException(String message, System.Exception innerException)](#AsposeArgumentOutOfRangeException-java.lang.String-com.aspose.ms.System.Exception-) | Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with the specified error message and a reference to the exception that caused it. |
+| [AsposeArgumentOutOfRangeException(String message, String paramName)](#AsposeArgumentOutOfRangeException-java.lang.String-java.lang.String-) | Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with an error message built from a format string with one argument. |
+| [AsposeArgumentOutOfRangeException(System.Exception innerException)](#AsposeArgumentOutOfRangeException-com.aspose.ms.System.Exception-) | Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with a reference to the exception that caused it. |
 ## Methods
 
 | Method | Description |
@@ -36,11 +34,11 @@ The exception that is thrown when one of the arguments provided to a method is o
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
 | [getClass()](#getClass--) |  |
-| [getErrorDetails()](#getErrorDetails--) | Gets extra information aboout error |
+| [getErrorDetails()](#getErrorDetails--) | Gets additional information about the error, if the operation provides any. |
 | [getInnerException()](#getInnerException--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
-| [getMessage()](#getMessage--) | Gets a message that describes the current exception. |
-| [getParamName()](#getParamName--) | Parameter name |
+| [getMessage()](#getMessage--) | Gets the message that describes the error. |
+| [getParamName()](#getParamName--) | Gets the name of the parameter that caused the error. |
 | [getStackTrace()](#getStackTrace--) |  |
 | [getSuppressed()](#getSuppressed--) |  |
 | [getType()](#getType--) |  |
@@ -52,7 +50,7 @@ The exception that is thrown when one of the arguments provided to a method is o
 | [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
 | [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
 | [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [toString()](#toString--) | Returns a string that represents the current object. |
+| [toString()](#toString--) | Returns the type, the message and the stack trace of the exception. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -70,7 +68,7 @@ public AsposeArgumentOutOfRangeException(String message)
 ```
 
 
-Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with a specified error message.
+Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with the specified error message.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -83,13 +81,13 @@ public AsposeArgumentOutOfRangeException(String format, Object[] parameters)
 ```
 
 
-Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with a specified error message.
+Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with an error message built from a composite format string.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | java.lang.String | Message format |
-| parameters | java.lang.Object[] | Format parameters |
+| format | java.lang.String | A composite format string with placeholders such as  \{0\} . |
+| parameters | java.lang.Object[] | The objects to insert into  format . |
 
 ### AsposeArgumentOutOfRangeException(String format, int parameter) {#AsposeArgumentOutOfRangeException-java.lang.String-int-}
 ```
@@ -97,11 +95,13 @@ public AsposeArgumentOutOfRangeException(String format, int parameter)
 ```
 
 
+Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with an error message built from a format string with one argument.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | java.lang.String |  |
-| parameter | int |  |
+| format | java.lang.String | A composite format string with one placeholder,  \{0\} . |
+| parameter | int | The value inserted into  format . |
 
 ### AsposeArgumentOutOfRangeException(String message, System.Exception innerException) {#AsposeArgumentOutOfRangeException-java.lang.String-com.aspose.ms.System.Exception-}
 ```
@@ -109,13 +109,13 @@ public AsposeArgumentOutOfRangeException(String message, System.Exception innerE
 ```
 
 
-Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with the specified error message and a reference to the exception that caused it.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The error message that explains the reason for the exception. |
-| innerException | com.aspose.ms.System.Exception | The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. |
+| message | java.lang.String | The message that describes the error. |
+| innerException | com.aspose.ms.System.Exception | The exception that caused this exception, or  null . |
 
 ### AsposeArgumentOutOfRangeException(String message, String paramName) {#AsposeArgumentOutOfRangeException-java.lang.String-java.lang.String-}
 ```
@@ -123,13 +123,13 @@ public AsposeArgumentOutOfRangeException(String message, String paramName)
 ```
 
 
-
+Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with an error message built from a format string with one argument.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String |  |
-| paramName | java.lang.String |  |
+| message | java.lang.String | A composite format string with one placeholder,  \{0\} . |
+| paramName | java.lang.String | The value inserted into  message . |
 
 ### AsposeArgumentOutOfRangeException(System.Exception innerException) {#AsposeArgumentOutOfRangeException-com.aspose.ms.System.Exception-}
 ```
@@ -137,12 +137,12 @@ public AsposeArgumentOutOfRangeException(System.Exception innerException)
 ```
 
 
-Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with a reference to the exception that caused it.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| innerException | com.aspose.ms.System.Exception | The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. |
+| innerException | com.aspose.ms.System.Exception | The exception that caused this exception, or  null . |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```
@@ -208,7 +208,7 @@ public final Object getErrorDetails()
 ```
 
 
-Gets extra information aboout error
+Gets additional information about the error, if the operation provides any.
 
 **Returns:**
 java.lang.Object
@@ -238,7 +238,7 @@ public String getMessage()
 ```
 
 
-Gets a message that describes the current exception.
+Gets the message that describes the error.
 
 **Returns:**
 java.lang.String
@@ -248,7 +248,7 @@ public String getParamName()
 ```
 
 
-Parameter name
+Gets the name of the parameter that caused the error.
 
 **Returns:**
 java.lang.String
@@ -376,10 +376,10 @@ public String toString()
 ```
 
 
-Returns a string that represents the current object.
+Returns the type, the message and the stack trace of the exception.
 
 **Returns:**
-java.lang.String - A string that represents the current object.
+java.lang.String - A string that represents the exception.
 ### wait() {#wait--}
 ```
 public final void wait()

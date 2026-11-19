@@ -30,7 +30,7 @@ A UI element that facilitates showing/hiding different sections.
 | [getExpandSingleSection()](#getExpandSingleSection--) | Set this attribute on the amp-accordion to only allow one section to be expanded at a time. |
 | [getFallback()](#getFallback--) | A fallback is a convention that allows the element to communicate to the reader that the browser does not support the element. |
 | [getPlaceholder()](#getPlaceholder--) | The element marked with the placeholder attribute acts as a placeholder for the parent AMP element. |
-| [getRequiredScript()](#getRequiredScript--) | Required script that muct be added to head section. |
+| [getRequiredScript()](#getRequiredScript--) | Required script that must be added to head section. |
 | [getSections()](#getSections--) | List of sections. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -75,7 +75,7 @@ public final AmpAttributes getAttributes()
 AMP provides a set of common attributes that are extended to many AMP components.
 
 **Returns:**
-[AmpAttributes](../../com.aspose.email/ampattributes)
+[AmpAttributes](../../com.aspose.email/ampattributes) - The common AMP attributes of the component.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -95,7 +95,7 @@ public final boolean getDisableSessionStates()
 Set this attribute on the amp-accordion to opt out of preserving the collapsed/expanded state of the accordion.
 
 **Returns:**
-boolean
+boolean -  true  if the collapsed/expanded state of the accordion is not preserved.
 ### getExpandSingleSection() {#getExpandSingleSection--}
 ```
 public final boolean getExpandSingleSection()
@@ -105,7 +105,7 @@ public final boolean getExpandSingleSection()
 Set this attribute on the amp-accordion to only allow one section to be expanded at a time.
 
 **Returns:**
-boolean
+boolean -  true  if only one section can be expanded at a time.
 ### getFallback() {#getFallback--}
 ```
 public final String getFallback()
@@ -132,7 +132,7 @@ public String getRequiredScript()
 ```
 
 
-Required script that muct be added to head section.
+Required script that must be added to head section.
 
 **Returns:**
 java.lang.String
@@ -145,7 +145,7 @@ public final List<Section> getSections()
 List of sections.
 
 **Returns:**
-java.util.List<com.aspose.email.Section>
+java.util.List<com.aspose.email.Section> - The list of sections.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -183,7 +183,7 @@ Set this attribute on the amp-accordion to opt out of preserving the collapsed/e
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  to opt out of preserving the collapsed/expanded state of the accordion. |
 
 ### setExpandSingleSection(boolean value) {#setExpandSingleSection-boolean-}
 ```
@@ -196,7 +196,7 @@ Set this attribute on the amp-accordion to only allow one section to be expanded
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  to allow only one section to be expanded at a time. |
 
 ### setFallback(String value) {#setFallback-java.lang.String-}
 ```
@@ -233,7 +233,7 @@ public String toAmpHtml()
 Represents amp html version of component.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toHtml() {#toHtml--}
 ```
 public String toHtml()
@@ -243,7 +243,7 @@ public String toHtml()
 Represents html version of component.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toString() {#toString--}
 ```
 public String toString()

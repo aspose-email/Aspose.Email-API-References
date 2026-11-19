@@ -1,9 +1,9 @@
 ---
 title: HtmlFormatOptions
 second_title: Aspose.Email for Java API Reference
-description: Enumerates the Html format  options.
+description: Defines options for saving a message to HTML.
 type: docs
-weight: 311
+weight: 314
 url: /java/com.aspose.email/htmlformatoptions/
 ---
 
@@ -13,23 +13,24 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class HtmlFormatOptions extends System.Enum
 ```
 
-Enumerates the Html format options.
+Defines options for saving a message to HTML. The values can be combined.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [DisplayAsOutlook](#DisplayAsOutlook) | Indicates that From header will be displayed as in Outlook. |
+| [DisplayAsOutlook](#DisplayAsOutlook) | Write the  From  header the way Outlook shows it. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [None](#None) | No specific settings are specified. |
-| [RenderCalendarEvent](#RenderCalendarEvent) | Indicates that text from calendar event should be written in output mhtml. |
-| [RenderTaskFields](#RenderTaskFields) | Indicates that the specific Task fields should be written in output html. |
-| [RenderVCardInfo](#RenderVCardInfo) | Indicates that text from VCard AlternativeView should be written in output html. |
-| [WriteCompleteBccEmailAddress](#WriteCompleteBccEmailAddress) | Indicates that complete e-mail address should be written in 'Bcc' header. |
-| [WriteCompleteCcEmailAddress](#WriteCompleteCcEmailAddress) | Indicates that complete e-mail address should be written in 'Cc' header. |
-| [WriteCompleteEmailAddress](#WriteCompleteEmailAddress) | Indicates that complete e-mail address should be written in all email headers. |
-| [WriteCompleteFromEmailAddress](#WriteCompleteFromEmailAddress) | Indicates that complete e-mail address should be written in 'From' header. |
-| [WriteCompleteToEmailAddress](#WriteCompleteToEmailAddress) | Indicates that complete e-mail address should be written in 'To' header. |
-| [WriteHeader](#WriteHeader) | Indicates that header information should be written. |
+| [None](#None) | No options. |
+| [PrintFormat](#PrintFormat) | Format the output for printing. |
+| [RenderCalendarEvent](#RenderCalendarEvent) | Write the details of a calendar event the message carries. |
+| [RenderTaskFields](#RenderTaskFields) | Write the fields of a task. |
+| [RenderVCardInfo](#RenderVCardInfo) | Write the details of a vCard the message carries. |
+| [WriteCompleteBccEmailAddress](#WriteCompleteBccEmailAddress) | Write the full e-mail address, not only the display name, in the  Bcc  header. |
+| [WriteCompleteCcEmailAddress](#WriteCompleteCcEmailAddress) | Write the full e-mail address, not only the display name, in the  Cc  header. |
+| [WriteCompleteEmailAddress](#WriteCompleteEmailAddress) | Write the full e-mail addresses, not only the display names, in all headers. |
+| [WriteCompleteFromEmailAddress](#WriteCompleteFromEmailAddress) | Write the full e-mail address, not only the display name, in the  From  header. |
+| [WriteCompleteToEmailAddress](#WriteCompleteToEmailAddress) | Write the full e-mail address, not only the display name, in the  To  header. |
+| [WriteHeader](#WriteHeader) | Write the headers of the message above the body. |
 ## Methods
 
 | Method | Description |
@@ -75,7 +76,7 @@ public static final int DisplayAsOutlook
 ```
 
 
-Indicates that From header will be displayed as in Outlook.
+Write the  From  header the way Outlook shows it.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -89,7 +90,15 @@ public static final int None
 ```
 
 
-No specific settings are specified.
+No options.
+
+### PrintFormat {#PrintFormat}
+```
+public static final int PrintFormat
+```
+
+
+Format the output for printing.
 
 ### RenderCalendarEvent {#RenderCalendarEvent}
 ```
@@ -97,7 +106,7 @@ public static final int RenderCalendarEvent
 ```
 
 
-Indicates that text from calendar event should be written in output mhtml.
+Write the details of a calendar event the message carries.
 
 ### RenderTaskFields {#RenderTaskFields}
 ```
@@ -105,7 +114,7 @@ public static final int RenderTaskFields
 ```
 
 
-Indicates that the specific Task fields should be written in output html.
+Write the fields of a task.
 
 ### RenderVCardInfo {#RenderVCardInfo}
 ```
@@ -113,7 +122,7 @@ public static final int RenderVCardInfo
 ```
 
 
-Indicates that text from VCard AlternativeView should be written in output html.
+Write the details of a vCard the message carries.
 
 ### WriteCompleteBccEmailAddress {#WriteCompleteBccEmailAddress}
 ```
@@ -121,7 +130,7 @@ public static final int WriteCompleteBccEmailAddress
 ```
 
 
-Indicates that complete e-mail address should be written in 'Bcc' header.
+Write the full e-mail address, not only the display name, in the  Bcc  header.
 
 ### WriteCompleteCcEmailAddress {#WriteCompleteCcEmailAddress}
 ```
@@ -129,7 +138,7 @@ public static final int WriteCompleteCcEmailAddress
 ```
 
 
-Indicates that complete e-mail address should be written in 'Cc' header.
+Write the full e-mail address, not only the display name, in the  Cc  header.
 
 ### WriteCompleteEmailAddress {#WriteCompleteEmailAddress}
 ```
@@ -137,7 +146,7 @@ public static final int WriteCompleteEmailAddress
 ```
 
 
-Indicates that complete e-mail address should be written in all email headers.
+Write the full e-mail addresses, not only the display names, in all headers.
 
 ### WriteCompleteFromEmailAddress {#WriteCompleteFromEmailAddress}
 ```
@@ -145,7 +154,7 @@ public static final int WriteCompleteFromEmailAddress
 ```
 
 
-Indicates that complete e-mail address should be written in 'From' header.
+Write the full e-mail address, not only the display name, in the  From  header.
 
 ### WriteCompleteToEmailAddress {#WriteCompleteToEmailAddress}
 ```
@@ -153,7 +162,7 @@ public static final int WriteCompleteToEmailAddress
 ```
 
 
-Indicates that complete e-mail address should be written in 'To' header.
+Write the full e-mail address, not only the display name, in the  To  header.
 
 ### WriteHeader {#WriteHeader}
 ```
@@ -161,7 +170,7 @@ public static final int WriteHeader
 ```
 
 
-Indicates that header information should be written.
+Write the headers of the message above the body.
 
 ### Clone() {#Clone--}
 ```

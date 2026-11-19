@@ -1,9 +1,9 @@
 ---
 title: FileFormatType
 second_title: Aspose.Email for Java API Reference
-description: Enumerates file format types.
+description: Defines the file formats that can be detected.
 type: docs
-weight: 251
+weight: 254
 url: /java/com.aspose.email/fileformattype/
 ---
 
@@ -13,27 +13,28 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class FileFormatType extends System.Enum
 ```
 
-Enumerates file format types.
+Defines the file formats that can be detected.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Eml](#Eml) | File in the MIME standard. |
-| [Emlx](#Emlx) | Apple's Mail.app program file format. |
+| [Eml](#Eml) | MIME message (.eml). |
+| [Emlx](#Emlx) | Apple Mail message (.emlx). |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Ics](#Ics) | iCalendar file format. |
-| [Mbox](#Mbox) | File format used for holding collections of electronic mail messages. |
-| [Mht](#Mht) | File is a Single File Web Page, also known as a Web Archive file. |
-| [Msg](#Msg) | Outlook MSG file format. |
-| [Nsf](#Nsf) | The Notes Storage Facility (NSF) database file is used by (IBM) Lotus Notes and Domino. |
-| [Oft](#Oft) | Outlook MSG file format for message template. |
-| [Olm](#Olm) | Outlook for Mac File Format. |
-| [Ost](#Ost) | Outlook Data Files format for for offline mode. |
-| [Pst](#Pst) | Outlook Data Files format. |
-| [Tgz](#Tgz) | TAR archive file format. |
-| [Tnef](#Tnef) | Transport Neutral Encapsulation Format. |
-| [Unknown](#Unknown) | Unknown file format. |
-| [Vcf](#Vcf) | vCard file format. |
+| [Ics](#Ics) | iCalendar (.ics). |
+| [Mbox](#Mbox) | mbox mailbox: many messages in one file. |
+| [Mht](#Mht) | MHTML web archive (.mht, .mhtml). |
+| [Msg](#Msg) | Outlook message (.msg). |
+| [Nsf](#Nsf) | IBM Lotus Notes and Domino database (.nsf). |
+| [Oft](#Oft) | Outlook template (.oft). |
+| [Olm](#Olm) | Outlook for Mac archive (.olm). |
+| [Ost](#Ost) | Outlook offline storage table (.ost). |
+| [Pst](#Pst) | Outlook personal storage table (.pst). |
+| [RfcMessage](#RfcMessage) | A text message of headers and an optional body that is not of a more specific format. |
+| [Tgz](#Tgz) | TAR archive (.tgz), as exported by Zimbra. |
+| [Tnef](#Tnef) | Transport Neutral Encapsulation Format (winmail.dat). |
+| [Unknown](#Unknown) | The format is not known. |
+| [Vcf](#Vcf) | vCard (.vcf). |
 ## Methods
 
 | Method | Description |
@@ -79,7 +80,7 @@ public static final int Eml
 ```
 
 
-File in the MIME standard.
+MIME message (.eml).
 
 ### Emlx {#Emlx}
 ```
@@ -87,7 +88,7 @@ public static final int Emlx
 ```
 
 
-Apple's Mail.app program file format.
+Apple Mail message (.emlx).
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -101,7 +102,7 @@ public static final int Ics
 ```
 
 
-iCalendar file format.
+iCalendar (.ics).
 
 ### Mbox {#Mbox}
 ```
@@ -109,7 +110,7 @@ public static final int Mbox
 ```
 
 
-File format used for holding collections of electronic mail messages.
+mbox mailbox: many messages in one file.
 
 ### Mht {#Mht}
 ```
@@ -117,7 +118,7 @@ public static final int Mht
 ```
 
 
-File is a Single File Web Page, also known as a Web Archive file.
+MHTML web archive (.mht, .mhtml).
 
 ### Msg {#Msg}
 ```
@@ -125,7 +126,7 @@ public static final int Msg
 ```
 
 
-Outlook MSG file format.
+Outlook message (.msg).
 
 ### Nsf {#Nsf}
 ```
@@ -133,7 +134,7 @@ public static final int Nsf
 ```
 
 
-The Notes Storage Facility (NSF) database file is used by (IBM) Lotus Notes and Domino.
+IBM Lotus Notes and Domino database (.nsf).
 
 ### Oft {#Oft}
 ```
@@ -141,7 +142,7 @@ public static final int Oft
 ```
 
 
-Outlook MSG file format for message template.
+Outlook template (.oft).
 
 ### Olm {#Olm}
 ```
@@ -149,7 +150,7 @@ public static final int Olm
 ```
 
 
-Outlook for Mac File Format.
+Outlook for Mac archive (.olm).
 
 ### Ost {#Ost}
 ```
@@ -157,7 +158,7 @@ public static final int Ost
 ```
 
 
-Outlook Data Files format for for offline mode.
+Outlook offline storage table (.ost).
 
 ### Pst {#Pst}
 ```
@@ -165,7 +166,15 @@ public static final int Pst
 ```
 
 
-Outlook Data Files format.
+Outlook personal storage table (.pst).
+
+### RfcMessage {#RfcMessage}
+```
+public static final int RfcMessage
+```
+
+
+A text message of headers and an optional body that is not of a more specific format.
 
 ### Tgz {#Tgz}
 ```
@@ -173,7 +182,7 @@ public static final int Tgz
 ```
 
 
-TAR archive file format. Zimbra mail client utilizes TGZ to export mailbox data.
+TAR archive (.tgz), as exported by Zimbra.
 
 ### Tnef {#Tnef}
 ```
@@ -181,7 +190,7 @@ public static final int Tnef
 ```
 
 
-Transport Neutral Encapsulation Format.
+Transport Neutral Encapsulation Format (winmail.dat).
 
 ### Unknown {#Unknown}
 ```
@@ -189,7 +198,7 @@ public static final int Unknown
 ```
 
 
-Unknown file format.
+The format is not known.
 
 ### Vcf {#Vcf}
 ```
@@ -197,7 +206,7 @@ public static final int Vcf
 ```
 
 
-vCard file format.
+vCard (.vcf).
 
 ### Clone() {#Clone--}
 ```

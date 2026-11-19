@@ -1,9 +1,9 @@
 ---
 title: FolderCreationOptions
 second_title: Aspose.Email for Java API Reference
-description: Represents the options for creating  a subfolder in the Outlook PST message store.
+description: Options for creating a subfolder with FolderInfo.addSubFolder whether the name is a path how names are compared and the container class of the new folder.
 type: docs
-weight: 256
+weight: 259
 url: /java/com.aspose.email/foldercreationoptions/
 ---
 
@@ -13,12 +13,12 @@ java.lang.Object
 public class FolderCreationOptions
 ```
 
-Represents the options for creating a subfolder in the Outlook PST message store. This class serves as a container for configuring specific settings related to the creation of subfolders.
+Options for creating a subfolder with  FolderInfo.addSubFolder : whether the name is a path, how names are compared, and the container class of the new folder.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [FolderCreationOptions()](#FolderCreationOptions--) | Initializes a new instance of the [FolderCreationOptions](../../com.aspose.email/foldercreationoptions) class with default values. |
+| [FolderCreationOptions()](#FolderCreationOptions--) | Initializes a new instance of the [FolderCreationOptions](../../com.aspose.email/foldercreationoptions) class with the default settings: the name is not a path, names are compared case-insensitively, and the container class is  IPF.Note . |
 | [FolderCreationOptions(boolean createHierarchy, boolean allowNameCaseDifference)](#FolderCreationOptions-boolean-boolean-) | Initializes a new instance of the [FolderCreationOptions](../../com.aspose.email/foldercreationoptions) class with the specified parameters. |
 | [FolderCreationOptions(boolean createHierarchy, boolean allowNameCaseDifference, String containerClass)](#FolderCreationOptions-boolean-boolean-java.lang.String-) | Initializes a new instance of the [FolderCreationOptions](../../com.aspose.email/foldercreationoptions) class with the specified parameters. |
 ## Methods
@@ -26,18 +26,18 @@ Represents the options for creating a subfolder in the Outlook PST message store
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAllowNameCaseDifference()](#getAllowNameCaseDifference--) | Gets or sets a value indicating whether to allow a difference in name casing when comparing folder names. |
+| [getAllowNameCaseDifference()](#getAllowNameCaseDifference--) | Gets a value indicating whether to allow a difference in name casing when comparing folder names. |
 | [getClass()](#getClass--) |  |
-| [getContainerClass()](#getContainerClass--) | Gets or sets the container class for the new subfolder. |
-| [getCreateHierarchy()](#getCreateHierarchy--) | Gets or sets a value indicating whether to create the hierarchy of parent folders. |
-| [getEnforceContainerClassMatching()](#getEnforceContainerClassMatching--) | Gets or sets a value indicating whether to enforce container class checking. |
+| [getContainerClass()](#getContainerClass--) | Gets the container class of the new folder, which defines the kind of items it holds, for example  IPF.Note  for mail or  IPF.Appointment  for a calendar. |
+| [getCreateHierarchy()](#getCreateHierarchy--) | Gets a value indicating whether to create the hierarchy of parent folders. |
+| [getEnforceContainerClassMatching()](#getEnforceContainerClassMatching--) | Gets a value indicating whether the container class of the new folder must match the container class of its parent folder. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAllowNameCaseDifference(boolean value)](#setAllowNameCaseDifference-boolean-) | Gets or sets a value indicating whether to allow a difference in name casing when comparing folder names. |
-| [setContainerClass(String value)](#setContainerClass-java.lang.String-) | Gets or sets the container class for the new subfolder. |
-| [setCreateHierarchy(boolean value)](#setCreateHierarchy-boolean-) | Gets or sets a value indicating whether to create the hierarchy of parent folders. |
-| [setEnforceContainerClassMatching(boolean value)](#setEnforceContainerClassMatching-boolean-) | Gets or sets a value indicating whether to enforce container class checking. |
+| [setAllowNameCaseDifference(boolean value)](#setAllowNameCaseDifference-boolean-) | Sets a value indicating whether to allow a difference in name casing when comparing folder names. |
+| [setContainerClass(String value)](#setContainerClass-java.lang.String-) | Sets the container class of the new folder, which defines the kind of items it holds, for example  IPF.Note  for mail or  IPF.Appointment  for a calendar. |
+| [setCreateHierarchy(boolean value)](#setCreateHierarchy-boolean-) | Sets a value indicating whether to create the hierarchy of parent folders. |
+| [setEnforceContainerClassMatching(boolean value)](#setEnforceContainerClassMatching-boolean-) | Sets a value indicating whether the container class of the new folder must match the container class of its parent folder. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,7 +48,7 @@ public FolderCreationOptions()
 ```
 
 
-Initializes a new instance of the [FolderCreationOptions](../../com.aspose.email/foldercreationoptions) class with default values.
+Initializes a new instance of the [FolderCreationOptions](../../com.aspose.email/foldercreationoptions) class with the default settings: the name is not a path, names are compared case-insensitively, and the container class is  IPF.Note .
 
 ### FolderCreationOptions(boolean createHierarchy, boolean allowNameCaseDifference) {#FolderCreationOptions-boolean-boolean-}
 ```
@@ -100,16 +100,12 @@ public final boolean getAllowNameCaseDifference()
 ```
 
 
-Gets or sets a value indicating whether to allow a difference in name casing when comparing folder names.
+Gets a value indicating whether to allow a difference in name casing when comparing folder names.
 
-Value:  true  if a difference in name casing should be allowed when comparing folder names; otherwise,  false . The default value is  false .
-
---------------------
-
-If a folder with the same name already exists when adding a new folder and  AllowNameCaseDifference (\#getAllowNameCaseDifference.getAllowNameCaseDifference/\#setAllowNameCaseDifference(boolean).setAllowNameCaseDifference(boolean)) is set to  true , the folder names will be treated as different even if the casing differs. In this case, no exception will be thrown, and the folder will be added. When  AllowNameCaseDifference (\#getAllowNameCaseDifference.getAllowNameCaseDifference/\#setAllowNameCaseDifference(boolean).setAllowNameCaseDifference(boolean)) is set to  false , the comparison will be case-insensitive, and the folder creation operation will consider folders with the same name but different casing as duplicates, throwing an InvalidOperationException to indicate that a folder with the specified name already exists.
+When  true , a folder whose name differs from an existing one only in case is created as a separate folder. When  false , names are compared case-insensitively, and adding a folder whose name matches an existing one throws  IllegalStateException .
 
 **Returns:**
-boolean
+boolean -  true  if a difference in name casing should be allowed when comparing folder names; otherwise,  false . The default value is  false .
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -126,11 +122,9 @@ public final String getContainerClass()
 ```
 
 
-Gets or sets the container class for the new subfolder.
+Gets the container class of the new folder, which defines the kind of items it holds, for example  IPF.Note  for mail or  IPF.Appointment  for a calendar.
 
---------------------
-
-The container class represents the message class of the new subfolder. The default value is "IPF.Note".
+The default is  IPF.Note .
 
 **Returns:**
 java.lang.String
@@ -140,32 +134,24 @@ public final boolean getCreateHierarchy()
 ```
 
 
-Gets or sets a value indicating whether to create the hierarchy of parent folders.
+Gets a value indicating whether to create the hierarchy of parent folders.
 
-Value:  true  if the hierarchy of parent folders should be created. In this case, the name of the subfolder to be created is considered as path;  false  if only the subfolder with specified name should be created. The default value is  false .
-
---------------------
-
-When specifying the subfolder path, use the backslash (\\) as the separator between folder names. For example, "parent1\\parent2\\subfolder".
+Separate the folder names in the path with a backslash, for example  Parent1\\Parent2\\Subfolder .
 
 **Returns:**
-boolean
+boolean -  true  if the hierarchy of parent folders should be created. In this case, the name of the subfolder to be created is considered as path;  false  if only the subfolder with specified name should be created. The default value is  false .
 ### getEnforceContainerClassMatching() {#getEnforceContainerClassMatching--}
 ```
 public final boolean getEnforceContainerClassMatching()
 ```
 
 
-Gets or sets a value indicating whether to enforce container class checking.
+Gets a value indicating whether the container class of the new folder must match the container class of its parent folder.
 
-Value: True if container class checking should be enforced; otherwise, false. Default is false.
-
---------------------
-
-Specifies whether to enforce checking the container class of the folder being added against the container class of the parent folder. If set to true, an exception will be thrown if the container classes do not match.
+When  true , adding a folder whose container class differs from that of the parent folder throws  IllegalStateException .
 
 **Returns:**
-boolean
+boolean -  true  to require matching container classes; otherwise,  false . The default is  false .
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -198,18 +184,14 @@ public final void setAllowNameCaseDifference(boolean value)
 ```
 
 
-Gets or sets a value indicating whether to allow a difference in name casing when comparing folder names.
+Sets a value indicating whether to allow a difference in name casing when comparing folder names.
 
-Value:  true  if a difference in name casing should be allowed when comparing folder names; otherwise,  false . The default value is  false .
-
---------------------
-
-If a folder with the same name already exists when adding a new folder and  AllowNameCaseDifference (\#getAllowNameCaseDifference.getAllowNameCaseDifference/\#setAllowNameCaseDifference(boolean).setAllowNameCaseDifference(boolean)) is set to  true , the folder names will be treated as different even if the casing differs. In this case, no exception will be thrown, and the folder will be added. When  AllowNameCaseDifference (\#getAllowNameCaseDifference.getAllowNameCaseDifference/\#setAllowNameCaseDifference(boolean).setAllowNameCaseDifference(boolean)) is set to  false , the comparison will be case-insensitive, and the folder creation operation will consider folders with the same name but different casing as duplicates, throwing an InvalidOperationException to indicate that a folder with the specified name already exists.
+When  true , a folder whose name differs from an existing one only in case is created as a separate folder. When  false , names are compared case-insensitively, and adding a folder whose name matches an existing one throws  IllegalStateException .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  if a difference in name casing should be allowed when comparing folder names; otherwise,  false . The default value is  false . |
 
 ### setContainerClass(String value) {#setContainerClass-java.lang.String-}
 ```
@@ -217,11 +199,9 @@ public final void setContainerClass(String value)
 ```
 
 
-Gets or sets the container class for the new subfolder.
+Sets the container class of the new folder, which defines the kind of items it holds, for example  IPF.Note  for mail or  IPF.Appointment  for a calendar.
 
---------------------
-
-The container class represents the message class of the new subfolder. The default value is "IPF.Note".
+The default is  IPF.Note .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -234,18 +214,14 @@ public final void setCreateHierarchy(boolean value)
 ```
 
 
-Gets or sets a value indicating whether to create the hierarchy of parent folders.
+Sets a value indicating whether to create the hierarchy of parent folders.
 
-Value:  true  if the hierarchy of parent folders should be created. In this case, the name of the subfolder to be created is considered as path;  false  if only the subfolder with specified name should be created. The default value is  false .
-
---------------------
-
-When specifying the subfolder path, use the backslash (\\) as the separator between folder names. For example, "parent1\\parent2\\subfolder".
+Separate the folder names in the path with a backslash, for example  Parent1\\Parent2\\Subfolder .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  if the hierarchy of parent folders should be created. In this case, the name of the subfolder to be created is considered as path;  false  if only the subfolder with specified name should be created. The default value is  false . |
 
 ### setEnforceContainerClassMatching(boolean value) {#setEnforceContainerClassMatching-boolean-}
 ```
@@ -253,18 +229,14 @@ public final void setEnforceContainerClassMatching(boolean value)
 ```
 
 
-Gets or sets a value indicating whether to enforce container class checking.
+Sets a value indicating whether the container class of the new folder must match the container class of its parent folder.
 
-Value: True if container class checking should be enforced; otherwise, false. Default is false.
-
---------------------
-
-Specifies whether to enforce checking the container class of the folder being added against the container class of the parent folder. If set to true, an exception will be thrown if the container classes do not match.
+When  true , adding a folder whose container class differs from that of the parent folder throws  IllegalStateException .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  to require matching container classes; otherwise,  false . The default is  false . |
 
 ### toString() {#toString--}
 ```

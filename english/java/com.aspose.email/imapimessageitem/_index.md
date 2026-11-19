@@ -1,33 +1,35 @@
 ---
 title: IMapiMessageItem
 second_title: Aspose.Email for Java API Reference
-description: Base interface for all message items  in Outlook
+description: The common interface of Outlook items messages appointments tasks contacts notes journal entries and distribution lists.
 type: docs
-weight: 785
+weight: 797
 url: /java/com.aspose.email/imapimessageitem/
 ---
 ```
 public interface IMapiMessageItem
 ```
 
-Base interface for all message items in Outlook
+The common interface of Outlook items: messages, appointments, tasks, contacts, notes, journal entries and distribution lists.
+
+Implemented by [MapiMessage](../../com.aspose.email/mapimessage) and by the item classes derived from [MapiMessageItemBase](../../com.aspose.email/mapimessageitembase). [MapiMessage.toMapiMessageItem()](../../com.aspose.email/mapimessage\#toMapiMessageItem--) returns the item class that matches the message class, so check \#getSupportedType().getSupportedType() or the run-time type of the result.
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getBody()](#getBody--) | Gets message body |
-| [getMessageClass()](#getMessageClass--) | Gets message class |
-| [getSubject()](#getSubject--) | Gets message subject |
-| [getSupportedType()](#getSupportedType--) | Gets the supported item type. |
-| [setBody(String value)](#setBody-java.lang.String-) | Gets message body |
-| [setSubject(String value)](#setSubject-java.lang.String-) | Gets message subject |
+| [getBody()](#getBody--) | Gets the plain-text body of the item. |
+| [getMessageClass()](#getMessageClass--) | Gets the message class of the item, such as  IPM.Note  or  IPM.Contact . |
+| [getSubject()](#getSubject--) | Gets the subject of the item. |
+| [getSupportedType()](#getSupportedType--) | Gets the type of the item, as determined by its message class. |
+| [setBody(String value)](#setBody-java.lang.String-) | Sets the plain-text body of the item. |
+| [setSubject(String value)](#setSubject-java.lang.String-) | Sets the subject of the item. |
 ### getBody() {#getBody--}
 ```
 public abstract String getBody()
 ```
 
 
-Gets message body
+Gets the plain-text body of the item.
 
 **Returns:**
 java.lang.String
@@ -37,7 +39,7 @@ public abstract String getMessageClass()
 ```
 
 
-Gets message class
+Gets the message class of the item, such as  IPM.Note  or  IPM.Contact .
 
 **Returns:**
 java.lang.String
@@ -47,7 +49,7 @@ public abstract String getSubject()
 ```
 
 
-Gets message subject
+Gets the subject of the item.
 
 **Returns:**
 java.lang.String
@@ -57,19 +59,17 @@ public abstract int getSupportedType()
 ```
 
 
-Gets the supported item type.
-
-Value: The [MapiItemType](../../com.aspose.email/mapiitemtype).
+Gets the type of the item, as determined by its message class.
 
 **Returns:**
-int
+int - The [MapiItemType](../../com.aspose.email/mapiitemtype).
 ### setBody(String value) {#setBody-java.lang.String-}
 ```
 public abstract void setBody(String value)
 ```
 
 
-Gets message body
+Sets the plain-text body of the item.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -82,7 +82,7 @@ public abstract void setSubject(String value)
 ```
 
 
-Gets message subject
+Sets the subject of the item.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -3,7 +3,7 @@ title: TraversalAsposeException
 second_title: Aspose.Email for Java API Reference
 description: Represents the exception that can occur when traversing a storage.
 type: docs
-weight: 717
+weight: 727
 url: /java/com.aspose.email/traversalasposeexception/
 ---
 
@@ -23,11 +23,11 @@ Represents the exception that can occur when traversing a storage.
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
 | [getClass()](#getClass--) |  |
-| [getErrorDetails()](#getErrorDetails--) | Gets extra information aboout error |
+| [getErrorDetails()](#getErrorDetails--) | Gets additional information about the error, if the operation provides any. |
 | [getInnerException()](#getInnerException--) |  |
-| [getKind()](#getKind--) | Gets or sets the kind of failure. |
+| [getKind()](#getKind--) | Gets the kind of failure. |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
-| [getMessage()](#getMessage--) | Gets a message that describes the current exception. |
+| [getMessage()](#getMessage--) | Gets the message that describes the error. |
 | [getStackTrace()](#getStackTrace--) |  |
 | [getSuppressed()](#getSuppressed--) |  |
 | [getType()](#getType--) |  |
@@ -38,9 +38,9 @@ Represents the exception that can occur when traversing a storage.
 | [printStackTrace()](#printStackTrace--) |  |
 | [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
 | [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
-| [setKind(TraversalFailureKind value)](#setKind-com.aspose.email.TraversalFailureKind-) | Gets or sets the kind of failure. |
+| [setKind(TraversalFailureKind value)](#setKind-com.aspose.email.TraversalFailureKind-) | Sets the kind of failure. |
 | [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [toString()](#toString--) | Returns a string that represents the current object. |
+| [toString()](#toString--) | Returns the type, the message and the stack trace of the exception. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -108,7 +108,7 @@ public final Object getErrorDetails()
 ```
 
 
-Gets extra information aboout error
+Gets additional information about the error, if the operation provides any.
 
 **Returns:**
 java.lang.Object
@@ -128,12 +128,10 @@ public final TraversalFailureKind getKind()
 ```
 
 
-Gets or sets the kind of failure.
-
-Value: The [TraversalFailureKind](../../com.aspose.email/traversalfailurekind) that can occur when traversing a storage.
+Gets the kind of failure.
 
 **Returns:**
-[TraversalFailureKind](../../com.aspose.email/traversalfailurekind)
+[TraversalFailureKind](../../com.aspose.email/traversalfailurekind) - The [TraversalFailureKind](../../com.aspose.email/traversalfailurekind) that can occur when traversing a storage.
 ### getLocalizedMessage() {#getLocalizedMessage--}
 ```
 public String getLocalizedMessage()
@@ -150,7 +148,7 @@ public String getMessage()
 ```
 
 
-Gets a message that describes the current exception.
+Gets the message that describes the error.
 
 **Returns:**
 java.lang.String
@@ -265,14 +263,12 @@ public final void setKind(TraversalFailureKind value)
 ```
 
 
-Gets or sets the kind of failure.
-
-Value: The [TraversalFailureKind](../../com.aspose.email/traversalfailurekind) that can occur when traversing a storage.
+Sets the kind of failure.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TraversalFailureKind](../../com.aspose.email/traversalfailurekind) |  |
+| value | [TraversalFailureKind](../../com.aspose.email/traversalfailurekind) | The [TraversalFailureKind](../../com.aspose.email/traversalfailurekind) that can occur when traversing a storage. |
 
 ### setStackTrace(StackTraceElement[] arg0) {#setStackTrace-java.lang.StackTraceElement---}
 ```
@@ -293,10 +289,10 @@ public String toString()
 ```
 
 
-Returns a string that represents the current object.
+Returns the type, the message and the stack trace of the exception.
 
 **Returns:**
-java.lang.String - A string that represents the current object.
+java.lang.String - A string that represents the exception.
 ### wait() {#wait--}
 ```
 public final void wait()

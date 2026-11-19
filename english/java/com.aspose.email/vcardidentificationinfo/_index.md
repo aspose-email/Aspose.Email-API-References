@@ -1,9 +1,9 @@
 ---
 title: VCardIdentificationInfo
 second_title: Aspose.Email for Java API Reference
-description: Represents vCard identification information
+description: Represents vCard identification information.
 type: docs
-weight: 742
+weight: 753
 url: /java/com.aspose.email/vcardidentificationinfo/
 ---
 
@@ -13,31 +13,35 @@ java.lang.Object
 public final class VCardIdentificationInfo
 ```
 
-Represents vCard identification information
+Represents vCard identification information.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [VCardIdentificationInfo()](#VCardIdentificationInfo--) | Initializes a new instance of the [VCardIdentificationInfo](../../com.aspose.email/vcardidentificationinfo) class |
+| [VCardIdentificationInfo()](#VCardIdentificationInfo--) | Initializes a new instance of the [VCardIdentificationInfo](../../com.aspose.email/vcardidentificationinfo) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBirthday()](#getBirthday--) | Gets or sets a contact's bithday |
+| [getAnniversary()](#getAnniversary--) | Gets a contact's anniversary. |
+| [getBirthday()](#getBirthday--) | Gets a contact's bithday. |
 | [getClass()](#getClass--) |  |
-| [getDisplayName()](#getDisplayName--) | Gets or sets a contact's display(formatted) name |
-| [getFullName()](#getFullName--) | Gets or sets a contact's full name |
-| [getNickname()](#getNickname--) | Gets or sets a contact's nickname |
-| [getPhoto()](#getPhoto--) | Gets or sets a contact's photo |
+| [getDisplayName()](#getDisplayName--) | Gets a contact's display(formatted) name. |
+| [getFullName()](#getFullName--) | Gets a contact's full name. |
+| [getGender()](#getGender--) | Gets gender of a person. |
+| [getNickname()](#getNickname--) | Gets a contact's nickname. |
+| [getPhoto()](#getPhoto--) | Gets a contact's photo. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBirthday(Date value)](#setBirthday-java.util.Date-) | Gets or sets a contact's bithday |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Gets or sets a contact's display(formatted) name |
-| [setFullName(VCardFullName value)](#setFullName-com.aspose.email.VCardFullName-) | Gets or sets a contact's full name |
-| [setNickname(String value)](#setNickname-java.lang.String-) | Gets or sets a contact's nickname |
-| [setPhoto(VCardPhoto value)](#setPhoto-com.aspose.email.VCardPhoto-) | Gets or sets a contact's photo |
+| [setAnniversary(Date value)](#setAnniversary-java.util.Date-) | Sets a contact's anniversary. |
+| [setBirthday(Date value)](#setBirthday-java.util.Date-) | Sets a contact's bithday. |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Sets a contact's display(formatted) name. |
+| [setFullName(VCardFullName value)](#setFullName-com.aspose.email.VCardFullName-) | Sets a contact's full name. |
+| [setGender(int value)](#setGender-int-) | Sets gender of a person. |
+| [setNickname(String value)](#setNickname-java.lang.String-) | Sets a contact's nickname. |
+| [setPhoto(VCardPhoto value)](#setPhoto-com.aspose.email.VCardPhoto-) | Sets a contact's photo. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,7 +52,7 @@ public VCardIdentificationInfo()
 ```
 
 
-Initializes a new instance of the [VCardIdentificationInfo](../../com.aspose.email/vcardidentificationinfo) class
+Initializes a new instance of the [VCardIdentificationInfo](../../com.aspose.email/vcardidentificationinfo) class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -65,13 +69,23 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getAnniversary() {#getAnniversary--}
+```
+public final Date getAnniversary()
+```
+
+
+Gets a contact's anniversary.
+
+**Returns:**
+java.util.Date
 ### getBirthday() {#getBirthday--}
 ```
 public final Date getBirthday()
 ```
 
 
-Gets or sets a contact's bithday
+Gets a contact's bithday.
 
 **Returns:**
 java.util.Date
@@ -91,7 +105,7 @@ public final String getDisplayName()
 ```
 
 
-Gets or sets a contact's display(formatted) name
+Gets a contact's display(formatted) name.
 
 **Returns:**
 java.lang.String
@@ -101,17 +115,27 @@ public final VCardFullName getFullName()
 ```
 
 
-Gets or sets a contact's full name
+Gets a contact's full name.
 
 **Returns:**
 [VCardFullName](../../com.aspose.email/vcardfullname)
+### getGender() {#getGender--}
+```
+public final int getGender()
+```
+
+
+Gets gender of a person.
+
+**Returns:**
+int
 ### getNickname() {#getNickname--}
 ```
 public final String getNickname()
 ```
 
 
-Gets or sets a contact's nickname
+Gets a contact's nickname.
 
 **Returns:**
 java.lang.String
@@ -121,7 +145,7 @@ public final VCardPhoto getPhoto()
 ```
 
 
-Gets or sets a contact's photo
+Gets a contact's photo.
 
 **Returns:**
 [VCardPhoto](../../com.aspose.email/vcardphoto)
@@ -151,13 +175,26 @@ public final native void notifyAll()
 
 
 
+### setAnniversary(Date value) {#setAnniversary-java.util.Date-}
+```
+public final void setAnniversary(Date value)
+```
+
+
+Sets a contact's anniversary.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date |  |
+
 ### setBirthday(Date value) {#setBirthday-java.util.Date-}
 ```
 public final void setBirthday(Date value)
 ```
 
 
-Gets or sets a contact's bithday
+Sets a contact's bithday.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -170,7 +207,7 @@ public final void setDisplayName(String value)
 ```
 
 
-Gets or sets a contact's display(formatted) name
+Sets a contact's display(formatted) name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -183,12 +220,25 @@ public final void setFullName(VCardFullName value)
 ```
 
 
-Gets or sets a contact's full name
+Sets a contact's full name.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [VCardFullName](../../com.aspose.email/vcardfullname) |  |
+
+### setGender(int value) {#setGender-int-}
+```
+public final void setGender(int value)
+```
+
+
+Sets gender of a person.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setNickname(String value) {#setNickname-java.lang.String-}
 ```
@@ -196,7 +246,7 @@ public final void setNickname(String value)
 ```
 
 
-Gets or sets a contact's nickname
+Sets a contact's nickname.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -209,7 +259,7 @@ public final void setPhoto(VCardPhoto value)
 ```
 
 
-Gets or sets a contact's photo
+Sets a contact's photo.
 
 **Parameters:**
 | Parameter | Type | Description |

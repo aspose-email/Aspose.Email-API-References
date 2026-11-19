@@ -3,7 +3,7 @@ title: ContentDisposition
 second_title: Aspose.Email for Java API Reference
 description: Represents a Content-Disposition header.
 type: docs
-weight: 128
+weight: 129
 url: /java/com.aspose.email/contentdisposition/
 ---
 
@@ -26,24 +26,24 @@ Represents a Content-Disposition header.
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to this instance. |
 | [getClass()](#getClass--) |  |
-| [getCreationDate()](#getCreationDate--) | Gets or sets the creation date. |
-| [getDispositionType()](#getDispositionType--) | Gets or sets the type of the disposition. |
-| [getFileName()](#getFileName--) | Gets or sets the file name for an attachment. |
-| [getInline()](#getInline--) | Gets or sets a value that determines the disposition type. |
-| [getModificationDate()](#getModificationDate--) | Gets or sets the modification date. |
+| [getCreationDate()](#getCreationDate--) | Gets the creation date. |
+| [getDispositionType()](#getDispositionType--) | Gets the type of the disposition. |
+| [getFileName()](#getFileName--) | Gets the file name for an attachment. |
+| [getInline()](#getInline--) | Gets a value that determines the disposition type. |
+| [getModificationDate()](#getModificationDate--) | Gets the modification date. |
 | [getParameters()](#getParameters--) | Gets the parameters. |
-| [getReadDate()](#getReadDate--) | Gets or sets the read date. |
-| [getSize()](#getSize--) | Gets or sets the size of a file attachment. |
+| [getReadDate()](#getReadDate--) | Gets the read date. |
+| [getSize()](#getSize--) | Gets the size of a file attachment. |
 | [hashCode()](#hashCode--) | Returns a hash code for this instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCreationDate(Date value)](#setCreationDate-java.util.Date-) | Gets or sets the creation date. |
-| [setDispositionType(String value)](#setDispositionType-java.lang.String-) | Gets or sets the type of the disposition. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | Gets or sets the file name for an attachment. |
-| [setInline(boolean value)](#setInline-boolean-) | Gets or sets a value that determines the disposition type. |
-| [setModificationDate(Date value)](#setModificationDate-java.util.Date-) | Gets or sets the modification date. |
-| [setReadDate(Date value)](#setReadDate-java.util.Date-) | Gets or sets the read date. |
-| [setSize(long value)](#setSize-long-) | Gets or sets the size of a file attachment. |
+| [setCreationDate(Date value)](#setCreationDate-java.util.Date-) | Sets the creation date. |
+| [setDispositionType(String value)](#setDispositionType-java.lang.String-) | Sets the type of the disposition. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Sets the file name for an attachment. |
+| [setInline(boolean value)](#setInline-boolean-) | Sets a value that determines the disposition type. |
+| [setModificationDate(Date value)](#setModificationDate-java.util.Date-) | Sets the modification date. |
+| [setReadDate(Date value)](#setReadDate-java.util.Date-) | Sets the read date. |
+| [setSize(long value)](#setSize-long-) | Sets the size of a file attachment. |
 | [toString()](#toString--) | Returns a String that represents this instance. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -100,60 +100,50 @@ public final Date getCreationDate()
 ```
 
 
-Gets or sets the creation date.
-
-Value: A DateTime value that indicates the file creation date; otherwise, MinValue if no date was specified.
+Gets the creation date.
 
 **Returns:**
-java.util.Date
+java.util.Date - A java.util.Date value that indicates the file creation date; otherwise, MinValue if no date was specified.
 ### getDispositionType() {#getDispositionType--}
 ```
 public final String getDispositionType()
 ```
 
 
-Gets or sets the type of the disposition.
-
-Value: The String that contains the disposition type.
+Gets the type of the disposition.
 
 **Returns:**
-java.lang.String
+java.lang.String - The  String  that contains the disposition type.
 ### getFileName() {#getFileName--}
 ```
 public final String getFileName()
 ```
 
 
-Gets or sets the file name for an attachment.
-
-Value: The name of the file.
+Gets the file name for an attachment.
 
 **Returns:**
-java.lang.String
+java.lang.String - The name of the file.
 ### getInline() {#getInline--}
 ```
 public final boolean getInline()
 ```
 
 
-Gets or sets a value that determines the disposition type.
-
-Value: true if content in the attachment is presented inline; otherwise, false.
+Gets a value that determines the disposition type.
 
 **Returns:**
-boolean
+boolean -  true  if content in the attachment is presented inline; otherwise,  false .
 ### getModificationDate() {#getModificationDate--}
 ```
 public final Date getModificationDate()
 ```
 
 
-Gets or sets the modification date.
-
-Value: A DateTime value that indicates the file modification date; otherwise, MinValue if no date was specified.
+Gets the modification date.
 
 **Returns:**
-java.util.Date
+java.util.Date - A java.util.Date value that indicates the file modification date; otherwise, MinValue if no date was specified.
 ### getParameters() {#getParameters--}
 ```
 public final TrackingStringDictionary getParameters()
@@ -162,34 +152,28 @@ public final TrackingStringDictionary getParameters()
 
 Gets the parameters.
 
-Value: A StringDictionary that contains parameter name/value pairs.
-
 **Returns:**
-[TrackingStringDictionary](../../com.aspose.email/trackingstringdictionary)
+[TrackingStringDictionary](../../com.aspose.email/trackingstringdictionary) - A [TrackingStringDictionary](../../com.aspose.email/trackingstringdictionary) that contains parameter name/value pairs.
 ### getReadDate() {#getReadDate--}
 ```
 public final Date getReadDate()
 ```
 
 
-Gets or sets the read date.
-
-Value: A DateTime value that indicates the file read date; otherwise, MinValue if no date was specified.
+Gets the read date.
 
 **Returns:**
-java.util.Date
+java.util.Date - A java.util.Date value that indicates the file read date; otherwise, MinValue if no date was specified.
 ### getSize() {#getSize--}
 ```
 public final long getSize()
 ```
 
 
-Gets or sets the size of a file attachment.
-
-Value: A Int32 that specifies the number of bytes in the file attachment.
+Gets the size of a file attachment.
 
 **Returns:**
-long
+long - The number of bytes in the file attachment.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -222,14 +206,12 @@ public final void setCreationDate(Date value)
 ```
 
 
-Gets or sets the creation date.
-
-Value: A DateTime value that indicates the file creation date; otherwise, MinValue if no date was specified.
+Sets the creation date.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.Date |  |
+| value | java.util.Date | A java.util.Date value that indicates the file creation date; otherwise, MinValue if no date was specified. |
 
 ### setDispositionType(String value) {#setDispositionType-java.lang.String-}
 ```
@@ -237,14 +219,12 @@ public final void setDispositionType(String value)
 ```
 
 
-Gets or sets the type of the disposition.
-
-Value: The String that contains the disposition type.
+Sets the type of the disposition.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The  String  that contains the disposition type. |
 
 ### setFileName(String value) {#setFileName-java.lang.String-}
 ```
@@ -252,14 +232,12 @@ public final void setFileName(String value)
 ```
 
 
-Gets or sets the file name for an attachment.
-
-Value: The name of the file.
+Sets the file name for an attachment.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The name of the file. |
 
 ### setInline(boolean value) {#setInline-boolean-}
 ```
@@ -267,14 +245,12 @@ public final void setInline(boolean value)
 ```
 
 
-Gets or sets a value that determines the disposition type.
-
-Value: true if content in the attachment is presented inline; otherwise, false.
+Sets a value that determines the disposition type.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  if content in the attachment is presented inline; otherwise,  false . |
 
 ### setModificationDate(Date value) {#setModificationDate-java.util.Date-}
 ```
@@ -282,14 +258,12 @@ public final void setModificationDate(Date value)
 ```
 
 
-Gets or sets the modification date.
-
-Value: A DateTime value that indicates the file modification date; otherwise, MinValue if no date was specified.
+Sets the modification date.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.Date |  |
+| value | java.util.Date | A java.util.Date value that indicates the file modification date; otherwise, MinValue if no date was specified. |
 
 ### setReadDate(Date value) {#setReadDate-java.util.Date-}
 ```
@@ -297,14 +271,12 @@ public final void setReadDate(Date value)
 ```
 
 
-Gets or sets the read date.
-
-Value: A DateTime value that indicates the file read date; otherwise, MinValue if no date was specified.
+Sets the read date.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.Date |  |
+| value | java.util.Date | A java.util.Date value that indicates the file read date; otherwise, MinValue if no date was specified. |
 
 ### setSize(long value) {#setSize-long-}
 ```
@@ -312,14 +284,12 @@ public final void setSize(long value)
 ```
 
 
-Gets or sets the size of a file attachment.
-
-Value: A Int32 that specifies the number of bytes in the file attachment.
+Sets the size of a file attachment.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | long |  |
+| value | long | The number of bytes in the file attachment. |
 
 ### toString() {#toString--}
 ```

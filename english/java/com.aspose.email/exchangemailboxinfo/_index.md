@@ -3,7 +3,7 @@ title: ExchangeMailboxInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents the mail box information of an exchange server.
 type: docs
-weight: 221
+weight: 224
 url: /java/com.aspose.email/exchangemailboxinfo/
 ---
 

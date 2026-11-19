@@ -1,7 +1,7 @@
 ---
 title: AppenderCollection
 second_title: Aspose.Email for Java API Reference
-description: Represents the collecton for Appender objects.
+description: Represents the collection for Appender objects.
 type: docs
 weight: 32
 url: /java/com.aspose.email/appendercollection/
@@ -13,19 +13,19 @@ java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 public class AppenderCollection extends System.Collections.ObjectModel.Collection<IAppender>
 ```
 
-Represents the collecton for Appender objects.
+Represents the collection for Appender objects.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [AppenderCollection()](#AppenderCollection--) | Initializes a new instance of the AppenderCollection class. |
+| [AppenderCollection()](#AppenderCollection--) | Initializes a new instance of the [AppenderCollection](../../com.aspose.email/appendercollection) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [addAppender(IAppender value)](#addAppender-com.aspose.email.IAppender-) | Adds an IAppender object to the end of collection. |
+| [addAppender(IAppender value)](#addAppender-com.aspose.email.IAppender-) | Adds an IAppender object to the end of the collection. |
 | [addItem(T arg0)](#addItem-T-) |  |
-| [addRange(Iterable<IAppender> value)](#addRange-java.lang.Iterable-com.aspose.email.IAppender--) | Adds an IAppenders enumeration to the end of collection. |
+| [addRange(Iterable<IAppender> value)](#addRange-java.lang.Iterable-com.aspose.email.IAppender--) | Adds a sequence of IAppender objects to the end of the collection. |
 | [clear()](#clear--) |  |
 | [containsItem(T arg0)](#containsItem-T-) |  |
 | [copyToTArray(T[] arg0, int arg1)](#copyToTArray-T---int-) |  |
@@ -56,7 +56,7 @@ public AppenderCollection()
 ```
 
 
-Initializes a new instance of the AppenderCollection class.
+Initializes a new instance of the [AppenderCollection](../../com.aspose.email/appendercollection) class.
 
 ### addAppender(IAppender value) {#addAppender-com.aspose.email.IAppender-}
 ```
@@ -64,12 +64,12 @@ public final int addAppender(IAppender value)
 ```
 
 
-Adds an IAppender object to the end of collection.
+Adds an IAppender object to the end of the collection.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IAppender](../../com.aspose.email/iappender) | The IAppender to be added to the end of the collection. The value can be null. |
+| value | [IAppender](../../com.aspose.email/iappender) | The IAppender to be added to the end of the collection. The value can be  null . |
 
 **Returns:**
 int - The index at which the value has been added.
@@ -92,12 +92,12 @@ public final void addRange(Iterable<IAppender> value)
 ```
 
 
-Adds an IAppenders enumeration to the end of collection.
+Adds a sequence of IAppender objects to the end of the collection.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.Iterable<com.aspose.email.IAppender> | The IAppenders enumeration to be added to the end of the collection. |
+| value | java.lang.Iterable<com.aspose.email.IAppender> | The IAppender objects to be added to the end of the collection. |
 
 ### clear() {#clear--}
 ```

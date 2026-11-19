@@ -3,7 +3,7 @@ title: FileFormatUtil
 second_title: Aspose.Email for Java API Reference
 description: Provides utility methods to detect file type.
 type: docs
-weight: 252
+weight: 255
 url: /java/com.aspose.email/fileformatutil/
 ---
 
@@ -54,7 +54,7 @@ Detects and returns the information about a format of a file stored in a stream.
 | stream | java.io.InputStream | Source stream. |
 
 **Returns:**
-[FileFormatInfo](../../com.aspose.email/fileformatinfo) - The result [FileFormatInfo](../../com.aspose.email/fileformatinfo)
+[FileFormatInfo](../../com.aspose.email/fileformatinfo) - The result [FileFormatInfo](../../com.aspose.email/fileformatinfo).
 ### detectFileFormat(String filePath) {#detectFileFormat-java.lang.String-}
 ```
 public static FileFormatInfo detectFileFormat(String filePath)
@@ -69,7 +69,7 @@ Detects and returns the information about a format of a file.
 | filePath | java.lang.String | Path to the source file. |
 
 **Returns:**
-[FileFormatInfo](../../com.aspose.email/fileformatinfo) - The result [FileFormatInfo](../../com.aspose.email/fileformatinfo)
+[FileFormatInfo](../../com.aspose.email/fileformatinfo) - The result [FileFormatInfo](../../com.aspose.email/fileformatinfo).
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

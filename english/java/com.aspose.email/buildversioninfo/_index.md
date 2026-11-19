@@ -1,9 +1,9 @@
 ---
 title: BuildVersionInfo
 second_title: Aspose.Email for Java API Reference
-description: Provides information about the current product name and version.
+description: Provides the name and version of the product.
 type: docs
-weight: 87
+weight: 88
 url: /java/com.aspose.email/buildversioninfo/
 ---
 
@@ -13,17 +13,17 @@ java.lang.Object
 public final class BuildVersionInfo
 ```
 
-Provides information about the current product name and version.
+Provides the name and version of the product.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [ASSEMBLY_VERSION](#ASSEMBLY-VERSION) | Gets the version number of the assembly. |
-| [FILE_VERSION](#FILE-VERSION) | Gets the file version number. |
-| [PRODUCT](#PRODUCT) | Gets the product name. |
-| [PRODUCT_MAJOR](#PRODUCT-MAJOR) | Gets the product major version. |
-| [PRODUCT_MINOR](#PRODUCT-MINOR) | Gets the the product minor version. |
-| [RELEASE_DATE](#RELEASE-DATE) | Gets the date of release. |
+| [ASSEMBLY_VERSION](#ASSEMBLY-VERSION) | The version of the assembly. |
+| [FILE_VERSION](#FILE-VERSION) | The file version of the assembly. |
+| [PRODUCT](#PRODUCT) | The name of the product. |
+| [PRODUCT_MAJOR](#PRODUCT-MAJOR) | The major version of the product. |
+| [PRODUCT_MINOR](#PRODUCT-MINOR) | The minor version of the product. |
+| [RELEASE_DATE](#RELEASE-DATE) | The release date of the product. |
 ## Methods
 
 | Method | Description |
@@ -43,7 +43,7 @@ public static final String ASSEMBLY_VERSION
 ```
 
 
-Gets the version number of the assembly.
+The version of the assembly.
 
 ### FILE_VERSION {#FILE-VERSION}
 ```
@@ -51,7 +51,7 @@ public static final String FILE_VERSION
 ```
 
 
-Gets the file version number.
+The file version of the assembly.
 
 ### PRODUCT {#PRODUCT}
 ```
@@ -59,7 +59,7 @@ public static final String PRODUCT
 ```
 
 
-Gets the product name.
+The name of the product.
 
 ### PRODUCT_MAJOR {#PRODUCT-MAJOR}
 ```
@@ -67,7 +67,7 @@ public static final int PRODUCT_MAJOR
 ```
 
 
-Gets the product major version.
+The major version of the product.
 
 ### PRODUCT_MINOR {#PRODUCT-MINOR}
 ```
@@ -75,7 +75,7 @@ public static final int PRODUCT_MINOR
 ```
 
 
-Gets the the product minor version.
+The minor version of the product.
 
 ### RELEASE_DATE {#RELEASE-DATE}
 ```
@@ -83,7 +83,7 @@ public static final System.DateTime RELEASE_DATE
 ```
 
 
-Gets the date of release.
+The release date of the product.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

@@ -3,7 +3,7 @@ title: ItemCallbackArgs
 second_title: Aspose.Email for Java API Reference
 description: ItemCallbackArgs contains item being processed.
 type: docs
-weight: 357
+weight: 360
 url: /java/com.aspose.email/itemcallbackargs/
 ---
 
@@ -25,11 +25,11 @@ ItemCallbackArgs contains item being processed.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getItem()](#getItem--) | The item being processed. |
+| [getItem()](#getItem--) | Gets the item being processed. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setItem(Object value)](#setItem-java.lang.Object-) | The item being processed. |
+| [setItem(Object value)](#setItem-java.lang.Object-) | Sets the item being processed. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -45,7 +45,7 @@ Initializes a new instance of the ItemCallbackArgs class with the specified item
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | java.lang.Object |  |
+| item | java.lang.Object | The item being processed. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -78,7 +78,7 @@ public final Object getItem()
 ```
 
 
-The item being processed.
+Gets the item being processed.
 
 **Returns:**
 java.lang.Object
@@ -114,7 +114,7 @@ public final void setItem(Object value)
 ```
 
 
-The item being processed.
+Sets the item being processed.
 
 **Parameters:**
 | Parameter | Type | Description |

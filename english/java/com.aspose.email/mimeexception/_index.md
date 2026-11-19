@@ -1,9 +1,9 @@
 ---
 title: MimeException
 second_title: Aspose.Email for Java API Reference
-description: Provides information about MIME errors
+description: Provides information about MIME errors.
 type: docs
-weight: 544
+weight: 547
 url: /java/com.aspose.email/mimeexception/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class MimeException extends System.Exception
 ```
 
-Provides information about MIME errors
+Provides information about MIME errors.
 ## Constructors
 
 | Constructor | Description |

@@ -1,9 +1,9 @@
 ---
 title: FolderInfo
 second_title: Aspose.Email for Java API Reference
-description: Represents information about personal folder in PST.
+description: Represents a folder of a PST or OST file and gives access to its messages and subfolders.
 type: docs
-weight: 257
+weight: 260
 url: /java/com.aspose.email/folderinfo/
 ---
 
@@ -13,7 +13,9 @@ java.lang.Object
 public final class FolderInfo
 ```
 
-Represents information about personal folder in PST.
+Represents a folder of a PST or OST file and gives access to its messages and subfolders.
+
+Get folders from a [PersonalStorage](../../com.aspose.email/personalstorage):  getRootFolder() ,  getPredefinedFolder ,  getFolderById , or the  getSubFolder  and  getSubFolders  methods of another folder. Methods that change a folder throw  UnsupportedOperationException  for an ANSI PST and  IllegalStateException  when the PST is open for reading only.
 ## Constructors
 
 | Constructor | Description |
@@ -29,69 +31,64 @@ Represents information about personal folder in PST.
 
 | Method | Description |
 | --- | --- |
-| [addFile(String fileName, String messageClass)](#addFile-java.lang.String-java.lang.String-) | Adds a file into pst folder. |
-| [addMapiMessageItem(IMapiMessageItem item)](#addMapiMessageItem-com.aspose.email.IMapiMessageItem-) | Adds the IMapiMessageItem object into folder. |
-| [addMessage(MapiMessage message)](#addMessage-com.aspose.email.MapiMessage-) | Adds a new message into folder. |
-| [addMessages(Iterable<MapiMessage> messages)](#addMessages-java.lang.Iterable-com.aspose.email.MapiMessage--) | Provides message adding in a bulk mode. |
-| [addSubFolder(String name)](#addSubFolder-java.lang.String-) | Adds the new sub-folder. |
-| [addSubFolder(String name, boolean createHierarchy)](#addSubFolder-java.lang.String-boolean-) | Adds the new sub-folder. |
+| [addFile(String fileName, String messageClass)](#addFile-java.lang.String-java.lang.String-) | Adds a file to the folder as a new item with the specified message class. |
+| [addMapiMessageItem(IMapiMessageItem item)](#addMapiMessageItem-com.aspose.email.IMapiMessageItem-) | Adds a message, contact, appointment, meeting, task, note or journal item to the folder. |
+| [addMessage(MapiMessage message)](#addMessage-com.aspose.email.MapiMessage-) | Adds a message to the folder. |
+| [addMessages(Iterable<MapiMessage> messages)](#addMessages-java.lang.Iterable-com.aspose.email.MapiMessage--) | Adds messages to the folder in bulk, which is faster than adding them one by one. |
+| [addSubFolder(String name)](#addSubFolder-java.lang.String-) | Adds a subfolder with the specified name. |
+| [addSubFolder(String name, boolean createHierarchy)](#addSubFolder-java.lang.String-boolean-) | Adds a subfolder. |
 | [addSubFolder(String name, FolderCreationOptions creationOptions)](#addSubFolder-java.lang.String-com.aspose.email.FolderCreationOptions-) | Adds a subfolder with the specified name to the current folder using the provided creation options. |
-| [addSubFolder(String name, String containerClass)](#addSubFolder-java.lang.String-java.lang.String-) | Adds the new subfolder. |
-| [changeContainerClass(String containerClass)](#changeContainerClass-java.lang.String-) | Changes the container class. |
-| [changeDisplayName(String newName)](#changeDisplayName-java.lang.String-) | Changes the display name. |
-| [changeMessages(MapiPropertyCollection updatedProperties)](#changeMessages-com.aspose.email.MapiPropertyCollection-) | Changes all messages in folder. |
-| [changeMessages(Iterable<String> entryIdCollection, MapiPropertyCollection updatedProperties)](#changeMessages-java.lang.Iterable-java.lang.String--com.aspose.email.MapiPropertyCollection-) | Changes the messages in folder. |
-| [deleteChildItem(byte[] entryId)](#deleteChildItem-byte---) | Deletes the item (folder or message) by it's entryId. |
-| [deleteChildItems(Iterable<String> entryIdCollection)](#deleteChildItems-java.lang.Iterable-java.lang.String--) | Deletes the child messages. |
-| [enumerateFolders()](#enumerateFolders--) | Exposes the enumerator, which supports an iteration of subfolders in folder. |
-| [enumerateFolders(int kind)](#enumerateFolders-int-) | Exposes the enumerator, which supports an iteration of subfolders in folder. |
-| [enumerateMapiMessages()](#enumerateMapiMessages--) | Exposes the enumerator, which supports an iteration of messages in folder. |
-| [enumerateMessageObjects()](#enumerateMessageObjects--) | Exposes the enumerator, which supports an iteration of messages in folder. |
+| [addSubFolder(String name, String containerClass)](#addSubFolder-java.lang.String-java.lang.String-) | Adds a subfolder with the specified name and container class. |
+| [changeContainerClass(String containerClass)](#changeContainerClass-java.lang.String-) | Changes the container class of the folder. |
+| [changeDisplayName(String newName)](#changeDisplayName-java.lang.String-) | Renames the folder. |
+| [changeMessages(MapiPropertyCollection updatedProperties)](#changeMessages-com.aspose.email.MapiPropertyCollection-) | Sets the specified properties on all messages of the folder. |
+| [changeMessages(Iterable<String> entryIdCollection, MapiPropertyCollection updatedProperties)](#changeMessages-java.lang.Iterable-java.lang.String--com.aspose.email.MapiPropertyCollection-) | Sets the specified properties on the given messages of the folder. |
+| [deleteChildItem(byte[] entryId)](#deleteChildItem-byte---) | Deletes a message or subfolder of this folder by its entry ID. |
+| [deleteChildItems(Iterable<String> entryIdCollection)](#deleteChildItems-java.lang.Iterable-java.lang.String--) | Deletes the specified messages of the folder. |
+| [enumerateFolders()](#enumerateFolders--) | Enumerates the subfolders of the folder. |
+| [enumerateFolders(int kind)](#enumerateFolders-int-) | Enumerates the subfolders of the specified kind. |
+| [enumerateMapiMessages()](#enumerateMapiMessages--) | Enumerates the messages of the folder as fully loaded [MapiMessage](../../com.aspose.email/mapimessage) objects. |
+| [enumerateMessageObjects()](#enumerateMessageObjects--) | Enumerates the messages of the folder as [MessageObject](../../com.aspose.email/messageobject) objects. |
 | [enumerateMessages()](#enumerateMessages--) | Retrieves [MessageInfo](../../com.aspose.email/messageinfo) objects from the folder. |
 | [enumerateMessages(MailQuery mailQuery)](#enumerateMessages-com.aspose.email.MailQuery-) | Retrieves a collection of [MessageInfo](../../com.aspose.email/messageinfo) objects that match the specified query. |
 | [enumerateMessages(int kind)](#enumerateMessages-int-) | Retrieves a collection of [MessageInfo](../../com.aspose.email/messageinfo) objects of the specified kind. |
 | [enumerateMessages(int startIndex, int count)](#enumerateMessages-int-int-) | Retrieves a collection of [MessageInfo](../../com.aspose.email/messageinfo) objects starting from a specific index and limited to a specified count. |
-| [enumerateMessagesEntryId()](#enumerateMessagesEntryId--) | Enumerates the entryID of messages. |
+| [enumerateMessagesEntryId()](#enumerateMessagesEntryId--) | Enumerates the entry IDs of the messages in the folder. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getContainerClass()](#getContainerClass--) | Gets container class of the folder object. |
+| [getContainerClass()](#getContainerClass--) | Gets the container class of the folder, which defines the kind of items it holds, for example  IPF.Note  for mail. |
 | [getContentCount()](#getContentCount--) | Gets the total number of items in the folder. |
 | [getContentUnreadCount()](#getContentUnreadCount--) | Gets the number of unread items in the folder. |
-| [getContents()](#getContents--) | Get collection of messages.
-Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. |
-| [getContents(boolean tryToReadCorruptedContents)](#getContents-boolean-) | Get collection of messages.
-Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. |
-| [getContents(MailQuery query)](#getContents-com.aspose.email.MailQuery-) | Get collection of messages.
-Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. |
-| [getContents(MailQuery query, int startIndex, int count)](#getContents-com.aspose.email.MailQuery-int-int-) | Get collection of messages.
-Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. |
-| [getContents(int kind)](#getContents-int-) | Get collection of messages.
-Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. |
-| [getContents(int startIndex, int count)](#getContents-int-int-) | Gets the collection of messages.
-Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. |
+| [getContents()](#getContents--) | Gets information about all messages in the folder. |
+| [getContents(boolean tryToReadCorruptedContents)](#getContents-boolean-) | Gets information about the messages in the folder, optionally reading a damaged message list. |
+| [getContents(MailQuery query)](#getContents-com.aspose.email.MailQuery-) | Gets information about the messages that match a query. |
+| [getContents(MailQuery query, int startIndex, int count)](#getContents-com.aspose.email.MailQuery-int-int-) | Gets information about a range of the messages that match a query. |
+| [getContents(int kind)](#getContents-int-) | Gets information about the messages of the specified kind. |
+| [getContents(int startIndex, int count)](#getContents-int-int-) | Gets information about a range of the messages in the folder. |
 | [getDisplayName()](#getDisplayName--) | Gets the display name of folder. |
-| [getEntryId()](#getEntryId--) | Gets the entry ID. |
-| [getEntryIdString()](#getEntryIdString--) | Gets string representation of entry ID. |
+| [getEntryId()](#getEntryId--) | Gets the entry ID of the folder, which identifies it in the PST. |
+| [getEntryIdString()](#getEntryIdString--) | Gets the entry ID of the folder as a string. |
 | [getLastModificationTime()](#getLastModificationTime--) | Gets the last modification time. |
-| [getPredefinedType(boolean getForTopLevelParent)](#getPredefinedType-boolean-) | Gets the type of predefined folder. |
-| [getProperties()](#getProperties--) | Gets the folder properties. |
-| [getSubFolder(String name)](#getSubFolder-java.lang.String-) | Get subfolder. |
-| [getSubFolder(String name, boolean ignoreCase)](#getSubFolder-java.lang.String-boolean-) | Gets the subfolder. |
+| [getPredefinedType(boolean getForTopLevelParent)](#getPredefinedType-boolean-) | Gets which standard Outlook folder, such as Inbox or Sent Items, this folder is. |
+| [getProperties()](#getProperties--) | Gets the MAPI properties of the folder. |
+| [getSubFolder(String name)](#getSubFolder-java.lang.String-) | Gets the subfolder with the specified name. |
+| [getSubFolder(String name, boolean ignoreCase)](#getSubFolder-java.lang.String-boolean-) | Gets the subfolder with the specified name, optionally ignoring case. |
 | [getSubFolder(String name, boolean ignoreCase, boolean handlePathSeparator)](#getSubFolder-java.lang.String-boolean-boolean-) | Retrieves a subfolder with the specified name from the current folder. |
-| [getSubFolders()](#getSubFolders--) | Gets collection of subfolders. |
-| [getSubFolders(MailQuery query)](#getSubFolders-com.aspose.email.MailQuery-) | Gets collection of subfolders. |
-| [getSubFolders(int kind)](#getSubFolders-int-) | Gets collection of subfolders. |
+| [getSubFolders()](#getSubFolders--) | Gets the subfolders of the folder. |
+| [getSubFolders(MailQuery query)](#getSubFolders-com.aspose.email.MailQuery-) | Gets the subfolders that match a query. |
+| [getSubFolders(int kind)](#getSubFolders-int-) | Gets the subfolders of the specified kind. |
 | [hasSubFolders()](#hasSubFolders--) | Gets a value indicating whether the Folder object has any subfolders. |
 | [hashCode()](#hashCode--) |  |
-| [mergeWith(FolderInfo sourceFolder)](#mergeWith-com.aspose.email.FolderInfo-) | Merges the folder with the folder from another pst. |
-| [mergeWith(FolderInfo sourceFolder, boolean recursiveHandler)](#mergeWith-com.aspose.email.FolderInfo-boolean-) | Merges the folder with the folder from another pst. |
-| [moveContents(FolderInfo newFolder)](#moveContents-com.aspose.email.FolderInfo-) | Moves the contents to a new folder. |
-| [moveSubfolders(FolderInfo newFolder)](#moveSubfolders-com.aspose.email.FolderInfo-) | Moves the subfolders to a new parent folder. |
+| [mergeWith(FolderInfo sourceFolder)](#mergeWith-com.aspose.email.FolderInfo-) | Merges a folder from another PST into this folder. |
+| [mergeWith(FolderInfo sourceFolder, boolean recursiveHandler)](#mergeWith-com.aspose.email.FolderInfo-boolean-) | Merges a folder from another PST into this folder and raises  ItemMoved  for the merged messages and folders. |
+| [moveContents(FolderInfo newFolder)](#moveContents-com.aspose.email.FolderInfo-) | Moves all messages of this folder to another folder. |
+| [moveSubfolders(FolderInfo newFolder)](#moveSubfolders-com.aspose.email.FolderInfo-) | Moves all subfolders of this folder to another parent folder. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [retrieveFullPath()](#retrieveFullPath--) | Retrieves the full path of folder within the PST file. |
+| [retrieveFullPath()](#retrieveFullPath--) | Gets the path of the folder from the root of the PST. |
+| [setReadStatus(Iterable<String> messageEntryIds, boolean isRead)](#setReadStatus-java.lang.Iterable-java.lang.String--boolean-) | Sets or clears the  Read  status for the specified messages in a PST file. |
 | [toString()](#toString--) |  |
-| [updateMessage(String entryId, MapiMessageItemBase updatedMessage)](#updateMessage-java.lang.String-com.aspose.email.MapiMessageItemBase-) | Updates the message in folder. |
+| [updateMessage(String entryId, MapiMessageItemBase updatedMessage)](#updateMessage-java.lang.String-com.aspose.email.MapiMessageItemBase-) | Updates the message with the specified entry ID. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -102,6 +99,8 @@ public FolderInfo()
 
 
 Initializes a new instance of the [FolderInfo](../../com.aspose.email/folderinfo) class.
+
+A folder created this way is not connected to any PST. To work with a folder, get it from a [PersonalStorage](../../com.aspose.email/personalstorage) object.
 
 ### ItemMoved {#ItemMoved}
 ```
@@ -125,58 +124,85 @@ public final String addFile(String fileName, String messageClass)
 ```
 
 
-Adds a file into pst folder.
+Adds a file to the folder as a new item with the specified message class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | The name of file necessary to add. |
-| messageClass | java.lang.String | The message class. |
+| fileName | java.lang.String | The path of the file to add. |
+| messageClass | java.lang.String | The message class of the new item. |
 
 **Returns:**
-java.lang.String - The string that represents the EntryId of the added message.
+java.lang.String - The entry ID of the new item.
 ### addMapiMessageItem(IMapiMessageItem item) {#addMapiMessageItem-com.aspose.email.IMapiMessageItem-}
 ```
 public final String addMapiMessageItem(IMapiMessageItem item)
 ```
 
 
-Adds the IMapiMessageItem object into folder.
+Adds a message, contact, appointment, meeting, task, note or journal item to the folder.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [IMapiMessageItem](../../com.aspose.email/imapimessageitem) | The item necessary to add. |
+| item | [IMapiMessageItem](../../com.aspose.email/imapimessageitem) | The item to add. |
 
 **Returns:**
-java.lang.String - The string that represents the EntryId of the added item.
+java.lang.String - The entry ID of the added item.
 ### addMessage(MapiMessage message) {#addMessage-com.aspose.email.MapiMessage-}
 ```
 public final String addMessage(MapiMessage message)
 ```
 
 
-Adds a new message into folder.
+Adds a message to the folder.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | [MapiMessage](../../com.aspose.email/mapimessage) | The message necessary to add. |
+| message | [MapiMessage](../../com.aspose.email/mapimessage) | The message to add. |
 
 **Returns:**
-java.lang.String - The string that represents the EntryId of the added message.
+java.lang.String - The entry ID of the added message.
 ### addMessages(Iterable<MapiMessage> messages) {#addMessages-java.lang.Iterable-com.aspose.email.MapiMessage--}
 ```
 public final void addMessages(Iterable<MapiMessage> messages)
 ```
 
 
-Provides message adding in a bulk mode.
+Adds messages to the folder in bulk, which is faster than adding them one by one.
+
+The  MessageAdded  event is raised for each added message and gives its entry ID.
+
+This example adds all .msg files of a directory to the Inbox and prints the entry ID of each added message.
+
+```
+
+ try (PersonalStorage pst = PersonalStorage.fromFile("archive.pst")) {
+     FolderInfo inbox = pst.getPredefinedFolder(StandardIpmFolder.Inbox);
+
+     // Called once for every message added in bulk
+     inbox.MessageAdded.add(new MessageAddedEventHandler() {
+         public void invoke(Object sender, MessageAddedEventArgs e) {
+             System.out.println("Added " + e.getEntryId());
+         }
+     });
+
+     // Messages of the directory
+     java.util.List messages = new java.util.ArrayList();
+     for (java.io.File file : new java.io.File("C:\\Messages").listFiles((dir, name) -> name.endsWith(".msg"))) {
+         messages.add(MapiMessage.load(file.getPath()));
+     }
+
+     inbox.addMessages(messages);
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| messages | java.lang.Iterable<com.aspose.email.MapiMessage> | An IEnumerator representing the enumerator, which supports iteration over a collection of [MapiMessage](../../com.aspose.email/mapimessage). |
+| messages | java.lang.Iterable<com.aspose.email.MapiMessage> | The messages to add. |
 
 ### addSubFolder(String name) {#addSubFolder-java.lang.String-}
 ```
@@ -184,31 +210,35 @@ public final FolderInfo addSubFolder(String name)
 ```
 
 
-Adds the new sub-folder.
+Adds a subfolder with the specified name.
+
+The new folder gets the container class of this folder, or  IPF.Note  if this folder has none.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | The name of sub-folder. |
+| name | java.lang.String | The name of the subfolder. |
 
 **Returns:**
-[FolderInfo](../../com.aspose.email/folderinfo) - The new sub-folder.
+[FolderInfo](../../com.aspose.email/folderinfo) - The new subfolder.
 ### addSubFolder(String name, boolean createHierarchy) {#addSubFolder-java.lang.String-boolean-}
 ```
 public final FolderInfo addSubFolder(String name, boolean createHierarchy)
 ```
 
 
-Adds the new sub-folder.
+Adds a subfolder. With  createHierarchy , the name can be a path, and the missing folders are created.
+
+The new folder gets the container class of this folder, or  IPF.Note  if this folder has none.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | The name of sub-folder. |
-| createHierarchy | boolean | if set to  true , it is possible to create a folder hierarchy using string notation. Backslash ('\\') is used as path separator. |
+| name | java.lang.String | The name of the subfolder, or a path such as  Parent\\Child  when  createHierarchy  is  true . |
+| createHierarchy | boolean |  true  to treat  name  as a path separated by backslashes and create the folders that do not exist yet. |
 
 **Returns:**
-[FolderInfo](../../com.aspose.email/folderinfo) - The new sub-folder.
+[FolderInfo](../../com.aspose.email/folderinfo) - The new subfolder.
 ### addSubFolder(String name, FolderCreationOptions creationOptions) {#addSubFolder-java.lang.String-com.aspose.email.FolderCreationOptions-}
 ```
 public final FolderInfo addSubFolder(String name, FolderCreationOptions creationOptions)
@@ -217,15 +247,28 @@ public final FolderInfo addSubFolder(String name, FolderCreationOptions creation
 
 Adds a subfolder with the specified name to the current folder using the provided creation options.
 
+ name  can be a path with backslash separators, such as  Parent1\\Parent2\\Subfolder ; set [FolderCreationOptions.getCreateHierarchy()](../../com.aspose.email/foldercreationoptions\#getCreateHierarchy--) to create the parent folders that do not exist yet. Whether a folder with the same name already exists depends on [FolderCreationOptions.getAllowNameCaseDifference()](../../com.aspose.email/foldercreationoptions\#getAllowNameCaseDifference--): when it is  false  (the default), names are compared case-insensitively and an existing name throws  IllegalStateException ; when it is  true , a name that differs only in case creates a new folder.
+
+This example creates a folder three levels deep, adding the parent folders that are missing.
+
+```
+
+ try (PersonalStorage pst = PersonalStorage.fromFile("archive.pst")) {
+     // Treat the name as a path and create the folders that do not exist yet
+     FolderCreationOptions options = new FolderCreationOptions();
+     options.setCreateHierarchy(true);
+
+     FolderInfo folder = pst.getRootFolder().addSubFolder("Projects\\2026\\Reports", options);
+     System.out.println("Created " + folder.getDisplayName());
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | java.lang.String | The name of the subfolder to add. |
-| creationOptions | [FolderCreationOptions](../../com.aspose.email/foldercreationoptions) | The options for creating the subfolder.
-
---------------------
-
-The  name  parameter specifies the name of the subfolder to add. The  creationOptions  parameter allows customization of the subfolder creation behavior, such as specifying whether to create the hierarchy of parent folders and the container class of the new subfolder. If the subfolder with the specified name already exists, the behavior depends on the value of  FolderCreationOptions.AllowNameCaseDifference ([FolderCreationOptions.getAllowNameCaseDifference](../../com.aspose.email/foldercreationoptions\#getAllowNameCaseDifference)/[FolderCreationOptions.setAllowNameCaseDifference(boolean)](../../com.aspose.email/foldercreationoptions\#setAllowNameCaseDifference-boolean-)). If  FolderCreationOptions.AllowNameCaseDifference ([FolderCreationOptions.getAllowNameCaseDifference](../../com.aspose.email/foldercreationoptions\#getAllowNameCaseDifference)/[FolderCreationOptions.setAllowNameCaseDifference(boolean)](../../com.aspose.email/foldercreationoptions\#setAllowNameCaseDifference-boolean-)) is set to  true , a difference in name casing will be allowed, and the subfolder will be added even if an existing folder with the same name but in a different case exists. If  FolderCreationOptions.AllowNameCaseDifference ([FolderCreationOptions.getAllowNameCaseDifference](../../com.aspose.email/foldercreationoptions\#getAllowNameCaseDifference)/[FolderCreationOptions.setAllowNameCaseDifference(boolean)](../../com.aspose.email/foldercreationoptions\#setAllowNameCaseDifference-boolean-)) is set to  false , the comparison will be case-insensitive, and an InvalidOperationException will be thrown to indicate that a folder with the specified name already exists. The name may contain backslash (\\) as the path separators (for example, "parent1\\parent2\\subfolder"). In this case if  FolderCreationOptions.CreateHierarchy ([FolderCreationOptions.getCreateHierarchy](../../com.aspose.email/foldercreationoptions\#getCreateHierarchy)/[FolderCreationOptions.setCreateHierarchy(boolean)](../../com.aspose.email/foldercreationoptions\#setCreateHierarchy-boolean-)) is set to  true , the hierarchy of parent folders should be created. |
+| creationOptions | [FolderCreationOptions](../../com.aspose.email/foldercreationoptions) | The options for creating the subfolder. |
 
 **Returns:**
 [FolderInfo](../../com.aspose.email/folderinfo) - The [FolderInfo](../../com.aspose.email/folderinfo) representing the added subfolder.
@@ -235,13 +278,13 @@ public final FolderInfo addSubFolder(String name, String containerClass)
 ```
 
 
-Adds the new subfolder.
+Adds a subfolder with the specified name and container class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | The name of subfolder. |
-| containerClass | java.lang.String | Container class of the sub-Folder object. |
+| name | java.lang.String | The name of the subfolder. |
+| containerClass | java.lang.String | The container class of the new folder, for example  IPF.Note  for mail or  IPF.Appointment  for a calendar. |
 
 **Returns:**
 [FolderInfo](../../com.aspose.email/folderinfo) - The new subfolder.
@@ -251,12 +294,12 @@ public final void changeContainerClass(String containerClass)
 ```
 
 
-Changes the container class.
+Changes the container class of the folder.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| containerClass | java.lang.String | Container class of the of the folder object. |
+| containerClass | java.lang.String | The new container class, for example  IPF.Note  for mail. |
 
 ### changeDisplayName(String newName) {#changeDisplayName-java.lang.String-}
 ```
@@ -264,12 +307,12 @@ public final void changeDisplayName(String newName)
 ```
 
 
-Changes the display name.
+Renames the folder.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newName | java.lang.String | A new name. |
+| newName | java.lang.String | The new name of the folder. |
 
 ### changeMessages(MapiPropertyCollection updatedProperties) {#changeMessages-com.aspose.email.MapiPropertyCollection-}
 ```
@@ -277,12 +320,12 @@ public final void changeMessages(MapiPropertyCollection updatedProperties)
 ```
 
 
-Changes all messages in folder.
+Sets the specified properties on all messages of the folder.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| updatedProperties | [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) | The updated properties. |
+| updatedProperties | [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) | The properties to set. |
 
 ### changeMessages(Iterable<String> entryIdCollection, MapiPropertyCollection updatedProperties) {#changeMessages-java.lang.Iterable-java.lang.String--com.aspose.email.MapiPropertyCollection-}
 ```
@@ -290,13 +333,13 @@ public final void changeMessages(Iterable<String> entryIdCollection, MapiPropert
 ```
 
 
-Changes the messages in folder.
+Sets the specified properties on the given messages of the folder.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryIdCollection | java.lang.Iterable<java.lang.String> | The entry identifier collection. |
-| updatedProperties | [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) | The updated properties. |
+| entryIdCollection | java.lang.Iterable<java.lang.String> | The entry IDs of the messages to change. |
+| updatedProperties | [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) | The properties to set. |
 
 ### deleteChildItem(byte[] entryId) {#deleteChildItem-byte---}
 ```
@@ -304,16 +347,14 @@ public final void deleteChildItem(byte[] entryId)
 ```
 
 
-Deletes the item (folder or message) by it's entryId.
+Deletes a message or subfolder of this folder by its entry ID.
+
+The item must be a direct child of this folder.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | byte[] | The entry id.
-
---------------------
-
-The item must be contained in a folder. |
+| entryId | byte[] | The entry ID of the item to delete. |
 
 ### deleteChildItems(Iterable<String> entryIdCollection) {#deleteChildItems-java.lang.Iterable-java.lang.String--}
 ```
@@ -321,12 +362,12 @@ public final void deleteChildItems(Iterable<String> entryIdCollection)
 ```
 
 
-Deletes the child messages.
+Deletes the specified messages of the folder.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryIdCollection | java.lang.Iterable<java.lang.String> | The entry id collection. |
+| entryIdCollection | java.lang.Iterable<java.lang.String> | The entry IDs of the messages to delete. |
 
 ### enumerateFolders() {#enumerateFolders--}
 ```
@@ -334,45 +375,45 @@ public final System.Collections.Generic.IGenericEnumerable<FolderInfo> enumerate
 ```
 
 
-Exposes the enumerator, which supports an iteration of subfolders in folder.
+Enumerates the subfolders of the folder.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.FolderInfo> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a subfolders in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.FolderInfo> - The subfolders. They are read from the file as the sequence is enumerated.
 ### enumerateFolders(int kind) {#enumerateFolders-int-}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FolderInfo> enumerateFolders(int kind)
 ```
 
 
-Exposes the enumerator, which supports an iteration of subfolders in folder.
+Enumerates the subfolders of the specified kind.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| kind | int | The [FolderKind](../../com.aspose.email/folderkind) that represents kind of folder. |
+| kind | int | Which kinds of folders to return: normal folders, search folders or both. |
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.FolderInfo> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a subfolders in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.FolderInfo> - The subfolders. They are read from the file as the sequence is enumerated.
 ### enumerateMapiMessages() {#enumerateMapiMessages--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<MapiMessage> enumerateMapiMessages()
 ```
 
 
-Exposes the enumerator, which supports an iteration of messages in folder.
+Enumerates the messages of the folder as fully loaded [MapiMessage](../../com.aspose.email/mapimessage) objects.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MapiMessage> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MapiMessage> - The messages. They are read from the file as the sequence is enumerated.
 ### enumerateMessageObjects() {#enumerateMessageObjects--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<MessageObject> enumerateMessageObjects()
 ```
 
 
-Exposes the enumerator, which supports an iteration of messages in folder.
+Enumerates the messages of the folder as [MessageObject](../../com.aspose.email/messageobject) objects.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageObject> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageObject> - The messages. They are read from the file as the sequence is enumerated.
 ### enumerateMessages() {#enumerateMessages--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<MessageInfo> enumerateMessages()
@@ -381,12 +422,10 @@ public final System.Collections.Generic.IGenericEnumerable<MessageInfo> enumerat
 
 Retrieves [MessageInfo](../../com.aspose.email/messageinfo) objects from the folder.
 
+Use this method to iterate through all messages in the folder without applying any filters or limits. Folder associated information (FAI) items, such as hidden metadata or configuration items, are not included in the returned collection.
+
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageInfo> - An enumerable collection of all [MessageInfo](../../com.aspose.email/messageinfo) objects in the folder, excluding folder associated information (FAI) items.
-
---------------------
-
-Use this method to iterate through all messages in the folder without applying any filters or limits. Folder associated information (FAI) items, such as hidden metadata or configuration items, are not included in the returned collection.
 ### enumerateMessages(MailQuery mailQuery) {#enumerateMessages-com.aspose.email.MailQuery-}
 ```
 public final System.Collections.Generic.IGenericEnumerable<MessageInfo> enumerateMessages(MailQuery mailQuery)
@@ -395,14 +434,12 @@ public final System.Collections.Generic.IGenericEnumerable<MessageInfo> enumerat
 
 Retrieves a collection of [MessageInfo](../../com.aspose.email/messageinfo) objects that match the specified query.
 
+Use this method to retrieve messages that satisfy specific conditions, such as sender, subject, or date range, as defined by the  mailQuery .
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| mailQuery | [MailQuery](../../com.aspose.email/mailquery) | The query criteria used to filter messages.
-
---------------------
-
-Use this method to retrieve messages that satisfy specific conditions, such as sender, subject, or date range, as defined by the  mailQuery . |
+| mailQuery | [MailQuery](../../com.aspose.email/mailquery) | The query criteria used to filter messages. |
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageInfo> - An enumerable collection of [MessageInfo](../../com.aspose.email/messageinfo) objects matching the query.
@@ -414,14 +451,12 @@ public final System.Collections.Generic.IGenericEnumerable<MessageInfo> enumerat
 
 Retrieves a collection of [MessageInfo](../../com.aspose.email/messageinfo) objects of the specified kind.
 
+Use this method to filter items based on their type, such as distinguishing between messages or Folder Associated Information items.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| kind | int | The type of items to retrieve, such as normal messages or folder associated information items.
-
---------------------
-
-Use this method to filter items based on their type, such as distinguishing between messages or Folder Associated Information items. |
+| kind | int | The type of items to retrieve, such as normal messages or folder associated information items. |
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageInfo> - An enumerable collection of [MessageInfo](../../com.aspose.email/messageinfo) objects of the specified kind.
@@ -433,15 +468,30 @@ public final System.Collections.Generic.IGenericEnumerable<MessageInfo> enumerat
 
 Retrieves a collection of [MessageInfo](../../com.aspose.email/messageinfo) objects starting from a specific index and limited to a specified count.
 
+Use this method to fetch a subset of messages from the folder, which is useful for paginated retrieval or scenarios requiring controlled message processing. When  count  is set to  -1 , all messages from  startIndex  to the end of the folder are returned.
+
+This example reads a large folder in pages of 100 messages.
+
+```
+
+ try (PersonalStorage pst = PersonalStorage.fromFile("archive.pst")) {
+     FolderInfo inbox = pst.getPredefinedFolder(StandardIpmFolder.Inbox);
+     final int pageSize = 100;
+
+     for (int start = 0; start < inbox.getContentCount(); start += pageSize) {
+         for (MessageInfo messageInfo : inbox.enumerateMessages(start, pageSize)) {
+             System.out.println(messageInfo.getSubject());
+         }
+     }
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | startIndex | int | The zero-based index of the first message to retrieve. |
-| count | int | The maximum number of messages to retrieve. If set to  -1 , retrieves all messages starting from the specified  startIndex .
-
---------------------
-
-Use this method to fetch a subset of messages from the folder, which is useful for paginated retrieval or scenarios requiring controlled message processing. When  count  is set to  -1 , all messages from  startIndex  to the end of the folder are returned. |
+| count | int | The maximum number of messages to retrieve. If set to  -1 , retrieves all messages starting from the specified  startIndex . |
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageInfo> - An enumerable collection of [MessageInfo](../../com.aspose.email/messageinfo) objects starting at the specified index.
@@ -451,10 +501,10 @@ public final System.Collections.Generic.IGenericEnumerable<String> enumerateMess
 ```
 
 
-Enumerates the entryID of messages.
+Enumerates the entry IDs of the messages in the folder.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<java.lang.String> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through entryID of messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<java.lang.String> - The entry IDs as strings. They are read from the file as the sequence is enumerated.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -486,12 +536,10 @@ public final String getContainerClass()
 ```
 
 
-Gets container class of the folder object.
-
-Value: The container class.
+Gets the container class of the folder, which defines the kind of items it holds, for example  IPF.Note  for mail.
 
 **Returns:**
-java.lang.String
+java.lang.String - The container class.
 ### getContentCount() {#getContentCount--}
 ```
 public final int getContentCount()
@@ -500,10 +548,8 @@ public final int getContentCount()
 
 Gets the total number of items in the folder.
 
-Value: The content count.
-
 **Returns:**
-int
+int - The number of items in the folder.
 ### getContentUnreadCount() {#getContentUnreadCount--}
 ```
 public final int getContentUnreadCount()
@@ -512,108 +558,102 @@ public final int getContentUnreadCount()
 
 Gets the number of unread items in the folder.
 
-Value: The content unread count.
-
 **Returns:**
-int
+int - The number of unread items in the folder.
 ### getContents() {#getContents--}
 ```
 public final MessageInfoCollection getContents()
 ```
 
 
-Get collection of messages.
-Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. In terms of performance, this is the most suitable option for obtaining primary information about messages. To extract complete message data, the [PersonalStorage.extractMessage(MessageInfo)](../../com.aspose.email/personalstorage\#extractMessage-MessageInfo-) method is provided.
+Gets information about all messages in the folder.
+
+The whole list is read into memory. For a large folder,  enumerateMessages  reads the messages one at a time.
 
 **Returns:**
-[MessageInfoCollection](../../com.aspose.email/messageinfocollection) - Collection of MessageInfo.
+[MessageInfoCollection](../../com.aspose.email/messageinfocollection) - Information about the messages. Use  PersonalStorage.extractMessage  to load a full message.
 ### getContents(boolean tryToReadCorruptedContents) {#getContents-boolean-}
 ```
 public final MessageInfoCollection getContents(boolean tryToReadCorruptedContents)
 ```
 
 
-Get collection of messages.
-Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. In terms of performance, this is the most suitable option for obtaining primary information about messages. To extract complete message data, the [PersonalStorage.extractMessage(MessageInfo)](../../com.aspose.email/personalstorage\#extractMessage-MessageInfo-) method is provided.
+Gets information about the messages in the folder, optionally reading a damaged message list.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tryToReadCorruptedContents | boolean | If the value of this parameter is true, the method will try to read the content even if the file is corrupted. This value can be used if the GetContents() method throws an exception about the file corruption. If the value of this parameter is false, the method works in the same way as GetContents() method without parameters. |
+| tryToReadCorruptedContents | boolean |  true  to try to read the list of messages even if parts of it are damaged; use it when  getContents()  fails because the file is corrupted.  false  gives the same result as  getContents() . |
 
 **Returns:**
-[MessageInfoCollection](../../com.aspose.email/messageinfocollection) - Collection of MessageInfo.
+[MessageInfoCollection](../../com.aspose.email/messageinfocollection) - Information about the messages. Use  PersonalStorage.extractMessage  to load a full message.
 ### getContents(MailQuery query) {#getContents-com.aspose.email.MailQuery-}
 ```
 public final MessageInfoCollection getContents(MailQuery query)
 ```
 
 
-Get collection of messages.
-Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. In terms of performance, this is the most suitable option for obtaining primary information about messages. To extract complete message data, the [PersonalStorage.extractMessage(MessageInfo)](../../com.aspose.email/personalstorage\#extractMessage-MessageInfo-) method is provided.
+Gets information about the messages that match a query.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| query | [MailQuery](../../com.aspose.email/mailquery) | [MailQuery](../../com.aspose.email/mailquery) that represents search query. |
+| query | [MailQuery](../../com.aspose.email/mailquery) | The search query, built with [PersonalStorageQueryBuilder](../../com.aspose.email/personalstoragequerybuilder). |
 
 **Returns:**
-[MessageInfoCollection](../../com.aspose.email/messageinfocollection) - Collection of MessageInfo.
+[MessageInfoCollection](../../com.aspose.email/messageinfocollection) - Information about the messages. Use  PersonalStorage.extractMessage  to load a full message.
 ### getContents(MailQuery query, int startIndex, int count) {#getContents-com.aspose.email.MailQuery-int-int-}
 ```
 public final MessageInfoCollection getContents(MailQuery query, int startIndex, int count)
 ```
 
 
-Get collection of messages.
-Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. In terms of performance, this is the most suitable option for obtaining primary information about messages. To extract complete message data, the [PersonalStorage.extractMessage(MessageInfo)](../../com.aspose.email/personalstorage\#extractMessage-MessageInfo-) method is provided.
+Gets information about a range of the messages that match a query.
+
+If  count  is negative or greater than the number of remaining messages, all remaining messages are returned.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| query | [MailQuery](../../com.aspose.email/mailquery) | [MailQuery](../../com.aspose.email/mailquery) that represents search query. |
-| startIndex | int | The start message index. |
-| count | int | The number of messages that will be retrieved. |
+| query | [MailQuery](../../com.aspose.email/mailquery) | The search query, built with [PersonalStorageQueryBuilder](../../com.aspose.email/personalstoragequerybuilder). |
+| startIndex | int | The zero-based index of the first message to return. |
+| count | int | The maximum number of messages to return. |
 
 **Returns:**
-[MessageInfoCollection](../../com.aspose.email/messageinfocollection) - Collection of MessageInfo.
+[MessageInfoCollection](../../com.aspose.email/messageinfocollection) - Information about the messages. Use  PersonalStorage.extractMessage  to load a full message.
 ### getContents(int kind) {#getContents-int-}
 ```
 public final MessageInfoCollection getContents(int kind)
 ```
 
 
-Get collection of messages.
-Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. In terms of performance, this is the most suitable option for obtaining primary information about messages. To extract complete message data, the [PersonalStorage.extractMessage(MessageInfo)](../../com.aspose.email/personalstorage\#extractMessage-MessageInfo-) method is provided.
+Gets information about the messages of the specified kind.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| kind | int | The message kind. |
+| kind | int | Normal messages, folder associated information (FAI) items, or both. |
 
 **Returns:**
-[MessageInfoCollection](../../com.aspose.email/messageinfocollection) - Collection of MessageInfo.
+[MessageInfoCollection](../../com.aspose.email/messageinfocollection) - Information about the messages. Use  PersonalStorage.extractMessage  to load a full message.
 ### getContents(int startIndex, int count) {#getContents-int-int-}
 ```
 public final MessageInfoCollection getContents(int startIndex, int count)
 ```
 
 
-Gets the collection of messages.
-Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. In terms of performance, this is the most suitable option for obtaining primary information about messages. To extract complete message data, the [PersonalStorage.extractMessage(MessageInfo)](../../com.aspose.email/personalstorage\#extractMessage-MessageInfo-) method is provided.
+Gets information about a range of the messages in the folder.
+
+If  count  is negative or greater than the number of remaining messages, all remaining messages are returned.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| startIndex | int | The start message index. |
-| count | int | The number of messages that will be retrieved.
-
---------------------
-
-If "count" param is less than 0 or more than remained message count then remained message count will be returned. |
+| startIndex | int | The zero-based index of the first message to return. |
+| count | int | The maximum number of messages to return. |
 
 **Returns:**
-[MessageInfoCollection](../../com.aspose.email/messageinfocollection) - Collection of MessageInfo.
+[MessageInfoCollection](../../com.aspose.email/messageinfocollection) - Information about the messages. Use  PersonalStorage.extractMessage  to load a full message.
 ### getDisplayName() {#getDisplayName--}
 ```
 public final String getDisplayName()
@@ -622,34 +662,28 @@ public final String getDisplayName()
 
 Gets the display name of folder.
 
-Value: The display name.
-
 **Returns:**
-java.lang.String
+java.lang.String - The name of the folder.
 ### getEntryId() {#getEntryId--}
 ```
 public final byte[] getEntryId()
 ```
 
 
-Gets the entry ID.
-
-Value: The entry id.
+Gets the entry ID of the folder, which identifies it in the PST.
 
 **Returns:**
-byte[]
+byte[] - The entry ID as a byte array.
 ### getEntryIdString() {#getEntryIdString--}
 ```
 public final String getEntryIdString()
 ```
 
 
-Gets string representation of entry ID.
-
-Value: The entry id string.
+Gets the entry ID of the folder as a string.
 
 **Returns:**
-java.lang.String
+java.lang.String - The entry ID in the string form accepted by  PersonalStorage.getFolderById .
 ### getLastModificationTime() {#getLastModificationTime--}
 ```
 public final Date getLastModificationTime()
@@ -658,36 +692,32 @@ public final Date getLastModificationTime()
 
 Gets the last modification time.
 
-Value: The last modification time. If the folder doesn't have PR\_LAST\_MODIFICATION\_TIME property, DateTime.MinValue is returned.
-
 **Returns:**
-java.util.Date
+java.util.Date - The time of the last change, or  DateTime.MinValue  if the folder does not have the PR\_LAST\_MODIFICATION\_TIME property.
 ### getPredefinedType(boolean getForTopLevelParent) {#getPredefinedType-boolean-}
 ```
 public final int getPredefinedType(boolean getForTopLevelParent)
 ```
 
 
-Gets the type of predefined folder.
+Gets which standard Outlook folder, such as Inbox or Sent Items, this folder is.
+
+Use it to find out whether a folder is, or lies inside, one of the standard Outlook folders.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| getForTopLevelParent | boolean | If true, returns the predefined type for the top-level parent folder. This determines whether the current folder is a subfolder of a predefined folder. If false, it returns the predefined type for the current folder.
-
---------------------
-
-Checks if the folder is predefined by returning the corresponding type. |
+| getForTopLevelParent | boolean |  true  to check the top-level folder this folder belongs to, which tells whether it is inside a standard folder;  false  to check this folder itself. |
 
 **Returns:**
-int - The [StandardIpmFolder](../../com.aspose.email/standardipmfolder) enum value. If the folder is not predefined, it returns [StandardIpmFolder.Unspecified](../../com.aspose.email/standardipmfolder\#Unspecified)
+int - The [StandardIpmFolder](../../com.aspose.email/standardipmfolder) value, or  StandardIpmFolder.Unspecified  if the folder is not a standard one.
 ### getProperties() {#getProperties--}
 ```
 public final MapiPropertyCollection getProperties()
 ```
 
 
-Gets the folder properties.
+Gets the MAPI properties of the folder.
 
 **Returns:**
 [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection)
@@ -697,31 +727,31 @@ public final FolderInfo getSubFolder(String name)
 ```
 
 
-Get subfolder.
+Gets the subfolder with the specified name.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | Name of subfolder. |
+| name | java.lang.String | The name of the subfolder. The comparison is case-sensitive. |
 
 **Returns:**
-[FolderInfo](../../com.aspose.email/folderinfo) - A FolderInfo object.
+[FolderInfo](../../com.aspose.email/folderinfo) - The subfolder, or  null  if there is no subfolder with this name.
 ### getSubFolder(String name, boolean ignoreCase) {#getSubFolder-java.lang.String-boolean-}
 ```
 public final FolderInfo getSubFolder(String name, boolean ignoreCase)
 ```
 
 
-Gets the subfolder.
+Gets the subfolder with the specified name, optionally ignoring case.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | Name of subfolder. |
-| ignoreCase | boolean | Indicates that a search should ignore case sensitivity when matching the folder name. |
+| name | java.lang.String | The name of the subfolder. |
+| ignoreCase | boolean |  true  to compare names case-insensitively. |
 
 **Returns:**
-[FolderInfo](../../com.aspose.email/folderinfo) - A FolderInfo object.
+[FolderInfo](../../com.aspose.email/folderinfo) - The subfolder, or  null  if there is no subfolder with this name.
 ### getSubFolder(String name, boolean ignoreCase, boolean handlePathSeparator) {#getSubFolder-java.lang.String-boolean-boolean-}
 ```
 public final FolderInfo getSubFolder(String name, boolean ignoreCase, boolean handlePathSeparator)
@@ -730,16 +760,20 @@ public final FolderInfo getSubFolder(String name, boolean ignoreCase, boolean ha
 
 Retrieves a subfolder with the specified name from the current folder.
 
+The  name  parameter specifies the name of the subfolder to retrieve.
+
+The  ignoreCase  parameter determines whether the search for the subfolder name should be case-sensitive or case-insensitive. If set to  true , the search will be case-insensitive, otherwise, it will be case-sensitive.
+
+The  handlePathSeparator  parameter specifies whether the specified folder name should be treated as a path if it contains backslashes. If set to  true , the method will interpret the folder name as a path, attempting to navigate to the subfolder using the path. If set to  false , the method will treat the folder name as a simple name, searching for a subfolder with an exact name match.
+
+If the subfolder is found, the method returns the [FolderInfo](../../com.aspose.email/folderinfo) object representing the retrieved subfolder. If the subfolder is not found, the method returns  null .
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | java.lang.String | The name of the subfolder to retrieve. |
 | ignoreCase | boolean | Specifies whether to perform a case-insensitive search for folders with the given name. |
-| handlePathSeparator | boolean | Specifies whether the specified folder name should be treated as a path if it contains backslashes.
-
---------------------
-
-The  name  parameter specifies the name of the subfolder to retrieve. The  ignoreCase  parameter determines whether the search for the subfolder name should be case-sensitive or case-insensitive. If set to  true , the search will be case-insensitive, otherwise, it will be case-sensitive. The  handlePathSeparator  parameter specifies whether the specified folder name should be treated as a path if it contains backslashes. If set to  true , the method will interpret the folder name as a path, attempting to navigate to the subfolder using the path. If set to  false , the method will treat the folder name as a simple name, searching for a subfolder with an exact name match. If the subfolder is found, the method returns the [FolderInfo](../../com.aspose.email/folderinfo) object representing the retrieved subfolder. If the subfolder is not found, the method returns  null . |
+| handlePathSeparator | boolean | Specifies whether the specified folder name should be treated as a path if it contains backslashes. |
 
 **Returns:**
 [FolderInfo](../../com.aspose.email/folderinfo) - The [FolderInfo](../../com.aspose.email/folderinfo) representing the retrieved subfolder, or  null  if the subfolder is not found.
@@ -749,40 +783,42 @@ public final FolderInfoCollection getSubFolders()
 ```
 
 
-Gets collection of subfolders.
+Gets the subfolders of the folder.
+
+For a folder with many subfolders,  enumerateFolders  reads them one at a time.
 
 **Returns:**
-[FolderInfoCollection](../../com.aspose.email/folderinfocollection) - The FolderInfo collection.
+[FolderInfoCollection](../../com.aspose.email/folderinfocollection) - The subfolders.
 ### getSubFolders(MailQuery query) {#getSubFolders-com.aspose.email.MailQuery-}
 ```
 public final FolderInfoCollection getSubFolders(MailQuery query)
 ```
 
 
-Gets collection of subfolders.
+Gets the subfolders that match a query.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| query | [MailQuery](../../com.aspose.email/mailquery) | [MailQuery](../../com.aspose.email/mailquery) that represents search query. |
+| query | [MailQuery](../../com.aspose.email/mailquery) | The search query, built with [PersonalStorageQueryBuilder](../../com.aspose.email/personalstoragequerybuilder), for example with its  getFolderName()  or  getContentsCount()  field. |
 
 **Returns:**
-[FolderInfoCollection](../../com.aspose.email/folderinfocollection) - The FolderInfo collection.
+[FolderInfoCollection](../../com.aspose.email/folderinfocollection) - The matching subfolders.
 ### getSubFolders(int kind) {#getSubFolders-int-}
 ```
 public final FolderInfoCollection getSubFolders(int kind)
 ```
 
 
-Gets collection of subfolders.
+Gets the subfolders of the specified kind.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| kind | int | The [FolderKind](../../com.aspose.email/folderkind) that represents kind of folder. |
+| kind | int | Which kinds of folders to return: normal folders, search folders or both. |
 
 **Returns:**
-[FolderInfoCollection](../../com.aspose.email/folderinfocollection) - The FolderInfo collection.
+[FolderInfoCollection](../../com.aspose.email/folderinfocollection) - The subfolders.
 ### hasSubFolders() {#hasSubFolders--}
 ```
 public final boolean hasSubFolders()
@@ -791,10 +827,8 @@ public final boolean hasSubFolders()
 
 Gets a value indicating whether the Folder object has any subfolders.
 
-Value: The has sub folders.
-
 **Returns:**
-boolean
+boolean -  true  if the folder has subfolders; otherwise,  false .
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -811,12 +845,12 @@ public final void mergeWith(FolderInfo sourceFolder)
 ```
 
 
-Merges the folder with the folder from another pst.
+Merges a folder from another PST into this folder.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceFolder | [FolderInfo](../../com.aspose.email/folderinfo) | The source folder. |
+| sourceFolder | [FolderInfo](../../com.aspose.email/folderinfo) | The folder to merge. It must belong to another PST. |
 
 ### mergeWith(FolderInfo sourceFolder, boolean recursiveHandler) {#mergeWith-com.aspose.email.FolderInfo-boolean-}
 ```
@@ -824,13 +858,13 @@ public final void mergeWith(FolderInfo sourceFolder, boolean recursiveHandler)
 ```
 
 
-Merges the folder with the folder from another pst. OnItemMoved event is called on both messages and directories.
+Merges a folder from another PST into this folder and raises  ItemMoved  for the merged messages and folders.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceFolder | [FolderInfo](../../com.aspose.email/folderinfo) | The source folder. |
-| recursiveHandler | boolean | If true, OnItemMoved will be called on all messages, including messages in sub-directories, otherwise OnItemMoved will be called only for messages in the current directory. |
+| sourceFolder | [FolderInfo](../../com.aspose.email/folderinfo) | The folder to merge. It must belong to another PST. |
+| recursiveHandler | boolean |  true  to raise  ItemMoved  for the messages in the subfolders of  sourceFolder  too;  false  to raise it only for the messages directly in  sourceFolder . |
 
 ### moveContents(FolderInfo newFolder) {#moveContents-com.aspose.email.FolderInfo-}
 ```
@@ -838,12 +872,12 @@ public final void moveContents(FolderInfo newFolder)
 ```
 
 
-Moves the contents to a new folder.
+Moves all messages of this folder to another folder.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newFolder | [FolderInfo](../../com.aspose.email/folderinfo) | The new folder. |
+| newFolder | [FolderInfo](../../com.aspose.email/folderinfo) | The folder to move the messages to. |
 
 ### moveSubfolders(FolderInfo newFolder) {#moveSubfolders-com.aspose.email.FolderInfo-}
 ```
@@ -851,7 +885,7 @@ public final void moveSubfolders(FolderInfo newFolder)
 ```
 
 
-Moves the subfolders to a new parent folder.
+Moves all subfolders of this folder to another parent folder.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -880,10 +914,26 @@ public final String retrieveFullPath()
 ```
 
 
-Retrieves the full path of folder within the PST file.
+Gets the path of the folder from the root of the PST.
 
 **Returns:**
-java.lang.String - The string that represents the full path.
+java.lang.String - The full path of the folder.
+### setReadStatus(Iterable<String> messageEntryIds, boolean isRead) {#setReadStatus-java.lang.Iterable-java.lang.String--boolean-}
+```
+public final void setReadStatus(Iterable<String> messageEntryIds, boolean isRead)
+```
+
+
+Sets or clears the  Read  status for the specified messages in a PST file.
+
+This method updates the read/unread state of existing messages without modifying their content or other message properties.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageEntryIds | java.lang.Iterable<java.lang.String> | A list of message entry IDs that identify the messages whose read status should be updated. |
+| isRead | boolean |  true  to mark the messages as read;  false  to mark them as unread. |
+
 ### toString() {#toString--}
 ```
 public String toString()
@@ -900,13 +950,13 @@ public final void updateMessage(String entryId, MapiMessageItemBase updatedMessa
 ```
 
 
-Updates the message in folder.
+Updates the message with the specified entry ID.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryId | java.lang.String | The message entry identifier. |
-| updatedMessage | [MapiMessageItemBase](../../com.aspose.email/mapimessageitembase) | The updated message. |
+| entryId | java.lang.String | The entry ID of the message to update. |
+| updatedMessage | [MapiMessageItemBase](../../com.aspose.email/mapimessageitembase) | The message with the new content. |
 
 ### wait() {#wait--}
 ```

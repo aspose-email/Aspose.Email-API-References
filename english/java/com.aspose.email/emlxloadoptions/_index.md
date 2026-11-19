@@ -1,9 +1,9 @@
 ---
 title: EmlxLoadOptions
 second_title: Aspose.Email for Java API Reference
-description: Allows to specify additional options when loading MailMessage from Eml format.
+description: Provides options for controlling how  instances are loaded from EMLX format.
 type: docs
-weight: 177
+weight: 180
 url: /java/com.aspose.email/emlxloadoptions/
 ---
 
@@ -13,28 +13,30 @@ java.lang.Object, [com.aspose.email.LoadOptions](../../com.aspose.email/loadopti
 public class EmlxLoadOptions extends LoadOptions
 ```
 
-Allows to specify additional options when loading MailMessage from Eml format.
+Provides options for controlling how [MailMessage](../../com.aspose.email/mailmessage) instances are loaded from EMLX format. This class inherits from [LoadOptions](../../com.aspose.email/loadoptions) and is specifically designed for Apple Mail EMLX file format.
+
+Use this class with [MailMessage.load(String, LoadOptions)](../../com.aspose.email/mailmessage\#load-String--LoadOptions-) to load Apple Mail EMLX files. The EMLX format is used by Apple Mail on macOS and iOS devices.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [EmlxLoadOptions()](#EmlxLoadOptions--) | Initializes a new instance of this class that can be used to loading MailMessage from Eml format. |
+| [EmlxLoadOptions()](#EmlxLoadOptions--) | Initializes a new instance of the [EmlxLoadOptions](../../com.aspose.email/emlxloadoptions) class with the default options. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getMessageFormat()](#getMessageFormat--) | Represents the mail message format.It can be in eml,msg or mhtml format. |
-| [getPreferredTextEncoding()](#getPreferredTextEncoding--) | Gets or sets preferred encoding for message. |
-| [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
-| [getRemoveSignature()](#getRemoveSignature--) | Gets or sets a value indicating whether signature will be removed while loading. |
+| [getMessageFormat()](#getMessageFormat--) | Gets the format this options object loads, as determined by its class: EML, MSG, MHTML, HTML and so on. |
+| [getPreferredTextEncoding()](#getPreferredTextEncoding--) | Gets the encoding used for the subject and the body regardless of what the message declares. |
+| [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets a value indicating whether embedded messages keep their original format (EML or MSG) when loaded. |
+| [getRemoveSignature()](#getRemoveSignature--) | Gets a value indicating whether the digital signature is removed from a signed message while it is loaded. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setPreferredTextEncoding(Charset value)](#setPreferredTextEncoding-java.nio.charset.Charset-) | Gets or sets preferred encoding for message. |
-| [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
-| [setRemoveSignature(boolean value)](#setRemoveSignature-boolean-) | Gets or sets a value indicating whether signature will be removed while loading. |
+| [setPreferredTextEncoding(Charset value)](#setPreferredTextEncoding-java.nio.charset.Charset-) | Sets the encoding used for the subject and the body regardless of what the message declares. |
+| [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Sets a value indicating whether embedded messages keep their original format (EML or MSG) when loaded. |
+| [setRemoveSignature(boolean value)](#setRemoveSignature-boolean-) | Sets a value indicating whether the digital signature is removed from a signed message while it is loaded. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -45,7 +47,7 @@ public EmlxLoadOptions()
 ```
 
 
-Initializes a new instance of this class that can be used to loading MailMessage from Eml format.
+Initializes a new instance of the [EmlxLoadOptions](../../com.aspose.email/emlxloadoptions) class with the default options.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -78,7 +80,7 @@ public final MessageFormat getMessageFormat()
 ```
 
 
-Represents the mail message format.It can be in eml,msg or mhtml format. The default value is Eml.
+Gets the format this options object loads, as determined by its class: EML, MSG, MHTML, HTML and so on.
 
 **Returns:**
 [MessageFormat](../../com.aspose.email/messageformat)
@@ -88,7 +90,7 @@ public final Charset getPreferredTextEncoding()
 ```
 
 
-Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null.
+Gets the encoding used for the subject and the body regardless of what the message declares. The default is  null : the declared encoding is used.
 
 **Returns:**
 java.nio.charset.Charset
@@ -98,11 +100,9 @@ public final boolean getPreserveEmbeddedMessageFormat()
 ```
 
 
-Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. By default the value is false.
+Gets a value indicating whether embedded messages keep their original format (EML or MSG) when loaded. The default is  false .
 
---------------------
-
-Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from EML to MSG and vice versa, embedded messages are also converted to the target format. Setting the property to true preserves the original format of embedded messages.
+Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from EML to MSG and vice versa, embedded messages are also converted to the target format. Setting the property to  true  preserves the original format of embedded messages.
 
 **Returns:**
 boolean
@@ -112,12 +112,10 @@ public final boolean getRemoveSignature()
 ```
 
 
-Gets or sets a value indicating whether signature will be removed while loading.
-
-Value:  true  if will be removed; otherwise,  false .
+Gets a value indicating whether the digital signature is removed from a signed message while it is loaded.
 
 **Returns:**
-boolean
+boolean -  true  to remove the signature; otherwise,  false . The default is  false .
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -150,7 +148,7 @@ public final void setPreferredTextEncoding(Charset value)
 ```
 
 
-Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null.
+Sets the encoding used for the subject and the body regardless of what the message declares. The default is  null : the declared encoding is used.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -163,11 +161,9 @@ public final void setPreserveEmbeddedMessageFormat(boolean value)
 ```
 
 
-Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. By default the value is false.
+Sets a value indicating whether embedded messages keep their original format (EML or MSG) when loaded. The default is  false .
 
---------------------
-
-Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from EML to MSG and vice versa, embedded messages are also converted to the target format. Setting the property to true preserves the original format of embedded messages.
+Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from EML to MSG and vice versa, embedded messages are also converted to the target format. Setting the property to  true  preserves the original format of embedded messages.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,14 +176,12 @@ public final void setRemoveSignature(boolean value)
 ```
 
 
-Gets or sets a value indicating whether signature will be removed while loading.
-
-Value:  true  if will be removed; otherwise,  false .
+Sets a value indicating whether the digital signature is removed from a signed message while it is loaded.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  to remove the signature; otherwise,  false . The default is  false . |
 
 ### toString() {#toString--}
 ```

@@ -1,7 +1,7 @@
 ---
 title: AlternateViewCollection
 second_title: Aspose.Email for Java API Reference
-description: Represents a collection of AlternateView objects.
+description: The alternate views of a message.
 type: docs
 weight: 16
 url: /java/com.aspose.email/alternateviewcollection/
@@ -16,14 +16,14 @@ com.aspose.ms.System.IDisposable, java.io.Closeable
 public final class AlternateViewCollection extends System.Collections.ObjectModel.Collection<AlternateView> implements System.IDisposable, Closeable
 ```
 
-Represents a collection of AlternateView objects.
+The alternate views of a message.
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [addItem(T arg0)](#addItem-T-) |  |
 | [clear()](#clear--) | Clear. |
-| [close()](#close--) |  |
+| [close()](#close--) | Releases the resources used by the views in the collection. |
 | [containsItem(T arg0)](#containsItem-T-) |  |
 | [copyToTArray(T[] arg0, int arg1)](#copyToTArray-T---int-) |  |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
@@ -36,7 +36,7 @@ Represents a collection of AlternateView objects.
 | [hashCode()](#hashCode--) |  |
 | [indexOfItem(T arg0)](#indexOfItem-T-) |  |
 | [insertItem(int arg0, T arg1)](#insertItem-int-T-) |  |
-| [insertItem(int index, AlternateView item)](#insertItem-int-com.aspose.email.AlternateView-) | Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index. |
+| [insertItem(int index, AlternateView item)](#insertItem-int-com.aspose.email.AlternateView-) | Inserts an element into the collection at the specified index. |
 | [isReadOnly()](#isReadOnly--) |  |
 | [iterator()](#iterator--) |  |
 | [notify()](#notify--) |  |
@@ -76,7 +76,7 @@ public void close()
 ```
 
 
-
+Releases the resources used by the views in the collection.
 
 ### containsItem(T arg0) {#containsItem-T-}
 ```
@@ -230,13 +230,13 @@ public void insertItem(int index, AlternateView item)
 ```
 
 
-Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index.
+Inserts an element into the collection at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which  item  should be inserted. |
-| item | [AlternateView](../../com.aspose.email/alternateview) | The object to insert. The value can be null for reference types. |
+| item | [AlternateView](../../com.aspose.email/alternateview) | The object to insert. The value can be  null . |
 
 ### isReadOnly() {#isReadOnly--}
 ```

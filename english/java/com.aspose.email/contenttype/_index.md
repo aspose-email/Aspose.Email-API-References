@@ -3,7 +3,7 @@ title: ContentType
 second_title: Aspose.Email for Java API Reference
 description: Represents a Content-Type header.
 type: docs
-weight: 129
+weight: 130
 url: /java/com.aspose.email/contenttype/
 ---
 
@@ -25,19 +25,19 @@ Represents a Content-Type header.
 | Method | Description |
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to this instance. |
-| [getBoundary()](#getBoundary--) | Gets or sets the value of the boundary parameter included in the Content-Type header. |
-| [getCharSet()](#getCharSet--) | Gets or sets the value of the charset parameter. |
+| [getBoundary()](#getBoundary--) | Gets the value of the boundary parameter included in the Content-Type header. |
+| [getCharSet()](#getCharSet--) | Gets the value of the charset parameter. |
 | [getClass()](#getClass--) |  |
-| [getMediaType()](#getMediaType--) | Gets or sets the internet media type. |
-| [getName()](#getName--) | Gets or sets the value of the name parameter. |
+| [getMediaType()](#getMediaType--) | Gets the internet media type. |
+| [getName()](#getName--) | Gets the value of the name parameter. |
 | [getParameters()](#getParameters--) | Gets the dictionary that contains the parameters. |
 | [hashCode()](#hashCode--) | Returns a hash code for this instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBoundary(String value)](#setBoundary-java.lang.String-) | Gets or sets the value of the boundary parameter included in the Content-Type header. |
-| [setCharSet(String value)](#setCharSet-java.lang.String-) | Gets or sets the value of the charset parameter. |
-| [setMediaType(String value)](#setMediaType-java.lang.String-) | Gets or sets the internet media type. |
-| [setName(String value)](#setName-java.lang.String-) | Gets or sets the value of the name parameter. |
+| [setBoundary(String value)](#setBoundary-java.lang.String-) | Sets the value of the boundary parameter included in the Content-Type header. |
+| [setCharSet(String value)](#setCharSet-java.lang.String-) | Sets the value of the charset parameter. |
+| [setMediaType(String value)](#setMediaType-java.lang.String-) | Sets the internet media type. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the value of the name parameter. |
 | [toString()](#toString--) | Returns a String that represents this instance. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -84,24 +84,20 @@ public final String getBoundary()
 ```
 
 
-Gets or sets the value of the boundary parameter included in the Content-Type header.
-
-Value: A string that contains the value of boundary parameter.
+Gets the value of the boundary parameter included in the Content-Type header.
 
 **Returns:**
-java.lang.String
+java.lang.String - A  String  that contains the value of boundary parameter.
 ### getCharSet() {#getCharSet--}
 ```
 public final String getCharSet()
 ```
 
 
-Gets or sets the value of the charset parameter.
-
-Value: A string that contains the value of charset parameter.
+Gets the value of the charset parameter.
 
 **Returns:**
-java.lang.String
+java.lang.String - A  String  that contains the value of charset parameter.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -118,24 +114,20 @@ public final String getMediaType()
 ```
 
 
-Gets or sets the internet media type.
-
-Value: A String that contains the media type.
+Gets the internet media type.
 
 **Returns:**
-java.lang.String
+java.lang.String - A  String  that contains the media type.
 ### getName() {#getName--}
 ```
 public final String getName()
 ```
 
 
-Gets or sets the value of the name parameter.
-
-Value: A String that contains the name.
+Gets the value of the name parameter.
 
 **Returns:**
-java.lang.String
+java.lang.String - A  String  that contains the name.
 ### getParameters() {#getParameters--}
 ```
 public final TrackingStringDictionary getParameters()
@@ -144,10 +136,8 @@ public final TrackingStringDictionary getParameters()
 
 Gets the dictionary that contains the parameters.
 
-Value: A StringDictionary that contains name and value pairs.
-
 **Returns:**
-[TrackingStringDictionary](../../com.aspose.email/trackingstringdictionary)
+[TrackingStringDictionary](../../com.aspose.email/trackingstringdictionary) - A [TrackingStringDictionary](../../com.aspose.email/trackingstringdictionary) that contains name and value pairs.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -180,14 +170,12 @@ public final void setBoundary(String value)
 ```
 
 
-Gets or sets the value of the boundary parameter included in the Content-Type header.
-
-Value: A string that contains the value of boundary parameter.
+Sets the value of the boundary parameter included in the Content-Type header.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | A  String  that contains the value of boundary parameter. |
 
 ### setCharSet(String value) {#setCharSet-java.lang.String-}
 ```
@@ -195,14 +183,12 @@ public final void setCharSet(String value)
 ```
 
 
-Gets or sets the value of the charset parameter.
-
-Value: A string that contains the value of charset parameter.
+Sets the value of the charset parameter.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | A  String  that contains the value of charset parameter. |
 
 ### setMediaType(String value) {#setMediaType-java.lang.String-}
 ```
@@ -210,14 +196,12 @@ public final void setMediaType(String value)
 ```
 
 
-Gets or sets the internet media type.
-
-Value: A String that contains the media type.
+Sets the internet media type.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | A  String  that contains the media type. |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -225,14 +209,12 @@ public final void setName(String value)
 ```
 
 
-Gets or sets the value of the name parameter.
-
-Value: A String that contains the name.
+Sets the value of the name parameter.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | A  String  that contains the name. |
 
 ### toString() {#toString--}
 ```

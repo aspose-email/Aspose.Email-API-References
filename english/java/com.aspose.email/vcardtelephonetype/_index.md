@@ -1,9 +1,9 @@
 ---
 title: VCardTelephoneType
 second_title: Aspose.Email for Java API Reference
-description: Enumerates a vCard telephone types
+description: Enumerates a vCard telephone types.
 type: docs
-weight: 755
+weight: 766
 url: /java/com.aspose.email/vcardtelephonetype/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class VCardTelephoneType extends System.Enum
 ```
 
-Enumerates a vCard telephone types
+Enumerates a vCard telephone types.
 ## Constructors
 
 | Constructor | Description |
@@ -23,26 +23,26 @@ Enumerates a vCard telephone types
 
 | Field | Description |
 | --- | --- |
-| [ASSISTANT](#ASSISTANT) | An assistant phone number |
-| [BBS](#BBS) | A bulletin board service number |
-| [CAR](#CAR) | A car-phone number |
-| [CELL](#CELL) | A cellular number |
+| [ASSISTANT](#ASSISTANT) | An assistant phone number. |
+| [BBS](#BBS) | A bulletin board service number. |
+| [CAR](#CAR) | A car-phone number. |
+| [CELL](#CELL) | A cellular number. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [FAX](#FAX) | A facsimile number |
-| [HOME](#HOME) | A home number |
-| [ISDN](#ISDN) | An ISDN number |
-| [MAIN](#MAIN) | Main phone number |
-| [MODEM](#MODEM) | A modem number |
-| [MSG](#MSG) | A messaging service on the number |
+| [FAX](#FAX) | A facsimile number. |
+| [HOME](#HOME) | A home number. |
+| [ISDN](#ISDN) | An ISDN number. |
+| [MAIN](#MAIN) | Main phone number. |
+| [MODEM](#MODEM) | A modem number. |
+| [MSG](#MSG) | A messaging service on the number. |
 | [None](#None) | No values are set. |
-| [OTHER](#OTHER) | Other phone number |
-| [PAGER](#PAGER) | A pager number |
-| [PCS](#PCS) | A personal communication services telephone number |
-| [PREF](#PREF) | A preferred number |
-| [RADIO](#RADIO) | A radio-phone number |
-| [VIDEO](#VIDEO) | A video-phone number |
-| [VOICE](#VOICE) | A voice number |
-| [WORK](#WORK) | A work number |
+| [OTHER](#OTHER) | Other phone number. |
+| [PAGER](#PAGER) | A pager number. |
+| [PCS](#PCS) | A personal communication services telephone number. |
+| [PREF](#PREF) | A preferred number. |
+| [RADIO](#RADIO) | A radio-phone number. |
+| [VIDEO](#VIDEO) | A video-phone number. |
+| [VOICE](#VOICE) | A voice number. |
+| [WORK](#WORK) | A work number. |
 ## Methods
 
 | Method | Description |
@@ -96,7 +96,7 @@ public static final int ASSISTANT
 ```
 
 
-An assistant phone number
+An assistant phone number.
 
 ### BBS {#BBS}
 ```
@@ -104,7 +104,7 @@ public static final int BBS
 ```
 
 
-A bulletin board service number
+A bulletin board service number.
 
 ### CAR {#CAR}
 ```
@@ -112,7 +112,7 @@ public static final int CAR
 ```
 
 
-A car-phone number
+A car-phone number.
 
 ### CELL {#CELL}
 ```
@@ -120,7 +120,7 @@ public static final int CELL
 ```
 
 
-A cellular number
+A cellular number.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -134,7 +134,7 @@ public static final int FAX
 ```
 
 
-A facsimile number
+A facsimile number.
 
 ### HOME {#HOME}
 ```
@@ -142,7 +142,7 @@ public static final int HOME
 ```
 
 
-A home number
+A home number.
 
 ### ISDN {#ISDN}
 ```
@@ -150,7 +150,7 @@ public static final int ISDN
 ```
 
 
-An ISDN number
+An ISDN number.
 
 ### MAIN {#MAIN}
 ```
@@ -158,7 +158,7 @@ public static final int MAIN
 ```
 
 
-Main phone number
+Main phone number.
 
 ### MODEM {#MODEM}
 ```
@@ -166,7 +166,7 @@ public static final int MODEM
 ```
 
 
-A modem number
+A modem number.
 
 ### MSG {#MSG}
 ```
@@ -174,7 +174,7 @@ public static final int MSG
 ```
 
 
-A messaging service on the number
+A messaging service on the number.
 
 ### None {#None}
 ```
@@ -190,7 +190,7 @@ public static final int OTHER
 ```
 
 
-Other phone number
+Other phone number.
 
 ### PAGER {#PAGER}
 ```
@@ -198,7 +198,7 @@ public static final int PAGER
 ```
 
 
-A pager number
+A pager number.
 
 ### PCS {#PCS}
 ```
@@ -206,7 +206,7 @@ public static final int PCS
 ```
 
 
-A personal communication services telephone number
+A personal communication services telephone number.
 
 ### PREF {#PREF}
 ```
@@ -214,7 +214,7 @@ public static final int PREF
 ```
 
 
-A preferred number
+A preferred number.
 
 ### RADIO {#RADIO}
 ```
@@ -222,7 +222,7 @@ public static final int RADIO
 ```
 
 
-A radio-phone number
+A radio-phone number.
 
 ### VIDEO {#VIDEO}
 ```
@@ -230,7 +230,7 @@ public static final int VIDEO
 ```
 
 
-A video-phone number
+A video-phone number.
 
 ### VOICE {#VOICE}
 ```
@@ -238,7 +238,7 @@ public static final int VOICE
 ```
 
 
-A voice number
+A voice number.
 
 ### WORK {#WORK}
 ```
@@ -246,7 +246,7 @@ public static final int WORK
 ```
 
 
-A work number
+A work number.
 
 ### Clone() {#Clone--}
 ```

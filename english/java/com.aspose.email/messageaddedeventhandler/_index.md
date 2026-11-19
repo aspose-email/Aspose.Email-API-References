@@ -1,9 +1,9 @@
 ---
 title: MessageAddedEventHandler
 second_title: Aspose.Email for Java API Reference
-description: Represents the method that will handle an  event.
+description: Represents the method that will handle a  event.
 type: docs
-weight: 514
+weight: 517
 url: /java/com.aspose.email/messageaddedeventhandler/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastD
 public abstract class MessageAddedEventHandler extends System.MulticastDelegate
 ```
 
-Represents the method that will handle an [FolderInfo.MessageAddedDelegate](../../com.aspose.email/folderinfo\#MessageAddedDelegate) event.
+Represents the method that will handle a [FolderInfo.MessageAdded](../../com.aspose.email/folderinfo\#MessageAdded) event.
 ## Constructors
 
 | Constructor | Description |
@@ -72,7 +72,7 @@ public final System.IAsyncResult beginInvoke(Object sender, MessageAddedEventArg
 | state | java.lang.Object |  |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult)
 ### combine(System.Delegate arg0, System.Delegate arg1) {#combine-com.aspose.ms.System.Delegate-com.aspose.ms.System.Delegate-}
 ```
 public static System.Delegate combine(System.Delegate arg0, System.Delegate arg1)

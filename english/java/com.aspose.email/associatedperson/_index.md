@@ -30,19 +30,19 @@ Describes organization which is associated with a person.
 | [equals(AssociatedPerson obj)](#equals-com.aspose.email.AssociatedPerson-) | Determines whether the specified Object is equal to the current Object. |
 | [equals(AssociatedPerson x, AssociatedPerson y)](#equals-com.aspose.email.AssociatedPerson-com.aspose.email.AssociatedPerson-) | Determines whether the specified object instances are considered equal. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
-| [getCategory()](#getCategory--) | Gets or sets an object category |
+| [getCategory()](#getCategory--) | Gets an object category. |
 | [getClass()](#getClass--) |  |
-| [getName()](#getName--) | Gets or sets a name of a person |
-| [getPrefered()](#getPrefered--) | Gets or sets a value which defines whether object is preferred. |
-| [hashCode()](#hashCode--) | GetHashCode returns a hash function for this object. |
-| [hashCode(AssociatedPerson obj)](#hashCode-com.aspose.email.AssociatedPerson-) | GetHashCode returns a hash function for specified object. |
+| [getName()](#getName--) | Gets a name of a person. |
+| [getPrefered()](#getPrefered--) | Gets a value which defines whether object is preferred. |
+| [hashCode()](#hashCode--) |  hashCode  returns a hash function for this object. |
+| [hashCode(AssociatedPerson obj)](#hashCode-com.aspose.email.AssociatedPerson-) |  hashCode  returns a hash function for specified object. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [op_Equality(AssociatedPerson a, AssociatedPerson b)](#op-Equality-com.aspose.email.AssociatedPerson-com.aspose.email.AssociatedPerson-) | Determines whether the specified objects are equal. |
 | [op_Inequality(AssociatedPerson a, AssociatedPerson b)](#op-Inequality-com.aspose.email.AssociatedPerson-com.aspose.email.AssociatedPerson-) | Determines whether the specified objects are not equal. |
-| [setCategory(AssociatedPersonCategory value)](#setCategory-com.aspose.email.AssociatedPersonCategory-) | Gets or sets an object category |
-| [setName(String value)](#setName-java.lang.String-) | Gets or sets a name of a person |
-| [setPrefered(boolean value)](#setPrefered-boolean-) | Gets or sets a value which defines whether object is preferred. |
+| [setCategory(AssociatedPersonCategory value)](#setCategory-com.aspose.email.AssociatedPersonCategory-) | Sets an object category. |
+| [setName(String value)](#setName-java.lang.String-) | Sets a name of a person. |
+| [setPrefered(boolean value)](#setPrefered-boolean-) | Sets a value which defines whether object is preferred. |
 | [toString()](#toString--) | Returns a string that represents the current object. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -64,10 +64,10 @@ Compares the current instance with another object of the same type and returns a
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | [AssociatedPerson](../../com.aspose.email/associatedperson) | An object to compare with this instance, or null. |
+| obj | [AssociatedPerson](../../com.aspose.email/associatedperson) | An object to compare with this instance, or  null . |
 
 **Returns:**
-int - This method returns: a value less than 0 if this is less than value 0 if this is equal to value a value greater than 0 if this is greater than value
+int - A value less than 0 if this is less than  obj ; 0 if this is equal to  obj ; a value greater than 0 if this is greater than  obj .
 ### equals(AssociatedPerson obj) {#equals-com.aspose.email.AssociatedPerson-}
 ```
 public final boolean equals(AssociatedPerson obj)
@@ -98,7 +98,7 @@ Determines whether the specified object instances are considered equal.
 | y | [AssociatedPerson](../../com.aspose.email/associatedperson) | The second object to compare. |
 
 **Returns:**
-boolean - true if the objects are considered equal; otherwise, false. If both objA and objB are null, the method returns true.
+boolean -  true  if the objects are considered equal; otherwise,  false . If both  x  and  y  are  null , the method returns  true .
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -120,7 +120,7 @@ public final AssociatedPersonCategory getCategory()
 ```
 
 
-Gets or sets an object category
+Gets an object category.
 
 **Returns:**
 [AssociatedPersonCategory](../../com.aspose.email/associatedpersoncategory)
@@ -140,7 +140,7 @@ public final String getName()
 ```
 
 
-Gets or sets a name of a person
+Gets a name of a person.
 
 **Returns:**
 java.lang.String
@@ -150,7 +150,7 @@ public final boolean getPrefered()
 ```
 
 
-Gets or sets a value which defines whether object is preferred.
+Gets a value which defines whether object is preferred.
 
 **Returns:**
 boolean
@@ -160,7 +160,7 @@ public int hashCode()
 ```
 
 
-GetHashCode returns a hash function for this object.
+ hashCode  returns a hash function for this object.
 
 **Returns:**
 int - Returns a hash function for this object.
@@ -170,7 +170,7 @@ public int hashCode(AssociatedPerson obj)
 ```
 
 
-GetHashCode returns a hash function for specified object.
+ hashCode  returns a hash function for specified object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,11 +206,11 @@ Determines whether the specified objects are equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [AssociatedPerson](../../com.aspose.email/associatedperson) | First object to compare |
-| b | [AssociatedPerson](../../com.aspose.email/associatedperson) | Second object to compare |
+| a | [AssociatedPerson](../../com.aspose.email/associatedperson) | First object to compare. |
+| b | [AssociatedPerson](../../com.aspose.email/associatedperson) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are equal, otherwise false.
+boolean - Returns  true  if objects are equal, otherwise  false .
 ### op_Inequality(AssociatedPerson a, AssociatedPerson b) {#op-Inequality-com.aspose.email.AssociatedPerson-com.aspose.email.AssociatedPerson-}
 ```
 public static boolean op_Inequality(AssociatedPerson a, AssociatedPerson b)
@@ -222,18 +222,18 @@ Determines whether the specified objects are not equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [AssociatedPerson](../../com.aspose.email/associatedperson) | First object to compare |
-| b | [AssociatedPerson](../../com.aspose.email/associatedperson) | Second object to compare |
+| a | [AssociatedPerson](../../com.aspose.email/associatedperson) | First object to compare. |
+| b | [AssociatedPerson](../../com.aspose.email/associatedperson) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are not equal, otherwise false.
+boolean - Returns  true  if objects are not equal, otherwise  false .
 ### setCategory(AssociatedPersonCategory value) {#setCategory-com.aspose.email.AssociatedPersonCategory-}
 ```
 public final void setCategory(AssociatedPersonCategory value)
 ```
 
 
-Gets or sets an object category
+Sets an object category.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public final void setName(String value)
 ```
 
 
-Gets or sets a name of a person
+Sets a name of a person.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -259,7 +259,7 @@ public final void setPrefered(boolean value)
 ```
 
 
-Gets or sets a value which defines whether object is preferred.
+Sets a value which defines whether object is preferred.
 
 **Parameters:**
 | Parameter | Type | Description |

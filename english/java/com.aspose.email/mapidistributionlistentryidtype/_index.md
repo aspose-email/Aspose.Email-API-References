@@ -1,9 +1,9 @@
 ---
 title: MapiDistributionListEntryIdType
 second_title: Aspose.Email for Java API Reference
-description: Specifies the type of EntryID.
+description: Defines what the EntryID of a distribution list member refers to.
 type: docs
-weight: 455
+weight: 458
 url: /java/com.aspose.email/mapidistributionlistentryidtype/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiDistributionListEntryIdType extends System.Enum
 ```
 
-Specifies the type of EntryID.
+Defines what the EntryID of a distribution list member refers to.
 ## Constructors
 
 | Constructor | Description |
@@ -23,12 +23,12 @@ Specifies the type of EntryID.
 
 | Field | Description |
 | --- | --- |
-| [Contact](#Contact) | EntryID of a Contact object. |
-| [DistributionList](#DistributionList) | EntryID of a Personal Distribution List object. |
+| [Contact](#Contact) | A contact (a Message EntryID). |
+| [DistributionList](#DistributionList) | Another personal distribution list (a Message EntryID). |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [GalDistributionList](#GalDistributionList) | EntryID of a distribution list in the GAL. |
-| [GalMailUser](#GalMailUser) | EntryID of a mail user in the GAL. |
-| [OneOff](#OneOff) | Designates a one-off EntryID. |
+| [GalDistributionList](#GalDistributionList) | A distribution list in the Global Address List (an Address Book EntryID). |
+| [GalMailUser](#GalMailUser) | A mail user in the Global Address List (an Address Book EntryID). |
+| [OneOff](#OneOff) | An address that is not stored anywhere else (a one-off EntryID). |
 ## Methods
 
 | Method | Description |
@@ -82,7 +82,7 @@ public static final int Contact
 ```
 
 
-EntryID of a Contact object. The EntryID must be a Message EntryID structure.
+A contact (a Message EntryID).
 
 ### DistributionList {#DistributionList}
 ```
@@ -90,7 +90,7 @@ public static final int DistributionList
 ```
 
 
-EntryID of a Personal Distribution List object. The EntryID must be a Message EntryID structure.
+Another personal distribution list (a Message EntryID).
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -104,7 +104,7 @@ public static final int GalDistributionList
 ```
 
 
-EntryID of a distribution list in the GAL. The EntryID must be an Address Book EntryID structure.
+A distribution list in the Global Address List (an Address Book EntryID).
 
 ### GalMailUser {#GalMailUser}
 ```
@@ -112,7 +112,7 @@ public static final int GalMailUser
 ```
 
 
-EntryID of a mail user in the GAL. The EntryID must be an Address Book EntryID structure.
+A mail user in the Global Address List (an Address Book EntryID).
 
 ### OneOff {#OneOff}
 ```
@@ -120,7 +120,7 @@ public static final int OneOff
 ```
 
 
-Designates a one-off EntryID. The EntryID must be a One-Off EntryID structure.
+An address that is not stored anywhere else (a one-off EntryID).
 
 ### Clone() {#Clone--}
 ```

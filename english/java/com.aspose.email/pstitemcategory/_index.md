@@ -1,9 +1,9 @@
 ---
 title: PstItemCategory
 second_title: Aspose.Email for Java API Reference
-description: Represents a category for PST items with a name and associated color.
+description: A category used in a PST with its name and color.
 type: docs
-weight: 612
+weight: 617
 url: /java/com.aspose.email/pstitemcategory/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public class PstItemCategory
 ```
 
-Represents a category for PST items with a name and associated color.
+A category used in a PST, with its name and color.
 ## Constructors
 
 | Constructor | Description |
@@ -30,7 +30,7 @@ Represents a category for PST items with a name and associated color.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
+| [toString()](#toString--) | Returns the name and color of the category. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -125,10 +125,10 @@ public String toString()
 ```
 
 
-
+Returns the name and color of the category.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - A string in the form  Name: Color .
 ### wait() {#wait--}
 ```
 public final void wait()

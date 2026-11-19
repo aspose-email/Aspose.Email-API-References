@@ -3,7 +3,7 @@ title: Colors
 second_title: Aspose.Email for Java API Reference
 description: Set of colors for calendar object
 type: docs
-weight: 108
+weight: 109
 url: /java/com.aspose.email/colors/
 ---
 

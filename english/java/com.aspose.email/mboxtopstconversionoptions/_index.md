@@ -3,7 +3,7 @@ title: MboxToPstConversionOptions
 second_title: Aspose.Email for Java API Reference
 description: This class allows the user to specify additional options when converting from Mbox to PST.
 type: docs
-weight: 507
+weight: 510
 url: /java/com.aspose.email/mboxtopstconversionoptions/
 ---
 
@@ -25,13 +25,13 @@ This class allows the user to specify additional options when converting from Mb
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getMessageHandler()](#getMessageHandler--) | Represents the method that will handle an event that occurs after successfully reading a message from the Mbox and before adding it to Pst. |
-| [getRemoveSignature()](#getRemoveSignature--) | Gets or sets a value indicating whether signature will be removed while converting. |
+| [getMessageHandler()](#getMessageHandler--) | Gets represents the method that will handle an event that occurs after successfully reading a message from the Mbox and before adding it to Pst. |
+| [getRemoveSignature()](#getRemoveSignature--) | Gets a value indicating whether signature will be removed while converting. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setMessageHandler(MailStorageConverter.MailHandler value)](#setMessageHandler-com.aspose.email.MailStorageConverter.MailHandler-) | Represents the method that will handle an event that occurs after successfully reading a message from the Mbox and before adding it to Pst. |
-| [setRemoveSignature(boolean value)](#setRemoveSignature-boolean-) | Gets or sets a value indicating whether signature will be removed while converting. |
+| [setMessageHandler(MailStorageConverter.MailHandler value)](#setMessageHandler-com.aspose.email.MailStorageConverter.MailHandler-) | Sets represents the method that will handle an event that occurs after successfully reading a message from the Mbox and before adding it to Pst. |
+| [setRemoveSignature(boolean value)](#setRemoveSignature-boolean-) | Sets a value indicating whether signature will be removed while converting. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -73,7 +73,7 @@ public final MailStorageConverter.MailHandler getMessageHandler()
 ```
 
 
-Represents the method that will handle an event that occurs after successfully reading a message from the Mbox and before adding it to Pst.
+Gets represents the method that will handle an event that occurs after successfully reading a message from the Mbox and before adding it to Pst.
 
 **Returns:**
 [MailHandler](../../com.aspose.email/mailhandler)
@@ -83,12 +83,10 @@ public final boolean getRemoveSignature()
 ```
 
 
-Gets or sets a value indicating whether signature will be removed while converting.
-
-Value:  true  if will be removed; otherwise,  false .
+Gets a value indicating whether signature will be removed while converting.
 
 **Returns:**
-boolean
+boolean -  true  if will be removed; otherwise,  false .
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -121,7 +119,7 @@ public final void setMessageHandler(MailStorageConverter.MailHandler value)
 ```
 
 
-Represents the method that will handle an event that occurs after successfully reading a message from the Mbox and before adding it to Pst.
+Sets represents the method that will handle an event that occurs after successfully reading a message from the Mbox and before adding it to Pst.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -134,14 +132,12 @@ public final void setRemoveSignature(boolean value)
 ```
 
 
-Gets or sets a value indicating whether signature will be removed while converting.
-
-Value:  true  if will be removed; otherwise,  false .
+Sets a value indicating whether signature will be removed while converting.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  if will be removed; otherwise,  false . |
 
 ### toString() {#toString--}
 ```

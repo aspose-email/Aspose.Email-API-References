@@ -3,7 +3,7 @@ title: DeliveryServiceResponse
 second_title: Aspose.Email for Java API Reference
 description: Represents the DeliveryService client response
 type: docs
-weight: 159
+weight: 160
 url: /java/com.aspose.email/deliveryserviceresponse/
 ---
 

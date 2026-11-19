@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarTimeZoneRule
 second_title: Aspose.Email for Java API Reference
-description: Represents time zone rule that indicate when to begin using the Standard/Daylight time.
+description: The moment at which standard or daylight saving time begins.
 type: docs
-weight: 431
+weight: 434
 url: /java/com.aspose.email/mapicalendartimezonerule/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public final class MapiCalendarTimeZoneRule
 ```
 
-Represents time zone rule that indicate when to begin using the Standard/Daylight time.
+The moment at which standard or daylight saving time begins.
 ## Constructors
 
 | Constructor | Description |
@@ -25,26 +25,26 @@ Represents time zone rule that indicate when to begin using the Standard/Dayligh
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDate()](#getDate--) | Gets the date and time that indicate when to begin using the Standard/Daylight time. |
-| [getDayOfWeek()](#getDayOfWeek--) | Gets or sets the day of week |
-| [getHour()](#getHour--) | Gets or sets the hour |
-| [getMilliseconds()](#getMilliseconds--) | Gets or sets the milliseconds |
-| [getMinute()](#getMinute--) | Gets or sets the minutes |
-| [getMonth()](#getMonth--) | Gets or sets the month |
-| [getPosition()](#getPosition--) | Gets or sets the day position |
-| [getSeconds()](#getSeconds--) | Gets or sets the seconds |
-| [getYear()](#getYear--) | Gets or sets the year |
+| [getDate()](#getDate--) | Gets the date and time at which the time change takes effect. |
+| [getDayOfWeek()](#getDayOfWeek--) | Gets the day of the week of the time change. |
+| [getHour()](#getHour--) | Gets the hour of the time change. |
+| [getMilliseconds()](#getMilliseconds--) | Gets the milliseconds of the time change. |
+| [getMinute()](#getMinute--) | Gets the minute of the time change. |
+| [getMonth()](#getMonth--) | Gets the month of the time change. |
+| [getPosition()](#getPosition--) | Gets which occurrence of the weekday in the month the time change falls on, such as the last Sunday. |
+| [getSeconds()](#getSeconds--) | Gets the seconds of the time change. |
+| [getYear()](#getYear--) | Gets the year of the time change; 0 for a change that recurs every year. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDayOfWeek(int value)](#setDayOfWeek-int-) | Gets or sets the day of week |
-| [setHour(int value)](#setHour-int-) | Gets or sets the hour |
-| [setMilliseconds(int value)](#setMilliseconds-int-) | Gets or sets the milliseconds |
-| [setMinute(int value)](#setMinute-int-) | Gets or sets the minutes |
-| [setMonth(int value)](#setMonth-int-) | Gets or sets the month |
-| [setPosition(int value)](#setPosition-int-) | Gets or sets the day position |
-| [setSeconds(int value)](#setSeconds-int-) | Gets or sets the seconds |
-| [setYear(int value)](#setYear-int-) | Gets or sets the year |
+| [setDayOfWeek(int value)](#setDayOfWeek-int-) | Sets the day of the week of the time change. |
+| [setHour(int value)](#setHour-int-) | Sets the hour of the time change. |
+| [setMilliseconds(int value)](#setMilliseconds-int-) | Sets the milliseconds of the time change. |
+| [setMinute(int value)](#setMinute-int-) | Sets the minute of the time change. |
+| [setMonth(int value)](#setMonth-int-) | Sets the month of the time change. |
+| [setPosition(int value)](#setPosition-int-) | Sets which occurrence of the weekday in the month the time change falls on, such as the last Sunday. |
+| [setSeconds(int value)](#setSeconds-int-) | Sets the seconds of the time change. |
+| [setYear(int value)](#setYear-int-) | Sets the year of the time change; 0 for a change that recurs every year. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -88,7 +88,7 @@ public final Date getDate()
 ```
 
 
-Gets the date and time that indicate when to begin using the Standard/Daylight time.
+Gets the date and time at which the time change takes effect.
 
 **Returns:**
 java.util.Date
@@ -98,7 +98,7 @@ public final int getDayOfWeek()
 ```
 
 
-Gets or sets the day of week
+Gets the day of the week of the time change.
 
 **Returns:**
 int
@@ -108,7 +108,7 @@ public final int getHour()
 ```
 
 
-Gets or sets the hour
+Gets the hour of the time change.
 
 **Returns:**
 int
@@ -118,7 +118,7 @@ public final int getMilliseconds()
 ```
 
 
-Gets or sets the milliseconds
+Gets the milliseconds of the time change.
 
 **Returns:**
 int
@@ -128,7 +128,7 @@ public final int getMinute()
 ```
 
 
-Gets or sets the minutes
+Gets the minute of the time change.
 
 **Returns:**
 int
@@ -138,7 +138,7 @@ public final int getMonth()
 ```
 
 
-Gets or sets the month
+Gets the month of the time change.
 
 **Returns:**
 int
@@ -148,7 +148,7 @@ public final int getPosition()
 ```
 
 
-Gets or sets the day position
+Gets which occurrence of the weekday in the month the time change falls on, such as the last Sunday.
 
 **Returns:**
 int
@@ -158,7 +158,7 @@ public final int getSeconds()
 ```
 
 
-Gets or sets the seconds
+Gets the seconds of the time change.
 
 **Returns:**
 int
@@ -168,7 +168,7 @@ public final int getYear()
 ```
 
 
-Gets or sets the year
+Gets the year of the time change; 0 for a change that recurs every year.
 
 **Returns:**
 int
@@ -204,7 +204,7 @@ public final void setDayOfWeek(int value)
 ```
 
 
-Gets or sets the day of week
+Sets the day of the week of the time change.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -217,7 +217,7 @@ public final void setHour(int value)
 ```
 
 
-Gets or sets the hour
+Sets the hour of the time change.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -230,7 +230,7 @@ public final void setMilliseconds(int value)
 ```
 
 
-Gets or sets the milliseconds
+Sets the milliseconds of the time change.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -243,7 +243,7 @@ public final void setMinute(int value)
 ```
 
 
-Gets or sets the minutes
+Sets the minute of the time change.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -256,7 +256,7 @@ public final void setMonth(int value)
 ```
 
 
-Gets or sets the month
+Sets the month of the time change.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -269,7 +269,7 @@ public final void setPosition(int value)
 ```
 
 
-Gets or sets the day position
+Sets which occurrence of the weekday in the month the time change falls on, such as the last Sunday.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -282,7 +282,7 @@ public final void setSeconds(int value)
 ```
 
 
-Gets or sets the seconds
+Sets the seconds of the time change.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -295,7 +295,7 @@ public final void setYear(int value)
 ```
 
 
-Gets or sets the year
+Sets the year of the time change; 0 for a change that recurs every year.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -1,9 +1,9 @@
 ---
 title: VCardPhotoType
 second_title: Aspose.Email for Java API Reference
-description: Enumerates vCard photo type
+description: Enumerates vCard photo type.
 type: docs
-weight: 748
+weight: 759
 url: /java/com.aspose.email/vcardphototype/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class VCardPhotoType extends System.Enum
 ```
 
-Enumerates vCard photo type
+Enumerates vCard photo type.
 ## Constructors
 
 | Constructor | Description |
@@ -23,23 +23,24 @@ Enumerates vCard photo type
 
 | Field | Description |
 | --- | --- |
-| [AVI](#AVI) | Intel avi format |
-| [BMP](#BMP) | MS windows bitmap |
-| [CGM](#CGM) | ISO computer graphics metafile |
-| [DIB](#DIB) | MS windows dib |
+| [AVI](#AVI) | Intel avi format. |
+| [BMP](#BMP) | MS windows bitmap. |
+| [CGM](#CGM) | ISO computer graphics metafile. |
+| [DIB](#DIB) | MS windows dib. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [GIF](#GIF) | Graphics interchange format |
-| [JPEG](#JPEG) | Jpeg format |
-| [MET](#MET) | IBM pm metafile |
-| [MPEG](#MPEG) | Mpeg format |
-| [MPEG2](#MPEG2) | MPEG v.2 format |
-| [PDF](#PDF) | Adobe page description format |
-| [PICT](#PICT) | Apple picture format |
-| [PMB](#PMB) | IBM pm bitmap |
-| [PS](#PS) | Adobe postscript format |
-| [QTIME](#QTIME) | Apple quickTime format |
-| [TIFF](#TIFF) | Tagged image file format |
-| [WMF](#WMF) | MS windows metafile |
+| [GIF](#GIF) | Graphics interchange format. |
+| [JPEG](#JPEG) | Jpeg format. |
+| [MET](#MET) | IBM pm metafile. |
+| [MPEG](#MPEG) | Mpeg format. |
+| [MPEG2](#MPEG2) | MPEG v.2 format. |
+| [PDF](#PDF) | Adobe page description format. |
+| [PICT](#PICT) | Apple picture format. |
+| [PMB](#PMB) | IBM pm bitmap. |
+| [PNG](#PNG) | Portable network graphics format. |
+| [PS](#PS) | Adobe postscript format. |
+| [QTIME](#QTIME) | Apple quickTime format. |
+| [TIFF](#TIFF) | Tagged image file format. |
+| [WMF](#WMF) | MS windows metafile. |
 ## Methods
 
 | Method | Description |
@@ -93,7 +94,7 @@ public static final int AVI
 ```
 
 
-Intel avi format
+Intel avi format.
 
 ### BMP {#BMP}
 ```
@@ -101,7 +102,7 @@ public static final int BMP
 ```
 
 
-MS windows bitmap
+MS windows bitmap.
 
 ### CGM {#CGM}
 ```
@@ -109,7 +110,7 @@ public static final int CGM
 ```
 
 
-ISO computer graphics metafile
+ISO computer graphics metafile.
 
 ### DIB {#DIB}
 ```
@@ -117,7 +118,7 @@ public static final int DIB
 ```
 
 
-MS windows dib
+MS windows dib.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -131,7 +132,7 @@ public static final int GIF
 ```
 
 
-Graphics interchange format
+Graphics interchange format.
 
 ### JPEG {#JPEG}
 ```
@@ -139,7 +140,7 @@ public static final int JPEG
 ```
 
 
-Jpeg format
+Jpeg format.
 
 ### MET {#MET}
 ```
@@ -147,7 +148,7 @@ public static final int MET
 ```
 
 
-IBM pm metafile
+IBM pm metafile.
 
 ### MPEG {#MPEG}
 ```
@@ -155,7 +156,7 @@ public static final int MPEG
 ```
 
 
-Mpeg format
+Mpeg format.
 
 ### MPEG2 {#MPEG2}
 ```
@@ -163,7 +164,7 @@ public static final int MPEG2
 ```
 
 
-MPEG v.2 format
+MPEG v.2 format.
 
 ### PDF {#PDF}
 ```
@@ -171,7 +172,7 @@ public static final int PDF
 ```
 
 
-Adobe page description format
+Adobe page description format.
 
 ### PICT {#PICT}
 ```
@@ -179,7 +180,7 @@ public static final int PICT
 ```
 
 
-Apple picture format
+Apple picture format.
 
 ### PMB {#PMB}
 ```
@@ -187,7 +188,15 @@ public static final int PMB
 ```
 
 
-IBM pm bitmap
+IBM pm bitmap.
+
+### PNG {#PNG}
+```
+public static final int PNG
+```
+
+
+Portable network graphics format.
 
 ### PS {#PS}
 ```
@@ -195,7 +204,7 @@ public static final int PS
 ```
 
 
-Adobe postscript format
+Adobe postscript format.
 
 ### QTIME {#QTIME}
 ```
@@ -203,7 +212,7 @@ public static final int QTIME
 ```
 
 
-Apple quickTime format
+Apple quickTime format.
 
 ### TIFF {#TIFF}
 ```
@@ -211,7 +220,7 @@ public static final int TIFF
 ```
 
 
-Tagged image file format
+Tagged image file format.
 
 ### WMF {#WMF}
 ```
@@ -219,7 +228,7 @@ public static final int WMF
 ```
 
 
-MS windows metafile
+MS windows metafile.
 
 ### Clone() {#Clone--}
 ```

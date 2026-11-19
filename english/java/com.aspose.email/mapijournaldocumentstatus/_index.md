@@ -1,9 +1,9 @@
 ---
 title: MapiJournalDocumentStatus
 second_title: Aspose.Email for Java API Reference
-description: Indicates the status of document.
+description: Defines what happened to a document during a journaled activity.
 type: docs
-weight: 464
+weight: 467
 url: /java/com.aspose.email/mapijournaldocumentstatus/
 ---
 
@@ -13,17 +13,17 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiJournalDocumentStatus extends System.Enum
 ```
 
-Indicates the status of document.
+Defines what happened to a document during a journaled activity. The values can be combined.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [None](#None) | The document has not any status. |
-| [Posted](#Posted) | Indicates whether the document was sent by e-mail or posted to a server folder during journaling. |
-| [Printed](#Printed) | Indicates whether the document was printed during journaling. |
-| [Routed](#Routed) | Indicates whether the document was sent to a routing recipient during journaling. |
-| [Saved](#Saved) | Indicates whether the document was saved during journaling. |
+| [None](#None) | Nothing happened to the document. |
+| [Posted](#Posted) | The document was sent by e-mail or posted to a server folder. |
+| [Printed](#Printed) | The document was printed. |
+| [Routed](#Routed) | The document was sent to a routing recipient. |
+| [Saved](#Saved) | The document was saved. |
 ## Methods
 
 | Method | Description |
@@ -75,7 +75,7 @@ public static final int None
 ```
 
 
-The document has not any status.
+Nothing happened to the document.
 
 ### Posted {#Posted}
 ```
@@ -83,7 +83,7 @@ public static final int Posted
 ```
 
 
-Indicates whether the document was sent by e-mail or posted to a server folder during journaling.
+The document was sent by e-mail or posted to a server folder.
 
 ### Printed {#Printed}
 ```
@@ -91,7 +91,7 @@ public static final int Printed
 ```
 
 
-Indicates whether the document was printed during journaling.
+The document was printed.
 
 ### Routed {#Routed}
 ```
@@ -99,7 +99,7 @@ public static final int Routed
 ```
 
 
-Indicates whether the document was sent to a routing recipient during journaling.
+The document was sent to a routing recipient.
 
 ### Saved {#Saved}
 ```
@@ -107,7 +107,7 @@ public static final int Saved
 ```
 
 
-Indicates whether the document was saved during journaling.
+The document was saved.
 
 ### Clone() {#Clone--}
 ```

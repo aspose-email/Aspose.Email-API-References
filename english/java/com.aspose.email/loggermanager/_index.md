@@ -3,7 +3,7 @@ title: LoggerManager
 second_title: Aspose.Email for Java API Reference
 description: Static manager that controls the creation of loggers.
 type: docs
-weight: 376
+weight: 379
 url: /java/com.aspose.email/loggermanager/
 ---
 
@@ -74,7 +74,7 @@ Determines whether the logger cache contains an object with the specified logger
 | name | java.lang.String | The logger name. |
 
 **Returns:**
-boolean - true if the logger cache contains an element with the key; otherwise, false.
+boolean -  true  if the logger cache contains an element with the key; otherwise,  false .
 ### createLogger(String name, Appender appender) {#createLogger-java.lang.String-com.aspose.email.Appender-}
 ```
 public static Logger createLogger(String name, Appender appender)

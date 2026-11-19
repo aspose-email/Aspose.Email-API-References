@@ -1,9 +1,9 @@
 ---
 title: FileAccessViolationException
 second_title: Aspose.Email for Java API Reference
-description: This exception wile be thrown when the file open and locked by another caller.
+description: The exception that is thrown when a file cannot be opened because another process has opened and locked it.
 type: docs
-weight: 244
+weight: 247
 url: /java/com.aspose.email/fileaccessviolationexception/
 ---
 
@@ -13,14 +13,14 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class FileAccessViolationException extends System.IO.IOException
 ```
 
-This exception wile be thrown when the file open and locked by another caller.
+The exception that is thrown when a file cannot be opened because another process has opened and locked it.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [FileAccessViolationException()](#FileAccessViolationException--) | Initializes a new instance of the class with default error message. |
-| [FileAccessViolationException(String message)](#FileAccessViolationException-java.lang.String-) | Initializes a new instance of the class with a specified error message. |
-| [FileAccessViolationException(String message, Throwable innerException)](#FileAccessViolationException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the Exception class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [FileAccessViolationException()](#FileAccessViolationException--) | Initializes a new instance of the [FileAccessViolationException](../../com.aspose.email/fileaccessviolationexception) class with a default error message. |
+| [FileAccessViolationException(String message)](#FileAccessViolationException-java.lang.String-) | Initializes a new instance of the [FileAccessViolationException](../../com.aspose.email/fileaccessviolationexception) class with the specified error message. |
+| [FileAccessViolationException(String message, Throwable innerException)](#FileAccessViolationException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the [FileAccessViolationException](../../com.aspose.email/fileaccessviolationexception) class with the specified error message and a reference to the exception that caused this one. |
 ## Methods
 
 | Method | Description |
@@ -54,7 +54,7 @@ public FileAccessViolationException()
 ```
 
 
-Initializes a new instance of the class with default error message.
+Initializes a new instance of the [FileAccessViolationException](../../com.aspose.email/fileaccessviolationexception) class with a default error message.
 
 ### FileAccessViolationException(String message) {#FileAccessViolationException-java.lang.String-}
 ```
@@ -62,12 +62,12 @@ public FileAccessViolationException(String message)
 ```
 
 
-Initializes a new instance of the class with a specified error message.
+Initializes a new instance of the [FileAccessViolationException](../../com.aspose.email/fileaccessviolationexception) class with the specified error message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | Error message. |
+| message | java.lang.String | The message that describes the error. |
 
 ### FileAccessViolationException(String message, Throwable innerException) {#FileAccessViolationException-java.lang.String-java.lang.Throwable-}
 ```
@@ -75,13 +75,13 @@ public FileAccessViolationException(String message, Throwable innerException)
 ```
 
 
-Initializes a new instance of the Exception class with a specified error message and a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [FileAccessViolationException](../../com.aspose.email/fileaccessviolationexception) class with the specified error message and a reference to the exception that caused this one.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The error message that explains the reason for the exception. |
-| innerException | java.lang.Throwable | The exception that is the cause of the current exception. If the innerException parameter is not a NULL reference (Nothing in Visual Basic), the current exception is raised in a catch block that handles the inner exception. |
+| message | java.lang.String | The message that describes the error. |
+| innerException | java.lang.Throwable | The exception that caused this exception, or  null . |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```

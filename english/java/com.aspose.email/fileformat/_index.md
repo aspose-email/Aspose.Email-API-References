@@ -1,9 +1,9 @@
 ---
 title: FileFormat
 second_title: Aspose.Email for Java API Reference
-description: Specifies the file format  used to store messages  calendar events and other items.
+description: Defines the format of an Outlook data file.
 type: docs
-weight: 249
+weight: 252
 url: /java/com.aspose.email/fileformat/
 ---
 
@@ -13,14 +13,14 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class FileFormat extends System.Enum
 ```
 
-Specifies the file format used to store messages, calendar events, and other items.
+Defines the format of an Outlook data file.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Ost](#Ost) | Off-line Storage Table (.ost file format). |
-| [Pst](#Pst) | Personal Storage Table (.pst file format). |
+| [Ost](#Ost) | Offline Storage Table (.ost). |
+| [Pst](#Pst) | Personal Storage Table (.pst). |
 ## Methods
 
 | Method | Description |
@@ -72,7 +72,7 @@ public static final int Ost
 ```
 
 
-Off-line Storage Table (.ost file format).
+Offline Storage Table (.ost).
 
 ### Pst {#Pst}
 ```
@@ -80,7 +80,7 @@ public static final int Pst
 ```
 
 
-Personal Storage Table (.pst file format).
+Personal Storage Table (.pst).
 
 ### Clone() {#Clone--}
 ```

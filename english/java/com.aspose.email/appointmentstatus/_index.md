@@ -1,7 +1,7 @@
 ---
 title: AppointmentStatus
 second_title: Aspose.Email for Java API Reference
-description: Defines the overall status or confirmation for the appointment.
+description: Defines the status of an event the iCalendar STATUS property.
 type: docs
 weight: 49
 url: /java/com.aspose.email/appointmentstatus/
@@ -13,16 +13,16 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class AppointmentStatus extends System.Enum
 ```
 
-Defines the overall status or confirmation for the appointment.
+Defines the status of an event (the iCalendar STATUS property).
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Cancelled](#Cancelled) | Indicates journal is removed. |
-| [Confirmed](#Confirmed) | Indicates event is definite. |
+| [Cancelled](#Cancelled) | The event is cancelled. |
+| [Confirmed](#Confirmed) | The event is confirmed. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [NotDefined](#NotDefined) | Value is not defined |
-| [Tentative](#Tentative) | Indicates event is tentative. |
+| [NotDefined](#NotDefined) | The status is not set. |
+| [Tentative](#Tentative) | The event is tentative. |
 ## Methods
 
 | Method | Description |
@@ -68,7 +68,7 @@ public static final int Cancelled
 ```
 
 
-Indicates journal is removed. or Indicates to-do was cancelled. or Indicates event was cancelled.
+The event is cancelled.
 
 ### Confirmed {#Confirmed}
 ```
@@ -76,7 +76,7 @@ public static final int Confirmed
 ```
 
 
-Indicates event is definite.
+The event is confirmed.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -90,7 +90,7 @@ public static final int NotDefined
 ```
 
 
-Value is not defined
+The status is not set.
 
 ### Tentative {#Tentative}
 ```
@@ -98,7 +98,7 @@ public static final int Tentative
 ```
 
 
-Indicates event is tentative.
+The event is tentative.
 
 ### Clone() {#Clone--}
 ```

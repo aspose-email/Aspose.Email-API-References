@@ -1,7 +1,7 @@
 ---
 title: MhtTemplateName.Contact
 second_title: Aspose.Email for Java API Reference
-description: Defines well known names of headers of Contact for Mhtml formatting.
+description: The names of the contact fields that can be rendered when a contact is saved to MHTML.
 type: docs
 weight: 10
 url: /java/com.aspose.email/mhttemplatename.contact/
@@ -13,7 +13,7 @@ java.lang.Object
 public static class MhtTemplateName.Contact
 ```
 
-Defines well known names of headers of Contact for Mhtml formatting.
+The names of the contact fields that can be rendered when a contact is saved to MHTML.
 ## Constructors
 
 | Constructor | Description |
@@ -25,10 +25,10 @@ Defines well known names of headers of Contact for Mhtml formatting.
 | --- | --- |
 | [ANNIVERSARY](#ANNIVERSARY) | Anniversary header. |
 | [BIRTHDAY](#BIRTHDAY) | Birthday header. |
-| [BUSINESS](#BUSINESS) | Business phone header. |
+| [BUSINESS](#BUSINESS) | The name of the business telephone field. |
 | [BUSINESS_ADDRESS](#BUSINESS-ADDRESS) | Business Address header. |
 | [BUSINESS_FAX](#BUSINESS-FAX) | Business Fax header. |
-| [BUSINESS_HOME_PAGE](#BUSINESS-HOME-PAGE) | BusinessHomePage header. |
+| [BUSINESS_HOME_PAGE](#BUSINESS-HOME-PAGE) | The name of the business web page field. |
 | [COMPANY](#COMPANY) | Company header. |
 | [DEPARTMENT](#DEPARTMENT) | Department header. |
 | [EMAIL](#EMAIL) | Email header. |
@@ -41,16 +41,16 @@ Defines well known names of headers of Contact for Mhtml formatting.
 | [FULL_NAME](#FULL-NAME) | Full Name header. |
 | [GENDER](#GENDER) | Gender header. |
 | [HOBBIES](#HOBBIES) | Hobbies header. |
-| [HOME](#HOME) | Home phone header. |
+| [HOME](#HOME) | The name of the home telephone field. |
 | [HOME_ADDRESS](#HOME-ADDRESS) | Home Address header. |
 | [JOB_TITLE](#JOB-TITLE) | Job Title header. |
 | [LAST_NAME](#LAST-NAME) | Last Name header. |
 | [MIDDLE_NAME](#MIDDLE-NAME) | Middle Name header. |
-| [MOBILE](#MOBILE) | Mobile phone header. |
+| [MOBILE](#MOBILE) | The name of the mobile telephone field. |
 | [OTHER_ADDRESS](#OTHER-ADDRESS) | Other Address header. |
-| [PERSONAL_HOME_PAGE](#PERSONAL-HOME-PAGE) | PersonalHomePage header. |
+| [PERSONAL_HOME_PAGE](#PERSONAL-HOME-PAGE) | The name of the personal web page field. |
 | [PROFESSION](#PROFESSION) | Profession header. |
-| [SPOUSE_PARTNER](#SPOUSE-PARTNER) | Spouse/Partner header. |
+| [SPOUSE_PARTNER](#SPOUSE-PARTNER) | The name of the spouse or partner field. |
 | [USER_FIELD_1](#USER-FIELD-1) | UserField1 header. |
 | [USER_FIELD_2](#USER-FIELD-2) | UserField2 header. |
 | [USER_FIELD_3](#USER-FIELD-3) | UserField3 header. |
@@ -96,7 +96,7 @@ public static final String BUSINESS
 ```
 
 
-Business phone header.
+The name of the business telephone field.
 
 ### BUSINESS_ADDRESS {#BUSINESS-ADDRESS}
 ```
@@ -120,7 +120,7 @@ public static final String BUSINESS_HOME_PAGE
 ```
 
 
-BusinessHomePage header.
+The name of the business web page field.
 
 ### COMPANY {#COMPANY}
 ```
@@ -224,7 +224,7 @@ public static final String HOME
 ```
 
 
-Home phone header.
+The name of the home telephone field.
 
 ### HOME_ADDRESS {#HOME-ADDRESS}
 ```
@@ -264,7 +264,7 @@ public static final String MOBILE
 ```
 
 
-Mobile phone header.
+The name of the mobile telephone field.
 
 ### OTHER_ADDRESS {#OTHER-ADDRESS}
 ```
@@ -280,7 +280,7 @@ public static final String PERSONAL_HOME_PAGE
 ```
 
 
-PersonalHomePage header.
+The name of the personal web page field.
 
 ### PROFESSION {#PROFESSION}
 ```
@@ -296,7 +296,7 @@ public static final String SPOUSE_PARTNER
 ```
 
 
-Spouse/Partner header.
+The name of the spouse or partner field.
 
 ### USER_FIELD_1 {#USER-FIELD-1}
 ```

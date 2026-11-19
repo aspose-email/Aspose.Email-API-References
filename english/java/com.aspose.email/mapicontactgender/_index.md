@@ -1,9 +1,9 @@
 ---
 title: MapiContactGender
 second_title: Aspose.Email for Java API Reference
-description: Gender of the contact
+description: Defines the gender of a contact.
 type: docs
-weight: 440
+weight: 443
 url: /java/com.aspose.email/mapicontactgender/
 ---
 
@@ -13,15 +13,15 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiContactGender extends System.Enum
 ```
 
-Gender of the contact
+Defines the gender of a contact.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Female](#Female) | The value that indicates that the gender is female. |
-| [Male](#Male) | The value that indicates that the gender is male. |
-| [Unspecified](#Unspecified) | The gender is not specified. |
+| [Female](#Female) | Female. |
+| [Male](#Male) | Male. |
+| [Unspecified](#Unspecified) | Not specified. |
 ## Methods
 
 | Method | Description |
@@ -73,7 +73,7 @@ public static final int Female
 ```
 
 
-The value that indicates that the gender is female.
+Female.
 
 ### Male {#Male}
 ```
@@ -81,7 +81,7 @@ public static final int Male
 ```
 
 
-The value that indicates that the gender is male.
+Male.
 
 ### Unspecified {#Unspecified}
 ```
@@ -89,7 +89,7 @@ public static final int Unspecified
 ```
 
 
-The gender is not specified.
+Not specified.
 
 ### Clone() {#Clone--}
 ```

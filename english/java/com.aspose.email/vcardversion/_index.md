@@ -1,9 +1,9 @@
 ---
 title: VCardVersion
 second_title: Aspose.Email for Java API Reference
-description: Enumerates vCard version
+description: Enumerates vCard version.
 type: docs
-weight: 760
+weight: 771
 url: /java/com.aspose.email/vcardversion/
 ---
 
@@ -13,14 +13,15 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class VCardVersion extends System.Enum
 ```
 
-Enumerates vCard version
+Enumerates vCard version.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [V21](#V21) | vCard version 2.1 (default) |
-| [V30](#V30) | vCard version 3.0 |
+| [V21](#V21) | VCard version 2.1 (default). |
+| [V30](#V30) | VCard version 3.0. |
+| [V40](#V40) | VCard version 4.0. |
 ## Methods
 
 | Method | Description |
@@ -72,7 +73,7 @@ public static final int V21
 ```
 
 
-vCard version 2.1 (default)
+VCard version 2.1 (default).
 
 ### V30 {#V30}
 ```
@@ -80,7 +81,15 @@ public static final int V30
 ```
 
 
-vCard version 3.0
+VCard version 3.0.
+
+### V40 {#V40}
+```
+public static final int V40
+```
+
+
+VCard version 4.0.
 
 ### Clone() {#Clone--}
 ```

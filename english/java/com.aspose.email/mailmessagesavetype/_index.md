@@ -1,9 +1,9 @@
 ---
 title: MailMessageSaveType
 second_title: Aspose.Email for Java API Reference
-description: Represents the mail message format.It can be in emlmsg or mhtml format.
+description: Defines the formats a message can be saved to.
 type: docs
-weight: 389
+weight: 392
 url: /java/com.aspose.email/mailmessagesavetype/
 ---
 
@@ -13,24 +13,24 @@ java.lang.Object
 public final class MailMessageSaveType
 ```
 
-Represents the mail message format.It can be in eml,msg or mhtml format.
+Defines the formats a message can be saved to. Pass one to [SaveOptions.createSaveOptions(MailMessageSaveType)](../../com.aspose.email/saveoptions\#createSaveOptions-MailMessageSaveType-) to get options for that format.
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object obj)](#equals-java.lang.Object-) | Equalses the specified o. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is the same format. |
 | [getClass()](#getClass--) |  |
-| [getEmlFormat()](#getEmlFormat--) | Gets the eml. |
-| [getEmlxFormat()](#getEmlxFormat--) | Gets the emlx. |
-| [getHtmlFormat()](#getHtmlFormat--) | Gets the Html. |
-| [getMHtmlFormat()](#getMHtmlFormat--) | Gets the MHT. |
-| [getOutlookMessageFormat()](#getOutlookMessageFormat--) | Gets the MSG. |
-| [getOutlookMessageFormatUnicode()](#getOutlookMessageFormatUnicode--) | Gets the MSG. |
-| [getOutlookTemplateFormat()](#getOutlookTemplateFormat--) | Gets the MSG. |
-| [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
+| [getEmlFormat()](#getEmlFormat--) | Gets the EML (MIME) format. |
+| [getEmlxFormat()](#getEmlxFormat--) | Gets the EMLX format of Apple Mail. |
+| [getHtmlFormat()](#getHtmlFormat--) | Gets the HTML format. |
+| [getMHtmlFormat()](#getMHtmlFormat--) | Gets the MHTML (web archive) format. |
+| [getOutlookMessageFormat()](#getOutlookMessageFormat--) | Gets the Outlook MSG format with ANSI strings. |
+| [getOutlookMessageFormatUnicode()](#getOutlookMessageFormatUnicode--) | Gets the Outlook MSG format with Unicode strings. |
+| [getOutlookTemplateFormat()](#getOutlookTemplateFormat--) | Gets the Outlook template (OFT) format. |
+| [hashCode()](#hashCode--) | Returns the hash code of the format. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Returns a String that represents the current Object. |
+| [toString()](#toString--) | Returns the name of the format. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -40,15 +40,15 @@ public boolean equals(Object obj)
 ```
 
 
-Equalses the specified o.
+Determines whether the specified object is the same format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | An object to compare |
+| obj | java.lang.Object | The object to compare with. |
 
 **Returns:**
-boolean - Returns true if objects are an equal, otherwise returns false.
+boolean -  true  if the formats are equal; otherwise,  false .
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -65,94 +65,80 @@ public static MailMessageSaveType getEmlFormat()
 ```
 
 
-Gets the eml.
-
-Value: The eml.
+Gets the EML (MIME) format.
 
 **Returns:**
-[MailMessageSaveType](../../com.aspose.email/mailmessagesavetype)
+[MailMessageSaveType](../../com.aspose.email/mailmessagesavetype) - The EML format.
 ### getEmlxFormat() {#getEmlxFormat--}
 ```
 public static MailMessageSaveType getEmlxFormat()
 ```
 
 
-Gets the emlx.
-
-Value: The emlx.
+Gets the EMLX format of Apple Mail.
 
 **Returns:**
-[MailMessageSaveType](../../com.aspose.email/mailmessagesavetype)
+[MailMessageSaveType](../../com.aspose.email/mailmessagesavetype) - The EMLX format.
 ### getHtmlFormat() {#getHtmlFormat--}
 ```
 public static MailMessageSaveType getHtmlFormat()
 ```
 
 
-Gets the Html.
-
-Value: The Html.
+Gets the HTML format.
 
 **Returns:**
-[MailMessageSaveType](../../com.aspose.email/mailmessagesavetype)
+[MailMessageSaveType](../../com.aspose.email/mailmessagesavetype) - The HTML format.
 ### getMHtmlFormat() {#getMHtmlFormat--}
 ```
 public static MailMessageSaveType getMHtmlFormat()
 ```
 
 
-Gets the MHT.
-
-Value: The MHT.
+Gets the MHTML (web archive) format.
 
 **Returns:**
-[MailMessageSaveType](../../com.aspose.email/mailmessagesavetype)
+[MailMessageSaveType](../../com.aspose.email/mailmessagesavetype) - The MHTML format.
 ### getOutlookMessageFormat() {#getOutlookMessageFormat--}
 ```
 public static MailMessageSaveType getOutlookMessageFormat()
 ```
 
 
-Gets the MSG.
-
-Value: The MSG.
+Gets the Outlook MSG format with ANSI strings.
 
 **Returns:**
-[MailMessageSaveType](../../com.aspose.email/mailmessagesavetype)
+[MailMessageSaveType](../../com.aspose.email/mailmessagesavetype) - The ANSI MSG format.
 ### getOutlookMessageFormatUnicode() {#getOutlookMessageFormatUnicode--}
 ```
 public static MailMessageSaveType getOutlookMessageFormatUnicode()
 ```
 
 
-Gets the MSG.
-
-Value: The MSG.
+Gets the Outlook MSG format with Unicode strings.
 
 **Returns:**
-[MailMessageSaveType](../../com.aspose.email/mailmessagesavetype)
+[MailMessageSaveType](../../com.aspose.email/mailmessagesavetype) - The Unicode MSG format.
 ### getOutlookTemplateFormat() {#getOutlookTemplateFormat--}
 ```
 public static MailMessageSaveType getOutlookTemplateFormat()
 ```
 
 
-Gets the MSG.
-
-Value: The MSG.
+Gets the Outlook template (OFT) format.
 
 **Returns:**
-[MailMessageSaveType](../../com.aspose.email/mailmessagesavetype)
+[MailMessageSaveType](../../com.aspose.email/mailmessagesavetype) - The OFT format.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
 ```
 
 
-Serves as a hash function for a particular type.
+Returns the hash code of the format.
 
 **Returns:**
-int - A hash code for the current Object.
+int - The hash code.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -175,10 +161,10 @@ public String toString()
 ```
 
 
-Returns a String that represents the current Object.
+Returns the name of the format.
 
 **Returns:**
-java.lang.String - A String that represents the current Object.
+java.lang.String - The name of the format.
 ### wait() {#wait--}
 ```
 public final void wait()

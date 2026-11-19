@@ -1,9 +1,9 @@
 ---
 title: MapiDistributionListMember
 second_title: Aspose.Email for Java API Reference
-description: Represents the members of the personal distribution list.
+description: A member of a personal distribution list.
 type: docs
-weight: 456
+weight: 459
 url: /java/com.aspose.email/mapidistributionlistmember/
 ---
 
@@ -13,33 +13,33 @@ java.lang.Object
 public final class MapiDistributionListMember
 ```
 
-Represents the members of the personal distribution list.
+A member of a personal distribution list.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MapiDistributionListMember(String displayName, String emailAddress)](#MapiDistributionListMember-java.lang.String-java.lang.String-) | Initializes a new instance of the [MapiDistributionListMember](../../com.aspose.email/mapidistributionlistmember) class. |
+| [MapiDistributionListMember(String displayName, String emailAddress)](#MapiDistributionListMember-java.lang.String-java.lang.String-) | Initializes a new instance of the [MapiDistributionListMember](../../com.aspose.email/mapidistributionlistmember) class with a name and an e-mail address. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAddressType()](#getAddressType--) | Gets or sets the recipient's e-mail address type. |
+| [getAddressType()](#getAddressType--) | Gets the type of the e-mail address, such as  SMTP . |
 | [getClass()](#getClass--) |  |
-| [getContactAddressType()](#getContactAddressType--) | Gets or sets the type of the address, when EntryId property contains a the EntryID of a Contact object. |
-| [getDisplayName()](#getDisplayName--) | Gets or sets the recipient's display name. |
-| [getEmailAddress()](#getEmailAddress--) | Gets or sets the recipient's e-mail address. |
-| [getEntryId()](#getEntryId--) | Gets or sets the EntryID of a member of a personal distribution list. |
-| [getEntryIdType()](#getEntryIdType--) | Gets or sets the type of EntryID. |
+| [getContactAddressType()](#getContactAddressType--) | Gets which address of the contact the member refers to, when \#getEntryId().getEntryId() points to a contact. |
+| [getDisplayName()](#getDisplayName--) | Gets the name shown for the member. |
+| [getEmailAddress()](#getEmailAddress--) | Gets the e-mail address of the member. |
+| [getEntryId()](#getEntryId--) | Gets the EntryID of the member: of a contact, of another list, or of a one-off address. |
+| [getEntryIdType()](#getEntryIdType--) | Gets what \#getEntryId().getEntryId() refers to. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAddressType(String value)](#setAddressType-java.lang.String-) | Gets or sets the recipient's e-mail address type. |
-| [setContactAddressType(int value)](#setContactAddressType-int-) | Gets or sets the type of the address, when EntryId property contains a the EntryID of a Contact object. |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Gets or sets the recipient's display name. |
-| [setEmailAddress(String value)](#setEmailAddress-java.lang.String-) | Gets or sets the recipient's e-mail address. |
-| [setEntryId(byte[] value)](#setEntryId-byte---) | Gets or sets the EntryID of a member of a personal distribution list. |
-| [setEntryIdType(int value)](#setEntryIdType-int-) | Gets or sets the type of EntryID. |
+| [setAddressType(String value)](#setAddressType-java.lang.String-) | Sets the type of the e-mail address, such as  SMTP . |
+| [setContactAddressType(int value)](#setContactAddressType-int-) | Sets which address of the contact the member refers to, when \#getEntryId().getEntryId() points to a contact. |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Sets the name shown for the member. |
+| [setEmailAddress(String value)](#setEmailAddress-java.lang.String-) | Sets the e-mail address of the member. |
+| [setEntryId(byte[] value)](#setEntryId-byte---) | Sets the EntryID of the member: of a contact, of another list, or of a one-off address. |
+| [setEntryIdType(int value)](#setEntryIdType-int-) | Sets what \#getEntryId().getEntryId() refers to. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -50,17 +50,15 @@ public MapiDistributionListMember(String displayName, String emailAddress)
 ```
 
 
-Initializes a new instance of the [MapiDistributionListMember](../../com.aspose.email/mapidistributionlistmember) class.
+Initializes a new instance of the [MapiDistributionListMember](../../com.aspose.email/mapidistributionlistmember) class with a name and an e-mail address.
+
+Outlook does not show a member whose  displayName  is  null  or empty.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| displayName | java.lang.String | The display name. |
-| emailAddress | java.lang.String | The email address.
-
---------------------
-
-If  displayName  is null or empty this element will not be displayed when you open this DistributionList in Outlook. |
+| displayName | java.lang.String | The name shown for the member. |
+| emailAddress | java.lang.String | The e-mail address. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -83,12 +81,10 @@ public final String getAddressType()
 ```
 
 
-Gets or sets the recipient's e-mail address type.
-
-Value: The type of the address.
+Gets the type of the e-mail address, such as  SMTP .
 
 **Returns:**
-java.lang.String
+java.lang.String - The address type.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -105,64 +101,52 @@ public final int getContactAddressType()
 ```
 
 
-Gets or sets the type of the address, when EntryId property contains a the EntryID of a Contact object.
-
-Value: The type of the address.
+Gets which address of the contact the member refers to, when \#getEntryId().getEntryId() points to a contact.
 
 **Returns:**
-int
+int - The address of the contact.
 ### getDisplayName() {#getDisplayName--}
 ```
 public final String getDisplayName()
 ```
 
 
-Gets or sets the recipient's display name.
+Gets the name shown for the member.
 
-Value: The display name.
-
---------------------
-
-If DisplayName value is null or empty this element will not be displayed when you open this DistributionList in Outlook.
+Outlook does not show a member whose display name is  null  or empty.
 
 **Returns:**
-java.lang.String
+java.lang.String - The display name.
 ### getEmailAddress() {#getEmailAddress--}
 ```
 public final String getEmailAddress()
 ```
 
 
-Gets or sets the recipient's e-mail address.
-
-Value: The email address.
+Gets the e-mail address of the member.
 
 **Returns:**
-java.lang.String
+java.lang.String - The e-mail address.
 ### getEntryId() {#getEntryId--}
 ```
 public final byte[] getEntryId()
 ```
 
 
-Gets or sets the EntryID of a member of a personal distribution list.
-
-Value: The entry id.
+Gets the EntryID of the member: of a contact, of another list, or of a one-off address.
 
 **Returns:**
-byte[]
+byte[] - The EntryID.
 ### getEntryIdType() {#getEntryIdType--}
 ```
 public final int getEntryIdType()
 ```
 
 
-Gets or sets the type of EntryID.
-
-Value: The type of the entry id.
+Gets what \#getEntryId().getEntryId() refers to.
 
 **Returns:**
-int
+int - The type of the EntryID.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -195,14 +179,12 @@ public final void setAddressType(String value)
 ```
 
 
-Gets or sets the recipient's e-mail address type.
-
-Value: The type of the address.
+Sets the type of the e-mail address, such as  SMTP .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The address type. |
 
 ### setContactAddressType(int value) {#setContactAddressType-int-}
 ```
@@ -210,14 +192,12 @@ public final void setContactAddressType(int value)
 ```
 
 
-Gets or sets the type of the address, when EntryId property contains a the EntryID of a Contact object.
-
-Value: The type of the address.
+Sets which address of the contact the member refers to, when \#getEntryId().getEntryId() points to a contact.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The address of the contact. |
 
 ### setDisplayName(String value) {#setDisplayName-java.lang.String-}
 ```
@@ -225,18 +205,14 @@ public final void setDisplayName(String value)
 ```
 
 
-Gets or sets the recipient's display name.
+Sets the name shown for the member.
 
-Value: The display name.
-
---------------------
-
-If DisplayName value is null or empty this element will not be displayed when you open this DistributionList in Outlook.
+Outlook does not show a member whose display name is  null  or empty.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The display name. |
 
 ### setEmailAddress(String value) {#setEmailAddress-java.lang.String-}
 ```
@@ -244,14 +220,12 @@ public final void setEmailAddress(String value)
 ```
 
 
-Gets or sets the recipient's e-mail address.
-
-Value: The email address.
+Sets the e-mail address of the member.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The e-mail address. |
 
 ### setEntryId(byte[] value) {#setEntryId-byte---}
 ```
@@ -259,14 +233,12 @@ public final void setEntryId(byte[] value)
 ```
 
 
-Gets or sets the EntryID of a member of a personal distribution list.
-
-Value: The entry id.
+Sets the EntryID of the member: of a contact, of another list, or of a one-off address.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | byte[] |  |
+| value | byte[] | The EntryID. |
 
 ### setEntryIdType(int value) {#setEntryIdType-int-}
 ```
@@ -274,14 +246,12 @@ public final void setEntryIdType(int value)
 ```
 
 
-Gets or sets the type of EntryID.
-
-Value: The type of the entry id.
+Sets what \#getEntryId().getEntryId() refers to.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The type of the EntryID. |
 
 ### toString() {#toString--}
 ```

@@ -1,9 +1,9 @@
 ---
 title: VCardGeo
 second_title: Aspose.Email for Java API Reference
-description: Represents a global positioning of vCard contact
+description: Represents a global positioning of vCard contact.
 type: docs
-weight: 741
+weight: 751
 url: /java/com.aspose.email/vcardgeo/
 ---
 
@@ -13,25 +13,25 @@ java.lang.Object
 public final class VCardGeo
 ```
 
-Represents a global positioning of vCard contact
+Represents a global positioning of vCard contact.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [VCardGeo()](#VCardGeo--) | Initializes a new instance of the [VCardGeo](../../com.aspose.email/vcardgeo) class |
+| [VCardGeo()](#VCardGeo--) | Initializes a new instance of the [VCardGeo](../../com.aspose.email/vcardgeo) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getLatitude()](#getLatitude--) | Gets or sets a latitude |
-| [getLongitude()](#getLongitude--) | Gets or sets a longitude |
+| [getLatitude()](#getLatitude--) | Gets a latitude. |
+| [getLongitude()](#getLongitude--) | Gets a longitude. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setLatitude(float value)](#setLatitude-float-) | Gets or sets a latitude |
-| [setLongitude(float value)](#setLongitude-float-) | Gets or sets a longitude |
+| [setLatitude(float value)](#setLatitude-float-) | Sets a latitude. |
+| [setLongitude(float value)](#setLongitude-float-) | Sets a longitude. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -42,7 +42,7 @@ public VCardGeo()
 ```
 
 
-Initializes a new instance of the [VCardGeo](../../com.aspose.email/vcardgeo) class
+Initializes a new instance of the [VCardGeo](../../com.aspose.email/vcardgeo) class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -75,7 +75,7 @@ public final float getLatitude()
 ```
 
 
-Gets or sets a latitude
+Gets a latitude.
 
 **Returns:**
 float
@@ -85,7 +85,7 @@ public final float getLongitude()
 ```
 
 
-Gets or sets a longitude
+Gets a longitude.
 
 **Returns:**
 float
@@ -121,7 +121,7 @@ public final void setLatitude(float value)
 ```
 
 
-Gets or sets a latitude
+Sets a latitude.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -134,7 +134,7 @@ public final void setLongitude(float value)
 ```
 
 
-Gets or sets a longitude
+Sets a longitude.
 
 **Parameters:**
 | Parameter | Type | Description |

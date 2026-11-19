@@ -3,7 +3,7 @@ title: ExchangeCalendarPermission
 second_title: Aspose.Email for Java API Reference
 description: Represents a permission on a calendar folder.
 type: docs
-weight: 194
+weight: 197
 url: /java/com.aspose.email/exchangecalendarpermission/
 ---
 

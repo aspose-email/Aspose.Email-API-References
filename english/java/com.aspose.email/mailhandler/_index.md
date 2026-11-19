@@ -15,8 +15,6 @@ public abstract static class MailStorageConverter.MailHandler extends System.Mul
 
 Represents the method that will handle an event that occurs after successfully reading a message from the Mbox and before adding it to Pst.
 
---------------------
-
 The handler can be used to any additional message changes before adding to the PST.
 ## Constructors
 
@@ -75,7 +73,7 @@ public final System.IAsyncResult beginInvoke(MailMessage message, System.AsyncCa
 | state | java.lang.Object |  |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult)
 ### combine(System.Delegate arg0, System.Delegate arg1) {#combine-com.aspose.ms.System.Delegate-com.aspose.ms.System.Delegate-}
 ```
 public static System.Delegate combine(System.Delegate arg0, System.Delegate arg1)

@@ -1,9 +1,9 @@
 ---
 title: SaveStatus
 second_title: Aspose.Email for Java API Reference
-description: Represents the status of saving the retrieved message.
+description: Defines how completely a damaged message could be saved.
 type: docs
-weight: 651
+weight: 656
 url: /java/com.aspose.email/savestatus/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class SaveStatus extends System.Enum
 ```
 
-Represents the status of saving the retrieved message.
+Defines how completely a damaged message could be saved.
 ## Fields
 
 | Field | Description |

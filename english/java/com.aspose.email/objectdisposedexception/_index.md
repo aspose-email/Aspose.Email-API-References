@@ -3,7 +3,7 @@ title: ObjectDisposedException
 second_title: Aspose.Email for Java API Reference
 description: Represents errors that occur when an operation canceled.
 type: docs
-weight: 567
+weight: 571
 url: /java/com.aspose.email/objectdisposedexception/
 ---
 
@@ -31,10 +31,10 @@ Represents errors that occur when an operation canceled.
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
 | [getClass()](#getClass--) |  |
-| [getErrorDetails()](#getErrorDetails--) | Gets extra information aboout error |
+| [getErrorDetails()](#getErrorDetails--) | Gets additional information about the error, if the operation provides any. |
 | [getInnerException()](#getInnerException--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
-| [getMessage()](#getMessage--) | Gets a message that describes the current exception. |
+| [getMessage()](#getMessage--) | Gets the message that describes the error. |
 | [getStackTrace()](#getStackTrace--) |  |
 | [getSuppressed()](#getSuppressed--) |  |
 | [getType()](#getType--) |  |
@@ -46,7 +46,7 @@ Represents errors that occur when an operation canceled.
 | [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
 | [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
 | [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [toString()](#toString--) | Returns a string that represents the current object. |
+| [toString()](#toString--) | Returns the type, the message and the stack trace of the exception. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -82,8 +82,8 @@ Initializes a new instance of the [ObjectDisposedException](../../com.aspose.ema
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | java.lang.String | Message format |
-| parameters | java.lang.Object[] | Format parameters |
+| format | java.lang.String | Message format. |
+| parameters | java.lang.Object[] | Format parameters. |
 
 ### ObjectDisposedException(String message, System.Exception innerException) {#ObjectDisposedException-java.lang.String-com.aspose.ms.System.Exception-}
 ```
@@ -97,7 +97,7 @@ Initializes a new instance of the [ObjectDisposedException](../../com.aspose.ema
 | Parameter | Type | Description |
 | --- | --- | --- |
 | message | java.lang.String | The error message that explains the reason for the exception. |
-| innerException | com.aspose.ms.System.Exception | The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. |
+| innerException | com.aspose.ms.System.Exception | The exception that is the cause of the current exception, or  null  if no inner exception is specified. |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```
@@ -163,7 +163,7 @@ public final Object getErrorDetails()
 ```
 
 
-Gets extra information aboout error
+Gets additional information about the error, if the operation provides any.
 
 **Returns:**
 java.lang.Object
@@ -193,7 +193,7 @@ public String getMessage()
 ```
 
 
-Gets a message that describes the current exception.
+Gets the message that describes the error.
 
 **Returns:**
 java.lang.String
@@ -321,10 +321,10 @@ public String toString()
 ```
 
 
-Returns a string that represents the current object.
+Returns the type, the message and the stack trace of the exception.
 
 **Returns:**
-java.lang.String - A string that represents the current object.
+java.lang.String - A string that represents the exception.
 ### wait() {#wait--}
 ```
 public final void wait()

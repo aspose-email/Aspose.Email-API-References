@@ -1,9 +1,9 @@
 ---
 title: MapiPropertyType
 second_title: Aspose.Email for Java API Reference
-description: Represents the data type of MapiProperty data.
+description: Defines the data types of MAPI properties the low-order 16 bits of a property tag.
 type: docs
-weight: 483
+weight: 486
 url: /java/com.aspose.email/mapipropertytype/
 ---
 
@@ -13,14 +13,14 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiPropertyType extends System.Enum
 ```
 
-Represents the data type of MapiProperty data.
+Defines the data types of MAPI properties: the low-order 16 bits of a property tag.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [None](#None) | No values are set. |
-| [PT_ACTIONS](#PT-ACTIONS) | PT\_ACTIONS |
+| [None](#None) | Not set. |
+| [PT_ACTIONS](#PT-ACTIONS) | The actions of a rule. |
 | [PT_BINARY](#PT-BINARY) | SBinary structure value, a counted byte array. |
 | [PT_BOOLEAN](#PT-BOOLEAN) | 16-bit Boolean value where zero equals FALSE and non-zero equals TRUE. |
 | [PT_CLSID](#PT-CLSID) | CLSID structure value. |
@@ -42,15 +42,15 @@ Represents the data type of MapiProperty data.
 | [PT_MV_STRING8](#PT-MV-STRING8) | A count field followed by that many PT\_STRING8 values. |
 | [PT_MV_SYSTIME](#PT-MV-SYSTIME) | A count field followed by that many PT\_SYSTIME values. |
 | [PT_MV_UNICODE](#PT-MV-UNICODE) | A count field followed by that many PT\_UNICODE values. |
-| [PT_MV_xxx](#PT-MV-xxx) | PT\_MV\_xxx |
+| [PT_MV_xxx](#PT-MV-xxx) | The flag that makes any type multi-valued, combined with that type. |
 | [PT_NULL](#PT-NULL) | Indicates no property value. |
 | [PT_OBJECT](#PT-OBJECT) | Pointer to an object that implements the IUnknown interface. |
-| [PT_SHORT](#PT-SHORT) | Signed 16-bit integer. |
-| [PT_SRESTRICTION](#PT-SRESTRICTION) | PT\_SRESTRICTION |
+| [PT_SHORT](#PT-SHORT) | A signed 16-bit integer. |
+| [PT_SRESTRICTION](#PT-SRESTRICTION) | A restriction: the criteria of a search. |
 | [PT_STRING8](#PT-STRING8) | Null-terminated 8-bit character string. |
 | [PT_SVREID](#PT-SVREID) | Variable size, a 16-bit (2-byte) count followed by a structure. |
 | [PT_SYSTIME](#PT-SYSTIME) | 64-bit integer data and time value in the form of a FILETIME structure. |
-| [PT_UNICODE](#PT-UNICODE) | PT\_UNICODE |
+| [PT_UNICODE](#PT-UNICODE) | A  null -terminated Unicode (UTF-16LE) string. |
 | [PT_UNSPECIFIED](#PT-UNSPECIFIED) | Indicates that the property type is unknown. |
 ## Methods
 
@@ -103,7 +103,7 @@ public static final int None
 ```
 
 
-No values are set.
+Not set.
 
 ### PT_ACTIONS {#PT-ACTIONS}
 ```
@@ -111,7 +111,7 @@ public static final int PT_ACTIONS
 ```
 
 
-PT\_ACTIONS
+The actions of a rule.
 
 ### PT_BINARY {#PT-BINARY}
 ```
@@ -287,7 +287,7 @@ public static final int PT_MV_xxx
 ```
 
 
-PT\_MV\_xxx
+The flag that makes any type multi-valued, combined with that type.
 
 ### PT_NULL {#PT-NULL}
 ```
@@ -311,7 +311,7 @@ public static final int PT_SHORT
 ```
 
 
-Signed 16-bit integer. This property type is the same as PT\_SHORT and the OLE type VT\_I2.
+A signed 16-bit integer. The same as  PT\_I2  and the OLE type  VT\_I2 .
 
 ### PT_SRESTRICTION {#PT-SRESTRICTION}
 ```
@@ -319,7 +319,7 @@ public static final int PT_SRESTRICTION
 ```
 
 
-PT\_SRESTRICTION
+A restriction: the criteria of a search.
 
 ### PT_STRING8 {#PT-STRING8}
 ```
@@ -351,7 +351,7 @@ public static final int PT_UNICODE
 ```
 
 
-PT\_UNICODE
+A  null -terminated Unicode (UTF-16LE) string.
 
 ### PT_UNSPECIFIED {#PT-UNSPECIFIED}
 ```

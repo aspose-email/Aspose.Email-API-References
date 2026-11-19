@@ -1,7 +1,7 @@
 ---
 title: AmpTimeago
 second_title: Aspose.Email for Java API Reference
-description: Provides fuzzy timestamps by formatting dates as X time ago
+description: Provides fuzzy timestamps by formatting dates as X time ago.
 type: docs
 weight: 27
 url: /java/com.aspose.email/amptimeago/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.email.AmpComponent](../../com.aspose.email/ampcomp
 public class AmpTimeago extends AmpComponent
 ```
 
-Provides fuzzy timestamps by formatting dates as "X time ago"
+Provides fuzzy timestamps by formatting dates as "X time ago".
 ## Constructors
 
 | Constructor | Description |
@@ -30,16 +30,16 @@ Provides fuzzy timestamps by formatting dates as "X time ago"
 | [getCutoff()](#getCutoff--) | Display the original date if time distance is older than cutoff (seconds). |
 | [getDateTime()](#getDateTime--) | A datetime. |
 | [getFallback()](#getFallback--) | A fallback is a convention that allows the element to communicate to the reader that the browser does not support the element. |
-| [getLocale()](#getLocale--) | By default, the local is set to en; however, you can specify other locales. |
+| [getLocale()](#getLocale--) | By default, the locale is set to en; however, you can specify other locales. |
 | [getPlaceholder()](#getPlaceholder--) | The element marked with the placeholder attribute acts as a placeholder for the parent AMP element. |
-| [getRequiredScript()](#getRequiredScript--) | Required script that muct be added to head section. |
+| [getRequiredScript()](#getRequiredScript--) | Required script that must be added to head section. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCutoff(int value)](#setCutoff-int-) | Display the original date if time distance is older than cutoff (seconds). |
 | [setDateTime(Date value)](#setDateTime-java.util.Date-) | A datetime. |
 | [setFallback(String value)](#setFallback-java.lang.String-) | A fallback is a convention that allows the element to communicate to the reader that the browser does not support the element. |
-| [setLocale(String value)](#setLocale-java.lang.String-) | By default, the local is set to en; however, you can specify other locales. |
+| [setLocale(String value)](#setLocale-java.lang.String-) | By default, the locale is set to en; however, you can specify other locales. |
 | [setPlaceholder(AmpComponent value)](#setPlaceholder-com.aspose.email.AmpComponent-) | The element marked with the placeholder attribute acts as a placeholder for the parent AMP element. |
 | [toAmpHtml()](#toAmpHtml--) | Represents amp html version of component. |
 | [toHtml()](#toHtml--) | Represents html version of component. |
@@ -58,7 +58,7 @@ Create instance of AmpTimeago.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dateTime | java.util.Date |  |
+| dateTime | java.util.Date | AMP Date to initialize component with |
 
 ### AmpTimeago(Date dateTime, int width, int height) {#AmpTimeago-java.util.Date-int-int-}
 ```
@@ -71,9 +71,9 @@ Create instance of AmpTimeago.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dateTime | java.util.Date |  |
-| width | int |  |
-| height | int |  |
+| dateTime | java.util.Date | AMP Date to initialize component with |
+| width | int | Amp component width |
+| height | int | Amp component height |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -99,7 +99,7 @@ public final AmpAttributes getAttributes()
 AMP provides a set of common attributes that are extended to many AMP components.
 
 **Returns:**
-[AmpAttributes](../../com.aspose.email/ampattributes)
+[AmpAttributes](../../com.aspose.email/ampattributes) - The common AMP attributes of the component.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -146,7 +146,10 @@ public final String getLocale()
 ```
 
 
-By default, the local is set to en; however, you can specify other locales. See full list of supported locales https://amp.dev/documentation/components/amp-timeago/?format=email
+By default, the locale is set to en; however, you can specify other locales. See full list of supported locales: [amp-timeago documentation][]
+
+
+[amp-timeago documentation]: https://amp.dev/documentation/components/amp-timeago/?format=email
 
 **Returns:**
 java.lang.String
@@ -166,7 +169,7 @@ public String getRequiredScript()
 ```
 
 
-Required script that muct be added to head section.
+Required script that must be added to head section.
 
 **Returns:**
 java.lang.String
@@ -241,7 +244,10 @@ public final void setLocale(String value)
 ```
 
 
-By default, the local is set to en; however, you can specify other locales. See full list of supported locales https://amp.dev/documentation/components/amp-timeago/?format=email
+By default, the locale is set to en; however, you can specify other locales. See full list of supported locales: [amp-timeago documentation][]
+
+
+[amp-timeago documentation]: https://amp.dev/documentation/components/amp-timeago/?format=email
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -270,7 +276,7 @@ public String toAmpHtml()
 Represents amp html version of component.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toHtml() {#toHtml--}
 ```
 public String toHtml()
@@ -280,7 +286,7 @@ public String toHtml()
 Represents html version of component.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toString() {#toString--}
 ```
 public String toString()

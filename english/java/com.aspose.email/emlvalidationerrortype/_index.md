@@ -1,9 +1,9 @@
 ---
 title: EmlValidationErrorType
 second_title: Aspose.Email for Java API Reference
-description: Enumerates the types of the eml validation errors.
+description: Defines the types of errors in the MIME structure of a message.
 type: docs
-weight: 176
+weight: 179
 url: /java/com.aspose.email/emlvalidationerrortype/
 ---
 
@@ -13,15 +13,15 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class EmlValidationErrorType extends System.Enum
 ```
 
-Enumerates the types of the eml validation errors.
+Defines the types of errors in the MIME structure of a message.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [EmailAddressError](#EmailAddressError) | Indicates that email address is invalid. |
+| [EmailAddressError](#EmailAddressError) | An e-mail address is not valid. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [MessageStructureError](#MessageStructureError) | Indicates that the message structure is incorrect. |
-| [TransferEncodingError](#TransferEncodingError) | Indicates that message contains unexpected unencoded non-ASCII data. |
+| [MessageStructureError](#MessageStructureError) | The structure of the message is not valid. |
+| [TransferEncodingError](#TransferEncodingError) | The message contains non-ASCII data that is not encoded. |
 ## Methods
 
 | Method | Description |
@@ -67,7 +67,7 @@ public static final int EmailAddressError
 ```
 
 
-Indicates that email address is invalid.
+An e-mail address is not valid.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -81,7 +81,7 @@ public static final int MessageStructureError
 ```
 
 
-Indicates that the message structure is incorrect.
+The structure of the message is not valid.
 
 ### TransferEncodingError {#TransferEncodingError}
 ```
@@ -89,7 +89,7 @@ public static final int TransferEncodingError
 ```
 
 
-Indicates that message contains unexpected unencoded non-ASCII data.
+The message contains non-ASCII data that is not encoded.
 
 ### Clone() {#Clone--}
 ```

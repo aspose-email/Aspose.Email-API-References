@@ -1,9 +1,9 @@
 ---
 title: MhtTemplateName
 second_title: Aspose.Email for Java API Reference
-description: Defines well known names of headers for Mhtml formatting.
+description: The names of the headers that can be rendered when a message is saved to HTML or MHTML.
 type: docs
-weight: 542
+weight: 545
 url: /java/com.aspose.email/mhttemplatename/
 ---
 
@@ -13,7 +13,9 @@ java.lang.Object
 public class MhtTemplateName
 ```
 
-Defines well known names of headers for Mhtml formatting.
+The names of the headers that can be rendered when a message is saved to HTML or MHTML.
+
+Use the names as keys of [HeadersFormattingOptions.getFormatTemplates()](../../com.aspose.email/headersformattingoptions\#getFormatTemplates--) to change how a header is written, or add them to [HeadersFormattingOptions.getRenderingHeaders()](../../com.aspose.email/headersformattingoptions\#getRenderingHeaders--) to choose which headers are written. The names of contact and task fields are in MhtTemplateName.Contact and MhtTemplateName.Task.
 ## Constructors
 
 | Constructor | Description |
@@ -23,27 +25,27 @@ Defines well known names of headers for Mhtml formatting.
 
 | Field | Description |
 | --- | --- |
-| [ATTACHMENTS](#ATTACHMENTS) | Attachments header. |
-| [BCC](#BCC) | Bcc header. |
-| [CATEGORIES](#CATEGORIES) | Categories header. |
-| [CC](#CC) | Cc header. |
-| [DATE_TIME](#DATE-TIME) | DateTime header. |
-| [END](#END) | End header. |
-| [FROM](#FROM) | From header. |
-| [IMPORTANCE](#IMPORTANCE) | Importance header. |
-| [LOCATION](#LOCATION) | Location header. |
-| [OPTIONAL_ATTENDEES](#OPTIONAL-ATTENDEES) | OptionalAttendees header. |
-| [ORGANIZER](#ORGANIZER) | Organizer header. |
-| [PAGE_HEADER](#PAGE-HEADER) | PageHeader header. |
-| [RECURRENCE](#RECURRENCE) | Recurrence header. |
-| [RECURRENCE_PATTERN](#RECURRENCE-PATTERN) | RecurrencePattern header. |
-| [REQUIRED_ATTENDEES](#REQUIRED-ATTENDEES) | RequiredAttendees header. |
-| [SENT](#SENT) | Sent header. |
-| [SHOW_TIME_AS](#SHOW-TIME-AS) | ShowTimeAs header. |
-| [START](#START) | Start header. |
-| [SUBJECT](#SUBJECT) | Subject header. |
-| [TAB_FIELD](#TAB-FIELD) | This name used for indent in multiline header. |
-| [TO](#TO) | From header. |
+| [ATTACHMENTS](#ATTACHMENTS) | The name of the header with the list of attachments. |
+| [BCC](#BCC) | The name of the header with the BCC recipients. |
+| [CATEGORIES](#CATEGORIES) | The name of the header with the categories. |
+| [CC](#CC) | The name of the header with the CC recipients. |
+| [DATE_TIME](#DATE-TIME) | The name of the header with the date and time. |
+| [END](#END) | The name of the header with the end of an event. |
+| [FROM](#FROM) | The name of the header with the author. |
+| [IMPORTANCE](#IMPORTANCE) | The name of the header with the importance. |
+| [LOCATION](#LOCATION) | The name of the header with the location of an event. |
+| [OPTIONAL_ATTENDEES](#OPTIONAL-ATTENDEES) | The name of the header with the optional attendees of an event. |
+| [ORGANIZER](#ORGANIZER) | The name of the header with the organizer of an event. |
+| [PAGE_HEADER](#PAGE-HEADER) | The name of the header with the page header. |
+| [RECURRENCE](#RECURRENCE) | The name of the header with the recurrence of an event. |
+| [RECURRENCE_PATTERN](#RECURRENCE-PATTERN) | The name of the header with the recurrence pattern of an event. |
+| [REQUIRED_ATTENDEES](#REQUIRED-ATTENDEES) | The name of the header with the required attendees of an event. |
+| [SENT](#SENT) | The name of the header with the date sent. |
+| [SHOW_TIME_AS](#SHOW-TIME-AS) | The name of the header with the busy status of an event. |
+| [START](#START) | The name of the header with the start of an event. |
+| [SUBJECT](#SUBJECT) | The name of the header with the subject. |
+| [TAB_FIELD](#TAB-FIELD) | The name of the template used to indent the continuation lines of a multi-line header. |
+| [TO](#TO) | The name of the header with the To recipients. |
 ## Methods
 
 | Method | Description |
@@ -69,7 +71,7 @@ public static final String ATTACHMENTS
 ```
 
 
-Attachments header.
+The name of the header with the list of attachments.
 
 ### BCC {#BCC}
 ```
@@ -77,7 +79,7 @@ public static final String BCC
 ```
 
 
-Bcc header.
+The name of the header with the BCC recipients.
 
 ### CATEGORIES {#CATEGORIES}
 ```
@@ -85,7 +87,7 @@ public static final String CATEGORIES
 ```
 
 
-Categories header.
+The name of the header with the categories.
 
 ### CC {#CC}
 ```
@@ -93,7 +95,7 @@ public static final String CC
 ```
 
 
-Cc header.
+The name of the header with the CC recipients.
 
 ### DATE_TIME {#DATE-TIME}
 ```
@@ -101,7 +103,7 @@ public static final String DATE_TIME
 ```
 
 
-DateTime header.
+The name of the header with the date and time.
 
 ### END {#END}
 ```
@@ -109,7 +111,7 @@ public static final String END
 ```
 
 
-End header.
+The name of the header with the end of an event.
 
 ### FROM {#FROM}
 ```
@@ -117,7 +119,7 @@ public static final String FROM
 ```
 
 
-From header.
+The name of the header with the author.
 
 ### IMPORTANCE {#IMPORTANCE}
 ```
@@ -125,7 +127,7 @@ public static final String IMPORTANCE
 ```
 
 
-Importance header.
+The name of the header with the importance.
 
 ### LOCATION {#LOCATION}
 ```
@@ -133,7 +135,7 @@ public static final String LOCATION
 ```
 
 
-Location header.
+The name of the header with the location of an event.
 
 ### OPTIONAL_ATTENDEES {#OPTIONAL-ATTENDEES}
 ```
@@ -141,7 +143,7 @@ public static final String OPTIONAL_ATTENDEES
 ```
 
 
-OptionalAttendees header.
+The name of the header with the optional attendees of an event.
 
 ### ORGANIZER {#ORGANIZER}
 ```
@@ -149,7 +151,7 @@ public static final String ORGANIZER
 ```
 
 
-Organizer header.
+The name of the header with the organizer of an event.
 
 ### PAGE_HEADER {#PAGE-HEADER}
 ```
@@ -157,7 +159,7 @@ public static final String PAGE_HEADER
 ```
 
 
-PageHeader header.
+The name of the header with the page header.
 
 ### RECURRENCE {#RECURRENCE}
 ```
@@ -165,7 +167,7 @@ public static final String RECURRENCE
 ```
 
 
-Recurrence header.
+The name of the header with the recurrence of an event.
 
 ### RECURRENCE_PATTERN {#RECURRENCE-PATTERN}
 ```
@@ -173,7 +175,7 @@ public static final String RECURRENCE_PATTERN
 ```
 
 
-RecurrencePattern header.
+The name of the header with the recurrence pattern of an event.
 
 ### REQUIRED_ATTENDEES {#REQUIRED-ATTENDEES}
 ```
@@ -181,7 +183,7 @@ public static final String REQUIRED_ATTENDEES
 ```
 
 
-RequiredAttendees header.
+The name of the header with the required attendees of an event.
 
 ### SENT {#SENT}
 ```
@@ -189,7 +191,7 @@ public static final String SENT
 ```
 
 
-Sent header.
+The name of the header with the date sent.
 
 ### SHOW_TIME_AS {#SHOW-TIME-AS}
 ```
@@ -197,7 +199,7 @@ public static final String SHOW_TIME_AS
 ```
 
 
-ShowTimeAs header.
+The name of the header with the busy status of an event.
 
 ### START {#START}
 ```
@@ -205,7 +207,7 @@ public static final String START
 ```
 
 
-Start header.
+The name of the header with the start of an event.
 
 ### SUBJECT {#SUBJECT}
 ```
@@ -213,7 +215,7 @@ public static final String SUBJECT
 ```
 
 
-Subject header.
+The name of the header with the subject.
 
 ### TAB_FIELD {#TAB-FIELD}
 ```
@@ -221,7 +223,7 @@ public static final String TAB_FIELD
 ```
 
 
-This name used for indent in multiline header.
+The name of the template used to indent the continuation lines of a multi-line header.
 
 ### TO {#TO}
 ```
@@ -229,7 +231,7 @@ public static final String TO
 ```
 
 
-From header.
+The name of the header with the To recipients.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

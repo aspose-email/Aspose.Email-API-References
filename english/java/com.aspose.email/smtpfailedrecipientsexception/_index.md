@@ -3,7 +3,7 @@ title: SmtpFailedRecipientsException
 second_title: Aspose.Email for Java API Reference
 description: Summary description for SmtpFailedRecipientsException.
 type: docs
-weight: 678
+weight: 683
 url: /java/com.aspose.email/smtpfailedrecipientsexception/
 ---
 
@@ -31,15 +31,15 @@ Summary description for SmtpFailedRecipientsException.
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
 | [getClass()](#getClass--) |  |
-| [getErrorDetails()](#getErrorDetails--) | Gets extra information aboout error |
+| [getErrorDetails()](#getErrorDetails--) | Gets additional information about the error, if the operation provides any. |
 | [getFailedRecipient()](#getFailedRecipient--) | Failed recipient |
 | [getInnerException()](#getInnerException--) |  |
 | [getInnerExceptions()](#getInnerExceptions--) | Array of inner exceptions |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
-| [getMessage()](#getMessage--) | Gets a message that describes the current exception. |
-| [getOperationDetails()](#getOperationDetails--) | Gets extra information aboout error |
+| [getMessage()](#getMessage--) | Gets the message that describes the error. |
+| [getOperationDetails()](#getOperationDetails--) | Gets the result of the operation: the messages that were sent and the messages that failed, with their errors. |
 | [getStackTrace()](#getStackTrace--) |  |
-| [getStatusCode()](#getStatusCode--) | Smtp status code |
+| [getStatusCode()](#getStatusCode--) | Gets the SMTP status code returned by the server. |
 | [getSuppressed()](#getSuppressed--) |  |
 | [getType()](#getType--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -50,8 +50,8 @@ Summary description for SmtpFailedRecipientsException.
 | [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
 | [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
 | [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [setStatusCode(int value)](#setStatusCode-int-) | Smtp status code |
-| [toString()](#toString--) | Returns a string that represents the current object. |
+| [setStatusCode(int value)](#setStatusCode-int-) | Sets the SMTP status code returned by the server. |
+| [toString()](#toString--) | Returns the type, the message and the stack trace of the exception. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -168,7 +168,7 @@ public final Object getErrorDetails()
 ```
 
 
-Gets extra information aboout error
+Gets additional information about the error, if the operation provides any.
 
 **Returns:**
 java.lang.Object
@@ -218,7 +218,7 @@ public String getMessage()
 ```
 
 
-Gets a message that describes the current exception.
+Gets the message that describes the error.
 
 **Returns:**
 java.lang.String
@@ -228,7 +228,7 @@ public final SendMessagesResult getOperationDetails()
 ```
 
 
-Gets extra information aboout error
+Gets the result of the operation: the messages that were sent and the messages that failed, with their errors.
 
 **Returns:**
 [SendMessagesResult](../../com.aspose.email/sendmessagesresult)
@@ -248,7 +248,7 @@ public final int getStatusCode()
 ```
 
 
-Smtp status code
+Gets the SMTP status code returned by the server.
 
 **Returns:**
 int
@@ -366,7 +366,7 @@ public final void setStatusCode(int value)
 ```
 
 
-Smtp status code
+Sets the SMTP status code returned by the server.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -379,10 +379,10 @@ public String toString()
 ```
 
 
-Returns a string that represents the current object.
+Returns the type, the message and the stack trace of the exception.
 
 **Returns:**
-java.lang.String - A string that represents the current object.
+java.lang.String - A string that represents the exception.
 ### wait() {#wait--}
 ```
 public final void wait()

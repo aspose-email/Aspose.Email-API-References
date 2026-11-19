@@ -1,9 +1,9 @@
 ---
 title: StorageProcessedEventArgs
 second_title: Aspose.Email for Java API Reference
-description: Provides data for the  event
+description: Provides data for the  event.
 type: docs
-weight: 689
+weight: 694
 url: /java/com.aspose.email/storageprocessedeventargs/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.EventArgs
 public class StorageProcessedEventArgs extends System.EventArgs
 ```
 
-Provides data for the [PersonalStorage.StorageProcessedDelegate](../../com.aspose.email/personalstorage\#StorageProcessedDelegate) event
+Provides data for the [PersonalStorage.StorageProcessed](../../com.aspose.email/personalstorage\#StorageProcessed) event.
 ## Fields
 
 | Field | Description |
@@ -24,9 +24,9 @@ Provides data for the [PersonalStorage.StorageProcessedDelegate](../../com.aspos
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getChunk()](#getChunk--) | Gets the pst that represents the chunk. |
+| [getChunk()](#getChunk--) | Gets the PST part that has been created while splitting. |
 | [getClass()](#getClass--) |  |
-| [getFileName()](#getFileName--) | Gets the name of the pst file, that represents the chunk. |
+| [getFileName()](#getFileName--) | Gets the name of the PST file that has been processed. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -61,12 +61,10 @@ public final PersonalStorage getChunk()
 ```
 
 
-Gets the pst that represents the chunk.
-
-Value: The chunk.
+Gets the PST part that has been created while splitting.
 
 **Returns:**
-[PersonalStorage](../../com.aspose.email/personalstorage)
+[PersonalStorage](../../com.aspose.email/personalstorage) - The PST part.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -83,12 +81,10 @@ public final String getFileName()
 ```
 
 
-Gets the name of the pst file, that represents the chunk.
-
-Value: The name of the file.
+Gets the name of the PST file that has been processed.
 
 **Returns:**
-java.lang.String
+java.lang.String - The name of the file.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

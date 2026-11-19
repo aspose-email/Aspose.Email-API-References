@@ -1,7 +1,7 @@
 ---
 title: Appointment
 second_title: Aspose.Email for Java API Reference
-description: Represents a calendar to an e-mail.
+description: Represents a calendar event such as a meeting or an appointment that can be read from and saved to iCalendar ICS or Outlook MSG or sent by email as a meeting request.
 type: docs
 weight: 33
 url: /java/com.aspose.email/appointment/
@@ -13,133 +13,138 @@ java.lang.Object
 public class Appointment
 ```
 
-Represents a calendar to an e-mail.
+Represents a calendar event, such as a meeting or an appointment, that can be read from and saved to iCalendar (ICS) or Outlook MSG, or sent by email as a meeting request.
 
---------------------
+Use \#load(String).load(String) to read an event from an .ics file or stream and \#save(String).save(String) to write it. To send a meeting request, add the view returned by \#requestApointment().requestApointment() to a [MailMessage](../../com.aspose.email/mailmessage), or call \#toMailMessage().toMailMessage().
 
-> This example demonstrates how to add a calendar to an E-Mail message.
-> 
-> [Java]
-> 
-> ```
-> MailMessage msg = new MailMessage();
-> 
->      //attendees for the event
->      MailAddressCollection attendees = new MailAddressCollection();
->      attendees.add(new MailAddress("person1@domain.com"));
->      attendees.add(new MailAddress("person2@domain.com"));
->      attendees.add(new MailAddress("person3@domain.com"));
-> 
->      //create appointment
->      Appointment app = new Appointment("Room 112",
->           new Date(2006,7,17,13,0,0), new Date(2006,7,17,14,0,0),
->           new MailAddress("somebody@domain.com"),
->           attendees );
->      app.setSummary("Release Meetting");
->      app.setDescription("Discuss for the next release");
-> 
->      //add calendar to the message
->      msg.addAlternateView(app.requestApointment());
-> ```
+This example demonstrates how to add a calendar to an E-Mail message.
+
+```
+
+ MailMessage msg = new MailMessage();
+
+ //attendees for the event
+ MailAddressCollection attendees = new MailAddressCollection();
+ attendees.addMailAddress(new MailAddress("person1@domain.com"));
+ attendees.addMailAddress(new MailAddress("person2@domain.com"));
+ attendees.addMailAddress(new MailAddress("person3@domain.com"));
+
+ //create appointment
+ java.util.Date startDate = new java.util.GregorianCalendar(2006, java.util.Calendar.JULY, 17, 13, 0, 0).getTime();
+ java.util.Date endDate = new java.util.GregorianCalendar(2006, java.util.Calendar.JULY, 17, 14, 0, 0).getTime();
+ Appointment app = new Appointment("Room 112", startDate, endDate,
+         new MailAddress("somebody@domain.com"), attendees);
+ app.setSummary("Release Meeting");
+ app.setDescription("Discuss for the next release");
+
+ //add calendar to the message
+ msg.addAlternateView(app.requestApointment());
+
+ //send the email message
+ SmtpClient smtp = new SmtpClient("smtp.server.com", 25, "user", "password");
+ smtp.send(msg);
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [Appointment(String location, Date startDate, Date endDate, MailAddress organizer, MailAddressCollection attendees)](#Appointment-java.lang.String-java.util.Date-java.util.Date-com.aspose.email.MailAddress-com.aspose.email.MailAddressCollection-) | Initialize a new instance of the [Appointment](../../com.aspose.email/appointment) class. |
-| [Appointment(String location, String summary, String description, Date startDate, Date endDate, MailAddress organizer, MailAddressCollection attendees)](#Appointment-java.lang.String-java.lang.String-java.lang.String-java.util.Date-java.util.Date-com.aspose.email.MailAddress-com.aspose.email.MailAddressCollection-) | Initialize a new instance of the [Appointment](../../com.aspose.email/appointment) class. |
-| [Appointment(String location, String summary, String description, Date startDate, Date endDate, MailAddress organizer, MailAddressCollection attendees, String uid)](#Appointment-java.lang.String-java.lang.String-java.lang.String-java.util.Date-java.util.Date-com.aspose.email.MailAddress-com.aspose.email.MailAddressCollection-java.lang.String-) | Initialize a new instance of the [Appointment](../../com.aspose.email/appointment) class. |
-| [Appointment(String location, String summary, String description, Date startDate, Date endDate, MailAddress organizer, MailAddressCollection attendees, RecurrencePattern recurrencePattern)](#Appointment-java.lang.String-java.lang.String-java.lang.String-java.util.Date-java.util.Date-com.aspose.email.MailAddress-com.aspose.email.MailAddressCollection-com.aspose.email.RecurrencePattern-) | Initialize a new instance of the [Appointment](../../com.aspose.email/appointment) class. |
-| [Appointment(String location, String summary, String description, Date startDate, Date endDate, MailAddress organizer, MailAddressCollection attendees, String uid, RecurrencePattern recurrencePattern)](#Appointment-java.lang.String-java.lang.String-java.lang.String-java.util.Date-java.util.Date-com.aspose.email.MailAddress-com.aspose.email.MailAddressCollection-java.lang.String-com.aspose.email.RecurrencePattern-) | Initialize a new instance of the [Appointment](../../com.aspose.email/appointment) class. |
+| [Appointment(String location, Date startDate, Date endDate, MailAddress organizer, MailAddressCollection attendees)](#Appointment-java.lang.String-java.util.Date-java.util.Date-com.aspose.email.MailAddress-com.aspose.email.MailAddressCollection-) | Initializes a new instance of the [Appointment](../../com.aspose.email/appointment) class with the location, time, organizer and attendees of the event. |
+| [Appointment(String location, String summary, String description, Date startDate, Date endDate, MailAddress organizer, MailAddressCollection attendees)](#Appointment-java.lang.String-java.lang.String-java.lang.String-java.util.Date-java.util.Date-com.aspose.email.MailAddress-com.aspose.email.MailAddressCollection-) | Initializes a new instance of the [Appointment](../../com.aspose.email/appointment) class with the location, summary, description, time, organizer and attendees of the event. |
+| [Appointment(String location, String summary, String description, Date startDate, Date endDate, MailAddress organizer, MailAddressCollection attendees, String uid)](#Appointment-java.lang.String-java.lang.String-java.lang.String-java.util.Date-java.util.Date-com.aspose.email.MailAddress-com.aspose.email.MailAddressCollection-java.lang.String-) | Initializes a new instance of the [Appointment](../../com.aspose.email/appointment) class with an explicit unique identifier. |
+| [Appointment(String location, String summary, String description, Date startDate, Date endDate, MailAddress organizer, MailAddressCollection attendees, RecurrencePattern recurrencePattern)](#Appointment-java.lang.String-java.lang.String-java.lang.String-java.util.Date-java.util.Date-com.aspose.email.MailAddress-com.aspose.email.MailAddressCollection-com.aspose.email.RecurrencePattern-) | Initializes a new instance of the [Appointment](../../com.aspose.email/appointment) class for a recurring event. |
+| [Appointment(String location, String summary, String description, Date startDate, Date endDate, MailAddress organizer, MailAddressCollection attendees, String uid, RecurrencePattern recurrencePattern)](#Appointment-java.lang.String-java.lang.String-java.lang.String-java.util.Date-java.util.Date-com.aspose.email.MailAddress-com.aspose.email.MailAddressCollection-java.lang.String-com.aspose.email.RecurrencePattern-) | Initializes a new instance of the [Appointment](../../com.aspose.email/appointment) class for a recurring event with an explicit unique identifier. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [cancelAppointment()](#cancelAppointment--) | Cancels the appointment. |
-| [cancelAppointment(int seqId)](#cancelAppointment-int-) | Cancels the appointment. |
+| [cancelAppointment()](#cancelAppointment--) | Creates a cancellation of this meeting (iCalendar METHOD:CANCEL) to send to its attendees. |
+| [cancelAppointment(int seqId)](#cancelAppointment-int-) | Creates a cancellation of this meeting (iCalendar METHOD:CANCEL) with the specified sequence number. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAppointmentClass()](#getAppointmentClass--) | Specifies the access classification for the appointment. |
-| [getAppointmentHtml()](#getAppointmentHtml--) | Gets the calendar HTML. |
-| [getAppointmentText()](#getAppointmentText--) | Gets the calendar text. |
-| [getAppointmentText(AppointmentFormattingOptions formattingOptions)](#getAppointmentText-com.aspose.email.AppointmentFormattingOptions-) | Gets the calendar text. |
-| [getAttachments()](#getAttachments--) | Gets the collection of attachments of appointment. |
-| [getAttendees()](#getAttendees--) | Gets or sets the attendees. |
+| [getAppointmentHtml()](#getAppointmentHtml--) | Returns the details of the appointment as HTML. |
+| [getAppointmentText()](#getAppointmentText--) | Returns the details of the appointment as plain text. |
+| [getAppointmentText(AppointmentFormattingOptions formattingOptions)](#getAppointmentText-com.aspose.email.AppointmentFormattingOptions-) | Returns the details of the appointment, formatted with the specified templates. |
+| [getAttachments()](#getAttachments--) | Gets the files attached to the event. |
+| [getAttendees()](#getAttendees--) | Gets the attendees of the event, except the optional ones, which are in \#getOptionalAttendees().getOptionalAttendees(). |
 | [getClass()](#getClass--) |  |
-| [getCreatedDate()](#getCreatedDate--) | Gets or sets the date and time that calendar information was created. |
-| [getDateTimeStamp()](#getDateTimeStamp--) | Gets or sets date/time that the instance of the iCalendar object was created.. |
-| [getDescription()](#getDescription--) | Gets or sets the description. |
-| [getEndDate()](#getEndDate--) | Gets or sets the end date. |
-| [getEndTimeZone()](#getEndTimeZone--) | End time zone |
-| [getFlags()](#getFlags--) | Gets or sets appointment flags. |
-| [getHtmlDescription()](#getHtmlDescription--) | Gets or sets html representation of description. |
-| [getLastModifiedDate()](#getLastModifiedDate--) | Gets or sets the date and time that calendar information was last revised. |
-| [getLocation()](#getLocation--) | Gets or sets the location. |
-| [getMethodType()](#getMethodType--) | Gets or sets the iCalendar object method type associated with the calendar object. |
-| [getMicrosoftBusyStatus()](#getMicrosoftBusyStatus--) | Specifies the BUSY status of an appointment. |
-| [getMicrosoftImportance()](#getMicrosoftImportance--) | Specifies the importance of an appointment. |
-| [getMicrosoftIntendedStatus()](#getMicrosoftIntendedStatus--) | Specifies the INTENDED status of an appointment. |
-| [getOptionalAttendees()](#getOptionalAttendees--) | Gets the optional attendees. |
-| [getOrganizer()](#getOrganizer--) | Gets or sets the organizer. |
-| [getRecurrence()](#getRecurrence--) | Gets or sets the recurrence pattern. |
-| [getReminders()](#getReminders--) | Contains collection of AppointmentReminder [AppointmentReminder](../../com.aspose.email/appointmentreminder) objects. |
-| [getSequenceId()](#getSequenceId--) | Gets the sequence id. |
-| [getStartDate()](#getStartDate--) | Gets or sets the start date. |
-| [getStartTimeZone()](#getStartTimeZone--) | Start time zone |
-| [getStatus()](#getStatus--) | Gets or sets the overall status or confirmation for the object. |
-| [getSummary()](#getSummary--) | Gets or sets the summary. |
-| [getTransparency()](#getTransparency--) | Specifies whether or not this appointment is intended to be visible in availability searches. |
-| [getUniqueId()](#getUniqueId--) | Gets or sets a string value that contains the GUID for the calendar item. |
-| [getVersion()](#getVersion--) | Gets the version of ICS/VCS file. |
+| [getCreatedDate()](#getCreatedDate--) | Gets the date and time the event was created (the iCalendar CREATED property). |
+| [getDateTimeStamp()](#getDateTimeStamp--) | Gets the date and time the iCalendar object was created (the iCalendar DTSTAMP property). |
+| [getDescription()](#getDescription--) | Gets the plain-text description of the event. |
+| [getEndDate()](#getEndDate--) | Gets the end date and time of the event. |
+| [getEndTimeZone()](#getEndTimeZone--) | Gets the time zone of the end of the event. |
+| [getFlags()](#getFlags--) | Gets the flags of the event, such as whether it lasts all day. |
+| [getHtmlDescription()](#getHtmlDescription--) | Gets the HTML version of the description. |
+| [getLastModifiedDate()](#getLastModifiedDate--) | Gets the date and time the event was last modified (the iCalendar LAST-MODIFIED property). |
+| [getLocation()](#getLocation--) | Gets the location of the event. |
+| [getMSProperties()](#getMSProperties--) | Gets the Microsoft-specific properties of the event (those whose names start with X-MICROSOFT), keyed by property name. |
+| [getMethodType()](#getMethodType--) | Gets the iCalendar METHOD of the event, such as a request or a cancellation. |
+| [getMicrosoftBusyStatus()](#getMicrosoftBusyStatus--) | Gets how the time of the event is shown in the calendar of the organizer, such as busy or free (the X-MICROSOFT-CDO-BUSYSTATUS property). |
+| [getMicrosoftImportance()](#getMicrosoftImportance--) | Gets the importance of the event (the X-MICROSOFT-CDO-IMPORTANCE property). |
+| [getMicrosoftIntendedStatus()](#getMicrosoftIntendedStatus--) | Gets how the organizer wants attendees to show the time of the meeting, such as busy or free (the X-MICROSOFT-CDO-INTENDEDSTATUS property). |
+| [getOptionalAttendees()](#getOptionalAttendees--) | Gets the optional attendees of the event (those with ROLE=OPT-PARTICIPANT). |
+| [getOrganizer()](#getOrganizer--) | Gets the organizer of the event. |
+| [getProductId()](#getProductId--) | Gets the identifier of the product that created the event (the iCalendar PRODID property). |
+| [getRecurrence()](#getRecurrence--) | Gets the recurrence pattern of the event, or  null  if it does not repeat. |
+| [getReminders()](#getReminders--) | Gets the reminders (alarms) of the event. |
+| [getSequenceId()](#getSequenceId--) | Gets the revision sequence number of the event (the iCalendar SEQUENCE property), as read from the source. |
+| [getStartDate()](#getStartDate--) | Gets the start date and time of the event. |
+| [getStartTimeZone()](#getStartTimeZone--) | Gets the time zone of the start of the event. |
+| [getStatus()](#getStatus--) | Gets the status of the event, such as tentative or confirmed (the iCalendar STATUS property). |
+| [getSummary()](#getSummary--) | Gets the summary (subject) of the event. |
+| [getTransparency()](#getTransparency--) | Gets whether the event blocks time in free/busy searches (the iCalendar TRANSP property). |
+| [getUniqueId()](#getUniqueId--) | Gets the unique identifier of the event (the iCalendar UID property). |
+| [getVersion()](#getVersion--) | Gets the version of the calendar the event was read from: 2.0 for iCalendar (ICS), 1.0 for vCalendar (VCS). |
 | [hashCode()](#hashCode--) |  |
-| [isDescriptionHtml()](#isDescriptionHtml--) | Gets or sets value which indicates if description is in HTML format |
-| [load(InputStream stream)](#load-java.io.InputStream-) | Loads [Appointment](../../com.aspose.email/appointment) from the stream |
-| [load(InputStream stream, boolean applyLocalTimeZone)](#load-java.io.InputStream-boolean-) | Loads [Appointment](../../com.aspose.email/appointment) from the stream |
-| [load(InputStream stream, AppointmentLoadOptions options)](#load-java.io.InputStream-com.aspose.email.AppointmentLoadOptions-) | Loads [Appointment](../../com.aspose.email/appointment) from the stream |
-| [load(String filePath)](#load-java.lang.String-) | Loads [Appointment](../../com.aspose.email/appointment) from the file. |
-| [load(String filePath, AppointmentLoadOptions options)](#load-java.lang.String-com.aspose.email.AppointmentLoadOptions-) | Loads [Appointment](../../com.aspose.email/appointment) from the file. |
+| [load(InputStream stream)](#load-java.io.InputStream-) | Loads an appointment from a stream of iCalendar (ICS) data. |
+| [load(InputStream stream, boolean applyLocalTimeZone)](#load-java.io.InputStream-boolean-) | Loads an appointment from a stream of iCalendar (ICS) data, optionally converting its times to the local time zone. |
+| [load(InputStream stream, AppointmentLoadOptions options)](#load-java.io.InputStream-com.aspose.email.AppointmentLoadOptions-) | Loads an appointment from a stream of iCalendar (ICS) data with the specified options. |
+| [load(String filePath)](#load-java.lang.String-) | Loads an appointment from an iCalendar (ICS) file. |
+| [load(String filePath, AppointmentLoadOptions options)](#load-java.lang.String-com.aspose.email.AppointmentLoadOptions-) | Loads an appointment from an iCalendar (ICS) file with the specified options. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [requestApointment()](#requestApointment--) | Requests the apointment. |
-| [requestApointment(int seqId)](#requestApointment-int-) | Requests the apointment. |
-| [requestApointmentByMethodType(int methodType)](#requestApointmentByMethodType-int-) | Requests the appointment. |
-| [resetTimeZone()](#resetTimeZone--) | Set local time zone |
-| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves appointment to the file with iCalendar format using te default save options |
-| [save(OutputStream stream, AppointmentSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.email.AppointmentSaveOptions-) | Saves appointment to the stream with specified save options |
-| [save(OutputStream stream, int saveFormat)](#save-java.io.OutputStream-int-) | Saves appointment to the stream with specified format using te default save options |
-| [save(String filePath)](#save-java.lang.String-) | Saves appointment to the file with iCalendar format using te default save options |
-| [save(String filePath, AppointmentSaveOptions saveOptions)](#save-java.lang.String-com.aspose.email.AppointmentSaveOptions-) | Saves appointment to the file with specified save options |
-| [save(String filePath, int saveFormat)](#save-java.lang.String-int-) | Saves appointment to the file with specified format using te default save options |
+| [requestApointment()](#requestApointment--) | Creates a meeting request for this appointment, with the METHOD set in \#getMethodType().getMethodType() and sequence number 0. |
+| [requestApointment(int seqId)](#requestApointment-int-) | Creates a meeting request for this appointment with the specified sequence number. |
+| [requestApointmentByMethodType(int methodType)](#requestApointmentByMethodType-int-) | Creates a meeting request for this appointment with the specified iCalendar METHOD. |
+| [resetTimeZone()](#resetTimeZone--) | Sets the start and end time zones of the event to the local time zone of the computer. |
+| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves the appointment to a stream in iCalendar (ICS) format. |
+| [save(OutputStream stream, AppointmentSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.email.AppointmentSaveOptions-) | Saves the appointment to a stream with the specified options. |
+| [save(OutputStream stream, int saveFormat)](#save-java.io.OutputStream-int-) | Saves the appointment to a stream in the specified format, with default options. |
+| [save(String filePath)](#save-java.lang.String-) | Saves the appointment to an iCalendar (ICS) file. |
+| [save(String filePath, AppointmentSaveOptions saveOptions)](#save-java.lang.String-com.aspose.email.AppointmentSaveOptions-) | Saves the appointment to a file with the specified options. |
+| [save(String filePath, int saveFormat)](#save-java.lang.String-int-) | Saves the appointment to a file in the specified format, with default options. |
 | [setAppointmentClass(int value)](#setAppointmentClass-int-) | Specifies the access classification for the appointment. |
-| [setAttendees(MailAddressCollection value)](#setAttendees-com.aspose.email.MailAddressCollection-) | Gets or sets the attendees. |
-| [setCreatedDate(Date value)](#setCreatedDate-java.util.Date-) | Gets or sets the date and time that calendar information was created. |
-| [setDateTimeStamp(Date value)](#setDateTimeStamp-java.util.Date-) | Gets or sets date/time that the instance of the iCalendar object was created.. |
-| [setDescription(String value)](#setDescription-java.lang.String-) | Gets or sets the description. |
-| [setDescriptionHtml(boolean value)](#setDescriptionHtml-boolean-) | Gets or sets value which indicates if description is in HTML format |
-| [setEndDate(Date value)](#setEndDate-java.util.Date-) | Gets or sets the end date. |
-| [setEndTimeZone(String value)](#setEndTimeZone-java.lang.String-) | End time zone |
-| [setFlags(int value)](#setFlags-int-) | Gets or sets appointment flags. |
-| [setHtmlDescription(String value)](#setHtmlDescription-java.lang.String-) | Gets or sets html representation of description. |
-| [setLastModifiedDate(Date value)](#setLastModifiedDate-java.util.Date-) | Gets or sets the date and time that calendar information was last revised. |
-| [setLocation(String value)](#setLocation-java.lang.String-) | Gets or sets the location. |
-| [setMethodType(int value)](#setMethodType-int-) | Gets or sets the iCalendar object method type associated with the calendar object. |
-| [setMicrosoftBusyStatus(int value)](#setMicrosoftBusyStatus-int-) | Specifies the BUSY status of an appointment. |
-| [setMicrosoftImportance(int value)](#setMicrosoftImportance-int-) | Specifies the importance of an appointment. |
-| [setMicrosoftIntendedStatus(int value)](#setMicrosoftIntendedStatus-int-) | Specifies the INTENDED status of an appointment. |
-| [setOrganizer(MailAddress value)](#setOrganizer-com.aspose.email.MailAddress-) | Gets or sets the organizer. |
-| [setRecurrence(RecurrencePattern value)](#setRecurrence-com.aspose.email.RecurrencePattern-) | Gets or sets the recurrence pattern. |
-| [setStartDate(Date value)](#setStartDate-java.util.Date-) | Gets or sets the start date. |
-| [setStartTimeZone(String value)](#setStartTimeZone-java.lang.String-) | Start time zone |
-| [setStatus(int value)](#setStatus-int-) | Gets or sets the overall status or confirmation for the object. |
-| [setSummary(String value)](#setSummary-java.lang.String-) | Gets or sets the summary. |
-| [setTimeZone(String tzName)](#setTimeZone-java.lang.String-) | Set time zone |
-| [setTransparency(int value)](#setTransparency-int-) | Specifies whether or not this appointment is intended to be visible in availability searches. |
-| [setUniqueId(String value)](#setUniqueId-java.lang.String-) | Gets or sets a string value that contains the GUID for the calendar item. |
-| [toMailMessage()](#toMailMessage--) | Converts ICalendar item (.ics) to MIME (.eml) message. |
-| [toMailMessage(int action)](#toMailMessage-int-) | Converts ICalendar item (.ics) to MIME (.eml) message. |
-| [toMailMessage(int action, int seqId)](#toMailMessage-int-int-) | Converts ICalendar item (.ics) to MIME (.eml) message. |
-| [toMapiMessage()](#toMapiMessage--) | Converts ICalendar item (.ics) to MAPI (.msg) message. |
+| [setAttendees(MailAddressCollection value)](#setAttendees-com.aspose.email.MailAddressCollection-) | Sets the attendees of the event, except the optional ones, which are in \#getOptionalAttendees().getOptionalAttendees(). |
+| [setCreatedDate(Date value)](#setCreatedDate-java.util.Date-) | Sets the date and time the event was created (the iCalendar CREATED property). |
+| [setDateTimeStamp(Date value)](#setDateTimeStamp-java.util.Date-) | Sets the date and time the iCalendar object was created (the iCalendar DTSTAMP property). |
+| [setDescription(String value)](#setDescription-java.lang.String-) | Sets the plain-text description of the event. |
+| [setEndDate(Date value)](#setEndDate-java.util.Date-) | Sets the end date and time of the event. |
+| [setEndTimeZone(String value)](#setEndTimeZone-java.lang.String-) | Sets the time zone of the end of the event. |
+| [setFlags(int value)](#setFlags-int-) | Sets the flags of the event, such as whether it lasts all day. |
+| [setHtmlDescription(String value)](#setHtmlDescription-java.lang.String-) | Sets the HTML version of the description. |
+| [setLastModifiedDate(Date value)](#setLastModifiedDate-java.util.Date-) | Sets the date and time the event was last modified (the iCalendar LAST-MODIFIED property). |
+| [setLocation(String value)](#setLocation-java.lang.String-) | Sets the location of the event. |
+| [setMethodType(int value)](#setMethodType-int-) | Sets the iCalendar METHOD of the event, such as a request or a cancellation. |
+| [setMicrosoftBusyStatus(int value)](#setMicrosoftBusyStatus-int-) | Sets how the time of the event is shown in the calendar of the organizer, such as busy or free (the X-MICROSOFT-CDO-BUSYSTATUS property). |
+| [setMicrosoftImportance(int value)](#setMicrosoftImportance-int-) | Sets the importance of the event (the X-MICROSOFT-CDO-IMPORTANCE property). |
+| [setMicrosoftIntendedStatus(int value)](#setMicrosoftIntendedStatus-int-) | Sets how the organizer wants attendees to show the time of the meeting, such as busy or free (the X-MICROSOFT-CDO-INTENDEDSTATUS property). |
+| [setOrganizer(MailAddress value)](#setOrganizer-com.aspose.email.MailAddress-) | Sets the organizer of the event. |
+| [setProductId(String value)](#setProductId-java.lang.String-) | Sets the identifier of the product that created the event (the iCalendar PRODID property). |
+| [setRecurrence(RecurrencePattern value)](#setRecurrence-com.aspose.email.RecurrencePattern-) | Sets the recurrence pattern of the event, or  null  if it does not repeat. |
+| [setStartDate(Date value)](#setStartDate-java.util.Date-) | Sets the start date and time of the event. |
+| [setStartTimeZone(String value)](#setStartTimeZone-java.lang.String-) | Sets the time zone of the start of the event. |
+| [setStatus(int value)](#setStatus-int-) | Sets the status of the event, such as tentative or confirmed (the iCalendar STATUS property). |
+| [setSummary(String value)](#setSummary-java.lang.String-) | Sets the summary (subject) of the event. |
+| [setTimeZone(String tzName)](#setTimeZone-java.lang.String-) | Sets both the start and the end time zone of the event. |
+| [setTransparency(int value)](#setTransparency-int-) | Sets whether the event blocks time in free/busy searches (the iCalendar TRANSP property). |
+| [setUniqueId(String value)](#setUniqueId-java.lang.String-) | Sets the unique identifier of the event (the iCalendar UID property). |
+| [toMailMessage()](#toMailMessage--) | Creates an email message that carries this appointment as a meeting request. |
+| [toMailMessage(int action)](#toMailMessage-int-) | Creates an email message that carries this appointment as a meeting request, update or cancellation. |
+| [toMailMessage(int action, int seqId)](#toMailMessage-int-int-) | Creates an email message that carries this appointment as a meeting request, update or cancellation. |
+| [toMapiMessage()](#toMapiMessage--) | Converts the appointment to an Outlook message, which can then be saved as an .msg file. |
 | [toString()](#toString--) |  |
-| [updateAppointment()](#updateAppointment--) | Updates the appointment. |
-| [updateAppointment(int seqId)](#updateAppointment-int-) | Updates the appointment. |
+| [updateAppointment()](#updateAppointment--) | Creates an update of this meeting to send to its attendees. |
+| [updateAppointment(int seqId)](#updateAppointment-int-) | Creates an update of this meeting with the specified sequence number. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -149,16 +154,16 @@ public Appointment(String location, Date startDate, Date endDate, MailAddress or
 ```
 
 
-Initialize a new instance of the [Appointment](../../com.aspose.email/appointment) class.
+Initializes a new instance of the [Appointment](../../com.aspose.email/appointment) class with the location, time, organizer and attendees of the event.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location | java.lang.String | The location of the calendar event. |
-| startDate | java.util.Date | The start time of the calendar event. |
-| endDate | java.util.Date | The end time of the calendar event. |
-| organizer | [MailAddress](../../com.aspose.email/mailaddress) | The organizer of the calendar event. |
-| attendees | [MailAddressCollection](../../com.aspose.email/mailaddresscollection) | The attendees of th calendar event. |
+| location | java.lang.String | The location of the event. |
+| startDate | java.util.Date | The start date and time of the event. |
+| endDate | java.util.Date | The end date and time of the event. |
+| organizer | [MailAddress](../../com.aspose.email/mailaddress) | The organizer of the event. |
+| attendees | [MailAddressCollection](../../com.aspose.email/mailaddresscollection) | The attendees of the event. |
 
 ### Appointment(String location, String summary, String description, Date startDate, Date endDate, MailAddress organizer, MailAddressCollection attendees) {#Appointment-java.lang.String-java.lang.String-java.lang.String-java.util.Date-java.util.Date-com.aspose.email.MailAddress-com.aspose.email.MailAddressCollection-}
 ```
@@ -166,18 +171,18 @@ public Appointment(String location, String summary, String description, Date sta
 ```
 
 
-Initialize a new instance of the [Appointment](../../com.aspose.email/appointment) class.
+Initializes a new instance of the [Appointment](../../com.aspose.email/appointment) class with the location, summary, description, time, organizer and attendees of the event.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location | java.lang.String | The location of the calendar event. |
-| summary | java.lang.String | The summary of the calendar event. |
-| description | java.lang.String | The description of the calendar event. |
-| startDate | java.util.Date | The start time of the calendar event. |
-| endDate | java.util.Date | The end time of the calendar event. |
-| organizer | [MailAddress](../../com.aspose.email/mailaddress) | The organizer of the calendar event. |
-| attendees | [MailAddressCollection](../../com.aspose.email/mailaddresscollection) | The attendees of th calendar event. |
+| location | java.lang.String | The location of the event. |
+| summary | java.lang.String | The summary (subject) of the event. |
+| description | java.lang.String | The plain-text description of the event. |
+| startDate | java.util.Date | The start date and time of the event. |
+| endDate | java.util.Date | The end date and time of the event. |
+| organizer | [MailAddress](../../com.aspose.email/mailaddress) | The organizer of the event. |
+| attendees | [MailAddressCollection](../../com.aspose.email/mailaddresscollection) | The attendees of the event. |
 
 ### Appointment(String location, String summary, String description, Date startDate, Date endDate, MailAddress organizer, MailAddressCollection attendees, String uid) {#Appointment-java.lang.String-java.lang.String-java.lang.String-java.util.Date-java.util.Date-com.aspose.email.MailAddress-com.aspose.email.MailAddressCollection-java.lang.String-}
 ```
@@ -185,19 +190,19 @@ public Appointment(String location, String summary, String description, Date sta
 ```
 
 
-Initialize a new instance of the [Appointment](../../com.aspose.email/appointment) class.
+Initializes a new instance of the [Appointment](../../com.aspose.email/appointment) class with an explicit unique identifier.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location | java.lang.String | The location of the calendar event. |
-| summary | java.lang.String | The summary of the calendar event. |
-| description | java.lang.String | The description of the calendar event. |
-| startDate | java.util.Date | The start time of the calendar event. |
-| endDate | java.util.Date | The end time of the calendar event. |
-| organizer | [MailAddress](../../com.aspose.email/mailaddress) | The organizer of the calendar event. |
-| attendees | [MailAddressCollection](../../com.aspose.email/mailaddresscollection) | The attendees of th calendar event. |
-| uid | java.lang.String | The unique identifier of th calendar event. |
+| location | java.lang.String | The location of the event. |
+| summary | java.lang.String | The summary (subject) of the event. |
+| description | java.lang.String | The plain-text description of the event. |
+| startDate | java.util.Date | The start date and time of the event. |
+| endDate | java.util.Date | The end date and time of the event. |
+| organizer | [MailAddress](../../com.aspose.email/mailaddress) | The organizer of the event. |
+| attendees | [MailAddressCollection](../../com.aspose.email/mailaddresscollection) | The attendees of the event. |
+| uid | java.lang.String | The unique identifier of the event (the iCalendar UID property). |
 
 ### Appointment(String location, String summary, String description, Date startDate, Date endDate, MailAddress organizer, MailAddressCollection attendees, RecurrencePattern recurrencePattern) {#Appointment-java.lang.String-java.lang.String-java.lang.String-java.util.Date-java.util.Date-com.aspose.email.MailAddress-com.aspose.email.MailAddressCollection-com.aspose.email.RecurrencePattern-}
 ```
@@ -205,19 +210,19 @@ public Appointment(String location, String summary, String description, Date sta
 ```
 
 
-Initialize a new instance of the [Appointment](../../com.aspose.email/appointment) class.
+Initializes a new instance of the [Appointment](../../com.aspose.email/appointment) class for a recurring event.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location | java.lang.String | The location of the calendar event. |
-| summary | java.lang.String | The summary of the calendar event. |
-| description | java.lang.String | The description of the calendar event. |
-| startDate | java.util.Date | The start time of the calendar event. |
-| endDate | java.util.Date | The end time of the calendar event. |
-| organizer | [MailAddress](../../com.aspose.email/mailaddress) | The organizer of the calendar event. |
-| attendees | [MailAddressCollection](../../com.aspose.email/mailaddresscollection) | The attendees of th calendar event. |
-| recurrencePattern | [RecurrencePattern](../../com.aspose.email/recurrencepattern) | The recurrence pattern. |
+| location | java.lang.String | The location of the event. |
+| summary | java.lang.String | The summary (subject) of the event. |
+| description | java.lang.String | The plain-text description of the event. |
+| startDate | java.util.Date | The start date and time of the event. |
+| endDate | java.util.Date | The end date and time of the event. |
+| organizer | [MailAddress](../../com.aspose.email/mailaddress) | The organizer of the event. |
+| attendees | [MailAddressCollection](../../com.aspose.email/mailaddresscollection) | The attendees of the event. |
+| recurrencePattern | [RecurrencePattern](../../com.aspose.email/recurrencepattern) | The recurrence pattern of the event, or  null  for a single occurrence. |
 
 ### Appointment(String location, String summary, String description, Date startDate, Date endDate, MailAddress organizer, MailAddressCollection attendees, String uid, RecurrencePattern recurrencePattern) {#Appointment-java.lang.String-java.lang.String-java.lang.String-java.util.Date-java.util.Date-com.aspose.email.MailAddress-com.aspose.email.MailAddressCollection-java.lang.String-com.aspose.email.RecurrencePattern-}
 ```
@@ -225,20 +230,20 @@ public Appointment(String location, String summary, String description, Date sta
 ```
 
 
-Initialize a new instance of the [Appointment](../../com.aspose.email/appointment) class.
+Initializes a new instance of the [Appointment](../../com.aspose.email/appointment) class for a recurring event with an explicit unique identifier.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location | java.lang.String | The location of the calendar event. |
-| summary | java.lang.String | The summary of the calendar event. |
-| description | java.lang.String | The description of the calendar event. |
-| startDate | java.util.Date | The start time of the calendar event. |
-| endDate | java.util.Date | The end time of the calendar event. |
-| organizer | [MailAddress](../../com.aspose.email/mailaddress) | The organizer of the calendar event. |
-| attendees | [MailAddressCollection](../../com.aspose.email/mailaddresscollection) | The attendees of th calendar event. |
-| uid | java.lang.String | The unique identifier of th calendar event. |
-| recurrencePattern | [RecurrencePattern](../../com.aspose.email/recurrencepattern) | The recurrence pattern. |
+| location | java.lang.String | The location of the event. |
+| summary | java.lang.String | The summary (subject) of the event. |
+| description | java.lang.String | The plain-text description of the event. |
+| startDate | java.util.Date | The start date and time of the event. |
+| endDate | java.util.Date | The end date and time of the event. |
+| organizer | [MailAddress](../../com.aspose.email/mailaddress) | The organizer of the event. |
+| attendees | [MailAddressCollection](../../com.aspose.email/mailaddresscollection) | The attendees of the event. |
+| uid | java.lang.String | The unique identifier of the event (the iCalendar UID property). |
+| recurrencePattern | [RecurrencePattern](../../com.aspose.email/recurrencepattern) | The recurrence pattern of the event, or  null  for a single occurrence. |
 
 ### cancelAppointment() {#cancelAppointment--}
 ```
@@ -246,25 +251,27 @@ public final AlternateView cancelAppointment()
 ```
 
 
-Cancels the appointment.
+Creates a cancellation of this meeting (iCalendar METHOD:CANCEL) to send to its attendees.
+
+The cancellation gets sequence number 2. Use the overload with a sequence number to set it explicitly.
 
 **Returns:**
-[AlternateView](../../com.aspose.email/alternateview) - AlternateView[AlternateView](../../com.aspose.email/alternateview) that represents the format to view an email message.
+[AlternateView](../../com.aspose.email/alternateview) - An [AlternateView](../../com.aspose.email/alternateview) with the iCalendar data (text/calendar) to add to a [MailMessage](../../com.aspose.email/mailmessage).
 ### cancelAppointment(int seqId) {#cancelAppointment-int-}
 ```
 public final AlternateView cancelAppointment(int seqId)
 ```
 
 
-Cancels the appointment.
+Creates a cancellation of this meeting (iCalendar METHOD:CANCEL) with the specified sequence number.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| seqId | int | The sequence id. |
+| seqId | int | The sequence number to write (the iCalendar SEQUENCE property). |
 
 **Returns:**
-[AlternateView](../../com.aspose.email/alternateview) - AlternateView[AlternateView](../../com.aspose.email/alternateview) that represents the format to view an email message.
+[AlternateView](../../com.aspose.email/alternateview) - An [AlternateView](../../com.aspose.email/alternateview) with the iCalendar data (text/calendar) to add to a [MailMessage](../../com.aspose.email/mailmessage).
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -296,42 +303,42 @@ public final String getAppointmentHtml()
 ```
 
 
-Gets the calendar HTML.
+Returns the details of the appointment as HTML.
 
 **Returns:**
-java.lang.String - String value of calendar as HTML.
+java.lang.String - \#getHtmlDescription().getHtmlDescription() if it is set; otherwise the title, organizer, start and end time, time zone, location and description, formatted with the templates of  AppointmentFormattingOptions.createAsHtml() .
 ### getAppointmentText() {#getAppointmentText--}
 ```
 public final String getAppointmentText()
 ```
 
 
-Gets the calendar text.
+Returns the details of the appointment as plain text.
 
 **Returns:**
-java.lang.String - String value of calendar as plain text.
+java.lang.String - The title, organizer, start and end time, time zone, location and description of the appointment, formatted with the default plain-text templates.
 ### getAppointmentText(AppointmentFormattingOptions formattingOptions) {#getAppointmentText-com.aspose.email.AppointmentFormattingOptions-}
 ```
 public final String getAppointmentText(AppointmentFormattingOptions formattingOptions)
 ```
 
 
-Gets the calendar text.
+Returns the details of the appointment, formatted with the specified templates.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| formattingOptions | [AppointmentFormattingOptions](../../com.aspose.email/appointmentformattingoptions) | [AppointmentFormattingOptions](../../com.aspose.email/appointmentformattingoptions) that represents appointment formatting options. |
+| formattingOptions | [AppointmentFormattingOptions](../../com.aspose.email/appointmentformattingoptions) | The templates to format the details with. Use  AppointmentFormattingOptions.createAsHtml()  to get HTML. |
 
 **Returns:**
-java.lang.String - The text representation of appointment.
+java.lang.String - The title, organizer, start and end time, time zone, location and description of the appointment.
 ### getAttachments() {#getAttachments--}
 ```
 public final AttachmentCollection getAttachments()
 ```
 
 
-Gets the collection of attachments of appointment.
+Gets the files attached to the event.
 
 **Returns:**
 [AttachmentCollection](../../com.aspose.email/attachmentcollection)
@@ -341,7 +348,7 @@ public final MailAddressCollection getAttendees()
 ```
 
 
-Gets or sets the attendees.
+Gets the attendees of the event, except the optional ones, which are in \#getOptionalAttendees().getOptionalAttendees().
 
 **Returns:**
 [MailAddressCollection](../../com.aspose.email/mailaddresscollection)
@@ -361,19 +368,17 @@ public final Date getCreatedDate()
 ```
 
 
-Gets or sets the date and time that calendar information was created.
-
-Value: The java.util.Date that represents creation date and time.
+Gets the date and time the event was created (the iCalendar CREATED property).
 
 **Returns:**
-java.util.Date
+java.util.Date - The java.util.Date that represents creation date and time.
 ### getDateTimeStamp() {#getDateTimeStamp--}
 ```
 public final Date getDateTimeStamp()
 ```
 
 
-Gets or sets date/time that the instance of the iCalendar object was created..
+Gets the date and time the iCalendar object was created (the iCalendar DTSTAMP property).
 
 **Returns:**
 java.util.Date
@@ -383,7 +388,7 @@ public final String getDescription()
 ```
 
 
-Gets or sets the description.
+Gets the plain-text description of the event.
 
 **Returns:**
 java.lang.String
@@ -393,7 +398,7 @@ public final Date getEndDate()
 ```
 
 
-Gets or sets the end date.
+Gets the end date and time of the event.
 
 **Returns:**
 java.util.Date
@@ -403,7 +408,7 @@ public final String getEndTimeZone()
 ```
 
 
-End time zone
+Gets the time zone of the end of the event.
 
 **Returns:**
 java.lang.String
@@ -413,7 +418,7 @@ public final int getFlags()
 ```
 
 
-Gets or sets appointment flags.
+Gets the flags of the event, such as whether it lasts all day.
 
 **Returns:**
 int
@@ -423,7 +428,7 @@ public final String getHtmlDescription()
 ```
 
 
-Gets or sets html representation of description.
+Gets the HTML version of the description.
 
 **Returns:**
 java.lang.String
@@ -433,29 +438,37 @@ public final Date getLastModifiedDate()
 ```
 
 
-Gets or sets the date and time that calendar information was last revised.
-
-Value: The java.util.Date that represents modification date and time.
+Gets the date and time the event was last modified (the iCalendar LAST-MODIFIED property).
 
 **Returns:**
-java.util.Date
+java.util.Date - The java.util.Date that represents modification date and time.
 ### getLocation() {#getLocation--}
 ```
 public final String getLocation()
 ```
 
 
-Gets or sets the location.
+Gets the location of the event.
 
 **Returns:**
 java.lang.String
+### getMSProperties() {#getMSProperties--}
+```
+public final System.Collections.Generic.Dictionary<String,String> getMSProperties()
+```
+
+
+Gets the Microsoft-specific properties of the event (those whose names start with X-MICROSOFT), keyed by property name.
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.Dictionary<java.lang.String,java.lang.String>
 ### getMethodType() {#getMethodType--}
 ```
 public final int getMethodType()
 ```
 
 
-Gets or sets the iCalendar object method type associated with the calendar object.
+Gets the iCalendar METHOD of the event, such as a request or a cancellation. The default for a new appointment is  AppointmentMethodType.Request .
 
 **Returns:**
 int
@@ -465,7 +478,7 @@ public final int getMicrosoftBusyStatus()
 ```
 
 
-Specifies the BUSY status of an appointment.
+Gets how the time of the event is shown in the calendar of the organizer, such as busy or free (the X-MICROSOFT-CDO-BUSYSTATUS property).
 
 **Returns:**
 int
@@ -475,7 +488,7 @@ public final int getMicrosoftImportance()
 ```
 
 
-Specifies the importance of an appointment.
+Gets the importance of the event (the X-MICROSOFT-CDO-IMPORTANCE property).
 
 **Returns:**
 int
@@ -485,7 +498,7 @@ public final int getMicrosoftIntendedStatus()
 ```
 
 
-Specifies the INTENDED status of an appointment.
+Gets how the organizer wants attendees to show the time of the meeting, such as busy or free (the X-MICROSOFT-CDO-INTENDEDSTATUS property).
 
 **Returns:**
 int
@@ -495,41 +508,47 @@ public final MailAddressCollection getOptionalAttendees()
 ```
 
 
-Gets the optional attendees.
-
-Value: The address collection of optional attendees.
+Gets the optional attendees of the event (those with ROLE=OPT-PARTICIPANT).
 
 **Returns:**
-[MailAddressCollection](../../com.aspose.email/mailaddresscollection)
+[MailAddressCollection](../../com.aspose.email/mailaddresscollection) - The address collection of optional attendees.
 ### getOrganizer() {#getOrganizer--}
 ```
 public final MailAddress getOrganizer()
 ```
 
 
-Gets or sets the organizer.
+Gets the organizer of the event.
 
 **Returns:**
 [MailAddress](../../com.aspose.email/mailaddress)
+### getProductId() {#getProductId--}
+```
+public final String getProductId()
+```
+
+
+Gets the identifier of the product that created the event (the iCalendar PRODID property).
+
+**Returns:**
+java.lang.String
 ### getRecurrence() {#getRecurrence--}
 ```
 public final RecurrencePattern getRecurrence()
 ```
 
 
-Gets or sets the recurrence pattern.
-
-Value: The recurrence pattern.
+Gets the recurrence pattern of the event, or  null  if it does not repeat.
 
 **Returns:**
-[RecurrencePattern](../../com.aspose.email/recurrencepattern)
+[RecurrencePattern](../../com.aspose.email/recurrencepattern) - The recurrence pattern.
 ### getReminders() {#getReminders--}
 ```
 public final AppointmentReminderCollection getReminders()
 ```
 
 
-Contains collection of AppointmentReminder [AppointmentReminder](../../com.aspose.email/appointmentreminder) objects.
+Gets the reminders (alarms) of the event.
 
 **Returns:**
 [AppointmentReminderCollection](../../com.aspose.email/appointmentremindercollection)
@@ -539,19 +558,17 @@ public final String getSequenceId()
 ```
 
 
-Gets the sequence id.
-
-Value: The sequence id.
+Gets the revision sequence number of the event (the iCalendar SEQUENCE property), as read from the source.
 
 **Returns:**
-java.lang.String
+java.lang.String - The sequence id.
 ### getStartDate() {#getStartDate--}
 ```
 public final Date getStartDate()
 ```
 
 
-Gets or sets the start date.
+Gets the start date and time of the event.
 
 **Returns:**
 java.util.Date
@@ -561,7 +578,7 @@ public final String getStartTimeZone()
 ```
 
 
-Start time zone
+Gets the time zone of the start of the event.
 
 **Returns:**
 java.lang.String
@@ -571,7 +588,7 @@ public final int getStatus()
 ```
 
 
-Gets or sets the overall status or confirmation for the object.
+Gets the status of the event, such as tentative or confirmed (the iCalendar STATUS property). The default for a new appointment is  AppointmentStatus.Tentative .
 
 **Returns:**
 int
@@ -581,7 +598,7 @@ public final String getSummary()
 ```
 
 
-Gets or sets the summary.
+Gets the summary (subject) of the event.
 
 **Returns:**
 java.lang.String
@@ -591,7 +608,7 @@ public final int getTransparency()
 ```
 
 
-Specifies whether or not this appointment is intended to be visible in availability searches.
+Gets whether the event blocks time in free/busy searches (the iCalendar TRANSP property). The default for a new appointment is  AppointmentTransparency.Opaque .
 
 **Returns:**
 int
@@ -601,19 +618,17 @@ public final String getUniqueId()
 ```
 
 
-Gets or sets a string value that contains the GUID for the calendar item. In MS Exchange this is PidLidGlobalObjectId mapi property.
-
-Value: The unique id.
+Gets the unique identifier of the event (the iCalendar UID property). In Microsoft Exchange it corresponds to the PidLidGlobalObjectId MAPI property.
 
 **Returns:**
-java.lang.String
+java.lang.String - The unique id.
 ### getVersion() {#getVersion--}
 ```
 public final String getVersion()
 ```
 
 
-Gets the version of ICS/VCS file.
+Gets the version of the calendar the event was read from: 2.0 for iCalendar (ICS), 1.0 for vCalendar (VCS).
 
 **Returns:**
 java.lang.String
@@ -627,94 +642,88 @@ public native int hashCode()
 
 **Returns:**
 int
-### isDescriptionHtml() {#isDescriptionHtml--}
-```
-public final boolean isDescriptionHtml()
-```
-
-
-Gets or sets value which indicates if description is in HTML format
-
-**Returns:**
-boolean
 ### load(InputStream stream) {#load-java.io.InputStream-}
 ```
 public static Appointment load(InputStream stream)
 ```
 
 
-Loads [Appointment](../../com.aspose.email/appointment) from the stream
+Loads an appointment from a stream of iCalendar (ICS) data.
+
+If there are several events, the first one is loaded. Use [CalendarReader](../../com.aspose.email/calendarreader) to read all of them, or set  AppointmentLoadOptions.setEventIndex(\\u2026)  to pick another one.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | A stream to load from |
+| stream | java.io.InputStream | The stream to read from. |
 
 **Returns:**
-[Appointment](../../com.aspose.email/appointment) - A read [Appointment](../../com.aspose.email/appointment)
+[Appointment](../../com.aspose.email/appointment) - The appointment read from the stream.
 ### load(InputStream stream, boolean applyLocalTimeZone) {#load-java.io.InputStream-boolean-}
 ```
 public static Appointment load(InputStream stream, boolean applyLocalTimeZone)
 ```
 
 
-Loads [Appointment](../../com.aspose.email/appointment) from the stream
+Loads an appointment from a stream of iCalendar (ICS) data, optionally converting its times to the local time zone.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | A stream to load from |
-| applyLocalTimeZone | boolean | Convert time to local timezone |
+| stream | java.io.InputStream | The stream to read from. |
+| applyLocalTimeZone | boolean |  true  to convert the start and end times to the local time zone of the computer. |
 
 **Returns:**
-[Appointment](../../com.aspose.email/appointment) - A read [Appointment](../../com.aspose.email/appointment)
+[Appointment](../../com.aspose.email/appointment) - The appointment read from the stream.
 ### load(InputStream stream, AppointmentLoadOptions options) {#load-java.io.InputStream-com.aspose.email.AppointmentLoadOptions-}
 ```
 public static Appointment load(InputStream stream, AppointmentLoadOptions options)
 ```
 
 
-Loads [Appointment](../../com.aspose.email/appointment) from the stream
+Loads an appointment from a stream of iCalendar (ICS) data with the specified options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | A stream to load from |
-| options | [AppointmentLoadOptions](../../com.aspose.email/appointmentloadoptions) | Represents appointment load options |
+| stream | java.io.InputStream | The stream to read from. |
+| options | [AppointmentLoadOptions](../../com.aspose.email/appointmentloadoptions) | Options that control loading, or  null  to use the defaults. |
 
 **Returns:**
-[Appointment](../../com.aspose.email/appointment) - A read [Appointment](../../com.aspose.email/appointment)
+[Appointment](../../com.aspose.email/appointment) - The appointment read from the stream.
 ### load(String filePath) {#load-java.lang.String-}
 ```
 public static Appointment load(String filePath)
 ```
 
 
-Loads [Appointment](../../com.aspose.email/appointment) from the file. Supported file formats: iCalendar
+Loads an appointment from an iCalendar (ICS) file.
+
+If there are several events, the first one is loaded. Use [CalendarReader](../../com.aspose.email/calendarreader) to read all of them, or set  AppointmentLoadOptions.setEventIndex(\\u2026)  to pick another one.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | A file path |
+| filePath | java.lang.String | The path of the ICS file. |
 
 **Returns:**
-[Appointment](../../com.aspose.email/appointment) - A read [Appointment](../../com.aspose.email/appointment)
+[Appointment](../../com.aspose.email/appointment) - The appointment read from the file.
 ### load(String filePath, AppointmentLoadOptions options) {#load-java.lang.String-com.aspose.email.AppointmentLoadOptions-}
 ```
 public static Appointment load(String filePath, AppointmentLoadOptions options)
 ```
 
 
-Loads [Appointment](../../com.aspose.email/appointment) from the file. Supported file formats: iCalendar
+Loads an appointment from an iCalendar (ICS) file with the specified options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | A file path. |
-| options | [AppointmentLoadOptions](../../com.aspose.email/appointmentloadoptions) | Represents appointment load options[AppointmentLoadOptions](../../com.aspose.email/appointmentloadoptions). |
+| filePath | java.lang.String | The path of the ICS file. |
+| options | [AppointmentLoadOptions](../../com.aspose.email/appointmentloadoptions) | Options that control loading, such as which event of the file to read. |
 
 **Returns:**
-[Appointment](../../com.aspose.email/appointment) - A read [Appointment](../../com.aspose.email/appointment).
+[Appointment](../../com.aspose.email/appointment) - The appointment read from the file.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -737,47 +746,47 @@ public final AlternateView requestApointment()
 ```
 
 
-Requests the apointment.
+Creates a meeting request for this appointment, with the METHOD set in \#getMethodType().getMethodType() and sequence number 0.
 
 **Returns:**
-[AlternateView](../../com.aspose.email/alternateview) - AlternateView[AlternateView](../../com.aspose.email/alternateview) that represents the format to view an email message.
+[AlternateView](../../com.aspose.email/alternateview) - An [AlternateView](../../com.aspose.email/alternateview) with the iCalendar data (text/calendar) to add to a [MailMessage](../../com.aspose.email/mailmessage).
 ### requestApointment(int seqId) {#requestApointment-int-}
 ```
 public final AlternateView requestApointment(int seqId)
 ```
 
 
-Requests the apointment.
+Creates a meeting request for this appointment with the specified sequence number.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| seqId | int | The sequence id. |
+| seqId | int | The sequence number to write (the iCalendar SEQUENCE property). |
 
 **Returns:**
-[AlternateView](../../com.aspose.email/alternateview) - AlternateView[AlternateView](../../com.aspose.email/alternateview) that represents the format to view an email message.
+[AlternateView](../../com.aspose.email/alternateview) - An [AlternateView](../../com.aspose.email/alternateview) with the iCalendar data (text/calendar) to add to a [MailMessage](../../com.aspose.email/mailmessage).
 ### requestApointmentByMethodType(int methodType) {#requestApointmentByMethodType-int-}
 ```
 public final AlternateView requestApointmentByMethodType(int methodType)
 ```
 
 
-Requests the appointment.
+Creates a meeting request for this appointment with the specified iCalendar METHOD.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| methodType | int | The method type. |
+| methodType | int | The iCalendar METHOD to use, such as  AppointmentMethodType.Request . |
 
 **Returns:**
-[AlternateView](../../com.aspose.email/alternateview) - AlternateView[AlternateView](../../com.aspose.email/alternateview) that represents the format to view an email message.
+[AlternateView](../../com.aspose.email/alternateview) - An [AlternateView](../../com.aspose.email/alternateview) with the iCalendar data (text/calendar) to add to a [MailMessage](../../com.aspose.email/mailmessage).
 ### resetTimeZone() {#resetTimeZone--}
 ```
 public final void resetTimeZone()
 ```
 
 
-Set local time zone
+Sets the start and end time zones of the event to the local time zone of the computer.
 
 ### save(OutputStream stream) {#save-java.io.OutputStream-}
 ```
@@ -785,12 +794,12 @@ public final void save(OutputStream stream)
 ```
 
 
-Saves appointment to the file with iCalendar format using te default save options
+Saves the appointment to a stream in iCalendar (ICS) format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream | A stream to save to |
+| stream | java.io.OutputStream | The stream to write to. |
 
 ### save(OutputStream stream, AppointmentSaveOptions saveOptions) {#save-java.io.OutputStream-com.aspose.email.AppointmentSaveOptions-}
 ```
@@ -798,13 +807,13 @@ public final void save(OutputStream stream, AppointmentSaveOptions saveOptions)
 ```
 
 
-Saves appointment to the stream with specified save options
+Saves the appointment to a stream with the specified options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream | A stream to save to |
-| saveOptions | [AppointmentSaveOptions](../../com.aspose.email/appointmentsaveoptions) | A save options |
+| stream | java.io.OutputStream | The stream to write to. |
+| saveOptions | [AppointmentSaveOptions](../../com.aspose.email/appointmentsaveoptions) | The save options. Their type, [AppointmentIcsSaveOptions](../../com.aspose.email/appointmenticssaveoptions) or [AppointmentMsgSaveOptions](../../com.aspose.email/appointmentmsgsaveoptions), selects the format. |
 
 ### save(OutputStream stream, int saveFormat) {#save-java.io.OutputStream-int-}
 ```
@@ -812,13 +821,13 @@ public final void save(OutputStream stream, int saveFormat)
 ```
 
 
-Saves appointment to the stream with specified format using te default save options
+Saves the appointment to a stream in the specified format, with default options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream | A stream to save to |
-| saveFormat | int | A save format |
+| stream | java.io.OutputStream | The stream to write to. |
+| saveFormat | int | The format to save in. |
 
 ### save(String filePath) {#save-java.lang.String-}
 ```
@@ -826,12 +835,12 @@ public final void save(String filePath)
 ```
 
 
-Saves appointment to the file with iCalendar format using te default save options
+Saves the appointment to an iCalendar (ICS) file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | A file path |
+| filePath | java.lang.String | The path of the file to create. An existing file is overwritten. |
 
 ### save(String filePath, AppointmentSaveOptions saveOptions) {#save-java.lang.String-com.aspose.email.AppointmentSaveOptions-}
 ```
@@ -839,13 +848,13 @@ public final void save(String filePath, AppointmentSaveOptions saveOptions)
 ```
 
 
-Saves appointment to the file with specified save options
+Saves the appointment to a file with the specified options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | A file path |
-| saveOptions | [AppointmentSaveOptions](../../com.aspose.email/appointmentsaveoptions) | A save options |
+| filePath | java.lang.String | The path of the file to create. An existing file is overwritten. |
+| saveOptions | [AppointmentSaveOptions](../../com.aspose.email/appointmentsaveoptions) | The save options. Their type, [AppointmentIcsSaveOptions](../../com.aspose.email/appointmenticssaveoptions) or [AppointmentMsgSaveOptions](../../com.aspose.email/appointmentmsgsaveoptions), selects the format. |
 
 ### save(String filePath, int saveFormat) {#save-java.lang.String-int-}
 ```
@@ -853,13 +862,13 @@ public final void save(String filePath, int saveFormat)
 ```
 
 
-Saves appointment to the file with specified format using te default save options
+Saves the appointment to a file in the specified format, with default options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | A file path |
-| saveFormat | int | A save format |
+| filePath | java.lang.String | The path of the file to create. An existing file is overwritten. |
+| saveFormat | int | The format to save in. |
 
 ### setAppointmentClass(int value) {#setAppointmentClass-int-}
 ```
@@ -880,7 +889,7 @@ public final void setAttendees(MailAddressCollection value)
 ```
 
 
-Gets or sets the attendees.
+Sets the attendees of the event, except the optional ones, which are in \#getOptionalAttendees().getOptionalAttendees().
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -893,14 +902,12 @@ public final void setCreatedDate(Date value)
 ```
 
 
-Gets or sets the date and time that calendar information was created.
-
-Value: The java.util.Date that represents creation date and time.
+Sets the date and time the event was created (the iCalendar CREATED property).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.Date |  |
+| value | java.util.Date | The java.util.Date that represents creation date and time. |
 
 ### setDateTimeStamp(Date value) {#setDateTimeStamp-java.util.Date-}
 ```
@@ -908,7 +915,7 @@ public final void setDateTimeStamp(Date value)
 ```
 
 
-Gets or sets date/time that the instance of the iCalendar object was created..
+Sets the date and time the iCalendar object was created (the iCalendar DTSTAMP property).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -921,25 +928,12 @@ public final void setDescription(String value)
 ```
 
 
-Gets or sets the description.
+Sets the plain-text description of the event.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
-
-### setDescriptionHtml(boolean value) {#setDescriptionHtml-boolean-}
-```
-public final void setDescriptionHtml(boolean value)
-```
-
-
-Gets or sets value which indicates if description is in HTML format
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
 
 ### setEndDate(Date value) {#setEndDate-java.util.Date-}
 ```
@@ -947,7 +941,7 @@ public final void setEndDate(Date value)
 ```
 
 
-Gets or sets the end date.
+Sets the end date and time of the event.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -960,7 +954,9 @@ public final void setEndTimeZone(String value)
 ```
 
 
-End time zone
+Sets the time zone of the end of the event.
+
+Accepts an IANA time zone name, such as  America/New\_York , or a Windows time zone ID, such as  Eastern Standard Time .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -973,7 +969,7 @@ public final void setFlags(int value)
 ```
 
 
-Gets or sets appointment flags.
+Sets the flags of the event, such as whether it lasts all day.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -986,7 +982,7 @@ public final void setHtmlDescription(String value)
 ```
 
 
-Gets or sets html representation of description.
+Sets the HTML version of the description.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -999,14 +995,12 @@ public final void setLastModifiedDate(Date value)
 ```
 
 
-Gets or sets the date and time that calendar information was last revised.
-
-Value: The java.util.Date that represents modification date and time.
+Sets the date and time the event was last modified (the iCalendar LAST-MODIFIED property).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.Date |  |
+| value | java.util.Date | The java.util.Date that represents modification date and time. |
 
 ### setLocation(String value) {#setLocation-java.lang.String-}
 ```
@@ -1014,7 +1008,7 @@ public final void setLocation(String value)
 ```
 
 
-Gets or sets the location.
+Sets the location of the event.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1027,7 +1021,7 @@ public final void setMethodType(int value)
 ```
 
 
-Gets or sets the iCalendar object method type associated with the calendar object.
+Sets the iCalendar METHOD of the event, such as a request or a cancellation. The default for a new appointment is  AppointmentMethodType.Request .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1040,7 +1034,7 @@ public final void setMicrosoftBusyStatus(int value)
 ```
 
 
-Specifies the BUSY status of an appointment.
+Sets how the time of the event is shown in the calendar of the organizer, such as busy or free (the X-MICROSOFT-CDO-BUSYSTATUS property).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1053,7 +1047,7 @@ public final void setMicrosoftImportance(int value)
 ```
 
 
-Specifies the importance of an appointment.
+Sets the importance of the event (the X-MICROSOFT-CDO-IMPORTANCE property).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1066,7 +1060,7 @@ public final void setMicrosoftIntendedStatus(int value)
 ```
 
 
-Specifies the INTENDED status of an appointment.
+Sets how the organizer wants attendees to show the time of the meeting, such as busy or free (the X-MICROSOFT-CDO-INTENDEDSTATUS property).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1079,12 +1073,25 @@ public final void setOrganizer(MailAddress value)
 ```
 
 
-Gets or sets the organizer.
+Sets the organizer of the event.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [MailAddress](../../com.aspose.email/mailaddress) |  |
+
+### setProductId(String value) {#setProductId-java.lang.String-}
+```
+public final void setProductId(String value)
+```
+
+
+Sets the identifier of the product that created the event (the iCalendar PRODID property).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setRecurrence(RecurrencePattern value) {#setRecurrence-com.aspose.email.RecurrencePattern-}
 ```
@@ -1092,14 +1099,12 @@ public final void setRecurrence(RecurrencePattern value)
 ```
 
 
-Gets or sets the recurrence pattern.
-
-Value: The recurrence pattern.
+Sets the recurrence pattern of the event, or  null  if it does not repeat.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [RecurrencePattern](../../com.aspose.email/recurrencepattern) |  |
+| value | [RecurrencePattern](../../com.aspose.email/recurrencepattern) | The recurrence pattern. |
 
 ### setStartDate(Date value) {#setStartDate-java.util.Date-}
 ```
@@ -1107,7 +1112,7 @@ public final void setStartDate(Date value)
 ```
 
 
-Gets or sets the start date.
+Sets the start date and time of the event.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1120,7 +1125,9 @@ public final void setStartTimeZone(String value)
 ```
 
 
-Start time zone
+Sets the time zone of the start of the event.
+
+Accepts an IANA time zone name, such as  America/New\_York , or a Windows time zone ID, such as  Eastern Standard Time .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1133,7 +1140,7 @@ public final void setStatus(int value)
 ```
 
 
-Gets or sets the overall status or confirmation for the object.
+Sets the status of the event, such as tentative or confirmed (the iCalendar STATUS property). The default for a new appointment is  AppointmentStatus.Tentative .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1146,7 +1153,7 @@ public final void setSummary(String value)
 ```
 
 
-Gets or sets the summary.
+Sets the summary (subject) of the event.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1159,12 +1166,12 @@ public final void setTimeZone(String tzName)
 ```
 
 
-Set time zone
+Sets both the start and the end time zone of the event.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tzName | java.lang.String | The time zone name, for sample "America/New\_York" |
+| tzName | java.lang.String | An IANA time zone name, such as  America/New\_York , or a Windows time zone ID, such as  Eastern Standard Time . |
 
 ### setTransparency(int value) {#setTransparency-int-}
 ```
@@ -1172,7 +1179,7 @@ public final void setTransparency(int value)
 ```
 
 
-Specifies whether or not this appointment is intended to be visible in availability searches.
+Sets whether the event blocks time in free/busy searches (the iCalendar TRANSP property). The default for a new appointment is  AppointmentTransparency.Opaque .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1185,14 +1192,12 @@ public final void setUniqueId(String value)
 ```
 
 
-Gets or sets a string value that contains the GUID for the calendar item. In MS Exchange this is PidLidGlobalObjectId mapi property.
-
-Value: The unique id.
+Sets the unique identifier of the event (the iCalendar UID property). In Microsoft Exchange it corresponds to the PidLidGlobalObjectId MAPI property.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The unique id. |
 
 ### toMailMessage() {#toMailMessage--}
 ```
@@ -1200,51 +1205,55 @@ public final MailMessage toMailMessage()
 ```
 
 
-Converts ICalendar item (.ics) to MIME (.eml) message.
+Creates an email message that carries this appointment as a meeting request.
+
+The METHOD is taken from \#getMethodType().getMethodType(), or is REQUEST when that is  AppointmentMethodType.None ; the sequence number is 0.
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) that represents email in MIME format.
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) that carries the event as a text/calendar alternate view.
 ### toMailMessage(int action) {#toMailMessage-int-}
 ```
 public final MailMessage toMailMessage(int action)
 ```
 
 
-Converts ICalendar item (.ics) to MIME (.eml) message.
+Creates an email message that carries this appointment as a meeting request, update or cancellation.
+
+The sequence number is 0 for a request, 1 for an update and 2 for a cancellation.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| action | int | An [AppointmentAction](../../com.aspose.email/appointmentaction) parameter. |
+| action | int | Whether the message requests, updates or cancels the meeting (an [AppointmentAction](../../com.aspose.email/appointmentaction) value). |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage)
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) that carries the event as a text/calendar alternate view.
 ### toMailMessage(int action, int seqId) {#toMailMessage-int-int-}
 ```
 public final MailMessage toMailMessage(int action, int seqId)
 ```
 
 
-Converts ICalendar item (.ics) to MIME (.eml) message.
+Creates an email message that carries this appointment as a meeting request, update or cancellation.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| action | int | An [AppointmentAction](../../com.aspose.email/appointmentaction) parameter. |
-| seqId | int | The sequence id. Defines the revision sequence number of the calendar component within a sequence of revisions. |
+| action | int | Whether the message requests, updates or cancels the meeting (an [AppointmentAction](../../com.aspose.email/appointmentaction) value). |
+| seqId | int | The sequence number (the iCalendar SEQUENCE property): the revision of the event within a sequence of updates. |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage)
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) that carries the event as a text/calendar alternate view.
 ### toMapiMessage() {#toMapiMessage--}
 ```
 public final MapiMessage toMapiMessage()
 ```
 
 
-Converts ICalendar item (.ics) to MAPI (.msg) message.
+Converts the appointment to an Outlook message, which can then be saved as an .msg file.
 
 **Returns:**
-[MapiMessage](../../com.aspose.email/mapimessage) - 
+[MapiMessage](../../com.aspose.email/mapimessage) - A [MapiMessage](../../com.aspose.email/mapimessage) that represents the appointment.
 ### toString() {#toString--}
 ```
 public String toString()
@@ -1261,25 +1270,27 @@ public final AlternateView updateAppointment()
 ```
 
 
-Updates the appointment.
+Creates an update of this meeting to send to its attendees.
+
+The update gets sequence number 1. Use the overload with a sequence number to set it explicitly.
 
 **Returns:**
-[AlternateView](../../com.aspose.email/alternateview) - AlternateView[AlternateView](../../com.aspose.email/alternateview) that represents the format to view an email message.
+[AlternateView](../../com.aspose.email/alternateview) - An [AlternateView](../../com.aspose.email/alternateview) with the iCalendar data (text/calendar) to add to a [MailMessage](../../com.aspose.email/mailmessage).
 ### updateAppointment(int seqId) {#updateAppointment-int-}
 ```
 public final AlternateView updateAppointment(int seqId)
 ```
 
 
-Updates the appointment.
+Creates an update of this meeting with the specified sequence number.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| seqId | int | The sequence id. |
+| seqId | int | The sequence number to write (the iCalendar SEQUENCE property). |
 
 **Returns:**
-[AlternateView](../../com.aspose.email/alternateview) - AlternateView[AlternateView](../../com.aspose.email/alternateview) that represents the format to view an email message.
+[AlternateView](../../com.aspose.email/alternateview) - An [AlternateView](../../com.aspose.email/alternateview) with the iCalendar data (text/calendar) to add to a [MailMessage](../../com.aspose.email/mailmessage).
 ### wait() {#wait--}
 ```
 public final void wait()

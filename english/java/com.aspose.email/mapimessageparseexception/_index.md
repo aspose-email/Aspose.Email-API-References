@@ -1,9 +1,9 @@
 ---
 title: MapiMessageParseException
 second_title: Aspose.Email for Java API Reference
-description: This exception is thrown when errors occur in parsing MapiMessage.
+description: The exception that is thrown when a message cannot be parsed.
 type: docs
-weight: 469
+weight: 472
 url: /java/com.aspose.email/mapimessageparseexception/
 ---
 
@@ -13,14 +13,14 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class MapiMessageParseException extends System.Exception
 ```
 
-This exception is thrown when errors occur in parsing MapiMessage.
+The exception that is thrown when a message cannot be parsed.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
 | [MapiMessageParseException()](#MapiMessageParseException--) | Initializes a new instance of the MapiMessageParseException class. |
-| [MapiMessageParseException(String message)](#MapiMessageParseException-java.lang.String-) | Initializes a new instance of the MapiMessageParseException class. |
-| [MapiMessageParseException(String message, Throwable innerException)](#MapiMessageParseException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the MapiMessageParseException class. |
+| [MapiMessageParseException(String message)](#MapiMessageParseException-java.lang.String-) | Initializes a new instance of the [MapiMessageParseException](../../com.aspose.email/mapimessageparseexception) class with the specified error message. |
+| [MapiMessageParseException(String message, Throwable innerException)](#MapiMessageParseException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the [MapiMessageParseException](../../com.aspose.email/mapimessageparseexception) class with the specified error message and the exception that caused it. |
 ## Methods
 
 | Method | Description |
@@ -62,12 +62,12 @@ public MapiMessageParseException(String message)
 ```
 
 
-Initializes a new instance of the MapiMessageParseException class.
+Initializes a new instance of the [MapiMessageParseException](../../com.aspose.email/mapimessageparseexception) class with the specified error message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The error message. |
+| message | java.lang.String | The message that describes the error. |
 
 ### MapiMessageParseException(String message, Throwable innerException) {#MapiMessageParseException-java.lang.String-java.lang.Throwable-}
 ```
@@ -75,13 +75,13 @@ public MapiMessageParseException(String message, Throwable innerException)
 ```
 
 
-Initializes a new instance of the MapiMessageParseException class.
+Initializes a new instance of the [MapiMessageParseException](../../com.aspose.email/mapimessageparseexception) class with the specified error message and the exception that caused it.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The error message. |
-| innerException | java.lang.Throwable | The inner exception. |
+| message | java.lang.String | The message that describes the error. |
+| innerException | java.lang.Throwable | The exception that caused this one. |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```

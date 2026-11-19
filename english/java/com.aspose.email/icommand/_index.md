@@ -3,7 +3,7 @@ title: ICommand
 second_title: Aspose.Email for Java API Reference
 description: Defines a command.
 type: docs
-weight: 318
+weight: 321
 url: /java/com.aspose.email/icommand/
 ---
 

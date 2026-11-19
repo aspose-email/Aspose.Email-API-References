@@ -1,43 +1,46 @@
 ---
 title: VCardFullName
 second_title: Aspose.Email for Java API Reference
-description: Represents vCard contact full name N property
+description: Represents vCard contact full name N property.
 type: docs
-weight: 740
+weight: 750
 url: /java/com.aspose.email/vcardfullname/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.email.VCardHeaderInfo](../../com.aspose.email/vcardheaderinfo)
 ```
-public final class VCardFullName
+public final class VCardFullName extends VCardHeaderInfo
 ```
 
-Represents vCard contact full name (N property)
+Represents vCard contact full name (N property).
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [VCardFullName()](#VCardFullName--) | Initializes a new instance of the [VCardFullName](../../com.aspose.email/vcardfullname) class |
+| [VCardFullName()](#VCardFullName--) | Initializes a new instance of the [VCardFullName](../../com.aspose.email/vcardfullname) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getFamilyName()](#getFamilyName--) | Gets or sets a family name |
-| [getGivenName()](#getGivenName--) | Gets or sets a given name |
-| [getHonorificPostfixes()](#getHonorificPostfixes--) | Gets or sets a honorific postfixes |
-| [getHonorificPrefixes()](#getHonorificPrefixes--) | Gets or sets a honorific prefixes |
-| [getMiddleName()](#getMiddleName--) | Gets or sets a middle name |
+| [getFamilyName()](#getFamilyName--) | Gets a family name. |
+| [getGivenName()](#getGivenName--) | Gets a given name. |
+| [getHonorificPostfixes()](#getHonorificPostfixes--) | Gets a honorific postfixes. |
+| [getHonorificPrefixes()](#getHonorificPrefixes--) | Gets a honorific prefixes. |
+| [getMiddleName()](#getMiddleName--) | Gets a middle name. |
+| [getParameters()](#getParameters--) | Gets a property parameters. |
+| [getValueLocation()](#getValueLocation--) | Gets a value location. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFamilyName(String value)](#setFamilyName-java.lang.String-) | Gets or sets a family name |
-| [setGivenName(String value)](#setGivenName-java.lang.String-) | Gets or sets a given name |
-| [setHonorificPostfixes(String value)](#setHonorificPostfixes-java.lang.String-) | Gets or sets a honorific postfixes |
-| [setHonorificPrefixes(String value)](#setHonorificPrefixes-java.lang.String-) | Gets or sets a honorific prefixes |
-| [setMiddleName(String value)](#setMiddleName-java.lang.String-) | Gets or sets a middle name |
+| [setFamilyName(String value)](#setFamilyName-java.lang.String-) | Sets a family name. |
+| [setGivenName(String value)](#setGivenName-java.lang.String-) | Sets a given name. |
+| [setHonorificPostfixes(String value)](#setHonorificPostfixes-java.lang.String-) | Sets a honorific postfixes. |
+| [setHonorificPrefixes(String value)](#setHonorificPrefixes-java.lang.String-) | Sets a honorific prefixes. |
+| [setMiddleName(String value)](#setMiddleName-java.lang.String-) | Sets a middle name. |
+| [setValueLocation(int value)](#setValueLocation-int-) | Sets a value location. |
 | [toString()](#toString--) | Returns a string that represents the current object. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,7 +51,7 @@ public VCardFullName()
 ```
 
 
-Initializes a new instance of the [VCardFullName](../../com.aspose.email/vcardfullname) class
+Initializes a new instance of the [VCardFullName](../../com.aspose.email/vcardfullname) class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -81,7 +84,7 @@ public final String getFamilyName()
 ```
 
 
-Gets or sets a family name
+Gets a family name.
 
 **Returns:**
 java.lang.String
@@ -91,7 +94,7 @@ public final String getGivenName()
 ```
 
 
-Gets or sets a given name
+Gets a given name.
 
 **Returns:**
 java.lang.String
@@ -101,7 +104,7 @@ public final String getHonorificPostfixes()
 ```
 
 
-Gets or sets a honorific postfixes
+Gets a honorific postfixes.
 
 **Returns:**
 java.lang.String
@@ -111,7 +114,7 @@ public final String getHonorificPrefixes()
 ```
 
 
-Gets or sets a honorific prefixes
+Gets a honorific prefixes.
 
 **Returns:**
 java.lang.String
@@ -121,10 +124,30 @@ public final String getMiddleName()
 ```
 
 
-Gets or sets a middle name
+Gets a middle name.
 
 **Returns:**
 java.lang.String
+### getParameters() {#getParameters--}
+```
+public final List<String> getParameters()
+```
+
+
+Gets a property parameters.
+
+**Returns:**
+java.util.List<java.lang.String>
+### getValueLocation() {#getValueLocation--}
+```
+public final int getValueLocation()
+```
+
+
+Gets a value location.
+
+**Returns:**
+int
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -157,7 +180,7 @@ public final void setFamilyName(String value)
 ```
 
 
-Gets or sets a family name
+Sets a family name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -170,7 +193,7 @@ public final void setGivenName(String value)
 ```
 
 
-Gets or sets a given name
+Sets a given name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -183,7 +206,7 @@ public final void setHonorificPostfixes(String value)
 ```
 
 
-Gets or sets a honorific postfixes
+Sets a honorific postfixes.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -196,7 +219,7 @@ public final void setHonorificPrefixes(String value)
 ```
 
 
-Gets or sets a honorific prefixes
+Sets a honorific prefixes.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -209,12 +232,25 @@ public final void setMiddleName(String value)
 ```
 
 
-Gets or sets a middle name
+Sets a middle name.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setValueLocation(int value) {#setValueLocation-int-}
+```
+public final void setValueLocation(int value)
+```
+
+
+Sets a value location.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### toString() {#toString--}
 ```

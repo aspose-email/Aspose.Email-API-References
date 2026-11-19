@@ -3,7 +3,7 @@ title: MessageValidationResult
 second_title: Aspose.Email for Java API Reference
 description: Represents the result of message validation.
 type: docs
-weight: 537
+weight: 540
 url: /java/com.aspose.email/messagevalidationresult/
 ---
 
@@ -24,7 +24,7 @@ Represents the result of message validation.
 | [getErrors()](#getErrors--) | Gets the collection of errors. |
 | [getFormatType()](#getFormatType--) | Gets the format of source file or stream. |
 | [hashCode()](#hashCode--) |  |
-| [isSuccess()](#isSuccess--) | Gets the result of validation true if successful, otherwise false. |
+| [isSuccess()](#isSuccess--) | Gets the result of validation  true  if successful, otherwise  false . |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -102,7 +102,7 @@ public final boolean isSuccess()
 ```
 
 
-Gets the result of validation true if successful, otherwise false.
+Gets the result of validation  true  if successful, otherwise  false .
 
 **Returns:**
 boolean

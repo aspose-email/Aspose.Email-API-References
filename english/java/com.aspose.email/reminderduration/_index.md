@@ -1,9 +1,9 @@
 ---
 title: ReminderDuration
 second_title: Aspose.Email for Java API Reference
-description: Used to identify properties that contain a duration of time.
+description: A length of time used by a reminder trigger or as a repetition interval.
 type: docs
-weight: 629
+weight: 634
 url: /java/com.aspose.email/reminderduration/
 ---
 
@@ -13,19 +13,19 @@ java.lang.Object
 public class ReminderDuration
 ```
 
-Used to identify properties that contain a duration of time.
+A length of time used by a reminder trigger or as a repetition interval.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ReminderDuration(double duration)](#ReminderDuration-double-) | Initialize a new instance of [ReminderDuration](../../com.aspose.email/reminderduration) class. |
+| [ReminderDuration(double duration)](#ReminderDuration-double-) | Initializes a new instance of the [ReminderDuration](../../com.aspose.email/reminderduration) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDuration()](#getDuration--) | Duration of time. |
+| [getDuration()](#getDuration--) | Gets the length of time. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -39,12 +39,12 @@ public ReminderDuration(double duration)
 ```
 
 
-Initialize a new instance of [ReminderDuration](../../com.aspose.email/reminderduration) class.
+Initializes a new instance of the [ReminderDuration](../../com.aspose.email/reminderduration) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| duration | double | Duration of time. |
+| duration | double | The length of time; negative for a time before the event. Only whole days, hours, minutes and seconds are kept. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -77,7 +77,7 @@ public final double getDuration()
 ```
 
 
-Duration of time.
+Gets the length of time. A negative value means a time before the start or end of the event.
 
 **Returns:**
 double

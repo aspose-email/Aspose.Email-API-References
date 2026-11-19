@@ -1,9 +1,9 @@
 ---
 title: MessageFormat
 second_title: Aspose.Email for Java API Reference
-description: Represents the mail message format.It can be in emlmsg or mhtml format.
+description: Defines the formats a message can be loaded from.
 type: docs
-weight: 515
+weight: 518
 url: /java/com.aspose.email/messageformat/
 ---
 
@@ -13,23 +13,23 @@ java.lang.Object
 public final class MessageFormat
 ```
 
-Represents the mail message format.It can be in eml,msg or mhtml format.
+Defines the formats a message can be loaded from.
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object obj)](#equals-java.lang.Object-) | Equalses the specified o. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is the same format. |
 | [getClass()](#getClass--) |  |
-| [getEml()](#getEml--) | Indicates message in  **Eml**  format. |
-| [getEmlx()](#getEmlx--) | Indicates message in  **Emlx**  format, used by Apple Mail. |
-| [getHtml()](#getHtml--) | Indicates message in  **Html**  format. |
-| [getMht()](#getMht--) | Indicates message in  **Mht**  format. |
-| [getMsg()](#getMsg--) | Indicates message in  **Msg**  format, used by Microsoft Outlook. |
-| [getTnef()](#getTnef--) | Indicates message in  **Tnef**  format. |
-| [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
+| [getEml()](#getEml--) | Gets the EML (MIME) format. |
+| [getEmlx()](#getEmlx--) | Gets the EMLX format of Apple Mail. |
+| [getHtml()](#getHtml--) | Gets the HTML format. |
+| [getMht()](#getMht--) | Gets the MHTML (web archive) format. |
+| [getMsg()](#getMsg--) | Gets the Outlook MSG format. |
+| [getTnef()](#getTnef--) | Gets the TNEF format (winmail.dat). |
+| [hashCode()](#hashCode--) | Returns the hash code of the format. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Returns a String that represents the current Object. |
+| [toString()](#toString--) | Returns the name of the format. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -39,15 +39,15 @@ public boolean equals(Object obj)
 ```
 
 
-Equalses the specified o.
+Determines whether the specified object is the same format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | An object to compare |
+| obj | java.lang.Object | The object to compare with. |
 
 **Returns:**
-boolean - Returns true if objects are an equal, otherwise returns false.
+boolean -  true  if the formats are equal; otherwise,  false .
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -64,7 +64,7 @@ public static MessageFormat getEml()
 ```
 
 
-Indicates message in  **Eml**  format.
+Gets the EML (MIME) format.
 
 **Returns:**
 [MessageFormat](../../com.aspose.email/messageformat)
@@ -74,7 +74,7 @@ public static MessageFormat getEmlx()
 ```
 
 
-Indicates message in  **Emlx**  format, used by Apple Mail.
+Gets the EMLX format of Apple Mail.
 
 **Returns:**
 [MessageFormat](../../com.aspose.email/messageformat)
@@ -84,7 +84,7 @@ public static MessageFormat getHtml()
 ```
 
 
-Indicates message in  **Html**  format.
+Gets the HTML format.
 
 **Returns:**
 [MessageFormat](../../com.aspose.email/messageformat)
@@ -94,7 +94,7 @@ public static MessageFormat getMht()
 ```
 
 
-Indicates message in  **Mht**  format.
+Gets the MHTML (web archive) format.
 
 **Returns:**
 [MessageFormat](../../com.aspose.email/messageformat)
@@ -104,7 +104,7 @@ public static MessageFormat getMsg()
 ```
 
 
-Indicates message in  **Msg**  format, used by Microsoft Outlook.
+Gets the Outlook MSG format.
 
 **Returns:**
 [MessageFormat](../../com.aspose.email/messageformat)
@@ -114,7 +114,7 @@ public static MessageFormat getTnef()
 ```
 
 
-Indicates message in  **Tnef**  format.
+Gets the TNEF format (winmail.dat).
 
 **Returns:**
 [MessageFormat](../../com.aspose.email/messageformat)
@@ -124,10 +124,10 @@ public int hashCode()
 ```
 
 
-Serves as a hash function for a particular type.
+Returns the hash code of the format.
 
 **Returns:**
-int - A hash code for the current Object.
+int - The hash code.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -150,10 +150,10 @@ public String toString()
 ```
 
 
-Returns a String that represents the current Object.
+Returns the name of the format.
 
 **Returns:**
-java.lang.String - A String that represents the current Object.
+java.lang.String - The name of the format.
 ### wait() {#wait--}
 ```
 public final void wait()

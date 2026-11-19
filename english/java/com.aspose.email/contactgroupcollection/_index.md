@@ -3,7 +3,7 @@ title: ContactGroupCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents collection of GmailContactGroup objects
 type: docs
-weight: 121
+weight: 122
 url: /java/com.aspose.email/contactgroupcollection/
 ---
 

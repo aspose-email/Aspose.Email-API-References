@@ -3,7 +3,7 @@ title: ExtendedPropertiesComparisonField
 second_title: Aspose.Email for Java API Reference
 description: Defines dictionary with pairs of property descriptors and comparison field to search by extended properties
 type: docs
-weight: 239
+weight: 242
 url: /java/com.aspose.email/extendedpropertiescomparisonfield/
 ---
 
@@ -106,7 +106,7 @@ Sets value which indicates if client uses ascending or descending sorting on the
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ascending | boolean | Set true if you want to use ascending sorting, otherwise set false. |
+| ascending | boolean | Set  true  if you want to use ascending sorting, otherwise set  false . |
 
 ### toString() {#toString--}
 ```

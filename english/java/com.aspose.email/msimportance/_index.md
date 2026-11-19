@@ -1,9 +1,9 @@
 ---
 title: MSImportance
 second_title: Aspose.Email for Java API Reference
-description: Specifies the importance of an appointment.
+description: Defines the importance of an event as used by Microsoft Outlook and Exchange the X-MICROSOFT-CDO-IMPORTANCE property.
 type: docs
-weight: 380
+weight: 383
 url: /java/com.aspose.email/msimportance/
 ---
 
@@ -13,16 +13,16 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MSImportance extends System.Enum
 ```
 
-Specifies the importance of an appointment.
+Defines the importance of an event, as used by Microsoft Outlook and Exchange (the X-MICROSOFT-CDO-IMPORTANCE property).
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [High](#High) | High |
-| [Low](#Low) | Low |
-| [Normal](#Normal) | Normal |
-| [NotDefined](#NotDefined) | Property is not set |
+| [High](#High) | High importance. |
+| [Low](#Low) | Low importance. |
+| [Normal](#Normal) | Normal importance. |
+| [NotDefined](#NotDefined) | The importance is not set. |
 ## Methods
 
 | Method | Description |
@@ -74,7 +74,7 @@ public static final int High
 ```
 
 
-High
+High importance.
 
 ### Low {#Low}
 ```
@@ -82,7 +82,7 @@ public static final int Low
 ```
 
 
-Low
+Low importance.
 
 ### Normal {#Normal}
 ```
@@ -90,7 +90,7 @@ public static final int Normal
 ```
 
 
-Normal
+Normal importance.
 
 ### NotDefined {#NotDefined}
 ```
@@ -98,7 +98,7 @@ public static final int NotDefined
 ```
 
 
-Property is not set
+The importance is not set.
 
 ### Clone() {#Clone--}
 ```

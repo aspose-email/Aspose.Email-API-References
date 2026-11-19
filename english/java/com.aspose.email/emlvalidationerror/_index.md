@@ -1,9 +1,9 @@
 ---
 title: EmlValidationError
 second_title: Aspose.Email for Java API Reference
-description: Represents the eml validation error information.
+description: An error found in the MIME structure of a message.
 type: docs
-weight: 174
+weight: 177
 url: /java/com.aspose.email/emlvalidationerror/
 ---
 
@@ -13,16 +13,16 @@ java.lang.Object
 public final class EmlValidationError
 ```
 
-Represents the eml validation error information.
+An error found in the MIME structure of a message.
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getErrorMessage()](#getErrorMessage--) | Gets an error message. |
-| [getErrorType()](#getErrorType--) | Gets a type of error. |
-| [getLineNumber()](#getLineNumber--) | Gets a number of line where error was found. |
+| [getErrorMessage()](#getErrorMessage--) | Gets the description of the error. |
+| [getErrorType()](#getErrorType--) | Gets the type of the error. |
+| [getLineNumber()](#getLineNumber--) | Gets the number of the line where the error was found. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -61,7 +61,7 @@ public final String getErrorMessage()
 ```
 
 
-Gets an error message.
+Gets the description of the error.
 
 **Returns:**
 java.lang.String
@@ -71,7 +71,7 @@ public final int getErrorType()
 ```
 
 
-Gets a type of error.
+Gets the type of the error.
 
 **Returns:**
 int
@@ -81,7 +81,7 @@ public final int getLineNumber()
 ```
 
 
-Gets a number of line where error was found.
+Gets the number of the line where the error was found.
 
 **Returns:**
 int

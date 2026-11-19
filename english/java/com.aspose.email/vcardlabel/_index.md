@@ -3,7 +3,7 @@ title: VCardLabel
 second_title: Aspose.Email for Java API Reference
 description: To specify the formatted text corresponding to delivery address of the object the vCard represents.
 type: docs
-weight: 743
+weight: 754
 url: /java/com.aspose.email/vcardlabel/
 ---
 
@@ -19,14 +19,14 @@ To specify the formatted text corresponding to delivery address of the object th
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAddress()](#getAddress--) | To specify the formatted text corresponding to delivery address of the object the vCard represents. |
-| [getAddressType()](#getAddressType--) | Gets or sets an address type |
+| [getAddress()](#getAddress--) | Gets to specify the formatted text corresponding to delivery address of the object the vCard represents. |
+| [getAddressType()](#getAddressType--) | Gets an address type. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAddress(String value)](#setAddress-java.lang.String-) | To specify the formatted text corresponding to delivery address of the object the vCard represents. |
-| [setAddressType(int value)](#setAddressType-int-) | Gets or sets an address type |
+| [setAddress(String value)](#setAddress-java.lang.String-) | Sets to specify the formatted text corresponding to delivery address of the object the vCard represents. |
+| [setAddressType(int value)](#setAddressType-int-) | Sets an address type. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -52,7 +52,7 @@ public final String getAddress()
 ```
 
 
-To specify the formatted text corresponding to delivery address of the object the vCard represents.
+Gets to specify the formatted text corresponding to delivery address of the object the vCard represents.
 
 **Returns:**
 java.lang.String
@@ -62,7 +62,7 @@ public final int getAddressType()
 ```
 
 
-Gets or sets an address type
+Gets an address type.
 
 **Returns:**
 int
@@ -108,7 +108,7 @@ public final void setAddress(String value)
 ```
 
 
-To specify the formatted text corresponding to delivery address of the object the vCard represents.
+Sets to specify the formatted text corresponding to delivery address of the object the vCard represents.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,7 +121,7 @@ public final void setAddressType(int value)
 ```
 
 
-Gets or sets an address type
+Sets an address type.
 
 **Parameters:**
 | Parameter | Type | Description |

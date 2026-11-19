@@ -1,9 +1,9 @@
 ---
 title: KnownPropertySets
 second_title: Aspose.Email for Java API Reference
-description: MS-OXCDATA Commonly Used Property Sets
+description: The GUIDs of the commonly used property sets as listed in MS-OXCDATA.
 type: docs
-weight: 363
+weight: 366
 url: /java/com.aspose.email/knownpropertysets/
 ---
 
@@ -13,7 +13,9 @@ java.lang.Object
 public class KnownPropertySets
 ```
 
-[MS-OXCDATA]: Commonly Used Property Sets
+The GUIDs of the commonly used property sets, as listed in [MS-OXCDATA]. A property set GUID together with a name or numeric ID identifies a named property.
+
+Use these GUIDs with [PidLidPropertyDescriptor](../../com.aspose.email/pidlidpropertydescriptor) and [PidNamePropertyDescriptor](../../com.aspose.email/pidnamepropertydescriptor) to describe a named property. The descriptors of the known named properties are already defined in [KnownPropertyList](../../com.aspose.email/knownpropertylist).
 ## Constructors
 
 | Constructor | Description |
@@ -23,24 +25,24 @@ public class KnownPropertySets
 
 | Field | Description |
 | --- | --- |
-| [ADDRESS](#ADDRESS) | Area name: Contact Property set name: PSETID\_Address |
-| [AIR_SYNC](#AIR-SYNC) | Area name: Sync Property set name: PSETID\_AirSync |
-| [APPOINTMENT](#APPOINTMENT) | Area name: Calendar Property set name: PSETID\_Appointment |
-| [ATTACHMENT](#ATTACHMENT) | Area name: Message attachment Property set name: PSETID\_Attachment |
-| [CALENDAR_ASSISTANT](#CALENDAR-ASSISTANT) | Area name: Calendar Property set name: PSETID\_CalendarAssistant |
-| [COMMON](#COMMON) | Area name: Common Property set name: PSETID\_Common |
-| [ENTITIES](#ENTITIES) | Area name: Extracted entities Property set name: PSETID\_XmlExtractedEntities |
-| [INTERNET_HEADERS](#INTERNET-HEADERS) | Area name: Email Property set name: PS\_INTERNET\_HEADERS |
-| [LOG](#LOG) | Area name: Journal Property set name: PSETID\_Log |
-| [MAPI](#MAPI) | Area name: Common Property set name: PS\_MAPI |
-| [MEETING](#MEETING) | Area name: Calendar Property set name: PSETID\_Meeting |
-| [MESSAGING](#MESSAGING) | Area name: Messaging Property set name: PSETID\_Messaging |
-| [NOTE](#NOTE) | Area name: Sticky note Property set name: PSETID\_Note |
-| [POST_RSS](#POST-RSS) | Area name: RSS feed Property set name: PSETID\_PostRss |
-| [PUBLIC_STRINGS](#PUBLIC-STRINGS) | Area name: Common Property set name: PS\_PUBLIC\_STRINGS |
-| [SHARING](#SHARING) | Area name: Sharing Property set name: PSETID\_Sharing |
-| [TASK](#TASK) | Area name: Task Property set name: PSETID\_Task |
-| [UNIFIED_MESSAGING](#UNIFIED-MESSAGING) | Area name: Unified messaging Property set name: PSETID\_UnifiedMessaging |
+| [ADDRESS](#ADDRESS) | The  PSETID\_Address  property set: contact properties. |
+| [AIR_SYNC](#AIR-SYNC) | The  PSETID\_AirSync  property set: Exchange ActiveSync synchronization properties. |
+| [APPOINTMENT](#APPOINTMENT) | The  PSETID\_Appointment  property set: calendar (appointment) properties. |
+| [ATTACHMENT](#ATTACHMENT) | The  PSETID\_Attachment  property set: attachment properties. |
+| [CALENDAR_ASSISTANT](#CALENDAR-ASSISTANT) | The  PSETID\_CalendarAssistant  property set: calendar assistant properties. |
+| [COMMON](#COMMON) | The  PSETID\_Common  property set: properties common to all item types, such as reminders and flags. |
+| [ENTITIES](#ENTITIES) | The  PSETID\_XmlExtractedEntities  property set: entities extracted from the message text. |
+| [INTERNET_HEADERS](#INTERNET-HEADERS) | The  PS\_INTERNET\_HEADERS  property set: Internet message headers stored as named properties. |
+| [LOG](#LOG) | The  PSETID\_Log  property set: journal properties. |
+| [MAPI](#MAPI) | The  PS\_MAPI  property set: tagged properties addressed as named properties. |
+| [MEETING](#MEETING) | The  PSETID\_Meeting  property set: meeting request and response properties. |
+| [MESSAGING](#MESSAGING) | The  PSETID\_Messaging  property set: messaging properties. |
+| [NOTE](#NOTE) | The  PSETID\_Note  property set: sticky note properties. |
+| [POST_RSS](#POST-RSS) | The  PSETID\_PostRss  property set: RSS feed item properties. |
+| [PUBLIC_STRINGS](#PUBLIC-STRINGS) | The  PS\_PUBLIC\_STRINGS  property set: common named properties, such as Keywords (the categories). |
+| [SHARING](#SHARING) | The  PSETID\_Sharing  property set: sharing properties. |
+| [TASK](#TASK) | The  PSETID\_Task  property set: task properties. |
+| [UNIFIED_MESSAGING](#UNIFIED-MESSAGING) | The  PSETID\_UnifiedMessaging  property set: unified messaging (voice mail and fax) properties. |
 ## Methods
 
 | Method | Description |
@@ -66,7 +68,7 @@ public static final System.Guid ADDRESS
 ```
 
 
-Area name: Contact Property set name: PSETID\_Address
+The  PSETID\_Address  property set: contact properties.
 
 ### AIR_SYNC {#AIR-SYNC}
 ```
@@ -74,7 +76,7 @@ public static final System.Guid AIR_SYNC
 ```
 
 
-Area name: Sync Property set name: PSETID\_AirSync
+The  PSETID\_AirSync  property set: Exchange ActiveSync synchronization properties.
 
 ### APPOINTMENT {#APPOINTMENT}
 ```
@@ -82,7 +84,7 @@ public static final System.Guid APPOINTMENT
 ```
 
 
-Area name: Calendar Property set name: PSETID\_Appointment
+The  PSETID\_Appointment  property set: calendar (appointment) properties.
 
 ### ATTACHMENT {#ATTACHMENT}
 ```
@@ -90,7 +92,7 @@ public static final System.Guid ATTACHMENT
 ```
 
 
-Area name: Message attachment Property set name: PSETID\_Attachment
+The  PSETID\_Attachment  property set: attachment properties.
 
 ### CALENDAR_ASSISTANT {#CALENDAR-ASSISTANT}
 ```
@@ -98,7 +100,7 @@ public static final System.Guid CALENDAR_ASSISTANT
 ```
 
 
-Area name: Calendar Property set name: PSETID\_CalendarAssistant
+The  PSETID\_CalendarAssistant  property set: calendar assistant properties.
 
 ### COMMON {#COMMON}
 ```
@@ -106,7 +108,7 @@ public static final System.Guid COMMON
 ```
 
 
-Area name: Common Property set name: PSETID\_Common
+The  PSETID\_Common  property set: properties common to all item types, such as reminders and flags.
 
 ### ENTITIES {#ENTITIES}
 ```
@@ -114,7 +116,7 @@ public static final System.Guid ENTITIES
 ```
 
 
-Area name: Extracted entities Property set name: PSETID\_XmlExtractedEntities
+The  PSETID\_XmlExtractedEntities  property set: entities extracted from the message text.
 
 ### INTERNET_HEADERS {#INTERNET-HEADERS}
 ```
@@ -122,7 +124,7 @@ public static final System.Guid INTERNET_HEADERS
 ```
 
 
-Area name: Email Property set name: PS\_INTERNET\_HEADERS
+The  PS\_INTERNET\_HEADERS  property set: Internet message headers stored as named properties.
 
 ### LOG {#LOG}
 ```
@@ -130,7 +132,7 @@ public static final System.Guid LOG
 ```
 
 
-Area name: Journal Property set name: PSETID\_Log
+The  PSETID\_Log  property set: journal properties.
 
 ### MAPI {#MAPI}
 ```
@@ -138,7 +140,7 @@ public static final System.Guid MAPI
 ```
 
 
-Area name: Common Property set name: PS\_MAPI
+The  PS\_MAPI  property set: tagged properties addressed as named properties.
 
 ### MEETING {#MEETING}
 ```
@@ -146,7 +148,7 @@ public static final System.Guid MEETING
 ```
 
 
-Area name: Calendar Property set name: PSETID\_Meeting
+The  PSETID\_Meeting  property set: meeting request and response properties.
 
 ### MESSAGING {#MESSAGING}
 ```
@@ -154,7 +156,7 @@ public static final System.Guid MESSAGING
 ```
 
 
-Area name: Messaging Property set name: PSETID\_Messaging
+The  PSETID\_Messaging  property set: messaging properties.
 
 ### NOTE {#NOTE}
 ```
@@ -162,7 +164,7 @@ public static final System.Guid NOTE
 ```
 
 
-Area name: Sticky note Property set name: PSETID\_Note
+The  PSETID\_Note  property set: sticky note properties.
 
 ### POST_RSS {#POST-RSS}
 ```
@@ -170,7 +172,7 @@ public static final System.Guid POST_RSS
 ```
 
 
-Area name: RSS feed Property set name: PSETID\_PostRss
+The  PSETID\_PostRss  property set: RSS feed item properties.
 
 ### PUBLIC_STRINGS {#PUBLIC-STRINGS}
 ```
@@ -178,7 +180,7 @@ public static final System.Guid PUBLIC_STRINGS
 ```
 
 
-Area name: Common Property set name: PS\_PUBLIC\_STRINGS
+The  PS\_PUBLIC\_STRINGS  property set: common named properties, such as Keywords (the categories).
 
 ### SHARING {#SHARING}
 ```
@@ -186,7 +188,7 @@ public static final System.Guid SHARING
 ```
 
 
-Area name: Sharing Property set name: PSETID\_Sharing
+The  PSETID\_Sharing  property set: sharing properties.
 
 ### TASK {#TASK}
 ```
@@ -194,7 +196,7 @@ public static final System.Guid TASK
 ```
 
 
-Area name: Task Property set name: PSETID\_Task
+The  PSETID\_Task  property set: task properties.
 
 ### UNIFIED_MESSAGING {#UNIFIED-MESSAGING}
 ```
@@ -202,7 +204,7 @@ public static final System.Guid UNIFIED_MESSAGING
 ```
 
 
-Area name: Unified messaging Property set name: PSETID\_UnifiedMessaging
+The  PSETID\_UnifiedMessaging  property set: unified messaging (voice mail and fax) properties.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

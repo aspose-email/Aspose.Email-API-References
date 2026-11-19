@@ -3,7 +3,7 @@ title: MessageObjectRecipientEntity
 second_title: Aspose.Email for Java API Reference
 description: Represens a recipient entry in message object.
 type: docs
-weight: 527
+weight: 530
 url: /java/com.aspose.email/messageobjectrecipiententity/
 ---
 
@@ -77,10 +77,8 @@ public final MessageObjectPropertiesCollection getProperties()
 
 Gets the properties set on the recipient.
 
-Value: The properties.
-
 **Returns:**
-[MessageObjectPropertiesCollection](../../com.aspose.email/messageobjectpropertiescollection)
+[MessageObjectPropertiesCollection](../../com.aspose.email/messageobjectpropertiescollection) - The properties.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

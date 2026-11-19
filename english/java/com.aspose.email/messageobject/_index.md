@@ -3,7 +3,7 @@ title: MessageObject
 second_title: Aspose.Email for Java API Reference
 description: Represents an Outlook message object.
 type: docs
-weight: 521
+weight: 524
 url: /java/com.aspose.email/messageobject/
 ---
 
@@ -65,15 +65,13 @@ public MessageObject(String fileName, int loadFormat)
 
 Initializes a new instance of the [MessageObject](../../com.aspose.email/messageobject) class.
 
+In addition same set of exceptions could be thrown as for opening the file with  java.io.FileInputStream .
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | Name of the file to read from. |
-| loadFormat | int | The source format message object is stored with.
-
---------------------
-
-In addition same set of exceptions could be thrown as for the File\#open(String,int).open(String,int) call. |
+| loadFormat | int | The source format message object is stored with. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -98,10 +96,8 @@ public final MessageObjectAttachmentsCollection getAttachments()
 
 Gets the attachments of the [MessageObject](../../com.aspose.email/messageobject).
 
-Value: The attachments.
-
 **Returns:**
-[MessageObjectAttachmentsCollection](../../com.aspose.email/messageobjectattachmentscollection)
+[MessageObjectAttachmentsCollection](../../com.aspose.email/messageobjectattachmentscollection) - The attachments.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -120,10 +116,8 @@ public final int getCodepage()
 
 Gets the codepage used to encode/decode string properties in case [MapiType.PT\_STRING8](../../com.aspose.email/mapitype\#PT-STRING8) type for them is used.
 
-Value: The codepage.
-
 **Returns:**
-int
+int - The codepage.
 ### getIdForNamedProperty() {#getIdForNamedProperty--}
 ```
 public final int getIdForNamedProperty()
@@ -142,10 +136,8 @@ public final MessageObjectPropertiesCollection getProperties()
 
 Gets the properties of the [MessageObject](../../com.aspose.email/messageobject).
 
-Value: The properties.
-
 **Returns:**
-[MessageObjectPropertiesCollection](../../com.aspose.email/messageobjectpropertiescollection)
+[MessageObjectPropertiesCollection](../../com.aspose.email/messageobjectpropertiescollection) - The properties.
 ### getRecipients() {#getRecipients--}
 ```
 public final MessageObjectRecipientsCollection getRecipients()
@@ -154,10 +146,8 @@ public final MessageObjectRecipientsCollection getRecipients()
 
 Gets the recipients of the [MessageObject](../../com.aspose.email/messageobject).
 
-Value: The recipients.
-
 **Returns:**
-[MessageObjectRecipientsCollection](../../com.aspose.email/messageobjectrecipientscollection)
+[MessageObjectRecipientsCollection](../../com.aspose.email/messageobjectrecipientscollection) - The recipients.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -206,15 +196,13 @@ public final void save(String fileName, int format)
 
 Saves the current message object to the specified file.
 
+In addition same set of exceptions could be thrown as for creating the file with  java.io.FileOutputStream .
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | Name of the file. |
-| format | int | The format of the output data.
-
---------------------
-
-In addition same set of exceptions could be thrown as for the File\#openWrite(String).openWrite(String) call. |
+| format | int | The format of the output data. |
 
 ### toString() {#toString--}
 ```

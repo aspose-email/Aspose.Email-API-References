@@ -3,7 +3,7 @@ title: OutlookCategoryColor
 second_title: Aspose.Email for Java API Reference
 description: Represents the category colors used in Outlook.
 type: docs
-weight: 578
+weight: 582
 url: /java/com.aspose.email/outlookcategorycolor/
 ---
 

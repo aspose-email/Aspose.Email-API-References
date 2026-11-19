@@ -1,9 +1,9 @@
 ---
 title: EmailAddressCategory
 second_title: Aspose.Email for Java API Reference
-description: Represents category for an email address
+description: Represents category for an email address.
 type: docs
-weight: 168
+weight: 171
 url: /java/com.aspose.email/emailaddresscategory/
 ---
 
@@ -16,7 +16,7 @@ com.aspose.ms.System.IEquatable
 public class EmailAddressCategory implements System.IEquatable<EmailAddressCategory>
 ```
 
-Represents category for an email address
+Represents category for an email address.
 ## Constructors
 
 | Constructor | Description |
@@ -26,13 +26,13 @@ Represents category for an email address
 
 | Field | Description |
 | --- | --- |
-| [CUSTOM_VALUE](#CUSTOM-VALUE) | String value for 'Custom' category |
-| [EMAIL_1_VALUE](#EMAIL-1-VALUE) | String value for 'Email1' category |
-| [EMAIL_2_VALUE](#EMAIL-2-VALUE) | String value for 'Email2' category |
-| [EMAIL_3_VALUE](#EMAIL-3-VALUE) | String value for 'Email3' category |
-| [EmailValue](#EmailValue) | String value for 'Email' category |
-| [HOME_VALUE](#HOME-VALUE) | String value for 'Home' category |
-| [WORK_VALUE](#WORK-VALUE) | String value for 'Work' category |
+| [CUSTOM_VALUE](#CUSTOM-VALUE) | String value for 'Custom' category. |
+| [EMAIL_1_VALUE](#EMAIL-1-VALUE) | String value for 'Email1' category. |
+| [EMAIL_2_VALUE](#EMAIL-2-VALUE) | String value for 'Email2' category. |
+| [EMAIL_3_VALUE](#EMAIL-3-VALUE) | String value for 'Email3' category. |
+| [EmailValue](#EmailValue) | String value for 'Email' category. |
+| [HOME_VALUE](#HOME-VALUE) | String value for 'Home' category. |
+| [WORK_VALUE](#WORK-VALUE) | String value for 'Work' category. |
 ## Methods
 
 | Method | Description |
@@ -40,16 +40,16 @@ Represents category for an email address
 | [equals(EmailAddressCategory other)](#equals-com.aspose.email.EmailAddressCategory-) | Determines whether the specified Object is equal to the current Object. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
 | [getClass()](#getClass--) |  |
-| [getCustom()](#getCustom--) | Custom category |
-| [getDescription()](#getDescription--) | Gets description for the 'Custom' category of a email address |
+| [getCustom()](#getCustom--) | Custom category. |
+| [getDescription()](#getDescription--) | Gets description for the 'Custom' category of an email address. |
 | [getEmail()](#getEmail--) | Email category. |
 | [getEmail1()](#getEmail1--) | Email1 category. |
 | [getEmail2()](#getEmail2--) | Email2 category. |
 | [getEmail3()](#getEmail3--) | Email3 category. |
-| [getHome()](#getHome--) | Home category |
-| [getValue()](#getValue--) | Gets category of a email address |
-| [getWork()](#getWork--) | Work category |
-| [hashCode()](#hashCode--) | GetHashCode returns a hash function for this object. |
+| [getHome()](#getHome--) | Home category. |
+| [getValue()](#getValue--) | Gets category of an email address. |
+| [getWork()](#getWork--) | Work category. |
+| [hashCode()](#hashCode--) | Returns a hash function for this object. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [op_Equality(EmailAddressCategory a, EmailAddressCategory b)](#op-Equality-com.aspose.email.EmailAddressCategory-com.aspose.email.EmailAddressCategory-) | Determines whether the specified objects are equal. |
@@ -69,7 +69,7 @@ Initializes a new instance of the [EmailAddressCategory](../../com.aspose.email/
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| description | java.lang.String | Description for email address category |
+| description | java.lang.String | Description for email address category. |
 
 ### CUSTOM_VALUE {#CUSTOM-VALUE}
 ```
@@ -77,7 +77,7 @@ public static final String CUSTOM_VALUE
 ```
 
 
-String value for 'Custom' category
+String value for 'Custom' category.
 
 ### EMAIL_1_VALUE {#EMAIL-1-VALUE}
 ```
@@ -85,7 +85,7 @@ public static final String EMAIL_1_VALUE
 ```
 
 
-String value for 'Email1' category
+String value for 'Email1' category.
 
 ### EMAIL_2_VALUE {#EMAIL-2-VALUE}
 ```
@@ -93,7 +93,7 @@ public static final String EMAIL_2_VALUE
 ```
 
 
-String value for 'Email2' category
+String value for 'Email2' category.
 
 ### EMAIL_3_VALUE {#EMAIL-3-VALUE}
 ```
@@ -101,7 +101,7 @@ public static final String EMAIL_3_VALUE
 ```
 
 
-String value for 'Email3' category
+String value for 'Email3' category.
 
 ### EmailValue {#EmailValue}
 ```
@@ -109,7 +109,7 @@ public static final String EmailValue
 ```
 
 
-String value for 'Email' category
+String value for 'Email' category.
 
 ### HOME_VALUE {#HOME-VALUE}
 ```
@@ -117,7 +117,7 @@ public static final String HOME_VALUE
 ```
 
 
-String value for 'Home' category
+String value for 'Home' category.
 
 ### WORK_VALUE {#WORK-VALUE}
 ```
@@ -125,7 +125,7 @@ public static final String WORK_VALUE
 ```
 
 
-String value for 'Work' category
+String value for 'Work' category.
 
 ### equals(EmailAddressCategory other) {#equals-com.aspose.email.EmailAddressCategory-}
 ```
@@ -173,7 +173,7 @@ public static EmailAddressCategory getCustom()
 ```
 
 
-Custom category
+Custom category.
 
 **Returns:**
 [EmailAddressCategory](../../com.aspose.email/emailaddresscategory)
@@ -183,7 +183,7 @@ public final String getDescription()
 ```
 
 
-Gets description for the 'Custom' category of a email address
+Gets description for the 'Custom' category of an email address.
 
 **Returns:**
 java.lang.String
@@ -233,7 +233,7 @@ public static EmailAddressCategory getHome()
 ```
 
 
-Home category
+Home category.
 
 **Returns:**
 [EmailAddressCategory](../../com.aspose.email/emailaddresscategory)
@@ -243,7 +243,7 @@ public final String getValue()
 ```
 
 
-Gets category of a email address
+Gets category of an email address.
 
 **Returns:**
 java.lang.String
@@ -253,7 +253,7 @@ public static EmailAddressCategory getWork()
 ```
 
 
-Work category
+Work category.
 
 **Returns:**
 [EmailAddressCategory](../../com.aspose.email/emailaddresscategory)
@@ -263,7 +263,7 @@ public int hashCode()
 ```
 
 
-GetHashCode returns a hash function for this object.
+Returns a hash function for this object.
 
 **Returns:**
 int - Returns a hash function for this object.
@@ -294,11 +294,11 @@ Determines whether the specified objects are equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [EmailAddressCategory](../../com.aspose.email/emailaddresscategory) | First object to compare |
-| b | [EmailAddressCategory](../../com.aspose.email/emailaddresscategory) | Second object to compare |
+| a | [EmailAddressCategory](../../com.aspose.email/emailaddresscategory) | First object to compare. |
+| b | [EmailAddressCategory](../../com.aspose.email/emailaddresscategory) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are equal, otherwise false.
+boolean - Returns  true  if objects are equal, otherwise  false .
 ### op_Inequality(EmailAddressCategory a, EmailAddressCategory b) {#op-Inequality-com.aspose.email.EmailAddressCategory-com.aspose.email.EmailAddressCategory-}
 ```
 public static boolean op_Inequality(EmailAddressCategory a, EmailAddressCategory b)
@@ -310,11 +310,11 @@ Determines whether the specified objects are not equal.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | [EmailAddressCategory](../../com.aspose.email/emailaddresscategory) | First object to compare |
-| b | [EmailAddressCategory](../../com.aspose.email/emailaddresscategory) | Second object to compare |
+| a | [EmailAddressCategory](../../com.aspose.email/emailaddresscategory) | First object to compare. |
+| b | [EmailAddressCategory](../../com.aspose.email/emailaddresscategory) | Second object to compare. |
 
 **Returns:**
-boolean - Returns true if objects are not equal, otherwise false.
+boolean - Returns  true  if objects are not equal, otherwise  false .
 ### toString() {#toString--}
 ```
 public String toString()

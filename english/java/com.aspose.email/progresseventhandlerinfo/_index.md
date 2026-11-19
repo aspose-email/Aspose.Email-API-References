@@ -1,9 +1,9 @@
 ---
 title: ProgressEventHandlerInfo
 second_title: Aspose.Email for Java API Reference
-description: This class represents information about conversion progress that can be used in external applicatuion to show conversion progress to end user.
+description: Information about the progress of a conversion passed to a .
 type: docs
-weight: 607
+weight: 612
 url: /java/com.aspose.email/progresseventhandlerinfo/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public class ProgressEventHandlerInfo
 ```
 
-This class represents information about conversion progress that can be used in external applicatuion to show conversion progress to end user.
+Information about the progress of a conversion, passed to a [ConversionProgressEventHandler](../../com.aspose.email/conversionprogresseventhandler).
 ## Constructors
 
 | Constructor | Description |
@@ -25,15 +25,15 @@ This class represents information about conversion progress that can be used in 
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getEventType()](#getEventType--) | Type of progress event that occured. |
-| [getSavedMimePartCount()](#getSavedMimePartCount--) | Amount of mime parts that were saved. |
-| [getTotalMimePartCount()](#getTotalMimePartCount--) | Total amount of mime parts. |
+| [getEventType()](#getEventType--) | Gets the stage of the conversion the event reports. |
+| [getSavedMimePartCount()](#getSavedMimePartCount--) | Gets the number of MIME parts saved so far. |
+| [getTotalMimePartCount()](#getTotalMimePartCount--) | Gets the total number of MIME parts. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEventType(int value)](#setEventType-int-) | Type of progress event that occured. |
-| [setSavedMimePartCount(int value)](#setSavedMimePartCount-int-) | Amount of mime parts that were saved. |
-| [setTotalMimePartCount(int value)](#setTotalMimePartCount-int-) | Total amount of mime parts. |
+| [setEventType(int value)](#setEventType-int-) | Sets the stage of the conversion the event reports. |
+| [setSavedMimePartCount(int value)](#setSavedMimePartCount-int-) | Sets the number of MIME parts saved so far. |
+| [setTotalMimePartCount(int value)](#setTotalMimePartCount-int-) | Sets the total number of MIME parts. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -75,7 +75,7 @@ public final int getEventType()
 ```
 
 
-Type of progress event that occured.
+Gets the stage of the conversion the event reports.
 
 **Returns:**
 int
@@ -85,7 +85,7 @@ public final int getSavedMimePartCount()
 ```
 
 
-Amount of mime parts that were saved.
+Gets the number of MIME parts saved so far.
 
 **Returns:**
 int
@@ -95,7 +95,7 @@ public final int getTotalMimePartCount()
 ```
 
 
-Total amount of mime parts.
+Gets the total number of MIME parts.
 
 **Returns:**
 int
@@ -131,7 +131,7 @@ public final void setEventType(int value)
 ```
 
 
-Type of progress event that occured.
+Sets the stage of the conversion the event reports.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -144,7 +144,7 @@ public final void setSavedMimePartCount(int value)
 ```
 
 
-Amount of mime parts that were saved.
+Sets the number of MIME parts saved so far.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,7 +157,7 @@ public final void setTotalMimePartCount(int value)
 ```
 
 
-Total amount of mime parts.
+Sets the total number of MIME parts.
 
 **Parameters:**
 | Parameter | Type | Description |

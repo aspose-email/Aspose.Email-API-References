@@ -1,9 +1,9 @@
 ---
 title: MapiRecipientTrackStatus
 second_title: Aspose.Email for Java API Reference
-description: Represents the response status returned by the attendee.
+description: Defines the responses of an attendee to a meeting request.
 type: docs
-weight: 487
+weight: 490
 url: /java/com.aspose.email/mapirecipienttrackstatus/
 ---
 
@@ -13,16 +13,16 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiRecipientTrackStatus extends System.Enum
 ```
 
-Represents the response status returned by the attendee.
+Defines the responses of an attendee to a meeting request.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Accepted](#Accepted) | This value on the attendee\\u2019s meeting object indicates that the attendee has accepted the meeting request object. |
-| [Declined](#Declined) | This value on the attendee\\u2019s meeting object indicates that the attendee has declined the meeting request object. |
+| [Accepted](#Accepted) | The attendee has accepted. |
+| [Declined](#Declined) | The attendee has declined. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [None](#None) | No response is required for this object. |
-| [Tentative](#Tentative) | This value on the attendee\\u2019s meeting object indicates that the attendee has tentatively accepted the meeting request object. |
+| [None](#None) | No response is required, as for appointments and meeting responses. |
+| [Tentative](#Tentative) | The attendee has tentatively accepted. |
 ## Methods
 
 | Method | Description |
@@ -68,7 +68,7 @@ public static final int Accepted
 ```
 
 
-This value on the attendee\\u2019s meeting object indicates that the attendee has accepted the meeting request object.
+The attendee has accepted.
 
 ### Declined {#Declined}
 ```
@@ -76,7 +76,7 @@ public static final int Declined
 ```
 
 
-This value on the attendee\\u2019s meeting object indicates that the attendee has declined the meeting request object.
+The attendee has declined.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -90,7 +90,7 @@ public static final int None
 ```
 
 
-No response is required for this object. This is the case for appointment objects and meeting response objects.
+No response is required, as for appointments and meeting responses.
 
 ### Tentative {#Tentative}
 ```
@@ -98,7 +98,7 @@ public static final int Tentative
 ```
 
 
-This value on the attendee\\u2019s meeting object indicates that the attendee has tentatively accepted the meeting request object.
+The attendee has tentatively accepted.
 
 ### Clone() {#Clone--}
 ```

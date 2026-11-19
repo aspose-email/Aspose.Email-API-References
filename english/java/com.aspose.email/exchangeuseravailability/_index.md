@@ -3,7 +3,7 @@ title: ExchangeUserAvailability
 second_title: Aspose.Email for Java API Reference
 description: Represents user availability information
 type: docs
-weight: 232
+weight: 235
 url: /java/com.aspose.email/exchangeuseravailability/
 ---
 

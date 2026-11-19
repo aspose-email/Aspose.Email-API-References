@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarTimeZoneInfo
 second_title: Aspose.Email for Java API Reference
-description: Represents the mapi calendar time zone rule
+description: A rule of a time zone its offsets and when daylight saving time begins and ends.
 type: docs
-weight: 429
+weight: 432
 url: /java/com.aspose.email/mapicalendartimezoneinfo/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public final class MapiCalendarTimeZoneInfo
 ```
 
-Represents the mapi calendar time zone rule
+A rule of a time zone: its offsets and when daylight saving time begins and ends.
 ## Constructors
 
 | Constructor | Description |
@@ -24,24 +24,24 @@ Represents the mapi calendar time zone rule
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBias()](#getBias--) | Gets or sets the time zone's offset in minutes from UTC. |
+| [getBias()](#getBias--) | Gets the offset of the time zone from UTC, in minutes. |
 | [getClass()](#getClass--) |  |
-| [getDaylightBias()](#getDaylightBias--) | Gets or sets offset in minutes from lBias during daylight saving time. |
-| [getDaylightDate()](#getDaylightDate--) | Gets or sets the date and local time that indicate when to begin using the DaylightBias. |
-| [getStandardBias()](#getStandardBias--) | Gets or sets the offset in minutes from lBias during standard time. |
-| [getStandardDate()](#getStandardDate--) | Gets or sets the date and local time that indicate when to begin using the StandardBias. |
-| [getTimeZoneFlags()](#getTimeZoneFlags--) | Gets or sets individual bit flags that specify information about this TimeZoneRule |
-| [getYear()](#getYear--) | Gets or sets the year in which this rule is scheduled to take effect. |
+| [getDaylightBias()](#getDaylightBias--) | Gets the offset during daylight saving time, in minutes, added to \#getBias().getBias(). |
+| [getDaylightDate()](#getDaylightDate--) | Gets when daylight saving time begins. |
+| [getStandardBias()](#getStandardBias--) | Gets the offset during standard time, in minutes, added to \#getBias().getBias(). |
+| [getStandardDate()](#getStandardDate--) | Gets when standard time begins. |
+| [getTimeZoneFlags()](#getTimeZoneFlags--) | Gets the flags of the rule. |
+| [getYear()](#getYear--) | Gets the year from which the rule applies. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBias(int value)](#setBias-int-) | Gets or sets the time zone's offset in minutes from UTC. |
-| [setDaylightBias(int value)](#setDaylightBias-int-) | Gets or sets offset in minutes from lBias during daylight saving time. |
-| [setDaylightDate(MapiCalendarTimeZoneRule value)](#setDaylightDate-com.aspose.email.MapiCalendarTimeZoneRule-) | Gets or sets the date and local time that indicate when to begin using the DaylightBias. |
-| [setStandardBias(int value)](#setStandardBias-int-) | Gets or sets the offset in minutes from lBias during standard time. |
-| [setStandardDate(MapiCalendarTimeZoneRule value)](#setStandardDate-com.aspose.email.MapiCalendarTimeZoneRule-) | Gets or sets the date and local time that indicate when to begin using the StandardBias. |
-| [setTimeZoneFlags(int value)](#setTimeZoneFlags-int-) | Gets or sets individual bit flags that specify information about this TimeZoneRule |
-| [setYear(int value)](#setYear-int-) | Gets or sets the year in which this rule is scheduled to take effect. |
+| [setBias(int value)](#setBias-int-) | Sets the offset of the time zone from UTC, in minutes. |
+| [setDaylightBias(int value)](#setDaylightBias-int-) | Sets the offset during daylight saving time, in minutes, added to \#getBias().getBias(). |
+| [setDaylightDate(MapiCalendarTimeZoneRule value)](#setDaylightDate-com.aspose.email.MapiCalendarTimeZoneRule-) | Sets when daylight saving time begins. |
+| [setStandardBias(int value)](#setStandardBias-int-) | Sets the offset during standard time, in minutes, added to \#getBias().getBias(). |
+| [setStandardDate(MapiCalendarTimeZoneRule value)](#setStandardDate-com.aspose.email.MapiCalendarTimeZoneRule-) | Sets when standard time begins. |
+| [setTimeZoneFlags(int value)](#setTimeZoneFlags-int-) | Sets the flags of the rule. |
+| [setYear(int value)](#setYear-int-) | Sets the year from which the rule applies. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -75,7 +75,7 @@ public final int getBias()
 ```
 
 
-Gets or sets the time zone's offset in minutes from UTC.
+Gets the offset of the time zone from UTC, in minutes.
 
 **Returns:**
 int
@@ -95,7 +95,7 @@ public final int getDaylightBias()
 ```
 
 
-Gets or sets offset in minutes from lBias during daylight saving time.
+Gets the offset during daylight saving time, in minutes, added to \#getBias().getBias().
 
 **Returns:**
 int
@@ -105,7 +105,7 @@ public final MapiCalendarTimeZoneRule getDaylightDate()
 ```
 
 
-Gets or sets the date and local time that indicate when to begin using the DaylightBias.
+Gets when daylight saving time begins.
 
 **Returns:**
 [MapiCalendarTimeZoneRule](../../com.aspose.email/mapicalendartimezonerule)
@@ -115,7 +115,7 @@ public final int getStandardBias()
 ```
 
 
-Gets or sets the offset in minutes from lBias during standard time.
+Gets the offset during standard time, in minutes, added to \#getBias().getBias().
 
 **Returns:**
 int
@@ -125,7 +125,7 @@ public final MapiCalendarTimeZoneRule getStandardDate()
 ```
 
 
-Gets or sets the date and local time that indicate when to begin using the StandardBias.
+Gets when standard time begins.
 
 **Returns:**
 [MapiCalendarTimeZoneRule](../../com.aspose.email/mapicalendartimezonerule)
@@ -135,7 +135,7 @@ public final int getTimeZoneFlags()
 ```
 
 
-Gets or sets individual bit flags that specify information about this TimeZoneRule
+Gets the flags of the rule.
 
 **Returns:**
 int
@@ -145,7 +145,7 @@ public final int getYear()
 ```
 
 
-Gets or sets the year in which this rule is scheduled to take effect.
+Gets the year from which the rule applies.
 
 **Returns:**
 int
@@ -181,7 +181,7 @@ public final void setBias(int value)
 ```
 
 
-Gets or sets the time zone's offset in minutes from UTC.
+Sets the offset of the time zone from UTC, in minutes.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -194,7 +194,7 @@ public final void setDaylightBias(int value)
 ```
 
 
-Gets or sets offset in minutes from lBias during daylight saving time.
+Sets the offset during daylight saving time, in minutes, added to \#getBias().getBias().
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public final void setDaylightDate(MapiCalendarTimeZoneRule value)
 ```
 
 
-Gets or sets the date and local time that indicate when to begin using the DaylightBias.
+Sets when daylight saving time begins.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +220,7 @@ public final void setStandardBias(int value)
 ```
 
 
-Gets or sets the offset in minutes from lBias during standard time.
+Sets the offset during standard time, in minutes, added to \#getBias().getBias().
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +233,7 @@ public final void setStandardDate(MapiCalendarTimeZoneRule value)
 ```
 
 
-Gets or sets the date and local time that indicate when to begin using the StandardBias.
+Sets when standard time begins.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ public final void setTimeZoneFlags(int value)
 ```
 
 
-Gets or sets individual bit flags that specify information about this TimeZoneRule
+Sets the flags of the rule.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -259,7 +259,7 @@ public final void setYear(int value)
 ```
 
 
-Gets or sets the year in which this rule is scheduled to take effect.
+Sets the year from which the rule applies.
 
 **Parameters:**
 | Parameter | Type | Description |

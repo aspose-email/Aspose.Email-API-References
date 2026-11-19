@@ -3,7 +3,7 @@ title: SaveResourceHandler
 second_title: Aspose.Email for Java API Reference
 description: Represents the handler for HtmlSaveOptions.SaveResourceHandler
 type: docs
-weight: 649
+weight: 654
 url: /java/com.aspose.email/saveresourcehandler/
 ---
 
@@ -72,7 +72,7 @@ public final System.IAsyncResult beginInvoke(AttachmentBase attachment, String[]
 | state | java.lang.Object |  |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult)
 ### combine(System.Delegate arg0, System.Delegate arg1) {#combine-com.aspose.ms.System.Delegate-com.aspose.ms.System.Delegate-}
 ```
 public static System.Delegate combine(System.Delegate arg0, System.Delegate arg1)

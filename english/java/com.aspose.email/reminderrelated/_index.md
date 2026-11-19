@@ -1,9 +1,9 @@
 ---
 title: ReminderRelated
 second_title: Aspose.Email for Java API Reference
-description: Specify the relationship of the alarm trigger with respect to the start or end of the event.
+description: Defines whether a relative reminder trigger is measured from the start or from the end of the event.
 type: docs
-weight: 631
+weight: 636
 url: /java/com.aspose.email/reminderrelated/
 ---
 
@@ -13,14 +13,14 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ReminderRelated extends System.Enum
 ```
 
-Specify the relationship of the alarm trigger with respect to the start or end of the event.
+Defines whether a relative reminder trigger is measured from the start or from the end of the event.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [End](#End) | Sets the alarm to trigger off the end of the associated event. |
+| [End](#End) | The trigger is relative to the end of the event. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Start](#Start) | Sets the alarm to trigger off the start of the associated event. |
+| [Start](#Start) | The trigger is relative to the start of the event. |
 ## Methods
 
 | Method | Description |
@@ -66,7 +66,7 @@ public static final int End
 ```
 
 
-Sets the alarm to trigger off the end of the associated event.
+The trigger is relative to the end of the event.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -80,7 +80,7 @@ public static final int Start
 ```
 
 
-Sets the alarm to trigger off the start of the associated event.
+The trigger is relative to the start of the event.
 
 ### Clone() {#Clone--}
 ```

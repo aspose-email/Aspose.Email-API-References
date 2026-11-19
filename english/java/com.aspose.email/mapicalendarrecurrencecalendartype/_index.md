@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarRecurrenceCalendarType
 second_title: Aspose.Email for Java API Reference
-description: Enumerated the calendar type of the mapi recurrence
+description: Defines the calendar system a recurrence is calculated in.
 type: docs
-weight: 419
+weight: 422
 url: /java/com.aspose.email/mapicalendarrecurrencecalendartype/
 ---
 
@@ -13,32 +13,34 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiCalendarRecurrenceCalendarType extends System.Enum
 ```
 
-Enumerated the calendar type of the mapi recurrence
+Defines the calendar system a recurrence is calculated in.
+
+ Default  means the Gregorian calendar, except for the Hijri pattern types of [MapiCalendarRecurrencePatternType](../../com.aspose.email/mapicalendarrecurrencepatterntype), which use the Hijri calendar.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [CAL_CHINESE_LUNAR](#CAL-CHINESE-LUNAR) | Chinese lunar calendar |
-| [CAL_GREGORIAN](#CAL-GREGORIAN) | Gregorian (localized) calendar |
-| [CAL_GREGORIAN_ARABIC](#CAL-GREGORIAN-ARABIC) | Gregorian Arabic calendar |
-| [CAL_GREGORIAN_ME_FRENCH](#CAL-GREGORIAN-ME-FRENCH) | Gregorian Middle East French calendar |
-| [CAL_GREGORIAN_US](#CAL-GREGORIAN-US) | Gregorian (U.S.) calendar |
-| [CAL_GREGORIAN_XLIT_ENGLISH](#CAL-GREGORIAN-XLIT-ENGLISH) | Gregorian transliterated English calendar |
-| [CAL_GREGORIAN_XLIT_FRENCH](#CAL-GREGORIAN-XLIT-FRENCH) | Gregorian transliterated French calendar |
-| [CAL_HEBREW](#CAL-HEBREW) | Hebrew lunar calendar |
-| [CAL_HIJRI](#CAL-HIJRI) | Hijri (Arabic Lunar) calendar |
-| [CAL_JAPAN](#CAL-JAPAN) | Japanese Emperor Era calendar |
-| [CAL_KOREA](#CAL-KOREA) | Korean Tangun Era calendar |
-| [CAL_LUNAR_ETO_CHN](#CAL-LUNAR-ETO-CHN) | Lunar ETO Chinese calendar |
-| [CAL_LUNAR_ETO_KOR](#CAL-LUNAR-ETO-KOR) | Lunar ETO Korean calendar |
-| [CAL_LUNAR_JAPANESE](#CAL-LUNAR-JAPANESE) | Japanese lunar calendar |
-| [CAL_LUNAR_KOREAN](#CAL-LUNAR-KOREAN) | Korean lunar calendar |
-| [CAL_LUNAR_ROKUYOU](#CAL-LUNAR-ROKUYOU) | Lunar Rokuyou calendar |
-| [CAL_SAKA](#CAL-SAKA) | Saka Era calendar |
-| [CAL_TAIWAN](#CAL-TAIWAN) | Taiwan calendar |
-| [CAL_THAI](#CAL-THAI) | Thai calendar |
-| [CAL_UMALQURA](#CAL-UMALQURA) | Um Al Qura calendar |
-| [Default](#Default) | The default value for the calendar type is Gregorian. |
+| [CAL_CHINESE_LUNAR](#CAL-CHINESE-LUNAR) | The Chinese lunar calendar. |
+| [CAL_GREGORIAN](#CAL-GREGORIAN) | The localized Gregorian calendar. |
+| [CAL_GREGORIAN_ARABIC](#CAL-GREGORIAN-ARABIC) | The Gregorian Arabic calendar. |
+| [CAL_GREGORIAN_ME_FRENCH](#CAL-GREGORIAN-ME-FRENCH) | The Gregorian Middle East French calendar. |
+| [CAL_GREGORIAN_US](#CAL-GREGORIAN-US) | The U.S. |
+| [CAL_GREGORIAN_XLIT_ENGLISH](#CAL-GREGORIAN-XLIT-ENGLISH) | The Gregorian transliterated English calendar. |
+| [CAL_GREGORIAN_XLIT_FRENCH](#CAL-GREGORIAN-XLIT-FRENCH) | The Gregorian transliterated French calendar. |
+| [CAL_HEBREW](#CAL-HEBREW) | The Hebrew lunar calendar. |
+| [CAL_HIJRI](#CAL-HIJRI) | The Hijri (Arabic lunar) calendar. |
+| [CAL_JAPAN](#CAL-JAPAN) | The Japanese Emperor Era calendar. |
+| [CAL_KOREA](#CAL-KOREA) | The Korean Tangun Era calendar. |
+| [CAL_LUNAR_ETO_CHN](#CAL-LUNAR-ETO-CHN) | The Chinese lunar ETO calendar. |
+| [CAL_LUNAR_ETO_KOR](#CAL-LUNAR-ETO-KOR) | The Korean lunar ETO calendar. |
+| [CAL_LUNAR_JAPANESE](#CAL-LUNAR-JAPANESE) | The Japanese lunar calendar. |
+| [CAL_LUNAR_KOREAN](#CAL-LUNAR-KOREAN) | The Korean lunar calendar. |
+| [CAL_LUNAR_ROKUYOU](#CAL-LUNAR-ROKUYOU) | The Rokuyou lunar calendar. |
+| [CAL_SAKA](#CAL-SAKA) | The Saka Era calendar. |
+| [CAL_TAIWAN](#CAL-TAIWAN) | The Taiwan calendar. |
+| [CAL_THAI](#CAL-THAI) | The Thai calendar. |
+| [CAL_UMALQURA](#CAL-UMALQURA) | The Um Al Qura calendar. |
+| [Default](#Default) | The Gregorian calendar; the Hijri calendar if the pattern type is  HjMonth ,  HjMonthNth  or  HjMonthEnd . |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
 ## Methods
 
@@ -85,7 +87,7 @@ public static final int CAL_CHINESE_LUNAR
 ```
 
 
-Chinese lunar calendar
+The Chinese lunar calendar.
 
 ### CAL_GREGORIAN {#CAL-GREGORIAN}
 ```
@@ -93,7 +95,7 @@ public static final int CAL_GREGORIAN
 ```
 
 
-Gregorian (localized) calendar
+The localized Gregorian calendar.
 
 ### CAL_GREGORIAN_ARABIC {#CAL-GREGORIAN-ARABIC}
 ```
@@ -101,7 +103,7 @@ public static final int CAL_GREGORIAN_ARABIC
 ```
 
 
-Gregorian Arabic calendar
+The Gregorian Arabic calendar.
 
 ### CAL_GREGORIAN_ME_FRENCH {#CAL-GREGORIAN-ME-FRENCH}
 ```
@@ -109,7 +111,7 @@ public static final int CAL_GREGORIAN_ME_FRENCH
 ```
 
 
-Gregorian Middle East French calendar
+The Gregorian Middle East French calendar.
 
 ### CAL_GREGORIAN_US {#CAL-GREGORIAN-US}
 ```
@@ -117,7 +119,7 @@ public static final int CAL_GREGORIAN_US
 ```
 
 
-Gregorian (U.S.) calendar
+The U.S. Gregorian calendar.
 
 ### CAL_GREGORIAN_XLIT_ENGLISH {#CAL-GREGORIAN-XLIT-ENGLISH}
 ```
@@ -125,7 +127,7 @@ public static final int CAL_GREGORIAN_XLIT_ENGLISH
 ```
 
 
-Gregorian transliterated English calendar
+The Gregorian transliterated English calendar.
 
 ### CAL_GREGORIAN_XLIT_FRENCH {#CAL-GREGORIAN-XLIT-FRENCH}
 ```
@@ -133,7 +135,7 @@ public static final int CAL_GREGORIAN_XLIT_FRENCH
 ```
 
 
-Gregorian transliterated French calendar
+The Gregorian transliterated French calendar.
 
 ### CAL_HEBREW {#CAL-HEBREW}
 ```
@@ -141,7 +143,7 @@ public static final int CAL_HEBREW
 ```
 
 
-Hebrew lunar calendar
+The Hebrew lunar calendar.
 
 ### CAL_HIJRI {#CAL-HIJRI}
 ```
@@ -149,7 +151,7 @@ public static final int CAL_HIJRI
 ```
 
 
-Hijri (Arabic Lunar) calendar
+The Hijri (Arabic lunar) calendar.
 
 ### CAL_JAPAN {#CAL-JAPAN}
 ```
@@ -157,7 +159,7 @@ public static final int CAL_JAPAN
 ```
 
 
-Japanese Emperor Era calendar
+The Japanese Emperor Era calendar.
 
 ### CAL_KOREA {#CAL-KOREA}
 ```
@@ -165,7 +167,7 @@ public static final int CAL_KOREA
 ```
 
 
-Korean Tangun Era calendar
+The Korean Tangun Era calendar.
 
 ### CAL_LUNAR_ETO_CHN {#CAL-LUNAR-ETO-CHN}
 ```
@@ -173,7 +175,7 @@ public static final int CAL_LUNAR_ETO_CHN
 ```
 
 
-Lunar ETO Chinese calendar
+The Chinese lunar ETO calendar.
 
 ### CAL_LUNAR_ETO_KOR {#CAL-LUNAR-ETO-KOR}
 ```
@@ -181,7 +183,7 @@ public static final int CAL_LUNAR_ETO_KOR
 ```
 
 
-Lunar ETO Korean calendar
+The Korean lunar ETO calendar.
 
 ### CAL_LUNAR_JAPANESE {#CAL-LUNAR-JAPANESE}
 ```
@@ -189,7 +191,7 @@ public static final int CAL_LUNAR_JAPANESE
 ```
 
 
-Japanese lunar calendar
+The Japanese lunar calendar.
 
 ### CAL_LUNAR_KOREAN {#CAL-LUNAR-KOREAN}
 ```
@@ -197,7 +199,7 @@ public static final int CAL_LUNAR_KOREAN
 ```
 
 
-Korean lunar calendar
+The Korean lunar calendar.
 
 ### CAL_LUNAR_ROKUYOU {#CAL-LUNAR-ROKUYOU}
 ```
@@ -205,7 +207,7 @@ public static final int CAL_LUNAR_ROKUYOU
 ```
 
 
-Lunar Rokuyou calendar
+The Rokuyou lunar calendar.
 
 ### CAL_SAKA {#CAL-SAKA}
 ```
@@ -213,7 +215,7 @@ public static final int CAL_SAKA
 ```
 
 
-Saka Era calendar
+The Saka Era calendar.
 
 ### CAL_TAIWAN {#CAL-TAIWAN}
 ```
@@ -221,7 +223,7 @@ public static final int CAL_TAIWAN
 ```
 
 
-Taiwan calendar
+The Taiwan calendar.
 
 ### CAL_THAI {#CAL-THAI}
 ```
@@ -229,7 +231,7 @@ public static final int CAL_THAI
 ```
 
 
-Thai calendar
+The Thai calendar.
 
 ### CAL_UMALQURA {#CAL-UMALQURA}
 ```
@@ -237,7 +239,7 @@ public static final int CAL_UMALQURA
 ```
 
 
-Um Al Qura calendar
+The Um Al Qura calendar.
 
 ### Default {#Default}
 ```
@@ -245,7 +247,7 @@ public static final int Default
 ```
 
 
-The default value for the calendar type is Gregorian. (If the PatternType is HjMonth, HjMonthNth, or HjMonthEnd, and the CalendarType is Default, this recurrence uses the Hijri calendar.)
+The Gregorian calendar; the Hijri calendar if the pattern type is  HjMonth ,  HjMonthNth  or  HjMonthEnd .
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```

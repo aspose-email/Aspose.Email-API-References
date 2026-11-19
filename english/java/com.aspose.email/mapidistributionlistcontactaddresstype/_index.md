@@ -1,9 +1,9 @@
 ---
 title: MapiDistributionListContactAddressType
 second_title: Aspose.Email for Java API Reference
-description: Represents the address type of  a personal distribution list member.
+description: Defines which address of a contact a member of a distribution list refers to.
 type: docs
-weight: 454
+weight: 457
 url: /java/com.aspose.email/mapidistributionlistcontactaddresstype/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiDistributionListContactAddressType extends System.Enum
 ```
 
-Represents the address type of a personal distribution list member.
+Defines which address of a contact a member of a distribution list refers to.
 ## Constructors
 
 | Constructor | Description |
@@ -23,14 +23,14 @@ Represents the address type of a personal distribution list member.
 
 | Field | Description |
 | --- | --- |
-| [BusinessFax](#BusinessFax) | Business Fax electronic address. |
-| [Email1](#Email1) | Email1 address. |
-| [Email2](#Email2) | Email2 address. |
-| [Email3](#Email3) | Email3 address. |
+| [BusinessFax](#BusinessFax) | The business fax number. |
+| [Email1](#Email1) | The first e-mail address. |
+| [Email2](#Email2) | The second e-mail address. |
+| [Email3](#Email3) | The third e-mail address. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [HomeFax](#HomeFax) | Home Fax electronic address. |
-| [None](#None) | None. |
-| [PrimaryFax](#PrimaryFax) | Primary Fax electronic address. |
+| [HomeFax](#HomeFax) | The home fax number. |
+| [None](#None) | No address type. |
+| [PrimaryFax](#PrimaryFax) | The primary fax number. |
 ## Methods
 
 | Method | Description |
@@ -84,7 +84,7 @@ public static final int BusinessFax
 ```
 
 
-Business Fax electronic address.
+The business fax number.
 
 ### Email1 {#Email1}
 ```
@@ -92,7 +92,7 @@ public static final int Email1
 ```
 
 
-Email1 address.
+The first e-mail address.
 
 ### Email2 {#Email2}
 ```
@@ -100,7 +100,7 @@ public static final int Email2
 ```
 
 
-Email2 address.
+The second e-mail address.
 
 ### Email3 {#Email3}
 ```
@@ -108,7 +108,7 @@ public static final int Email3
 ```
 
 
-Email3 address.
+The third e-mail address.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -122,7 +122,7 @@ public static final int HomeFax
 ```
 
 
-Home Fax electronic address.
+The home fax number.
 
 ### None {#None}
 ```
@@ -130,7 +130,7 @@ public static final int None
 ```
 
 
-None.
+No address type.
 
 ### PrimaryFax {#PrimaryFax}
 ```
@@ -138,7 +138,7 @@ public static final int PrimaryFax
 ```
 
 
-Primary Fax electronic address.
+The primary fax number.
 
 ### Clone() {#Clone--}
 ```

@@ -1,7 +1,7 @@
 ---
 title: AppointmentFlags
 second_title: Aspose.Email for Java API Reference
-description: Enumerates appointment flags.
+description: Flags that describe an appointment.
 type: docs
 weight: 37
 url: /java/com.aspose.email/appointmentflags/
@@ -13,12 +13,12 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class AppointmentFlags extends System.Enum
 ```
 
-Enumerates appointment flags.
+Flags that describe an appointment.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AllDayEvent](#AllDayEvent) | Indicates that appointment is an all day event. |
+| [AllDayEvent](#AllDayEvent) | The appointment is an all-day event. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
 | [None](#None) | Indicates that no specific flags are set. |
 ## Methods
@@ -66,7 +66,7 @@ public static final int AllDayEvent
 ```
 
 
-Indicates that appointment is an all day event.
+The appointment is an all-day event.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```

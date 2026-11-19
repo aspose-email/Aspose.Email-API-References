@@ -3,7 +3,7 @@ title: DomainValidatingEventHandler
 second_title: Aspose.Email for Java API Reference
 description: Represents the event handler for DomainValidatingEvent.
 type: docs
-weight: 162
+weight: 165
 url: /java/com.aspose.email/domainvalidatingeventhandler/
 ---
 
@@ -14,6 +14,8 @@ public abstract class DomainValidatingEventHandler extends System.MulticastDeleg
 ```
 
 Represents the event handler for DomainValidatingEvent.
+
+The handler receives the sender ( sender ) and the event arguments ( e , a [DomainValidatingEventArgs](../../com.aspose.email/domainvalidatingeventargs)).
 ## Constructors
 
 | Constructor | Description |
@@ -72,7 +74,7 @@ beginInvoke.
 | state | java.lang.Object | a java.lang.Object object. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - a com.aspose.ms.System.IAsyncResult object.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - a com.aspose.ms.System.IAsyncResult object.
 ### combine(System.Delegate arg0, System.Delegate arg1) {#combine-com.aspose.ms.System.Delegate-com.aspose.ms.System.Delegate-}
 ```
 public static System.Delegate combine(System.Delegate arg0, System.Delegate arg1)

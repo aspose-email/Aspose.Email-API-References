@@ -1,9 +1,9 @@
 ---
 title: MapiTaskFlags
 second_title: Aspose.Email for Java API Reference
-description: Contains indication flags of the Task object.
+description: Defines the flags of a task.
 type: docs
-weight: 493
+weight: 496
 url: /java/com.aspose.email/mapitaskflags/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiTaskFlags extends System.Enum
 ```
 
-Contains indication flags of the Task object.
+Defines the flags of a task. The values can be combined.
 ## Constructors
 
 | Constructor | Description |
@@ -23,14 +23,14 @@ Contains indication flags of the Task object.
 
 | Field | Description |
 | --- | --- |
-| [Accepted](#Accepted) | Indicates whether a task assignee has replied to a task request for this Task object. |
-| [Complete](#Complete) | Indicates whether the task has been completed. |
-| [DeadOccurrence](#DeadOccurrence) | Indicates whether new occurrences remain to be generated. |
+| [Accepted](#Accepted) | The assignee has replied to the task request. |
+| [Complete](#Complete) | The task is complete. |
+| [DeadOccurrence](#DeadOccurrence) | No more occurrences of the recurring task are to be generated. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Recurring](#Recurring) | Indicates whether the task includes a recurrence pattern. |
-| [ResetReminder](#ResetReminder) | Indicates whether future instances of recurring tasks need reminders. |
-| [StatusOnComplete](#StatusOnComplete) | Indicates whether the task assignee has been requested to send an e-mail message update when the task assignee completes the assigned task. |
-| [Updates](#Updates) | Indicates whether the task assignee has been requested to send a task update when the assigned Task object changes. |
+| [Recurring](#Recurring) | The task has a recurrence. |
+| [ResetReminder](#ResetReminder) | The future occurrences of the recurring task need reminders. |
+| [StatusOnComplete](#StatusOnComplete) | The assignee is asked to send a status report when the task is complete. |
+| [Updates](#Updates) | The assignee is asked to send an update when the task changes. |
 ## Methods
 
 | Method | Description |
@@ -84,7 +84,7 @@ public static final int Accepted
 ```
 
 
-Indicates whether a task assignee has replied to a task request for this Task object.
+The assignee has replied to the task request.
 
 ### Complete {#Complete}
 ```
@@ -92,7 +92,7 @@ public static final int Complete
 ```
 
 
-Indicates whether the task has been completed.
+The task is complete.
 
 ### DeadOccurrence {#DeadOccurrence}
 ```
@@ -100,7 +100,7 @@ public static final int DeadOccurrence
 ```
 
 
-Indicates whether new occurrences remain to be generated.
+No more occurrences of the recurring task are to be generated.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -114,7 +114,7 @@ public static final int Recurring
 ```
 
 
-Indicates whether the task includes a recurrence pattern.
+The task has a recurrence.
 
 ### ResetReminder {#ResetReminder}
 ```
@@ -122,7 +122,7 @@ public static final int ResetReminder
 ```
 
 
-Indicates whether future instances of recurring tasks need reminders.
+The future occurrences of the recurring task need reminders.
 
 ### StatusOnComplete {#StatusOnComplete}
 ```
@@ -130,7 +130,7 @@ public static final int StatusOnComplete
 ```
 
 
-Indicates whether the task assignee has been requested to send an e-mail message update when the task assignee completes the assigned task.
+The assignee is asked to send a status report when the task is complete.
 
 ### Updates {#Updates}
 ```
@@ -138,7 +138,7 @@ public static final int Updates
 ```
 
 
-Indicates whether the task assignee has been requested to send a task update when the assigned Task object changes.
+The assignee is asked to send an update when the task changes.
 
 ### Clone() {#Clone--}
 ```

@@ -1,9 +1,9 @@
 ---
 title: MapiTaskAcceptanceState
 second_title: Aspose.Email for Java API Reference
-description: Indicates the acceptance state of the task.
+description: Defines whether the assignee has accepted a task.
 type: docs
-weight: 491
+weight: 494
 url: /java/com.aspose.email/mapitaskacceptancestate/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiTaskAcceptanceState extends System.Enum
 ```
 
-Indicates the acceptance state of the task.
+Defines whether the assignee has accepted a task.
 ## Constructors
 
 | Constructor | Description |
@@ -23,11 +23,11 @@ Indicates the acceptance state of the task.
 
 | Field | Description |
 | --- | --- |
-| [Accepted](#Accepted) | The task assignee has accepted the Task object. |
+| [Accepted](#Accepted) | The assignee has accepted the task. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [NotAssigned](#NotAssigned) | The Task object is not assigned. |
-| [Rejected](#Rejected) | The task assignee has rejected the Task object. |
-| [Unknown](#Unknown) | The Task object's acceptance status is unknown. |
+| [NotAssigned](#NotAssigned) | The task is not assigned. |
+| [Rejected](#Rejected) | The assignee has rejected the task. |
+| [Unknown](#Unknown) | The acceptance state is unknown. |
 ## Methods
 
 | Method | Description |
@@ -81,7 +81,7 @@ public static final int Accepted
 ```
 
 
-The task assignee has accepted the Task object.
+The assignee has accepted the task.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -95,7 +95,7 @@ public static final int NotAssigned
 ```
 
 
-The Task object is not assigned.
+The task is not assigned.
 
 ### Rejected {#Rejected}
 ```
@@ -103,7 +103,7 @@ public static final int Rejected
 ```
 
 
-The task assignee has rejected the Task object.
+The assignee has rejected the task.
 
 ### Unknown {#Unknown}
 ```
@@ -111,7 +111,7 @@ public static final int Unknown
 ```
 
 
-The Task object's acceptance status is unknown.
+The acceptance state is unknown.
 
 ### Clone() {#Clone--}
 ```

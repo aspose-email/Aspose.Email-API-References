@@ -3,7 +3,7 @@ title: ExchangeClientBase
 second_title: Aspose.Email for Java API Reference
 description: Provides the abstract base class to MS Exchange Server access.
 type: docs
-weight: 198
+weight: 201
 url: /java/com.aspose.email/exchangeclientbase/
 ---
 
@@ -130,7 +130,7 @@ public System.Net.WebProxy getProxy()
 Gets or sets the proxy.
 
 **Returns:**
-com.aspose.ms.System.Net.WebProxy
+[WebProxy](../../com.aspose.ms.system.net/webproxy)
 ### getTimeout() {#getTimeout--}
 ```
 public int getTimeout()

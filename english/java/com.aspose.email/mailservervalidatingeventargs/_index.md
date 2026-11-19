@@ -3,7 +3,7 @@ title: MailServerValidatingEventArgs
 second_title: Aspose.Email for Java API Reference
 description: Provides data for the MailServerValidatingEvent event.
 type: docs
-weight: 392
+weight: 395
 url: /java/com.aspose.email/mailservervalidatingeventargs/
 ---
 
@@ -18,7 +18,7 @@ Provides data for the MailServerValidatingEvent event.
 
 | Constructor | Description |
 | --- | --- |
-| [MailServerValidatingEventArgs(String mail, MailAddress mailaddress, String[] mailExchangeList)](#MailServerValidatingEventArgs-java.lang.String-com.aspose.email.MailAddress-java.lang.String---) | Initializes a new instance of the SyntaxValidatingEventArgs class. |
+| [MailServerValidatingEventArgs(String mail, MailAddress mailaddress, String[] mailExchangeList)](#MailServerValidatingEventArgs-java.lang.String-com.aspose.email.MailAddress-java.lang.String---) | Initializes a new instance of the [MailServerValidatingEventArgs](../../com.aspose.email/mailservervalidatingeventargs) class. |
 ## Fields
 
 | Field | Description |
@@ -35,13 +35,13 @@ Provides data for the MailServerValidatingEvent event.
 | [getMailAddress()](#getMailAddress--) | Gets the mail address. |
 | [getMailExchangeServers()](#getMailExchangeServers--) | Gets the mail exchange server list. |
 | [getMailExchangeServers_MailServerValidatingEventArgs_New()](#getMailExchangeServers-MailServerValidatingEventArgs-New--) | Gets the mail exchange server list. |
-| [getResult()](#getResult--) | Gets or sets the validation result. |
-| [getSkip()](#getSkip--) | Indicates whether to ignore the check. |
+| [getResult()](#getResult--) | Gets the validation result. |
+| [getSkip()](#getSkip--) | Gets indicates whether to ignore the check. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setResult(ValidationResult value)](#setResult-com.aspose.email.ValidationResult-) | Gets or sets the validation result. |
-| [setSkip(boolean value)](#setSkip-boolean-) | Indicates whether to ignore the check. |
+| [setResult(ValidationResult value)](#setResult-com.aspose.email.ValidationResult-) | Sets the validation result. |
+| [setSkip(boolean value)](#setSkip-boolean-) | Sets indicates whether to ignore the check. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -52,7 +52,7 @@ public MailServerValidatingEventArgs(String mail, MailAddress mailaddress, Strin
 ```
 
 
-Initializes a new instance of the SyntaxValidatingEventArgs class.
+Initializes a new instance of the [MailServerValidatingEventArgs](../../com.aspose.email/mailservervalidatingeventargs) class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -148,7 +148,7 @@ public final ValidationResult getResult()
 ```
 
 
-Gets or sets the validation result.
+Gets the validation result.
 
 **Returns:**
 [ValidationResult](../../com.aspose.email/validationresult)
@@ -158,7 +158,7 @@ public final boolean getSkip()
 ```
 
 
-Indicates whether to ignore the check.
+Gets indicates whether to ignore the check.
 
 **Returns:**
 boolean
@@ -194,7 +194,7 @@ public final void setResult(ValidationResult value)
 ```
 
 
-Gets or sets the validation result.
+Sets the validation result.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,7 +207,7 @@ public final void setSkip(boolean value)
 ```
 
 
-Indicates whether to ignore the check.
+Sets indicates whether to ignore the check.
 
 **Parameters:**
 | Parameter | Type | Description |

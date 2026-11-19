@@ -1,9 +1,9 @@
 ---
 title: StandardFormatter
 second_title: Aspose.Email for Java API Reference
-description: Represents the class for formatting log entry messsages.
+description: Represents the class for formatting log entry messages.
 type: docs
-weight: 687
+weight: 692
 url: /java/com.aspose.email/standardformatter/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.email.Formatter](../../com.aspose.email/formatter)
 public class StandardFormatter extends Formatter
 ```
 
-Represents the class for formatting log entry messsages.
+Represents the class for formatting log entry messages.
 ## Constructors
 
 | Constructor | Description |
@@ -29,14 +29,14 @@ Represents the class for formatting log entry messsages.
 | [format(LogEntry entry)](#format-com.aspose.email.LogEntry-) | Formats a log entry and return a string to be outputted. |
 | [format(Date datatime)](#format-java.util.Date-) | Formats a datetime and return a string to be outputted. |
 | [getClass()](#getClass--) |  |
-| [getDefaultFormatter()](#getDefaultFormatter--) | Gets or sets default formatter |
-| [getFooter()](#getFooter--) | Gest the footer string. |
+| [getDefaultFormatter()](#getDefaultFormatter--) | Gets default formatter. |
+| [getFooter()](#getFooter--) | Gets the footer string. |
 | [getHeader()](#getHeader--) | Gets the log header. |
-| [getLogHeader()](#getLogHeader--) | Gets or sets the log header |
+| [getLogHeader()](#getLogHeader--) | Gets the log header. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDefaultFormatter(IFormatter value)](#setDefaultFormatter-com.aspose.email.IFormatter-) | Gets or sets default formatter |
+| [setDefaultFormatter(IFormatter value)](#setDefaultFormatter-com.aspose.email.IFormatter-) | Sets default formatter. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -116,7 +116,7 @@ Formats a datetime and return a string to be outputted.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| datatime | java.util.Date | The datetime value for formatting to string |
+| datatime | java.util.Date | The datetime value for formatting to string. |
 
 **Returns:**
 java.lang.String
@@ -136,7 +136,7 @@ public static IFormatter getDefaultFormatter()
 ```
 
 
-Gets or sets default formatter
+Gets default formatter.
 
 **Returns:**
 [IFormatter](../../com.aspose.email/iformatter)
@@ -146,7 +146,7 @@ public String getFooter()
 ```
 
 
-Gest the footer string.
+Gets the footer string.
 
 **Returns:**
 java.lang.String
@@ -158,8 +158,6 @@ public String getHeader()
 
 Gets the log header.
 
-Value:
-
 **Returns:**
 java.lang.String
 ### getLogHeader() {#getLogHeader--}
@@ -168,7 +166,7 @@ public String getLogHeader()
 ```
 
 
-Gets or sets the log header
+Gets the log header.
 
 **Returns:**
 java.lang.String
@@ -204,7 +202,7 @@ public static void setDefaultFormatter(IFormatter value)
 ```
 
 
-Gets or sets default formatter
+Sets default formatter.
 
 **Parameters:**
 | Parameter | Type | Description |

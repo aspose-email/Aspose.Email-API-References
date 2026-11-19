@@ -3,7 +3,7 @@ title: OlmStorage
 second_title: Aspose.Email for Java API Reference
 description: Represents an Outlook for Mac .OLM storage file and provides functionality to access and manipulate the data within the file such as emails contacts calendars tasks and notes.
 type: docs
-weight: 573
+weight: 577
 url: /java/com.aspose.email/olmstorage/
 ---
 
@@ -20,7 +20,7 @@ Represents an Outlook for Mac (.OLM) storage file and provides functionality to 
 
 The OlmStorage class allows users to read from and interact with the contents of .OLM files typically used by Microsoft Outlook for Mac. This class handles the various data types stored within an .OLM file by providing methods to enumerate and extract information.
 
-Example:
+The following code shows how to access and retrieve information from an Outlook for Mac data file (.olm file).
 
 ```
 
@@ -63,7 +63,7 @@ Example:
 
 | Method | Description |
 | --- | --- |
-| [close()](#close--) |  |
+| [close()](#close--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [enumerateMessages(OlmFolder folder)](#enumerateMessages-com.aspose.email.OlmFolder-) | Exposes the enumerator, which supports an iteration of messages in folder. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -131,7 +131,7 @@ public void close()
 ```
 
 
-
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ### dispose() {#dispose--}
 ```
@@ -155,7 +155,7 @@ Exposes the enumerator, which supports an iteration of messages in folder.
 | folder | [OlmFolder](../../com.aspose.email/olmfolder) | [OlmFolder](../../com.aspose.email/olmfolder) that represents information about folder in OLM storage. |
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MapiMessage> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MapiMessage> -  Iterable , that represents an enumerator that iterates through a messages in folder.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -275,10 +275,8 @@ public final List<OlmFolder> getFolderHierarchy()
 
 Gets the folder hierarchy.
 
-Value: The folder hierarchy.
-
 **Returns:**
-java.util.List<com.aspose.email.OlmFolder>
+java.util.List<com.aspose.email.OlmFolder> - The folder hierarchy.
 ### getFolders() {#getFolders--}
 ```
 public final List<OlmFolder> getFolders()
@@ -323,7 +321,7 @@ Load OLM storage from stream. This method is used when a OlmStorage object is cr
 | stream | java.io.InputStream | The stream. |
 
 **Returns:**
-boolean - 'true' if the file has been loaded successfully and further traversal is possible; otherwise, false.
+boolean -  true  if the file has been loaded successfully and further traversal is possible; otherwise,  false .
 ### load(String fileName) {#load-java.lang.String-}
 ```
 public final boolean load(String fileName)
@@ -338,7 +336,7 @@ Load OLM storage from file. This method is used when a OlmStorage object is crea
 | fileName | java.lang.String | The file name. |
 
 **Returns:**
-boolean - 'true' if the file has been loaded successfully and further traversal is possible; otherwise, false.
+boolean -  true  if the file has been loaded successfully and further traversal is possible; otherwise,  false .
 ### notify() {#notify--}
 ```
 public final native void notify()

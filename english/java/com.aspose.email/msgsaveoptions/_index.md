@@ -1,9 +1,9 @@
 ---
 title: MsgSaveOptions
 second_title: Aspose.Email for Java API Reference
-description: This class allows the user to specify additional settings when saving a MailMessage in the MsgASCII and MsgUnicode format.
+description: Options for saving a  to Outlook MSG format with ANSI or Unicode strings or to an Outlook template OFT.
 type: docs
-weight: 551
+weight: 554
 url: /java/com.aspose.email/msgsaveoptions/
 ---
 
@@ -13,58 +13,52 @@ java.lang.Object, [com.aspose.email.SaveOptions](../../com.aspose.email/saveopti
 public class MsgSaveOptions extends SaveOptions
 ```
 
-This class allows the user to specify additional settings when saving a MailMessage in the Msg(ASCII) and Msg(Unicode) format.
+Options for saving a [MailMessage](../../com.aspose.email/mailmessage) to Outlook MSG format, with ANSI or Unicode strings, or to an Outlook template (OFT).
 
---------------------
+Get ready-made options from [SaveOptions.getDefaultMsgUnicode()](../../com.aspose.email/saveoptions\#getDefaultMsgUnicode--), [SaveOptions.getDefaultMsg()](../../com.aspose.email/saveoptions\#getDefaultMsg--) or [SaveOptions.getDefaultOft()](../../com.aspose.email/saveoptions\#getDefaultOft--).
 
-> The following example shows how to save as MSG with preserved dates.
-> 
-> [Java]
-> 
-> ```
-> // Initialize and Load an existing EML file by specifying the MessageFormat
->  MailMessage eml = MailMessage.load("Message.eml");
-> 
->  // Save as msg with preserved dates
->  MsgSaveOptions msgSaveOptions = new MsgSaveOptions(MailMessageSaveType.getOutlookMessageFormatUnicode())
->  msgSaveOptions.setPreserveOriginalDates(true);
-> 
->  eml.save("outTest_out.msg", msgSaveOptions);
-> ```
+The following example shows how to save as MSG with preserved dates.
 
---------------------
+```
+
+ // Initialize and Load an existing EML file by specifying the MessageFormat
+ MailMessage eml = MailMessage.load("Message.eml");
+
+ // Save as msg with preserved dates
+ MsgSaveOptions msgSaveOptions = new MsgSaveOptions(MailMessageSaveType.getOutlookMessageFormatUnicode());
+ msgSaveOptions.setPreserveOriginalDates(true);
+
+ eml.save("outTest_out.msg", msgSaveOptions);
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MsgSaveOptions(MailMessageSaveType saveType)](#MsgSaveOptions-com.aspose.email.MailMessageSaveType-) | Initializes a new instance of this class that can be used to save a MailMessage in the Msg(ASCII) and Msg(Unicode) format. |
+| [MsgSaveOptions(MailMessageSaveType saveType)](#MsgSaveOptions-com.aspose.email.MailMessageSaveType-) | Initializes a new instance of the [MsgSaveOptions](../../com.aspose.email/msgsaveoptions) class for the specified format. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [createSaveOptions(MailMessageSaveType saveType)](#createSaveOptions-com.aspose.email.MailMessageSaveType-) | Creates a save options object of a class suitable for the specified save type. |
+| [createSaveOptions(MailMessageSaveType saveType)](#createSaveOptions-com.aspose.email.MailMessageSaveType-) | Creates save options of the class that matches the specified format. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCustomProgressHandler()](#getCustomProgressHandler--) | Represents method that usually supplied by calling side and handles progress events. |
-| [getDefaultEml()](#getDefaultEml--) | Gets options with default values for saving message to Eml format. |
-| [getDefaultEmlx()](#getDefaultEmlx--) | Gets options with default values for saving message to Emlx format. |
-| [getDefaultHtml()](#getDefaultHtml--) | Gets options with default values for saving message to Html format. |
-| [getDefaultMhtml()](#getDefaultMhtml--) | Gets options with default values for saving message to Mhtml format. |
-| [getDefaultMsg()](#getDefaultMsg--) | Gets options with default values for saving message to Msg(ASCII) format. |
-| [getDefaultMsgUnicode()](#getDefaultMsgUnicode--) | Gets options with default values for saving message to Msg(Unicode) format. |
-| [getDefaultOft()](#getDefaultOft--) | Gets options with default values for saving message to Outlook template (Oft) format. |
-| [getMailMessageSaveType()](#getMailMessageSaveType--) | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. |
-| [getPreserveOriginalDates()](#getPreserveOriginalDates--) | Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message. |
-| [getPreserveSignature()](#getPreserveSignature--) | Set to true, if signature is to be preserved. |
-| [getSaveAsTemplate()](#getSaveAsTemplate--) | Set to true, if need to be saved as Outlook File Template(OFT format). |
+| [getCustomProgressHandler()](#getCustomProgressHandler--) | Gets a handler that is called as the saving progresses. |
+| [getDefaultEml()](#getDefaultEml--) | Gets new options with the default settings for saving to EML. |
+| [getDefaultEmlx()](#getDefaultEmlx--) | Gets new options with the default settings for saving to EMLX. |
+| [getDefaultHtml()](#getDefaultHtml--) | Gets new options with the default settings for saving to HTML. |
+| [getDefaultMhtml()](#getDefaultMhtml--) | Gets new options with the default settings for saving to MHTML. |
+| [getDefaultMsg()](#getDefaultMsg--) | Gets new options with the default settings for saving to MSG with ANSI strings. |
+| [getDefaultMsgUnicode()](#getDefaultMsgUnicode--) | Gets new options with the default settings for saving to MSG with Unicode strings. |
+| [getDefaultOft()](#getDefaultOft--) | Gets new options with the default settings for saving to Outlook template (OFT). |
+| [getMailMessageSaveType()](#getMailMessageSaveType--) | Gets the format the options save to. |
+| [getPreserveOriginalDates()](#getPreserveOriginalDates--) | Gets a value indicating whether the dates of the message are kept. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCustomProgressHandler(ConversionProgressEventHandler value)](#setCustomProgressHandler-com.aspose.email.ConversionProgressEventHandler-) | Represents method that usually supplied by calling side and handles progress events. |
-| [setMailMessageSaveType(MailMessageSaveType value)](#setMailMessageSaveType-com.aspose.email.MailMessageSaveType-) | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. |
-| [setPreserveOriginalDates(boolean value)](#setPreserveOriginalDates-boolean-) | Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message. |
-| [setPreserveSignature(boolean value)](#setPreserveSignature-boolean-) | Set to true, if signature is to be preserved. |
-| [setSaveAsTemplate(boolean value)](#setSaveAsTemplate-boolean-) | Set to true, if need to be saved as Outlook File Template(OFT format). |
+| [setCustomProgressHandler(ConversionProgressEventHandler value)](#setCustomProgressHandler-com.aspose.email.ConversionProgressEventHandler-) | Sets a handler that is called as the saving progresses. |
+| [setMailMessageSaveType(MailMessageSaveType value)](#setMailMessageSaveType-com.aspose.email.MailMessageSaveType-) | Sets the format the options save to. |
+| [setPreserveOriginalDates(boolean value)](#setPreserveOriginalDates-boolean-) | Sets a value indicating whether the dates of the message are kept. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -75,12 +69,12 @@ public MsgSaveOptions(MailMessageSaveType saveType)
 ```
 
 
-Initializes a new instance of this class that can be used to save a MailMessage in the Msg(ASCII) and Msg(Unicode) format.
+Initializes a new instance of the [MsgSaveOptions](../../com.aspose.email/msgsaveoptions) class for the specified format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveType | [MailMessageSaveType](../../com.aspose.email/mailmessagesavetype) |  |
+| saveType | [MailMessageSaveType](../../com.aspose.email/mailmessagesavetype) | The format: [MailMessageSaveType.getOutlookMessageFormat()](../../com.aspose.email/mailmessagesavetype\#getOutlookMessageFormat--), [MailMessageSaveType.getOutlookMessageFormatUnicode()](../../com.aspose.email/mailmessagesavetype\#getOutlookMessageFormatUnicode--) or [MailMessageSaveType.getOutlookTemplateFormat()](../../com.aspose.email/mailmessagesavetype\#getOutlookTemplateFormat--). |
 
 ### createSaveOptions(MailMessageSaveType saveType) {#createSaveOptions-com.aspose.email.MailMessageSaveType-}
 ```
@@ -88,15 +82,15 @@ public static SaveOptions createSaveOptions(MailMessageSaveType saveType)
 ```
 
 
-Creates a save options object of a class suitable for the specified save type.
+Creates save options of the class that matches the specified format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveType | [MailMessageSaveType](../../com.aspose.email/mailmessagesavetype) | The  MailMessageSaveTypesave type (\#getMailMessageSaveType.getMailMessageSaveType/\#setMailMessageSaveType(MailMessageSaveType).setMailMessageSaveType(MailMessageSaveType)) for which to create a save options object. |
+| saveType | [MailMessageSaveType](../../com.aspose.email/mailmessagesavetype) | The format to save to. |
 
 **Returns:**
-[SaveOptions](../../com.aspose.email/saveoptions) - An object of a class that derives from [SaveOptions](../../com.aspose.email/saveoptions).
+[SaveOptions](../../com.aspose.email/saveoptions) - A [EmlSaveOptions](../../com.aspose.email/emlsaveoptions), [MsgSaveOptions](../../com.aspose.email/msgsaveoptions), [MhtSaveOptions](../../com.aspose.email/mhtsaveoptions) or [HtmlSaveOptions](../../com.aspose.email/htmlsaveoptions) object.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -128,7 +122,7 @@ public final ConversionProgressEventHandler getCustomProgressHandler()
 ```
 
 
-Represents method that usually supplied by calling side and handles progress events.
+Gets a handler that is called as the saving progresses.
 
 **Returns:**
 [ConversionProgressEventHandler](../../com.aspose.email/conversionprogresseventhandler)
@@ -138,7 +132,7 @@ public static EmlSaveOptions getDefaultEml()
 ```
 
 
-Gets options with default values for saving message to Eml format.
+Gets new options with the default settings for saving to EML.
 
 **Returns:**
 [EmlSaveOptions](../../com.aspose.email/emlsaveoptions)
@@ -148,7 +142,7 @@ public static EmlSaveOptions getDefaultEmlx()
 ```
 
 
-Gets options with default values for saving message to Emlx format.
+Gets new options with the default settings for saving to EMLX.
 
 **Returns:**
 [EmlSaveOptions](../../com.aspose.email/emlsaveoptions)
@@ -158,7 +152,7 @@ public static HtmlSaveOptions getDefaultHtml()
 ```
 
 
-Gets options with default values for saving message to Html format.
+Gets new options with the default settings for saving to HTML.
 
 **Returns:**
 [HtmlSaveOptions](../../com.aspose.email/htmlsaveoptions)
@@ -168,7 +162,7 @@ public static MhtSaveOptions getDefaultMhtml()
 ```
 
 
-Gets options with default values for saving message to Mhtml format.
+Gets new options with the default settings for saving to MHTML.
 
 **Returns:**
 [MhtSaveOptions](../../com.aspose.email/mhtsaveoptions)
@@ -178,7 +172,7 @@ public static MsgSaveOptions getDefaultMsg()
 ```
 
 
-Gets options with default values for saving message to Msg(ASCII) format.
+Gets new options with the default settings for saving to MSG with ANSI strings.
 
 **Returns:**
 [MsgSaveOptions](../../com.aspose.email/msgsaveoptions)
@@ -188,7 +182,7 @@ public static MsgSaveOptions getDefaultMsgUnicode()
 ```
 
 
-Gets options with default values for saving message to Msg(Unicode) format.
+Gets new options with the default settings for saving to MSG with Unicode strings.
 
 **Returns:**
 [MsgSaveOptions](../../com.aspose.email/msgsaveoptions)
@@ -198,7 +192,7 @@ public static MsgSaveOptions getDefaultOft()
 ```
 
 
-Gets options with default values for saving message to Outlook template (Oft) format.
+Gets new options with the default settings for saving to Outlook template (OFT).
 
 **Returns:**
 [MsgSaveOptions](../../com.aspose.email/msgsaveoptions)
@@ -208,7 +202,7 @@ public final MailMessageSaveType getMailMessageSaveType()
 ```
 
 
-Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. The default value is Eml.
+Gets the format the options save to.
 
 **Returns:**
 [MailMessageSaveType](../../com.aspose.email/mailmessagesavetype)
@@ -218,27 +212,7 @@ public final boolean getPreserveOriginalDates()
 ```
 
 
-Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message. By default the value is true, meaning the creation and modification dates will be not set to DateTime.Now.
-
-**Returns:**
-boolean
-### getPreserveSignature() {#getPreserveSignature--}
-```
-public final boolean getPreserveSignature()
-```
-
-
-Set to true, if signature is to be preserved.
-
-**Returns:**
-boolean
-### getSaveAsTemplate() {#getSaveAsTemplate--}
-```
-public final boolean getSaveAsTemplate()
-```
-
-
-Set to true, if need to be saved as Outlook File Template(OFT format).
+Gets a value indicating whether the dates of the message are kept. When  false , the creation and modification dates are set to the time of saving. The default is  true .
 
 **Returns:**
 boolean
@@ -274,7 +248,7 @@ public final void setCustomProgressHandler(ConversionProgressEventHandler value)
 ```
 
 
-Represents method that usually supplied by calling side and handles progress events.
+Sets a handler that is called as the saving progresses.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -287,7 +261,7 @@ public final void setMailMessageSaveType(MailMessageSaveType value)
 ```
 
 
-Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. The default value is Eml.
+Sets the format the options save to.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -300,33 +274,7 @@ public final void setPreserveOriginalDates(boolean value)
 ```
 
 
-Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message. By default the value is true, meaning the creation and modification dates will be not set to DateTime.Now.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### setPreserveSignature(boolean value) {#setPreserveSignature-boolean-}
-```
-public final void setPreserveSignature(boolean value)
-```
-
-
-Set to true, if signature is to be preserved.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### setSaveAsTemplate(boolean value) {#setSaveAsTemplate-boolean-}
-```
-public final void setSaveAsTemplate(boolean value)
-```
-
-
-Set to true, if need to be saved as Outlook File Template(OFT format).
+Sets a value indicating whether the dates of the message are kept. When  false , the creation and modification dates are set to the time of saving. The default is  true .
 
 **Parameters:**
 | Parameter | Type | Description |

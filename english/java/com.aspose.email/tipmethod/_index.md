@@ -3,7 +3,7 @@ title: TIPMethod
 second_title: Aspose.Email for Java API Reference
 description: Defines the iTIP iCalendar Transport-Independent Interoperability Protocol methods associated with an object.
 type: docs
-weight: 699
+weight: 704
 url: /java/com.aspose.email/tipmethod/
 ---
 
@@ -18,16 +18,16 @@ Defines the iTIP (iCalendar Transport-Independent Interoperability Protocol) met
 
 | Field | Description |
 | --- | --- |
-| [Add](#Add) | Add one or more instances to an existing object. |
-| [Cancel](#Cancel) | Cancel one or more instances of an existing object. |
-| [Counter](#Counter) | Counter a REQUEST with an alternative proposal. |
-| [DeclineCounter](#DeclineCounter) | Decline a counter proposal by an Attendee. |
+| [Add](#Add) | Adds one or more instances to an existing object. |
+| [Cancel](#Cancel) | Cancels one or more instances of an existing object. |
+| [Counter](#Counter) | Proposes a change to a request. |
+| [DeclineCounter](#DeclineCounter) | Sent by the organizer to decline a proposed change. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [None](#None) | Method is not defined. |
-| [Publish](#Publish) | Post notification of an object. |
-| [Refresh](#Refresh) | A request sent to an object Organizer asking for the latest version of an object. |
-| [Reply](#Reply) | Reply to an object request. |
-| [Request](#Request) | Assign an object. |
+| [None](#None) | The method is not set. |
+| [Publish](#Publish) | Publishes an object to share it, without assigning it to anyone. |
+| [Refresh](#Refresh) | Sent to the organizer to ask for the latest version of an object. |
+| [Reply](#Reply) | Replies to a request, for example to accept or decline it. |
+| [Request](#Request) | Assigns an object to one or more calendar users, or updates an existing one. |
 ## Methods
 
 | Method | Description |
@@ -73,7 +73,7 @@ public static final int Add
 ```
 
 
-Add one or more instances to an existing object.
+Adds one or more instances to an existing object.
 
 ### Cancel {#Cancel}
 ```
@@ -81,7 +81,7 @@ public static final int Cancel
 ```
 
 
-Cancel one or more instances of an existing object.
+Cancels one or more instances of an existing object.
 
 ### Counter {#Counter}
 ```
@@ -89,7 +89,7 @@ public static final int Counter
 ```
 
 
-Counter a REQUEST with an alternative proposal.
+Proposes a change to a request.
 
 ### DeclineCounter {#DeclineCounter}
 ```
@@ -97,7 +97,7 @@ public static final int DeclineCounter
 ```
 
 
-Decline a counter proposal by an Attendee.
+Sent by the organizer to decline a proposed change.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -111,7 +111,7 @@ public static final int None
 ```
 
 
-Method is not defined.
+The method is not set.
 
 ### Publish {#Publish}
 ```
@@ -119,7 +119,7 @@ public static final int Publish
 ```
 
 
-Post notification of an object. Used primarily as a method of advertising the existence of an object.
+Publishes an object to share it, without assigning it to anyone.
 
 ### Refresh {#Refresh}
 ```
@@ -127,7 +127,7 @@ public static final int Refresh
 ```
 
 
-A request sent to an object Organizer asking for the latest version of an object.
+Sent to the organizer to ask for the latest version of an object.
 
 ### Reply {#Reply}
 ```
@@ -135,7 +135,7 @@ public static final int Reply
 ```
 
 
-Reply to an object request.
+Replies to a request, for example to accept or decline it.
 
 ### Request {#Request}
 ```
@@ -143,7 +143,7 @@ public static final int Request
 ```
 
 
-Assign an object. This is an explicit assignment to one or more Calendar Users. The REQUEST method is also used to update or change an existing object. Clients that cannot handle REQUEST MAY degrade the method to treat it as a PUBLISH.
+Assigns an object to one or more calendar users, or updates an existing one. Clients that cannot handle a request may treat it as a publication.
 
 ### Clone() {#Clone--}
 ```

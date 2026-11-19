@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarBusyStatus
 second_title: Aspose.Email for Java API Reference
-description: Enumerates the mapi calendar possible busy status
+description: Defines how the time of an event is shown in the calendar.
 type: docs
-weight: 407
+weight: 410
 url: /java/com.aspose.email/mapicalendarbusystatus/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiCalendarBusyStatus extends System.Enum
 ```
 
-Enumerates the mapi calendar possible busy status
+Defines how the time of an event is shown in the calendar.
 ## Fields
 
 | Field | Description |
@@ -21,7 +21,7 @@ Enumerates the mapi calendar possible busy status
 | [Busy](#Busy) | The user is busy. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
 | [Free](#Free) | The user is available. |
-| [NotDefined](#NotDefined) | Value is not defined |
+| [NotDefined](#NotDefined) | The status is not set. |
 | [OutOfOffice](#OutOfOffice) | The user is Out of Office (OOF). |
 | [Tentative](#Tentative) | The user has a tentative event scheduled. |
 ## Methods
@@ -91,7 +91,7 @@ public static final int NotDefined
 ```
 
 
-Value is not defined
+The status is not set.
 
 ### OutOfOffice {#OutOfOffice}
 ```

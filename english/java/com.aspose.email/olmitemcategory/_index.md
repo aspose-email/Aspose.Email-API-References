@@ -3,7 +3,7 @@ title: OlmItemCategory
 second_title: Aspose.Email for Java API Reference
 description: Represents an Outlook item category.
 type: docs
-weight: 571
+weight: 575
 url: /java/com.aspose.email/olmitemcategory/
 ---
 
@@ -25,8 +25,8 @@ Represents an Outlook item category.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | Gets or sets the color associated with the category. |
-| [getName()](#getName--) | Gets or sets the name of the category. |
+| [getColor()](#getColor--) | Gets the color associated with the category. |
+| [getName()](#getName--) | Gets the name of the category. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -71,7 +71,7 @@ public final String getColor()
 ```
 
 
-Gets or sets the color associated with the category.
+Gets the color associated with the category.
 
 **Returns:**
 java.lang.String
@@ -81,7 +81,7 @@ public final String getName()
 ```
 
 
-Gets or sets the name of the category.
+Gets the name of the category.
 
 **Returns:**
 java.lang.String

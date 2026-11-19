@@ -32,8 +32,8 @@ The amp-form extension allows you to create forms to submit input fields in an A
 | [getFieldset()](#getFieldset--) | List of fields. |
 | [getMethod()](#getMethod--) | The method attribute tells the server about the request method. |
 | [getPlaceholder()](#getPlaceholder--) | The element marked with the placeholder attribute acts as a placeholder for the parent AMP element. |
-| [getRequiredScript()](#getRequiredScript--) | Required script that muct be added to head section. |
-| [getTarget()](#getTarget--) | Indicates where to display the form response after submitting the form.The value must be \_blank or \_top. |
+| [getRequiredScript()](#getRequiredScript--) | Required script that must be added to head section. |
+| [getTarget()](#getTarget--) | Indicates where to display the form response after submitting the form. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -42,7 +42,7 @@ The amp-form extension allows you to create forms to submit input fields in an A
 | [setFallback(String value)](#setFallback-java.lang.String-) | A fallback is a convention that allows the element to communicate to the reader that the browser does not support the element. |
 | [setMethod(int value)](#setMethod-int-) | The method attribute tells the server about the request method. |
 | [setPlaceholder(AmpComponent value)](#setPlaceholder-com.aspose.email.AmpComponent-) | The element marked with the placeholder attribute acts as a placeholder for the parent AMP element. |
-| [setTarget(int value)](#setTarget-int-) | Indicates where to display the form response after submitting the form.The value must be \_blank or \_top. |
+| [setTarget(int value)](#setTarget-int-) | Indicates where to display the form response after submitting the form. |
 | [toAmpHtml()](#toAmpHtml--) | Represents amp html version of component. |
 | [toHtml()](#toHtml--) | Represents html version of component. |
 | [toString()](#toString--) |  |
@@ -76,7 +76,7 @@ public final String getAction()
 ```
 
 
-Specifies a server endpoint to handle the form input. The value must be an https URL (absolute or relative) and must not be a link to a CDN
+Specifies a server endpoint to handle the form input. The value must be an https URL (absolute or relative) and must not be a link to a CDN.
 
 **Returns:**
 java.lang.String
@@ -99,7 +99,7 @@ public final AmpAttributes getAttributes()
 AMP provides a set of common attributes that are extended to many AMP components.
 
 **Returns:**
-[AmpAttributes](../../com.aspose.email/ampattributes)
+[AmpAttributes](../../com.aspose.email/ampattributes) - The common AMP attributes of the component.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -129,7 +129,7 @@ public final List<FormField> getFieldset()
 List of fields.
 
 **Returns:**
-java.util.List<com.aspose.email.FormField>
+java.util.List<com.aspose.email.FormField> - The list of fields.
 ### getMethod() {#getMethod--}
 ```
 public final int getMethod()
@@ -139,7 +139,7 @@ public final int getMethod()
 The method attribute tells the server about the request method.
 
 **Returns:**
-int
+int - The request method, one of the  FormMethod  values.
 ### getPlaceholder() {#getPlaceholder--}
 ```
 public final AmpComponent getPlaceholder()
@@ -156,7 +156,7 @@ public String getRequiredScript()
 ```
 
 
-Required script that muct be added to head section.
+Required script that must be added to head section.
 
 **Returns:**
 java.lang.String
@@ -166,10 +166,10 @@ public final int getTarget()
 ```
 
 
-Indicates where to display the form response after submitting the form.The value must be \_blank or \_top.
+Indicates where to display the form response after submitting the form. The value must be  \_blank  or  \_top .
 
 **Returns:**
-int
+int - The target, one of the  FormTarget  values.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -202,7 +202,7 @@ public final void setAction(String value)
 ```
 
 
-Specifies a server endpoint to handle the form input. The value must be an https URL (absolute or relative) and must not be a link to a CDN
+Specifies a server endpoint to handle the form input. The value must be an https URL (absolute or relative) and must not be a link to a CDN.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,7 +246,7 @@ The method attribute tells the server about the request method.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The request method, one of the  FormMethod  values. |
 
 ### setPlaceholder(AmpComponent value) {#setPlaceholder-com.aspose.email.AmpComponent-}
 ```
@@ -267,12 +267,12 @@ public final void setTarget(int value)
 ```
 
 
-Indicates where to display the form response after submitting the form.The value must be \_blank or \_top.
+Indicates where to display the form response after submitting the form. The value must be  \_blank  or  \_top .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The target, one of the  FormTarget  values. |
 
 ### toAmpHtml() {#toAmpHtml--}
 ```
@@ -283,7 +283,7 @@ public String toAmpHtml()
 Represents amp html version of component.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toHtml() {#toHtml--}
 ```
 public String toHtml()
@@ -293,7 +293,7 @@ public String toHtml()
 Represents html version of component.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toString() {#toString--}
 ```
 public String toString()

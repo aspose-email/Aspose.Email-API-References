@@ -1,7 +1,7 @@
 ---
 title: AppointmentMsgSaveOptions
 second_title: Aspose.Email for Java API Reference
-description: Represents iCalendar save options
+description: Options for saving an appointment as an Outlook message MSG.
 type: docs
 weight: 42
 url: /java/com.aspose.email/appointmentmsgsaveoptions/
@@ -13,19 +13,33 @@ java.lang.Object, [com.aspose.email.AppointmentSaveOptions](../../com.aspose.ema
 public final class AppointmentMsgSaveOptions extends AppointmentSaveOptions
 ```
 
-Represents iCalendar save options
+Options for saving an appointment as an Outlook message (MSG).
+
+This can be useful for converting iCalendar events to Outlook-compatible message formats while preserving important event details.
+
+This example demonstrates how to load an event from an ICS file and save it as a .msg file using [AppointmentMsgSaveOptions](../../com.aspose.email/appointmentmsgsaveoptions).
+
+```
+
+ // Load the calendar event from an ICS file
+ Appointment calendarEvent = Appointment.load("event.ics");
+
+ // Save the event as a .msg file using AppointmentMsgSaveOptions
+ calendarEvent.save("event.msg", new AppointmentMsgSaveOptions());
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [AppointmentMsgSaveOptions()](#AppointmentMsgSaveOptions--) | Initializes a new instance of the [MsgSaveOptions](../../com.aspose.email/msgsaveoptions) class |
+| [AppointmentMsgSaveOptions()](#AppointmentMsgSaveOptions--) | Initializes a new instance of the [AppointmentMsgSaveOptions](../../com.aspose.email/appointmentmsgsaveoptions) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getSaveFormat()](#getSaveFormat--) | Gets a save format |
+| [getSaveFormat()](#getSaveFormat--) | Gets the format these options save to. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -39,7 +53,7 @@ public AppointmentMsgSaveOptions()
 ```
 
 
-Initializes a new instance of the [MsgSaveOptions](../../com.aspose.email/msgsaveoptions) class
+Initializes a new instance of the [AppointmentMsgSaveOptions](../../com.aspose.email/appointmentmsgsaveoptions) class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -72,7 +86,7 @@ public final int getSaveFormat()
 ```
 
 
-Gets a save format
+Gets the format these options save to.
 
 **Returns:**
 int

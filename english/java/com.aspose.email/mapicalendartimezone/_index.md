@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarTimeZone
 second_title: Aspose.Email for Java API Reference
-description: Represents the mapi calendar time zone information
+description: The time zone of a calendar item with its standard and daylight time rules.
 type: docs
-weight: 427
+weight: 430
 url: /java/com.aspose.email/mapicalendartimezone/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public final class MapiCalendarTimeZone
 ```
 
-Represents the mapi calendar time zone information
+The time zone of a calendar item, with its standard and daylight time rules.
 ## Constructors
 
 | Constructor | Description |
@@ -28,13 +28,13 @@ Represents the mapi calendar time zone information
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getKeyName()](#getKeyName--) | Gets or sets a human-readable description of the time zone |
-| [getTimeZoneRules()](#getTimeZoneRules--) | Gets or sets the time zone rules |
+| [getKeyName()](#getKeyName--) | Gets the name of the time zone, such as  Pacific Standard Time . |
+| [getTimeZoneRules()](#getTimeZoneRules--) | Gets the rules of the time zone, one per period of years. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setKeyName(String value)](#setKeyName-java.lang.String-) | Gets or sets a human-readable description of the time zone |
-| [setTimeZoneRules(MapiCalendarTimeZoneInfoCollection value)](#setTimeZoneRules-com.aspose.email.MapiCalendarTimeZoneInfoCollection-) | Gets or sets the time zone rules |
+| [setKeyName(String value)](#setKeyName-java.lang.String-) | Sets the name of the time zone, such as  Pacific Standard Time . |
+| [setTimeZoneRules(MapiCalendarTimeZoneInfoCollection value)](#setTimeZoneRules-com.aspose.email.MapiCalendarTimeZoneInfoCollection-) | Sets the rules of the time zone, one per period of years. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -116,7 +116,7 @@ public final String getKeyName()
 ```
 
 
-Gets or sets a human-readable description of the time zone
+Gets the name of the time zone, such as  Pacific Standard Time .
 
 **Returns:**
 java.lang.String
@@ -126,7 +126,7 @@ public final MapiCalendarTimeZoneInfoCollection getTimeZoneRules()
 ```
 
 
-Gets or sets the time zone rules
+Gets the rules of the time zone, one per period of years.
 
 **Returns:**
 [MapiCalendarTimeZoneInfoCollection](../../com.aspose.email/mapicalendartimezoneinfocollection)
@@ -162,7 +162,7 @@ public final void setKeyName(String value)
 ```
 
 
-Gets or sets a human-readable description of the time zone
+Sets the name of the time zone, such as  Pacific Standard Time .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -175,7 +175,7 @@ public final void setTimeZoneRules(MapiCalendarTimeZoneInfoCollection value)
 ```
 
 
-Gets or sets the time zone rules
+Sets the rules of the time zone, one per period of years.
 
 **Parameters:**
 | Parameter | Type | Description |

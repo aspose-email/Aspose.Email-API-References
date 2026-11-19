@@ -1,9 +1,9 @@
 ---
 title: MessageInfo
 second_title: Aspose.Email for Java API Reference
-description: Represents information about message in PST.
+description: Summary information about a message in a PST such as its subject recipients and message class available without loading the whole message.
 type: docs
-weight: 516
+weight: 519
 url: /java/com.aspose.email/messageinfo/
 ---
 
@@ -13,7 +13,9 @@ java.lang.Object
 public final class MessageInfo
 ```
 
-Represents information about message in PST.
+Summary information about a message in a PST, such as its subject, recipients and message class, available without loading the whole message.
+
+Use  PersonalStorage.extractMessage  to load the full message with its body and attachments.
 ## Constructors
 
 | Constructor | Description |
@@ -25,15 +27,15 @@ Represents information about message in PST.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDisplayCC()](#getDisplayCC--) | Gets the CC: line. |
-| [getDisplayTo()](#getDisplayTo--) | Gets the To: line. |
-| [getEntryId()](#getEntryId--) | Gets the entry ID. |
-| [getEntryIdString()](#getEntryIdString--) | Gets string representation of entry ID. |
-| [getImportance()](#getImportance--) | Gets the Importance. |
-| [getMessageClass()](#getMessageClass--) | Gets the Message class. |
-| [getProperties()](#getProperties--) | Gets the MessageInfo properties. |
-| [getSenderRepresentativeName()](#getSenderRepresentativeName--) | Gets the sender representative name. |
-| [getSensitivity()](#getSensitivity--) | Gets the Sensitivity. |
+| [getDisplayCC()](#getDisplayCC--) | Gets the display names of the Cc recipients, as shown in the Cc line. |
+| [getDisplayTo()](#getDisplayTo--) | Gets the display names of the To recipients, as shown in the To line. |
+| [getEntryId()](#getEntryId--) | Gets the entry ID of the message, which identifies it in the PST. |
+| [getEntryIdString()](#getEntryIdString--) | Gets the entry ID of the message as a string. |
+| [getImportance()](#getImportance--) | Gets the importance of the message. |
+| [getMessageClass()](#getMessageClass--) | Gets the message class, which defines the type of the item, for example  IPM.Note  for an email or  IPM.Contact  for a contact. |
+| [getProperties()](#getProperties--) | Gets the MAPI properties of the message that are read with the message list. |
+| [getSenderRepresentativeName()](#getSenderRepresentativeName--) | Gets the display name of the user the message was sent on behalf of (the PR\_SENT\_REPRESENTING\_NAME property). |
+| [getSensitivity()](#getSensitivity--) | Gets the sensitivity of the message. |
 | [getSubject()](#getSubject--) | Gets the message subject. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -81,108 +83,90 @@ public final String getDisplayCC()
 ```
 
 
-Gets the CC: line.
-
-Value: The display cc.
+Gets the display names of the Cc recipients, as shown in the Cc line.
 
 **Returns:**
-java.lang.String
+java.lang.String - The Cc line.
 ### getDisplayTo() {#getDisplayTo--}
 ```
 public final String getDisplayTo()
 ```
 
 
-Gets the To: line.
-
-Value: The display to.
+Gets the display names of the To recipients, as shown in the To line.
 
 **Returns:**
-java.lang.String
+java.lang.String - The To line.
 ### getEntryId() {#getEntryId--}
 ```
 public final byte[] getEntryId()
 ```
 
 
-Gets the entry ID.
-
-Value: The entry id.
+Gets the entry ID of the message, which identifies it in the PST.
 
 **Returns:**
-byte[]
+byte[] - The entry ID as a byte array.
 ### getEntryIdString() {#getEntryIdString--}
 ```
 public final String getEntryIdString()
 ```
 
 
-Gets string representation of entry ID.
-
-Value: The entry id string.
+Gets the entry ID of the message as a string.
 
 **Returns:**
-java.lang.String
+java.lang.String - The entry ID in the string form accepted by  PersonalStorage.extractMessage .
 ### getImportance() {#getImportance--}
 ```
 public final int getImportance()
 ```
 
 
-Gets the Importance.
-
-Value: The importance.
+Gets the importance of the message.
 
 **Returns:**
-int
+int - The importance.
 ### getMessageClass() {#getMessageClass--}
 ```
 public final String getMessageClass()
 ```
 
 
-Gets the Message class.
-
-Value: The message class.
+Gets the message class, which defines the type of the item, for example  IPM.Note  for an email or  IPM.Contact  for a contact.
 
 **Returns:**
-java.lang.String
+java.lang.String - The message class.
 ### getProperties() {#getProperties--}
 ```
 public final MapiPropertyCollection getProperties()
 ```
 
 
-Gets the MessageInfo properties.
-
-Value: The properties of MessageInfo.
+Gets the MAPI properties of the message that are read with the message list.
 
 **Returns:**
-[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection)
+[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) - The properties of the message.
 ### getSenderRepresentativeName() {#getSenderRepresentativeName--}
 ```
 public final String getSenderRepresentativeName()
 ```
 
 
-Gets the sender representative name.
-
-Value: The sender representative name.
+Gets the display name of the user the message was sent on behalf of (the PR\_SENT\_REPRESENTING\_NAME property).
 
 **Returns:**
-java.lang.String
+java.lang.String - The sender representative name.
 ### getSensitivity() {#getSensitivity--}
 ```
 public final int getSensitivity()
 ```
 
 
-Gets the Sensitivity.
-
-Value: The sensitivity.
+Gets the sensitivity of the message.
 
 **Returns:**
-int
+int - The sensitivity.
 ### getSubject() {#getSubject--}
 ```
 public final String getSubject()
@@ -191,10 +175,8 @@ public final String getSubject()
 
 Gets the message subject.
 
-Value: The subject.
-
 **Returns:**
-java.lang.String
+java.lang.String - The subject.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

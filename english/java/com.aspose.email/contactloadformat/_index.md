@@ -1,9 +1,9 @@
 ---
 title: ContactLoadFormat
 second_title: Aspose.Email for Java API Reference
-description: Enumerates contact load formats
+description: Enumerates contact load formats.
 type: docs
-weight: 122
+weight: 123
 url: /java/com.aspose.email/contactloadformat/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ContactLoadFormat extends System.Enum
 ```
 
-Enumerates contact load formats
+Enumerates contact load formats.
 ## Fields
 
 | Field | Description |

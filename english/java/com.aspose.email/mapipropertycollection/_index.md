@@ -1,9 +1,9 @@
 ---
 title: MapiPropertyCollection
 second_title: Aspose.Email for Java API Reference
-description: Represents the collection of MapiProperty items.
+description: The MAPI properties of a message attachment or recipient keyed by tag.
 type: docs
-weight: 478
+weight: 481
 url: /java/com.aspose.email/mapipropertycollection/
 ---
 
@@ -16,58 +16,60 @@ com.aspose.ms.System.Collections.Generic.IGenericDictionary, [com.aspose.email.I
 public class MapiPropertyCollection implements System.Collections.Generic.IGenericDictionary<Long,MapiProperty>, INamedPropertyTagProvider
 ```
 
-Represents the collection of MapiProperty items.
+The MAPI properties of a message, attachment or recipient, keyed by tag.
+
+Returned by [MapiPropertyContainer.getProperties()](../../com.aspose.email/mapipropertycontainer\#getProperties--). For typed access the methods of [MapiPropertyContainer](../../com.aspose.email/mapipropertycontainer), such as [MapiPropertyContainer.getPropertyString(long, int)](../../com.aspose.email/mapipropertycontainer\#getPropertyString-long--int-), are usually more convenient.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MapiPropertyCollection()](#MapiPropertyCollection--) | Creates a new instance of class MapiProperty. |
+| [MapiPropertyCollection()](#MapiPropertyCollection--) | Initializes a new instance of the [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [add(MapiProperty value)](#add-com.aspose.email.MapiProperty-) | Adds a MapiProperty item with specified tag. |
-| [add(System.Collections.Generic.KeyValuePair<Long,MapiProperty> item)](#add-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty--) |  |
-| [add(long key, MapiProperty value)](#add-long-com.aspose.email.MapiProperty-) | Adds a MapiProperty item with specified tag. |
+| [add(MapiProperty value)](#add-com.aspose.email.MapiProperty-) | Adds a property under its own tag. |
+| [add(System.Collections.Generic.KeyValuePair<Long,MapiProperty> item)](#add-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty--) | Adds a property under a tag. |
+| [add(long key, MapiProperty value)](#add-long-com.aspose.email.MapiProperty-) | Adds a property under the specified tag. |
 | [addItem(System.Collections.Generic.KeyValuePair<Long,MapiProperty> arg0)](#addItem-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty--) |  |
 | [addItem(Long arg0, MapiProperty arg1)](#addItem-java.lang.Long-com.aspose.email.MapiProperty-) |  |
-| [clear()](#clear--) | Removes all of the elements from the collection. |
-| [contains(System.Collections.Generic.KeyValuePair<Long,MapiProperty> item)](#contains-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty--) |  |
+| [clear()](#clear--) | Removes all properties from the collection. |
+| [contains(System.Collections.Generic.KeyValuePair<Long,MapiProperty> item)](#contains-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty--) | Determines whether the collection contains the tag and property pair. |
 | [containsItem(System.Collections.Generic.KeyValuePair<Long,MapiProperty> arg0)](#containsItem-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty--) |  |
 | [containsKey(Long arg0)](#containsKey-java.lang.Long-) |  |
-| [containsKey(long key)](#containsKey-long-) | Determines whether the collection contains a property with the specified tag. |
-| [copyTo(System.Collections.Generic.KeyValuePair<Long,MapiProperty>[] array, int arrayIndex)](#copyTo-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty----int-) |  |
+| [containsKey(long key)](#containsKey-long-) | Determines whether the collection contains a property with the tag. |
+| [copyTo(System.Collections.Generic.KeyValuePair<Long,MapiProperty>[] array, int arrayIndex)](#copyTo-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty----int-) | Copies the tag and property pairs to an array. |
 | [copyToTArray(System.Collections.Generic.KeyValuePair<Long,MapiProperty>[] arg0, int arg1)](#copyToTArray-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty----int-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [generateNamedPropertyTag(long dataType)](#generateNamedPropertyTag-long-) |  |
 | [getClass()](#getClass--) |  |
-| [getKeys()](#getKeys--) | Gets a System.Collections.Generic.ICollection<long> containing the keys in the collection. |
-| [getProperty(PropertyDescriptor pd)](#getProperty-com.aspose.email.PropertyDescriptor-) | Gets MAPI property by property descriptor. |
+| [getKeys()](#getKeys--) | Gets the tags of the properties in the collection. |
+| [getProperty(PropertyDescriptor pd)](#getProperty-com.aspose.email.PropertyDescriptor-) | Gets a property by its descriptor. |
 | [getTagFromNamedProperty(String name)](#getTagFromNamedProperty-java.lang.String-) | Gets the tag from named property. |
 | [getTagFromNamedProperty(long LId)](#getTagFromNamedProperty-long-) | Gets the tag from named property. |
-| [getValues()](#getValues--) | Gets an System.Collections.Generic.ICollection<MapiProperty> containing the values in the collection. |
-| [get_Item(PropertyDescriptor pd)](#get-Item-com.aspose.email.PropertyDescriptor-) | Gets or sets the value associated with the specified key. |
+| [getValues()](#getValues--) | Gets the properties in the collection. |
+| [get_Item(PropertyDescriptor pd)](#get-Item-com.aspose.email.PropertyDescriptor-) | Gets the value associated with the specified key. |
 | [get_Item(Long arg0)](#get-Item-java.lang.Long-) |  |
-| [get_Item(long tag)](#get-Item-long-) | Gets or sets the value associated with the specified key. |
+| [get_Item(long tag)](#get-Item-long-) | Gets the value associated with the specified key. |
 | [get_Keys()](#get-Keys--) | Gets a System.Collections.Generic.ICollection<long> containing the keys in the collection. |
 | [get_Values()](#get-Values--) | Gets an System.Collections.Generic.ICollection<MapiProperty> containing the values in the collection. |
 | [hashCode()](#hashCode--) |  |
-| [isReadOnly()](#isReadOnly--) | Gets a value indicating whether the collection is read only. |
-| [iterator()](#iterator--) |  |
+| [isReadOnly()](#isReadOnly--) | Gets a value indicating whether the collection is read-only. |
+| [iterator()](#iterator--) | Returns an enumerator over the tag and property pairs. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(PropertyDescriptor pd)](#remove-com.aspose.email.PropertyDescriptor-) | Removes the property with the specified property descriptor from the collection. |
-| [remove(System.Collections.Generic.KeyValuePair<Long,MapiProperty> item)](#remove-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty--) |  |
-| [remove(long key)](#remove-long-) | Removes the property with the specified tag from the collection. |
+| [remove(PropertyDescriptor pd)](#remove-com.aspose.email.PropertyDescriptor-) | Removes the property with the specified descriptor. |
+| [remove(System.Collections.Generic.KeyValuePair<Long,MapiProperty> item)](#remove-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty--) | Removes the tag and property pair. |
+| [remove(long key)](#remove-long-) | Removes the property with the specified tag. |
 | [removeItem(System.Collections.Generic.KeyValuePair<Long,MapiProperty> arg0)](#removeItem-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty--) |  |
 | [removeItemByKey(Long arg0)](#removeItemByKey-java.lang.Long-) |  |
-| [set_Item(PropertyDescriptor pd, MapiProperty value)](#set-Item-com.aspose.email.PropertyDescriptor-com.aspose.email.MapiProperty-) | Gets or sets the value associated with the specified key. |
+| [set_Item(PropertyDescriptor pd, MapiProperty value)](#set-Item-com.aspose.email.PropertyDescriptor-com.aspose.email.MapiProperty-) | Sets the value associated with the specified key. |
 | [set_Item(Long arg0, MapiProperty arg1)](#set-Item-java.lang.Long-com.aspose.email.MapiProperty-) |  |
-| [set_Item(long tag, MapiProperty value)](#set-Item-long-com.aspose.email.MapiProperty-) | Gets or sets the value associated with the specified key. |
-| [size()](#size--) | Gets the number of elements contained in the collection. |
+| [set_Item(long tag, MapiProperty value)](#set-Item-long-com.aspose.email.MapiProperty-) | Sets the value associated with the specified key. |
+| [size()](#size--) | Gets the number of properties in the collection. |
 | [toString()](#toString--) |  |
 | [tryGetValue(Long arg0, Object[] arg1)](#tryGetValue-java.lang.Long-java.lang.Object---) |  |
-| [tryGetValue(long key, MapiProperty[] value)](#tryGetValue-long-com.aspose.email.MapiProperty---) | Gets the property associated with the specified tag. |
+| [tryGetValue(long key, MapiProperty[] value)](#tryGetValue-long-com.aspose.email.MapiProperty---) | Gets the property with the specified tag, if there is one. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -77,7 +79,7 @@ public MapiPropertyCollection()
 ```
 
 
-Creates a new instance of class MapiProperty.
+Initializes a new instance of the [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) class.
 
 ### add(MapiProperty value) {#add-com.aspose.email.MapiProperty-}
 ```
@@ -85,12 +87,12 @@ public void add(MapiProperty value)
 ```
 
 
-Adds a MapiProperty item with specified tag.
+Adds a property under its own tag.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MapiProperty](../../com.aspose.email/mapiproperty) | The property value. |
+| value | [MapiProperty](../../com.aspose.email/mapiproperty) | The property. |
 
 ### add(System.Collections.Generic.KeyValuePair<Long,MapiProperty> item) {#add-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty--}
 ```
@@ -98,12 +100,12 @@ public final void add(System.Collections.Generic.KeyValuePair<Long,MapiProperty>
 ```
 
 
-
+Adds a property under a tag.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | com.aspose.ms.System.Collections.Generic.KeyValuePair<java.lang.Long,com.aspose.email.MapiProperty> |  |
+| item | com.aspose.ms.System.Collections.Generic.KeyValuePair<java.lang.Long,com.aspose.email.MapiProperty> | The tag and the property. |
 
 ### add(long key, MapiProperty value) {#add-long-com.aspose.email.MapiProperty-}
 ```
@@ -111,13 +113,13 @@ public void add(long key, MapiProperty value)
 ```
 
 
-Adds a MapiProperty item with specified tag.
+Adds a property under the specified tag.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | long | The property tag. |
-| value | [MapiProperty](../../com.aspose.email/mapiproperty) | The property value. |
+| key | long | The tag of the property. |
+| value | [MapiProperty](../../com.aspose.email/mapiproperty) | The property. |
 
 ### addItem(System.Collections.Generic.KeyValuePair<Long,MapiProperty> arg0) {#addItem-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty--}
 ```
@@ -152,7 +154,7 @@ public final void clear()
 ```
 
 
-Removes all of the elements from the collection.
+Removes all properties from the collection.
 
 ### contains(System.Collections.Generic.KeyValuePair<Long,MapiProperty> item) {#contains-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty--}
 ```
@@ -160,15 +162,15 @@ public final boolean contains(System.Collections.Generic.KeyValuePair<Long,MapiP
 ```
 
 
-
+Determines whether the collection contains the tag and property pair.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | com.aspose.ms.System.Collections.Generic.KeyValuePair<java.lang.Long,com.aspose.email.MapiProperty> |  |
+| item | com.aspose.ms.System.Collections.Generic.KeyValuePair<java.lang.Long,com.aspose.email.MapiProperty> | The tag and the property to find. |
 
 **Returns:**
-boolean
+boolean -  true  if the collection contains the pair; otherwise,  false .
 ### containsItem(System.Collections.Generic.KeyValuePair<Long,MapiProperty> arg0) {#containsItem-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty--}
 ```
 public boolean containsItem(System.Collections.Generic.KeyValuePair<Long,MapiProperty> arg0)
@@ -205,28 +207,28 @@ public final boolean containsKey(long key)
 ```
 
 
-Determines whether the collection contains a property with the specified tag.
+Determines whether the collection contains a property with the tag.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | long | The property tag. |
+| key | long | The tag of the property. |
 
 **Returns:**
-boolean - true if the collection contains a property with the tag; otherwise, false
+boolean -  true  if the collection contains the property; otherwise,  false .
 ### copyTo(System.Collections.Generic.KeyValuePair<Long,MapiProperty>[] array, int arrayIndex) {#copyTo-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty----int-}
 ```
 public final void copyTo(System.Collections.Generic.KeyValuePair<Long,MapiProperty>[] array, int arrayIndex)
 ```
 
 
-
+Copies the tag and property pairs to an array.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.ms.System.Collections.Generic.KeyValuePair<java.lang.Long,com.aspose.email.MapiProperty>[] |  |
-| arrayIndex | int |  |
+| array | com.aspose.ms.System.Collections.Generic.KeyValuePair<java.lang.Long,com.aspose.email.MapiProperty>[] | The array to copy to. |
+| arrayIndex | int | The zero-based position in  array  to start at. |
 
 ### copyToTArray(System.Collections.Generic.KeyValuePair<Long,MapiProperty>[] arg0, int arg1) {#copyToTArray-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty----int-}
 ```
@@ -288,7 +290,7 @@ public final System.Collections.Generic.IGenericCollection getKeys()
 ```
 
 
-Gets a System.Collections.Generic.ICollection<long> containing the keys in the collection.
+Gets the tags of the properties in the collection.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericCollection
@@ -298,15 +300,15 @@ public MapiProperty getProperty(PropertyDescriptor pd)
 ```
 
 
-Gets MAPI property by property descriptor.
+Gets a property by its descriptor.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | Property descriptor for looked property |
+| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | The descriptor of the property, for example one from [KnownPropertyList](../../com.aspose.email/knownpropertylist). |
 
 **Returns:**
-[MapiProperty](../../com.aspose.email/mapiproperty) - Mapi property if it is found, otherwise null.
+[MapiProperty](../../com.aspose.email/mapiproperty) - The property, or  null  if the collection does not contain it.
 ### getTagFromNamedProperty(String name) {#getTagFromNamedProperty-java.lang.String-}
 ```
 public final long getTagFromNamedProperty(String name)
@@ -343,7 +345,7 @@ public final System.Collections.Generic.IGenericCollection getValues()
 ```
 
 
-Gets an System.Collections.Generic.ICollection<MapiProperty> containing the values in the collection.
+Gets the properties in the collection.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericCollection
@@ -353,7 +355,7 @@ public final MapiProperty get_Item(PropertyDescriptor pd)
 ```
 
 
-Gets or sets the value associated with the specified key.
+Gets the value associated with the specified key.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -383,7 +385,7 @@ public final MapiProperty get_Item(long tag)
 ```
 
 
-Gets or sets the value associated with the specified key.
+Gets the value associated with the specified key.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -428,7 +430,7 @@ public final boolean isReadOnly()
 ```
 
 
-Gets a value indicating whether the collection is read only.
+Gets a value indicating whether the collection is read-only.
 
 **Returns:**
 boolean
@@ -438,10 +440,10 @@ public final System.Collections.Generic.IGenericEnumerator<System.Collections.Ge
 ```
 
 
-
+Returns an enumerator over the tag and property pairs.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.ms.System.Collections.Generic.KeyValuePair<java.lang.Long,com.aspose.email.MapiProperty>>
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.ms.System.Collections.Generic.KeyValuePair<java.lang.Long,com.aspose.email.MapiProperty>> - The enumerator.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -464,37 +466,37 @@ public final boolean remove(PropertyDescriptor pd)
 ```
 
 
-Removes the property with the specified property descriptor from the collection.
+Removes the property with the specified descriptor.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | Property descriptor of the property to remove. |
+| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | The descriptor of the property to remove. |
 
 **Returns:**
-boolean - true if the property is successfully removed; otherwise, false.
+boolean -  true  if the property was removed;  false  if the collection does not contain it.
 ### remove(System.Collections.Generic.KeyValuePair<Long,MapiProperty> item) {#remove-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty--}
 ```
 public final boolean remove(System.Collections.Generic.KeyValuePair<Long,MapiProperty> item)
 ```
 
 
-
+Removes the tag and property pair.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | com.aspose.ms.System.Collections.Generic.KeyValuePair<java.lang.Long,com.aspose.email.MapiProperty> |  |
+| item | com.aspose.ms.System.Collections.Generic.KeyValuePair<java.lang.Long,com.aspose.email.MapiProperty> | The pair to remove. |
 
 **Returns:**
-boolean
+boolean -  true  if the pair was removed; otherwise,  false .
 ### remove(long key) {#remove-long-}
 ```
 public final boolean remove(long key)
 ```
 
 
-Removes the property with the specified tag from the collection.
+Removes the property with the specified tag.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -502,7 +504,7 @@ Removes the property with the specified tag from the collection.
 | key | long | The tag of the property to remove. |
 
 **Returns:**
-boolean - true if the property is successfully removed; otherwise, false.
+boolean -  true  if the property was removed;  false  if the collection does not contain it.
 ### removeItem(System.Collections.Generic.KeyValuePair<Long,MapiProperty> arg0) {#removeItem-com.aspose.ms.System.Collections.Generic.KeyValuePair-java.lang.Long-com.aspose.email.MapiProperty--}
 ```
 public boolean removeItem(System.Collections.Generic.KeyValuePair<Long,MapiProperty> arg0)
@@ -539,13 +541,13 @@ public final void set_Item(PropertyDescriptor pd, MapiProperty value)
 ```
 
 
-Gets or sets the value associated with the specified key.
+Sets the value associated with the specified key.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | The [PropertyDescriptor](../../com.aspose.email/propertydescriptor) key whose value to get or set. |
-| value | [MapiProperty](../../com.aspose.email/mapiproperty) |  |
+| value | [MapiProperty](../../com.aspose.email/mapiproperty) | The value to set. |
 
 ### set_Item(Long arg0, MapiProperty arg1) {#set-Item-java.lang.Long-com.aspose.email.MapiProperty-}
 ```
@@ -567,13 +569,13 @@ public final void set_Item(long tag, MapiProperty value)
 ```
 
 
-Gets or sets the value associated with the specified key.
+Sets the value associated with the specified key.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | tag | long | The tag key whose value to get or set. |
-| value | [MapiProperty](../../com.aspose.email/mapiproperty) |  |
+| value | [MapiProperty](../../com.aspose.email/mapiproperty) | The value to set. |
 
 ### size() {#size--}
 ```
@@ -581,7 +583,7 @@ public final int size()
 ```
 
 
-Gets the number of elements contained in the collection.
+Gets the number of properties in the collection.
 
 **Returns:**
 int
@@ -617,16 +619,16 @@ public final boolean tryGetValue(long key, MapiProperty[] value)
 ```
 
 
-Gets the property associated with the specified tag.
+Gets the property with the specified tag, if there is one.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | long | The property tag. |
-| value | [MapiProperty\[\]](../../com.aspose.email/mapiproperty) |  |
+| key | long | The tag of the property. |
+| value | [MapiProperty\[\]](../../com.aspose.email/mapiproperty) | When this method returns, the property, or  null  if the collection does not contain it. |
 
 **Returns:**
-boolean - 
+boolean -  true  if the collection contains the property; otherwise,  false .
 ### wait() {#wait--}
 ```
 public final void wait()

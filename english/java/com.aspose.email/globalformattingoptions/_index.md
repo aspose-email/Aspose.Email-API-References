@@ -1,9 +1,9 @@
 ---
 title: GlobalFormattingOptions
 second_title: Aspose.Email for Java API Reference
-description: Class that allow to set some formatting options for all newly created instances of this options.
+description: The default header formats for every new  and  object.
 type: docs
-weight: 279
+weight: 282
 url: /java/com.aspose.email/globalformattingoptions/
 ---
 
@@ -13,7 +13,9 @@ java.lang.Object
 public class GlobalFormattingOptions
 ```
 
-Class that allow to set some formatting options for all newly created instances of this options.
+The default header formats for every new [HtmlSaveOptions](../../com.aspose.email/htmlsaveoptions) and [MhtSaveOptions](../../com.aspose.email/mhtsaveoptions) object.
+
+A value set here is used by every save options object created afterwards whose own format is not set.
 ## Constructors
 
 | Constructor | Description |
@@ -24,18 +26,18 @@ Class that allow to set some formatting options for all newly created instances 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAfterHeadersFormat()](#getAfterHeadersFormat--) | AfterHeadersFormat for instances of HeadersFormattingOptions if AfterHeadersFormat is not set. |
-| [getBeforeHeadersFormat()](#getBeforeHeadersFormat--) | BeforeHeadersFormat for instances of HeadersFormattingOptions if BeforeHeadersFormat is not set. |
+| [getAfterHeadersFormat()](#getAfterHeadersFormat--) | Gets the default for [HeadersFormattingOptions.getAfterHeadersFormat()](../../com.aspose.email/headersformattingoptions\#getAfterHeadersFormat--). |
+| [getBeforeHeadersFormat()](#getBeforeHeadersFormat--) | Gets the default for [HeadersFormattingOptions.getBeforeHeadersFormat()](../../com.aspose.email/headersformattingoptions\#getBeforeHeadersFormat--). |
 | [getClass()](#getClass--) |  |
-| [getHeaderFormat()](#getHeaderFormat--) | HeaderFormat for instances of HeadersFormattingOptions if DefaultHeaderFormat is not set. |
-| [getPageHeaderFormat()](#getPageHeaderFormat--) | PageHeaderFormat for instances of HeadersFormattingOptions if DefaultPageHeaderFormat is not set. |
+| [getHeaderFormat()](#getHeaderFormat--) | Gets the default for [HeadersFormattingOptions.getDefaultHeaderFormat()](../../com.aspose.email/headersformattingoptions\#getDefaultHeaderFormat--). |
+| [getPageHeaderFormat()](#getPageHeaderFormat--) | Gets the default for [HeadersFormattingOptions.getDefaultPageHeaderFormat()](../../com.aspose.email/headersformattingoptions\#getDefaultPageHeaderFormat--). |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAfterHeadersFormat(String value)](#setAfterHeadersFormat-java.lang.String-) | AfterHeadersFormat for instances of HeadersFormattingOptions if AfterHeadersFormat is not set. |
-| [setBeforeHeadersFormat(String value)](#setBeforeHeadersFormat-java.lang.String-) | BeforeHeadersFormat for instances of HeadersFormattingOptions if BeforeHeadersFormat is not set. |
-| [setHeaderFormat(String value)](#setHeaderFormat-java.lang.String-) | HeaderFormat for instances of HeadersFormattingOptions if DefaultHeaderFormat is not set. |
-| [setPageHeaderFormat(String value)](#setPageHeaderFormat-java.lang.String-) | PageHeaderFormat for instances of HeadersFormattingOptions if DefaultPageHeaderFormat is not set. |
+| [setAfterHeadersFormat(String value)](#setAfterHeadersFormat-java.lang.String-) | Sets the default for [HeadersFormattingOptions.getAfterHeadersFormat()](../../com.aspose.email/headersformattingoptions\#getAfterHeadersFormat--). |
+| [setBeforeHeadersFormat(String value)](#setBeforeHeadersFormat-java.lang.String-) | Sets the default for [HeadersFormattingOptions.getBeforeHeadersFormat()](../../com.aspose.email/headersformattingoptions\#getBeforeHeadersFormat--). |
+| [setHeaderFormat(String value)](#setHeaderFormat-java.lang.String-) | Sets the default for [HeadersFormattingOptions.getDefaultHeaderFormat()](../../com.aspose.email/headersformattingoptions\#getDefaultHeaderFormat--). |
+| [setPageHeaderFormat(String value)](#setPageHeaderFormat-java.lang.String-) | Sets the default for [HeadersFormattingOptions.getDefaultPageHeaderFormat()](../../com.aspose.email/headersformattingoptions\#getDefaultPageHeaderFormat--). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -67,7 +69,7 @@ public static String getAfterHeadersFormat()
 ```
 
 
-AfterHeadersFormat for instances of HeadersFormattingOptions if AfterHeadersFormat is not set.
+Gets the default for [HeadersFormattingOptions.getAfterHeadersFormat()](../../com.aspose.email/headersformattingoptions\#getAfterHeadersFormat--).
 
 **Returns:**
 java.lang.String
@@ -77,7 +79,7 @@ public static String getBeforeHeadersFormat()
 ```
 
 
-BeforeHeadersFormat for instances of HeadersFormattingOptions if BeforeHeadersFormat is not set.
+Gets the default for [HeadersFormattingOptions.getBeforeHeadersFormat()](../../com.aspose.email/headersformattingoptions\#getBeforeHeadersFormat--).
 
 **Returns:**
 java.lang.String
@@ -97,7 +99,7 @@ public static String getHeaderFormat()
 ```
 
 
-HeaderFormat for instances of HeadersFormattingOptions if DefaultHeaderFormat is not set.
+Gets the default for [HeadersFormattingOptions.getDefaultHeaderFormat()](../../com.aspose.email/headersformattingoptions\#getDefaultHeaderFormat--).
 
 **Returns:**
 java.lang.String
@@ -107,7 +109,7 @@ public static String getPageHeaderFormat()
 ```
 
 
-PageHeaderFormat for instances of HeadersFormattingOptions if DefaultPageHeaderFormat is not set.
+Gets the default for [HeadersFormattingOptions.getDefaultPageHeaderFormat()](../../com.aspose.email/headersformattingoptions\#getDefaultPageHeaderFormat--).
 
 **Returns:**
 java.lang.String
@@ -143,7 +145,7 @@ public static void setAfterHeadersFormat(String value)
 ```
 
 
-AfterHeadersFormat for instances of HeadersFormattingOptions if AfterHeadersFormat is not set.
+Sets the default for [HeadersFormattingOptions.getAfterHeadersFormat()](../../com.aspose.email/headersformattingoptions\#getAfterHeadersFormat--).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -156,7 +158,7 @@ public static void setBeforeHeadersFormat(String value)
 ```
 
 
-BeforeHeadersFormat for instances of HeadersFormattingOptions if BeforeHeadersFormat is not set.
+Sets the default for [HeadersFormattingOptions.getBeforeHeadersFormat()](../../com.aspose.email/headersformattingoptions\#getBeforeHeadersFormat--).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -169,7 +171,7 @@ public static void setHeaderFormat(String value)
 ```
 
 
-HeaderFormat for instances of HeadersFormattingOptions if DefaultHeaderFormat is not set.
+Sets the default for [HeadersFormattingOptions.getDefaultHeaderFormat()](../../com.aspose.email/headersformattingoptions\#getDefaultHeaderFormat--).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +184,7 @@ public static void setPageHeaderFormat(String value)
 ```
 
 
-PageHeaderFormat for instances of HeadersFormattingOptions if DefaultPageHeaderFormat is not set.
+Sets the default for [HeadersFormattingOptions.getDefaultPageHeaderFormat()](../../com.aspose.email/headersformattingoptions\#getDefaultPageHeaderFormat--).
 
 **Parameters:**
 | Parameter | Type | Description |

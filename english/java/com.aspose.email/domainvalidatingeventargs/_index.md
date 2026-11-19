@@ -3,7 +3,7 @@ title: DomainValidatingEventArgs
 second_title: Aspose.Email for Java API Reference
 description: Provides data for the DomainValidating event.
 type: docs
-weight: 161
+weight: 164
 url: /java/com.aspose.email/domainvalidatingeventargs/
 ---
 
@@ -33,13 +33,13 @@ Provides data for the DomainValidating event.
 | [getDomain()](#getDomain--) | Gets the domain. |
 | [getMail()](#getMail--) | Gets the mail address is being validating. |
 | [getMailAddress()](#getMailAddress--) | Gets the mail address. |
-| [getResult()](#getResult--) | Gets or sets the validation result. |
-| [getSkip()](#getSkip--) | Indicates whether to ignore the check. |
+| [getResult()](#getResult--) | Gets the validation result. |
+| [getSkip()](#getSkip--) | Gets indicates whether to ignore the check. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setResult(ValidationResult value)](#setResult-com.aspose.email.ValidationResult-) | Gets or sets the validation result. |
-| [setSkip(boolean value)](#setSkip-boolean-) | Indicates whether to ignore the check. |
+| [setResult(ValidationResult value)](#setResult-com.aspose.email.ValidationResult-) | Sets the validation result. |
+| [setSkip(boolean value)](#setSkip-boolean-) | Sets indicates whether to ignore the check. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -125,7 +125,7 @@ public final ValidationResult getResult()
 ```
 
 
-Gets or sets the validation result.
+Gets the validation result.
 
 **Returns:**
 [ValidationResult](../../com.aspose.email/validationresult)
@@ -135,7 +135,7 @@ public final boolean getSkip()
 ```
 
 
-Indicates whether to ignore the check.
+Gets indicates whether to ignore the check.
 
 **Returns:**
 boolean
@@ -171,7 +171,7 @@ public final void setResult(ValidationResult value)
 ```
 
 
-Gets or sets the validation result.
+Sets the validation result.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -184,7 +184,7 @@ public final void setSkip(boolean value)
 ```
 
 
-Indicates whether to ignore the check.
+Sets indicates whether to ignore the check.
 
 **Parameters:**
 | Parameter | Type | Description |

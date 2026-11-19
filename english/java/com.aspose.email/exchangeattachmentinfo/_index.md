@@ -3,7 +3,7 @@ title: ExchangeAttachmentInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents an attachment information transmitted over exchange protocols
 type: docs
-weight: 189
+weight: 192
 url: /java/com.aspose.email/exchangeattachmentinfo/
 ---
 

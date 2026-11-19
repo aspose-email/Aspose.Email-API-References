@@ -1,9 +1,9 @@
 ---
 title: RestoredItemEntry
 second_title: Aspose.Email for Java API Reference
-description: Represents an entry for a soft-deleted item in the PST file containing the message and the folder Id it was in.
+description: A soft-deleted message found in a PST with the folder it was in.
 type: docs
-weight: 643
+weight: 648
 url: /java/com.aspose.email/restoreditementry/
 ---
 
@@ -13,14 +13,14 @@ java.lang.Object
 public class RestoredItemEntry
 ```
 
-Represents an entry for a soft-deleted item in the PST file, containing the message and the folder Id it was in.
+A soft-deleted message found in a PST, with the folder it was in.
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getFolderId()](#getFolderId--) | Gets the folder Id in which the message was originally located. |
+| [getFolderId()](#getFolderId--) | Gets the entry ID of the folder the message was in before it was deleted. |
 | [getItem()](#getItem--) | Gets the soft-deleted message. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -60,7 +60,7 @@ public final String getFolderId()
 ```
 
 
-Gets the folder Id in which the message was originally located.
+Gets the entry ID of the folder the message was in before it was deleted.
 
 **Returns:**
 java.lang.String

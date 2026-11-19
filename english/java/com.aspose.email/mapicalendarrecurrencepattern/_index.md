@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarRecurrencePattern
 second_title: Aspose.Email for Java API Reference
-description: Represents the mapi recurrence pattern
+description: The base class of the recurrence patterns how often a series repeats from when and until when.
 type: docs
-weight: 422
+weight: 425
 url: /java/com.aspose.email/mapicalendarrecurrencepattern/
 ---
 
@@ -13,7 +13,9 @@ java.lang.Object
 public abstract class MapiCalendarRecurrencePattern
 ```
 
-Represents the mapi recurrence pattern
+The base class of the recurrence patterns: how often a series repeats, from when, and until when.
+
+Use one of the derived classes: [MapiCalendarDailyRecurrencePattern](../../com.aspose.email/mapicalendardailyrecurrencepattern), [MapiCalendarWeeklyRecurrencePattern](../../com.aspose.email/mapicalendarweeklyrecurrencepattern), [MapiCalendarMonthlyRecurrencePattern](../../com.aspose.email/mapicalendarmonthlyrecurrencepattern), [MapiCalendarMonthlyNthRecurrencePattern](../../com.aspose.email/mapicalendarmonthlynthrecurrencepattern) or [MapiCalendarYearlyAndMonthlyRecurrencePattern](../../com.aspose.email/mapicalendaryearlyandmonthlyrecurrencepattern), or create a pattern from an iCalendar rule with [MapiCalendarRecurrencePatternFactory](../../com.aspose.email/mapicalendarrecurrencepatternfactory).
 ## Constructors
 
 | Constructor | Description |
@@ -24,32 +26,32 @@ Represents the mapi recurrence pattern
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCalendarType()](#getCalendarType--) | Gets or sets the type of calendar that is used |
+| [getCalendarType()](#getCalendarType--) | Gets the calendar system of the recurrence. |
 | [getClass()](#getClass--) |  |
-| [getDeletedInstanceDates()](#getDeletedInstanceDates--) | An array of dates, each of which is the original instance date of either a deleted instance or a modified instance for this recurrence. |
-| [getEndDate()](#getEndDate--) | Gets or sets Defines the end date of an item recurrence pattern. |
-| [getEndType()](#getEndType--) | Gets or sets the ending type for the recurrence. |
-| [getExceptions()](#getExceptions--) | An exception specifies changes to an instance of a recurring series. |
-| [getFrequency()](#getFrequency--) | Gets or sets the frequency of the recurring series. |
-| [getModifiedInstanceDates()](#getModifiedInstanceDates--) | An array of dates, each of which is the date of a modified instance. |
-| [getOccurrenceCount()](#getOccurrenceCount--) | Gets or sets the number of occurrences in a recurrence. |
-| [getPatternType()](#getPatternType--) | Gets or sets the type of recurrence pattern |
-| [getPeriod()](#getPeriod--) | Gets or sets interval at which the meeting pattern repeats |
-| [getSlidingFlag()](#getSlidingFlag--) | Defines whether pattern is sliding or not. |
-| [getStartDate()](#getStartDate--) | Gets or sets the start date of an item recurrence pattern. |
-| [getWeekStartDay()](#getWeekStartDay--) | Gets or sets the first day of the calendar week. |
+| [getDeletedInstanceDates()](#getDeletedInstanceDates--) | Gets the original dates of the occurrences that were deleted or changed. |
+| [getEndDate()](#getEndDate--) | Gets the date of the last occurrence, used when \#getEndType().getEndType() is  EndAfterDate . |
+| [getEndType()](#getEndType--) | Gets how the series ends. |
+| [getExceptions()](#getExceptions--) | Gets the exceptions of the series: the occurrences whose details were changed. |
+| [getFrequency()](#getFrequency--) | Gets how often the series repeats. |
+| [getModifiedInstanceDates()](#getModifiedInstanceDates--) | Gets the dates of the occurrences that were changed. |
+| [getOccurrenceCount()](#getOccurrenceCount--) | Gets the number of occurrences, used when \#getEndType().getEndType() is  EndAfterNOccurrences . |
+| [getPatternType()](#getPatternType--) | Gets the type of the recurrence pattern. |
+| [getPeriod()](#getPeriod--) | Gets the interval of the recurrence, in the units of the pattern (days, weeks or months). |
+| [getSlidingFlag()](#getSlidingFlag--) | Gets a value indicating whether the next occurrence is calculated from the completion of the previous one rather than from a fixed schedule. |
+| [getStartDate()](#getStartDate--) | Gets the date of the first occurrence. |
+| [getWeekStartDay()](#getWeekStartDay--) | Gets the first day of the week. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCalendarType(int value)](#setCalendarType-int-) | Gets or sets the type of calendar that is used |
-| [setEndDate(Date value)](#setEndDate-java.util.Date-) | Gets or sets Defines the end date of an item recurrence pattern. |
-| [setEndType(int value)](#setEndType-int-) | Gets or sets the ending type for the recurrence. |
-| [setOccurrenceCount(long value)](#setOccurrenceCount-long-) | Gets or sets the number of occurrences in a recurrence. |
-| [setPatternType(int value)](#setPatternType-int-) | Gets or sets the type of recurrence pattern |
-| [setPeriod(long value)](#setPeriod-long-) | Gets or sets interval at which the meeting pattern repeats |
-| [setSlidingFlag(boolean value)](#setSlidingFlag-boolean-) | Defines whether pattern is sliding or not. |
-| [setStartDate(Date value)](#setStartDate-java.util.Date-) | Gets or sets the start date of an item recurrence pattern. |
-| [setWeekStartDay(int value)](#setWeekStartDay-int-) | Gets or sets the first day of the calendar week. |
+| [setCalendarType(int value)](#setCalendarType-int-) | Sets the calendar system of the recurrence. |
+| [setEndDate(Date value)](#setEndDate-java.util.Date-) | Sets the date of the last occurrence, used when \#getEndType().getEndType() is  EndAfterDate . |
+| [setEndType(int value)](#setEndType-int-) | Sets how the series ends. |
+| [setOccurrenceCount(long value)](#setOccurrenceCount-long-) | Sets the number of occurrences, used when \#getEndType().getEndType() is  EndAfterNOccurrences . |
+| [setPatternType(int value)](#setPatternType-int-) | Sets the type of the recurrence pattern. |
+| [setPeriod(long value)](#setPeriod-long-) | Sets the interval of the recurrence, in the units of the pattern (days, weeks or months). |
+| [setSlidingFlag(boolean value)](#setSlidingFlag-boolean-) | Sets a value indicating whether the next occurrence is calculated from the completion of the previous one rather than from a fixed schedule. |
+| [setStartDate(Date value)](#setStartDate-java.util.Date-) | Sets the date of the first occurrence. |
+| [setWeekStartDay(int value)](#setWeekStartDay-int-) | Sets the first day of the week. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -81,7 +83,7 @@ public final int getCalendarType()
 ```
 
 
-Gets or sets the type of calendar that is used
+Gets the calendar system of the recurrence.
 
 **Returns:**
 int
@@ -101,7 +103,7 @@ public System.Collections.Generic.IGenericList<Date> getDeletedInstanceDates()
 ```
 
 
-An array of dates, each of which is the original instance date of either a deleted instance or a modified instance for this recurrence.
+Gets the original dates of the occurrences that were deleted or changed.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericList<java.util.Date>
@@ -111,7 +113,7 @@ public final Date getEndDate()
 ```
 
 
-Gets or sets Defines the end date of an item recurrence pattern.
+Gets the date of the last occurrence, used when \#getEndType().getEndType() is  EndAfterDate .
 
 **Returns:**
 java.util.Date
@@ -121,7 +123,7 @@ public final int getEndType()
 ```
 
 
-Gets or sets the ending type for the recurrence.
+Gets how the series ends.
 
 **Returns:**
 int
@@ -131,7 +133,7 @@ public final System.Collections.Generic.IGenericList<MapiCalendarExceptionInfo> 
 ```
 
 
-An exception specifies changes to an instance of a recurring series.
+Gets the exceptions of the series: the occurrences whose details were changed.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericList<com.aspose.email.MapiCalendarExceptionInfo>
@@ -141,7 +143,7 @@ public int getFrequency()
 ```
 
 
-Gets or sets the frequency of the recurring series.
+Gets how often the series repeats.
 
 **Returns:**
 int
@@ -151,7 +153,7 @@ public System.Collections.Generic.IGenericList<Date> getModifiedInstanceDates()
 ```
 
 
-An array of dates, each of which is the date of a modified instance.
+Gets the dates of the occurrences that were changed.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericList<java.util.Date>
@@ -161,7 +163,7 @@ public final long getOccurrenceCount()
 ```
 
 
-Gets or sets the number of occurrences in a recurrence.
+Gets the number of occurrences, used when \#getEndType().getEndType() is  EndAfterNOccurrences .
 
 **Returns:**
 long
@@ -171,7 +173,7 @@ public final int getPatternType()
 ```
 
 
-Gets or sets the type of recurrence pattern
+Gets the type of the recurrence pattern.
 
 **Returns:**
 int
@@ -181,7 +183,7 @@ public abstract long getPeriod()
 ```
 
 
-Gets or sets interval at which the meeting pattern repeats
+Gets the interval of the recurrence, in the units of the pattern (days, weeks or months).
 
 **Returns:**
 long
@@ -191,7 +193,7 @@ public final boolean getSlidingFlag()
 ```
 
 
-Defines whether pattern is sliding or not.
+Gets a value indicating whether the next occurrence is calculated from the completion of the previous one rather than from a fixed schedule. Used by recurring tasks.
 
 **Returns:**
 boolean
@@ -201,7 +203,7 @@ public final Date getStartDate()
 ```
 
 
-Gets or sets the start date of an item recurrence pattern.
+Gets the date of the first occurrence.
 
 **Returns:**
 java.util.Date
@@ -211,7 +213,7 @@ public final int getWeekStartDay()
 ```
 
 
-Gets or sets the first day of the calendar week.
+Gets the first day of the week.
 
 **Returns:**
 int
@@ -247,7 +249,7 @@ public final void setCalendarType(int value)
 ```
 
 
-Gets or sets the type of calendar that is used
+Sets the calendar system of the recurrence.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -260,7 +262,7 @@ public final void setEndDate(Date value)
 ```
 
 
-Gets or sets Defines the end date of an item recurrence pattern.
+Sets the date of the last occurrence, used when \#getEndType().getEndType() is  EndAfterDate .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -273,7 +275,7 @@ public final void setEndType(int value)
 ```
 
 
-Gets or sets the ending type for the recurrence.
+Sets how the series ends.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -286,7 +288,7 @@ public final void setOccurrenceCount(long value)
 ```
 
 
-Gets or sets the number of occurrences in a recurrence.
+Sets the number of occurrences, used when \#getEndType().getEndType() is  EndAfterNOccurrences .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -299,7 +301,7 @@ public final void setPatternType(int value)
 ```
 
 
-Gets or sets the type of recurrence pattern
+Sets the type of the recurrence pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -312,7 +314,7 @@ public abstract void setPeriod(long value)
 ```
 
 
-Gets or sets interval at which the meeting pattern repeats
+Sets the interval of the recurrence, in the units of the pattern (days, weeks or months).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -325,7 +327,7 @@ public final void setSlidingFlag(boolean value)
 ```
 
 
-Defines whether pattern is sliding or not.
+Sets a value indicating whether the next occurrence is calculated from the completion of the previous one rather than from a fixed schedule. Used by recurring tasks.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -338,7 +340,7 @@ public final void setStartDate(Date value)
 ```
 
 
-Gets or sets the start date of an item recurrence pattern.
+Sets the date of the first occurrence.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -351,7 +353,7 @@ public final void setWeekStartDay(int value)
 ```
 
 
-Gets or sets the first day of the calendar week.
+Sets the first day of the week.
 
 **Parameters:**
 | Parameter | Type | Description |

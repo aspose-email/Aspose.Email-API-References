@@ -1,9 +1,9 @@
 ---
 title: EmlLoadOptions
 second_title: Aspose.Email for Java API Reference
-description: Allows to specify additional options when loading MailMessage from Eml format.
+description: Provides options for controlling how  instances are loaded from EML format.
 type: docs
-weight: 172
+weight: 175
 url: /java/com.aspose.email/emlloadoptions/
 ---
 
@@ -13,51 +13,49 @@ java.lang.Object, [com.aspose.email.LoadOptions](../../com.aspose.email/loadopti
 public class EmlLoadOptions extends LoadOptions
 ```
 
-Allows to specify additional options when loading MailMessage from Eml format.
+Provides options for controlling how [MailMessage](../../com.aspose.email/mailmessage) instances are loaded from EML format. This class allows you to customize the loading behavior for specific EML features such as TNEF attachment handling and embedded message preservation.
 
---------------------
+Use this class with [MailMessage.load(String, LoadOptions)](../../com.aspose.email/mailmessage\#load-String--LoadOptions-) to specify custom loading options. Inherits from [LoadOptions](../../com.aspose.email/loadoptions) and adds EML-specific configuration through properties like \#getPreserveTnefAttachments().getPreserveTnefAttachments().
 
-> The following example shows how to convert EML to MSG.
-> 
-> [Java]
-> 
-> ```
-> // Initialize EmlLoadOptions
->  EmlLoadOptions emlLoadOptions = new EmlLoadOptions();
->  emlLoadOptions.setPreserveTnefAttachments(true);
->  emlLoadOptions.setPreserveEmbeddedMessageFormat(true);
-> 
->  // Initialize MailMessage with EmlLoadOptions
->  try (MailMessage message = MailMessage.load("TestEml.eml", emlLoadOptions)) {
->  // Convert EML to MSG
->  message.save("output.msg", SaveOptions.getDefaultMsg());
->  }
-> ```
+The following example shows how to convert EML to MSG.
 
---------------------
+```
+
+ // Initialize EmlLoadOptions
+ EmlLoadOptions emlLoadOptions = new EmlLoadOptions();
+ emlLoadOptions.setPreserveTnefAttachments(true);
+ emlLoadOptions.setPreserveEmbeddedMessageFormat(true);
+
+ // Initialize MailMessage with EmlLoadOptions
+ try (MailMessage message = MailMessage.load("TestEml.eml", emlLoadOptions)) {
+     // Convert EML to MSG
+     message.save("output.msg", SaveOptions.getDefaultMsg());
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [EmlLoadOptions()](#EmlLoadOptions--) | Initializes a new instance of this class that can be used to loading MailMessage from Eml format. |
+| [EmlLoadOptions()](#EmlLoadOptions--) | Initializes a new instance of the [EmlLoadOptions](../../com.aspose.email/emlloadoptions) class with the default options. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getMessageFormat()](#getMessageFormat--) | Represents the mail message format.It can be in eml,msg or mhtml format. |
-| [getPreferredTextEncoding()](#getPreferredTextEncoding--) | Gets or sets preferred encoding for message. |
-| [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
-| [getPreserveTnefAttachments()](#getPreserveTnefAttachments--) | Controls TNEF attachment loading behaviour. |
-| [getRemoveSignature()](#getRemoveSignature--) | Gets or sets a value indicating whether signature will be removed while loading. |
+| [getMessageFormat()](#getMessageFormat--) | Gets the format this options object loads, as determined by its class: EML, MSG, MHTML, HTML and so on. |
+| [getPreferredTextEncoding()](#getPreferredTextEncoding--) | Gets the encoding used for the subject and the body regardless of what the message declares. |
+| [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets a value indicating whether embedded messages keep their original format (EML or MSG) when loaded. |
+| [getPreserveTnefAttachments()](#getPreserveTnefAttachments--) | Gets a value indicating whether a TNEF attachment (winmail.dat) is kept as it is instead of being decoded into its files. |
+| [getRemoveSignature()](#getRemoveSignature--) | Gets a value indicating whether the digital signature is removed from a signed message while it is loaded. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setPreferredTextEncoding(Charset value)](#setPreferredTextEncoding-java.nio.charset.Charset-) | Gets or sets preferred encoding for message. |
-| [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
-| [setPreserveTnefAttachments(boolean value)](#setPreserveTnefAttachments-boolean-) | Controls TNEF attachment loading behaviour. |
-| [setRemoveSignature(boolean value)](#setRemoveSignature-boolean-) | Gets or sets a value indicating whether signature will be removed while loading. |
+| [setPreferredTextEncoding(Charset value)](#setPreferredTextEncoding-java.nio.charset.Charset-) | Sets the encoding used for the subject and the body regardless of what the message declares. |
+| [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Sets a value indicating whether embedded messages keep their original format (EML or MSG) when loaded. |
+| [setPreserveTnefAttachments(boolean value)](#setPreserveTnefAttachments-boolean-) | Sets a value indicating whether a TNEF attachment (winmail.dat) is kept as it is instead of being decoded into its files. |
+| [setRemoveSignature(boolean value)](#setRemoveSignature-boolean-) | Sets a value indicating whether the digital signature is removed from a signed message while it is loaded. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -68,7 +66,7 @@ public EmlLoadOptions()
 ```
 
 
-Initializes a new instance of this class that can be used to loading MailMessage from Eml format.
+Initializes a new instance of the [EmlLoadOptions](../../com.aspose.email/emlloadoptions) class with the default options.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -101,7 +99,7 @@ public final MessageFormat getMessageFormat()
 ```
 
 
-Represents the mail message format.It can be in eml,msg or mhtml format. The default value is Eml.
+Gets the format this options object loads, as determined by its class: EML, MSG, MHTML, HTML and so on.
 
 **Returns:**
 [MessageFormat](../../com.aspose.email/messageformat)
@@ -111,7 +109,7 @@ public final Charset getPreferredTextEncoding()
 ```
 
 
-Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null.
+Gets the encoding used for the subject and the body regardless of what the message declares. The default is  null : the declared encoding is used.
 
 **Returns:**
 java.nio.charset.Charset
@@ -121,11 +119,9 @@ public final boolean getPreserveEmbeddedMessageFormat()
 ```
 
 
-Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. By default the value is false.
+Gets a value indicating whether embedded messages keep their original format (EML or MSG) when loaded. The default is  false .
 
---------------------
-
-Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from EML to MSG and vice versa, embedded messages are also converted to the target format. Setting the property to true preserves the original format of embedded messages.
+Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from EML to MSG and vice versa, embedded messages are also converted to the target format. Setting the property to  true  preserves the original format of embedded messages.
 
 **Returns:**
 boolean
@@ -135,11 +131,9 @@ public final boolean getPreserveTnefAttachments()
 ```
 
 
-Controls TNEF attachment loading behaviour. By default the value is false.
+Gets a value indicating whether a TNEF attachment (winmail.dat) is kept as it is instead of being decoded into its files. The default is  false .
 
---------------------
-
-If a message contains a TNEF attachment (winmail.dat) and has the MIME type application/ms-tnef, then this property defines whether files from TNEF will be decoded and extracted. The winmail.dat attachment remains as it is if the property value is true.
+Applies to an attachment with the MIME type  application/ms-tnef . When  false , the files and the body the TNEF attachment carries are extracted into the message.
 
 **Returns:**
 boolean
@@ -149,12 +143,10 @@ public final boolean getRemoveSignature()
 ```
 
 
-Gets or sets a value indicating whether signature will be removed while loading.
-
-Value:  true  if will be removed; otherwise,  false .
+Gets a value indicating whether the digital signature is removed from a signed message while it is loaded.
 
 **Returns:**
-boolean
+boolean -  true  to remove the signature; otherwise,  false . The default is  false .
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -187,7 +179,7 @@ public final void setPreferredTextEncoding(Charset value)
 ```
 
 
-Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null.
+Sets the encoding used for the subject and the body regardless of what the message declares. The default is  null : the declared encoding is used.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -200,11 +192,9 @@ public final void setPreserveEmbeddedMessageFormat(boolean value)
 ```
 
 
-Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. By default the value is false.
+Sets a value indicating whether embedded messages keep their original format (EML or MSG) when loaded. The default is  false .
 
---------------------
-
-Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from EML to MSG and vice versa, embedded messages are also converted to the target format. Setting the property to true preserves the original format of embedded messages.
+Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from EML to MSG and vice versa, embedded messages are also converted to the target format. Setting the property to  true  preserves the original format of embedded messages.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -217,16 +207,14 @@ public final void setPreserveTnefAttachments(boolean value)
 ```
 
 
-Controls TNEF attachment loading behaviour. By default the value is false.
+Sets a value indicating whether a TNEF attachment (winmail.dat) is kept as it is instead of being decoded into its files. The default is  false .
 
---------------------
-
-If a message contains a TNEF attachment (winmail.dat) and has the MIME type application/ms-tnef, then this property defines whether files from TNEF will be decoded and extracted. The winmail.dat attachment remains as it is if the property value is true.
+Applies to an attachment with the MIME type  application/ms-tnef . When  false , the files and the body the TNEF attachment carries are extracted into the message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  to keep the TNEF attachment as it is. |
 
 ### setRemoveSignature(boolean value) {#setRemoveSignature-boolean-}
 ```
@@ -234,14 +222,12 @@ public final void setRemoveSignature(boolean value)
 ```
 
 
-Gets or sets a value indicating whether signature will be removed while loading.
-
-Value:  true  if will be removed; otherwise,  false .
+Sets a value indicating whether the digital signature is removed from a signed message while it is loaded.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  to remove the signature; otherwise,  false . The default is  false . |
 
 ### toString() {#toString--}
 ```

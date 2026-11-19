@@ -1,7 +1,7 @@
 ---
 title: AppointmentSaveOptions
 second_title: Aspose.Email for Java API Reference
-description: Represents base appointment save options
+description: The base class for appointment save options use  or .
 type: docs
 weight: 48
 url: /java/com.aspose.email/appointmentsaveoptions/
@@ -13,14 +13,14 @@ java.lang.Object
 public abstract class AppointmentSaveOptions
 ```
 
-Represents base appointment save options
+The base class for appointment save options; use [AppointmentIcsSaveOptions](../../com.aspose.email/appointmenticssaveoptions) or [AppointmentMsgSaveOptions](../../com.aspose.email/appointmentmsgsaveoptions).
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getSaveFormat()](#getSaveFormat--) | Gets a save format |
+| [getSaveFormat()](#getSaveFormat--) | Gets the format these options save to. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -59,7 +59,7 @@ public final int getSaveFormat()
 ```
 
 
-Gets a save format
+Gets the format these options save to.
 
 **Returns:**
 int

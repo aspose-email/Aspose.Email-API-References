@@ -1,9 +1,9 @@
 ---
 title: CanonicalizationType
 second_title: Aspose.Email for Java API Reference
-description: Represents DKIM canonicalization.
+description: Normalization applied to the headers and body before they are hashed for a DKIM signature.
 type: docs
-weight: 102
+weight: 103
 url: /java/com.aspose.email/canonicalizationtype/
 ---
 
@@ -13,14 +13,14 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class CanonicalizationType extends System.Enum
 ```
 
-Represents DKIM canonicalization.
+Normalization applied to the headers and body before they are hashed for a DKIM signature.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Relaxed](#Relaxed) | Relaxed canonicalization (minor changes, like additional spaces, are allowed). |
-| [Simple](#Simple) | Simple canonicalization (almost no changes to the headers or body are allowed). |
+| [Relaxed](#Relaxed) | Minor reformatting is tolerated, so extra spaces or refolded headers do not break the signature. |
+| [Simple](#Simple) | Almost nothing may change in transit, so any reformatting of the headers or body breaks the signature. |
 ## Methods
 
 | Method | Description |
@@ -72,7 +72,7 @@ public static final int Relaxed
 ```
 
 
-Relaxed canonicalization (minor changes, like additional spaces, are allowed).
+Minor reformatting is tolerated, so extra spaces or refolded headers do not break the signature.
 
 ### Simple {#Simple}
 ```
@@ -80,7 +80,7 @@ public static final int Simple
 ```
 
 
-Simple canonicalization (almost no changes to the headers or body are allowed).
+Almost nothing may change in transit, so any reformatting of the headers or body breaks the signature.
 
 ### Clone() {#Clone--}
 ```

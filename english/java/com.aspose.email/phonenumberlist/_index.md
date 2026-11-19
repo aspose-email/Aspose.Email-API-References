@@ -3,7 +3,7 @@ title: PhoneNumberList
 second_title: Aspose.Email for Java API Reference
 description: List of phone numbers for a contact.
 type: docs
-weight: 591
+weight: 595
 url: /java/com.aspose.email/phonenumberlist/
 ---
 
@@ -34,25 +34,25 @@ List of phone numbers for a contact.
 | [copyTo(PhoneNumber[] array, int index)](#copyTo-com.aspose.email.PhoneNumber---int-) | Copies the elements to an array, starting at a particular array index. |
 | [copyToTArray(PhoneNumber[] array, int index)](#copyToTArray-com.aspose.email.PhoneNumber---int-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAssistant()](#getAssistant--) | Default assistant phone number |
-| [getCallback()](#getCallback--) | Default callback phone number |
-| [getCar()](#getCar--) | Default car phone number |
+| [getAssistant()](#getAssistant--) | Gets default assistant phone number. |
+| [getCallback()](#getCallback--) | Gets default callback phone number. |
+| [getCar()](#getCar--) | Gets default car phone number. |
 | [getClass()](#getClass--) |  |
-| [getCompany()](#getCompany--) | Default company phone number |
-| [getCustom()](#getCustom--) | Default custom phone category |
-| [getFax()](#getFax--) | Default fax number |
-| [getHome()](#getHome--) | Default home phone number |
-| [getHomeFax()](#getHomeFax--) | Default home fax number |
-| [getIsdn()](#getIsdn--) | Default isdn phone number |
-| [getMobile()](#getMobile--) | Default mobile phone number |
-| [getPager()](#getPager--) | Default pager number |
-| [getPrefered()](#getPrefered--) | Default primary phone number |
-| [getRadio()](#getRadio--) | Default radio phone number |
-| [getTelex()](#getTelex--) | Default telex |
-| [getTtyTdd()](#getTtyTdd--) | Default Tty/Tdd |
-| [getWork()](#getWork--) | Default work phone number |
-| [getWorkFax()](#getWorkFax--) | Default work fax number |
-| [get_Item(int index)](#get-Item-int-) | Gets or sets the element at the specified index. |
+| [getCompany()](#getCompany--) | Gets default company phone number. |
+| [getCustom()](#getCustom--) | Gets default custom phone category. |
+| [getFax()](#getFax--) | Gets default fax number. |
+| [getHome()](#getHome--) | Gets default home phone number. |
+| [getHomeFax()](#getHomeFax--) | Gets default home fax number. |
+| [getIsdn()](#getIsdn--) | Gets default isdn phone number. |
+| [getMobile()](#getMobile--) | Gets default mobile phone number. |
+| [getPager()](#getPager--) | Gets default pager number. |
+| [getPrefered()](#getPrefered--) | Gets default primary phone number. |
+| [getRadio()](#getRadio--) | Gets default radio phone number. |
+| [getTelex()](#getTelex--) | Gets default telex. |
+| [getTtyTdd()](#getTtyTdd--) | Gets default Tty/Tdd. |
+| [getWork()](#getWork--) | Gets default work phone number. |
+| [getWorkFax()](#getWorkFax--) | Gets default work fax number. |
+| [get_Item(int index)](#get-Item-int-) | Gets the element at the specified index. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(PhoneNumber value)](#indexOf-com.aspose.email.PhoneNumber-) | Determines the index of a specific item in the list. |
 | [indexOfItem(PhoneNumber value)](#indexOfItem-com.aspose.email.PhoneNumber-) |  |
@@ -65,25 +65,25 @@ List of phone numbers for a contact.
 | [remove(PhoneNumber value)](#remove-com.aspose.email.PhoneNumber-) | Removes the first occurrence of a specific object from the list. |
 | [removeAt(int index)](#removeAt-int-) | Removes the list item at the specified index. |
 | [removeItem(PhoneNumber value)](#removeItem-com.aspose.email.PhoneNumber-) |  |
-| [setAssistant(String value)](#setAssistant-java.lang.String-) | Default assistant phone number |
-| [setCallback(String value)](#setCallback-java.lang.String-) | Default callback phone number |
-| [setCar(String value)](#setCar-java.lang.String-) | Default car phone number |
-| [setCompany(String value)](#setCompany-java.lang.String-) | Default company phone number |
-| [setCustom(String value)](#setCustom-java.lang.String-) | Default custom phone category |
-| [setFax(String value)](#setFax-java.lang.String-) | Default fax number |
-| [setHome(String value)](#setHome-java.lang.String-) | Default home phone number |
-| [setHomeFax(String value)](#setHomeFax-java.lang.String-) | Default home fax number |
-| [setIsdn(String value)](#setIsdn-java.lang.String-) | Default isdn phone number |
-| [setMobile(String value)](#setMobile-java.lang.String-) | Default mobile phone number |
-| [setPager(String value)](#setPager-java.lang.String-) | Default pager number |
-| [setPrefered(String value)](#setPrefered-java.lang.String-) | Default primary phone number |
-| [setRadio(String value)](#setRadio-java.lang.String-) | Default radio phone number |
-| [setTelex(String value)](#setTelex-java.lang.String-) | Default telex |
-| [setTtyTdd(String value)](#setTtyTdd-java.lang.String-) | Default Tty/Tdd |
-| [setWork(String value)](#setWork-java.lang.String-) | Default work phone number |
-| [setWorkFax(String value)](#setWorkFax-java.lang.String-) | Default work fax number |
-| [set_Item(int index, PhoneNumber value)](#set-Item-int-com.aspose.email.PhoneNumber-) | Gets or sets the element at the specified index. |
-| [size()](#size--) | Gets the number of elements contained in the ICollection. |
+| [setAssistant(String value)](#setAssistant-java.lang.String-) | Sets default assistant phone number. |
+| [setCallback(String value)](#setCallback-java.lang.String-) | Sets default callback phone number. |
+| [setCar(String value)](#setCar-java.lang.String-) | Sets default car phone number. |
+| [setCompany(String value)](#setCompany-java.lang.String-) | Sets default company phone number. |
+| [setCustom(String value)](#setCustom-java.lang.String-) | Sets default custom phone category. |
+| [setFax(String value)](#setFax-java.lang.String-) | Sets default fax number. |
+| [setHome(String value)](#setHome-java.lang.String-) | Sets default home phone number. |
+| [setHomeFax(String value)](#setHomeFax-java.lang.String-) | Sets default home fax number. |
+| [setIsdn(String value)](#setIsdn-java.lang.String-) | Sets default isdn phone number. |
+| [setMobile(String value)](#setMobile-java.lang.String-) | Sets default mobile phone number. |
+| [setPager(String value)](#setPager-java.lang.String-) | Sets default pager number. |
+| [setPrefered(String value)](#setPrefered-java.lang.String-) | Sets default primary phone number. |
+| [setRadio(String value)](#setRadio-java.lang.String-) | Sets default radio phone number. |
+| [setTelex(String value)](#setTelex-java.lang.String-) | Sets default telex. |
+| [setTtyTdd(String value)](#setTtyTdd-java.lang.String-) | Sets default Tty/Tdd. |
+| [setWork(String value)](#setWork-java.lang.String-) | Sets default work phone number. |
+| [setWorkFax(String value)](#setWorkFax-java.lang.String-) | Sets default work fax number. |
+| [set_Item(int index, PhoneNumber value)](#set-Item-int-com.aspose.email.PhoneNumber-) | Sets the element at the specified index. |
+| [size()](#size--) | Gets the number of elements contained in the collection. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -142,7 +142,7 @@ Determines whether the list contains a specific value.
 | value | [PhoneNumber](../../com.aspose.email/phonenumber) | The object to locate in the list. |
 
 **Returns:**
-boolean - true if the object is found in the list; otherwise, false.
+boolean -  true  if the object is found in the list; otherwise,  false .
 ### containsItem(PhoneNumber value) {#containsItem-com.aspose.email.PhoneNumber-}
 ```
 public boolean containsItem(PhoneNumber value)
@@ -170,7 +170,7 @@ Copies the elements to an array, starting at a particular array index.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | array | [PhoneNumber\[\]](../../com.aspose.email/phonenumber) | The one-dimensional array that is the destination of the elements copied from collections. The array must have zero-based indexing. |
-| index | int | The zero-based index in array at which copying begins. |
+| index | int | The zero-based index in  array  at which copying begins. |
 
 ### copyToTArray(PhoneNumber[] array, int index) {#copyToTArray-com.aspose.email.PhoneNumber---int-}
 ```
@@ -207,7 +207,7 @@ public final String getAssistant()
 ```
 
 
-Default assistant phone number
+Gets default assistant phone number.
 
 **Returns:**
 java.lang.String
@@ -217,7 +217,7 @@ public final String getCallback()
 ```
 
 
-Default callback phone number
+Gets default callback phone number.
 
 **Returns:**
 java.lang.String
@@ -227,7 +227,7 @@ public final String getCar()
 ```
 
 
-Default car phone number
+Gets default car phone number.
 
 **Returns:**
 java.lang.String
@@ -247,7 +247,7 @@ public final String getCompany()
 ```
 
 
-Default company phone number
+Gets default company phone number.
 
 **Returns:**
 java.lang.String
@@ -257,7 +257,7 @@ public final String getCustom()
 ```
 
 
-Default custom phone category
+Gets default custom phone category.
 
 **Returns:**
 java.lang.String
@@ -267,7 +267,7 @@ public final String getFax()
 ```
 
 
-Default fax number
+Gets default fax number.
 
 **Returns:**
 java.lang.String
@@ -277,7 +277,7 @@ public final String getHome()
 ```
 
 
-Default home phone number
+Gets default home phone number.
 
 **Returns:**
 java.lang.String
@@ -287,7 +287,7 @@ public final String getHomeFax()
 ```
 
 
-Default home fax number
+Gets default home fax number.
 
 **Returns:**
 java.lang.String
@@ -297,7 +297,7 @@ public final String getIsdn()
 ```
 
 
-Default isdn phone number
+Gets default isdn phone number.
 
 **Returns:**
 java.lang.String
@@ -307,7 +307,7 @@ public final String getMobile()
 ```
 
 
-Default mobile phone number
+Gets default mobile phone number.
 
 **Returns:**
 java.lang.String
@@ -317,7 +317,7 @@ public final String getPager()
 ```
 
 
-Default pager number
+Gets default pager number.
 
 **Returns:**
 java.lang.String
@@ -327,7 +327,7 @@ public final String getPrefered()
 ```
 
 
-Default primary phone number
+Gets default primary phone number.
 
 **Returns:**
 java.lang.String
@@ -337,7 +337,7 @@ public final String getRadio()
 ```
 
 
-Default radio phone number
+Gets default radio phone number.
 
 **Returns:**
 java.lang.String
@@ -347,7 +347,7 @@ public final String getTelex()
 ```
 
 
-Default telex
+Gets default telex.
 
 **Returns:**
 java.lang.String
@@ -357,7 +357,7 @@ public final String getTtyTdd()
 ```
 
 
-Default Tty/Tdd
+Gets default Tty/Tdd.
 
 **Returns:**
 java.lang.String
@@ -367,7 +367,7 @@ public final String getWork()
 ```
 
 
-Default work phone number
+Gets default work phone number.
 
 **Returns:**
 java.lang.String
@@ -377,7 +377,7 @@ public final String getWorkFax()
 ```
 
 
-Default work fax number
+Gets default work fax number.
 
 **Returns:**
 java.lang.String
@@ -387,7 +387,7 @@ public final PhoneNumber get_Item(int index)
 ```
 
 
-Gets or sets the element at the specified index.
+Gets the element at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -473,7 +473,7 @@ public final boolean isReadOnly()
 Gets a value indicating whether the list is read-only.
 
 **Returns:**
-boolean - true if the list is read-only; otherwise, false.
+boolean -  true  if the list is read-only; otherwise,  false .
 ### iterator() {#iterator--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<PhoneNumber> iterator()
@@ -483,7 +483,7 @@ public final System.Collections.Generic.IGenericEnumerator<PhoneNumber> iterator
 Returns an enumerator that iterates through a collection.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.email.PhoneNumber> - An IEnumerator object that can be used to iterate through the collection.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.email.PhoneNumber> - An iterator that can be used to iterate through the collection.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -549,7 +549,7 @@ public final void setAssistant(String value)
 ```
 
 
-Default assistant phone number
+Sets default assistant phone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -562,7 +562,7 @@ public final void setCallback(String value)
 ```
 
 
-Default callback phone number
+Sets default callback phone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -575,7 +575,7 @@ public final void setCar(String value)
 ```
 
 
-Default car phone number
+Sets default car phone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -588,7 +588,7 @@ public final void setCompany(String value)
 ```
 
 
-Default company phone number
+Sets default company phone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -601,7 +601,7 @@ public final void setCustom(String value)
 ```
 
 
-Default custom phone category
+Sets default custom phone category.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -614,7 +614,7 @@ public final void setFax(String value)
 ```
 
 
-Default fax number
+Sets default fax number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -627,7 +627,7 @@ public final void setHome(String value)
 ```
 
 
-Default home phone number
+Sets default home phone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -640,7 +640,7 @@ public final void setHomeFax(String value)
 ```
 
 
-Default home fax number
+Sets default home fax number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -653,7 +653,7 @@ public final void setIsdn(String value)
 ```
 
 
-Default isdn phone number
+Sets default isdn phone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -666,7 +666,7 @@ public final void setMobile(String value)
 ```
 
 
-Default mobile phone number
+Sets default mobile phone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -679,7 +679,7 @@ public final void setPager(String value)
 ```
 
 
-Default pager number
+Sets default pager number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -692,7 +692,7 @@ public final void setPrefered(String value)
 ```
 
 
-Default primary phone number
+Sets default primary phone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -705,7 +705,7 @@ public final void setRadio(String value)
 ```
 
 
-Default radio phone number
+Sets default radio phone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -718,7 +718,7 @@ public final void setTelex(String value)
 ```
 
 
-Default telex
+Sets default telex.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -731,7 +731,7 @@ public final void setTtyTdd(String value)
 ```
 
 
-Default Tty/Tdd
+Sets default Tty/Tdd.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -744,7 +744,7 @@ public final void setWork(String value)
 ```
 
 
-Default work phone number
+Sets default work phone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -757,7 +757,7 @@ public final void setWorkFax(String value)
 ```
 
 
-Default work fax number
+Sets default work fax number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -770,13 +770,13 @@ public final void set_Item(int index, PhoneNumber value)
 ```
 
 
-Gets or sets the element at the specified index.
+Sets the element at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index of the element to get or set. |
-| value | [PhoneNumber](../../com.aspose.email/phonenumber) |  |
+| value | [PhoneNumber](../../com.aspose.email/phonenumber) | The value to set. |
 
 ### size() {#size--}
 ```
@@ -784,10 +784,10 @@ public final int size()
 ```
 
 
-Gets the number of elements contained in the ICollection.
+Gets the number of elements contained in the collection.
 
 **Returns:**
-int - The number of elements contained in the ICollection.
+int - The number of elements contained in the collection.
 ### toString() {#toString--}
 ```
 public String toString()

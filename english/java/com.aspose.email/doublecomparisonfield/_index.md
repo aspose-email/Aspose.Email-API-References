@@ -3,7 +3,7 @@ title: DoubleComparisonField
 second_title: Aspose.Email for Java API Reference
 description: Represents the double search field.
 type: docs
-weight: 163
+weight: 166
 url: /java/com.aspose.email/doublecomparisonfield/
 ---
 
@@ -186,7 +186,7 @@ Sets value which indicates if client uses ascending or descending sorting on the
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ascending | boolean | Set true if you want to use ascending sorting, otherwise set false. |
+| ascending | boolean | Set  true  if you want to use ascending sorting, otherwise set  false . |
 
 ### toString() {#toString--}
 ```

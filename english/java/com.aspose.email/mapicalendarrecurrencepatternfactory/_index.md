@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarRecurrencePatternFactory
 second_title: Aspose.Email for Java API Reference
-description: Represents the factory of MapiCalendarRecurrencePattern
+description: Creates recurrence patterns from iCalendar recurrence rules.
 type: docs
-weight: 423
+weight: 426
 url: /java/com.aspose.email/mapicalendarrecurrencepatternfactory/
 ---
 
@@ -13,7 +13,29 @@ java.lang.Object
 public class MapiCalendarRecurrencePatternFactory
 ```
 
-Represents the factory of MapiCalendarRecurrencePattern
+Creates recurrence patterns from iCalendar recurrence rules.
+
+This example creates a weekly meeting that occurs on Mondays and Wednesdays, ten times.
+
+```
+
+ java.util.Calendar cal = java.util.Calendar.getInstance(TimeZone.getTimeZone("UTC"));
+ cal.set(2026, java.util.Calendar.NOVEMBER, 2, 10, 0, 0);
+ Date start = cal.getTime();
+ cal.add(java.util.Calendar.HOUR_OF_DAY, 1);
+ MapiCalendar meeting = new MapiCalendar("Room 1", "Team sync", "Weekly sync-up", start, cal.getTime());
+
+ SimpleDateFormat utc = new SimpleDateFormat("yyyyMMdd'T'HHmmss'Z'");
+ utc.setTimeZone(TimeZone.getTimeZone("UTC"));
+ String rule = "DTSTART:" + utc.format(start) + "\r\n" +
+         "RRULE:FREQ=WEEKLY;BYDAY=MO,WE;COUNT=10";
+ MapiCalendarEventRecurrence recurrence = new MapiCalendarEventRecurrence();
+ recurrence.setRecurrencePattern(MapiCalendarRecurrencePatternFactory.fromString(rule));
+ meeting.setRecurrence(recurrence);
+
+ meeting.save("meeting.msg", AppointmentSaveFormat.Msg);
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -24,7 +46,7 @@ Represents the factory of MapiCalendarRecurrencePattern
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromString(String pattern)](#fromString-java.lang.String-) | Creates MapiCalendarRecurrencePattern from string pattern of recurrence rule. |
+| [fromString(String pattern)](#fromString-java.lang.String-) | Creates a recurrence pattern from an iCalendar recurrence rule. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -60,15 +82,15 @@ public static MapiCalendarRecurrencePattern fromString(String pattern)
 ```
 
 
-Creates MapiCalendarRecurrencePattern from string pattern of recurrence rule.
+Creates a recurrence pattern from an iCalendar recurrence rule.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pattern | java.lang.String | The string value of recurrence rule in iCalendar format. |
+| pattern | java.lang.String | The rule in iCalendar format: a  DTSTART  line followed by an  RRULE  line, and optionally  EXDATE  lines, for example  DTSTART:20261102T100000Z  and  RRULE:FREQ=WEEKLY;BYDAY=MO;COUNT=10 . |
 
 **Returns:**
-[MapiCalendarRecurrencePattern](../../com.aspose.email/mapicalendarrecurrencepattern) - 
+[MapiCalendarRecurrencePattern](../../com.aspose.email/mapicalendarrecurrencepattern) - The pattern for the first  RRULE , with the  EXDATE  dates added to its deleted occurrences;  null  if  pattern  is  null  or has no  RRULE .
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

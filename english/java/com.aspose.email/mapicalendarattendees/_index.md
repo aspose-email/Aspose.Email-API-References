@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarAttendees
 second_title: Aspose.Email for Java API Reference
-description: Represents the mapi calendar attendees
+description: The attendees of a meeting and the settings of their responses.
 type: docs
-weight: 406
+weight: 409
 url: /java/com.aspose.email/mapicalendarattendees/
 ---
 
@@ -13,29 +13,31 @@ java.lang.Object
 public final class MapiCalendarAttendees
 ```
 
-Represents the mapi calendar attendees
+The attendees of a meeting and the settings of their responses.
+
+Returned by [MapiCalendar.getAttendees()](../../com.aspose.email/mapicalendar\#getAttendees--). \#getAppointmentRecipients().getAppointmentRecipients() holds the attendees the meeting is sent to; \#getAppointmentUnsendableRecipients().getAppointmentUnsendableRecipients() holds the attendees it cannot be sent to, such as removed attendees. \#getNotAllowPropose().getNotAllowPropose() and \#getResponseRequested().getResponseRequested() control how attendees may respond.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MapiCalendarAttendees()](#MapiCalendarAttendees--) | Initializes a new instance of the [MapiCalendarAttendees](../../com.aspose.email/mapicalendarattendees) class |
+| [MapiCalendarAttendees()](#MapiCalendarAttendees--) | Initializes a new instance of the [MapiCalendarAttendees](../../com.aspose.email/mapicalendarattendees) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAppointmentRecipients()](#getAppointmentRecipients--) | Gets or sets a list of attendees. |
-| [getAppointmentUnsendableRecipients()](#getAppointmentUnsendableRecipients--) | Gets or sets a list of unsendable attendees. |
+| [getAppointmentRecipients()](#getAppointmentRecipients--) | Gets the attendees the meeting is sent to. |
+| [getAppointmentUnsendableRecipients()](#getAppointmentUnsendableRecipients--) | Gets the attendees the meeting cannot be sent to, such as attendees that were removed from it. |
 | [getClass()](#getClass--) |  |
-| [getNotAllowPropose()](#getNotAllowPropose--) | Gets or sets a value indicating whether attendees are not allowed to propose a new date and/or time for the meeting. |
-| [getResponseRequested()](#getResponseRequested--) | Gets or sets a value indicating whether a response is requested to a Message object. |
+| [getNotAllowPropose()](#getNotAllowPropose--) | Gets a value indicating whether attendees are prevented from proposing a new time for the meeting. |
+| [getResponseRequested()](#getResponseRequested--) | Gets a value indicating whether the organizer asks attendees to respond. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAppointmentRecipients(MapiRecipientCollection value)](#setAppointmentRecipients-com.aspose.email.MapiRecipientCollection-) | Gets or sets a list of attendees. |
-| [setAppointmentUnsendableRecipients(MapiRecipientCollection value)](#setAppointmentUnsendableRecipients-com.aspose.email.MapiRecipientCollection-) | Gets or sets a list of unsendable attendees. |
-| [setNotAllowPropose(boolean value)](#setNotAllowPropose-boolean-) | Gets or sets a value indicating whether attendees are not allowed to propose a new date and/or time for the meeting. |
-| [setResponseRequested(boolean value)](#setResponseRequested-boolean-) | Gets or sets a value indicating whether a response is requested to a Message object. |
+| [setAppointmentRecipients(MapiRecipientCollection value)](#setAppointmentRecipients-com.aspose.email.MapiRecipientCollection-) | Sets the attendees the meeting is sent to. |
+| [setAppointmentUnsendableRecipients(MapiRecipientCollection value)](#setAppointmentUnsendableRecipients-com.aspose.email.MapiRecipientCollection-) | Sets the attendees the meeting cannot be sent to, such as attendees that were removed from it. |
+| [setNotAllowPropose(boolean value)](#setNotAllowPropose-boolean-) | Sets a value indicating whether attendees are prevented from proposing a new time for the meeting. |
+| [setResponseRequested(boolean value)](#setResponseRequested-boolean-) | Sets a value indicating whether the organizer asks attendees to respond. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -46,7 +48,7 @@ public MapiCalendarAttendees()
 ```
 
 
-Initializes a new instance of the [MapiCalendarAttendees](../../com.aspose.email/mapicalendarattendees) class
+Initializes a new instance of the [MapiCalendarAttendees](../../com.aspose.email/mapicalendarattendees) class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -69,7 +71,7 @@ public final MapiRecipientCollection getAppointmentRecipients()
 ```
 
 
-Gets or sets a list of attendees.
+Gets the attendees the meeting is sent to.
 
 **Returns:**
 [MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection)
@@ -79,7 +81,7 @@ public final MapiRecipientCollection getAppointmentUnsendableRecipients()
 ```
 
 
-Gets or sets a list of unsendable attendees.
+Gets the attendees the meeting cannot be sent to, such as attendees that were removed from it.
 
 **Returns:**
 [MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection)
@@ -99,7 +101,7 @@ public final boolean getNotAllowPropose()
 ```
 
 
-Gets or sets a value indicating whether attendees are not allowed to propose a new date and/or time for the meeting.
+Gets a value indicating whether attendees are prevented from proposing a new time for the meeting.
 
 **Returns:**
 boolean
@@ -109,7 +111,7 @@ public final boolean getResponseRequested()
 ```
 
 
-Gets or sets a value indicating whether a response is requested to a Message object.
+Gets a value indicating whether the organizer asks attendees to respond.
 
 **Returns:**
 boolean
@@ -145,7 +147,7 @@ public final void setAppointmentRecipients(MapiRecipientCollection value)
 ```
 
 
-Gets or sets a list of attendees.
+Sets the attendees the meeting is sent to.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +160,7 @@ public final void setAppointmentUnsendableRecipients(MapiRecipientCollection val
 ```
 
 
-Gets or sets a list of unsendable attendees.
+Sets the attendees the meeting cannot be sent to, such as attendees that were removed from it.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,7 +173,7 @@ public final void setNotAllowPropose(boolean value)
 ```
 
 
-Gets or sets a value indicating whether attendees are not allowed to propose a new date and/or time for the meeting.
+Sets a value indicating whether attendees are prevented from proposing a new time for the meeting.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -184,7 +186,7 @@ public final void setResponseRequested(boolean value)
 ```
 
 
-Gets or sets a value indicating whether a response is requested to a Message object.
+Sets a value indicating whether the organizer asks attendees to respond.
 
 **Parameters:**
 | Parameter | Type | Description |

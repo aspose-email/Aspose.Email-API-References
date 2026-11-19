@@ -1,9 +1,9 @@
 ---
 title: VCardUrlType
 second_title: Aspose.Email for Java API Reference
-description: Enumerates url type
+description: Enumerates url type.
 type: docs
-weight: 758
+weight: 769
 url: /java/com.aspose.email/vcardurltype/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class VCardUrlType extends System.Enum
 ```
 
-Enumerates url type
+Enumerates url type.
 ## Constructors
 
 | Constructor | Description |
@@ -25,7 +25,7 @@ Enumerates url type
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
 | [HOME](#HOME) | Home type of url. |
-| [None](#None) | No type is specified, |
+| [None](#None) | No type is specified,. |
 | [WORK](#WORK) | Work type of url. |
 ## Methods
 
@@ -94,7 +94,7 @@ public static final int None
 ```
 
 
-No type is specified,
+No type is specified,.
 
 ### WORK {#WORK}
 ```

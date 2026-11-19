@@ -1,9 +1,9 @@
 ---
 title: VCardDeliveryAddress
 second_title: Aspose.Email for Java API Reference
-description: Represents a vCard delivery address
+description: Represents a vCard delivery address.
 type: docs
-weight: 733
+weight: 743
 url: /java/com.aspose.email/vcarddeliveryaddress/
 ---
 
@@ -13,37 +13,37 @@ java.lang.Object
 public final class VCardDeliveryAddress
 ```
 
-Represents a vCard delivery address
+Represents a vCard delivery address.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [VCardDeliveryAddress()](#VCardDeliveryAddress--) | Initializes a new instance of the [VCardDeliveryAddress](../../com.aspose.email/vcarddeliveryaddress) class |
+| [VCardDeliveryAddress()](#VCardDeliveryAddress--) | Initializes a new instance of the [VCardDeliveryAddress](../../com.aspose.email/vcarddeliveryaddress) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAddressType()](#getAddressType--) | Gets or sets an address type |
+| [getAddressType()](#getAddressType--) | Gets an address type. |
 | [getClass()](#getClass--) |  |
-| [getCountryName()](#getCountryName--) | Gets or sets a country |
-| [getExtendedAddress()](#getExtendedAddress--) | Gets or sets an extended address |
-| [getLocality()](#getLocality--) | Gets or sets a locality |
-| [getPoBox()](#getPoBox--) | Gets or sets a PO box |
-| [getPostalCode()](#getPostalCode--) | Gets or sets a postal code |
-| [getRegion()](#getRegion--) | Gets or sets a region |
-| [getStreet()](#getStreet--) | Gets or sets a street |
+| [getCountryName()](#getCountryName--) | Gets a country. |
+| [getExtendedAddress()](#getExtendedAddress--) | Gets an extended address. |
+| [getLocality()](#getLocality--) | Gets a locality. |
+| [getPoBox()](#getPoBox--) | Gets a PO box. |
+| [getPostalCode()](#getPostalCode--) | Gets a postal code. |
+| [getRegion()](#getRegion--) | Gets a region. |
+| [getStreet()](#getStreet--) | Gets a street. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAddressType(int value)](#setAddressType-int-) | Gets or sets an address type |
-| [setCountryName(String value)](#setCountryName-java.lang.String-) | Gets or sets a country |
-| [setExtendedAddress(String value)](#setExtendedAddress-java.lang.String-) | Gets or sets an extended address |
-| [setLocality(String value)](#setLocality-java.lang.String-) | Gets or sets a locality |
-| [setPoBox(String value)](#setPoBox-java.lang.String-) | Gets or sets a PO box |
-| [setPostalCode(String value)](#setPostalCode-java.lang.String-) | Gets or sets a postal code |
-| [setRegion(String value)](#setRegion-java.lang.String-) | Gets or sets a region |
-| [setStreet(String value)](#setStreet-java.lang.String-) | Gets or sets a street |
+| [setAddressType(int value)](#setAddressType-int-) | Sets an address type. |
+| [setCountryName(String value)](#setCountryName-java.lang.String-) | Sets a country. |
+| [setExtendedAddress(String value)](#setExtendedAddress-java.lang.String-) | Sets an extended address. |
+| [setLocality(String value)](#setLocality-java.lang.String-) | Sets a locality. |
+| [setPoBox(String value)](#setPoBox-java.lang.String-) | Sets a PO box. |
+| [setPostalCode(String value)](#setPostalCode-java.lang.String-) | Sets a postal code. |
+| [setRegion(String value)](#setRegion-java.lang.String-) | Sets a region. |
+| [setStreet(String value)](#setStreet-java.lang.String-) | Sets a street. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -54,7 +54,7 @@ public VCardDeliveryAddress()
 ```
 
 
-Initializes a new instance of the [VCardDeliveryAddress](../../com.aspose.email/vcarddeliveryaddress) class
+Initializes a new instance of the [VCardDeliveryAddress](../../com.aspose.email/vcarddeliveryaddress) class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -77,7 +77,7 @@ public final int getAddressType()
 ```
 
 
-Gets or sets an address type
+Gets an address type.
 
 **Returns:**
 int
@@ -97,7 +97,7 @@ public final String getCountryName()
 ```
 
 
-Gets or sets a country
+Gets a country.
 
 **Returns:**
 java.lang.String
@@ -107,7 +107,7 @@ public final String getExtendedAddress()
 ```
 
 
-Gets or sets an extended address
+Gets an extended address.
 
 **Returns:**
 java.lang.String
@@ -117,7 +117,7 @@ public final String getLocality()
 ```
 
 
-Gets or sets a locality
+Gets a locality.
 
 **Returns:**
 java.lang.String
@@ -127,7 +127,7 @@ public final String getPoBox()
 ```
 
 
-Gets or sets a PO box
+Gets a PO box.
 
 **Returns:**
 java.lang.String
@@ -137,7 +137,7 @@ public final String getPostalCode()
 ```
 
 
-Gets or sets a postal code
+Gets a postal code.
 
 **Returns:**
 java.lang.String
@@ -147,7 +147,7 @@ public final String getRegion()
 ```
 
 
-Gets or sets a region
+Gets a region.
 
 **Returns:**
 java.lang.String
@@ -157,7 +157,7 @@ public final String getStreet()
 ```
 
 
-Gets or sets a street
+Gets a street.
 
 **Returns:**
 java.lang.String
@@ -193,7 +193,7 @@ public final void setAddressType(int value)
 ```
 
 
-Gets or sets an address type
+Sets an address type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public final void setCountryName(String value)
 ```
 
 
-Gets or sets a country
+Sets a country.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ public final void setExtendedAddress(String value)
 ```
 
 
-Gets or sets an extended address
+Sets an extended address.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +232,7 @@ public final void setLocality(String value)
 ```
 
 
-Gets or sets a locality
+Sets a locality.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,7 +245,7 @@ public final void setPoBox(String value)
 ```
 
 
-Gets or sets a PO box
+Sets a PO box.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -258,7 +258,7 @@ public final void setPostalCode(String value)
 ```
 
 
-Gets or sets a postal code
+Sets a postal code.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -271,7 +271,7 @@ public final void setRegion(String value)
 ```
 
 
-Gets or sets a region
+Sets a region.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -284,7 +284,7 @@ public final void setStreet(String value)
 ```
 
 
-Gets or sets a street
+Sets a street.
 
 **Parameters:**
 | Parameter | Type | Description |

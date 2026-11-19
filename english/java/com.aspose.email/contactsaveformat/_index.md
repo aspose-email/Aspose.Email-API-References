@@ -1,9 +1,9 @@
 ---
 title: ContactSaveFormat
 second_title: Aspose.Email for Java API Reference
-description: Enumerates contact save formats
+description: Defines the formats a contact can be saved to.
 type: docs
-weight: 125
+weight: 126
 url: /java/com.aspose.email/contactsaveformat/
 ---
 
@@ -13,15 +13,15 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ContactSaveFormat extends System.Enum
 ```
 
-Enumerates contact save formats
+Defines the formats a contact can be saved to.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Msg](#Msg) | MSG format. |
-| [VCard](#VCard) | vCard format (default). |
-| [WebDav](#WebDav) | WebDav format. |
+| [Msg](#Msg) | Outlook message (.msg). |
+| [VCard](#VCard) | vCard (.vcf). |
+| [WebDav](#WebDav) | The WebDAV XML representation used by Exchange Server. |
 ## Methods
 
 | Method | Description |
@@ -73,7 +73,7 @@ public static final int Msg
 ```
 
 
-MSG format.
+Outlook message (.msg).
 
 ### VCard {#VCard}
 ```
@@ -81,7 +81,7 @@ public static final int VCard
 ```
 
 
-vCard format (default).
+vCard (.vcf). This is the default format.
 
 ### WebDav {#WebDav}
 ```
@@ -89,7 +89,7 @@ public static final int WebDav
 ```
 
 
-WebDav format.
+The WebDAV XML representation used by Exchange Server.
 
 ### Clone() {#Clone--}
 ```

@@ -1,9 +1,9 @@
 ---
 title: PersonalStorageLoadOptions
 second_title: Aspose.Email for Java API Reference
-description: Specifies additional options when loading a PST storage.
+description: Options for opening a PST or OST file or stream.
 type: docs
-weight: 586
+weight: 590
 url: /java/com.aspose.email/personalstorageloadoptions/
 ---
 
@@ -13,25 +13,25 @@ java.lang.Object
 public class PersonalStorageLoadOptions
 ```
 
-Specifies additional options when loading a PST storage.
+Options for opening a PST or OST file or stream.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PersonalStorageLoadOptions()](#PersonalStorageLoadOptions--) |  |
+| [PersonalStorageLoadOptions()](#PersonalStorageLoadOptions--) | Initializes a new instance of the [PersonalStorageLoadOptions](../../com.aspose.email/personalstorageloadoptions) class with the default settings: read-only access, and the stream is closed when the storage is disposed. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getLeaveStreamOpen()](#getLeaveStreamOpen--) | Leave stream open when PersonalStorage is disposed. |
-| [getWritable()](#getWritable--) | Gets or sets a value indicating whether the pst is writable. |
+| [getLeaveStreamOpen()](#getLeaveStreamOpen--) | Gets whether to leave the stream open when the [PersonalStorage](../../com.aspose.email/personalstorage) is disposed. |
+| [getWritable()](#getWritable--) | Gets whether the PST is opened for writing. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setLeaveStreamOpen(boolean value)](#setLeaveStreamOpen-boolean-) | Leave stream open when PersonalStorage is disposed. |
-| [setWritable(boolean value)](#setWritable-boolean-) | Gets or sets a value indicating whether the pst is writable. |
+| [setLeaveStreamOpen(boolean value)](#setLeaveStreamOpen-boolean-) | Sets whether to leave the stream open when the [PersonalStorage](../../com.aspose.email/personalstorage) is disposed. |
+| [setWritable(boolean value)](#setWritable-boolean-) | Sets whether the PST is opened for writing. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -41,6 +41,8 @@ Specifies additional options when loading a PST storage.
 public PersonalStorageLoadOptions()
 ```
 
+
+Initializes a new instance of the [PersonalStorageLoadOptions](../../com.aspose.email/personalstorageloadoptions) class with the default settings: read-only access, and the stream is closed when the storage is disposed.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -73,7 +75,7 @@ public final boolean getLeaveStreamOpen()
 ```
 
 
-Leave stream open when PersonalStorage is disposed. Should always be false when [PersonalStorage.fromFile(String,PersonalStorageLoadOptions)](../../com.aspose.email/personalstorage\#fromFile-String-PersonalStorageLoadOptions-) method is used. By default the value is false.
+Gets whether to leave the stream open when the [PersonalStorage](../../com.aspose.email/personalstorage) is disposed. It must be  false  when opening a file with [PersonalStorage.fromFile(String, PersonalStorageLoadOptions)](../../com.aspose.email/personalstorage\#fromFile-String--PersonalStorageLoadOptions-). The default is  false .
 
 **Returns:**
 boolean
@@ -83,12 +85,10 @@ public final boolean getWritable()
 ```
 
 
-Gets or sets a value indicating whether the pst is writable. By default the value is true.
-
-Value:  true  if writable; otherwise,  false .
+Gets whether the PST is opened for writing. The default is  false .
 
 **Returns:**
-boolean
+boolean -  true  if writable; otherwise,  false .
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -121,7 +121,7 @@ public final void setLeaveStreamOpen(boolean value)
 ```
 
 
-Leave stream open when PersonalStorage is disposed. Should always be false when [PersonalStorage.fromFile(String,PersonalStorageLoadOptions)](../../com.aspose.email/personalstorage\#fromFile-String-PersonalStorageLoadOptions-) method is used. By default the value is false.
+Sets whether to leave the stream open when the [PersonalStorage](../../com.aspose.email/personalstorage) is disposed. It must be  false  when opening a file with [PersonalStorage.fromFile(String, PersonalStorageLoadOptions)](../../com.aspose.email/personalstorage\#fromFile-String--PersonalStorageLoadOptions-). The default is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -134,14 +134,12 @@ public final void setWritable(boolean value)
 ```
 
 
-Gets or sets a value indicating whether the pst is writable. By default the value is true.
-
-Value:  true  if writable; otherwise,  false .
+Sets whether the PST is opened for writing. The default is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  if writable; otherwise,  false . |
 
 ### toString() {#toString--}
 ```

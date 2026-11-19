@@ -1,9 +1,9 @@
 ---
 title: MapiSensitivity
 second_title: Aspose.Email for Java API Reference
-description: Contains a values that  indicates the message sensitivity.
+description: Defines the sensitivity of a message.
 type: docs
-weight: 489
+weight: 492
 url: /java/com.aspose.email/mapisensitivity/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class MapiSensitivity extends System.Enum
 ```
 
-Contains a values that indicates the message sensitivity.
+Defines the sensitivity of a message.
 ## Fields
 
 | Field | Description |

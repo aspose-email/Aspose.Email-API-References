@@ -1,7 +1,7 @@
 ---
 title: AttachmentProviderType
 second_title: Aspose.Email for Java API Reference
-description: The type of web service manipulating the attachment.
+description: Defines the cloud storage service that holds the file of a reference attachment.
 type: docs
 weight: 70
 url: /java/com.aspose.email/attachmentprovidertype/
@@ -13,14 +13,14 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class AttachmentProviderType extends System.Enum
 ```
 
-The type of web service manipulating the attachment.
+Defines the cloud storage service that holds the file of a reference attachment.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [OneDriveConsumer](#OneDriveConsumer) | The web reference attachment belongs to a OneDrive Consumer service. |
-| [OneDrivePro](#OneDrivePro) | The web reference attachment belongs to a OneDrive for Business service. |
+| [OneDriveConsumer](#OneDriveConsumer) | OneDrive (personal). |
+| [OneDrivePro](#OneDrivePro) | OneDrive for Business. |
 ## Methods
 
 | Method | Description |
@@ -72,7 +72,7 @@ public static final int OneDriveConsumer
 ```
 
 
-The web reference attachment belongs to a OneDrive Consumer service.
+OneDrive (personal).
 
 ### OneDrivePro {#OneDrivePro}
 ```
@@ -80,7 +80,7 @@ public static final int OneDrivePro
 ```
 
 
-The web reference attachment belongs to a OneDrive for Business service.
+OneDrive for Business.
 
 ### Clone() {#Clone--}
 ```

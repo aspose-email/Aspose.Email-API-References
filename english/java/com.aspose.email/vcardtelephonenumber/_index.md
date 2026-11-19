@@ -1,37 +1,40 @@
 ---
 title: VCardTelephoneNumber
 second_title: Aspose.Email for Java API Reference
-description: Represents a vCard telephone number
+description: Represents a vCard telephone number.
 type: docs
-weight: 753
+weight: 764
 url: /java/com.aspose.email/vcardtelephonenumber/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.email.VCardHeaderInfo](../../com.aspose.email/vcardheaderinfo)
 ```
-public final class VCardTelephoneNumber
+public final class VCardTelephoneNumber extends VCardHeaderInfo
 ```
 
-Represents a vCard telephone number
+Represents a vCard telephone number.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [VCardTelephoneNumber()](#VCardTelephoneNumber--) | Initializes a new instance of the [VCardTelephoneNumber](../../com.aspose.email/vcardtelephonenumber) class |
+| [VCardTelephoneNumber()](#VCardTelephoneNumber--) | Initializes a new instance of the [VCardTelephoneNumber](../../com.aspose.email/vcardtelephonenumber) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getTelephoneNumber()](#getTelephoneNumber--) | Gets or sets a telephone number |
-| [getTelephoneType()](#getTelephoneType--) | Gets or sets a telephone numer type |
+| [getParameters()](#getParameters--) | Gets a property parameters. |
+| [getTelephoneNumber()](#getTelephoneNumber--) | Gets a telephone number. |
+| [getTelephoneType()](#getTelephoneType--) | Gets a telephone numer type. |
+| [getValueLocation()](#getValueLocation--) | Gets a value location. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setTelephoneNumber(String value)](#setTelephoneNumber-java.lang.String-) | Gets or sets a telephone number |
-| [setTelephoneType(int value)](#setTelephoneType-int-) | Gets or sets a telephone numer type |
+| [setTelephoneNumber(String value)](#setTelephoneNumber-java.lang.String-) | Sets a telephone number. |
+| [setTelephoneType(int value)](#setTelephoneType-int-) | Sets a telephone numer type. |
+| [setValueLocation(int value)](#setValueLocation-int-) | Sets a value location. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -42,7 +45,7 @@ public VCardTelephoneNumber()
 ```
 
 
-Initializes a new instance of the [VCardTelephoneNumber](../../com.aspose.email/vcardtelephonenumber) class
+Initializes a new instance of the [VCardTelephoneNumber](../../com.aspose.email/vcardtelephonenumber) class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -69,13 +72,23 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getParameters() {#getParameters--}
+```
+public final List<String> getParameters()
+```
+
+
+Gets a property parameters.
+
+**Returns:**
+java.util.List<java.lang.String>
 ### getTelephoneNumber() {#getTelephoneNumber--}
 ```
 public final String getTelephoneNumber()
 ```
 
 
-Gets or sets a telephone number
+Gets a telephone number.
 
 **Returns:**
 java.lang.String
@@ -85,7 +98,17 @@ public final int getTelephoneType()
 ```
 
 
-Gets or sets a telephone numer type
+Gets a telephone numer type.
+
+**Returns:**
+int
+### getValueLocation() {#getValueLocation--}
+```
+public final int getValueLocation()
+```
+
+
+Gets a value location.
 
 **Returns:**
 int
@@ -121,7 +144,7 @@ public final void setTelephoneNumber(String value)
 ```
 
 
-Gets or sets a telephone number
+Sets a telephone number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -134,7 +157,20 @@ public final void setTelephoneType(int value)
 ```
 
 
-Gets or sets a telephone numer type
+Sets a telephone numer type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setValueLocation(int value) {#setValueLocation-int-}
+```
+public final void setValueLocation(int value)
+```
+
+
+Sets a value location.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -1,9 +1,9 @@
 ---
 title: ReactionType
 second_title: Aspose.Email for Java API Reference
-description: Specifies the type of reaction a user can have on a message.
+description: Defines the reactions a user can leave on a message.
 type: docs
-weight: 616
+weight: 621
 url: /java/com.aspose.email/reactiontype/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ReactionType extends System.Enum
 ```
 
-Specifies the type of reaction a user can have on a message.
+Defines the reactions a user can leave on a message.
 ## Fields
 
 | Field | Description |

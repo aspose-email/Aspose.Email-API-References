@@ -3,7 +3,7 @@ title: FileAsMapping
 second_title: Aspose.Email for Java API Reference
 description: Specifies how to generate and recompute the value of the dispidFileAs property when other contact name properties change.
 type: docs
-weight: 246
+weight: 249
 url: /java/com.aspose.email/fileasmapping/
 ---
 
@@ -13,32 +13,34 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class FileAsMapping extends System.Enum
 ```
 
-Specifies how to generate and recompute the value of the dispidFileAs property when other contact name properties change. Coincides MS-OXPROPS revision 16.2 from 7/31/2014
+Specifies how to generate and recompute the value of the dispidFileAs property when other contact name properties change.
+
+Coincides with MS-OXPROPS revision 16.2 from 7/31/2014.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [AccordingToLocale](#AccordingToLocale) | Specifies that, when displaying the contact, the application should choose the appropriate default values (according to the language locale) for dispidFileUnderId and update dispidFileUnder to match the choice. |
 | [BestMatch](#BestMatch) | Specifies that, when displaying the contact, the application should attempt to use the current value of dispidFileUnder and other contact properties to find a "best match" for dispidFileUnderId to one of the previous values in this table. |
-| [DisplayName](#DisplayName) | DisplayName |
+| [DisplayName](#DisplayName) | DisplayName. |
 | [Empty](#Empty) | Empty value. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [FirstMiddleLastGen](#FirstMiddleLastGen) | GivenName MiddleName Surname Generation |
-| [FirstName](#FirstName) | GivenName |
-| [LastFirstMiddle](#LastFirstMiddle) | Surname, GivenName MiddleName |
-| [LastFirstMiddle2](#LastFirstMiddle2) | SurnameGivenName MiddleName |
-| [LastFirstMiddle3](#LastFirstMiddle3) | Surname GivenName MiddleName |
-| [LastFirstMiddleGen](#LastFirstMiddleGen) | Surname GivenName MiddleName Generation |
-| [LastFirstMiddleGen2](#LastFirstMiddleGen2) | SurnameGivenName MiddleName Generation |
-| [LastFirstMiddleOrg](#LastFirstMiddleOrg) | Surname, GivenName MiddleName\\r\\nCompanyName |
-| [LastFirstMiddleOrg2](#LastFirstMiddleOrg2) | SurnameGivenName MiddleName\\r\\nCompanyName |
-| [LastFirstMiddleOrg3](#LastFirstMiddleOrg3) | Surname GivenName PidTagMiddleName\\r\\nCompanyName |
-| [LastName](#LastName) | Surname |
-| [None](#None) | Specifies that, FileUnder is a user-provided, and should not be changed when another contact name property changes. |
-| [OrgLastFirstMiddle](#OrgLastFirstMiddle) | CompanyName\\r\\nSurname, GivenName MiddleName |
-| [OrgLastFirstMiddle2](#OrgLastFirstMiddle2) | CompanyName\\r\\nSurnameGivenName MiddleName |
-| [OrgLastFirstMiddle3](#OrgLastFirstMiddle3) | CompanyName\\r\\nSurname GivenName MiddleName |
-| [Organization](#Organization) | CompanyName |
+| [FirstMiddleLastGen](#FirstMiddleLastGen) | GivenName MiddleName Surname Generation. |
+| [FirstName](#FirstName) | GivenName. |
+| [LastFirstMiddle](#LastFirstMiddle) |  Surname, GivenName MiddleName . |
+| [LastFirstMiddle2](#LastFirstMiddle2) |  SurnameGivenName MiddleName . |
+| [LastFirstMiddle3](#LastFirstMiddle3) |  Surname GivenName MiddleName . |
+| [LastFirstMiddleGen](#LastFirstMiddleGen) |  Surname GivenName MiddleName Generation . |
+| [LastFirstMiddleGen2](#LastFirstMiddleGen2) |  SurnameGivenName MiddleName Generation . |
+| [LastFirstMiddleOrg](#LastFirstMiddleOrg) |  Surname, GivenName MiddleName\\r\\nCompanyName . |
+| [LastFirstMiddleOrg2](#LastFirstMiddleOrg2) |  SurnameGivenName MiddleName\\r\\nCompanyName . |
+| [LastFirstMiddleOrg3](#LastFirstMiddleOrg3) |  Surname GivenName PidTagMiddleName\\r\\nCompanyName . |
+| [LastName](#LastName) | Surname. |
+| [None](#None) | Specifies that FileUnder is user-provided and should not be changed when another contact name property changes, i.e. |
+| [OrgLastFirstMiddle](#OrgLastFirstMiddle) |  CompanyName\\r\\nSurname, GivenName MiddleName . |
+| [OrgLastFirstMiddle2](#OrgLastFirstMiddle2) |  CompanyName\\r\\nSurnameGivenName MiddleName . |
+| [OrgLastFirstMiddle3](#OrgLastFirstMiddle3) |  CompanyName\\r\\nSurname GivenName MiddleName . |
+| [Organization](#Organization) | CompanyName. |
 ## Methods
 
 | Method | Description |
@@ -100,7 +102,7 @@ public static final long DisplayName
 ```
 
 
-DisplayName
+DisplayName.
 
 ### Empty {#Empty}
 ```
@@ -122,7 +124,7 @@ public static final long FirstMiddleLastGen
 ```
 
 
-GivenName MiddleName Surname Generation
+GivenName MiddleName Surname Generation.
 
 ### FirstName {#FirstName}
 ```
@@ -130,7 +132,7 @@ public static final long FirstName
 ```
 
 
-GivenName
+GivenName.
 
 ### LastFirstMiddle {#LastFirstMiddle}
 ```
@@ -138,7 +140,7 @@ public static final long LastFirstMiddle
 ```
 
 
-Surname, GivenName MiddleName
+ Surname, GivenName MiddleName .
 
 ### LastFirstMiddle2 {#LastFirstMiddle2}
 ```
@@ -146,7 +148,7 @@ public static final long LastFirstMiddle2
 ```
 
 
-SurnameGivenName MiddleName
+ SurnameGivenName MiddleName .
 
 ### LastFirstMiddle3 {#LastFirstMiddle3}
 ```
@@ -154,7 +156,7 @@ public static final long LastFirstMiddle3
 ```
 
 
-Surname GivenName MiddleName
+ Surname GivenName MiddleName .
 
 ### LastFirstMiddleGen {#LastFirstMiddleGen}
 ```
@@ -162,7 +164,7 @@ public static final long LastFirstMiddleGen
 ```
 
 
-Surname GivenName MiddleName Generation
+ Surname GivenName MiddleName Generation .
 
 ### LastFirstMiddleGen2 {#LastFirstMiddleGen2}
 ```
@@ -170,7 +172,7 @@ public static final long LastFirstMiddleGen2
 ```
 
 
-SurnameGivenName MiddleName Generation
+ SurnameGivenName MiddleName Generation .
 
 ### LastFirstMiddleOrg {#LastFirstMiddleOrg}
 ```
@@ -178,7 +180,7 @@ public static final long LastFirstMiddleOrg
 ```
 
 
-Surname, GivenName MiddleName\\r\\nCompanyName
+ Surname, GivenName MiddleName\\r\\nCompanyName .
 
 ### LastFirstMiddleOrg2 {#LastFirstMiddleOrg2}
 ```
@@ -186,7 +188,7 @@ public static final long LastFirstMiddleOrg2
 ```
 
 
-SurnameGivenName MiddleName\\r\\nCompanyName
+ SurnameGivenName MiddleName\\r\\nCompanyName .
 
 ### LastFirstMiddleOrg3 {#LastFirstMiddleOrg3}
 ```
@@ -194,7 +196,7 @@ public static final long LastFirstMiddleOrg3
 ```
 
 
-Surname GivenName PidTagMiddleName\\r\\nCompanyName
+ Surname GivenName PidTagMiddleName\\r\\nCompanyName .
 
 ### LastName {#LastName}
 ```
@@ -202,7 +204,7 @@ public static final long LastName
 ```
 
 
-Surname
+Surname.
 
 ### None {#None}
 ```
@@ -210,7 +212,7 @@ public static final long None
 ```
 
 
-Specifies that, FileUnder is a user-provided, and should not be changed when another contact name property changes. I.e. value of FileUnder is not constructed from other properties.
+Specifies that FileUnder is user-provided and should not be changed when another contact name property changes, i.e. the value of FileUnder is not constructed from other properties.
 
 ### OrgLastFirstMiddle {#OrgLastFirstMiddle}
 ```
@@ -218,7 +220,7 @@ public static final long OrgLastFirstMiddle
 ```
 
 
-CompanyName\\r\\nSurname, GivenName MiddleName
+ CompanyName\\r\\nSurname, GivenName MiddleName .
 
 ### OrgLastFirstMiddle2 {#OrgLastFirstMiddle2}
 ```
@@ -226,7 +228,7 @@ public static final long OrgLastFirstMiddle2
 ```
 
 
-CompanyName\\r\\nSurnameGivenName MiddleName
+ CompanyName\\r\\nSurnameGivenName MiddleName .
 
 ### OrgLastFirstMiddle3 {#OrgLastFirstMiddle3}
 ```
@@ -234,7 +236,7 @@ public static final long OrgLastFirstMiddle3
 ```
 
 
-CompanyName\\r\\nSurname GivenName MiddleName
+ CompanyName\\r\\nSurname GivenName MiddleName .
 
 ### Organization {#Organization}
 ```
@@ -242,7 +244,7 @@ public static final long Organization
 ```
 
 
-CompanyName
+CompanyName.
 
 ### Clone() {#Clone--}
 ```

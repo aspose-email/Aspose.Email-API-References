@@ -1,9 +1,9 @@
 ---
 title: GraphClient
 second_title: Aspose.Email for Java API Reference
-description: Provides access to MS Exchange Server Office365 by using REST API.
+description: Provides access to MS Graph by using REST API.
 type: docs
-weight: 286
+weight: 289
 url: /java/com.aspose.email/graphclient/
 ---
 
@@ -16,7 +16,7 @@ com.aspose.ms.System.IDisposable, java.io.Closeable
 public abstract class GraphClient implements System.IDisposable, Closeable
 ```
 
-Provides access to MS Exchange Server (Office365) by using REST API.
+Provides access to MS Graph by using REST API.
 ## Methods
 
 | Method | Description |

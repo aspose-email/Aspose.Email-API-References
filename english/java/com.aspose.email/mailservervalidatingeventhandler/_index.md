@@ -3,7 +3,7 @@ title: MailServerValidatingEventHandler
 second_title: Aspose.Email for Java API Reference
 description: Represents the event handler for MailServerValidatingEvent.
 type: docs
-weight: 393
+weight: 396
 url: /java/com.aspose.email/mailservervalidatingeventhandler/
 ---
 
@@ -14,6 +14,8 @@ public abstract class MailServerValidatingEventHandler extends System.MulticastD
 ```
 
 Represents the event handler for MailServerValidatingEvent.
+
+The method receives  sender : the sender,  e : the event arguments.
 ## Constructors
 
 | Constructor | Description |
@@ -72,7 +74,7 @@ beginInvoke.
 | state | java.lang.Object | a java.lang.Object object. |
 
 **Returns:**
-com.aspose.ms.System.IAsyncResult - a com.aspose.ms.System.IAsyncResult object.
+[IAsyncResult](../../com.aspose.ms.system/iasyncresult) - a com.aspose.ms.System.IAsyncResult object.
 ### combine(System.Delegate arg0, System.Delegate arg1) {#combine-com.aspose.ms.System.Delegate-com.aspose.ms.System.Delegate-}
 ```
 public static System.Delegate combine(System.Delegate arg0, System.Delegate arg1)

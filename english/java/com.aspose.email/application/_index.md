@@ -18,11 +18,11 @@ Specifies the kind of application data in an e-mail message attachment.
 
 | Field | Description |
 | --- | --- |
-| [OCTET](#OCTET) | Specifies application/octet-stream media type |
-| [PDF](#PDF) | Specifies application/pdf media type |
-| [RTF](#RTF) | Specifies application/rtf media type |
-| [SOAP](#SOAP) | Specifies application/soap+xml media type |
-| [ZIP](#ZIP) | Specifies application/zip media type |
+| [OCTET](#OCTET) | Specifies application/octet-stream media type. |
+| [PDF](#PDF) | Specifies application/pdf media type. |
+| [RTF](#RTF) | Specifies application/rtf media type. |
+| [SOAP](#SOAP) | Specifies application/soap+xml media type. |
+| [ZIP](#ZIP) | Specifies application/zip media type. |
 ## Methods
 
 | Method | Description |
@@ -42,7 +42,7 @@ public static final String OCTET
 ```
 
 
-Specifies application/octet-stream media type
+Specifies application/octet-stream media type.
 
 ### PDF {#PDF}
 ```
@@ -50,7 +50,7 @@ public static final String PDF
 ```
 
 
-Specifies application/pdf media type
+Specifies application/pdf media type.
 
 ### RTF {#RTF}
 ```
@@ -58,7 +58,7 @@ public static final String RTF
 ```
 
 
-Specifies application/rtf media type
+Specifies application/rtf media type.
 
 ### SOAP {#SOAP}
 ```
@@ -66,7 +66,7 @@ public static final String SOAP
 ```
 
 
-Specifies application/soap+xml media type
+Specifies application/soap+xml media type.
 
 ### ZIP {#ZIP}
 ```
@@ -74,7 +74,7 @@ public static final String ZIP
 ```
 
 
-Specifies application/zip media type
+Specifies application/zip media type.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

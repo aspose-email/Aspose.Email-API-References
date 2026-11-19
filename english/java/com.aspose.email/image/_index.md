@@ -18,12 +18,12 @@ Specifies the type of image data in an e-mail message attachment.
 
 | Field | Description |
 | --- | --- |
-| [BMP](#BMP) | Specifies image/bmp media type |
-| [GIF](#GIF) | Specifies image/gif media type |
-| [JPEG](#JPEG) | Specifies image/jpeg media type |
-| [PNG](#PNG) | Specifies image/png media type |
-| [TIFF](#TIFF) | Specifies image/tiff media type |
-| [WMF](#WMF) | Specifies MS windows metafile image/x-wmf |
+| [BMP](#BMP) | Specifies image/bmp media type. |
+| [GIF](#GIF) | Specifies image/gif media type. |
+| [JPEG](#JPEG) | Specifies image/jpeg media type. |
+| [PNG](#PNG) | Specifies image/png media type. |
+| [TIFF](#TIFF) | Specifies image/tiff media type. |
+| [WMF](#WMF) | Specifies MS windows metafile image/x-wmf. |
 ## Methods
 
 | Method | Description |
@@ -43,7 +43,7 @@ public static final String BMP
 ```
 
 
-Specifies image/bmp media type
+Specifies image/bmp media type.
 
 ### GIF {#GIF}
 ```
@@ -51,7 +51,7 @@ public static final String GIF
 ```
 
 
-Specifies image/gif media type
+Specifies image/gif media type.
 
 ### JPEG {#JPEG}
 ```
@@ -59,7 +59,7 @@ public static final String JPEG
 ```
 
 
-Specifies image/jpeg media type
+Specifies image/jpeg media type.
 
 ### PNG {#PNG}
 ```
@@ -67,7 +67,7 @@ public static final String PNG
 ```
 
 
-Specifies image/png media type
+Specifies image/png media type.
 
 ### TIFF {#TIFF}
 ```
@@ -75,7 +75,7 @@ public static final String TIFF
 ```
 
 
-Specifies image/tiff media type
+Specifies image/tiff media type.
 
 ### WMF {#WMF}
 ```
@@ -83,7 +83,7 @@ public static final String WMF
 ```
 
 
-Specifies MS windows metafile image/x-wmf
+Specifies MS windows metafile image/x-wmf.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

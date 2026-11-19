@@ -3,7 +3,7 @@ title: ResponseMessageBuilder
 second_title: Aspose.Email for Java API Reference
 description: Provides creation and formatting the forwarding and replying messages.
 type: docs
-weight: 640
+weight: 645
 url: /java/com.aspose.email/responsemessagebuilder/
 ---
 
@@ -26,16 +26,16 @@ Provides creation and formatting the forwarding and replying messages.
 | [buildResponse(MailMessage msg)](#buildResponse-com.aspose.email.MailMessage-) | Builds the forwarding and replying messages. |
 | [buildResponse(MapiMessage msg)](#buildResponse-com.aspose.email.MapiMessage-) | Builds the forwarding and replying messages. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAdditionMode()](#getAdditionMode--) | Gets or sets the format of response message. |
+| [getAdditionMode()](#getAdditionMode--) | Gets the format of response message. |
 | [getClass()](#getClass--) |  |
-| [getResponseText()](#getResponseText--) | Gets or sets the body of response message. |
-| [getSender()](#getSender--) | Gets or sets the addres from which the response message will be sent. |
+| [getResponseText()](#getResponseText--) | Gets the body of response message. |
+| [getSender()](#getSender--) | Gets the addres from which the response message will be sent. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAdditionMode(int value)](#setAdditionMode-int-) | Gets or sets the format of response message. |
-| [setResponseText(String value)](#setResponseText-java.lang.String-) | Gets or sets the body of response message. |
-| [setSender(MailAddress value)](#setSender-com.aspose.email.MailAddress-) | Gets or sets the addres from which the response message will be sent. |
+| [setAdditionMode(int value)](#setAdditionMode-int-) | Sets the format of response message. |
+| [setResponseText(String value)](#setResponseText-java.lang.String-) | Sets the body of response message. |
+| [setSender(MailAddress value)](#setSender-com.aspose.email.MailAddress-) | Sets the addres from which the response message will be sent. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -97,7 +97,7 @@ public final int getAdditionMode()
 ```
 
 
-Gets or sets the format of response message.
+Gets the format of response message.
 
 **Returns:**
 int
@@ -117,9 +117,7 @@ public final String getResponseText()
 ```
 
 
-Gets or sets the body of response message.
-
---------------------
+Gets the body of response message.
 
 Can contain html tags or rtf keywords if type of body of original message is HTML or RTF respectively.
 
@@ -131,7 +129,7 @@ public final MailAddress getSender()
 ```
 
 
-Gets or sets the addres from which the response message will be sent.
+Gets the addres from which the response message will be sent.
 
 **Returns:**
 [MailAddress](../../com.aspose.email/mailaddress)
@@ -167,7 +165,7 @@ public final void setAdditionMode(int value)
 ```
 
 
-Gets or sets the format of response message.
+Sets the format of response message.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,9 +178,7 @@ public final void setResponseText(String value)
 ```
 
 
-Gets or sets the body of response message.
-
---------------------
+Sets the body of response message.
 
 Can contain html tags or rtf keywords if type of body of original message is HTML or RTF respectively.
 
@@ -197,7 +193,7 @@ public final void setSender(MailAddress value)
 ```
 
 
-Gets or sets the addres from which the response message will be sent.
+Sets the addres from which the response message will be sent.
 
 **Parameters:**
 | Parameter | Type | Description |

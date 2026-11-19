@@ -1,9 +1,9 @@
 ---
 title: MapiConversionOptions
 second_title: Aspose.Email for Java API Reference
-description: This class allows the user to specify additional options when converting from MailMessage to MapiMessage.
+description: Options that control how a  is converted to a .
 type: docs
-weight: 452
+weight: 455
 url: /java/com.aspose.email/mapiconversionoptions/
 ---
 
@@ -13,44 +13,59 @@ java.lang.Object
 public class MapiConversionOptions
 ```
 
-This class allows the user to specify additional options when converting from MailMessage to MapiMessage.
+Options that control how a [MailMessage](../../com.aspose.email/mailmessage) is converted to a [MapiMessage](../../com.aspose.email/mapimessage).
+
+Pass an instance to [MapiMessage.fromMailMessage(String)](../../com.aspose.email/mapimessage\#fromMailMessage-String-). \#getUnicodeFormat().getUnicodeFormat() and \#getASCIIFormat().getASCIIFormat() return ready-made options for the two MSG formats.
+
+This example converts an EML file to a Unicode MSG file, keeping the original dates.
+
+```
+
+ MailMessage eml = MailMessage.load("message.eml");
+
+ MapiConversionOptions options = MapiConversionOptions.getUnicodeFormat();
+ options.setPreserveOriginalDates(true);
+
+ try (MapiMessage msg = MapiMessage.fromMailMessage(eml, options)) {
+     msg.save("message.msg");
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MapiConversionOptions()](#MapiConversionOptions--) | Initializes a new instance of the [MapiConversionOptions](../../com.aspose.email/mapiconversionoptions) class. |
-| [MapiConversionOptions(int format)](#MapiConversionOptions-int-) | Initializes a new instance of the [MapiConversionOptions](../../com.aspose.email/mapiconversionoptions) class with specified OutlookMessageFormat. |
+| [MapiConversionOptions()](#MapiConversionOptions--) | Initializes a new instance of the [MapiConversionOptions](../../com.aspose.email/mapiconversionoptions) class that produces an ANSI message. |
+| [MapiConversionOptions(int format)](#MapiConversionOptions-int-) | Initializes a new instance of the [MapiConversionOptions](../../com.aspose.email/mapiconversionoptions) class that produces a message in the specified format. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getASCIIFormat()](#getASCIIFormat--) | Returns MapiConversionOptions with OutlookMessageFormat is ASCII(PreserveSignature is False, UseBodyCompression is False). |
+| [getASCIIFormat()](#getASCIIFormat--) | Gets new options that produce a message in ANSI (8-bit) format. |
 | [getClass()](#getClass--) |  |
-| [getCustomProgressHandler()](#getCustomProgressHandler--) |  |
-| [getForcedRtfBodyForAppointment()](#getForcedRtfBodyForAppointment--) | Gets or sets a value indicating whether it is necessary to use forced RTF body for an appointment. |
-| [getFormat()](#getFormat--) | Represents outlook message format. |
-| [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve EML format of embedded message at converting to MapiMessage. |
-| [getPreserveEmptyDates()](#getPreserveEmptyDates--) | Gets or sets a value indicating whether it is necessary to keep empty dates when converting a message. |
-| [getPreserveOriginalAddresses()](#getPreserveOriginalAddresses--) | Gets or sets a value indicating whether it is necessary to keep original value of mail addresses (without validation). |
-| [getPreserveOriginalDates()](#getPreserveOriginalDates--) | Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when converting a message. |
-| [getPreserveSignature()](#getPreserveSignature--) | Set to true, if signature is to be preserved. |
-| [getRemoveSignature()](#getRemoveSignature--) | Gets or sets a value indicating whether signature will be removed while converting. |
-| [getUnicodeFormat()](#getUnicodeFormat--) | Returns MapiConversionOptions with OutlookMessageFormat is Unicode(PreserveSignature is False, UseBodyCompression is False). |
-| [getUseBodyCompression()](#getUseBodyCompression--) | Set to true, if need RTF body compression. |
+| [getCustomProgressHandler()](#getCustomProgressHandler--) | Gets a handler that is called as the conversion progresses. |
+| [getForcedRtfBodyForAppointment()](#getForcedRtfBodyForAppointment--) | Gets a value indicating whether an appointment or a meeting request gets an RTF body built from the body of the source message. |
+| [getFormat()](#getFormat--) | Gets the format of the resulting message: Unicode or ANSI. |
+| [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets a value indicating whether embedded messages stay in EML format instead of being converted to MSG. |
+| [getPreserveEmptyDates()](#getPreserveEmptyDates--) | Gets a value indicating whether the creation and modification dates are left unset. |
+| [getPreserveOriginalAddresses()](#getPreserveOriginalAddresses--) | Gets a value indicating whether the addresses are kept exactly as in the source message, without validation. |
+| [getPreserveOriginalDates()](#getPreserveOriginalDates--) | Gets a value indicating whether the sent date of the source message is kept. |
+| [getRemoveSignature()](#getRemoveSignature--) | Gets a value indicating whether the digital signature is removed from a signed message during the conversion. |
+| [getUnicodeFormat()](#getUnicodeFormat--) | Gets new options that produce a message in Unicode format. |
+| [getUseBodyCompression()](#getUseBodyCompression--) | Gets a value indicating whether the RTF body is stored compressed. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCustomProgressHandler(ConversionProgressEventHandler value)](#setCustomProgressHandler-com.aspose.email.ConversionProgressEventHandler-) |  |
-| [setForcedRtfBodyForAppointment(boolean value)](#setForcedRtfBodyForAppointment-boolean-) | Gets or sets a value indicating whether it is necessary to use forced RTF body for an appointment. |
-| [setFormat(int value)](#setFormat-int-) | Represents outlook message format. |
-| [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve EML format of embedded message at converting to MapiMessage. |
-| [setPreserveEmptyDates(boolean value)](#setPreserveEmptyDates-boolean-) | Gets or sets a value indicating whether it is necessary to keep empty dates when converting a message. |
-| [setPreserveOriginalAddresses(boolean value)](#setPreserveOriginalAddresses-boolean-) | Gets or sets a value indicating whether it is necessary to keep original value of mail addresses (without validation). |
-| [setPreserveOriginalDates(boolean value)](#setPreserveOriginalDates-boolean-) | Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when converting a message. |
-| [setPreserveSignature(boolean value)](#setPreserveSignature-boolean-) | Set to true, if signature is to be preserved. |
-| [setRemoveSignature(boolean value)](#setRemoveSignature-boolean-) | Gets or sets a value indicating whether signature will be removed while converting. |
-| [setUseBodyCompression(boolean value)](#setUseBodyCompression-boolean-) | Set to true, if need RTF body compression. |
+| [setCustomProgressHandler(ConversionProgressEventHandler value)](#setCustomProgressHandler-com.aspose.email.ConversionProgressEventHandler-) | Sets a handler that is called as the conversion progresses. |
+| [setForcedRtfBodyForAppointment(boolean value)](#setForcedRtfBodyForAppointment-boolean-) | Sets a value indicating whether an appointment or a meeting request gets an RTF body built from the body of the source message. |
+| [setFormat(int value)](#setFormat-int-) | Sets the format of the resulting message: Unicode or ANSI. |
+| [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Sets a value indicating whether embedded messages stay in EML format instead of being converted to MSG. |
+| [setPreserveEmptyDates(boolean value)](#setPreserveEmptyDates-boolean-) | Sets a value indicating whether the creation and modification dates are left unset. |
+| [setPreserveOriginalAddresses(boolean value)](#setPreserveOriginalAddresses-boolean-) | Sets a value indicating whether the addresses are kept exactly as in the source message, without validation. |
+| [setPreserveOriginalDates(boolean value)](#setPreserveOriginalDates-boolean-) | Sets a value indicating whether the sent date of the source message is kept. |
+| [setRemoveSignature(boolean value)](#setRemoveSignature-boolean-) | Sets a value indicating whether the digital signature is removed from a signed message during the conversion. |
+| [setUseBodyCompression(boolean value)](#setUseBodyCompression-boolean-) | Sets a value indicating whether the RTF body is stored compressed. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -61,7 +76,7 @@ public MapiConversionOptions()
 ```
 
 
-Initializes a new instance of the [MapiConversionOptions](../../com.aspose.email/mapiconversionoptions) class.
+Initializes a new instance of the [MapiConversionOptions](../../com.aspose.email/mapiconversionoptions) class that produces an ANSI message.
 
 ### MapiConversionOptions(int format) {#MapiConversionOptions-int-}
 ```
@@ -69,12 +84,12 @@ public MapiConversionOptions(int format)
 ```
 
 
-Initializes a new instance of the [MapiConversionOptions](../../com.aspose.email/mapiconversionoptions) class with specified OutlookMessageFormat.
+Initializes a new instance of the [MapiConversionOptions](../../com.aspose.email/mapiconversionoptions) class that produces a message in the specified format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | int | Format of MapiMessage [OutlookMessageFormat](../../com.aspose.email/outlookmessageformat). |
+| format | int | The format of the resulting message: Unicode or ANSI. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -97,7 +112,7 @@ public static MapiConversionOptions getASCIIFormat()
 ```
 
 
-Returns MapiConversionOptions with OutlookMessageFormat is ASCII(PreserveSignature is False, UseBodyCompression is False).
+Gets new options that produce a message in ANSI (8-bit) format.
 
 **Returns:**
 [MapiConversionOptions](../../com.aspose.email/mapiconversionoptions)
@@ -117,7 +132,7 @@ public final ConversionProgressEventHandler getCustomProgressHandler()
 ```
 
 
-
+Gets a handler that is called as the conversion progresses.
 
 **Returns:**
 [ConversionProgressEventHandler](../../com.aspose.email/conversionprogresseventhandler)
@@ -127,7 +142,7 @@ public final boolean getForcedRtfBodyForAppointment()
 ```
 
 
-Gets or sets a value indicating whether it is necessary to use forced RTF body for an appointment. Default value is true.
+Gets a value indicating whether an appointment or a meeting request gets an RTF body built from the body of the source message. The default is  false .
 
 **Returns:**
 boolean
@@ -137,7 +152,7 @@ public final int getFormat()
 ```
 
 
-Represents outlook message format.
+Gets the format of the resulting message: Unicode or ANSI. The default is ANSI.
 
 **Returns:**
 int
@@ -147,11 +162,9 @@ public final boolean getPreserveEmbeddedMessageFormat()
 ```
 
 
-Gets or sets a value indicating whether it is necessary to preserve EML format of embedded message at converting to MapiMessage. By default the value is false.
+Gets a value indicating whether embedded messages stay in EML format instead of being converted to MSG. The default is  false .
 
---------------------
-
-Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from EML to MSG and vice versa, embedded messages are also converted to the target format. Setting the property to true preserves the original format of embedded messages.
+Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from EML to MSG and vice versa, embedded messages are also converted to the target format. Setting the property to  true  preserves the original format of embedded messages.
 
 **Returns:**
 boolean
@@ -161,7 +174,7 @@ public final boolean getPreserveEmptyDates()
 ```
 
 
-Gets or sets a value indicating whether it is necessary to keep empty dates when converting a message.
+Gets a value indicating whether the creation and modification dates are left unset. When  false  (the default), both are set to the time of the conversion.
 
 **Returns:**
 boolean
@@ -171,7 +184,7 @@ public final boolean getPreserveOriginalAddresses()
 ```
 
 
-Gets or sets a value indicating whether it is necessary to keep original value of mail addresses (without validation).
+Gets a value indicating whether the addresses are kept exactly as in the source message, without validation. The default is  false .
 
 **Returns:**
 boolean
@@ -181,17 +194,7 @@ public final boolean getPreserveOriginalDates()
 ```
 
 
-Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when converting a message.
-
-**Returns:**
-boolean
-### getPreserveSignature() {#getPreserveSignature--}
-```
-public final boolean getPreserveSignature()
-```
-
-
-Set to true, if signature is to be preserved.
+Gets a value indicating whether the sent date of the source message is kept. When  false , the time of the conversion is used. The default is  true .
 
 **Returns:**
 boolean
@@ -201,19 +204,17 @@ public final boolean getRemoveSignature()
 ```
 
 
-Gets or sets a value indicating whether signature will be removed while converting.
-
-Value:  true  if will be removed; otherwise,  false .
+Gets a value indicating whether the digital signature is removed from a signed message during the conversion.
 
 **Returns:**
-boolean
+boolean -  true  to remove the signature; otherwise,  false . The default is  false .
 ### getUnicodeFormat() {#getUnicodeFormat--}
 ```
 public static MapiConversionOptions getUnicodeFormat()
 ```
 
 
-Returns MapiConversionOptions with OutlookMessageFormat is Unicode(PreserveSignature is False, UseBodyCompression is False).
+Gets new options that produce a message in Unicode format.
 
 **Returns:**
 [MapiConversionOptions](../../com.aspose.email/mapiconversionoptions)
@@ -223,7 +224,7 @@ public final boolean getUseBodyCompression()
 ```
 
 
-Set to true, if need RTF body compression.
+Gets a value indicating whether the RTF body is stored compressed. The default is  false .
 
 **Returns:**
 boolean
@@ -259,7 +260,7 @@ public final void setCustomProgressHandler(ConversionProgressEventHandler value)
 ```
 
 
-
+Sets a handler that is called as the conversion progresses.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -272,7 +273,7 @@ public final void setForcedRtfBodyForAppointment(boolean value)
 ```
 
 
-Gets or sets a value indicating whether it is necessary to use forced RTF body for an appointment. Default value is true.
+Sets a value indicating whether an appointment or a meeting request gets an RTF body built from the body of the source message. The default is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -285,7 +286,7 @@ public final void setFormat(int value)
 ```
 
 
-Represents outlook message format.
+Sets the format of the resulting message: Unicode or ANSI. The default is ANSI.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -298,11 +299,9 @@ public final void setPreserveEmbeddedMessageFormat(boolean value)
 ```
 
 
-Gets or sets a value indicating whether it is necessary to preserve EML format of embedded message at converting to MapiMessage. By default the value is false.
+Sets a value indicating whether embedded messages stay in EML format instead of being converted to MSG. The default is  false .
 
---------------------
-
-Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from EML to MSG and vice versa, embedded messages are also converted to the target format. Setting the property to true preserves the original format of embedded messages.
+Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from EML to MSG and vice versa, embedded messages are also converted to the target format. Setting the property to  true  preserves the original format of embedded messages.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -315,7 +314,7 @@ public final void setPreserveEmptyDates(boolean value)
 ```
 
 
-Gets or sets a value indicating whether it is necessary to keep empty dates when converting a message.
+Sets a value indicating whether the creation and modification dates are left unset. When  false  (the default), both are set to the time of the conversion.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -328,7 +327,7 @@ public final void setPreserveOriginalAddresses(boolean value)
 ```
 
 
-Gets or sets a value indicating whether it is necessary to keep original value of mail addresses (without validation).
+Sets a value indicating whether the addresses are kept exactly as in the source message, without validation. The default is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -341,20 +340,7 @@ public final void setPreserveOriginalDates(boolean value)
 ```
 
 
-Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when converting a message.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### setPreserveSignature(boolean value) {#setPreserveSignature-boolean-}
-```
-public final void setPreserveSignature(boolean value)
-```
-
-
-Set to true, if signature is to be preserved.
+Sets a value indicating whether the sent date of the source message is kept. When  false , the time of the conversion is used. The default is  true .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -367,14 +353,12 @@ public final void setRemoveSignature(boolean value)
 ```
 
 
-Gets or sets a value indicating whether signature will be removed while converting.
-
-Value:  true  if will be removed; otherwise,  false .
+Sets a value indicating whether the digital signature is removed from a signed message during the conversion.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  to remove the signature; otherwise,  false . The default is  false . |
 
 ### setUseBodyCompression(boolean value) {#setUseBodyCompression-boolean-}
 ```
@@ -382,7 +366,7 @@ public final void setUseBodyCompression(boolean value)
 ```
 
 
-Set to true, if need RTF body compression.
+Sets a value indicating whether the RTF body is stored compressed. The default is  false .
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -3,7 +3,7 @@ title: DSNAction
 second_title: Aspose.Email for Java API Reference
 description: Indicates the action performed by the Reporting-MTA as a result of its attempt to deliver the message.
 type: docs
-weight: 135
+weight: 136
 url: /java/com.aspose.email/dsnaction/
 ---
 
@@ -92,7 +92,7 @@ public static final int Expanded
 ```
 
 
-Indicates that the message has been successfully delivered to the recipient address as specified by the sender, and forwarded by the Reporting-MTA beyond that destination to multiple additional recipient addresses. An action-value of "expanded" differs from Delivered in that "expanded" is not a terminal state. Further "failed" and/or "delayed" notifications may be provided.
+Indicates that the message has been successfully delivered to the recipient address as specified by the sender, and forwarded by the Reporting-MTA beyond that destination to multiple additional recipient addresses. An action-value of "expanded" differs from  Delivered  in that "expanded" is not a terminal state. Further "failed" and/or "delayed" notifications may be provided.
 
 ### Failed {#Failed}
 ```

@@ -1,9 +1,9 @@
 ---
 title: MapiNamedProperty
 second_title: Aspose.Email for Java API Reference
-description: Represents the data type of Named Property.
+description: A named property a MAPI property identified by a property set GUID and a name or numeric ID rather than by a fixed tag.
 type: docs
-weight: 472
+weight: 475
 url: /java/com.aspose.email/mapinamedproperty/
 ---
 
@@ -13,42 +13,44 @@ java.lang.Object, [com.aspose.email.MapiProperty](../../com.aspose.email/mapipro
 public final class MapiNamedProperty extends MapiProperty
 ```
 
-Represents the data type of Named Property.
+A named property: a MAPI property identified by a property set GUID and a name or numeric ID rather than by a fixed tag.
+
+Inside a message a named property is stored under a tag that the message assigns. Read the identity of the property with \#getGuid().getGuid(), \#getKind().getKind() and \#getNameId().getNameId().
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
 | [MapiNamedProperty()](#MapiNamedProperty--) | Initializes a new instance of the [MapiNamedProperty](../../com.aspose.email/mapinamedproperty) class. |
-| [MapiNamedProperty(long propertyTag, String nameIdentifier, UUID propertyGuid, byte[] propertyValue)](#MapiNamedProperty-long-java.lang.String-java.util.UUID-byte---) | Initializes a new instance of the [MapiNamedProperty](../../com.aspose.email/mapinamedproperty) class. |
-| [MapiNamedProperty(long propertyTag, long nameIdentifier, UUID propertyGuid, byte[] propertyValue)](#MapiNamedProperty-long-long-java.util.UUID-byte---) | Initializes a new instance of the [MapiNamedProperty](../../com.aspose.email/mapinamedproperty) class. |
-| [MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidLidPropertyDescriptor pd, Object data)](#MapiNamedProperty-com.aspose.email.INamedPropertyTagProvider-com.aspose.email.PidLidPropertyDescriptor-java.lang.Object-) | Initializes a new instance of the [MapiNamedProperty](../../com.aspose.email/mapinamedproperty) class. |
-| [MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidNamePropertyDescriptor pd, Object data)](#MapiNamedProperty-com.aspose.email.INamedPropertyTagProvider-com.aspose.email.PidNamePropertyDescriptor-java.lang.Object-) | Initializes a new instance of the [MapiNamedProperty](../../com.aspose.email/mapinamedproperty) class. |
+| [MapiNamedProperty(long propertyTag, String nameIdentifier, UUID propertyGuid, byte[] propertyValue)](#MapiNamedProperty-long-java.lang.String-java.util.UUID-byte---) | Initializes a new instance of the [MapiNamedProperty](../../com.aspose.email/mapinamedproperty) class for a property identified by a string name. |
+| [MapiNamedProperty(long propertyTag, long nameIdentifier, UUID propertyGuid, byte[] propertyValue)](#MapiNamedProperty-long-long-java.util.UUID-byte---) | Initializes a new instance of the [MapiNamedProperty](../../com.aspose.email/mapinamedproperty) class for a property identified by a numeric ID. |
+| [MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidLidPropertyDescriptor pd, Object data)](#MapiNamedProperty-com.aspose.email.INamedPropertyTagProvider-com.aspose.email.PidLidPropertyDescriptor-java.lang.Object-) | Initializes a new instance of the [MapiNamedProperty](../../com.aspose.email/mapinamedproperty) class from a descriptor of a property with a numeric ID. |
+| [MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidNamePropertyDescriptor pd, Object data)](#MapiNamedProperty-com.aspose.email.INamedPropertyTagProvider-com.aspose.email.PidNamePropertyDescriptor-java.lang.Object-) | Initializes a new instance of the [MapiNamedProperty](../../com.aspose.email/mapinamedproperty) class from a descriptor of a property with a string name. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [createMapiPropertyFromBytes(long tag, byte[] data)](#createMapiPropertyFromBytes-long-byte---) | Creates the mapi property from bytes. |
-| [createMapiPropertyFromDateTime(long tag, Date data)](#createMapiPropertyFromDateTime-long-java.util.Date-) | Creates the mapi property from date time. |
-| [createMapiPropertyFromLong(long tag, long data)](#createMapiPropertyFromLong-long-long-) | Creates the mapi property from long. |
-| [createMapiPropertyFromLong(long tag, long data, long delimiter)](#createMapiPropertyFromLong-long-long-long-) | Creates the mapi property from long. |
+| [createMapiPropertyFromBytes(long tag, byte[] data)](#createMapiPropertyFromBytes-long-byte---) | Creates a property with a binary value. |
+| [createMapiPropertyFromDateTime(long tag, Date data)](#createMapiPropertyFromDateTime-long-java.util.Date-) | Creates a property with a date and time value. |
+| [createMapiPropertyFromLong(long tag, long data)](#createMapiPropertyFromLong-long-long-) | Creates a property with an integer value. |
+| [createMapiPropertyFromLong(long tag, long data, long delimiter)](#createMapiPropertyFromLong-long-long-long-) | Creates a property with an integer value and a signed flag. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBoolean()](#getBoolean--) | Gets the first bytes of the binary data as boolean. |
+| [getBoolean()](#getBoolean--) | Gets the value as a Boolean. |
 | [getClass()](#getClass--) |  |
-| [getCurrency()](#getCurrency--) | Gets the Currency as string using the specified code page. |
-| [getData()](#getData--) | Gets the binary data. |
-| [getDataType()](#getDataType--) | Gets the data type. |
-| [getDateTime()](#getDateTime--) | Gets the first bytes of the binary data as datetime. |
-| [getDescriptor()](#getDescriptor--) | Gets descriptor of MAPI property |
-| [getDouble()](#getDouble--) | Gets the bytes of the binary data as double. |
-| [getFloat()](#getFloat--) | Gets the bytes of the binary data as float. |
-| [getFloatingDate()](#getFloatingDate--) | Gets the bytes of the binary data as DateTime. |
-| [getGuid()](#getGuid--) | gets named property GUID |
-| [getGuidValue()](#getGuidValue--) | Gets the bytes of the binary data as Guid. |
-| [getIdentifier()](#getIdentifier--) | Gets the indifier. |
-| [getInt32()](#getInt32--) | Gets the first 4 bytes of the binary data as int32. |
-| [getKind()](#getKind--) | gets named property kind |
-| [getLong()](#getLong--) | Gets the first 8 bytes of the binary data as long. |
-| [getMVEntries()](#getMVEntries--) | Gets the MV entries list. |
+| [getCurrency()](#getCurrency--) | Gets the value of a currency property. |
+| [getData()](#getData--) | Gets the value of the property as bytes. |
+| [getDataType()](#getDataType--) | Gets the data type of the property: the low-order 16 bits of \#getTag().getTag(). |
+| [getDateTime()](#getDateTime--) | Gets the value of a date and time (PT\_SYSTIME) property. |
+| [getDescriptor()](#getDescriptor--) | Gets the descriptor of the property. |
+| [getDouble()](#getDouble--) | Gets the value as a 64-bit floating-point number. |
+| [getFloat()](#getFloat--) | Gets the value as a 32-bit floating-point number. |
+| [getFloatingDate()](#getFloatingDate--) | Gets the value of a floating date (PT\_APPTIME) property: a number of days since December 30, 1899. |
+| [getGuid()](#getGuid--) | Gets the GUID of the property set the property belongs to. |
+| [getGuidValue()](#getGuidValue--) | Gets the value as a GUID. |
+| [getIdentifier()](#getIdentifier--) | Gets the property ID: the high-order 16 bits of \#getTag().getTag(). |
+| [getInt32()](#getInt32--) | Gets the value as a 32-bit integer. |
+| [getKind()](#getKind--) | Gets how the property is identified within its property set: 0 by a numeric ID, 1 by a string name. |
+| [getLong()](#getLong--) | Gets the value as a 64-bit integer. |
+| [getMVEntries()](#getMVEntries--) | Gets the values of a multi-valued property. |
 | [getMultipleBinary()](#getMultipleBinary--) | Gets the multyple binary data. |
 | [getMultipleBoolean()](#getMultipleBoolean--) | Gets the multyple bool values. |
 | [getMultipleCurrency()](#getMultipleCurrency--) | Gets the multyple decimal values. |
@@ -61,22 +63,22 @@ Represents the data type of Named Property.
 | [getMultipleInteger64()](#getMultipleInteger64--) | Gets the multyple Int64 values. |
 | [getMultipleString()](#getMultipleString--) | Gets the multyple strings data. |
 | [getMultipleTime()](#getMultipleTime--) | Gets the multyple DateTime values. |
-| [getName()](#getName--) | Gets the name. |
-| [getNameId()](#getNameId--) | gets named property ID |
-| [getOom()](#getOom--) | gets OOM value |
-| [getPropertyTagName()](#getPropertyTagName--) | Gets the PropertyName. |
-| [getShort()](#getShort--) | Gets the first 2 bytes of the binary data as short. |
-| [getString()](#getString--) | Gets the binary data as string. |
-| [getString(int codepage)](#getString-int-) | Gets the binary data as string using the specified code page. |
-| [getTag()](#getTag--) | Gets the tag. |
-| [getValue()](#getValue--) | Gets value as object |
+| [getName()](#getName--) | Gets the name of the property. |
+| [getNameId()](#getNameId--) | Gets the name of the property, or its numeric ID in hexadecimal when \#getKind().getKind() is 0. |
+| [getOom()](#getOom--) | Gets the name of the property in the Outlook Object Model, if it has one; otherwise an empty string. |
+| [getPropertyTagName()](#getPropertyTagName--) | Gets the name of the tag of the property, such as  PR\_SUBJECT , if it is known. |
+| [getShort()](#getShort--) | Gets the value as a 16-bit integer. |
+| [getString()](#getString--) | Gets the value as a string. |
+| [getString(int codepage)](#getString-int-) | Gets the value as a string, decoding an ANSI string with the specified code page. |
+| [getTag()](#getTag--) | Gets the tag of the property: the property ID in the high-order 16 bits and the data type in the low-order 16 bits. |
+| [getValue()](#getValue--) | Gets the value as an object of the .NET type that matches the data type. |
 | [hashCode()](#hashCode--) |  |
-| [isNamed()](#isNamed--) | Indicates whether the property is a named property. |
-| [isSigned()](#isSigned--) | Indicates whether the binary data is signed. |
+| [isNamed()](#isNamed--) | Gets a value indicating whether the property is a named property. |
+| [isSigned()](#isSigned--) | Gets a value indicating whether the value is a signed number. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setSigned(boolean value)](#setSigned-boolean-) | Indicates whether the binary data is signed. |
-| [toString()](#toString--) | Returns a String that represents the current Object. |
+| [setSigned(boolean value)](#setSigned-boolean-) | Sets a value indicating whether the value is a signed number. |
+| [toString()](#toString--) | Returns a string that represents the property. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -94,15 +96,15 @@ public MapiNamedProperty(long propertyTag, String nameIdentifier, UUID propertyG
 ```
 
 
-Initializes a new instance of the [MapiNamedProperty](../../com.aspose.email/mapinamedproperty) class.
+Initializes a new instance of the [MapiNamedProperty](../../com.aspose.email/mapinamedproperty) class for a property identified by a string name.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| propertyTag | long | The property tag represented a 32-bit value that contains a property type and a property ID. The low-order 16 bits represent the property type. The high-order 16 bits represent the property ID. |
-| nameIdentifier | java.lang.String | The name identifier that is used to refer to a named property. |
-| propertyGuid | java.util.UUID | The property unique identifier. |
-| propertyValue | byte[] | A property value. |
+| propertyTag | long | The tag the property is stored under: the property ID in the high-order 16 bits and the data type in the low-order 16 bits. |
+| nameIdentifier | java.lang.String | The name of the property. |
+| propertyGuid | java.util.UUID | The GUID of the property set. |
+| propertyValue | byte[] | The value, as bytes. |
 
 ### MapiNamedProperty(long propertyTag, long nameIdentifier, UUID propertyGuid, byte[] propertyValue) {#MapiNamedProperty-long-long-java.util.UUID-byte---}
 ```
@@ -110,15 +112,15 @@ public MapiNamedProperty(long propertyTag, long nameIdentifier, UUID propertyGui
 ```
 
 
-Initializes a new instance of the [MapiNamedProperty](../../com.aspose.email/mapinamedproperty) class.
+Initializes a new instance of the [MapiNamedProperty](../../com.aspose.email/mapinamedproperty) class for a property identified by a numeric ID.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| propertyTag | long | The property tag represented a 32-bit value that contains a property type and a property ID. The low-order 16 bits represent the property type. The high-order 16 bits represent the property ID. |
-| nameIdentifier | long | The name identifier that is used to refer to a named property. |
-| propertyGuid | java.util.UUID | The property unique identifier. |
-| propertyValue | byte[] | A property value. |
+| propertyTag | long | The tag the property is stored under: the property ID in the high-order 16 bits and the data type in the low-order 16 bits. |
+| nameIdentifier | long | The numeric ID (LID) of the property. |
+| propertyGuid | java.util.UUID | The GUID of the property set. |
+| propertyValue | byte[] | The value, as bytes. |
 
 ### MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidLidPropertyDescriptor pd, Object data) {#MapiNamedProperty-com.aspose.email.INamedPropertyTagProvider-com.aspose.email.PidLidPropertyDescriptor-java.lang.Object-}
 ```
@@ -126,14 +128,14 @@ public MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidLidPropertyDe
 ```
 
 
-Initializes a new instance of the [MapiNamedProperty](../../com.aspose.email/mapinamedproperty) class.
+Initializes a new instance of the [MapiNamedProperty](../../com.aspose.email/mapinamedproperty) class from a descriptor of a property with a numeric ID.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tagProvider | [INamedPropertyTagProvider](../../com.aspose.email/inamedpropertytagprovider) | Property storage that can provide tag for named property |
-| pd | [PidLidPropertyDescriptor](../../com.aspose.email/pidlidpropertydescriptor) | Property descriptor |
-| data | java.lang.Object | A property value. |
+| tagProvider | [INamedPropertyTagProvider](../../com.aspose.email/inamedpropertytagprovider) | The property collection that assigns the tag, such as the properties of the message. |
+| pd | [PidLidPropertyDescriptor](../../com.aspose.email/pidlidpropertydescriptor) | The descriptor of the property. |
+| data | java.lang.Object | The value. |
 
 ### MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidNamePropertyDescriptor pd, Object data) {#MapiNamedProperty-com.aspose.email.INamedPropertyTagProvider-com.aspose.email.PidNamePropertyDescriptor-java.lang.Object-}
 ```
@@ -141,14 +143,14 @@ public MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidNamePropertyD
 ```
 
 
-Initializes a new instance of the [MapiNamedProperty](../../com.aspose.email/mapinamedproperty) class.
+Initializes a new instance of the [MapiNamedProperty](../../com.aspose.email/mapinamedproperty) class from a descriptor of a property with a string name.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tagProvider | [INamedPropertyTagProvider](../../com.aspose.email/inamedpropertytagprovider) | Property storage that can provide tag for named property |
-| pd | [PidNamePropertyDescriptor](../../com.aspose.email/pidnamepropertydescriptor) | Property descriptor |
-| data | java.lang.Object | A property value. |
+| tagProvider | [INamedPropertyTagProvider](../../com.aspose.email/inamedpropertytagprovider) | The property collection that assigns the tag, such as the properties of the message. |
+| pd | [PidNamePropertyDescriptor](../../com.aspose.email/pidnamepropertydescriptor) | The descriptor of the property. |
+| data | java.lang.Object | The value. |
 
 ### createMapiPropertyFromBytes(long tag, byte[] data) {#createMapiPropertyFromBytes-long-byte---}
 ```
@@ -156,65 +158,65 @@ public static MapiProperty createMapiPropertyFromBytes(long tag, byte[] data)
 ```
 
 
-Creates the mapi property from bytes.
+Creates a property with a binary value.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The tag. |
-| data | byte[] | The data. |
+| tag | long | The tag of the property. |
+| data | byte[] | The value. |
 
 **Returns:**
-[MapiProperty](../../com.aspose.email/mapiproperty) - 
+[MapiProperty](../../com.aspose.email/mapiproperty) - The new property.
 ### createMapiPropertyFromDateTime(long tag, Date data) {#createMapiPropertyFromDateTime-long-java.util.Date-}
 ```
 public static MapiProperty createMapiPropertyFromDateTime(long tag, Date data)
 ```
 
 
-Creates the mapi property from date time.
+Creates a property with a date and time value.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The tag. |
-| data | java.util.Date | The data. |
+| tag | long | The tag of the property. |
+| data | java.util.Date | The value. |
 
 **Returns:**
-[MapiProperty](../../com.aspose.email/mapiproperty) - 
+[MapiProperty](../../com.aspose.email/mapiproperty) - The new property.
 ### createMapiPropertyFromLong(long tag, long data) {#createMapiPropertyFromLong-long-long-}
 ```
 public static MapiProperty createMapiPropertyFromLong(long tag, long data)
 ```
 
 
-Creates the mapi property from long.
+Creates a property with an integer value.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The tag. |
-| data | long | The data. |
+| tag | long | The tag of the property. |
+| data | long | The value. |
 
 **Returns:**
-[MapiProperty](../../com.aspose.email/mapiproperty) - 
+[MapiProperty](../../com.aspose.email/mapiproperty) - The new property.
 ### createMapiPropertyFromLong(long tag, long data, long delimiter) {#createMapiPropertyFromLong-long-long-long-}
 ```
 public static MapiProperty createMapiPropertyFromLong(long tag, long data, long delimiter)
 ```
 
 
-Creates the mapi property from long.
+Creates a property with an integer value and a signed flag.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The tag. |
-| data | long | The data. |
-| delimiter | long | The delimiter. |
+| tag | long | The tag of the property. |
+| data | long | The value. |
+| delimiter | long | The signed flag of the property. |
 
 **Returns:**
-[MapiProperty](../../com.aspose.email/mapiproperty) - 
+[MapiProperty](../../com.aspose.email/mapiproperty) - The new property.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -236,10 +238,10 @@ public boolean getBoolean()
 ```
 
 
-Gets the first bytes of the binary data as boolean.
+Gets the value as a Boolean.
 
 **Returns:**
-boolean - The boolean value.
+boolean - The value.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -256,17 +258,17 @@ public BigDecimal getCurrency()
 ```
 
 
-Gets the Currency as string using the specified code page.
+Gets the value of a currency property.
 
 **Returns:**
-java.math.BigDecimal - A string contains the binary data.
+java.math.BigDecimal - The value as a decimal number with four decimal places.
 ### getData() {#getData--}
 ```
 public byte[] getData()
 ```
 
 
-Gets the binary data.
+Gets the value of the property as bytes.
 
 **Returns:**
 byte[]
@@ -276,7 +278,7 @@ public int getDataType()
 ```
 
 
-Gets the data type.
+Gets the data type of the property: the low-order 16 bits of \#getTag().getTag().
 
 **Returns:**
 int
@@ -286,17 +288,17 @@ public Date getDateTime()
 ```
 
 
-Gets the first bytes of the binary data as datetime.
+Gets the value of a date and time (PT\_SYSTIME) property.
 
 **Returns:**
-java.util.Date - The datetime value.
+java.util.Date - The value.
 ### getDescriptor() {#getDescriptor--}
 ```
 public final PropertyDescriptor getDescriptor()
 ```
 
 
-Gets descriptor of MAPI property
+Gets the descriptor of the property.
 
 **Returns:**
 [PropertyDescriptor](../../com.aspose.email/propertydescriptor)
@@ -306,37 +308,37 @@ public double getDouble()
 ```
 
 
-Gets the bytes of the binary data as double.
+Gets the value as a 64-bit floating-point number.
 
 **Returns:**
-double - The double value.
+double - The value.
 ### getFloat() {#getFloat--}
 ```
 public float getFloat()
 ```
 
 
-Gets the bytes of the binary data as float.
+Gets the value as a 32-bit floating-point number.
 
 **Returns:**
-float - The double value.
+float - The value.
 ### getFloatingDate() {#getFloatingDate--}
 ```
 public Date getFloatingDate()
 ```
 
 
-Gets the bytes of the binary data as DateTime.
+Gets the value of a floating date (PT\_APPTIME) property: a number of days since December 30, 1899.
 
 **Returns:**
-java.util.Date - The DateTime value.
+java.util.Date - The value as a date and time.
 ### getGuid() {#getGuid--}
 ```
 public final UUID getGuid()
 ```
 
 
-gets named property GUID
+Gets the GUID of the property set the property belongs to.
 
 **Returns:**
 java.util.UUID
@@ -346,17 +348,17 @@ public UUID getGuidValue()
 ```
 
 
-Gets the bytes of the binary data as Guid.
+Gets the value as a GUID.
 
 **Returns:**
-java.util.UUID - The Guid value.
+java.util.UUID - The value.
 ### getIdentifier() {#getIdentifier--}
 ```
 public long getIdentifier()
 ```
 
 
-Gets the indifier.
+Gets the property ID: the high-order 16 bits of \#getTag().getTag().
 
 **Returns:**
 long
@@ -366,17 +368,17 @@ public int getInt32()
 ```
 
 
-Gets the first 4 bytes of the binary data as int32.
+Gets the value as a 32-bit integer.
 
 **Returns:**
-int - The int32 value.
+int - The value.
 ### getKind() {#getKind--}
 ```
 public final int getKind()
 ```
 
 
-gets named property kind
+Gets how the property is identified within its property set: 0 by a numeric ID, 1 by a string name.
 
 **Returns:**
 int
@@ -386,17 +388,17 @@ public long getLong()
 ```
 
 
-Gets the first 8 bytes of the binary data as long.
+Gets the value as a 64-bit integer.
 
 **Returns:**
-long - The long value.
+long - The value.
 ### getMVEntries() {#getMVEntries--}
 ```
 public final System.Collections.IList getMVEntries()
 ```
 
 
-Gets the MV entries list.
+Gets the values of a multi-valued property.
 
 **Returns:**
 com.aspose.ms.System.Collections.IList
@@ -526,7 +528,7 @@ public String getName()
 ```
 
 
-Gets the name.
+Gets the name of the property.
 
 **Returns:**
 java.lang.String
@@ -536,7 +538,7 @@ public final String getNameId()
 ```
 
 
-gets named property ID
+Gets the name of the property, or its numeric ID in hexadecimal when \#getKind().getKind() is 0.
 
 **Returns:**
 java.lang.String
@@ -546,7 +548,7 @@ public final String getOom()
 ```
 
 
-gets OOM value
+Gets the name of the property in the Outlook Object Model, if it has one; otherwise an empty string.
 
 **Returns:**
 java.lang.String
@@ -556,7 +558,7 @@ public String getPropertyTagName()
 ```
 
 
-Gets the PropertyName.
+Gets the name of the tag of the property, such as  PR\_SUBJECT , if it is known.
 
 **Returns:**
 java.lang.String
@@ -566,42 +568,42 @@ public short getShort()
 ```
 
 
-Gets the first 2 bytes of the binary data as short.
+Gets the value as a 16-bit integer.
 
 **Returns:**
-short - The short value.
+short - The value.
 ### getString() {#getString--}
 ```
 public String getString()
 ```
 
 
-Gets the binary data as string.
+Gets the value as a string.
 
 **Returns:**
-java.lang.String - A string contains the binary data.
+java.lang.String - The value.
 ### getString(int codepage) {#getString-int-}
 ```
 public String getString(int codepage)
 ```
 
 
-Gets the binary data as string using the specified code page.
+Gets the value as a string, decoding an ANSI string with the specified code page.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| codepage | int | The code page. |
+| codepage | int | The code page of an ANSI (8-bit) string. |
 
 **Returns:**
-java.lang.String - A string contains the binary data.
+java.lang.String - The value.
 ### getTag() {#getTag--}
 ```
 public long getTag()
 ```
 
 
-Gets the tag.
+Gets the tag of the property: the property ID in the high-order 16 bits and the data type in the low-order 16 bits.
 
 **Returns:**
 long
@@ -611,10 +613,10 @@ public final Object getValue()
 ```
 
 
-Gets value as object
+Gets the value as an object of the .NET type that matches the data type.
 
 **Returns:**
-java.lang.Object - value of a property
+java.lang.Object - The value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -631,7 +633,7 @@ public final boolean isNamed()
 ```
 
 
-Indicates whether the property is a named property.
+Gets a value indicating whether the property is a named property.
 
 **Returns:**
 boolean
@@ -641,7 +643,7 @@ public boolean isSigned()
 ```
 
 
-Indicates whether the binary data is signed.
+Gets a value indicating whether the value is a signed number.
 
 **Returns:**
 boolean
@@ -667,7 +669,7 @@ public void setSigned(boolean value)
 ```
 
 
-Indicates whether the binary data is signed.
+Sets a value indicating whether the value is a signed number.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -680,10 +682,10 @@ public String toString()
 ```
 
 
-Returns a String that represents the current Object.
+Returns a string that represents the property.
 
 **Returns:**
-java.lang.String - A String that represents the current Object.
+java.lang.String - A string that represents the property.
 ### wait() {#wait--}
 ```
 public final void wait()

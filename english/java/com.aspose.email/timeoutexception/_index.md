@@ -1,9 +1,9 @@
 ---
 title: TimeoutException
 second_title: Aspose.Email for Java API Reference
-description: Represents the exception that is thrown when the time for operation has expired.
+description: The exception that is thrown when an operation does not complete in the allotted time.
 type: docs
-weight: 710
+weight: 720
 url: /java/com.aspose.email/timeoutexception/
 ---
 
@@ -13,15 +13,15 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class TimeoutException extends AsposeException
 ```
 
-Represents the exception that is thrown when the time for operation has expired.
+The exception that is thrown when an operation does not complete in the allotted time.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [TimeoutException(String message)](#TimeoutException-java.lang.String-) | Initializes a new instance of the [TimeoutException](../../com.aspose.email/timeoutexception) class. |
-| [TimeoutException(String format, Object[] parameters)](#TimeoutException-java.lang.String-java.lang.Object...-) | Initializes a new instance of the [TimeoutException](../../com.aspose.email/timeoutexception) class. |
-| [TimeoutException(String format, int timeout)](#TimeoutException-java.lang.String-int-) |  |
-| [TimeoutException(String format, String command, int timeout)](#TimeoutException-java.lang.String-java.lang.String-int-) |  |
+| [TimeoutException(String message)](#TimeoutException-java.lang.String-) | Initializes a new instance of the [TimeoutException](../../com.aspose.email/timeoutexception) class with the specified error message. |
+| [TimeoutException(String format, Object[] parameters)](#TimeoutException-java.lang.String-java.lang.Object...-) | Initializes a new instance of the [TimeoutException](../../com.aspose.email/timeoutexception) class with an error message built from a composite format string. |
+| [TimeoutException(String format, int timeout)](#TimeoutException-java.lang.String-int-) | Initializes a new instance of the [TimeoutException](../../com.aspose.email/timeoutexception) class with an error message built from a format string and the timeout. |
+| [TimeoutException(String format, String command, int timeout)](#TimeoutException-java.lang.String-java.lang.String-int-) | Initializes a new instance of the [TimeoutException](../../com.aspose.email/timeoutexception) class with an error message built from a format string, the command and the timeout. |
 | [TimeoutException()](#TimeoutException--) | Initializes a new instance of the [TimeoutException](../../com.aspose.email/timeoutexception) class. |
 ## Methods
 
@@ -32,10 +32,10 @@ Represents the exception that is thrown when the time for operation has expired.
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
 | [getClass()](#getClass--) |  |
-| [getErrorDetails()](#getErrorDetails--) | Gets extra information aboout error |
+| [getErrorDetails()](#getErrorDetails--) | Gets additional information about the error, if the operation provides any. |
 | [getInnerException()](#getInnerException--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
-| [getMessage()](#getMessage--) | Gets a message that describes the current exception. |
+| [getMessage()](#getMessage--) | Gets the message that describes the error. |
 | [getStackTrace()](#getStackTrace--) |  |
 | [getSuppressed()](#getSuppressed--) |  |
 | [getType()](#getType--) |  |
@@ -47,7 +47,7 @@ Represents the exception that is thrown when the time for operation has expired.
 | [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
 | [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
 | [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [toString()](#toString--) | Returns a string that represents the current object. |
+| [toString()](#toString--) | Returns the type, the message and the stack trace of the exception. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -57,12 +57,12 @@ public TimeoutException(String message)
 ```
 
 
-Initializes a new instance of the [TimeoutException](../../com.aspose.email/timeoutexception) class.
+Initializes a new instance of the [TimeoutException](../../com.aspose.email/timeoutexception) class with the specified error message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | Message of an exception |
+| message | java.lang.String | The message that describes the error. |
 
 ### TimeoutException(String format, Object[] parameters) {#TimeoutException-java.lang.String-java.lang.Object...-}
 ```
@@ -70,13 +70,13 @@ public TimeoutException(String format, Object[] parameters)
 ```
 
 
-Initializes a new instance of the [TimeoutException](../../com.aspose.email/timeoutexception) class.
+Initializes a new instance of the [TimeoutException](../../com.aspose.email/timeoutexception) class with an error message built from a composite format string.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | java.lang.String | Message format |
-| parameters | java.lang.Object[] | Format parameters |
+| format | java.lang.String | A composite format string, as for  String.format . |
+| parameters | java.lang.Object[] | The objects to insert into  format . |
 
 ### TimeoutException(String format, int timeout) {#TimeoutException-java.lang.String-int-}
 ```
@@ -84,11 +84,13 @@ public TimeoutException(String format, int timeout)
 ```
 
 
+Initializes a new instance of the [TimeoutException](../../com.aspose.email/timeoutexception) class with an error message built from a format string and the timeout.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | java.lang.String |  |
-| timeout | int |  |
+| format | java.lang.String | A composite format string with one placeholder,  \{0\} , for the timeout. |
+| timeout | int | The timeout, in milliseconds. |
 
 ### TimeoutException(String format, String command, int timeout) {#TimeoutException-java.lang.String-java.lang.String-int-}
 ```
@@ -96,12 +98,14 @@ public TimeoutException(String format, String command, int timeout)
 ```
 
 
+Initializes a new instance of the [TimeoutException](../../com.aspose.email/timeoutexception) class with an error message built from a format string, the command and the timeout.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | java.lang.String |  |
-| command | java.lang.String |  |
-| timeout | int |  |
+| format | java.lang.String | A composite format string with placeholders  \{0\}  for the command and  \{1\}  for the timeout. |
+| command | java.lang.String | The command that timed out. |
+| timeout | int | The timeout, in milliseconds. |
 
 ### TimeoutException() {#TimeoutException--}
 ```
@@ -175,7 +179,7 @@ public final Object getErrorDetails()
 ```
 
 
-Gets extra information aboout error
+Gets additional information about the error, if the operation provides any.
 
 **Returns:**
 java.lang.Object
@@ -205,7 +209,7 @@ public String getMessage()
 ```
 
 
-Gets a message that describes the current exception.
+Gets the message that describes the error.
 
 **Returns:**
 java.lang.String
@@ -333,10 +337,10 @@ public String toString()
 ```
 
 
-Returns a string that represents the current object.
+Returns the type, the message and the stack trace of the exception.
 
 **Returns:**
-java.lang.String - A string that represents the current object.
+java.lang.String - A string that represents the exception.
 ### wait() {#wait--}
 ```
 public final void wait()

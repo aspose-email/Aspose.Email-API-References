@@ -1,9 +1,9 @@
 ---
 title: EmailAddressList
 second_title: Aspose.Email for Java API Reference
-description: List of email addresses for a contact
+description: List of email addresses for a contact.
 type: docs
-weight: 169
+weight: 172
 url: /java/com.aspose.email/emailaddresslist/
 ---
 
@@ -16,7 +16,7 @@ com.aspose.ms.System.Collections.Generic.IGenericList
 public class EmailAddressList implements System.Collections.Generic.IGenericList<EmailAddress>
 ```
 
-List of email addresses for a contact
+List of email addresses for a contact.
 ## Constructors
 
 | Constructor | Description |
@@ -40,17 +40,17 @@ List of email addresses for a contact
 | [getEmail2()](#getEmail2--) | Default email2 address. |
 | [getEmail3()](#getEmail3--) | Default email3 address. |
 | [getHome()](#getHome--) | Default home email address. |
-| [getSyncRoot()](#getSyncRoot--) | Gets an object that can be used to synchronize access to the ICollection. |
+| [getSyncRoot()](#getSyncRoot--) | Gets an object that can be used to synchronize access to the collection. |
 | [getWork()](#getWork--) | Default work email address. |
-| [get_Item(EmailAddressCategory category)](#get-Item-com.aspose.email.EmailAddressCategory-) | Default email address for specified category. |
-| [get_Item(int index)](#get-Item-int-) | Gets or sets the element at the specified index. |
+| [get_Item(EmailAddressCategory category)](#get-Item-com.aspose.email.EmailAddressCategory-) | Gets the default email address for specified category. |
+| [get_Item(int index)](#get-Item-int-) | Gets the element at the specified index. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(EmailAddress value)](#indexOf-com.aspose.email.EmailAddress-) | Determines the index of a specific item in the list. |
 | [indexOfItem(EmailAddress value)](#indexOfItem-com.aspose.email.EmailAddress-) |  |
 | [insert(int index, EmailAddress value)](#insert-int-com.aspose.email.EmailAddress-) | Inserts an item to the list at the specified index. |
 | [insertItem(int index, EmailAddress value)](#insertItem-int-com.aspose.email.EmailAddress-) |  |
 | [isReadOnly()](#isReadOnly--) | Gets a value indicating whether the list is read-only. |
-| [iterator()](#iterator--) | Returns an enumerator that iterates through a collection. |
+| [iterator()](#iterator--) | Returns an iterator that iterates through a collection. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [remove(EmailAddress value)](#remove-com.aspose.email.EmailAddress-) | Removes the first occurrence of a specific object from the list. |
@@ -62,9 +62,9 @@ List of email addresses for a contact
 | [setEmail3(EmailAddress value)](#setEmail3-com.aspose.email.EmailAddress-) | Default email3 address. |
 | [setHome(EmailAddress value)](#setHome-com.aspose.email.EmailAddress-) | Default home email address. |
 | [setWork(EmailAddress value)](#setWork-com.aspose.email.EmailAddress-) | Default work email address. |
-| [set_Item(EmailAddressCategory category, EmailAddress value)](#set-Item-com.aspose.email.EmailAddressCategory-com.aspose.email.EmailAddress-) | Default email address for specified category. |
-| [set_Item(int index, EmailAddress value)](#set-Item-int-com.aspose.email.EmailAddress-) | Gets or sets the element at the specified index. |
-| [size()](#size--) | Gets the number of elements contained in the ICollection. |
+| [set_Item(EmailAddressCategory category, EmailAddress value)](#set-Item-com.aspose.email.EmailAddressCategory-com.aspose.email.EmailAddress-) | Sets the default email address for specified category. |
+| [set_Item(int index, EmailAddress value)](#set-Item-int-com.aspose.email.EmailAddress-) | Sets the element at the specified index. |
+| [size()](#size--) | Gets the number of elements contained in the collection. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -86,7 +86,7 @@ Adds an item to the list.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [EmailAddress](../../com.aspose.email/emailaddress) | The Object to add to the list. |
+| value | [EmailAddress](../../com.aspose.email/emailaddress) | The object to add to the list. |
 
 ### addItem(EmailAddress value) {#addItem-com.aspose.email.EmailAddress-}
 ```
@@ -123,7 +123,7 @@ Determines whether the list contains a specific value.
 | value | [EmailAddress](../../com.aspose.email/emailaddress) | The object to locate in the list. |
 
 **Returns:**
-boolean - true if the object is found in the list; otherwise, false.
+boolean -  true  if the object is found in the list; otherwise,  false .
 ### containsItem(EmailAddress value) {#containsItem-com.aspose.email.EmailAddress-}
 ```
 public boolean containsItem(EmailAddress value)
@@ -248,10 +248,10 @@ public final Object getSyncRoot()
 ```
 
 
-Gets an object that can be used to synchronize access to the ICollection.
+Gets an object that can be used to synchronize access to the collection.
 
 **Returns:**
-java.lang.Object - An object that can be used to synchronize access to the ICollection.
+java.lang.Object - An object that can be used to synchronize access to the collection.
 ### getWork() {#getWork--}
 ```
 public final EmailAddress getWork()
@@ -268,27 +268,27 @@ public final EmailAddress get_Item(EmailAddressCategory category)
 ```
 
 
-Default email address for specified category.
+Gets the default email address for specified category.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| category | [EmailAddressCategory](../../com.aspose.email/emailaddresscategory) | Category for email address |
+| category | [EmailAddressCategory](../../com.aspose.email/emailaddresscategory) | Category for email address. |
 
 **Returns:**
-[EmailAddress](../../com.aspose.email/emailaddress) - default email address for specified category.
+[EmailAddress](../../com.aspose.email/emailaddress) - Default email address for specified category.
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final EmailAddress get_Item(int index)
 ```
 
 
-Gets or sets the element at the specified index.
+Gets the element at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the element to get or set. |
+| index | int | The zero-based index of the element to get. |
 
 **Returns:**
 [EmailAddress](../../com.aspose.email/emailaddress) - The element at the specified index.
@@ -313,7 +313,7 @@ Determines the index of a specific item in the list.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [EmailAddress](../../com.aspose.email/emailaddress) | The Object to locate in the list. |
+| value | [EmailAddress](../../com.aspose.email/emailaddress) | The object to locate in the list. |
 
 **Returns:**
 int - The index of  value  if found in the list; otherwise, -1.
@@ -344,7 +344,7 @@ Inserts an item to the list at the specified index.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which  value  should be inserted. |
-| value | [EmailAddress](../../com.aspose.email/emailaddress) | The Object to insert into the list. |
+| value | [EmailAddress](../../com.aspose.email/emailaddress) | The object to insert into the list. |
 
 ### insertItem(int index, EmailAddress value) {#insertItem-int-com.aspose.email.EmailAddress-}
 ```
@@ -369,17 +369,17 @@ public final boolean isReadOnly()
 Gets a value indicating whether the list is read-only.
 
 **Returns:**
-boolean - true if the list is read-only; otherwise, false.
+boolean -  true  if the list is read-only; otherwise,  false .
 ### iterator() {#iterator--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<EmailAddress> iterator()
 ```
 
 
-Returns an enumerator that iterates through a collection.
+Returns an iterator that iterates through a collection.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.email.EmailAddress> - An IEnumerator object that can be used to iterate through the collection.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.email.EmailAddress> - An iterator that can be used to iterate through the collection.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -407,7 +407,7 @@ Removes the first occurrence of a specific object from the list.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [EmailAddress](../../com.aspose.email/emailaddress) | The Object to remove from the list. |
+| value | [EmailAddress](../../com.aspose.email/emailaddress) | The object to remove from the list. |
 
 **Returns:**
 boolean
@@ -523,13 +523,13 @@ public final void set_Item(EmailAddressCategory category, EmailAddress value)
 ```
 
 
-Default email address for specified category.
+Sets the default email address for specified category.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| category | [EmailAddressCategory](../../com.aspose.email/emailaddresscategory) | Category for email address |
-| value | [EmailAddress](../../com.aspose.email/emailaddress) |  |
+| category | [EmailAddressCategory](../../com.aspose.email/emailaddresscategory) | Category for email address. |
+| value | [EmailAddress](../../com.aspose.email/emailaddress) | Default email address for specified category. |
 
 ### set_Item(int index, EmailAddress value) {#set-Item-int-com.aspose.email.EmailAddress-}
 ```
@@ -537,13 +537,13 @@ public final void set_Item(int index, EmailAddress value)
 ```
 
 
-Gets or sets the element at the specified index.
+Sets the element at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the element to get or set. |
-| value | [EmailAddress](../../com.aspose.email/emailaddress) |  |
+| index | int | The zero-based index of the element to set. |
+| value | [EmailAddress](../../com.aspose.email/emailaddress) | The element at the specified index. |
 
 ### size() {#size--}
 ```
@@ -551,10 +551,10 @@ public final int size()
 ```
 
 
-Gets the number of elements contained in the ICollection.
+Gets the number of elements contained in the collection.
 
 **Returns:**
-int - The number of elements contained in the ICollection.
+int - The number of elements contained in the collection.
 ### toString() {#toString--}
 ```
 public String toString()

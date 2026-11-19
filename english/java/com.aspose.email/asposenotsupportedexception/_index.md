@@ -1,7 +1,7 @@
 ---
 title: AsposeNotSupportedException
 second_title: Aspose.Email for Java API Reference
-description: The exception that is thrown when an invoked method or parameter is not supported  or when there is an attempt to read seek or write to a stream that does not support the invoked functionality.
+description: The exception that is thrown when a method or a parameter value is not supported or a stream does not support the requested reading seeking or writing.
 type: docs
 weight: 60
 url: /java/com.aspose.email/asposenotsupportedexception/
@@ -13,19 +13,17 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class AsposeNotSupportedException extends AsposeException
 ```
 
-The exception that is thrown when an invoked method or parameter is not supported, or when there is an attempt to read, seek, or write to a stream that does not support the invoked functionality.
-
- 1 
+The exception that is thrown when a method or a parameter value is not supported, or a stream does not support the requested reading, seeking or writing.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
 | [AsposeNotSupportedException()](#AsposeNotSupportedException--) | Initializes a new instance of the [AsposeNotSupportedException](../../com.aspose.email/asposenotsupportedexception) class. |
-| [AsposeNotSupportedException(String message)](#AsposeNotSupportedException-java.lang.String-) | Initializes a new instance of the [AsposeNotSupportedException](../../com.aspose.email/asposenotsupportedexception) class with a specified error message. |
-| [AsposeNotSupportedException(String format, String parameter)](#AsposeNotSupportedException-java.lang.String-java.lang.String-) |  |
-| [AsposeNotSupportedException(String format, Object[] parameters)](#AsposeNotSupportedException-java.lang.String-java.lang.Object...-) | Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with a specified error message. |
-| [AsposeNotSupportedException(String message, System.Exception innerException)](#AsposeNotSupportedException-java.lang.String-com.aspose.ms.System.Exception-) | Initializes a new instance of the [AsposeNotSupportedException](../../com.aspose.email/asposenotsupportedexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
-| [AsposeNotSupportedException(System.Exception innerException)](#AsposeNotSupportedException-com.aspose.ms.System.Exception-) | Initializes a new instance of the [AsposeNotSupportedException](../../com.aspose.email/asposenotsupportedexception) class with a reference to the inner exception that is the cause of this exception. |
+| [AsposeNotSupportedException(String message)](#AsposeNotSupportedException-java.lang.String-) | Initializes a new instance of the [AsposeNotSupportedException](../../com.aspose.email/asposenotsupportedexception) class with the specified error message. |
+| [AsposeNotSupportedException(String format, String parameter)](#AsposeNotSupportedException-java.lang.String-java.lang.String-) | Initializes a new instance of the [AsposeNotSupportedException](../../com.aspose.email/asposenotsupportedexception) class with an error message built from a format string with one argument. |
+| [AsposeNotSupportedException(String format, Object[] parameters)](#AsposeNotSupportedException-java.lang.String-java.lang.Object...-) | Initializes a new instance of the [AsposeNotSupportedException](../../com.aspose.email/asposenotsupportedexception) class with an error message built from a composite format string. |
+| [AsposeNotSupportedException(String message, System.Exception innerException)](#AsposeNotSupportedException-java.lang.String-com.aspose.ms.System.Exception-) | Initializes a new instance of the [AsposeNotSupportedException](../../com.aspose.email/asposenotsupportedexception) class with the specified error message and a reference to the exception that caused it. |
+| [AsposeNotSupportedException(System.Exception innerException)](#AsposeNotSupportedException-com.aspose.ms.System.Exception-) | Initializes a new instance of the [AsposeNotSupportedException](../../com.aspose.email/asposenotsupportedexception) class with a reference to the exception that caused it. |
 ## Methods
 
 | Method | Description |
@@ -35,10 +33,10 @@ The exception that is thrown when an invoked method or parameter is not supporte
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
 | [getClass()](#getClass--) |  |
-| [getErrorDetails()](#getErrorDetails--) | Gets extra information aboout error |
+| [getErrorDetails()](#getErrorDetails--) | Gets additional information about the error, if the operation provides any. |
 | [getInnerException()](#getInnerException--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
-| [getMessage()](#getMessage--) | Gets a message that describes the current exception. |
+| [getMessage()](#getMessage--) | Gets the message that describes the error. |
 | [getStackTrace()](#getStackTrace--) |  |
 | [getSuppressed()](#getSuppressed--) |  |
 | [getType()](#getType--) |  |
@@ -50,7 +48,7 @@ The exception that is thrown when an invoked method or parameter is not supporte
 | [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
 | [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
 | [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [toString()](#toString--) | Returns a string that represents the current object. |
+| [toString()](#toString--) | Returns the type, the message and the stack trace of the exception. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -68,7 +66,7 @@ public AsposeNotSupportedException(String message)
 ```
 
 
-Initializes a new instance of the [AsposeNotSupportedException](../../com.aspose.email/asposenotsupportedexception) class with a specified error message.
+Initializes a new instance of the [AsposeNotSupportedException](../../com.aspose.email/asposenotsupportedexception) class with the specified error message.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -81,11 +79,13 @@ public AsposeNotSupportedException(String format, String parameter)
 ```
 
 
+Initializes a new instance of the [AsposeNotSupportedException](../../com.aspose.email/asposenotsupportedexception) class with an error message built from a format string with one argument.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | java.lang.String |  |
-| parameter | java.lang.String |  |
+| format | java.lang.String | A composite format string with one placeholder,  \{0\} . |
+| parameter | java.lang.String | The value inserted into  format . |
 
 ### AsposeNotSupportedException(String format, Object[] parameters) {#AsposeNotSupportedException-java.lang.String-java.lang.Object...-}
 ```
@@ -93,13 +93,13 @@ public AsposeNotSupportedException(String format, Object[] parameters)
 ```
 
 
-Initializes a new instance of the [AsposeArgumentOutOfRangeException](../../com.aspose.email/asposeargumentoutofrangeexception) class with a specified error message.
+Initializes a new instance of the [AsposeNotSupportedException](../../com.aspose.email/asposenotsupportedexception) class with an error message built from a composite format string.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | java.lang.String | Message format |
-| parameters | java.lang.Object[] | Format parameters |
+| format | java.lang.String | A composite format string with placeholders such as  \{0\} . |
+| parameters | java.lang.Object[] | The objects to insert into  format . |
 
 ### AsposeNotSupportedException(String message, System.Exception innerException) {#AsposeNotSupportedException-java.lang.String-com.aspose.ms.System.Exception-}
 ```
@@ -107,13 +107,13 @@ public AsposeNotSupportedException(String message, System.Exception innerExcepti
 ```
 
 
-Initializes a new instance of the [AsposeNotSupportedException](../../com.aspose.email/asposenotsupportedexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [AsposeNotSupportedException](../../com.aspose.email/asposenotsupportedexception) class with the specified error message and a reference to the exception that caused it.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The error message that explains the reason for the exception. |
-| innerException | com.aspose.ms.System.Exception | The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. |
+| message | java.lang.String | The message that describes the error. |
+| innerException | com.aspose.ms.System.Exception | The exception that caused this exception, or  null . |
 
 ### AsposeNotSupportedException(System.Exception innerException) {#AsposeNotSupportedException-com.aspose.ms.System.Exception-}
 ```
@@ -121,12 +121,12 @@ public AsposeNotSupportedException(System.Exception innerException)
 ```
 
 
-Initializes a new instance of the [AsposeNotSupportedException](../../com.aspose.email/asposenotsupportedexception) class with a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [AsposeNotSupportedException](../../com.aspose.email/asposenotsupportedexception) class with a reference to the exception that caused it.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| innerException | com.aspose.ms.System.Exception | The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. |
+| innerException | com.aspose.ms.System.Exception | The exception that caused this exception, or  null . |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```
@@ -192,7 +192,7 @@ public final Object getErrorDetails()
 ```
 
 
-Gets extra information aboout error
+Gets additional information about the error, if the operation provides any.
 
 **Returns:**
 java.lang.Object
@@ -222,7 +222,7 @@ public String getMessage()
 ```
 
 
-Gets a message that describes the current exception.
+Gets the message that describes the error.
 
 **Returns:**
 java.lang.String
@@ -350,10 +350,10 @@ public String toString()
 ```
 
 
-Returns a string that represents the current object.
+Returns the type, the message and the stack trace of the exception.
 
 **Returns:**
-java.lang.String - A string that represents the current object.
+java.lang.String - A string that represents the exception.
 ### wait() {#wait--}
 ```
 public final void wait()

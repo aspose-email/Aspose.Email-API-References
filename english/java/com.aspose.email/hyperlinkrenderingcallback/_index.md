@@ -1,16 +1,18 @@
 ---
 title: HyperlinkRenderingCallback
 second_title: Aspose.Email for Java API Reference
-description: Provides possibility to handle rendering of hyperlink in custom style.
+description: Represents a method that renders a hyperlink of the HTML body as text for .
 type: docs
-weight: 770
+weight: 782
 url: /java/com.aspose.email/hyperlinkrenderingcallback/
 ---
 ```
 public interface HyperlinkRenderingCallback
 ```
 
-Provides possibility to handle rendering of hyperlink in custom style.
+Represents a method that renders a hyperlink of the HTML body as text, for [MailMessage.getHtmlBodyText(boolean)](../../com.aspose.email/mailmessage\#getHtmlBodyText-boolean-).
+
+The method receives  source : the HTML of the hyperlink. It returns the text to write in place of the hyperlink.
 ## Methods
 
 | Method | Description |

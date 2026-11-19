@@ -1,7 +1,7 @@
 ---
 title: BackupOptions
 second_title: Aspose.Email for Java API Reference
-description: Enumerates backup options
+description: Options for backing up mail folders to a PST file.
 type: docs
 weight: 77
 url: /java/com.aspose.email/backupoptions/
@@ -13,14 +13,14 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class BackupOptions extends System.Enum
 ```
 
-Enumerates backup options
+Options for backing up mail folders to a PST file.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [None](#None) | Indicates that no specific options are specified |
-| [Recursive](#Recursive) | Indicates that nested folders should be also backuped |
+| [None](#None) | No options. |
+| [Recursive](#Recursive) | Back up the nested folders too. |
 ## Methods
 
 | Method | Description |
@@ -72,7 +72,7 @@ public static final int None
 ```
 
 
-Indicates that no specific options are specified
+No options.
 
 ### Recursive {#Recursive}
 ```
@@ -80,7 +80,7 @@ public static final int Recursive
 ```
 
 
-Indicates that nested folders should be also backuped
+Back up the nested folders too.
 
 ### Clone() {#Clone--}
 ```

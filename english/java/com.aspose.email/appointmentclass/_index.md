@@ -1,7 +1,7 @@
 ---
 title: AppointmentClass
 second_title: Aspose.Email for Java API Reference
-description: Defines the access classification for the appointment.
+description: Defines the access classification of an event the iCalendar CLASS property.
 type: docs
 weight: 35
 url: /java/com.aspose.email/appointmentclass/
@@ -13,16 +13,16 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class AppointmentClass extends System.Enum
 ```
 
-Defines the access classification for the appointment.
+Defines the access classification of an event (the iCalendar CLASS property).
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Confidential](#Confidential) | Confidential. |
+| [Confidential](#Confidential) | Confidential access. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [NotDefined](#NotDefined) | Value is not defined |
-| [Private](#Private) | Private. |
-| [Public](#Public) | Public. |
+| [NotDefined](#NotDefined) | The classification is not set. |
+| [Private](#Private) | Private access. |
+| [Public](#Public) | Public access. |
 ## Methods
 
 | Method | Description |
@@ -68,7 +68,7 @@ public static final int Confidential
 ```
 
 
-Confidential.
+Confidential access.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -82,7 +82,7 @@ public static final int NotDefined
 ```
 
 
-Value is not defined
+The classification is not set.
 
 ### Private {#Private}
 ```
@@ -90,7 +90,7 @@ public static final int Private
 ```
 
 
-Private.
+Private access.
 
 ### Public {#Public}
 ```
@@ -98,7 +98,7 @@ public static final int Public
 ```
 
 
-Public.
+Public access.
 
 ### Clone() {#Clone--}
 ```

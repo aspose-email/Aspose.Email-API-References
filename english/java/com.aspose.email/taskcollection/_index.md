@@ -1,9 +1,9 @@
 ---
 title: TaskCollection
 second_title: Aspose.Email for Java API Reference
-description: Represents a collection of Task objects.
+description: A collection of  objects.
 type: docs
-weight: 701
+weight: 706
 url: /java/com.aspose.email/taskcollection/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 public class TaskCollection extends System.Collections.ObjectModel.Collection<Task>
 ```
 
-Represents a collection of Task objects.
+A collection of [Task](../../com.aspose.email/task) objects.
 ## Constructors
 
 | Constructor | Description |

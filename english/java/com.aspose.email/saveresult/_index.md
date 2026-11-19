@@ -1,9 +1,9 @@
 ---
 title: SaveResult
 second_title: Aspose.Email for Java API Reference
-description: Represents the result of saving the retrieved item.
+description: The result of saving a message with .
 type: docs
-weight: 650
+weight: 655
 url: /java/com.aspose.email/saveresult/
 ---
 
@@ -13,16 +13,16 @@ java.lang.Object
 public class SaveResult
 ```
 
-Represents the result of saving the retrieved item.
+The result of saving a message with [PersonalStorage.tryToSaveMessage(String, OutputStream)](../../com.aspose.email/personalstorage\#tryToSaveMessage-String--OutputStream-).
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAttachments()](#getAttachments--) | Gets the save results of attachments. |
+| [getAttachments()](#getAttachments--) | Gets the results of saving the attachments of the message. |
 | [getClass()](#getClass--) |  |
-| [getMissedProperties()](#getMissedProperties--) | Gets the collection of missed properties. |
-| [getStatus()](#getStatus--) | Gets the saving status. |
+| [getMissedProperties()](#getMissedProperties--) | Gets the properties that could not be read. |
+| [getStatus()](#getStatus--) | Gets whether the message was saved completely, partially or not at all. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -51,12 +51,10 @@ public final List<SaveResult> getAttachments()
 ```
 
 
-Gets the save results of attachments.
-
-Value: The list of [SaveResult](../../com.aspose.email/saveresult).
+Gets the results of saving the attachments of the message.
 
 **Returns:**
-java.util.List<com.aspose.email.SaveResult>
+java.util.List<com.aspose.email.SaveResult> - The list of [SaveResult](../../com.aspose.email/saveresult).
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -73,24 +71,20 @@ public final List<PropertyDescriptor> getMissedProperties()
 ```
 
 
-Gets the collection of missed properties.
-
-Value: The list of [PropertyDescriptor](../../com.aspose.email/propertydescriptor).
+Gets the properties that could not be read.
 
 **Returns:**
-java.util.List<com.aspose.email.PropertyDescriptor>
+java.util.List<com.aspose.email.PropertyDescriptor> - The list of [PropertyDescriptor](../../com.aspose.email/propertydescriptor).
 ### getStatus() {#getStatus--}
 ```
 public final int getStatus()
 ```
 
 
-Gets the saving status.
-
-Value: The [SaveStatus](../../com.aspose.email/savestatus).
+Gets whether the message was saved completely, partially or not at all.
 
 **Returns:**
-int
+int - The [SaveStatus](../../com.aspose.email/savestatus).
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

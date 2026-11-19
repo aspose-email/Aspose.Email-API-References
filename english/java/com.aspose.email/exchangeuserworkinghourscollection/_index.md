@@ -3,7 +3,7 @@ title: ExchangeUserWorkingHoursCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents the collection of
 type: docs
-weight: 236
+weight: 239
 url: /java/com.aspose.email/exchangeuserworkinghourscollection/
 ---
 

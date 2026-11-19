@@ -1,9 +1,9 @@
 ---
 title: ParticipationStatus
 second_title: Aspose.Email for Java API Reference
-description: Identifies the participation status for the calendar user.
+description: Defines the responses of an attendee to a meeting request.
 type: docs
-weight: 583
+weight: 587
 url: /java/com.aspose.email/participationstatus/
 ---
 
@@ -13,17 +13,17 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ParticipationStatus extends System.Enum
 ```
 
-Identifies the participation status for the calendar user.
+Defines the responses of an attendee to a meeting request.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Accepted](#Accepted) | Event accepted |
-| [Declined](#Declined) | Event declined |
-| [Delegated](#Delegated) | Event delegated |
+| [Accepted](#Accepted) | The attendee has accepted. |
+| [Declined](#Declined) | The attendee has declined. |
+| [Delegated](#Delegated) | The attendee has delegated the meeting to someone else. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [NeedsAction](#NeedsAction) | Event needs action |
-| [Tentative](#Tentative) | Event tentatively accepted |
+| [NeedsAction](#NeedsAction) | The attendee has not responded yet. |
+| [Tentative](#Tentative) | The attendee has tentatively accepted. |
 ## Methods
 
 | Method | Description |
@@ -69,7 +69,7 @@ public static final int Accepted
 ```
 
 
-Event accepted
+The attendee has accepted.
 
 ### Declined {#Declined}
 ```
@@ -77,7 +77,7 @@ public static final int Declined
 ```
 
 
-Event declined
+The attendee has declined.
 
 ### Delegated {#Delegated}
 ```
@@ -85,7 +85,7 @@ public static final int Delegated
 ```
 
 
-Event delegated
+The attendee has delegated the meeting to someone else.
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -99,7 +99,7 @@ public static final int NeedsAction
 ```
 
 
-Event needs action
+The attendee has not responded yet.
 
 ### Tentative {#Tentative}
 ```
@@ -107,7 +107,7 @@ public static final int Tentative
 ```
 
 
-Event tentatively accepted
+The attendee has tentatively accepted.
 
 ### Clone() {#Clone--}
 ```

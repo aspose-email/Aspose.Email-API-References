@@ -29,7 +29,7 @@ Component allows displaying multiple similar pieces of content along a horizonta
 | [getFallback()](#getFallback--) | A fallback is a convention that allows the element to communicate to the reader that the browser does not support the element. |
 | [getImages()](#getImages--) | Set of images for displaying. |
 | [getPlaceholder()](#getPlaceholder--) | The element marked with the placeholder attribute acts as a placeholder for the parent AMP element. |
-| [getRequiredScript()](#getRequiredScript--) | Required script that muct be added to head section. |
+| [getRequiredScript()](#getRequiredScript--) | Required script that must be added to head section. |
 | [getType()](#getType--) | Specifies the display type for the carousel items. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -81,7 +81,7 @@ public final AmpAttributes getAttributes()
 AMP provides a set of common attributes that are extended to many AMP components.
 
 **Returns:**
-[AmpAttributes](../../com.aspose.email/ampattributes)
+[AmpAttributes](../../com.aspose.email/ampattributes) - The common AMP attributes of the component.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -111,7 +111,7 @@ public final List<AmpImage> getImages()
 Set of images for displaying.
 
 **Returns:**
-java.util.List<com.aspose.email.AmpImage>
+java.util.List<com.aspose.email.AmpImage> - The images to display.
 ### getPlaceholder() {#getPlaceholder--}
 ```
 public final AmpComponent getPlaceholder()
@@ -128,7 +128,7 @@ public String getRequiredScript()
 ```
 
 
-Required script that muct be added to head section.
+Required script that must be added to head section.
 
 **Returns:**
 java.lang.String
@@ -141,7 +141,7 @@ public final int getType()
 Specifies the display type for the carousel items.
 
 **Returns:**
-int
+int - The display type, one of the  CarouselType  values.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -205,7 +205,7 @@ Specifies the display type for the carousel items.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The display type, one of the  CarouselType  values. |
 
 ### toAmpHtml() {#toAmpHtml--}
 ```
@@ -216,7 +216,7 @@ public String toAmpHtml()
 Represents amp html version of component.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toHtml() {#toHtml--}
 ```
 public String toHtml()
@@ -226,7 +226,7 @@ public String toHtml()
 Represents html version of component.
 
 **Returns:**
-java.lang.String - 
+java.lang.String - Html String
 ### toString() {#toString--}
 ```
 public String toString()

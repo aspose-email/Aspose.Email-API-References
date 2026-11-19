@@ -1,9 +1,9 @@
 ---
 title: PropertyDescriptor
 second_title: Aspose.Email for Java API Reference
-description: Class contains property description information.
+description: The base class of property descriptors the identity and data type of a MAPI property.
 type: docs
-weight: 610
+weight: 615
 url: /java/com.aspose.email/propertydescriptor/
 ---
 
@@ -16,31 +16,33 @@ com.aspose.ms.System.IEquatable
 public abstract class PropertyDescriptor implements System.IEquatable<PropertyDescriptor>
 ```
 
-Class contains property description information.
+The base class of property descriptors: the identity and data type of a MAPI property.
+
+Use [PidTagPropertyDescriptor](../../com.aspose.email/pidtagpropertydescriptor) for tagged properties, and [PidLidPropertyDescriptor](../../com.aspose.email/pidlidpropertydescriptor) or [PidNamePropertyDescriptor](../../com.aspose.email/pidnamepropertydescriptor) for named properties. Descriptors of the known properties are defined in [KnownPropertyList](../../com.aspose.email/knownpropertylist).
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(PropertyDescriptor other)](#equals-com.aspose.email.PropertyDescriptor-) | Indicates whether the current object is equal to another object of the same type. |
+| [equals(PropertyDescriptor other)](#equals-com.aspose.email.PropertyDescriptor-) | Determines whether the specified descriptor describes the same property. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCanonicalName()](#getCanonicalName--) | The name used to refer to the property in the documentation. |
+| [getCanonicalName()](#getCanonicalName--) | Gets the canonical name of the property, as in [MS-OXPROPS]. |
 | [getClass()](#getClass--) |  |
-| [getDataType()](#getDataType--) | The property value type, as described in [MS-OXCDATA], that specifies the type of values allowed for the property. |
-| [getInstance(MapiProperty property)](#getInstance-com.aspose.email.MapiProperty-) | Retrieves [PropertyDescriptor](../../com.aspose.email/propertydescriptor) object from MAPI property |
-| [getInstance(int id, int dataType)](#getInstance-int-int-) | Retrieves [PidTagPropertyDescriptor](../../com.aspose.email/pidtagpropertydescriptor) object |
-| [getInstance(String name, int dataType, UUID propertySet)](#getInstance-java.lang.String-int-java.util.UUID-) | Retrieves [PidNamePropertyDescriptor](../../com.aspose.email/pidnamepropertydescriptor) object |
-| [getInstance(long tag)](#getInstance-long-) | Retrieves [PidTagPropertyDescriptor](../../com.aspose.email/pidtagpropertydescriptor) object |
-| [getInstance(long lid, int dataType, UUID propertySet)](#getInstance-long-int-java.util.UUID-) | Retrieves [PidLidPropertyDescriptor](../../com.aspose.email/pidlidpropertydescriptor) object |
-| [getMultipleValuesDataType()](#getMultipleValuesDataType--) | Indicates if data type contains of multiple values |
-| [getName()](#getName--) | Gets string that, identifies a property. |
-| [getUse8BitStringAsUnicode()](#getUse8BitStringAsUnicode--) | Specifies if PropertyDataType.String8 has to be interpreted as PropertyDataType.String |
+| [getDataType()](#getDataType--) | Gets the data type of the property value. |
+| [getInstance(MapiProperty property)](#getInstance-com.aspose.email.MapiProperty-) | Gets the descriptor of a MAPI property. |
+| [getInstance(int id, int dataType)](#getInstance-int-int-) | Gets the descriptor of a tagged property by its ID and data type. |
+| [getInstance(String name, int dataType, UUID propertySet)](#getInstance-java.lang.String-int-java.util.UUID-) | Gets the descriptor of a named property by its name. |
+| [getInstance(long tag)](#getInstance-long-) | Gets the descriptor of a tagged property by its tag. |
+| [getInstance(long lid, int dataType, UUID propertySet)](#getInstance-long-int-java.util.UUID-) | Gets the descriptor of a named property by its numeric ID (LID). |
+| [getMultipleValuesDataType()](#getMultipleValuesDataType--) | Gets a value indicating whether the property is multi-valued. |
+| [getName()](#getName--) | Gets the alternate name of the property, such as  PR\_SUBJECT , or the name of a named property. |
+| [getUse8BitStringAsUnicode()](#getUse8BitStringAsUnicode--) | Gets a value indicating whether  String8  (ANSI) values are read as  String  (Unicode). |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [op_Equality(PropertyDescriptor pd1, PropertyDescriptor pd2)](#op-Equality-com.aspose.email.PropertyDescriptor-com.aspose.email.PropertyDescriptor-) | Determines whether the specified objects are equal to each another. |
 | [op_Inequality(PropertyDescriptor pd1, PropertyDescriptor pd2)](#op-Inequality-com.aspose.email.PropertyDescriptor-com.aspose.email.PropertyDescriptor-) | Determines whether the specified objects are not equal to each another. |
-| [parse(String data)](#parse-java.lang.String-) | Initializes a new instance of the [PropertyDescriptor](../../com.aspose.email/propertydescriptor) class |
-| [setUse8BitStringAsUnicode(boolean value)](#setUse8BitStringAsUnicode-boolean-) | Specifies if PropertyDataType.String8 has to be interpreted as PropertyDataType.String |
+| [parse(String data)](#parse-java.lang.String-) | Creates a descriptor from its string form, as returned by  toString() , for example  Tag:'PidTagSubject':0x37:String . |
+| [setUse8BitStringAsUnicode(boolean value)](#setUse8BitStringAsUnicode-boolean-) | Sets a value indicating whether  String8  (ANSI) values are read as  String  (Unicode). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -51,15 +53,15 @@ public abstract boolean equals(PropertyDescriptor other)
 ```
 
 
-Indicates whether the current object is equal to another object of the same type.
+Determines whether the specified descriptor describes the same property.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | An object to compare with this object. |
+| other | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | The descriptor to compare with. |
 
 **Returns:**
-boolean - true if the current object is equal to the other parameter; otherwise, false.
+boolean -  true  if  other  describes the same property; otherwise,  false .
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -81,7 +83,7 @@ public final String getCanonicalName()
 ```
 
 
-The name used to refer to the property in the documentation. The prefix of the canonical name identifies the basic characteristics of a property to the implementer. The canonical naming structure uses three categories that are denoted by the following prefixes to the canonical property name: \* PidLid prefix: Properties identified by an unsigned 32-bit quantity along with a property set. \* PidName prefix: Properties identified by a string name along with a property set. \* PidTag prefix: Properties identified by an unsigned 16-bit quantity.
+Gets the canonical name of the property, as in [MS-OXPROPS]. The prefix tells how the property is identified:  PidLid  by a numeric ID within a property set,  PidName  by a string name within a property set,  PidTag  by a fixed 16-bit ID.
 
 **Returns:**
 java.lang.String
@@ -101,7 +103,7 @@ public final int getDataType()
 ```
 
 
-The property value type, as described in [MS-OXCDATA], that specifies the type of values allowed for the property.
+Gets the data type of the property value.
 
 **Returns:**
 int
@@ -111,87 +113,87 @@ public static PropertyDescriptor getInstance(MapiProperty property)
 ```
 
 
-Retrieves [PropertyDescriptor](../../com.aspose.email/propertydescriptor) object from MAPI property
+Gets the descriptor of a MAPI property.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| property | [MapiProperty](../../com.aspose.email/mapiproperty) | [MapiProperty](../../com.aspose.email/mapiproperty) object |
+| property | [MapiProperty](../../com.aspose.email/mapiproperty) | The property. |
 
 **Returns:**
-[PropertyDescriptor](../../com.aspose.email/propertydescriptor)
+[PropertyDescriptor](../../com.aspose.email/propertydescriptor) - The descriptor of  property .
 ### getInstance(int id, int dataType) {#getInstance-int-int-}
 ```
 public static PidTagPropertyDescriptor getInstance(int id, int dataType)
 ```
 
 
-Retrieves [PidTagPropertyDescriptor](../../com.aspose.email/pidtagpropertydescriptor) object
+Gets the descriptor of a tagged property by its ID and data type.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| id | int | Id of a property |
-| dataType | int | Data type of a property |
+| id | int | The 16-bit ID of the property. |
+| dataType | int | The data type of the property. |
 
 **Returns:**
-[PidTagPropertyDescriptor](../../com.aspose.email/pidtagpropertydescriptor) - [PidTagPropertyDescriptor](../../com.aspose.email/pidtagpropertydescriptor) object
+[PidTagPropertyDescriptor](../../com.aspose.email/pidtagpropertydescriptor) - The descriptor: the one from [KnownPropertyList](../../com.aspose.email/knownpropertylist) if the property is known; otherwise a new one.
 ### getInstance(String name, int dataType, UUID propertySet) {#getInstance-java.lang.String-int-java.util.UUID-}
 ```
 public static PidNamePropertyDescriptor getInstance(String name, int dataType, UUID propertySet)
 ```
 
 
-Retrieves [PidNamePropertyDescriptor](../../com.aspose.email/pidnamepropertydescriptor) object
+Gets the descriptor of a named property by its name.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | Name of a property |
-| dataType | int | Data type of a property |
-| propertySet | java.util.UUID | PropertySet of a property |
+| name | java.lang.String | The name of the property. |
+| dataType | int | The data type of the property. |
+| propertySet | java.util.UUID | The GUID of the property set. |
 
 **Returns:**
-[PidNamePropertyDescriptor](../../com.aspose.email/pidnamepropertydescriptor) - [PidNamePropertyDescriptor](../../com.aspose.email/pidnamepropertydescriptor) object
+[PidNamePropertyDescriptor](../../com.aspose.email/pidnamepropertydescriptor) - The descriptor: the one from [KnownPropertyList](../../com.aspose.email/knownpropertylist) if the property is known; otherwise a new one.
 ### getInstance(long tag) {#getInstance-long-}
 ```
 public static PidTagPropertyDescriptor getInstance(long tag)
 ```
 
 
-Retrieves [PidTagPropertyDescriptor](../../com.aspose.email/pidtagpropertydescriptor) object
+Gets the descriptor of a tagged property by its tag.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | Tag of a property |
+| tag | long | The tag of the property. |
 
 **Returns:**
-[PidTagPropertyDescriptor](../../com.aspose.email/pidtagpropertydescriptor) - [PidTagPropertyDescriptor](../../com.aspose.email/pidtagpropertydescriptor) object
+[PidTagPropertyDescriptor](../../com.aspose.email/pidtagpropertydescriptor) - The descriptor: the one from [KnownPropertyList](../../com.aspose.email/knownpropertylist) if the property is known; otherwise a new one.
 ### getInstance(long lid, int dataType, UUID propertySet) {#getInstance-long-int-java.util.UUID-}
 ```
 public static PidLidPropertyDescriptor getInstance(long lid, int dataType, UUID propertySet)
 ```
 
 
-Retrieves [PidLidPropertyDescriptor](../../com.aspose.email/pidlidpropertydescriptor) object
+Gets the descriptor of a named property by its numeric ID (LID).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lid | long | Long id of a property |
-| dataType | int | Data type of a property |
-| propertySet | java.util.UUID | PropertySet of a property |
+| lid | long | The numeric ID of the property. |
+| dataType | int | The data type of the property. |
+| propertySet | java.util.UUID | The GUID of the property set. |
 
 **Returns:**
-[PidLidPropertyDescriptor](../../com.aspose.email/pidlidpropertydescriptor) - [PidLidPropertyDescriptor](../../com.aspose.email/pidlidpropertydescriptor) object
+[PidLidPropertyDescriptor](../../com.aspose.email/pidlidpropertydescriptor) - The descriptor: the one from [KnownPropertyList](../../com.aspose.email/knownpropertylist) if the property is known; otherwise a new one.
 ### getMultipleValuesDataType() {#getMultipleValuesDataType--}
 ```
 public final boolean getMultipleValuesDataType()
 ```
 
 
-Indicates if data type contains of multiple values
+Gets a value indicating whether the property is multi-valued.
 
 **Returns:**
 boolean
@@ -201,7 +203,7 @@ public final String getName()
 ```
 
 
-Gets string that, identifies a property.
+Gets the alternate name of the property, such as  PR\_SUBJECT , or the name of a named property.
 
 **Returns:**
 java.lang.String
@@ -211,7 +213,7 @@ public static boolean getUse8BitStringAsUnicode()
 ```
 
 
-Specifies if PropertyDataType.String8 has to be interpreted as PropertyDataType.String
+Gets a value indicating whether  String8  (ANSI) values are read as  String  (Unicode). The default is  true .
 
 **Returns:**
 boolean
@@ -256,7 +258,7 @@ Determines whether the specified objects are equal to each another.
 | pd2 | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | The object to compare with another object. |
 
 **Returns:**
-boolean - true if the specified PropertyDescriptor is equal to the another PropertyDescriptor; otherwise, false.
+boolean -  true  if the specified PropertyDescriptor is equal to the another PropertyDescriptor; otherwise,  false .
 ### op_Inequality(PropertyDescriptor pd1, PropertyDescriptor pd2) {#op-Inequality-com.aspose.email.PropertyDescriptor-com.aspose.email.PropertyDescriptor-}
 ```
 public static boolean op_Inequality(PropertyDescriptor pd1, PropertyDescriptor pd2)
@@ -272,29 +274,29 @@ Determines whether the specified objects are not equal to each another.
 | pd2 | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | The object to compare with another object. |
 
 **Returns:**
-boolean - true if the specified PropertyDescriptor is not equal to the another PropertyDescriptor; otherwise, false.
+boolean -  true  if the specified PropertyDescriptor is not equal to the another PropertyDescriptor; otherwise,  false .
 ### parse(String data) {#parse-java.lang.String-}
 ```
 public static PropertyDescriptor parse(String data)
 ```
 
 
-Initializes a new instance of the [PropertyDescriptor](../../com.aspose.email/propertydescriptor) class
+Creates a descriptor from its string form, as returned by  toString() , for example  Tag:'PidTagSubject':0x37:String .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | java.lang.String | A string that represents the property description. |
+| data | java.lang.String | The string form of the descriptor. |
 
 **Returns:**
-[PropertyDescriptor](../../com.aspose.email/propertydescriptor)
+[PropertyDescriptor](../../com.aspose.email/propertydescriptor) - The descriptor: the one from [KnownPropertyList](../../com.aspose.email/knownpropertylist) if the property is known.
 ### setUse8BitStringAsUnicode(boolean value) {#setUse8BitStringAsUnicode-boolean-}
 ```
 public static void setUse8BitStringAsUnicode(boolean value)
 ```
 
 
-Specifies if PropertyDataType.String8 has to be interpreted as PropertyDataType.String
+Sets a value indicating whether  String8  (ANSI) values are read as  String  (Unicode). The default is  true .
 
 **Parameters:**
 | Parameter | Type | Description |

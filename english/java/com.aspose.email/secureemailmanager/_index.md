@@ -1,9 +1,9 @@
 ---
 title: SecureEmailManager
 second_title: Aspose.Email for Java API Reference
-description: Class that provided methods for working with secure emails.
+description: Provides methods for working with secure emails including S/MIME signing and encryption operations.
 type: docs
-weight: 657
+weight: 662
 url: /java/com.aspose.email/secureemailmanager/
 ---
 
@@ -13,7 +13,28 @@ java.lang.Object
 public class SecureEmailManager
 ```
 
-Class that provided methods for working with secure emails.
+Provides methods for working with secure emails, including S/MIME signing and encryption operations. This class enables digital signature verification, message decryption, and signing of email messages using X.509 certificates and PKCS\#7/CMS standards.
+
+Use \#checkSignature(MapiMessage).checkSignature(MapiMessage) to verify digital signatures on [MailMessage](../../com.aspose.email/mailmessage) or [MapiMessage](../../com.aspose.email/mapimessage) objects and retrieve signing/encryption certificates. Use \#attachSignature(MailMessage, SmimeKey).attachSignature(MailMessage, SmimeKey) methods to digitally sign messages using X.509 certificates or CmsSigner objects. Supports both attached (enveloped) and detached signature formats, as well as message encryption and decryption.
+
+This example signs a message and verifies the signature.
+
+```
+
+ SmimeKey key = SmimeKey.loadPFX("signer.pfx", "password".toCharArray());
+ SecureEmailManager manager = new SecureEmailManager();
+
+ MailMessage msg = new MailMessage("from@example.com", "to@example.com", "Signed message", "Hello");
+ SignatureOptions options = new SignatureOptions();
+ options.setDetached(true);
+ MailMessage signed = manager.attachSignature(msg, key, options);
+ signed.save("signed.eml");
+
+ SmimeResult result = manager.checkSignature(MailMessage.load("signed.eml"));
+ System.out.println(result.isSuccess() ? "The signature is valid."
+         : "The signature is not valid: " + result.getError());
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -27,9 +48,9 @@ Class that provided methods for working with secure emails.
 | [attachSignature(MailMessage msg, SmimeKey key, SignatureOptions options)](#attachSignature-com.aspose.email.MailMessage-com.aspose.email.SmimeKey-com.aspose.email.SignatureOptions-) | Creates a copy of the specified MailMessage and adds a digital signature to it. |
 | [attachSignature(MapiMessage msg, SmimeKey key)](#attachSignature-com.aspose.email.MapiMessage-com.aspose.email.SmimeKey-) | Creates a copy of the specified MapiMessage and adds a digital signature to it. |
 | [attachSignature(MapiMessage msg, SmimeKey key, SignatureOptions options)](#attachSignature-com.aspose.email.MapiMessage-com.aspose.email.SmimeKey-com.aspose.email.SignatureOptions-) | Creates a copy of the specified MapiMessage and adds a digital signature to it. |
-| [checkSignature(MailMessage msg)](#checkSignature-com.aspose.email.MailMessage-) | Checking signature MailMessage. |
+| [checkSignature(MailMessage msg)](#checkSignature-com.aspose.email.MailMessage-) | Verifies the signature of the message. |
 | [checkSignature(MailMessage msg, SmimeKey key)](#checkSignature-com.aspose.email.MailMessage-com.aspose.email.SmimeKey-) | Checking signature MailMessage. |
-| [checkSignature(MapiMessage msg)](#checkSignature-com.aspose.email.MapiMessage-) | Checking signature MapiMessage. |
+| [checkSignature(MapiMessage msg)](#checkSignature-com.aspose.email.MapiMessage-) | Verifies the signature of the message. |
 | [checkSignature(MapiMessage msg, SmimeKey key)](#checkSignature-com.aspose.email.MapiMessage-com.aspose.email.SmimeKey-) | Checking signature MapiMessage. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
@@ -118,15 +139,15 @@ public final SmimeResult checkSignature(MailMessage msg)
 ```
 
 
-Checking signature MailMessage.
+Verifies the signature of the message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| msg | [MailMessage](../../com.aspose.email/mailmessage) | The MailMessage to check. |
+| msg | [MailMessage](../../com.aspose.email/mailmessage) | The message to check. |
 
 **Returns:**
-[SmimeResult](../../com.aspose.email/smimeresult) - Result of checking[SmimeResult](../../com.aspose.email/smimeresult)
+[SmimeResult](../../com.aspose.email/smimeresult) - The result of the check, with the signing and encryption certificates.
 ### checkSignature(MailMessage msg, SmimeKey key) {#checkSignature-com.aspose.email.MailMessage-com.aspose.email.SmimeKey-}
 ```
 public final SmimeResult checkSignature(MailMessage msg, SmimeKey key)
@@ -149,15 +170,15 @@ public final SmimeResult checkSignature(MapiMessage msg)
 ```
 
 
-Checking signature MapiMessage.
+Verifies the signature of the message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| msg | [MapiMessage](../../com.aspose.email/mapimessage) | The MapiMessage to check. |
+| msg | [MapiMessage](../../com.aspose.email/mapimessage) | The message to check. |
 
 **Returns:**
-[SmimeResult](../../com.aspose.email/smimeresult) - Result of checking[SmimeResult](../../com.aspose.email/smimeresult)
+[SmimeResult](../../com.aspose.email/smimeresult) - The result of the check, with the signing and encryption certificates.
 ### checkSignature(MapiMessage msg, SmimeKey key) {#checkSignature-com.aspose.email.MapiMessage-com.aspose.email.SmimeKey-}
 ```
 public final SmimeResult checkSignature(MapiMessage msg, SmimeKey key)

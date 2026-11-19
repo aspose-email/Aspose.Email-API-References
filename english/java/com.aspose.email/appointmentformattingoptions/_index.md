@@ -1,7 +1,7 @@
 ---
 title: AppointmentFormattingOptions
 second_title: Aspose.Email for Java API Reference
-description: Represents the appointment formatting options.
+description: Templates that  uses to render the details of an appointment as plain text or HTML.
 type: docs
 weight: 38
 url: /java/com.aspose.email/appointmentformattingoptions/
@@ -13,39 +13,41 @@ java.lang.Object
 public class AppointmentFormattingOptions
 ```
 
-Represents the appointment formatting options.
+Templates that [Appointment.getAppointmentText(AppointmentFormattingOptions)](../../com.aspose.email/appointment\#getAppointmentText-AppointmentFormattingOptions-) uses to render the details of an appointment as plain text or HTML.
+
+Each template is a composite format string in which  \{0\}  is replaced by the value, for example  Location: \{0\} . A new instance holds the plain-text templates;  createAsHtml()  returns one with HTML templates. Setting a template to  null  or an empty string keeps the current one.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [AppointmentFormattingOptions()](#AppointmentFormattingOptions--) | Initializes a new instance of the [AppointmentFormattingOptions](../../com.aspose.email/appointmentformattingoptions) class. |
+| [AppointmentFormattingOptions()](#AppointmentFormattingOptions--) | Initializes a new instance of the [AppointmentFormattingOptions](../../com.aspose.email/appointmentformattingoptions) class with the plain-text templates. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [createAsHtml()](#createAsHtml--) | Specifies formatting in the html. |
+| [createAsHtml()](#createAsHtml--) | Creates formatting options with the HTML templates. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCssStyles()](#getCssStyles--) | Gets or sets the additional css styles for the formatter. |
-| [getDescriptionFormat()](#getDescriptionFormat--) | Gets or sets the description format. |
-| [getEndDateFormat()](#getEndDateFormat--) | Gets or sets the end date format. |
-| [getLocationFormat()](#getLocationFormat--) | Gets or sets the where format. |
-| [getOrganizerFormat()](#getOrganizerFormat--) | Gets or sets the organizer format. |
-| [getStartDateFormat()](#getStartDateFormat--) | Gets or sets the start date format. |
-| [getTimezoneFormat()](#getTimezoneFormat--) | Gets or sets the timezone format. |
-| [getTitleFormat()](#getTitleFormat--) | Gets or sets the title format. |
+| [getCssStyles()](#getCssStyles--) | Gets markup to add to the head of the HTML output, typically a  |
+| [getDescriptionFormat()](#getDescriptionFormat--) | Gets the template for the description. |
+| [getEndDateFormat()](#getEndDateFormat--) | Gets the template for the end date and time. |
+| [getLocationFormat()](#getLocationFormat--) | Gets the template for the location. |
+| [getOrganizerFormat()](#getOrganizerFormat--) | Gets the template for the organizer. |
+| [getStartDateFormat()](#getStartDateFormat--) | Gets the template for the start date and time. |
+| [getTimezoneFormat()](#getTimezoneFormat--) | Gets the template for the time zone. |
+| [getTitleFormat()](#getTitleFormat--) | Gets the template for the title (the summary of the appointment). |
 | [hashCode()](#hashCode--) |  |
-| [isTextFormat()](#isTextFormat--) | Gets a value indicating whether template has a text format. |
+| [isTextFormat()](#isTextFormat--) | Gets a value indicating whether the templates produce plain text rather than HTML. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCssStyles(String value)](#setCssStyles-java.lang.String-) | Gets or sets the additional css styles for the formatter. |
-| [setDescriptionFormat(String value)](#setDescriptionFormat-java.lang.String-) | Gets or sets the description format. |
-| [setEndDateFormat(String value)](#setEndDateFormat-java.lang.String-) | Gets or sets the end date format. |
-| [setLocationFormat(String value)](#setLocationFormat-java.lang.String-) | Gets or sets the where format. |
-| [setOrganizerFormat(String value)](#setOrganizerFormat-java.lang.String-) | Gets or sets the organizer format. |
-| [setStartDateFormat(String value)](#setStartDateFormat-java.lang.String-) | Gets or sets the start date format. |
-| [setTimezoneFormat(String value)](#setTimezoneFormat-java.lang.String-) | Gets or sets the timezone format. |
-| [setTitleFormat(String value)](#setTitleFormat-java.lang.String-) | Gets or sets the title format. |
+| [setCssStyles(String value)](#setCssStyles-java.lang.String-) | Sets markup to add to the head of the HTML output, typically a  |
+| [setDescriptionFormat(String value)](#setDescriptionFormat-java.lang.String-) | Sets the template for the description. |
+| [setEndDateFormat(String value)](#setEndDateFormat-java.lang.String-) | Sets the template for the end date and time. |
+| [setLocationFormat(String value)](#setLocationFormat-java.lang.String-) | Sets the template for the location. |
+| [setOrganizerFormat(String value)](#setOrganizerFormat-java.lang.String-) | Sets the template for the organizer. |
+| [setStartDateFormat(String value)](#setStartDateFormat-java.lang.String-) | Sets the template for the start date and time. |
+| [setTimezoneFormat(String value)](#setTimezoneFormat-java.lang.String-) | Sets the template for the time zone. |
+| [setTitleFormat(String value)](#setTitleFormat-java.lang.String-) | Sets the template for the title (the summary of the appointment). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -56,11 +58,7 @@ public AppointmentFormattingOptions()
 ```
 
 
-Initializes a new instance of the [AppointmentFormattingOptions](../../com.aspose.email/appointmentformattingoptions) class.
-
---------------------
-
-By default, template will be created in the plain text format.
+Initializes a new instance of the [AppointmentFormattingOptions](../../com.aspose.email/appointmentformattingoptions) class with the plain-text templates.
 
 ### createAsHtml() {#createAsHtml--}
 ```
@@ -68,10 +66,10 @@ public static AppointmentFormattingOptions createAsHtml()
 ```
 
 
-Specifies formatting in the html.
+Creates formatting options with the HTML templates.
 
 **Returns:**
-[AppointmentFormattingOptions](../../com.aspose.email/appointmentformattingoptions) - [AppointmentFormattingOptions](../../com.aspose.email/appointmentformattingoptions) that represents appointment formatting options.
+[AppointmentFormattingOptions](../../com.aspose.email/appointmentformattingoptions) - Formatting options that render the appointment as HTML.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -103,96 +101,80 @@ public final String getCssStyles()
 ```
 
 
-Gets or sets the additional css styles for the formatter.
-
-Value: The styles to be injected into resulting html body.
+Gets markup to add to the head of the HTML output, typically a 
 
 **Returns:**
-java.lang.String
+java.lang.String - The markup, inserted as is. It is used only with the HTML templates.
 ### getDescriptionFormat() {#getDescriptionFormat--}
 ```
 public final String getDescriptionFormat()
 ```
 
 
-Gets or sets the description format.
-
-Value: The description format.
+Gets the template for the description.
 
 **Returns:**
-java.lang.String
+java.lang.String - A composite format string in which  \{0\}  is replaced by the description.
 ### getEndDateFormat() {#getEndDateFormat--}
 ```
 public final String getEndDateFormat()
 ```
 
 
-Gets or sets the end date format.
-
-Value: The end date format.
+Gets the template for the end date and time.
 
 **Returns:**
-java.lang.String
+java.lang.String - A composite format string in which  \{0\}  is replaced by the end date and time. The plain-text default is  EndTime: \{0\} .
 ### getLocationFormat() {#getLocationFormat--}
 ```
 public final String getLocationFormat()
 ```
 
 
-Gets or sets the where format.
-
-Value: The where format.
+Gets the template for the location.
 
 **Returns:**
-java.lang.String
+java.lang.String - A composite format string in which  \{0\}  is replaced by the location. The plain-text default is  Location: \{0\} .
 ### getOrganizerFormat() {#getOrganizerFormat--}
 ```
 public final String getOrganizerFormat()
 ```
 
 
-Gets or sets the organizer format.
-
-Value: The organizer format.
+Gets the template for the organizer.
 
 **Returns:**
-java.lang.String
+java.lang.String - A composite format string in which  \{0\}  is replaced by the organizer. The plain-text default is  Organizer: \{0\} .
 ### getStartDateFormat() {#getStartDateFormat--}
 ```
 public final String getStartDateFormat()
 ```
 
 
-Gets or sets the start date format.
-
-Value: The start date format.
+Gets the template for the start date and time.
 
 **Returns:**
-java.lang.String
+java.lang.String - A composite format string in which  \{0\}  is replaced by the start date and time. The plain-text default is  StartTime: \{0\} .
 ### getTimezoneFormat() {#getTimezoneFormat--}
 ```
 public final String getTimezoneFormat()
 ```
 
 
-Gets or sets the timezone format.
-
-Value: The timezone format.
+Gets the template for the time zone.
 
 **Returns:**
-java.lang.String
+java.lang.String - A composite format string in which  \{0\}  is replaced by the time zone. The plain-text default is  Time Zone: \{0\} .
 ### getTitleFormat() {#getTitleFormat--}
 ```
 public final String getTitleFormat()
 ```
 
 
-Gets or sets the title format.
-
-Value: The title format.
+Gets the template for the title (the summary of the appointment).
 
 **Returns:**
-java.lang.String
+java.lang.String - A composite format string in which  \{0\}  is replaced by the title. The plain-text default is  Title: \{0\} .
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -209,12 +191,10 @@ public final boolean isTextFormat()
 ```
 
 
-Gets a value indicating whether template has a text format.
-
-Value:  true  if template has a text format; otherwise,  false .
+Gets a value indicating whether the templates produce plain text rather than HTML.
 
 **Returns:**
-boolean
+boolean -  true  for the plain-text templates;  false  for the HTML templates.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -237,14 +217,12 @@ public final void setCssStyles(String value)
 ```
 
 
-Gets or sets the additional css styles for the formatter.
-
-Value: The styles to be injected into resulting html body.
+Sets markup to add to the head of the HTML output, typically a 
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The markup, inserted as is. It is used only with the HTML templates. |
 
 ### setDescriptionFormat(String value) {#setDescriptionFormat-java.lang.String-}
 ```
@@ -252,14 +230,12 @@ public final void setDescriptionFormat(String value)
 ```
 
 
-Gets or sets the description format.
-
-Value: The description format.
+Sets the template for the description.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | A composite format string in which  \{0\}  is replaced by the description. |
 
 ### setEndDateFormat(String value) {#setEndDateFormat-java.lang.String-}
 ```
@@ -267,14 +243,12 @@ public final void setEndDateFormat(String value)
 ```
 
 
-Gets or sets the end date format.
-
-Value: The end date format.
+Sets the template for the end date and time.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | A composite format string in which  \{0\}  is replaced by the end date and time. The plain-text default is  EndTime: \{0\} . |
 
 ### setLocationFormat(String value) {#setLocationFormat-java.lang.String-}
 ```
@@ -282,14 +256,12 @@ public final void setLocationFormat(String value)
 ```
 
 
-Gets or sets the where format.
-
-Value: The where format.
+Sets the template for the location.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | A composite format string in which  \{0\}  is replaced by the location. The plain-text default is  Location: \{0\} . |
 
 ### setOrganizerFormat(String value) {#setOrganizerFormat-java.lang.String-}
 ```
@@ -297,14 +269,12 @@ public final void setOrganizerFormat(String value)
 ```
 
 
-Gets or sets the organizer format.
-
-Value: The organizer format.
+Sets the template for the organizer.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | A composite format string in which  \{0\}  is replaced by the organizer. The plain-text default is  Organizer: \{0\} . |
 
 ### setStartDateFormat(String value) {#setStartDateFormat-java.lang.String-}
 ```
@@ -312,14 +282,12 @@ public final void setStartDateFormat(String value)
 ```
 
 
-Gets or sets the start date format.
-
-Value: The start date format.
+Sets the template for the start date and time.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | A composite format string in which  \{0\}  is replaced by the start date and time. The plain-text default is  StartTime: \{0\} . |
 
 ### setTimezoneFormat(String value) {#setTimezoneFormat-java.lang.String-}
 ```
@@ -327,14 +295,12 @@ public final void setTimezoneFormat(String value)
 ```
 
 
-Gets or sets the timezone format.
-
-Value: The timezone format.
+Sets the template for the time zone.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | A composite format string in which  \{0\}  is replaced by the time zone. The plain-text default is  Time Zone: \{0\} . |
 
 ### setTitleFormat(String value) {#setTitleFormat-java.lang.String-}
 ```
@@ -342,14 +308,12 @@ public final void setTitleFormat(String value)
 ```
 
 
-Gets or sets the title format.
-
-Value: The title format.
+Sets the template for the title (the summary of the appointment).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | A composite format string in which  \{0\}  is replaced by the title. The plain-text default is  Title: \{0\} . |
 
 ### toString() {#toString--}
 ```

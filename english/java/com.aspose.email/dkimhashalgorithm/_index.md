@@ -1,9 +1,9 @@
 ---
 title: DKIMHashAlgorithm
 second_title: Aspose.Email for Java API Reference
-description: Represents DKIM hash algorithm.
+description: Algorithm used to sign the hash of a message.
 type: docs
-weight: 133
+weight: 134
 url: /java/com.aspose.email/dkimhashalgorithm/
 ---
 
@@ -13,14 +13,14 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class DKIMHashAlgorithm extends System.Enum
 ```
 
-Represents DKIM hash algorithm.
+Algorithm used to sign the hash of a message.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [RSASha1](#RSASha1) | RSA-SHA1 hash algorithm. |
-| [RSASha256](#RSASha256) | RSA-SHA256 hash algorithm. |
+| [RSASha1](#RSASha1) | RSA with SHA-1. |
+| [RSASha256](#RSASha256) | RSA with SHA-256. |
 ## Methods
 
 | Method | Description |
@@ -72,7 +72,7 @@ public static final int RSASha1
 ```
 
 
-RSA-SHA1 hash algorithm.
+RSA with SHA-1. Kept for older verifiers; prefer  RSASha256 .
 
 ### RSASha256 {#RSASha256}
 ```
@@ -80,7 +80,7 @@ public static final int RSASha256
 ```
 
 
-RSA-SHA256 hash algorithm.
+RSA with SHA-256. Recommended for new signatures.
 
 ### Clone() {#Clone--}
 ```

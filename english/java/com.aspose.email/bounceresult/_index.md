@@ -31,7 +31,7 @@ Represents result of the message examination as a bounce message.
 | [getRecipient()](#getRecipient--) | Indicates the original recipient address as specified by the sender of the message for which the delivery failure report was issued. |
 | [getStatus()](#getStatus--) | Contains a transport-independent status code which indicates the delivery status of the message to that recipient. |
 | [hashCode()](#hashCode--) |  |
-| [isBounced()](#isBounced--) | True if email is a delivery failure or deliver delay report. |
+| [isBounced()](#isBounced--) |  true  if email is a delivery failure or deliver delay report. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -135,7 +135,7 @@ public final boolean isBounced()
 ```
 
 
-True if email is a delivery failure or deliver delay report.
+ true  if email is a delivery failure or deliver delay report.
 
 **Returns:**
 boolean

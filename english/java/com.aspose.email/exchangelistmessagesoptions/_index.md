@@ -3,7 +3,7 @@ title: ExchangeListMessagesOptions
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the list messages options
 type: docs
-weight: 220
+weight: 223
 url: /java/com.aspose.email/exchangelistmessagesoptions/
 ---
 

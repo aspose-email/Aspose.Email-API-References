@@ -1,9 +1,9 @@
 ---
 title: ExchangeException
 second_title: Aspose.Email for Java API Reference
-description: Thrown if there is a MS Exchange communication failure.
+description: The exception that is thrown when communication with Microsoft Exchange Server fails.
 type: docs
-weight: 207
+weight: 210
 url: /java/com.aspose.email/exchangeexception/
 ---
 
@@ -13,15 +13,15 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class ExchangeException extends AsposeException
 ```
 
-Thrown if there is a MS Exchange communication failure.
+The exception that is thrown when communication with Microsoft Exchange Server fails.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
 | [ExchangeException()](#ExchangeException--) | Initializes a new instance of the [ExchangeException](../../com.aspose.email/exchangeexception) class. |
-| [ExchangeException(String message)](#ExchangeException-java.lang.String-) | Initializes a new instance of the [ExchangeException](../../com.aspose.email/exchangeexception) class. |
-| [ExchangeException(String format, Object[] parameters)](#ExchangeException-java.lang.String-java.lang.Object...-) | Initializes a new instance of the [ExchangeException](../../com.aspose.email/exchangeexception) class with a specified error message. |
-| [ExchangeException(String message, Throwable innerException)](#ExchangeException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the [ExchangeException](../../com.aspose.email/exchangeexception) class. |
+| [ExchangeException(String message)](#ExchangeException-java.lang.String-) | Initializes a new instance of the [ExchangeException](../../com.aspose.email/exchangeexception) class with the specified error message. |
+| [ExchangeException(String format, Object[] parameters)](#ExchangeException-java.lang.String-java.lang.Object...-) | Initializes a new instance of the [ExchangeException](../../com.aspose.email/exchangeexception) class with an error message built from a composite format string. |
+| [ExchangeException(String message, Throwable innerException)](#ExchangeException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the [ExchangeException](../../com.aspose.email/exchangeexception) class with the specified error message and a reference to the exception that caused it. |
 ## Methods
 
 | Method | Description |
@@ -31,10 +31,10 @@ Thrown if there is a MS Exchange communication failure.
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
 | [getClass()](#getClass--) |  |
-| [getErrorDetails()](#getErrorDetails--) | Gets extra information aboout error |
+| [getErrorDetails()](#getErrorDetails--) | Gets additional information about the error, if the operation provides any. |
 | [getInnerException()](#getInnerException--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
-| [getMessage()](#getMessage--) | Gets a message that describes the current exception. |
+| [getMessage()](#getMessage--) | Gets the message that describes the error. |
 | [getStackTrace()](#getStackTrace--) |  |
 | [getSuppressed()](#getSuppressed--) |  |
 | [getType()](#getType--) |  |
@@ -46,7 +46,7 @@ Thrown if there is a MS Exchange communication failure.
 | [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
 | [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
 | [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [toString()](#toString--) | Returns a string that represents the current object. |
+| [toString()](#toString--) | Returns the type, the message and the stack trace of the exception. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -64,12 +64,12 @@ public ExchangeException(String message)
 ```
 
 
-Initializes a new instance of the [ExchangeException](../../com.aspose.email/exchangeexception) class.
+Initializes a new instance of the [ExchangeException](../../com.aspose.email/exchangeexception) class with the specified error message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The error message. |
+| message | java.lang.String | The message that describes the error. |
 
 ### ExchangeException(String format, Object[] parameters) {#ExchangeException-java.lang.String-java.lang.Object...-}
 ```
@@ -77,13 +77,13 @@ public ExchangeException(String format, Object[] parameters)
 ```
 
 
-Initializes a new instance of the [ExchangeException](../../com.aspose.email/exchangeexception) class with a specified error message.
+Initializes a new instance of the [ExchangeException](../../com.aspose.email/exchangeexception) class with an error message built from a composite format string.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | java.lang.String | Message format |
-| parameters | java.lang.Object[] | Format parameters |
+| format | java.lang.String | A composite format string, as for  String.format . |
+| parameters | java.lang.Object[] | The objects to insert into  format . |
 
 ### ExchangeException(String message, Throwable innerException) {#ExchangeException-java.lang.String-java.lang.Throwable-}
 ```
@@ -91,13 +91,13 @@ public ExchangeException(String message, Throwable innerException)
 ```
 
 
-Initializes a new instance of the [ExchangeException](../../com.aspose.email/exchangeexception) class.
+Initializes a new instance of the [ExchangeException](../../com.aspose.email/exchangeexception) class with the specified error message and a reference to the exception that caused it.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The error message. |
-| innerException | java.lang.Throwable | The inner exception. |
+| message | java.lang.String | The message that describes the error. |
+| innerException | java.lang.Throwable | The exception that caused this exception, or  null . |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```
@@ -163,7 +163,7 @@ public final Object getErrorDetails()
 ```
 
 
-Gets extra information aboout error
+Gets additional information about the error, if the operation provides any.
 
 **Returns:**
 java.lang.Object
@@ -193,7 +193,7 @@ public String getMessage()
 ```
 
 
-Gets a message that describes the current exception.
+Gets the message that describes the error.
 
 **Returns:**
 java.lang.String
@@ -321,10 +321,10 @@ public String toString()
 ```
 
 
-Returns a string that represents the current object.
+Returns the type, the message and the stack trace of the exception.
 
 **Returns:**
-java.lang.String - A string that represents the current object.
+java.lang.String - A string that represents the exception.
 ### wait() {#wait--}
 ```
 public final void wait()

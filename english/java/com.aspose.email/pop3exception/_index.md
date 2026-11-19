@@ -1,9 +1,9 @@
 ---
 title: Pop3Exception
 second_title: Aspose.Email for Java API Reference
-description: Represents the exception that is thrown when  the Pop3Client is not able to complete an operation.
+description: The exception that is thrown when a POP3 client cannot complete an operation.
 type: docs
-weight: 598
+weight: 602
 url: /java/com.aspose.email/pop3exception/
 ---
 
@@ -13,15 +13,15 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class Pop3Exception extends AsposeException
 ```
 
-Represents the exception that is thrown when the Pop3Client is not able to complete an operation.
+The exception that is thrown when a POP3 client cannot complete an operation.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
 | [Pop3Exception()](#Pop3Exception--) | Initializes a new instance of the [Pop3Exception](../../com.aspose.email/pop3exception) class. |
-| [Pop3Exception(String message)](#Pop3Exception-java.lang.String-) | Initializes a new instance of the [Pop3Exception](../../com.aspose.email/pop3exception) class. |
-| [Pop3Exception(String format, Object[] parameters)](#Pop3Exception-java.lang.String-java.lang.Object...-) | Initializes a new instance of the [Pop3Exception](../../com.aspose.email/pop3exception) class with a specified error message. |
-| [Pop3Exception(String message, RuntimeException innerException)](#Pop3Exception-java.lang.String-java.lang.RuntimeException-) | Initializes a new instance of the [Pop3Exception](../../com.aspose.email/pop3exception) class. |
+| [Pop3Exception(String message)](#Pop3Exception-java.lang.String-) | Initializes a new instance of the [Pop3Exception](../../com.aspose.email/pop3exception) class with the specified error message. |
+| [Pop3Exception(String format, Object[] parameters)](#Pop3Exception-java.lang.String-java.lang.Object...-) | Initializes a new instance of the [Pop3Exception](../../com.aspose.email/pop3exception) class with an error message built from a composite format string. |
+| [Pop3Exception(String message, RuntimeException innerException)](#Pop3Exception-java.lang.String-java.lang.RuntimeException-) | Initializes a new instance of the [Pop3Exception](../../com.aspose.email/pop3exception) class with the specified error message and a reference to the exception that caused it. |
 ## Methods
 
 | Method | Description |
@@ -31,10 +31,10 @@ Represents the exception that is thrown when the Pop3Client is not able to compl
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
 | [getClass()](#getClass--) |  |
-| [getErrorDetails()](#getErrorDetails--) | Gets extra information aboout error |
+| [getErrorDetails()](#getErrorDetails--) | Gets additional information about the error, if the operation provides any. |
 | [getInnerException()](#getInnerException--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
-| [getMessage()](#getMessage--) | Gets a message that describes the current exception. |
+| [getMessage()](#getMessage--) | Gets the message that describes the error. |
 | [getStackTrace()](#getStackTrace--) |  |
 | [getSuppressed()](#getSuppressed--) |  |
 | [getType()](#getType--) |  |
@@ -46,7 +46,7 @@ Represents the exception that is thrown when the Pop3Client is not able to compl
 | [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
 | [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
 | [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [toString()](#toString--) | Returns a string that represents the current object. |
+| [toString()](#toString--) | Returns the type, the message and the stack trace of the exception. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -64,12 +64,12 @@ public Pop3Exception(String message)
 ```
 
 
-Initializes a new instance of the [Pop3Exception](../../com.aspose.email/pop3exception) class.
+Initializes a new instance of the [Pop3Exception](../../com.aspose.email/pop3exception) class with the specified error message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The error message. |
+| message | java.lang.String | The message that describes the error. |
 
 ### Pop3Exception(String format, Object[] parameters) {#Pop3Exception-java.lang.String-java.lang.Object...-}
 ```
@@ -77,13 +77,13 @@ public Pop3Exception(String format, Object[] parameters)
 ```
 
 
-Initializes a new instance of the [Pop3Exception](../../com.aspose.email/pop3exception) class with a specified error message.
+Initializes a new instance of the [Pop3Exception](../../com.aspose.email/pop3exception) class with an error message built from a composite format string.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | java.lang.String | Message format |
-| parameters | java.lang.Object[] | Format parameters |
+| format | java.lang.String | A composite format string, as for  String.format . |
+| parameters | java.lang.Object[] | The objects to insert into  format . |
 
 ### Pop3Exception(String message, RuntimeException innerException) {#Pop3Exception-java.lang.String-java.lang.RuntimeException-}
 ```
@@ -91,13 +91,13 @@ public Pop3Exception(String message, RuntimeException innerException)
 ```
 
 
-Initializes a new instance of the [Pop3Exception](../../com.aspose.email/pop3exception) class.
+Initializes a new instance of the [Pop3Exception](../../com.aspose.email/pop3exception) class with the specified error message and a reference to the exception that caused it.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The error message. |
-| innerException | java.lang.RuntimeException | The inner exception. |
+| message | java.lang.String | The message that describes the error. |
+| innerException | java.lang.RuntimeException | The exception that caused this exception, or  null . |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```
@@ -163,7 +163,7 @@ public final Object getErrorDetails()
 ```
 
 
-Gets extra information aboout error
+Gets additional information about the error, if the operation provides any.
 
 **Returns:**
 java.lang.Object
@@ -193,7 +193,7 @@ public String getMessage()
 ```
 
 
-Gets a message that describes the current exception.
+Gets the message that describes the error.
 
 **Returns:**
 java.lang.String
@@ -321,10 +321,10 @@ public String toString()
 ```
 
 
-Returns a string that represents the current object.
+Returns the type, the message and the stack trace of the exception.
 
 **Returns:**
-java.lang.String - A string that represents the current object.
+java.lang.String - A string that represents the exception.
 ### wait() {#wait--}
 ```
 public final void wait()

@@ -3,7 +3,7 @@ title: FailureType
 second_title: Aspose.Email for Java API Reference
 description: Indicates the failure type.
 type: docs
-weight: 242
+weight: 245
 url: /java/com.aspose.email/failuretype/
 ---
 
@@ -20,7 +20,7 @@ Indicates the failure type.
 | --- | --- |
 | [DataCorrupted](#DataCorrupted) | The item data is corrupted and cannot be retrieved. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [FileCorrupted](#FileCorrupted) | The pst file is corrupted and items cannot be able to read. |
+| [FileCorrupted](#FileCorrupted) | The pst file is corrupted and items cannot be read. |
 | [FileHeaderCorrupted](#FileHeaderCorrupted) | The file header is corrupted, but perhaps file can be read. |
 | [ReferenceLost](#ReferenceLost) | The item reference is lost, but the data probably exists. |
 | [Unknown](#Unknown) | An error of an unknown type has occurred. |
@@ -83,7 +83,7 @@ public static final int FileCorrupted
 ```
 
 
-The pst file is corrupted and items cannot be able to read.
+The pst file is corrupted and items cannot be read.
 
 ### FileHeaderCorrupted {#FileHeaderCorrupted}
 ```

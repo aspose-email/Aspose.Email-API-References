@@ -1,9 +1,9 @@
 ---
 title: LinkedResourceCollection
 second_title: Aspose.Email for Java API Reference
-description: Represents a collection of LinkedResource objects
+description: The resources embedded in an alternate view or a message.
 type: docs
-weight: 367
+weight: 370
 url: /java/com.aspose.email/linkedresourcecollection/
 ---
 
@@ -16,15 +16,15 @@ com.aspose.ms.System.IDisposable, java.io.Closeable
 public final class LinkedResourceCollection extends System.Collections.ObjectModel.Collection<LinkedResource> implements System.IDisposable, Closeable
 ```
 
-Represents a collection of LinkedResource objects
+The resources embedded in an alternate view or a message.
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [addItem(T arg0)](#addItem-T-) |  |
 | [clear()](#clear--) |  |
-| [clear(boolean removeHtmlLinks)](#clear-boolean-) | Removes all elements from this collection. |
-| [close()](#close--) |  |
+| [clear(boolean removeHtmlLinks)](#clear-boolean-) | Removes all resources from the collection, optionally also removing the references to them from the HTML body. |
+| [close()](#close--) | Releases the resources used by the items of the collection. |
 | [containsItem(T arg0)](#containsItem-T-) |  |
 | [copyToTArray(T[] arg0, int arg1)](#copyToTArray-T---int-) |  |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
@@ -37,14 +37,14 @@ Represents a collection of LinkedResource objects
 | [hashCode()](#hashCode--) |  |
 | [indexOfItem(T arg0)](#indexOfItem-T-) |  |
 | [insertItem(int arg0, T arg1)](#insertItem-int-T-) |  |
-| [insertItem(int index, LinkedResource item)](#insertItem-int-com.aspose.email.LinkedResource-) | Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index. |
+| [insertItem(int index, LinkedResource item)](#insertItem-int-com.aspose.email.LinkedResource-) | Inserts an element into the  Collection  at the specified index. |
 | [isReadOnly()](#isReadOnly--) |  |
 | [iterator()](#iterator--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [remove(LinkedResource item)](#remove-com.aspose.email.LinkedResource-) | Removes the first occurrence of a LinkedResource object from the LinkedResourceCollection. |
 | [removeAt(int arg0)](#removeAt-int-) |  |
-| [removeAt(int index, boolean removeHtmlLink)](#removeAt-int-boolean-) | Removes the element at the specified index from this collection. |
+| [removeAt(int index, boolean removeHtmlLink)](#removeAt-int-boolean-) | Removes the resource at the specified position, optionally also removing the reference to it from the HTML body. |
 | [removeItem(T arg0)](#removeItem-T-) |  |
 | [set_Item(int arg0, T arg1)](#set-Item-int-T-) |  |
 | [size()](#size--) |  |
@@ -79,12 +79,12 @@ public final void clear(boolean removeHtmlLinks)
 ```
 
 
-Removes all elements from this collection.
+Removes all resources from the collection, optionally also removing the references to them from the HTML body.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| removeHtmlLinks | boolean | Defines need remove links from html body or not. |
+| removeHtmlLinks | boolean |  true  to also remove the  cid:  references to the resources from the HTML body. |
 
 ### close() {#close--}
 ```
@@ -92,7 +92,7 @@ public void close()
 ```
 
 
-
+Releases the resources used by the items of the collection.
 
 ### containsItem(T arg0) {#containsItem-T-}
 ```
@@ -246,13 +246,13 @@ public void insertItem(int index, LinkedResource item)
 ```
 
 
-Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index.
+Inserts an element into the  Collection  at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which  item  should be inserted. |
-| item | [LinkedResource](../../com.aspose.email/linkedresource) | The object to insert. The value can be null for reference types. |
+| item | [LinkedResource](../../com.aspose.email/linkedresource) | The object to insert. The value can be  null  for reference types. |
 
 ### isReadOnly() {#isReadOnly--}
 ```
@@ -304,7 +304,7 @@ Removes the first occurrence of a LinkedResource object from the LinkedResourceC
 | item | [LinkedResource](../../com.aspose.email/linkedresource) | The LinkedResource to remove. |
 
 **Returns:**
-boolean - true if item is successfully removed; otherwise, false.
+boolean -  true  if  item  is successfully removed; otherwise,  false .
 ### removeAt(int arg0) {#removeAt-int-}
 ```
 public void removeAt(int arg0)
@@ -324,13 +324,13 @@ public final void removeAt(int index, boolean removeHtmlLink)
 ```
 
 
-Removes the element at the specified index from this collection.
+Removes the resource at the specified position, optionally also removing the reference to it from the HTML body.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the element to remove. |
-| removeHtmlLink | boolean | Defines need remove link from html body or not. |
+| index | int | The zero-based position of the resource. |
+| removeHtmlLink | boolean |  true  to also remove the  cid:  reference to the resource from the HTML body. |
 
 ### removeItem(T arg0) {#removeItem-T-}
 ```

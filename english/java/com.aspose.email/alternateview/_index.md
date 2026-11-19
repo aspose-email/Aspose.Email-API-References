@@ -1,7 +1,7 @@
 ---
 title: AlternateView
 second_title: Aspose.Email for Java API Reference
-description: Represents the format to view a message.
+description: One representation of the body of a message such as plain text or HTML.
 type: docs
 weight: 15
 url: /java/com.aspose.email/alternateview/
@@ -13,81 +13,81 @@ java.lang.Object, [com.aspose.email.AttachmentBase](../../com.aspose.email/attac
 public class AlternateView extends AttachmentBase
 ```
 
-Represents the format to view a message.
+One representation of the body of a message, such as plain text or HTML. A message can carry several, and the mail client shows the best one it supports.
 
---------------------
+Use \#createAlternateViewFromString(String).createAlternateViewFromString(String) to create alternate views from string content. Add alternate views to [MailMessage.getAlternateViews()](../../com.aspose.email/mailmessage\#getAlternateViews--) to include them in the message.
 
-> The following example shows how to create and add AlternateView to MailMessage.
-> 
-> [Java]
-> 
-> ```
-> MailMessage eml = new MailMessage();
->  eml.setFrom(MailAddress.to_MailAddress("AndrewIrwin@from.com"));
->  eml.setTo(MailAddressCollection.to_MailAddressCollection("SusanMarc@to.com"));
->  eml.setSubject("This is an email");
-> 
->  // Create the plain text part It is viewable by those clients that don't support HTML
->  AlternateView plainView = AlternateView.createAlternateViewFromString("This is my plain text content", null,
->  "text/plain");
-> 
->  // Create the HTML part.To embed images, we need to use the prefix 'cid' in the img src value.
->  // The cid value will map to the Content-Id of a Linked resource. Thus <img src='cid:barcode'>
->  // will map to a LinkedResource with a ContentId of 'barcode'.
->  AlternateView htmlView = AlternateView.createAlternateViewFromString(
->  "Here is an embedded image. <img src=cid:barcode>", null, "text/html");
-> 
->  // Create the LinkedResource (embedded image) and Add the LinkedResource to the appropriate view
->  LinkedResource barcode = new LinkedResource("1.jpg", Image.JPEG);
->  barcode.setContentId("barcode");
-> 
->  eml.getLinkedResources().addItem(barcode);
->  eml.getAlternateViews().addItem(plainView);
->  eml.getAlternateViews().addItem(htmlView);
-> 
->  eml.save("EmbeddedImage_out.msg", SaveOptions.getDefaultMsgUnicode());
-> ```
+The following example shows how to create and add AlternateView to MailMessage.
 
---------------------
+```
+
+ MailMessage eml = new MailMessage();
+ eml.setFrom(MailAddress.to_MailAddress("AndrewIrwin@from.com"));
+ eml.setTo(MailAddressCollection.to_MailAddressCollection("SusanMarc@to.com"));
+ eml.setSubject("This is an email");
+
+ // Create the plain text part It is viewable by those clients that don't support HTML
+ AlternateView plainView =
+         AlternateView.createAlternateViewFromString("This is my plain text content", null, "text/plain");
+
+ // Create the HTML part.To embed images, we need to use the prefix 'cid' in the img src value.
+ // The cid value will map to the Content-Id of a Linked resource. Thus 
+ // will map to a LinkedResource with a ContentId of 'barcode'.
+ AlternateView htmlView =
+         AlternateView.createAlternateViewFromString("Here is an embedded image. ", null,
+                 "text/html");
+
+ // Create the LinkedResource (embedded image) and Add the LinkedResource to the appropriate view
+ LinkedResource barcode = new LinkedResource("1.jpg", MediaTypeNames.Image.JPEG);
+ barcode.setContentId("barcode");
+
+ eml.getLinkedResources().addItem(barcode);
+ eml.getAlternateViews().addItem(plainView);
+ eml.getAlternateViews().addItem(htmlView);
+
+ eml.save("EmbeddedImage_out.msg", SaveOptions.getDefaultMsgUnicode());
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [AlternateView(String fileName)](#AlternateView-java.lang.String-) | Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class. |
-| [AlternateView(String fileName, String mediaType)](#AlternateView-java.lang.String-java.lang.String-) | Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class. |
-| [AlternateView(String fileName, ContentType contentType)](#AlternateView-java.lang.String-com.aspose.email.ContentType-) | Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class. |
-| [AlternateView(InputStream contentStream)](#AlternateView-java.io.InputStream-) | Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class. |
-| [AlternateView(InputStream contentStream, String mediaType)](#AlternateView-java.io.InputStream-java.lang.String-) | Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class. |
-| [AlternateView(InputStream contentStream, ContentType contentType)](#AlternateView-java.io.InputStream-com.aspose.email.ContentType-) | Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class. |
+| [AlternateView(String fileName)](#AlternateView-java.lang.String-) | Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class with the content of a file. |
+| [AlternateView(String fileName, String mediaType)](#AlternateView-java.lang.String-java.lang.String-) | Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class with the content of a file. |
+| [AlternateView(String fileName, ContentType contentType)](#AlternateView-java.lang.String-com.aspose.email.ContentType-) | Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class with the content of a file. |
+| [AlternateView(InputStream contentStream)](#AlternateView-java.io.InputStream-) | Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class with the content of a stream. |
+| [AlternateView(InputStream contentStream, String mediaType)](#AlternateView-java.io.InputStream-java.lang.String-) | Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class with the content of a stream. |
+| [AlternateView(InputStream contentStream, ContentType contentType)](#AlternateView-java.io.InputStream-com.aspose.email.ContentType-) | Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class with the content of a stream. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [close()](#close--) |  |
-| [createAlternateViewFromString(String content)](#createAlternateViewFromString-java.lang.String-) | Creates a AlternateView of using the content specified in a string. |
-| [createAlternateViewFromString(String content, ContentType contentType)](#createAlternateViewFromString-java.lang.String-com.aspose.email.ContentType-) | Creates a AlternateView of using the content specified in a string. |
-| [createAlternateViewFromString(String content, ContentType contentType, int transferencoding)](#createAlternateViewFromString-java.lang.String-com.aspose.email.ContentType-int-) | Creates a AlternateView of using the content specified in a string. |
-| [createAlternateViewFromString(String content, Charset contentEncoding, String mediaType)](#createAlternateViewFromString-java.lang.String-java.nio.charset.Charset-java.lang.String-) | Creates a AlternateView of using the content specified in a string. |
+| [close()](#close--) | Releases the resources used by the part, including its content stream. |
+| [createAlternateViewFromString(String content)](#createAlternateViewFromString-java.lang.String-) | Creates a plain-text view from a string. |
+| [createAlternateViewFromString(String content, ContentType contentType)](#createAlternateViewFromString-java.lang.String-com.aspose.email.ContentType-) | Creates a view from a string with the specified content type. |
+| [createAlternateViewFromString(String content, ContentType contentType, int transferencoding)](#createAlternateViewFromString-java.lang.String-com.aspose.email.ContentType-int-) | Creates a view from a string with the specified content type and transfer encoding. |
+| [createAlternateViewFromString(String content, Charset contentEncoding, String mediaType)](#createAlternateViewFromString-java.lang.String-java.nio.charset.Charset-java.lang.String-) | Creates a view from a string with the specified encoding and media type. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBaseUri()](#getBaseUri--) | Gets or sets the base URI. |
+| [getBaseUri()](#getBaseUri--) | Gets the base URI used to resolve relative URLs in the content of the view. |
 | [getClass()](#getClass--) |  |
-| [getContentId()](#getContentId--) | Gets or sets the content id. |
-| [getContentStream()](#getContentStream--) | Gets or sets the content stream. |
-| [getContentType()](#getContentType--) | Gets or sets the type of the content. |
-| [getHeaders()](#getHeaders--) | Gets headers collection of attachment. |
-| [getLinkedResources()](#getLinkedResources--) | Gets the set of embedded resources referred to by this alternate view. |
-| [getTransferEncoding()](#getTransferEncoding--) | Gets or sets the transfer encoding. |
+| [getContentId()](#getContentId--) | Gets the content ID of the part, by which HTML refers to it with a  cid:  URL. |
+| [getContentStream()](#getContentStream--) | Gets the stream that holds the content. |
+| [getContentType()](#getContentType--) | Gets the content type of the part: its media type, name and character set. |
+| [getHeaders()](#getHeaders--) | Gets the MIME headers of the part. |
+| [getLinkedResources()](#getLinkedResources--) | Gets the resources embedded in this view, such as the images an HTML view refers to by  cid:  URLs. |
+| [getTransferEncoding()](#getTransferEncoding--) | Gets how the content is encoded for transfer, such as Base64 or quoted-printable. |
+| [getUniqueId()](#getUniqueId--) | Gets an identifier of the part that stays the same while the application runs. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves the specified stream. |
-| [save(String fileName)](#save-java.lang.String-) | Saves the specified file name. |
-| [setBaseUri(URI value)](#setBaseUri-java.net.URI-) | Gets or sets the base URI. |
-| [setContentId(String value)](#setContentId-java.lang.String-) | Gets or sets the content id. |
-| [setContentStream(InputStream value)](#setContentStream-java.io.InputStream-) | Gets or sets the content stream. |
-| [setContentType(ContentType value)](#setContentType-com.aspose.email.ContentType-) | Gets or sets the type of the content. |
-| [setTransferEncoding(int value)](#setTransferEncoding-int-) | Gets or sets the transfer encoding. |
+| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves the decoded content of the part to a stream. |
+| [save(String fileName)](#save-java.lang.String-) | Saves the decoded content of the part to a file. |
+| [setBaseUri(URI value)](#setBaseUri-java.net.URI-) | Sets the base URI used to resolve relative URLs in the content of the view. |
+| [setContentId(String value)](#setContentId-java.lang.String-) | Sets the content ID of the part, by which HTML refers to it with a  cid:  URL. |
+| [setContentStream(InputStream value)](#setContentStream-java.io.InputStream-) | Sets the stream that holds the content. |
+| [setContentType(ContentType value)](#setContentType-com.aspose.email.ContentType-) | Sets the content type of the part: its media type, name and character set. |
+| [setTransferEncoding(int value)](#setTransferEncoding-int-) | Sets how the content is encoded for transfer, such as Base64 or quoted-printable. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -98,12 +98,12 @@ public AlternateView(String fileName)
 ```
 
 
-Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class.
+Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class with the content of a file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | Name of the file. |
+| fileName | java.lang.String | The path of the file that contains the content of the view. |
 
 ### AlternateView(String fileName, String mediaType) {#AlternateView-java.lang.String-java.lang.String-}
 ```
@@ -111,13 +111,13 @@ public AlternateView(String fileName, String mediaType)
 ```
 
 
-Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class.
+Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class with the content of a file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | Name of the file. |
-| mediaType | java.lang.String | Internet media type. |
+| fileName | java.lang.String | The path of the file that contains the content of the view. |
+| mediaType | java.lang.String | The MIME media type of the content, such as  text/html . |
 
 ### AlternateView(String fileName, ContentType contentType) {#AlternateView-java.lang.String-com.aspose.email.ContentType-}
 ```
@@ -125,13 +125,13 @@ public AlternateView(String fileName, ContentType contentType)
 ```
 
 
-Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class.
+Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class with the content of a file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | Name of the file. |
-| contentType | [ContentType](../../com.aspose.email/contenttype) | Content type. |
+| fileName | java.lang.String | The path of the file that contains the content of the view. |
+| contentType | [ContentType](../../com.aspose.email/contenttype) | The content type of the view, with its media type and character set. |
 
 ### AlternateView(InputStream contentStream) {#AlternateView-java.io.InputStream-}
 ```
@@ -139,12 +139,12 @@ public AlternateView(InputStream contentStream)
 ```
 
 
-Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class.
+Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class with the content of a stream.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| contentStream | java.io.InputStream | The content stream. |
+| contentStream | java.io.InputStream | The stream that contains the content of the view. |
 
 ### AlternateView(InputStream contentStream, String mediaType) {#AlternateView-java.io.InputStream-java.lang.String-}
 ```
@@ -152,13 +152,13 @@ public AlternateView(InputStream contentStream, String mediaType)
 ```
 
 
-Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class.
+Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class with the content of a stream.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| contentStream | java.io.InputStream | The content stream. |
-| mediaType | java.lang.String | Internet media type. |
+| contentStream | java.io.InputStream | The stream that contains the content of the view. |
+| mediaType | java.lang.String | The MIME media type of the content, such as  text/html . |
 
 ### AlternateView(InputStream contentStream, ContentType contentType) {#AlternateView-java.io.InputStream-com.aspose.email.ContentType-}
 ```
@@ -166,13 +166,13 @@ public AlternateView(InputStream contentStream, ContentType contentType)
 ```
 
 
-Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class.
+Initializes a new instance of the [AlternateView](../../com.aspose.email/alternateview) class with the content of a stream.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| contentStream | java.io.InputStream | The content stream. |
-| contentType | [ContentType](../../com.aspose.email/contenttype) | Content type. |
+| contentStream | java.io.InputStream | The stream that contains the content of the view. |
+| contentType | [ContentType](../../com.aspose.email/contenttype) | The content type of the view, with its media type and character set. |
 
 ### close() {#close--}
 ```
@@ -180,7 +180,7 @@ public void close()
 ```
 
 
-
+Releases the resources used by the part, including its content stream.
 
 ### createAlternateViewFromString(String content) {#createAlternateViewFromString-java.lang.String-}
 ```
@@ -188,65 +188,65 @@ public static AlternateView createAlternateViewFromString(String content)
 ```
 
 
-Creates a AlternateView of using the content specified in a string.
+Creates a plain-text view from a string.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | java.lang.String | The string that contains the content. |
+| content | java.lang.String | The content of the view. |
 
 **Returns:**
-[AlternateView](../../com.aspose.email/alternateview) - An AlternateView object that represents an alternate view.
+[AlternateView](../../com.aspose.email/alternateview) - The new alternate view.
 ### createAlternateViewFromString(String content, ContentType contentType) {#createAlternateViewFromString-java.lang.String-com.aspose.email.ContentType-}
 ```
 public static AlternateView createAlternateViewFromString(String content, ContentType contentType)
 ```
 
 
-Creates a AlternateView of using the content specified in a string.
+Creates a view from a string with the specified content type.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | java.lang.String | The string that contains the content. |
-| contentType | [ContentType](../../com.aspose.email/contenttype) | Content type. |
+| content | java.lang.String | The content of the view. |
+| contentType | [ContentType](../../com.aspose.email/contenttype) | The content type of the view, with its media type and character set. |
 
 **Returns:**
-[AlternateView](../../com.aspose.email/alternateview) - An AlternateView object that represents an alternate view.
+[AlternateView](../../com.aspose.email/alternateview) - The new alternate view.
 ### createAlternateViewFromString(String content, ContentType contentType, int transferencoding) {#createAlternateViewFromString-java.lang.String-com.aspose.email.ContentType-int-}
 ```
 public static AlternateView createAlternateViewFromString(String content, ContentType contentType, int transferencoding)
 ```
 
 
-Creates a AlternateView of using the content specified in a string.
+Creates a view from a string with the specified content type and transfer encoding.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | java.lang.String | The string that contains the content. |
-| contentType | [ContentType](../../com.aspose.email/contenttype) | Content type. |
-| transferencoding | int | The transfer encoding. |
+| content | java.lang.String | The content of the view. |
+| contentType | [ContentType](../../com.aspose.email/contenttype) | The content type of the view, with its media type and character set. |
+| transferencoding | int | The transfer encoding of the content, such as Base64 or quoted-printable (a  TransferEncoding  value). |
 
 **Returns:**
-[AlternateView](../../com.aspose.email/alternateview) - An AlternateView object that represents an alternate view.
+[AlternateView](../../com.aspose.email/alternateview) - The new alternate view.
 ### createAlternateViewFromString(String content, Charset contentEncoding, String mediaType) {#createAlternateViewFromString-java.lang.String-java.nio.charset.Charset-java.lang.String-}
 ```
 public static AlternateView createAlternateViewFromString(String content, Charset contentEncoding, String mediaType)
 ```
 
 
-Creates a AlternateView of using the content specified in a string.
+Creates a view from a string with the specified encoding and media type.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | java.lang.String | The string that contains the content. |
-| contentEncoding | java.nio.charset.Charset | The content encoding. |
-| mediaType | java.lang.String | Internet media type. |
+| content | java.lang.String | The content of the view. |
+| contentEncoding | java.nio.charset.Charset | The character encoding of the content. |
+| mediaType | java.lang.String | The MIME media type of the content, such as  text/html . |
 
 **Returns:**
-[AlternateView](../../com.aspose.email/alternateview) - An AlternateView object that represents an alternate view.
+[AlternateView](../../com.aspose.email/alternateview) - The new alternate view.
 ### dispose() {#dispose--}
 ```
 public final void dispose()
@@ -276,12 +276,10 @@ public final URI getBaseUri()
 ```
 
 
-Gets or sets the base URI.
-
-Value: The base URI.
+Gets the base URI used to resolve relative URLs in the content of the view.
 
 **Returns:**
-java.net.URI
+java.net.URI - The base URI.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -298,43 +296,37 @@ public final String getContentId()
 ```
 
 
-Gets or sets the content id.
-
-Value: The content id.
+Gets the content ID of the part, by which HTML refers to it with a  cid:  URL.
 
 **Returns:**
-java.lang.String
+java.lang.String - The content ID.
 ### getContentStream() {#getContentStream--}
 ```
 public final InputStream getContentStream()
 ```
 
 
-Gets or sets the content stream.
-
-Value: The content stream.
+Gets the stream that holds the content.
 
 **Returns:**
-java.io.InputStream
+java.io.InputStream - The content stream.
 ### getContentType() {#getContentType--}
 ```
 public final ContentType getContentType()
 ```
 
 
-Gets or sets the type of the content.
-
-Value: The type of the content.
+Gets the content type of the part: its media type, name and character set.
 
 **Returns:**
-[ContentType](../../com.aspose.email/contenttype)
+[ContentType](../../com.aspose.email/contenttype) - The content type.
 ### getHeaders() {#getHeaders--}
 ```
 public HeaderCollection getHeaders()
 ```
 
 
-Gets headers collection of attachment.
+Gets the MIME headers of the part.
 
 **Returns:**
 [HeaderCollection](../../com.aspose.email/headercollection)
@@ -344,24 +336,30 @@ public final LinkedResourceCollection getLinkedResources()
 ```
 
 
-Gets the set of embedded resources referred to by this alternate view.
-
-Value: The linked resources.
+Gets the resources embedded in this view, such as the images an HTML view refers to by  cid:  URLs.
 
 **Returns:**
-[LinkedResourceCollection](../../com.aspose.email/linkedresourcecollection)
+[LinkedResourceCollection](../../com.aspose.email/linkedresourcecollection) - The linked resources.
 ### getTransferEncoding() {#getTransferEncoding--}
 ```
 public final int getTransferEncoding()
 ```
 
 
-Gets or sets the transfer encoding.
-
-Value: The transfer encoding.
+Gets how the content is encoded for transfer, such as Base64 or quoted-printable.
 
 **Returns:**
-int
+int - The transfer encoding.
+### getUniqueId() {#getUniqueId--}
+```
+public final String getUniqueId()
+```
+
+
+Gets an identifier of the part that stays the same while the application runs.
+
+**Returns:**
+java.lang.String
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -394,12 +392,12 @@ public void save(OutputStream stream)
 ```
 
 
-Saves the specified stream.
+Saves the decoded content of the part to a stream.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream | The stream. |
+| stream | java.io.OutputStream | The stream to write to. |
 
 ### save(String fileName) {#save-java.lang.String-}
 ```
@@ -407,12 +405,12 @@ public void save(String fileName)
 ```
 
 
-Saves the specified file name.
+Saves the decoded content of the part to a file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | Name of the file. |
+| fileName | java.lang.String | The path of the file to write. |
 
 ### setBaseUri(URI value) {#setBaseUri-java.net.URI-}
 ```
@@ -420,14 +418,12 @@ public final void setBaseUri(URI value)
 ```
 
 
-Gets or sets the base URI.
-
-Value: The base URI.
+Sets the base URI used to resolve relative URLs in the content of the view.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.net.URI |  |
+| value | java.net.URI | The base URI. |
 
 ### setContentId(String value) {#setContentId-java.lang.String-}
 ```
@@ -435,14 +431,12 @@ public final void setContentId(String value)
 ```
 
 
-Gets or sets the content id.
-
-Value: The content id.
+Sets the content ID of the part, by which HTML refers to it with a  cid:  URL.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The content ID. |
 
 ### setContentStream(InputStream value) {#setContentStream-java.io.InputStream-}
 ```
@@ -450,14 +444,12 @@ public final void setContentStream(InputStream value)
 ```
 
 
-Gets or sets the content stream.
-
-Value: The content stream.
+Sets the stream that holds the content.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.io.InputStream |  |
+| value | java.io.InputStream | The content stream. |
 
 ### setContentType(ContentType value) {#setContentType-com.aspose.email.ContentType-}
 ```
@@ -465,14 +457,12 @@ public final void setContentType(ContentType value)
 ```
 
 
-Gets or sets the type of the content.
-
-Value: The type of the content.
+Sets the content type of the part: its media type, name and character set.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ContentType](../../com.aspose.email/contenttype) |  |
+| value | [ContentType](../../com.aspose.email/contenttype) | The content type. |
 
 ### setTransferEncoding(int value) {#setTransferEncoding-int-}
 ```
@@ -480,14 +470,12 @@ public final void setTransferEncoding(int value)
 ```
 
 
-Gets or sets the transfer encoding.
-
-Value: The transfer encoding.
+Sets how the content is encoded for transfer, such as Base64 or quoted-printable.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The transfer encoding. |
 
 ### toString() {#toString--}
 ```

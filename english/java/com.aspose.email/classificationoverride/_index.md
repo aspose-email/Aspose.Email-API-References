@@ -3,7 +3,7 @@ title: ClassificationOverride
 second_title: Aspose.Email for Java API Reference
 description: Represents a users override for how incoming messages from a specific sender should always be classified as.
 type: docs
-weight: 106
+weight: 107
 url: /java/com.aspose.email/classificationoverride/
 ---
 

@@ -3,7 +3,7 @@ title: ExchangeStreamedItem
 second_title: Aspose.Email for Java API Reference
 description: Represents the item received in ExportItems response
 type: docs
-weight: 228
+weight: 231
 url: /java/com.aspose.email/exchangestreameditem/
 ---
 

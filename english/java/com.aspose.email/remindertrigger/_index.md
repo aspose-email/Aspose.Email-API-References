@@ -1,9 +1,9 @@
 ---
 title: ReminderTrigger
 second_title: Aspose.Email for Java API Reference
-description: Specifies when an alarm will trigger.
+description: Defines when a reminder triggers at an absolute date and time or at a time relative to the start or end of the event.
 type: docs
-weight: 632
+weight: 637
 url: /java/com.aspose.email/remindertrigger/
 ---
 
@@ -13,28 +13,28 @@ java.lang.Object
 public class ReminderTrigger
 ```
 
-Specifies when an alarm will trigger.
+Defines when a reminder triggers: at an absolute date and time, or at a time relative to the start or end of the event.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ReminderTrigger(Date dateTime)](#ReminderTrigger-java.util.Date-) | Initialize a new instance of [ReminderTrigger](../../com.aspose.email/remindertrigger) class. |
-| [ReminderTrigger(ReminderDuration duration, int related)](#ReminderTrigger-com.aspose.email.ReminderDuration-int-) | Initialize a new instance of [ReminderTrigger](../../com.aspose.email/remindertrigger) class. |
+| [ReminderTrigger(Date dateTime)](#ReminderTrigger-java.util.Date-) | Initializes a new instance of the [ReminderTrigger](../../com.aspose.email/remindertrigger) class that triggers at an absolute date and time. |
+| [ReminderTrigger(ReminderDuration duration, int related)](#ReminderTrigger-com.aspose.email.ReminderDuration-int-) | Initializes a new instance of the [ReminderTrigger](../../com.aspose.email/remindertrigger) class that triggers at a time relative to the event. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDateTime()](#getDateTime--) | A trigger set to an absolute date/time. |
-| [getDuration()](#getDuration--) | Specifies a relative time for the trigger of the alarm. |
-| [getRelated()](#getRelated--) | Specify the relationship of the alarm trigger with respect to the start or end of the event. |
+| [getDateTime()](#getDateTime--) | Gets the absolute date and time of the trigger. |
+| [getDuration()](#getDuration--) | Gets the time of the trigger relative to the start or end of the event. |
+| [getRelated()](#getRelated--) | Gets whether \#getDuration().getDuration() is measured from the start or from the end of the event. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDateTime(Date value)](#setDateTime-java.util.Date-) | A trigger set to an absolute date/time. |
-| [setDuration(ReminderDuration value)](#setDuration-com.aspose.email.ReminderDuration-) | Specifies a relative time for the trigger of the alarm. |
-| [setRelated(int value)](#setRelated-int-) | Specify the relationship of the alarm trigger with respect to the start or end of the event. |
+| [setDateTime(Date value)](#setDateTime-java.util.Date-) | Sets the absolute date and time of the trigger. |
+| [setDuration(ReminderDuration value)](#setDuration-com.aspose.email.ReminderDuration-) | Sets the time of the trigger relative to the start or end of the event. |
+| [setRelated(int value)](#setRelated-int-) | Sets whether \#getDuration().getDuration() is measured from the start or from the end of the event. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -45,12 +45,12 @@ public ReminderTrigger(Date dateTime)
 ```
 
 
-Initialize a new instance of [ReminderTrigger](../../com.aspose.email/remindertrigger) class.
+Initializes a new instance of the [ReminderTrigger](../../com.aspose.email/remindertrigger) class that triggers at an absolute date and time.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dateTime | java.util.Date | Absolute DateTime value. |
+| dateTime | java.util.Date | The date and time of the trigger. |
 
 ### ReminderTrigger(ReminderDuration duration, int related) {#ReminderTrigger-com.aspose.email.ReminderDuration-int-}
 ```
@@ -58,13 +58,13 @@ public ReminderTrigger(ReminderDuration duration, int related)
 ```
 
 
-Initialize a new instance of [ReminderTrigger](../../com.aspose.email/remindertrigger) class.
+Initializes a new instance of the [ReminderTrigger](../../com.aspose.email/remindertrigger) class that triggers at a time relative to the event.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| duration | [ReminderDuration](../../com.aspose.email/reminderduration) | To specify a relative time for the trigger of the alarm. |
-| related | int | To specify the relationship of the alarm trigger with respect to the start or end of the event. |
+| duration | [ReminderDuration](../../com.aspose.email/reminderduration) | The offset from the start or end of the event; negative for a time before it. |
+| related | int | Whether  duration  is measured from the start or from the end of the event. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -97,7 +97,7 @@ public final Date getDateTime()
 ```
 
 
-A trigger set to an absolute date/time.
+Gets the absolute date and time of the trigger. Setting it clears \#getDuration().getDuration();  DateTime.MinValue  means it is not set.
 
 **Returns:**
 java.util.Date
@@ -107,7 +107,7 @@ public final ReminderDuration getDuration()
 ```
 
 
-Specifies a relative time for the trigger of the alarm.
+Gets the time of the trigger relative to the start or end of the event. Setting it clears \#getDateTime().getDateTime().
 
 **Returns:**
 [ReminderDuration](../../com.aspose.email/reminderduration)
@@ -117,7 +117,7 @@ public final int getRelated()
 ```
 
 
-Specify the relationship of the alarm trigger with respect to the start or end of the event.
+Gets whether \#getDuration().getDuration() is measured from the start or from the end of the event. It is not used with an absolute \#getDateTime().getDateTime().
 
 **Returns:**
 int
@@ -153,7 +153,7 @@ public final void setDateTime(Date value)
 ```
 
 
-A trigger set to an absolute date/time.
+Sets the absolute date and time of the trigger. Setting it clears \#getDuration().getDuration();  DateTime.MinValue  means it is not set.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -166,7 +166,7 @@ public final void setDuration(ReminderDuration value)
 ```
 
 
-Specifies a relative time for the trigger of the alarm.
+Sets the time of the trigger relative to the start or end of the event. Setting it clears \#getDateTime().getDateTime().
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -179,7 +179,7 @@ public final void setRelated(int value)
 ```
 
 
-Specify the relationship of the alarm trigger with respect to the start or end of the event.
+Sets whether \#getDuration().getDuration() is measured from the start or from the end of the event. It is not used with an absolute \#getDateTime().getDateTime().
 
 **Parameters:**
 | Parameter | Type | Description |
